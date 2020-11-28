@@ -7,9 +7,10 @@ class Soldier {
    bePromoted() {}
    serialize() {}
    display() {} 
+   asDTO() {}
    persistOnDatabase() {}
    toXML() {}
-   jsonDecode(){}
+   jsonDecode() {}
   
   //...     
   }
