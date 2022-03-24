@@ -1,2 +1,2 @@
-# notes
+# Software Design Articles
 Notes
