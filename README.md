@@ -6,33 +6,33 @@ In this repository, you will find many articles related to Software Design
 
 ### Software Design
 
-We Should Get Rid of HelloWorld Forever💩
+* We Should Get Rid of HelloWorld Forever💩
 
-Y2K22 - The Mistake That Embarrasses Us
+* Y2K22 - The Mistake That Embarrasses Us
 
-Stop Calling them ‘Bugs’
+* Stop Calling them ‘Bugs’
 
 ### Code Smells
 
-Code Smell 124 - Divergent Change
+* Code Smell 124 - Divergent Change
 
 ### Artificial Intelligence
 
-Why GitHub Copilot is not a Threat to your Job
+* Why GitHub Copilot is not a Threat to your Job
 
-DeepMind's AlphaCode Won't Steal Your Job Either
+* DeepMind's AlphaCode Won't Steal Your Job Either
 
 ### TDD
 
-How to Develop a Wordle Game using TDD in 25 Minutes
+* How to Develop a Wordle Game using TDD in 25 Minutes
 
 ### Productivity
 
-What is JOMO and Why it will Increase your Productivity x97
+* What is JOMO and Why it will Increase your Productivity x97
 
 ### Blogging
 
-I Wrote More Than 90 Articles on 2021: Here Is What I Learned
+*I Wrote More Than 90 Articles on 2021: Here Is What I Learned
 
-5 Big Mistakes I Made Writing Technical Articles
+* 5 Big Mistakes I Made Writing Technical Articles
 
