@@ -1,6 +1,8 @@
-Code Smell 124 - Divergent Change
+# Code Smell 124 - Divergent Change
 
 *You change something in a class. You change something unrelated in the same class*
+
+![Code Smell 124 - Divergent Change](https://github.com/mcsee/Software-Design-Articles/blob/main/Articles/Code%20Smells/Divergente-final-television.jpg?raw=true)
 
 > TL:DR; Classes should have just one responsibility and one reason to change.
 
