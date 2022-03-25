@@ -120,7 +120,7 @@ If they evolve in different ways, they are doing too much.
 
 * * *
 
-> A design that doesn’t take change into account risks major redesign in the future.
+> A design that doesnâ€™t take change into account risks major redesign in the future.
 
 _Erich Gamma_
  

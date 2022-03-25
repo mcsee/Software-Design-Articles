@@ -22,3 +22,6 @@ class RSSFeed {
   //Might have unitary tests 
   //etc
 }
+
+//Code Belongs to article
+//https://github.com/mcsee/Software-Design-Articles/blob/main/Articles/Code%20Smells/Code%20Smell%20124%20-%20Divergent%20Change.md
