@@ -16,6 +16,8 @@ In this repository, you will find many articles related to Software Design
 
 * Code Smell 124 - Divergent Change
 
+### Refactorings
+
 ### Artificial Intelligence
 
 * Why GitHub Copilot is not a Threat to your Job
@@ -32,7 +34,7 @@ In this repository, you will find many articles related to Software Design
 
 ### Blogging
 
-*I Wrote More Than 90 Articles on 2021: Here Is What I Learned
+* I Wrote More Than 90 Articles on 2021: Here Is What I Learned
 
 * 5 Big Mistakes I Made Writing Technical Articles
 
