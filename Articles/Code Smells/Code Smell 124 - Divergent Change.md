@@ -1,8 +1,8 @@
 # Code Smell 124 - Divergent Change
 
-*You change something in a class. You change something unrelated in the same class*
+![Code Smell 124 - Divergent Change](https://github.com/mcsee/Software-Design-Articles/blob/main/Articles/Code%20Smells/Divergente-final-television.jpg)
 
-![Code Smell 124 - Divergent Change](https://github.com/mcsee/Software-Design-Articles/blob/main/Articles/Code%20Smells/Divergente-final-television.jpg?raw=true)
+*You change something in a class. You change something unrelated in the same class*
 
 > TL:DR; Classes should have just one responsibility and one reason to change.
 
@@ -108,11 +108,11 @@ If they evolve in different ways, they are doing too much.
 
 # Relations
 
-%[https://maximilianocontieri.com/code-smell-34-too-many-attributes]
+[Code Smell 34 - Too Many Attributes](https://maximilianocontieri.com/code-smell-34-too-many-attributes)
 
-%[https://maximilianocontieri.com/code-smell-94-too-many-imports]
+[Code Smell 94 - Too Many imports](https://maximilianocontieri.com/code-smell-94-too-many-imports)
 
-%[https://maximilianocontieri.com/code-smell-14-god-objects]
+[Code Smell 14 - God Objects](https://maximilianocontieri.com/code-smell-14-god-objects)
 
 # More Info
 
@@ -124,10 +124,10 @@ If they evolve in different ways, they are doing too much.
 
 _Erich Gamma_
  
-%[https://maximilianocontieri.com/software-engineering-great-quotes]
+[Software Engineering Great Quotes](https://maximilianocontieri.com/software-engineering-great-quotes)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-%[https://maximilianocontieri.com/how-to-find-the-stinky-parts-of-your-code]
+[How to Find the Stinky parts of your Code](https://maximilianocontieri.com/how-to-find-the-stinky-parts-of-your-code)
