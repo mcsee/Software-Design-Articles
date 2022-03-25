@@ -1,6 +1,7 @@
 # Code Smell 124 - Divergent Change
 
-![Code Smell 124 - Divergent Change](https://github.com/mcsee/Software-Design-Articles/blob/main/Articles/Code%20Smells/Divergente-final-television.jpg)
+![Code Smell 124 - Divergent Change]
+(https://github.com/mcsee/Software-Design-Articles/blob/main/Articles/Code%20Smells/Code%20Smell%20124%20-%20Divergent%20Change/Divergente-final-television.jpg)
 
 *You change something in a class. You change something unrelated in the same class*
 
@@ -120,7 +121,7 @@ If they evolve in different ways, they are doing too much.
 
 * * *
 
-> A design that doesnâ€™t take change into account risks major redesign in the future.
+> A design that doesn’t take change into account risks major redesign in the future.
 
 _Erich Gamma_
  
