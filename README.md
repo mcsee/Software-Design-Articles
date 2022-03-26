@@ -14,7 +14,7 @@ In this repository, you will find many articles related to Software Design
 
 ### Code Smells
 
-* Code Smell 124 - Divergent Change
+* [Code Smell 124 - Divergent Change](/Articles/Code Smells/Code Smell 124 - Divergent Change/Code Smell 124 - Divergent Change.md)
 
 ### Refactorings
 
