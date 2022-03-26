@@ -40,7 +40,8 @@ Behavior is essential, data is [accidental](https://maximilianocontieri.com/no-s
 
 [Gist Url]: # (https://gist.github.com/mcsee/34677fbac1f6a837bf2b8d17bc882251)
 ```cpp
-// If you made Square derive from Rectangle, then a Square should be usable anywhere you expect a rectangle
+// If you made Square derive from Rectangle, 
+// then a Square should be usable anywhere you expect a rectangle
 
 #include <iostream>
 
@@ -122,7 +123,8 @@ int main()
 
 [Gist Url]: # (https://gist.github.com/mcsee/29e46d1d672ac397552fae978148a7c2)
 ```cpp
-// If you made Square derive from Rectangle, then a Square should be usable anywhere you expect a rectangle
+// If you made Square derive from Rectangle, 
+//then a Square should be usable anywhere you expect a rectangle
 
 #include <iostream>
 
@@ -132,23 +134,15 @@ Rectangle::Rectangle(const unsigned width, const unsigned height):
 {
 }
 
-unsigned Rectangle::getWidth() const
-{
-    return m_width;
-}
-
-void Rectangle::setWidth(const unsigned width)
+void Rectangle:changeWidth(const unsigned width)
 {
   /*Width and Height are independant*/
     m_width = width;
+    // We should discuss if it is good to mutate 
+    // and not create a new Figure
 }
 
-unsigned Rectangle::getHeight() const
-{
-    return m_height;
-}
-
-void Rectangle::setHeight(const unsigned height)
+void Rectangle::changeHeight(const unsigned height)
 {
     m_height = height;
 }
@@ -169,12 +163,12 @@ unsigned Square::area() const
     return m_size * m_size;
 }
  
-void Square::setSize(const unsigned size)
+void Square::changeSize(const unsigned size)
 {
     m_size = size; 
 }
  
-void process(Rectangle& r)
+void testRectangleChange(Rectangle& r)
 {
     unsigned h = 10;
     auto w = r.getWidth();
@@ -189,8 +183,8 @@ int main()
 {
     Rectangle rectangle{3,4};
     Square square{5};
-    process(rectangle);
-    process(square);
+    testRectangleChange(rectangle);
+    testRectangleChange(square);
 }
 ```
 
