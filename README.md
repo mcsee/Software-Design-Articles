@@ -12,9 +12,9 @@ In this repository, you will find many articles related to Software Design
 
 * Stop Calling them ‘Bugs’
 
-### Code Smells
+### Code Smells 
 
-* [Code Smell 124 - Divergent Change](/Articles/Code Smells/Code Smell 124 - Divergent Change/Code Smell 124 - Divergent Change.md)
+* [Code Smell 124 - Divergent Change](/Articles/Code%20Smells/Code%20Smell%20124%20-%20Divergent%20Change/Code%20Smell%20124%20-%20Divergent%20Change.md)
 
 ### Refactorings
 
