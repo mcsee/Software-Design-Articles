@@ -52,7 +52,7 @@ Ideas exist only among the individuals who formulated them.
 
 Therefore, the loss of any of its members fragments the collectively generated knowledge.
 
-![Fragmented](matt-artz-oSly6rQh7YA-unsplash)
+![Fragmented](matt-artz-oSly6rQh7YA-unsplash.jpg)
 
 ## Agile ahead of time
 
@@ -120,7 +120,7 @@ Building adequate self-defense models is not easy. It requires a long process of
 
 ## There are no silver bullets
 
-![Werewolf](SR-creature-Werewolf_03)
+![Werewolf](SR-creature-Werewolf_03.jpg)
 
 Naur rejects the idea of ​​a single method to develop software.
 
