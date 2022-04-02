@@ -22,7 +22,7 @@ By 1985, Naur had discovered the difficulty in the education of computer profess
 
 His collaborative and human conception always contrasted with the Taylorist concepts of software development that see activities as watertight compartments, and human beings as interchangeable pieces.
 
-![Waterfall Model](jira-waterfall-model)
+![Waterfall Model](jira-waterfall-model.png)
 
 Naur's epistemological approach, based on incremental iterative learning, contrasts with mathematics represented by the formal ideas of [Dijkstra](https://en.wikipedia.org/wiki/Edsger_Dijkstra).
 
@@ -30,7 +30,7 @@ Naur's epistemological approach, based on incremental iterative learning, contra
 
 The paper presents novel ideas for the time, then taken up by the [agile manifesto](https://agilemanifesto.org/) placing humanistic values ​​of knowledge acquisition over the Taylorist vision of software building.
 
-![chaplin.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1598908373420/pnu9wc5FC.jpeg)
+![chaplin.jpg](chaplin.jpg)
 
 The theory is built by observing reality as in scientific procedure. 
 
@@ -154,7 +154,7 @@ Observing the result without knowing why a design decision was made is another l
 
 In legacy systems, it is common to see individuals act out of habit without wondering what reasons lead them to make decisions.
 
-![monkeys.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1598908657495/m4EfDYooG.jpeg)
+![monkeys.jpg](monkeys.jpg)
 
 [How to Decouple a Legacy System](https://maximilianocontieri.com/how-to-decouple-a-legacy-system)
 
