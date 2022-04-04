@@ -20,9 +20,9 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 124 - Divergent Change](/Articles/Code%20Smells/Code%20Smell%20124%20-%20Divergent%20Change/Code%20Smell%20124%20-%20Divergent%20Change.md)
 
-* [Code Smell 125 - Divergent Change](/Articles/Code%20Smells/Code%20Smell%20125%20-%20'IS-A'%20Relationship/Code%20Smell%20125%20-%20'IS-A'%20Relationship.md)
+* [Code Smell 125 - 'IS-A' Relationship](/Articles/Code%20Smells/Code%20Smell%20125%20-%20'IS-A'%20Relationship/Code%20Smell%20125%20-%20'IS-A'%20Relationship.md)
 
-* [Code Smell 126 - Fake Null Object](/Articles/Code%20Smells/Code%20Smell%20125%20-%20'IS-A'%20Relationship/Code%20Smell%20126%20-%20Fake%20Null%20Object.md)
+* [Code Smell 126 - Fake Null](/Articles/Code%20Smells/Code%20Smell%20126%20-%20Fake%20Null%20Object/Code%20Smell%20126%20-%20Fake%20Null%20Object.md)
 
 ### Refactorings
 
