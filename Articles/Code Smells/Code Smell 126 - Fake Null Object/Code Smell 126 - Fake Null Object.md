@@ -30,6 +30,12 @@ Inheritance is not a proper way to achieve polymorphism.
 
 A simple solution is to create a real object behaving like a null one.
 
+For example: '0' is numbers' null object.
+
+'' (or "") is String's null object
+
+An empty collection is collection's null object.
+
 # Sample Code
 
 ## Wrong
@@ -94,28 +100,28 @@ public class RealAddress extends Address {
 [Gist Url]: # (https://gist.github.com/mcsee/baa5c877b821b807ef9c691569a4174d)
 ```java
 //There are just "addresses"
-public class Address extends Address {
+public class Address {
 	
 	private String zipCode;
 	private String city;
 	private String state;
 
-	public RealAddress(String city, String state, String zipCode) {
+	public Address(String city, String state, String zipCode) {
     //Looks anemic :(
 		this.city = city;
 		this.state = state;
 		this.zipCode = zipCode;
 	}
 
-	public String getZipCode() {
+	public String zipCode() {
 		return zipCode;
 	}
 	
-	public String getCity() {
+	public String city() {
 		return city;
 	}
 
-	public String getState() {
+	public String state() {
 		return state;
 	}
 
@@ -123,7 +129,7 @@ public class Address extends Address {
 
 Address nullAddress = new Address(Constants.EMPTY_STRING, Constants.EMPTY_STRING, Constants.EMPTY_STRING);
 //we have our null object
-//we should assign it to a singleton, static or global
+//we should NOT assign it to a singleton, static or global
 //It behaves like a null object. That's enough
 //No premature optimizations
 
