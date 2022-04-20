@@ -2,7 +2,7 @@
 
 In this repository, you will find many articles related to Software Design
 
-## Table of Contents
+## Table of Contents 
 
 * [Programming as Theory Building](/Articles/Theory%5CProgramming%20as%20Theory%20Building.md)
 
