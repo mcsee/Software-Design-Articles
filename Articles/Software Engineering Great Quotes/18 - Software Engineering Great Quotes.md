@@ -2,6 +2,8 @@
 
 ## A short thought can bring amazing ideas.
 
+![Software Engineering Great Quotes](zac-durant-_6HzPU9Hyfg-unsplash.jpg)
+
 There are some great quotes I’ve been collecting.
 
 I use them as inspiration or motto for some articles.
