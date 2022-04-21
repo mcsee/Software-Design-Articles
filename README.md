@@ -44,6 +44,22 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 82 - Tests Violating Encapsulation](/Articles/Code%20Smells/Code%20Smell%2082%20-%20Tests%20Violating%20Encapsulation/readme.md)
 
+* [Code Smell 83 - Variables Reassignment](/Articles/Code%20Smells/Code%20Smell%2083%20-%20Variables%20Reassignment/readme.md)
+
+* [Code Smell 84 - Max < Min (Javascript)](/Articles/Code%20Smells/Code%20Smell%2084%20-%20Max%20%3C%20Min%20%28Javascript%29/readme.md)
+
+* [Code Smell 85 - And Functions](/Articles/Code%20Smells/Code%20Smell%2085%20-%20And%20Functions/readme.md)
+
+* [Code Smell 86 - Mutable Const Arrays](/Articles/Code%20Smells/Code%20Smell%2086%20-%20Mutable%20Const%20Arrays/readme.md)
+
+* [Code Smell 87 - Inconsistent Parameters Sorting](/Articles/Code%20Smells/Code%20Smell%2087%20-%20Inconsistent%20Parameters%20Sorting/readme.md)
+
+* [Code Smell 88 - Lazy Initialization](/Articles/Code%20Smells/Code%20Smell%2088%20-%20Lazy%20Initialization/readme.md)
+
+* [Code Smell 89 - Math Feature Envy](/Articles/Code%20Smells/Code%20Smell%2089%20-%20Math%20Feature%20Envy/readme.md)
+
+* [Code Smell 90 - Implementative Callback Events](/Articles/Code%20Smells/Code%20Smell%2090%20-%20Implementative%20Callback%20Events/readme.md)
+
 ### Refactorings
 
 * [Refactoring 005 - Extract Class](/Articles/Refactorings/Refactoring%20005%20-%20Extract%20Class/readme.md)
