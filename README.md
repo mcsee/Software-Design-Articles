@@ -8,11 +8,19 @@ In this repository, you will find many articles related to Software Design
 
 * [Programming as Theory Building](/Articles/Theory/Programming%20as%20Theory%20Building/readme.md)
 
-### Software Engineering Great Quotes
+* [What is (wrong with) software?](/Articles/Theory/What%20is%20%28wrong%20with%29%20software%3F/readme.md)
 
-* [Software Engineering Great Quotes](/Articles/Software%20Engineering%20Great%20Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+### Quotes
+
+* [Software Engineering Great Quotes](/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+
+### Unsorted
+
+* [How to Find the Stinky parts of your Code](/Articles/Unsorted/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
 
 ### Code Smells
+
+* [Code Smell 100 - GoTo](/Articles/Code%20Smells/Code%20Smell%20100%20-%20GoTo/readme.md)
 
 * [Code Smell 124 - Divergent Change](/Articles/Code%20Smells/Code%20Smell%20124%20-%20Divergent%20Change/readme.md)
 
@@ -27,6 +35,42 @@ In this repository, you will find many articles related to Software Design
 * [Code Smell 129 - Structural Optimizations](/Articles/Code%20Smells/Code%20Smell%20129%20-%20Structural%20Optimizations/readme.md)
 
 * [Code Smell 130 - AddressImpl](/Articles/Code%20Smells/Code%20Smell%20130%20-%20AddressImpl/readme.md)
+
+* [Code Smell 131 - Zero Argument Constructor](/Articles/Code%20Smells/Code%20Smell%20131%20-%20Zero%20Argument%20Constructor/readme.md)
+
+* [Code Smell 132 - Exception Try Too Broad](/Articles/Code%20Smells/Code%20Smell%20132%20-%20Exception%20Try%20Too%20Broad/readme.md)
+
+* [Code Smell 133 - Hardcoded IF Conditions](/Articles/Code%20Smells/Code%20Smell%20133%20-%20Hardcoded%20IF%20Conditions/readme.md)
+
+* [Code Smell 134 - Specialized Business Collections](/Articles/Code%20Smells/Code%20Smell%20134%20-%20Specialized%20Business%20Collections/readme.md)
+
+* [Code Smell 135 - Interfaces With just One Realization](/Articles/Code%20Smells/Code%20Smell%20135%20-%20Interfaces%20With%20just%20One%20Realization/readme.md)
+
+* [Code Smell 135 - Interfaces With just One Realization](/Articles/Code%20Smells/Code%20Smell%20135%20-%20Interfaces%20With%20just%20One%20Realization/readme.md)
+
+* [Code Smell 135 - Interfaces With just One Realization](/Articles/Code%20Smells/Code%20Smell%20135%20-%20Interfaces%20With%20just%20One%20Realization/readme.md)
+
+* [Code Smell 135 - Interfaces With just One Realization](/Articles/Code%20Smells/Code%20Smell%20135%20-%20Interfaces%20With%20just%20One%20Realization/readme.md)
+
+* [Code Smell 135 - Interfaces With just One Realization](/Articles/Code%20Smells/Code%20Smell%20135%20-%20Interfaces%20With%20just%20One%20Realization/readme.md)
+
+* [Code Smell 135 - Interfaces With just One Realization](/Articles/Code%20Smells/Code%20Smell%20135%20-%20Interfaces%20With%20just%20One%20Realization/readme.md)
+
+* [Code Smell 135 - Interfaces With just One Realization](/Articles/Code%20Smells/Code%20Smell%20135%20-%20Interfaces%20With%20just%20One%20Realization/readme.md)
+
+* [Code Smell 136 - Classes With just One Subclass](/Articles/Code%20Smells/Code%20Smell%20136%20-%20Classes%20With%20just%20One%20Subclass/readme.md)
+
+* [Code Smell 137 - Inheritance Tree Too Deep](/Articles/Code%20Smells/Code%20Smell%20137%20-%20Inheritance%20Tree%20Too%20Deep/readme.md)
+
+* [Code Smell 138 - Packages Dependency](/Articles/Code%20Smells/Code%20Smell%20138%20-%20Packages%20Dependency/readme.md)
+
+* [Code Smell 28 - Setters](/Articles/Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
+
+* [Code Smell 33 - Abbreviations](/Articles/Code%20Smells/Code%20Smell%2033%20-%20Abbreviations/readme.md)
+
+* [Code Smell 39 - new Date()](/Articles/Code%20Smells/Code%20Smell%2039%20-%20new%20Date%28%29/readme.md)
+
+* [Code Smell 46 - Repeated Code](/Articles/Code%20Smells/Code%20Smell%2046%20-%20Repeated%20Code/readme.md)
 
 * [Code Smell 75 - Comments Inside a Method](/Articles/Code%20Smells/Code%20Smell%2075%20-%20Comments%20Inside%20a%20Method/readme.md)
 
@@ -60,7 +104,29 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 90 - Implementative Callback Events](/Articles/Code%20Smells/Code%20Smell%2090%20-%20Implementative%20Callback%20Events/readme.md)
 
+* [Code Smell 91 - Test Asserts without Description](/Articles/Code%20Smells/Code%20Smell%2091%20-%20Test%20Asserts%20without%20Description/readme.md)
+
+* [Code Smell 92 - Isolated Subclasses Names](/Articles/Code%20Smells/Code%20Smell%2092%20-%20Isolated%20Subclasses%20Names/readme.md)
+
+* [Code Smell 93 - Send me Anything](/Articles/Code%20Smells/Code%20Smell%2093%20-%20Send%20me%20Anything/readme.md)
+
+* [Code Smell 94 - Too Many imports](/Articles/Code%20Smells/Code%20Smell%2094%20-%20Too%20Many%20imports/readme.md)
+
+* [Code Smell 95 - Premature Classification](/Articles/Code%20Smells/Code%20Smell%2095%20-%20Premature%20Classification/readme.md)
+
+* [Code Smell 96 - My Objects](/Articles/Code%20Smells/Code%20Smell%2096%20-%20My%20Objects/readme.md)
+
+* [Code Smell 97 - Error Messages Without Empathy](/Articles/Code%20Smells/Code%20Smell%2097%20-%20Error%20Messages%20Without%20Empathy/readme.md)
+
+* [Code Smell 98 - Speling Mistakes](/Articles/Code%20Smells/Code%20Smell%2098%20-%20Speling%20Mistakes/readme.md)
+
+* [Code Smell 99 - First Second](/Articles/Code%20Smells/Code%20Smell%2099%20-%20First%20Second/readme.md)
+
 ### Refactorings
 
 * [Refactoring 005 - Extract Class](/Articles/Refactorings/Refactoring%20005%20-%20Extract%20Class/readme.md)
+
+### Wordle
+
+* [How to Develop a Wordle Game using TDD in 25 Minutes](/Articles/Wordle/How%20to%20Develop%20a%20Wordle%20Game%20using%20TDD%20in%2025%20Minutes/readme.md)
 

@@ -14,7 +14,7 @@
 
 # Solutions
 
-1. Find the correct name using the [MAPPER](https://maximilianocontieri.com/what-is-wrong-with-software)
+1. Find the correct name using the [MAPPER](Theory\What is (wrong with) software)
 
 # Context
 
@@ -109,7 +109,7 @@ Photo by [Paula Hayes](https://unsplash.com/@phayes007) on [Unsplash](https://un
 
 _Robert C. Martin_
  
-[Software Engineering Great Quotes](Software Engineering Great Quotes)
+[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
 
 * * *
 

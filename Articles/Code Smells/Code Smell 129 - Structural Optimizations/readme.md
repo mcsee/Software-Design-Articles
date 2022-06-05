@@ -10,7 +10,7 @@
 
 - Readability
 
-- [Bijection](https://maximilianocontieri.com/the-one-and-only-software-design-principle) and [MAPPER](https://maximilianocontieri.com/what-is-wrong-with-software) violations
+- [Bijection](https://maximilianocontieri.com/the-one-and-only-software-design-principle) and [MAPPER](Theory\What is (wrong with) software) violations
 
 - Premature Optimization
 
@@ -24,7 +24,7 @@
 
 4. If you have conclusive data, you need to improve benchmark's found bottlenecks using [Pareto principle](https://en.wikipedia.org/wiki/Pareto_principle).
 
-5. Attach the worst 20% problem causing 80% bad performance.
+5. Attack the worst 20% problems causing 80% bad performance.
 
 # Context
 
@@ -48,7 +48,7 @@ for (k = 0; k < 3 * 3; ++k) {
      console.log(i + ' ' +  j);
   }
  
-//This criptic piece of code iterates a 
+//This cryptic piece of code iterates a 
 //two dimensional array
 //We don't have proofs this will be useful
 //In real contexts
@@ -109,7 +109,7 @@ Photo by [Priscilla Du Preez](https://unsplash.com/@priscilladupreez) on [Unspla
 
 _Kent Beck_
  
-[Software Engineering Great Quotes](Software Engineering Great Quotes)
+[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
 
 * * *
 
