@@ -34,7 +34,7 @@ Avoid **Setters** and **Getters**:
 
 [Nude Models - Part I: Setters](Theory\Nude Models - Part I Setters)
 
-[Nude Models - Part II Getters](Theory\Nude Models - Part II Getters)
+[Nude Models - Part II: Getters](Theory\Nude Models - Part II Getters)
 
 ## Best practices
 

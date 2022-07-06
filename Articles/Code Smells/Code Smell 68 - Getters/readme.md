@@ -105,7 +105,7 @@ Getters and Setters are a bad established practice. Instead of focusing on objec
 
 # More info
 
-[Nude Models - Part II Getters](Theory\Nude Models - Part II Getters)
+[Nude Models - Part II: Getters](Theory\Nude Models - Part II Getters)
 
 # Credits
 

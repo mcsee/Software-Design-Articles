@@ -307,7 +307,7 @@ Rating is private so we don't break encapsulation.
 
 As a consequence we are safe to avoid *getters*.
 
-[Nude Models - Part II Getters](Theory\Nude Models - Part II Getters)
+[Nude Models - Part II: Getters](Theory\Nude Models - Part II Getters)
 
 ## Applying the recipe to all IF conditions
 

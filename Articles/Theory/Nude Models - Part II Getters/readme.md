@@ -1,6 +1,6 @@
-# Nude Models - Part II Getters
+# Nude Models - Part II: Getters
 
-![Nude Models - Part II Getters](dominik-vanyi-Mk2ls9UBO2E-unsplash.jpg)
+![Nude Models - Part II: Getters](dominik-vanyi-Mk2ls9UBO2E-unsplash.jpg)
 
 ## Ye olde Reliable Data Structures and Their Controversial (Read) Access.
 

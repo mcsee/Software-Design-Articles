@@ -94,7 +94,7 @@ class Polygon {
 }
 ```
 
-[Nude Models - Part II Getters](Theory\Nude Models - Part II Getters)
+[Nude Models - Part II: Getters](Theory\Nude Models - Part II Getters)
 
 > Rule 13: There are no setXXX or getXXX methods.
 

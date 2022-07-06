@@ -58,7 +58,7 @@ g) The generated code has little added value, and often encourages bad design pr
 
 [Nude Models - Part I: Setters](Theory\Nude Models - Part I Setters)
 
-[Nude Models - Part II Getters](Theory\Nude Models - Part II Getters)
+[Nude Models - Part II: Getters](Theory\Nude Models - Part II Getters)
 
 h) Finally, if computers can make inferences about the repetition of our design patterns, it is because we are not contributing the creative part (and for now not replicable) and we will be out of work in the short-term.
 

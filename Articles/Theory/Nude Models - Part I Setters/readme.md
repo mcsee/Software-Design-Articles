@@ -277,7 +277,7 @@ Using setters generates coupling and prevents the incremental evolution of our c
 
 As with setters, getters are discouraged. We develop this topic in depth in this article:
 
-[Nude Models - Part II Getters](Theory\Nude Models - Part II Getters)
+[Nude Models - Part II: Getters](Theory\Nude Models - Part II Getters)
 
 Part of the objective of this series of articles is to generate spaces for debate and discussion on software design.
 

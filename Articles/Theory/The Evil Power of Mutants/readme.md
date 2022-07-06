@@ -227,7 +227,7 @@ Corollary 2
 
 [Nude Models - Part I: Setters](Theory\Nude Models - Part I Setters)
 
-[Nude Models - Part II Getters](Theory\Nude Models - Part II Getters)
+[Nude Models - Part II: Getters](Theory\Nude Models - Part II Getters)
 
 Corollary 3
 

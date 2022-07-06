@@ -224,7 +224,7 @@ plain
 
 This idiom iterates over recipients (a private attribute, no getters), inserting a comma (,) and removing last one (*allButLast*). Since we have no *explode*.
 
-[Nude Models - Part II Getters](Theory\Nude Models - Part II Getters)
+[Nude Models - Part II: Getters](Theory\Nude Models - Part II Getters)
 
 3 tests working! (ZOM)
 
