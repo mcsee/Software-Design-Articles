@@ -20,11 +20,11 @@ In this repository, you will find many articles related to Software Design
 
 * [No Silver Bullet](/Articles/Theory/No%20Silver%20Bullet/readme.md)
 
-* [Nude Models - Part I: Setters](/Articles/Theory/Nude%20Models%20-%20Part%20I%3A%20Setters/readme.md)
+* [Nude Models - Part I: Setters](/Articles/Theory/Nude%20Models%E2%80%8A-%E2%80%8APart%20I%C2%A0Setters/readme.md)
 
-* [Nude Models - Part II: Getters](/Articles/Theory/Nude%20Models%20-%20Part%20II%3A%20Getters/readme.md)
+* [Nude Models - Part II: Getters](/Articles/Theory/Nude%20Models%E2%80%8A-%E2%80%8APart%20II%C2%A0Getters/readme.md)
 
-* [Null: The Billion Dollar Mistake](/Articles/Theory/Null%3A%20The%20Billion%20Dollar%20Mistake/readme.md)
+* [Null: The Billion Dollar Mistake](/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
 * [Object Design Checklist](/Articles/Theory/Object%20Design%20Checklist/readme.md)
 
@@ -42,7 +42,7 @@ In this repository, you will find many articles related to Software Design
 
 * [What exactly is a name — Part II Rehab](/Articles/Theory/What%20exactly%20is%20a%20name%20%E2%80%94%20Part%20II%20Rehab/readme.md)
 
-* [What is (wrong with) software?](/Articles/Theory/What%20is%20%28wrong%20with%29%20software%3F/readme.md)
+* [What is (wrong with) software?](/Articles/Theory/What%20is%20%28wrong%20with%29%20software/readme.md)
 
 ### Opinion
 
@@ -242,7 +242,7 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 35 - State as Properties](/Articles/Code%20Smells/Code%20Smell%2035%20-%20State%20as%20Properties/readme.md)
 
-* [Code Smell 36 - Switch/case/elseif/else/if statements](/Articles/Code%20Smells/Code%20Smell%2036%20-%20Switch%2Fcase%2Felseif%2Felse%2Fif%20statements/readme.md)
+* [Code Smell 36 - Switch/case/elseif/else/if statements](/Articles/Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md)
 
 * [Code Smell 37 - Protected Attributes](/Articles/Code%20Smells/Code%20Smell%2037%20-%20Protected%20Attributes/readme.md)
 
@@ -254,7 +254,7 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 41 - Regular Expression Abusers](/Articles/Code%20Smells/Code%20Smell%2041%20-%20Regular%20Expression%20Abusers/readme.md)
 
-* [Code Smell 42 - Warnings/Strict Mode Off](/Articles/Code%20Smells/Code%20Smell%2042%20-%20Warnings%2FStrict%20Mode%20Off/readme.md)
+* [Code Smell 42 - Warnings/Strict Mode Off](/Articles/Code%20Smells/Code%20Smell%2042%20-%20Warnings%20Strict%20Mode%20Off/readme.md)
 
 * [Code Smell 43 - Concrete Classes Subclassified](/Articles/Code%20Smells/Code%20Smell%2043%20-%20Concrete%20Classes%20Subclassified/readme.md)
 
@@ -288,7 +288,7 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 58 - Yo-yo Problem](/Articles/Code%20Smells/Code%20Smell%2058%20-%20Yo-yo%20Problem/readme.md)
 
-* [Code Smell 59 - Basic / Do Functions](/Articles/Code%20Smells/Code%20Smell%2059%20-%20Basic%20%2F%20Do%20Functions/readme.md)
+* [Code Smell 59 - Basic / Do Functions](/Articles/Code%20Smells/Code%20Smell%2059%20-%20Basic%20Do%20Functions/readme.md)
 
 * [Code Smell 60 - Global Classes](/Articles/Code%20Smells/Code%20Smell%2060%20-%20Global%20Classes/readme.md)
 
@@ -330,7 +330,7 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 79 - TheResult](/Articles/Code%20Smells/Code%20Smell%2079%20-%20TheResult/readme.md)
 
-* [Code Smell 80 - Nested Try/Catch](/Articles/Code%20Smells/Code%20Smell%2080%20-%20Nested%20Try%2FCatch/readme.md)
+* [Code Smell 80 - Nested Try/Catch](/Articles/Code%20Smells/Code%20Smell%2080%20-%20Nested%20Try%20Catch/readme.md)
 
 * [Code Smell 81 - Result](/Articles/Code%20Smells/Code%20Smell%2081%20-%20Result/readme.md)
 
@@ -338,7 +338,7 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 83 - Variables Reassignment](/Articles/Code%20Smells/Code%20Smell%2083%20-%20Variables%20Reassignment/readme.md)
 
-* [Code Smell 84 - Max < Min (Javascript)](/Articles/Code%20Smells/Code%20Smell%2084%20-%20Max%20%3C%20Min%20%28Javascript%29/readme.md)
+* [Code Smell 84 - Max < Min (Javascript)](/Articles/Code%20Smells/Code%20Smell%2084%20-%20Max%20%20Min%20%28Javascript%29/readme.md)
 
 * [Code Smell 85 - And Functions](/Articles/Code%20Smells/Code%20Smell%2085%20-%20And%20Functions/readme.md)
 
@@ -380,7 +380,7 @@ In this repository, you will find many articles related to Software Design
 
 * [I Wrote More than 90 Articles on 2021 Here is What I Learned](/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md)
 
-* [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20%23programming%20Articles%20on%20Hashnode/readme.md)
+* [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
 
 * [The Reasons I Started Technical Blogging](/Articles/Blogging/The%20Reasons%20I%20Started%20Technical%20Blogging/readme.md)
 
@@ -418,7 +418,7 @@ In this repository, you will find many articles related to Software Design
 
 * [TDD Conference 2021 - Benefits Of Going Beyond The Make-It-Work Phase - Francisco Climent](/Articles/TDD%20Conference%202021/TDD%20Conference%202021%20-%20Benefits%20Of%20Going%20Beyond%20The%20Make-It-Work%20Phase%20-%20Francisco%20Climent/readme.md)
 
-* [TDD Conference 2021 - GeePaw Hill - Want More Value Faster Take Many More Much Smaller Steps](/Articles/TDD%20Conference%202021/TDD%20Conference%202021%20-%20GeePaw%20Hill%20-%20Want%20More%20Value%20Faster%20Take%20Many%20More%20Much%20Smaller%20Steps/readme.md)
+* [TDD Conference 2021 - GeePaw Hill - Want More Value Faster Take Many More Much Smaller Steps](/Articles/TDD%20Conference%202021/GeePaw%20Hill%20-%20Want%20More%20Value%20Faster%20Take%20Many%20More%20Much%20Smaller%20Steps/readme.md)
 
 * [TDD Conference 2021 - How TDD sensitized me to speed as a regular workplace habit - Ragunath Jawahar](/Articles/TDD%20Conference%202021/TDD%20Conference%202021%20-%20How%20TDD%20sensitized%20me%20to%20speed%20as%20a%20regular%20workplace%20habit%20-%20Ragunath%20Jawahar/readme.md)
 
@@ -428,7 +428,7 @@ In this repository, you will find many articles related to Software Design
 
 * [TDD Conference 2021 - On The Relationship Between Units Of Isolation And Test Coupling - Mario Cervera](/Articles/TDD%20Conference%202021/TDD%20Conference%202021%20-%20On%20The%20Relationship%20Between%20Units%20Of%20Isolation%20And%20Test%20Coupling%20-%20Mario%20Cervera/readme.md)
 
-* [TDD Conference 2021 - Opening Ceremony by Alex Bunardzic](/Articles/TDD%20Conference%202021/TDD%20Conference%202021%20-%20Opening%20Ceremony%20by%20Alex%20Bunardzic/readme.md)
+* [TDD Conference 2021 - Opening Ceremony by Alex Bunardzic](/Articles/TDD%20Conference%202021/Opening%20Ceremony%20by%20Alex%20Bunardzic/readme.md)
 
 * [TDD Conference 2021 - Python - A Language Made For Test-Driven Development - Jan Giacomelli](/Articles/TDD%20Conference%202021/TDD%20Conference%202021%20-%20Python%20-%20A%20Language%20Made%20For%20Test-Driven%20Development%20-%20Jan%20Giacomelli/readme.md)
 
@@ -470,5 +470,5 @@ In this repository, you will find many articles related to Software Design
 
 ### Web3
 
-* [Web3 For Dummies - Part 01 - What is a Blockchain?](/Articles/Web3/Web3%20For%20Dummies%20-%20Part%2001%20-%20What%20is%20a%20Blockchain%3F/readme.md)
+* [Web3 For Dummies - Part 01 - What is a Blockchain?](/Articles/Web3/Web3%20For%20Dummies%20-%20Part%2001%20-%20What%20is%20a%20Blockchain/readme.md)
 
