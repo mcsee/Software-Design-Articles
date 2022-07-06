@@ -1,8 +1,8 @@
 # Code Smell 95 - Premature Classification
 
-*We are over generalizers. We shouldn't create abstractions until we see enough concretions.*
-
 ![Code Smell 95 - Premature Classification](faye-cornish-Uq3gTiPlqRo-unsplash.jpg)
+
+*We are over generalizers. We shouldn't create abstractions until we see enough concretions.*
 
 > TL;DR: Don't guess what the future will bring you.
 
@@ -39,8 +39,8 @@ class Rectangle
          return length * breadth;
        } 
  } 
-//We are creating a premature abstraction 
-//And misusing is-a relation since a Square "is a" Rectangle
+// We are creating a premature abstraction
+// And misusing is-a relation since a Square "is a" Rectangle
 
 class Square extends Rectangle
  { 
@@ -77,11 +77,11 @@ class Square
          return length * length; 
        } 
  } 
-//Square might-be a Rectangle
-//But it does not follow behaves-like relation so we won't go ahead
-//and create a strong relation between them
-//Maybe they are shapes. We don't have enough examples and protocol yet
-//We will not guess until further knowledge
+// Square might-be a Rectangle
+// But it does not follow behaves-like relation so we won't go ahead
+// and create a strong relation between them
+// Maybe they are shapes. We don't have enough examples and protocol yet
+// We will not guess until further knowledge
 
 ```
 
@@ -99,17 +99,17 @@ An abstract class with just one subclass is an indicator of premature classifica
 
 When working with classes, we name abstractions as soon as they *appear*. 
 
-Our rule is to choose [good names](https://maximilianocontieri.com/what-exactly-is-a-name-part-i-the-quest) after the behaviour.
+Our rule is to choose [good names](Theory\What exactly is a name — Part I The Quest) after the behaviour.
 
 We should not name our abstractions until we name our concrete subclasses.
 
 # Relations
 
-[Code Smell 11 - Subclassification for Code Reuse](https://maximilianocontieri.com/code-smell-11-subclassification-for-code-reuse)
+[Code Smell 11 - Subclassification for Code Reuse](Code Smells\Code Smell 11 - Subclassification for Code Reuse)
 
 # More Info
 
-- [What is in a name](https://maximilianocontieri.com/what-exactly-is-a-name-part-i-the-quest)
+- [What is in a name](Theory\What exactly is a name — Part I The Quest)
 
 # Credits
 
@@ -127,4 +127,4 @@ _Donald E. Knuth_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](https://maximilianocontieri.com/how-to-find-the-stinky-parts-of-your-code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

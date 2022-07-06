@@ -1,8 +1,8 @@
 # Code Smell 83 - Variables Reassignment
 
-*Variable reuse is something we see in big chunks of code.*
-
 ![Code Smell 83 - Variables Reassignment](robby-mccullough-DtzJFYnFPJ8-unsplash.jpg)
+
+*Variable reuse is something we see in big chunks of code.*
 
 > TL;DR: Don't reuse variable names. You break readability and refactor chances and gain nothing but laziness.
 
@@ -101,11 +101,11 @@ Reusing variables is a non-contextual copy and paste hint.
 
 # Relations
 
-[Code Smell 03 - Functions Are Too Long](https://maximilianocontieri.com/code-smell-03-functions-are-too-long)
+[Code Smell 03 - Functions Are Too Long](Code Smells\Code Smell 03 - Functions Are Too Long)
 
 # More Info
 
-- [The Evil power of Mutants](https://maximilianocontieri.com/the-evil-powers-of-mutants)
+- [The Evil power of Mutants](Theory\The Evil Power of Mutants)
 
 - [Stack Exchange](https://softwareengineering.stackexchange.com/questions/115520/should-i-reuse-variables)
 
@@ -123,10 +123,10 @@ Photo by [Robby McCullough](https://unsplash.com/@mybbor) on [Unsplash](https://
 
 _Chris Pine_
  
-[Software Engineering Great Quotes](Software Engineering Great Quotes)
+[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](https://maximilianocontieri.com/how-to-find-the-stinky-parts-of-your-code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

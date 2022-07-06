@@ -18,11 +18,11 @@
 
 - Premature Optimization
 
-[Code Smell 20 - Premature Optimization](https://maximilianocontieri.com/code-smell-20-premature-optimization)
+[Code Smell 20 - Premature Optimization](Code Smells\Code Smell 20 - Premature Optimization)
 
 # Solutions
 
-1. Use meaningful/[declarative](https://maximilianocontieri.com/what-exactly-is-a-name-part-ii-rehab) names.
+1. Use meaningful/[declarative](Theory\What exactly is a name — Part II Rehab) names.
 
 # Examples
 
@@ -96,13 +96,13 @@ It is 2020, We need to write software for humans, not for compilers.
 
 # Relations
 
-[Code Smell 06 - Too Clever Programmer](https://maximilianocontieri.com/code-smell-06-too-clever-programmer)
+[Code Smell 06 - Too Clever Programmer](Code Smells\Code Smell 06 - Too Clever Programmer)
 
 # More info
 
-[What exactly is a name — Part I The Quest](https://maximilianocontieri.com/what-exactly-is-a-name-part-i-the-quest)
+[What exactly is a name — Part I The Quest](Theory\What exactly is a name — Part I The Quest)
 
-[What exactly is a name — Part II Rehab](https://maximilianocontieri.com/what-exactly-is-a-name-part-ii-rehab)
+[What exactly is a name — Part II Rehab](Theory\What exactly is a name — Part II Rehab)
 
 # Credits
 
@@ -120,4 +120,4 @@ _Robert Martin_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](Unsorted\How to Find the Stinky parts of your Code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

@@ -1,10 +1,10 @@
 # What is (wrong with) software?
 
-![What is (wrong with) software](0_-c18JSXLxCUSXveZ.png)
+![What is (wrong with) software?](c18JSXLxCUSXveZ.png)
 
 *Software is eating the world. Those of us who work, live, and love software do not usually stop by to think about its meaning.*
 
-> TL:DR: We will address current software design problems in a minimalist way.
+> TL;DR: We will address current software design problems in a minimalist way.
 
 In university and industry, we use the following definition of software:
 
@@ -56,7 +56,7 @@ Photo by [Max LaRochelle](https://unsplash.com/@maxlarochelle) on [Unsplash](htt
 
 ## Why is it a (A)bstract?
 
-We can only understand it and observe it with instruments like a black box based on its behavior before our stimuli. 
+We can only understand and observe it with instruments such as a black box based on its behavior in the face of our stimuli.
 
 Like Schrödinger’s [cat](https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat).
 
@@ -80,7 +80,7 @@ This is common to scientific models.
 
 Taking certain simplifications on aspects that do not interest us to isolate the problem.
 
-![Full Scale Map](https://cdn.hashnode.com/res/hashnode/image/upload/v1598729131832/eoY72OmZ9.png)
+![Full Scale Map](0_OPqtbfF8qjSsFj46.png)
 
 A 1: 1 scale map of the earth would not make sense.
 
@@ -107,7 +107,7 @@ We have the axiomatic definition presented in this article.
 
 We will infer **principles**, **heuristics**, and **rules** to build excellent software models.
 
-[The One and Only Software Design Principle](https://maximilianocontieri.com/the-one-and-only-software-design-principle)
+[The One and Only Software Design Principle](Theory\The One and Only Software Design Principle)
 
 # Acknowledgements
 
@@ -117,7 +117,7 @@ These concepts are based on the thoughts of David West, Máximo Prieto and Hern�
 
 Part of the goal of this series of articles is to generate spaces for debate and discussion on software design.
 
-[Object Design Checklist](https://maximilianocontieri.com/object-design-checklist)
+[Object Design Checklist](Theory\Object Design Checklist)
 
 We look forward to comments and suggestions on this article.
 

@@ -1,8 +1,8 @@
 # Code Smell 92 - Isolated Subclasses Names
 
-*If your classes are globals, use fully qualified names*
-
 ![Code Smell 92 - Isolated Subclasses Names](edvard-alexander-rolvaag-E75ZuAIpCzo-unsplash.jpg)
+
+*If your classes are globals, use fully qualified names*
 
 > TL;DR: Don't use abbreviations in subclasses
 
@@ -32,8 +32,8 @@ class East extends PerserveranceDirection {}
 class West extends PerserveranceDirection {}
 class South extends PerserveranceDirection {}
 
-//Subclasses have short names and meaningless outside the hierarchy
-//If we reference East we might mistake it for the Cardinal Point
+// Subclasses have short names and meaningless outside the hierarchy
+// If we reference East we might mistake it for the Cardinal Point
 ```
 
 ## Right
@@ -48,7 +48,7 @@ class PerserveranceDirectionEast extends PerserveranceDirection {}
 class PerserveranceDirectionWest extends PerserveranceDirection {}
 class PerserveranceDirectionSouth extends PerserveranceDirection {}
 
-//Subclasses have fully quallified names
+// Subclasses have fully quallified names
 ```
 
 # Detection
@@ -67,13 +67,13 @@ If your language supports it, use modules, namespaces and local scopes.
 
 # Relations
 
-[Code Smell 11 - Subclassification for Code Reuse](https://maximilianocontieri.com/code-smell-11-subclassification-for-code-reuse)
+[Code Smell 11 - Subclassification for Code Reuse](Code Smells\Code Smell 11 - Subclassification for Code Reuse)
 
 # More Info
 
-- [What is in a name?](https://maximilianocontieri.com/what-exactly-is-a-name-part-i-the-quest)
+- [What is in a name?](Theory\What exactly is a name — Part I The Quest)
 
-- [MAPPER](https://maximilianocontieri.com/the-one-and-only-software-design-principle)
+- [MAPPER](Theory\The One and Only Software Design Principle)
 
 # Credits
 
@@ -91,4 +91,4 @@ _Frederick P. Brooks_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](https://maximilianocontieri.com/how-to-find-the-stinky-parts-of-your-code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

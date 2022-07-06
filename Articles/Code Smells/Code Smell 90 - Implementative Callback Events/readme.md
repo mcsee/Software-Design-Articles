@@ -1,8 +1,8 @@
 # Code Smell 90 - Implementative Callback Events
 
-*When creating events, we should decouple the trigger from the action.*
-
 ![Code Smell 90 - Implementative Callback Events](ashim-d-silva-P_PNZnNd7-Y-unsplash.jpg)
+
+*When creating events, we should decouple the trigger from the action.*
 
 > TL;DR: Name your functions acording to what happened.
 
@@ -27,10 +27,10 @@ const Item = ({name, handlePageChange)} =>
     {name}
   </li>
 
-//handlePageChange is coupled to what you decide to do
-//instead of what really happened
+// handlePageChange is coupled to what you decide to do
+// instead of what really happened
 //
-//We cannot reuse this kind of callbacks
+// We cannot reuse this kind of callbacks
 ```
 
 ## Right
@@ -42,9 +42,9 @@ const Item = ({name, onItemSelected)} =>
     {name}
   </li>
 
-//onItemSelected will be called just when a item was selected. KISS
-//Parent can decide what to do (or do nothing)
-//We defer the decision
+// onItemSelected will be called just when a item was selected. KISS
+// Parent can decide what to do (or do nothing)
+// We defer the decision
 ```
 
 # Detection
@@ -63,7 +63,7 @@ Names are very important. We should delay implementation coupled names until the
 
 # More Info
 
-- [What is exactly in a name](https://maximilianocontieri.com/what-exactly-is-a-name-part-i-the-quest)
+- [What is exactly in a name](Theory\What exactly is a name — Part I The Quest)
 
 - [Refactoring Guru](https://refactoring.guru/es/design-patterns/observer)
 
@@ -82,10 +82,10 @@ Thanks to Maciej for this tip
 
 _Marissa Mayer_
  
-[Software Engineering Great Quotes](Software Engineering Great Quotes)
+[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](https://maximilianocontieri.com/how-to-find-the-stinky-parts-of-your-code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

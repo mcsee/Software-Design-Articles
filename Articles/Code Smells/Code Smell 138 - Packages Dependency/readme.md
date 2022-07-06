@@ -8,7 +8,7 @@
 
 # Problems
 
-- [Coupling](https://maximilianocontieri.com/coupling-the-one-and-only-software-design-problem)
+- [Coupling](Theory\Coupling - The one and only software design problem)
 
 - [Security problems](https://nakedsecurity.sophos.com/2022/05/25/poisoned-python-and-php-packages-purloin-passwords-for-aws-access/)
 
@@ -77,6 +77,10 @@ Lazy programmers push reuse to absurd limits.
 We need a good balance between code duplication and crazy reuse.
 
 As always, there are rules of thumb but no rigid rules.
+
+# Relations
+
+[Code Smell 94 - Too Many imports](Code Smells\Code Smell 94 - Too Many imports)
  
 # More Info
 
@@ -106,4 +110,4 @@ _Ray Ozzie_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](Unsorted\How to Find the Stinky parts of your Code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

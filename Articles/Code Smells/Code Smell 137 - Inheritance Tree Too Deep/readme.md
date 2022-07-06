@@ -8,7 +8,7 @@
 
 # Problems
 
-- [Coupling](https://maximilianocontieri.com/coupling-the-one-and-only-software-design-problem)
+- [Coupling](Theory\Coupling - The one and only software design problem)
 
 - Subclassification Reuse 
 
@@ -98,19 +98,19 @@ Look after your hierarchies and break them often.
 
 # Relations
 
-[Code Smell 11 - Subclassification for Code Reuse](https://maximilianocontieri.com/code-smell-11-subclassification-for-code-reuse)
+[Code Smell 11 - Subclassification for Code Reuse](Code Smells\Code Smell 11 - Subclassification for Code Reuse)
 
-[Code Smell 43 - Concrete Classes Subclassified](https://maximilianocontieri.com/code-smell-43-concrete-classes-subclassified)
+[Code Smell 43 - Concrete Classes Subclassified](Code Smells\Code Smell 43 - Concrete Classes Subclassified)
 
-[Code Smell 58 - Yo-yo Problem](https://maximilianocontieri.com/code-smell-58-yo-yo-problem)
+[Code Smell 58 - Yo-yo Problem](Code Smells\Code Smell 58 - Yo-yo Problem)
 
-[Code Smell 37 - Protected Attributes](https://maximilianocontieri.com/code-smell-37-protected-attributes)
+[Code Smell 37 - Protected Attributes](Code Smells\Code Smell 37 - Protected Attributes)
 
 [Code Smell 125 - 'IS-A' Relationship](Code Smells\Code Smell 125 - 'IS-A' Relationship)
 
 # More Info
 
-- [Coupling: The one and only problem](https://maximilianocontieri.com/coupling-the-one-and-only-software-design-problem)
+- [Coupling: The one and only problem](Theory\Coupling - The one and only software design problem)
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Cyclomatic_complexity)
 
@@ -126,4 +126,4 @@ _Bertrand Meyer_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](Unsorted\How to Find the Stinky parts of your Code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

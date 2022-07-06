@@ -4,7 +4,7 @@
 
 Everybody is playing Wordle these days...
 
-And I love [TDD](https://maximilianocontieri.com/tdd-conference-2021-all-talks).
+And I love [TDD](TDD Conference 2021\TDD Conference 2021 - All Talks).
 
 So, let's get moving...
 
@@ -16,7 +16,7 @@ The minimum information amount in Wordle is a word.
 
 We can argue that *letter* is smaller, but we think all needed letter protocol is already defined (we might be wrong).
 
-A word is not a string. This is a common mistake and a [bijection violation](https://maximilianocontieri.com/the-one-and-only-software-design-principle).
+A word is not a string. This is a common mistake and a [bijection violation](Theory\The One and Only Software Design Principle).
 
 A *word* and a *string* have different responsibilities, though they might intersect.
 
@@ -129,7 +129,7 @@ We need to change our implementation in order to make test02 pass (and also test
 
 - We just check for few letters. Not for too many since we don't have yet a covering test.
 - TDD requires full coverage. Adding another check without a test is a technique violation.
-- We just raise a generic Exception. Creating special exceptions is a [code smell](https://maximilianocontieri.com/code-smell-26-exceptions-polluting) that pollutes namespaces. (unless we catch it, but this is not happening right now).
+- We just raise a generic Exception. Creating special exceptions is a [code smell](Code Smells\Code Smell 26 - Exceptions Polluting) that pollutes namespaces. (unless we catch it, but this is not happening right now).
 
 Let's check for too many
 
@@ -167,7 +167,7 @@ And all tests passed.
 We can now make an (optional) refactor and change the function to assert for a range instead of two boundaries.
 We decide to leave this way since it is more declarative.
 
-We can also add a test checking for zero letters following [Zombie methodology](https://maximilianocontieri.com/how-i-survived-the-zombie-apocalypse).
+We can also add a test checking for zero letters following [Zombie methodology](TDD\How I Survived the Zombie Apocalypse).
 Let's do it.
 
 [Gist Url]: # (https://gist.github.com/mcsee/3a55bc89bb13afcda0b6f9657a1bb7f1)
@@ -230,12 +230,12 @@ Let's add more invalid letters and correct the code.
         $wordleWord = new Word('v.lid');
   }
 
-  //Solution
+  // Solution
 
   function __construct(string $letters) {
         if (str_contains($letters, '.'))
             throw new \Exception('word contain invalid letters');
-    ///....
+    // ....
   } 
   
 
@@ -259,7 +259,7 @@ We replace the last two sentences
         if (!\preg_match('/^[a-z]+$/i', $letters)) {
             throw new \Exception('word contain invalid letters');
       }
-    //..
+    // ..
 ```
 
 ## Notice
@@ -303,7 +303,7 @@ Let's use the parameter we are sending to them.
 
 final class Word {
 
-    private $setters;
+    private $letters;
     function __construct(string $letters) {
         if (!\preg_match('/^[a-z]+$/i', $letters)) {
             throw new \Exception('word contain invalid letters');
@@ -495,7 +495,7 @@ public function test03DictionaryDoesNotIncludeWord() {
     }
 
  
-//the solution
+// the solution
 function includesWord(): bool {
         return false;
     }
@@ -570,12 +570,12 @@ And the simplest solution
 ```php
 <?php
 
-public function test02EmptyGameHasNoWinner() {
+public function test02EmptyGameHasNoWordsTried() {
         $game = new Game();
         $this->assertEquals([], $game->wordsTried());
     }
 
-//and the model
+// and the model
 
 function wordsTried(): array {
         return [];
@@ -601,7 +601,7 @@ public function test03TryOneWordAndRecordIt() {
         $this->assertEquals([new Word('loser')], $game->wordsTried());
     }
 
-//The solution
+// The solution
 
 final class Game {
 
@@ -639,7 +639,7 @@ public function test04TryOneWordAndDontLooseYet() {
         $this->assertFalse($game->hasLost());
     }
 
-//the solution
+// the solution
  function hasLost(): bool {
         return false;
     }
@@ -670,7 +670,7 @@ So we change it as below.
     }
 '''
 
-//The code
+// The code
 function hasLost(): bool {
         return count($this->wordsTried) > 4;
     }
@@ -691,7 +691,7 @@ Let's add the dictionary and play invalid.
         $dictionary = new Dictionary($words);
         $game = new Game($dictionary);
         $this->expectException(\Exception::class);
-        $game->addtry(new Word('xxxx'));
+        $game->addtry(new Word('xxxxx'));
     }
 ```
 
@@ -711,7 +711,7 @@ final class Game {
     }
 
     function addTry(Word $trial) {
-        if (!$this->dictionary->includesWord($trial)){
+        if (!$this->dictionary->includesWord($trial)) {
             throw new \Exception('Word is not included ' . $trial);
         }
         return $this->wordsTried[] = $trial;
@@ -778,10 +778,10 @@ We need to assert this word is in the dictionary.
         $game = new Game($dictionary, $winnerWord);
     }
  
-//and add the check...
+// and add the check...
 
 function __construct(Dictionary $validWords, Word $winnerWord) {
-        if (!$validWords->includesWord($winnerWord)){
+        if (!$validWords->includesWord($winnerWord)) {
             throw new \Exception('Winner word must be in dictionary');
         }
 
@@ -806,7 +806,7 @@ public function test10NoMatch() {
     }
 
 
-//This method in Word class
+// This method in Word class
 
  function matchesPositionWith(Word $anotherWord) : array {
         return [];
@@ -839,10 +839,10 @@ We need to define it better
 <?php
 function matchesPositionWith(Word $anotherWord) : array {
         $positions = [];
-        for ($currentPosition = 0; $currentPosition < count($this->letters()); $currentPosition++){
+        for ($currentPosition = 0; $currentPosition < count($this->letters()); $currentPosition++) {
             if ($this->letters()[$currentPosition] == $anotherWord->letters()[$currentPosition]) {
-                $positions[] = $currentPosition + 1; //Humans start counting on 1
-                //We can implement this better in several other languages
+                $positions[] = $currentPosition + 1; // Humans start counting on 1
+                // We can implement this better in several other languages
             }
         }
         return $positions;
@@ -882,7 +882,7 @@ public function test13MatchesIncorrectPositions() {
         $this->assertEquals([], $firstWord->matchesIncorrectPositionWith($secondWord));
     }
 
-//the easy solution
+// the easy solution
 function matchesIncorrectPositionWith(Word $anotherWord) : array {
         return [];
     }
@@ -901,7 +901,7 @@ public function test14MatchesIncorrectPositionsWithMatch() {
         $secondWord = new Word('drama');
         $this->assertEquals([3], $firstWord->matchesPositionWith($secondWord));
         $this->assertEquals([1, 4, 5], $firstWord->matchesIncorrectPositionWith($secondWord));
-        //A*ARM vs *RAMA
+        // A*ARM vs *RAMA
         $this->assertEquals([3], $secondWord->matchesPositionWith($firstWord));
         $this->assertEquals([2, 4, 5], $secondWord->matchesIncorrectPositionWith($firstWord));
     }
@@ -910,11 +910,11 @@ public function test14MatchesIncorrectPositionsWithMatch() {
 
 function matchesIncorrectPositionWith(Word $anotherWord) : array {
         $positions = [];
-        //count($this->letters() is always 5, but we don't want to add a magic number here
-        for ($currentPosition = 0; $currentPosition < count($this->letters()); $currentPosition++){
+        // count($this->letters() is always 5, but we don't want to add a magic number here
+        for ($currentPosition = 0; $currentPosition < count($this->letters()); $currentPosition++) {
             if (in_array($this->letters()[$currentPosition], $anotherWord->letters())) {
-                $positions[] = $currentPosition + 1; //Humans start counting on 1
-                //We can implement this better in several other languages
+                $positions[] = $currentPosition + 1; // Humans start counting on 1
+                // We can implement this better in several other languages
             }
         }
         return array_values(array_diff($positions, $this->matchesPositionWith($anotherWord)));

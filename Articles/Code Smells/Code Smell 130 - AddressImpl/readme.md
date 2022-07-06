@@ -1,16 +1,16 @@
 # Code Smell 130 - AddressImpl
 
-*It is nice to see a class implementing Interfaces. It is nicer to understand what it does*
-
 ![Code Smell 130 - AddressImpl](paula-hayes-Eeee5H-yuoc-unsplash.jpg)
+
+*It is nice to see a class implementing Interfaces. It is nicer to understand what it does*
 
 > TL;DR: Name your classes after real-world concepts.
 
 # Problems
 
-- [Bijection](https://maximilianocontieri.com/the-one-and-only-software-design-principle) Fault
+- [Bijection](Theory\The One and Only Software Design Principle) Fault
 
-- [Bad Names](https://maximilianocontieri.com/what-exactly-is-a-name-part-ii-rehab)
+- [Bad Names](Theory\What exactly is a name — Part II Rehab)
 
 # Solutions
 
@@ -36,15 +36,15 @@ public interface Address extends ChangeAware, Serializable {
      * @return the street name
      */
     String getStreet();
-    //...
+    // ...
 }
 
-//Wrong Name - There is no concept 'AddressImpl' in real world
+// Wrong Name - There is no concept 'AddressImpl' in real world
 public class AddressImpl implements Address {
     private String street;
     private String houseNumber;
     private City city;
-    //..
+    // ..
 }
 ```
 
@@ -52,22 +52,22 @@ public class AddressImpl implements Address {
 
 [Gist Url]: # (https://gist.github.com/mcsee/6cf15d798176fd83cbe00e207d8351fc)
 ```java
-//Simple
+// Simple
 public class Address {
     private String street;
     private String houseNumber;
     private City city;
-    //..
+    // ..
 }
 
 
-//OR
-//Both are real-world names
+// OR
+// Both are real-world names
 public class Address implements ContactLocation {
     private String street;
     private String houseNumber;
     private City city;
-    //..
+    // ..
 }
 ```
 
@@ -91,13 +91,13 @@ Do not call *I* to your interfaces.
 
 # Relations
 
-[Code Smell 65 - Variables Named after Types](https://maximilianocontieri.com/code-smell-65-variables-named-after-types)
+[Code Smell 65 - Variables Named after Types](Code Smells\Code Smell 65 - Variables Named after Types)
 
-[Code Smell 38 - Abstract Names](https://maximilianocontieri.com/code-smell-38-abstract-names)
+[Code Smell 38 - Abstract Names](Code Smells\Code Smell 38 - Abstract Names)
 
 # More Info
 
-- [What's in a Name: Part II: Rehab](https://maximilianocontieri.com/what-exactly-is-a-name-part-ii-rehab)
+- [What's in a Name: Part II: Rehab](Theory\What exactly is a name — Part II Rehab)
 
 # Credits
 
@@ -115,4 +115,4 @@ _Robert C. Martin_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](https://maximilianocontieri.com/how-to-find-the-stinky-parts-of-your-code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

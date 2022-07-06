@@ -8,7 +8,7 @@
 
 # Problems
 
-- [Mutability](https://maximilianocontieri.com/the-evil-powers-of-mutants)
+- [Mutability](Theory\The Evil Power of Mutants)
 
 - The Least Surprise Principle violation
 
@@ -16,7 +16,7 @@
 
 # Solutions
 
-1. Enforce [mutability](https://maximilianocontieri.com/the-evil-powers-of-mutants)
+1. Enforce [mutability](Theory\The Evil Power of Mutants)
 
 2. Avoid constants. They are hard to mock in tests.
 
@@ -38,10 +38,10 @@ const DISCOUNT_PLATINUM = 0.1;
 const DISCOUNT_GOLD = 0.05;
 const DISCOUNT_SILVER = 0.02;
 
-//Since variables are constants we cannot reassign them
-const DISCOUNT_PLATINUM = 0.05; //Error
+// Since variables are constants we cannot reassign them
+const DISCOUNT_PLATINUM = 0.05; // Error
 
-//We can group them
+// We can group them
 const ALL_CONSTANTS = {
   DISCOUNT: {
     PLATINUM = 0.1;
@@ -50,9 +50,9 @@ const ALL_CONSTANTS = {
   },
 };
 
-const ALL_CONSTANTS = 3.14; //Error
+const ALL_CONSTANTS = 3.14; // Error
 
-ALL_CONSTANTS.DISCOUNT.PLATINUM = 0.08; //NOT AN ERROR. WTF!
+ALL_CONSTANTS.DISCOUNT.PLATINUM = 0.08; // NOT AN ERROR. WTF!
 
 
 const ALL_CONSTANTS = Object.freeze({
@@ -62,9 +62,9 @@ const ALL_CONSTANTS = Object.freeze({
     SILVER = 0.02; 
 });
 
-const ALL_CONSTANTS = 3.14; //Error
+const ALL_CONSTANTS = 3.14; // Error
 
-ALL_CONSTANTS.DISCOUNT.PLATINUM = 0.12; //NOT AN ERROR. WTF!
+ALL_CONSTANTS.DISCOUNT.PLATINUM = 0.12; // NOT AN ERROR. WTF!
 ```
 
 ## Right
@@ -79,19 +79,19 @@ export const ALL_CONSTANTS = Object.freeze({
   }),
 });
 
-const ALL_CONSTANTS = 3.14; //Error
+const ALL_CONSTANTS = 3.14; // Error
 
-ALL_CONSTANTS.DISCOUNT.PLATINUM = 0.12; //ERROR
+ALL_CONSTANTS.DISCOUNT.PLATINUM = 0.12; // ERROR
 
-//Code works, but it is coupled and we cannot test it
+// Code works, but it is coupled and we cannot test it
 
 Class TaxesProvider {
   applyPlatinum(product);
 }
 
-//Now we can couple to a interface (the protocol of taxes provider)
-//Since class has no setters it is constant an immuatable
-//And we can replace it on tests
+// Now we can couple to a interface (the protocol of taxes provider)
+// Since class has no setters it is constant an immutable
+// And we can replace it on tests
 ```
 
 # Detection
@@ -114,13 +114,13 @@ We need to enforce it with the right tools.
 
 [Code Smell 86 - Mutable Const Arrays](Code Smells\Code Smell 86 - Mutable Const Arrays)
 
-[Code Smell 107 - Variables Reuse](https://maximilianocontieri.com/code-smell-107-variables-reuse)
+[Code Smell 107 - Variables Reuse](Code Smells\Code Smell 107 - Variables Reuse)
 
-[Code Smell 02 - Constants and Magic Numbers](https://maximilianocontieri.com/code-smell-02-constants-and-magic-numbers)
+[Code Smell 02 - Constants and Magic Numbers](Code Smells\Code Smell 02 - Constants and Magic Numbers)
 
 # More Info
 
-- [The Evil Power of Mutants](https://maximilianocontieri.com/the-evil-powers-of-mutants)
+- [The Evil Power of Mutants](Theory\The Evil Power of Mutants)
 
 # Credits
 
@@ -140,4 +140,4 @@ _Eric Gamma_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](https://maximilianocontieri.com/how-to-find-the-stinky-parts-of-your-code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

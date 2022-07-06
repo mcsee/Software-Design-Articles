@@ -1,8 +1,8 @@
 # Code Smell 82 - Tests Violating Encapsulation
 
-*Objects work fine and fulfill business objectives. But we need to test them. Let's break them.*
-
 ![Code Smell 82 - Tests Violating Encapsulation](E4oBeNOWEAMoaoL.jpg)
+
+*Objects work fine and fulfill business objectives. But we need to test them. Let's break them.*
 
 > TL;DR: Don't write methods with the only purpose of being used in your tests.
 
@@ -35,12 +35,12 @@ class Hangman {
 
     function __construct() {
         $this->wordToGuess = getRandomWord();
-        //Test is not in control of this
+        // Test is not in control of this
     }
 
     public function getWordToGuess(): string {
         return $this->wordToGuess;
-        //Sadly we need to reveal this
+        // Sadly we need to reveal this
     }
 }
 
@@ -48,7 +48,7 @@ class HangmanTest extends TestCase {
     function test01WordIsGuessed() {
         $hangmanGame = new Hangman();
         $this->assertEquals('tests', $hangmanGame->wordToGuess());
-        //how can we make sure the word is guessed?
+        // How can we make sure the word is guessed?
     }
 }
 ```
@@ -76,7 +76,7 @@ class MockRandomizer implements WordRandomizer {
 class HangmanTest extends TestCase {
     function test01WordIsGuessed() {
         $hangmanGame = new Hangman(new MockRandomizer());
-        //We are in full control!
+        // We are in full control!
         $this->assertFalse($hangmanGame->wordWasGuessed());
         $hangmanGame->play('t');
         $this->assertFalse($hangmanGame->wordWasGuessed());
@@ -84,7 +84,7 @@ class HangmanTest extends TestCase {
         $this->assertFalse($hangmanGame->wordWasGuessed());
         $hangmanGame->play('s');
         $this->assertTrue($hangmanGame->wordWasGuessed());
-        //We just test behavior
+        // We just test behavior
     }
 }
 ```
@@ -105,9 +105,9 @@ White-box tests are fragile. They test implementation instead of behavior.
 
 # Relations
 
-[Code Smell 52 - Fragile Tests](https://maximilianocontieri.com/code-smell-52-fragile-tests)
+[Code Smell 52 - Fragile Tests](Code Smells\Code Smell 52 - Fragile Tests)
 
-[Code Smell 28 - Setters](https://maximilianocontieri.com/code-smell-28-setters)
+[Code Smell 28 - Setters](Code Smells\Code Smell 28 - Setters)
 
 # More Info
 
@@ -125,10 +125,10 @@ This smell was inspired by @[Rodrigo](https://twitter.com/_rodrigomd)
 
 _Robert Martin_
  
-[Software Engineering Great Quotes](Software Engineering Great Quotes)
+[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](https://maximilianocontieri.com/how-to-find-the-stinky-parts-of-your-code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

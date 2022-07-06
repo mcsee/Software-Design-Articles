@@ -16,11 +16,11 @@
 
 # Solutions
 
-1. Replace all [IFs](https://maximilianocontieri.com/how-to-get-rid-of-annoying-ifs-forever) with a dynamic condition or [polymorphism](https://maximilianocontieri.com/how-to-get-rid-of-annoying-ifs-forever).
+1. Replace all [IFs](Theory\How to Get Rid of Annoying IFs Forever) with a dynamic condition or [polymorphism](Theory\How to Get Rid of Annoying IFs Forever).
 
 # Context
 
-Hard-coding *iF* conditions is great when doing [Test-Driven Development](https://maximilianocontieri.com/tdd-conference-2021-all-talks).
+Hard-coding *iF* conditions is great when doing [Test-Driven Development](TDD Conference 2021\TDD Conference 2021 - All Talks).
 
 We need to clean up stuff.
 
@@ -38,7 +38,7 @@ private string FindCountryName (string internetCode)
     return "France";
   else if(internetCode == "ar")
     return "Argentina";
-    //lots of elses
+    // lots of elses
   else
     return "Suffix not Valid";
 }
@@ -48,20 +48,20 @@ private string FindCountryName (string internetCode)
 
 [Gist Url]: # (https://gist.github.com/mcsee/5d45c77d532eb370ca6b78606c0db05e)
 ```csharp
-private string[] country_names = {"Germany", "France", "Argentina"} //lots more
-private string[] Internet_code_suffixes= {"de", "fr", "ar" } //more
+private string[] country_names = {"Germany", "France", "Argentina"} // lots more
+private string[] Internet_code_suffixes= {"de", "fr", "ar" } // more
  
 private Dictionary<string, string> Internet_codes = new Dictionary<string, string>();
 
-//There are more efficient ways for collection iteration
-//This pseudocode is for illustration
+// There are more efficient ways for collection iteration
+// This pseudocode is for illustration
 int currentIndex = 0; 
 foreach (var suffix in Internet_code_suffixes) {
   Internet_codes.Add(suffix, Internet_codes[currentIndex]);
   currentIndex++;
 }
 
-private string SendUserName(string internetCode) {
+private string FindCountryName(string internetCode) {
   return Internet_codes[internetCode];
 }
 ```
@@ -84,15 +84,15 @@ With modern methodologies, we learn by hard-coding, and then, we generalize and 
 
 # Relations
 
-[Code Smell 36 - Switch case elseif else if statements](https://maximilianocontieri.com/code-smell-36-switchcaseelseifelseif-statements)
+[Code Smell 36 - Switch/case/elseif/else/if statements](Code Smells\Code Smell 36 - Switch case elseif else if statements)
 
-[Code Smell 102 - Arrow Code](https://maximilianocontieri.com/code-smell-102-arrow-code)
+[Code Smell 102 - Arrow Code](Code Smells\Code Smell 102 - Arrow Code)
 
 # More Info
 
-- [How to Get Rid of IFs forever](https://maximilianocontieri.com/how-to-get-rid-of-annoying-ifs-forever)
+- [How to Get Rid of IFs forever](Theory\How to Get Rid of Annoying IFs Forever)
 
-- [Test Driven Development](https://maximilianocontieri.com/tdd-conference-2021-all-talks)
+- [Test Driven Development](TDD Conference 2021\TDD Conference 2021 - All Talks)
 
 # Credits
 
@@ -110,4 +110,4 @@ _Bjarne Stroustrup_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](https://maximilianocontieri.com/how-to-find-the-stinky-parts-of-your-code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

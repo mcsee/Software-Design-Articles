@@ -29,13 +29,13 @@ try:
     birthYear= input('Birth year:')
     birthMonth= input('Birth month:')
     birthDay= input('Birth day:')
-    #we don't expect the above to fail
+    # we don't expect the above to fail
     print(datetime.date(int(birthYear), int(birthMonth), int(birthDay)))
 except ValueError as e:
     if str(e) == 'month must be in 1..12': 
         print('Month ' + str(birthMonth) + ' is out of range. The month must be a number in 1...12')
     elif str(e) == 'year {0} is out of range'.format(birthYear): 
-        print('Year ' + str(birthMonth) + ' is out of range. The year must be a number in ' + str(datetime.MINYEAR) + '...' + str(datetime.MAXYEAR))
+        print('Year ' + str(birthYear) + ' is out of range. The year must be a number in ' + str(datetime.MINYEAR) + '...' + str(datetime.MAXYEAR))
     elif str(e) == 'day is out of range for month': 
         print('Day ' + str(birthDay) + ' is out of range. The day must be a number in 1...' + str(calendar.monthrange(birthYear, birthMonth)))
 
@@ -58,7 +58,7 @@ except ValueError as e:
     if str(e) == 'month must be in 1..12': 
         print('Month ' + str(birthMonth) + ' is out of range. The month must be a number in 1...12')
     elif str(e) == 'year {0} is out of range'.format(birthYear): 
-        print('Year ' + str(birthMonth) + ' is out of range. The year must be a number in ' + str(datetime.MINYEAR) + '...' + str(datetime.MAXYEAR))
+        print('Year ' + str(birthYear) + ' is out of range. The year must be a number in ' + str(datetime.MINYEAR) + '...' + str(datetime.MAXYEAR))
     elif str(e) == 'day is out of range for month': 
         print('Day ' + str(birthDay) + ' is out of range. The day must be a number in 1...' + str(calendar.monthrange(birthYear, birthMonth)))
 ```
@@ -79,9 +79,9 @@ We must make exceptions as surgical as possible.
 
 # Relations
 
-[Code Smell 26 - Exceptions Polluting](https://maximilianocontieri.com/code-smell-26-exceptions-polluting)
+[Code Smell 26 - Exceptions Polluting](Code Smells\Code Smell 26 - Exceptions Polluting)
 
-[Code Smell 73 - Exceptions for Expected Cases](https://maximilianocontieri.com/code-smell-73-exceptions-for-expected-cases)
+[Code Smell 73 - Exceptions for Expected Cases](Code Smells\Code Smell 73 - Exceptions for Expected Cases)
 
 # Credits
 
@@ -99,4 +99,4 @@ _Verity Stob_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](https://maximilianocontieri.com/how-to-find-the-stinky-parts-of-your-code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

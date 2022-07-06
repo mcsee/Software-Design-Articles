@@ -68,11 +68,11 @@ Name your collaborators according to the role.
 
 # Relations
 
-[Code Smell 65 - Variables Named after Types](https://maximilianocontieri.com/code-smell-65-variables-named-after-types)
+[Code Smell 65 - Variables Named after Types](Code Smells\Code Smell 65 - Variables Named after Types)
 
 # More Info
 
-[What exactly is a name — Part II Rehab](https://maximilianocontieri.com/what-exactly-is-a-name-part-ii-rehab)
+[What exactly is a name — Part II Rehab](Theory\What exactly is a name — Part II Rehab)
 
 # Credits
 
@@ -90,4 +90,4 @@ _Jack Reeves_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](Unsorted\How to Find the Stinky parts of your Code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

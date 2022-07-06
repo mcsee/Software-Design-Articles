@@ -62,7 +62,7 @@ Avoid using *my*. Objects change according to the usage context.
 
 # More Info
 
-- [What exactly is a name — Part II Rehab](https://maximilianocontieri.com/what-exactly-is-a-name-part-ii-rehab)
+- [What exactly is a name — Part II Rehab](Theory\What exactly is a name — Part II Rehab)
 
 # Credits
 
@@ -80,4 +80,4 @@ _Kent Beck_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](Unsorted\How to Find the Stinky parts of your Code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

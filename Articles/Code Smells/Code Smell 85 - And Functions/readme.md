@@ -58,7 +58,7 @@ We should avoid doing more than needed, and our functions should be both minimal
 
 # More Info
 
-- [What exactly is a name — Part II Rehab](https://maximilianocontieri.com/what-exactly-is-a-name-part-ii-rehab)
+- [What exactly is a name — Part II Rehab](Theory\What exactly is a name — Part II Rehab)
 
 # Credits
 
@@ -74,10 +74,10 @@ This smell was inspired by
 
 _Sam Altman_
 
-[Software Engineering Great Quotes](Software Engineering Great Quotes)
+[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](https://maximilianocontieri.com/how-to-find-the-stinky-parts-of-your-code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

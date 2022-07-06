@@ -1,8 +1,8 @@
 # Code Smell 93 - Send me Anything
 
-*Magic functions that can receive a lot of different (and not polymorphic arguments)*
-
 ![Code Smell 93 - Send me Anything](Hesxdr1U4.webp)
+
+*Magic functions that can receive a lot of different (and not polymorphic arguments)*
 
 > TL;DR: Create a clear contract. Expect just one protocol.
 
@@ -10,13 +10,13 @@
 
 - Fail Fast principle violation
 
-- Error prne
+- Error prune
 
 - Readability
 
-- [If polluting](https://maximilianocontieri.com/how-to-get-rid-of-annoying-ifs-forever)
+- [If polluting](Theory\How to Get Rid of Annoying IFs Forever)
 
-- [Nulls](https://maximilianocontieri.com/null-the-billion-dollar-mistake)
+- [Nulls](Theory\Null - The Billion Dollar Mistake)
 
 - Bad Cohesion
 
@@ -36,13 +36,13 @@
 
 function parseArguments($arguments) {
     $arguments = $arguments ?: null;
-    //Always the billion-dollar mistake
+    // Always the billion-dollar mistake
     if (is_empty($arguments)) {
         $this->arguments = http_build_query($_REQUEST);
-        //Global coupling and side effects
+        // Global coupling and side effects
     } elseif (is_array($arguments)) {
         $this->arguments = http_build_query($arguments);
-    } elseif (!$arguments) { //null unmasked
+    } elseif (!$arguments) { // null unmasked
         $this->arguments = null;
     } else {
         $this->arguments = (string)$arguments;
@@ -58,7 +58,7 @@ function parseArguments($arguments) {
 
 function parseArguments(array $arguments) {
     $this->arguments = $arguments;
-    //much cleaner, isn't it ?
+    // much cleaner, isn't it ?
 }
 ```
 
@@ -76,11 +76,11 @@ Magic castings and flexibility have a price. They put the rubbish under the rug 
 
 # Relations
 
-[Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](https://maximilianocontieri.com/code-smell-69-big-bang-javascript-ridiculous-castings)
+[Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](Code Smells\Code Smell 69 - Big Bang (JavaScript Ridiculous Castings))
 
-[Code Smell 06 - Too Clever Programmer](https://maximilianocontieri.com/code-smell-06-too-clever-programmer)
+[Code Smell 06 - Too Clever Programmer](Code Smells\Code Smell 06 - Too Clever Programmer)
 
-[Code Smell 12 - Null](https://maximilianocontieri.com/code-smell-12-null)
+[Code Smell 12 - Null](Code Smells\Code Smell 12 - Null)
 
 # Credits
 
@@ -99,4 +99,4 @@ _Edward Garson_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](https://maximilianocontieri.com/how-to-find-the-stinky-parts-of-your-code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

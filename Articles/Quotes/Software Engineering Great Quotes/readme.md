@@ -1,9 +1,9 @@
 # Software Engineering Great Quotes
 
-## A short thought can bring amazing ideas.
-
 ![Software Engineering Great Quotes](zac-durant-_6HzPU9Hyfg-unsplash.jpg)
 
+## A short thought can bring amazing ideas.
+ 
 There are some great quotes I’ve been collecting.
 
 I use them as inspiration or motto for some articles.
@@ -14,9 +14,9 @@ I use them as inspiration or motto for some articles.
 
 _Phil Karlton_
 
-[What exactly is a name — Part I The Quest](https://maximilianocontieri.com/what-exactly-is-a-name-part-i-the-quest)
+[What exactly is a name — Part I The Quest](Theory\What exactly is a name — Part I The Quest)
 
-[Code Smell 49 - Caches](https://maximilianocontieri.com/code-smell-49-caches)
+[Code Smell 49 - Caches](Code Smells\Code Smell 49 - Caches)
 
 * * *
 
@@ -24,7 +24,7 @@ _Phil Karlton_
 
 _Yaron Minsky_
 
-[The Evil Power of Mutants](https://maximilianocontieri.com/the-evil-powers-of-mutants)
+[The Evil Power of Mutants](Theory\The Evil Power of Mutants)
 
 * * *
 
@@ -32,7 +32,7 @@ _Yaron Minsky_
 
 _Kent Beck_
 
-[Code Smell 35 - State as Properties](https://maximilianocontieri.com/code-smell-35-state-as-properties)
+[Code Smell 35 - State as Properties](Code Smells\Code Smell 35 - State as Properties)
 
 * * *
 
@@ -40,7 +40,7 @@ _Kent Beck_
 
 _Rebecca Wirfs-Brock_
 
-[Code Smell 28 - Setters](https://maximilianocontieri.com/code-smell-28-setters)
+[Code Smell 28 - Setters](Code Smells\Code Smell 28 - Setters)
 
 * * *
 
@@ -144,7 +144,7 @@ _Joel Spolsky_
 
 _Kent Beck_
 
-[Code Smell 109 - Automatic Properties](https://maximilianocontieri.com/code-smell-109-automatic-properties)
+[Code Smell 109 - Automatic Properties](Code Smells\Code Smell 109 - Automatic Properties)
 
 * * *
 
@@ -201,7 +201,7 @@ _Andrew Clark_
 
 _Gene Spafford_
 
-[Code Smell 120 - Sequential IDs](https://maximilianocontieri.com/code-smell-120-sequential-ids)
+[Code Smell 120 - Sequential IDs](Code Smells\Code Smell 120 - Sequential IDs)
 
 * * *
 
@@ -209,7 +209,7 @@ _Gene Spafford_
 
 _Andrew Hunt_
 
-[Code Smell 118 - Return False](https://maximilianocontieri.com/code-smell-118-return-false)
+[Code Smell 118 - Return False](Code Smells\Code Smell 118 - Return False)
 
 * * * 
 
@@ -229,7 +229,7 @@ _Anonymous_
 
 _Steve McConnell_
 
-[Code Smell 74 - Empty Lines](https://maximilianocontieri.com/code-smell-74-empty-lines)
+[Code Smell 74 - Empty Lines](Code Smells\Code Smell 74 - Empty Lines)
 
 * * *
 
@@ -243,7 +243,7 @@ _Ward Cunningham_
 
 _Dennie van Tassel_
 
-[Code Smell 104 - Assert True](https://maximilianocontieri.com/code-smell-104-assert-true)
+[Code Smell 104 - Assert True](Code Smells\Code Smell 104 - Assert True)
 
 * * *
 
@@ -257,7 +257,7 @@ _Sidney Markowitz_
 
 _David West_
 
-[Code Smell 114 - Empty Class](https://maximilianocontieri.com/code-smell-114-empty-class)
+[Code Smell 114 - Empty Class](Code Smells\Code Smell 114 - Empty Class)
 
 * * *
 
@@ -303,7 +303,7 @@ _Louis Srygley_
 
 _Erich Gamma_
 
-[Code Smell 103 - Double Encapsulation](https://maximilianocontieri.com/code-smell-103-double-encapsulation)
+[Code Smell 103 - Double Encapsulation](Code Smells\Code Smell 103 - Double Encapsulation)
 
 * * * 
 
@@ -317,7 +317,7 @@ _Jeff Atwood_
 
 _Niels Bohr_
 
-[Code Smell 54 - Anchor Boats](https://maximilianocontieri.com/code-smell-54-anchor-boats)
+[Code Smell 54 - Anchor Boats](Code Smells\Code Smell 54 - Anchor Boats)
 
 * * *
 
@@ -343,7 +343,7 @@ _Leah Culver_
 
 _Mich Ravera_
 
-[Code Smell 101 - Comparison Against Booleans](https://maximilianocontieri.com/code-smell-101-comparison-against-booleans)
+[Code Smell 101 - Comparison Against Booleans](Code Smells\Code Smell 101 - Comparison Against Booleans)
 
 * * *
 
@@ -369,7 +369,7 @@ _Rico Mariani_
 
 _Joel Spolsky_
 
-[Code Smell 02 - Constants and Magic Numbers](https://maximilianocontieri.com/code-smell-02-constants-and-magic-numbers)
+[Code Smell 02 - Constants and Magic Numbers](Code Smells\Code Smell 02 - Constants and Magic Numbers)
 
 * * *
 
@@ -377,7 +377,7 @@ _Joel Spolsky_
 
 _Henry Spencer_
 
-[Code Smell 62 - Flag Variables](https://maximilianocontieri.com/code-smell-62-flag-variables)
+[Code Smell 62 - Flag Variables](Code Smells\Code Smell 62 - Flag Variables)
 
 * * * 
 
@@ -387,7 +387,7 @@ _Henry Spencer_
 
 _Michael Feathers_
 
-[Code Smell 61 - Coupling to Classes](https://maximilianocontieri.com/code-smell-61-coupling-to-classes)
+[Code Smell 61 - Coupling to Classes](Code Smells\Code Smell 61 - Coupling to Classes)
 
 * * *
 
@@ -401,7 +401,7 @@ _Zhuowei Zhang_
 
 _Alan Cooper_
 
-[Code Smell 68 - Getters](https://maximilianocontieri.com/code-smell-68-getters)
+[Code Smell 68 - Getters](Code Smells\Code Smell 68 - Getters)
 
 * * *
 
@@ -421,7 +421,7 @@ _Salman Arshad_
 
 _Douglas McIlroy_
 
-[Code Smell 119 - Stairs Code](https://maximilianocontieri.com/code-smell-119-stairs-code)
+[Code Smell 119 - Stairs Code](Code Smells\Code Smell 119 - Stairs Code)
 
 * * *
 
@@ -441,7 +441,7 @@ _Mario Fusco_
 
 _Alan Kay_
 
-[Code Smell 31 - Accidental Methods on Business Objects](https://maximilianocontieri.com/code-smell-31-accidental-methods-on-business-objects)
+[Code Smell 31 - Accidental Methods on Business Objects](Code Smells\Code Smell 31 - Accidental Methods on Business Objects)
 
 * * *
 
@@ -449,7 +449,7 @@ _Alan Kay_
 
 _Jack Reeves_
 
-[Code Smell 99 - First Second](https://maximilianocontieri.com/code-smell-99-first-second)
+[Code Smell 99 - First Second](Code Smells\Code Smell 99 - First Second)
 
 * * *
 
@@ -469,7 +469,7 @@ _Oswald Chambers_
 
 _Rebecca Wirfs-Brock_
 
-[Code Smell 21 - Anonymous Functions Abusers](https://maximilianocontieri.com/code-smell-21-anonymous-functions-abusers)
+[Code Smell 21 - Anonymous Functions Abusers](Code Smells\Code Smell 21 - Anonymous Functions Abusers)
 
 * * *
 
@@ -519,7 +519,7 @@ _Kent Beck_
 
 _Bruce Sterling_
 
-[Code Smell 44 - Magic Corrections](https://maximilianocontieri.com/code-smell-44-magic-corrections)
+[Code Smell 44 - Magic Corrections](Code Smells\Code Smell 44 - Magic Corrections)
 
 * * *
 
@@ -563,7 +563,7 @@ _Nathaniel S. Borenstein_
 
 _Kyle Simpson_
 
-[Code Smell 27 - Associative Arrays](https://maximilianocontieri.com/code-smell-27-associative-arrays)
+[Code Smell 27 - Associative Arrays](Code Smells\Code Smell 27 - Associative Arrays)
 
 * * *
 
@@ -577,7 +577,7 @@ _Seymour Cray_
 
 _Michael Feathers_
 
-[Code Smell 59 - Basic Do Functions](https://maximilianocontieri.com/code-smell-59-basic-do-functions)
+[Code Smell 59 - Basic / Do Functions](Code Smells\Code Smell 59 - Basic Do Functions)
 
 * * *
 
@@ -591,7 +591,7 @@ It is practically impossible to teach good programming to students that have had
 
 Edsger Dijkstra
 
-[Code Smell 100 - GoTo](https://maximilianocontieri.com/code-smell-100-goto)
+[Code Smell 100 - GoTo](Code Smells\Code Smell 100 - GoTo)
 
 * * *
 
@@ -618,7 +618,7 @@ _Mark Donner_
 
 _Pamela Zave_
 
-[Code Smell 102 - Arrow Code](https://maximilianocontieri.com/code-smell-102-arrow-code)
+[Code Smell 102 - Arrow Code](Code Smells\Code Smell 102 - Arrow Code)
 
 * * *
 
@@ -626,7 +626,7 @@ _Pamela Zave_
 
 _Richard Hamming_
 
-[Code Smell 71 - Magic Floats Disguised as Decimals](https://maximilianocontieri.com/code-smell-71-magic-floats-disguised-as-decimals)
+[Code Smell 71 - Magic Floats Disguised as Decimals](Code Smells\Code Smell 71 - Magic Floats Disguised as Decimals)
 
 * * *
 
@@ -634,7 +634,7 @@ _Richard Hamming_
 
 _Dave Thomas_
 
-[Code Smell 60 - Global Classes](https://maximilianocontieri.com/code-smell-60-global-classes)
+[Code Smell 60 - Global Classes](Code Smells\Code Smell 60 - Global Classes)
 
 * * *
 
@@ -648,7 +648,7 @@ _Nathan Myhrvold_
 
 _Bram Cohen_
 
-[Singleton - The root of all evil](https://maximilianocontieri.com/singleton-the-root-of-all-evil)
+[Singleton - The root of all evil](Theory\Singleton - The root of all evil)
 
 * * *
 
@@ -684,7 +684,7 @@ _Chris Pine_
 
 _Robert Martin_
 
-[Code Smell 66 - Shotgun Surgery](https://maximilianocontieri.com/code-smell-66-shotgun-surgery)
+[Code Smell 66 - Shotgun Surgery](Code Smells\Code Smell 66 - Shotgun Surgery)
 
 * * *
 
@@ -692,7 +692,7 @@ Software is a gas; it expands to fill its container.
 
 Nathan Myhrvold
 
-[Code Smell 43 - Concrete Classes Subclassified](https://maximilianocontieri.com/code-smell-43-concrete-classes-subclassified)
+[Code Smell 43 - Concrete Classes Subclassified](Code Smells\Code Smell 43 - Concrete Classes Subclassified)
 
 * * *
 
@@ -700,7 +700,7 @@ Nathan Myhrvold
 
 _Tony Hoare_
 
-[Code Smell 12 - Null](https://maximilianocontieri.com/code-smell-12-null)
+[Code Smell 12 - Null](Code Smells\Code Smell 12 - Null)
 
 * * *
 
@@ -732,7 +732,7 @@ _Thomas C. Gale_
 
 _Dan Ingalls_
 
-[Code Smell 65 - Variables Named after Types](https://maximilianocontieri.com/code-smell-65-variables-named-after-types)
+[Code Smell 65 - Variables Named after Types](Code Smells\Code Smell 65 - Variables Named after Types)
 
 * * *
 
@@ -764,7 +764,7 @@ Bugs are bugs. You write code with bugs because you do. If it’s a safe languag
 
 _Ken Thompson_
 
-[Code Smell 111 - Modifying Collections While Traversing](https://maximilianocontieri.com/code-smell-111-modifying-collections-while-traversing)
+[Code Smell 111 - Modifying Collections While Traversing](Code Smells\Code Smell 111 - Modifying Collections While Traversing)
 
 * * *
 
@@ -784,7 +784,7 @@ _Bruce Brown_
 
 _Donald Knuth_
 
-[Code Smell 20 - Premature Optimization](https://maximilianocontieri.com/code-smell-20-premature-optimization)
+[Code Smell 20 - Premature Optimization](Code Smells\Code Smell 20 - Premature Optimization)
 
 * * *
 
@@ -804,7 +804,7 @@ _Terry Winograd_
 
 _David Wheeler_
 
-[Code Smell 50 - Object Keys](https://maximilianocontieri.com/code-smell-50-object-keys)
+[Code Smell 50 - Object Keys](Code Smells\Code Smell 50 - Object Keys)
 
 * * *
 
@@ -828,7 +828,7 @@ _Tony Hoare_
 
 _Donald E. Knuth_
 
-[Code Smell 95 - Premature Classification](https://maximilianocontieri.com/code-smell-95-premature-classification)
+[Code Smell 95 - Premature Classification](Code Smells\Code Smell 95 - Premature Classification)
 
 * * * 
 
@@ -914,7 +914,7 @@ _Charles C. Noble_
 
 _Paul Graham_
 
-[Code Smell 39 - new Date()](https://maximilianocontieri.com/code-smell-39-new-date)
+[Code Smell 39 - new Date()](Code Smells\Code Smell 39 - new Date())
 
 * * *
 
@@ -940,7 +940,7 @@ _Edward V Berard_
 
 _Eric Evans_
 
-[Code Smell 47 - Diagrams](https://maximilianocontieri.com/code-smell-47-diagrams)
+[Code Smell 47 - Diagrams](Code Smells\Code Smell 47 - Diagrams)
 
 * * *
 
@@ -1028,7 +1028,7 @@ _Dave Storer_
 
 _Bjarne Stroustrup_
 
-[Code Smell 56 - Preprocessors](https://maximilianocontieri.com/code-smell-56-preprocessors)
+[Code Smell 56 - Preprocessors](Code Smells\Code Smell 56 - Preprocessors)
 
 * * *
 
@@ -1036,7 +1036,7 @@ _Bjarne Stroustrup_
 
 _Mary Shaw_
 
-[Code Smell 121 - String Validations](https://maximilianocontieri.com/code-smell-121-string-validations)
+[Code Smell 121 - String Validations](Code Smells\Code Smell 121 - String Validations)
 
 * * *
 
@@ -1080,7 +1080,7 @@ _Alan Kay_
 
 _Ted Nelson_
 
-[Code Smell 129 - Structural Optimizations](https://maximilianocontieri.com/code-smell-115-return-true)
+[Code Smell 115 - Return True](Code Smells\Code Smell 115 - Return True)
 
 * * *
 
@@ -1131,7 +1131,7 @@ _Lewis D. Eigen_
 _C.A.R. Hoare_
 
 
-[Code Smell 98 - Speling Mistakes](https://maximilianocontieri.com/code-smell-98-speling-mistakes)
+[Code Smell 98 - Speling Mistakes](Code Smells\Code Smell 98 - Speling Mistakes)
 
 * * * 
 
@@ -1151,7 +1151,7 @@ _David L. Parnas_
 
 _Bill Gosper_
 
-[Code Smell 55 - Object Orgy](https://maximilianocontieri.com/code-smell-55-object-orgy)
+[Code Smell 55 - Object Orgy](Code Smells\Code Smell 55 - Object Orgy)
 
 * * *
 
@@ -1177,7 +1177,7 @@ _Martin Fowler_
 
 _Frederick P. Brooks_
 
-[Code Smell 92 - Isolated Subclasses Names](https://maximilianocontieri.com/code-smell-92-isolated-subclasses-names)
+[Code Smell 92 - Isolated Subclasses Names](Code Smells\Code Smell 92 - Isolated Subclasses Names)
 
 * * *
 
@@ -1203,7 +1203,7 @@ _Radia Perlman_
 
 _Brian Goetz_
 
-[Code Smell 112 - Testing Private Methods](https://maximilianocontieri.com/code-smell-112-testing-private-methods)
+[Code Smell 112 - Testing Private Methods](Code Smells\Code Smell 112 - Testing Private Methods)
 
 * * *
 
@@ -1403,7 +1403,7 @@ _Joshua Bloch_
 
 _Daniel T. Ling_
 
-[Code Smell 106 - Production Dependent Code](https://maximilianocontieri.com/code-smell-106-production-dependent-code)
+[Code Smell 106 - Production Dependent Code](Code Smells\Code Smell 106 - Production Dependent Code)
 
 * * *
 
@@ -1417,7 +1417,7 @@ _Gordon Schulmeyer_
 
 _Andrew Hunt_
 
-[Code Smell 123 - Mixed 'What' and 'How'](https://maximilianocontieri.com/code-smell-123-mixed-what-and-how)
+[Code Smell 123 - Mixed 'What' and 'How'](Code Smells\Code Smell 123 - Mixed 'What' and 'How')
 
 * * *
 
@@ -1425,7 +1425,7 @@ _Andrew Hunt_
 
 _Kevlin Henney_
 
-[Code Smell 107 - Variables Reuse](https://maximilianocontieri.com/code-smell-107-variables-reuse)
+[Code Smell 107 - Variables Reuse](Code Smells\Code Smell 107 - Variables Reuse)
 
 * * *
 
@@ -1445,7 +1445,7 @@ _Eric Gamma_
 
 _GeePaw Hill_
 
-[GeePaw Hill - Want More Value Faster Take Many More Much Smaller Steps](https://maximilianocontieri.com/tdd-conference-2021-want-more-value-faster-take-many-more-much-smaller-steps-geepaw-hill)
+[TDD Conference 2021 - GeePaw Hill - Want More Value Faster Take Many More Much Smaller Steps](TDD Conference 2021\GeePaw Hill - Want More Value Faster Take Many More Much Smaller Steps)
 
 * * *
 
@@ -1489,7 +1489,7 @@ _Peter Norvig_
 
 _Alex Lowe_
 
-[Lazyness II - Code Wizards](https://maximilianocontieri.com/lazyness-ii-code-wizards)
+[Lazyness II - Code Wizards](Theory\Lazyness II - Code Wizards)
 
 * * *
 
@@ -1545,7 +1545,7 @@ _Martin Fowler_
 
 _Robert D. Schneider_
 
-[Code Smell 97 - Error Messages Without Empathy](https://maximilianocontieri.com/code-smell-97-error-messages-without-empathy)
+[Code Smell 97 - Error Messages Without Empathy](Code Smells\Code Smell 97 - Error Messages Without Empathy)
 
 * * *
 
@@ -1663,7 +1663,7 @@ _John O'Nolan_
 
 _Neal Ford_
 
-[Code Smell 16 - Ripple Effect](https://maximilianocontieri.com/code-smell-16-ripple-effect)
+[Code Smell 16 - Ripple Effect](Code Smells\Code Smell 16 - Ripple Effect)
 
 * * *
 
@@ -1677,7 +1677,7 @@ _Douglas Crockford_
 
 _Linus Torvalds_
 
-[Code Smell 105 - Comedian Methods](https://maximilianocontieri.com/code-smell-105-comedian-methods)
+[Code Smell 105 - Comedian Methods](Code Smells\Code Smell 105 - Comedian Methods)
 
 * * *
 
@@ -1727,7 +1727,7 @@ _Alan J. Perlis_
 
 _Dave Farley_
 
-[Code Smell 122 - Primitive Obsession](https://maximilianocontieri.com/code-smell-122-primitive-obsession)
+[Code Smell 122 - Primitive Obsession](Code Smells\Code Smell 122 - Primitive Obsession)
 
 * * *
 
@@ -1759,7 +1759,7 @@ _Robert C. Martin_
 
 _Mitch Ratcliffe_
 
-[Fail Fast](https://maximilianocontieri.com/fail-fast)
+[Fail Fast](Theory\Fail Fast)
 
 ![Code](IgBc7aKoW.jpeg) Photo by [Shahadat Rahman](https://unsplash.com/@hishahadat) on [Unsplash](https://unsplash.com/s/photos/programming-languages)
 
@@ -1987,7 +1987,7 @@ _Larry Wall_
 
 _Albert Einstein_
 
-[Code Smell 117 - Unrealistic Data](https://maximilianocontieri.com/code-smell-117-unrealistic-data)
+[Code Smell 117 - Unrealistic Data](Code Smells\Code Smell 117 - Unrealistic Data)
 
 * * *
 
@@ -2055,7 +2055,7 @@ _Bertrand Meyer_
 
 _Edward Garson_
 
-[Code Smell 93 - Send me Anything](https://maximilianocontieri.com/code-smell-93-send-me-anything)
+[Code Smell 93 - Send me Anything](Code Smells\Code Smell 93 - Send me Anything)
 
 * * *
 
@@ -2063,7 +2063,7 @@ _Edward Garson_
 
 _Edsger Dijkstra_
 
-[Code Smell 36 - Switch case elseif else if statements](https://maximilianocontieri.com/code-smell-36-switchcaseelseifelseif-statements)
+[Code Smell 36 - Switch/case/elseif/else/if statements](Code Smells\Code Smell 36 - Switch case elseif else if statements)
 
 * * *
 
@@ -2455,7 +2455,7 @@ _Bjarne Stroustrup_
 
 _John Carmack_
 
-[Code Smell 110 - Switches With Defaults](https://maximilianocontieri.com/code-smell-110-switches-with-defaults)
+[Code Smell 110 - Switches With Defaults](Code Smells\Code Smell 110 - Switches With Defaults)
 
 * * *
 
@@ -2547,7 +2547,7 @@ _Martin Fowler_
 
 _Fred Brooks_
 
-[No Silver Bullet](https://maximilianocontieri.com/no-silver-bullet)
+[No Silver Bullet](Theory\No Silver Bullet)
 
 * * *
 
@@ -2593,7 +2593,7 @@ _Martin Fowler_
 
 _Steve Klabnik_
 
-[Code Smell 37 - Protected Attributes](https://maximilianocontieri.com/code-smell-37-protected-attributes)
+[Code Smell 37 - Protected Attributes](Code Smells\Code Smell 37 - Protected Attributes)
 
 * * *
 
@@ -2701,7 +2701,7 @@ _David Wheeler_
 
 _John Woods_
 
-[Code Smell 91 - Test Asserts without Description](https://maximilianocontieri.com/code-smell-91-test-asserts-without-description)
+[Code Smell 91 - Test Asserts without Description](Code Smells\Code Smell 91 - Test Asserts without Description)
 
 * * *
 
@@ -2727,7 +2727,7 @@ _Alan Cooper_
 
 _Ron Jeffries_
 
-[Benefits Of Going Beyond The Make-It-Work Phase - Francisco Climent](https://maximilianocontieri.com/tdd-conference-2021-benefits-of-going-beyond-the-make-it-work-phase-francisco-climent)
+[TDD Conference 2021 - Benefits Of Going Beyond The Make-It-Work Phase - Francisco Climent](TDD Conference 2021\TDD Conference 2021 - Benefits Of Going Beyond The Make-It-Work Phase - Francisco Climent)
 
 * * *
 
@@ -2735,7 +2735,7 @@ _Ron Jeffries_
 
 _Leopold Kronecker_
 
-[Code Smell 108 - Float Assertions](https://maximilianocontieri.com/code-smell-108-float-assertions)
+[Code Smell 108 - Float Assertions](Code Smells\Code Smell 108 - Float Assertions)
 
 * * *
 
@@ -2767,7 +2767,7 @@ _Alistair Cockburn_
 
 _Kent Beck_
 
-[Code Smell 96 - My Objects](https://maximilianocontieri.com/code-smell-96-my-objects)
+[Code Smell 96 - My Objects](Code Smells\Code Smell 96 - My Objects)
 
 * * *
 
@@ -2835,7 +2835,7 @@ _Steve McConnell_
 
 _Martin Fowler_
 
-[Code Smell 05 - Comment Abusers](https://maximilianocontieri.com/code-smell-05-comment-abusers)
+[Code Smell 05 - Comment Abusers](Code Smells\Code Smell 05 - Comment Abusers)
 
 * * *
 
@@ -2879,7 +2879,7 @@ _Jon Evans_
 
 _Alan Perlis_
 
-[Code Smell 94 - Too Many imports](https://maximilianocontieri.com/code-smell-94-too-many-imports)
+[Code Smell 94 - Too Many imports](Code Smells\Code Smell 94 - Too Many imports)
 
 * * * 
 
@@ -2887,7 +2887,7 @@ _Alan Perlis_
 
 _Robert Martin_
 
-[Code Smell 64 - Inappropriate Intimacy](https://maximilianocontieri.com/code-smell-64-inappropriate-intimacy)
+[Code Smell 64 - Inappropriate Intimacy](Code Smells\Code Smell 64 - Inappropriate Intimacy)
 
 * * *
 
@@ -2895,7 +2895,7 @@ _Robert Martin_
 
 _Andrew S. Tannenbaum_
 
-[Code Smell 48 - Code Without Standards](https://maximilianocontieri.com/code-smell-48-code-without-standards)
+[Code Smell 48 - Code Without Standards](Code Smells\Code Smell 48 - Code Without Standards)
 
 * * *
 
@@ -2921,7 +2921,7 @@ _Wietse Venema_
 
 _Joel Spolsky_
 
-[Code Smell 51 - Double Negatives](https://maximilianocontieri.com/code-smell-51-double-negatives)
+[Code Smell 51 - Double Negatives](Code Smells\Code Smell 51 - Double Negatives)
 
 * * *
 
@@ -2941,7 +2941,7 @@ _Niklaus Wirth_
 
 _Dennis Ritchie_
 
-[Code Smell 113 - Data Naming](https://maximilianocontieri.com/code-smell-113-data-naming)
+[Code Smell 113 - Data Naming](Code Smells\Code Smell 113 - Data Naming)
 
 * * *
 
@@ -2949,7 +2949,7 @@ _Dennis Ritchie_
 
 _Chuck Palahniuk_
 
-[Code Smell 57 - Versioned Functions](https://maximilianocontieri.com/code-smell-57-versioned-functions)
+[Code Smell 57 - Versioned Functions](Code Smells\Code Smell 57 - Versioned Functions)
 
 * * *
 
@@ -2957,7 +2957,7 @@ _Chuck Palahniuk_
 
 _David Walker_
 
-[Code Smell 53 - Explicit Iteration](https://maximilianocontieri.com/code-smell-53-explicit-iteration)
+[Code Smell 53 - Explicit Iteration](Code Smells\Code Smell 53 - Explicit Iteration)
 
 * * *
 
@@ -3041,7 +3041,7 @@ _Bjarne Stroustrup_
 
 _David Gelernter_
 
-[Code Smell 45 - Not Polymorphic](https://maximilianocontieri.com/code-smell-45-not-polymorphic)
+[Code Smell 45 - Not Polymorphic](Code Smells\Code Smell 45 - Not Polymorphic)
 
 * * *
 
@@ -3073,7 +3073,7 @@ _Cem Kaner_
 
 _Robert Martin_
 
-[Code Smell 72 - Return Codes](https://maximilianocontieri.com/code-smell-72-return-codes)
+[Code Smell 72 - Return Codes](Code Smells\Code Smell 72 - Return Codes)
 
 * * *
 
@@ -3087,7 +3087,7 @@ _Douglas Crockford_
 
 _Richard Pattis_
 
-[Code Smell 73 - Exceptions for Expected Cases](https://maximilianocontieri.com/code-smell-73-exceptions-for-expected-cases)
+[Code Smell 73 - Exceptions for Expected Cases](Code Smells\Code Smell 73 - Exceptions for Expected Cases)
 
 * * *
 
@@ -3175,7 +3175,7 @@ _Olin Shivers_
 
 _Grady Booch_
 
-[Code Smell 52 - Fragile Tests](https://maximilianocontieri.com/code-smell-52-fragile-tests)
+[Code Smell 52 - Fragile Tests](Code Smells\Code Smell 52 - Fragile Tests)
 
 * * *
 
@@ -3231,7 +3231,7 @@ _Wietse Venema_
 
 _Pierce Brown_
 
-[Code Smell 26 - Exceptions Polluting](https://maximilianocontieri.com/code-smell-26-exceptions-polluting)
+[Code Smell 26 - Exceptions Polluting](Code Smells\Code Smell 26 - Exceptions Polluting)
 
 * * *
 
@@ -3245,7 +3245,7 @@ _Robert Martin_
 
 _Austin Freeman_
 
-[Code Smell 29 - Settings - Configs](https://maximilianocontieri.com/code-smell-29-settingsconfigs)
+[Code Smell 29 - Settings - Configs](Code Smells\Code Smell 29 - Settings - Configs)
 
 * * *
 
@@ -3259,7 +3259,7 @@ _Michel Gauthier_
 
 _Kreitzberg & Shneiderman_
 
-[Code Smell 06 - Too Clever Programmer](https://maximilianocontieri.com/code-smell-06-too-clever-programmer)
+[Code Smell 06 - Too Clever Programmer](Code Smells\Code Smell 06 - Too Clever Programmer)
 
 * * *
 
@@ -3267,7 +3267,7 @@ _Kreitzberg & Shneiderman_
 
 _Ryan Singer_
 
-[Code Smell 34 - Too Many Attributes](https://maximilianocontieri.com/code-smell-34-too-many-attributes)
+[Code Smell 34 - Too Many Attributes](Code Smells\Code Smell 34 - Too Many Attributes)
 
 * * *
 
@@ -3299,7 +3299,7 @@ _Brian Kernighan_
 
 _Brian Goetz_
 
-[Code Smell 116 - Variables Declared With 'var](https://maximilianocontieri.com/code-smell-116-variables-declared-with-var)
+[Code Smell 116 - Variables Declared With 'var'](Code Smells\Code Smell 116 - Variables Declared With 'var')
 
 * * *
 
@@ -3385,7 +3385,7 @@ _Matthew Austern_
 
 _Brian Kernighan_
 
-[What exactly is a name — Part II Rehab](https://maximilianocontieri.com/what-exactly-is-a-name-part-ii-rehab)
+[What exactly is a name — Part II Rehab](Theory\What exactly is a name — Part II Rehab)
 
 * * *
 
@@ -3401,7 +3401,7 @@ _Cory House_
 
 _Robert Martin_
 
-[Code Smell 33 - Abbreviations](https://maximilianocontieri.com/code-smell-33-abbreviations)
+[Code Smell 33 - Abbreviations](Code Smells\Code Smell 33 - Abbreviations)
 
 * * *
 
@@ -3433,7 +3433,7 @@ Photo by [Raquel Martínez](https://unsplash.com/@fiteka) on [Unsplash](https://
 
 _Michael Feathers_
 
-[How to Decouple a Legacy System](https://maximilianocontieri.com/how-to-decouple-a-legacy-system) 
+[How to Decouple a Legacy System](Theory\How to Decouple a Legacy System) 
 
 * * *
 
@@ -3459,7 +3459,7 @@ _Tom Cargill_
 
 _Jessica Gaston_
 
-[Code Smell 42 - Warnings/Strict Mode Off](https://maximilianocontieri.com/code-smell-42-warningsstrict-mode-off)
+[Code Smell 42 - Warnings/Strict Mode Off](Code Smells\Code Smell 42 - Warnings Strict Mode Off)
 
 * * *
 
@@ -3473,7 +3473,7 @@ _Tim O'Reilly_
 
 _Boris Beizer_
 
-[Code Smell 30 - Mocking Business](https://maximilianocontieri.com/code-smell-30-mocking-business)
+[Code Smell 30 - Mocking Business](Code Smells\Code Smell 30 - Mocking Business)
 
 * * *
 
@@ -3529,7 +3529,7 @@ _Kent Beck_
 
 _Donald Knuth_
 
-[Stop Calling them ‘Bugs’](https://maximilianocontieri.com/stop-calling-them-bugs)
+[Stop Calling them 'Bugs'](Theory\Stop Calling them 'Bugs')
 
 * * *
 
@@ -3550,7 +3550,7 @@ _Jon Franklin_
 
 _Michael Feathers_
 
-[How to Squeeze Test Driven Development on Legacy Systems](https://maximilianocontieri.com/how-to-squeeze-test-driven-development-on-legacy-systems)
+[How to Squeeze Test Driven Development on Legacy Systems](TDD\How to Squeeze Test Driven Development on Legacy Systems)
 
 * * *
 
@@ -3572,7 +3572,7 @@ _Bertrand Meyer_
 
 _Larry Wall_
 
-[Code Smell 41 - Regular Expression Abusers](https://maximilianocontieri.com/code-smell-41-regular-expression-abusers)
+[Code Smell 41 - Regular Expression Abusers](Code Smells\Code Smell 41 - Regular Expression Abusers)
 
 * * *
 
@@ -3654,7 +3654,7 @@ _Marissa Mayer_
 
 _Rebecca Wirf Brooks_
 
-[Code Smell 63 - Feature Envy](https://maximilianocontieri.com/code-smell-63-feature-envy)
+[Code Smell 63 - Feature Envy](Code Smells\Code Smell 63 - Feature Envy)
 
 * * *
 
@@ -3712,7 +3712,7 @@ Photo by [Kelvyn Ornettte Sol Marte](https://unsplash.com/@kelvyn) on [Unsplash]
 
 _Martin Fowler_
 
-[Code Smell 67 - Middle Man](https://maximilianocontieri.com/code-smell-67-middle-man)
+[Code Smell 67 - Middle Man](Code Smells\Code Smell 67 - Middle Man)
 
 * * *
 
@@ -3748,7 +3748,7 @@ _Alan Kay_
 
 Part of the objective of this series of articles is to generate spaces for debate and discussion on software design.
 
-[Object Design Checklist](https://maximilianocontieri.com/object-design-checklist)
+[Object Design Checklist](Theory\Object Design Checklist)
 
 We look forward to comments and suggestions on this article.
 

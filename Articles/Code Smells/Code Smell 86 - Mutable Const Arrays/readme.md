@@ -1,8 +1,8 @@
 # Code Smell 86 - Mutable Const Arrays
 
-*Const declares something to be constant. Can it mutate?*
-
 ![Code Smell 86 - Mutable Const Arrays](zorik-d-Xe7fo6aO3uo-unsplash.jpg)
+
+*Const declares something to be constant. Can it mutate?*
 
 > TL;DR: Don't rely on languages cheating about directives.
 
@@ -28,9 +28,9 @@ const array = [1, 2];
 
 array.push(3)
 
-//array => [1, 2, 3]
-//Wasn't it constant ?
-//constant != immutable ?
+// array => [1, 2, 3]
+// Wasn't it constant ?
+// constant != immutable ?
 ```
 
 ## Right
@@ -41,8 +41,8 @@ const array = [1, 2];
 
 const newArray = [...array,3 ]
 
-//array => [1, 2] Didn't mutate
-//newArray = [1, 2, 3]
+// array => [1, 2] Didn't mutate
+// newArray = [1, 2, 3]
 ```
 
 # Detection
@@ -61,7 +61,7 @@ We should always favour immutability on our designs and take extra care with sid
 
 # More Info
 
-- [The evil power of mutants](https://maximilianocontieri.com/the-evil-powers-of-mutants)
+- [The evil power of mutants](Theory\The Evil Power of Mutants)
 
 # Credits
 
@@ -75,10 +75,10 @@ Photo by [Zorik D](https://unsplash.com/@justzorik) on [Unsplash](https://unspla
 
 _Bertrand Meyer_
  
-[Software Engineering Great Quotes](Software Engineering Great Quotes)
+[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](https://maximilianocontieri.com/how-to-find-the-stinky-parts-of-your-code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

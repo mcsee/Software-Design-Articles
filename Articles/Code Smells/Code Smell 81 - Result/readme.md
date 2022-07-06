@@ -1,8 +1,8 @@
 # Code Smell 81 - Result
 
-*result = ???*
-
 ![Code Smell 81 - Result](kma-r-5ytz5i00A-unsplash.jpg)
+
+*result = ???*
 
 > TL;DR: Use good names always. Result is always a very bad name.
 
@@ -12,11 +12,15 @@
 
 # Solutions
 
-1. Rename *result*.
+1. [Rename](Refactorings\Refactoring 006 - Rename Result Variables) *result*.
 
 2. If you don't know how to name it, just name the variable with the same name as the last function call.
 
 3. Don't use IDEs without automatic refactors.
+
+# Refactorings
+
+[Refactoring 006 - Rename Result Variables](Refactorings\Refactoring 006 - Rename Result Variables)
 
 # Sample Code
 
@@ -41,7 +45,7 @@ addBlockAfter(result);
 var lastBlockchainBlock;
 
 lastBlockchainBlock = findlastBlockchainBlock();
-//...
+// ...
 
 // Many function calls 
 // we should refactor them to minimize space
@@ -74,11 +78,11 @@ Refactoring is cheap and safe.
 
 # More info
 
-- [What is in a name? Part I: Rehab](https://maximilianocontieri.com/what-exactly-is-a-name-part-ii-rehab).
+- [What is in a name? Part I: Rehab](Theory\What exactly is a name — Part II Rehab).
 
 # Credits
 
-Photo by [KMA .](https://unsplash.com/@kmaimg) on [Unsplash](https://unsplash.com/s/photos/magician)
+Photo by [KMA](https://unsplash.com/@kmaimg) on [Unsplash](https://unsplash.com/s/photos/magician)
   
 * * *
 
@@ -86,10 +90,10 @@ Photo by [KMA .](https://unsplash.com/@kmaimg) on [Unsplash](https://unsplash.co
 
 _Cory House_
  
-[Software Engineering Great Quotes](Software Engineering Great Quotes)
+[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](https://maximilianocontieri.com/how-to-find-the-stinky-parts-of-your-code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

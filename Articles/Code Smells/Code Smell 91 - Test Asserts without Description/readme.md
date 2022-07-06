@@ -1,8 +1,8 @@
 # Code Smell 91 - Test Asserts without Description
 
-*We are big fans of xUnit. But we don't care much for the programmers.*
-
 ![Code Smell 91 - Test Asserts without Description](startae-team-7tXA8xwe4W4-unsplash.jpg)
+
+*We are big fans of xUnit. But we don't care much for the programmers.*
 
 > TL;DR: Use asserts with declarative descriptions.
 
@@ -32,10 +32,10 @@ public function testNoNewStarsAppeared(): void
   {
      $expectedStars = $this->historicStarsOnFrame();
      $observedStars = $this->starsFromObservation();
-     //These sentences get a very large collection
+     // These sentences get a very large collection
   
      $this->assertEquals($expectedStars, $observedStars);
-     //If something fails we will have a very hard debugging time
+     // If something fails we will have a very hard debugging time
     }
 ```
 
@@ -49,14 +49,14 @@ public function testNoNewStarsAppeared(): void
   {
      $expectedStars = $this->historicStarsOnFrame();
      $observedStars = $this->starsFromObservation();
-     //These sentences get a very large collection
+     // These sentences get a very large collection
   
      $newStars = array_diff($expectedStars, $observedStars);
   
      $this->assertEquals($expectedStars, $observedStars ,
          'There are new stars ' . print_r($newStars,true));
-     //Now we can see EXACTLY why the assertion failed with a clear and
-     //Declarative Message 
+     // Now we can see EXACTLY why the assertion failed with a clear and
+     // Declarative Message
     }
 ```
 
@@ -80,7 +80,7 @@ It might even be yourself!
 
 # Credits
 
-Photo by [Startaê Team](https://unsplash.com/@startaeteam) on [Unsplash](https://unsplash.com/s/photos/dialogue)  
+Photo by [StartaÃª Team](https://unsplash.com/@startaeteam) on [Unsplash](https://unsplash.com/s/photos/dialogue)  
 
 * * *
 
@@ -94,4 +94,4 @@ _John Woods_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](https://maximilianocontieri.com/how-to-find-the-stinky-parts-of-your-code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

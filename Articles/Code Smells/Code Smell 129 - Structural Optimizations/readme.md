@@ -1,8 +1,8 @@
 # Code Smell 129 - Structural Optimizations
 
-*We love to improve time and space complexity by guessing not real scenarios*
-
 ![Code Smell 129 - Structural Optimizations](priscilla-du-preez-msCvfyAmAx0-unsplash.jpg)
+
+*We love to improve time and space complexity by guessing not real scenarios*
 
 > TL;DR: Don't optimize anything until you have a real use scenario benchmark.
 
@@ -10,7 +10,7 @@
 
 - Readability
 
-- [Bijection](https://maximilianocontieri.com/the-one-and-only-software-design-principle) and [MAPPER](Theory\What is (wrong with) software) violations
+- [Bijection](Theory\The One and Only Software Design Principle) and [MAPPER](Theory\What is (wrong with) software) violations
 
 - Premature Optimization
 
@@ -48,10 +48,10 @@ for (k = 0; k < 3 * 3; ++k) {
      console.log(i + ' ' +  j);
   }
  
-//This cryptic piece of code iterates a 
-//two dimensional array
-//We don't have proofs this will be useful
-//In real contexts
+// This cryptic piece of code iterates a
+// two dimensional array
+// We don't have proofs this will be useful
+// In real contexts
 ```
 
 ## Right
@@ -91,9 +91,9 @@ We need to avoid programming languages designed for premature optimization and f
 
 # Relations
 
-[Code Smell 06 - Too Clever Programmer](https://maximilianocontieri.com/code-smell-06-too-clever-programmer)
+[Code Smell 06 - Too Clever Programmer](Code Smells\Code Smell 06 - Too Clever Programmer)
 
-[Code Smell 20 - Premature Optimization](https://maximilianocontieri.com/code-smell-20-premature-optimization)
+[Code Smell 20 - Premature Optimization](Code Smells\Code Smell 20 - Premature Optimization)
 
 # More Info
 
@@ -115,4 +115,4 @@ _Kent Beck_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](https://maximilianocontieri.com/how-to-find-the-stinky-parts-of-your-code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

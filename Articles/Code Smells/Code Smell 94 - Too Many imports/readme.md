@@ -1,8 +1,8 @@
 # Code Smell 94 - Too Many imports
 
-*If your class relies on too many others, it will be coupled and fragile. A long import list is a good indicator.*
-
 ![Code Smell 94 - Too Many imports](zdenek-machacek-jbe0iCwo-U0-unsplash.jpg)
+
+*If your class relies on too many others, it will be coupled and fragile. A long import list is a good indicator.*
 
 > TL;DR: Don't import too much.
 
@@ -37,7 +37,7 @@ import java.util.NoSuchElementException
 import java.util.Queue;
 import org.fermi.common.util.ClassUtil;
 import org.fermi.Data;
-//We rely on too many libraries
+// We rely on too many libraries
 
 public class Demo {
    public static void main(String[] args) {
@@ -54,10 +54,10 @@ public class Demo {
 import org.fermi.domainModel;
 import org.fermi.workflow;
 
-//We rely on few libraries
-//and we hide their implementation
-//So maybe transitive imports are the same
-//but we don't break encapsulation
+// We rely on few libraries
+// and we hide their implementation
+// So maybe transitive imports are the same
+// but we don't break encapsulation
 
 public class Demo {
    public static void main(String[] args) {
@@ -82,11 +82,11 @@ We need to think about dependencies when building our solutions to minimize Ripp
 
 # Relations
 
-[Code Smell 61 - Coupling to Classes](https://maximilianocontieri.com/code-smell-61-coupling-to-classes)
+[Code Smell 61 - Coupling to Classes](Code Smells\Code Smell 61 - Coupling to Classes)
 
 # More Info
 
-- [Coupling: The one and only software design problem](https://maximilianocontieri.com/coupling-the-one-and-only-software-design-problem)
+- [Coupling: The one and only software design problem](Theory\Coupling - The one and only software design problem)
 
 - [Namespaces on Wikipedia](https://en.wikipedia.org/wiki/Namespace)
 
@@ -108,4 +108,4 @@ _Alan Perlis_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](https://maximilianocontieri.com/how-to-find-the-stinky-parts-of-your-code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

@@ -1,14 +1,14 @@
 # Code Smell 131 - Zero Argument Constructor
 
-*Objects created without arguments are often mutable and erratic*
-
 ![Code Smell 131 - Zero Argument Constructor](ade-adebowale-DKr6BEdI2sE-unsplash.jpg)
+
+*Objects created without arguments are often mutable and erratic*
 
 > TL;DR: Pass all your essential arguments when creating objects.
 
 # Problems
 
-- [Mutability](https://maximilianocontieri.com/the-evil-powers-of-mutants)
+- [Mutability](Theory\The Evil Power of Mutants)
 
 - Anemic Models
 
@@ -16,7 +16,7 @@
 
 1. Use one complete and single constructor.
 
-2. Avoid [Setters](https://maximilianocontieri.com/code-smell-28-setters) and [Getters](https://maximilianocontieri.com/code-smell-68-getters)
+2. Avoid [Setters](Code Smells\Code Smell 28 - Setters) and [Getters](Code Smells\Code Smell 68 - Getters)
 
 # Context
 
@@ -39,7 +39,7 @@ It is common usage using a zero-argument constructor and a bunch of setters to c
 
 [Gist Url]: # (https://gist.github.com/mcsee/af9b6b0a60b76d984cd43b2c26720040)
 ```java
-public Person(String name, int age){
+public Person(String name, int age) {
      this.name = name;
      this.age = age;
      } 
@@ -69,21 +69,23 @@ We need to research usages to improve our solutions.
 
 # Relations
 
-[Code Smell 68 - Getters](https://maximilianocontieri.com/code-smell-68-getters)
+[Code Smell 68 - Getters](Code Smells\Code Smell 68 - Getters)
 
-[Code Smell 28 - Setters](https://maximilianocontieri.com/code-smell-28-setters)
+[Code Smell 28 - Setters](Code Smells\Code Smell 28 - Setters)
 
-[Code Smell 01 - Anemic Models](https://maximilianocontieri.com/code-smell-01-anemic-models)
+[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
+
+[Code Smell 40 - DTOs](Code Smells\Code Smell 40 - DTOs)
 
 # More Info
 
 - [Nullary Constructor](https://en.wikipedia.org/wiki/Nullary_constructor)
 
-- [Nude Models — Part I : Setters](https://maximilianocontieri.com/nude-models-part-i-setters)
+- [Nude Models — Part I : Setters](Theory\Nude Models - Part I Setters)
 
-- [Nude Models — Part II : Getters](https://maximilianocontieri.com/nude-models-part-ii-getters)
+- [Nude Models — Part II : Getters](Theory\Nude Models - Part II Getters)
 
-- [The Evil Power of Mutants](https://maximilianocontieri.com/the-evil-powers-of-mutants)
+- [The Evil Power of Mutants](Theory\The Evil Power of Mutants)
 
 # Credits
 
@@ -101,4 +103,4 @@ _Martin Fowler_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](https://maximilianocontieri.com/how-to-find-the-stinky-parts-of-your-code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

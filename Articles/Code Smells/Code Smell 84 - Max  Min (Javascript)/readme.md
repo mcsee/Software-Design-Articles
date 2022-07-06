@@ -1,8 +1,8 @@
 # Code Smell 84 - Max < Min (Javascript)
 
-*Some functions do not behave as expected. Sadly, most programmers accept them.*
-
 ![Code Smell 84 - Max < Min (Javascript)](cris-baron-A18Ub2FbMlE-unsplash.jpg)
+
+*Some functions do not behave as expected. Sadly, most programmers accept them.*
 
 > TL;DR: Don't trust max() and min() functions. Just ignore them.
 
@@ -10,7 +10,7 @@
 
 - Principle of least astonishment
 
-- [Bijection](https://maximilianocontieri.com/the-one-and-only-software-design-principle) Violation.
+- [Bijection](Theory\The One and Only Software Design Principle) Violation.
 
 - Unexpected Results
 
@@ -30,11 +30,11 @@
 ```javascript
 console.log(Math.max() > Math.min());
 
-//returns false
+// returns false
 
 console.log(Math.max());
 
-//returns -Infinite
+// returns -Infinite
 ```
 
 ## Right
@@ -44,8 +44,8 @@ console.log(Math.max());
 console.log(Math.max() > Math.min());
 console.log(Math.max());
 
-//returns Exception. Not enough arguments passed.
-//Max requires at least one argument
+// returns Exception. Not enough arguments passed.
+// Max requires at least one argument
 ```
 
 # Detection
@@ -64,15 +64,15 @@ We need to be very careful using functions that violate real-world concepts usin
 
 # Relations
 
-[Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](https://maximilianocontieri.com/code-smell-69-big-bang-javascript-ridiculous-castings)
+[Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](Code Smells\Code Smell 69 - Big Bang (JavaScript Ridiculous Castings))
 
 # More Info
 
 - [Principle of least astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment)
 
-- [Bijection Principle](https://maximilianocontieri.com/the-one-and-only-software-design-principle)
+- [Bijection Principle](Theory\The One and Only Software Design Principle)
 
-- [MAPPER](https://maximilianocontieri.com/what-is-wrong-with-software)
+- [MAPPER](Theory\What is (wrong with) software)
 
 # Credits
 
@@ -88,10 +88,10 @@ Inspired by @@[Oliver Jumpertz](@OliverJumpertz)
 
 _Rick Cook_
  
-[Software Engineering Great Quotes](Software Engineering Great Quotes)
+[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](https://maximilianocontieri.com/how-to-find-the-stinky-parts-of-your-code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

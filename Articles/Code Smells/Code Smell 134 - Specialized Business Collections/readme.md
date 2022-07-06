@@ -1,104 +1,159 @@
-# Code Smell 138 - Packages Dependency
+# Code Smell 134 - Specialized Business Collections
 
-![Code Smell 138 - Packages Dependency](olieman-eth-K4Obbh4pHGE-unsplash.jpg)
+![Code Smell 134 - Specialized Business Collections](pisit-heng-FQvadXmA524-unsplash.jpg)
 
-*There's an industry trend to avoid writing code as much as possible. But this is not for free*
+*If it walks like a duck and it quacks like a duck, then it must be a duck*
 
-> TL;DR: Write your code unless you need an existing complex solution
+> TL;DR: Don't create unnecessary abstractions
 
 # Problems
 
-- [Coupling](https://maximilianocontieri.com/coupling-the-one-and-only-software-design-problem)
+- Over Design
 
-- [Security problems](https://nakedsecurity.sophos.com/2022/05/25/poisoned-python-and-php-packages-purloin-passwords-for-aws-access/)
-
-- Architectural complexity
-
-- [Packages Corruption](https://www.bleepingcomputer.com/news/security/dev-corrupts-npm-libs-colors-and-faker-breaking-thousands-of-apps/)
+- Unneeded classes
 
 # Solutions
 
-1. Import and implement trivial solutions
-
-2. Rely on external and mature dependencies
+1. Use a standard class
 
 # Context
 
-Recently, There's a trend to rely on a hard to trace dependencies.
+Discovering abstractions on the [MAPPER](Theory\What is (wrong with) software) is a hard task.
 
-This introduces coupling into our designs and architectural solutions.
+After refining we should remove unneeded abstractions.
 
 # Sample Code
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/32a73793d00fc672138e1a98bbdc9aa8)
-```javascript
-$ npm install --save is-odd
+[Gist Url]: # (https://gist.github.com/mcsee/6e4e3684bbb29379a6bf30f4a00a2c7f)
+```php
+<?php
 
-// https://www.npmjs.com/package/is-odd
-// This package has about 500k weekly downloads
-// https://github.com/i-voted-for-trump/is-odd/blob/master/index.js
+Namespace Spelling;
 
-module.exports = function isOdd(value) {
-  const n = Math.abs(value); 
-  return (n % 2) === 1;
-};
+final class Dictionary {
+
+    private $words;
+    function __construct(array $words) {
+        $this->words = $words;
+    }
+
+    function wordsCount(): int {
+        return count($this->words);
+    }
+
+    function includesWord(string $subjectToSearch): bool {
+        return in_array($subjectToSearch, $this->words);
+    }
+}
+
+// This has protocol similar to an abstract datatype dictionary
+// And the tests
+  
+use PHPUnit\Framework\TestCase;
+
+final class DictionaryTest extends TestCase {
+    public function test01EmptyDictionaryHasNoWords() {
+        $dictionary = new Dictionary([]);
+        $this->assertEquals(0, $dictionary->wordsCount());
+    }
+
+    public function test02SingleDictionaryReturns1AsCount() {        
+        $dictionary = new Dictionary(['happy']);
+        $this->assertEquals(1, $dictionary->wordsCount());
+    }
+
+    public function test03DictionaryDoesNotIncludeWord() {
+        $dictionary = new Dictionary(['happy']);
+        $this->assertFalse($dictionary->includesWord('sadly'));
+    }
+
+    public function test04DictionaryIncludesWord() {
+        $dictionary = new Dictionary(['happy']);
+        $this->assertTrue($dictionary->includesWord('happy'));
+    }
+} 
+
 ```
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/751b57a8178500e9143ea2081237ffaf)
-```javascript
-function isOdd(value) {
-  const n = Math.abs(value); 
-  return (n % 2) === 1;
-};
+[Gist Url]: # (https://gist.github.com/mcsee/2d15677ca73742cb2553aa4a098f3683)
+```php
+<?php
 
-// Just solve it inline
+Namespace Spelling;
+
+// final class Dictionary is no longer needed
+    
+// The tests use a standard class
+// In PHP we use associative arrays
+// Java and other languages have HashTables, Dictionaries etc. etc.
+  
+use PHPUnit\Framework\TestCase;
+
+final class DictionaryTest extends TestCase {
+    public function test01EmptyDictionaryHasNoWords() {
+        $dictionary = [];
+        $this->assertEquals(0, count($dictionary));
+    }
+
+    public function test02SingleDictionaryReturns1AsCount() {
+        $dictionary = ['happy']; 
+        $this->assertEquals(1, count($dictionary));
+    }
+
+    public function test03DictionaryDoesNotIncludeWord() {
+        $dictionary = ['happy']; 
+        $this->assertFalse(in_array('sadly', $dictionary));
+    }
+
+    public function test04DictionaryIncludesWord() {
+        $dictionary = ['happy'];  
+        $this->assertTrue(in_array('happy', $dictionary));
+    }
+} 
+
 ```
 
 # Detection
 
-[X] Automatic 
+[X] Semi-Automatic 
 
-We can check our external dependencies and stick to the minimum.
-
-We can also depend on a certain concrete version to avoid hijacking.
+Based on protocols, we should remove some unnecessary classes 
 
 # Tags
 
-- Security
+- Protocols
+
+# Exceptions
+
+Sometimes we need to optimize collections for performance reasons if we have enough strong evidence.
 
 # Conclusion
 
-Lazy programmers push reuse to absurd limits.
+We need to clean up code from time to time.
 
-We need a good balance between code duplication and crazy reuse.
+Specialized collections are a good starting point.
 
-As always, there are rules of thumb but no rigid rules.
- 
+# Relations
+
+[Code Smell 111 - Modifying Collections While Traversing](Code Smells\Code Smell 111 - Modifying Collections While Traversing)
+
 # More Info
 
-- [Poisoned Packages](https://nakedsecurity.sophos.com/2022/05/25/poisoned-python-and-php-packages-purloin-passwords-for-aws-access/)
-
-- [Packages Corruption](https://www.bleepingcomputer.com/news/security/dev-corrupts-npm-libs-colors-and-faker-breaking-thousands-of-apps/)
-
-- [Copyright Threats](https://qz.com/646467/how-one-programmer-broke-the-internet-by-deleting-a-tiny-piece-of-code/)
-
-- [Malware in Packages](https://therecord.media/malware-found-in-npm-package-with-millions-of-weekly-downloads/)
+- [Duck Typing](https://en.wikipedia.org/wiki/Duck_typing)
 
 # Credits
 
-Photo by [olieman.eth](https://unsplash.com/@moneyphotos?) on [Unsplash](https://unsplash.com/s/photos/security-box)
-  
-Thanks to Ramiro Rela for this smell
+Photo by [Pisit Heng](https://unsplash.com/@pisitheng) on Unsplash
 
 * * *
 
-> Complexity kills. It sucks the life out of developers, it makes products difficult to plan, build and test, it introduces security challenges, and it causes end-user and administrator frustration.
+> Most of the effort in the software business goes into the maintenance of code that already exists.
 
-_Ray Ozzie_
+_Wietse Venema_
  
 [Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
 
@@ -106,4 +161,4 @@ _Ray Ozzie_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](Unsorted\How to Find the Stinky parts of your Code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

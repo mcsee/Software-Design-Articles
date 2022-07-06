@@ -88,7 +88,7 @@ For now, it is up to us, humans.
 
 # Examples
 
-- [Automatic Code Generators](https://maximilianocontieri.com/lazyness-ii-code-wizards)
+- [Automatic Code Generators](Theory\Lazyness II - Code Wizards)
 
 # Tags
 
@@ -104,11 +104,11 @@ With our refactoring tools, we need to accept the duplication remove challenge t
 
 # Relations
 
-[Code Smell 11 - Subclassification for Code Reuse](https://maximilianocontieri.com/code-smell-11-subclassification-for-code-reuse)
+[Code Smell 11 - Subclassification for Code Reuse](Code Smells\Code Smell 11 - Subclassification for Code Reuse)
 
 # More info
 
-[Lazyness II - Code Wizards](https://maximilianocontieri.com/lazyness-ii-code-wizards)
+[Lazyness II - Code Wizards](Theory\Lazyness II - Code Wizards)
 
 %[https://en.wikipedia.org/wiki/Copy_and_paste_programming]
 
@@ -132,4 +132,4 @@ _David Parnas_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](Unsorted\How to Find the Stinky parts of your Code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

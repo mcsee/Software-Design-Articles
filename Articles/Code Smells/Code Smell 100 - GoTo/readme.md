@@ -117,7 +117,7 @@ We acknowledged GOTO problems a few decades ago.
 
 The problem is still present in [modern languages](https://en.wikipedia.org/wiki/Goto) like GoLang, PHP, Perl etc.
 
-Most programmers luckily avoid GOTO sentence. Next goal will be to consider harmful [null usage](https://maximilianocontieri.com/null-the-billion-dollar-mistake).
+Most programmers luckily avoid GOTO sentence. Next goal will be to consider harmful [null usage](Theory\Null - The Billion Dollar Mistake).
 
 ![goto xkcd](goto.png)
 
@@ -125,7 +125,7 @@ Most programmers luckily avoid GOTO sentence. Next goal will be to consider harm
 
 # Relations
 
-[Code Smell 12 - Null](https://maximilianocontieri.com/code-smell-12-null)
+[Code Smell 12 - Null](Code Smells\Code Smell 12 - Null)
 
 # More Info
 
@@ -149,4 +149,4 @@ _Edsger Dijkstra_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](Unsorted\How to Find the Stinky parts of your Code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

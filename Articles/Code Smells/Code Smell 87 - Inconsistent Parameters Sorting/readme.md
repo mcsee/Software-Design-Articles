@@ -1,8 +1,8 @@
 # Code Smell 87 - Inconsistent Parameters Sorting
 
-*Be consistent with the parameters you use. Code is prose.*
-
 ![Code Smell 87 - Inconsistent Parameters Sorting](lance-grandahl-VSXT9AV19Is-unsplash.jpg)
+
+*Be consistent with the parameters you use. Code is prose.*
 
 > TL;DR: Don't confuse you readers. Keep the order.
 
@@ -34,7 +34,7 @@ function giveSecondDoseOfVaccine(vaccine, person) {
 
 
 giveFirstDoseOfVaccine(jane, pfizer);
-giveSecondDoseOfVaccine(jane, pfizer);  //Unnoticed mistake
+giveSecondDoseOfVaccine(jane, pfizer);  // Unnoticed mistake
 ```
 
 ## Right
@@ -51,7 +51,7 @@ function giveSecondDoseOfVaccine(person, vaccine) {
 
 
 giveFirstDoseOfVaccine(jane, pfizer);
-giveSecondDoseOfVaccine(jane, pfizer);  //Jane is immunized
+giveSecondDoseOfVaccine(jane, pfizer);  // Jane is immunized
 ```
 
 # Detection
@@ -70,7 +70,7 @@ Readability is very important to avoid mistakes.
 
 # Relations
 
-[Code Smell 10 - Too Many Arguments](https://maximilianocontieri.com/code-smell-10-too-many-arguments)
+[Code Smell 10 - Too Many Arguments](Code Smells\Code Smell 10 - Too Many Arguments)
 
 # Credits
 
@@ -84,10 +84,10 @@ Photo by [Lance Grandahl](https://unsplash.com/@lg17) on [Unsplash](https://unsp
 
 _Donald Knuth_
 
-[Software Engineering Great Quotes](Software Engineering Great Quotes)
+[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](https://maximilianocontieri.com/how-to-find-the-stinky-parts-of-your-code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

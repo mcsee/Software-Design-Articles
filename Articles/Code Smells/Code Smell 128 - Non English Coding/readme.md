@@ -1,8 +1,8 @@
 # Code Smell 128 - Non English Coding
 
-*Using your local language is a great idea because domain naming is easier. Not*
-
 ![Code Smell 128 - Non English Coding](anna-vander-stel-zimQNLdnKp0-unsplash.jpg)
+
+*Using your local language is a great idea because domain naming is easier. Not*
 
 > TL;DR: Stick to English. Always.
 
@@ -48,20 +48,20 @@ elements.add(1);
 elements.add(1);
 
 echo elements.size() yields 1 
-//This is the standard set
+// This is the standard set
 
 var moreElements = new MultiConjunto();
-//We defined a multiset in Spanish
-//because we are extending the domain
+// We defined a multiset in Spanish
+// because we are extending the domain
 
 moreElements.agregar('hello');
 moreElements.agregar('hello');
-//'agregar' is the Spanish word for 'add'
+// 'agregar' is the Spanish word for 'add'
 
-echo moreElements.size() yields 2 //Since it is a multiset
+echo moreElements.size() yields 2 // Since it is a multiset
 
-//elements and moreElements are NOT polymorphic
-//I cannot exchange their implementation
+// elements and moreElements are NOT polymorphic
+// I cannot exchange their implementation
 
 ```
 
@@ -75,18 +75,18 @@ elements.add(1);
 elements.add(1);
 
 echo elements.size() yields 1 
-//This is the standard set
+// This is the standard set
 
 var moreElements = new MultiSet();
-//We defined a multiset in English
+// We defined a multiset in English
 
 moreElements.add('hello');
 moreElements.add('hello');
 
-echo moreElements.size() yields 2 //Since it is a multiset
+echo moreElements.size() yields 2 // Since it is a multiset
 
-//elements and moreElements are polymorphic
-//I can exchange their implementation anytime
+// elements and moreElements are polymorphic
+// I can exchange their implementation anytime
 
 ```
 
@@ -130,4 +130,4 @@ _Edsger Dijkstra_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](https://maximilianocontieri.com/how-to-find-the-stinky-parts-of-your-code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

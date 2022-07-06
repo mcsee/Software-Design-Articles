@@ -63,11 +63,11 @@ The passage of time is always scorned by programmers. This makes objects mutable
 
 # Relations
 
-[Code Smell 18 - Static Functions](https://maximilianocontieri.com/code-smell-18-static-functions)
+[Code Smell 18 - Static Functions](Code Smells\Code Smell 18 - Static Functions)
 
 # More info
 
-[The Evil Power of Mutants](https://maximilianocontieri.com/the-evil-powers-of-mutants)
+[The Evil Power of Mutants](Theory\The Evil Power of Mutants)
 
 # Tags
 
@@ -85,4 +85,4 @@ _Paul Graham_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](Unsorted\How to Find the Stinky parts of your Code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

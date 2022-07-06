@@ -66,13 +66,13 @@ You will probably be the person reading the code in a few months.
 
 # Relations
 
-[Code Smell 48 - Code Without Standards](https://maximilianocontieri.com/code-smell-48-code-without-standards)
+[Code Smell 48 - Code Without Standards](Code Smells\Code Smell 48 - Code Without Standards)
 
 # More Info
 
-[What exactly is a name — Part I The Quest](https://maximilianocontieri.com/what-exactly-is-a-name-part-i-the-quest)
+[What exactly is a name — Part I The Quest](Theory\What exactly is a name — Part I The Quest)
 
-[What exactly is a name — Part II Rehab](https://maximilianocontieri.com/what-exactly-is-a-name-part-ii-rehab)
+[What exactly is a name — Part II Rehab](Theory\What exactly is a name — Part II Rehab)
 
 # Credits
 
@@ -88,4 +88,4 @@ _C.A.R. Hoare_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](Unsorted\How to Find the Stinky parts of your Code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

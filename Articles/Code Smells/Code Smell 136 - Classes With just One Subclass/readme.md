@@ -44,9 +44,9 @@ class GoodBoss(Boss):
     def __init__(self, name):
         super().__init__(name)
         
-#This is actually a very classification example
-#Bosses should be immutable but can change their mood
-#with constructive feedback
+# This is actually a very classification example
+# Bosses should be immutable but can change their mood
+# with constructive feedback
 ```
 
 ## Right
@@ -57,7 +57,7 @@ class Boss(object):
     def __init__(self, name):
         self.name = name  
         
-#Bosses are concrete and can change mood
+# Bosses are concrete and can change mood
 ```
 
 # Detection
@@ -72,7 +72,7 @@ Some frameworks create an abstract class as a placeholder to build our models ov
 
 Subclassifing should be never our first option. 
 
-A more elegant solution would be to declare [an interface](Code Smells\Code Smell 134 - Specialized Business Collections) since it is less coupled.
+A more elegant solution would be to declare [an interface](Code Smells\Code Smell 151 - Commented Code) since it is less coupled.
 
 # Tags
 
@@ -80,15 +80,15 @@ A more elegant solution would be to declare [an interface](Code Smells\Code Smel
 
 # Relations
 
-[Code Smell 114 - Empty Class](https://maximilianocontieri.com/code-smell-114-empty-class)
+[Code Smell 114 - Empty Class](Code Smells\Code Smell 114 - Empty Class)
 
-[Code Smell 11 - Subclassification for Code Reuse](https://maximilianocontieri.com/code-smell-11-subclassification-for-code-reuse)
+[Code Smell 11 - Subclassification for Code Reuse](Code Smells\Code Smell 11 - Subclassification for Code Reuse)
 
-[Code Smell 43 - Concrete Classes Subclassified](https://maximilianocontieri.com/code-smell-43-concrete-classes-subclassified)
+[Code Smell 43 - Concrete Classes Subclassified](Code Smells\Code Smell 43 - Concrete Classes Subclassified)
 
 [Code Smell 92 - Isolated Subclasses Names](Code Smells\Code Smell 92 - Isolated Subclasses Names)
 
-[Code Smell 135 - Interfaces With just One Realization](Code Smells\Code Smell 134 - Specialized Business Collections)
+[Code Smell 151 - Commented Code](Code Smells\Code Smell 151 - Commented Code)
 
 # Conclusion
 
@@ -110,4 +110,4 @@ _Bertrand Meyer_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](Unsorted\How to Find the Stinky parts of your Code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

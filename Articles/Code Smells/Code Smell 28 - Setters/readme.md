@@ -18,7 +18,7 @@
 
 - Duplicated Code
 
-[Nude Models - Part I Setters](https://maximilianocontieri.com/nude-models-part-i-setters)
+[Nude Models - Part I Setters](Theory\Nude Models - Part I Setters)
 
 # Solutions
 
@@ -158,19 +158,19 @@ But it has all drawbacks and considerations already mentioned.
 # Conclusion
 
 Creating incomplete and anemic objects is a very bad practice violating 
-mutability, fail fast principle and real world [bijections](https://maximilianocontieri.com/the-one-and-only-software-design-principle).
+mutability, fail fast principle and real world [bijections](Theory\The One and Only Software Design Principle).
  
 # Relations
 
-[Code Smell 01 - Anemic Models](https://maximilianocontieri.com/code-smell-01-anemic-models)
+[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
 
 # More Info
 
-[Fail Fast](https://maximilianocontieri.com/fail-fast)
+[Fail Fast](Theory\Fail Fast)
 
 Here is the full discussion on *Setters*
 
-[Nude Models - Part I Setters](https://maximilianocontieri.com/nude-models-part-i-setters) 
+[Nude Models - Part I Setters](Theory\Nude Models - Part I Setters) 
  
 # Credits
 
@@ -188,4 +188,4 @@ _Rebecca Wirfs-Brock_
 
 This article is part of the *CodeSmell* Series.
 
-[How to Find the Stinky parts of your Code](Unsorted\How to Find the Stinky parts of your Code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

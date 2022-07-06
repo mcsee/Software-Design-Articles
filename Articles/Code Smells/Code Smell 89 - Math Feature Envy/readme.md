@@ -1,8 +1,8 @@
 # Code Smell 89 - Math Feature Envy
 
-*One class calculating formulas for another class.*
-
 ![Code Smell 89 - Math Feature Envy](michal-matlon-4ApmfdVo32Q-unsplash.jpg)
+
+*One class calculating formulas for another class.*
 
 > TL;DR: Leave the formulas to the objects gathering the information.
 
@@ -20,7 +20,7 @@
 
 1. Move the math formula to the class
 
-2. Search for [real-world abstractions](https://maximilianocontieri.com/the-one-and-only-software-design-principle)
+2. Search for [real-world abstractions](Theory\The One and Only Software Design Principle)
 
 # Sample Code
 
@@ -30,8 +30,8 @@
 ```javascript
 function area(rectangle) { 
   return rectange.width * rectangle.height;
-  //Notice we are sending consecutive messages to
-  //the same object and doing calculations
+  // Notice we are sending consecutive messages to
+  // the same object and doing calculations
 }
 ```
 
@@ -67,11 +67,11 @@ This is a very basic smell. If we are manipulating another object characteristic
 
 # Relations
 
-[Code Smell 63 - Feature Envy](https://maximilianocontieri.com/code-smell-63-feature-envy)
+[Code Smell 63 - Feature Envy](Code Smells\Code Smell 63 - Feature Envy)
 
 # More Info
 
-- [The one and only one software principle](https://maximilianocontieri.com/the-one-and-only-software-design-principle)
+- [The one and only one software principle](Theory\The One and Only Software Design Principle)
 
 # Credits
 
@@ -83,10 +83,10 @@ Photo by [Michal Matlon](https://unsplash.com/@michalmatlon) on [Unsplash](https
 
 _Michael R. Fellows_
  
-[Software Engineering Great Quotes](Software Engineering Great Quotes)
+[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](https://maximilianocontieri.com/how-to-find-the-stinky-parts-of-your-code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)

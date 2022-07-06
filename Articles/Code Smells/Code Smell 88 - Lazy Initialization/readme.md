@@ -18,7 +18,7 @@
 
 - The Least Surprise Principle Violation
 
-- [Null Usage](https://maximilianocontieri.com/null-the-billion-dollar-mistake)
+- [Null Usage](Theory\Null - The Billion Dollar Mistake)
 
 - Mutability
 
@@ -59,8 +59,8 @@ class Employee
     @voice_mails = []
   end
 end
-#We can also inject a design pattern to externally deal
-#with voice_mails so we can mock it in our tests
+# We can also inject a design pattern to externally deal
+# with voice_mails so we can mock it in our tests
 ```
 
 # Detection
@@ -75,15 +75,15 @@ It should be straightforward to detect them.
 
 # Conclusion
 
-[Singletons](https://maximilianocontieri.com/singleton-the-root-of-all-evil) are another antipattern often combined with lazy initialization.
+[Singletons](Theory\Singleton - The root of all evil) are another antipattern often combined with lazy initialization.
 
 We must avoid premature optimizations. If we have *real* performance problems we should use a Proxy, Facade or more independent solution.
 
 # Relations
 
-[Code Smell 32 - Singletons](https://maximilianocontieri.com/code-smell-32-singletons)
+[Code Smell 32 - Singletons](Code Smells\Code Smell 32 - Singletons)
 
-[Code Smell 12 - Null](https://maximilianocontieri.com/code-smell-12-null)
+[Code Smell 12 - Null](Code Smells\Code Smell 12 - Null)
 
 # More Info
 
@@ -101,10 +101,10 @@ Photo by [Sam Solomon](https://unsplash.com/@samsolomon) on [Unsplash](https://u
 
 _Jeff Atwood_
  
-[Software Engineering Great Quotes](Software Engineering Great Quotes)
+[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](https://maximilianocontieri.com/how-to-find-the-stinky-parts-of-your-code)
+[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)
