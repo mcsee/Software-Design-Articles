@@ -66,50 +66,6 @@ In this repository, you will find many articles related to Software Design
 
 * [We Should Get Rid of HelloWorld Forever💩](/Articles/TDD/We%20Should%20Get%20Rid%20of%20HelloWorld%20Forever%F0%9F%92%A9/readme.md)
 
-### 0
-
-* [How to Find the Stinky Parts of Your Code (Part I)](/Articles/0/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code%20%28Part%20I%29/readme.md)
-
-* [How to Find the Stinky Parts of Your Code (Part II)](/Articles/0/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code%20%28Part%20II%29/readme.md)
-
-* [How to Find the Stinky Parts of Your Code (Part III)](/Articles/0/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code%20%28Part%20III%29/readme.md)
-
-* [How to Find the Stinky Parts of Your Code (Part IV)](/Articles/0/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code%20%28Part%20IV%29/readme.md)
-
-* [How to Find the Stinky Parts of Your Code (Part IX)](/Articles/0/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code%20%28Part%20IX%29/readme.md)
-
-* [How to Find the Stinky Parts of Your Code (Part V)](/Articles/0/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code%20%28Part%20V%29/readme.md)
-
-* [How to Find the Stinky Parts of Your Code (Part VI)](/Articles/0/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code%20%28Part%20VI%29/readme.md)
-
-* [How to Find the Stinky Parts of Your Code (Part VII)](/Articles/0/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code%20%28Part%20VII%29/readme.md)
-
-* [How to Find the Stinky Parts of Your Code (Part VIII)](/Articles/0/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code%20%28Part%20VIII%29/readme.md)
-
-* [How to Find the Stinky Parts of Your Code (Part X)](/Articles/0/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code%20%28Part%20X%29/readme.md)
-
-* [How to Find the Stinky Parts of Your Code (Part XI)](/Articles/0/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code%20%28Part%20XI%29/readme.md)
-
-* [How to Find the Stinky Parts of Your Code (Part XII)](/Articles/0/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code%20%28Part%20XII%29/readme.md)
-
-* [How to Find the Stinky Parts of Your Code (Part XIII)](/Articles/0/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code%20%28Part%20XIII%29/readme.md)
-
-* [How to Find the Stinky Parts of Your Code (Part XIV)](/Articles/0/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code%20%28Part%20XIV%29/readme.md)
-
-* [How to Find the Stinky Parts of Your Code (Part XIX)](/Articles/0/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code%20%28Part%20XIX%29/readme.md)
-
-* [How to Find the Stinky Parts of Your Code (Part XV)](/Articles/0/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code%20%28Part%20XV%29/readme.md)
-
-* [How to Find the Stinky Parts of Your Code (Part XVI)](/Articles/0/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code%20%28Part%20XVI%29/readme.md)
-
-* [How to Find the Stinky Parts of Your Code (Part XVII)](/Articles/0/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code%20%28Part%20XVII%29/readme.md)
-
-* [How to Find the Stinky Parts of Your Code (Part XVIII)](/Articles/0/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code%20%28Part%20XVIII%29/readme.md)
-
-* [How to Find the Stinky Parts of Your Code (Part XX)](/Articles/0/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code%20%28Part%20XX%29/readme.md)
-
-* [How to Write Amazing Series on Hashnode](/Articles/0/How%20to%20Write%20Amazing%20Series%20on%20Hashnode/readme.md)
-
 ### Code Smell
 
 * [How to Find the Stinky parts of your Code](/Articles/Code%20Smell/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
@@ -444,11 +400,15 @@ In this repository, you will find many articles related to Software Design
 
 * [The Tech Twitter Guide to the Galaxy](/Articles/Twitter/The%20Tech%20Twitter%20Guide%20to%20the%20Galaxy/readme.md)
 
-### Artificial Intelligency
+### Artificial Intelligence
 
-* [I've Recently Learned About GPT3 - This is my Journey](/Articles/Artificial%20Intelligency/I%27ve%20Recently%20Learned%20About%20GPT3%20-%20This%20is%20my%20Journey/readme.md)
+* [DeepMind's AlphaCode Won't Steal Your Job Either](/Articles/Artificial%20Intelligence/DeepMind%27s%20AlphaCode%20Won%27t%20Steal%20Your%20Job%20Either/readme.md)
 
-* [Why GitHub Copilot is not a Threat to your Job](/Articles/Artificial%20Intelligency/Why%20GitHub%20Copilot%20is%20not%20a%20Threat%20to%20your%20Job/readme.md)
+* [GPT-3 Training Programmers for the Present (and the Future)](/Articles/Artificial%20Intelligence/GPT-3%20Training%20Programmers%20for%20the%20Present%20%28and%20the%20Future%29/readme.md)
+
+* [I've Recently Learned About GPT3 - This is my Journey](/Articles/Artificial%20Intelligence/I%27ve%20Recently%20Learned%20About%20GPT3%20-%20This%20is%20my%20Journey/readme.md)
+
+* [Why GitHub Copilot is not a Threat to your Job](/Articles/Artificial%20Intelligence/Why%20GitHub%20Copilot%20is%20not%20a%20Threat%20to%20your%20Job/readme.md)
 
 ### TDD Conference 2021
 
@@ -507,12 +467,6 @@ In this repository, you will find many articles related to Software Design
 ### Wordle
 
 * [How to Develop a Wordle Game using TDD in 25 Minutes](/Articles/Wordle/How%20to%20Develop%20a%20Wordle%20Game%20using%20TDD%20in%2025%20Minutes/readme.md)
-
-### Artificial Intelligence
-
-* [DeepMind's AlphaCode Won't Steal Your Job Either](/Articles/Artificial%20Intelligence/DeepMind%27s%20AlphaCode%20Won%27t%20Steal%20Your%20Job%20Either/readme.md)
-
-* [GPT-3 Training Programmers for the Present (and the Future)](/Articles/Artificial%20Intelligence/GPT-3%20Training%20Programmers%20for%20the%20Present%20%28and%20the%20Future%29/readme.md)
 
 ### Web3
 

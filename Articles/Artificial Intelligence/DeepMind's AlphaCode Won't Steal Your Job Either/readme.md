@@ -26,7 +26,7 @@ Variables with [bad names](Theory\What exactly is a name — Part II Rehab), [Lo
 
 ![ugly algorithmic solution](https://cdn.hashnode.com/res/hashnode/image/upload/v1644093951880/Gw3rvI_uH.png)
 
-The three current solutions (AlphaCode, [GitHub Copilot](Artificial Intelligency\Why GitHub Copilot is not a Threat to your Job), [GPT3](Artificial Intelligency\I've Recently Learned About GPT3 - This is my Journey)) focus on competitive programming, an area where performance is the ultimate goal and readability is not important. 
+The three current solutions (AlphaCode, [GitHub Copilot](Artificial Intelligence\Why GitHub Copilot is not a Threat to your Job), [GPT3](Artificial Intelligence\I've Recently Learned About GPT3 - This is my Journey)) focus on competitive programming, an area where performance is the ultimate goal and readability is not important. 
 
 # The final frontier
 
@@ -36,9 +36,9 @@ Try to understand the entities and the behaviour on your simulation software.
 
 # References
 
-[Why GitHub Copilot is not a Threat to your Job](Artificial Intelligency\Why GitHub Copilot is not a Threat to your Job)
+[Why GitHub Copilot is not a Threat to your Job](Artificial Intelligence\Why GitHub Copilot is not a Threat to your Job)
 
-[I've Recently Learned About GPT3 - This is my Journey](Artificial Intelligency\I've Recently Learned About GPT3 - This is my Journey)
+[I've Recently Learned About GPT3 - This is my Journey](Artificial Intelligence\I've Recently Learned About GPT3 - This is my Journey)
 
 # What should you do?
 

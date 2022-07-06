@@ -29,7 +29,7 @@ I've seen tons of code reviews and I came across some software design solutions.
 # 2 - I need to learn new things not to become obsolete.🏫
 
 Many of my old university mates decided to stick to some tech stack and this is fine. 
-I still get excited when I hear something new about technology (lastly React and [GPT3](Artificial Intelligency\I've Recently Learned About GPT3 - This is my Journey)).
+I still get excited when I hear something new about technology (lastly React and [GPT3](Artificial Intelligence\I've Recently Learned About GPT3 - This is my Journey)).
 
 I have a different attitude.
 

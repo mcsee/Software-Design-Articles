@@ -6,9 +6,9 @@
 
 Last year, I [wrote a paper](https://cartografiasdelsur.undav.edu.ar/index.php/CdS/article/view/216) in Spanish about the future of programmers.
 
-> TL;DR: Instead of manually translating my paper, I decided to rewrite it completely with [GPT-3](Artificial Intelligency\I've Recently Learned About GPT3 - This is my Journey).
+> TL;DR: Instead of manually translating my paper, I decided to rewrite it completely with [GPT-3](Artificial Intelligence\I've Recently Learned About GPT3 - This is my Journey).
 
-In the same way, The Guardian asked [GPT-3](Artificial Intelligency\I've Recently Learned About GPT3 - This is my Journey) when it was in private beta.
+In the same way, The Guardian asked [GPT-3](Artificial Intelligence\I've Recently Learned About GPT3 - This is my Journey) when it was in private beta.
 
 https://www.theguardian.com/commentisfree/2020/sep/08/robot-wrote-this-article-gpt-3
 
