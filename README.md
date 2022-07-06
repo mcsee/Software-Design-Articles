@@ -20,9 +20,9 @@ In this repository, you will find many articles related to Software Design
 
 * [No Silver Bullet](/Articles/Theory/No%20Silver%20Bullet/readme.md)
 
-* [Nude Models - Part II Getters](/Articles/Theory/Nude%20Models%E2%80%8A-%E2%80%8APart%20II%C2%A0Getters/readme.md)
+* [Nude Models - Part I: Setters](/Articles/Theory/Nude%20Models%20-%20Part%20I%3A%20Setters/readme.md)
 
-* [Nude Models - Part I Setters](/Articles/Theory/Nude%20Models%E2%80%8A-%E2%80%8APart%20I%C2%A0Setters/readme.md)
+* [Nude Models - Part II Getters](/Articles/Theory/Nude%20Models%E2%80%8A-%E2%80%8APart%20II%C2%A0Getters/readme.md)
 
 * [Null: The Billion Dollar Mistake](/Articles/Theory/Null%3A%20The%20Billion%20Dollar%20Mistake/readme.md)
 

@@ -18,7 +18,7 @@
 
 - Duplicated Code
 
-[Nude Models - Part I Setters](Theory\Nude Models - Part I Setters)
+[Nude Models - Part I: Setters](Theory\Nude Models - Part I Setters)
 
 # Solutions
 
@@ -170,7 +170,7 @@ mutability, fail fast principle and real world [bijections](Theory\The One and O
 
 Here is the full discussion on *Setters*
 
-[Nude Models - Part I Setters](Theory\Nude Models - Part I Setters) 
+[Nude Models - Part I: Setters](Theory\Nude Models - Part I Setters) 
  
 # Credits
 
