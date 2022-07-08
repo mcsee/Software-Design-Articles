@@ -71,7 +71,7 @@
       private String areaCode;
    
       public String telephoneNumber() {
-          return ("(" + areaCode + ") " + _number);
+          return ("(" + areaCode + ") " + number);
       }
       public String areaCode() {
           return areaCode;
@@ -91,7 +91,7 @@ final class Person {
       public String name() {
           return name;
       }
-      public String telephoneNumber(){
+      public String telephoneNumber() {
           return officeTelephone.getTelephoneNumber();
       }
      
