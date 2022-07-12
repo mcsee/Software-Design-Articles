@@ -46,7 +46,7 @@ One of the original signatories of the Agile Manifesto, James Grenning trains, c
 -- Everyone thinks is special.
 - The first step to recovery. Say it loud:
 
-> I am a programmer and I write [bugs](Theory\Stop Calling them 'Bugs').
+> I am a programmer and I write [bugs](Quality\Stop Calling them 'Bugs').
 
 # Speaker Links
 

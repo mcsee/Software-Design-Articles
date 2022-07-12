@@ -32,8 +32,6 @@ In this repository, you will find many articles related to Software Design
 
 * [Singleton - The root of all evil](/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
 
-* [Stop Calling them 'Bugs'](/Articles/Theory/Stop%20Calling%20them%20%27Bugs%27/readme.md)
-
 * [The Evil Power of Mutants](/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 * [The One and Only Software Design Principle](/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
@@ -400,6 +398,14 @@ In this repository, you will find many articles related to Software Design
 
 * [The Tech Twitter Guide to the Galaxy](/Articles/Twitter/The%20Tech%20Twitter%20Guide%20to%20the%20Galaxy/readme.md)
 
+### Quality
+
+* [5 Programming Techniques to Avoid SSD Brick Catastrophic Failures](/Articles/Quality/5%20Programming%20Techniques%20to%20Avoid%20SSD%20Brick%20Catastrophic%20Failures/readme.md)
+
+* [Stop Calling them 'Bugs'](/Articles/Quality/Stop%20Calling%20them%20%27Bugs%27/readme.md)
+
+* [Y2K22 - The Mistake That Embarrasses Us](/Articles/Quality/Y2K22%20-%20The%20Mistake%20That%20Embarrasses%20Us/readme.md)
+
 ### Artificial Intelligence
 
 * [DeepMind's AlphaCode Won't Steal Your Job Either](/Articles/Artificial%20Intelligence/DeepMind%27s%20AlphaCode%20Won%27t%20Steal%20Your%20Job%20Either/readme.md)
@@ -459,10 +465,6 @@ In this repository, you will find many articles related to Software Design
 * [Refactoring 006 - Rename Result Variables](/Articles/Refactorings/Refactoring%20006%20-%20Rename%20Result%20Variables/readme.md)
 
 * [Refactoring 007 - Extract Class](/Articles/Refactorings/Refactoring%20007%20-%20Extract%20Class/readme.md)
-
-### Quality
-
-* [Y2K22 - The Mistake That Embarrasses Us](/Articles/Quality/Y2K22%20-%20The%20Mistake%20That%20Embarrasses%20Us/readme.md)
 
 ### Wordle
 

@@ -20,7 +20,7 @@ This is a pity since I write about [programming core concepts](https://hashnode.
 
 I usually write the articles, polish them, publish on social media and forget about them in a few days.
 
-[How to Write Amazing Series on Hashnode]()
+[5 Programming Techniques to Avoid SSD Brick Catastrophic Failures](Quality\5 Programming Techniques to Avoid SSD Brick Catastrophic Failures)
 
 # Missed Opportunities
 

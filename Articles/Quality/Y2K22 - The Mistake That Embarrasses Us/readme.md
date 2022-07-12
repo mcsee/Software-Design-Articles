@@ -58,7 +58,7 @@ As a result, lots of emails are not being sent piling up on servers.
 
 # The fix
 
-Fixing this problem ([It is not a bug](Theory\Stop Calling them 'Bugs')), is very difficult. 
+Fixing this problem ([It is not a bug](Quality\Stop Calling them 'Bugs')), is very difficult. 
 
 Exchange is a product running on on-premises servers so it has to be patched manually in many cases.
 

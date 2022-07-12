@@ -2,9 +2,9 @@
 
 ![Code Smell 148 - ToDos](eden-constantino-bTukYI4DjOs-unsplash.jpg)
 
-*We buy debt for our future self. It is payback time*
+*We buy debt for our future selves. It is payback time*
 
-> TL;DR: Don't leave TODOs in your code. Fix them
+> TL;DR: Don't leave TODOs in your code. Fix them!
 
 # Problems
 
@@ -24,7 +24,7 @@ We encounter TODOs in our code. We count them.
 
 We seldom address it
 
-We started owing technical debt.
+We started owing the technical debt.
 
 Then we pay the debt + the interest.
 
@@ -104,6 +104,7 @@ Most linters do it.
 We need the policy to reduce it.
 
 If we are using TDD, we write the missing code right away.
+
 In this context, TODOs are only valid when doing Depth First development to remember open paths to visit.
 
 # More Info

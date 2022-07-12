@@ -42,7 +42,7 @@ mcseeMar 24, 2021, 6:08 PM
 Related to your second question. I don't think the code speaks about the personality, but I am a software engineer, not a psychologist. I have seen messy people write great code and I have also seen (a lot) very carefull and clean people write bad (implementative) code.
 
 Limarc AmbalinaMar 24, 2021, 6:09 PM
-In your latest article: Theory\Stop Calling them 'Bugs'
+In your latest article: Quality\Stop Calling them 'Bugs'
 
 You talk about the standard of calling software glitches bugs leads to a removal of responsibility from the developers and the idea that bugs happen and are out of our control.
 

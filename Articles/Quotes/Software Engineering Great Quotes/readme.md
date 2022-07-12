@@ -3529,7 +3529,7 @@ _Kent Beck_
 
 _Donald Knuth_
 
-[Stop Calling them 'Bugs'](Theory\Stop Calling them 'Bugs')
+[Stop Calling them 'Bugs'](Quality\Stop Calling them 'Bugs')
 
 * * *
 
