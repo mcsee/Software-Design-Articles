@@ -50,7 +50,7 @@ I also took several courses on clean code, read some classic books again, and di
 
 Up to now, I wrote 67 smells and still have a lot of drafts to polish and publish.
 
-[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)
+[How to Find the Stinky parts of your Code]()
 
 * * *
 

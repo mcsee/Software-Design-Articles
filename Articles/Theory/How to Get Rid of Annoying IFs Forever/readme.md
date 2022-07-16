@@ -41,7 +41,7 @@ They make our algorithms darker and force us to build *accidentally complex* sol
 
 People out of software development cannot explain why we use this branching sentence. This is a code smell.
 
-[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)
+[How to Find the Stinky parts of your Code]()
 
 # Solutions
 

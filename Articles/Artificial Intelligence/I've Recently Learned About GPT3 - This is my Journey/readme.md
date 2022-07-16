@@ -44,7 +44,7 @@ Most code generators I've tested are too dumb. They can program very basic routi
 
 In my Code Smell Series, I suggest detection techniques and correction measures. 
 
-[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)
+[How to Find the Stinky parts of your Code]()
 
 Some of them involve just syntactic manipulations most actual linters can do.
 

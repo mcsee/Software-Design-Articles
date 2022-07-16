@@ -127,4 +127,4 @@ Photo by [Becca Tapert](https://unsplash.com/@beccatapert) on [Unsplash](https:/
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)
+[How to Find the Stinky parts of your Code]()

@@ -24,7 +24,7 @@
 
 In the past, developers used to fake domain data.
 
-We considered [Hello Word](TDD\We Should Get Rid of HelloWorld Forever💩) a good practice and we tested with abstract data.
+We considered [Hello Word](TDD\We Should Get Rid of HelloWorld Forever) a good practice and we tested with abstract data.
 
 We developed using a [waterfall model](https://en.wikipedia.org/wiki/Waterfall_model) very far from real users.
 
@@ -138,4 +138,4 @@ _Albert Einstein_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)
+[How to Find the Stinky parts of your Code]()

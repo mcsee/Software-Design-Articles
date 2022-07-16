@@ -108,7 +108,7 @@ Try to develop a [personal style](https://amarachiazubuike.com/how-to-structure-
 
 I write one article a day with the same template format.
 
-[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)
+[How to Find the Stinky parts of your Code]()
 
 > Tip: Have a template in markdown.
 

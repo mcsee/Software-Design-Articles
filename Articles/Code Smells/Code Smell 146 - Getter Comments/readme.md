@@ -51,10 +51,10 @@ contract Property {
 ```solidity
 pragma solidity >=0.5.0 <0.9.0;
 
-contract Property{
+contract Property {
     int private _price;   
 
-    function price() public view returns(int){        
+    function price() public view returns(int) {        
         return _price;
     }
 }
@@ -104,4 +104,4 @@ _Robert Martin_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)
+[How to Find the Stinky parts of your Code]()

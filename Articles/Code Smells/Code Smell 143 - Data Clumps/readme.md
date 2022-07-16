@@ -69,6 +69,15 @@ public DinnerTable(Person guest, DateTime from, DateTime to)
     Guest = guest;
     Interval = new TimeInterval(from, to);
 }
+
+// Even Better...
+
+public DinnerTable(Person guest, Interval reservationTime)
+{    
+    Guest = guest;
+    Interval = reservationTime;
+}
+
 ```
 
 # Detection
@@ -83,7 +92,7 @@ Detection based on cohesion patterns is available o a few linters.
 
 # Conclusion
 
-Group behavior in the right place and hid the primitive data.
+Group behavior in the right place and hide the primitive data.
 
 # Relations
 
@@ -115,4 +124,4 @@ _Eric Evans_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)
+[How to Find the Stinky parts of your Code]()

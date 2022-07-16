@@ -132,7 +132,7 @@ Photo by [Remy Gieling](https://unsplash.com/@gieling) on [Unsplash](https://uns
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)
+[How to Find the Stinky parts of your Code]()
 
 
 

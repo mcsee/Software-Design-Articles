@@ -34,7 +34,7 @@ If the all test passes restart the process or ...
 
 **NEVER DO BOTH 1 and 4 Together.**
 
-[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)
+[How to Find the Stinky parts of your Code]()
 
 ## Design Benefits 
 

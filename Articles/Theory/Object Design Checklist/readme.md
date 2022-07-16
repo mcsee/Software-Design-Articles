@@ -80,7 +80,7 @@ Do not use **Singleton**:
 
 Avoid Code Smells
 
-[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)
+[How to Find the Stinky parts of your Code]()
 
 ## Exercises
 

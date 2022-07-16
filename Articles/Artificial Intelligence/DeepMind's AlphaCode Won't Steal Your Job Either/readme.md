@@ -20,7 +20,7 @@ With overfitting claims, it outperformed several people at those contests.
 
 [Results](https://github.com/deepmind/code_contests) are available online.
 
-A careful look at the datasets shows basic algorithmic solutions with output code full of [code smells](Code Smell\How to Find the Stinky parts of your Code) many human counterparts make.
+A careful look at the datasets shows basic algorithmic solutions with output code full of [code smells]() many human counterparts make.
 
 Variables with [bad names](Theory\What exactly is a name — Part II Rehab), [Lots of ifs](Code Smells\Code Smell 36 - Switch case elseif else if statements), [too long methods](Code Smells\Code Smell 03 - Functions Are Too Long), [global functions](Code Smells\Code Smell 17 - Global Functions) are some examples of these smells many code reviewers would not approve.
 

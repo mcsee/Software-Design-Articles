@@ -22,7 +22,7 @@
 
 We encounter TODOs in our code. We count them.
 
-We seldom address it
+We seldom address it.
 
 We started owing the technical debt.
 
@@ -42,7 +42,7 @@ public class Door
     
     public Door(boolean isOpened)
     {       
-        this.isOpened = false;
+        this.isOpened = isOpened;
     }      
     
     public void openDoor()
@@ -69,7 +69,7 @@ public class Door
     
     public Door(boolean isOpened)
     {       
-        this.isOpened = false;
+        this.isOpened = isOpened;
     }      
     
     public void openDoor()
@@ -129,4 +129,4 @@ _Michael Abrash_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](Code Smell\How to Find the Stinky parts of your Code)
+[How to Find the Stinky parts of your Code]()

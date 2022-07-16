@@ -62,11 +62,7 @@ In this repository, you will find many articles related to Software Design
 
 * [How to Squeeze Test Driven Development on Legacy Systems](/Articles/TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md)
 
-* [We Should Get Rid of HelloWorld Forever💩](/Articles/TDD/We%20Should%20Get%20Rid%20of%20HelloWorld%20Forever%F0%9F%92%A9/readme.md)
-
-### Code Smell
-
-* [How to Find the Stinky parts of your Code](/Articles/Code%20Smell/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+* [We Should Get Rid of HelloWorld Forever💩](/Articles/TDD/We%20Should%20Get%20Rid%20of%20HelloWorld%20Forever/readme.md)
 
 ### Code Smells
 
@@ -195,6 +191,8 @@ In this repository, you will find many articles related to Software Design
 * [Code Smell 147 - Too Many Methods](/Articles/Code%20Smells/Code%20Smell%20147%20-%20Too%20Many%20Methods/readme.md)
 
 * [Code Smell 148 - ToDos](/Articles/Code%20Smells/Code%20Smell%20148%20-%20ToDos/readme.md)
+
+* [Code Smell 149 - Optional Chaining](/Articles/Code%20Smells/Code%20Smell%20149%20-%20Optional%20Chaining/readme.md)
 
 * [Code Smell 15 - Missed Preconditions](/Articles/Code%20Smells/Code%20Smell%2015%20-%20Missed%20Preconditions/readme.md)
 
