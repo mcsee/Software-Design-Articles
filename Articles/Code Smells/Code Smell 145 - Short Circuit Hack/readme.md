@@ -80,6 +80,8 @@ Be a team developer.
 [Code Smell 140 - Short Circuit Evaluation](Code Smells\Code Smell 140 - Short Circuit Evaluation)
 
 [Code Smell 06 - Too Clever Programmer](Code Smells\Code Smell 06 - Too Clever Programmer)
+
+[Code Smell 149 - Optional Chaining](Code Smells\Code Smell 149 - Optional Chaining)
  
 # Credits
 

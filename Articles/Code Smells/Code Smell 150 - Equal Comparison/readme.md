@@ -2,7 +2,7 @@
 
 ![Code Smell 150 - Equal Comparison](piret-ilver-98MbUldcDJY-unsplash.jpg)
 
-*Every developer compares attributes equally. They are mistaken*
+*Every developer compares attributes equally. They are mistaken.*
 
 > TL;DR: Don't export and compare, just compare.
 
@@ -12,9 +12,9 @@
 
 - Code Duplication
 
-- Information Hiding Violation
+- Information Hiding violation
 
-- Anthropomorphism violation
+- [Anthropomorphism](https://en.wikipedia.org/wiki/Anthropomorphism) violation
 
 # Solutions
 
@@ -24,9 +24,13 @@
 
 Attribute comparison is heavily used in our code.
 
-We need to focus on behavior and responsibilities
+We need to focus on behavior and responsibilities.
 
-It is an object's responsibility to compare with other objects. Not our own
+It is an object's responsibility to compare with other objects. Not our own.
+
+Premature Optimizers will tell us this is less performant.
+
+We should ask them for real evidence and contrast the more maintainable solution.
 
 # Sample Code
 
@@ -80,13 +84,15 @@ We need to put responsibilities in a single place.
 
 Comparing is one of them.
 
-If some of our business rules change we need to change a single point.
+If some of our business rules change we need to change a *single point*.
 
 # Relations
 
 [Code Smell 63 - Feature Envy](Code Smells\Code Smell 63 - Feature Envy) 
 
 [Code Smell 101 - Comparison Against Booleans](Code Smells\Code Smell 101 - Comparison Against Booleans)
+
+[Code Smell 122 - Primitive Obsession](Code Smells\Code Smell 122 - Primitive Obsession)
 
 # Credits
 

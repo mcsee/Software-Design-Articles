@@ -4,7 +4,7 @@
 
 *This article summarizes my experience as a writer during the pandemic year 2021*
 
-Below you will find lots of resources and tools and my method and tips for heavy writing.
+Below you will find many resources and tools, and my method and tips for writing a lot.
 
 # My Background
 
@@ -24,11 +24,11 @@ Below you will find lots of resources and tools and my method and tips for heavy
 
 - I Have a (very) long list of draft articles.
 
-- I often skip the waiting queue and write about some inspirational source (and cite it).
+- I often skip the waiting queue and write about some inspirational source (and quote it).
 
 - I use a different template in all my series. 
 
-- For example, I have an empty [Code Smell template](https://maximilianocontieri/series/code-smells).
+- For example, I have an empty Code Smell template.
 
 - I write Everywhere 🗺️
 
@@ -54,7 +54,7 @@ Below you will find lots of resources and tools and my method and tips for heavy
 
 - I avoid perfection. I publish them when they are *ready*. 
 
-- Then I make corrections with other people's comments. Even after months.
+- Then I make corrections following other people's comments. Even after months.
 
 - I [Garden](Blogging\Today I Learned the Concept of Gardening) my articles.
 
@@ -64,9 +64,9 @@ Below you will find lots of resources and tools and my method and tips for heavy
 
 - Software Design is a creative activity. 
 
-- My articles are suggestions and not rigid rules.
+- My articles are *suggestions* and not rigid rules.
 
-- I try to have smart discussions.
+- I try to have intelligent and polite discussions.
 
 - I have zero tolerance for hate speech and unprofessional comments.
 
@@ -74,7 +74,15 @@ Below you will find lots of resources and tools and my method and tips for heavy
 
 # Common Criticism
 
-- I get the same comments over and over again, so these are the common critics I get and my opinions.
+- I get the same comments over and over again, these are the common critics I get and my opinions:
+
+## Opinions
+
+### Revealed Truth
+
+- I don't have the same opinion as many people.
+
+- If you think [NULLs|Undefined|Singletons|...|Whatever] are awesome, I have a different point of view.
 
 ## Readability
 
@@ -83,6 +91,16 @@ Below you will find lots of resources and tools and my method and tips for heavy
 - If you need to see long methods/scripts to understand your solution, that's fine.
 
 - I prefer to have small/reusable/testable functions.
+
+### A 15 lines long method is not 'long'
+
+- IMHO, a 6 lines method is too long
+
+- You can always break them using [refactorings](Refactorings\Refactoring 002 - Extract Method).  🛠️
+
+- You don't need to see the big picture and the details at the same time. 🌳
+
+- Trust your implementation and write good tests.
 
 ### The code in your articles is not Compiling/Working/has errors
 
@@ -94,17 +112,21 @@ Below you will find lots of resources and tools and my method and tips for heavy
 
 - I have used 25+ different languages in my articles.
 
-- I am not an expert in ANY of these languages.
+- Whenever possible, I test the code in a repl.it
 
-- Languages are accidental, Software design is [essential](Theory\No Silver Bullet).
+- I am not an expert in NONE of these languages.
+
+- Languages are accidental, and Software design is [essential](Theory\No Silver Bullet).
 
 ### I Have a trick in *INSERT LANGUAGE* to improve the code.
 
-- Most of the articles are language independent.
+- Most of the articles are language-independent.
 
-- The solutions try to avoid language perks and cleverness.
+- The solution tries to avoid language perks and cleverness.
 
-### Your solution is not performant/optimal
+## Performance
+
+### Your solution is not performant/optimal/memory efficient
 
 - I write about backend business software. 🖥️
 
@@ -120,11 +142,13 @@ Below you will find lots of resources and tools and my method and tips for heavy
 
 - Complexity is not enough evidence. 
 
-- You need a real benchmark in real use case scenarios. 📈
+- You need a genuine benchmark in real use case scenarios. 📈
 
 - If I need to sort 20 elements in a collection, I will always choose bubble sort because it is easier to read.
 
 > [Premature optimization](Code Smells\Code Smell 20 - Premature Optimization) is the root of all evil. 😈
+
+## Anti-Patterns
 
 ### [Helpers](Code Smells\Code Smell 22 - Helpers), [DTOs](Code Smells\Code Smell 40 - DTOs), [Singletons](Code Smells\Code Smell 32 - Singletons), [Nulls](Code Smells\Code Smell 12 - Null), [Setters](Code Smells\Code Smell 28 - Setters), [Metaprogramming](Theory\Lazyness I - Metaprogramming), [Castings](Code Smells\Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)), [Comments](Code Smells\Code Smell 05 - Comment Abusers) are standard. 🙈
 
@@ -134,17 +158,7 @@ Below you will find lots of resources and tools and my method and tips for heavy
 
 - My arguments against them are in all articles.
 
--I reply polite comments about them.
-
-### A 15 lines long method is not 'long'
-
-- IMHO, a 6 lines method is too long
-
-- You can always break them using [refactorings](Refactorings\Refactoring 002 - Extract Method).  🛠️
-
-- You don't need to see the big picture and the details at the same time. 🌳
-
-- Trust your implementation and write good tests.
+- I reply polite comments about them.
 
 ### Your solutions have too many indirections
 
@@ -152,8 +166,12 @@ Below you will find lots of resources and tools and my method and tips for heavy
 
 - We need to avoid direct relationships.
 
+### I Hate the word 'Code Smell'
+
+- I didn't coin it. I was [Martin Fowler](https://martinfowler.com/books/refactoring.html).
+
 ### You have too many rules and constraints 
 
-- There is just one rule.
+- There is just one rule
 
-- Always follow the [bijection](Theory\The One and Only Software Design Principle) 🔀
+-- Always follow the [bijection](Theory\The One and Only Software Design Principle) 🔀

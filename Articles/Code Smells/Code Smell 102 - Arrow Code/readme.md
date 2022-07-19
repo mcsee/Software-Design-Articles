@@ -20,9 +20,7 @@
 
 # Context
 
-In procedural code, it is very common to see complex nested ifs.
-
-This is more related to scripting than object-oriented programming.
+In procedural code, it is very common to see complex nested ifs. This solution is more related to scripting than object-oriented programming.
 
 # Sample Code
 
@@ -86,7 +84,7 @@ addPriceIfDefined()
 
 [X] Automatic 
 
-Since many linters can parse trees we can check on compile-time for nesting levels.
+Since many linters can parse trees, we can check on compile-time for nesting levels.
 
 # Tags
 
@@ -113,6 +111,8 @@ Refactoring this problem is easy.
 - [C2 Wiki](http://wiki.c2.com/?ArrowAntiPattern)
 
 - [Flattening Arrow Code](https://blog.codinghorror.com/flattening-arrow-code/)
+
+- [Refactoring.com](https://refactoring.com/catalog/replaceNestedConditionalWithGuardClauses.html)
 
 * * *
 

@@ -196,6 +196,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 15 - Missed Preconditions](/Articles/Code%20Smells/Code%20Smell%2015%20-%20Missed%20Preconditions/readme.md)
 
+* [Code Smell 150 - Equal Comparison](/Articles/Code%20Smells/Code%20Smell%20150%20-%20Equal%20Comparison/readme.md)
+
 * [Code Smell 151 - Commented Code](/Articles/Code%20Smells/Code%20Smell%20151%20-%20Commented%20Code/readme.md)
 
 * [Code Smell 16 - Ripple Effect](/Articles/Code%20Smells/Code%20Smell%2016%20-%20Ripple%20Effect/readme.md)
