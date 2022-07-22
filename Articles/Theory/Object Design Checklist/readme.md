@@ -48,11 +48,11 @@ Fail **Fast**:
 
 Avoid **Meta-Programming**:
 
-[Lazyness I - Metaprogramming](Theory\Lazyness I - Metaprogramming)
+[Laziness I - Metaprogramming](Theory\Laziness I - Metaprogramming)
 
 Avoid **Dynamic Code Generation**:
 
-[Lazyness II - Code Wizards](Theory\Lazyness II - Code Wizards)
+[Laziness II - Code Wizards](Theory\Laziness II - Code Wizards)
 
 Choose **meaningful names**
 

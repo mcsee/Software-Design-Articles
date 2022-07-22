@@ -18,7 +18,7 @@
 
 1. Avoid *kind*, *isKindOf*, *instance*, *getClass()*, *typeOf*, etc..
 
-2. Don't use Reflection and [Metaprogramming](Theory\Lazyness I - Metaprogramming) for Domain Objects.
+2. Don't use Reflection and [Metaprogramming](Theory\Laziness I - Metaprogramming) for Domain Objects.
 
 3. Replace [*IFs*](Theory\How to Get Rid of Annoying IFs Forever) with polymorphism. 
 
@@ -122,7 +122,7 @@ Testing for a class type [couples](Theory\Coupling - The one and only software d
 
 [How to Get Rid of Annoying IFs Forever](Theory\How to Get Rid of Annoying IFs Forever)
 
-[Lazyness I - Metaprogramming](Theory\Lazyness I - Metaprogramming)
+[Laziness I - Metaprogramming](Theory\Laziness I - Metaprogramming)
 
 # Credits
 

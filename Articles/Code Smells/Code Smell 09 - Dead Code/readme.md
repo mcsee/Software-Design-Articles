@@ -23,7 +23,7 @@ TL;DR: Do not keep code "just in case I need it".
 
 - Avoid metaprogramming. When used, it is very difficult to find references to the code.
 
-[Lazyness I - Metaprogramming](Theory\Lazyness I - Metaprogramming)
+[Laziness I - Metaprogramming](Theory\Laziness I - Metaprogramming)
 
 # Sample Code
 
@@ -72,7 +72,7 @@ Removing code is always more rewarding than adding.
 
 # More info
 
-- [Laziness I: Metaprogramming](Theory\Lazyness I - Metaprogramming)
+- [Laziness I: Metaprogramming](Theory\Laziness I - Metaprogramming)
 
 # Credits
 

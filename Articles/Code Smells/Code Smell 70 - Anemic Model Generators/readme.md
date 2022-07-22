@@ -85,9 +85,9 @@ $john->name(); // returns 'John'
 
 # Detection
 
-Often, anemic models are generated with [meta-programming](Theory\Lazyness I - Metaprogramming). 
+Often, anemic models are generated with [meta-programming](Theory\Laziness I - Metaprogramming). 
 
-We need to track these magic [code generators](Theory\Lazyness II - Code Wizards).
+We need to track these magic [code generators](Theory\Laziness II - Code Wizards).
 
 # Tags
 
@@ -107,9 +107,9 @@ Having to write *explicitly* the code makes us reflect on every piece of data we
 
 # More info
 
-[Lazyness I - Metaprogramming](Theory\Lazyness I - Metaprogramming)
+[Laziness I - Metaprogramming](Theory\Laziness I - Metaprogramming)
 
-[Lazyness II - Code Wizards](Theory\Lazyness II - Code Wizards)
+[Laziness II - Code Wizards](Theory\Laziness II - Code Wizards)
 
 # Credits
 

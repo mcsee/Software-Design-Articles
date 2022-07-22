@@ -69,7 +69,7 @@ Bjarne Stroustrup, in his book *The Design and Evolution of C++*, regrets on the
 
 # More info
 
-[Lazyness I - Metaprogramming](Theory\Lazyness I - Metaprogramming)
+[Laziness I - Metaprogramming](Theory\Laziness I - Metaprogramming)
  
 [C++Faq](http://www.parashift.com/c++-faq-lite/newbie.html#faq-29.8)
 

@@ -73,7 +73,7 @@ bookItem = new ShopItem('book', 'some book);
 
 Several linters warn us of empty classes. 
 
-We can also make our own scripts using [metaprogramming](Theory\Lazyness I - Metaprogramming).
+We can also make our own scripts using [metaprogramming](Theory\Laziness I - Metaprogramming).
 
 # Tags
 

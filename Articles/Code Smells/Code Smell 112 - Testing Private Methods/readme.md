@@ -20,7 +20,7 @@
 
 3. Do not make your methods public for testing.
 
-4. Do not [use metaprogramming](Theory\Lazyness I - Metaprogramming) to avoid protection.
+4. Do not [use metaprogramming](Theory\Laziness I - Metaprogramming) to avoid protection.
 
 5. Do not move the private computation to [helpers](Code Smells\Code Smell 22 - Helpers).
 
@@ -120,7 +120,7 @@ With this guide, we should always choose the method object solution.
 
 - [Testing Private Methods Guide](http://shoulditestprivatemethods.com/)
 
-- [Lazyness I - Metaprogramming](Theory\Lazyness I - Metaprogramming)
+- [Laziness I - Metaprogramming](Theory\Laziness I - Metaprogramming)
 
 # Credits
 

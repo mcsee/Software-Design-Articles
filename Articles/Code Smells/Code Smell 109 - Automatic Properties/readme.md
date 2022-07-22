@@ -94,9 +94,9 @@ The first step is to stop thinking about properties and focus solely on behavior
 
 - [W3 schools](https://www.w3schools.com/cs/cs_properties.php)
 
-- [Lazyness I - Metaprogramming](Theory\Lazyness I - Metaprogramming)
+- [Laziness I - Metaprogramming](Theory\Laziness I - Metaprogramming)
 
-- [Lazyness II - Code Wizards](Theory\Lazyness II - Code Wizards)
+- [Laziness II - Code Wizards](Theory\Laziness II - Code Wizards)
 
 - [Refactoring 001 - Remove Setters](Refactorings\Refactoring 001 - Remove Setters)
 

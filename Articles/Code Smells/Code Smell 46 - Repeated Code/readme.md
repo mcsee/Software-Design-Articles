@@ -88,7 +88,7 @@ For now, it is up to us, humans.
 
 # Examples
 
-- [Automatic Code Generators](Theory\Lazyness II - Code Wizards)
+- [Automatic Code Generators](Theory\Laziness II - Code Wizards)
 
 # Tags
 
@@ -108,7 +108,7 @@ With our refactoring tools, we need to accept the duplication remove challenge t
 
 # More info
 
-[Lazyness II - Code Wizards](Theory\Lazyness II - Code Wizards)
+[Laziness II - Code Wizards](Theory\Laziness II - Code Wizards)
 
 %[https://en.wikipedia.org/wiki/Copy_and_paste_programming]
 

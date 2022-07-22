@@ -81,7 +81,7 @@ We can remove all code annotations and forbid them by policy.
 
 # Examples
 
-- [Automatic Code Generators](Theory\Lazyness II - Code Wizards)
+- [Automatic Code Generators](Theory\Laziness II - Code Wizards)
 
 # Conclusion
 
@@ -100,7 +100,7 @@ No good system was developed with these tools.
  
 # More info
 
-[Lazyness II - Code Wizards](Theory\Lazyness II - Code Wizards)
+[Laziness II - Code Wizards](Theory\Laziness II - Code Wizards)
 
 %[https://en.wikipedia.org/wiki/Computer-aided_software_engineering]
 

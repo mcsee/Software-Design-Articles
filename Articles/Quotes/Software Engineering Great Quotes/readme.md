@@ -1489,7 +1489,7 @@ _Peter Norvig_
 
 _Alex Lowe_
 
-[Lazyness II - Code Wizards](Theory\Lazyness II - Code Wizards)
+[Laziness II - Code Wizards](Theory\Laziness II - Code Wizards)
 
 * * *
 

@@ -1,102 +1,133 @@
-# Code Smell 150 - Equal Comparison
+# Code Smell 149 - Optional Chaining
 
-![Code Smell 150 - Equal Comparison](piret-ilver-98MbUldcDJY-unsplash.jpg)
+![Code Smell 149 - Optional Chaining](engin-akyurt-eKBVDW1X2xY-unsplash.jpg)
 
-*Every developer compares attributes equally. They are mistaken*
+*Our code is more robust and legible. But we hide NULL under the rug*
 
-> TL;DR: Don't export and compare, just compare.
+> TL;DR: Avoid Nulls and undefined. If you avoid them you will never need Optionals.
 
 # Problems
 
-- Encapsulation break
+- Nulls
 
-- Code Duplication
-
-- Information Hiding Violation
-
-- Anthropomorphism violation
+- [IF Polluting](Theory\How to Get Rid of Annoying IFs Forever)
 
 # Solutions
 
-1. Hide the comparison in a single method
+1. Remove nulls
+
+2. Deal with undefined
 
 # Context
 
-Attribute comparison is heavily used in our code.
+[Optional Chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining), Optionals, Coalescence, and many other solutions help us deal with the infamous nulls. 
 
-We need to focus on behavior and responsibilities
-
-It is an object's responsibility to compare with other objects. Not our own
+There's no need to use them once our code is mature, robust, and without nulls.
 
 # Sample Code
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/d3eda35a36e6dfe7cb292ff2be5a7b71)
+[Gist Url]: # (https://gist.github.com/mcsee/7f97455e51c8cd89319117103b25bda5)
 ```javascript
-if (adress.street == 'Broad Street'){
-  
+const user = {
+  name: 'Hacker'
+};
 
-if (location.street == 'Bourbon St') {
-  
-// 15000 usages in a big system  
-// Comparisons are case sensitive
+if (user?.credentials?.notExpired) {
+  user.login();
+}
+
+user.functionDefinedOrNot?.();
+
+// Seems compact but it is hacky and has lots
+// of potential NULLs and Undefined
 ```
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/7ecfc60fccc9053db2a7b22dc30f31cd)
+[Gist Url]: # (https://gist.github.com/mcsee/df8b74e09cd2bc4ee69e7b9197585a0a)
 ```javascript
-if (adress.isAtStreet('Broad Street') {
-    }
+function login() {}
 
-// ...
+const user = {
+  name: 'Hacker',
+  credentials: { expired: false }
+};
 
-if (location.isAtStreet('Bourbon St') {
-    }  
-// 15000 usages in a big system  
-  
-function isAtStreet(street) {
-  // We can change Comparisons to case sensitive in just one place. 
+if (!user.credentials.expired) {
+  login();
 }
 
+// Also compact 
+// User is a real user or a polymorphic NullUser
+// Credentials are always defined.
+// Can be an instance of InvalidCredentials
+// Assuming we eliminated nulls from our code
+
+if (user.functionDefinedOrNot !== undefined) {  
+    functionDefinedOrNot();
+}
+
+// This is also wrong.
+// Explicit undefined checks are yet another code smell
 ```
 
 # Detection
 
-[X] Semi-Automatic 
+[X] Automatic 
 
-We can detect attribute comparison using syntax trees.
+This is a *Language Feature*. 
 
-There can be good uses for primitive types as with many other smells.
- 
+We can detect it and remove it.
+
 # Tags
 
-- Encapsulation
+- Null
 
 # Conclusion
 
-We need to put responsibilities in a single place.
+Many developers feel safe polluting the code with null dealing.
 
-Comparing is one of them.
+In fact, this is safes than not treating NULLs at all.
 
-If some of our business rules change we need to change a single point.
+[Nullish Values](https://developer.mozilla.org/en-US/docs/Glossary/Nullish), Truthy and Falsy are also code smells.
+
+We need to aim higher and make cleaner code.
+
+*The good*: remove all nulls from your code
+
+*The bad*: use optional chaining
+
+*The ugly*: not treating nulls at all
 
 # Relations
 
-[Code Smell 63 - Feature Envy](Code Smells\Code Smell 63 - Feature Envy) 
+[Code Smell 145 - Short Circuit Hack](Code Smells\Code Smell 145 - Short Circuit Hack)
 
-[Code Smell 101 - Comparison Against Booleans](Code Smells\Code Smell 101 - Comparison Against Booleans)
+[Code Smell 12 - Null](Code Smells\Code Smell 12 - Null)
+
+[Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](Code Smells\Code Smell 69 - Big Bang (JavaScript Ridiculous Castings))
+
+# More Info
+
+- [Optional Chaining Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
+
+[Null: The Billion Dollar Mistake](Theory\Null - The Billion Dollar Mistake)
+
+[How to Get Rid of Annoying IFs Forever](Theory\How to Get Rid of Annoying IFs Forever)
+
+[WAT?](https://www.destroyallsoftware.com/talks/wat)
 
 # Credits
 
-Photo by [Piret Ilver](https://unsplash.com/@saltsup) on [Unsplash](https://unsplash.com/s/photos/scale?)  
-
+Photo by [engin akyurt](https://unsplash.com/@enginakyurt) on [Unsplash](https://unsplash.com/s/photos/chains)
+  
 * * *
 
-> Behavior is the most important thing about software. It is what users depend on. Users like it when we add behavior (provided it is what they really wanted), but if we change or remove behavior they depend on (introduce bugs), they stop trusting us.
+> He who fights with monsters might take care lest he thereby become a monster. And if you gaze for long into an abyss, the abyss gazes also into you.
 
-_Michael Feathers_
+_Nietzsche_
  
 [Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
 

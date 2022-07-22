@@ -42,7 +42,7 @@ void Linked_List<T>::append(T value) {
 
 d) The interpreter uses meta-programming to resolve these hints, although this is discouraged, among other reasons, for leaving obscure references, almost impossible to refactor and easily erasable by mistake.
 
-[Lazyness I - Metaprogramming](Theory\Lazyness I - Metaprogramming)
+[Laziness I - Metaprogramming](Theory\Laziness I - Metaprogramming)
 
 e) The code generated with Wizards or with meta-programming is much darker, much more difficult to follow and violates the principle of failing fast because it does not usually know how to defend itself against possible invalid constructions.
 

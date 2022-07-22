@@ -150,7 +150,7 @@ Below you will find many resources and tools, and my method and tips for writing
 
 ## Anti-Patterns
 
-### [Helpers](Code Smells\Code Smell 22 - Helpers), [DTOs](Code Smells\Code Smell 40 - DTOs), [Singletons](Code Smells\Code Smell 32 - Singletons), [Nulls](Code Smells\Code Smell 12 - Null), [Setters](Code Smells\Code Smell 28 - Setters), [Metaprogramming](Theory\Lazyness I - Metaprogramming), [Castings](Code Smells\Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)), [Comments](Code Smells\Code Smell 05 - Comment Abusers) are standard. 🙈
+### [Helpers](Code Smells\Code Smell 22 - Helpers), [DTOs](Code Smells\Code Smell 40 - DTOs), [Singletons](Code Smells\Code Smell 32 - Singletons), [Nulls](Code Smells\Code Smell 12 - Null), [Setters](Code Smells\Code Smell 28 - Setters), [Metaprogramming](Theory\Laziness I - Metaprogramming), [Castings](Code Smells\Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)), [Comments](Code Smells\Code Smell 05 - Comment Abusers) are standard. 🙈
 
 - I write a lot on these anti-patterns with the reasons why I think we should avoid them.
 

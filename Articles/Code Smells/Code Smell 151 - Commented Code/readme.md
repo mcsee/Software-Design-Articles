@@ -4,7 +4,7 @@
 
 *Beginners are afraid to remove code. And many seniors too.*
 
-> TL;DR: Don't leave commented code. Remove it
+> TL;DR: Don't leave commented code. Remove it.
 
 # Problems
 
@@ -24,9 +24,9 @@
 
 # Context
 
-Debugging code we tend to comment code to see what happens.
+When debugging code we tend to comment on code to see what happens.
 
-As a final step, after all our tests pass, we need to remove them following clean code practices.
+As a final step, after all our tests pass, we must remove them following clean code practices.
 
 # Sample Code
 
@@ -84,7 +84,7 @@ Some machine learning analyzers can detect or parse comments and guide as to rem
 
 # Conclusion
 
-We need to remove all commented out code.
+We need to remove all commented-out code.
 
 # Relations
 
@@ -95,10 +95,6 @@ We need to remove all commented out code.
 # Refactorings
 
 [Refactoring 005 - Replace Comment with Function Name](Refactorings\Refactoring 005 - Replace Comment with Function Name)
-
-# More Info
-
-- []()
 
 # Credits
 

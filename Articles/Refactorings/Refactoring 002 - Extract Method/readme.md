@@ -106,7 +106,7 @@ Algorithms and functions are more declarative hiding implementative details on e
 
 # Limitations
 
-Does not work well if you use [meta-programming anti-pattern](Theory\Lazyness I - Metaprogramming).
+Does not work well if you use [meta-programming anti-pattern](Theory\Laziness I - Metaprogramming).
 
 # Tags
 

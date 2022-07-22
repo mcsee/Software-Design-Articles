@@ -14,9 +14,9 @@ In this repository, you will find many articles related to Software Design
 
 * [How to Get Rid of Annoying IFs Forever](/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
-* [Lazyness I - Metaprogramming](/Articles/Theory/Lazyness%20I%20-%20Metaprogramming/readme.md)
+* [Laziness I - Metaprogramming](/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
 
-* [Lazyness II - Code Wizards](/Articles/Theory/Lazyness%20II%20-%20Code%20Wizards/readme.md)
+* [Laziness II - Code Wizards](/Articles/Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
 
 * [No Silver Bullet](/Articles/Theory/No%20Silver%20Bullet/readme.md)
 

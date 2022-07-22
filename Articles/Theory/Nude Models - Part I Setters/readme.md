@@ -257,7 +257,7 @@ Many objects have invariants that guarantee their cohesion and the validity of t
 
 Many development environments give us the possibility to automate the generation of setters and getters. This leads to new programmers generations thinking it is a good design practice, generating vices that are difficult to correct.
 
-[Lazyness II - Code Wizards](Theory\Lazyness II - Code Wizards)
+[Laziness II - Code Wizards](Theory\Laziness II - Code Wizards)
 
 This facility spreads the problem, having this tool gives the feeling that it is an accepted practice.
 

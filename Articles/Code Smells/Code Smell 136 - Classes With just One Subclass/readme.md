@@ -72,7 +72,7 @@ Some frameworks create an abstract class as a placeholder to build our models ov
 
 Subclassifing should be never our first option. 
 
-A more elegant solution would be to declare [an interface](Code Smells\Code Smell 151 - Commented Code) since it is less coupled.
+A more elegant solution would be to declare [an interface](Code Smells\Code Smell 135 - Interfaces With just One Realization) since it is less coupled.
 
 # Tags
 
@@ -88,7 +88,7 @@ A more elegant solution would be to declare [an interface](Code Smells\Code Smel
 
 [Code Smell 92 - Isolated Subclasses Names](Code Smells\Code Smell 92 - Isolated Subclasses Names)
 
-[Code Smell 151 - Commented Code](Code Smells\Code Smell 151 - Commented Code)
+[Code Smell 135 - Interfaces With just One Realization](Code Smells\Code Smell 135 - Interfaces With just One Realization)
 
 # Conclusion
 
