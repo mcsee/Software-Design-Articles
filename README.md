@@ -200,6 +200,10 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 151 - Commented Code](/Articles/Code%20Smells/Code%20Smell%20151%20-%20Commented%20Code/readme.md)
 
+* [Code Smell 152 - Logical Comment](/Articles/Code%20Smells/Code%20Smell%20152%20-%20Logical%20Comment/readme.md)
+
+* [Code Smell 153 - Too Long Names](/Articles/Code%20Smells/Code%20Smell%20153%20-%20Too%20Long%20Names/readme.md)
+
 * [Code Smell 16 - Ripple Effect](/Articles/Code%20Smells/Code%20Smell%2016%20-%20Ripple%20Effect/readme.md)
 
 * [Code Smell 17 - Global Functions](/Articles/Code%20Smells/Code%20Smell%2017%20-%20Global%20Functions/readme.md)
