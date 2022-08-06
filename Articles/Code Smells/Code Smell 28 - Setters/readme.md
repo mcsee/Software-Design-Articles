@@ -162,7 +162,7 @@ mutability, fail fast principle and real world [bijections](Theory\The One and O
  
 # Relations
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
+[Code Smell 01 - Anemic Models](Code Smells\Code Smell  01 - Anemic Models)
 
 # More Info
 

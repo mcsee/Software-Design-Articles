@@ -105,7 +105,7 @@ We need to aim higher and make cleaner code.
 
 [Code Smell 145 - Short Circuit Hack](Code Smells\Code Smell 145 - Short Circuit Hack)
 
-[Code Smell 12 - Null](Code Smells\Code Smell 12 - Null)
+[Code Smell 12 - Null](Code Smells\Code Smell  12 - Null)
 
 [Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](Code Smells\Code Smell 69 - Big Bang (JavaScript Ridiculous Castings))
 

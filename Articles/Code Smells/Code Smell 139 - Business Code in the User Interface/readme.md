@@ -176,7 +176,7 @@ You will put all your business logic behavior on your domain objects.
 
 [Code Smell 97 - Error Messages Without Empathy](Code Smells\Code Smell 97 - Error Messages Without Empathy)
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models) 
+[Code Smell 01 - Anemic Models](Code Smells\Code Smell  01 - Anemic Models) 
 
 [Code Smell 40 - DTOs](Code Smells\Code Smell 40 - DTOs)
 

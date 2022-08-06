@@ -105,7 +105,7 @@ We should not name our abstractions until we name our concrete subclasses.
 
 # Relations
 
-[Code Smell 11 - Subclassification for Code Reuse](Code Smells\Code Smell 11 - Subclassification for Code Reuse)
+[Code Smell 11 - Subclassification for Code Reuse](Code Smells\Code Smell  11 - Subclassification for Code Reuse)
 
 # More Info
 

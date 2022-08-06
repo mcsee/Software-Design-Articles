@@ -98,7 +98,7 @@ Group behavior in the right place and hide the primitive data.
 
 [Code Smell 122 - Primitive Obsession](Code Smells\Code Smell 122 - Primitive Obsession)
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
+[Code Smell 01 - Anemic Models](Code Smells\Code Smell  01 - Anemic Models)
 
 [Code Smell 27 - Associative Arrays](Code Smells\Code Smell 27 - Associative Arrays)
 

@@ -99,7 +99,7 @@ Getters and Setters are a bad established practice. Instead of focusing on objec
 
 [Code Smell 28 - Setters](Code Smells\Code Smell 28 - Setters)
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
+[Code Smell 01 - Anemic Models](Code Smells\Code Smell  01 - Anemic Models)
 
 [Code Smell 64 - Inappropriate Intimacy](Code Smells\Code Smell 64 - Inappropriate Intimacy)
 

@@ -99,7 +99,7 @@ We must refactor and flatten those classes.
 
 # Relations
 
-[Code Smell 11 - Subclassification for Code Reuse](Code Smells\Code Smell 11 - Subclassification for Code Reuse)
+[Code Smell 11 - Subclassification for Code Reuse](Code Smells\Code Smell  11 - Subclassification for Code Reuse)
 
 # More info
 

@@ -16,7 +16,7 @@
 
 # Solutions
 
-1. Avoid creating [anemic](Code Smells\Code Smell 01 - Anemic Models) exceptions as globals.
+1. Avoid creating [anemic](Code Smells\Code Smell  01 - Anemic Models) exceptions as globals.
 
 2. Create exceptions only if they behave differently.
 
@@ -129,7 +129,7 @@ Exception instances should **NOT** be [Singletons](Theory\Singleton - The root o
 
 # Relations
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
+[Code Smell 01 - Anemic Models](Code Smells\Code Smell  01 - Anemic Models)
 
 [Code Smell 114 - Empty Class](Code Smells\Code Smell 114 - Empty Class)
 

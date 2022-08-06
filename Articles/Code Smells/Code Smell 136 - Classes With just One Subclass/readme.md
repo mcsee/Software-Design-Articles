@@ -82,7 +82,7 @@ A more elegant solution would be to declare [an interface](Code Smells\Code Smel
 
 [Code Smell 114 - Empty Class](Code Smells\Code Smell 114 - Empty Class)
 
-[Code Smell 11 - Subclassification for Code Reuse](Code Smells\Code Smell 11 - Subclassification for Code Reuse)
+[Code Smell 11 - Subclassification for Code Reuse](Code Smells\Code Smell  11 - Subclassification for Code Reuse)
 
 [Code Smell 43 - Concrete Classes Subclassified](Code Smells\Code Smell 43 - Concrete Classes Subclassified)
 

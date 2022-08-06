@@ -81,7 +81,7 @@ Watch some warnings related to complexity, bad names, post-increment variables, 
 
 # Relations
 
-[Code Smell 02 - Constants and Magic Numbers](Code Smells\Code Smell 02 - Constants and Magic Numbers)
+[Code Smell 02 - Constants and Magic Numbers](Code Smells\Code Smell  02 - Constants and Magic Numbers)
 
 [Code Smell 20 - Premature Optimization](Code Smells\Code Smell 20 - Premature Optimization)
 

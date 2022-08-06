@@ -16,7 +16,7 @@
 
 # Related Code Smells
 
-- [Code Smell 02 - Constants and Magic Numbers](Code Smells\Code Smell 02 - Constants and Magic Numbers)
+- [Code Smell 02 - Constants and Magic Numbers](Code Smells\Code Smell  02 - Constants and Magic Numbers)
 
 # Steps
 

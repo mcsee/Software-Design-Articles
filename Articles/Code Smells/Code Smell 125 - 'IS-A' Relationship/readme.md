@@ -212,7 +212,7 @@ We cannot do real.setImaginaryPart() so it is not a Complex according to our [Bi
 
 [Code Smell 92 - Isolated Subclasses Names](Code Smells\Code Smell 92 - Isolated Subclasses Names)
 
-[Code Smell 11 - Subclassification for Code Reuse](Code Smells\Code Smell 11 - Subclassification for Code Reuse)
+[Code Smell 11 - Subclassification for Code Reuse](Code Smells\Code Smell  11 - Subclassification for Code Reuse)
 
 [Code Smell 37 - Protected Attributes](Code Smells\Code Smell 37 - Protected Attributes)
 

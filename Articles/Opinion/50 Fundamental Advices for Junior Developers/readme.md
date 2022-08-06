@@ -230,7 +230,7 @@ AVOID INHERITANCE!
 
 https://twitter.com/lucaguada
 
-[Code Smell 11 - Subclassification for Code Reuse](Code Smells\Code Smell 11 - Subclassification for Code Reuse)
+[Code Smell 11 - Subclassification for Code Reuse](Code Smells\Code Smell  11 - Subclassification for Code Reuse)
 
 * * *
 

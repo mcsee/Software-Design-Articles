@@ -98,7 +98,7 @@ Look after your hierarchies and break them often.
 
 # Relations
 
-[Code Smell 11 - Subclassification for Code Reuse](Code Smells\Code Smell 11 - Subclassification for Code Reuse)
+[Code Smell 11 - Subclassification for Code Reuse](Code Smells\Code Smell  11 - Subclassification for Code Reuse)
 
 [Code Smell 43 - Concrete Classes Subclassified](Code Smells\Code Smell 43 - Concrete Classes Subclassified)
 

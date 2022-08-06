@@ -116,7 +116,7 @@ We need to enforce it with the right tools.
 
 [Code Smell 107 - Variables Reuse](Code Smells\Code Smell 107 - Variables Reuse)
 
-[Code Smell 02 - Constants and Magic Numbers](Code Smells\Code Smell 02 - Constants and Magic Numbers)
+[Code Smell 02 - Constants and Magic Numbers](Code Smells\Code Smell  02 - Constants and Magic Numbers)
 
 # More Info
 

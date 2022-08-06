@@ -103,7 +103,7 @@ Create and raise generic exceptions.
 
 Only create specific exceptions if you are ready to handle them, and they have specialized behavior. 
 
-Don't create [anemic](Code Smells\Code Smell 01 - Anemic Models) Exceptions.
+Don't create [anemic](Code Smells\Code Smell  01 - Anemic Models) Exceptions.
 
 Avoid [immature and premature optimized languages](https://golangdocs.com/errors-exception-handling-in-golang) favoring return codes.
 

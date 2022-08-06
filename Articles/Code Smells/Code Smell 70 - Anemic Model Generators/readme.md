@@ -103,7 +103,7 @@ Having to write *explicitly* the code makes us reflect on every piece of data we
 
 # Relations
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
+[Code Smell 01 - Anemic Models](Code Smells\Code Smell  01 - Anemic Models)
 
 # More info
 

@@ -84,7 +84,7 @@ If your classes are polluted with setters, getters and public methods you will c
 
 # Relations
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
+[Code Smell 01 - Anemic Models](Code Smells\Code Smell  01 - Anemic Models)
 
 [Code Smell 28 - Setters](Code Smells\Code Smell 28 - Setters)
 

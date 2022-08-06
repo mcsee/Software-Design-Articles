@@ -6,7 +6,7 @@
 
 # Problems
 
-- [Sub classification](Code Smells\Code Smell 11 - Subclassification for Code Reuse) for code reuse purposes.
+- [Sub classification](Code Smells\Code Smell  11 - Subclassification for Code Reuse) for code reuse purposes.
 
 - [Liskov substitution](https://en.wikipedia.org/wiki/Liskov_substitution_principle) violation ([SOLID](https://en.wikipedia.org/wiki/SOLID) principle).
 
@@ -119,7 +119,7 @@ Protected attributes are yet another tool we should use carefully. Every decisio
 
 # Relations
 
-[Code Smell 11 - Subclassification for Code Reuse](Code Smells\Code Smell 11 - Subclassification for Code Reuse)
+[Code Smell 11 - Subclassification for Code Reuse](Code Smells\Code Smell  11 - Subclassification for Code Reuse)
 
 # More Info
 

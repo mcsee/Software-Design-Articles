@@ -18,7 +18,7 @@
 
 [Code Smell 28 - Setters](Code Smells\Code Smell 28 - Setters)
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
+[Code Smell 01 - Anemic Models](Code Smells\Code Smell  01 - Anemic Models)
 
 # Steps
 

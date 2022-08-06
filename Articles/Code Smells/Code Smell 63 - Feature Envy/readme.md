@@ -83,7 +83,7 @@ Some linters can detect a sequential pattern of collaborations with another obje
  
 # Relations
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
+[Code Smell 01 - Anemic Models](Code Smells\Code Smell  01 - Anemic Models)
 
 [Code Smell 89 - Math Feature Envy](Code Smells\Code Smell 89 - Math Feature Envy)
 

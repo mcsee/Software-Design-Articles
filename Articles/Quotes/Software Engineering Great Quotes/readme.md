@@ -369,7 +369,7 @@ _Rico Mariani_
 
 _Joel Spolsky_
 
-[Code Smell 02 - Constants and Magic Numbers](Code Smells\Code Smell 02 - Constants and Magic Numbers)
+[Code Smell 02 - Constants and Magic Numbers](Code Smells\Code Smell  02 - Constants and Magic Numbers)
 
 * * *
 
@@ -700,7 +700,7 @@ Nathan Myhrvold
 
 _Tony Hoare_
 
-[Code Smell 12 - Null](Code Smells\Code Smell 12 - Null)
+[Code Smell 12 - Null](Code Smells\Code Smell  12 - Null)
 
 * * *
 

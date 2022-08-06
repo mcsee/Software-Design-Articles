@@ -22,7 +22,7 @@
 
 3. Replace [*IFs*](Theory\How to Get Rid of Annoying IFs Forever) with polymorphism. 
 
-4. Avoid checking for *'undefined'*. Use [complete objects](Theory\Nude Models - Part I Setters), avoid [nulls](Code Smells\Code Smell 12 - Null) and setters, favor [immutability](Theory\The Evil Power of Mutants) and you will never have undefined and ifs.
+4. Avoid checking for *'undefined'*. Use [complete objects](Theory\Nude Models - Part I Setters), avoid [nulls](Code Smells\Code Smell  12 - Null) and setters, favor [immutability](Theory\The Evil Power of Mutants) and you will never have undefined and ifs.
 
 # Sample Code
 
@@ -116,7 +116,7 @@ Testing for a class type [couples](Theory\Coupling - The one and only software d
 
 # Relations
 
-[Code Smell 12 - Null](Code Smells\Code Smell 12 - Null)
+[Code Smell 12 - Null](Code Smells\Code Smell  12 - Null)
 
 # More Info
 

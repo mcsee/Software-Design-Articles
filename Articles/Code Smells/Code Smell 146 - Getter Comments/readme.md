@@ -86,7 +86,7 @@ They add no real value and bloat your code.
 
 [Code Smell 68 - Getters](Code Smells\Code Smell 68 - Getters)
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
+[Code Smell 01 - Anemic Models](Code Smells\Code Smell  01 - Anemic Models)
 
 # Credits
 

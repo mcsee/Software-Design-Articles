@@ -67,7 +67,7 @@ If your language supports it, use modules, namespaces and local scopes.
 
 # Relations
 
-[Code Smell 11 - Subclassification for Code Reuse](Code Smells\Code Smell 11 - Subclassification for Code Reuse)
+[Code Smell 11 - Subclassification for Code Reuse](Code Smells\Code Smell  11 - Subclassification for Code Reuse)
 
 # More Info
 

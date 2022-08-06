@@ -28,7 +28,7 @@ Below you will find many resources and tools, and my method and tips for writing
 
 - I use a different template in all my series. 
 
-- For example, I have an empty Code Smell template.
+- For example, I have an empty [Code Smell template](https://maximilianocontieri/series/code-smells).
 
 - I write Everywhere 🗺️
 
@@ -118,6 +118,18 @@ Below you will find many resources and tools, and my method and tips for writing
 
 - Languages are accidental, and Software design is [essential](Theory\No Silver Bullet).
 
+### Why do you rotate the programming languages?
+
+I use different languages on purpose.
+
+Some Code Smells are language-dependent.
+
+Imagine what would happen if I write them in, for example, Javascript.
+
+Everyone would argue and associate Javascript with those languages.
+
+No language is perfect and that is my point.
+
 ### I Have a trick in *INSERT LANGUAGE* to improve the code.
 
 - Most of the articles are language-independent.
@@ -132,7 +144,7 @@ Below you will find many resources and tools, and my method and tips for writing
 
 - This is the domain I've been working on.
 
-- I am aware that some tasks require more performant solutions (for example DApps).
+- I know that some tasks require more performant solutions (for example DApps).
 
 - I will always choose long descriptive names over smart performance optimizations.
 
@@ -150,7 +162,7 @@ Below you will find many resources and tools, and my method and tips for writing
 
 ## Anti-Patterns
 
-### [Helpers](Code Smells\Code Smell 22 - Helpers), [DTOs](Code Smells\Code Smell 40 - DTOs), [Singletons](Code Smells\Code Smell 32 - Singletons), [Nulls](Code Smells\Code Smell 12 - Null), [Setters](Code Smells\Code Smell 28 - Setters), [Metaprogramming](Theory\Laziness I - Metaprogramming), [Castings](Code Smells\Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)), [Comments](Code Smells\Code Smell 05 - Comment Abusers) are standard. 🙈
+### [Helpers](Code Smells\Code Smell 22 - Helpers), [DTOs](Code Smells\Code Smell 40 - DTOs), [Singletons](Code Smells\Code Smell 32 - Singletons), [Nulls](Code Smells\Code Smell  12 - Null), [Setters](Code Smells\Code Smell 28 - Setters), [Metaprogramming](Theory\Laziness I - Metaprogramming), [Castings](Code Smells\Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)), [Comments](Code Smells\Code Smell 05 - Comment Abusers) are standard. 🙈
 
 - I write a lot on these anti-patterns with the reasons why I think we should avoid them.
 

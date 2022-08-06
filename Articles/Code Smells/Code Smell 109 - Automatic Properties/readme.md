@@ -88,7 +88,7 @@ The first step is to stop thinking about properties and focus solely on behavior
 
 [Code Smell 40 - DTOs](Code Smells\Code Smell 40 - DTOs)
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
+[Code Smell 01 - Anemic Models](Code Smells\Code Smell  01 - Anemic Models)
 
 # More Info
 

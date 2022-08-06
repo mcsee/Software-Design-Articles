@@ -66,9 +66,9 @@ In this repository, you will find many articles related to Software Design
 
 ### Code Smells
 
-* [Code Smell 01 - Anemic Models](/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
+* [Code Smell 01 - Anemic Models](/Articles/Code%20Smells/Code%20Smell%20%2001%20-%20Anemic%20Models/readme.md)
 
-* [Code Smell 02 - Constants and Magic Numbers](/Articles/Code%20Smells/Code%20Smell%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
+* [Code Smell 02 - Constants and Magic Numbers](/Articles/Code%20Smells/Code%20Smell%20%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
 
 * [Code Smell 03 - Functions Are Too Long](/Articles/Code%20Smells/Code%20Smell%2003%20-%20Functions%20Are%20Too%20Long/readme.md)
 
@@ -106,7 +106,7 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 109 - Automatic Properties](/Articles/Code%20Smells/Code%20Smell%20109%20-%20Automatic%20Properties/readme.md)
 
-* [Code Smell 11 - Subclassification for Code Reuse](/Articles/Code%20Smells/Code%20Smell%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
+* [Code Smell 11 - Subclassification for Code Reuse](/Articles/Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
 
 * [Code Smell 110 - Switches With Defaults](/Articles/Code%20Smells/Code%20Smell%20110%20-%20Switches%20With%20Defaults/readme.md)
 
@@ -128,7 +128,7 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 119 - Stairs Code](/Articles/Code%20Smells/Code%20Smell%20119%20-%20Stairs%20Code/readme.md)
 
-* [Code Smell 12 - Null](/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
+* [Code Smell 12 - Null](/Articles/Code%20Smells/Code%20Smell%20%2012%20-%20Null/readme.md)
 
 * [Code Smell 120 - Sequential IDs](/Articles/Code%20Smells/Code%20Smell%20120%20-%20Sequential%20IDs/readme.md)
 
@@ -203,6 +203,12 @@ In this repository, you will find many articles related to Software Design
 * [Code Smell 152 - Logical Comment](/Articles/Code%20Smells/Code%20Smell%20152%20-%20Logical%20Comment/readme.md)
 
 * [Code Smell 153 - Too Long Names](/Articles/Code%20Smells/Code%20Smell%20153%20-%20Too%20Long%20Names/readme.md)
+
+* [Code Smell 154 - Too Many Variables](/Articles/Code%20Smells/Code%20Smell%20154%20-%20Too%20Many%20Variables/readme.md)
+
+* [Code Smell 155 - Multiple Promises](/Articles/Code%20Smells/Code%20Smell%20155%20-%20Multiple%20Promises/readme.md)
+
+* [Code Smell 156 - Implicit Else](/Articles/Code%20Smells/Code%20Smell%20156%20-%20Implicit%20Else/readme.md)
 
 * [Code Smell 16 - Ripple Effect](/Articles/Code%20Smells/Code%20Smell%2016%20-%20Ripple%20Effect/readme.md)
 

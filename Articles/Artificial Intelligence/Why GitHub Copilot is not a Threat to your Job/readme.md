@@ -37,7 +37,7 @@ Copilot can predict anemic structures once we describe their accidental data.
 
 They are suitable for implementative and anemic code generation.
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
+[Code Smell 01 - Anemic Models](Code Smells\Code Smell  01 - Anemic Models)
 
 ## Bad comments to code
 
