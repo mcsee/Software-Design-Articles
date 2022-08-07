@@ -46,7 +46,7 @@ One of the original signatories of the Agile Manifesto, James Grenning trains, c
 -- Everyone thinks is special.
 - The first step to recovery. Say it loud:
 
-> I am a programmer and I write [bugs](Quality\Stop Calling them 'Bugs').
+> I am a programmer and I write [bugs](../../Quality/Stop%20Calling%20them%20'Bugs'/readme.md).
 
 # Speaker Links
 
@@ -58,7 +58,7 @@ One of the original signatories of the Agile Manifesto, James Grenning trains, c
 
 # Index
 
-[TDD Conference 2021 - All Talks](TDD Conference 2021\TDD Conference 2021 - All Talks)
+[TDD Conference 2021 - All Talks](../../TDD%20Conference%202021/TDD%20Conference%202021%20-%20All%20Talks/readme.md)
 
 * * *
 

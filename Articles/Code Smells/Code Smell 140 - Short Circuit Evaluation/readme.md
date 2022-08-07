@@ -81,9 +81,9 @@ We need to favor these kinds of expressions.
 
 # Relations
 
-[Code Smell 101 - Comparison Against Booleans](Code Smells\Code Smell 101 - Comparison Against Booleans)
+[Code Smell 101 - Comparison Against Booleans](../../Code%20Smells/Code%20Smell%20101%20-%20Comparison%20Against%20Booleans/readme.md)
 
-[Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](Code Smells\Code Smell 69 - Big Bang (JavaScript Ridiculous Castings))
+[Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](../../Code%20Smells/Code%20Smell%2069%20-%20Big%20Bang%20(JavaScript%20Ridiculous%20Castings)/readme.md)
 
 # More Info
 
@@ -95,10 +95,10 @@ We need to favor these kinds of expressions.
 
 _Bertrand Meyer_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

@@ -18,7 +18,7 @@
 
 2. Enable preconditions and assertions in production.
 
-3. [Fail fast](Theory\Fail Fast)
+3. [Fail fast](../../Theory/Fail%20Fast/readme.md)
 
 4. [Design by contract](https://en.wikipedia.org/wiki/Design_by_contract)
 
@@ -79,13 +79,13 @@ If we follow the *Broken Windows Theory*, we should not tolerate any warnings, s
 
 # Relations
 
-[Code Smell 19 - Optional Arguments](Code Smells\Code Smell 19 - Optional Arguments)
+[Code Smell 19 - Optional Arguments](../../Code%20Smells/Code%20Smell%2019%20-%20Optional%20Arguments/readme.md)
 
-[Code Smell 12 - Null](Code Smells\Code Smell 12 - Null) 
+[Code Smell 12 - Null](../../Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md) 
 
 # More info
 
-[Fail Fast](Theory\Fail Fast) 
+[Fail Fast](../../Theory/Fail%20Fast/readme.md) 
 
 - [Use strict in javascript](https://blog.rahulism.co/use-strict-in-javascript)
 
@@ -101,13 +101,13 @@ _Jessica Gaston_
  
 * * *
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
 
 
 

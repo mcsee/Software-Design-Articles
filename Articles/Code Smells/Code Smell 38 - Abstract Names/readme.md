@@ -10,7 +10,7 @@
 
 - Meaningless names
 
-- Broken [MAPPER](Theory\What is (wrong with) software) and [Bijection](Theory\The One and Only Software Design Principle) to real world entities.
+- Broken [MAPPER](../../Theory/What%20is%20(wrong%20with)%20software/readme.md) and [Bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) to real world entities.
 
 # Solutions
 
@@ -20,7 +20,7 @@
 
 3. Avoid words like *abstract*, *base*, *generic*, *helper* etc.
 
-4. Use [rules](Theory\What exactly is a name — Part II Rehab) for naming.
+4. Use [rules](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md) for naming.
 
 # Sample Code
 
@@ -101,13 +101,13 @@ Finding names is the last thing we should do on our designs. Unless we have a cl
 
 # Relations
 
-[Code Smell 22 - Helpers](Code Smells\Code Smell 22 - Helpers)
+[Code Smell 22 - Helpers](../../Code%20Smells/Code%20Smell%2022%20-%20Helpers/readme.md)
 
-[Code Smell 25 - Pattern Abusers](Code Smells\Code Smell 25 - Pattern Abusers)
+[Code Smell 25 - Pattern Abusers](../../Code%20Smells/Code%20Smell%2025%20-%20Pattern%20Abusers/readme.md)
 
 # More info
 
-[What exactly is a name — Part II Rehab](Theory\What exactly is a name — Part II Rehab)
+[What exactly is a name — Part II Rehab](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
 
 # Credits
 
@@ -119,12 +119,12 @@ Photo by [Rodion Kutsaev](https://unsplash.com/@frostroomhead) on [Unsplash](htt
 
 _Phil Karlton_
 
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
 
 

@@ -86,7 +86,7 @@ dog.walk();
 
 # Relations
 
-[Code Smell 67 - Middle Man](Code Smells\Code Smell 67 - Middle Man)
+[Code Smell 67 - Middle Man](../../Code%20Smells/Code%20Smell%2067%20-%20Middle%20Man/readme.md)
 
 # More Info
 
@@ -110,4 +110,4 @@ Photo by [Chewy](https://unsplash.com/@chewy) on [Unsplash](https://unsplash.com
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

@@ -65,11 +65,11 @@ Bjarne Stroustrup, in his book *The Design and Evolution of C++*, regrets on the
  
 # Relations
 
-[Code Smell 20 - Premature Optimization](Code Smells\Code Smell 20 - Premature Optimization)
+[Code Smell 20 - Premature Optimization](../../Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
 # More info
 
-[Laziness I - Metaprogramming](Theory\Laziness I - Metaprogramming)
+[Laziness I - Metaprogramming](../../Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
  
 [C++Faq](http://www.parashift.com/c++-faq-lite/newbie.html#faq-29.8)
 
@@ -89,10 +89,10 @@ _Bjarne Stroustrup_
   
 * * *
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

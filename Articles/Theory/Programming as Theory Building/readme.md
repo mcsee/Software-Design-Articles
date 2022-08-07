@@ -44,7 +44,7 @@ The programming phase corresponds to the implementation stage of said theory in 
 
 This idea is partially contradicted by techniques such as [TDD](https://en.wikipedia.org/wiki/Test-driven_development) where knowledge training is encouraged while the solution is implemented.
 
-[What is (wrong with) software?](Theory\What is (wrong with) software)
+[What is (wrong with) software?](../../Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
 ## Documentation of findings
 
@@ -85,7 +85,7 @@ This way of doing science is based on [Ryle](https://en.wikipedia.org/wiki/Gilbe
 
 Building software is acquiring knowledge. Trying to define the behavior of a class without having previously built any instance is a mistake.
 
-[What exactly is a name — Part II Rehab](Theory\What exactly is a name — Part II Rehab)
+[What exactly is a name — Part II Rehab](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
 
 To build theory in an exploratory way, **prototyping languages** ​​are much more useful tools than **classification languages**.
 
@@ -118,7 +118,7 @@ Naur begins the article by taking certain observations of what really happens wi
 
 Building adequate self-defense models is not easy. It requires a long process of mastery learning. Its fruits allow us to mitigate risks and to be able to maintain the existing software.
 
-[Fail Fast](Theory\Fail Fast)
+[Fail Fast](../../Theory/Fail%20Fast/readme.md)
 
 ## There are no silver bullets
 
@@ -150,7 +150,7 @@ Photo by [Roman Mager](https://unsplash.com/@roman_lazygeek) on [Unsplash](https
 
 ## Bad decisions
 
-Throughout the theory-building process, those involved make decisions so that the model corresponds to the [bijection to the real world](Theory\The One and Only Software Design Principle]). These decisions are not explicitly documented.
+Throughout the theory-building process, those involved make decisions so that the model corresponds to the [bijection to the real world](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md]). These decisions are not explicitly documented.
 
 Observing the result without knowing why a design decision was made is another limitation that a theory can explain but the built software cannot.
 
@@ -158,17 +158,17 @@ In legacy systems, it is common to see individuals act out of habit without wond
 
 ![monkeys](monkeys.jpg)
 
-[How to Decouple a Legacy System](Theory\How to Decouple a Legacy System)
+[How to Decouple a Legacy System](../../Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 
 ## Where is the model?
 
-According to Naur, the model should remain solely as a theory among the participants. However, if we stay true to bijection and create a model with a [MAPPER](Theory\What is (wrong with) software) the model will be only as good as the theory developed in it.
+According to Naur, the model should remain solely as a theory among the participants. However, if we stay true to bijection and create a model with a [MAPPER](../../Theory/What%20is%20(wrong%20with)%20software/readme.md) the model will be only as good as the theory developed in it.
 
-[The One and Only Software Design Principle](Theory\The One and Only Software Design Principle)
+[The One and Only Software Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 [GPT3](https://en.wikipedia.org/wiki/GPT-3) and the other [transformers](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model) are cornering programmers who write code without understanding the underlying theory. We still have time to avoid it.
 
-[(Most) Programmers are losing our jobs very soon](Opinion\(Most) Programmers are losing our jobs very soon)
+[(Most) Programmers are losing our jobs very soon](../../Opinion/(Most)%20Programmers%20are%20losing%20our%20jobs%20very%20soon/readme.md)
 
 # Conclusions
 
@@ -180,7 +180,7 @@ Theory building is a mental activity that requires a process of learning and dis
 
 Part of the objective of this series of articles is to generate spaces for debate and discussion on software design.
 
-[Object Design Checklist](Theory\Object Design Checklist)
+[Object Design Checklist](../../Theory/Object%20Design%20Checklist/readme.md)
 
 We look forward to comments and suggestions on this article.
 

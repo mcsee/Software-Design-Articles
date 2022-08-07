@@ -8,7 +8,7 @@
 
 # Problems
 
-- [Mutability](Theory\The Evil Power of Mutants)
+- [Mutability](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 - Anemic Models
 
@@ -16,7 +16,7 @@
 
 1. Use one complete and single constructor.
 
-2. Avoid [Setters](Code Smells\Code Smell 28 - Setters) and [Getters](Code Smells\Code Smell 68 - Getters)
+2. Avoid [Setters](../../Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md) and [Getters](../../Code%20Smells/Code%20Smell%2068%20-%20Getters/readme.md)
 
 # Context
 
@@ -69,23 +69,23 @@ We need to research usages to improve our solutions.
 
 # Relations
 
-[Code Smell 68 - Getters](Code Smells\Code Smell 68 - Getters)
+[Code Smell 68 - Getters](../../Code%20Smells/Code%20Smell%2068%20-%20Getters/readme.md)
 
-[Code Smell 28 - Setters](Code Smells\Code Smell 28 - Setters)
+[Code Smell 28 - Setters](../../Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
+[Code Smell 01 - Anemic Models](../../Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
-[Code Smell 40 - DTOs](Code Smells\Code Smell 40 - DTOs)
+[Code Smell 40 - DTOs](../../Code%20Smells/Code%20Smell%2040%20-%20DTOs/readme.md)
 
 # More Info
 
 - [Nullary Constructor](https://en.wikipedia.org/wiki/Nullary_constructor)
 
-- [Nude Models — Part I : Setters](Theory\Nude Models - Part I Setters)
+- [Nude Models — Part I : Setters](../../Theory/Nude%20Models - Part%20I Setters/readme.md)
 
-- [Nude Models — Part II : Getters](Theory\Nude Models - Part II Getters)
+- [Nude Models — Part II : Getters](../../Theory/Nude%20Models - Part%20II Getters/readme.md)
 
-- [The Evil Power of Mutants](Theory\The Evil Power of Mutants)
+- [The Evil Power of Mutants](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 # Credits
 
@@ -97,10 +97,10 @@ Photo by [Ade Adebowale](https://unsplash.com/@adebowax) on [Unsplash](https://u
 
 _Martin Fowler_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

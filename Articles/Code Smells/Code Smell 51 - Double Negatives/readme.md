@@ -48,15 +48,15 @@ We need to trust our test coverage and make safe renames and other refactors.
 
 # Relations
 
-[Code Smell 24 - Boolean Coercions](Code Smells\Code Smell 24 - Boolean Coercions)
+[Code Smell 24 - Boolean Coercions](../../Code%20Smells/Code%20Smell%2024%20-%20Boolean%20Coercions/readme.md)
 
-[Code Smell 07 - Boolean Variables](Code Smells\Code Smell 07 - Boolean Variables)
+[Code Smell 07 - Boolean Variables](../../Code%20Smells/Code%20Smell%2007%20-%20Boolean%20Variables/readme.md)
 
-[Code Smell 06 - Too Clever Programmer](Code Smells\Code Smell 06 - Too Clever Programmer)
+[Code Smell 06 - Too Clever Programmer](../../Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
 # More info
 
-[What exactly is a name — Part II Rehab](Theory\What exactly is a name — Part II Rehab)
+[What exactly is a name — Part II Rehab](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
 
 %[https://refactoring.com/catalog/removeDoubleNegative.html]
 
@@ -74,10 +74,10 @@ _Joel Spolsky_
  
 * * *
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

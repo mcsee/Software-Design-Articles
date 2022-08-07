@@ -8,23 +8,23 @@
 
 # Problems
 
-- [Bijection](Theory\The One and Only Software Design Principle) Fault
+- [Bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Fault
 
-- Namespace [Polluting](Code Smells\Code Smell 26 - Exceptions Polluting)
+- Namespace [Polluting](../../Code%20Smells/Code%20Smell%2026%20-%20Exceptions%20Polluting/readme.md)
 
-- Classes used as [DTOs](Code Smells\Code Smell 40 - DTOs)
+- Classes used as [DTOs](../../Code%20Smells/Code%20Smell%2040%20-%20DTOs/readme.md)
 
-- Classes used as [global references](Code Smells\Code Smell 60 - Global Classes)
+- Classes used as [global references](../../Code%20Smells/Code%20Smell%2060%20-%20Global%20Classes/readme.md)
 
 # Solutions
 
 1. Remove the classes and replace them with objects instead.
 
-2. If your classes are Anemic Exceptions, [remove them](Refactorings\Refactoring 004 - Remove Unhandled Exceptions).
+2. If your classes are Anemic Exceptions, [remove them](../../Refactorings/Refactoring%20004%20-%20Remove%20Unhandled%20Exceptions/readme.md).
 
 # Context
 
-Many developers still think classes are [data repositories](Code Smells\Code Smell 01 - Anemic Models).
+Many developers still think classes are [data repositories](../../Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md).
 
 They couple *different behavior* concept with *returning different data*.
 
@@ -73,7 +73,7 @@ bookItem = new ShopItem('book', 'some book);
 
 Several linters warn us of empty classes. 
 
-We can also make our own scripts using [metaprogramming](Theory\Laziness I - Metaprogramming).
+We can also make our own scripts using [metaprogramming](../../Theory/Laziness%20I%20-%20Metaprogramming/readme.md).
 
 # Tags
 
@@ -87,19 +87,19 @@ Empty classes do nothing.
 
 # Relations
 
-[Code Smell 26 - Exceptions Polluting](Code Smells\Code Smell 26 - Exceptions Polluting)
+[Code Smell 26 - Exceptions Polluting](../../Code%20Smells/Code%20Smell%2026%20-%20Exceptions%20Polluting/readme.md)
 
-[Code Smell 40 - DTOs](Code Smells\Code Smell 40 - DTOs)
+[Code Smell 40 - DTOs](../../Code%20Smells/Code%20Smell%2040%20-%20DTOs/readme.md)
 
-[Code Smell 60 - Global Classes](Code Smells\Code Smell 60 - Global Classes)
+[Code Smell 60 - Global Classes](../../Code%20Smells/Code%20Smell%2060%20-%20Global%20Classes/readme.md)
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
+[Code Smell 01 - Anemic Models](../../Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
 # More Info
 
-- [The one and only Design Principle](Theory\The One and Only Software Design Principle)
+- [The one and only Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
-- [Refactoring 004 - Remove Unhandled Exceptions](Refactorings\Refactoring 004 - Remove Unhandled Exceptions)
+- [Refactoring 004 - Remove Unhandled Exceptions](../../Refactorings/Refactoring%20004%20-%20Remove%20Unhandled%20Exceptions/readme.md)
 
 # Credits
 
@@ -111,10 +111,10 @@ Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema) on [Unsplash](https
 
 _David West_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

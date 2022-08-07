@@ -12,9 +12,9 @@
 
 # Related Code Smells
 
-[Code Smell 81 - Result](Code Smells\Code Smell 81 - Result)
+[Code Smell 81 - Result](../../Code%20Smells/Code%20Smell%2081%20-%20Result/readme.md)
 
-[Code Smell 79 - TheResult](Code Smells\Code Smell 79 - TheResult)
+[Code Smell 79 - TheResult](../../Code%20Smells/Code%20Smell%2079%20-%20TheResult/readme.md)
 
 # Steps
 
@@ -71,7 +71,7 @@ Assignment and usage might be very far away from each other.
 
 # See also
 
-[What is in a name?](Theory\What exactly is a name — Part I The Quest)
+[What is in a name?](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
 
 # Credits
 

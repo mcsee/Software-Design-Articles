@@ -94,9 +94,9 @@ Be explicit. Favor readability over shorter (and more coupled) function call.
 
 - [Function Arity](https://en.wikipedia.org/wiki/Arity)
 
-- [Decoupling a Legacy System](Theory\How to Decouple a Legacy System)
+- [Decoupling a Legacy System](../../Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 
-[How to Decouple a Legacy System](Theory\How to Decouple a Legacy System)
+[How to Decouple a Legacy System](../../Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 
 * * *
 
@@ -104,10 +104,10 @@ Be explicit. Favor readability over shorter (and more coupled) function call.
 
 _Seymour Cray_
 
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

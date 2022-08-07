@@ -131,9 +131,9 @@ forRecipients: recipients
 ``` 
 The constructor creates the instance and initializes with the essence (no anti-pattern setters and no mutation from scratch).
 
-[Nude Models - Part I: Setters](Theory\Nude Models - Part I Setters)
+[Nude Models - Part I: Setters](../../Theory/Nude%20Models - Part%20I Setters/readme.md)
 
-[The Evil Power of Mutants](Theory\The Evil Power of Mutants)
+[The Evil Power of Mutants](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 The *private* initializer
 
@@ -224,7 +224,7 @@ plain
 
 This idiom iterates over recipients (a private attribute, no getters), inserting a comma (,) and removing last one (*allButLast*). Since we have no *explode*.
 
-[Nude Models - Part II: Getters](Theory\Nude Models - Part II Getters)
+[Nude Models - Part II: Getters](../../Theory/Nude%20Models - Part%20II Getters/readme.md)
 
 3 tests working! (ZOM)
 
@@ -315,7 +315,7 @@ We check for duplicates mapping our recipients to a Set and checking both sizes.
 
 We need to keep the example working and avoid premature optimization. With all tests running we can optimize code.
 
-[Code Smell 20 - Premature Optimization](Code Smells\Code Smell 20 - Premature Optimization)
+[Code Smell 20 - Premature Optimization](../../Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
 How about readability? Method is too ugly. Let's do TDD step 3: Refactor.
 
@@ -344,7 +344,7 @@ We have our model built with TDD and great confidence. Full coverage and no gold
 
 - No empty constructors
 
-[Code Smell 13 - Empty Constructors](Code Smells\Code Smell 13 - Empty Constructors)
+[Code Smell 13 - Empty Constructors](../../Code%20Smells/Code%20Smell%2013%20-%20Empty%20Constructors/readme.md)
 
 - Model is ummatable
 
@@ -354,11 +354,11 @@ We have our model built with TDD and great confidence. Full coverage and no gold
 
 - No accidental ifs
 
-[How to Get Rid of Annoying IFs Forever](Theory\How to Get Rid of Annoying IFs Forever)
+[How to Get Rid of Annoying IFs Forever](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
 - No Nulls
 
-[Code Smell 12 - Null](Code Smells\Code Smell 12 - Null)
+[Code Smell 12 - Null](../../Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
 ## Conclusions
 

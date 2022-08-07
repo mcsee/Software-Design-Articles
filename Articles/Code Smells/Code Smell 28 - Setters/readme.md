@@ -18,7 +18,7 @@
 
 - Duplicated Code
 
-[Nude Models - Part I: Setters](Theory\Nude Models - Part I Setters)
+[Nude Models - Part I: Setters](../../Theory/Nude%20Models - Part%20I Setters/readme.md)
 
 # Solutions
 
@@ -158,19 +158,19 @@ But it has all drawbacks and considerations already mentioned.
 # Conclusion
 
 Creating incomplete and anemic objects is a very bad practice violating 
-mutability, fail fast principle and real world [bijections](Theory\The One and Only Software Design Principle).
+mutability, fail fast principle and real world [bijections](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
  
 # Relations
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
+[Code Smell 01 - Anemic Models](../../Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
 # More Info
 
-[Fail Fast](Theory\Fail Fast)
+[Fail Fast](../../Theory/Fail%20Fast/readme.md)
 
 Here is the full discussion on *Setters*
 
-[Nude Models - Part I: Setters](Theory\Nude Models - Part I Setters) 
+[Nude Models - Part I: Setters](../../Theory/Nude%20Models - Part%20I Setters/readme.md) 
  
 # Credits
 
@@ -182,10 +182,10 @@ Photo by [Victor Rodriguez](https://unsplash.com/@vimarovi) on [Unsplash](https:
 
 _Rebecca Wirfs-Brock_
 
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the *CodeSmell* Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

@@ -46,7 +46,7 @@ This talk is a roadmap through TDD philosophy in Python world.
 
 # Index
 
-[TDD Conference 2021 - All Talks](TDD Conference 2021\TDD Conference 2021 - All Talks)
+[TDD Conference 2021 - All Talks](../../TDD%20Conference%202021/TDD%20Conference%202021%20-%20All%20Talks/readme.md)
 
 * * *
 

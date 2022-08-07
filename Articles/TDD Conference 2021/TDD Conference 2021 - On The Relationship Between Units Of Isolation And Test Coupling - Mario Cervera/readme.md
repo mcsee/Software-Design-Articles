@@ -27,7 +27,7 @@ Mario has been a software professional for more than a decade. He also conducted
 - Tests are the specification of behaviour.
 - if we are not changing the observable behaviour of tests, and they break, the tests are preventing our refactorings.
 - We want to avoid, at all costs, fragile tests that fail when they shouldn't.
-- [Coupling](Theory\Coupling - The one and only software design problem) is the main cause of fragile tests.
+- [Coupling](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md) is the main cause of fragile tests.
 - Overspecified software makes more assumptions than necessary.
 - In a mocking approach, we need to change a lot of tests when we refactor.
 - if we make our attributes public to test them is a smell, we are testing accidental structure.
@@ -53,7 +53,7 @@ Please rush to read it [here](https://mariocervera.com/talk-1st-international-co
 
 # Index
 
-[TDD Conference 2021 - All Talks](TDD Conference 2021\TDD Conference 2021 - All Talks)
+[TDD Conference 2021 - All Talks](../../TDD%20Conference%202021/TDD%20Conference%202021%20-%20All%20Talks/readme.md)
 
 * * *
 

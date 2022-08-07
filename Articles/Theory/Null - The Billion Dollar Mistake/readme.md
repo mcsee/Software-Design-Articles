@@ -16,13 +16,13 @@ What is the cognitive bias that currently prevents us, in addition to recognizin
 Null is a flag. It represents different situations depending on the context in which it is used and invoked.
 This yields the most serious error in software development: Coupling a hidden decision in the contract between an object and who uses it.
 
-[Coupling - The one and only software design problem](Theory\Coupling - The one and only software design problem)
+[Coupling - The one and only software design problem](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 As if this were not enough, it breaks the bijection that was our only design rule. 
 
 Representing multiple elements of the domain with the same entity and forcing us to have contextual interpretations.
 
-[The One and Only Software Design Principle](Theory\The One and Only Software Design Principle)
+[The One and Only Software Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 A good software principle challenges us to have high cohesion. All the objects should be as specific as possible and have a single responsibility (The S for [Solid](https://en.wikipedia.org/wiki/SOLID)).
 
@@ -100,7 +100,7 @@ The full video is also available [here](https://www.infoq.com/presentations/Null
 We, as developers, use null because it is easy (to write down) and because we believe it improves the efficiency of our software.
 By making this mistake we ignore that the code is read up[ to 10 times more than it is written](https://www.ybrikman.com/writing/2018/08/12/the-10-to-1-rule-of-writing-and-programming/).
 Reading code with nulls is more arduous and difficult. Therefore, we are only postponing the problem later.
-Regarding efficiency (which is the most used excuse to [generate coupling](Theory\Coupling - The one and only software design problem)). Unless in very specific and critical cases, its performance loss is negligible. And it is just justified in those systems that prioritize efficiency over readability, adaptability, and, maintainability (there's always a trade-off regarding quality attributes).
+Regarding efficiency (which is the most used excuse to [generate coupling](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)). Unless in very specific and critical cases, its performance loss is negligible. And it is just justified in those systems that prioritize efficiency over readability, adaptability, and, maintainability (there's always a trade-off regarding quality attributes).
 
 This cognitive bias persisted over time although according to the current state of the art, modern virtual machines optimize the code for us.
 To use evidence instead of gut we just need to start benchmarking instead of keep on erroneously claiming that efficiency is more important than readability.
@@ -111,7 +111,7 @@ To use evidence instead of gut we just need to start benchmarking instead of kee
 
 Null is (ab)used to mask unexpected situations and spread the error in the code too far away, generating the much-feared ripple effect.
 
-[Code Smell 16 - Ripple Effect](Code Smells\Code Smell 16 - Ripple Effect)
+[Code Smell 16 - Ripple Effect](../../Code%20Smells/Code%20Smell%2016%20-%20Ripple%20Effect/readme.md)
 
 One of the principles of good design is to fail fast.
 
@@ -128,7 +128,7 @@ Photo by [Victoria Heath](https://unsplash.com/@vheath) on [Unsplash](https://un
 What is more, there might be different systems with different programming languages, data transmission through an API, files, etc.
 The developer's nightmare is having to debug that bug early in the morning and try to find the problem's root cause.
 
-[Fail Fast](Theory\Fail Fast)
+[Fail Fast](../../Theory/Fail%20Fast/readme.md)
 
 ## Incomplete objects
 
@@ -140,11 +140,11 @@ Fostering incomplete models forces us to make two additional mistakes:
 
 1.  Pollute code with *setters* to complete the essential information needed.
 
-[Nude Models - Part I: Setters](Theory\Nude Models - Part I Setters)
+[Nude Models - Part I: Setters](../../Theory/Nude%20Models - Part%20I Setters/readme.md)
 
 2. Build mutable models violating bijection ignoring real-world entities that do not mutate their essence.
 
-[The Evil Power of Mutants](Theory\The Evil Power of Mutants)
+[The Evil Power of Mutants](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 ### Typed languages ​​that do not handle optionally
 
@@ -290,7 +290,7 @@ Some languages ​​support optionally the concept of Maybe/Optional which is a
 
 %[https://en.wikipedia.org/wiki/Option_type]
 
-[Code Smell 12 - Null](Code Smells\Code Smell 12 - Null)
+[Code Smell 12 - Null](../../Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
 # Conclusions
 
@@ -301,8 +301,8 @@ We should, at least, begin to question its use and be more mature and responsibl
 
 Part of the objective of this series of articles is to generate spaces for debate and discussion on software design.
 
-[Object Design Checklist](Theory\Object Design Checklist)
+[Object Design Checklist](../../Theory/Object%20Design%20Checklist/readme.md)
 
 We look forward to comments and suggestions on this article.
 
-This article is also available in Spanish [here](Theory\Null - The Billion Dollar Mistake) and chinese [here](https://www.infoq.cn/article/UYYOS0VgETwcGmO1pH07).
+This article is also available in Spanish [here](../../Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md) and chinese [here](https://www.infoq.cn/article/UYYOS0VgETwcGmO1pH07).

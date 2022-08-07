@@ -16,9 +16,9 @@
 
 - Extensibility to APIs, micro-services, etc.
 
-- Anemic and [mutable](Theory\The Evil Power of Mutants) objects
+- Anemic and [mutable](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md) objects
 
-- [Bijection Violation](Theory\What is (wrong with) software)
+- [Bijection Violation](../../Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
 # Solutions
 
@@ -168,25 +168,25 @@ You should not make it manually because you will forget to do it.
 
 # Conclusion
 
-Use [TDD](TDD Conference 2021\TDD Conference 2021 - All Talks).
+Use [TDD](../../TDD%20Conference%202021/TDD%20Conference%202021%20-%20All%20Talks/readme.md).
 
 You will put all your business logic behavior on your domain objects.
 
 # Relations
 
-[Code Smell 97 - Error Messages Without Empathy](Code Smells\Code Smell 97 - Error Messages Without Empathy)
+[Code Smell 97 - Error Messages Without Empathy](../../Code%20Smells/Code%20Smell%2097%20-%20Error%20Messages%20Without%20Empathy/readme.md)
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models) 
+[Code Smell 01 - Anemic Models](../../Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md) 
 
-[Code Smell 40 - DTOs](Code Smells\Code Smell 40 - DTOs)
+[Code Smell 40 - DTOs](../../Code%20Smells/Code%20Smell%2040%20-%20DTOs/readme.md)
 
-[Code Smell 90 - Implementative Callback Events](Code Smells\Code Smell 90 - Implementative Callback Events)
+[Code Smell 90 - Implementative Callback Events](../../Code%20Smells/Code%20Smell%2090%20-%20Implementative%20Callback%20Events/readme.md)
 
-[Code Smell 78 - Callback Hell](Code Smells\Code Smell 78 - Callback Hell)
+[Code Smell 78 - Callback Hell](../../Code%20Smells/Code%20Smell%2078%20-%20Callback%20Hell/readme.md)
 
 # More Info
 
-- [The Evil power of Mutants](Theory\The Evil Power of Mutants)
+- [The Evil power of Mutants](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 # Credits
 
@@ -198,10 +198,10 @@ Photo by [Lenin Estrada](https://unsplash.com/@lenin33) on Unsplash
 
 _Martin Fowler_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

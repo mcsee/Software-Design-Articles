@@ -81,7 +81,7 @@ We can remove all code annotations and forbid them by policy.
 
 # Examples
 
-- [Automatic Code Generators](Theory\Laziness II - Code Wizards)
+- [Automatic Code Generators](../../Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
 
 # Conclusion
 
@@ -94,13 +94,13 @@ No good system was developed with these tools.
 
 # Relations
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
+[Code Smell 01 - Anemic Models](../../Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
-[Code Smell 25 - Pattern Abusers](Code Smells\Code Smell 25 - Pattern Abusers)
+[Code Smell 25 - Pattern Abusers](../../Code%20Smells/Code%20Smell%2025%20-%20Pattern%20Abusers/readme.md)
  
 # More info
 
-[Laziness II - Code Wizards](Theory\Laziness II - Code Wizards)
+[Laziness II - Code Wizards](../../Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
 
 %[https://en.wikipedia.org/wiki/Computer-aided_software_engineering]
 
@@ -118,10 +118,10 @@ _Eric Evans_
 
 * * *
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

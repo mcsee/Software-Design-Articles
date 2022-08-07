@@ -15,7 +15,7 @@ Hello! My name is Maxi Contieri. I blog about clean code, refactoring and TDD. I
 I’ll be hosting an AMA this Wednesday at 2pm EST (12pm MT, 6pm GMT) to answer any questions and talk with you:
 
 Natasha NelMar 4, 2021, 11:17 AM
-Loved the latest installment mcsee: Code Smells\Code Smell 45 - Not Polymorphic
+Loved the latest installment mcsee: ../../Code%20Smells/Code%20Smell%2045%20-%20Not%20Polymorphic/readme.md
 
 Where did you get the inspiration to write this series, and what have you learned along the way?
 
@@ -42,7 +42,7 @@ mcseeMar 24, 2021, 6:08 PM
 Related to your second question. I don't think the code speaks about the personality, but I am a software engineer, not a psychologist. I have seen messy people write great code and I have also seen (a lot) very carefull and clean people write bad (implementative) code.
 
 Limarc AmbalinaMar 24, 2021, 6:09 PM
-In your latest article: Quality\Stop Calling them 'Bugs'
+In your latest article: ../../Quality/Stop%20Calling%20them%20'Bugs'/readme.md
 
 You talk about the standard of calling software glitches bugs leads to a removal of responsibility from the developers and the idea that bugs happen and are out of our control.
 
@@ -112,7 +112,7 @@ mcseeMar 24, 2021, 6:46 PM
 All large companies wish for the startup pace, but as organizations get larger, constraints increases
 
 mcseeMar 24, 2021, 6:47 PM
-And Isolation is key. If you can't isolate you have coupling. and coupling is the biggest problem in software industry Theory\Coupling - The one and only software design problem
+And Isolation is key. If you can't isolate you have coupling. and coupling is the biggest problem in software industry ../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md
 
 Limarc AmbalinaMar 24, 2021, 6:49 PM
 For startups and large companies alike, when you have too much to work on and not enough devs, outsourcing development has been a hot topic. We've seen more articles come in about it on Hacker Noon. What is your opinion of allowing external teams to work on your organization's code?
@@ -120,7 +120,7 @@ For startups and large companies alike, when you have too much to work on and no
 Have you ever been part of a company that outsourced part of their dev work to freelancers or contract firms?
 
 mcseeMar 24, 2021, 6:54 PM
-I have worked with outsourcing in the past, and my opinion is you should definitively do it on satellite modules. I wouldn't outsource core business or core technologies because the knowledge is on the people Theory\Programming as Theory Building and if the people do not belong to the company the asset is zero. Of course if I need a specific development on an accidental feature I would contract the best qualified team. But, for core business I wouldn't do it. It is just my opinion. I founded 3 startups and worked a lot with outsourcing and was hard to maintain their code.
+I have worked with outsourcing in the past, and my opinion is you should definitively do it on satellite modules. I wouldn't outsource core business or core technologies because the knowledge is on the people ../../Theory/Programming%20as%20Theory%20Building/readme.md and if the people do not belong to the company the asset is zero. Of course if I need a specific development on an accidental feature I would contract the best qualified team. But, for core business I wouldn't do it. It is just my opinion. I founded 3 startups and worked a lot with outsourcing and was hard to maintain their code.
 
 Arthur TkachenkoMar 24, 2021, 6:54 PM
 At some point in my career, I realize that "we" put a lot of pressure on developers.

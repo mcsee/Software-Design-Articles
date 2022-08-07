@@ -63,13 +63,13 @@ Unless we have a conclusive benchmark of **impressive** performance improvement.
  
 # Relations
 
-[Code Smell 06 - Too Clever Programmer](Code Smells\Code Smell 06 - Too Clever Programmer)
+[Code Smell 06 - Too Clever Programmer](../../Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
-[Code Smell 20 - Premature Optimization](Code Smells\Code Smell 20 - Premature Optimization) 
+[Code Smell 20 - Premature Optimization](../../Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md) 
 
 # More info
 
-[What exactly is a name — Part I The Quest](Theory\What exactly is a name — Part I The Quest)
+[What exactly is a name — Part I The Quest](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
 
 # Credits
 
@@ -81,12 +81,12 @@ Photo by [John Jennings](https://unsplash.com/@john_jennings) on [Unsplash](http
 
 _Larry Wall_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
 
 

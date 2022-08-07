@@ -6,11 +6,11 @@ Since the very beginning of the stored-program concept, we learned that software
 
 In object-oriented programming we build models that evolve over time, emulating the knowledge we learn by observing the reality we are representing.
 
-[What is (wrong with) software?](Theory\What is (wrong with) software)
+[What is (wrong with) software?](../../Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
 However, we manipulate and abuse those changes uncontrollably, violating the only important design principle by generating incomplete (and therefore invalid) representations and propagating the ripple effect with our changes.
 
-[The One and Only Software Design Principle](Theory\The One and Only Software Design Principle)
+[The One and Only Software Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 In the functional paradigm, this is elegantly achieved by directly forbidding mutations. We can be (a little) less drastic.
 
@@ -20,7 +20,7 @@ The great [Fred Brooks](https://en.wikipedia.org/wiki/Frederick_Brooks) gave us 
 
 > The essence of an entity of reality is that which makes it be itself and not another.
 
-[No Silver Bullet](Theory\No Silver Bullet)
+[No Silver Bullet](../../Theory/No%20Silver%20Bullet/readme.md)
 
 The entity's accident happens due to temporary situations that despite changing object behavior do not prevent us from noticing we are watching the same entity even though it evolves as we do not [bathe twice in the same river.](https://www.goodreads.com/quotes/117526-no-man-ever-steps-in-the-same-river-twice-for)
 
@@ -48,11 +48,11 @@ The flag was unset until we made sure that the transaction was indeed a valid an
 
 This brought us multiple coupling problems on multiple occasions.
 
-[Coupling - The one and only software design problem](Theory\Coupling - The one and only software design problem)
+[Coupling - The one and only software design problem](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 Besides, many of those fields remained with null values ​​(instead of modeling the incompleteness or indefiniteness of the data), so we had to spread the code with multiple controls by *ifs* to validate that some data against nulls.
 
-[Null: The Billion Dollar Mistake](Theory\Null - The Billion Dollar Mistake)
+[Null: The Billion Dollar Mistake](../../Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
 Thinking about how to build a solution to the problem we were solving at the time, I found the answer on our only axiom: Bijection one by one with reality.
 
@@ -225,9 +225,9 @@ Corollary 2
 
 > Setters and getters must not exist.
 
-[Nude Models - Part I: Setters](Theory\Nude Models - Part I Setters)
+[Nude Models - Part I: Setters](../../Theory/Nude%20Models - Part%20I Setters/readme.md)
 
-[Nude Models - Part II: Getters](Theory\Nude Models - Part II Getters)
+[Nude Models - Part II: Getters](../../Theory/Nude%20Models - Part%20II Getters/readme.md)
 
 Corollary 3
 
@@ -237,7 +237,7 @@ Corollary 3
 
 Part of the objective of this series of articles is to generate spaces for debate and discussion on software design.
 
-[Object Design Checklist](Theory\Object Design Checklist)
+[Object Design Checklist](../../Theory/Object%20Design%20Checklist/readme.md)
 
 We look forward to comments and suggestions on this article.
 

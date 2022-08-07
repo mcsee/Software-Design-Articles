@@ -52,15 +52,15 @@ This is a semantic rule. We can instruct our linters to warn us from using names
 
 # Conclusion
 
-The first name we can across is related to an accidental point of view. It takes time to build a theory on the models we are building using our [MAPPERS](Theory\The One and Only Software Design Principle). Once we get there, we must rename our variables-
+The first name we can across is related to an accidental point of view. It takes time to build a theory on the models we are building using our [MAPPERS](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md). Once we get there, we must rename our variables-
 
 # Relations
 
-[Code Smell 38 - Abstract Names](Code Smells\Code Smell 38 - Abstract Names)
+[Code Smell 38 - Abstract Names](../../Code%20Smells/Code%20Smell%2038%20-%20Abstract%20Names/readme.md)
 
 # More info
 
-[What exactly is a name — Part II Rehab](Theory\What exactly is a name — Part II Rehab)
+[What exactly is a name — Part II Rehab](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
 
 %[http://xunitpatterns.com/Intent%20Revealing%20Name.html]
 
@@ -81,10 +81,10 @@ _Dan Ingalls_
  
 * * *
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

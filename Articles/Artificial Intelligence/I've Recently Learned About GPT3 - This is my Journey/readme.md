@@ -38,13 +38,13 @@ Hopefully it will grow soon.
 
 I've been thinking a lot about transformers and generators applied to programming.
 
-Most code generators I've tested are too dumb. They can program very basic routines and are not yet able to create [great software designs](Theory\What is (wrong with) software).
+Most code generators I've tested are too dumb. They can program very basic routines and are not yet able to create [great software designs](../../Theory/What%20is%20(wrong%20with)%20software/readme.md).
 
 %[https://www.youtube.com/watch?v=fZSFNUT6iY8]
 
 In my Code Smell Series, I suggest detection techniques and correction measures. 
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
 
 Some of them involve just syntactic manipulations most actual linters can do.
 

@@ -73,9 +73,9 @@ Happy path should always be more important than exception cases.
 
 # Relations
 
-[Code Smell 73 - Exceptions for Expected Cases](Code Smells\Code Smell 73 - Exceptions for Expected Cases)
+[Code Smell 73 - Exceptions for Expected Cases](../../Code%20Smells/Code%20Smell%2073%20-%20Exceptions%20for%20Expected%20Cases/readme.md)
 
-[Code Smell 26 - Exceptions Polluting](Code Smells\Code Smell 26 - Exceptions Polluting)
+[Code Smell 26 - Exceptions Polluting](../../Code%20Smells/Code%20Smell%2026%20-%20Exceptions%20Polluting/readme.md)
 
 # More Info
 
@@ -95,10 +95,10 @@ Thanks to @[Rodrigo](@rodrigomd) for his inspiration
 
 _Karolina Szczur_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

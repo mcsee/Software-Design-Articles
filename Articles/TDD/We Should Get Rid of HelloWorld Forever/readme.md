@@ -26,7 +26,7 @@ The *Hello Word* example has a lot of problems introduced early when developers 
 
 1. It uses *[globals](https://en.wikipedia.org/wiki/Global_variable)* in many languages. Global functions are a code smell. Teaching them to newcomers in theirs first example is conflicting.
 
-[Code Smell 17 - Global Functions](Code Smells\Code Smell 17 - Global Functions)
+[Code Smell 17 - Global Functions](../../Code%20Smells/Code%20Smell%2017%20-%20Global%20Functions/readme.md)
 
 2. *Hello World* yields [side effects](https://en.wikipedia.org/wiki/Global_variable) (on the console, file system, printers, etc.).
 
@@ -49,7 +49,7 @@ function testFalse()
 
 1. We start with a broken test. This is the first step to start developing software according to *test driven development* technique.
 
-[How to Squeeze Test Driven Development on Legacy Systems](TDD\How to Squeeze Test Driven Development on Legacy Systems)
+[How to Squeeze Test Driven Development on Legacy Systems](../../TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md)
 
 2. We introduce developers to a [Continuous Integration/Continuous Development](https://en.wikipedia.org/wiki/CI/CD) pipeline with their very first instruction.
 

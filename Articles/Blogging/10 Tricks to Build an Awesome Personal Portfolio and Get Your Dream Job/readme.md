@@ -14,7 +14,7 @@ These are the advices that worked for me:
 
 Build a [LinkedIn profile](https://www.linkedin.com/in/mcsee/), a [GitHub one](https://blog.learncodeonline.in/creating-a-smart-way-github-profile-readmemd) and engage in interesting technical conversations on Twitter or Discuss.
 
-[The Tech Twitter Guide to the Galaxy](Twitter\The Tech Twitter Guide to the Galaxy)
+[The Tech Twitter Guide to the Galaxy](../../Twitter/The%20Tech%20Twitter%20Guide%20to%20the%20Galaxy/readme.md)
 
 Whenever you publish something, create a new open source project or finish a course, post it and add it to your profile.
 
@@ -24,7 +24,7 @@ https://lo-victoria.com/why-a-personal-brand-is-important-for-a-developer
 
 Garden your profile.
 
-[Today I Learned the Concept of Gardening](Blogging\Today I Learned the Concept of Gardening)
+[Today I Learned the Concept of Gardening](../../Blogging/Today%20I%20Learned%20the%20Concept%20of%20Gardening/readme.md)
 
 # 2. Use the same picture everywhere 😲
 

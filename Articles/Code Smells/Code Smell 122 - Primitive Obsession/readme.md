@@ -12,9 +12,9 @@
 
 - Small Objects Missing
 
-- [Fail Fast](Theory\Fail Fast) principle violation.
+- [Fail Fast](../../Theory/Fail%20Fast/readme.md) principle violation.
 
-- [Bijection Fault](Theory\The One and Only Software Design Principle)
+- [Bijection Fault](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 - Subset violations: Emails are a subset of strings, Valid Ages are a subset of Real, Ports are a subset of Integers, etc.
 
@@ -26,7 +26,7 @@
 
 1. Create Small Objects
 
-2. Build missing abstractions using [MAPPER](Theory\What is (wrong with) software)
+2. Build missing abstractions using [MAPPER](../../Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
 3. Use Value-Objects
 
@@ -89,9 +89,9 @@ We need to transform our strings, numbers, and arrays into small objects.
 
 # Relations
 
-[Code Smell 121 - String Validations](Code Smells\Code Smell 121 - String Validations)
+[Code Smell 121 - String Validations](../../Code%20Smells/Code%20Smell%20121%20-%20String%20Validations/readme.md)
 
-[Code Smell 04 - String Abusers](Code Smells\Code Smell 04 - String Abusers)
+[Code Smell 04 - String Abusers](../../Code%20Smells/Code%20Smell%2004%20-%20String%20Abusers/readme.md)
 
 # More Info
 
@@ -111,10 +111,10 @@ Photo by [K. Mitch Hodge](https://unsplash.com/@kmitchhodge) on [Unsplash](https
 
 _Dave Farley_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

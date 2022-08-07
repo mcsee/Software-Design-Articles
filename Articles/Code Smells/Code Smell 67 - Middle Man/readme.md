@@ -69,7 +69,7 @@ public class Application {
 
 # Detection
 
-Same as its [opposite smell](Code Smells\Code Smell 08 - Long Chains Of Collaborations), We can detect this small using parsing trees.
+Same as its [opposite smell](../../Code%20Smells/Code%20Smell%2008%20-%20Long%20Chains%20Of%20Collaborations/readme.md), We can detect this small using parsing trees.
 
 # Tags
 
@@ -81,13 +81,13 @@ Same as its [opposite smell](Code Smells\Code Smell 08 - Long Chains Of Collabor
 
 # Conclusion
 
-This is exactly the opposite to [Message Chain](Code Smells\Code Smell 08 - Long Chains Of Collaborations). We make explicit the message chain. 
+This is exactly the opposite to [Message Chain](../../Code%20Smells/Code%20Smell%2008%20-%20Long%20Chains%20Of%20Collaborations/readme.md). We make explicit the message chain. 
 
 # Relations
 
-[Code Smell 08 - Long Chains Of Collaborations](Code Smells\Code Smell 08 - Long Chains Of Collaborations)
+[Code Smell 08 - Long Chains Of Collaborations](../../Code%20Smells/Code%20Smell%2008%20-%20Long%20Chains%20Of%20Collaborations/readme.md)
 
-[Code Smell 114 - Empty Class](Code Smells\Code Smell 114 - Empty Class)
+[Code Smell 114 - Empty Class](../../Code%20Smells/Code%20Smell%20114%20-%20Empty%20Class/readme.md)
 
 # More info
 
@@ -113,10 +113,10 @@ _Martin Fowler_
 
 * * *
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

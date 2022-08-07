@@ -28,8 +28,8 @@ Jov is a software craftsman and TDD practitioner, working on Android for around 
 - Customers don't care if we write tests, but they do care about the quality.
 - Today there are at least two TDD Styles: [London School and Chicago School](https://cleancoders.com/episode/comparativeDesign-episode-1)
 - Chicago School is inside-out. It designs on the green.
-- London School is outside-in and [abuses mocks](Code Smells\Code Smell 30 - Mocking Business). It designs on the red stage.
-- When we plan the tests, we can use [ZOMBIES](TDD\How I Survived the Zombie Apocalypse) guidance.
+- London School is outside-in and [abuses mocks](../../Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md). It designs on the red stage.
+- When we plan the tests, we can use [ZOMBIES](../../TDD/How%20I%20Survived%20the%20Zombie%20Apocalypse/readme.md) guidance.
 - We must ensure tests are failing for the right reason. It is not enough to watch them fail.
 - In TDD, procrastination is a good thing. The more we delay a decision, the better our solutions are. 
 
@@ -46,7 +46,7 @@ Jov is a software craftsman and TDD practitioner, working on Android for around 
 
 # Index
 
-[TDD Conference 2021 - All Talks](TDD Conference 2021\TDD Conference 2021 - All Talks)
+[TDD Conference 2021 - All Talks](../../TDD%20Conference%202021/TDD%20Conference%202021%20-%20All%20Talks/readme.md)
 
 * * *
 

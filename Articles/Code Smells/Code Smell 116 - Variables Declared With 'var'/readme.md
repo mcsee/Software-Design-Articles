@@ -8,7 +8,7 @@
 
 # Problems
 
-- [Mutability](Theory\The Evil Power of Mutants)
+- [Mutability](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 - Readability
 
@@ -68,13 +68,13 @@ We need to explicitly state our intentions and usages.
 
 # Relations
 
-[Code Smell 86 - Mutable Const Arrays](Code Smells\Code Smell 86 - Mutable Const Arrays)
+[Code Smell 86 - Mutable Const Arrays](../../Code%20Smells/Code%20Smell%2086%20-%20Mutable%20Const%20Arrays/readme.md)
 
 # More Info
 
 - [Differences between let, const, and var](https://twitter.com/SajalShlan/status/1495010893683314689)
 
-- [The Evil Power of Mutants](Theory\The Evil Power of Mutants)
+- [The Evil Power of Mutants](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
   
 * * *
 
@@ -82,10 +82,10 @@ We need to explicitly state our intentions and usages.
 
 _Brian Goetz_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

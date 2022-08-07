@@ -99,17 +99,17 @@ An abstract class with just one subclass is an indicator of premature classifica
 
 When working with classes, we name abstractions as soon as they *appear*. 
 
-Our rule is to choose [good names](Theory\What exactly is a name — Part I The Quest) after the behaviour.
+Our rule is to choose [good names](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md) after the behaviour.
 
 We should not name our abstractions until we name our concrete subclasses.
 
 # Relations
 
-[Code Smell 11 - Subclassification for Code Reuse](Code Smells\Code Smell  11 - Subclassification for Code Reuse)
+[Code Smell 11 - Subclassification for Code Reuse](../../Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
 
 # More Info
 
-- [What is in a name](Theory\What exactly is a name — Part I The Quest)
+- [What is in a name](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
 
 # Credits
 
@@ -121,10 +121,10 @@ Photo by [Faye Cornish](https://unsplash.com/@fcornish) on [Unsplash](https://un
 
 _Donald E. Knuth_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

@@ -25,11 +25,11 @@ Comments are coupled to implementation and hardly maintained.*
 
 3) Break methods.
 
-4) If a comment describes what a method does, [name the method with this description](Refactorings\Refactoring 005 - Replace Comment with Function Name).
+4) If a comment describes what a method does, [name the method with this description](../../Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md).
 
 5) Just comment on important design decisions.
 
-[What exactly is a name — Part I The Quest](Theory\What exactly is a name — Part I The Quest)
+[What exactly is a name — Part I The Quest](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
 
 # Examples
 
@@ -88,17 +88,17 @@ Linters can detect comments and check the ratio of comments/lines of code agains
 
 # Relations
 
-[Code Smell 75 - Comments Inside a Method](Code Smells\Code Smell 75 - Comments Inside a Method)
+[Code Smell 75 - Comments Inside a Method](../../Code%20Smells/Code%20Smell%2075%20-%20Comments%20Inside%20a%20Method/readme.md)
 
 # Refactorings
 
-[Refactoring 005 - Replace Comment with Function Name](Refactorings\Refactoring 005 - Replace Comment with Function Name)
+[Refactoring 005 - Replace Comment with Function Name](../../Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
 
 # More info
 
 [Refactoring Guru](https://refactoring.guru/es/smells/comments)
 
-[What is in a name](Theory\What exactly is a name — Part I The Quest)
+[What is in a name](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
 
 [Comments as a bad sign](https://dev.to/alexbunardzic/code-comments-are-a-sign-that-something-s-off-19e1)
 
@@ -124,10 +124,10 @@ Photo by [Volodymyr Hryshchenko](https://unsplash.com/@lunarts) on [Unsplash](ht
 
 _Martin Fowler_
 
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

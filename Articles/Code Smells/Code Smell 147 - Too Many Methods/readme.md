@@ -22,11 +22,11 @@
 
 1. Break your class
 
-2. [Extract Class](Refactorings\Refactoring 007 - Extract Class)
+2. [Extract Class](../../Refactorings/Refactoring%20007%20-%20Extract%20Class/readme.md)
 
 # Related Refactorings
 
-[Refactoring 007 - Extract Class](Refactorings\Refactoring 007 - Extract Class)
+[Refactoring 007 - Extract Class](../../Refactorings/Refactoring%20007%20-%20Extract%20Class/readme.md)
 
 # Context
 
@@ -82,15 +82,15 @@ Most linters count methods and warn us.
 
 # Relations
 
-[Code Smell 124 - Divergent Change](Code Smells\Code Smell 124 - Divergent Change)
+[Code Smell 124 - Divergent Change](../../Code%20Smells/Code%20Smell%20124%20-%20Divergent%20Change/readme.md)
 
-[Code Smell 143 - Data Clumps](Code Smells\Code Smell 143 - Data Clumps)
+[Code Smell 143 - Data Clumps](../../Code%20Smells/Code%20Smell%20143%20-%20Data%20Clumps/readme.md)
 
-[Code Smell 94 - Too Many imports](Code Smells\Code Smell 94 - Too Many imports)
+[Code Smell 94 - Too Many imports](../../Code%20Smells/Code%20Smell%2094%20-%20Too%20Many%20imports/readme.md)
 
-[Code Smell 22 - Helpers](Code Smells\Code Smell 22 - Helpers)
+[Code Smell 22 - Helpers](../../Code%20Smells/Code%20Smell%2022%20-%20Helpers/readme.md)
 
-[Code Smell 34 - Too Many Attributes](Code Smells\Code Smell 34 - Too Many Attributes)
+[Code Smell 34 - Too Many Attributes](../../Code%20Smells/Code%20Smell%2034%20-%20Too%20Many%20Attributes/readme.md)
 
 # More info
 
@@ -116,10 +116,10 @@ There is no code so big, twisted, or complex that maintenance can't make it wors
 
 Gerald M. Weinberg
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

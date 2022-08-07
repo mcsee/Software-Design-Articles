@@ -23,7 +23,7 @@ TL;DR: Do not keep code "just in case I need it".
 
 - Avoid metaprogramming. When used, it is very difficult to find references to the code.
 
-[Laziness I - Metaprogramming](Theory\Laziness I - Metaprogramming)
+[Laziness I - Metaprogramming](../../Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
 
 # Sample Code
 
@@ -72,7 +72,7 @@ Removing code is always more rewarding than adding.
 
 # More info
 
-- [Laziness I: Metaprogramming](Theory\Laziness I - Metaprogramming)
+- [Laziness I: Metaprogramming](../../Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
 
 # Credits
 
@@ -82,4 +82,4 @@ Photo by <a href="https://pixabay.com/es/users/ray_shrewsberry-7673058/">Ray Shr
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

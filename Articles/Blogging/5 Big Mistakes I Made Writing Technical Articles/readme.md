@@ -40,7 +40,7 @@ Let's find and correct the 5 more important problems.
  
 This is the original article:
 
-[How to Get Rid of Annoying IFs Forever](Theory\How to Get Rid of Annoying IFs Forever)
+[How to Get Rid of Annoying IFs Forever](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
 1 - You can preview any web page on all major browsers like [Chrome](https://www.browserstack.com/guide/view-mobile-version-of-website-on-chrome), Firefox, Safari, or Edge.
 
@@ -48,7 +48,7 @@ This is the original article:
 
 3 - If the site supports amp as an alternate browser (like @[Hashnode](@hashnode) does) you can open it even on your desktop and play around with your drafts.
 
-[Desktop Version](Theory\How to Get Rid of Annoying IFs Forever)
+[Desktop Version](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
 [AMP Version](https://maximilianocontieri/amp/how-to-get-rid-of-annoying-ifs-forever)
 
@@ -136,13 +136,13 @@ The article referenced all hashnode posts I wrote *before* customizing my domain
 So I replaced links like:
 
 ```
-Theory\Coupling - The one and only software design problem
+../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md
 ```
 
 with my vanity ones:
 
 ```
-Theory\Coupling - The one and only software design problem
+../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md
 ```
 
 They are better for SEO and personal branding.

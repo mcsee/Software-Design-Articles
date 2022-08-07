@@ -16,11 +16,11 @@
 
 # Related Code Smells
 
-[Code Smell 124 - Divergent Change](Code Smells\Code Smell 124 - Divergent Change)
+[Code Smell 124 - Divergent Change](../../Code%20Smells/Code%20Smell%20124%20-%20Divergent%20Change/readme.md)
 
-[Code Smell 143 - Data Clumps](Code Smells\Code Smell 143 - Data Clumps)
+[Code Smell 143 - Data Clumps](../../Code%20Smells/Code%20Smell%20143%20-%20Data%20Clumps/readme.md)
 
-[Code Smell 147 - Too Many Methods](Code Smells\Code Smell 147 - Too Many Methods)
+[Code Smell 147 - Too Many Methods](../../Code%20Smells/Code%20Smell%20147%20-%20Too%20Many%20Methods/readme.md)
 
 # Steps
 

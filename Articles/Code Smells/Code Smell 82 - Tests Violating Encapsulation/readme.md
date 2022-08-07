@@ -105,9 +105,9 @@ White-box tests are fragile. They test implementation instead of behavior.
 
 # Relations
 
-[Code Smell 52 - Fragile Tests](Code Smells\Code Smell 52 - Fragile Tests)
+[Code Smell 52 - Fragile Tests](../../Code%20Smells/Code%20Smell%2052%20-%20Fragile%20Tests/readme.md)
 
-[Code Smell 28 - Setters](Code Smells\Code Smell 28 - Setters)
+[Code Smell 28 - Setters](../../Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
 
 # More Info
 
@@ -125,10 +125,10 @@ This smell was inspired by @[Rodrigo](https://twitter.com/_rodrigomd)
 
 _Robert Martin_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

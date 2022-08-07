@@ -85,9 +85,9 @@ $john->name(); // returns 'John'
 
 # Detection
 
-Often, anemic models are generated with [meta-programming](Theory\Laziness I - Metaprogramming). 
+Often, anemic models are generated with [meta-programming](../../Theory/Laziness%20I%20-%20Metaprogramming/readme.md). 
 
-We need to track these magic [code generators](Theory\Laziness II - Code Wizards).
+We need to track these magic [code generators](../../Theory/Laziness%20II%20-%20Code%20Wizards/readme.md).
 
 # Tags
 
@@ -103,13 +103,13 @@ Having to write *explicitly* the code makes us reflect on every piece of data we
 
 # Relations
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
+[Code Smell 01 - Anemic Models](../../Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
 # More info
 
-[Laziness I - Metaprogramming](Theory\Laziness I - Metaprogramming)
+[Laziness I - Metaprogramming](../../Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
 
-[Laziness II - Code Wizards](Theory\Laziness II - Code Wizards)
+[Laziness II - Code Wizards](../../Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
 
 # Credits
 
@@ -123,10 +123,10 @@ _Martin Fowler_
  
 * * *
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

@@ -14,7 +14,7 @@
 
 - Readability
 
-- [Arrow Code](Code Smells\Code Smell 102 - Arrow Code)
+- [Arrow Code](../../Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md)
 
 # Solutions
 
@@ -78,27 +78,27 @@ Based on syntax trees, we can safely refactor the code removing the explicit boo
 
 Beware of returning booleans. 
 
-After the return, you will need an [If statement](Theory\How to Get Rid of Annoying IFs Forever) which is also a [code smell](Code Smells\Code Smell 36 - Switch case elseif else if statements).
+After the return, you will need an [If statement](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md) which is also a [code smell](../../Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md).
 
 # Relations
 
-[Code Smell 115 - Return True](Code Smells\Code Smell 115 - Return True)
+[Code Smell 115 - Return True](../../Code%20Smells/Code%20Smell%20115%20-%20Return%20True/readme.md)
 
-[Code Smell 118 - Return False](Code Smells\Code Smell 118 - Return False)
+[Code Smell 118 - Return False](../../Code%20Smells/Code%20Smell%20118%20-%20Return%20False/readme.md)
 
-[Code Smell 101 - Comparison Against Booleans](Code Smells\Code Smell 101 - Comparison Against Booleans)
+[Code Smell 101 - Comparison Against Booleans](../../Code%20Smells/Code%20Smell%20101%20-%20Comparison%20Against%20Booleans/readme.md)
 
-[Code Smell 24 - Boolean Coercions](Code Smells\Code Smell 24 - Boolean Coercions)
+[Code Smell 24 - Boolean Coercions](../../Code%20Smells/Code%20Smell%2024%20-%20Boolean%20Coercions/readme.md)
 
-[Code Smell 62 - Flag Variables](Code Smells\Code Smell 62 - Flag Variables)
+[Code Smell 62 - Flag Variables](../../Code%20Smells/Code%20Smell%2062%20-%20Flag%20Variables/readme.md)
 
-[Code Smell 102 - Arrow Code](Code Smells\Code Smell 102 - Arrow Code)
+[Code Smell 102 - Arrow Code](../../Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md)
 
-[Code Smell 80 - Nested Try/Catch](Code Smells\Code Smell 80 - Nested Try Catch)
+[Code Smell 80 - Nested Try/Catch](../../Code%20Smells/Code%20Smell%2080%20-%20Nested%20Try%20Catch/readme.md)
 
 # More Info
 
-- [How to Get Rid of Annoying Ifs Forever](Theory\How to Get Rid of Annoying IFs Forever)
+- [How to Get Rid of Annoying Ifs Forever](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
 # Credits
 
@@ -112,10 +112,10 @@ Thanks again to Nico K. for this suggestion.
 
 _Douglas McIlroy_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

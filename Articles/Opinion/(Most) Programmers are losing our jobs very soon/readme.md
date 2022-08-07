@@ -12,7 +12,7 @@ Machine learning does an excellent job on making repetitive tasks inferring prop
 
 Any Deep Neural Network can learn Knuth’s three volumes of [the art of computer programming](https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming) and accurately choose which algorithm and data structure best fits in order to achieve a goal. Nevertheless is not an easy task to mimic computational models against real world because **real world is subjective**.
 
-[What is (wrong with) software?](Theory\What is (wrong with) software)
+[What is (wrong with) software?](../../Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
 You can't pretend that nothing is happening.
 
@@ -30,7 +30,7 @@ Most of these languages lack declarativity (with Python as an exception) and nee
 
 The business models are not expected to change very often so coupling is not an issue.
 
-[Coupling - The one and only software design problem](Theory\Coupling - The one and only software design problem)
+[Coupling - The one and only software design problem](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 The race has started.  [GPT3](https://en.wikipedia.org/wiki/GPT-3) and its amazing results are on our heels.
 

@@ -117,7 +117,7 @@ We shouldn't cache domain objects.
 
 # Relations
 
-[Code Smell 20 - Premature Optimization](Code Smells\Code Smell 20 - Premature Optimization)
+[Code Smell 20 - Premature Optimization](../../Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
  
 # More Info
 
@@ -137,10 +137,10 @@ _Phil Karlton_
  
 * * *
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

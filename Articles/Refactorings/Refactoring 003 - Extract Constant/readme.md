@@ -16,7 +16,7 @@
 
 # Related Code Smells
 
-- [Code Smell 02 - Constants and Magic Numbers](Code Smells\Code Smell  02 - Constants and Magic Numbers)
+- [Code Smell 02 - Constants and Magic Numbers](../../Code%20Smells/Code%20Smell%20%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
 
 # Steps
 
@@ -68,7 +68,7 @@ Code must be as declarative as possible.
 
 # Related Refactorings
 
-[Refactoring 002 - Extract Method](Refactorings\Refactoring 002 - Extract Method)
+[Refactoring 002 - Extract Method](../../Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
 # Credits
 

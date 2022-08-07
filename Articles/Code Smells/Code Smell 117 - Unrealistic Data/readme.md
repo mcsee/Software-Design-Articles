@@ -8,7 +8,7 @@
 
 # Problems
 
-- [Bijection](Theory\The One and Only Software Design Principle) Violation
+- [Bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Violation
 
 - Bad test use cases
 
@@ -18,17 +18,17 @@
 
 1. Change test data for a real one.
 
-2. Use [MAPPER](Theory\The One and Only Software Design Principle) to map real entities and real data.
+2. Use [MAPPER](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) to map real entities and real data.
 
 # Context
 
 In the past, developers used to fake domain data.
 
-We considered [Hello Word](TDD\We Should Get Rid of HelloWorld Forever) a good practice and we tested with abstract data.
+We considered [Hello Word](../../TDD/We%20Should%20Get%20Rid%20of%20HelloWorld%20Forever/readme.md) a good practice and we tested with abstract data.
 
 We developed using a [waterfall model](https://en.wikipedia.org/wiki/Waterfall_model) very far from real users.
 
-With bijection and MAPPER techniques, DDD and [TDD](TDD Conference 2021\TDD Conference 2021 - All Talks), [user acceptance testing](https://en.wikipedia.org/wiki/Acceptance_testing) became more important.
+With bijection and MAPPER techniques, DDD and [TDD](../../TDD%20Conference%202021/TDD%20Conference%202021%20-%20All%20Talks/readme.md), [user acceptance testing](https://en.wikipedia.org/wiki/Acceptance_testing) became more important.
 
 Using Agile methodologies, we need to test with real-world data.
 
@@ -98,7 +98,7 @@ This is a semantic smell.
 
 # Conclusion
 
-Code comments are a [code smell](Code Smells\Code Smell 05 - Comment Abusers).
+Code comments are a [code smell](../../Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md).
 
 Reading tests is the only way to learn how the software behaves.
 
@@ -112,13 +112,13 @@ We should fake it with meaningful data.
 
 # Relations
 
-[Code Smell 05 - Comment Abusers](Code Smells\Code Smell 05 - Comment Abusers)
+[Code Smell 05 - Comment Abusers](../../Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
 
 # More Info
 
 - [Given/Then/When](https://en.wikipedia.org/wiki/Given-When-Then)
 
-- [MAPPER](Theory\The One and Only Software Design Principle)
+- [MAPPER](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 # Credits
 
@@ -132,10 +132,10 @@ Thanks to [Curtis Einsmann](https://twitter.com/curtiseinsmann/status/1487118139
 
 _Albert Einstein_
 
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

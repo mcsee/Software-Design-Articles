@@ -12,11 +12,11 @@
 
 - The Least surprise principle
 
-- [Bijection](Theory\The One and Only Software Design Principle) Fault
+- [Bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Fault
 
 - Static methods
 
-[What exactly is a name — Part II Rehab](Theory\What exactly is a name — Part II Rehab)
+[What exactly is a name — Part II Rehab](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
 
 # Solutions
 
@@ -24,9 +24,9 @@
 
 2. If the helper is a library, break all the services as different methods.
 
-3. Methods should always be fulfilled by objects. [Static methods](Code Smells\Code Smell 18 - Static Functions) are another code smell.
+3. Methods should always be fulfilled by objects. [Static methods](../../Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md) are another code smell.
 
-4. Avoid extracting the helpers to [Anonymous Functions](Code Smells\Code Smell 21 - Anonymous Functions Abusers).
+4. Avoid extracting the helpers to [Anonymous Functions](../../Code%20Smells/Code%20Smell%2021%20-%20Anonymous%20Functions%20Abusers/readme.md).
 
 # Sample Code
 
@@ -169,9 +169,9 @@ We must be aware of the damage this kind of names are bringing us.
 
 # Relations
 
-[Code Smell 18 - Static Functions](Code Smells\Code Smell 18 - Static Functions)
+[Code Smell 18 - Static Functions](../../Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md)
 
-[Code Smell 21 - Anonymous Functions Abusers](Code Smells\Code Smell 21 - Anonymous Functions Abusers)
+[Code Smell 21 - Anonymous Functions Abusers](../../Code%20Smells/Code%20Smell%2021%20-%20Anonymous%20Functions%20Abusers/readme.md)
 
 # Also known as
 
@@ -179,10 +179,10 @@ We must be aware of the damage this kind of names are bringing us.
 
 # More Info
 
-[How to Decouple a Legacy System](Theory\How to Decouple a Legacy System)
+[How to Decouple a Legacy System](../../Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

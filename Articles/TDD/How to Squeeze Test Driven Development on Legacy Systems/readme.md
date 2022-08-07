@@ -34,13 +34,13 @@ If the all test passes restart the process or ...
 
 **NEVER DO BOTH 1 and 4 Together.**
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
 
 ## Design Benefits 
 
 * Testability and better class interfaces
 
-* Simpler designs (KISS, YAGNI, Gold Plating avoidance, [Fake it till you make it](https://en.wikipedia.org/wiki/Fake_it_till_you_make_it), [Fail Fast](Theory\Fail Fast))
+* Simpler designs (KISS, YAGNI, Gold Plating avoidance, [Fake it till you make it](https://en.wikipedia.org/wiki/Fake_it_till_you_make_it), [Fail Fast](../../Theory/Fail%20Fast/readme.md))
 
 * Isolation on failures (less debugger or logging uses).
 
@@ -62,27 +62,27 @@ If the all test passes restart the process or ...
 
 * Defer implementation issues and Premature optimization.
 
-[Code Smell 20 - Premature Optimization](Code Smells\Code Smell 20 - Premature Optimization)
+[Code Smell 20 - Premature Optimization](../../Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
 ## Requirements
 
 Test must be in *full environmental control*.
 
-No Globals, No [Singletons](Theory\Singleton - The root of all evil), [No Settings](Code Smells\Code Smell 29 - Settings - Configs), No [Database](Code Smells\Code Smell 31 - Accidental Methods on Business Objects), No Caches, No External API Calls and no side effects at all.
+No Globals, No [Singletons](../../Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md), [No Settings](../../Code%20Smells/Code%20Smell%2029%20-%20Settings%20-%20Configs/readme.md), No [Database](../../Code%20Smells/Code%20Smell%2031%20-%20Accidental%20Methods%20on%20Business%20Objects/readme.md), No Caches, No External API Calls and no side effects at all.
 
-TDD can detect [coupling](Theory\Coupling - The one and only software design problem) problems. 
+TDD can detect [coupling](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md) problems. 
 
-Solving them leads to cleaner code focused on business logic alone and *encapsulating [implementation decisions](Theory\No Silver Bullet)*. 
+Solving them leads to cleaner code focused on business logic alone and *encapsulating [implementation decisions](../../Theory/No%20Silver%20Bullet/readme.md)*. 
 
-We must deal with coupling problems using *test doubles*: [mocks](Code Smells\Code Smell 30 - Mocking Business), stubs, fake objects, spy, proxies, dummy objects, etc.
+We must deal with coupling problems using *test doubles*: [mocks](../../Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md), stubs, fake objects, spy, proxies, dummy objects, etc.
 
-[Coupling - The one and only software design problem](Theory\Coupling - The one and only software design problem)
+[Coupling - The one and only software design problem](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 # Working on existing systems
 
 According to the popular myth, we can't use TDD on existing systems. This is not true. Let's show an example.
 
-[How to Decouple a Legacy System](Theory\How to Decouple a Legacy System)
+[How to Decouple a Legacy System](../../Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 
 ## The real world example
 
@@ -158,7 +158,7 @@ Notice:
 * We number tests according to definition order.
 * First test is the easiest one and also the *Zero Case* of Zombies methodology.
 
-[How I Survived the Zombie Apocalypse](TDD\How I Survived the Zombie Apocalypse)
+[How I Survived the Zombie Apocalypse](../../TDD/How%20I%20Survived%20the%20Zombie%20Apocalypse/readme.md)
 
 > Test fails (as expected). Let’s create the class and the function.
 
@@ -691,7 +691,7 @@ We have all the new code covered. (17 unit tests and 3 SQL Generation tests).
 
 _Michael Feathers_
 
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 #Credits
 
@@ -701,7 +701,7 @@ _Michael Feathers_
 
 Part of the objective of this series of articles is to generate spaces for debate and discussion on software design.
 
-[Object Design Checklist](Theory\Object Design Checklist)
+[Object Design Checklist](../../Theory/Object%20Design%20Checklist/readme.md)
 
 We look forward to comments and suggestions on this article.
 

@@ -68,11 +68,11 @@ We should always avoid comparing floats.
 
 # Relations
 
-[Code Smell 71 - Magic Floats Disguised as Decimals](Code Smells\Code Smell 71 - Magic Floats Disguised as Decimals)
+[Code Smell 71 - Magic Floats Disguised as Decimals](../../Code%20Smells/Code%20Smell%2071%20-%20Magic%20Floats%20Disguised%20as%20Decimals/readme.md)
 
 # More Info
 
-- [Fail fast](Theory\Fail Fast)
+- [Fail fast](../../Theory/Fail%20Fast/readme.md)
 
 # Credits
 
@@ -84,10 +84,10 @@ Photo by [Mika Baumeister](https://unsplash.com/@mbaumi) on [Unsplash](https://u
 
 _Leopold Kronecker_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

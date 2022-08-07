@@ -87,9 +87,9 @@ Developers change these objects a lot, so they bring merge conflicts and are a c
 
 # Relations
 
-[Code Smell 10 - Too Many Arguments](Code Smells\Code Smell 10 - Too Many Arguments)
+[Code Smell 10 - Too Many Arguments](../../Code%20Smells/Code%20Smell%2010%20-%20Too%20Many%20Arguments/readme.md)
 
-[Code Smell 14 - God Objects](Code Smells\Code Smell 14 - God Objects)
+[Code Smell 14 - God Objects](../../Code%20Smells/Code%20Smell%2014%20-%20God%20Objects/readme.md)
 
 # Credits
 
@@ -101,11 +101,11 @@ Photo by [Andy Li](https://unsplash.com/@andasta) on [Unsplash](https://unsplash
 
 _Ryan Singer_
 
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
 

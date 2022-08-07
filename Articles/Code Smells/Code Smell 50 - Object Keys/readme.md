@@ -10,13 +10,13 @@
 
 - Accidental Implementation
 
-- [Bijection Principle](Theory\The One and Only Software Design Principle) Violation.
+- [Bijection Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Violation.
 
 # Solutions
 
 1. Reference *object* to *objects*.
 
-2. Build a [MAPPER](Theory\What is (wrong with) software).
+2. Build a [MAPPER](../../Theory/What%20is%20(wrong%20with)%20software/readme.md).
 
 3. Only use keys if you need to provide an external (accidental) reference. Databases, APIs, Serializations.
 
@@ -26,7 +26,7 @@
 
 6. Don't use DTOs.
 
-[Code Smell 40 - DTOs](Code Smells\Code Smell 40 - DTOs)
+[Code Smell 40 - DTOs](../../Code%20Smells/Code%20Smell%2040%20-%20DTOs/readme.md)
 
 # Sample Code
 
@@ -125,15 +125,15 @@ In case you need to provide a reference out of your system's scope (APIs, interf
 
 # Relations
 
-[Code Smell 20 - Premature Optimization](Code Smells\Code Smell 20 - Premature Optimization)
+[Code Smell 20 - Premature Optimization](../../Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
 # More info
 
-[What is (wrong with) software?](Theory\What is (wrong with) software)
+[What is (wrong with) software?](../../Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
-[The One and Only Software Design Principle](Theory\The One and Only Software Design Principle)
+[The One and Only Software Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
-[Coupling - The one and only software design problem](Theory\Coupling - The one and only software design problem)
+[Coupling - The one and only software design problem](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 # Credits
 
@@ -147,11 +147,11 @@ _David Wheeler_
  
 * * *
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
 

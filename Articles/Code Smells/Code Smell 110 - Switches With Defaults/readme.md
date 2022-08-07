@@ -10,7 +10,7 @@
 
 - Coupling
 
-- [Fail Fast principle violation](Theory\Fail Fast)
+- [Fail Fast principle violation](../../Theory/Fail%20Fast/readme.md)
 
 - Open closed principle violation
 
@@ -26,7 +26,7 @@ When using cases, we usually add a default case so it doesn't fail.
 
 Failing is always better than taking decisions without evidence.
 
-Since [case and switches](Code Smells\Code Smell 36 - Switch case elseif else if statements) are also an smell, we can avoid them.
+Since [case and switches](../../Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md) are also an smell, we can avoid them.
 
 # Sample Code
 
@@ -93,11 +93,11 @@ Writing robust code doesn't mean we need to take decisions without evidence.
 
 # Relations
 
-[Code Smell 36 - Switch/case/elseif/else/if statements](Code Smells\Code Smell 36 - Switch case elseif else if statements)
+[Code Smell 36 - Switch/case/elseif/else/if statements](../../Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md)
 
 # More Info
 
-- [Fail Fast](Theory\Fail Fast)
+- [Fail Fast](../../Theory/Fail%20Fast/readme.md)
 
 # Credits
 
@@ -109,10 +109,10 @@ Photo by [Joshua Woroniecki](https://unsplash.com/@joshua_j_woroniecki) on [Unsp
 
 _John Carmack_
 
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

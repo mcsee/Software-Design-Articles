@@ -10,7 +10,7 @@
 
 - Accidental Coupling
 
-- [Coupling](Theory\Coupling - The one and only software design problem)
+- [Coupling](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 - Lack of design for change
 
@@ -83,21 +83,21 @@ This is a semantic and naming smell.
 
 We need to choose good names and add indirection layers when necessary.
 
-Of course, *[premature optimizators](Blogging\I Wrote More than 90 Articles on 2021 Here is What I Learned)* will fight us, telling us we are wasting computational resources and they need to know the insights we are hiding from them.
+Of course, *[premature optimizators](../../Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md)* will fight us, telling us we are wasting computational resources and they need to know the insights we are hiding from them.
 
 # Relations
 
-[Code Smell 92 - Isolated Subclasses Names](Code Smells\Code Smell 92 - Isolated Subclasses Names)
+[Code Smell 92 - Isolated Subclasses Names](../../Code%20Smells/Code%20Smell%2092%20-%20Isolated%20Subclasses%20Names/readme.md)
 
-[Code Smell 05 - Comment Abusers](Code Smells\Code Smell 05 - Comment Abusers)
+[Code Smell 05 - Comment Abusers](../../Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
 
 # More Info
 
-- [On premature optimizators](Blogging\I Wrote More than 90 Articles on 2021 Here is What I Learned)
+- [On premature optimizators](../../Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md)
 
-- [Coupling](Theory\Coupling - The one and only software design problem)
+- [Coupling](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
-- [What is in a name?](Theory\What exactly is a name — Part II Rehab)
+- [What is in a name?](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
 
 # Credits
 
@@ -117,10 +117,10 @@ and here:
 
 _Andrew Hunt_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

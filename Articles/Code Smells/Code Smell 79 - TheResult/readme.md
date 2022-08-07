@@ -20,7 +20,7 @@
 
 # Refactorings
 
-[Refactoring 006 - Rename Result Variables](Refactorings\Refactoring 006 - Rename Result Variables)
+[Refactoring 006 - Rename Result Variables](../../Refactorings/Refactoring%20006%20-%20Rename%20Result%20Variables/readme.md)
 
 # Sample Code
 
@@ -68,11 +68,11 @@ If your names collide use local names, extract your methods and avoid 'the' pref
 
 # Relations
 
-[Code Smell 38 - Abstract Names](Code Smells\Code Smell 38 - Abstract Names)
+[Code Smell 38 - Abstract Names](../../Code%20Smells/Code%20Smell%2038%20-%20Abstract%20Names/readme.md)
 
 # More info
 
-- [What is in a name](Theory\What exactly is a name — Part II Rehab).
+- [What is in a name](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md).
 
 - [How To Be Great At Giving Meaningful Names](https://medium.com/shipmnts/how-to-be-great-at-giving-meaningful-names-54b19de66cdf).
 
@@ -86,10 +86,10 @@ Photo by [Josue Michel](https://unsplash.com/@josuemichelphotography) on [Unspla
 
 _Robert C. Martin_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

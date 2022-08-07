@@ -8,7 +8,7 @@
 
 # Problems
 
-- [Bijection](Theory\The One and Only Software Design Principle) Fault
+- [Bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Fault
 
 - Security Problems
 
@@ -28,7 +28,7 @@ IDs do not exist in the real-world so, they break our bijection.
 
 We should only use IDs when exposing internal resources to the *outer world* beyond system boundaries.
 
-These are always [accidental problems](Theory\No Silver Bullet) and should not interfere with our models.
+These are always [accidental problems](../../Theory/No%20Silver%20Bullet/readme.md) and should not interfere with our models.
 
 # Sample Code
 
@@ -113,10 +113,10 @@ Thanks @davidkroell for the KSUID tip.
 
 _Gene Spafford_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

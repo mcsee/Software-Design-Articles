@@ -66,11 +66,11 @@ According to Patrick McGinnis' 3 tips, we can fight it:
 
 - and many more tips...
 
-[My Best Short Productivity Tips](Productivity\My Best Short Productivity Tips)
+[My Best Short Productivity Tips](../../Productivity/My%20Best%20Short%20Productivity%20Tips/readme.md)
 
-[16 Simple Tips to Boost Your Productivity x10](Productivity\16 Simple Tips to Boost Your Productivity x10)
+[16 Simple Tips to Boost Your Productivity x10](../../Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md)
 
-[10 More Simple Tips to Boost Your Productivity x2 (2021 Guide)](Productivity\10 More Simple Tips to Boost Your Productivity x2 (2021 Guide))
+[10 More Simple Tips to Boost Your Productivity x2 (2021 Guide)](../../Productivity/10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2%20(2021%20Guide)/readme.md)
 
 # What does the 97x stand for?
 

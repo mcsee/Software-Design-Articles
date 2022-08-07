@@ -18,11 +18,11 @@
 
 # Solutions
 
-1. Create [Null Objects](Theory\Null - The Billion Dollar Mistake) instantiating real-object classes.
+1. Create [Null Objects](../../Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md) instantiating real-object classes.
 
 # Context
 
-Null Object pattern is a great alternative to [Nulls](Code Smells\Code Smell 12 - Null) and [IFs](Code Smells\Code Smell 36 - Switch case elseif else if statements) (Both are code smells).
+Null Object pattern is a great alternative to [Nulls](../../Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md) and [IFs](../../Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md) (Both are code smells).
 
 The structure of the pattern tells us to create a hierarchy.
 
@@ -153,25 +153,25 @@ Creating Null Object classes is sometimes overdesign.
 
 We need to create a real object.
 
-This real object should never be [global](Code Smells\Code Smell 17 - Global Functions), [singleton](Code Smells\Code Smell 32 - Singletons), or [static](Code Smells\Code Smell 18 - Static Functions).
+This real object should never be [global](../../Code%20Smells/Code%20Smell%2017%20-%20Global%20Functions/readme.md), [singleton](../../Code%20Smells/Code%20Smell%2032%20-%20Singletons/readme.md), or [static](../../Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md).
 
 Too many smells to avoid.
 
 # Relations
 
-[Code Smell 12 - Null](Code Smells\Code Smell 12 - Null)
+[Code Smell 12 - Null](../../Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
-[Code Smell 32 - Singletons](Code Smells\Code Smell 32 - Singletons)
+[Code Smell 32 - Singletons](../../Code%20Smells/Code%20Smell%2032%20-%20Singletons/readme.md)
 
-[Code Smell 114 - Empty Class](Code Smells\Code Smell 114 - Empty Class)
+[Code Smell 114 - Empty Class](../../Code%20Smells/Code%20Smell%20114%20-%20Empty%20Class/readme.md)
 
-[Code Smell 18 - Static Functions](Code Smells\Code Smell 18 - Static Functions) 
+[Code Smell 18 - Static Functions](../../Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md) 
 
-[Code Smell 17 - Global Functions](Code Smells\Code Smell 17 - Global Functions)
+[Code Smell 17 - Global Functions](../../Code%20Smells/Code%20Smell%2017%20-%20Global%20Functions/readme.md)
 
 # More Info
 
-- [Null: The Billion Dollar Mistake](Theory\Null - The Billion Dollar Mistake)
+- [Null: The Billion Dollar Mistake](../../Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
 - [Null Object Wikipedia](https://en.wikipedia.org/wiki/Null_object_pattern)
 
@@ -189,10 +189,10 @@ Thanks to Hernan Wilkinson for this idea on his course [Diseño a la Gorra](http
 
 _George Box_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

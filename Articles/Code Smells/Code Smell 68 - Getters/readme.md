@@ -83,7 +83,7 @@ final class Window {
 
 Getters coincide in certain scenarios with a true responsibility. It will be reasonable for a window to return its color and it may accidentally store it as color. so a *color()* method returning the attribute color might be a good solution.
 
-*getColor()* breaks [bijection](Theory\The One and Only Software Design Principle) since it is implementative and has no real counterpart on our [mappers](Theory\What is (wrong with) software). 
+*getColor()* breaks [bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) since it is implementative and has no real counterpart on our [mappers](../../Theory/What%20is%20(wrong%20with)%20software/readme.md). 
 
 Most linters can warn us if they detect anemic models with getters and setters.
 
@@ -97,15 +97,15 @@ Getters and Setters are a bad established practice. Instead of focusing on objec
 
 # Relations
 
-[Code Smell 28 - Setters](Code Smells\Code Smell 28 - Setters)
+[Code Smell 28 - Setters](../../Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
+[Code Smell 01 - Anemic Models](../../Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
-[Code Smell 64 - Inappropriate Intimacy](Code Smells\Code Smell 64 - Inappropriate Intimacy)
+[Code Smell 64 - Inappropriate Intimacy](../../Code%20Smells/Code%20Smell%2064%20-%20Inappropriate%20Intimacy/readme.md)
 
 # More info
 
-[Nude Models - Part II: Getters](Theory\Nude Models - Part II Getters)
+[Nude Models - Part II: Getters](../../Theory/Nude%20Models - Part%20II Getters/readme.md)
 
 # Credits
 
@@ -119,10 +119,10 @@ _Alan Cooper_
  
 * * *
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

@@ -10,7 +10,7 @@
 
 - Principle of least astonishment
 
-- [Bijection](Theory\The One and Only Software Design Principle) Violation.
+- [Bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Violation.
 
 - Unexpected Results
 
@@ -64,15 +64,15 @@ We need to be very careful using functions that violate real-world concepts usin
 
 # Relations
 
-[Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](Code Smells\Code Smell 69 - Big Bang (JavaScript Ridiculous Castings))
+[Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](../../Code%20Smells/Code%20Smell%2069%20-%20Big%20Bang%20(JavaScript%20Ridiculous%20Castings)/readme.md)
 
 # More Info
 
 - [Principle of least astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment)
 
-- [Bijection Principle](Theory\The One and Only Software Design Principle)
+- [Bijection Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
-- [MAPPER](Theory\What is (wrong with) software)
+- [MAPPER](../../Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
 # Credits
 
@@ -88,10 +88,10 @@ Inspired by @@[Oliver Jumpertz](@OliverJumpertz)
 
 _Rick Cook_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

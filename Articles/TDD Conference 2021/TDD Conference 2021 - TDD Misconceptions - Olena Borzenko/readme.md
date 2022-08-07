@@ -31,7 +31,7 @@ Olena is a full stack developer at The Adecco Group from Berlin in Germany. She 
 - "Found a bug? Fix it. Write a test to prove it was fixed" methodology.
 - They aimed at 100% code coverage
 - Most of the test cases were useless, aimed at coverage, not at quality.
-- They heavily used [mocks](Code Smells\Code Smell 30 - Mocking Business).
+- They heavily used [mocks](../../Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md).
 - They didn't avoid critical defects.
 - Useless cases with full mock combinations just to target 100% coverage
 
@@ -58,7 +58,7 @@ Olena is a full stack developer at The Adecco Group from Berlin in Germany. She 
 
 # Index
 
-[TDD Conference 2021 - All Talks](TDD Conference 2021\TDD Conference 2021 - All Talks)
+[TDD Conference 2021 - All Talks](../../TDD%20Conference%202021/TDD%20Conference%202021%20-%20All%20Talks/readme.md)
 
 * * *
 

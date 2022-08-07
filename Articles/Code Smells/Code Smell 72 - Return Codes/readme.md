@@ -8,7 +8,7 @@
 
 # Problems
 
-- [IFs](Theory\How to Get Rid of Annoying IFs Forever)
+- [IFs](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
 - Code Polluting
 
@@ -103,17 +103,17 @@ Create and raise generic exceptions.
 
 Only create specific exceptions if you are ready to handle them, and they have specialized behavior. 
 
-Don't create [anemic](Code Smells\Code Smell 01 - Anemic Models) Exceptions.
+Don't create [anemic](../../Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md) Exceptions.
 
 Avoid [immature and premature optimized languages](https://golangdocs.com/errors-exception-handling-in-golang) favoring return codes.
 
 # Relations
 
-[Code Smell 26 - Exceptions Polluting](Code Smells\Code Smell 26 - Exceptions Polluting)
+[Code Smell 26 - Exceptions Polluting](../../Code%20Smells/Code%20Smell%2026%20-%20Exceptions%20Polluting/readme.md)
 
 # More info
 
-[How to Get Rid of Annoying IFs Forever](Theory\How to Get Rid of Annoying IFs Forever)
+[How to Get Rid of Annoying IFs Forever](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
 %[http://nicolecarpenter.github.io/2016/03/15/clean-code-chapter-7-error-handling.html]
 
@@ -127,10 +127,10 @@ Photo by [Alex Hay](https://unsplash.com/@alex_hay) on [Unsplash](https://unspla
 
 _Robert Martin_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

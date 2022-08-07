@@ -20,7 +20,7 @@
 
 1. Extract Method
 
-2. [Refactor](Refactorings\Refactoring 005 - Replace Comment with Function Name)
+2. [Refactor](../../Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
 
 3. Remove not declarative comments.
 
@@ -133,15 +133,15 @@ Comments are a code smell. If you need to document a design decision, you should
 
 # Relations
 
-[Code Smell 03 - Functions Are Too Long](Code Smells\Code Smell 03 - Functions Are Too Long)
+[Code Smell 03 - Functions Are Too Long](../../Code%20Smells/Code%20Smell%2003%20-%20Functions%20Are%20Too%20Long/readme.md)
 
-[Code Smell 74 - Empty Lines](Code Smells\Code Smell 74 - Empty Lines)
+[Code Smell 74 - Empty Lines](../../Code%20Smells/Code%20Smell%2074%20-%20Empty%20Lines/readme.md)
 
-[Code Smell 05 - Comment Abusers](Code Smells\Code Smell 05 - Comment Abusers)
+[Code Smell 05 - Comment Abusers](../../Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
 
 # Refactorings
 
-[Refactoring 005 - Replace Comment with Function Name](Refactorings\Refactoring 005 - Replace Comment with Function Name)
+[Refactoring 005 - Replace Comment with Function Name](../../Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
 
 # Credits
 
@@ -153,10 +153,10 @@ Photo by [Jason Rosewell](https://unsplash.com/@jasonrosewell) on [Unsplash](htt
 
 _Dave Storer_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

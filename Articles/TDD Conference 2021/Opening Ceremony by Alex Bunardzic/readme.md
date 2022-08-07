@@ -28,7 +28,7 @@ With a science background, Alex shows us how to build software by watching natur
 
 - This is the first conference and the passing torch to younger generations of TDD enthusiasts.
 - We discovered TDD several years ago thanks to Kent Beck.
-- We evolved with James Grenning's [Zombies Formula](TDD\How I Survived the Zombie Apocalypse).
+- We evolved with James Grenning's [Zombies Formula](../../TDD/How%20I%20Survived%20the%20Zombie%20Apocalypse/readme.md).
 - Ron Jeffries' Never let the code not be working.
 - And so on...
 
@@ -68,7 +68,7 @@ With a science background, Alex shows us how to build software by watching natur
 
 # Index
 
-[TDD Conference 2021 - All Talks](TDD Conference 2021\TDD Conference 2021 - All Talks)
+[TDD Conference 2021 - All Talks](../../TDD%20Conference%202021/TDD%20Conference%202021%20-%20All%20Talks/readme.md)
 
 * * *
 

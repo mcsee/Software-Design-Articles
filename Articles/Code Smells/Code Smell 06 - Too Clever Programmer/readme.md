@@ -20,7 +20,7 @@
 
 - Refactor the code
 
-- Use [better names](Theory\What exactly is a name — Part I The Quest)
+- Use [better names](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
 
 # Examples
 
@@ -81,9 +81,9 @@ Watch some warnings related to complexity, bad names, post-increment variables, 
 
 # Relations
 
-[Code Smell 02 - Constants and Magic Numbers](Code Smells\Code Smell  02 - Constants and Magic Numbers)
+[Code Smell 02 - Constants and Magic Numbers](../../Code%20Smells/Code%20Smell%20%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
 
-[Code Smell 20 - Premature Optimization](Code Smells\Code Smell 20 - Premature Optimization)
+[Code Smell 20 - Premature Optimization](../../Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
 # Also Known as
 
@@ -104,7 +104,7 @@ https://ardalis.com/are-boolean-flags-on-methods-a-code-smell/
 
 # Refactorings
 
-[Refactoring 005 - Replace Comment with Function Name](Refactorings\Refactoring 005 - Replace Comment with Function Name)
+[Refactoring 005 - Replace Comment with Function Name](../../Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
 
 # Credits
 
@@ -116,10 +116,10 @@ Photo by [NeONBRAND](https://unsplash.com/@neonbrand) on [Unsplash](https://unsp
 
 _Kreitzberg & Shneiderman_
 
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

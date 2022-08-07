@@ -61,7 +61,7 @@ We should always favour immutability on our designs and take extra care with sid
 
 # More Info
 
-- [The evil power of mutants](Theory\The Evil Power of Mutants)
+- [The evil power of mutants](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 # Credits
 
@@ -75,10 +75,10 @@ Photo by [Zorik D](https://unsplash.com/@justzorik) on [Unsplash](https://unspla
 
 _Bertrand Meyer_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

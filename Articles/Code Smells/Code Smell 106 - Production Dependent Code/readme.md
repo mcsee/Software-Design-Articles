@@ -90,11 +90,11 @@ Use abstractions, protocol, and interfaces, avoid hard hierarchies.
 
 # Relations
 
-[Code Smell 56 - Preprocessors](Code Smells\Code Smell 56 - Preprocessors)
+[Code Smell 56 - Preprocessors](../../Code%20Smells/Code%20Smell%2056%20-%20Preprocessors/readme.md)
 
 # More Info
 
-- [How to avoid annoying ifs](Theory\How to Get Rid of Annoying IFs Forever)
+- [How to avoid annoying ifs](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
 # Credits
 
@@ -110,10 +110,10 @@ This tweet was inspired by @[Jan Giacomelli](@jangia)
 
 _Daniel T. Ling_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

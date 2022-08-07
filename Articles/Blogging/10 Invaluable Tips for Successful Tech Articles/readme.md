@@ -1,6 +1,6 @@
 # 10 Invaluable Tips for Successful Tech Articles
 
-![10 Invaluable Tips for Successful Tech Articles](GWIEtuxc5.webp)
+![10 Invaluable Tips for Successful Tech Articles](ezgif-3-1d78c2eea6.jpg)
 
 *I'm a developer learning to write technical articles. This is my journey.*
 
@@ -41,7 +41,7 @@ Writing is a great opportunity for research. You need to learn and master a topi
 
 I wrote this article because I came across the concept of Zombies and got excited about it. Read a lot and wrote my own examples.
 
-[How I Survived the Zombie Apocalypse](TDD\How I Survived the Zombie Apocalypse)
+[How I Survived the Zombie Apocalypse](../../TDD/How%20I%20Survived%20the%20Zombie%20Apocalypse/readme.md)
 
 > Tip: Have a ToDo lists of things you wish to learn.
 
@@ -49,7 +49,7 @@ I wrote this article because I came across the concept of Zombies and got excite
 
 # 4. Write in plain English
 
-English is not my first language. I wrote my [first articles](Theory\What is (wrong with) software) using 
+English is not my first language. I wrote my [first articles](../../Theory/What%20is%20(wrong%20with)%20software/readme.md) using 
 *presumptuous words* (like this one). 
 
 Then I came across [plain English](https://en.wikipedia.org/wiki/Plain_English). 
@@ -108,7 +108,7 @@ Try to develop a [personal style](https://amarachiazubuike.com/how-to-structure-
 
 I write one article a day with the same template format.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
 
 > Tip: Have a template in markdown.
 

@@ -60,7 +60,7 @@ Time and code evolution management is always present in software development. Lu
  
 # Relations
 
-[Code Smell 05 - Comment Abusers](Code Smells\Code Smell 05 - Comment Abusers)
+[Code Smell 05 - Comment Abusers](../../Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
  
 # Creditshttps://pbs.twimg.com/media/FWcrogWWQAAXXb1?format=png&name=small
 
@@ -76,10 +76,10 @@ Original idea
 
 _Chuck Palahniuk_
 
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

@@ -1,6 +1,6 @@
 # How to Get Rid of Annoying IFs Forever
 
-![How to Get Rid of Annoying IFs Forever](IojwulZw5.webp)
+![How to Get Rid of Annoying IFs Forever](1_0bj3l7Fw0_WEIBW-JX3Aew.png)
 
 *Why the first instruction we learn to program should be the last to use.*
 
@@ -25,7 +25,7 @@ Photo <a href="https://pixabay.com/es/users/przemko-1606435/">Przemysław Brombe
 
 Most **IF** sentences are coupled to *accidental decisions*. This coupling generates ripple effect and make code harder to maintain.
 
-[Coupling - The one and only software design problem](Theory\Coupling - The one and only software design problem)
+[Coupling - The one and only software design problem](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 IFs are considered as [Harmful](https://sddconf.com/brands/sdd/library/If_considered_Harmful_-_Jules_May_-_SDD2017.pdf) as **GOTOs**.
 
@@ -37,11 +37,11 @@ What is more, **IFs** are open doors to even worse problems, like **switches**, 
 
 They make our algorithms darker and force us to build *accidentally complex* solutions. 
 
-[No Silver Bullet](Theory\No Silver Bullet)
+[No Silver Bullet](../../Theory/No%20Silver%20Bullet/readme.md)
 
 People out of software development cannot explain why we use this branching sentence. This is a code smell.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
 
 # Solutions
 
@@ -49,7 +49,7 @@ Before we move on and remove IF sentences we should decide if its an *essential*
 
 To check this out we will look for answers in real world through bijection.
 
-[The One and Only Software Design Principle](Theory\The One and Only Software Design Principle)
+[The One and Only Software Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 ## Essential Ifs
 
@@ -82,7 +82,7 @@ We should decide whether to remove this **if sentence** or not.
 
 We must understand whether it represents a business rule (*essential*) or an implementation artifact (*accidental*).
 
-In the case above we will honor our [bijection](Theory\The One and Only Software Design Principle). So we will NOT replace the if.
+In the case above we will honor our [bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md). So we will NOT replace the if.
 
 > People In real world describe age constraints in natural language using **IFs**
 
@@ -256,7 +256,7 @@ With this outcome:
 
 *In this case default behaviour is no needed since exceptions break flow. In many times a Null Object will be enough.
 
-[Code Smell 12 - Null](Code Smells\Code Smell 12 - Null)
+[Code Smell 12 - Null](../../Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
 3- New ratings will bring new IFs.
 
@@ -270,7 +270,7 @@ With this outcome:
 
 *We will clear this problem favoring [Demeter's Law](https://en.wikipedia.org/wiki/Law_of_Demeter).*
 
-[Code Smell 08 - Long Chains Of Collaborations](Code Smells\Code Smell 08 - Long Chains Of Collaborations)
+[Code Smell 08 - Long Chains Of Collaborations](../../Code%20Smells/Code%20Smell%2008%20-%20Long%20Chains%20Of%20Collaborations/readme.md)
 
 * * *
 
@@ -307,7 +307,7 @@ Rating is private so we don't break encapsulation.
 
 As a consequence we are safe to avoid *getters*.
 
-[Nude Models - Part II: Getters](Theory\Nude Models - Part II Getters)
+[Nude Models - Part II: Getters](../../Theory/Nude%20Models - Part%20II Getters/readme.md)
 
 ## Applying the recipe to all IF conditions
 
@@ -395,7 +395,7 @@ We replaced all **IFs**. In the later case using [Double Dispatch Technique](htt
 
 We used our formula and it worked. But there's a smell of **over design**.
 
-1. Classes representing Ages are not related to real concepts on our [model](Theory\What is (wrong with) software).
+1. Classes representing Ages are not related to real concepts on our [model](../../Theory/What%20is%20(wrong%20with)%20software/readme.md).
 2. Model is too complex.
 3. We will need new classes related to new age groups.
 4. Age groups might not be disjoint.
@@ -435,7 +435,7 @@ Null object pattern is a special case of this technique. We will be able to remo
 
 > NULL ifs are always accidental.
 
-[Null: The Billion Dollar Mistake](Theory\Null - The Billion Dollar Mistake)
+[Null: The Billion Dollar Mistake](../../Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
 # Credits
 
@@ -447,7 +447,7 @@ We have been using *If removal technique* at [Universidad de Buenos Aires](https
 
 Part of the objective of this series of articles is to generate spaces for debate and discussion on software design.
 
-[Object Design Checklist](Theory\Object Design Checklist)
+[Object Design Checklist](../../Theory/Object%20Design%20Checklist/readme.md)
 
 
 

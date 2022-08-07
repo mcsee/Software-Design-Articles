@@ -88,13 +88,13 @@ We need to remove all commented-out code.
 
 # Relations
 
-[Code Smell 75 - Comments Inside a Method](Code Smells\Code Smell 75 - Comments Inside a Method)
+[Code Smell 75 - Comments Inside a Method](../../Code%20Smells/Code%20Smell%2075%20-%20Comments%20Inside%20a%20Method/readme.md)
 
-[Code Smell 05 - Comment Abusers](Code Smells\Code Smell 05 - Comment Abusers)
+[Code Smell 05 - Comment Abusers](../../Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
 
 # Refactorings
 
-[Refactoring 005 - Replace Comment with Function Name](Refactorings\Refactoring 005 - Replace Comment with Function Name)
+[Refactoring 005 - Replace Comment with Function Name](../../Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
 
 # Credits
 
@@ -106,10 +106,10 @@ Photo by [maxim bober](https://unsplash.com/@obalance) on [Unsplash](https://uns
 
 _Atli Björgvin Oddsson_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

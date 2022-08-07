@@ -54,19 +54,19 @@ With [Mutation Testing](https://en.wikipedia.org/wiki/Mutation_testing) techniqu
 
 # Conclusion
 
-We should use development techniques like [TDD](TDD\How to Squeeze Test Driven Development on Legacy Systems) that request concrete business cases and make concrete assertions based on our domain.
+We should use development techniques like [TDD](../../TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md) that request concrete business cases and make concrete assertions based on our domain.
 
 # Relations
 
-[Code Smell 30 - Mocking Business](Code Smells\Code Smell 30 - Mocking Business)
+[Code Smell 30 - Mocking Business](../../Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md)
 
-[Code Smell 52 - Fragile Tests](Code Smells\Code Smell 52 - Fragile Tests)
+[Code Smell 52 - Fragile Tests](../../Code%20Smells/Code%20Smell%2052%20-%20Fragile%20Tests/readme.md)
 
 # More info
 
-- [Test Driven Development](TDD\How to Squeeze Test Driven Development on Legacy Systems)
+- [Test Driven Development](../../TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md)
 
-- [The Only Design Principle](Theory\The One and Only Software Design Principle)
+- [The Only Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 - [Mutation Testing](https://en.wikipedia.org/wiki/Mutation_testing)
 
@@ -83,10 +83,10 @@ Photo by [Fleur](https://unsplash.com/@yer_a_wizard) on [Unsplash](https://unspl
 
 _John Osterhout_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

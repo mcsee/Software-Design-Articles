@@ -3,7 +3,7 @@
 ![My Best Short Productivity Tips](tipyng.gif)
 
 *This is part of [productivity series](https://maximilianocontieri/series/productivity)
-You can read previous tips [here](Productivity\16 Simple Tips to Boost Your Productivity x10) and [here](Productivity\10 More Simple Tips to Boost Your Productivity x2 (2021 Guide))*
+You can read previous tips [here](../../Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md) and [here](../../Productivity/10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2%20(2021%20Guide)/readme.md)*
 
 # 1- Lazy people automate 🤖
 
@@ -71,7 +71,7 @@ The productivity techniques that work are [built on principles](https://www.free
 
 # 11- Repeat until you create a habit. 🔁
 
-It takes about 21 repetition days to [create a hardwired habit](Productivity\10 More Simple Tips to Boost Your Productivity x2 (2021 Guide)). 
+It takes about 21 repetition days to [create a hardwired habit](../../Productivity/10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2%20(2021%20Guide)/readme.md). 
 
 Use [Savers Technique](https://lifehacker.com/start-your-day-off-right-with-the-savers-morning-routin-1716241117)
 

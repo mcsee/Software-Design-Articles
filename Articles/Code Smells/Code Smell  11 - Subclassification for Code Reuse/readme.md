@@ -123,7 +123,7 @@ In legacy systems is very common to have *Deep Hierarchies* and *method overridi
 
 # Relations
 
-[Code Smell 58 - Yo-yo Problem](Code Smells\Code Smell 58 - Yo-yo Problem)
+[Code Smell 58 - Yo-yo Problem](../../Code%20Smells/Code%20Smell%2058%20-%20Yo-yo%20Problem/readme.md)
 
 # More info
 
@@ -137,4 +137,4 @@ Photo by [Brandon Green](https://unsplash.com/@brandgreen) on [Unsplash](https:/
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

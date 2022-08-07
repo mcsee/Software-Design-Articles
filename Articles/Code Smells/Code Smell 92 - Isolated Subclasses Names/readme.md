@@ -67,13 +67,13 @@ If your language supports it, use modules, namespaces and local scopes.
 
 # Relations
 
-[Code Smell 11 - Subclassification for Code Reuse](Code Smells\Code Smell  11 - Subclassification for Code Reuse)
+[Code Smell 11 - Subclassification for Code Reuse](../../Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
 
 # More Info
 
-- [What is in a name?](Theory\What exactly is a name — Part I The Quest)
+- [What is in a name?](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
 
-- [MAPPER](Theory\The One and Only Software Design Principle)
+- [MAPPER](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 # Credits
 
@@ -85,10 +85,10 @@ Photo by [Edvard Alexander Rølvaag](https://unsplash.com/@edvardr) on [Unsplash
 
 _Frederick P. Brooks_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

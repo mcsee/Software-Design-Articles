@@ -10,11 +10,11 @@
 
 - Primitive obsession.
 
-- [Bijection Fault](Theory\The One and Only Software Design Principle)
+- [Bijection Fault](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 - Validated strings are a subset of all possible strings.
 
-- [Fail Fast](Theory\Fail Fast) principle violation.
+- [Fail Fast](../../Theory/Fail%20Fast/readme.md) principle violation.
 
 - Single Responsibility Principle violation.
 
@@ -22,7 +22,7 @@
 
 # Solutions
 
-1. Create a first-class object representing the concept under the [MAPPER](Theory\What is (wrong with) software)
+1. Create a first-class object representing the concept under the [MAPPER](../../Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
 # Context
 
@@ -131,21 +131,21 @@ We can check all constructors validating strings and [reify](https://en.wikipedi
 
 Small objects are hard to find.
 
-Primitive obsessors [always complain](Blogging\I Wrote More than 90 Articles on 2021 Here is What I Learned) about this kind of indirections.
+Primitive obsessors [always complain](../../Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md) about this kind of indirections.
 
 Creating these new small concepts keeps our model loyal to the bijection and ensures our models are always healthy.
 
 # Relations
 
-[Code Smell 41 - Regular Expression Abusers](Code Smells\Code Smell 41 - Regular Expression Abusers)
+[Code Smell 41 - Regular Expression Abusers](../../Code%20Smells/Code%20Smell%2041%20-%20Regular%20Expression%20Abusers/readme.md)
 
-[Code Smell 04 - String Abusers](Code Smells\Code Smell 04 - String Abusers)
+[Code Smell 04 - String Abusers](../../Code%20Smells/Code%20Smell%2004%20-%20String%20Abusers/readme.md)
 
 # More Info
 
-- [The One and Only Software Design Principle](Theory\The One and Only Software Design Principle)
+- [The One and Only Software Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
-- [How to Develop a Wordle Game](Wordle\How to Develop a Wordle Game using TDD in 25 Minutes)
+- [How to Develop a Wordle Game](../../Wordle/How%20to%20Develop%20a%20Wordle%20Game%20using%20TDD%20in%2025%20Minutes/readme.md)
 
 - [Object Reification](https://en.wikipedia.org/wiki/Reification_(computer_science))
 
@@ -159,10 +159,10 @@ Photo by [Brett Jordan](https://unsplash.com/@brett_jordan) on [Unsplash](https:
 
 _Mary Shaw_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

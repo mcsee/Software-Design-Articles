@@ -107,7 +107,7 @@ We have the axiomatic definition presented in this article.
 
 We will infer **principles**, **heuristics**, and **rules** to build excellent software models.
 
-[The One and Only Software Design Principle](Theory\The One and Only Software Design Principle)
+[The One and Only Software Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 # Acknowledgements
 
@@ -117,8 +117,8 @@ These concepts are based on the thoughts of David West, M√°ximo Prieto and Hern√
 
 Part of the goal of this series of articles is to generate spaces for debate and discussion on software design.
 
-[Object Design Checklist](Theory\Object Design Checklist)
+[Object Design Checklist](../../Theory/Object%20Design%20Checklist/readme.md)
 
 We look forward to comments and suggestions on this article.
 
-This article is published at the same time in Spanish [here](Theory\What is (wrong with) software).
+This article is published at the same time in Spanish [here](../../Theory/What%20is%20(wrong%20with)%20software/readme.md).

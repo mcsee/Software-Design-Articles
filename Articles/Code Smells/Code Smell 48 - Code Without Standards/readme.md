@@ -121,7 +121,7 @@ public class Account {
 
 Linters and IDEs should test coding standards before a merge request is approved.
 
-We can add our own [naming conventions](Theory\What exactly is a name — Part I The Quest) related to Objects, Classes, Interfaces, Modules etc.
+We can add our own [naming conventions](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md) related to Objects, Classes, Interfaces, Modules etc.
 
 # Examples
 
@@ -141,13 +141,13 @@ Such standards are helpful because they make things clear and deterministic for 
 
 # Relations
 
-[Code Smell 06 - Too Clever Programmer](Code Smells\Code Smell 06 - Too Clever Programmer)
+[Code Smell 06 - Too Clever Programmer](../../Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
-[Code Smell 98 - Speling Mistakes](Code Smells\Code Smell 98 - Speling Mistakes)
+[Code Smell 98 - Speling Mistakes](../../Code%20Smells/Code%20Smell%2098%20-%20Speling%20Mistakes/readme.md)
 
 # More info
 
-[What exactly is a name — Part I The Quest](Theory\What exactly is a name — Part I The Quest)
+[What exactly is a name — Part I The Quest](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
 
 # Credits
 
@@ -161,10 +161,10 @@ _Andrew S. Tannenbaum_
  
 * * *
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

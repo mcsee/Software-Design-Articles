@@ -16,7 +16,7 @@
 
 - Premature Optimization
 
-[Code Smell 20 - Premature Optimization](Code Smells\Code Smell 20 - Premature Optimization)
+[Code Smell 20 - Premature Optimization](../../Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
 # Solutions
 
@@ -124,13 +124,13 @@ This is an historical mistake already acknowledged by the community. Nevertheles
 
 # Relations
 
-[Code Smell 06 - Too Clever Programmer](Code Smells\Code Smell 06 - Too Clever Programmer)
+[Code Smell 06 - Too Clever Programmer](../../Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
-[Code Smell 25 - Pattern Abusers](Code Smells\Code Smell 25 - Pattern Abusers)
+[Code Smell 25 - Pattern Abusers](../../Code%20Smells/Code%20Smell%2025%20-%20Pattern%20Abusers/readme.md)
 
 # More info
 
-[Singleton - The root of all evil](Theory\Singleton - The root of all evil)
+[Singleton - The root of all evil](../../Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
 
 # Credits
 
@@ -142,10 +142,10 @@ Photo by [Maria Teneva](https://unsplash.com/@miteneva) on [Unsplash](https://un
 
 _Eric Evans_
 
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

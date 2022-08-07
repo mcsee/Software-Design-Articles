@@ -74,15 +74,15 @@ Flags are widespread on production code. We should restrict their usage and use 
  
 # Relations
 
-[Code Smell 51 - Double Negatives](Code Smells\Code Smell 51 - Double Negatives)
+[Code Smell 51 - Double Negatives](../../Code%20Smells/Code%20Smell%2051%20-%20Double%20Negatives/readme.md)
 
-[Code Smell 07 - Boolean Variables](Code Smells\Code Smell 07 - Boolean Variables)
+[Code Smell 07 - Boolean Variables](../../Code%20Smells/Code%20Smell%2007%20-%20Boolean%20Variables/readme.md)
 
 # More Info
 
 %[https://en.wikipedia.org/wiki/Boolean_flag]
 
-[What exactly is a name — Part II Rehab](Theory\What exactly is a name — Part II Rehab)
+[What exactly is a name — Part II Rehab](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
 
 * * *
 
@@ -92,10 +92,10 @@ _Henry Spencer_
 
 * * *
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

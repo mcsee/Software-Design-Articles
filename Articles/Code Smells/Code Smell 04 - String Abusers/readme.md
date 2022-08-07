@@ -21,7 +21,7 @@
 
 3) Go back to Perl :) 
 
-4) Find [Bijection](Theory\The One and Only Software Design Principle) problems between real objects and the strings.
+4) Find [Bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) problems between real objects and the strings.
 
 # Examples
 
@@ -88,4 +88,4 @@ Photo by [Nathaniel Shuman](https://unsplash.com/@nshuman1291) on [Unsplash](htt
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

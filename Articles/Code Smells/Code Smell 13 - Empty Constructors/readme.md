@@ -17,7 +17,7 @@ Incomplete objects cause lots of issues.*
 
 - Setters
 
-[Nude Models - Part I: Setters](Theory\Nude Models - Part I Setters)
+[Nude Models - Part I: Setters](../../Theory/Nude%20Models - Part%20I Setters/readme.md)
 
 # Solutions
 
@@ -25,7 +25,7 @@ Incomplete objects cause lots of issues.*
 
 2. Create objects with their immutable essence.
 
-[The Evil Power of Mutants](Theory\The Evil Power of Mutants)
+[The Evil Power of Mutants](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 # Examples
 
@@ -67,9 +67,9 @@ Any linter can warn this (possible) situation.
 
 https://codexposed.hashnode.dev/constructors-demystified
 
-[The Evil Power of Mutants](Theory\The Evil Power of Mutants)
+[The Evil Power of Mutants](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
-[Code Smell 10 - Too Many Arguments](Code Smells\Code Smell 10 - Too Many Arguments)
+[Code Smell 10 - Too Many Arguments](../../Code%20Smells/Code%20Smell%2010%20-%20Too%20Many%20Arguments/readme.md)
 
 # Tags
 
@@ -99,10 +99,10 @@ Photo by Brett Jordan in Pexels
 
 _Joel Spolski_
 
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * * 
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

@@ -16,15 +16,15 @@
 
 - Difficulty to hop among languages.
 
-- [IFs](Theory\How to Get Rid of Annoying IFs Forever)
+- [IFs](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
 # Solutions
 
 1. Be explicit.
 
-2. Work with booleans for boolean conditions. Not integers, not [nulls](Theory\Null - The Billion Dollar Mistake), not strings, not lists. Just booleans.
+2. Work with booleans for boolean conditions. Not integers, not [nulls](../../Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md), not strings, not lists. Just booleans.
 
-3. [Fail fast](Theory\Fail Fast)
+3. [Fail fast](../../Theory/Fail%20Fast/readme.md)
 
 # Sample Code
 
@@ -92,13 +92,13 @@ We should always be as **explicit** as possible.
 
 # Relations
 
-[Code Smell 06 - Too Clever Programmer](Code Smells\Code Smell 06 - Too Clever Programmer)
+[Code Smell 06 - Too Clever Programmer](../../Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
-[Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](Code Smells\Code Smell 69 - Big Bang (JavaScript Ridiculous Castings))
+[Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](../../Code%20Smells/Code%20Smell%2069%20-%20Big%20Bang%20(JavaScript%20Ridiculous%20Castings)/readme.md)
 
 # More Info
 
-[Fail Fast](Theory\Fail Fast)
+[Fail Fast](../../Theory/Fail%20Fast/readme.md)
 
 * * *
 
@@ -106,10 +106,10 @@ We should always be as **explicit** as possible.
 
 _Robert Martin_
 
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
   
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

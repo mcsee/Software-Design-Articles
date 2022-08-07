@@ -10,7 +10,7 @@
 
 - Readability
 
-- [Bijection](Theory\The One and Only Software Design Principle) and [MAPPER](Theory\What is (wrong with) software) violations
+- [Bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) and [MAPPER](../../Theory/What%20is%20(wrong%20with)%20software/readme.md) violations
 
 - Premature Optimization
 
@@ -91,9 +91,9 @@ We need to avoid programming languages designed for premature optimization and f
 
 # Relations
 
-[Code Smell 06 - Too Clever Programmer](Code Smells\Code Smell 06 - Too Clever Programmer)
+[Code Smell 06 - Too Clever Programmer](../../Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
-[Code Smell 20 - Premature Optimization](Code Smells\Code Smell 20 - Premature Optimization)
+[Code Smell 20 - Premature Optimization](../../Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
 # More Info
 
@@ -109,10 +109,10 @@ Photo by [Priscilla Du Preez](https://unsplash.com/@priscilladupreez) on [Unspla
 
 _Kent Beck_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

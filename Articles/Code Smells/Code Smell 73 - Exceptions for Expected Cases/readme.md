@@ -58,9 +58,9 @@ The boundary between correct usage and wrong usage is blur like so many design p
 
 # Relations
 
-[Code Smell 72 - Return Codes](Code Smells\Code Smell 72 - Return Codes)
+[Code Smell 72 - Return Codes](../../Code%20Smells/Code%20Smell%2072%20-%20Return%20Codes/readme.md)
 
-[Code Smell 26 - Exceptions Polluting](Code Smells\Code Smell 26 - Exceptions Polluting)
+[Code Smell 26 - Exceptions Polluting](../../Code%20Smells/Code%20Smell%2026%20-%20Exceptions%20Polluting/readme.md)
 
 # More info
 
@@ -83,10 +83,10 @@ Photo by [Greg Rosenke](https://unsplash.com/@greg_rosenke) on [Unsplash](https:
 
 _Richard Pattis_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

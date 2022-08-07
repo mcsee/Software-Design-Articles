@@ -68,11 +68,11 @@ You should write production code so future software developers (even you) should
 
 # Relations
 
-[Code Smell 38 - Abstract Names](Code Smells\Code Smell 38 - Abstract Names)
+[Code Smell 38 - Abstract Names](../../Code%20Smells/Code%20Smell%2038%20-%20Abstract%20Names/readme.md)
 
 # More Info
 
-- [What is in a name](Theory\What exactly is a name — Part I The Quest)
+- [What is in a name](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
 
 # Credits
 
@@ -84,10 +84,10 @@ Photo by [Stewart Munro](https://unsplash.com/@stewartmunro) on [Unsplash](https
 
 _Linus Torvalds_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

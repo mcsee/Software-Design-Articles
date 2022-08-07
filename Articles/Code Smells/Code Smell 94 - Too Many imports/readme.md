@@ -82,11 +82,11 @@ We need to think about dependencies when building our solutions to minimize Ripp
 
 # Relations
 
-[Code Smell 61 - Coupling to Classes](Code Smells\Code Smell 61 - Coupling to Classes)
+[Code Smell 61 - Coupling to Classes](../../Code%20Smells/Code%20Smell%2061%20-%20Coupling%20to%20Classes/readme.md)
 
 # More Info
 
-- [Coupling: The one and only software design problem](Theory\Coupling - The one and only software design problem)
+- [Coupling: The one and only software design problem](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 - [Namespaces on Wikipedia](https://en.wikipedia.org/wiki/Namespace)
 
@@ -102,10 +102,10 @@ Photo by [Zdeněk Macháček](https://unsplash.com/@zmachacek) on [Unsplash](htt
 
 _Alan Perlis_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

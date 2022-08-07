@@ -16,7 +16,7 @@
 
 # Solutions
 
-1. [Remove setters](Refactorings\Refactoring 001 - Remove Setters)
+1. [Remove setters](../../Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
 
 2. Remove getters
 
@@ -87,11 +87,11 @@ Double encapsulation was a trendy idea to protect accidental implementation, but
 
 # Relations
 
-[Code Smell 37 - Protected Attributes](Code Smells\Code Smell 37 - Protected Attributes) 
+[Code Smell 37 - Protected Attributes](../../Code%20Smells/Code%20Smell%2037%20-%20Protected%20Attributes/readme.md) 
 
-[Code Smell 28 - Setters](Code Smells\Code Smell 28 - Setters)
+[Code Smell 28 - Setters](../../Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
 
-[Code Smell 68 - Getters](Code Smells\Code Smell 68 - Getters)
+[Code Smell 68 - Getters](../../Code%20Smells/Code%20Smell%2068%20-%20Getters/readme.md)
 
 # More Info
 
@@ -111,10 +111,10 @@ Photo by [Ray Hennessy](https://unsplash.com/@rayhennessy) on [Unsplash](https:/
 
 _Erich Gamma_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

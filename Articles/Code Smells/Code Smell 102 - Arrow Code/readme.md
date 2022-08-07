@@ -100,11 +100,11 @@ Refactoring this problem is easy.
 
 # Relations
 
-[Code Smell 78 - Callback Hell](Code Smells\Code Smell 78 - Callback Hell)
+[Code Smell 78 - Callback Hell](../../Code%20Smells/Code%20Smell%2078%20-%20Callback%20Hell/readme.md)
 
-[Code Smell 03 - Functions Are Too Long](Code Smells\Code Smell 03 - Functions Are Too Long)
+[Code Smell 03 - Functions Are Too Long](../../Code%20Smells/Code%20Smell%2003%20-%20Functions%20Are%20Too%20Long/readme.md)
 
-[Code Smell 36 - Switch/case/elseif/else/if statements](Code Smells\Code Smell 36 - Switch case elseif else if statements)
+[Code Smell 36 - Switch/case/elseif/else/if statements](../../Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md)
 
 # More Info
 
@@ -120,10 +120,10 @@ Refactoring this problem is easy.
 
 _Pamela Zave_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

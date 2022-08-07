@@ -101,11 +101,11 @@ Reusing variables is a non-contextual copy and paste hint.
 
 # Relations
 
-[Code Smell 03 - Functions Are Too Long](Code Smells\Code Smell 03 - Functions Are Too Long)
+[Code Smell 03 - Functions Are Too Long](../../Code%20Smells/Code%20Smell%2003%20-%20Functions%20Are%20Too%20Long/readme.md)
 
 # More Info
 
-- [The Evil power of Mutants](Theory\The Evil Power of Mutants)
+- [The Evil power of Mutants](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 - [Stack Exchange](https://softwareengineering.stackexchange.com/questions/115520/should-i-reuse-variables)
 
@@ -123,10 +123,10 @@ Photo by [Robby McCullough](https://unsplash.com/@mybbor) on [Unsplash](https://
 
 _Chris Pine_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

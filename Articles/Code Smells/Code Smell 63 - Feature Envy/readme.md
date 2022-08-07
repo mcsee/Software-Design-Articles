@@ -18,7 +18,7 @@
 
 - Bijection Fault
 
-[The One and Only Software Design Principle](Theory\The One and Only Software Design Principle)
+[The One and Only Software Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 # Solutions
 
@@ -79,13 +79,13 @@ Some linters can detect a sequential pattern of collaborations with another obje
 
 # Conclusion
 
-- We should assign responsibilities according to real object [mappers](Theory\What is (wrong with) software) and avoid abusing other objects protocol.
+- We should assign responsibilities according to real object [mappers](../../Theory/What%20is%20(wrong%20with)%20software/readme.md) and avoid abusing other objects protocol.
  
 # Relations
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
+[Code Smell 01 - Anemic Models](../../Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
-[Code Smell 89 - Math Feature Envy](Code Smells\Code Smell 89 - Math Feature Envy)
+[Code Smell 89 - Math Feature Envy](../../Code%20Smells/Code%20Smell%2089%20-%20Math%20Feature%20Envy/readme.md)
 
 # More info
 
@@ -108,10 +108,10 @@ _Rebecca Wirfs-Brock_
  
 * * *
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

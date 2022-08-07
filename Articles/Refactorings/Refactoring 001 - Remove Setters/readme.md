@@ -10,15 +10,15 @@
 
 - Mutability
 
-- setXXX() violates good naming policies since it does not exist on the [MAPPER](Theory\What is (wrong with) software)
+- setXXX() violates good naming policies since it does not exist on the [MAPPER](../../Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
-- Accidental [coupling](Theory\Coupling - The one and only software design problem)
+- Accidental [coupling](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 # Related Code Smells
 
-[Code Smell 28 - Setters](Code Smells\Code Smell 28 - Setters)
+[Code Smell 28 - Setters](../../Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
+[Code Smell 01 - Anemic Models](../../Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
 # Steps
 

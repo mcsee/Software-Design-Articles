@@ -20,7 +20,7 @@
 
 3. Separate accidental concerns: Move Persistence, Formatting, Serialization to special objects.
 
-4. Keep essential protocol using [bijection](Theory\The One and Only Software Design Principle).
+4. Keep essential protocol using [bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
 
 # Examples
 
@@ -125,10 +125,10 @@ Photo by [Robert Bye](https://unsplash.com/@robertbye) on [Unsplash](https://uns
 
 Alan Kay
 
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

@@ -50,13 +50,13 @@ Below you will find many resources and tools, and my method and tips for writing
 
 - I use Trello, Inoreader, Pocket, and Obsidian.
 
-- I Use [The Pomodoro technique](Productivity\16 Simple Tips to Boost Your Productivity x10) to focus when writing. 🍅
+- I Use [The Pomodoro technique](../../Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md) to focus when writing. 🍅
 
 - I avoid perfection. I publish them when they are *ready*. 
 
 - Then I make corrections following other people's comments. Even after months.
 
-- I [Garden](Blogging\Today I Learned the Concept of Gardening) my articles.
+- I [Garden](../../Blogging/Today%20I%20Learned%20the%20Concept%20of%20Gardening/readme.md) my articles.
 
 # Dealing with Criticism
 
@@ -96,7 +96,7 @@ Below you will find many resources and tools, and my method and tips for writing
 
 - IMHO, a 6 lines method is too long
 
-- You can always break them using [refactorings](Refactorings\Refactoring 002 - Extract Method).  🛠️
+- You can always break them using [refactorings](../../Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md).  🛠️
 
 - You don't need to see the big picture and the details at the same time. 🌳
 
@@ -116,7 +116,7 @@ Below you will find many resources and tools, and my method and tips for writing
 
 - I am not an expert in NONE of these languages.
 
-- Languages are accidental, and Software design is [essential](Theory\No Silver Bullet).
+- Languages are accidental, and Software design is [essential](../../Theory/No%20Silver%20Bullet/readme.md).
 
 ### Why do you rotate the programming languages?
 
@@ -158,11 +158,11 @@ No language is perfect and that is my point.
 
 - If I need to sort 20 elements in a collection, I will always choose bubble sort because it is easier to read.
 
-> [Premature optimization](Code Smells\Code Smell 20 - Premature Optimization) is the root of all evil. 😈
+> [Premature optimization](../../Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md) is the root of all evil. 😈
 
 ## Anti-Patterns
 
-### [Helpers](Code Smells\Code Smell 22 - Helpers), [DTOs](Code Smells\Code Smell 40 - DTOs), [Singletons](Code Smells\Code Smell 32 - Singletons), [Nulls](Code Smells\Code Smell 12 - Null), [Setters](Code Smells\Code Smell 28 - Setters), [Metaprogramming](Theory\Laziness I - Metaprogramming), [Castings](Code Smells\Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)), [Comments](Code Smells\Code Smell 05 - Comment Abusers) are standard. 🙈
+### [Helpers](../../Code%20Smells/Code%20Smell%2022%20-%20Helpers/readme.md), [DTOs](../../Code%20Smells/Code%20Smell%2040%20-%20DTOs/readme.md), [Singletons](../../Code%20Smells/Code%20Smell%2032%20-%20Singletons/readme.md), [Nulls](../../Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md), [Setters](../../Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md), [Metaprogramming](../../Theory/Laziness%20I%20-%20Metaprogramming/readme.md), [Castings](../../Code%20Smells/Code%20Smell%2069%20-%20Big%20Bang%20(JavaScript%20Ridiculous%20Castings)/readme.md), [Comments](../../Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md) are standard. 🙈
 
 - I write a lot on these anti-patterns with the reasons why I think we should avoid them.
 
@@ -174,7 +174,7 @@ No language is perfect and that is my point.
 
 ### Your solutions have too many indirections
 
-- [Coupling](Theory\Coupling - The one and only software design problem) is our worst enemy. 🙅
+- [Coupling](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md) is our worst enemy. 🙅
 
 - We need to avoid direct relationships.
 
@@ -186,4 +186,4 @@ No language is perfect and that is my point.
 
 - There is just one rule
 
--- Always follow the [bijection](Theory\The One and Only Software Design Principle) 🔀
+-- Always follow the [bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) 🔀

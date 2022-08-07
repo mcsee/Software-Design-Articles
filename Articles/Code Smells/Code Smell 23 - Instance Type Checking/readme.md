@@ -8,21 +8,21 @@
 
 # Problems
 
-- [Coupling](Theory\Coupling - The one and only software design problem)
+- [Coupling](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 - Metamodel interference
 
-- [IFs](Theory\How to Get Rid of Annoying IFs Forever)
+- [IFs](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
 # Solutions
 
 1. Avoid *kind*, *isKindOf*, *instance*, *getClass()*, *typeOf*, etc..
 
-2. Don't use Reflection and [Metaprogramming](Theory\Laziness I - Metaprogramming) for Domain Objects.
+2. Don't use Reflection and [Metaprogramming](../../Theory/Laziness%20I%20-%20Metaprogramming/readme.md) for Domain Objects.
 
-3. Replace [*IFs*](Theory\How to Get Rid of Annoying IFs Forever) with polymorphism. 
+3. Replace [*IFs*](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md) with polymorphism. 
 
-4. Avoid checking for *'undefined'*. Use [complete objects](Theory\Nude Models - Part I Setters), avoid [nulls](Code Smells\Code Smell 12 - Null) and setters, favor [immutability](Theory\The Evil Power of Mutants) and you will never have undefined and ifs.
+4. Avoid checking for *'undefined'*. Use [complete objects](../../Theory/Nude%20Models - Part%20I Setters/readme.md), avoid [nulls](../../Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md) and setters, favor [immutability](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md) and you will never have undefined and ifs.
 
 # Sample Code
 
@@ -112,17 +112,17 @@ Since type checking methods are well known it is very easy to set up a code poli
 
 # Conclusion
 
-Testing for a class type [couples](Theory\Coupling - The one and only software design problem) the objects with [accidental decisions](Theory\No Silver Bullet) and violates [bijection](Theory\The One and Only Software Design Principle) since no such control exists on real world. It is a smell our models are not good enough.
+Testing for a class type [couples](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md) the objects with [accidental decisions](../../Theory/No%20Silver%20Bullet/readme.md) and violates [bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) since no such control exists on real world. It is a smell our models are not good enough.
 
 # Relations
 
-[Code Smell 12 - Null](Code Smells\Code Smell 12 - Null)
+[Code Smell 12 - Null](../../Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
 # More Info
 
-[How to Get Rid of Annoying IFs Forever](Theory\How to Get Rid of Annoying IFs Forever)
+[How to Get Rid of Annoying IFs Forever](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
-[Laziness I - Metaprogramming](Theory\Laziness I - Metaprogramming)
+[Laziness I - Metaprogramming](../../Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
 
 # Credits
 
@@ -132,7 +132,7 @@ Photo by [Remy Gieling](https://unsplash.com/@gieling) on [Unsplash](https://uns
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
 
 
 

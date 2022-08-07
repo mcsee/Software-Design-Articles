@@ -83,7 +83,7 @@ It happens a lot in the industry and real-world software
 
 # Relations
 
-[Code Smell 53 - Explicit Iteration](Code Smells\Code Smell 53 - Explicit Iteration)
+[Code Smell 53 - Explicit Iteration](../../Code%20Smells/Code%20Smell%2053%20-%20Explicit%20Iteration/readme.md)
 
 # More Info
 
@@ -99,10 +99,10 @@ Bugs are bugs. You write code with bugs because you do. If it’s a safe languag
 
 _Ken Thompson_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

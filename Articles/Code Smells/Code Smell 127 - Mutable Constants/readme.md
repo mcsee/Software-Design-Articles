@@ -8,7 +8,7 @@
 
 # Problems
 
-- [Mutability](Theory\The Evil Power of Mutants)
+- [Mutability](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 - The Least Surprise Principle violation
 
@@ -16,7 +16,7 @@
 
 # Solutions
 
-1. Enforce [mutability](Theory\The Evil Power of Mutants)
+1. Enforce [mutability](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 2. Avoid constants. They are hard to mock in tests.
 
@@ -112,15 +112,15 @@ We need to enforce it with the right tools.
 
 # Relations
 
-[Code Smell 86 - Mutable Const Arrays](Code Smells\Code Smell 86 - Mutable Const Arrays)
+[Code Smell 86 - Mutable Const Arrays](../../Code%20Smells/Code%20Smell%2086%20-%20Mutable%20Const%20Arrays/readme.md)
 
-[Code Smell 107 - Variables Reuse](Code Smells\Code Smell 107 - Variables Reuse)
+[Code Smell 107 - Variables Reuse](../../Code%20Smells/Code%20Smell%20107%20-%20Variables%20Reuse/readme.md)
 
-[Code Smell 02 - Constants and Magic Numbers](Code Smells\Code Smell  02 - Constants and Magic Numbers)
+[Code Smell 02 - Constants and Magic Numbers](../../Code%20Smells/Code%20Smell%20%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
 
 # More Info
 
-- [The Evil Power of Mutants](Theory\The Evil Power of Mutants)
+- [The Evil Power of Mutants](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 # Credits
 
@@ -134,10 +134,10 @@ Photo by [Sangharsh Lohakare](https://unsplash.com/@sangharsh_l) on [Unsplash](h
 
 _Eric Gamma_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

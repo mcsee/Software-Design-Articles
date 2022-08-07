@@ -14,7 +14,7 @@
 
 # Solutions
 
-1. [Extract Method](Refactorings\Refactoring 002 - Extract Method)
+1. [Extract Method](../../Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
 2. Remove unused variables
 
@@ -117,21 +117,21 @@ This warning also hints us to break and scope our variables.
 
 # Conclusion
 
-[Extract Method](Refactorings\Refactoring 002 - Extract Method) is our best friend. 
+[Extract Method](../../Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md) is our best friend. 
 
 We should use it a lot.
 
 # Relations
 
-[Code Smell 03 - Functions Are Too Long](Code Smells\Code Smell 03 - Functions Are Too Long)
+[Code Smell 03 - Functions Are Too Long](../../Code%20Smells/Code%20Smell%2003%20-%20Functions%20Are%20Too%20Long/readme.md)
 
-[Code Smell 107 - Variables Reuse](Code Smells\Code Smell 107 - Variables Reuse)
+[Code Smell 107 - Variables Reuse](../../Code%20Smells/Code%20Smell%20107%20-%20Variables%20Reuse/readme.md)
 
-[Code Smell 62 - Flag Variables](Code Smells\Code Smell 62 - Flag Variables)
+[Code Smell 62 - Flag Variables](../../Code%20Smells/Code%20Smell%2062%20-%20Flag%20Variables/readme.md)
 
 # Refactorings
  
-[Refactoring 002 - Extract Method](Refactorings\Refactoring 002 - Extract Method)
+[Refactoring 002 - Extract Method](../../Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
 # Credits
 
@@ -143,10 +143,10 @@ Photo by [Dustan Woodhouse](https://unsplash.com/@dwoodhouse) on [Unsplash](http
 
 _Martin Fowler_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

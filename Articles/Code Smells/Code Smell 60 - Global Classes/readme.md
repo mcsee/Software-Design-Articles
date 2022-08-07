@@ -88,15 +88,15 @@ We should restrict our classes to small domains and expose just facades to the o
  
 # Relations
 
-[Code Smell 18 - Static Functions](Code Smells\Code Smell 18 - Static Functions)
+[Code Smell 18 - Static Functions](../../Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md)
 
-[Code Smell 17 - Global Functions](Code Smells\Code Smell 17 - Global Functions)
+[Code Smell 17 - Global Functions](../../Code%20Smells/Code%20Smell%2017%20-%20Global%20Functions/readme.md)
 
 # More info
 
-[Singleton - The root of all evil](Theory\Singleton - The root of all evil)
+[Singleton - The root of all evil](../../Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
 
-[Coupling - The one and only software design problem](Theory\Coupling - The one and only software design problem) 
+[Coupling - The one and only software design problem](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md) 
 
 # Credits
 
@@ -110,10 +110,10 @@ _Dave Thomas_
  
 * * *
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

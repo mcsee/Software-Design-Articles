@@ -16,19 +16,19 @@
 
 # Related Code Smells
 
-- [Code Smell 03 - Functions Are Too Long](Code Smells\Code Smell 03 - Functions Are Too Long)
+- [Code Smell 03 - Functions Are Too Long](../../Code%20Smells/Code%20Smell%2003%20-%20Functions%20Are%20Too%20Long/readme.md)
 
-- [Code Smell 05 - Comment Abusers](Code Smells\Code Smell 05 - Comment Abusers)
+- [Code Smell 05 - Comment Abusers](../../Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
 
-- [Code Smell 18 - Static Functions](Code Smells\Code Smell 18 - Static Functions)
+- [Code Smell 18 - Static Functions](../../Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md)
 
-- [Code Smell 22 - Helpers](Code Smells\Code Smell 22 - Helpers)
+- [Code Smell 22 - Helpers](../../Code%20Smells/Code%20Smell%2022%20-%20Helpers/readme.md)
 
-- [Code Smell 74 - Empty Lines](Code Smells\Code Smell 74 - Empty Lines)
+- [Code Smell 74 - Empty Lines](../../Code%20Smells/Code%20Smell%2074%20-%20Empty%20Lines/readme.md)
 
-- [Code Smell 78 - Callback Hell](Code Smells\Code Smell 78 - Callback Hell)
+- [Code Smell 78 - Callback Hell](../../Code%20Smells/Code%20Smell%2078%20-%20Callback%20Hell/readme.md)
 
-- [Code Smell 102 - Arrow Code](Code Smells\Code Smell 102 - Arrow Code)
+- [Code Smell 102 - Arrow Code](../../Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md)
 
 # Steps
 
@@ -106,7 +106,7 @@ Algorithms and functions are more declarative hiding implementative details on e
 
 # Limitations
 
-Does not work well if you use [meta-programming anti-pattern](Theory\Laziness I - Metaprogramming).
+Does not work well if you use [meta-programming anti-pattern](../../Theory/Laziness%20I%20-%20Metaprogramming/readme.md).
 
 # Tags
 

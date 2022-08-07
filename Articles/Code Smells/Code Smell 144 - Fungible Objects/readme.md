@@ -4,11 +4,11 @@
 
 *We have heard a lot about NFTs. Now we master the Fungible concept*
 
-> TL;DR: Respect the [MAPPER](Theory\What is (wrong with) software). Make fungible what is Fungible in real-world and vice-versa.
+> TL;DR: Respect the [MAPPER](../../Theory/What%20is%20(wrong%20with)%20software/readme.md). Make fungible what is Fungible in real-world and vice-versa.
 
 # Problems
 
-- [Bijection](Theory\The One and Only Software Design Principle) Fault
+- [Bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Fault
 
 - Over Design
 
@@ -26,7 +26,7 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/Fungibility)
 
 In software, we can replace fungible objects with others.
 
-When [mapping](Theory\What is (wrong with) software) our objects with real ones, we sometimes forget about the *partial* model and build over design. 
+When [mapping](../../Theory/What%20is%20(wrong%20with)%20software/readme.md) our objects with real ones, we sometimes forget about the *partial* model and build over design. 
 
 
 ![Fungible Model](fungible.drawio.png) 
@@ -89,10 +89,10 @@ Photo by [Andrey Metelev](https://unsplash.com/@metelevan) on [Unsplash](https:/
 
 _Donald Knuth_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

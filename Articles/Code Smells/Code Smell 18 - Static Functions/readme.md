@@ -85,15 +85,15 @@ Therefore, we have a global reference too difficult to decouple.
 
 # Relations
 
-[Singleton - The root of all evil](Theory\Singleton - The root of all evil)
+[Singleton - The root of all evil](../../Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
 
-[Code Smell 22 - Helpers](Code Smells\Code Smell 22 - Helpers)
+[Code Smell 22 - Helpers](../../Code%20Smells/Code%20Smell%2022%20-%20Helpers/readme.md)
 
 # More info
 
 - [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single-responsibility_principle)
 
-[How to Decouple a Legacy System](Theory\How to Decouple a Legacy System)
+[How to Decouple a Legacy System](../../Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 
 # Credits
 
@@ -105,10 +105,10 @@ Photo by [Alex Azabache](https://unsplash.com/@alexazabache) on [Unsplash](https
 
 _John McCarthy_
 
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

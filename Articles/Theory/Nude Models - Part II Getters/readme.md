@@ -8,7 +8,7 @@ _Using objects as data structures is an established practice that generates many
 
 In the first part of this article, we showed the transition from hidden information in data structures towards living objects responsibilities (the essential **what**) hiding the implementation (the accidental **how**).
 
-[Nude Models - Part I: Setters](Theory\Nude Models - Part I Setters)
+[Nude Models - Part I: Setters](../../Theory/Nude%20Models - Part%20I Setters/readme.md)
 
 In this second part, we will show the drawbacks of using _getters_.
 
@@ -19,7 +19,7 @@ Photo by [Dominik Vanyi](https://unsplash.com/@dominik_photography) on [Unsplash
 
 # The name that does not exist in real world (Reprise)
 
-Programmers conventionally use the names of the form **_getAttribute…()_** to expose (and lose control of) a previously private attribute. Due to the same arguments stated on setter’s [article](Theory\Nude Models - Part I Setters), this name cannot be [**mapped**](Theory\What is (wrong with) software) to a real-world equivalent through [**bijection**](Theory\The One and Only Software Design Principle).
+Programmers conventionally use the names of the form **_getAttribute…()_** to expose (and lose control of) a previously private attribute. Due to the same arguments stated on setter’s [article](../../Theory/Nude%20Models - Part%20I Setters/readme.md), this name cannot be [**mapped**](../../Theory/What%20is%20(wrong%20with)%20software/readme.md) to a real-world equivalent through [**bijection**](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
 
 The final conclusion regarding these names is:
 
@@ -63,7 +63,7 @@ This causes the triangle to mutate, generating an inconsistency real world bijec
 
 This defect will be noticed a long time later because it has not been detected in time, thus violating the fail fast principle.
 
-[Fail Fast](Theory\Fail Fast)
+[Fail Fast](../../Theory/Fail%20Fast/readme.md)
 
 > In no case shall such objects expose their collections, thus enforcing [Demeter’s law.](https://en.wikipedia.org/wiki/Law_of_Demeter)
 
@@ -157,7 +157,7 @@ This practice does not generate any benefits. Adds unnecessary indirection, and 
 
 In addition, it hides the **coupling** between an attribute and the direct methods that reference it, avoiding possible refactorings.
 
-[Coupling - The one and only software design problem](Theory\Coupling - The one and only software design problem)
+[Coupling - The one and only software design problem](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 ## Tell, don’t ask
 
@@ -183,11 +183,11 @@ Adding **accidental** complexity with _setters_ and _getters_ implies generating
 
 ## Setters and getters violate anthropomorphism
 
-Let’s go back to our only design rule that asks for a [bijection](Theory\The One and Only Software Design Principle) between the model we are building and the real world and respecting the principle of [Anthropomorphism](https://en.wikipedia.org/wiki/Anthropomorphism) (giving a living entity to each object).
+Let’s go back to our only design rule that asks for a [bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) between the model we are building and the real world and respecting the principle of [Anthropomorphism](https://en.wikipedia.org/wiki/Anthropomorphism) (giving a living entity to each object).
 
-[The One and Only Software Design Principle](Theory\The One and Only Software Design Principle) 
+[The One and Only Software Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) 
 
-In doing so, we will discover that the **responsibilities** we give to objects after they have been returned with a _getter_ do not **map** with the real world violating [bijection](Theory\The One and Only Software Design Principle).
+In doing so, we will discover that the **responsibilities** we give to objects after they have been returned with a _getter_ do not **map** with the real world violating [bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
 
 On this [page](https://www.yegor256.com/2014/09/16/getters-and-setters-are-evil.html#a-ball-and-a-dog) there is an excellent example of disrespected anthropomorphism when using _getters_.
 
@@ -209,7 +209,7 @@ We will always pursue to emulate the behavior of objects like **black boxes**, g
 *   Have no **public** attributes. For practical purposes it is like having _setters_ and _getters_. It is also a _code smell_ of anemic objects.
 *   Have no **public static** attributes. In addition to what is listed above the classes should be stateless and this is a code smell indicating that a class is being used as a global variable.
 
-[Singleton - The root of all evil](Theory\Singleton - The root of all evil)
+[Singleton - The root of all evil](../../Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
 
 ## Transition from a legacy code system
 

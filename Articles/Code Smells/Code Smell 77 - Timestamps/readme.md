@@ -16,13 +16,13 @@
 
 - Packet Disorders.
 
-- Bad [Accidental Implementation](Theory\No Silver Bullet) (Timestamp) for an Essential Problem (Sequencing).
+- Bad [Accidental Implementation](../../Theory/No%20Silver%20Bullet/readme.md) (Timestamp) for an Essential Problem (Sequencing).
 
 # Solutions
 
-1. Use a centralizing sequential stamper. (NO, not a [Singleton](Theory\Singleton - The root of all evil)).
+1. Use a centralizing sequential stamper. (NO, not a [Singleton](../../Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)).
 
-2. If you need to model a sequence, [model a sequence](Theory\The One and Only Software Design Principle).
+2. If you need to model a sequence, [model a sequence](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
 
 # Sample Code
 
@@ -64,7 +64,7 @@ We need to use them just to model... timestamps.
 
 This smell was inspired by recent [Ingenuity software fault](https://www.hebergementwebs.com/transport/the-autonomous-helicopter-mars-named-ingenuity-is-confused-by-a-time-stamp-issue-providing-insightful-lessons-for-self-driving-cars-ai).
 
-If we don't follow our [MAPPER](Theory\The One and Only Software Design Principle) rules and model sequences with time, we will face trouble.
+If we don't follow our [MAPPER](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) rules and model sequences with time, we will face trouble.
 
 Luckily, Ingenuity is a sophisticated Autonomous vehicle and has a robust fail-safe landing software.
 
@@ -74,19 +74,19 @@ This video describes the glitch
 
 # Relations
 
-[Code Smell 39 - new Date()](Code Smells\Code Smell 39 - new Date())
+[Code Smell 39 - new Date()](../../Code%20Smells/Code%20Smell%2039%20-%20new%20Date()/readme.md)
 
-[Code Smell 32 - Singletons](Code Smells\Code Smell 32 - Singletons)
+[Code Smell 32 - Singletons](../../Code%20Smells/Code%20Smell%2032%20-%20Singletons/readme.md)
 
-[Code Smell 71 - Magic Floats Disguised as Decimals](Code Smells\Code Smell 71 - Magic Floats Disguised as Decimals)
+[Code Smell 71 - Magic Floats Disguised as Decimals](../../Code%20Smells/Code%20Smell%2071%20-%20Magic%20Floats%20Disguised%20as%20Decimals/readme.md)
 
 # More info
 
 - [Timestamp proposed changes](https://ieeexplore.ieee.org/document/805196)
 
-- [Build a Mapper](Theory\The One and Only Software Design Principle)
+- [Build a Mapper](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
-- [What is wrong with software](Theory\What is (wrong with) software)
+- [What is wrong with software](../../Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
 * * *
 
@@ -94,10 +94,10 @@ This video describes the glitch
 
 _Jon Bentley_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

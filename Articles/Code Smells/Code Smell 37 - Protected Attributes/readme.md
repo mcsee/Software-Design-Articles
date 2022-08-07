@@ -6,7 +6,7 @@
 
 # Problems
 
-- [Sub classification](Code Smells\Code Smell  11 - Subclassification for Code Reuse) for code reuse purposes.
+- [Sub classification](../../Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md) for code reuse purposes.
 
 - [Liskov substitution](https://en.wikipedia.org/wiki/Liskov_substitution_principle) violation ([SOLID](https://en.wikipedia.org/wiki/SOLID) principle).
 
@@ -119,7 +119,7 @@ Protected attributes are yet another tool we should use carefully. Every decisio
 
 # Relations
 
-[Code Smell 11 - Subclassification for Code Reuse](Code Smells\Code Smell  11 - Subclassification for Code Reuse)
+[Code Smell 11 - Subclassification for Code Reuse](../../Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
 
 # More Info
 
@@ -135,10 +135,10 @@ Photo by [Jonathan Farber](https://unsplash.com/@farber) on [Unsplash](https://u
 
 _Steve Klabnik_
 
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

@@ -20,7 +20,7 @@
 
 1. Move the math formula to the class
 
-2. Search for [real-world abstractions](Theory\The One and Only Software Design Principle)
+2. Search for [real-world abstractions](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 # Sample Code
 
@@ -67,11 +67,11 @@ This is a very basic smell. If we are manipulating another object characteristic
 
 # Relations
 
-[Code Smell 63 - Feature Envy](Code Smells\Code Smell 63 - Feature Envy)
+[Code Smell 63 - Feature Envy](../../Code%20Smells/Code%20Smell%2063%20-%20Feature%20Envy/readme.md)
 
 # More Info
 
-- [The one and only one software principle](Theory\The One and Only Software Design Principle)
+- [The one and only one software principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 # Credits
 
@@ -83,10 +83,10 @@ Photo by [Michal Matlon](https://unsplash.com/@michalmatlon) on [Unsplash](https
 
 _Michael R. Fellows_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

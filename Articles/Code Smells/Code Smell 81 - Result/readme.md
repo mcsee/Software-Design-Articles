@@ -12,7 +12,7 @@
 
 # Solutions
 
-1. [Rename](Refactorings\Refactoring 006 - Rename Result Variables) *result*.
+1. [Rename](../../Refactorings/Refactoring%20006%20-%20Rename%20Result%20Variables/readme.md) *result*.
 
 2. If you don't know how to name it, just name the variable with the same name as the last function call.
 
@@ -20,7 +20,7 @@
 
 # Refactorings
 
-[Refactoring 006 - Rename Result Variables](Refactorings\Refactoring 006 - Rename Result Variables)
+[Refactoring 006 - Rename Result Variables](../../Refactorings/Refactoring%20006%20-%20Rename%20Result%20Variables/readme.md)
 
 # Sample Code
 
@@ -74,11 +74,11 @@ Refactoring is cheap and safe.
 
 # Relations
 
-[Code Smell 79 - TheResult](Code Smells\Code Smell 79 - TheResult)
+[Code Smell 79 - TheResult](../../Code%20Smells/Code%20Smell%2079%20-%20TheResult/readme.md)
 
 # More info
 
-- [What is in a name? Part I: Rehab](Theory\What exactly is a name — Part II Rehab).
+- [What is in a name? Part I: Rehab](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md).
 
 # Credits
 
@@ -90,10 +90,10 @@ Photo by [KMA](https://unsplash.com/@kmaimg) on [Unsplash](https://unsplash.com/
 
 _Cory House_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

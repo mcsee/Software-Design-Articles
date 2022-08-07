@@ -17,7 +17,7 @@ Multiple semantics lead to coupling and errors.*
 
 - Null is not polymorphic with real objects. Hence, *Null Pointer Exception*
 
-- Null does not exist on real world. Thus, it violates [Bijection Principle](Theory\The One and Only Software Design Principle)
+- Null does not exist on real world. Thus, it violates [Bijection Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 # Solutions
 
@@ -27,7 +27,7 @@ Multiple semantics lead to coupling and errors.*
 
 - Use [Optionals](https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html).
 
-[Null: The Billion Dollar Mistake](Theory\Null - The Billion Dollar Mistake)
+[Null: The Billion Dollar Mistake](../../Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
 # Exceptions
 
@@ -138,7 +138,7 @@ Most Linters can show null usages and warn us.
 
 # More info
 
-- [Null: The Billion-Dollar Mistake](Theory\Null - The Billion Dollar Mistake)
+- [Null: The Billion-Dollar Mistake](../../Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
 # Credits
 
@@ -150,10 +150,10 @@ Photo by [Kurt Cotoaga](https://unsplash.com/@kydroon) on [Unsplash](https://uns
 
 _Tony Hoare_
 
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

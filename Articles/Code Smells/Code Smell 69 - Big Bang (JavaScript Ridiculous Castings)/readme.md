@@ -22,13 +22,13 @@
 
 2. Don't mix Booleans with non-booleans.
 
-3. [Fail Fast](Theory\Fail Fast)
+3. [Fail Fast](../../Theory/Fail%20Fast/readme.md)
 
 4. Be Smarter than your compiler.
 
 5. Stay loyal to the bijection.
 
-[The One and Only Software Design Principle](Theory\The One and Only Software Design Principle)
+[The One and Only Software Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 # Sample Code
 
@@ -106,9 +106,9 @@ We should be very strict and keep booleans (and their behavior), far away from n
 
 # Relations
 
-[Code Smell 24 - Boolean Coercions](Code Smells\Code Smell 24 - Boolean Coercions)
+[Code Smell 24 - Boolean Coercions](../../Code%20Smells/Code%20Smell%2024%20-%20Boolean%20Coercions/readme.md)
 
-[Code Smell 06 - Too Clever Programmer](Code Smells\Code Smell 06 - Too Clever Programmer)
+[Code Smell 06 - Too Clever Programmer](../../Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
 # More info
 
@@ -132,10 +132,10 @@ _Alan J Perlis_
  
 * * *
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

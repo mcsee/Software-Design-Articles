@@ -8,7 +8,7 @@ TL;DR Don't trust numbers on immature languages like JavaScript.
 
 - [Principle of Least Surprise](https://en.wikipedia.org/wiki/Principle_of_least_astonishment) Violation
 
-- [Accidental Complexity](Theory\No Silver Bullet)
+- [Accidental Complexity](../../Theory/No%20Silver%20Bullet/readme.md)
 
 - Wrong decimal representations.
 
@@ -16,7 +16,7 @@ TL;DR Don't trust numbers on immature languages like JavaScript.
 
 1. Choose Mature Languages.
 
-2. Represent [Decimals with Decimals](Theory\The One and Only Software Design Principle).
+2. Represent [Decimals with Decimals](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
 
 # Sample Code
 
@@ -74,7 +74,7 @@ JavaScript is 30 years younger, and it has the same immaturity problems.
 
 # Relations
 
-[Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](Code Smells\Code Smell 69 - Big Bang (JavaScript Ridiculous Castings))
+[Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](../../Code%20Smells/Code%20Smell%2069%20-%20Big%20Bang%20(JavaScript%20Ridiculous%20Castings)/readme.md)
 
 # More info
 
@@ -104,10 +104,10 @@ _Richard Hamming_
  
 * * *
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

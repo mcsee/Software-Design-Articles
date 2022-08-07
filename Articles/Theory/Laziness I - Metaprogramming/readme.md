@@ -22,7 +22,7 @@ There are states of excitement that all programmers go through. What state are y
 
 1. We learn to avoid them.
 
-[No Silver Bullet](Theory\No Silver Bullet)
+[No Silver Bullet](../../Theory/No%20Silver%20Bullet/readme.md)
 
 ## Magic is at hand
 
@@ -32,7 +32,7 @@ This extra layer allows us to reason and think about the relationship between th
 
 In doing so we break the bijection we must use to observe reality since in the real world there are no **models** or **meta-models**, only **business entities** that we are speaking about.
 
-[The One and Only Software Design Principle](Theory\The One and Only Software Design Principle)
+[The One and Only Software Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 When we are attacking a business problem in real life, it is very difficult for us to justify references to meta entities because such meta entities **do not exist**, which means that we do not remain faithful to the only rule of a bijection between our objects and reality.
 
@@ -52,7 +52,7 @@ This rule is still true and it is something that we should try to emphasize on o
 
 As an extension implementation, the mechanism seems very robust and very good at first glance, but it generates the only problem we can have in software development:
 
-[Coupling - The one and only software design problem](Theory\Coupling - The one and only software design problem)
+[Coupling - The one and only software design problem](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 By linking the definition of **where to get the possible cases**, an innocent reference to a class and its subclasses appears, which is the part that could dynamically change **(The extension)**.
 
@@ -214,8 +214,8 @@ The search for such abstractions takes a much deeper understanding of the domain
 
 Part of the objective of this series of articles is to generate spaces for debate and discussion on software design.
 
-[Object Design Checklist](Theory\Object Design Checklist)
+[Object Design Checklist](../../Theory/Object%20Design%20Checklist/readme.md)
 
 We look forward to comments and suggestions on this article.
 
-This article was published at the same time in Spanish [here](Theory\Laziness I - Metaprogramming).
+This article was published at the same time in Spanish [here](../../Theory/Laziness%20I%20-%20Metaprogramming/readme.md).

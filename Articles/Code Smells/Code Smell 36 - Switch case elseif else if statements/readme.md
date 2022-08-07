@@ -74,17 +74,17 @@ Class Mp3Converter {
 
 #Detection
 
-Since there are [valid cases](Theory\How to Get Rid of Annoying IFs Forever) for If/else usages, we should not pull the plug and forbid these instructions. We can put a ratio of if statements/other statements as a warning instead.  
+Since there are [valid cases](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md) for If/else usages, we should not pull the plug and forbid these instructions. We can put a ratio of if statements/other statements as a warning instead.  
 
 # Relations
 
--[Code Smell 12 - Null](Code Smells\Code Smell 12 - Null)
+-[Code Smell 12 - Null](../../Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
--[Code Smell 102 - Arrow Code](Code Smells\Code Smell 102 - Arrow Code)
+-[Code Smell 102 - Arrow Code](../../Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md)
 
 # More info
 
-[How to Get Rid of Annoying IFs Forever](Theory\How to Get Rid of Annoying IFs Forever)
+[How to Get Rid of Annoying IFs Forever](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
 # Credits
 
@@ -94,10 +94,10 @@ Photo by [Adarsh Kummur](https://unsplash.com/@akummur) on [Unsplash](https://un
 
 _Edsger Dijkstra_
 
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

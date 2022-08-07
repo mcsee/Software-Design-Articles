@@ -8,7 +8,7 @@
 
 # 1. - 16.
 
-[16 Simple Tips to Boost Your Productivity x10](Productivity\16 Simple Tips to Boost Your Productivity x10)
+[16 Simple Tips to Boost Your Productivity x10](../../Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md)
 
 # 17. Track Goal and Metrics 🥅
 

@@ -8,7 +8,7 @@
 
 # Problems
 
-- [Coupling](Theory\Coupling - The one and only software design problem)
+- [Coupling](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 - Code Duplication
 
@@ -108,11 +108,11 @@ If they evolve in different ways, they are doing too much.
 
 # Relations
 
-[Code Smell 34 - Too Many Attributes](Code Smells\Code Smell 34 - Too Many Attributes)
+[Code Smell 34 - Too Many Attributes](../../Code%20Smells/Code%20Smell%2034%20-%20Too%20Many%20Attributes/readme.md)
 
-[Code Smell 94 - Too Many imports](Code Smells\Code Smell 94 - Too Many imports)
+[Code Smell 94 - Too Many imports](../../Code%20Smells/Code%20Smell%2094%20-%20Too%20Many%20imports/readme.md)
 
-[Code Smell 14 - God Objects](Code Smells\Code Smell 14 - God Objects)
+[Code Smell 14 - God Objects](../../Code%20Smells/Code%20Smell%2014%20-%20God%20Objects/readme.md)
 
 # More Info
 
@@ -124,10 +124,10 @@ If they evolve in different ways, they are doing too much.
 
 _Erich Gamma_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

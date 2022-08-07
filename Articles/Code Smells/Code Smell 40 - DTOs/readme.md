@@ -144,9 +144,9 @@ His author warns us about its actual abuse.
  
 # Relations
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models) 
+[Code Smell 01 - Anemic Models](../../Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md) 
 
-[Code Smell 13 - Empty Constructors](Code Smells\Code Smell 13 - Empty Constructors)
+[Code Smell 13 - Empty Constructors](../../Code%20Smells/Code%20Smell%2013%20-%20Empty%20Constructors/readme.md)
 
 https://softwareengineering.stackexchange.com/questions/171457/what-is-the-point-of-using-dto-data-transfer-objects
 
@@ -166,10 +166,10 @@ https://refactoring.guru/es/smells/data-class
 
 _Martin Fowler_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

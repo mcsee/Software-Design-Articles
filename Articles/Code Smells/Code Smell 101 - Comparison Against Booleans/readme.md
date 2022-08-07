@@ -12,7 +12,7 @@
 
 - The least surprise principle violation.
 
-- [Fail Fast](Theory\Fail Fast) principle violation
+- [Fail Fast](../../Theory/Fail%20Fast/readme.md) principle violation
 
 # Solutions
 
@@ -84,11 +84,11 @@ We should be very strict when using booleans.
 
 # Relations
 
-[Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](Code Smells\Code Smell 69 - Big Bang (JavaScript Ridiculous Castings))
+[Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](../../Code%20Smells/Code%20Smell%2069%20-%20Big%20Bang%20(JavaScript%20Ridiculous%20Castings)/readme.md)
 
 # More Info
 
-[Fail Fast](Theory\Fail Fast)
+[Fail Fast](../../Theory/Fail%20Fast/readme.md)
 
 # Credits
 
@@ -100,10 +100,10 @@ Photo by [Michael Held](https://unsplash.com/@michaelheld) on [Unsplash](https:/
 
 _Mich Ravera_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

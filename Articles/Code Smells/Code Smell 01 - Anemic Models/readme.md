@@ -14,11 +14,11 @@ If we ask a domain expert to describe an entity he/she would hardly tell it is *
 
 - No Encapsulation.
 
-- No [mapping](Theory\The One and Only Software Design Principle) to real world entities.
+- No [mapping](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) to real world entities.
 
 - Duplicate Code
 
-- [Coupling](Theory\Coupling - The one and only software design problem)
+- [Coupling](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 - Writer / Reader mismatch.
 
@@ -99,21 +99,21 @@ They should ignore setters and getters and count real behavior methods.
 # Conclusion
 
 Avoid anemic models. Focus always on protocol instead of data. 
-[Behaviour](Theory\No Silver Bullet) is essential, data is accidental.
+[Behaviour](../../Theory/No%20Silver%20Bullet/readme.md) is essential, data is accidental.
 
 # Relations
 
-[Code Smell 28 - Setters](Code Smells\Code Smell 28 - Setters)
+[Code Smell 28 - Setters](../../Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
 
-[Code Smell 15 - Missed Preconditions](Code Smells\Code Smell 15 - Missed Preconditions)
+[Code Smell 15 - Missed Preconditions](../../Code%20Smells/Code%20Smell%2015%20-%20Missed%20Preconditions/readme.md)
 
 # More info
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Anemic_domain_model)
 - [Refactoring Guru](https://refactoring.guru/es/smells/data-class)
-- [Nude Models — Part I : Setters](Theory\Nude Models - Part I Setters)
-- [Nude Models — Part II : Getters](Theory\Nude Models - Part II Getters)
-- [How to Decouple a Legacy System](Theory\How to Decouple a Legacy System)
+- [Nude Models — Part I : Setters](../../Theory/Nude%20Models - Part%20I Setters/readme.md)
+- [Nude Models — Part II : Getters](../../Theory/Nude%20Models - Part%20II Getters/readme.md)
+- [How to Decouple a Legacy System](../../Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 
 * * *
 
@@ -121,7 +121,7 @@ Avoid anemic models. Focus always on protocol instead of data.
 
 _Rebecca Wirfs-Brock_
 
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 # Credits
 
@@ -131,4 +131,4 @@ Photo by Stacey Vandergriff on Unsplash
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

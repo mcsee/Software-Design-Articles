@@ -79,13 +79,13 @@ This rule applies to inter system definition and business logic.
 
 Some frameworks define an Interface as protocol to be fulfilled.
 
-On our [bijections](Theory\The One and Only Software Design Principle) we need to model existing real world protocols.
+On our [bijections](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) we need to model existing real world protocols.
 
-Interfaces are the [MAPPER](Theory\What is (wrong with) software) correspondence to protocol.
+Interfaces are the [MAPPER](../../Theory/What%20is%20(wrong%20with)%20software/readme.md) correspondence to protocol.
 
 Dependency injection protocols declare interfaces that are fulfilled with their realizations. Until then, they can be empty.
 
-If your language defines an interface for test mocking, it is another [code smell](Code Smells\Code Smell 30 - Mocking Business).
+If your language defines an interface for test mocking, it is another [code smell](../../Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md).
 
 # Tags
 
@@ -93,11 +93,11 @@ If your language defines an interface for test mocking, it is another [code smel
 
 # Relations
 
-[Code Smell 130 - AddressImpl](Code Smells\Code Smell 130 - AddressImpl)
+[Code Smell 130 - AddressImpl](../../Code%20Smells/Code%20Smell%20130%20-%20AddressImpl/readme.md)
 
-[Code Smell 30 - Mocking Business](Code Smells\Code Smell 30 - Mocking Business)
+[Code Smell 30 - Mocking Business](../../Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md)
 
-[Code Smell 136 - Classes With just One Subclass](Code Smells\Code Smell 136 - Classes With just One Subclass)
+[Code Smell 136 - Classes With just One Subclass](../../Code%20Smells/Code%20Smell%20136%20-%20Classes%20With%20just%20One%20Subclass/readme.md)
 
 # Conclusion
 
@@ -113,10 +113,10 @@ Photo by [Brian Kostiuk](https://unsplash.com/photos/WZ43jnCeWOs#:~:text=Photo%2
 
 _Ray Ozzie_
  
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code]()
+[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
