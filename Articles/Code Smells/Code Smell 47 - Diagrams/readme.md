@@ -94,7 +94,7 @@ No good system was developed with these tools.
 
 # Relations
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell  01 - Anemic Models)
+[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
 
 [Code Smell 25 - Pattern Abusers](Code Smells\Code Smell 25 - Pattern Abusers)
  

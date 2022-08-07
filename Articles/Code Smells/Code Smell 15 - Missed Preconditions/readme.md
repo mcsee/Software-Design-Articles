@@ -23,7 +23,7 @@
 
 - Constructors are an excellent first line of defense
 
-- [Anemic Objects](Code Smells\Code Smell  01 - Anemic Models) lack these rules.
+- [Anemic Objects](Code Smells\Code Smell 01 - Anemic Models) lack these rules.
 
 # Sample Code
 
@@ -103,7 +103,7 @@ Fail fast is a blessing.
 
 # Relations
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell  01 - Anemic Models)
+[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
 
 # Credits
 

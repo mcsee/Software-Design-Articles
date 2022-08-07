@@ -78,7 +78,7 @@ Since there are [valid cases](Theory\How to Get Rid of Annoying IFs Forever) for
 
 # Relations
 
--[Code Smell 12 - Null](Code Smells\Code Smell  12 - Null)
+-[Code Smell 12 - Null](Code Smells\Code Smell 12 - Null)
 
 -[Code Smell 102 - Arrow Code](Code Smells\Code Smell 102 - Arrow Code)
 

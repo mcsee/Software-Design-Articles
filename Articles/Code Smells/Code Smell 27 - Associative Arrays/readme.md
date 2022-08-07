@@ -139,7 +139,7 @@ Most associative arrays have cohesion and represent real world entities, and we 
 
 # Relations
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell  01 - Anemic Models)
+[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
 
 [Fail Fast](Theory\Fail Fast)
 

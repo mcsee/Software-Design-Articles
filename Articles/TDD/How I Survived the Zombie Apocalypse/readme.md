@@ -358,7 +358,7 @@ We have our model built with TDD and great confidence. Full coverage and no gold
 
 - No Nulls
 
-[Code Smell 12 - Null](Code Smells\Code Smell  12 - Null)
+[Code Smell 12 - Null](Code Smells\Code Smell 12 - Null)
 
 ## Conclusions
 

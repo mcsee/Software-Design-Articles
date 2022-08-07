@@ -83,7 +83,7 @@ We must avoid premature optimizations. If we have *real* performance problems we
 
 [Code Smell 32 - Singletons](Code Smells\Code Smell 32 - Singletons)
 
-[Code Smell 12 - Null](Code Smells\Code Smell  12 - Null)
+[Code Smell 12 - Null](Code Smells\Code Smell 12 - Null)
 
 # More Info
 

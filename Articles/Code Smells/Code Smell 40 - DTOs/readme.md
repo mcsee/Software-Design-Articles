@@ -144,7 +144,7 @@ His author warns us about its actual abuse.
  
 # Relations
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell  01 - Anemic Models) 
+[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models) 
 
 [Code Smell 13 - Empty Constructors](Code Smells\Code Smell 13 - Empty Constructors)
 

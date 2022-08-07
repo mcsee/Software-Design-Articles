@@ -46,11 +46,11 @@ In this repository, you will find many articles related to Software Design
 
 * [(Most) Programmers are losing our jobs very soon](/Articles/Opinion/%28Most%29%20Programmers%20are%20losing%20our%20jobs%20very%20soon/readme.md)
 
-* [50 Fundamental Advices for Junior Developers](/Articles/Opinion/50%20Fundamental%20Advices%20for%20Junior%20Developers/readme.md)
-
 * [Maxi Contieri on Clean Code, Refactoring, and Test-Driven Development](/Articles/Opinion/Maxi%20Contieri%20on%20Clean%20Code%2C%20Refactoring%2C%20and%20Test-Driven%20Development/readme.md)
 
 * [Software Engineer Maxi Contieri on writing about “boring” fundamentals](/Articles/Opinion/Software%20Engineer%20Maxi%20Contieri%20on%20writing%20about%20%E2%80%9Cboring%E2%80%9D%20fundamentals/readme.md)
+
+* [50 Fundamental Advices for Junior Developers](/Articles/Opinion/50%20Fundamental%20Advices%20for%20Junior%20Developers/readme.md)
 
 ### Quotes
 
@@ -66,7 +66,9 @@ In this repository, you will find many articles related to Software Design
 
 ### Code Smells
 
-* [Code Smell 01 - Anemic Models](/Articles/Code%20Smells/Code%20Smell%20%2001%20-%20Anemic%20Models/readme.md)
+* [How to Find the Stinky parts of your Code](/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+
+* [Code Smell 01 - Anemic Models](/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
 * [Code Smell 02 - Constants and Magic Numbers](/Articles/Code%20Smells/Code%20Smell%20%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
 
@@ -86,129 +88,15 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 10 - Too Many Arguments](/Articles/Code%20Smells/Code%20Smell%2010%20-%20Too%20Many%20Arguments/readme.md)
 
-* [Code Smell 100 - GoTo](/Articles/Code%20Smells/Code%20Smell%20100%20-%20GoTo/readme.md)
-
-* [Code Smell 101 - Comparison Against Booleans](/Articles/Code%20Smells/Code%20Smell%20101%20-%20Comparison%20Against%20Booleans/readme.md)
-
-* [Code Smell 102 - Arrow Code](/Articles/Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md)
-
-* [Code Smell 103 - Double Encapsulation](/Articles/Code%20Smells/Code%20Smell%20103%20-%20Double%20Encapsulation/readme.md)
-
-* [Code Smell 104 - Assert True](/Articles/Code%20Smells/Code%20Smell%20104%20-%20Assert%20True/readme.md)
-
-* [Code Smell 105 - Comedian Methods](/Articles/Code%20Smells/Code%20Smell%20105%20-%20Comedian%20Methods/readme.md)
-
-* [Code Smell 106 - Production Dependent Code](/Articles/Code%20Smells/Code%20Smell%20106%20-%20Production%20Dependent%20Code/readme.md)
-
-* [Code Smell 107 - Variables Reuse](/Articles/Code%20Smells/Code%20Smell%20107%20-%20Variables%20Reuse/readme.md)
-
-* [Code Smell 108 - Float Assertions](/Articles/Code%20Smells/Code%20Smell%20108%20-%20Float%20Assertions/readme.md)
-
-* [Code Smell 109 - Automatic Properties](/Articles/Code%20Smells/Code%20Smell%20109%20-%20Automatic%20Properties/readme.md)
-
 * [Code Smell 11 - Subclassification for Code Reuse](/Articles/Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
 
-* [Code Smell 110 - Switches With Defaults](/Articles/Code%20Smells/Code%20Smell%20110%20-%20Switches%20With%20Defaults/readme.md)
-
-* [Code Smell 111 - Modifying Collections While Traversing](/Articles/Code%20Smells/Code%20Smell%20111%20-%20Modifying%20Collections%20While%20Traversing/readme.md)
-
-* [Code Smell 112 - Testing Private Methods](/Articles/Code%20Smells/Code%20Smell%20112%20-%20Testing%20Private%20Methods/readme.md)
-
-* [Code Smell 113 - Data Naming](/Articles/Code%20Smells/Code%20Smell%20113%20-%20Data%20Naming/readme.md)
-
-* [Code Smell 114 - Empty Class](/Articles/Code%20Smells/Code%20Smell%20114%20-%20Empty%20Class/readme.md)
-
-* [Code Smell 115 - Return True](/Articles/Code%20Smells/Code%20Smell%20115%20-%20Return%20True/readme.md)
-
-* [Code Smell 116 - Variables Declared With 'var'](/Articles/Code%20Smells/Code%20Smell%20116%20-%20Variables%20Declared%20With%20%27var%27/readme.md)
-
-* [Code Smell 117 - Unrealistic Data](/Articles/Code%20Smells/Code%20Smell%20117%20-%20Unrealistic%20Data/readme.md)
-
-* [Code Smell 118 - Return False](/Articles/Code%20Smells/Code%20Smell%20118%20-%20Return%20False/readme.md)
-
-* [Code Smell 119 - Stairs Code](/Articles/Code%20Smells/Code%20Smell%20119%20-%20Stairs%20Code/readme.md)
-
-* [Code Smell 12 - Null](/Articles/Code%20Smells/Code%20Smell%20%2012%20-%20Null/readme.md)
-
-* [Code Smell 120 - Sequential IDs](/Articles/Code%20Smells/Code%20Smell%20120%20-%20Sequential%20IDs/readme.md)
-
-* [Code Smell 121 - String Validations](/Articles/Code%20Smells/Code%20Smell%20121%20-%20String%20Validations/readme.md)
-
-* [Code Smell 122 - Primitive Obsession](/Articles/Code%20Smells/Code%20Smell%20122%20-%20Primitive%20Obsession/readme.md)
-
-* [Code Smell 123 - Mixed 'What' and 'How'](/Articles/Code%20Smells/Code%20Smell%20123%20-%20Mixed%20%27What%27%20and%20%27How%27/readme.md)
-
-* [Code Smell 124 - Divergent Change](/Articles/Code%20Smells/Code%20Smell%20124%20-%20Divergent%20Change/readme.md)
-
-* [Code Smell 125 - 'IS-A' Relationship](/Articles/Code%20Smells/Code%20Smell%20125%20-%20%27IS-A%27%20Relationship/readme.md)
-
-* [Code Smell 126 - Fake Null Object](/Articles/Code%20Smells/Code%20Smell%20126%20-%20Fake%20Null%20Object/readme.md)
-
-* [Code Smell 127 - Mutable Constants](/Articles/Code%20Smells/Code%20Smell%20127%20-%20Mutable%20Constants/readme.md)
-
-* [Code Smell 128 - Non English Coding](/Articles/Code%20Smells/Code%20Smell%20128%20-%20Non%20English%20Coding/readme.md)
-
-* [Code Smell 129 - Structural Optimizations](/Articles/Code%20Smells/Code%20Smell%20129%20-%20Structural%20Optimizations/readme.md)
+* [Code Smell 12 - Null](/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
 * [Code Smell 13 - Empty Constructors](/Articles/Code%20Smells/Code%20Smell%2013%20-%20Empty%20Constructors/readme.md)
 
-* [Code Smell 130 - AddressImpl](/Articles/Code%20Smells/Code%20Smell%20130%20-%20AddressImpl/readme.md)
-
-* [Code Smell 131 - Zero Argument Constructor](/Articles/Code%20Smells/Code%20Smell%20131%20-%20Zero%20Argument%20Constructor/readme.md)
-
-* [Code Smell 132 - Exception Try Too Broad](/Articles/Code%20Smells/Code%20Smell%20132%20-%20Exception%20Try%20Too%20Broad/readme.md)
-
-* [Code Smell 133 - Hardcoded IF Conditions](/Articles/Code%20Smells/Code%20Smell%20133%20-%20Hardcoded%20IF%20Conditions/readme.md)
-
-* [Code Smell 134 - Specialized Business Collections](/Articles/Code%20Smells/Code%20Smell%20134%20-%20Specialized%20Business%20Collections/readme.md)
-
-* [Code Smell 135 - Interfaces With just One Realization](/Articles/Code%20Smells/Code%20Smell%20135%20-%20Interfaces%20With%20just%20One%20Realization/readme.md)
-
-* [Code Smell 136 - Classes With just One Subclass](/Articles/Code%20Smells/Code%20Smell%20136%20-%20Classes%20With%20just%20One%20Subclass/readme.md)
-
-* [Code Smell 137 - Inheritance Tree Too Deep](/Articles/Code%20Smells/Code%20Smell%20137%20-%20Inheritance%20Tree%20Too%20Deep/readme.md)
-
-* [Code Smell 138 - Packages Dependency](/Articles/Code%20Smells/Code%20Smell%20138%20-%20Packages%20Dependency/readme.md)
-
-* [Code Smell 139 - Business Code in the User Interface](/Articles/Code%20Smells/Code%20Smell%20139%20-%20Business%20Code%20in%20the%20User%20Interface/readme.md)
-
 * [Code Smell 14 - God Objects](/Articles/Code%20Smells/Code%20Smell%2014%20-%20God%20Objects/readme.md)
 
-* [Code Smell 140 - Short Circuit Evaluation](/Articles/Code%20Smells/Code%20Smell%20140%20-%20Short%20Circuit%20Evaluation/readme.md)
-
-* [Code Smell 141 - IEngine , AVehicle, ImplCar](/Articles/Code%20Smells/Code%20Smell%20141%20-%20IEngine%20%2C%20AVehicle%2C%20ImplCar/readme.md)
-
-* [Code Smell 142 - Queries in Constructors](/Articles/Code%20Smells/Code%20Smell%20142%20-%20Queries%20in%20Constructors/readme.md)
-
-* [Code Smell 143 - Data Clumps](/Articles/Code%20Smells/Code%20Smell%20143%20-%20Data%20Clumps/readme.md)
-
-* [Code Smell 144 - Fungible Objects](/Articles/Code%20Smells/Code%20Smell%20144%20-%20Fungible%20Objects/readme.md)
-
-* [Code Smell 145 - Short Circuit Hack](/Articles/Code%20Smells/Code%20Smell%20145%20-%20Short%20Circuit%20Hack/readme.md)
-
-* [Code Smell 146 - Getter Comments](/Articles/Code%20Smells/Code%20Smell%20146%20-%20Getter%20Comments/readme.md)
-
-* [Code Smell 147 - Too Many Methods](/Articles/Code%20Smells/Code%20Smell%20147%20-%20Too%20Many%20Methods/readme.md)
-
-* [Code Smell 148 - ToDos](/Articles/Code%20Smells/Code%20Smell%20148%20-%20ToDos/readme.md)
-
-* [Code Smell 149 - Optional Chaining](/Articles/Code%20Smells/Code%20Smell%20149%20-%20Optional%20Chaining/readme.md)
-
 * [Code Smell 15 - Missed Preconditions](/Articles/Code%20Smells/Code%20Smell%2015%20-%20Missed%20Preconditions/readme.md)
-
-* [Code Smell 150 - Equal Comparison](/Articles/Code%20Smells/Code%20Smell%20150%20-%20Equal%20Comparison/readme.md)
-
-* [Code Smell 151 - Commented Code](/Articles/Code%20Smells/Code%20Smell%20151%20-%20Commented%20Code/readme.md)
-
-* [Code Smell 152 - Logical Comment](/Articles/Code%20Smells/Code%20Smell%20152%20-%20Logical%20Comment/readme.md)
-
-* [Code Smell 153 - Too Long Names](/Articles/Code%20Smells/Code%20Smell%20153%20-%20Too%20Long%20Names/readme.md)
-
-* [Code Smell 154 - Too Many Variables](/Articles/Code%20Smells/Code%20Smell%20154%20-%20Too%20Many%20Variables/readme.md)
-
-* [Code Smell 155 - Multiple Promises](/Articles/Code%20Smells/Code%20Smell%20155%20-%20Multiple%20Promises/readme.md)
-
-* [Code Smell 156 - Implicit Else](/Articles/Code%20Smells/Code%20Smell%20156%20-%20Implicit%20Else/readme.md)
 
 * [Code Smell 16 - Ripple Effect](/Articles/Code%20Smells/Code%20Smell%2016%20-%20Ripple%20Effect/readme.md)
 
@@ -378,15 +266,121 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 99 - First Second](/Articles/Code%20Smells/Code%20Smell%2099%20-%20First%20Second/readme.md)
 
+* [Code Smell 100 - GoTo](/Articles/Code%20Smells/Code%20Smell%20100%20-%20GoTo/readme.md)
+
+* [Code Smell 101 - Comparison Against Booleans](/Articles/Code%20Smells/Code%20Smell%20101%20-%20Comparison%20Against%20Booleans/readme.md)
+
+* [Code Smell 102 - Arrow Code](/Articles/Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md)
+
+* [Code Smell 103 - Double Encapsulation](/Articles/Code%20Smells/Code%20Smell%20103%20-%20Double%20Encapsulation/readme.md)
+
+* [Code Smell 104 - Assert True](/Articles/Code%20Smells/Code%20Smell%20104%20-%20Assert%20True/readme.md)
+
+* [Code Smell 105 - Comedian Methods](/Articles/Code%20Smells/Code%20Smell%20105%20-%20Comedian%20Methods/readme.md)
+
+* [Code Smell 106 - Production Dependent Code](/Articles/Code%20Smells/Code%20Smell%20106%20-%20Production%20Dependent%20Code/readme.md)
+
+* [Code Smell 107 - Variables Reuse](/Articles/Code%20Smells/Code%20Smell%20107%20-%20Variables%20Reuse/readme.md)
+
+* [Code Smell 108 - Float Assertions](/Articles/Code%20Smells/Code%20Smell%20108%20-%20Float%20Assertions/readme.md)
+
+* [Code Smell 109 - Automatic Properties](/Articles/Code%20Smells/Code%20Smell%20109%20-%20Automatic%20Properties/readme.md)
+
+* [Code Smell 110 - Switches With Defaults](/Articles/Code%20Smells/Code%20Smell%20110%20-%20Switches%20With%20Defaults/readme.md)
+
+* [Code Smell 111 - Modifying Collections While Traversing](/Articles/Code%20Smells/Code%20Smell%20111%20-%20Modifying%20Collections%20While%20Traversing/readme.md)
+
+* [Code Smell 112 - Testing Private Methods](/Articles/Code%20Smells/Code%20Smell%20112%20-%20Testing%20Private%20Methods/readme.md)
+
+* [Code Smell 113 - Data Naming](/Articles/Code%20Smells/Code%20Smell%20113%20-%20Data%20Naming/readme.md)
+
+* [Code Smell 114 - Empty Class](/Articles/Code%20Smells/Code%20Smell%20114%20-%20Empty%20Class/readme.md)
+
+* [Code Smell 115 - Return True](/Articles/Code%20Smells/Code%20Smell%20115%20-%20Return%20True/readme.md)
+
+* [Code Smell 116 - Variables Declared With 'var'](/Articles/Code%20Smells/Code%20Smell%20116%20-%20Variables%20Declared%20With%20%27var%27/readme.md)
+
+* [Code Smell 117 - Unrealistic Data](/Articles/Code%20Smells/Code%20Smell%20117%20-%20Unrealistic%20Data/readme.md)
+
+* [Code Smell 118 - Return False](/Articles/Code%20Smells/Code%20Smell%20118%20-%20Return%20False/readme.md)
+
+* [Code Smell 119 - Stairs Code](/Articles/Code%20Smells/Code%20Smell%20119%20-%20Stairs%20Code/readme.md)
+
+* [Code Smell 120 - Sequential IDs](/Articles/Code%20Smells/Code%20Smell%20120%20-%20Sequential%20IDs/readme.md)
+
+* [Code Smell 121 - String Validations](/Articles/Code%20Smells/Code%20Smell%20121%20-%20String%20Validations/readme.md)
+
+* [Code Smell 122 - Primitive Obsession](/Articles/Code%20Smells/Code%20Smell%20122%20-%20Primitive%20Obsession/readme.md)
+
+* [Code Smell 123 - Mixed 'What' and 'How'](/Articles/Code%20Smells/Code%20Smell%20123%20-%20Mixed%20%27What%27%20and%20%27How%27/readme.md)
+
+* [Code Smell 124 - Divergent Change](/Articles/Code%20Smells/Code%20Smell%20124%20-%20Divergent%20Change/readme.md)
+
+* [Code Smell 125 - 'IS-A' Relationship](/Articles/Code%20Smells/Code%20Smell%20125%20-%20%27IS-A%27%20Relationship/readme.md)
+
+* [Code Smell 126 - Fake Null Object](/Articles/Code%20Smells/Code%20Smell%20126%20-%20Fake%20Null%20Object/readme.md)
+
+* [Code Smell 127 - Mutable Constants](/Articles/Code%20Smells/Code%20Smell%20127%20-%20Mutable%20Constants/readme.md)
+
+* [Code Smell 128 - Non English Coding](/Articles/Code%20Smells/Code%20Smell%20128%20-%20Non%20English%20Coding/readme.md)
+
+* [Code Smell 129 - Structural Optimizations](/Articles/Code%20Smells/Code%20Smell%20129%20-%20Structural%20Optimizations/readme.md)
+
+* [Code Smell 130 - AddressImpl](/Articles/Code%20Smells/Code%20Smell%20130%20-%20AddressImpl/readme.md)
+
+* [Code Smell 131 - Zero Argument Constructor](/Articles/Code%20Smells/Code%20Smell%20131%20-%20Zero%20Argument%20Constructor/readme.md)
+
+* [Code Smell 132 - Exception Try Too Broad](/Articles/Code%20Smells/Code%20Smell%20132%20-%20Exception%20Try%20Too%20Broad/readme.md)
+
+* [Code Smell 133 - Hardcoded IF Conditions](/Articles/Code%20Smells/Code%20Smell%20133%20-%20Hardcoded%20IF%20Conditions/readme.md)
+
+* [Code Smell 134 - Specialized Business Collections](/Articles/Code%20Smells/Code%20Smell%20134%20-%20Specialized%20Business%20Collections/readme.md)
+
+* [Code Smell 135 - Interfaces With just One Realization](/Articles/Code%20Smells/Code%20Smell%20135%20-%20Interfaces%20With%20just%20One%20Realization/readme.md)
+
+* [Code Smell 136 - Classes With just One Subclass](/Articles/Code%20Smells/Code%20Smell%20136%20-%20Classes%20With%20just%20One%20Subclass/readme.md)
+
+* [Code Smell 137 - Inheritance Tree Too Deep](/Articles/Code%20Smells/Code%20Smell%20137%20-%20Inheritance%20Tree%20Too%20Deep/readme.md)
+
+* [Code Smell 138 - Packages Dependency](/Articles/Code%20Smells/Code%20Smell%20138%20-%20Packages%20Dependency/readme.md)
+
+* [Code Smell 139 - Business Code in the User Interface](/Articles/Code%20Smells/Code%20Smell%20139%20-%20Business%20Code%20in%20the%20User%20Interface/readme.md)
+
+* [Code Smell 140 - Short Circuit Evaluation](/Articles/Code%20Smells/Code%20Smell%20140%20-%20Short%20Circuit%20Evaluation/readme.md)
+
+* [Code Smell 141 - IEngine , AVehicle, ImplCar](/Articles/Code%20Smells/Code%20Smell%20141%20-%20IEngine%20%2C%20AVehicle%2C%20ImplCar/readme.md)
+
+* [Code Smell 142 - Queries in Constructors](/Articles/Code%20Smells/Code%20Smell%20142%20-%20Queries%20in%20Constructors/readme.md)
+
+* [Code Smell 143 - Data Clumps](/Articles/Code%20Smells/Code%20Smell%20143%20-%20Data%20Clumps/readme.md)
+
+* [Code Smell 144 - Fungible Objects](/Articles/Code%20Smells/Code%20Smell%20144%20-%20Fungible%20Objects/readme.md)
+
+* [Code Smell 145 - Short Circuit Hack](/Articles/Code%20Smells/Code%20Smell%20145%20-%20Short%20Circuit%20Hack/readme.md)
+
+* [Code Smell 146 - Getter Comments](/Articles/Code%20Smells/Code%20Smell%20146%20-%20Getter%20Comments/readme.md)
+
+* [Code Smell 147 - Too Many Methods](/Articles/Code%20Smells/Code%20Smell%20147%20-%20Too%20Many%20Methods/readme.md)
+
+* [Code Smell 148 - ToDos](/Articles/Code%20Smells/Code%20Smell%20148%20-%20ToDos/readme.md)
+
+* [Code Smell 149 - Optional Chaining](/Articles/Code%20Smells/Code%20Smell%20149%20-%20Optional%20Chaining/readme.md)
+
+* [Code Smell 150 - Equal Comparison](/Articles/Code%20Smells/Code%20Smell%20150%20-%20Equal%20Comparison/readme.md)
+
+* [Code Smell 151 - Commented Code](/Articles/Code%20Smells/Code%20Smell%20151%20-%20Commented%20Code/readme.md)
+
+* [Code Smell 152 - Logical Comment](/Articles/Code%20Smells/Code%20Smell%20152%20-%20Logical%20Comment/readme.md)
+
+* [Code Smell 153 - Too Long Names](/Articles/Code%20Smells/Code%20Smell%20153%20-%20Too%20Long%20Names/readme.md)
+
+* [Code Smell 154 - Too Many Variables](/Articles/Code%20Smells/Code%20Smell%20154%20-%20Too%20Many%20Variables/readme.md)
+
+* [Code Smell 155 - Multiple Promises](/Articles/Code%20Smells/Code%20Smell%20155%20-%20Multiple%20Promises/readme.md)
+
+* [Code Smell 156 - Implicit Else](/Articles/Code%20Smells/Code%20Smell%20156%20-%20Implicit%20Else/readme.md)
+
 ### Blogging
-
-* [10 Invaluable Tips for Successful Tech Articles](/Articles/Blogging/10%20Invaluable%20Tips%20for%20Successful%20Tech%20Articles/readme.md)
-
-* [10 Tricks to Build an Awesome Personal Portfolio and Get Your Dream Job](/Articles/Blogging/10%20Tricks%20to%20Build%20an%20Awesome%20Personal%20Portfolio%20and%20Get%20Your%20Dream%20Job/readme.md)
-
-* [5 Big Mistakes I Made Writing Technical Articles](/Articles/Blogging/5%20Big%20Mistakes%20I%20Made%20Writing%20Technical%20Articles/readme.md)
-
-* [I Wrote More than 90 Articles on 2021 Here is What I Learned](/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md)
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
 
@@ -394,15 +388,23 @@ In this repository, you will find many articles related to Software Design
 
 * [Today I Learned the Concept of Gardening](/Articles/Blogging/Today%20I%20Learned%20the%20Concept%20of%20Gardening/readme.md)
 
+* [5 Big Mistakes I Made Writing Technical Articles](/Articles/Blogging/5%20Big%20Mistakes%20I%20Made%20Writing%20Technical%20Articles/readme.md)
+
+* [10 Invaluable Tips for Successful Tech Articles](/Articles/Blogging/10%20Invaluable%20Tips%20for%20Successful%20Tech%20Articles/readme.md)
+
+* [10 Tricks to Build an Awesome Personal Portfolio and Get Your Dream Job](/Articles/Blogging/10%20Tricks%20to%20Build%20an%20Awesome%20Personal%20Portfolio%20and%20Get%20Your%20Dream%20Job/readme.md)
+
+* [I Wrote More than 90 Articles on 2021 Here is What I Learned](/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md)
+
 ### Productivity
-
-* [10 More Simple Tips to Boost Your Productivity x2 (2021 Guide)](/Articles/Productivity/10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2%20%282021%20Guide%29/readme.md)
-
-* [16 Simple Tips to Boost Your Productivity x10](/Articles/Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md)
 
 * [My Best Short Productivity Tips](/Articles/Productivity/My%20Best%20Short%20Productivity%20Tips/readme.md)
 
 * [What is JOMO and Why it will Increase your Productivity x97](/Articles/Productivity/What%20is%20JOMO%20and%20Why%20it%20will%20Increase%20your%20Productivity%20x97/readme.md)
+
+* [16 Simple Tips to Boost Your Productivity x10](/Articles/Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md)
+
+* [10 More Simple Tips to Boost Your Productivity x2 (2021 Guide)](/Articles/Productivity/10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2%20%282021%20Guide%29/readme.md)
 
 ### Twitter
 
@@ -410,21 +412,21 @@ In this repository, you will find many articles related to Software Design
 
 ### Quality
 
-* [5 Programming Techniques to Avoid SSD Brick Catastrophic Failures](/Articles/Quality/5%20Programming%20Techniques%20to%20Avoid%20SSD%20Brick%20Catastrophic%20Failures/readme.md)
-
 * [Stop Calling them 'Bugs'](/Articles/Quality/Stop%20Calling%20them%20%27Bugs%27/readme.md)
+
+* [5 Programming Techniques to Avoid SSD Brick Catastrophic Failures](/Articles/Quality/5%20Programming%20Techniques%20to%20Avoid%20SSD%20Brick%20Catastrophic%20Failures/readme.md)
 
 * [Y2K22 - The Mistake That Embarrasses Us](/Articles/Quality/Y2K22%20-%20The%20Mistake%20That%20Embarrasses%20Us/readme.md)
 
 ### Artificial Intelligence
 
-* [DeepMind's AlphaCode Won't Steal Your Job Either](/Articles/Artificial%20Intelligence/DeepMind%27s%20AlphaCode%20Won%27t%20Steal%20Your%20Job%20Either/readme.md)
-
 * [GPT-3 Training Programmers for the Present (and the Future)](/Articles/Artificial%20Intelligence/GPT-3%20Training%20Programmers%20for%20the%20Present%20%28and%20the%20Future%29/readme.md)
 
-* [I've Recently Learned About GPT3 - This is my Journey](/Articles/Artificial%20Intelligence/I%27ve%20Recently%20Learned%20About%20GPT3%20-%20This%20is%20my%20Journey/readme.md)
+* [DeepMind's AlphaCode Won't Steal Your Job Either](/Articles/Artificial%20Intelligence/DeepMind%27s%20AlphaCode%20Won%27t%20Steal%20Your%20Job%20Either/readme.md)
 
 * [Why GitHub Copilot is not a Threat to your Job](/Articles/Artificial%20Intelligence/Why%20GitHub%20Copilot%20is%20not%20a%20Threat%20to%20your%20Job/readme.md)
+
+* [I've Recently Learned About GPT3 - This is my Journey](/Articles/Artificial%20Intelligence/I%27ve%20Recently%20Learned%20About%20GPT3%20-%20This%20is%20my%20Journey/readme.md)
 
 ### TDD Conference 2021
 
@@ -483,4 +485,8 @@ In this repository, you will find many articles related to Software Design
 ### Web3
 
 * [Web3 For Dummies - Part 01 - What is a Blockchain?](/Articles/Web3/Web3%20For%20Dummies%20-%20Part%2001%20-%20What%20is%20a%20Blockchain/readme.md)
+
+### Explain in 5 Levels
+
+* [Explain in 5 Levels of Difficulty: Linux](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20Linux/readme.md)
 

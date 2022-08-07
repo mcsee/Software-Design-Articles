@@ -22,7 +22,7 @@
 
 # Context
 
-Null Object pattern is a great alternative to [Nulls](Code Smells\Code Smell  12 - Null) and [IFs](Code Smells\Code Smell 36 - Switch case elseif else if statements) (Both are code smells).
+Null Object pattern is a great alternative to [Nulls](Code Smells\Code Smell 12 - Null) and [IFs](Code Smells\Code Smell 36 - Switch case elseif else if statements) (Both are code smells).
 
 The structure of the pattern tells us to create a hierarchy.
 
@@ -159,7 +159,7 @@ Too many smells to avoid.
 
 # Relations
 
-[Code Smell 12 - Null](Code Smells\Code Smell  12 - Null)
+[Code Smell 12 - Null](Code Smells\Code Smell 12 - Null)
 
 [Code Smell 32 - Singletons](Code Smells\Code Smell 32 - Singletons)
 

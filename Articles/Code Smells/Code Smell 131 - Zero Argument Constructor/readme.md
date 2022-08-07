@@ -73,7 +73,7 @@ We need to research usages to improve our solutions.
 
 [Code Smell 28 - Setters](Code Smells\Code Smell 28 - Setters)
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell  01 - Anemic Models)
+[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
 
 [Code Smell 40 - DTOs](Code Smells\Code Smell 40 - DTOs)
 
