@@ -109,4 +109,4 @@ _Martin Fowler_
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](/Code Smells/How to Find the Stinky parts of your Code/readme.md)
+[How to Find the Stinky parts of your Code](/Code Smells/How%20%to%20%Find%20%the%20%Stinky%20%parts%20%of%20%your%20%Code/readme.md)
