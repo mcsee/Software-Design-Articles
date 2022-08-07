@@ -79,9 +79,9 @@ We must exchange opinions and value each pros and cons.
 
 # Relations
 
-[Code Smell 102 - Arrow Code](../Code+Smells%5CCode+Smell+102+-+Arrow+Code/readme.md)
+[Code Smell 102 - Arrow Code](..\Code Smells\Code Smell 102 - Arrow Code)
 
-[Code Smell 36 - Switch/case/elseif/else/if statements](../Code+Smells%5CCode+Smell+36+-+Switch+case+elseif+else+if+statements/readme.md)
+[Code Smell 36 - Switch/case/elseif/else/if statements](..\Code Smells\Code Smell 36 - Switch case elseif else if statements)
 
 # More Info
 
@@ -89,9 +89,9 @@ We must exchange opinions and value each pros and cons.
 
 [When To Use Implicit Else](https://medium.com/lost-but-coding/when-to-use-implicit-else-e891cdcfe1bd)
 
-[Fail Fast](../Theory%5CFail+Fast/readme.md)
+[Fail Fast](..\Theory\Fail Fast)
 
-[How to Get Rid of Annoying IFs Forever](../Theory%5CHow+to+Get+Rid+of+Annoying+IFs+Forever/readme.md)
+[How to Get Rid of Annoying IFs Forever](..\Theory\How to Get Rid of Annoying IFs Forever)
 
 # Credits
 
@@ -103,10 +103,10 @@ Photo by [Elena Mozhvilo](https://unsplash.com/es/@miracleday) on [Unsplash](htt
 
 _Martin Fowler_
  
-[Software Engineering Great Quotes](../Quotes%5CSoftware+Engineering+Great+Quotes/readme.md)
+[Software Engineering Great Quotes](../Quotes\Software%20Engineering%20Great%20Quotes)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../Code+Smells%5CHow+to+Find+the+Stinky+parts+of+your+Code/readme.md)
+[How to Find the Stinky parts of your Code](../Code%20Smells/How%20to%20Find%20%the%20%Stinky%20%parts%20%of%20%your%20%Code/readme.md)
