@@ -14,7 +14,7 @@
 
 - Unforeseen conditions
 
-- [Fail Fast Principle violation](Theory\Fail Fast)
+- [Fail Fast Principle violation](../../Theory/Fail%20Fast/readme.md)
 
 # Solutions
 
@@ -24,7 +24,7 @@
 
 If we early return on an IF sentence we can omit the else part. 
 
-Afterward, we [Remove the IF](Theory\How to Get Rid of Annoying IFs Forever) and use polymorphism.
+Afterward, we [Remove the IF](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md) and use polymorphism.
 
 That is when we miss the real cases.
 
