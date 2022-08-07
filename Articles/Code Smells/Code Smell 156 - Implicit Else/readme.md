@@ -103,10 +103,10 @@ Photo by [Elena Mozhvilo](https://unsplash.com/es/@miracleday) on [Unsplash](htt
 
 _Martin Fowler_
  
-[Software Engineering Great Quotes](/Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](../Quotes\Software%20Engineering%20Great%20Quotes)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](/Code%20%Smells/How%20%to%20%Find%20%the%20%Stinky%20%parts%20%of%20%your%20%Code/readme.md)
+[How to Find the Stinky parts of your Code](../Code%20Smells/How%20to%20Find%20%the%20%Stinky%20%parts%20%of%20%your%20%Code/readme.md)
