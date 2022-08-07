@@ -256,7 +256,7 @@ With this outcome:
 
 *In this case default behaviour is no needed since exceptions break flow. In many times a Null Object will be enough.
 
-[Code Smell 12 - Null](Code Smells\Code Smell  12 - Null)
+[Code Smell 12 - Null](Code Smells\Code Smell 12 - Null)
 
 3- New ratings will bring new IFs.
 

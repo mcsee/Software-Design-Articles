@@ -80,7 +80,7 @@ Magic castings and flexibility have a price. They put the rubbish under the rug 
 
 [Code Smell 06 - Too Clever Programmer](Code Smells\Code Smell 06 - Too Clever Programmer)
 
-[Code Smell 12 - Null](Code Smells\Code Smell  12 - Null)
+[Code Smell 12 - Null](Code Smells\Code Smell 12 - Null)
 
 # Credits
 

@@ -290,7 +290,7 @@ Some languages ​​support optionally the concept of Maybe/Optional which is a
 
 %[https://en.wikipedia.org/wiki/Option_type]
 
-[Code Smell 12 - Null](Code Smells\Code Smell  12 - Null)
+[Code Smell 12 - Null](Code Smells\Code Smell 12 - Null)
 
 # Conclusions
 

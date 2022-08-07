@@ -76,7 +76,7 @@ Naming them as 'data' is lazy and hinders readability.
 
 # Relations
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell  01 - Anemic Models)
+[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
 
 [Code Smell 65 - Variables Named after Types](Code Smells\Code Smell 65 - Variables Named after Types)
 

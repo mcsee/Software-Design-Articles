@@ -89,7 +89,7 @@ Case 3) A bitcoin wallet can be represented as an anemic object (with some prope
 
 To solve these types of problems we must stop seeing entities as *data structures with attributes*, think of them as objects and understand that they are the same object fulfilling different roles depending on the context in which they are interacting.
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell  01 - Anemic Models)
+[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
 
 Case 4) In most modern object programming languages, a date can be constructed by creating it from its day, month, and year.
 

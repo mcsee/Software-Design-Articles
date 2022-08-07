@@ -24,7 +24,7 @@
 
 # Context
 
-Many developers still think classes are [data repositories](Code Smells\Code Smell  01 - Anemic Models).
+Many developers still think classes are [data repositories](Code Smells\Code Smell 01 - Anemic Models).
 
 They couple *different behavior* concept with *returning different data*.
 
@@ -93,7 +93,7 @@ Empty classes do nothing.
 
 [Code Smell 60 - Global Classes](Code Smells\Code Smell 60 - Global Classes)
 
-[Code Smell 01 - Anemic Models](Code Smells\Code Smell  01 - Anemic Models)
+[Code Smell 01 - Anemic Models](Code Smells\Code Smell 01 - Anemic Models)
 
 # More Info
 

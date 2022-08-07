@@ -700,7 +700,7 @@ Nathan Myhrvold
 
 _Tony Hoare_
 
-[Code Smell 12 - Null](Code Smells\Code Smell  12 - Null)
+[Code Smell 12 - Null](Code Smells\Code Smell 12 - Null)
 
 * * *
 
