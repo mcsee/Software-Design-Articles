@@ -380,6 +380,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 156 - Implicit Else](/Articles/Code%20Smells/Code%20Smell%20156%20-%20Implicit%20Else/readme.md)
 
+* [Code Smell 157 - Balance at 0](/Articles/Code%20Smells/Code%20Smell%20157%20-%20Balance%20at%200/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)

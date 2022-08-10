@@ -2,7 +2,7 @@
 
 ![Explain in 5 Levels of Difficulty: Linux](desktop_e3c7693a-095c-42c0-a832-08d084eb0b8c.gif)
 
-TL;DR: What are the Pros and Cons of using Linux
+> TL;DR: What are the Pros and Cons of using Linux
 
 Hello Linux Lovers!
 
@@ -54,7 +54,7 @@ Despite its drawbacks, Linux is a popular operating system that is here to stay.
 
 # College Student
 
-Linux is a powerful and free operating system..
+Linux is a powerful and free operating system...
 
 Here are four benefits of using Linux that make it a great choice for students:
 

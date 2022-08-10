@@ -32,15 +32,15 @@ After we have good coverage we need to refactor and reduce methods.
 ```php
 <?
 
-function retrieveImagesFrom(string imageUrls) {
-  foreach ($imageUrls as $index=>$imageFilename) {
+function retrieveImagesFrom(array $imageUrls) {
+  foreach ($imageUrls as $index => $imageFilename) {
     $imageName = $imageNames[$index];
     $fullImageName = $this->directory() . "\\" . $imageFilename;
     if (!file_exists($fullImageName)) {
       if (str_starts_with($imageFilename, 'https://cdn.example.com/')) {
           // TODO: Remove Hardcode
           $url = $imageFilename;
-          // This variable duplication is no really necesary 
+          // This variable duplication is not really necessary 
           // When we scope variables        
           $saveto= "c:\\temp"."\\".basename($imageFilename);
           // TODO: Remove Hardcode
@@ -68,9 +68,9 @@ function retrieveImagesFrom(string imageUrls) {
               }
           }
           if (!$found){
-            throw new \Exception('We could'nt find image');
+            throw new \Exception('We couldnt find image');
          }
-        // Debugguing at this point our context is polluted with variables
+        // Debugging at this point our context is polluted with variables
         // from previous executions no longer needed
         // for example: the curl handler
   }

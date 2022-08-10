@@ -182,7 +182,7 @@ In the first example:
 ```php
 <?
 
-Interface SocialInteraction{
+Interface SocialInteraction {
     public function propagate($aVirus);
 }
 
