@@ -26,10 +26,6 @@
 
 - Optimized loops
 
-# Exceptions
-
-- Optimized code for low-level operations.
-
 # Sample Code
 
 ## Wrong
@@ -78,6 +74,10 @@ function primeFactors(numberToFactor) {
 
 Automatic detection is possible in some languages.
 Watch some warnings related to complexity, bad names, post-increment variables, etc.
+
+# Exceptions
+
+- Optimized code for low-level operations.
 
 # Relations
 

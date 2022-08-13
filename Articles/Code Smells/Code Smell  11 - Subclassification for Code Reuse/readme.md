@@ -16,10 +16,6 @@
 
 - Replace inheritance with composition.
 
-# Exceptions
-
-- If hierarchy follows the principle *behaves like* then it is safe.
-
 # Sample Code
 
 ## Wrong
@@ -112,6 +108,10 @@ public final class Box {
 
 - Overriding can issue warnings when subclassing concrete methods.
 - Deep Hierarchies (more than 3 levels) are also a clue of bad subclassing.
+
+# Exceptions
+
+- If hierarchy follows the principle *behaves like* then it is safe.
 
 # Tags
 

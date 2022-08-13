@@ -24,10 +24,6 @@
 
 - Libraries
 
-# Exceptions
-
-- [Facades](https://en.wikipedia.org/wiki/Facade_pattern)
-
 # Sample Code
 
 ## Wrong
@@ -66,6 +62,10 @@ class Soldier {
 # Detection
 
 Linters can count methods and warn against a threshold.
+
+# Exceptions
+
+- [Facades](https://en.wikipedia.org/wiki/Facade_pattern)
 
 # Tags
 

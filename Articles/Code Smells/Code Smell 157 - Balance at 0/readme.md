@@ -26,7 +26,7 @@ Especially on crypto.
 
 Last week, I read about a [crypto hack thread](https://twitter.com/stephenlacy/status/1554697083331891201).
 
-When my wallet show me 0 as a balance, I panicked.
+When my wallet showed me 0 as a balance, I panicked.
 
 It was just a UX smell.
 

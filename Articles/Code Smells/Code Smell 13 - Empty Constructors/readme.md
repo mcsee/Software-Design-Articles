@@ -31,10 +31,6 @@ Incomplete objects cause lots of issues.*
 
 - Some persistence frameworks in static typed languages require an empty constructor.
 
-# Exceptions
-
-- Stateless objects. Always better solution than static class methods.
-
 # Sample Code
 
 ## Wrong
@@ -62,6 +58,10 @@ class AirTicket {
 # Detection
 
 Any linter can warn this (possible) situation.
+
+# Exceptions
+
+- Stateless objects. Always better solution than static class methods.
 
 # More info
 

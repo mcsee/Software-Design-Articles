@@ -19,12 +19,6 @@ TL;DR: Do not keep code "just in case I need it".
 
 - Gold plating code or [Yagni](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) code.
 
-# Exceptions
-
-- Avoid metaprogramming. When used, it is very difficult to find references to the code.
-
-[Laziness I - Metaprogramming](../../Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
-
 # Sample Code
 
 ## Wrong
@@ -59,6 +53,12 @@ class Robot {
 # Detection
 
 Coverage tools can find dead code (uncovered) if you have a great suite of tests.
+
+# Exceptions
+
+- Avoid metaprogramming. When used, it is very difficult to find references to the code.
+
+[Laziness I - Metaprogramming](../../Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
 
 # Tags
 

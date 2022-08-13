@@ -22,10 +22,6 @@ This also follows [Open/Closed Principle](https://en.wikipedia.org/wiki/Open%E2%
 
 - Flags 
 
-# Exceptions
-
--  Real world true/false rules
-
 # Sample Code
 
 ## Wrong
@@ -59,6 +55,10 @@ function processBatch(
 # Detection
 
 Automatic detection can warn for boolean usage, but this can yield false positives.
+
+# Exceptions
+
+-  Real world true/false rules
 
 # Relations
 

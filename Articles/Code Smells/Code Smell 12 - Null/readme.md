@@ -29,10 +29,6 @@ Multiple semantics lead to coupling and errors.*
 
 [Null: The Billion Dollar Mistake](../../Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
-# Exceptions
-
-- APIs, Databases and external systems where NULL does exist.
-
 # Sample Code
 
 ## Wrong
@@ -127,6 +123,10 @@ cart = new Cart([new CartItem(1), new CartItem(2), new CartItem(7)], new NullCou
 # Detection
 
 Most Linters can show null usages and warn us.
+
+# Exceptions
+
+- APIs, Databases and external systems where NULL does exist.
 
 # Tags
 

@@ -24,10 +24,6 @@
 
 - Avoid "basic" Types: strings, arrays, integers, etc. Think on objects.
 
-# Exceptions
-
-- Operations in real world needing not cohesive collaborators.
-
 # Sample Code
 
 ## Wrong
@@ -100,6 +96,10 @@ final public class Printer {
 # Detection
 
 Most linters warn when the arguments list is too large.
+
+# Exceptions
+
+- Operations in real world needing not cohesive collaborators.
 
 # Tags
 

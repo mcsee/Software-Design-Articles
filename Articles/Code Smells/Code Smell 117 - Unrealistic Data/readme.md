@@ -94,7 +94,13 @@ This is a semantic smell.
 
 # Tags
 
-- Testing
+- Testing		
+
+# Exceptions
+
+On some domains and under regulation we cannot use real data. 
+
+We should fake it with meaningful data.
 
 # Conclusion
 
@@ -103,12 +109,6 @@ Code comments are a [code smell](../../Code%20Smells/Code%20Smell%2005%20-%20Com
 Reading tests is the only way to learn how the software behaves.
 
 We need to be extra explicit on our tests.
-
-# Exceptions
-
-On some domains and under regulation we cannot use real data. 
-
-We should fake it with meaningful data.
 
 # Relations
 
