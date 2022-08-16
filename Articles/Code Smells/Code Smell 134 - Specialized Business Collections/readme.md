@@ -123,13 +123,13 @@ final class DictionaryTest extends TestCase {
 
 Based on protocols, we should remove some unnecessary classes 
 
-# Tags
-
-- Protocols
-
 # Exceptions
 
 Sometimes we need to optimize collections for performance reasons if we have enough strong evidence.
+
+# Tags
+
+- Protocols
 
 # Conclusion
 

@@ -78,12 +78,6 @@ dog.walk();
 
  Automatic detection is possible using parsing trees.
 
-# Also Known as
-
-- Message Chains
-
-- Law of Demeter
-
 # Relations
 
 [Code Smell 67 - Middle Man](../../Code%20Smells/Code%20Smell%2067%20-%20Middle%20Man/readme.md)
@@ -101,6 +95,12 @@ dog.walk();
 # Conclusion
 
 Avoid successive message calls. Try to hide the intermediate collaborations and create new protocols. 
+
+# Also Known as
+
+- Message Chains
+
+- Law of Demeter
 
 # Credits
 

@@ -2,16 +2,6 @@
 
 ![Fail Fast](chuttersnap-cGXdjyP6-NU-unsplash.jpg)
 
-*Failure is fashionable. Making is much easier than thinking and failures are not stigma, let's take this idea to our code.*
-
-> TL;DR: Fail fast. Don't hide your mistakes under the rug.
-
-Failure to program in the 1950s had dire consequences. Machine time was very expensive. Jumping from punch cards to the compiler and then to execution could take hours or even days.
-
-Luckily those times are long gone. Are they?
-
-*Failure is fashionable. Making is much easier than thinking and failures are not stigma, let's take this idea to our code.*
-
 > TL;DR: Fail fast. Don't hide your mistakes under the rug.
 
 Failure to program in the 1950s had dire consequences. Machine time was very expensive. Jumping from punch cards to the compiler and then to execution could take hours or even days.

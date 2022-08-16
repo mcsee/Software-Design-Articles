@@ -79,24 +79,24 @@ Watch some warnings related to complexity, bad names, post-increment variables, 
 
 - Optimized code for low-level operations.
 
+# Tags
+
+- Declarative
+
 # Relations
 
 [Code Smell 02 - Constants and Magic Numbers](../../Code%20Smells/Code%20Smell%20%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
 
 [Code Smell 20 - Premature Optimization](../../Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
-# Also Known as
-
-- Obfuscator
-
 # Conclusion
 
 Too clever developers write cryptic code to brag. Smart developers write clean code. 
 Clear beats clever.
 
-# Tags
+# Also Known as
 
-- Declarative
+- Obfuscator
 
 # More Info
 

@@ -92,15 +92,15 @@ class BookCartTestCase(unittest.TestCase):
 
 This is a semantic smell.
 
-# Tags
-
-- Testing		
-
 # Exceptions
 
 On some domains and under regulation we cannot use real data. 
 
 We should fake it with meaningful data.
+
+# Tags
+
+- Testing
 
 # Conclusion
 

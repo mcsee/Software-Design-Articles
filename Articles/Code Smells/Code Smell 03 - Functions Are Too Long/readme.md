@@ -64,10 +64,6 @@ All linters can measure and warn when methods are larger than a predefined thres
 
 -[Code Smell 102 - Arrow Code](../../Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md)
 
-# Also Known as
-
-- Long Method
-
 # More info
 
 - [Refactoring Guru](https://refactoring.guru/es/smells/long-method)
@@ -79,6 +75,10 @@ All linters can measure and warn when methods are larger than a predefined thres
 # Conclusion
 
 Extract long method into smaller pieces. Break complex algorithms in parts. You can also unit test these parts.
+
+# Also Known as
+
+- Long Method
 
 # Credits
 

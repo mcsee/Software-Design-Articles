@@ -61,15 +61,15 @@ if (isOpen(file) && size(contents(file)) > 0)
 
 We can warn our developers when they use full evaluation.
 
-# Tags
-
-- Boolean
-
 # Exceptions
 
 Don't use short-circuit as an IF alternative. 
 
 if the operands have side effects, this is another code smell. 
+
+# Tags
+
+- Boolean
 
 # Conclusion
 

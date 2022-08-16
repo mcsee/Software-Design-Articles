@@ -2,7 +2,7 @@
 
 ![Code Smell 48 - Code Without Standards](Synchronized_swimming_-_Russian_team.jpg)
 
-*Working on a solo project is easy. Unless you go back to it after some months. Working with many other developers require some agreements.*
+*Working on a solo project is easy. Unless you go back to it after some months. Working with many other developers requires some agreements.*
 
 # Problems
 
@@ -117,6 +117,8 @@ public class Account {
 }
 ```
 
+*The Right example has several other smells, but we keep it loyal to its GIT version in order to show only code standardization issues.*
+
 # Detection
 
 Linters and IDEs should test coding standards before a merge request is approved.
@@ -139,11 +141,17 @@ A well-written clean code always follows standards about naming conventions, for
 
 Such standards are helpful because they make things clear and deterministic for the ones who read your code, including yourself.
 
+Code styling should be automatic and mandatory on large organizations to enforce [Collective Ownership](https://wiki.c2.com/?CollectiveCodeOwnership).
+
+Automatic code formatting by a parser or compiler is the way machines gives us feedback on how their interpret our instructions.
+
+It could prevent disagreements and follows fail fast principle.
+
+[Fail Fast](../../Theory/Fail%20Fast/readme.md)
+
 # Relations
 
 [Code Smell 06 - Too Clever Programmer](../../Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
-
-[Code Smell 98 - Speling Mistakes](../../Code%20Smells/Code%20Smell%2098%20-%20Speling%20Mistakes/readme.md)
 
 # More info
 
@@ -151,7 +159,7 @@ Such standards are helpful because they make things clear and deterministic for 
 
 # Credits
 
-Photo by De Jesus de Blas - Russia
+Comic by [XKCD](https://xkcd.com/927/)
 
 * * *
 

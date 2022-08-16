@@ -384,6 +384,14 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 158 - Variables not Variable](/Articles/Code%20Smells/Code%20Smell%20158%20-%20Variables%20not%20Variable/readme.md)
 
+* [Code Smell 160 - Invalid Id = 9999](/Articles/Code%20Smells/Code%20Smell%20160%20-%20Invalid%20Id%20%3D%209999/readme.md)
+
+* [Code Smell 161 - Abstract/Final/Undefined Classes](/Articles/Code%20Smells/Code%20Smell%20161%20-%20Abstract%20Final%20Undefined%20Classes/readme.md)
+
+### Unsorted
+
+* [CoDe SmElL 159 - mIxEd cASe](/Articles/Unsorted/CoDe%20SmElL%20159%20-%20mIxEd%20cASe/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
@@ -391,6 +399,8 @@ In this repository, you will find many articles related to Software Design
 * [The Reasons I Started Technical Blogging](/Articles/Blogging/The%20Reasons%20I%20Started%20Technical%20Blogging/readme.md)
 
 * [Today I Learned the Concept of Gardening](/Articles/Blogging/Today%20I%20Learned%20the%20Concept%20of%20Gardening/readme.md)
+
+* [Why I Create Content as a Developer and Teacher](/Articles/Blogging/Why%20I%20Create%20Content%20as%20a%20Developer%20and%20Teacher/readme.md)
 
 * [5 Big Mistakes I Made Writing Technical Articles](/Articles/Blogging/5%20Big%20Mistakes%20I%20Made%20Writing%20Technical%20Articles/readme.md)
 
@@ -401,6 +411,8 @@ In this repository, you will find many articles related to Software Design
 * [I Wrote More than 90 Articles on 2021 Here is What I Learned](/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md)
 
 ### Productivity
+
+* [Mastering Atomic Habits](/Articles/Productivity/Mastering%20Atomic%20Habits/readme.md)
 
 * [My Best Short Productivity Tips](/Articles/Productivity/My%20Best%20Short%20Productivity%20Tips/readme.md)
 
@@ -493,4 +505,6 @@ In this repository, you will find many articles related to Software Design
 ### Explain in 5 Levels
 
 * [Explain in 5 Levels of Difficulty: Linux](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20Linux/readme.md)
+
+* [Explain in 5 Levels of Difficulty: Object-Oriented Programming](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20Object-Oriented%20Programming/readme.md)
 

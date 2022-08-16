@@ -69,7 +69,7 @@ function userPassword() : string {
   return '123456';
 }
 
-// Case is oversimplification as usual
+// Case is an oversimplification as usual
 ```
 
 # Detection

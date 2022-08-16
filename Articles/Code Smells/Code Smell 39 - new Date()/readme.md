@@ -51,6 +51,10 @@ function testTimePasses() {
 
 We should forbid global functions policies. We need to couple to accidental and pluggable time sources.
 
+# Tags
+
+- Globals
+
 # Conclusion
 
 ```Date.today() , Time.now()```,  and other global system calls are coupling smell. 
@@ -68,10 +72,6 @@ The passage of time is always scorned by programmers. This makes objects mutable
 # More info
 
 [The Evil Power of Mutants](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
-
-# Tags
-
-- Globals
 
 * * *
 

@@ -131,6 +131,3 @@ Linux is a great choice for many people. It is also very secure and stable, maki
 ---
 
 Whatever your level of expertise, you can take advantage of Linux in your work and daily life.
-
-
-

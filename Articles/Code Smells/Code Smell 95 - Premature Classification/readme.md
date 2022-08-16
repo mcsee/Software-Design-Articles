@@ -6,11 +6,6 @@
 
 > TL;DR: Don't guess what the future will bring you.
 
-# Context
-
-Aristotelian Classification is a big problem in computer science. 
-We tend to classify and name things **before** gathering enough knowledge and context.
-
 # Problems
 
 - Futurology
@@ -22,6 +17,11 @@ We tend to classify and name things **before** gathering enough knowledge and co
 1. Wait for concretions
 
 2. Refactor late
+
+# Context
+
+Aristotelian Classification is a big problem in computer science. 
+We tend to classify and name things **before** gathering enough knowledge and context.
 
 # Sample Code
 

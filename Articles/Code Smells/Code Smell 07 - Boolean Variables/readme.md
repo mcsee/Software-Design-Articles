@@ -68,10 +68,6 @@ Some languages have issues with boolean comparators.
 
 In these coupled with accidental complexity languages, booleans are a common error source.
 
-# Also Known as
-
-- Flag Abuser
- 
 # Tags
 
 - Declarative
@@ -86,6 +82,10 @@ In these coupled with accidental complexity languages, booleans are a common err
 
 Take extra care when declaring something *boolean*. Flags are difficult to maintain and extend. 
 Learn more about the domain. Try migrating to [state design pattern](https://en.wikipedia.org/wiki/State_pattern). Use polymorphism instead of ifs/switch/cases.
+
+# Also Known as
+
+- Flag Abuser
 
 # Credits
 

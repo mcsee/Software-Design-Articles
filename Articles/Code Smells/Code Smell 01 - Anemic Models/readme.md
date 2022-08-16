@@ -84,10 +84,6 @@ class GraphicWindow:
 Sophisticated linters can automate detection.
 They should ignore setters and getters and count real behavior methods.
 
-# Also Known as
-
-- Data Class
-
 # Tags
 
 - Anemic
@@ -100,6 +96,10 @@ They should ignore setters and getters and count real behavior methods.
 
 Avoid anemic models. Focus always on protocol instead of data. 
 [Behaviour](../../Theory/No%20Silver%20Bullet/readme.md) is essential, data is accidental.
+
+# Also Known as
+
+- Data Class
 
 # Relations
 
