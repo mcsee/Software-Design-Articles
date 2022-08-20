@@ -18,6 +18,10 @@
 
 1. Change the variable to a constant and be clear on its scope
 
+# Refactorings
+
+[Refactoring 003 - Extract Constant](../../Refactorings/Refactoring%20003%20-%20Extract%20Constant/readme.md)
+
 # Context
 
 We are always learning from the domain.
@@ -97,10 +101,6 @@ We must challenge ourselves and refactor when the variable scope is clear and we
 [Code Smell 107 - Variables Reuse](../../Code%20Smells/Code%20Smell%20107%20-%20Variables%20Reuse/readme.md)
 
 [Code Smell 02 - Constants and Magic Numbers](../../Code%20Smells/Code%20Smell%20%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
-
-# Refactorings
-
-[Refactoring 003 - Extract Constant](../../Refactorings/Refactoring%20003%20-%20Extract%20Constant/readme.md)
 
 # More Info
 

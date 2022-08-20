@@ -16,6 +16,10 @@
 
 2. Enforce agreed policies.
 
+# Examples
+
+- [PSR2](https://www.php-fig.org/psr/psr-2/)
+
 # Sample Code
 
 ## Wrong
@@ -124,10 +128,6 @@ public class Account {
 Linters and IDEs should test coding standards before a merge request is approved.
 
 We can add our own [naming conventions](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md) related to Objects, Classes, Interfaces, Modules etc.
-
-# Examples
-
-- [PSR2](https://www.php-fig.org/psr/psr-2/)
 
 # Tags
 

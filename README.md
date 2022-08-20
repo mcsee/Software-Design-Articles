@@ -384,13 +384,11 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 158 - Variables not Variable](/Articles/Code%20Smells/Code%20Smell%20158%20-%20Variables%20not%20Variable/readme.md)
 
+* [CoDe SmElL 159 - mIxEd_cASe](/Articles/Code%20Smells/CoDe%20SmElL%20159%20-%20mIxEd%20cASe/readme.md)
+
 * [Code Smell 160 - Invalid Id = 9999](/Articles/Code%20Smells/Code%20Smell%20160%20-%20Invalid%20Id%20%3D%209999/readme.md)
 
 * [Code Smell 161 - Abstract/Final/Undefined Classes](/Articles/Code%20Smells/Code%20Smell%20161%20-%20Abstract%20Final%20Undefined%20Classes/readme.md)
-
-### Unsorted
-
-* [CoDe SmElL 159 - mIxEd cASe](/Articles/Unsorted/CoDe%20SmElL%20159%20-%20mIxEd%20cASe/readme.md)
 
 ### Blogging
 

@@ -22,6 +22,10 @@
 
 - Use [better names](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
 
+# Refactorings
+
+[Refactoring 005 - Replace Comment with Function Name](../../Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
+
 # Examples
 
 - Optimized loops
@@ -101,10 +105,6 @@ Clear beats clever.
 # More Info
 
 https://ardalis.com/are-boolean-flags-on-methods-a-code-smell/
-
-# Refactorings
-
-[Refactoring 005 - Replace Comment with Function Name](../../Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
 
 # Credits
 

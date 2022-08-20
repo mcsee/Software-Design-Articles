@@ -26,6 +26,10 @@
 
 5. Use [Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design) technique.
 
+# Examples
+
+- [Automatic Code Generators](../../Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
+
 # Sample Code
 
 ## Wrong
@@ -78,10 +82,6 @@ final class LoanTrackerTests extends TestCase {
 # Detection
 
 We can remove all code annotations and forbid them by policy. 
-
-# Examples
-
-- [Automatic Code Generators](../../Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
 
 # Conclusion
 

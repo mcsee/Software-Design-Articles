@@ -31,6 +31,10 @@ Comments are coupled to implementation and hardly maintained.*
 
 [What exactly is a name — Part I The Quest](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
 
+# Refactorings
+
+[Refactoring 005 - Replace Comment with Function Name](../../Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
+
 # Examples
 
 - Libraries
@@ -89,10 +93,6 @@ Linters can detect comments and check the ratio of comments/lines of code agains
 # Relations
 
 [Code Smell 75 - Comments Inside a Method](../../Code%20Smells/Code%20Smell%2075%20-%20Comments%20Inside%20a%20Method/readme.md)
-
-# Refactorings
-
-[Refactoring 005 - Replace Comment with Function Name](../../Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
 
 # More info
 

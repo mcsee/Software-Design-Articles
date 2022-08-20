@@ -26,6 +26,10 @@
 
 2. Set essential attributes on private initialization.
 
+# Examples
+
+- DTOs
+
 # Sample Code
 
 ## Wrong 
@@ -138,10 +142,6 @@ First step will be to forbid public attributes (if language allows them).
 Secondly, we will search for methods *setXXXX()*, analyzing method structure (should be an assignment to attribute *xxxx*).
 
 We should not forbid methods setting *accidental state* since this is valid. They should not be named *setters* since they ask the object to *change*, but they don't *set* anything. 
-
-# Examples
-
-- DTOs
 
 # Exceptions
 

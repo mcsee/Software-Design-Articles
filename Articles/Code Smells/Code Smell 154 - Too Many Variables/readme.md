@@ -18,6 +18,10 @@
 
 2. Remove unused variables
 
+# Refactorings
+ 
+[Refactoring 002 - Extract Method](../../Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
+
 # Context
 
 Our code should be dirty when programming and writing test cases fast.
@@ -128,10 +132,6 @@ We should use it a lot.
 [Code Smell 107 - Variables Reuse](../../Code%20Smells/Code%20Smell%20107%20-%20Variables%20Reuse/readme.md)
 
 [Code Smell 62 - Flag Variables](../../Code%20Smells/Code%20Smell%2062%20-%20Flag%20Variables/readme.md)
-
-# Refactorings
- 
-[Refactoring 002 - Extract Method](../../Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
 # Credits
 

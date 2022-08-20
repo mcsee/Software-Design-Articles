@@ -24,7 +24,7 @@
 
 2. [Extract Class](../../Refactorings/Refactoring%20007%20-%20Extract%20Class/readme.md)
 
-# Related Refactorings
+# Refactorings
 
 [Refactoring 007 - Extract Class](../../Refactorings/Refactoring%20007%20-%20Extract%20Class/readme.md)
 

@@ -22,6 +22,10 @@
 
 2. Implement Source Version Control
 
+# Refactorings
+
+[Refactoring 005 - Replace Comment with Function Name](../../Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
+
 # Context
 
 When debugging code we tend to comment on code to see what happens.
@@ -91,10 +95,6 @@ We need to remove all commented-out code.
 [Code Smell 75 - Comments Inside a Method](../../Code%20Smells/Code%20Smell%2075%20-%20Comments%20Inside%20a%20Method/readme.md)
 
 [Code Smell 05 - Comment Abusers](../../Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
-
-# Refactorings
-
-[Refactoring 005 - Replace Comment with Function Name](../../Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
 
 # Credits
 

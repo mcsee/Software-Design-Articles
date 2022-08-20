@@ -24,6 +24,10 @@
 
 5. Unit test new abstraction.
 
+# Examples
+
+- [Automatic Code Generators](../../Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
+
 # Sample Code
 
 ## Wrong
@@ -85,10 +89,6 @@ There are not very good finding similar patterns.
 Maybe soon machine learning will help us find such abstractions automatically. 
 
 For now, it is up to us, humans.
-
-# Examples
-
-- [Automatic Code Generators](../../Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
 
 # Tags
 

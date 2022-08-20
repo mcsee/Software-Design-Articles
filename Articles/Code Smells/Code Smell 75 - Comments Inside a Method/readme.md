@@ -24,6 +24,10 @@
 
 3. Remove not declarative comments.
 
+# Refactorings
+
+[Refactoring 005 - Replace Comment with Function Name](../../Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
+
 # Sample Code
 
 ## Wrong
@@ -138,10 +142,6 @@ Comments are a code smell. If you need to document a design decision, you should
 [Code Smell 74 - Empty Lines](../../Code%20Smells/Code%20Smell%2074%20-%20Empty%20Lines/readme.md)
 
 [Code Smell 05 - Comment Abusers](../../Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
-
-# Refactorings
-
-[Refactoring 005 - Replace Comment with Function Name](../../Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
 
 # Credits
 

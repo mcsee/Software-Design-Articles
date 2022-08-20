@@ -24,6 +24,14 @@
 
 2. Create polymorphic objects. Inject them externally.
 
+# Examples
+
+- External Connection Settings
+
+- User settings
+
+- [Feature Toggle](https://en.wikipedia.org/wiki/Feature_toggle)
+
 # Sample Code
 
 ## Wrong 
@@ -61,14 +69,6 @@ class VerySpecificAndSmallObjectDealingWithPersistency {
 # Detection
 
 This is an architectural pattern so it should be controlled/avoided by design policies. 
-
-# Examples
-
-- External Connection Settings
-
-- User settings
-
-- [Feature Toggle](https://en.wikipedia.org/wiki/Feature_toggle)
 
 # Exceptions
 
