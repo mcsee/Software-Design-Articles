@@ -50,6 +50,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Software Engineer Maxi Contieri on writing about “boring” fundamentals](/Articles/Opinion/Software%20Engineer%20Maxi%20Contieri%20on%20writing%20about%20%E2%80%9Cboring%E2%80%9D%20fundamentals/readme.md)
 
+* [10 Pieces of Advice to Get your First Job from a Senior Interviewer](/Articles/Opinion/10%20Pieces%20of%20Advice%20to%20Get%20your%20First%20Job%20from%20a%20Senior%20Interviewer/readme.md)
+
 * [50 Fundamental Advices for Junior Developers](/Articles/Opinion/50%20Fundamental%20Advices%20for%20Junior%20Developers/readme.md)
 
 ### Quotes
@@ -406,6 +408,8 @@ In this repository, you will find many articles related to Software Design
 
 * [10 Tricks to Build an Awesome Personal Portfolio and Get Your Dream Job](/Articles/Blogging/10%20Tricks%20to%20Build%20an%20Awesome%20Personal%20Portfolio%20and%20Get%20Your%20Dream%20Job/readme.md)
 
+* [Top 10 Software Developer Self-Improvement Sites](/Articles/Blogging/Top%2010%20Software%20Developer%20Self-Improvement%20Sites/readme.md)
+
 * [I Wrote More than 90 Articles on 2021 Here is What I Learned](/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md)
 
 ### Productivity
@@ -491,6 +495,8 @@ In this repository, you will find many articles related to Software Design
 * [Refactoring 006 - Rename Result Variables](/Articles/Refactorings/Refactoring%20006%20-%20Rename%20Result%20Variables/readme.md)
 
 * [Refactoring 007 - Extract Class](/Articles/Refactorings/Refactoring%20007%20-%20Extract%20Class/readme.md)
+
+* [Refactoring 008 - Convert Variables to Constant](/Articles/Refactorings/Refactoring%20008%20-%20Convert%20Variables%20to%20Constant/readme.md)
 
 ### Wordle
 

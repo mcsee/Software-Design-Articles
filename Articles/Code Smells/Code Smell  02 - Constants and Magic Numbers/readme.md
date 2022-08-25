@@ -8,7 +8,7 @@
 
 # Problems
 
-- [Coupling](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+- [Coupling](/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 - Low testability
 - Low readability
 

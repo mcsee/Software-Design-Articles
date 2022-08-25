@@ -2,7 +2,7 @@
 
 ![Mastering Atomic Habits](giphy.gif)
 
-TL;DR: Some habit-building tips and tricks
+> TL;DR: Some habit-building tips and tricks.
 
 If you want to change your life, you need to start with your habits. 
 
@@ -24,13 +24,13 @@ The first step is to become aware of your habits.
 
 Habits are automated behaviors that we have learned from experience.
 
-You need to start paying attention to the things you do every day, without thinking. 
+You have to start paying attention to the things you do [every day](../../Productivity/10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2%20(2021%20Guide)/readme.md), without thinking. 
 
 When you walk through a dark room, you don't think, you try to find the light switch.
 
-What are your morning rituals? What do you do when you first sit down at your desk? What do you do when you leave work?
+What are your morning rituals? What do you do when you first sit down at your desk? What do you do when you get off work?
 
-A habit, is a behavior you have repeated several times.
+A habit is a behavior you have repeated several times.
 
 Once you become aware of your habits, you can start to change them. If you want to change your life, you need to start with your habits.
 
@@ -38,9 +38,9 @@ Atomic habits are small habits that you can do every day to improve your life.
 
 Atomic habits are the building blocks of your success. 
 
-By creating atomic habits, you can improve your life without feeling overwhelmed.
+By creating [atomic habits](https://jamesclear.com/atomic-habits), you can improve your life without feeling overwhelmed.
 
-# Habits Formation
+# Habit Formation
 
 We learn by trial and error.
 
@@ -64,7 +64,7 @@ This is the power of classical conditioning. And it’s how we form all habits.
 
 Atomic habits are small and easy to do, but they can have a big impact over time. 
 
-For example, if you want to eat healthier, you could start by adding a salad to your diet each day. 
+If you want to eat healthier, you could start by adding a salad to your diet each day. 
 
 This small change can lead to big results over time, like losing weight and feeling better.
 
@@ -72,11 +72,11 @@ When it comes to forming new habits, we often underestimate the power of small, 
 
 We tell ourselves that we need to make radical overhauls to our lives to see results. 
 
-Even the smallest of tweaks can lead to big results over time.
+Even the smallest adjustments can lead to big results over time.
 
 This is the principle of “compounding” – small changes compound to create large results. And it’s the key to making lasting change in your life.
 
-Let’s say you want to start working out. You know you need to exercise for at least 30 minutes a day to see results. 
+Going back to start working out. You know you need to exercise for at least 30 minutes a day to see results. 
 
 But instead of jumping into a strenuous workout routine, you start by walking for 10 minutes a day.
 
@@ -92,21 +92,19 @@ Remember, it’s the small, consistent steps that will get you there. So trust t
 
 Make the habit as easy to adopt as possible removing all excuses and obstacles.
 
-# A Plan of action
+# An Action Plan
 
 All habits are triggered by signals or stimuli. 
 
-[Turning off all notifications](../../Productivity/What%20is%20JOMO%20and%20Why%20it%20will%20Increase%20your%20Productivity%20x97/readme.md) is a plan of action to avoid stimuli (and the habits).
+[Turning off all notifications](../../Productivity/What%20is%20JOMO%20and%20Why%20it%20will%20Increase%20your%20Productivity%20x97/readme.md) is a plan of action to avoid stimuli (and habits).
 
-We can *hack* our surroundings to favor better habits by reducing bad stimuli and making triggers more difficult.
-
-The first step would be to rearrange our environment to make bad habits more difficult.
+We can *hack* our environment to encourage better habits by reducing harmful stimuli and making triggers more difficult.
 
 A good plan of action requires concrete implementation steps and not vague intentions.
 
 > I will go for a walk in the national park at 8:00 PM every night.
 
-This implementation intention is specific about when (8:00 PM), where (the national park), and what (going for a walk) you will do.
+This implementation intention is specific about *when* (8:00 PM), *where* (the national park), and *what* (going for a walk) you will do.
 
 Making an implementation intention is a simple way to increase the likelihood of forming a new habit. 
 
@@ -114,11 +112,11 @@ But it's not enough to have a plan, you also need to commit to following through
 
 If you're serious about changing your habits, give implementation intentions a try. 
 
-We can use records, calendars, notebooks, trackers, and contracts to keep good habits.
+We can use records, calendars, notebooks, trackers, logs, and contracts to keep good habits.
 
 A habit tracker is also a healthy habit to keep you motivated.
 
-We are social animals and share our commitment.
+We are social animals, and sharing our commitment creates peer pressure.
 
 # Attraction
 
@@ -132,7 +130,7 @@ We also release it anticipating them like when we plan a trip.
 
 If we make a habit of something we desire, we will follow it.
 
-We can link an important not so desirable behavior to a pleasurable one.
+We can link an important not-so-desirable behavior to a pleasurable one.
 
 This is [Tempation bundling](https://jamesclear.com/temptation-bundling).
 
@@ -150,7 +148,9 @@ It is a useful tool that you can add to your arsenal in the fight against tempta
 
 # Patience
 
-We often get impatient when we don’t see immediate results from our efforts. We want to see drastic changes right away, so we give up when we don’t.
+We often get impatient when we don’t see immediate results from our efforts. 
+
+We want to see drastic changes right away, so we give up when we don’t see them.
 
 But if we can learn to be patient and trust the process, we can achieve anything we set our minds to.
 
@@ -184,9 +184,9 @@ Here are some tips for creating atomic habits:
 
 4. Be patient. Habits take time to form. Don’t get discouraged if you don’t see results immediately. Keep at it and it will become second nature.
 
-5. Reduce Friction. Make good habits as easy as possible and even easier.
+5. Reduce Friction. Make good habits as easy as possible and even more effortless.
 
-6. Break tasks into baby steps. Follow the 2 minute rule in a small incremental way.
+6. Break tasks into baby steps. Follow the 2-minute rule in a small incremental way.
 
 # Change your environment
 
@@ -221,4 +221,3 @@ Atomic habits are habits that you can do every day, that will make a big differe
 They are the kind of habits that will help you achieve your goals.
 
 It is up to you.
-

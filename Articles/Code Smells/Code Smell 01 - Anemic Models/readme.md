@@ -16,7 +16,7 @@ If we ask a domain expert to describe an entity he/she would hardly tell it is *
 
 - No [mapping](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) to real world entities.
 
-- Duplicate Code
+- Duplicate Code.
 
 - [Coupling](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 

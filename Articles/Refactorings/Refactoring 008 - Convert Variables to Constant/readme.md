@@ -1,0 +1,92 @@
+# Refactoring 008 - Convert Variables to Constant
+            
+![Refactoring 008 - Convert Variables to Constant](roots-of-big-old-tree.jpg)
+
+*If I see a Variable that does not change. I call that variable a constant*
+
+> TL;DR: Be explicit on what mutates and what does not.
+
+# Problems Addressed
+
+- [Mutability](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
+
+- Code Optimization
+
+# Related Code Smells
+
+[Code Smell 158 - Variables not Variable](../../Code%20Smells/Code%20Smell%20158%20-%20Variables%20not%20Variable/readme.md)
+
+[Code Smell 127 - Mutable Constants](../../Code%20Smells/Code%20Smell%20127%20-%20Mutable%20Constants/readme.md)
+
+[Code Smell 116 - Variables Declared With 'var'](../../Code%20Smells/Code%20Smell%20116%20-%20Variables%20Declared%20With%20'var'/readme.md)
+
+# Steps
+
+1. Find the scope of the variable
+
+2. Define a constant with the same scope
+
+3. Replace the variable 
+
+# Sample Code
+
+## Before
+
+[Gist Url]: # (https://gist.github.com/mcsee/3ae265e1ae7422164c175b16a7f822d3)
+```javascript
+let lightSpeed = 300000;
+var gravity = 9.8;
+
+// 1. Find the scope of the variable
+// 2. Define a constant with the same scope
+// 3. Replace the variable 
+```
+
+## After
+
+[Gist Url]: # (https://gist.github.com/mcsee/e25d1ded85b4547d20fee70e4c1f0ca6)
+```javascript
+const lightSpeed = 300000;
+const gravity = 9.8;
+
+// 1. Find the scope of the variable
+// 2. Define a constant with the same scope
+// 3. Replace the variable 
+
+// If the object is compound, 
+// we might need Object.freeze(gravity);
+```
+
+# Type
+
+[X] Automatic
+
+This is a safe refactor.
+
+Our IDEs can check if a variable is written but never updated.
+
+# Safety
+
+# Why code is better?
+
+Code is more compact and declarative.
+
+We can make and step further and use operators like *var* *let* *const* etc.
+
+The scope is more clear.
+
+# Tags
+
+- Mutability
+
+# Related Refactorings
+
+[Refactoring 003 - Extract Constant](../../Refactorings/Refactoring%20003%20-%20Extract%20Constant/readme.md)
+
+# See also
+
+[The Evil Power of Mutants](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
+
+* * * 
+
+This article is part of the Refactoring Series.

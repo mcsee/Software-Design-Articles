@@ -4,7 +4,9 @@
 
 ## This is an index to already published articles on software design.
 
-_There are some rules to follow and embrace to make great software designs. This article will summarize them, serving as an index to full stories._
+There are some rules to follow and embrace to make great software designs. This article will summarize them, serving as an index to full stories.
+
+> TL;DR: Important concepts about Object-Oriented Programming
 
 # Axioms
 
@@ -15,6 +17,10 @@ Build a _MAPPER_
 Keep a **bijection** to real entities:
 
 [The One and Only Software Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
+
+# Definitions
+
+[Explain in 5 Levels of Difficulty: Object-Oriented Programming](../../Explain%20in%205%20Levels//Explain%20in%205%20Levels%20of%20Difficulty%20Object-Oriented%20Programming/readme.md)
 
 # Corollaries
 
