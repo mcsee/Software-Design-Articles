@@ -14,11 +14,11 @@ If we ask a domain expert to describe an entity he/she would hardly tell it is *
 
 - No Encapsulation.
 
-- No [mapping](Theory\The One and Only Software Design Principle) to real world entities.
+- No [mapping](/Theory/The One and Only Software Design Principle) to real world entities.
 
 - Duplicate Code
 
-- [Coupling](Theory\Coupling - The one and only software design problem)
+- [Coupling](/Theory/Coupling - The one and only software design problem)
 
 - Writer / Reader mismatch.
 
@@ -121,7 +121,7 @@ Avoid anemic models. Focus always on protocol instead of data.
 
 _Rebecca Wirfs-Brock_
 
-[Software Engineering Great Quotes](Quotes\Software Engineering Great Quotes)
+[Software Engineering Great Quotes](/Quotes/Software Engineering Great Quotes)
 
 # Credits
 
