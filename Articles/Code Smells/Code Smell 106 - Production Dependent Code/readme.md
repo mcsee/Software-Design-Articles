@@ -1,6 +1,6 @@
 # Code Smell 106 - Production Dependent Code
 
-![Code Smell 106 - Production Dependent Code](birmingham-museums-trust-y3TC9H0261s-unsplash.jpg)
+![Code Smell 106 - Production Dependent Code](Code%20Smell%20106%20-%20Production%20Dependent%20Code.jpg)
 
 *Don't add IFs checking for the production environment.*
 
@@ -90,11 +90,11 @@ Use abstractions, protocol, and interfaces, avoid hard hierarchies.
 
 # Relations
 
-[Code Smell 56 - Preprocessors](../../Code%20Smells/Code%20Smell%2056%20-%20Preprocessors/readme.md)
+[Code Smell 56 - Preprocessors](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2056%20-%20Preprocessors/readme.md)
 
 # More Info
 
-- [How to avoid annoying ifs](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
+- [How to avoid annoying ifs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
 # Credits
 
@@ -110,10 +110,10 @@ This tweet was inspired by @[Jan Giacomelli](@jangia)
 
 _Daniel T. Ling_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

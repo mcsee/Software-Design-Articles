@@ -1,6 +1,6 @@
 # Code Smell 128 - Non English Coding
 
-![Code Smell 128 - Non English Coding](anna-vander-stel-zimQNLdnKp0-unsplash.jpg)
+![Code Smell 128 - Non English Coding](Code%20Smell%20128%20-%20Non%20English%20Coding.jpg)
 
 *Using your local language is a great idea because domain naming is easier. Not*
 
@@ -106,13 +106,13 @@ We can search for foreign words.
 
 Don't mix Non-English domain words with English primitives.
 
-Even when [Mapping](../../Theory/What%20is%20(wrong%20with)%20software/readme.md) your real-world entities, use plain English.
+Even when [Mapping](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) your real-world entities, use plain English.
 
 # More Info
 
 - [Coding Is for Everyone—as Long as You Speak English](https://www.wired.com/story/coding-is-for-everyoneas-long-as-you-speak-english/)
 
-- [MAPPER](../../Theory/What%20is%20(wrong%20with)%20software/readme.md)
+- [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
 # Credits
 
@@ -124,10 +124,10 @@ Photo by [Anna Vander Stel](https://unsplash.com/@ann_van_) on [Unsplash](https:
 
 _Edsger Dijkstra_
 
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

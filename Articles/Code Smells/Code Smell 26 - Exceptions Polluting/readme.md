@@ -1,6 +1,6 @@
 # Code Smell 26 - Exceptions Polluting
 
-![Code Smell 26 - Exceptions Polluting](nick-van-den-berg-2vb-_3t6YCM-unsplash.jpg)
+![Code Smell 26 - Exceptions Polluting](Code%20Smell%2026%20-%20Exceptions%20Polluting.jpg)
 
 *It is very nice to have lots of different exceptions. Your code is declarative and robust. Or not?*
 
@@ -12,17 +12,17 @@
 
 - Namespace Pollution
 
-- [Empty Classes](../../Code%20Smells/Code%20Smell%20114%20-%20Empty%20Class/readme.md)
+- [Empty Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20114%20-%20Empty%20Class/readme.md)
 
 # Solutions
 
-1. Avoid creating [anemic](../../Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md) exceptions as globals.
+1. Avoid creating [anemic](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2001%20-%20Anemic%20Models/readme.md) exceptions as globals.
 
 2. Create exceptions only if they behave differently.
 
 3. Model exceptions with objects. Classes are handy for lazy programmers.
 
-4. [Remove Unhandled Exceptions](../../Refactorings/Refactoring%20004%20-%20Remove%20Unhandled%20Exceptions/readme.md)
+4. [Remove Unhandled Exceptions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20004%20-%20Remove%20Unhandled%20Exceptions/readme.md)
 
 # Sample Code
 
@@ -125,13 +125,13 @@ Is it necessary to be a class?
 
 You are already coupled to the class. Couple to the description instead. 
 
-Exception instances should **NOT** be [Singletons](../../Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md).
+Exception instances should **NOT** be [Singletons](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md).
 
 # Relations
 
-[Code Smell 01 - Anemic Models](../../Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
+[Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2001%20-%20Anemic%20Models/readme.md)
 
-[Code Smell 114 - Empty Class](../../Code%20Smells/Code%20Smell%20114%20-%20Empty%20Class/readme.md)
+[Code Smell 114 - Empty Class](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20114%20-%20Empty%20Class/readme.md)
 
 # Credits
 
@@ -143,10 +143,10 @@ Photo by [Nick van den Berg](https://unsplash.com/@nngvandenberg) on [Unsplash](
 
 _Pierce Brown_
 
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

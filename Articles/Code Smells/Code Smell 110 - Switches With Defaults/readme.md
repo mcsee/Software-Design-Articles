@@ -1,6 +1,6 @@
 # Code Smell 110 - Switches With Defaults
 
-![Code Smell 110 - Switches With Defaults](joshua-woroniecki--5nwt_aN2E0-unsplash.jpg)
+![Code Smell 110 - Switches With Defaults](Code%20Smell%20110%20-%20Switches%20With%20Defaults.jpg)
 
 *Default means 'everything we don't know yet'. We cannot foresee the future.*
 
@@ -10,7 +10,7 @@
 
 - Coupling
 
-- [Fail Fast principle violation](../../Theory/Fail%20Fast/readme.md)
+- [Fail Fast principle violation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
 - Open closed principle violation
 
@@ -26,7 +26,7 @@ When using cases, we usually add a default case so it doesn't fail.
 
 Failing is always better than taking decisions without evidence.
 
-Since [case and switches](../../Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md) are also an smell, we can avoid them.
+Since [case and switches](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md) are also an smell, we can avoid them.
 
 # Sample Code
 
@@ -93,11 +93,11 @@ Writing robust code doesn't mean we need to take decisions without evidence.
 
 # Relations
 
-[Code Smell 36 - Switch/case/elseif/else/if statements](../../Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md)
+[Code Smell 36 - Switch/case/elseif/else/if statements](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md)
 
 # More Info
 
-- [Fail Fast](../../Theory/Fail%20Fast/readme.md)
+- [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
 # Credits
 
@@ -109,10 +109,10 @@ Photo by [Joshua Woroniecki](https://unsplash.com/@joshua_j_woroniecki) on [Unsp
 
 _John Carmack_
 
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

@@ -1,6 +1,6 @@
 # Code Smell 53 - Explicit Iteration
 
-![Code Smell 53 - Explicit Iteration](elena-mozhvilo-LJ5ZYYZAOWo-unsplash.jpg)
+![Code Smell 53 - Explicit Iteration](Code%20Smell%2053%20-%20Explicit%20Iteration.jpg)
 
 *We learned loops back in school. But enumerators and iterators are the next generation.*
 
@@ -53,7 +53,7 @@ If the problem domain needs the elements to be bijected to natural numbers like 
 
 Remember all time to find real world analogies.
 
-[The One and Only Software Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
+[The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 # Tags
 
@@ -67,11 +67,11 @@ Clean code is full of this few declarative things that can make a difference.
 
 # Relations
 
-[Code Smell 33 - Abbreviations](../../Code%20Smells/Code%20Smell%2033%20-%20Abbreviations/readme.md)
+[Code Smell 33 - Abbreviations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2033%20-%20Abbreviations/readme.md)
 
 # More info
 
-[What is (wrong with) software?](../../Theory/What%20is%20(wrong%20with)%20software/readme.md)
+[What is (wrong with) software?](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
 # Credits
 
@@ -85,7 +85,7 @@ _David Walker_
  
 * * *
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
@@ -97,4 +97,4 @@ Original twitter thread by @[Matt Moll](@MattCodeJourney)
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

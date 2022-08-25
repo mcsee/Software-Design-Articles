@@ -1,6 +1,6 @@
 # Code Smell 16 - Ripple Effect
 
-![Code Smell 16 - Ripple Effect](jack-tindall-Vh7u1vga0UU-unsplash.jpg)
+![Code Smell 16 - Ripple Effect](Code%20Smell%2016%20-%20Ripple%20Effect.jpg)
 
 *Small changes yield unexpected problems.*
 
@@ -10,7 +10,7 @@
 
 - Coupling
 
-[Coupling - The one and only software design problem](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+[Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 # Solutions
 
@@ -19,7 +19,7 @@
 3. Refactor and isolate what is changing.
 4. Depend on interfaces.
 
-[How to Decouple a Legacy System](../../Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
+[How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 
 # Examples
 
@@ -88,11 +88,11 @@ There are multiple strategies to deal with Legacy and coupled systems. We should
 
 # Relations
 
-- [Code Smell 08 - Long Chains Of Collaborations](../../Code%20Smells/Code%20Smell%2008%20-%20Long%20Chains%20Of%20Collaborations/readme.md)
+- [Code Smell 08 - Long Chains Of Collaborations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2008%20-%20Long%20Chains%20Of%20Collaborations/readme.md)
 
 # More info
 
-- [How to Decouple a Legacy System](../../Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
+- [How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
  
 # Credits
 
@@ -104,10 +104,10 @@ Photo by [Jack Tindall](https://unsplash.com/@jtindall) on [Unsplash](https://un
 
 _Neal Ford_
 
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

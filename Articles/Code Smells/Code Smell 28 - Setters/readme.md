@@ -1,6 +1,6 @@
 # Code Smell 28 - Setters
 
-![Code Smell 28 - Setters](victor-rodriguez-IiLFMkqiFrM-unsplash.jpg)
+![Code Smell 28 - Setters](Code%20Smell%2028%20-%20Setters.jpg)
 
 *The first exercise junior programmers do. IDEs, tutorial and senior developers keep teaching them this anti-pattern.*
  
@@ -18,7 +18,7 @@
 
 - Duplicated Code
 
-[Nude Models - Part I: Setters](../../Theory/Nude%20Models - Part%20I Setters/readme.md)
+[Nude Models - Part I: Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20I Setters/readme.md)
 
 # Solutions
 
@@ -158,19 +158,19 @@ But it has all drawbacks and considerations already mentioned.
 # Conclusion
 
 Creating incomplete and anemic objects is a very bad practice violating 
-mutability, fail fast principle and real world [bijections](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
+mutability, fail fast principle and real world [bijections](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
  
 # Relations
 
-[Code Smell 01 - Anemic Models](../../Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
+[Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2001%20-%20Anemic%20Models/readme.md)
 
 # More Info
 
-[Fail Fast](../../Theory/Fail%20Fast/readme.md)
+[Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
 Here is the full discussion on *Setters*
 
-[Nude Models - Part I: Setters](../../Theory/Nude%20Models - Part%20I Setters/readme.md) 
+[Nude Models - Part I: Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20I Setters/readme.md) 
  
 # Credits
 
@@ -182,10 +182,10 @@ Photo by [Victor Rodriguez](https://unsplash.com/@vimarovi) on [Unsplash](https:
 
 _Rebecca Wirfs-Brock_
 
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the *CodeSmell* Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

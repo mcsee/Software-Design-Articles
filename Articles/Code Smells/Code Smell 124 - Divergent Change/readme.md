@@ -1,6 +1,6 @@
 # Code Smell 124 - Divergent Change
 
-![Code Smell 124 - Divergent Change](Divergente-final-television.jpg)
+![Code Smell 124 - Divergent Change](Code%20Smell%20124%20-%20Divergent%20Change.jpg)
 
 *You change something in a class. You change something unrelated in the same class*
 
@@ -8,7 +8,7 @@
 
 # Problems
 
-- [Coupling](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+- [Coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 - Code Duplication
 
@@ -108,11 +108,11 @@ If they evolve in different ways, they are doing too much.
 
 # Relations
 
-[Code Smell 34 - Too Many Attributes](../../Code%20Smells/Code%20Smell%2034%20-%20Too%20Many%20Attributes/readme.md)
+[Code Smell 34 - Too Many Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2034%20-%20Too%20Many%20Attributes/readme.md)
 
-[Code Smell 94 - Too Many imports](../../Code%20Smells/Code%20Smell%2094%20-%20Too%20Many%20imports/readme.md)
+[Code Smell 94 - Too Many imports](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2094%20-%20Too%20Many%20imports/readme.md)
 
-[Code Smell 14 - God Objects](../../Code%20Smells/Code%20Smell%2014%20-%20God%20Objects/readme.md)
+[Code Smell 14 - God Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2014%20-%20God%20Objects/readme.md)
 
 # More Info
 
@@ -124,10 +124,10 @@ If they evolve in different ways, they are doing too much.
 
 _Erich Gamma_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

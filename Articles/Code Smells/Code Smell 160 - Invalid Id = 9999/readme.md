@@ -1,6 +1,6 @@
 # Code Smell 160 - Invalid Id = 9999
 
-![Code Smell 160 - Invalid Id = 9999](markus-spiske-yAlLIl4qtnc-unsplash.jpg)
+![Code Smell 160 - Invalid Id = 9999](Code%20Smell%20160%20-%20Invalid%20Id%20=%209999.jpg)
 
 *Maxint is a very good number for an invalid ID. We will never reach it.*
 
@@ -8,11 +8,11 @@
 
 # Problems
 
-- [Bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) violation
+- [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) violation
 
 - You might reach the invalid ID sooner than your think
 
-- Don't use [nulls](../../Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md) for invalid IDs either
+- Don't use [nulls](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md) for invalid IDs either
 
 - Coupling flags from caller to functions
 
@@ -28,7 +28,7 @@
 
 In the early days of computing, data types were strict. 
 
-Then we invented [The billion-dollar mistake](../../Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md).
+Then we invented [The billion-dollar mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md).
 
 Then we grew up and model special scenarios with polymorphic special values.
 
@@ -111,19 +111,19 @@ If no external identifier exists, then it is not a number.
 
 # Relations
 
-[Code Smell 120 - Sequential IDs](../../Code%20Smells/Code%20Smell%20120%20-%20Sequential%20IDs/readme.md)
+[Code Smell 120 - Sequential IDs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20120%20-%20Sequential%20IDs/readme.md)
 
-[Code Smell 12 - Null](../../Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
+[Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
 # More Info
 
-[Null: The Billion Dollar Mistake](../../Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
+[Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
-[Y2K22 - The Mistake That Embarrasses Us](../../Quality/Y2K22%20-%20The%20Mistake%20That%20Embarrasses%20Us/readme.md)
+[Y2K22 - The Mistake That Embarrasses Us](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quality/Y2K22%20-%20The%20Mistake%20That%20Embarrasses%20Us/readme.md)
 
 # Disclaimer
 
-Code Smells are just my [opinion](../../Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
+Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
 # Credits
 
@@ -135,10 +135,10 @@ Photo by [Markus Spiske](https://unsplash.com/@markusspiske) on [Unsplash](https
 
 _Boris Beizer_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

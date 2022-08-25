@@ -1,6 +1,6 @@
 # Stop Calling them 'Bugs'
 
-![Stop Calling them 'Bugs'](bug.gif)
+![Stop Calling them 'Bugs'](Stop%20Calling%20them%20'Bugs'.gif)
 
 *Let's name things the right way*
 
@@ -40,9 +40,9 @@ The term *Bug* sounds like an excuse out of our scope infecting our systems. It 
 
 Language is continuing evolving. We [recently](https://www.infoq.com/news/2020/10/github-main-branch/) got rid of the *master* word on our GIT repos. 
 
-To embrace the future and our own responsibilities, we need to be very careful with [names](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md), not only with our classes, methods and variables but also with our artifacts.
+To embrace the future and our own responsibilities, we need to be very careful with [names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md), not only with our classes, methods and variables but also with our artifacts.
 
-* We don't need to *debug* software anymore. Find the root fault (caused by ourselves or previous developers), embrace the problem, [write an automated test](../../TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md), and fix it. Easy as that. 🐞
+* We don't need to *debug* software anymore. Find the root fault (caused by ourselves or previous developers), embrace the problem, [write an automated test](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md), and fix it. Easy as that. 🐞
 
 * We need no *bug trackers*. We just need to care for incidents, and not all incidents are faults. Surprisingly, many of them are related to misunderstandings, lack of definition, ambiguities etc. 📋
 
@@ -54,6 +54,6 @@ Let's start by calling things by their name.
 
 Part of the objective of this series of articles is to generate spaces for debate and discussion on software design.
 
-[Object Design Checklist](../../Theory/Object%20Design%20Checklist/readme.md)
+[Object Design Checklist](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Object%20Design%20Checklist/readme.md)
 
 We look forward to comments and suggestions on this article.

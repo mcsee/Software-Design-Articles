@@ -1,6 +1,6 @@
 # Code Smell 29 - Settings - Configs
 
-![Code Smell 29 - Settings - Configs](Iu2NeJu9tSwmk-nVYy5RJPGFALErsqn1yKO3tNHBT2A.jpg)
+![Code Smell 29 - Settings - Configs](Code%20Smell%2029%20-%20Settings%20-%20Configs.jpg)
 
 *Changing system behavior in a control board is the customer's dream. And the software engineer's nightmare.*
  
@@ -8,11 +8,11 @@
 
 - Duplicated Code
 
-- [If Pollution](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
+- [If Pollution](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
 - Global usage
 
-- [Coupling](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+- [Coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 - Testability and explosion of testing scenarios.
 
@@ -98,7 +98,7 @@ https://jeromedane.medium.com/feature-flags-are-dangerous-88ef9d6c9f04
 
 # More Info
 
-[How to Get Rid of Annoying IFs Forever](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
+[How to Get Rid of Annoying IFs Forever](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
  
 * * *
 
@@ -106,10 +106,10 @@ https://jeromedane.medium.com/feature-flags-are-dangerous-88ef9d6c9f04
 
 _Austin Freeman_
 
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the *CodeSmell* Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

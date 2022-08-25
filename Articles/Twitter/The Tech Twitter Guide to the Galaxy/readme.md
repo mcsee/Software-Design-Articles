@@ -1,6 +1,6 @@
 # The Tech Twitter Guide to the Galaxy
 
-![The Tech Twitter Guide to the Galaxy](95Da.gif)
+![The Tech Twitter Guide to the Galaxy](The%20Tech%20Twitter%20Guide%20to%20the%20Galaxy.gif)
 
 *My __personal__ recommendations on whom to follow*
 

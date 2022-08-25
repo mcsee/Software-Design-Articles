@@ -1,6 +1,6 @@
 # Code Smell 77 - Timestamps
 
-![Code Smell 77 - Timestamps](km6rnydpMsN7heLcoaNw5A-1200-80.gif)
+![Code Smell 77 - Timestamps](Code%20Smell%2077%20-%20Timestamps.gif)
 
 *Timestamps are widely used. They have a central issuing authority and do not go back, do they?*
 
@@ -16,13 +16,13 @@
 
 - Packet Disorders.
 
-- Bad [Accidental Implementation](../../Theory/No%20Silver%20Bullet/readme.md) (Timestamp) for an Essential Problem (Sequencing).
+- Bad [Accidental Implementation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md) (Timestamp) for an Essential Problem (Sequencing).
 
 # Solutions
 
-1. Use a centralizing sequential stamper. (NO, not a [Singleton](../../Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)).
+1. Use a centralizing sequential stamper. (NO, not a [Singleton](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)).
 
-2. If you need to model a sequence, [model a sequence](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
+2. If you need to model a sequence, [model a sequence](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
 
 # Sample Code
 
@@ -64,7 +64,7 @@ We need to use them just to model... timestamps.
 
 This smell was inspired by recent [Ingenuity software fault](https://www.hebergementwebs.com/transport/the-autonomous-helicopter-mars-named-ingenuity-is-confused-by-a-time-stamp-issue-providing-insightful-lessons-for-self-driving-cars-ai).
 
-If we don't follow our [MAPPER](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) rules and model sequences with time, we will face trouble.
+If we don't follow our [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) rules and model sequences with time, we will face trouble.
 
 Luckily, Ingenuity is a sophisticated Autonomous vehicle and has a robust fail-safe landing software.
 
@@ -74,19 +74,19 @@ This video describes the glitch
 
 # Relations
 
-[Code Smell 39 - new Date()](../../Code%20Smells/Code%20Smell%2039%20-%20new%20Date()/readme.md)
+[Code Smell 39 - new Date()](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2039%20-%20new%20Date()/readme.md)
 
-[Code Smell 32 - Singletons](../../Code%20Smells/Code%20Smell%2032%20-%20Singletons/readme.md)
+[Code Smell 32 - Singletons](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2032%20-%20Singletons/readme.md)
 
-[Code Smell 71 - Magic Floats Disguised as Decimals](../../Code%20Smells/Code%20Smell%2071%20-%20Magic%20Floats%20Disguised%20as%20Decimals/readme.md)
+[Code Smell 71 - Magic Floats Disguised as Decimals](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2071%20-%20Magic%20Floats%20Disguised%20as%20Decimals/readme.md)
 
 # More info
 
 - [Timestamp proposed changes](https://ieeexplore.ieee.org/document/805196)
 
-- [Build a Mapper](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
+- [Build a Mapper](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
-- [What is wrong with software](../../Theory/What%20is%20(wrong%20with)%20software/readme.md)
+- [What is wrong with software](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
 * * *
 
@@ -94,10 +94,10 @@ This video describes the glitch
 
 _Jon Bentley_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

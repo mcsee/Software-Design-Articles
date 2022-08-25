@@ -1,6 +1,6 @@
 # Code Smell 31 - Accidental Methods on Business Objects
 
-![Code Smell 31 - Accidental Methods on Business Objects](robert-bye-BY34glOW7wA-unsplash.jpg)
+![Code Smell 31 - Accidental Methods on Business Objects](Code%20Smell%2031%20-%20Accidental%20Methods%20on%20Business%20Objects.jpg)
 
 *Adding persistence, serialization, displaying, importing, exporting code to an object bloats its protocol and brings coupling.*
 
@@ -20,7 +20,7 @@
 
 3. Separate accidental concerns: Move Persistence, Formatting, Serialization to special objects.
 
-4. Keep essential protocol using [bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
+4. Keep essential protocol using [bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
 
 # Examples
 
@@ -125,10 +125,10 @@ Photo by [Robert Bye](https://unsplash.com/@robertbye) on [Unsplash](https://uns
 
 Alan Kay
 
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

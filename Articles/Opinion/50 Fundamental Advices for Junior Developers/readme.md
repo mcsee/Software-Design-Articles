@@ -1,6 +1,6 @@
 # 50 Fundamental Advices for Junior Developers
 
-![50 Fundamental Advices for Junior Developers](future.gif)
+![50 Fundamental Advices for Junior Developers](50%20Fundamental%20Advices%20for%20Junior%20Developers.gif)
 
 *What I would say to myself if I could travel to my past.*
 
@@ -80,7 +80,7 @@ Learn and practice, practice, practice TDD
 
 https://twitter.com/emystein
 
-[How to Squeeze Test Driven Development on Legacy Systems](../../TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md)
+[How to Squeeze Test Driven Development on Legacy Systems](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md)
 
 * * *
 
@@ -125,7 +125,7 @@ Work diligently to minimize the imperative shell.
 
 @[Alex Bunardzic](@alexbunardzic)
 
-[Code Smell 06 - Too Clever Programmer](../../Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
+[Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
 * * *
 
@@ -230,7 +230,7 @@ AVOID INHERITANCE!
 
 https://twitter.com/lucaguada
 
-[Code Smell 11 - Subclassification for Code Reuse](../../Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
+[Code Smell 11 - Subclassification for Code Reuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
 
 * * *
 
@@ -238,7 +238,7 @@ Yep composition over inheritance as the default approach to follow
 
 https://twitter.com/geeksusma
 
-[Code Smell 43 - Concrete Classes Subclassified](../../Code%20Smells/Code%20Smell%2043%20-%20Concrete%20Classes%20Subclassified/readme.md)
+[Code Smell 43 - Concrete Classes Subclassified](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2043%20-%20Concrete%20Classes%20Subclassified/readme.md)
 
 * * *
 
@@ -258,7 +258,7 @@ Always use interfaces.
 
 https://twitter.com/SelfXdsd
 
-[Code Smell 58 - Yo-yo Problem](../../Code%20Smells/Code%20Smell%2058%20-%20Yo-yo%20Problem/readme.md)
+[Code Smell 58 - Yo-yo Problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2058%20-%20Yo-yo%20Problem/readme.md)
 
 * * *
 
@@ -299,7 +299,7 @@ Learn how to unit test and refactor
 
 https://twitter.com/makolyte
 
-[Code Smell 52 - Fragile Tests](../../Code%20Smells/Code%20Smell%2052%20-%20Fragile%20Tests/readme.md)
+[Code Smell 52 - Fragile Tests](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2052%20-%20Fragile%20Tests/readme.md)
 
 * * *
 
@@ -430,7 +430,7 @@ Write test first.
 
 https://twitter.com/Cherif_b
 
-[How I Survived the Zombie Apocalypse](../../TDD/How%20I%20Survived%20the%20Zombie%20Apocalypse/readme.md)
+[How I Survived the Zombie Apocalypse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20I%20Survived%20the%20Zombie%20Apocalypse/readme.md)
 
 * * *
 
@@ -562,7 +562,7 @@ Assume you know next to nothing about how things are done in the real world.
 
 https://twitter.com/snhrdt
 
-[The One and Only Software Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
+[The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 * * *
 
@@ -782,7 +782,7 @@ https://twitter.com/ahmadfaizan965
 
 https://twitter.com/PrateekdevOps
 
-[What is (wrong with) software?](../../Theory/What%20is%20(wrong%20with)%20software/readme.md)
+[What is (wrong with) software?](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
 * * *
 
@@ -896,7 +896,7 @@ Document and unit test your code.
 
 https://twitter.com/Brian_Shimek
 
-[Code Smell 05 - Comment Abusers](../../Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
+[Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
 
 * * *
 
@@ -918,7 +918,7 @@ Use a pencil and paper. Draw simple diagrams before starting to code
 
 https://twitter.com/AntholoJ
  
-[Code Smell 47 - Diagrams](../../Code%20Smells/Code%20Smell%2047%20-%20Diagrams/readme.md)
+[Code Smell 47 - Diagrams](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2047%20-%20Diagrams/readme.md)
 
 * * *
 

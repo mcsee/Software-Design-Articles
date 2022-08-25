@@ -1,6 +1,6 @@
 # Code Smell 17 - Global Functions
 
-![Code Smell 17 - Global Functions](mae-mu-coJsSbM4yDc-unsplash.jpg)
+![Code Smell 17 - Global Functions](Code%20Smell%2017%20-%20Global%20Functions.jpg)
 
 *Discouraged by Object-Oriented Programmings, Many mixed languages support it. And developers abuse them.*
 
@@ -73,7 +73,7 @@ Structured programming considers global functions **harmful**. Yet, we can obser
 
 - Singleton and Classes are global points of access.
 
-[Singleton - The root of all evil](../../Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
+[Singleton - The root of all evil](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
 
 # More Info
 
@@ -89,10 +89,10 @@ Photo by [Mae Mu](https://unsplash.com/@picoftasty) on [Unsplash](https://unspla
 
 _Steve McConnell_
 
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

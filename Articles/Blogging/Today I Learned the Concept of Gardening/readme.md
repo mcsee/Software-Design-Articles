@@ -1,6 +1,6 @@
 # Today I Learned the Concept of Gardening
 
-![Today I Learned the Concept of Gardening](dcf10eafbc2b3c0639fea369aeefc13a.gif)
+![Today I Learned the Concept of Gardening](Today%20I%20Learned%20the%20Concept%20of%20Gardening.gif)
 
 *Why taking care of our past work is also very important.*
 
@@ -16,15 +16,15 @@ To my astonishment, Wikipedia is not aware of the term (beyond its obvious meani
 
 I usually revisit my own articles since they are related among each other but I don't do major changes on them.📕
 
-This is a pity since I write about [programming core concepts](https://hashnode.com/n/programming/recent), and they are [less volatile than fancy new technology tutorials](../../Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md). 😥
+This is a pity since I write about [programming core concepts](https://hashnode.com/n/programming/recent), and they are [less volatile than fancy new technology tutorials](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md). 😥
 
 I usually write the articles, polish them, publish on social media and forget about them in a few days.
 
-[5 Programming Techniques to Avoid SSD Brick Catastrophic Failures](../../Quality/5%20Programming%20Techniques%20to%20Avoid%20SSD%20Brick%20Catastrophic%20Failures/readme.md)
+[5 Programming Techniques to Avoid SSD Brick Catastrophic Failures](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quality/5%20Programming%20Techniques%20to%20Avoid%20SSD%20Brick%20Catastrophic%20Failures/readme.md)
 
 # Missed Opportunities
 
-Writing technical articles takes a [lot of time and effort](../../Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md), and the *publishing window* is very narrow, so there's always a chance most of our audience will miss them. 😧
+Writing technical articles takes a [lot of time and effort](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md), and the *publishing window* is very narrow, so there's always a chance most of our audience will miss them. 😧
 
 Unless we have [great SEO](https://catalins.tech/canonical-url-what-is-it-and-why-should-you-care) mastering, there's not much of a chance someone will read the article after publishing date.
 
@@ -36,7 +36,7 @@ I wrote more than [100 articles](https://maximilianocontieri/) on @hashnode and 
 
 From now on, I will revisit my old articles, gather the comments and suggestions and all feedback to refurbish them.
 
-I am more aware today of [great tools](../../Blogging/10%20Invaluable%20Tips%20for%20Successful%20Tech%20Articles/readme.md) and I can improve past articles with these new tools.
+I am more aware today of [great tools](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/10%20Invaluable%20Tips%20for%20Successful%20Tech%20Articles/readme.md) and I can improve past articles with these new tools.
 
 Hashnode adds page metadata if we update our articles:
 

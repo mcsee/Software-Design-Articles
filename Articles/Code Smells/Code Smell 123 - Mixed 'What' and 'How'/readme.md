@@ -1,6 +1,6 @@
 # Code Smell 123 - Mixed 'What' and 'How'
 
-![Code Smell 123 - Mixed 'What' and 'How'](josh-redd-u_RiRTA_TtY-unsplash.jpg)
+![Code Smell 123 - Mixed 'What' and 'How'](Code%20Smell%20123%20-%20Mixed%20'What'%20and%20'How'.jpg)
 
 *We love looking at the internal gears of the clock, but we need to start focusing on the hands.*
 
@@ -10,7 +10,7 @@
 
 - Accidental Coupling
 
-- [Coupling](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+- [Coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 - Lack of design for change
 
@@ -83,21 +83,21 @@ This is a semantic and naming smell.
 
 We need to choose good names and add indirection layers when necessary.
 
-Of course, *[premature optimizators](../../Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md)* will fight us, telling us we are wasting computational resources and they need to know the insights we are hiding from them.
+Of course, *[premature optimizators](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md)* will fight us, telling us we are wasting computational resources and they need to know the insights we are hiding from them.
 
 # Relations
 
-[Code Smell 92 - Isolated Subclasses Names](../../Code%20Smells/Code%20Smell%2092%20-%20Isolated%20Subclasses%20Names/readme.md)
+[Code Smell 92 - Isolated Subclasses Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2092%20-%20Isolated%20Subclasses%20Names/readme.md)
 
-[Code Smell 05 - Comment Abusers](../../Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
+[Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
 
 # More Info
 
-- [On premature optimizators](../../Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md)
+- [On premature optimizators](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md)
 
-- [Coupling](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+- [Coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
-- [What is in a name?](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
+- [What is in a name?](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
 
 # Credits
 
@@ -117,10 +117,10 @@ and here:
 
 _Andrew Hunt_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

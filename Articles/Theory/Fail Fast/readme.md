@@ -1,6 +1,6 @@
 # Fail Fast
 
-![Fail Fast](chuttersnap-cGXdjyP6-NU-unsplash.jpg)
+![Fail Fast](Fail%20Fast.jpg)
 
 > TL;DR: Fail fast. Don't hide your mistakes under the rug.
 
@@ -25,11 +25,11 @@ With the arrival of interpreted languages, ​​we began to believe in the magi
 However, in the late 1990s with the rise of web systems, we went back several steps. Except in those cases where we could simulate the system on a local server, we put logs in the code again while debugging our integrated software remotely.
 On the other hand. Thanks to the misuse of invalid abstractions our software-generated errors are far away from the failure and root cause of the problem.
 
-[The One and Only Software Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
+[The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 This is worsened by the use of invalid representations with possible Null values ​​that generate unpredictable failures when trying to find out the origin of null values many function calls later.
 
-[Null: The Billion Dollar Mistake](../../Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
+[Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
 # Defensive programming
 
@@ -49,7 +49,7 @@ As always, in the face of laziness, we will reply that we privilege the robust c
 
 As we saw in the article about the immutability of objects if an invalid date is created we must immediately report the problem.
 
-[The Evil Power of Mutants](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
+[The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 [Gist Url]: # (https://gist.github.com/mcsee/0a519a375e302a5d25ec09185bf95312)
 ```php
@@ -148,7 +148,7 @@ Photo by [Robert Penaloza](https://unsplash.com/@robertography) on [Unsplash](ht
 
 As the last example let's go back to the situation where the Mars Climate Orbiter rocket mentioned in the article exploded:
 
-[The One and Only Software Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
+[The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 The rocket was developed by two teams from different countries using different metric systems. The example below is a simplified scenario.
 
@@ -190,7 +190,7 @@ final class Movement {
 
 The solution is robust but it is coupling the movement to date and a static method of a global class. One of the worst possible couplings for a system that could run in multiple time zones.
 
-[Coupling - The one and only software design problem](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+[Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 To solve this problem we have several options:
 
@@ -218,7 +218,7 @@ We must strictly follow the bijection rule, creating the necessary abstractions 
 
 Part of the objective of this series of articles is to generate spaces for debate and discussion on software design.
 
-[Object Design Checklist](../../Theory/Object%20Design%20Checklist/readme.md)
+[Object Design Checklist](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Object%20Design%20Checklist/readme.md)
 
 We look forward to comments and suggestions on this article.
 

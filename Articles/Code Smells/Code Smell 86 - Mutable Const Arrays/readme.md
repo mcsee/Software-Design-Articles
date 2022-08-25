@@ -1,6 +1,6 @@
 # Code Smell 86 - Mutable Const Arrays
 
-![Code Smell 86 - Mutable Const Arrays](zorik-d-Xe7fo6aO3uo-unsplash.jpg)
+![Code Smell 86 - Mutable Const Arrays](Code%20Smell%2086%20-%20Mutable%20Const%20Arrays.jpg)
 
 *Const declares something to be constant. Can it mutate?*
 
@@ -61,7 +61,7 @@ We should always favour immutability on our designs and take extra care with sid
 
 # More Info
 
-- [The evil power of mutants](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
+- [The evil power of mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 # Credits
 
@@ -75,10 +75,10 @@ Photo by [Zorik D](https://unsplash.com/@justzorik) on [Unsplash](https://unspla
 
 _Bertrand Meyer_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

@@ -1,12 +1,12 @@
 # Code Smell 37 - Protected Attributes
 
-![Code Smell 37 - Protected Attributes](jonathan-farber-JCD6zJ-DLH4-unsplash.jpg)
+![Code Smell 37 - Protected Attributes](Code%20Smell%2037%20-%20Protected%20Attributes.jpg)
 
 *Protected attributes are great for encapsulating and controlling access to our properties. They might be warning us for another smell.*
 
 # Problems
 
-- [Sub classification](../../Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md) for code reuse purposes.
+- [Sub classification](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md) for code reuse purposes.
 
 - [Liskov substitution](https://en.wikipedia.org/wiki/Liskov_substitution_principle) violation ([SOLID](https://en.wikipedia.org/wiki/SOLID) principle).
 
@@ -119,7 +119,7 @@ Protected attributes are yet another tool we should use carefully. Every decisio
 
 # Relations
 
-[Code Smell 11 - Subclassification for Code Reuse](../../Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
+[Code Smell 11 - Subclassification for Code Reuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
 
 # More Info
 
@@ -135,10 +135,10 @@ Photo by [Jonathan Farber](https://unsplash.com/@farber) on [Unsplash](https://u
 
 _Steve Klabnik_
 
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

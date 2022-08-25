@@ -1,6 +1,6 @@
 # Mastering Atomic Habits
 
-![Mastering Atomic Habits](giphy.gif)
+![Mastering Atomic Habits](Mastering%20Atomic%20Habits.gif)
 
 > TL;DR: Some habit-building tips and tricks.
 
@@ -24,7 +24,7 @@ The first step is to become aware of your habits.
 
 Habits are automated behaviors that we have learned from experience.
 
-You have to start paying attention to the things you do [every day](../../Productivity/10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2%20(2021%20Guide)/readme.md), without thinking. 
+You have to start paying attention to the things you do [every day](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2%20(2021%20Guide)/readme.md), without thinking. 
 
 When you walk through a dark room, you don't think, you try to find the light switch.
 
@@ -96,7 +96,7 @@ Make the habit as easy to adopt as possible removing all excuses and obstacles.
 
 All habits are triggered by signals or stimuli. 
 
-[Turning off all notifications](../../Productivity/What%20is%20JOMO%20and%20Why%20it%20will%20Increase%20your%20Productivity%20x97/readme.md) is a plan of action to avoid stimuli (and habits).
+[Turning off all notifications](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/What%20is%20JOMO%20and%20Why%20it%20will%20Increase%20your%20Productivity%20x97/readme.md) is a plan of action to avoid stimuli (and habits).
 
 We can *hack* our environment to encourage better habits by reducing harmful stimuli and making triggers more difficult.
 
@@ -122,7 +122,7 @@ We are social animals, and sharing our commitment creates peer pressure.
 
 Habits should be attractive.
 
-We do things in [anticipation of reward](../../Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md) or [fear of punishment](https://www.ted.com/talks/tim_urban_inside_the_mind_of_a_master_procrastinator).
+We do things in [anticipation of reward](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md) or [fear of punishment](https://www.ted.com/talks/tim_urban_inside_the_mind_of_a_master_procrastinator).
 
 Our brains release [dopamine](https://en.wikipedia.org/wiki/Dopamine) in pleasure situations.
 

@@ -1,6 +1,6 @@
 # Code Smell 25 - Pattern Abusers
 
-![Code Smell 25 - Pattern Abusers](1_9N_GZwPSlDwAMJeqod0npA.jpeg)
+![Code Smell 25 - Pattern Abusers](Code%20Smell%2025%20-%20Pattern%20Abusers.jpeg)
 
 *Patterns are awesome. With great powers comes great responsibility.*
 
@@ -16,11 +16,11 @@
 
 1. Measure the tradeoff of patterns usage.
 
-2. Create solutions based on real world names ([essential](../../Theory/No%20Silver%20Bullet/readme.md)) over architecture (accidental).
+2. Create solutions based on real world names ([essential](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md)) over architecture (accidental).
 
-3. Choose [good names](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md).
+3. Choose [good names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md).
 
-4. User [MAPPER](../../Theory/What%20is%20(wrong%20with)%20software/readme.md) technique to find [bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) real entities.
+4. User [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) technique to find [bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) real entities.
 
 # Sample Code
 
@@ -88,19 +88,19 @@ A class name with more than one pattern on it, is a warning.
 
 # Conclusion
 
-Chose when to apply a pattern solution. You are not [smarter](../../Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md) for using too many patterns. You are smart if you choose the right opportunity for everyone.
+Chose when to apply a pattern solution. You are not [smarter](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md) for using too many patterns. You are smart if you choose the right opportunity for everyone.
 
 # Relations
 
-[Code Smell 06 - Too Clever Programmer](../../Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
+[Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
-[Singleton - The root of all evil](../../Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
+[Singleton - The root of all evil](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
 
 # More Info
 
-[How to Decouple a Legacy System](../../Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
+[How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 
-[What exactly is a name — Part II Rehab](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
+[What exactly is a name — Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
 
 # Credits
 
@@ -110,10 +110,10 @@ Photo by [Nathan Dumlao](https://unsplash.com/@nate_dumlao) on [Unsplash](https:
 
 >  When you have a hammer, every problem looks like a nail.
 
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

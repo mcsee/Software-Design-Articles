@@ -1,6 +1,6 @@
 # Code Smell 84 - Max < Min (Javascript)
 
-![Code Smell 84 - Max < Min (Javascript)](cris-baron-A18Ub2FbMlE-unsplash.jpg)
+![Code Smell 84 - Max < Min (Javascript)](Code%20Smell%2084%20-%20Max%20%20Min%20(Javascript).jpg)
 
 *Some functions do not behave as expected. Sadly, most programmers accept them.*
 
@@ -10,7 +10,7 @@
 
 - Principle of least astonishment
 
-- [Bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Violation.
+- [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Violation.
 
 - Unexpected Results
 
@@ -64,15 +64,15 @@ We need to be very careful using functions that violate real-world concepts usin
 
 # Relations
 
-[Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](../../Code%20Smells/Code%20Smell%2069%20-%20Big%20Bang%20(JavaScript%20Ridiculous%20Castings)/readme.md)
+[Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2069%20-%20Big%20Bang%20(JavaScript%20Ridiculous%20Castings)/readme.md)
 
 # More Info
 
 - [Principle of least astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment)
 
-- [Bijection Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
+- [Bijection Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
-- [MAPPER](../../Theory/What%20is%20(wrong%20with)%20software/readme.md)
+- [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
 # Credits
 
@@ -88,10 +88,10 @@ Inspired by @@[Oliver Jumpertz](@OliverJumpertz)
 
 _Rick Cook_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

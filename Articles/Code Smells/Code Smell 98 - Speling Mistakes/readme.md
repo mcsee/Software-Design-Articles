@@ -1,6 +1,6 @@
 # Code Smell 98 - Speling Mistakes
 
-![Code Smell 98 - Speling Mistakes](1_efrlN_sS5zPq-_qnY7ZA7g.jpeg)
+![Code Smell 98 - Speling Mistakes](Code%20Smell%2098%20-%20Speling%20Mistakes.jpeg)
 
 *Spelling and readability are very important for humans and not important for machines.*
 
@@ -66,13 +66,13 @@ You will probably be the person reading the code in a few months.
 
 # Relations
 
-[Code Smell 48 - Code Without Standards](../../Code%20Smells/Code%20Smell%2048%20-%20Code%20Without%20Standards/readme.md)
+[Code Smell 48 - Code Without Standards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2048%20-%20Code%20Without%20Standards/readme.md)
 
 # More Info
 
-[What exactly is a name — Part I The Quest](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
+[What exactly is a name — Part I The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
 
-[What exactly is a name — Part II Rehab](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
+[What exactly is a name — Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
 
 # Credits
 
@@ -82,10 +82,10 @@ Photo by [Brett Jordan](https://unsplash.com/@brett_jordan) on [Unsplash](https:
 
 _C.A.R. Hoare_
   
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

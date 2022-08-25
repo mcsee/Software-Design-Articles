@@ -1,6 +1,6 @@
 # Code Smell 88 - Lazy Initialization
 
-![Code Smell 88 - Lazy Initialization](sam-solomon-Xxj3UwgLfeI-unsplash.jpg)
+![Code Smell 88 - Lazy Initialization](Code%20Smell%2088%20-%20Lazy%20Initialization.jpg)
 
 *Yet another premature optimization pattern*
 
@@ -18,7 +18,7 @@
 
 - The Least Surprise Principle Violation
 
-- [Null Usage](../../Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
+- [Null Usage](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
 - Mutability
 
@@ -75,15 +75,15 @@ It should be straightforward to detect them.
 
 # Conclusion
 
-[Singletons](../../Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md) are another antipattern often combined with lazy initialization.
+[Singletons](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md) are another antipattern often combined with lazy initialization.
 
 We must avoid premature optimizations. If we have *real* performance problems we should use a Proxy, Facade or more independent solution.
 
 # Relations
 
-[Code Smell 32 - Singletons](../../Code%20Smells/Code%20Smell%2032%20-%20Singletons/readme.md)
+[Code Smell 32 - Singletons](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2032%20-%20Singletons/readme.md)
 
-[Code Smell 12 - Null](../../Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
+[Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
 # More Info
 
@@ -101,10 +101,10 @@ Photo by [Sam Solomon](https://unsplash.com/@samsolomon) on [Unsplash](https://u
 
 _Jeff Atwood_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

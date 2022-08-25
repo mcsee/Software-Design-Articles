@@ -1,6 +1,6 @@
 # Code Smell 56 - Preprocessors
 
-![Code Smell 56 - Preprocessors](cdc-CMhVRKI6vSY-unsplash.jpg)
+![Code Smell 56 - Preprocessors](Code%20Smell%2056%20-%20Preprocessors.jpg)
 
 *We want our code to behave different on different environments, operating systems, so taking decisions at compile time is the best decision, isn't it?.*
 
@@ -65,11 +65,11 @@ Bjarne Stroustrup, in his book *The Design and Evolution of C++*, regrets on the
  
 # Relations
 
-[Code Smell 20 - Premature Optimization](../../Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
+[Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
 # More info
 
-[Laziness I - Metaprogramming](../../Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
+[Laziness I - Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
  
 [C++Faq](http://www.parashift.com/c++-faq-lite/newbie.html#faq-29.8)
 
@@ -89,10 +89,10 @@ _Bjarne Stroustrup_
   
 * * *
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

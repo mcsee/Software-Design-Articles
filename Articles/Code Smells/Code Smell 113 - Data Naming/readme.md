@@ -1,6 +1,6 @@
 # Code Smell 113 - Data Naming
 
-![Code Smell 113 - Data Naming](data.jpg)
+![Code Smell 113 - Data Naming](Code%20Smell%20113%20-%20Data%20Naming.jpg)
 
 *Use entity domain names to model entity domain objects.*
 
@@ -16,7 +16,7 @@
 
 1. Use role suggesting names.
 
-2. Find names in the [Bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
+2. Find names in the [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
 
 # Context
 
@@ -76,13 +76,13 @@ Naming them as 'data' is lazy and hinders readability.
 
 # Relations
 
-[Code Smell 01 - Anemic Models](../../Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
+[Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2001%20-%20Anemic%20Models/readme.md)
 
-[Code Smell 65 - Variables Named after Types](../../Code%20Smells/Code%20Smell%2065%20-%20Variables%20Named%20after%20Types/readme.md)
+[Code Smell 65 - Variables Named after Types](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2065%20-%20Variables%20Named%20after%20Types/readme.md)
 
 # More Info
 
-[What exactly is a name — Part II Rehab](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
+[What exactly is a name — Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
 
 * * *
 
@@ -90,10 +90,10 @@ Naming them as 'data' is lazy and hinders readability.
 
 _Dennis Ritchie_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

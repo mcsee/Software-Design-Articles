@@ -1,6 +1,6 @@
 # Code Smell 143 - Data Clumps
 
-![Code Smell 143 - Data Clumps](dynamic-wang-F3KHLtv6844-unsplash.jpg)
+![Code Smell 143 - Data Clumps](Code%20Smell%20143%20-%20Data%20Clumps.jpg)
 
 *Some objects are always together. Why don't we split them?*
 
@@ -28,7 +28,7 @@
 
 This smell is friends with primitive obsession. 
 
-If two or more primitive objects are glued together, with business logic repeated and rules between them, we need to find the existing concept on the [bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
+If two or more primitive objects are glued together, with business logic repeated and rules between them, we need to find the existing concept on the [bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
 
 # Sample Code
 
@@ -96,11 +96,11 @@ Group behavior in the right place and hide the primitive data.
 
 # Relations
 
-[Code Smell 122 - Primitive Obsession](../../Code%20Smells/Code%20Smell%20122%20-%20Primitive%20Obsession/readme.md)
+[Code Smell 122 - Primitive Obsession](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20122%20-%20Primitive%20Obsession/readme.md)
 
-[Code Smell 01 - Anemic Models](../../Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
+[Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2001%20-%20Anemic%20Models/readme.md)
 
-[Code Smell 27 - Associative Arrays](../../Code%20Smells/Code%20Smell%2027%20-%20Associative%20Arrays/readme.md)
+[Code Smell 27 - Associative Arrays](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2027%20-%20Associative%20Arrays/readme.md)
 
 # More Info
 
@@ -118,10 +118,10 @@ Photo by Dynamic Wang on Unsplash
 
 _Eric Evans_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

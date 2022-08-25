@@ -1,6 +1,6 @@
 # Code Smell 116 - Variables Declared With 'var'
 
-![Code Smell 116 - Variables Declared With 'var'](13151-7612-IMG_2167-xl.jpg)
+![Code Smell 116 - Variables Declared With 'var'](Code%20Smell%20116%20-%20Variables%20Declared%20With%20'var'.jpg)
 
 *Var, Let, Const: are all the same, aren't they?*
 
@@ -8,7 +8,7 @@
 
 # Problems
 
-- [Mutability](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
+- [Mutability](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 - Readability
 
@@ -68,13 +68,13 @@ We need to explicitly state our intentions and usages.
 
 # Relations
 
-[Code Smell 86 - Mutable Const Arrays](../../Code%20Smells/Code%20Smell%2086%20-%20Mutable%20Const%20Arrays/readme.md)
+[Code Smell 86 - Mutable Const Arrays](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2086%20-%20Mutable%20Const%20Arrays/readme.md)
 
 # More Info
 
 - [Differences between let, const, and var](https://twitter.com/SajalShlan/status/1495010893683314689)
 
-- [The Evil Power of Mutants](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
+- [The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
   
 * * *
 
@@ -82,10 +82,10 @@ We need to explicitly state our intentions and usages.
 
 _Brian Goetz_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

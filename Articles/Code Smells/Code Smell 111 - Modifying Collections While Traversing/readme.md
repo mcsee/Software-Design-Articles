@@ -1,6 +1,6 @@
 # Code Smell 111 - Modifying Collections While Traversing
 
-![Code Smell 111 - Modifying Collections While Traversing](christine-roy-ir5MHI6rPg0-unsplash.jpg)
+![Code Smell 111 - Modifying Collections While Traversing](Code%20Smell%20111%20-%20Modifying%20Collections%20While%20Traversing.jpg)
 
 *Changing a collection while traversing might lead to unexpected errors*
 
@@ -83,7 +83,7 @@ It happens a lot in the industry and real-world software
 
 # Relations
 
-[Code Smell 53 - Explicit Iteration](../../Code%20Smells/Code%20Smell%2053%20-%20Explicit%20Iteration/readme.md)
+[Code Smell 53 - Explicit Iteration](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2053%20-%20Explicit%20Iteration/readme.md)
 
 # More Info
 
@@ -99,10 +99,10 @@ Bugs are bugs. You write code with bugs because you do. If it’s a safe languag
 
 _Ken Thompson_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

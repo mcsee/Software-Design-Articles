@@ -1,6 +1,6 @@
 # Code Smell 12 - Null
 
-![Code Smell 12 - Null](kurt-cotoaga-zvkBC8OrUJ0-unsplash.jpg)
+![Code Smell 12 - Null](Code%20Smell%2012%20-%20Null.jpg)
 
 *Programmers use Null as different flags. It can hint an absence, an undefined value, en error etc. 
 Multiple semantics lead to coupling and errors.*
@@ -17,7 +17,7 @@ Multiple semantics lead to coupling and errors.*
 
 - Null is not polymorphic with real objects. Hence, *Null Pointer Exception*
 
-- Null does not exist on real world. Thus, it violates [Bijection Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
+- Null does not exist on real world. Thus, it violates [Bijection Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 # Solutions
 
@@ -27,7 +27,7 @@ Multiple semantics lead to coupling and errors.*
 
 - Use [Optionals](https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html).
 
-[Null: The Billion Dollar Mistake](../../Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
+[Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
 # Sample Code
 
@@ -138,7 +138,7 @@ Most Linters can show null usages and warn us.
 
 # More info
 
-- [Null: The Billion-Dollar Mistake](../../Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
+- [Null: The Billion-Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
 # Credits
 
@@ -150,10 +150,10 @@ Photo by [Kurt Cotoaga](https://unsplash.com/@kydroon) on [Unsplash](https://uns
 
 _Tony Hoare_
 
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

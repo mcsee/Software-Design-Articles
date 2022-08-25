@@ -1,14 +1,14 @@
 # Code Smell 144 - Fungible Objects
 
-![Code Smell 144 - Fungible Objects](andrey-metelev-yscrM1AOEKI-unsplash.jpg)
+![Code Smell 144 - Fungible Objects](Code%20Smell%20144%20-%20Fungible%20Objects.jpg)
 
 *We have heard a lot about NFTs. Now we master the Fungible concept*
 
-> TL;DR: Respect the [MAPPER](../../Theory/What%20is%20(wrong%20with)%20software/readme.md). Make fungible what is Fungible in real-world and vice-versa.
+> TL;DR: Respect the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md). Make fungible what is Fungible in real-world and vice-versa.
 
 # Problems
 
-- [Bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Fault
+- [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Fault
 
 - Over Design
 
@@ -26,10 +26,10 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/Fungibility)
 
 In software, we can replace fungible objects with others.
 
-When [mapping](../../Theory/What%20is%20(wrong%20with)%20software/readme.md) our objects with real ones, we sometimes forget about the *partial* model and build over design. 
+When [mapping](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) our objects with real ones, we sometimes forget about the *partial* model and build over design. 
 
 
-![Fungible Model](fungible.drawio.png) 
+![Fungible Model](Fungible%20Model.png) 
 
 # Sample Code
 
@@ -89,10 +89,10 @@ Photo by [Andrey Metelev](https://unsplash.com/@metelevan) on [Unsplash](https:/
 
 _Donald Knuth_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

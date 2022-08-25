@@ -1,6 +1,6 @@
 # Code Smell 138 - Packages Dependency
 
-![Code Smell 138 - Packages Dependency](olieman-eth-K4Obbh4pHGE-unsplash.jpg)
+![Code Smell 138 - Packages Dependency](Code%20Smell%20138%20-%20Packages%20Dependency.jpg)
 
 *There's an industry trend to avoid writing code as much as possible. But this is not for free*
 
@@ -8,7 +8,7 @@
 
 # Problems
 
-- [Coupling](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+- [Coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 - [Security problems](https://nakedsecurity.sophos.com/2022/05/25/poisoned-python-and-php-packages-purloin-passwords-for-aws-access/)
 
@@ -80,7 +80,7 @@ As always, there are rules of thumb but no rigid rules.
 
 # Relations
 
-[Code Smell 94 - Too Many imports](../../Code%20Smells/Code%20Smell%2094%20-%20Too%20Many%20imports/readme.md)
+[Code Smell 94 - Too Many imports](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2094%20-%20Too%20Many%20imports/readme.md)
  
 # More Info
 
@@ -104,10 +104,10 @@ Thanks to Ramiro Rela for this smell
 
 _Ray Ozzie_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

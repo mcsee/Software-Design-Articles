@@ -1,6 +1,6 @@
 # Code Smell 61 - Coupling to Classes
 
-![Code Smell 61 - Coupling to Classes](marco-bianchetti-vzFTmxTl0DQ-unsplash.jpg)
+![Code Smell 61 - Coupling to Classes](Code%20Smell%2061%20-%20Coupling%20to%20Classes.jpg)
 
 *Classes are handy. We can call them and invoke them any time. Is this good?*
 
@@ -85,11 +85,11 @@ Some objects implement many interfaces, declaring which part depends on which in
 
 # Relations
 
-[Code Smell 30 - Mocking Business](../../Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md)
+[Code Smell 30 - Mocking Business](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md)
 
 # More info
 
-[Coupling - The one and only software design problem](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md) 
+[Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md) 
 
 %[https://en.wikipedia.org/wiki/Loose_coupling]
 
@@ -107,10 +107,10 @@ _Michael Feathers_
  
 * * *
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

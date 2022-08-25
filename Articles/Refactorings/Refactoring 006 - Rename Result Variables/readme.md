@@ -1,6 +1,6 @@
 # Refactoring 006 - Rename Result Variables
 
-![Refactoring 006 - Rename Result Variables](scoreboard-gc2d9cf2d9_1920.jpg)
+![Refactoring 006 - Rename Result Variables](Refactoring%20006%20-%20Rename%20Result%20Variables.jpg)
 
 *'Result' is a very bad generic name. Just Fix it*
 
@@ -12,9 +12,9 @@
 
 # Related Code Smells
 
-[Code Smell 81 - Result](../../Code%20Smells/Code%20Smell%2081%20-%20Result/readme.md)
+[Code Smell 81 - Result](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2081%20-%20Result/readme.md)
 
-[Code Smell 79 - TheResult](../../Code%20Smells/Code%20Smell%2079%20-%20TheResult/readme.md)
+[Code Smell 79 - TheResult](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2079%20-%20TheResult/readme.md)
 
 # Steps
 
@@ -71,7 +71,7 @@ Assignment and usage might be very far away from each other.
 
 # See also
 
-[What is in a name?](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
+[What is in a name?](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
 
 # Credits
 

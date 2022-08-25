@@ -1,6 +1,6 @@
 # Code Smell 145 - Short Circuit Hack
 
-![Code Smell 145 - Short Circuit Hack](michael-dziedzic-pM9pkc9J918-unsplash.jpg)
+![Code Smell 145 - Short Circuit Hack](Code%20Smell%20145%20-%20Short%20Circuit%20Hack.jpg)
 
 *Don't use boolean evaluation as a readability shortcut*
 
@@ -14,7 +14,7 @@
 
 # Solutions
 
-1. Convert [short circuits](../../Code%20Smells/Code%20Smell%20140%20-%20Short%20Circuit%20Evaluation/readme.md) into IFs
+1. Convert [short circuits](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20140%20-%20Short%20Circuit%20Evaluation/readme.md) into IFs
 
 # Context
 
@@ -77,11 +77,11 @@ Be a team developer.
 
 # Relations
 
-[Code Smell 140 - Short Circuit Evaluation](../../Code%20Smells/Code%20Smell%20140%20-%20Short%20Circuit%20Evaluation/readme.md)
+[Code Smell 140 - Short Circuit Evaluation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20140%20-%20Short%20Circuit%20Evaluation/readme.md)
 
-[Code Smell 06 - Too Clever Programmer](../../Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
+[Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
-[Code Smell 149 - Optional Chaining](../../Code%20Smells/Code%20Smell%20149%20-%20Optional%20Chaining/readme.md)
+[Code Smell 149 - Optional Chaining](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20149%20-%20Optional%20Chaining/readme.md)
  
 # Credits
 
@@ -93,10 +93,10 @@ Photo by Michael Dziedzic on Unsplash
 
 _Bill Bryson_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

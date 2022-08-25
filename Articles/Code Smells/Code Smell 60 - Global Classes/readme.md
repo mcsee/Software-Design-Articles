@@ -1,6 +1,6 @@
 # Code Smell 60 - Global Classes
 
-![Code Smell 60 - Global Classes](alfons-morales-YLSwjSy7stw-unsplash.jpg)
+![Code Smell 60 - Global Classes](Code%20Smell%2060%20-%20Global%20Classes.jpg)
 
 *Classes are handy. We can call them and invoke them any time. Is this good?*
 
@@ -88,15 +88,15 @@ We should restrict our classes to small domains and expose just facades to the o
  
 # Relations
 
-[Code Smell 18 - Static Functions](../../Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md)
+[Code Smell 18 - Static Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md)
 
-[Code Smell 17 - Global Functions](../../Code%20Smells/Code%20Smell%2017%20-%20Global%20Functions/readme.md)
+[Code Smell 17 - Global Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2017%20-%20Global%20Functions/readme.md)
 
 # More info
 
-[Singleton - The root of all evil](../../Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
+[Singleton - The root of all evil](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
 
-[Coupling - The one and only software design problem](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md) 
+[Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md) 
 
 # Credits
 
@@ -110,10 +110,10 @@ _Dave Thomas_
  
 * * *
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

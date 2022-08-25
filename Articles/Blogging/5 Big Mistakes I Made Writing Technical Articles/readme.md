@@ -1,6 +1,6 @@
 # 5 Big Mistakes I Made Writing Technical Articles
 
-![5 Big Mistakes I Made Writing Technical Articles](house.gif)
+![5 Big Mistakes I Made Writing Technical Articles](5%20Big%20Mistakes%20I%20Made%20Writing%20Technical%20Articles.gif)
 
 *... and how to avoid them.*
 
@@ -40,7 +40,7 @@ Let's find and correct the 5 more important problems.
  
 This is the original article:
 
-[How to Get Rid of Annoying IFs Forever](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
+[How to Get Rid of Annoying IFs Forever](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
 1 - You can preview any web page on all major browsers like [Chrome](https://www.browserstack.com/guide/view-mobile-version-of-website-on-chrome), Firefox, Safari, or Edge.
 
@@ -48,7 +48,7 @@ This is the original article:
 
 3 - If the site supports amp as an alternate browser (like @[Hashnode](@hashnode) does) you can open it even on your desktop and play around with your drafts.
 
-[Desktop Version](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
+[Desktop Version](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
 [AMP Version](https://maximilianocontieri/amp/how-to-get-rid-of-annoying-ifs-forever)
 
@@ -112,21 +112,21 @@ If you add *Alt description* to all your images you will bring searches to your 
 
 Remember to describe the image's intent, not what the actual image does.
 
-![Advantages and Disadvantage of using the Singleton Pattern](https://cdn.hashnode.com/res/hashnode/image/upload/v1620862898080/t0bfYGzmz.png)
+![Advantages and Disadvantage of using the Singleton Pattern](https://cdn.hashnode.com/res/hashnode/image/upload/v1620862898080/Advantages%20and%20Disadvantage%20of%20using%20the%20Singleton%20Pattern.png)
 
 Bad
 
 ```
-![drawisland](https://cdn.hashnode.com/res/hashnode/image/upload/v1620862898080/t0bfYGzmz.png)
+![drawisland](https://cdn.hashnode.com/res/hashnode/image/upload/v1620862898080/Advantages%20and%20Disadvantage%20of%20using%20the%20Singleton%20Pattern.png)
 ``` 
 
 ```
-![Singleton](https://cdn.hashnode.com/res/hashnode/image/upload/v1620862898080/t0bfYGzmz.png)
+![Singleton](https://cdn.hashnode.com/res/hashnode/image/upload/v1620862898080/Advantages%20and%20Disadvantage%20of%20using%20the%20Singleton%20Pattern.png)
 ``` 
 
 Good 
 ```
-![Advantages and Disadvantage of using the Singleton Pattern](https://cdn.hashnode.com/res/hashnode/image/upload/v1620862898080/t0bfYGzmz.png)
+![Advantages and Disadvantage of using the Singleton Pattern](https://cdn.hashnode.com/res/hashnode/image/upload/v1620862898080/Advantages%20and%20Disadvantage%20of%20using%20the%20Singleton%20Pattern.png)
 ``` 
 
 ## 5 - Replace links with your canonical ones
@@ -136,13 +136,13 @@ The article referenced all hashnode posts I wrote *before* customizing my domain
 So I replaced links like:
 
 ```
-../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md
+https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md
 ```
 
 with my vanity ones:
 
 ```
-../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md
+https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md
 ```
 
 They are better for SEO and personal branding.

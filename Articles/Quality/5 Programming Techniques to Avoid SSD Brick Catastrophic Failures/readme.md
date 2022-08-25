@@ -1,6 +1,6 @@
 # 5 Programming Techniques to Avoid SSD Brick Catastrophic Failures
 
-![5 Programming Techniques to Avoid SSD Brick Catastrophic Failures](patrick-perkins-rAtADOlvcos-unsplash.jpg)
+![5 Programming Techniques to Avoid SSD Brick Catastrophic Failures](5%20Programming%20Techniques%20to%20Avoid%20SSD%20Brick%20Catastrophic%20Failures.jpg)
 
 *Preventing serious faults is within reach*
 
@@ -28,13 +28,13 @@ The fault fixed by the [Dell EMC firmware](https://www.dell.com/support/home/es-
 We are serious software engineers and we have mature tools.
 
 How can we prevent defects like this one
-(They are not [BUGS](../../Quality/Stop%20Calling%20them%20'Bugs'/readme.md))
+(They are not [BUGS](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quality/Stop%20Calling%20them%20'Bugs'/readme.md))
 
-[Stop Calling them 'Bugs'](../../Quality/Stop%20Calling%20them%20'Bugs'/readme.md)
+[Stop Calling them 'Bugs'](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quality/Stop%20Calling%20them%20'Bugs'/readme.md)
 
 ## 1 - TDD
 
-With [TDD](../../TDD%20Conference%202021/TDD%20Conference%202021%20-%20All%20Talks/readme.md), we can only write code after a failing test.
+With [TDD](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD%20Conference%202021/TDD%20Conference%202021%20-%20All%20Talks/readme.md), we can only write code after a failing test.
 
 In this way, we need to think of the N scenario and explicitly check the case.
 
@@ -44,17 +44,17 @@ TDD is incredibly good for [embedded systems](https://www.amazon.com/-/es/James-
 
 ## 2 - Zombies
 
-[Zombies](../../TDD/How%20I%20Survived%20the%20Zombie%20Apocalypse/readme.md) is a great testing tool and also an amazing TDD companion.
+[Zombies](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20I%20Survived%20the%20Zombie%20Apocalypse/readme.md) is a great testing tool and also an amazing TDD companion.
 
 The 'B' for Boundaries at *zomBies* tells us to explicitly check for border cases.
 
 In this case N - 1, N, and N +1.
 
-[How I Survived the Zombie Apocalypse](../../TDD/How%20I%20Survived%20the%20Zombie%20Apocalypse/readme.md)
+[How I Survived the Zombie Apocalypse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20I%20Survived%20the%20Zombie%20Apocalypse/readme.md)
 
 ## 3 - Mutation Testing
 
-Whenever we use arithmetic or [IF conditions](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md), we might check what would happen if we make a mistake (like the one in this article) and change a < for a <=.
+Whenever we use arithmetic or [IF conditions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md), we might check what would happen if we make a mistake (like the one in this article) and change a < for a <=.
  
 Mutation testing is a very powerful tool to check boundary scenarios.
 
@@ -64,15 +64,15 @@ Embedded and hardware systems are often tuned for optimal performance.
 
 They skip some checks and are programmed with low-level languages.
 
-Most of them avoid [MAPPING]((../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)) the real world and use short integers as indices.
+Most of them avoid [MAPPING]((https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)) the real world and use short integers as indices.
 
-According to our [MAPPER](../../Theory/What%20is%20(wrong%20with)%20software/readme.md), an *integer* is not a *shortint* (or *longint*) and a *shortint* is not an *integer*.
+According to our [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md), an *integer* is not a *shortint* (or *longint*) and a *shortint* is not an *integer*.
 
 ## 5 - Fail Fast
 
 Mission Critical software sometimes has recovery or fault-tolerant routines.
 
-Following [Fail Fast](../../Theory/Fail%20Fast/readme.md) principle, we can anticipate disaster and let another piece of code take over instead of bricking the disks.
+Following [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md) principle, we can anticipate disaster and let another piece of code take over instead of bricking the disks.
 
 ## Conclusions.
 

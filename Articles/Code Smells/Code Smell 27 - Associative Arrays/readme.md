@@ -1,6 +1,6 @@
 # Code Smell 27 - Associative Arrays
 
-![Code Smell 27 - Associative Arrays](melissa-askew-tSlvoSZK77c-unsplash.jpg)
+![Code Smell 27 - Associative Arrays](Code%20Smell%2027%20-%20Associative%20Arrays.jpg)
 
 *[Key, values], magic, fast, malleable and error prone.*
 
@@ -133,15 +133,15 @@ We should avoid them on our systems.
 
 When creating objects, we must not think of them as *data*. This is a common misconception.
 
-We should stay loyal to our [Bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) and discover real world objects.
+We should stay loyal to our [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) and discover real world objects.
 
 Most associative arrays have cohesion and represent real world entities, and we must treat them as first class objects.
 
 # Relations
 
-[Code Smell 01 - Anemic Models](../../Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
+[Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2001%20-%20Anemic%20Models/readme.md)
 
-[Fail Fast](../../Theory/Fail%20Fast/readme.md)
+[Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
 # Credits
 
@@ -153,10 +153,10 @@ Photo by [Melissa Askew](https://unsplash.com/@melissaaskew) on [Unsplash](https
 
 _Kyle Simpson_ 
 
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

@@ -1,6 +1,6 @@
 # Refactoring 008 - Convert Variables to Constant
             
-![Refactoring 008 - Convert Variables to Constant](roots-of-big-old-tree.jpg)
+![Refactoring 008 - Convert Variables to Constant](Refactoring%20008%20-%20Convert%20Variables%20to%20Constant.jpg)
 
 *If I see a Variable that does not change. I call that variable a constant*
 
@@ -8,17 +8,17 @@
 
 # Problems Addressed
 
-- [Mutability](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
+- [Mutability](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 - Code Optimization
 
 # Related Code Smells
 
-[Code Smell 158 - Variables not Variable](../../Code%20Smells/Code%20Smell%20158%20-%20Variables%20not%20Variable/readme.md)
+[Code Smell 158 - Variables not Variable](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20158%20-%20Variables%20not%20Variable/readme.md)
 
-[Code Smell 127 - Mutable Constants](../../Code%20Smells/Code%20Smell%20127%20-%20Mutable%20Constants/readme.md)
+[Code Smell 127 - Mutable Constants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20127%20-%20Mutable%20Constants/readme.md)
 
-[Code Smell 116 - Variables Declared With 'var'](../../Code%20Smells/Code%20Smell%20116%20-%20Variables%20Declared%20With%20'var'/readme.md)
+[Code Smell 116 - Variables Declared With 'var'](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20116%20-%20Variables%20Declared%20With%20'var'/readme.md)
 
 # Steps
 
@@ -81,11 +81,11 @@ The scope is more clear.
 
 # Related Refactorings
 
-[Refactoring 003 - Extract Constant](../../Refactorings/Refactoring%20003%20-%20Extract%20Constant/readme.md)
+[Refactoring 003 - Extract Constant](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20003%20-%20Extract%20Constant/readme.md)
 
 # See also
 
-[The Evil Power of Mutants](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
+[The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 * * * 
 

@@ -1,6 +1,6 @@
 # Code Smell 42 - Warnings/Strict Mode Off
 
-![Code Smell 42 - Warnings/Strict Mode Off](noah-dominic-silvio-pB0y7Nf7xpU-unsplash.jpg)
+![Code Smell 42 - Warnings/Strict Mode Off](Code%20Smell%2042%20-%20Warnings%20Strict%20Mode%20Off.jpg)
 
 *Compilers and warnings lights are there for help. Don't ignore them.*
 
@@ -18,7 +18,7 @@
 
 2. Enable preconditions and assertions in production.
 
-3. [Fail fast](../../Theory/Fail%20Fast/readme.md)
+3. [Fail fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
 4. [Design by contract](https://en.wikipedia.org/wiki/Design_by_contract)
 
@@ -79,13 +79,13 @@ If we follow the *Broken Windows Theory*, we should not tolerate any warnings, s
 
 # Relations
 
-[Code Smell 19 - Optional Arguments](../../Code%20Smells/Code%20Smell%2019%20-%20Optional%20Arguments/readme.md)
+[Code Smell 19 - Optional Arguments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2019%20-%20Optional%20Arguments/readme.md)
 
-[Code Smell 12 - Null](../../Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md) 
+[Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md) 
 
 # More info
 
-[Fail Fast](../../Theory/Fail%20Fast/readme.md) 
+[Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md) 
 
 - [Use strict in javascript](https://blog.rahulism.co/use-strict-in-javascript)
 
@@ -101,13 +101,13 @@ _Jessica Gaston_
  
 * * *
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
 
 
 

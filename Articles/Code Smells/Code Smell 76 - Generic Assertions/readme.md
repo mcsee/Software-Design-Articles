@@ -1,6 +1,6 @@
 # Code Smell 76 - Generic Assertions
 
-![Code Smell 76 - Generic Assertions](fleur-dQf7RZhMOJU-unsplash.jpg)
+![Code Smell 76 - Generic Assertions](Code%20Smell%2076%20-%20Generic%20Assertions.jpg)
 
 *Don't make weak tests to create a false sensation of coverage.*
 
@@ -54,19 +54,19 @@ With [Mutation Testing](https://en.wikipedia.org/wiki/Mutation_testing) techniqu
 
 # Conclusion
 
-We should use development techniques like [TDD](../../TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md) that request concrete business cases and make concrete assertions based on our domain.
+We should use development techniques like [TDD](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md) that request concrete business cases and make concrete assertions based on our domain.
 
 # Relations
 
-[Code Smell 30 - Mocking Business](../../Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md)
+[Code Smell 30 - Mocking Business](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md)
 
-[Code Smell 52 - Fragile Tests](../../Code%20Smells/Code%20Smell%2052%20-%20Fragile%20Tests/readme.md)
+[Code Smell 52 - Fragile Tests](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2052%20-%20Fragile%20Tests/readme.md)
 
 # More info
 
-- [Test Driven Development](../../TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md)
+- [Test Driven Development](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md)
 
-- [The Only Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
+- [The Only Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 - [Mutation Testing](https://en.wikipedia.org/wiki/Mutation_testing)
 
@@ -83,10 +83,10 @@ Photo by [Fleur](https://unsplash.com/@yer_a_wizard) on [Unsplash](https://unspl
 
 _John Osterhout_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

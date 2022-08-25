@@ -1,6 +1,6 @@
 # Code Smell 35 - State as Properties
 
-![Code Smell 35 - State as Properties](tom-crew-t9sRlYIzfIQ-unsplash.jpg)
+![Code Smell 35 - State as Properties](Code%20Smell%2035%20-%20State%20as%20Properties.jpg)
 
 *When an object changes its state the best solution is to change the attribute, isn't it?* 
 
@@ -12,7 +12,7 @@
 
 - Setters
 
-[Code Smell 28 - Setters](../../Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
+[Code Smell 28 - Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
 
 # Solutions
 
@@ -96,7 +96,7 @@ If we want to be extreme, we should consider every *setter* to be a potential st
 
 - Performance issues (if a serious benchmark supports it).
 
-[Code Smell 20 - Premature Optimization](../../Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
+[Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
 # Tags
 
@@ -112,11 +112,11 @@ They are *hints* and not rigid rules.
 
 # Relations
 
-[Code Smell 28 - Setters](../../Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
+[Code Smell 28 - Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
  
 # More info
 
-[The Evil Power of Mutants](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
+[The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 # Credits
 
@@ -128,11 +128,11 @@ Photo by [Tom Crew](https://unsplash.com/@tomcrewceramics) on [Unsplash](https:/
 
 _Kent Beck_
 
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
 

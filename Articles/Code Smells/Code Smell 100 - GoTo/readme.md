@@ -1,6 +1,6 @@
 # Code Smell 100 - GoTo
 
-![Code Smell 100 - GoTo](jens-johnsson-36a3U4_UUHY-unsplash.jpg)
+![Code Smell 100 - GoTo](Code%20Smell%20100%20-%20GoTo.jpg)
 
 *GOTO was considered harmful 50 years ago*
 
@@ -117,15 +117,15 @@ We acknowledged GOTO problems a few decades ago.
 
 The problem is still present in [modern languages](https://en.wikipedia.org/wiki/Goto) like GoLang, PHP, Perl etc.
 
-Most programmers luckily avoid GOTO sentence. Next goal will be to consider harmful [null usage](../../Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md).
+Most programmers luckily avoid GOTO sentence. Next goal will be to consider harmful [null usage](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md).
 
-![goto xkcd](goto.png)
+![goto xkcd](goto%20xkcd.png)
 
 *Courtesy [XKCD](https://xkcd.com/292/)*
 
 # Relations
 
-[Code Smell 12 - Null](../../Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
+[Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
 # More Info
 
@@ -143,10 +143,10 @@ It is practically impossible to teach good programming to students that have had
 
 _Edsger Dijkstra_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

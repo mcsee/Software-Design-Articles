@@ -1,6 +1,6 @@
 # Explain in 5 Levels of Difficulty: Object-Oriented Programming
 
-![Explain in 5 Levels of Difficulty: Object-Oriented Programming](Azdy.gif)
+![Explain in 5 Levels of Difficulty: Object-Oriented Programming](Explain%20in%205%20Levels%20of%20Difficulty:%20Object-Oriented%20Programming.gif)
 
 > TL;DR: What is Object-Oriented Programming
 
@@ -12,9 +12,9 @@ I will explain Object-Oriented Programming (OOP) in Five Levels (a child, a teen
 
 [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) is a programming style based on the idea of objects.
 
-An object is a [representation](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) of something in the real world.
+An object is a [representation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) of something in the real world.
 
-OOP makes it easy to create programs that can [model real-world objects](../../Theory/What%20is%20(wrong%20with)%20software/readme.md). 
+OOP makes it easy to create programs that can [model real-world objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md). 
 
 By using OOP, you can create programs that are easy to learn and understand.
 
@@ -82,7 +82,7 @@ Object-oriented programming (OOP) is a style of programming that focuses on usin
 
 In object-oriented programming, each object is a separate entity created, manipulated, and destroyed independently.
 
-OOP is based on the concept of objects based on the behavior of [their real counterparts](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
+OOP is based on the concept of objects based on the behavior of [their real counterparts](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
 
 We can create Objects from scratch, or derive them from other objects. 
 
@@ -126,7 +126,7 @@ This can lead to maintenance issues down the road if we need to change one piece
 
 OOP can also lead to more reliable and robust code. 
 
-This is because classes and objects can be designed in such a way that they enforce [immutability](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md), encapsulation, [fail-fast](../../Theory/Fail%20Fast/readme.md), code reuse, and information hiding. 
+This is because classes and objects can be designed in such a way that they enforce [immutability](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md), encapsulation, [fail-fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md), code reuse, and information hiding. 
 
 Favoring encapsulation, we can hide the internals of a class or object from the outside world preventing unintended side-effects from occurring.
  
@@ -134,7 +134,7 @@ Once we design and test a class or object, we can reuse it in other parts of the
 
 This can save time and effort during development, as well as lead to more consistent results across the application as a whole.
 
-[Object-Oriented Design](../../Theory/Object%20Design%20Checklist/readme.md) is the cornerstone of many large software developments around the world.
+[Object-Oriented Design](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Object%20Design%20Checklist/readme.md) is the cornerstone of many large software developments around the world.
 
 * * *
 

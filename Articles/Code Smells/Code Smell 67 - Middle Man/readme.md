@@ -1,6 +1,6 @@
 # Code Smell 67 - Middle Man
 
-![Code Smell 67 - Middle Man](dan-counsell-y57MGB34dEE-unsplash.jpg)
+![Code Smell 67 - Middle Man](Code%20Smell%2067%20-%20Middle%20Man.jpg)
 
 *Let's break Demeter's Law.*
 
@@ -69,7 +69,7 @@ public class Application {
 
 # Detection
 
-Same as its [opposite smell](../../Code%20Smells/Code%20Smell%2008%20-%20Long%20Chains%20Of%20Collaborations/readme.md), We can detect this small using parsing trees.
+Same as its [opposite smell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2008%20-%20Long%20Chains%20Of%20Collaborations/readme.md), We can detect this small using parsing trees.
 
 # Tags
 
@@ -81,13 +81,13 @@ Same as its [opposite smell](../../Code%20Smells/Code%20Smell%2008%20-%20Long%20
 
 # Conclusion
 
-This is exactly the opposite to [Message Chain](../../Code%20Smells/Code%20Smell%2008%20-%20Long%20Chains%20Of%20Collaborations/readme.md). We make explicit the message chain. 
+This is exactly the opposite to [Message Chain](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2008%20-%20Long%20Chains%20Of%20Collaborations/readme.md). We make explicit the message chain. 
 
 # Relations
 
-[Code Smell 08 - Long Chains Of Collaborations](../../Code%20Smells/Code%20Smell%2008%20-%20Long%20Chains%20Of%20Collaborations/readme.md)
+[Code Smell 08 - Long Chains Of Collaborations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2008%20-%20Long%20Chains%20Of%20Collaborations/readme.md)
 
-[Code Smell 114 - Empty Class](../../Code%20Smells/Code%20Smell%20114%20-%20Empty%20Class/readme.md)
+[Code Smell 114 - Empty Class](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20114%20-%20Empty%20Class/readme.md)
 
 # More info
 
@@ -113,10 +113,10 @@ _Martin Fowler_
 
 * * *
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

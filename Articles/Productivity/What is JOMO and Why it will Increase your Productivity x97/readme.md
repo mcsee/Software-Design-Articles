@@ -1,6 +1,6 @@
 # What is JOMO and Why it will Increase your Productivity x97
 
-![What is JOMO and Why it will Increase your Productivity x97](homer.gif)
+![What is JOMO and Why it will Increase your Productivity x97](What%20is%20JOMO%20and%20Why%20it%20will%20Increase%20your%20Productivity%20x97.gif)
 
 > TL;DR: You are mortal. You will die. Don't waste your time.
 
@@ -66,11 +66,11 @@ According to Patrick McGinnis' 3 tips, we can fight it:
 
 - and many more tips...
 
-[My Best Short Productivity Tips](../../Productivity/My%20Best%20Short%20Productivity%20Tips/readme.md)
+[My Best Short Productivity Tips](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/My%20Best%20Short%20Productivity%20Tips/readme.md)
 
-[16 Simple Tips to Boost Your Productivity x10](../../Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md)
+[16 Simple Tips to Boost Your Productivity x10](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md)
 
-[10 More Simple Tips to Boost Your Productivity x2 (2021 Guide)](../../Productivity/10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2%20(2021%20Guide)/readme.md)
+[10 More Simple Tips to Boost Your Productivity x2 (2021 Guide)](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2%20(2021%20Guide)/readme.md)
 
 # What does the 97x stand for?
 

@@ -1,6 +1,6 @@
 # Refactoring 007 - Extract Class
 
-![Refactoring 007 - Extract Class](pump-jack-ged2e1c92d_1920.jpg)
+![Refactoring 007 - Extract Class](Refactoring%20007%20-%20Extract%20Class.jpg)
 
 *Behavior is repeated across the system. But we are missing a concept*
 
@@ -16,11 +16,11 @@
 
 # Related Code Smells
 
-[Code Smell 124 - Divergent Change](../../Code%20Smells/Code%20Smell%20124%20-%20Divergent%20Change/readme.md)
+[Code Smell 124 - Divergent Change](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20124%20-%20Divergent%20Change/readme.md)
 
-[Code Smell 143 - Data Clumps](../../Code%20Smells/Code%20Smell%20143%20-%20Data%20Clumps/readme.md)
+[Code Smell 143 - Data Clumps](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20143%20-%20Data%20Clumps/readme.md)
 
-[Code Smell 147 - Too Many Methods](../../Code%20Smells/Code%20Smell%20147%20-%20Too%20Many%20Methods/readme.md)
+[Code Smell 147 - Too Many Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20147%20-%20Too%20Many%20Methods/readme.md)
 
 # Steps
 

@@ -1,6 +1,6 @@
 # Code Smell 97 - Error Messages Without Empathy
 
-![Code Smell 97 - Error Messages Without Empathy](visuals-JpTY4gUviJM-unsplash.jpg)
+![Code Smell 97 - Error Messages Without Empathy](Code%20Smell%2097%20-%20Error%20Messages%20Without%20Empathy.jpg)
 
 *We should take special care with error descriptions for the users (and ourselves).*
 
@@ -73,10 +73,10 @@ Photo by [visuals](https://unsplash.com/@visuals) on [Unsplash](https://unsplash
 
 _Robert D. Schneider_ 
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

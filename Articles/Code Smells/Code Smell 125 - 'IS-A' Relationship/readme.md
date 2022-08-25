@@ -1,6 +1,6 @@
 # Code Smell 125 - 'IS-A' Relationship
 
-![Code Smell 125 - 'IS-A' Relationship](joshua-rondeau-jQkhAxtq70E-unsplash.jpg)
+![Code Smell 125 - 'IS-A' Relationship](Code%20Smell%20125%20-%20'IS-A'%20Relationship.jpg)
 
 *We learned at school that inheritance represents an 'is-a' relationship. It is not.*
 
@@ -32,7 +32,7 @@ We learned [ERDs](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_mode
 
 Now, we need to think in terms of behavior.
 
-Behavior is essential, data is [accidental](../../Theory/No%20Silver%20Bullet/readme.md).
+Behavior is essential, data is [accidental](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md).
 
 # Sample Code
 
@@ -206,15 +206,15 @@ This is a semantic smell.
 
 *Real* Number does not Behave-Like-A *Complex* number.
 
-We cannot do real.setImaginaryPart() so it is not a Complex according to our [Bijection](../../Theory/What%20is%20(wrong%20with)%20software/readme.md)
+We cannot do real.setImaginaryPart() so it is not a Complex according to our [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
 # Relations
 
-[Code Smell 92 - Isolated Subclasses Names](../../Code%20Smells/Code%20Smell%2092%20-%20Isolated%20Subclasses%20Names/readme.md)
+[Code Smell 92 - Isolated Subclasses Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2092%20-%20Isolated%20Subclasses%20Names/readme.md)
 
-[Code Smell 11 - Subclassification for Code Reuse](../../Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
+[Code Smell 11 - Subclassification for Code Reuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
 
-[Code Smell 37 - Protected Attributes](../../Code%20Smells/Code%20Smell%2037%20-%20Protected%20Attributes/readme.md)
+[Code Smell 37 - Protected Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2037%20-%20Protected%20Attributes/readme.md)
 
 # More Info
 
@@ -222,9 +222,9 @@ We cannot do real.setImaginaryPart() so it is not a Complex according to our [Bi
 
 - [Subtyping](https://en.wikipedia.org/wiki/Subtyping)
 
-- [No Silver Bullet](../../Theory/No%20Silver%20Bullet/readme.md)
+- [No Silver Bullet](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md)
 
-- [Bijection Principle](../../Theory/What%20is%20(wrong%20with)%20software/readme.md)
+- [Bijection Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
 # Credits
 
@@ -236,10 +236,10 @@ Photo by [Joshua Rondeau](https://unsplash.com/@liferondeau) on [Unsplash](https
 
 _Andy Hunt_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

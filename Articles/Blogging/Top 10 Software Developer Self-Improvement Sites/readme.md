@@ -1,6 +1,6 @@
 # Top 10 Software Developer Self-Improvement Sites
             
-![Top 10 Software Developer Self-Improvement Sites](ezgif-5-f58ceb81e2.gif)
+![Top 10 Software Developer Self-Improvement Sites](Top%2010%20Software%20Developer%20Self-Improvement%20Sites.gif)
 
 > TL;DR: What are the most helpful online tools to self-improve as a developer/software engineer
 
@@ -24,7 +24,7 @@ You can learn tips and tricks, hacks, and quick solutions for problems online.
 
 You can do magic as an empowered junior developer and build fancy software.
 
-But you need to learn [boring fundamentals](../../Opinion/Software%20Engineer%20Maxi%20Contieri%20on%20writing%20about%20“boring”%20fundamentals/readme.md) and [theory](../../Theory/Programming%20as%20Theory%20Building/readme.md) to improve your career.
+But you need to learn [boring fundamentals](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Opinion/Software%20Engineer%20Maxi%20Contieri%20on%20writing%20about%20“boring”%20fundamentals/readme.md) and [theory](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Programming%20as%20Theory%20Building/readme.md) to improve your career.
 
 If you ever want to move to the major leagues you need to read books. Period.
 
@@ -58,7 +58,7 @@ It's a great way to stay up-to-date on the latest news.
 
 You can also find out about new tools and frameworks, and connect with [amazing developers](https://twitter.com/i/lists/1312444036540772359).
 
-I curated my timeline [following developers](../../Twitter/The%20Tech%20Twitter%20Guide%20to%20the%20Galaxy/readme.md) and book writers.
+I curated my timeline [following developers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Twitter/The%20Tech%20Twitter%20Guide%20to%20the%20Galaxy/readme.md) and book writers.
 
 I get to talk with amazing people, book outers, and people who built the foundations of our profession.
 
@@ -72,7 +72,7 @@ You can find me on Twitter [here](https://twitter.com/mcsee1)
 
 I write, read and moderate a lot of programming blogs.
 
-I read about 50 technical articles a day and save them on [Pocket](../../Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md) and InoReader for the weekends.
+I read about 50 technical articles a day and save them on [Pocket](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md) and InoReader for the weekends.
 
 If you follow relevant tags, you will find amazing content daily.
 
@@ -158,7 +158,7 @@ You can find me on Discord [here](https://discordapp.com/users/mcsee#5172)
 
 Many online communities can be helpful for self-improvement as a programmer. 
 
-These include local meetups, [conferences](../../TDD%20Conference%202021/TDD%20Conference%202021%20-%20All%20Talks/readme.md), and hackathons. 
+These include local meetups, [conferences](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD%20Conference%202021/TDD%20Conference%202021%20-%20All%20Talks/readme.md), and hackathons. 
 
 Attending these events can be a great way to meet other programmers.
 

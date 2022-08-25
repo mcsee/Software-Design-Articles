@@ -1,6 +1,6 @@
 # I Wrote More than 90 Articles on 2021 Here is What I Learned
 
-![I Wrote More than 90 Articles on 2021 Here is What I Learned](glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg)
+![I Wrote More than 90 Articles on 2021 Here is What I Learned](I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned.jpg)
 
 *This article summarizes my experience as a writer during the pandemic year 2021*
 
@@ -50,13 +50,13 @@ Below you will find many resources and tools, and my method and tips for writing
 
 - I use Trello, Inoreader, Pocket, and Obsidian.
 
-- I Use [The Pomodoro technique](../../Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md) to focus when writing. 🍅
+- I Use [The Pomodoro technique](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md) to focus when writing. 🍅
 
 - I avoid perfection. I publish them when they are *ready*. 
 
 - Then I make corrections following other people's comments. Even after months.
 
-- I [Garden](../../Blogging/Today%20I%20Learned%20the%20Concept%20of%20Gardening/readme.md) my articles.
+- I [Garden](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/Today%20I%20Learned%20the%20Concept%20of%20Gardening/readme.md) my articles.
 
 # Dealing with Criticism
 
@@ -96,7 +96,7 @@ Below you will find many resources and tools, and my method and tips for writing
 
 - IMHO, a 6 lines method is too long
 
-- You can always break them using [refactorings](../../Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md).  🛠️
+- You can always break them using [refactorings](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md).  🛠️
 
 - You don't need to see the big picture and the details at the same time. 🌳
 
@@ -116,7 +116,7 @@ Below you will find many resources and tools, and my method and tips for writing
 
 - I am not an expert in NONE of these languages.
 
-- Languages are accidental, and Software design is [essential](../../Theory/No%20Silver%20Bullet/readme.md).
+- Languages are accidental, and Software design is [essential](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md).
 
 ### Why do you rotate the programming languages?
 
@@ -158,11 +158,11 @@ No language is perfect and that is my point.
 
 - If I need to sort 20 elements in a collection, I will always choose bubble sort because it is easier to read.
 
-> [Premature optimization](../../Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md) is the root of all evil. 😈
+> [Premature optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md) is the root of all evil. 😈
 
 ## Anti-Patterns
 
-### [Helpers](../../Code%20Smells/Code%20Smell%2022%20-%20Helpers/readme.md), [DTOs](../../Code%20Smells/Code%20Smell%2040%20-%20DTOs/readme.md), [Singletons](../../Code%20Smells/Code%20Smell%2032%20-%20Singletons/readme.md), [Nulls](../../Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md), [Setters](../../Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md), [Metaprogramming](../../Theory/Laziness%20I%20-%20Metaprogramming/readme.md), [Castings](../../Code%20Smells/Code%20Smell%2069%20-%20Big%20Bang%20(JavaScript%20Ridiculous%20Castings)/readme.md), [Comments](../../Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md) are standard. 🙈
+### [Helpers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2022%20-%20Helpers/readme.md), [DTOs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2040%20-%20DTOs/readme.md), [Singletons](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2032%20-%20Singletons/readme.md), [Nulls](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md), [Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md), [Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md), [Castings](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2069%20-%20Big%20Bang%20(JavaScript%20Ridiculous%20Castings)/readme.md), [Comments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md) are standard. 🙈
 
 - I write a lot on these anti-patterns with the reasons why I think we should avoid them.
 
@@ -174,7 +174,7 @@ No language is perfect and that is my point.
 
 ### Your solutions have too many indirections
 
-- [Coupling](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md) is our worst enemy. 🙅
+- [Coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md) is our worst enemy. 🙅
 
 - We need to avoid direct relationships.
 
@@ -186,4 +186,4 @@ No language is perfect and that is my point.
 
 - There is just one rule
 
--- Always follow the [bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) 🔀
+-- Always follow the [bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) 🔀

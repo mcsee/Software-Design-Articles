@@ -1,6 +1,6 @@
 # Code Smell 154 - Too Many Variables
 
-![Code Smell 154 - Too Many Variables](dustan-woodhouse-RUqoVelx59I-unsplash.jpg)
+![Code Smell 154 - Too Many Variables](Code%20Smell%20154%20-%20Too%20Many%20Variables.jpg)
 
 *You debug code and see too many variables declared and active*
 
@@ -14,13 +14,13 @@
 
 # Solutions
 
-1. [Extract Method](../../Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
+1. [Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
 2. Remove unused variables
 
 # Refactorings
  
-[Refactoring 002 - Extract Method](../../Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
+[Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
 # Context
 
@@ -121,17 +121,17 @@ This warning also hints us to break and scope our variables.
 
 # Conclusion
 
-[Extract Method](../../Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md) is our best friend. 
+[Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md) is our best friend. 
 
 We should use it a lot.
 
 # Relations
 
-[Code Smell 03 - Functions Are Too Long](../../Code%20Smells/Code%20Smell%2003%20-%20Functions%20Are%20Too%20Long/readme.md)
+[Code Smell 03 - Functions Are Too Long](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2003%20-%20Functions%20Are%20Too%20Long/readme.md)
 
-[Code Smell 107 - Variables Reuse](../../Code%20Smells/Code%20Smell%20107%20-%20Variables%20Reuse/readme.md)
+[Code Smell 107 - Variables Reuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20107%20-%20Variables%20Reuse/readme.md)
 
-[Code Smell 62 - Flag Variables](../../Code%20Smells/Code%20Smell%2062%20-%20Flag%20Variables/readme.md)
+[Code Smell 62 - Flag Variables](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2062%20-%20Flag%20Variables/readme.md)
 
 # Credits
 
@@ -143,10 +143,10 @@ Photo by [Dustan Woodhouse](https://unsplash.com/@dwoodhouse) on [Unsplash](http
 
 _Martin Fowler_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

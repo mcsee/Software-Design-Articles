@@ -1,6 +1,6 @@
 # Code Smell 90 - Implementative Callback Events
 
-![Code Smell 90 - Implementative Callback Events](ashim-d-silva-P_PNZnNd7-Y-unsplash.jpg)
+![Code Smell 90 - Implementative Callback Events](Code%20Smell%2090%20-%20Implementative%20Callback%20Events.jpg)
 
 *When creating events, we should decouple the trigger from the action.*
 
@@ -63,7 +63,7 @@ Names are very important. We should delay implementation coupled names until the
 
 # More Info
 
-- [What is exactly in a name](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
+- [What is exactly in a name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
 
 - [Refactoring Guru](https://refactoring.guru/es/design-patterns/observer)
 
@@ -82,10 +82,10 @@ Thanks to Maciej for this tip
 
 _Marissa Mayer_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

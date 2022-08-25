@@ -1,6 +1,6 @@
 # Code Smell 02 - Constants and Magic Numbers
 
-![Code Smell 02 - Constants and Magic Numbers](kristopher-roller-PC_lbSSxCZE-unsplash.jpg)
+![Code Smell 02 - Constants and Magic Numbers](Code%20Smell%2002%20-%20Constants%20and%20Magic%20Numbers.jpg)
 
 *A method makes calculations with lots of numbers without describing their semantics*
 
@@ -8,7 +8,7 @@
 
 # Problems
 
-- [Coupling](/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+- [Coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 - Low testability
 - Low readability
 
@@ -57,7 +57,7 @@ Many linters can detect number literals in attributes and methods.
 
 # More info
 - [Refactoring Guru](https://refactoring.guru/es/replace-magic-number-with-symbolic-constant)
-- [How to Decouple a Legacy System](../../Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
+- [How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 
 # Credits
 
@@ -69,10 +69,10 @@ Photo by [Kristopher Roller](https://unsplash.com/@krisroller) on [Unsplash](htt
 
 _Joel Spolsky_
 
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

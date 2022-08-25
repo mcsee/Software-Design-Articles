@@ -1,6 +1,6 @@
 # Code Smell 47 - Diagrams
 
-![Code Smell 47 - Diagrams](nick-seagrave-1tpLdmxki-c-unsplash.jpg)
+![Code Smell 47 - Diagrams](Code%20Smell%2047%20-%20Diagrams.jpg)
 
 *Diagrams are not code. They cannot be a code smell. They are just Diagram Smells.*
 
@@ -28,7 +28,7 @@
 
 # Examples
 
-- [Automatic Code Generators](../../Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
+- [Automatic Code Generators](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
 
 # Sample Code
 
@@ -94,13 +94,13 @@ No good system was developed with these tools.
 
 # Relations
 
-[Code Smell 01 - Anemic Models](../../Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
+[Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2001%20-%20Anemic%20Models/readme.md)
 
-[Code Smell 25 - Pattern Abusers](../../Code%20Smells/Code%20Smell%2025%20-%20Pattern%20Abusers/readme.md)
+[Code Smell 25 - Pattern Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2025%20-%20Pattern%20Abusers/readme.md)
  
 # More info
 
-[Laziness II - Code Wizards](../../Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
+[Laziness II - Code Wizards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
 
 %[https://en.wikipedia.org/wiki/Computer-aided_software_engineering]
 
@@ -118,10 +118,10 @@ _Eric Evans_
 
 * * *
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

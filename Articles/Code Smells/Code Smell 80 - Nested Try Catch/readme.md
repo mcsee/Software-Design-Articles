@@ -1,6 +1,6 @@
 # Code Smell 80 - Nested Try/Catch
 
-![Code Smell 80 - Nested Try/Catch](david-clode-MP210AoAjh4-unsplash.jpg)
+![Code Smell 80 - Nested Try/Catch](Code%20Smell%2080%20-%20Nested%20Try%20Catch.jpg)
 
 *Exceptions are a great way of separating happy path versus trouble path. But we tend to over-complicate our solutions.*
 
@@ -73,9 +73,9 @@ Happy path should always be more important than exception cases.
 
 # Relations
 
-[Code Smell 73 - Exceptions for Expected Cases](../../Code%20Smells/Code%20Smell%2073%20-%20Exceptions%20for%20Expected%20Cases/readme.md)
+[Code Smell 73 - Exceptions for Expected Cases](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2073%20-%20Exceptions%20for%20Expected%20Cases/readme.md)
 
-[Code Smell 26 - Exceptions Polluting](../../Code%20Smells/Code%20Smell%2026%20-%20Exceptions%20Polluting/readme.md)
+[Code Smell 26 - Exceptions Polluting](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2026%20-%20Exceptions%20Polluting/readme.md)
 
 # More Info
 
@@ -95,10 +95,10 @@ Thanks to @[Rodrigo](@rodrigomd) for his inspiration
 
 _Karolina Szczur_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

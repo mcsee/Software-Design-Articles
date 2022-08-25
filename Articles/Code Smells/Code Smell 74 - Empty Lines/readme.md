@@ -1,6 +1,6 @@
 # Code Smell 74 - Empty Lines
 
-![Code Smell 74 - Empty Lines](sigmund-FQcCbjnXf1M-unsplash.jpg)
+![Code Smell 74 - Empty Lines](Code%20Smell%2074%20-%20Empty%20Lines.jpg)
 
 *Breaking the code to favor readability asks for refactor.*
 
@@ -79,7 +79,7 @@ If you break your code with comments, it is also a code smell asking for a refac
 
 # Relations
 
-[Code Smell 03 - Functions Are Too Long](../../Code%20Smells/Code%20Smell%2003%20-%20Functions%20Are%20Too%20Long/readme.md)
+[Code Smell 03 - Functions Are Too Long](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2003%20-%20Functions%20Are%20Too%20Long/readme.md)
 
 # Credits
 
@@ -92,10 +92,10 @@ Photo by [Sigmund](https://unsplash.com/@sigmund) on [Unsplash](https://unsplash
 
 _Steve McConnell_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

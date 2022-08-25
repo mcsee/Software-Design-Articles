@@ -1,6 +1,6 @@
 # Code Smell 137 - Inheritance Tree Too Deep
 
-![Code Smell 137 - Inheritance Tree Too Deep](binary-palm-tree.png)
+![Code Smell 137 - Inheritance Tree Too Deep](Code%20Smell%20137%20-%20Inheritance%20Tree%20Too%20Deep.png)
 
 *Yet another bad code reuse symptom*
 
@@ -8,7 +8,7 @@
 
 # Problems
 
-- [Coupling](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+- [Coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 - Subclassification Reuse 
 
@@ -98,19 +98,19 @@ Look after your hierarchies and break them often.
 
 # Relations
 
-[Code Smell 11 - Subclassification for Code Reuse](../../Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
+[Code Smell 11 - Subclassification for Code Reuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
 
-[Code Smell 43 - Concrete Classes Subclassified](../../Code%20Smells/Code%20Smell%2043%20-%20Concrete%20Classes%20Subclassified/readme.md)
+[Code Smell 43 - Concrete Classes Subclassified](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2043%20-%20Concrete%20Classes%20Subclassified/readme.md)
 
-[Code Smell 58 - Yo-yo Problem](../../Code%20Smells/Code%20Smell%2058%20-%20Yo-yo%20Problem/readme.md)
+[Code Smell 58 - Yo-yo Problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2058%20-%20Yo-yo%20Problem/readme.md)
 
-[Code Smell 37 - Protected Attributes](../../Code%20Smells/Code%20Smell%2037%20-%20Protected%20Attributes/readme.md)
+[Code Smell 37 - Protected Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2037%20-%20Protected%20Attributes/readme.md)
 
-[Code Smell 125 - 'IS-A' Relationship](../../Code%20Smells/Code%20Smell%20125%20-%20'IS-A'%20Relationship/readme.md)
+[Code Smell 125 - 'IS-A' Relationship](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20125%20-%20'IS-A'%20Relationship/readme.md)
 
 # More Info
 
-- [Coupling: The one and only problem](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+- [Coupling: The one and only problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Cyclomatic_complexity)
 
@@ -120,10 +120,10 @@ Look after your hierarchies and break them often.
 
 _Bertrand Meyer_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

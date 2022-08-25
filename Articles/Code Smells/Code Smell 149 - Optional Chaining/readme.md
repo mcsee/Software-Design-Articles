@@ -1,6 +1,6 @@
 # Code Smell 149 - Optional Chaining
 
-![Code Smell 149 - Optional Chaining](engin-akyurt-eKBVDW1X2xY-unsplash.jpg)
+![Code Smell 149 - Optional Chaining](Code%20Smell%20149%20-%20Optional%20Chaining.jpg)
 
 *Our code is more robust and legible. But we hide NULL under the rug*
 
@@ -10,7 +10,7 @@
 
 - Nulls
 
-- [IF Polluting](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
+- [IF Polluting](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
 # Solutions
 
@@ -103,19 +103,19 @@ We need to aim higher and make cleaner code.
 
 # Relations
 
-[Code Smell 145 - Short Circuit Hack](../../Code%20Smells/Code%20Smell%20145%20-%20Short%20Circuit%20Hack/readme.md)
+[Code Smell 145 - Short Circuit Hack](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20145%20-%20Short%20Circuit%20Hack/readme.md)
 
-[Code Smell 12 - Null](../../Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
+[Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
-[Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](../../Code%20Smells/Code%20Smell%2069%20-%20Big%20Bang%20(JavaScript%20Ridiculous%20Castings)/readme.md)
+[Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2069%20-%20Big%20Bang%20(JavaScript%20Ridiculous%20Castings)/readme.md)
 
 # More Info
 
 - [Optional Chaining Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
 
-[Null: The Billion Dollar Mistake](../../Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
+[Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
-[How to Get Rid of Annoying IFs Forever](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
+[How to Get Rid of Annoying IFs Forever](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
 [WAT?](https://www.destroyallsoftware.com/talks/wat)
 
@@ -129,10 +129,10 @@ Photo by [engin akyurt](https://unsplash.com/@enginakyurt) on [Unsplash](https:/
 
 _Nietzsche_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

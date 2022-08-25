@@ -1,24 +1,24 @@
 # GPT-3 Training Programmers for the Present (and the Future)
 
-![GPT-3 Training Programmers for the Present (and the Future)](dalle.jpg)
+![GPT-3 Training Programmers for the Present (and the Future)](GPT-3%20Training%20Programmers%20for%20the%20Present%20(and%20the%20Future).jpg)
 
 *I wrote a paper in Spanish and asked "someone else" to rewrite it*
 
 Last year, I [wrote a paper](https://cartografiasdelsur.undav.edu.ar/index.php/CdS/article/view/216) in Spanish about the future of programmers.
 
-> TL;DR: Instead of manually translating my paper, I decided to rewrite it completely with [GPT-3](../../Artificial%20Intelligence/I've%20Recently%20Learned%20About%20GPT3%20-%20This%20is%20my%20Journey/readme.md).
+> TL;DR: Instead of manually translating my paper, I decided to rewrite it completely with [GPT-3](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Artificial%20Intelligence/I've%20Recently%20Learned%20About%20GPT3%20-%20This%20is%20my%20Journey/readme.md).
 
-In the same way, The Guardian asked [GPT-3](../../Artificial%20Intelligence/I've%20Recently%20Learned%20About%20GPT3%20-%20This%20is%20my%20Journey/readme.md) when it was in private beta.
+In the same way, The Guardian asked [GPT-3](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Artificial%20Intelligence/I've%20Recently%20Learned%20About%20GPT3%20-%20This%20is%20my%20Journey/readme.md) when it was in private beta.
 
 https://www.theguardian.com/commentisfree/2020/sep/08/robot-wrote-this-article-gpt-3
 
 When I asked *it* to translate the article, it decided the title was not good enough.
 
-![Present](https://cdn.hashnode.com/res/hashnode/image/upload/v1656266278191/885hAcJeZ.png)
+![Present](https://cdn.hashnode.com/res/hashnode/image/upload/v1656266278191/Present.png)
 
 So it changed it to present AND future
 
-![Future](https://cdn.hashnode.com/res/hashnode/image/upload/v1656266301609/6orWqu4eA.png)
+![Future](https://cdn.hashnode.com/res/hashnode/image/upload/v1656266301609/Future.png)
 
 😱Scary, isn't it?
 
@@ -146,7 +146,7 @@ Part of the ideas in this article was born from the teaching work in the Softwar
 4. [Obsolete programmers](https://dl.acm.org/doi/10.1145/341852.341872)
 5. [No silver bullet](http://worrydream.com/refs/Brooks-NoSilverBullet.pdf)
 6. [Fashionable languages](https://www.techrepublic.com/article/java-and-javascript-dominated-software-development-in-the-2010s/ )
-7. [There is no silver bullet](../../Theory/No%20Silver%20Bullet/readme.md)
+7. [There is no silver bullet](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md)
 8. [Deep Coder](https://computerhoy.com/noticias/software/deepcoder-inteligencia-artificial-microsoft-que-crea-programas-58774)
 9. [Augmented Coding](https://stayrelevant.globant.com/es/haldo-sponton-con-augmented-coding-vamos-a-patear-el-tablero-de-la-industria-del-software/)
 10. [Process Virtual Machines](https://www.researchgate.net/publication/232625032_A_Survey_of_Virtual_Machine_System_Current_Technology_and_Future_Trends)

@@ -1,6 +1,6 @@
 # Code Smell 157 - Balance at 0
 
-![Code Smell 157 - Balance at 0](jasmin-sessler-egqR_zUd4NI-unsplash.jpg)
+![Code Smell 157 - Balance at 0](Code%20Smell%20157%20-%20Balance%20at%200.jpg)
 
 *Today I expected a payment in my wallet. The balance was 0. I panicked.*
 
@@ -8,7 +8,7 @@
 
 # Problems
 
-- [Nulls](../../Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
+- [Nulls](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
 - UX
 
@@ -89,7 +89,7 @@ def get_balance(address):
 
 This is a design smell. 
 
-We can find patterns when an [exception](../../Code%20Smells/Code%20Smell%2073%20-%20Exceptions%20for%20Expected%20Cases/readme.md) or [return code](../../Code%20Smells/Code%20Smell%2072%20-%20Return%20Codes/readme.md) is thrown and masked with a 0.
+We can find patterns when an [exception](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2073%20-%20Exceptions%20for%20Expected%20Cases/readme.md) or [return code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2072%20-%20Return%20Codes/readme.md) is thrown and masked with a 0.
 
 # Tags
 
@@ -101,17 +101,17 @@ Always follow The [Least Astonishment principle](https://en.wikipedia.org/wiki/P
 
 # Relations
 
-[Code Smell 12 - Null](../../Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
+[Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
-[Code Smell 139 - Business Code in the User Interface](../../Code%20Smells/Code%20Smell%20139%20-%20Business%20Code%20in%20the%20User%20Interface/readme.md)
+[Code Smell 139 - Business Code in the User Interface](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20139%20-%20Business%20Code%20in%20the%20User%20Interface/readme.md)
 
-[Code Smell 73 - Exceptions for Expected Cases](../../Code%20Smells/Code%20Smell%2073%20-%20Exceptions%20for%20Expected%20Cases/readme.md)
+[Code Smell 73 - Exceptions for Expected Cases](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2073%20-%20Exceptions%20for%20Expected%20Cases/readme.md)
 
-[Code Smell 72 - Return Codes](../../Code%20Smells/Code%20Smell%2072%20-%20Return%20Codes/readme.md)
+[Code Smell 72 - Return Codes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2072%20-%20Return%20Codes/readme.md)
 
 # More Info
 
-[Null: The Billion Dollar Mistake](../../Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
+[Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
 # Credit
 
@@ -119,16 +119,16 @@ Photo by [Jasmin Sessler](https://unsplash.com/@jasmin_sessler) on [Unsplash](ht
 
 # Disclaimer
 
-Code Smells are just my [opinion](../../Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
+Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
 > My real criticism with Null is that it brings back again unnecessarily all the agony of having to choose whether to run your program fast without checking or run it slow with checking.
 
 _Tony Hoare_ (Null Inventor)
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

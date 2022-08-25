@@ -1,6 +1,6 @@
 # Code Smell 58 - Yo-yo Problem
 
-![Code Smell 58 - Yo-yo Problem](dd2q08t-685ffa6f-fbf9-4bca-81d5-c454461cb821.gif)
+![Code Smell 58 - Yo-yo Problem](Code%20Smell%2058%20-%20Yo-yo%20Problem.gif)
 
 *Searching for a concrete method implementation? Go back and forth, up and down.*
 
@@ -99,13 +99,13 @@ We must refactor and flatten those classes.
 
 # Relations
 
-[Code Smell 11 - Subclassification for Code Reuse](../../Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
+[Code Smell 11 - Subclassification for Code Reuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
 
 # More info
 
 %[https://en.wikipedia.org/wiki/Yo-yo_problem]
 
-[Coupling - The one and only software design problem](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+[Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 [c2](https://wiki.c2.com/?DeepClassHierarchies)
 
@@ -119,10 +119,10 @@ _David West_
  
 * * *
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

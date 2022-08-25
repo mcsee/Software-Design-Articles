@@ -1,6 +1,6 @@
 # What exactly is a name — Part I The Quest
 
-![What exactly is a name — Part I The Quest](0_4r_2Q1jEJ8L1wlbb.jpg)
+![What exactly is a name — Part I The Quest](What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest.jpg)
 
 ## We all agree: a good name is always the most important thing. Let’s find them.
 
@@ -26,13 +26,13 @@ Code is read many [more times than it is written](https://www.ybrikman.com/writi
 
 Names lose meaning quickly
 
-Names are very important. They indicate the role that links the objects with their corresponding real entity in [MAPPER](../../Theory/What%20is%20(wrong%20with)%20software/readme.md).
+Names are very important. They indicate the role that links the objects with their corresponding real entity in [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md).
 
-[What is (wrong with) software?](../../Theory/What%20is%20(wrong%20with)%20software/readme.md)
+[What is (wrong with) software?](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
-Through this [bijective](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) relationship we will know who he is representing in the real world.
+Through this [bijective](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) relationship we will know who he is representing in the real world.
 
-[The One and Only Software Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
+[The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 Names are created for human beings. Compilers don’t care about the name we assign to an _object, class, variable, interface, trait, etc._
 
@@ -90,7 +90,7 @@ There is a trend in the industry to name after the type (or class) of an object.
 
 These invisible decisions violate the principle of substitution and prevent polymorphism, by having coupled the name to the type we expect.
 
-[Coupling - The one and only software design problem](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md) 
+[Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md) 
 
 The fact that we are all human beings does not mean that there must be a variable _$human_ referencing us.
 
@@ -205,7 +205,7 @@ A lousy name cries out to be recognized as a technical debt and to reflect.
 
 It is extremely difficult to modify a system while keeping bad names.
 
-[How to Decouple a Legacy System](../../Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
+[How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 
 For example, this is a piece of code that is used in job interviews in order to find a mistake.
 
@@ -282,7 +282,7 @@ We just need to tackle the damage already done and build better solutions.
 
 In the following article we focus on a series of current bad practices explaining with arguments which ingrained uses we should modify.
 
-[What exactly is a name — Part II Rehab](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md) 
+[What exactly is a name — Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md) 
 
 # Rules Summary (so far)
 

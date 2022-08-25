@@ -1,6 +1,6 @@
 # Code Smell 52 - Fragile Tests
 
-![Code Smell 52 - Fragile Tests](jilbert-ebrahimi-pVEcNabAg9o-unsplash.jpg)
+![Code Smell 52 - Fragile Tests](Code%20Smell%2052%20-%20Fragile%20Tests.jpg)
 
 *Tests are our safety nets. If we don't trust on their integrity, we will be in great danger.*
 
@@ -20,7 +20,7 @@ TL;DR: Don't write non-deterministic tests.
 
 2. Remove all tests coupling.
 
-[Coupling - The one and only software design problem](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md) 
+[Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md) 
 
 # Examples
 
@@ -101,7 +101,7 @@ https://softwareengineering.stackexchange.com/questions/109703/how-to-avoid-frag
 
 # Relations
 
-[Code Smell 76 - Generic Assertions](../../Code%20Smells/Code%20Smell%2076%20-%20Generic%20Assertions/readme.md)
+[Code Smell 76 - Generic Assertions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2076%20-%20Generic%20Assertions/readme.md)
 
 # Tags
 
@@ -125,10 +125,10 @@ Photo by [Jilbert Ebrahimi](https://unsplash.com/@jilburr) on [Unsplash](https:/
 
 _Grady Booch_
 
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * * 
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

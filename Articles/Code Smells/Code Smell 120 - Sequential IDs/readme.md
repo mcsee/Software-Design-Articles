@@ -1,6 +1,6 @@
 # Code Smell 120 - Sequential IDs
 
-![Code Smell 120 - Sequential IDs](max-bender-XIVDN9cxOVc-unsplash.jpg)
+![Code Smell 120 - Sequential IDs](Code%20Smell%20120%20-%20Sequential%20IDs.jpg)
 
 *Most IDS are code smells. Sequential IDs are also a vulnerability*
 
@@ -8,7 +8,7 @@
 
 # Problems
 
-- [Bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Fault
+- [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Fault
 
 - Security Problems
 
@@ -28,7 +28,7 @@ IDs do not exist in the real-world so, they break our bijection.
 
 We should only use IDs when exposing internal resources to the *outer world* beyond system boundaries.
 
-These are always [accidental problems](../../Theory/No%20Silver%20Bullet/readme.md) and should not interfere with our models.
+These are always [accidental problems](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md) and should not interfere with our models.
 
 # Sample Code
 
@@ -113,10 +113,10 @@ Thanks @davidkroell for the KSUID tip.
 
 _Gene Spafford_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

@@ -1,6 +1,6 @@
 # Code Smell 146 - Getter Comments
 
-![Code Smell 146 - Getter Comments](reimond-de-zuniga-vHwjDFwQC-M-unsplash.jpg)
+![Code Smell 146 - Getter Comments](Code%20Smell%20146%20-%20Getter%20Comments.jpg)
 
 *Comments are a code Smell. Getters are another code smell. Guess what?*
 
@@ -82,11 +82,11 @@ They add no real value and bloat your code.
 
 # Relations
 
-[Code Smell 05 - Comment Abusers](../../Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
+[Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
 
-[Code Smell 68 - Getters](../../Code%20Smells/Code%20Smell%2068%20-%20Getters/readme.md)
+[Code Smell 68 - Getters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2068%20-%20Getters/readme.md)
 
-[Code Smell 01 - Anemic Models](../../Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
+[Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2001%20-%20Anemic%20Models/readme.md)
 
 # Credits
 
@@ -98,10 +98,10 @@ Photo by Reimond de Zuñiga on Unsplash
 
 _Robert Martin_
 
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

@@ -1,6 +1,6 @@
 # Code Smell 107 - Variables Reuse
 
-![Code Smell 107 - Variables Reuse](sigmund-aI4RJ--Mw4I-unsplash.jpg)
+![Code Smell 107 - Variables Reuse](Code%20Smell%20107%20-%20Variables%20Reuse.jpg)
 
 *Reusing variables makes scopes and boundaries harder to follow*
 
@@ -16,7 +16,7 @@
 
 1. Don't reuse variables
 
-2. [Extract Method](../../Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md) to isolate scopes
+2. [Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md) to isolate scopes
 
 # Context
 
@@ -74,11 +74,11 @@ Avoid reusing variable names. Use more specific and different names.
 
 # Relations
 
-[Code Smell 03 - Functions Are Too Long](../../Code%20Smells/Code%20Smell%2003%20-%20Functions%20Are%20Too%20Long/readme.md)
+[Code Smell 03 - Functions Are Too Long](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2003%20-%20Functions%20Are%20Too%20Long/readme.md)
 
 # More Info
 
-[Refactoring 002 - Extract Method](../../Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
+[Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
 # Credits
 
@@ -90,10 +90,10 @@ Photo by [Sigmund](https://unsplash.com/@sigmund) on [Unsplash](https://unsplash
 
 _Kevlin Henney_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

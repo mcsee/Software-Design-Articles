@@ -1,6 +1,6 @@
 # Code Smell 15 - Missed Preconditions
 
-![Code Smell 15 - Missed Preconditions](jonathan-chng-rkp_-i5ABOE-unsplash.jpg)
+![Code Smell 15 - Missed Preconditions](Code%20Smell%2015%20-%20Missed%20Preconditions.jpg)
 
 *Assertions, Preconditions, Postconditions and invariants are our allies to avoid invalid objects. Avoiding them leads to hard-to-find errors.*
 
@@ -23,7 +23,7 @@
 
 - Constructors are an excellent first line of defense
 
-- [Anemic Objects](../../Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md) lack these rules.
+- [Anemic Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2001%20-%20Anemic%20Models/readme.md) lack these rules.
 
 # Sample Code
 
@@ -95,7 +95,7 @@ Data and object corruption is harder to find.
 
 Fail fast is a blessing.
 
-[Fail Fast](../../Theory/Fail%20Fast/readme.md)
+[Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
 # More info
 
@@ -103,7 +103,7 @@ Fail fast is a blessing.
 
 # Relations
 
-[Code Smell 01 - Anemic Models](../../Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
+[Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2001%20-%20Anemic%20Models/readme.md)
 
 # Credits
 
@@ -115,10 +115,10 @@ Photo by [Jonathan Chng](https://unsplash.com/@jon_chng) on [Unsplash](https://u
 
 _Bertrand Meyer_
 
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

@@ -1,6 +1,6 @@
 # Code Smell 23 - Instance Type Checking
 
-![Code Smell 23 - Instance Type Checking](remy-gieling-DQmZCNLLmmc-unsplash.jpg)
+![Code Smell 23 - Instance Type Checking](Code%20Smell%2023%20-%20Instance%20Type%20Checking.jpg)
 
 *Do you check who are you talking to?*
 
@@ -8,21 +8,21 @@
 
 # Problems
 
-- [Coupling](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+- [Coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 - Metamodel interference
 
-- [IFs](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
+- [IFs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
 # Solutions
 
 1. Avoid *kind*, *isKindOf*, *instance*, *getClass()*, *typeOf*, etc..
 
-2. Don't use Reflection and [Metaprogramming](../../Theory/Laziness%20I%20-%20Metaprogramming/readme.md) for Domain Objects.
+2. Don't use Reflection and [Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md) for Domain Objects.
 
-3. Replace [*IFs*](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md) with polymorphism. 
+3. Replace [*IFs*](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md) with polymorphism. 
 
-4. Avoid checking for *'undefined'*. Use [complete objects](../../Theory/Nude%20Models - Part%20I Setters/readme.md), avoid [nulls](../../Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md) and setters, favor [immutability](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md) and you will never have undefined and ifs.
+4. Avoid checking for *'undefined'*. Use [complete objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20I Setters/readme.md), avoid [nulls](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md) and setters, favor [immutability](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md) and you will never have undefined and ifs.
 
 # Sample Code
 
@@ -112,17 +112,17 @@ Since type checking methods are well known it is very easy to set up a code poli
 
 # Conclusion
 
-Testing for a class type [couples](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md) the objects with [accidental decisions](../../Theory/No%20Silver%20Bullet/readme.md) and violates [bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) since no such control exists on real world. It is a smell our models are not good enough.
+Testing for a class type [couples](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md) the objects with [accidental decisions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md) and violates [bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) since no such control exists on real world. It is a smell our models are not good enough.
 
 # Relations
 
-[Code Smell 12 - Null](../../Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
+[Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
 # More Info
 
-[How to Get Rid of Annoying IFs Forever](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
+[How to Get Rid of Annoying IFs Forever](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
-[Laziness I - Metaprogramming](../../Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
+[Laziness I - Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
 
 # Credits
 
@@ -132,7 +132,7 @@ Photo by [Remy Gieling](https://unsplash.com/@gieling) on [Unsplash](https://uns
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
 
 
 

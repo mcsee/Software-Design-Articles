@@ -1,6 +1,6 @@
 # Code Smell 59 - Basic / Do Functions
 
-![Code Smell 59 - Basic / Do Functions](roger-bradshaw-ubrK5aX2OFU-unsplash.jpg)
+![Code Smell 59 - Basic / Do Functions](Code%20Smell%2059%20-%20Basic%20%20%20Do%20Functions.jpg)
 
 *sort, doSort, basicSort, doBasicSort, primitiveSort, superBasicPrimitiveSort, who does the real work?*
 
@@ -109,7 +109,7 @@ We came across this kind of methods some time in our developer life, We smelled 
  
 # More info
 
-[What exactly is a name — Part II Rehab](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
+[What exactly is a name — Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
 
 %[https://en.wikipedia.org/wiki/Wrapper_function]
 
@@ -127,10 +127,10 @@ _ Michael Feathers_
  
 * * *
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

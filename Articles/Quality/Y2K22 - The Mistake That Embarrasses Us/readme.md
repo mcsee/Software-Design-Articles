@@ -1,10 +1,10 @@
 # Y2K22 - The Mistake That Embarrasses Us
 
-![Y2K22 - The Mistake That Embarrasses Us](Y2K22.png)
+![Y2K22 - The Mistake That Embarrasses Us](Y2K22%20-%20The%20Mistake%20That%20Embarrasses%20Us.png)
 
 *The year is 2022 but we keep programming in the 1950s*
 
-> TL;DR: We need to follow one simple rule. Honor the [bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
+> TL;DR: We need to follow one simple rule. Honor the [bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
 
 The new year arrived with new errors on [Microsoft Exchange](https://es.wikipedia.org/wiki/Microsoft_Exchange_Server).
 
@@ -24,7 +24,7 @@ Exchange's malware scanning engine stores signature dates using [32-bit integers
 
 Using integers to store dates is a clear bijection violation.
 
-Also a primitive obsession and [premature optimization](../../Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md) code smell.
+Also a primitive obsession and [premature optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md) code smell.
 
 # The Chain of Responsibilities
 
@@ -42,13 +42,13 @@ Sadly, the developer was not the only one to blame.
 
 The peer reviewer stated that it was a very good optimization.
 
-Also, the QA team forgot to make basic boundaries testing using the [Zombies technique](../../TDD/How%20I%20Survived%20the%20Zombie%20Apocalypse/readme.md).
+Also, the QA team forgot to make basic boundaries testing using the [Zombies technique](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20I%20Survived%20the%20Zombie%20Apocalypse/readme.md).
 
 # The error
 
 [Happy new year!](https://en.wikipedia.org/wiki/Year_2000_problem#Year_2022_problem). 
 
-It is January 1st, 2022, according to this [bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) we need to convert it to 2201010001. 
+It is January 1st, 2022, according to this [bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) we need to convert it to 2201010001. 
 
 This is not possible when trying to format it to 32-bits. The outcome is larger than the maximum number allowed.
 
@@ -58,7 +58,7 @@ As a result, lots of emails are not being sent piling up on servers.
 
 # The fix
 
-Fixing this problem ([It is not a bug](../../Quality/Stop%20Calling%20them%20'Bugs'/readme.md)), is very difficult. 
+Fixing this problem ([It is not a bug](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quality/Stop%20Calling%20them%20'Bugs'/readme.md)), is very difficult. 
 
 Exchange is a product running on on-premises servers so it has to be patched manually in many cases.
 
@@ -72,7 +72,7 @@ That is the patch.
 
 Violate and abuse the bijection again creating representations of not real entities.
 
-Using this exploit to set this invalid date should also raise an error according to [fail fast principle](../../Theory/Fail%20Fast/readme.md).
+Using this exploit to set this invalid date should also raise an error according to [fail fast principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md).
 
 # Conclusions
 
@@ -80,5 +80,5 @@ If you want to develop serious software and be proud of it, just be loyal to the
 
 If you create accurate models of your problems your software will always work as expected.
 
-[The One and Only Software Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
+[The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 

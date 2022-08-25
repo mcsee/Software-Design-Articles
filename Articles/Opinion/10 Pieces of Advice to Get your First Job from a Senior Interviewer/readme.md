@@ -1,6 +1,6 @@
 # 10 Pieces of Advice to Get your First Job from a Senior Interviewer
             
-![10 Pieces of Advice to Get your First Job from a Senior Interviewer](giphy.gif)
+![10 Pieces of Advice to Get your First Job from a Senior Interviewer](10%20Pieces%20of%20Advice%20to%20Get%20your%20First%20Job%20from%20a%20Senior%20Interviewer.gif)
 
 > TL;DR: Quick Tips to shine on your next interview.
 

@@ -1,6 +1,6 @@
 # Code Smell 153 - Too Long Names
 
-![Code Smell 153 - Too Long Names](emre-karatas-Ib2e4-Qy9mQ-unsplash.jpg)
+![Code Smell 153 - Too Long Names](Code%20Smell%20153%20-%20Too%20Long%20Names.jpg)
 
 *Names should be long and descriptive. How Long?*
 
@@ -14,11 +14,11 @@
 
 # Solutions
 
-1. Use names related to the [MAPPER](../../Theory/What%20is%20(wrong%20with)%20software/readme.md)
+1. Use names related to the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
 # Context
 
-We used [very short names](../../Code%20Smells/Code%20Smell%2033%20-%20Abbreviations/readme.md) during the 50s and 60s due to space and time constraints.
+We used [very short names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2033%20-%20Abbreviations/readme.md) during the 50s and 60s due to space and time constraints.
 
 This is no longer the case in modern languages.
 
@@ -58,19 +58,19 @@ Our linters can warn us with too long names.
 
 # Conclusion
 
-There are no [hard rules](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md) on name length.
+There are no [hard rules](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md) on name length.
 
 Just Heuristics.
 
 # Relations
 
-[Code Smell 33 - Abbreviations](../../Code%20Smells/Code%20Smell%2033%20-%20Abbreviations/readme.md)
+[Code Smell 33 - Abbreviations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2033%20-%20Abbreviations/readme.md)
 
 # More Info
 
-- [What exactly is a name? — Part I: The Quest](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
+- [What exactly is a name? — Part I: The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
 
-- [What exactly is a name? — Part II: Rehab](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
+- [What exactly is a name? — Part II: Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
 
 - [Long and Short of Naming](https://agileotter.blogspot.com/2009/08/long-and-short-of-naming.html)
 
@@ -84,10 +84,10 @@ Photo by [Emre Karataş](https://unsplash.com/@emrekaratas) on [Unsplash](https:
 
 _Niklaus Wirth_
 
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

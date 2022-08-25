@@ -1,6 +1,6 @@
 # Refactoring 004 - Remove Unhandled Exceptions
 
-![Refactoring 004 - Remove Unhandled Exceptions](monk-g57045dbe0_1920.jpg)
+![Refactoring 004 - Remove Unhandled Exceptions](Refactoring%20004%20-%20Remove%20Unhandled%20Exceptions.jpg)
 
 *Creating YAGNI exception classes pollutes our environment. Let's remove them.*
 
@@ -14,7 +14,7 @@
 
 # Related Code Smells
 
-[Code Smell 26 - Exceptions Polluting](../../Code%20Smells/Code%20Smell%2026%20-%20Exceptions%20Polluting/readme.md)
+[Code Smell 26 - Exceptions Polluting](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2026%20-%20Exceptions%20Polluting/readme.md)
 
 # Steps
 

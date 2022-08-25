@@ -1,6 +1,6 @@
 # Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)
 
-![Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](greg-rakozy-0LU4vO5iFpM-unsplash.jpg)
+![Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](Code%20Smell%2069%20-%20Big%20Bang%20(JavaScript%20Ridiculous%20Castings).jpg)
 
 *This handy operator is a trouble maker.*
 
@@ -22,13 +22,13 @@
 
 2. Don't mix Booleans with non-booleans.
 
-3. [Fail Fast](../../Theory/Fail%20Fast/readme.md)
+3. [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
 4. Be Smarter than your compiler.
 
 5. Stay loyal to the bijection.
 
-[The One and Only Software Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
+[The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 # Sample Code
 
@@ -106,9 +106,9 @@ We should be very strict and keep booleans (and their behavior), far away from n
 
 # Relations
 
-[Code Smell 24 - Boolean Coercions](../../Code%20Smells/Code%20Smell%2024%20-%20Boolean%20Coercions/readme.md)
+[Code Smell 24 - Boolean Coercions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2024%20-%20Boolean%20Coercions/readme.md)
 
-[Code Smell 06 - Too Clever Programmer](../../Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
+[Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
 # More info
 
@@ -132,10 +132,10 @@ _Alan J Perlis_
  
 * * *
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

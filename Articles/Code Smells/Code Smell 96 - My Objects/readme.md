@@ -1,6 +1,6 @@
 # Code Smell 96 - My Objects
 
-![Code Smell 96 - My Objects](michal-bozek-Cl2DhalcsO0-unsplash.jpg)
+![Code Smell 96 - My Objects](Code%20Smell%2096%20-%20My%20Objects.jpg)
 
 *You don't own objects.*
 
@@ -62,7 +62,7 @@ Avoid using *my*. Objects change according to the usage context.
 
 # More Info
 
-- [What exactly is a name — Part II Rehab](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
+- [What exactly is a name — Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
 
 # Credits
 
@@ -74,10 +74,10 @@ Photo by [Michał Bożek](https://unsplash.com/@bozu) on [Unsplash](https://unsp
 
 _Kent Beck_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

@@ -1,6 +1,6 @@
 # Code Smell 50 - Object Keys
 
-![Code Smell 50 - Object Keys](maurice-williams-tPX992SVljo-unsplash.jpg)
+![Code Smell 50 - Object Keys](Code%20Smell%2050%20-%20Object%20Keys.jpg)
 
 *Primary keys, IDs, references. The first attribute we add to our objects. They don't exist in the real world.*
 
@@ -10,13 +10,13 @@
 
 - Accidental Implementation
 
-- [Bijection Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Violation.
+- [Bijection Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Violation.
 
 # Solutions
 
 1. Reference *object* to *objects*.
 
-2. Build a [MAPPER](../../Theory/What%20is%20(wrong%20with)%20software/readme.md).
+2. Build a [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md).
 
 3. Only use keys if you need to provide an external (accidental) reference. Databases, APIs, Serializations.
 
@@ -26,7 +26,7 @@
 
 6. Don't use DTOs.
 
-[Code Smell 40 - DTOs](../../Code%20Smells/Code%20Smell%2040%20-%20DTOs/readme.md)
+[Code Smell 40 - DTOs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2040%20-%20DTOs/readme.md)
 
 # Sample Code
 
@@ -125,15 +125,15 @@ In case you need to provide a reference out of your system's scope (APIs, interf
 
 # Relations
 
-[Code Smell 20 - Premature Optimization](../../Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
+[Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
 # More info
 
-[What is (wrong with) software?](../../Theory/What%20is%20(wrong%20with)%20software/readme.md)
+[What is (wrong with) software?](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
-[The One and Only Software Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
+[The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
-[Coupling - The one and only software design problem](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+[Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 # Credits
 
@@ -147,11 +147,11 @@ _David Wheeler_
  
 * * *
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
 

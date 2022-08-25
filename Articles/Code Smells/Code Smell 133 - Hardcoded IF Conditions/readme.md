@@ -1,6 +1,6 @@
 # Code Smell 133 - Hardcoded IF Conditions
 
-![Code Smell 133 - Hardcoded IF Conditions](jessica-johnston-nnH2l-k77nc-unsplash.jpg)
+![Code Smell 133 - Hardcoded IF Conditions](Code%20Smell%20133%20-%20Hardcoded%20IF%20Conditions.jpg)
 
 *Hard coding is fine. For a short period of time*
 
@@ -16,11 +16,11 @@
 
 # Solutions
 
-1. Replace all [IFs](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md) with a dynamic condition or [polymorphism](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md).
+1. Replace all [IFs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md) with a dynamic condition or [polymorphism](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md).
 
 # Context
 
-Hard-coding *iF* conditions is great when doing [Test-Driven Development](../../TDD%20Conference%202021/TDD%20Conference%202021%20-%20All%20Talks/readme.md).
+Hard-coding *iF* conditions is great when doing [Test-Driven Development](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD%20Conference%202021/TDD%20Conference%202021%20-%20All%20Talks/readme.md).
 
 We need to clean up stuff.
 
@@ -84,15 +84,15 @@ With modern methodologies, we learn by hard-coding, and then, we generalize and 
 
 # Relations
 
-[Code Smell 36 - Switch/case/elseif/else/if statements](../../Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md)
+[Code Smell 36 - Switch/case/elseif/else/if statements](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md)
 
-[Code Smell 102 - Arrow Code](../../Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md)
+[Code Smell 102 - Arrow Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md)
 
 # More Info
 
-- [How to Get Rid of IFs forever](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
+- [How to Get Rid of IFs forever](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
-- [Test Driven Development](../../TDD%20Conference%202021/TDD%20Conference%202021%20-%20All%20Talks/readme.md)
+- [Test Driven Development](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD%20Conference%202021/TDD%20Conference%202021%20-%20All%20Talks/readme.md)
 
 # Credits
 
@@ -104,10 +104,10 @@ Photo by [Jessica Johnston](https://unsplash.com/@jdjohnston) on Unsplash
 
 _Bjarne Stroustrup_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

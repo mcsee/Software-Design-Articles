@@ -1,6 +1,6 @@
 # Code Smell 43 - Concrete Classes Subclassified
 
-![Code Smell 43 - Concrete Classes Subclassified](0_bKw_eYs-EsV9XndG.jpg)
+![Code Smell 43 - Concrete Classes Subclassified](Code%20Smell%2043%20-%20Concrete%20Classes%20Subclassified.jpg)
 
 *Inheritance. Concrete classes. Reuse. A fantastic mix up.*
 
@@ -14,7 +14,7 @@
 
 - Method overriding
 
-- [Mapper](../../Theory/What%20is%20(wrong%20with)%20software/readme.md) fault
+- [Mapper](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) fault
 
 # Solutions
 
@@ -99,7 +99,7 @@ After sub-classing the parent class should be abstract.
 
 # Relations
 
-[Code Smell 11 - Subclassification for Code Reuse](../../Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
+[Code Smell 11 - Subclassification for Code Reuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
 
 # More info
  
@@ -111,10 +111,10 @@ After sub-classing the parent class should be abstract.
 
 _Nathan Myhrvold_
 
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

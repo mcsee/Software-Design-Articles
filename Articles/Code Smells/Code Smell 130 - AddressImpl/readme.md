@@ -1,6 +1,6 @@
 # Code Smell 130 - AddressImpl
 
-![Code Smell 130 - AddressImpl](paula-hayes-Eeee5H-yuoc-unsplash.jpg)
+![Code Smell 130 - AddressImpl](Code%20Smell%20130%20-%20AddressImpl.jpg)
 
 *It is nice to see a class implementing Interfaces. It is nicer to understand what it does*
 
@@ -8,13 +8,13 @@
 
 # Problems
 
-- [Bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Fault
+- [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Fault
 
-- [Bad Names](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
+- [Bad Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
 
 # Solutions
 
-1. Find the correct name using the [MAPPER](../../Theory/What%20is%20(wrong%20with)%20software/readme.md)
+1. Find the correct name using the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
 # Context
 
@@ -91,13 +91,13 @@ Do not call *I* to your interfaces.
 
 # Relations
 
-[Code Smell 65 - Variables Named after Types](../../Code%20Smells/Code%20Smell%2065%20-%20Variables%20Named%20after%20Types/readme.md)
+[Code Smell 65 - Variables Named after Types](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2065%20-%20Variables%20Named%20after%20Types/readme.md)
 
-[Code Smell 38 - Abstract Names](../../Code%20Smells/Code%20Smell%2038%20-%20Abstract%20Names/readme.md)
+[Code Smell 38 - Abstract Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2038%20-%20Abstract%20Names/readme.md)
 
 # More Info
 
-- [What's in a Name: Part II: Rehab](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
+- [What's in a Name: Part II: Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
 
 # Credits
 
@@ -109,10 +109,10 @@ Photo by [Paula Hayes](https://unsplash.com/@phayes007) on [Unsplash](https://un
 
 _Robert C. Martin_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

@@ -1,6 +1,6 @@
 # No Silver Bullet
 
-![No Silver Bullet](Werewolf_HD.jpg)
+![No Silver Bullet](No%20Silver%20Bullet.jpg)
 
 > The phrase "No Silver Bullet" is widely used in the industry. In this article we will revisit the classic paper by Fred Brooks that gave rise to it.
 
@@ -53,7 +53,7 @@ One of the corollaries of said law holds that
 
 This thesis confronts the Taylorist idea of ​​software development, in tune with what was proposed by Peter Naur.
 
-[Programming as Theory Building](../../Theory/Programming%20as%20Theory%20Building/readme.md)
+[Programming as Theory Building](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Programming%20as%20Theory%20Building/readme.md)
 
 Brooks won the [Turing Award](https://en.wikipedia.org/wiki/Turing_Award) for his work in 1999.
 
@@ -73,7 +73,7 @@ There are specific and unique attributes in software that make it **essentially*
 
 According to Brooks, we worry about **accidental** errors (such as compilation or code syntax errors) instead of dealing with the **essential problems** (conceptual software modeling errors).
 
-[What is (wrong with) software?](../../Theory/What%20is%20(wrong%20with)%20software/readme.md)
+[What is (wrong with) software?](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
 ### Complexity
 
@@ -95,7 +95,7 @@ The originality of each software development causes each new problem to be diffe
 
 Reuse has always been a north in software development. However, we spend much of our time reinventing the wheel, discarding libraries, creating new languages, reinventing exception handling, rediscovering anonymous functions or functional programming's adventages, immutability etc.
 
-[The Evil Power of Mutants](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
+[The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 ![bikes](https://cdn.hashnode.com/res/hashnode/image/upload/v1599786577804/OBr3WwMWG.jpeg)
 
@@ -105,7 +105,7 @@ The dependency between software components is much more complex than that of mac
 
 The relationships between these components are unique and intricate making the whole system evolution extremely difficult because of the coupling among the parts.
 
-[Coupling - The one and only software design problem](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+[Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 > The complexity of software systems is an essential problem
 
@@ -123,7 +123,7 @@ In addition to the essential complexity of software development, and due to the 
 
 Since we cannot avoid essential complexity, the sole task of a software engineer should be to **eliminate all accidental complexity **.
 
-[The One and Only Software Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
+[The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 ## Changeability
 
@@ -135,7 +135,7 @@ However, we make changes to our systems on a regular basis. Whether the software
 
 Software lives much longer than initially estimated, which is why many of the world's developers are in charge of maintaining these "legacy" systems.
 
-[How to Decouple a Legacy System](../../Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
+[How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 
 ## Invisibility
 
@@ -160,7 +160,7 @@ Photo by [engin akyurt](https://unsplash.com/@enginakyurt) on Unsplash
 
 High-level languages ​​were on the rise in the 1970s and were the hope back then. Brooks was correct in stating that these languages ​​eliminate some of the accidental complexity by being away from the machine, its states, registers, disks etc.
 
-[What is (wrong with) software?](../../Theory/What%20is%20(wrong%20with)%20software/readme.md)
+[What is (wrong with) software?](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
 What seemed like a glimmer of hope is still far from reality in sad times like 2020, where languages ​​like Go or C # privilege the gain of a few processing cycles over **good models**, seducing fans of premature optimization with short-term promises.
 
@@ -178,7 +178,7 @@ Object-oriented programming was a flame of hope in the 1970s for decreasing **ac
 
 Today, we see concepts discovered in the 1970s and forgotten by the object-oriented languages ​​of the 1990s such as Java, Python or PHP: This is how the benefits of encapsulation, polymorphism and immutability are rediscovered.
 
-[Nude Models - Part I: Setters](../../Theory/Nude%20Models - Part%20I Setters/readme.md)
+[Nude Models - Part I: Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20I Setters/readme.md)
 
 ## Artificial intelligence
 

@@ -1,6 +1,6 @@
 # Code Smell 115 - Return True
 
-![Code Smell 115 - Return True](engin-akyurt-Ej2GP37cxTk-unsplash.jpg)
+![Code Smell 115 - Return True](Code%20Smell%20115%20-%20Return%20True.jpg)
 
 *Booleans are natural code smells. Returning and casting them is sometimes a mistake*
 
@@ -12,7 +12,7 @@
 
 - Primitive Obsession
 
-- [If/Else abuse](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
+- [If/Else abuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
 # Solutions
 
@@ -24,7 +24,7 @@
 
 Dealing with low-level abstractions, we usually return booleans. 
 
-When we create complex and mature software, we start to forget about this primitive obsession and care about [real-world](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) rules and identities.
+When we create complex and mature software, we start to forget about this primitive obsession and care about [real-world](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) rules and identities.
 
 # Sample Code
 
@@ -67,13 +67,13 @@ Search on code libraries for *return true* statements and try to replace them wh
 
 # Relations
 
-[Code Smell 36 - Switch/case/elseif/else/if statements](../../Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md)
+[Code Smell 36 - Switch/case/elseif/else/if statements](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md)
 
-[Code Smell 118 - Return False](../../Code%20Smells/Code%20Smell%20118%20-%20Return%20False/readme.md)
+[Code Smell 118 - Return False](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20118%20-%20Return%20False/readme.md)
 
 # More Info
 
-- [How to get rid of IFs forever](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
+- [How to get rid of IFs forever](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
 # Credits
 
@@ -85,10 +85,10 @@ Photo by [engin akyurt](https://unsplash.com/@enginakyurt) on [Unsplash](https:/
 
 _Ted Nelson_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

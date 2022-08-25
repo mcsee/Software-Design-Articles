@@ -1,6 +1,6 @@
 # Code Smell 14 - God Objects
 
-![Code Smell 14 - God Objects](francisco-ghisletti-Wf2tCunxqQU-unsplash.jpg)
+![Code Smell 14 - God Objects](Code%20Smell%2014%20-%20God%20Objects.jpg)
 
 *An object that knows too much or does too much.*
 
@@ -12,7 +12,7 @@
 
 - Coupling
 
-[Coupling - The one and only software design problem](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+[Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 # Solutions
 
@@ -81,13 +81,13 @@ Libraries were fine in the 60. In Object-Oriented Programming, we will distribut
 
 # Relations
 
-- [Code Smell 34 - Too Many Attributes](../../Code%20Smells/Code%20Smell%2034%20-%20Too%20Many%20Attributes/readme.md)
+- [Code Smell 34 - Too Many Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2034%20-%20Too%20Many%20Attributes/readme.md)
 
 # More info
 
 - [Wikipedia](https://en.wikipedia.org/wiki/God_object)
 - [Refactoring Guru](https://refactoring.guru/es/smells/large-class)
-- [Coupling](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+- [Coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 # Credits
 
@@ -97,4 +97,4 @@ Photo by [Francisco Ghisletti](https://unsplash.com/@tank_ghisletti) on [Unsplas
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

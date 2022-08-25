@@ -1,6 +1,6 @@
 # The One and Only Software Design Principle
 
-![The One and Only Software Design Principle](model.png)
+![The One and Only Software Design Principle](The%20One%20and%20Only%20Software%20Design%20Principle.png)
 
 *If we build our entire paradigm on a single rule, we can keep it simple and make excellent models.*
 
@@ -24,7 +24,7 @@ The relationship between objects of the model and entities of the real world is 
 
 We can see the justification of this model in this article:
 
-[What is (wrong with) software?](../../Theory/What%20is%20(wrong%20with)%20software/readme.md)
+[What is (wrong with) software?](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
 We will then try to derive design rules and heuristics from that axiom, of course without contradicting it.
 
@@ -89,7 +89,7 @@ Case 3) A bitcoin wallet can be represented as an anemic object (with some prope
 
 To solve these types of problems we must stop seeing entities as *data structures with attributes*, think of them as objects and understand that they are the same object fulfilling different roles depending on the context in which they are interacting.
 
-[Code Smell 01 - Anemic Models](../../Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
+[Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2001%20-%20Anemic%20Models/readme.md)
 
 Case 4) In most modern object programming languages, a date can be constructed by creating it from its day, month, and year.
 
@@ -97,11 +97,11 @@ We all learned that November 31st, 2020 can be created and that most of the lang
 
 But this disguised as a benefit is nothing but error hiding, generating a coupling dependency to the design decision made by the programming language and hiding a sure error in the data load.
 
-[Coupling - The one and only software design problem](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+[Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 The error will raise when running a nightly batch processing these dates far from the root cause violating the [Fail Fast](https://en.wikipedia.org/wiki/Fail-fast) principle.
 
-[Fail Fast](../../Theory/Fail%20Fast/readme.md)
+[Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
 # Conclusions
 
@@ -111,7 +111,7 @@ In this article, we define the only axiomatic design rule that we will respect n
 
 Part of the objective of this series of articles is to generate spaces for debate and discussion on software design.
 
-[Object Design Checklist](../../Theory/Object%20Design%20Checklist/readme.md)
+[Object Design Checklist](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Object%20Design%20Checklist/readme.md)
 
 We look forward to comments and suggestions on this article.
 
@@ -119,4 +119,4 @@ We look forward to comments and suggestions on this article.
 
 Part of the ideas in this article was developed together with Hernán Wilkinson and all the members of the Software Engineering Staff on [*Universidad de Buenos Aires.*](https://www.isw2.com.ar/)
 
-This article is published at the same time in Spanish [here](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
+This article is published at the same time in Spanish [here](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).

@@ -1,6 +1,6 @@
 # Code Smell 109 - Automatic Properties
 
-![Code Smell 109 - Automatic Properties](kony-v2ogJh_Pbxg-unsplash.jpg)
+![Code Smell 109 - Automatic Properties](Code%20Smell%20109%20-%20Automatic%20Properties.jpg)
 
 *What happens if you combine 4 code smells?*
 
@@ -10,15 +10,15 @@
 
 - Information Hiding Violation
 
-- [Mutability](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
+- [Mutability](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
-- [Fail Fast Principle](../../Theory/Fail%20Fast/readme.md) violation
+- [Fail Fast Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md) violation
 
 - Duplicate code when setting properties
 
 # Solutions
 
-1. [Remove automatic setters and getters](../../Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
+1. [Remove automatic setters and getters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
 
 # Context
 
@@ -80,29 +80,29 @@ The first step is to stop thinking about properties and focus solely on behavior
 
 # Relations
 
-[Code Smell 28 - Setters](../../Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
+[Code Smell 28 - Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
 
-[Code Smell 68 - Getters](../../Code%20Smells/Code%20Smell%2068%20-%20Getters/readme.md)
+[Code Smell 68 - Getters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2068%20-%20Getters/readme.md)
 
-[Code Smell 70 - Anemic Model Generators](../../Code%20Smells/Code%20Smell%2070%20-%20Anemic%20Model%20Generators/readme.md)
+[Code Smell 70 - Anemic Model Generators](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2070%20-%20Anemic%20Model%20Generators/readme.md)
 
-[Code Smell 40 - DTOs](../../Code%20Smells/Code%20Smell%2040%20-%20DTOs/readme.md)
+[Code Smell 40 - DTOs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2040%20-%20DTOs/readme.md)
 
-[Code Smell 01 - Anemic Models](../../Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
+[Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2001%20-%20Anemic%20Models/readme.md)
 
 # More Info
 
 - [W3 schools](https://www.w3schools.com/cs/cs_properties.php)
 
-- [Laziness I - Metaprogramming](../../Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
+- [Laziness I - Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
 
-- [Laziness II - Code Wizards](../../Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
+- [Laziness II - Code Wizards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
 
-- [Refactoring 001 - Remove Setters](../../Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
+- [Refactoring 001 - Remove Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
 
-- [The Evil Power of Mutants](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
+- [The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
-- [Fail Fast](../../Theory/Fail%20Fast/readme.md)
+- [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
 # Credits
 
@@ -114,10 +114,10 @@ Photo by [Kony](https://unsplash.com/@konyxyzx) on [Unsplash](https://unsplash.c
 
 _Kent Beck_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

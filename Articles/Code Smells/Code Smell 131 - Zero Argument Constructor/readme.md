@@ -1,6 +1,6 @@
 # Code Smell 131 - Zero Argument Constructor
 
-![Code Smell 131 - Zero Argument Constructor](ade-adebowale-DKr6BEdI2sE-unsplash.jpg)
+![Code Smell 131 - Zero Argument Constructor](Code%20Smell%20131%20-%20Zero%20Argument%20Constructor.jpg)
 
 *Objects created without arguments are often mutable and erratic*
 
@@ -8,7 +8,7 @@
 
 # Problems
 
-- [Mutability](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
+- [Mutability](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 - Anemic Models
 
@@ -16,7 +16,7 @@
 
 1. Use one complete and single constructor.
 
-2. Avoid [Setters](../../Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md) and [Getters](../../Code%20Smells/Code%20Smell%2068%20-%20Getters/readme.md)
+2. Avoid [Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md) and [Getters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2068%20-%20Getters/readme.md)
 
 # Context
 
@@ -69,23 +69,23 @@ We need to research usages to improve our solutions.
 
 # Relations
 
-[Code Smell 68 - Getters](../../Code%20Smells/Code%20Smell%2068%20-%20Getters/readme.md)
+[Code Smell 68 - Getters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2068%20-%20Getters/readme.md)
 
-[Code Smell 28 - Setters](../../Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
+[Code Smell 28 - Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
 
-[Code Smell 01 - Anemic Models](../../Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
+[Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2001%20-%20Anemic%20Models/readme.md)
 
-[Code Smell 40 - DTOs](../../Code%20Smells/Code%20Smell%2040%20-%20DTOs/readme.md)
+[Code Smell 40 - DTOs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2040%20-%20DTOs/readme.md)
 
 # More Info
 
 - [Nullary Constructor](https://en.wikipedia.org/wiki/Nullary_constructor)
 
-- [Nude Models — Part I : Setters](../../Theory/Nude%20Models - Part%20I Setters/readme.md)
+- [Nude Models — Part I : Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20I Setters/readme.md)
 
-- [Nude Models — Part II : Getters](../../Theory/Nude%20Models - Part%20II Getters/readme.md)
+- [Nude Models — Part II : Getters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20II Getters/readme.md)
 
-- [The Evil Power of Mutants](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
+- [The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 # Credits
 
@@ -97,10 +97,10 @@ Photo by [Ade Adebowale](https://unsplash.com/@adebowax) on [Unsplash](https://u
 
 _Martin Fowler_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

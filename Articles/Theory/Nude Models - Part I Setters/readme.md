@@ -1,6 +1,6 @@
 # Nude Models - Part I: Setters
 
-![Nude Models - Part I: Setters](dmitry-ratushny-xsGApcVbojU-unsplash.jpg)
+![Nude Models - Part I: Setters](Nude%20Models - Part%20I Setters.jpg)
 
 ## Ye olde Reliable Data Structures and Their Controversial (Write) Access.
 
@@ -30,7 +30,7 @@ Any software component that manipulates these points will be coupled to saving v
 
 Since it's just a data structure without operations, the attribute’s semantics will be different according to every programmer’s criterion.
 
-[Coupling - The one and only software design problem](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+[Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 Hence, if we want to change the **accidental** implementation of the point to its polar coordinates analogous:
 
@@ -54,7 +54,7 @@ The polar representation (√2, π/8) is equivalent to the Cartesian (1, 1)
 
 Since it is the **same point** in real world, it must **necessarily** be represented by the same object in our bijection.
 
-[The One and Only Software Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
+[The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 Bijection always depends on the **subjectivity** of the aspects we are trying to model. In order to draw a polygon, the Cartesian (1, 1) and polar (√2, π/8) points are the same point.
 
@@ -148,7 +148,7 @@ This article assumes that we are eager to build, with declarative objects, model
 
 These responsibilities will be the same on the bijection between these objects and the real world.
 
-[What is (wrong with) software?](../../Theory/What%20is%20(wrong%20with)%20software/readme.md)
+[What is (wrong with) software?](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
 ## Involution
 
@@ -163,7 +163,7 @@ Let’s look at setters and getters as separate problems.
 
 Changing the internal state of an object violates the principle of immutability. This is discouraged since, in the real world, objects do not mutate in their **essence**.
 
-[The Evil Power of Mutants](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
+[The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 > The only method allowed to write to attributes is the atomic initialization. From then on, the variables should be read-only.
 
@@ -257,7 +257,7 @@ Many objects have invariants that guarantee their cohesion and the validity of t
 
 Many development environments give us the possibility to automate the generation of setters and getters. This leads to new programmers generations thinking it is a good design practice, generating vices that are difficult to correct.
 
-[Laziness II - Code Wizards](../../Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
+[Laziness II - Code Wizards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
 
 This facility spreads the problem, having this tool gives the feeling that it is an accepted practice.
 
@@ -277,7 +277,7 @@ Using setters generates coupling and prevents the incremental evolution of our c
 
 As with setters, getters are discouraged. We develop this topic in depth in this article:
 
-[Nude Models - Part II: Getters](../../Theory/Nude%20Models - Part%20II Getters/readme.md)
+[Nude Models - Part II: Getters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20II Getters/readme.md)
 
 Part of the objective of this series of articles is to generate spaces for debate and discussion on software design.
 

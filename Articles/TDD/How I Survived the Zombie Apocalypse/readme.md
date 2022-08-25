@@ -1,6 +1,6 @@
 # How I Survived the Zombie Apocalypse
 
-![How I Survived the Zombie Apocalypse](yohann-libot-f7NnOkM1yeU-unsplash.jpg)
+![How I Survived the Zombie Apocalypse](How%20I%20Survived%20the%20Zombie%20Apocalypse.jpg)
 
 *Selecting great test cases is very hard. Unless you summon the undead.*
 
@@ -131,9 +131,9 @@ forRecipients: recipients
 ``` 
 The constructor creates the instance and initializes with the essence (no anti-pattern setters and no mutation from scratch).
 
-[Nude Models - Part I: Setters](../../Theory/Nude%20Models - Part%20I Setters/readme.md)
+[Nude Models - Part I: Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20I Setters/readme.md)
 
-[The Evil Power of Mutants](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
+[The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 The *private* initializer
 
@@ -224,7 +224,7 @@ plain
 
 This idiom iterates over recipients (a private attribute, no getters), inserting a comma (,) and removing last one (*allButLast*). Since we have no *explode*.
 
-[Nude Models - Part II: Getters](../../Theory/Nude%20Models - Part%20II Getters/readme.md)
+[Nude Models - Part II: Getters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20II Getters/readme.md)
 
 3 tests working! (ZOM)
 
@@ -315,7 +315,7 @@ We check for duplicates mapping our recipients to a Set and checking both sizes.
 
 We need to keep the example working and avoid premature optimization. With all tests running we can optimize code.
 
-[Code Smell 20 - Premature Optimization](../../Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
+[Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
 How about readability? Method is too ugly. Let's do TDD step 3: Refactor.
 
@@ -344,7 +344,7 @@ We have our model built with TDD and great confidence. Full coverage and no gold
 
 - No empty constructors
 
-[Code Smell 13 - Empty Constructors](../../Code%20Smells/Code%20Smell%2013%20-%20Empty%20Constructors/readme.md)
+[Code Smell 13 - Empty Constructors](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2013%20-%20Empty%20Constructors/readme.md)
 
 - Model is ummatable
 
@@ -354,11 +354,11 @@ We have our model built with TDD and great confidence. Full coverage and no gold
 
 - No accidental ifs
 
-[How to Get Rid of Annoying IFs Forever](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
+[How to Get Rid of Annoying IFs Forever](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
 - No Nulls
 
-[Code Smell 12 - Null](../../Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
+[Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
 ## Conclusions
 

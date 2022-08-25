@@ -1,6 +1,6 @@
 # 10 Tricks to Build an Awesome Personal Portfolio and Get Your Dream Job
 
-![10 Tricks to Build an Awesome Personal Portfolio and Get Your Dream Job](kermit.gif)
+![10 Tricks to Build an Awesome Personal Portfolio and Get Your Dream Job](10%20Tricks%20to%20Build%20an%20Awesome%20Personal%20Portfolio%20and%20Get%20Your%20Dream%20Job.gif)
 
 I've recently discovered personal branding and the importance of a shinny and updated portfolio.
 
@@ -14,7 +14,7 @@ These are the advices that worked for me:
 
 Build a [LinkedIn profile](https://www.linkedin.com/in/mcsee/), a [GitHub one](https://blog.learncodeonline.in/creating-a-smart-way-github-profile-readmemd) and engage in interesting technical conversations on Twitter or Discuss.
 
-[The Tech Twitter Guide to the Galaxy](../../Twitter/The%20Tech%20Twitter%20Guide%20to%20the%20Galaxy/readme.md)
+[The Tech Twitter Guide to the Galaxy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Twitter/The%20Tech%20Twitter%20Guide%20to%20the%20Galaxy/readme.md)
 
 Whenever you publish something, create a new open source project or finish a course, post it and add it to your profile.
 
@@ -24,7 +24,7 @@ https://lo-victoria.com/why-a-personal-brand-is-important-for-a-developer
 
 Garden your profile.
 
-[Today I Learned the Concept of Gardening](../../Blogging/Today%20I%20Learned%20the%20Concept%20of%20Gardening/readme.md)
+[Today I Learned the Concept of Gardening](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/Today%20I%20Learned%20the%20Concept%20of%20Gardening/readme.md)
 
 # 2. Use the same picture everywhere 😲
 
@@ -42,7 +42,7 @@ Try using [emojis](emojipedia) instead of words
 
 Be short and concise on your bio.
 
-![Tweet](R75OC1TMD.png)
+![Tweet](Tweet.png)
 
 Say what you are good at, and *more important* what [you aren't](https://maximilianocontieri/about).
 

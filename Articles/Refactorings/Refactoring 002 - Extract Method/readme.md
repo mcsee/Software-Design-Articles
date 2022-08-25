@@ -1,6 +1,6 @@
 # Refactoring 002 - Extract Method
 
-![Refactoring 002 - Extract Method](tug-of-war-g9f79f5ff3_1920.jpg)
+![Refactoring 002 - Extract Method](Refactoring%20002%20-%20Extract%20Method.jpg)
 
 *Find some code snippets that can be grouped and called atomically.*
 
@@ -16,19 +16,19 @@
 
 # Related Code Smells
 
-- [Code Smell 03 - Functions Are Too Long](../../Code%20Smells/Code%20Smell%2003%20-%20Functions%20Are%20Too%20Long/readme.md)
+- [Code Smell 03 - Functions Are Too Long](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2003%20-%20Functions%20Are%20Too%20Long/readme.md)
 
-- [Code Smell 05 - Comment Abusers](../../Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
+- [Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
 
-- [Code Smell 18 - Static Functions](../../Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md)
+- [Code Smell 18 - Static Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md)
 
-- [Code Smell 22 - Helpers](../../Code%20Smells/Code%20Smell%2022%20-%20Helpers/readme.md)
+- [Code Smell 22 - Helpers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2022%20-%20Helpers/readme.md)
 
-- [Code Smell 74 - Empty Lines](../../Code%20Smells/Code%20Smell%2074%20-%20Empty%20Lines/readme.md)
+- [Code Smell 74 - Empty Lines](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2074%20-%20Empty%20Lines/readme.md)
 
-- [Code Smell 78 - Callback Hell](../../Code%20Smells/Code%20Smell%2078%20-%20Callback%20Hell/readme.md)
+- [Code Smell 78 - Callback Hell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2078%20-%20Callback%20Hell/readme.md)
 
-- [Code Smell 102 - Arrow Code](../../Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md)
+- [Code Smell 102 - Arrow Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md)
 
 # Steps
 
@@ -106,7 +106,7 @@ Algorithms and functions are more declarative hiding implementative details on e
 
 # Limitations
 
-Does not work well if you use [meta-programming anti-pattern](../../Theory/Laziness%20I%20-%20Metaprogramming/readme.md).
+Does not work well if you use [meta-programming anti-pattern](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md).
 
 # Tags
 

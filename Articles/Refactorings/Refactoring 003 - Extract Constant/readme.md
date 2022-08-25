@@ -1,6 +1,6 @@
 # Refactoring 003 - Extract Constant
 
-![Refactoring 003 - Extract Constant](fortune-telling-gf7c1e1a3c_1920.jpg)
+![Refactoring 003 - Extract Constant](Refactoring%20003%20-%20Extract%20Constant.jpg)
 
 *You need to use some values explaining their meaning and origin*
 
@@ -16,7 +16,7 @@
 
 # Related Code Smells
 
-- [Code Smell 02 - Constants and Magic Numbers](../../Code%20Smells/Code%20Smell%20%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
+- [Code Smell 02 - Constants and Magic Numbers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
 
 # Steps
 
@@ -68,7 +68,7 @@ Code must be as declarative as possible.
 
 # Related Refactorings
 
-[Refactoring 002 - Extract Method](../../Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
+[Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
 # Credits
 

@@ -1,6 +1,6 @@
 # The Reasons I Started Technical Blogging
 
-![The Reasons I Started Technical Blogging](donald.gif)
+![The Reasons I Started Technical Blogging](The%20Reasons%20I%20Started%20Technical%20Blogging.gif)
 
 *Senior Developers have learning reasons too.*
 
@@ -22,20 +22,20 @@ I've been teaching at the university since I graduated in computer science.
 
 I've seen tons of code reviews and I came across some software design solutions.
 
-[Programming as Theory Building](../../Theory/Programming%20as%20Theory%20Building/readme.md)
+[Programming as Theory Building](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Programming%20as%20Theory%20Building/readme.md)
 
 * * *
 
 # 2 - I need to learn new things not to become obsolete.🏫
 
 Many of my old university mates decided to stick to some tech stack and this is fine. 
-I still get excited when I hear something new about technology (lastly React and [GPT3](../../Artificial%20Intelligence/I've%20Recently%20Learned%20About%20GPT3%20-%20This%20is%20my%20Journey/readme.md)).
+I still get excited when I hear something new about technology (lastly React and [GPT3](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Artificial%20Intelligence/I've%20Recently%20Learned%20About%20GPT3%20-%20This%20is%20my%20Journey/readme.md)).
 
 I have a different attitude.
 
 I try to learn new concepts and technologies and also value old but very actual software engineering theories.
 
-[No Silver Bullet](../../Theory/No%20Silver%20Bullet/readme.md)
+[No Silver Bullet](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md)
 
 * * *
 
@@ -50,7 +50,7 @@ I also took several courses on clean code, read some classic books again, and di
 
 Up to now, I wrote 67 smells and still have a lot of drafts to polish and publish.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
 
 * * *
 
@@ -64,7 +64,7 @@ This was very true on lockdown weekends.
 
 My approach was to connect with people from every corner of the world and exchange software experiences. 
 
-[The Tech Twitter Guide to the Galaxy](../../Twitter/The%20Tech%20Twitter%20Guide%20to%20the%20Galaxy/readme.md)
+[The Tech Twitter Guide to the Galaxy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Twitter/The%20Tech%20Twitter%20Guide%20to%20the%20Galaxy/readme.md)
 
 
 * * *

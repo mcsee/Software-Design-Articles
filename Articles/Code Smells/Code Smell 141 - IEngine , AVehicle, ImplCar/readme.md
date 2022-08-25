@@ -1,6 +1,6 @@
 # Code Smell 141 - IEngine , AVehicle, ImplCar
 
-![Code Smell 141 - IEngine , AVehicle, ImplCar](tim-mossholder-VurHDpO4VYI-unsplash.jpg)
+![Code Smell 141 - IEngine , AVehicle, ImplCar](Code%20Smell%20141%20-%20IEngine%20,%20AVehicle,%20ImplCar.jpg)
 
 *Have you ever seen an IEngine in the wild?*
 
@@ -10,7 +10,7 @@
 
 - Readability
 
-- [Bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Fault
+- [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Fault
 
 - Implementative Names
 
@@ -97,11 +97,11 @@ Use real names for your models.
 
 # Relations
 
-[Code Smell 130 - AddressImpl](../../Code%20Smells/Code%20Smell%20130%20-%20AddressImpl/readme.md)
+[Code Smell 130 - AddressImpl](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20130%20-%20AddressImpl/readme.md)
 
 # More Info
 
-- [What is in a name: Part II Rehab](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
+- [What is in a name: Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
 
 # Credits
 
@@ -113,10 +113,10 @@ Photo by Tim Mossholder on Unsplash
 
 _Jamie Zawinski_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

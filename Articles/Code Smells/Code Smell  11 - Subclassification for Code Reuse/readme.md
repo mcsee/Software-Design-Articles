@@ -1,6 +1,6 @@
 # Code Smell 11 - Subclassification for Code Reuse
 
-![Code Smell 11 - Subclassification for Code Reuse](brandon-green-GEyXGTY2e9w-unsplash.jpg)
+![Code Smell 11 - Subclassification for Code Reuse](Code%20Smell%2011%20-%20Subclassification%20for%20Code%20Reuse.jpg)
 
 *Code reuse is good. But subclassing generates a static coupling.*
 
@@ -123,7 +123,7 @@ In legacy systems is very common to have *Deep Hierarchies* and *method overridi
 
 # Relations
 
-[Code Smell 58 - Yo-yo Problem](../../Code%20Smells/Code%20Smell%2058%20-%20Yo-yo%20Problem/readme.md)
+[Code Smell 58 - Yo-yo Problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2058%20-%20Yo-yo%20Problem/readme.md)
 
 # More info
 
@@ -137,4 +137,4 @@ Photo by [Brandon Green](https://unsplash.com/@brandgreen) on [Unsplash](https:/
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

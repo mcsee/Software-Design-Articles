@@ -1,6 +1,6 @@
 # 16 Simple Tips to Boost Your Productivity x10
 
-![16 Simple Tips to Boost Your Productivity x10](2d226814070091fbfe77f9b3720339f6.gif)
+![16 Simple Tips to Boost Your Productivity x10](16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10.gif)
 
 *These easy-to-follow tips will improve your output dramatically.*
 
@@ -139,7 +139,7 @@ Focus -> Flow.
 
 - Save for later is a myth.
 - There are excellent apps like 
-[Pocket](https://getpocket.com/), [Inoreader](https://www.inoreader.com/), [Evernote](https://evernote.com/) or even [Hashnode Bookmark](../../Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md) like in this article.
+[Pocket](https://getpocket.com/), [Inoreader](https://www.inoreader.com/), [Evernote](https://evernote.com/) or even [Hashnode Bookmark](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md) like in this article.
 - But unless you consume the list often this will grow forever.
 - Don't save content, consume it.
 - Have you bookmarked this article for later?
@@ -149,7 +149,7 @@ Focus -> Flow.
 
 # [Update] Part II
 
-[10 More Simple Tips to Boost Your Productivity x2 (2021 Guide)](../../Productivity/10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2%20(2021%20Guide)/readme.md)
+[10 More Simple Tips to Boost Your Productivity x2 (2021 Guide)](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2%20(2021%20Guide)/readme.md)
 
 I'm sure there is plenty of productivity advice around. Which one does work for you? 
 

@@ -1,6 +1,6 @@
 # What exactly is a name — Part II Rehab
 
-![What exactly is a name — Part II Rehab](big-dodzy-od5DEloESa8-unsplash.jpg)
+![What exactly is a name — Part II Rehab](What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab.jpg)
 
 *We all agree: a good name is always the most important thing. Let’s find them.*
 
@@ -14,7 +14,7 @@ In a previous article, we introduced various definitions and techniques for look
 
 In this article, we will try to show some present problems with nomenclature in order to improve our practices.
 
-[What exactly is a name — Part I The Quest](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
+[What exactly is a name — Part I The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
 
 ## We do not need help
 
@@ -30,7 +30,7 @@ Photo by [Big Dodzy](https://unsplash.com/@bigdodzy) on [Unsplash](https://unspl
 
 > Rule 9: Helpers don’t exist
 
-[Code Smell 22 - Helpers](../../Code%20Smells/Code%20Smell%2022%20-%20Helpers/readme.md)
+[Code Smell 22 - Helpers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2022%20-%20Helpers/readme.md)
 
 ## We don’t need bosses
 
@@ -74,7 +74,7 @@ As we saw in previous articles, having _setters_ and _getters_ leads to encapsul
 
 We do not usually find these responsibilities in domain entities in the bijection to the real world. There are no real _set()_ and _get()_ responsibilities in business models.
 
-[Nude Models - Part I: Setters](../../Theory/Nude%20Models - Part%20I Setters/readme.md)
+[Nude Models - Part I: Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20I Setters/readme.md)
 
 In the accidental case of matching responsibility with an attribute, we will call the function in the same way without the _get()_ prefix.
 
@@ -94,7 +94,7 @@ class Polygon {
 }
 ```
 
-[Nude Models - Part II: Getters](../../Theory/Nude%20Models - Part%20II Getters/readme.md)
+[Nude Models - Part II: Getters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20II Getters/readme.md)
 
 > Rule 13: There are no setXXX or getXXX methods.
 
@@ -140,7 +140,7 @@ The greatest benefit of known design patterns is the unification of a common lan
 
 We all know what a _decorator_, a _strategy_, an _adapter_ or a _facade_ is. And we know that you should never use _Singletons_:
 
-[Singleton - The root of all evil](../../Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
+[Singleton - The root of all evil](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
 
 > Rule 17: Use pattern names for implementing concepts.
 

@@ -1,6 +1,6 @@
 # Why I Create Content as a Developer and Teacher
 
-![Why I Create Content as a Developer and Teacher](construction-crane.gif)
+![Why I Create Content as a Developer and Teacher](Why%20I%20Create%20Content%20as%20a%20Developer%20and%20Teacher.gif)
 
 > TL;DR: The reasons I write Technical Content articles
 
@@ -16,7 +16,7 @@ As a software engineer, I have 25 years of experience and knowledge in the field
 
 When I discovered the world of content creation and technical writing, I knew I had to get involved in.
 
-There are real [threats](../../Artificial%20Intelligence/GPT-3%20Training%20Programmers%20for%20the%20Present%20(and%20the%20Future)/readme.md) for developers on the horizon.
+There are real [threats](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Artificial%20Intelligence/GPT-3%20Training%20Programmers%20for%20the%20Present%20(and%20the%20Future)/readme.md) for developers on the horizon.
 
 # Why?
 
@@ -26,7 +26,7 @@ Creating content is a great way to share my knowledge and help people learn abou
 
 It also helps me communicate my ideas and share my knowledge with others, keeps my skills up-to-date, and improves my problem-solving abilities.
 
-It can also be a form of stress relief and can help me stay [organized and focused](../../Productivity/What%20is%20JOMO%20and%20Why%20it%20will%20Increase%20your%20Productivity%20x97/readme.md).
+It can also be a form of stress relief and can help me stay [organized and focused](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/What%20is%20JOMO%20and%20Why%20it%20will%20Increase%20your%20Productivity%20x97/readme.md).
 
 One of the main reasons is that it helps me learn more about development out of my comfort zone. 
 
@@ -42,7 +42,7 @@ I know that there are a lot of people out there desiring to learn to code.
 
 Many of them don't know where to start. 
 
-By creating content for [beginners](../../Theory/What%20is%20(wrong%20with)%20software/readme.md), I can help them take their first steps toward becoming a developer.
+By creating content for [beginners](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md), I can help them take their first steps toward becoming a developer.
 
 I love coming up with new ideas for articles, videos, and courses, and seeing the positive impact of my work.
 
@@ -60,7 +60,7 @@ As a developer, you're always learning new things.
 
 A new language, framework, or tool, there's always something to keep you busy. 
 
-You seldom have time for learning [software fundamentals](../../Theory/What%20is%20(wrong%20with)%20software/readme.md).
+You seldom have time for learning [software fundamentals](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md).
 
 But what happens when you need to teach someone else? 
 
@@ -72,7 +72,7 @@ I mostly write about programming fundamentals, code smells, refactorings and TDD
 
 I think learning fancy frameworks and tools is not the best path for a beginner.
 
-You will get biased towards an [accidental](../../Theory/No%20Silver%20Bullet/readme.md) decision instead of learning [essential contents](../../Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md).
+You will get biased towards an [accidental](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md) decision instead of learning [essential contents](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md).
 
 # How?
 
@@ -84,7 +84,7 @@ Before you start teaching, you need to find out what your student already knows.
 
 2 Start with the basics
 
-Once you know what your student knows, you can start with the basics. If they're new to the topic, start from scratch. If they already know something, you might need to check it the [fundamentals](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) are good
+Once you know what your student knows, you can start with the basics. If they're new to the topic, start from scratch. If they already know something, you might need to check it the [fundamentals](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) are good
 
 3 Use very simple language
 

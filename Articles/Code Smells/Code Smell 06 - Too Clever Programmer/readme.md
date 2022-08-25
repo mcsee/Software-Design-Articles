@@ -1,6 +1,6 @@
 # Code Smell 06 - Too Clever Programmer
 
-![Code Smell 06 - Too Clever Programmer](neonbrand-3BfDXcn9sqM-unsplash.jpg)
+![Code Smell 06 - Too Clever Programmer](Code%20Smell%2006%20-%20Too%20Clever%20Programmer.jpg)
 
 *Code is difficult to read and tricky with names without semantics. Sometimes using language's accidental complexity.*
 
@@ -20,11 +20,11 @@
 
 - Refactor the code
 
-- Use [better names](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
+- Use [better names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
 
 # Refactorings
 
-[Refactoring 005 - Replace Comment with Function Name](../../Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
+[Refactoring 005 - Replace Comment with Function Name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
 
 # Examples
 
@@ -89,9 +89,9 @@ Watch some warnings related to complexity, bad names, post-increment variables, 
 
 # Relations
 
-[Code Smell 02 - Constants and Magic Numbers](../../Code%20Smells/Code%20Smell%20%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
+[Code Smell 02 - Constants and Magic Numbers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
 
-[Code Smell 20 - Premature Optimization](../../Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
+[Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
 # Conclusion
 
@@ -116,10 +116,10 @@ Photo by [NeONBRAND](https://unsplash.com/@neonbrand) on [Unsplash](https://unsp
 
 _Kreitzberg & Shneiderman_
 
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

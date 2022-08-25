@@ -1,10 +1,10 @@
 # Code Smell 126 - Fake Null Object
 
-![Code Smell 126 - Fake Null Object](juan-davila-WBMEwUsMWMQ-unsplash.jpg)
+![Code Smell 126 - Fake Null Object](Code%20Smell%20126%20-%20Fake%20Null%20Object.jpg)
 
 *Null Objects are great alternatives to The Billion Dollar Mistake. Sometimes we don't need them*
 
-![Fake Null Object](juan-davila-WBMEwUsMWMQ-unsplash.jpg)
+![Fake Null Object](Code%20Smell%20126%20-%20Fake%20Null%20Object.jpg)
 
 > TL;DR: Don't abuse patterns. Even NullObject.
 
@@ -18,11 +18,11 @@
 
 # Solutions
 
-1. Create [Null Objects](../../Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md) instantiating real-object classes.
+1. Create [Null Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md) instantiating real-object classes.
 
 # Context
 
-Null Object pattern is a great alternative to [Nulls](../../Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md) and [IFs](../../Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md) (Both are code smells).
+Null Object pattern is a great alternative to [Nulls](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md) and [IFs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md) (Both are code smells).
 
 The structure of the pattern tells us to create a hierarchy.
 
@@ -153,25 +153,25 @@ Creating Null Object classes is sometimes overdesign.
 
 We need to create a real object.
 
-This real object should never be [global](../../Code%20Smells/Code%20Smell%2017%20-%20Global%20Functions/readme.md), [singleton](../../Code%20Smells/Code%20Smell%2032%20-%20Singletons/readme.md), or [static](../../Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md).
+This real object should never be [global](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2017%20-%20Global%20Functions/readme.md), [singleton](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2032%20-%20Singletons/readme.md), or [static](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md).
 
 Too many smells to avoid.
 
 # Relations
 
-[Code Smell 12 - Null](../../Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
+[Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
-[Code Smell 32 - Singletons](../../Code%20Smells/Code%20Smell%2032%20-%20Singletons/readme.md)
+[Code Smell 32 - Singletons](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2032%20-%20Singletons/readme.md)
 
-[Code Smell 114 - Empty Class](../../Code%20Smells/Code%20Smell%20114%20-%20Empty%20Class/readme.md)
+[Code Smell 114 - Empty Class](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20114%20-%20Empty%20Class/readme.md)
 
-[Code Smell 18 - Static Functions](../../Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md) 
+[Code Smell 18 - Static Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md) 
 
-[Code Smell 17 - Global Functions](../../Code%20Smells/Code%20Smell%2017%20-%20Global%20Functions/readme.md)
+[Code Smell 17 - Global Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2017%20-%20Global%20Functions/readme.md)
 
 # More Info
 
-- [Null: The Billion Dollar Mistake](../../Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
+- [Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
 - [Null Object Wikipedia](https://en.wikipedia.org/wiki/Null_object_pattern)
 
@@ -189,10 +189,10 @@ Thanks to Hernan Wilkinson for this idea on his course [Diseño a la Gorra](http
 
 _George Box_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

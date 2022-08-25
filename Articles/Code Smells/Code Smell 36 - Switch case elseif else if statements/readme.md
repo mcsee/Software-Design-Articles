@@ -1,6 +1,6 @@
 # Code Smell 36 - Switch/case/elseif/else/if statements
 
-![Code Smell 36 - Switch/case/elseif/else/if statements](adarsh-kummur-zThTy8rPPsY-unsplash.jpg)
+![Code Smell 36 - Switch/case/elseif/else/if statements](Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements.jpg)
 
 *First programming lesson: Control structures. Senior developer lesson: avoid them.*
 
@@ -74,17 +74,17 @@ Class Mp3Converter {
 
 #Detection
 
-Since there are [valid cases](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md) for If/else usages, we should not pull the plug and forbid these instructions. We can put a ratio of if statements/other statements as a warning instead.  
+Since there are [valid cases](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md) for If/else usages, we should not pull the plug and forbid these instructions. We can put a ratio of if statements/other statements as a warning instead.  
 
 # Relations
 
--[Code Smell 12 - Null](../../Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
+-[Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
--[Code Smell 102 - Arrow Code](../../Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md)
+-[Code Smell 102 - Arrow Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md)
 
 # More info
 
-[How to Get Rid of Annoying IFs Forever](../../Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
+[How to Get Rid of Annoying IFs Forever](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
 # Credits
 
@@ -94,10 +94,10 @@ Photo by [Adarsh Kummur](https://unsplash.com/@akummur) on [Unsplash](https://un
 
 _Edsger Dijkstra_
 
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

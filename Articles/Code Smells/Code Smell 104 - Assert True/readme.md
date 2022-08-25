@@ -1,6 +1,6 @@
 # Code Smell 104 - Assert True
 
-![Code Smell 104 - Assert True](joel-de-vriend-B4coIKuk55I-unsplash.jpg)
+![Code Smell 104 - Assert True](Code%20Smell%20104%20-%20Assert%20True.jpg)
 
 *Asserting against booleans makes error tracking more difficult.*
 
@@ -100,13 +100,13 @@ Try to rewrite your boolean assertions and you will fix the failures much faster
 
 # Relations
 
-[Code Smell 101 - Comparison Against Booleans](../../Code%20Smells/Code%20Smell%20101%20-%20Comparison%20Against%20Booleans/readme.md)
+[Code Smell 101 - Comparison Against Booleans](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20101%20-%20Comparison%20Against%20Booleans/readme.md)
 
-[Code Smell 07 - Boolean Variables](../../Code%20Smells/Code%20Smell%2007%20-%20Boolean%20Variables/readme.md)
+[Code Smell 07 - Boolean Variables](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2007%20-%20Boolean%20Variables/readme.md)
 
 # More Info
 
-- [Fail Fast](../../Theory/Fail%20Fast/readme.md)
+- [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
 # Credits
 
@@ -118,10 +118,10 @@ Photo by [Joël de Vriend](https://unsplash.com/@joeldevriend) on [Unsplash](htt
 
 _Dennie van Tassel_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

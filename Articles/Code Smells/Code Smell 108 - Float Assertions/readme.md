@@ -1,6 +1,6 @@
 # Code Smell 108 - Float Assertions
 
-![Code Smell 108 - Float Assertions](mika-baumeister-Wpnoqo2plFA-unsplash.jpg)
+![Code Smell 108 - Float Assertions](Code%20Smell%20108%20-%20Float%20Assertions.jpg)
 
 *Asserting two float numbers are the same is a very difficult problem*
 
@@ -68,11 +68,11 @@ We should always avoid comparing floats.
 
 # Relations
 
-[Code Smell 71 - Magic Floats Disguised as Decimals](../../Code%20Smells/Code%20Smell%2071%20-%20Magic%20Floats%20Disguised%20as%20Decimals/readme.md)
+[Code Smell 71 - Magic Floats Disguised as Decimals](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2071%20-%20Magic%20Floats%20Disguised%20as%20Decimals/readme.md)
 
 # More Info
 
-- [Fail fast](../../Theory/Fail%20Fast/readme.md)
+- [Fail fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
 # Credits
 
@@ -84,10 +84,10 @@ Photo by [Mika Baumeister](https://unsplash.com/@mbaumi) on [Unsplash](https://u
 
 _Leopold Kronecker_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

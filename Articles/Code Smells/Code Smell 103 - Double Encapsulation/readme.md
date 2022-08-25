@@ -1,6 +1,6 @@
 # Code Smell 103 - Double Encapsulation
 
-![Code Smell 103 - Double Encapsulation](ray-hennessy-OjE4RtaibFc-unsplash.jpg)
+![Code Smell 103 - Double Encapsulation](Code%20Smell%20103%20-%20Double%20Encapsulation.jpg)
 
 *Calling our own accessor methods might seem a good encapsulation idea. But it is not.*
 
@@ -16,7 +16,7 @@
 
 # Solutions
 
-1. [Remove setters](../../Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
+1. [Remove setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
 
 2. Remove getters
 
@@ -87,11 +87,11 @@ Double encapsulation was a trendy idea to protect accidental implementation, but
 
 # Relations
 
-[Code Smell 37 - Protected Attributes](../../Code%20Smells/Code%20Smell%2037%20-%20Protected%20Attributes/readme.md) 
+[Code Smell 37 - Protected Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2037%20-%20Protected%20Attributes/readme.md) 
 
-[Code Smell 28 - Setters](../../Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
+[Code Smell 28 - Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
 
-[Code Smell 68 - Getters](../../Code%20Smells/Code%20Smell%2068%20-%20Getters/readme.md)
+[Code Smell 68 - Getters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2068%20-%20Getters/readme.md)
 
 # More Info
 
@@ -111,10 +111,10 @@ Photo by [Ray Hennessy](https://unsplash.com/@rayhennessy) on [Unsplash](https:/
 
 _Erich Gamma_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

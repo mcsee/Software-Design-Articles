@@ -1,6 +1,6 @@
 # Code Smell 64 - Inappropriate Intimacy
 
-![Code Smell 64 - Inappropriate Intimacy](becca-tapert-F0ZiHWliGGM-unsplash.jpg)
+![Code Smell 64 - Inappropriate Intimacy](Code%20Smell%2064%20-%20Inappropriate%20Intimacy.jpg)
 
 *Two classes entangled in love.*
 
@@ -100,7 +100,7 @@ Classes should know as little about each other as possible.
 
 # Relations
 
-[Code Smell 63 - Feature Envy](../../Code%20Smells/Code%20Smell%2063%20-%20Feature%20Envy/readme.md)
+[Code Smell 63 - Feature Envy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2063%20-%20Feature%20Envy/readme.md)
 
 # More info
 
@@ -121,10 +121,10 @@ Photo by [Becca Tapert](https://unsplash.com/@beccatapert) on [Unsplash](https:/
  
 * * *
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

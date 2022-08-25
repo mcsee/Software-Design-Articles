@@ -1,6 +1,6 @@
 # Code Smell 07 - Boolean Variables
 
-![Code Smell 07 - Boolean Variables](phil-hearing-XIvn5uz8wGQ-unsplash.jpg)
+![Code Smell 07 - Boolean Variables](Code%20Smell%2007%20-%20Boolean%20Variables.jpg)
 
 *Using boolean variables as flags, exposes accidental implementation and pollutes the code with Ifs.*
 
@@ -99,4 +99,4 @@ These tweets inspired this code smell:
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

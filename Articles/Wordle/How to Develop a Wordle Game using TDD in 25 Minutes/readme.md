@@ -1,10 +1,10 @@
 # How to Develop a Wordle Game using TDD in 25 Minutes
 
-![How to Develop a Wordle Game using TDD in 25 Minutes](500.jpg)
+![How to Develop a Wordle Game using TDD in 25 Minutes](How%20to%20Develop%20a%20Wordle%20Game%20using%20TDD%20in%2025%20Minutes.jpg)
 
 Everybody is playing Wordle these days...
 
-And I love [TDD](../../TDD%20Conference%202021/TDD%20Conference%202021%20-%20All%20Talks/readme.md).
+And I love [TDD](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD%20Conference%202021/TDD%20Conference%202021%20-%20All%20Talks/readme.md).
 
 So, let's get moving...
 
@@ -16,7 +16,7 @@ The minimum information amount in Wordle is a word.
 
 We can argue that *letter* is smaller, but we think all needed letter protocol is already defined (we might be wrong).
 
-A word is not a string. This is a common mistake and a [bijection violation](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
+A word is not a string. This is a common mistake and a [bijection violation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
 
 A *word* and a *string* have different responsibilities, though they might intersect.
 
@@ -129,7 +129,7 @@ We need to change our implementation in order to make test02 pass (and also test
 
 - We just check for few letters. Not for too many since we don't have yet a covering test.
 - TDD requires full coverage. Adding another check without a test is a technique violation.
-- We just raise a generic Exception. Creating special exceptions is a [code smell](../../Code%20Smells/Code%20Smell%2026%20-%20Exceptions%20Polluting/readme.md) that pollutes namespaces. (unless we catch it, but this is not happening right now).
+- We just raise a generic Exception. Creating special exceptions is a [code smell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2026%20-%20Exceptions%20Polluting/readme.md) that pollutes namespaces. (unless we catch it, but this is not happening right now).
 
 Let's check for too many
 
@@ -167,7 +167,7 @@ And all tests passed.
 We can now make an (optional) refactor and change the function to assert for a range instead of two boundaries.
 We decide to leave this way since it is more declarative.
 
-We can also add a test checking for zero letters following [Zombie methodology](../../TDD/How%20I%20Survived%20the%20Zombie%20Apocalypse/readme.md).
+We can also add a test checking for zero letters following [Zombie methodology](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20I%20Survived%20the%20Zombie%20Apocalypse/readme.md).
 Let's do it.
 
 [Gist Url]: # (https://gist.github.com/mcsee/3a55bc89bb13afcda0b6f9657a1bb7f1)

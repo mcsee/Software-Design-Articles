@@ -1,6 +1,6 @@
 # Code Smell 10 - Too Many Arguments
 
-![Code Smell 10 - Too Many Arguments](tobias-tullius-xP5an6iXcf0-unsplash.jpg)
+![Code Smell 10 - Too Many Arguments](Code%20Smell%2010%20-%20Too%20Many%20Arguments.jpg)
 
 *Objects or Functions need too many arguments to work.*
 
@@ -114,9 +114,9 @@ If a function gets too many arguments, some of them might be related to the clas
 
 # Relations
 
-[Code Smell 34 - Too Many Attributes](../../Code%20Smells/Code%20Smell%2034%20-%20Too%20Many%20Attributes/readme.md)
+[Code Smell 34 - Too Many Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2034%20-%20Too%20Many%20Attributes/readme.md)
 
-[Code Smell 13 - Empty Constructors](../../Code%20Smells/Code%20Smell%2013%20-%20Empty%20Constructors/readme.md)
+[Code Smell 13 - Empty Constructors](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2013%20-%20Empty%20Constructors/readme.md)
 
 # Credits
 
@@ -126,4 +126,4 @@ Photo by [Tobias Tullius](https://unsplash.com/@tobiastu) on [Unsplash](https://
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

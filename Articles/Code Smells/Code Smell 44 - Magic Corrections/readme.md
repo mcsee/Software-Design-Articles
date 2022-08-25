@@ -1,6 +1,6 @@
 # Code Smell 44 - Magic Corrections
 
-![Code Smell 44 - Magic Corrections](senor-sosa-JnCzJcjsAJQ-unsplash.jpg)
+![Code Smell 44 - Magic Corrections](Code%20Smell%2044 - Magic%20Corrections.jpg)
 
 *Compilers are smarter than us. On a Friday night production deploy they betray us.*
 
@@ -77,11 +77,11 @@ They feel they belong to *community standards* that enforce bad behaviors like a
 
 # Relations
 
-[Code Smell 06 - Too Clever Programmer](../../Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
+[Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
 # More Info
 
-[Fail Fast](../../Theory/Fail%20Fast/readme.md)
+[Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
 # Credits
 
@@ -93,10 +93,10 @@ Photo by [Senor Sosa](https://unsplash.com/@senor_sosa) on [Unsplash](https://un
 
 _Bruce Sterling_
 
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

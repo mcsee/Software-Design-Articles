@@ -1,6 +1,6 @@
 # Code Smell 08 - Long Chains Of Collaborations
 
-![Code Smell 08 - Long Chains Of Collaborations](chewy-nPRK_w6tcQ4-unsplash.jpg)
+![Code Smell 08 - Long Chains Of Collaborations](Code%20Smell%2008%20-%20Long%20Chains%20Of%20Collaborations.jpg)
 
 *Making long chains generate coupling and ripple effect.
 Any chain change breaks the code.*
@@ -80,7 +80,7 @@ dog.walk();
 
 # Relations
 
-[Code Smell 67 - Middle Man](../../Code%20Smells/Code%20Smell%2067%20-%20Middle%20Man/readme.md)
+[Code Smell 67 - Middle Man](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2067%20-%20Middle%20Man/readme.md)
 
 # More Info
 
@@ -110,4 +110,4 @@ Photo by [Chewy](https://unsplash.com/@chewy) on [Unsplash](https://unsplash.com
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

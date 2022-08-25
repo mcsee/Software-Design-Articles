@@ -1,6 +1,6 @@
 # Code Smell 105 - Comedian Methods
 
-![Code Smell 105 - Comedian Methods](stewart-munro-b1BrEXiYfFg-unsplash.jpg)
+![Code Smell 105 - Comedian Methods](Code%20Smell%20105%20-%20Comedian%20Methods.jpg)
 
 *Use professional and meaningful names*
 
@@ -68,11 +68,11 @@ You should write production code so future software developers (even you) should
 
 # Relations
 
-[Code Smell 38 - Abstract Names](../../Code%20Smells/Code%20Smell%2038%20-%20Abstract%20Names/readme.md)
+[Code Smell 38 - Abstract Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2038%20-%20Abstract%20Names/readme.md)
 
 # More Info
 
-- [What is in a name](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
+- [What is in a name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
 
 # Credits
 
@@ -84,10 +84,10 @@ Photo by [Stewart Munro](https://unsplash.com/@stewartmunro) on [Unsplash](https
 
 _Linus Torvalds_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

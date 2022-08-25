@@ -1,6 +1,6 @@
 # Code Smell 148 - ToDos
 
-![Code Smell 148 - ToDos](eden-constantino-bTukYI4DjOs-unsplash.jpg)
+![Code Smell 148 - ToDos](Code%20Smell%20148%20-%20ToDos.jpg)
 
 *We buy debt for our future selves. It is payback time*
 
@@ -123,10 +123,10 @@ Photo by [Eden Constantino](https://unsplash.com/@edenconstantin0) on [Unsplash]
 
 _Michael Abrash_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

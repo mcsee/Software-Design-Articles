@@ -1,6 +1,6 @@
 # Singleton - The root of all evil
 
-![Singleton - The root of all evil](brian-yurasits-IvWEUvMwmlg-unsplash.jpg)
+![Singleton - The root of all evil](Singleton%20-%20The%20root%20of%20all%20evil.jpg)
 
 *Allowed global variables and supposed memory savings.*
 
@@ -21,14 +21,14 @@ Let’s be pragmatic as always, and look at the arguments for and against its us
 
 ## Reasons not to use it
 
-### 1. Violates the [bijection principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) 
+### 1. Violates the [bijection principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) 
 
-As we saw in previous articles, every object in our computable model has to be [mapped](../../Theory/What%20is%20(wrong%20with)%20software/readme.md) on a **1 to 1** relationship with a real-world entity.
+As we saw in previous articles, every object in our computable model has to be [mapped](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) on a **1 to 1** relationship with a real-world entity.
 
 Singletons are often linked to objects that need to be unique. As usual we will have to distinguish among the objects that are **essentially** unique (for problem domain drivers) and differentiate them from the **accidentally** unique ones regarding implementation reasons, efficiency, resource consumption, global access, etc.
 Most **accidentally** unique objects are not present in the real world, and we will see later on that the presumably **essentially** unique ones may not be so if we consider different contexts, environments, or situations.
 
-[The One and Only Software Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
+[The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 ### 2. Generates coupling
 It is a global reference. Again according to Wikipedia:
@@ -37,7 +37,7 @@ It is a global reference. Again according to Wikipedia:
 
 What a priori appears as a benefit for preventing us from having to pass context information, generates coupling. The reference to the singleton cannot be changed according to the environment (development, production), nor can dynamic strategy changes related to the current load be made, it cannot be replaced by a double test and it prevents us from making changes due to the possible ripple effect.
 
-[Coupling - The one and only software design problem](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+[Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 ### 3. It says a lot about (accidental) implementation and little about his (essential) responsibilities
 By focusing early on implementation issues (the *Singleton* is an implementation pattern) we orient ourselves according to **accidentality** (**how**) and underestimate the most important thing of an object: the responsibilities it has (**what**).
@@ -76,7 +76,7 @@ As good solid design advocates, we favor inversion of control through dependency
 ### 7. It violates the instantiation contract
 When we ask a class to create a new instance we expect the contract to be honored and give us a fresh new instance. However, many Singleton implementations hide the creation omission silently, rather than failing quickly to indicate that there is a business rule that instances should not be arbitrarily created.
 
-[Fail Fast](../../Theory/Fail%20Fast/readme.md)
+[Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
 [Gist Url]: # (https://gist.github.com/mcsee/df78952fd4871362eaffcc6ce7ab6c94)
 ```php
@@ -233,7 +233,7 @@ There are objects that require a certain cost of resources to create. If this co
 
 There are multiple techniques to gradually remove the (ab)use of Singletons. In this article we list some of them:
 
-[How to Decouple a Legacy System](../../Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
+[How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 
 # Conclusions
 

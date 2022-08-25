@@ -1,6 +1,6 @@
 # Code Smell 09 - Dead Code
 
-![Code Smell 09 - Dead Code](grim-reaper-5535651_1920.jpg)
+![Code Smell 09 - Dead Code](Code%20Smell%2009%20-%20Dead%20Code.jpg)
 
 *Code that is no longer used or needed.*
 
@@ -58,7 +58,7 @@ Coverage tools can find dead code (uncovered) if you have a great suite of tests
 
 - Avoid metaprogramming. When used, it is very difficult to find references to the code.
 
-[Laziness I - Metaprogramming](../../Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
+[Laziness I - Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
 
 # Tags
 
@@ -72,7 +72,7 @@ Removing code is always more rewarding than adding.
 
 # More info
 
-- [Laziness I: Metaprogramming](../../Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
+- [Laziness I: Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
 
 # Credits
 
@@ -82,4 +82,4 @@ Photo by <a href="https://pixabay.com/es/users/ray_shrewsberry-7673058/">Ray Shr
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

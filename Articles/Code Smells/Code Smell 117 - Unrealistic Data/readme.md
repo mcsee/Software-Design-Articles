@@ -1,6 +1,6 @@
 # Code Smell 117 - Unrealistic Data
 
-![Code Smell 117 - Unrealistic Data](hofmann-natalia-lxrkrBx-c_o-unsplash.jpg)
+![Code Smell 117 - Unrealistic Data](Code%20Smell%20117%20-%20Unrealistic%20Data.jpg)
 
 *Programmers are lazy and seldom try to learn from real business domains*
 
@@ -8,7 +8,7 @@
 
 # Problems
 
-- [Bijection](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Violation
+- [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Violation
 
 - Bad test use cases
 
@@ -18,17 +18,17 @@
 
 1. Change test data for a real one.
 
-2. Use [MAPPER](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) to map real entities and real data.
+2. Use [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) to map real entities and real data.
 
 # Context
 
 In the past, developers used to fake domain data.
 
-We considered [Hello Word](../../TDD/We%20Should%20Get%20Rid%20of%20HelloWorld%20Forever/readme.md) a good practice and we tested with abstract data.
+We considered [Hello Word](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/We%20Should%20Get%20Rid%20of%20HelloWorld%20Forever/readme.md) a good practice and we tested with abstract data.
 
 We developed using a [waterfall model](https://en.wikipedia.org/wiki/Waterfall_model) very far from real users.
 
-With bijection and MAPPER techniques, DDD and [TDD](../../TDD%20Conference%202021/TDD%20Conference%202021%20-%20All%20Talks/readme.md), [user acceptance testing](https://en.wikipedia.org/wiki/Acceptance_testing) became more important.
+With bijection and MAPPER techniques, DDD and [TDD](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD%20Conference%202021/TDD%20Conference%202021%20-%20All%20Talks/readme.md), [user acceptance testing](https://en.wikipedia.org/wiki/Acceptance_testing) became more important.
 
 Using Agile methodologies, we need to test with real-world data.
 
@@ -104,7 +104,7 @@ We should fake it with meaningful data.
 
 # Conclusion
 
-Code comments are a [code smell](../../Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md).
+Code comments are a [code smell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md).
 
 Reading tests is the only way to learn how the software behaves.
 
@@ -112,13 +112,13 @@ We need to be extra explicit on our tests.
 
 # Relations
 
-[Code Smell 05 - Comment Abusers](../../Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
+[Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
 
 # More Info
 
 - [Given/Then/When](https://en.wikipedia.org/wiki/Given-When-Then)
 
-- [MAPPER](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
+- [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 # Credits
 
@@ -132,10 +132,10 @@ Thanks to [Curtis Einsmann](https://twitter.com/curtiseinsmann/status/1487118139
 
 _Albert Einstein_
 
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

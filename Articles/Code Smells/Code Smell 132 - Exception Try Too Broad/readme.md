@@ -1,6 +1,6 @@
 # Code Smell 132 - Exception Try Too Broad
 
-![Code Smell 132 - Exception Try Too Broad](jakob-braun-Js2Tv3-uLB8-unsplash.jpg)
+![Code Smell 132 - Exception Try Too Broad](Code%20Smell%20132%20-%20Exception%20Try%20Too%20Broad.jpg)
 
 *Exceptions are handy. But should be as narrow as possible*
  
@@ -79,9 +79,9 @@ We must make exceptions as surgical as possible.
 
 # Relations
 
-[Code Smell 26 - Exceptions Polluting](../../Code%20Smells/Code%20Smell%2026%20-%20Exceptions%20Polluting/readme.md)
+[Code Smell 26 - Exceptions Polluting](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2026%20-%20Exceptions%20Polluting/readme.md)
 
-[Code Smell 73 - Exceptions for Expected Cases](../../Code%20Smells/Code%20Smell%2073%20-%20Exceptions%20for%20Expected%20Cases/readme.md)
+[Code Smell 73 - Exceptions for Expected Cases](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2073%20-%20Exceptions%20for%20Expected%20Cases/readme.md)
 
 # Credits
 
@@ -93,10 +93,10 @@ Photon from [Jakob Braun](https://unsplash.com/es/fotos/Js2Tv3-uLB8) on Unsplash
 
 _Verity Stob_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

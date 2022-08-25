@@ -1,6 +1,6 @@
 # Code Smell 49 - Caches
 
-![Code Smell 49 - Caches](aimee-vogelsang-DbJR10fEteE-unsplash.jpg)
+![Code Smell 49 - Caches](Code%20Smell%2049%20-%20Caches.jpg)
 
 *Caches are sexy. They are a one-night stand. We need to avoid them in a long-term relationship.*
 
@@ -117,7 +117,7 @@ We shouldn't cache domain objects.
 
 # Relations
 
-[Code Smell 20 - Premature Optimization](../../Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
+[Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
  
 # More Info
 
@@ -137,10 +137,10 @@ _Phil Karlton_
  
 * * *
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

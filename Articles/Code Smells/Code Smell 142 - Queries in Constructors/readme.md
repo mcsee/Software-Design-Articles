@@ -1,6 +1,6 @@
 # Code Smell 142 - Queries in Constructors
 
-![Code Smell 142 - Queries in Constructors](callum-hill-NGGkGzslIaM-unsplash.jpg)
+![Code Smell 142 - Queries in Constructors](Code%20Smell%20142%20-%20Queries%20in%20Constructors.jpg)
 
 *Accessing a database in domain objects is a code smell. Doing it in a constructor is a double smell*
 
@@ -8,7 +8,7 @@
 
 # Problems
 
-- [Coupling](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+- [Coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 - Side Effects
 
@@ -74,7 +74,7 @@ Separation of concerns is key and coupling is our main enemy when designing robu
 
 # More Info
 
-- [Coupling: The one and only Software Problem](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+- [Coupling: The one and only Software Problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 # Credits
 
@@ -86,10 +86,10 @@ Separation of concerns is key and coupling is our main enemy when designing robu
 
 _Peter Deustch_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

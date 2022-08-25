@@ -1,6 +1,6 @@
 # Code Smell 112 - Testing Private Methods
 
-![Code Smell 112 - Testing Private Methods](dan-nelson-ah-HeguOe9k-unsplash.jpg)
+![Code Smell 112 - Testing Private Methods](Code%20Smell%20112%20-%20Testing%20Private%20Methods.jpg)
 
 *If you work on unit testing, sooner or later you will face this dilemma*
 
@@ -20,11 +20,11 @@
 
 3. Do not make your methods public for testing.
 
-4. Do not [use metaprogramming](../../Theory/Laziness%20I%20-%20Metaprogramming/readme.md) to avoid protection.
+4. Do not [use metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md) to avoid protection.
 
-5. Do not move the private computation to [helpers](../../Code%20Smells/Code%20Smell%2022%20-%20Helpers/readme.md).
+5. Do not move the private computation to [helpers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2022%20-%20Helpers/readme.md).
 
-6. Do not use [static methods](../../Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md) for computations.
+6. Do not use [static methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md) for computations.
 
 # Context
 
@@ -110,17 +110,17 @@ With this guide, we should always choose the method object solution.
 
 # Relations
 
-[Code Smell 21 - Anonymous Functions Abusers](../../Code%20Smells/Code%20Smell%2021%20-%20Anonymous%20Functions%20Abusers/readme.md)
+[Code Smell 21 - Anonymous Functions Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2021%20-%20Anonymous%20Functions%20Abusers/readme.md)
 
-[Code Smell 22 - Helpers](../../Code%20Smells/Code%20Smell%2022%20-%20Helpers/readme.md)
+[Code Smell 22 - Helpers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2022%20-%20Helpers/readme.md)
 
-[Code Smell 18 - Static Functions](../../Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md)
+[Code Smell 18 - Static Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md)
 
 # More Info
 
 - [Testing Private Methods Guide](http://shoulditestprivatemethods.com/)
 
-- [Laziness I - Metaprogramming](../../Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
+- [Laziness I - Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
 
 # Credits
 
@@ -132,10 +132,10 @@ Photo by [Dan Nelson](https://unsplash.com/@danny144) on [Unsplash](https://unsp
 
 _Brian Goetz_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

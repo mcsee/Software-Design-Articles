@@ -1,6 +1,6 @@
 # Code Smell 54 - Anchor Boats
 
-![Code Smell 54 - Anchor Boats](kris-mikael-krister-CliuXLGbKV4-unsplash.jpg)
+![Code Smell 54 - Anchor Boats](Code%20Smell%2054%20-%20Anchor%20Boats.jpg)
 
 *Code is there. Just in case. We might need it soon.*
 
@@ -70,7 +70,7 @@ Dead code is always a problem.
 
 We can use modern development techniques like TDD to ensure all code is alive.
 
-[How to Squeeze Test Driven Development on Legacy Systems](../../TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md) 
+[How to Squeeze Test Driven Development on Legacy Systems](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md) 
 
 # Also Known as
 
@@ -78,7 +78,7 @@ We can use modern development techniques like TDD to ensure all code is alive.
 
 # Relations
 
-[Code Smell 09 - Dead Code](../../Code%20Smells/Code%20Smell%2009%20-%20Dead%20Code/readme.md)
+[Code Smell 09 - Dead Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2009%20-%20Dead%20Code/readme.md)
 
 # More info
 
@@ -106,10 +106,10 @@ _Niels Bohr_
  
 * * *
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

@@ -1,6 +1,6 @@
 # Code Smell 91 - Test Asserts without Description
 
-![Code Smell 91 - Test Asserts without Description](startae-team-7tXA8xwe4W4-unsplash.jpg)
+![Code Smell 91 - Test Asserts without Description](Code%20Smell%2091%20-%20Test%20Asserts%20without%20Description.jpg)
 
 *We are big fans of xUnit. But we don't care much for the programmers.*
 
@@ -88,10 +88,10 @@ Photo by [Startaê Team](https://unsplash.com/@startaeteam) on [Unsplash](https:
 
 _John Woods_
 
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

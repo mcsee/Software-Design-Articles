@@ -1,6 +1,6 @@
 # Code Smell 48 - Code Without Standards
 
-![Code Smell 48 - Code Without Standards](Synchronized_swimming_-_Russian_team.jpg)
+![Code Smell 48 - Code Without Standards](Code%20Smell%2048%20-%20Code%20Without%20Standards.jpg)
 
 *Working on a solo project is easy. Unless you go back to it after some months. Working with many other developers requires some agreements.*
 
@@ -127,7 +127,7 @@ public class Account {
 
 Linters and IDEs should test coding standards before a merge request is approved.
 
-We can add our own [naming conventions](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md) related to Objects, Classes, Interfaces, Modules etc.
+We can add our own [naming conventions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md) related to Objects, Classes, Interfaces, Modules etc.
 
 # Tags
 
@@ -147,15 +147,15 @@ Automatic code formatting by a parser or compiler is the way machines gives us f
 
 It could prevent disagreements and follows fail fast principle.
 
-[Fail Fast](../../Theory/Fail%20Fast/readme.md)
+[Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
 # Relations
 
-[Code Smell 06 - Too Clever Programmer](../../Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
+[Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
 # More info
 
-[What exactly is a name — Part I The Quest](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
+[What exactly is a name — Part I The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
 
 # Credits
 
@@ -169,10 +169,10 @@ _Andrew S. Tannenbaum_
  
 * * *
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

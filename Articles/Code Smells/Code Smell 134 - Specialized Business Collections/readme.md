@@ -1,6 +1,6 @@
 # Code Smell 134 - Specialized Business Collections
 
-![Code Smell 134 - Specialized Business Collections](pisit-heng-FQvadXmA524-unsplash.jpg)
+![Code Smell 134 - Specialized Business Collections](Code%20Smell%20134%20-%20Specialized%20Business%20Collections.jpg)
 
 *If it walks like a duck and it quacks like a duck, then it must be a duck*
 
@@ -18,7 +18,7 @@
 
 # Context
 
-Discovering abstractions on the [MAPPER](../../Theory/What%20is%20(wrong%20with)%20software/readme.md) is a hard task.
+Discovering abstractions on the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) is a hard task.
 
 After refining we should remove unneeded abstractions.
 
@@ -139,7 +139,7 @@ Specialized collections are a good starting point.
 
 # Relations
 
-[Code Smell 111 - Modifying Collections While Traversing](../../Code%20Smells/Code%20Smell%20111%20-%20Modifying%20Collections%20While%20Traversing/readme.md)
+[Code Smell 111 - Modifying Collections While Traversing](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20111%20-%20Modifying%20Collections%20While%20Traversing/readme.md)
 
 # More Info
 
@@ -155,10 +155,10 @@ Photo by [Pisit Heng](https://unsplash.com/@pisitheng) on Unsplash
 
 _Wietse Venema_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

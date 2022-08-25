@@ -1,6 +1,6 @@
 # Code Smell 46 - Repeated Code
 
-![Code Smell 46 - Repeated Code](sid-balachandran-hXttDVCwyRA-unsplash.jpg)
+![Code Smell 46 - Repeated Code](Code%20Smell%2046%20-%20Repeated%20Code.jpg)
 
 *DRY is our mantra. Teachers tell us to remove duplication. We need to go beyond.*
 
@@ -26,7 +26,7 @@
 
 # Examples
 
-- [Automatic Code Generators](../../Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
+- [Automatic Code Generators](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
 
 # Sample Code
 
@@ -104,11 +104,11 @@ With our refactoring tools, we need to accept the duplication remove challenge t
 
 # Relations
 
-[Code Smell 11 - Subclassification for Code Reuse](../../Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
+[Code Smell 11 - Subclassification for Code Reuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
 
 # More info
 
-[Laziness II - Code Wizards](../../Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
+[Laziness II - Code Wizards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
 
 %[https://en.wikipedia.org/wiki/Copy_and_paste_programming]
 
@@ -126,10 +126,10 @@ _David Parnas_
  
 * * *
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)

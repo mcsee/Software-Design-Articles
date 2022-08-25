@@ -1,6 +1,6 @@
 # How to Decouple a Legacy System
 
-![How to Decouple a Legacy System](daniel-fox-JPjN0cwGRkM-unsplash.jpg)
+![How to Decouple a Legacy System](How%20to%20Decouple%20a%20Legacy%20System.jpg)
 
 ## An exercise improving legacy code
 
@@ -10,7 +10,7 @@ _There are many articles explaining how to make a good design and what rules to 
 
 Many existing systems have coupling problems. Therefore, their maintainability is reduced. Making a change in this type of system brings a large ripple effect.
 
-[Coupling - The one and only software design problem](../../Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+[Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 Let’s assume we have an existing process.
 
@@ -94,7 +94,7 @@ Helpers do not exist in the real world, nor should they exist in any computable 
 
 Let’s think about the responsibilities to choose the name in [MAPPER](https://codeburst.io/what-is-software-9a78c1172cf9).
 
-[The One and Only Software Design Principle](../../Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
+[The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 [Gist Url]: # (https://gist.github.com/mcsee/3d11a4f44134f4de3f3d60b286f19dd8)
 ```php
@@ -111,7 +111,7 @@ For now the name is good enough, and it gives us an idea of the responsibilities
 
 There are no valid reasons to use singletons. This fact, in addition to generating all the problems described here:
 
-[Singleton - The root of all evil](../../Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
+[Singleton - The root of all evil](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
 
 yields a very implemental invocation (coupled to _getInstance()_) and not very declarative...
 
@@ -181,7 +181,7 @@ final class SupervisedLearningAlgorithm {
 
 Looking at **bijection** we conclude there can be no algorithm without a process. We don’t want to have a class with _setters_ to mutate it:
 
-[Nude Models - Part I: Setters](../../Theory/Nude%20Models - Part%20I Setters/readme.md)
+[Nude Models - Part I: Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20I Setters/readme.md)
 
 Therefore we will pass all the **essential** attributes during construction.
 
@@ -199,7 +199,7 @@ final class SupervisedLearningAlgorithm {
 
 In this way, the strategy is **immutable** in its essence, with all the benefits it brings us.
 
-[The Evil Power of Mutants](../../Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
+[The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 ## 6 — We find a design pattern.
 
@@ -215,7 +215,7 @@ This is the intention of the [Strategy pattern](https://en.wikipedia.org/wiki/St
 
 Names should match the observed responsibilities.
 
-[What exactly is a name — Part I The Quest](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
+[What exactly is a name — Part I The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
 
 ![athletes](https://cdn.hashnode.com/res/hashnode/image/upload/v1599600974587/bjJryTrPG.jpeg)
 
@@ -239,7 +239,7 @@ It violates the principle of **bijection** and generates coupling between the fu
 
 We change the absence of the argument to a boolean truth value.
 
-[Null: The Billion Dollar Mistake](../../Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
+[Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
 ## 9 — We remove the default parameters.
 

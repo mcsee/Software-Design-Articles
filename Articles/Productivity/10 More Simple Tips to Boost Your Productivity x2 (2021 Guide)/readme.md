@@ -1,6 +1,6 @@
 # 10 More Simple Tips to Boost Your Productivity x2 (2021 Guide)
 
-![10 More Simple Tips to Boost Your Productivity x2 (2021 Guide)](galaxy.gif)
+![10 More Simple Tips to Boost Your Productivity x2 (2021 Guide)](10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2%20(2021%20Guide).gif)
 
 *The previous article on lifehacks was a huge success. Let's start the year with more productivity tips!*
 
@@ -8,7 +8,7 @@
 
 # 1. - 16.
 
-[16 Simple Tips to Boost Your Productivity x10](../../Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md)
+[16 Simple Tips to Boost Your Productivity x10](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md)
 
 # 17. Track Goal and Metrics 🥅
 
