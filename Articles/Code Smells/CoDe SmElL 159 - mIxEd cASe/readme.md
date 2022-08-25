@@ -1,6 +1,6 @@
 # CoDe SmElL 159 - mIxEd_cASe
 
-![CoDe SmElL 159 - mIxEd_cASe](wolfgang-hasselmann-YAIGmqV4dFc-unsplash.jpg)
+![CoDe SmElL 159 - mIxEd_cASe](CoDe%20SmElL%20159%20-%20mIxEd_cASe.jpg)
 
 *Serious development is done by many different people. We have to start agreeing.*
 
@@ -61,7 +61,7 @@ Code should be straightforward and readable.
 
 [X] Automatic 
 
-We can tell our linters about our company's broad [naming standards](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md) and enforce them.
+We can tell our linters about our company's broad [naming standards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md) and enforce them.
 
 Whenever new people arrive at the organization, an automated test should politely ask him/her/.. to change the code.
 
@@ -81,17 +81,17 @@ We need to enforce them.
 
 # Relations
 
-[Code Smell 48 - Code Without Standards](../../Code%20Smells/Code%20Smell%2048%20-%20Code%20Without%20Standards/readme.md)
+[Code Smell 48 - Code Without Standards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2048%20-%20Code%20Without%20Standards/readme.md)
 
 # More Info
 
-[What exactly is a name — Part I The Quest](../../Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
+[What exactly is a name — Part I The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
 
 [All naming conventions](https://en.wikipedia.org/wiki/Naming_convention_(programming)#Multiple-word_identifiers)
 
 # Disclaimer
 
-Code Smells are just my [opinion](../../Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
+Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
 # Credits
 
@@ -103,10 +103,10 @@ Photo by [Wolfgang Hasselmann](https://unsplash.com/@wolfgang_hasselmann) on [Un
 
 _Craig Zerouni_
  
-[Software Engineering Great Quotes](../../Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *
 
 This article is part of the CodeSmell Series.
 
-[How to Find the Stinky parts of your Code](../../Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+[How to Find the Stinky parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
