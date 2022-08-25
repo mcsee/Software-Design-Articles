@@ -14,7 +14,7 @@ If we ask a domain expert to describe an entity he/she would hardly tell it is *
 
 - No Encapsulation.
 
-- No [mapping](/Theory/The One and Only Software Design Principle) to real world entities.
+- No [mapping](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles//Theory/Theh%20Oneh%20andh%20Onlyh%20Softwareh%20Designh%20Principle) to real world entities.
 
 - Duplicate Code
 
