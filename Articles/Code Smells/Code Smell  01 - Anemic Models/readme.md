@@ -1,6 +1,6 @@
 # Code Smell 01 - Anemic Models
 
-![Code Smell 01 - Anemic Models](Code Smell 01 - Anemic Models.jpg)
+![Code Smell 01 - Anemic Models](Code%20Smell%2001%20-%20Anemic%20Models.jpg)
 
 *Your objects have no behavior.*
 
