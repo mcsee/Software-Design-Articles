@@ -256,7 +256,7 @@ With this outcome:
 
 *In this case default behaviour is no needed since exceptions break flow. In many times a Null Object will be enough.
 
-[Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
+[Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2012%20-%20Null/readme.md)
 
 3- New ratings will bring new IFs.
 

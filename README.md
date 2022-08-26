@@ -92,7 +92,7 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 11 - Subclassification for Code Reuse](/Articles/Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
 
-* [Code Smell 12 - Null](/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
+* [Code Smell 12 - Null](/Articles/Code%20Smells/Code%20Smell%20%2012%20-%20Null/readme.md)
 
 * [Code Smell 13 - Empty Constructors](/Articles/Code%20Smells/Code%20Smell%2013%20-%20Empty%20Constructors/readme.md)
 
