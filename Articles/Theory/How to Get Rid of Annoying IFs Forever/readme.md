@@ -17,7 +17,7 @@ Next evolution step will be removing most [IF statements](https://en.wikipedia.o
 
 Our tool will be Object Oriented Programming principles.
 
-![raods](https://cdn.hashnode.com/res/hashnode/image/upload/v1604271082172/raods.jpeg)
+![roads](https://cdn.hashnode.com/res/hashnode/image/upload/v1604271082172/raods.jpeg)
 
 Photo <a href="https://pixabay.com/es/users/przemko-1606435/">Przemysław Bromberek</a> en <a href="https://pixabay.com/">Pixabay</a>
  
