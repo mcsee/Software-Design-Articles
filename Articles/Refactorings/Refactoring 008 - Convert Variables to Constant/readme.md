@@ -61,17 +61,17 @@ const gravity = 9.8;
 
 [X] Automatic
 
-This is a safe refactor.
-
 Our IDEs can check if a variable is written but never updated.
 
 # Safety
+
+This is a safe refactor.
 
 # Why code is better?
 
 Code is more compact and declarative.
 
-We can make and step further and use operators like *var* *let* *const* etc.
+We can make and step further and use operators like *var*, *let*, *const*, etc.
 
 The scope is more clear.
 
