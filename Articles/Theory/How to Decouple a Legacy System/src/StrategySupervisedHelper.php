@@ -1,0 +1,5 @@
+<?
+
+  class StrategySupervisedHelper extends Singleton {
+	// ...
+  }

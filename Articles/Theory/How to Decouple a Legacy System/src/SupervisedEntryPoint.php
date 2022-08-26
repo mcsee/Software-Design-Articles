@@ -1,0 +1,3 @@
+<?
+
+	StrategySupervisedHelper::getInstance()->optimize($processId);
