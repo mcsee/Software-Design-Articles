@@ -519,7 +519,7 @@ _Kent Beck_
 
 _Bruce Sterling_
 
-[Code Smell 44 - Magic Corrections](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2044 - Magic%20Corrections/readme.md)
+[Code Smell 44 - Magic Corrections](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2044%20-%20Magic%20Corrections/readme.md)
 
 * * *
 

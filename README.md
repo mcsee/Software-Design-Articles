@@ -156,7 +156,7 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 43 - Concrete Classes Subclassified](/Articles/Code%20Smells/Code%20Smell%2043%20-%20Concrete%20Classes%20Subclassified/readme.md)
 
-* [Code Smell 44 - Magic Corrections](/Articles/Code%20Smells/Code%20Smell%2044%E2%80%8A-%E2%80%8AMagic%20Corrections/readme.md)
+* [Code Smell 44 - Magic Corrections](/Articles/Code%20Smells/Code%20Smell%2044%20-%20Magic%20Corrections/readme.md)
 
 * [Code Smell 45 - Not Polymorphic](/Articles/Code%20Smells/Code%20Smell%2045%20-%20Not%20Polymorphic/readme.md)
 
