@@ -85,7 +85,7 @@ This way of doing science is based on [Ryle](https://en.wikipedia.org/wiki/Gilbe
 
 Building software is acquiring knowledge. Trying to define the behavior of a class without having previously built any instance is a mistake.
 
-[What exactly is a name — Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
+[What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
 To build theory in an exploratory way, **prototyping languages** ​​are much more useful tools than **classification languages**.
 

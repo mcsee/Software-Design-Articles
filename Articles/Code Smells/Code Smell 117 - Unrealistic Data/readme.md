@@ -104,7 +104,7 @@ We should fake it with meaningful data.
 
 # Conclusion
 
-Code comments are a [code smell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md).
+Code comments are a [code smell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2005%20-%20Comment%20Abusers/readme.md).
 
 Reading tests is the only way to learn how the software behaves.
 
@@ -112,7 +112,7 @@ We need to be extra explicit on our tests.
 
 # Relations
 
-[Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
+[Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2005%20-%20Comment%20Abusers/readme.md)
 
 # More Info
 

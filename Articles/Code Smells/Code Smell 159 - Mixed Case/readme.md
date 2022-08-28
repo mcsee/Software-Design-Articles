@@ -61,7 +61,7 @@ Code should be straightforward and readable.
 
 [X] Automatic 
 
-We can tell our linters about our company's broad [naming standards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md) and enforce them.
+We can tell our linters about our company's broad [naming standards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md) and enforce them.
 
 Whenever new people arrive at the organization, an automated test should politely ask him/her/.. to change the code.
 
@@ -85,7 +85,7 @@ We need to enforce them.
 
 # More Info
 
-[What exactly is a name — Part I The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
+[What exactly is a name - Part I The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
 
 [All naming conventions](https://en.wikipedia.org/wiki/Naming_convention_(programming)#Multiple-word_identifiers)
 

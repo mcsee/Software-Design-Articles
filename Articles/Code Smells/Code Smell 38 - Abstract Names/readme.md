@@ -20,7 +20,7 @@
 
 3. Avoid words like *abstract*, *base*, *generic*, *helper* etc.
 
-4. Use [rules](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md) for naming.
+4. Use [rules](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md) for naming.
 
 # Sample Code
 
@@ -107,7 +107,7 @@ Finding names is the last thing we should do on our designs. Unless we have a cl
 
 # More info
 
-[What exactly is a name — Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md)
+[What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
 # Credits
 

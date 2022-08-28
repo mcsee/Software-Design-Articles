@@ -1,6 +1,6 @@
-# What exactly is a name — Part II Rehab
+# What exactly is a name - Part II Rehab
 
-![What exactly is a name — Part II Rehab](What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab.jpg)
+![What exactly is a name - Part II Rehab](What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab.jpg)
 
 *We all agree: a good name is always the most important thing. Let’s find them.*
 
@@ -14,7 +14,7 @@ In a previous article, we introduced various definitions and techniques for look
 
 In this article, we will try to show some present problems with nomenclature in order to improve our practices.
 
-[What exactly is a name — Part I The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md)
+[What exactly is a name - Part I The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
 
 ## We do not need help
 

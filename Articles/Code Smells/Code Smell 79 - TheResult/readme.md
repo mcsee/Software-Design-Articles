@@ -72,7 +72,7 @@ If your names collide use local names, extract your methods and avoid 'the' pref
 
 # More info
 
-- [What is in a name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20II%20Rehab/readme.md).
+- [What is in a name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md).
 
 - [How To Be Great At Giving Meaningful Names](https://medium.com/shipmnts/how-to-be-great-at-giving-meaningful-names-54b19de66cdf).
 

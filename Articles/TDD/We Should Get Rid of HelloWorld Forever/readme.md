@@ -1,6 +1,6 @@
 # We Should Get Rid of HelloWorld Forever💩
 
-![We Should Get Rid of HelloWorld Forever💩](We%20Should%20Get%20Rid%20of%20HelloWorld%20Forever.jpeg)
+![We Should Get Rid of HelloWorld Forever](We%20Should%20Get%20Rid%20of%20HelloWorld%20Forever.jpeg)
 
 *Every tutorial I've read for the last 30 years starts with the infamous 'Hello World' example. This could be one of the reasons we write crappy software.*
 

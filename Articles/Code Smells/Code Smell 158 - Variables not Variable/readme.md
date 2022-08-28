@@ -16,11 +16,13 @@
 
 # Solutions
 
-1. Change the variable to a constant and be clear on its scope
+1. Change [the variable to a constant](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20008%20-%20Convert%20Variables%20to%20Constant/readme.md) and be clear on its scope
 
 # Refactorings
 
 [Refactoring 003 - Extract Constant](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20003%20-%20Extract%20Constant/readme.md)
+
+[Refactoring 008 - Convert Variables to Constant](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20008%20-%20Convert%20Variables%20to%20Constant/readme.md)
 
 # Context
 

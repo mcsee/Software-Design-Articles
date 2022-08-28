@@ -36,9 +36,9 @@ In this repository, you will find many articles related to Software Design
 
 * [The One and Only Software Design Principle](/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
-* [What exactly is a name — Part I The Quest](/Articles/Theory/What%20exactly%20is%20a%20name%20%E2%80%94%20Part%20I%20The%20Quest/readme.md)
+* [What exactly is a name - Part I The Quest](/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
 
-* [What exactly is a name — Part II Rehab](/Articles/Theory/What%20exactly%20is%20a%20name%20%E2%80%94%20Part%20II%20Rehab/readme.md)
+* [What exactly is a name - Part II Rehab](/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
 * [What is (wrong with) software?](/Articles/Theory/What%20is%20%28wrong%20with%29%20software/readme.md)
 
@@ -48,7 +48,7 @@ In this repository, you will find many articles related to Software Design
 
 * [Maxi Contieri on Clean Code, Refactoring, and Test-Driven Development](/Articles/Opinion/Maxi%20Contieri%20on%20Clean%20Code%2C%20Refactoring%2C%20and%20Test-Driven%20Development/readme.md)
 
-* [Software Engineer Maxi Contieri on writing about “boring” fundamentals](/Articles/Opinion/Software%20Engineer%20Maxi%20Contieri%20on%20writing%20about%20%E2%80%9Cboring%E2%80%9D%20fundamentals/readme.md)
+* [Software Engineer Maxi Contieri on writing about "boring" fundamentals](/Articles/Opinion/Software%20Engineer%20Maxi%20Contieri%20on%20writing%20about%20boring%20fundamentals/readme.md)
 
 * [10 Pieces of Advice to Get your First Job from a Senior Interviewer](/Articles/Opinion/10%20Pieces%20of%20Advice%20to%20Get%20your%20First%20Job%20from%20a%20Senior%20Interviewer/readme.md)
 
@@ -78,15 +78,15 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 04 - String Abusers](/Articles/Code%20Smells/Code%20Smell%2004%20-%20String%20Abusers/readme.md)
 
-* [Code Smell 05 - Comment Abusers](/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
+* [Code Smell 05 - Comment Abusers](/Articles/Code%20Smells/Code%20Smell%20%2005%20-%20Comment%20Abusers/readme.md)
 
-* [Code Smell 06 - Too Clever Programmer](/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
+* [Code Smell 06 - Too Clever Programmer](/Articles/Code%20Smells/Code%20Smell%20%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
-* [Code Smell 07 - Boolean Variables](/Articles/Code%20Smells/Code%20Smell%2007%20-%20Boolean%20Variables/readme.md)
+* [Code Smell 07 - Boolean Variables](/Articles/Code%20Smells/Code%20Smell%20%2007%20-%20Boolean%20Variables/readme.md)
 
-* [Code Smell 08 - Long Chains Of Collaborations](/Articles/Code%20Smells/Code%20Smell%2008%20-%20Long%20Chains%20Of%20Collaborations/readme.md)
+* [Code Smell 08 - Long Chains Of Collaborations](/Articles/Code%20Smells/Code%20Smell%20%2008%20-%20Long%20Chains%20Of%20Collaborations/readme.md)
 
-* [Code Smell 09 - Dead Code](/Articles/Code%20Smells/Code%20Smell%2009%20-%20Dead%20Code/readme.md)
+* [Code Smell 09 - Dead Code](/Articles/Code%20Smells/Code%20Smell%20%2009%20-%20Dead%20Code/readme.md)
 
 * [Code Smell 10 - Too Many Arguments](/Articles/Code%20Smells/Code%20Smell%2010%20-%20Too%20Many%20Arguments/readme.md)
 

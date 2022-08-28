@@ -40,7 +40,7 @@ The term *Bug* sounds like an excuse out of our scope infecting our systems. It 
 
 Language is continuing evolving. We [recently](https://www.infoq.com/news/2020/10/github-main-branch/) got rid of the *master* word on our GIT repos. 
 
-To embrace the future and our own responsibilities, we need to be very careful with [names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest/readme.md), not only with our classes, methods and variables but also with our artifacts.
+To embrace the future and our own responsibilities, we need to be very careful with [names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md), not only with our classes, methods and variables but also with our artifacts.
 
 * We don't need to *debug* software anymore. Find the root fault (caused by ourselves or previous developers), embrace the problem, [write an automated test](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md), and fix it. Easy as that. 🐞
 

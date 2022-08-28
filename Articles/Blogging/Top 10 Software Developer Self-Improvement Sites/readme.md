@@ -24,7 +24,7 @@ You can learn tips and tricks, hacks, and quick solutions for problems online.
 
 You can do magic as an empowered junior developer and build fancy software.
 
-But you need to learn [boring fundamentals](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Opinion/Software%20Engineer%20Maxi%20Contieri%20on%20writing%20about%20“boring”%20fundamentals/readme.md) and [theory](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Programming%20as%20Theory%20Building/readme.md) to improve your career.
+But you need to learn [boring fundamentals](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Opinion/Software%20Engineer%20Maxi%20Contieri%20on%20writing%20about%20boring%20fundamentals/readme.md) and [theory](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Programming%20as%20Theory%20Building/readme.md) to improve your career.
 
 If you ever want to move to the major leagues you need to read books. Period.
 
