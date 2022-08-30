@@ -66,7 +66,7 @@ As Parnas predicted, many of the code maintainability issues were fixed by **enc
 
 ## The next evolutionary step
 
-Upon object oriented programming arrival, the concepts of encapsulation and information hiding were taken to an atomic extreme. We are no longer talking about encapsulating within a **module** but within the same **object**.
+Upon [object-oriented](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Explain%20in%205%20Levels//Explain%20in%205%20Levels%20of%20Difficulty%20Object-Oriented%20Programming/readme.md) programming arrival, the concepts of encapsulation and information hiding were taken to an atomic extreme. We are no longer talking about encapsulating within a **module** but within the same **object**.
 
 Returning to the previous example, we move from:
 

@@ -3732,7 +3732,7 @@ _Neal Ford_
 
 Photo by [National Cancer Institute](https://unsplash.com/@nci) on [Unsplash](https://unsplash.com/s/photos/cells)
 
-# Object Oriented
+# Object-Oriented
 
 > Let there be no doubt that object-oriented design is fundamentally different than traditional structured design approaches: it requires different ways of thinking about decomposition, and it produces software architectures that are largely outside the realm of the structured design culture.
 
@@ -3740,7 +3740,7 @@ _Grady Booch_
 
 * * *
 
-> I invented the term ‘object oriented’, and C++ was not what I had in mind.
+> I invented the term ‘object-oriented’, and C++ was not what I had in mind.
 
 _Alan Kay_
 
