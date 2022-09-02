@@ -2,7 +2,7 @@
 
 function dummyFunction()
 {
-    $atLeastOneElementWasFound = true;
+    $atLeastOneElementWasFound = false;
 
     while (!$atLeastOneElementWasFound) {
 

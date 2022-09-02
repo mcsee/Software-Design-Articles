@@ -48,7 +48,7 @@ function dummy() {
 
 function dummyFunction()
 {
-    $atLeastOneElementWasFound = true;
+    $atLeastOneElementWasFound = false;
 
     while (!$atLeastOneElementWasFound) {
 

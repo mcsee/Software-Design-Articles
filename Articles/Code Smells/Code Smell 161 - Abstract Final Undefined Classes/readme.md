@@ -14,6 +14,8 @@
 
 - Liskov Substitution Violation
 
+- [Yo-Yo](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2058%20-%20Yo-yo%20Problem/readme.md) Problem
+
 # Solutions
 
 1. Declare all your leaf classes as *final* and the rest of them *abstract*.
@@ -22,7 +24,7 @@
 
 Managing hierarchies and composition is the main task of a good software designer.
 
-Keeping hierarchies healthy is very important to favor cohesion and avoid [coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md).
+Keeping hierarchies healthy is crucial to favor cohesion and avoid [coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md).
 
 # Sample Code
 
@@ -32,14 +34,8 @@ Keeping hierarchies healthy is very important to favor cohesion and avoid [coupl
 ```java
 public class Vehicle
 {
-  // class is not leaf. Therefore it should be abstract
-  
-  //variable that is used to declare the no. of wheels in a vehicle
-  private int wheels;
-  
-  //Variable to define the type of motor used
-  private Motor motor;
-  
+  // class is not a leaf. Therefore it should be abstract
+    
   //an abstract method that only declares, but does not define the start 
   //functionality because each vehicle uses a different starting mechanism
   abstract void start();
@@ -62,14 +58,8 @@ public class Motorcycle extends Vehicle
 ```java
 abstract public class Vehicle
 {
-  // class is not leaf. Therefore it should be abstract
-  
-  //variable that is used to declare the no. of wheels in a vehicle
-  private int wheels;
-  
-  //Variable to define the type of motor used
-  private Motor motor;
-  
+  // class is not a leaf. Therefore it is be abstract  
+ 
   //an abstract method that only declares, but does not define the start 
   //functionality because each vehicle uses a different starting mechanism
   abstract void start();
@@ -77,12 +67,12 @@ abstract public class Vehicle
 
 final public class Car extends Vehicle
 {
-  // class is leaf. Therefore it should be final
+  // class is leaf. Therefore it is final
 }
 
 final public class Motorcycle extends Vehicle
 {
-  // class is leaf. Therefore it should be final
+  // class is leaf. Therefore it is final
 }
 ```
 
@@ -100,6 +90,8 @@ Since this is enforced by static analysis, we can't do it with most available to
 
 We should look back at our classes and start qualifying them either as abstract or final.
 
+There are no valid cases for two concrete classes, one subclassifying the other.
+
 # Relations
 
 [Code Smell 11 - Subclassification for Code Reuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
@@ -108,9 +100,13 @@ We should look back at our classes and start qualifying them either as abstract 
 
 [Code Smell 37 - Protected Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2037%20-%20Protected%20Attributes/readme.md)
 
+[Code Smell 58 - Yo-yo Problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2058%20-%20Yo-yo%20Problem/readme.md)
+
 # More Info
 
 [Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+
+[Deep Subclasses](http://www.laputan.org/drc.html)
 
 # Disclaimer
 

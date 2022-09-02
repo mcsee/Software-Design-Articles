@@ -1,13 +1,7 @@
 public class Vehicle
 {
-  // class is not leaf. Therefore it should be abstract
-  
-  //variable that is used to declare the no. of wheels in a vehicle
-  private int wheels;
-  
-  //Variable to define the type of motor used
-  private Motor motor;
-  
+  // class is not a leaf. Therefore it should be abstract
+    
   //an abstract method that only declares, but does not define the start 
   //functionality because each vehicle uses a different starting mechanism
   abstract void start();
