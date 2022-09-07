@@ -442,6 +442,8 @@ In this repository, you will find many articles related to Software Design
 
 * [DeepMind's AlphaCode Won't Steal Your Job Either](/Articles/Artificial%20Intelligence/DeepMind%27s%20AlphaCode%20Won%27t%20Steal%20Your%20Job%20Either/readme.md)
 
+* [I Want to Build a Learning Companion for New Developers Using AI](/Articles/Artificial%20Intelligence/I%20Want%20to%20Build%20a%20Learning%20Companion%20for%20New%20Developers%20Using%20AI/readme.md)
+
 * [Why GitHub Copilot is not a Threat to your Job](/Articles/Artificial%20Intelligence/Why%20GitHub%20Copilot%20is%20not%20a%20Threat%20to%20your%20Job/readme.md)
 
 * [I've Recently Learned About GPT3 - This is my Journey](/Articles/Artificial%20Intelligence/I%27ve%20Recently%20Learned%20About%20GPT3%20-%20This%20is%20my%20Journey/readme.md)
@@ -499,6 +501,8 @@ In this repository, you will find many articles related to Software Design
 * [Refactoring 008 - Convert Variables to Constant](/Articles/Refactorings/Refactoring%20008%20-%20Convert%20Variables%20to%20Constant/readme.md)
 
 ### Wordle
+
+* [Step by Step Wordle Creation With Codex AI](/Articles/Wordle/Step%20by%20Step%20Wordle%20Creation%20With%20Codex%20AI/readme.md)
 
 * [How to Develop a Wordle Game using TDD in 25 Minutes](/Articles/Wordle/How%20to%20Develop%20a%20Wordle%20Game%20using%20TDD%20in%2025%20Minutes/readme.md)
 

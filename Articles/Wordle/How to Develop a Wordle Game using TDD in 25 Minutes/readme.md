@@ -2,6 +2,8 @@
 
 ![How to Develop a Wordle Game using TDD in 25 Minutes](How%20to%20Develop%20a%20Wordle%20Game%20using%20TDD%20in%2025%20Minutes.jpg)
 
+> TL;DR: Implementing a working Wordle in a few minutes
+
 Everybody is playing Wordle these days...
 
 And I love [TDD](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD%20Conference%202021/TDD%20Conference%202021%20-%20All%20Talks/readme.md).
@@ -16,15 +18,21 @@ The minimum information amount in Wordle is a word.
 
 We can argue that *letter* is smaller, but we think all needed letter protocol is already defined (we might be wrong).
 
-A word is not a string. This is a common mistake and a [bijection violation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
+A word is not a char(5).
+
+A word is not an array.
+
+A word is not a string. 
+
+This is a common mistake and a [bijection violation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
 
 A *word* and a *string* have different responsibilities, though they might intersect.
 
-> Mixing (accidental) implementation details with (essential) behavior is a very common mistake.
+> Mixing (accidental) implementation details with (essential) behavior is a widespread mistake.
 
 So we need to define *what is a word*.
 
-A word in Wordle is a *valid* 5 letter word.
+A word in Wordle is a *valid* 5-letter word.
 
 Let's start with our happy path:
 
@@ -51,7 +59,7 @@ final class WordTest extends TestCase {
 - Word class is not defined yet.
 - We don't care about letter sorting. That would be a premature optimization and gold plating scenario.
 - We start with a simple example. No duplicated.
-- We don't mess with word validation yet (word might be XXXXX).
+- We don't mess with word validation yet (the word might be XXXXX).
 - We can start with a simpler test just validation word is created. This would violate the test structure that always requires an assertion.
 - Expected value should always be first.
 
@@ -60,6 +68,8 @@ We get an error:
 > Error : Class "Wordle\Word" not found
 
 This is good in TDD, We are exploring our domain.
+
+# Creating a Word
 
 We need to create a Word with the constructor and the letters() function.
 
@@ -93,6 +103,8 @@ We run all the tests (just 1) and we are OK.
 
 * * *
 
+# Few Letters
+
 Let's write another test:
 
 [Gist Url]: # (https://gist.github.com/mcsee/d1f75826b3af3e4aa604c8a00583aa57)
@@ -113,6 +125,8 @@ Test fails...
 
 > Failed asserting that exception of type "Wordle\Exception" is thrown.
 
+# Changing current implementation
+
 We need to change our implementation in order to make test02 pass (and also test01)
 
 [Gist Url]: # (https://gist.github.com/mcsee/d1f75826b3af3e4aa604c8a00583aa57)
@@ -127,9 +141,11 @@ We need to change our implementation in order to make test02 pass (and also test
 
 ## Notice
 
-- We just check for few letters. Not for too many since we don't have yet a covering test.
+- We just check for a few letters. not for too many since we don't have yet a covering test.
 - TDD requires full coverage. Adding another check without a test is a technique violation.
 - We just raise a generic Exception. Creating special exceptions is a [code smell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2026%20-%20Exceptions%20Polluting/readme.md) that pollutes namespaces. (unless we catch it, but this is not happening right now).
+
+# Checking Many Too Letters
 
 Let's check for too many
 
@@ -142,7 +158,7 @@ Let's check for too many
   }
 ```
 
-Test fails as expected. Let's correct it.
+The test fails as expected. Let's correct it.
 
 > Failed asserting that exception of type "Exception" is thrown.
 
@@ -164,10 +180,12 @@ And all tests passed.
 
 * * *
 
-We can now make an (optional) refactor and change the function to assert for a range instead of two boundaries.
-We decide to leave this way since it is more declarative.
+# Refactor (or not)
 
-We can also add a test checking for zero letters following [Zombie methodology](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20I%20Survived%20the%20Zombie%20Apocalypse/readme.md).
+We can now make an (optional) refactor and change the function to assert a range instead of two boundaries.
+We decide to leave it this way since it is more declarative.
+
+We can also add a test checking for zero words following the [Zombie methodology](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20I%20Survived%20the%20Zombie%20Apocalypse/readme.md).
 Let's do it.
 
 [Gist Url]: # (https://gist.github.com/mcsee/3a55bc89bb13afcda0b6f9657a1bb7f1)
@@ -185,6 +203,8 @@ As this test adds no value we should remove it.
 
 * * *
 
+# Valid Letter
+
 Let's check now what is a valid letter:
 
 [Gist Url]: # (https://gist.github.com/mcsee/b005c8411df5b8bb594b6e4f471e0a68)
@@ -197,7 +217,7 @@ Let's check now what is a valid letter:
   }
 ```
 
-... and test is broken since no assertion is raised.
+... and the test is broken since no assertion is raised.
 
 > Failed asserting that exception of type "Exception" is thrown.
 
@@ -218,6 +238,8 @@ And all tests pass since we are clearly hardcoding.
 > OK (5 tests, 5 assertions)
 
 * * *
+
+# More Invalid
 
 Let's add more invalid letters and correct the code.
 
@@ -245,10 +267,10 @@ Let's add more invalid letters and correct the code.
 
 - We didn't write a more generic function (yet) since we cannot correct tests and refactor at the same time (the technique forbids us).
 
+# Refactor
+
 All tests are ok. 
-
 We can refactor.
-
 We replace the last two sentences 
 
 [Gist Url]: # (https://gist.github.com/mcsee/2b61b49a58467ab7891f3a52cb30aea7)
@@ -268,12 +290,14 @@ We replace the last two sentences
 - We defer design decisions as much as possible.
 - We defined a regular expression based on English Letters. We are pretty sure it won't accept Spanish (ñ), German(ë), etc.
 
-As a checkpoint, we have only five letters words from now on.
+As a checkpoint, we have only five letter words from now on.
 
 Lets assert on letters() function. 
-We left it hardcoded.
+We left it hard coded.
 TDD Opens many paths.
 We need to keep track of all of them until we open new ones.
+
+# Comparing Words
 
 We need to compare words
 
@@ -325,7 +349,7 @@ final class Word {
 
 ## Notice
 
-- We store the letters and this is enough for objects comparison (it might depend on the language).
+- We store the letters and this is enough for object comparison (it might depend on the language).
 - letters() function is still hardcoded
 
 Tests are OK
@@ -333,6 +357,8 @@ Tests are OK
 > OK (8 tests, 8 assertions)
 
 * * *
+
+# More Words
 
 We add a different word for letters comparison
 
@@ -353,6 +379,8 @@ And test fails.
 It is very important to check for equality/inequality instead of assertTrue() since many IDEs open a comparison tool based on the objects.
 This is another reason to use IDEs and never text editors.
 
+# Refactor
+
 Let's change the letters() function
 
 [Gist Url]: # (https://gist.github.com/mcsee/4926897d2d889d9a8b5199d678b8f2d7)
@@ -365,6 +393,8 @@ Let's change the letters() function
 ```
 
 * * *
+
+# English Dictionary
 
 Our words are in a bijection with English Wordle words. or not?
 
@@ -379,17 +409,19 @@ Our words are in a bijection with English Wordle words. or not?
 ```
 
 This test fails. 
-We are not catching invalid English 5 letter words.
+We are not catching invalid English 5-letter words.
 
-We need to make a decision. According to our bijection, there's an external dictionary asserting for valid words.
+We need to make a decision. According to our bijection, there's an external dictionary asserting valid words.
 
-We can validate with the dictionary upon word creation. But we want the dictionary to store valid worlde words. Not strings.
+We can validate with the dictionary upon word creation. But we want the dictionary to store valid wordle words. Not strings.
 
 It is an egg-chicken problem.
 
 We decide to deal with invalid words in the dictionary and not the Wordle word.
 
 * * * 
+
+# Dictionary Tests
 
 We create new tests on our dictionary.
 
@@ -409,7 +441,7 @@ final class DictionaryTest extends TestCase {
 }
 ```
 
-Test fails since we have not defined our Dictionary.
+The test fails since we have not defined our Dictionary.
 We do it:
 
 [Gist Url]: # (https://gist.github.com/mcsee/d519db05334e7d1bc5b6c06214a90127)
@@ -439,6 +471,8 @@ final class Dictionary {
 
 * * *
 
+# Count
+
 We add another case for count 1 if the dictionary has one word.
 
 [Gist Url]: # (https://gist.github.com/mcsee/3ea823759ea16537443da0c0cb31b6fd)
@@ -451,7 +485,7 @@ We add another case for count 1 if the dictionary has one word.
    }
 ```
 
-Test fails as expected
+The test fails as expected
 
 > Failed asserting that 0 matches expected 1.
 
@@ -480,6 +514,8 @@ final class Dictionary {
 
 * * *
 
+# Including Words
+
 We start with inclusion and get an error.
 > Error : Call to undefined method Wordle\Dictionary::includesWord()
 
@@ -504,6 +540,8 @@ function includesWord(): bool {
 
 * * *
 
+# Positive Case
+
 We add a positive case.
 And we need to correct the function instead of hardcoding it.
 
@@ -526,6 +564,8 @@ function includesWord(Word $subjectToSearch): bool {
 
 We have the dictionary working.
 
+# Wordle Game
+
 Let's create the game.
 
 [Gist Url]: # (https://gist.github.com/mcsee/265aaab5418bfcd9119b734d46496765)
@@ -542,6 +582,8 @@ final class GameTest extends TestCase {
 
 Test fails.
 We need to create the class and the function.
+
+# Creating Game Objects
 
 [Gist Url]: # (https://gist.github.com/mcsee/a20f8b6c18acc9bfd6e4eab7a728e725)
 ```php
@@ -562,6 +604,8 @@ final class Game {
 ```
 
 * * *
+
+# Words tried
 
 We implement words tried.
 And the simplest solution
@@ -587,7 +631,7 @@ function wordsTried(): array {
 
 Let's try some words.
 We get
-> Error : Call to undefined method Wordle\Game::addTry()
+> Error : Call to undefined method Wordle\Game::addtry()
 
 We define it.
 
@@ -626,6 +670,8 @@ final class Game {
 
 * * *
 
+# Has Lost
+
 We can implement hasLost() if it misses 5 trials.
 With the simplest implementation as usual.
 
@@ -649,7 +695,7 @@ public function test04TryOneWordAndDontLooseYet() {
 
 * * *
 
-As always. Me stop faking it and decide to make it.
+As always. We stop faking it and decide to make it.
 
 > Failed asserting that false is true.
 
@@ -678,6 +724,8 @@ function hasLost(): bool {
 ```
 
 * * *
+
+# Integrating the Dictionary
 
 We have most of the mechanics.
 Let's add the dictionary and play invalid.
@@ -723,6 +771,8 @@ Fixed.
 
 * * *
 
+# Play to Win
+
 Now, we play to win
 
 [Gist Url]: # (https://gist.github.com/mcsee/4a09c3f7408dc346ca140730c29613d9)
@@ -764,6 +814,8 @@ We need to correct *hasWon()*.
 
 * * * 
 
+# Winner Word
+
 We added winnerWord.
 We need to assert this word is in the dictionary.
 
@@ -793,6 +845,8 @@ function __construct(Dictionary $validWords, Word $winnerWord) {
 
 We have all the mechanics.
 
+# Letter Positions
+
 Let's add the letter's positions.
 We can do it in Word class.
 
@@ -817,6 +871,8 @@ Test passes
 >OK (10 tests, 10 assertions)
 
 * * *
+
+# Match
 
 Let's match
 
@@ -850,7 +906,7 @@ function matchesPositionWith(Word $anotherWord) : array {
 
 ```
 
-We keep running all the test all the time
+We keep running all the tests all the time
 
 > OK (23 tests, 25 assertions)
 
@@ -932,7 +988,7 @@ We have implemented a very small model with all meaningful rules.
 
 # Future Steps
 
-*A good model should endure requirements change.*
+*A good model should endure requirements changes.*
 
 In the following articles, we will make these enhancements also using TDD:
 
@@ -942,7 +998,7 @@ In the following articles, we will make these enhancements also using TDD:
 
 - Add a Visual Engine and host it.
 
-- Implement a [Absurdle](https://qntm.org/files/wordle/)
+- Implement an [Absurdle](https://qntm.org/files/wordle/)
 
 - Develop a machine-learning algorithm to minimize wordle moves.
 
@@ -954,6 +1010,8 @@ You can have all the code (and make pull requests on [GitHub](https://github.com
 
 # Conclusion
 
-TDD is an iterative methodology. If you find some missing functionality you can write me on [twitter](https://twitter.com/mcsee1) and we will add it (after a failing test case, of course).
+TDD is an iterative methodology. If you find some missing functionality you can write me on [Twitter](https://twitter.com/mcsee1) and we will add it (after a failing test case, of course).
 
 Hope you like this article and enjoy playing Wordle!
+
+More articles are on the way!
