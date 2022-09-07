@@ -18,7 +18,7 @@ Ragunath has consulted organizations like Gojek, Dunzo, Tiffany & Co., Mizuno, e
 
 ## Talk
 
-%[https://www.youtube.com/watch?v=q_7JDwZY8II]
+[![Watch the video](https://img.youtube.com/vi/q_7JDwZY8II/maxresdefault.jpg)](https://youtu.be/q_7JDwZY8II) 
 
 # My Personal notes
 

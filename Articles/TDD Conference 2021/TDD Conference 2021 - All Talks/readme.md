@@ -38,7 +38,7 @@ Hopefully, a lot of readers will watch and re-watch the talks, as they are worth
 
 [TDD Conference 2021 - Why I Love TDD And Why I'm Looking For Ways To Go Beyond TDD - Alex Bunardzic](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD%20Conference%202021/Why%20I%20Love%20TDD%20And%20Why%20I'm%20Looking%20For%20Ways%20To%20Go%20Beyond%20TDD/readme.md)
 
-%[https://www.youtube.com/watch?v=-_noEVCR__I]
+[![Watch the video](https://img.youtube.com/vi/-_noEVCR__I/maxresdefault.jpg)](https://youtu.be/-_noEVCR__I) 
 
 * * *
 

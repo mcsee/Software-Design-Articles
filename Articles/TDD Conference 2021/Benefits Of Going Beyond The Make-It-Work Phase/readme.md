@@ -20,7 +20,7 @@ Six years ago he discovered TDD, which led him to XP, Agile, and Craftsmanship. 
 
 ## Talk
 
-%[https://www.youtube.com/watch?v=_Z6x-KOSE2o]
+[![Watch the video](https://img.youtube.com/vi/_Z6x-KOSE2o/maxresdefault.jpg)](https://youtu.be/_Z6x-KOSE2o) 
 
 # My Personal notes
 

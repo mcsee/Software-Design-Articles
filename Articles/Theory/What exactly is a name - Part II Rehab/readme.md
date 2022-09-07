@@ -64,7 +64,7 @@ This violates the design principle that suggests we favor the (dynamic) composit
 
 > Rule 12: Base objects do not exist.
 
-%[https://www.youtube.com/watch?v=jQE66WA2s-A]
+[![Watch the video](https://img.youtube.com/vi/jQE66WA2s-A/maxresdefault.jpg)](https://youtu.be/jQE66WA2s-A) 
 
 All these names are very bad. There are  [humorous sites](https://projects.haykranen.nl/java/) that generate them automatically.
 
