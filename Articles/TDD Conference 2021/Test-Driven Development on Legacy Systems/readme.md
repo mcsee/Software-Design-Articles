@@ -21,7 +21,7 @@ He frequently blogs about software design, code smells, and clean code.
 
 ## Talk
 
-%[https://www.youtube.com/watch?v=Gcx6fosO4t0]
+[![Watch the video](https://img.youtube.com/vi/Gcx6fosO4t0/maxresdefault.jpg)](https://youtu.be/Gcx6fosO4t0) 
 
 *This is my own talk. My own notes will not be very accurate* 😇
 

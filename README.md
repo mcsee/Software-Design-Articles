@@ -392,6 +392,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 161 - Abstract/Final/Undefined Classes](/Articles/Code%20Smells/Code%20Smell%20161%20-%20Abstract%20Final%20Undefined%20Classes/readme.md)
 
+* [Code Smell 162 - Too Many Parentheses](/Articles/Code%20Smells/Code%20Smell%20162%20-%20Too%20Many%20Parentheses/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)

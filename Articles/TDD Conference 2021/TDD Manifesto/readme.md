@@ -18,7 +18,7 @@ Daniel Moka is a TDD enthusiast and boundary pusher who has a strong passion for
 
 ## Talk
 
-%[https://www.youtube.com/watch?v=fZLWKapYnPY]
+[![Watch the video](https://img.youtube.com/vi/fZLWKapYnPY/maxresdefault.jpg)](https://youtu.be/fZLWKapYnPY) 
 
 # My Personal notes
 

@@ -243,4 +243,4 @@ Part of the objective of this series of articles is to generate spaces for debat
 
 We look forward to comments and suggestions on this article!
 
-If you liked this post, you can follow me on  [Twitter](https://twitter.com/mcsee1) where I share daily tips about coding and software design.
+If you liked this post, you can follow me on [Twitter](https://twitter.com/mcsee1) where I share daily tips about coding and software design.

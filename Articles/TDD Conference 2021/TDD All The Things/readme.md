@@ -18,7 +18,7 @@ Liz Keogh is a Lean and Agile consultant based in London. She is a well-known bl
 
 ## Talk
 
-%[https://www.youtube.com/watch?v=AxmlYeKv5F4]
+[![Watch the video](https://img.youtube.com/vi/AxmlYeKv5F4/maxresdefault.jpg)](https://youtu.be/AxmlYeKv5F4) 
 
 # My Personal notes
 

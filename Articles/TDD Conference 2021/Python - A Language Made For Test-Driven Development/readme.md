@@ -18,7 +18,7 @@ This talk is a roadmap through TDD philosophy in Python world.
 
 ## Talk
 
-%[https://www.youtube.com/watch?v=MuRrxVF8CL0]
+[![Watch the video](https://img.youtube.com/vi/MuRrxVF8CL0/maxresdefault.jpg)](https://youtu.be/MuRrxVF8CL0) 
 
 # My Personal notes
 

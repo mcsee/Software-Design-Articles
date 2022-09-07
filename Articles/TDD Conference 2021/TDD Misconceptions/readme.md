@@ -18,7 +18,7 @@ Olena is a full stack developer at The Adecco Group from Berlin in Germany. She 
 
 ## Talk
 
-%[https://www.youtube.com/watch?v=TbkBMeAt4K0]
+[![Watch the video](https://img.youtube.com/vi/TbkBMeAt4K0/maxresdefault.jpg)](https://youtu.be/TbkBMeAt4K0) 
 
 # My Personal notes
 

@@ -18,7 +18,7 @@ Jov is a software craftsman and TDD practitioner, working on Android for around 
 
 ## Talk
 
-%[https://www.youtube.com/watch?v=pmsql3qOmNA]
+[![Watch the video](https://img.youtube.com/vi/pmsql3qOmNA/maxresdefault.jpg)](https://youtu.be/pmsql3qOmNA) 
 
 # My Personal notes
 

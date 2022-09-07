@@ -18,7 +18,7 @@ Mario has been a software professional for more than a decade. He also conducted
 
 ## Talk
 
-%[https://www.youtube.com/watch?v=APFbb5MwLEU]
+[![Watch the video](https://img.youtube.com/vi/APFbb5MwLEU/maxresdefault.jpg)](https://youtu.be/APFbb5MwLEU) 
 
 # My Personal notes
 

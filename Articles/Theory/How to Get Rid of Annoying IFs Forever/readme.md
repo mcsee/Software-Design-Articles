@@ -11,7 +11,7 @@ We have matured and confirmed [spaghetti code](https://en.wikipedia.org/wiki/Spa
 
 We got rid of the sentence thanks to [Edsger Dijkstra's](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra) incredible [paper](https://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf): Go To Statement Considered [Harmful](https://en.wikipedia.org/wiki/Goto#Criticism).
 
-Next evolution step will be removing most [IF statements](https://en.wikipedia.org/wiki/Conditional_(computer_programming). 
+Next evolution step will be removing most [IF statements](https://en.wikipedia.org/wiki/Conditional_(computer_programming)). 
 
 **IFs** / **Cases** and **Switches** are *GOTOs* disguised as structured flow. 
 
@@ -29,7 +29,7 @@ Most **IF** sentences are coupled to *accidental decisions*. This coupling gener
 
 IFs are considered as [Harmful](https://sddconf.com/brands/sdd/library/If_considered_Harmful_-_Jules_May_-_SDD2017.pdf) as **GOTOs**.
 
-%[https://www.youtube.com/watch?v=z43bmaMwagI]
+[![Watch the video](https://img.youtube.com/vi/z43bmaMwagI/maxresdefault.jpg)](https://youtu.be/z43bmaMwagI) 
 
 *IF sentences* violate [open/closed principle](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle). Our designs will be less extensible and closed to extension.
 

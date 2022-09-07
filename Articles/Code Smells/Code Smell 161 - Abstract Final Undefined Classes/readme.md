@@ -2,7 +2,7 @@
 
 ![Code Smell 161 - Abstract/Final/Undefined Classes](Code%20Smell%20161%20-%20Abstract%20Final%20Undefined%20Classes.jpg)
 
-*Your classes are abstract, final o undefined*
+*Your classes are abstract, final, or undefined*
 
 > TL;DR: If your language has the right tool, your classes should be either abstract or final.
 

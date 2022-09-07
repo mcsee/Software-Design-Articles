@@ -18,7 +18,7 @@ Meenakshi Dhanani works as a Developer Advocate at Postman where she advocates b
 
 ## Talk
 
-%[https://www.youtube.com/watch?v=oTDei7E9XQM]
+[![Watch the video](https://img.youtube.com/vi/oTDei7E9XQM/maxresdefault.jpg)](https://youtu.be/oTDei7E9XQM) 
 
 # My Personal notes
 

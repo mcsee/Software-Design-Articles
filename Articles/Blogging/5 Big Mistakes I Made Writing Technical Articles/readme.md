@@ -85,7 +85,7 @@ Which is better?
 
 This is a YouTube embed
 
-%[https://www.youtube.com/watch?v=z43bmaMwagI]
+[![Watch the video](https://img.youtube.com/vi/z43bmaMwagI/maxresdefault.jpg)](https://youtu.be/z43bmaMwagI) 
 
 and this is what you see on an AMP page:
 
