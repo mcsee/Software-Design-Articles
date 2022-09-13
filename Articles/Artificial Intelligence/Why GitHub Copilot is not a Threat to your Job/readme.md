@@ -10,7 +10,7 @@ GitHub Copilot is an AI pair programmer.
 It was trained with a huge coding database of common small routines.
 It also can recognize bad comments and create imperative code from them.
 
-[Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2005%20-%20Comment%20Abusers/readme.md)
+[Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
 
 GitHub copilot is a text transformer similar to GPT-3.
 
@@ -37,7 +37,7 @@ Copilot can predict anemic structures once we describe their accidental data.
 
 They are suitable for implementative and anemic code generation.
 
-[Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2001%20-%20Anemic%20Models/readme.md)
+[Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
 ## Bad comments to code
 

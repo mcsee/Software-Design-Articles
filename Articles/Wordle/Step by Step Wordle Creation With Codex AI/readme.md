@@ -38,6 +38,8 @@ Go to [Opean AI Site](https://beta.openai.com/)
 
 Create an account if you hadn't done yet.
 
+(You might have to wait for access for a couple of days).
+
 GoTo [Codex Javascript Sandbox](https://beta.openai.com/codex-javascript-sandbox)
 
 ![Sandbox](https://cdn.hashnode.com/res/hashnode/image/upload/v1661906574999/it6rHUWQX.png)

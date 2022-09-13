@@ -90,7 +90,7 @@ In the real world, employees are aware of their position, but they are not usual
 
 *If you need to add comments to your code there's a smell you might not be declarative enough.*
 
-[Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2005%20-%20Comment%20Abusers/readme.md)
+[Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
 
 Code documentation is many times not synced with the code itself. Many times developers change the code and don't have enough courage to change the code documentation bound to the code. This is another subtle coupling case.
 

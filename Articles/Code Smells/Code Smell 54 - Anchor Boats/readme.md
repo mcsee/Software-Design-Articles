@@ -78,7 +78,7 @@ We can use modern development techniques like TDD to ensure all code is alive.
 
 # Relations
 
-[Code Smell 09 - Dead Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2009%20-%20Dead%20Code/readme.md)
+[Code Smell 09 - Dead Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2009%20-%20Dead%20Code/readme.md)
 
 # More info
 

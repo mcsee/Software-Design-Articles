@@ -6,7 +6,7 @@
 
 # Problems
 
-- [Sub classification](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md) for code reuse purposes.
+- [Sub classification](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md) for code reuse purposes.
 
 - [Liskov substitution](https://en.wikipedia.org/wiki/Liskov_substitution_principle) violation ([SOLID](https://en.wikipedia.org/wiki/SOLID) principle).
 
@@ -119,7 +119,7 @@ Protected attributes are yet another tool we should use carefully. Every decisio
 
 # Relations
 
-[Code Smell 11 - Subclassification for Code Reuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
+[Code Smell 11 - Subclassification for Code Reuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
 
 # More Info
 

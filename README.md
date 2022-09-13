@@ -70,29 +70,29 @@ In this repository, you will find many articles related to Software Design
 
 * [How to Find the Stinky parts of your Code](/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
 
-* [Code Smell 01 - Anemic Models](/Articles/Code%20Smells/Code%20Smell%20%2001%20-%20Anemic%20Models/readme.md)
+* [Code Smell 01 - Anemic Models](/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
-* [Code Smell 02 - Constants and Magic Numbers](/Articles/Code%20Smells/Code%20Smell%20%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
+* [Code Smell 02 - Constants and Magic Numbers](/Articles/Code%20Smells/Code%20Smell%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
 
 * [Code Smell 03 - Functions Are Too Long](/Articles/Code%20Smells/Code%20Smell%2003%20-%20Functions%20Are%20Too%20Long/readme.md)
 
 * [Code Smell 04 - String Abusers](/Articles/Code%20Smells/Code%20Smell%2004%20-%20String%20Abusers/readme.md)
 
-* [Code Smell 05 - Comment Abusers](/Articles/Code%20Smells/Code%20Smell%20%2005%20-%20Comment%20Abusers/readme.md)
+* [Code Smell 05 - Comment Abusers](/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
 
-* [Code Smell 06 - Too Clever Programmer](/Articles/Code%20Smells/Code%20Smell%20%2006%20-%20Too%20Clever%20Programmer/readme.md)
+* [Code Smell 06 - Too Clever Programmer](/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
-* [Code Smell 07 - Boolean Variables](/Articles/Code%20Smells/Code%20Smell%20%2007%20-%20Boolean%20Variables/readme.md)
+* [Code Smell 07 - Boolean Variables](/Articles/Code%20Smells/Code%20Smell%2007%20-%20Boolean%20Variables/readme.md)
 
-* [Code Smell 08 - Long Chains Of Collaborations](/Articles/Code%20Smells/Code%20Smell%20%2008%20-%20Long%20Chains%20Of%20Collaborations/readme.md)
+* [Code Smell 08 - Long Chains Of Collaborations](/Articles/Code%20Smells/Code%20Smell%2008%20-%20Long%20Chains%20Of%20Collaborations/readme.md)
 
-* [Code Smell 09 - Dead Code](/Articles/Code%20Smells/Code%20Smell%20%2009%20-%20Dead%20Code/readme.md)
+* [Code Smell 09 - Dead Code](/Articles/Code%20Smells/Code%20Smell%2009%20-%20Dead%20Code/readme.md)
 
 * [Code Smell 10 - Too Many Arguments](/Articles/Code%20Smells/Code%20Smell%2010%20-%20Too%20Many%20Arguments/readme.md)
 
-* [Code Smell 11 - Subclassification for Code Reuse](/Articles/Code%20Smells/Code%20Smell%20%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
+* [Code Smell 11 - Subclassification for Code Reuse](/Articles/Code%20Smells/Code%20Smell%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
 
-* [Code Smell 12 - Null](/Articles/Code%20Smells/Code%20Smell%20%2012%20-%20Null/readme.md)
+* [Code Smell 12 - Null](/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
 * [Code Smell 13 - Empty Constructors](/Articles/Code%20Smells/Code%20Smell%2013%20-%20Empty%20Constructors/readme.md)
 
@@ -503,6 +503,8 @@ In this repository, you will find many articles related to Software Design
 * [Refactoring 008 - Convert Variables to Constant](/Articles/Refactorings/Refactoring%20008%20-%20Convert%20Variables%20to%20Constant/readme.md)
 
 ### Wordle
+
+* [How to Create a Wordle with TDD in Javascript](/Articles/Wordle/How%20to%20Create%20a%20Wordle%20with%20TDD%20in%20Javascript/readme.md)
 
 * [Step by Step Wordle Creation With Codex AI](/Articles/Wordle/Step%20by%20Step%20Wordle%20Creation%20With%20Codex%20AI/readme.md)
 

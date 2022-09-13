@@ -256,7 +256,7 @@ With this outcome:
 
 *In this case default behaviour is no needed since exceptions break flow. In many times a Null Object will be enough.
 
-[Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2012%20-%20Null/readme.md)
+[Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
 3- New ratings will bring new IFs.
 
@@ -270,7 +270,7 @@ With this outcome:
 
 *We will clear this problem favoring [Demeter's Law](https://en.wikipedia.org/wiki/Law_of_Demeter).*
 
-[Code Smell 08 - Long Chains Of Collaborations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20%2008%20-%20Long%20Chains%20Of%20Collaborations/readme.md)
+[Code Smell 08 - Long Chains Of Collaborations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2008%20-%20Long%20Chains%20Of%20Collaborations/readme.md)
 
 * * *
 
