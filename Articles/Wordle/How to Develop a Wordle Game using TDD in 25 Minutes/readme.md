@@ -52,7 +52,7 @@ final class WordTest extends TestCase {
 }
 ```
 
-*We assert that prompting for letters in 'valid' returns an array with the letters.*
+*We assert that prompting for letters in 'valid' returns an array of the letters.*
 
 ## Notice
 
@@ -61,7 +61,7 @@ final class WordTest extends TestCase {
 - We start with a simple example. No duplicated.
 - We don't mess with word validation yet (the word might be XXXXX).
 - We can start with a simpler test just validation word is created. This would violate the test structure that always requires an assertion.
-- Expected value should always be first.
+- Expected value should always be the first in the assertion.
 
 We get an error:
 
@@ -125,18 +125,18 @@ Test fails...
 
 > Failed asserting that exception of type "Wordle\Exception" is thrown.
 
-# Changing current implementation
+# Changing the current implementation
 
 We need to change our implementation in order to make test02 pass (and also test01)
 
-[Gist Url]: # (https://gist.github.com/mcsee/d1f75826b3af3e4aa604c8a00583aa57)
+[Gist Url]: # (https://gist.github.com/mcsee/a770dda356cf209748d20dd44b71f8fc)
 ```php
-<?php 
+<?php
 
-  public function test02FewWordLettersShouldRaiseException() {
-        $this->expectException(\Exception::class);
-        new Word('vali');
-  }
+function __construct(string $letters) {
+        if (strlen($letters) < 5)
+            throw new \Exception('Too few letters. Should be 5');
+}
 ```
 
 ## Notice
@@ -145,7 +145,7 @@ We need to change our implementation in order to make test02 pass (and also test
 - TDD requires full coverage. Adding another check without a test is a technique violation.
 - We just raise a generic Exception. Creating special exceptions is a [code smell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2026%20-%20Exceptions%20Polluting/readme.md) that pollutes namespaces. (unless we catch it, but this is not happening right now).
 
-# Checking Many Too Letters
+# Checking Too Many Letters
 
 Let's check for too many
 
@@ -237,6 +237,12 @@ And all tests pass since we are clearly hardcoding.
 
 > OK (5 tests, 5 assertions)
 
+## Notice
+
+- We hardcode the asterisc to be the only invalid character (as far as we know)
+- We can place the checking code before or after the previous validations.
+-- Until we have an invalid case (with invalid characters and invalid length) we cannot assume the expected behavior
+
 * * *
 
 # More Invalid
@@ -286,6 +292,7 @@ We replace the last two sentences
 
 ## Notice
 
+- We can refactor only if we don't change the tests at the same time.
 - The assertion checks only for uppercase letters. Since we are dealing with these examples up to now.
 - We defer design decisions as much as possible.
 - We defined a regular expression based on English Letters. We are pretty sure it won't accept Spanish (ñ), German(ë), etc.
@@ -379,9 +386,7 @@ And test fails.
 It is very important to check for equality/inequality instead of assertTrue() since many IDEs open a comparison tool based on the objects.
 This is another reason to use IDEs and never text editors.
 
-# Refactor
-
-Let's change the letters() function
+Let's change the letters() function since we've been faking it.
 
 [Gist Url]: # (https://gist.github.com/mcsee/4926897d2d889d9a8b5199d678b8f2d7)
 ```php
@@ -413,7 +418,7 @@ We are not catching invalid English 5-letter words.
 
 We need to make a decision. According to our bijection, there's an external dictionary asserting valid words.
 
-We can validate with the dictionary upon word creation. But we want the dictionary to store valid wordle words. Not strings.
+We can validate with the dictionary upon word creation. But we want the dictionary to store valid wordle words. No strings.
 
 It is an egg-chicken problem.
 
@@ -608,13 +613,16 @@ final class Game {
 # Words tried
 
 We implement words tried.
-And the simplest solution
+
+And the simplest solution.
+
+Hardcoding as always.
 
 [Gist Url]: # (https://gist.github.com/mcsee/8f7c41868e57db720d906c21f4ceaafc)
 ```php
 <?php
 
-public function test02EmptyGameHasNoWordsTried() {
+public function test02EmptyGameWordsTried() {
         $game = new Game();
         $this->assertEquals([], $game->wordsTried());
     }
@@ -921,9 +929,13 @@ We can add a safety test to be more declarative
 public function test12MatchesAllLetters() {
         $firstWord = new Word('trees');
         $secondWord = new Word('trees');
-        $this->assertEquals([1, 2, 3 , 4 ,5], $firstWord->matchesPositionWith($secondWord));
+        $this->assertEquals([1, 2, 3, 4,5], $firstWord->matchesPositionWith($secondWord));
     }
 ```
+
+* * *
+
+# Incorrect Positions
 
 Now we need the final steps. Matching in incorrect positions.
 and always the simplest solution...
@@ -943,6 +955,10 @@ function matchesIncorrectPositionWith(Word $anotherWord) : array {
         return [];
     }
 ```
+
+# Notice
+
+- By adding these safe, zero cases we miss many usual bugs.
 
 * * *
 

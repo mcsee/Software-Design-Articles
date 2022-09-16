@@ -2,7 +2,7 @@
             
 ![How to Create a Wordle with TDD in Javascript](How%20to%20Create%20a%20Wordle%20with%20TDD%20in%20Javascript.png)
 
-We keep practicing this amazing Kata and learning. You can follow the steps!
+*We keep practicing this amazing Kata and learning. You can follow the steps!*
 
 > TL;DR: Javascript is also awesome for TDD
 
@@ -22,7 +22,7 @@ This is the Javascript version.
 
 * * *
 
-# Set Up
+# Set-Up
 
 As usual, we will focus on the game business logic, knowing we can build the user interface with [natural language commands](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Wordle/Step%20by%20Step%20Wordle%20Creation%20With%20Codex%20AI/readme.md).
 
@@ -34,7 +34,7 @@ You can use whatever you like.
 
 Let's begin...
 
-# Defining a word
+# Defining a Word
 
 Following the same principles as [the previous article](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Wordle/How%20to%20Develop%20a%20Wordle%20Game%20using%20TDD%20in%2025%20Minutes/readme.md), we will start by defining a Wordle Word.
 
@@ -92,12 +92,12 @@ This is fine since we haven't defined what a word is.
 - We don't care about letter sorting. That would be a **premature optimization** and gold plating scenario.
 - We start with a simple example. No duplicated.
 - We don't mess with word validation yet (the word might be XXXXX).
-- We can start with a simpler test validating word is created. This would violate the test structure that always requires an assertion.
-- Expected value should always be the first in the assertion.
+- We can start with a simpler test validating the word is created. This would violate the test structure that always requires an assertion.
+- The expected value should always be the first in the assertion.
 
 # Creating a Word
 
-We need to create a Word with the letters() function.
+We need to create a Word with the *letters()* function.
 
 [Gist Url]: # (https://gist.github.com/mcsee/5c56be1b70bcd05c52a902db48aee85e)
 ```javascript
@@ -164,7 +164,7 @@ Received function did not throw
 
 # Changing the current implementation
 
-We need to change our implementation to make test02 pass (and also test01).
+We need to change our implementation to make *test02* pass (and also *test01*).
 
 [Gist Url]: # (https://gist.github.com/mcsee/c99a5093fcf300fee7c14c72c00d3a10)
 ```javascript
@@ -193,12 +193,12 @@ And the tests pass.
 ## Notice
 
 - We are not using the constructor argument to set up the actual letters (yet).
-- We just check for a few letters. not for too many since we don't have yet a covering test.
+- We just check for a few letters. Not for too many since we don't have yet a covering test.
 - TDD requires full coverage. Adding another check without a test is a technique violation.
 
 # Checking Too Many Letters
 
-Let's check for too many
+Let's check for too many.
 
 [Gist Url]: # (https://gist.github.com/mcsee/872e0b7a24e76d743930c8b809d1201c)
 ```javascript
@@ -284,15 +284,15 @@ test("test04EmptyLettersShouldRaiseException", async function() {
 
 ```
 
-it is no surprise the test passes since we already have a test covering this scenario.
+It is no surprise the test passes since we already have a test covering this scenario.
 
 As this test adds no value, we should remove it.
 
 * * *
 
-# Valid Letter
+# Valid Letters
 
-Let's check now what is a valid letter:
+Let's check now what are valid letters:
 
 [Gist Url]: # (https://gist.github.com/mcsee/1f839bedd5816e69d50f0e14ca282027)
 ```javascript
@@ -374,7 +374,7 @@ test("test06PointShouldRaiseException", async function() {
 
 # Refactor
 
-All tests are ok. 
+All the tests are ok. 
 
 We can refactor.
 
@@ -414,7 +414,7 @@ We need to keep track of all of them until we open new ones.
 
 # Comparing Words
 
-We need to compare words
+We need to compare words.
 
 [Gist Url]: # (https://gist.github.com/mcsee/334da5849a12fcf84696c8023fd42c0e)
 ```javascript
@@ -431,7 +431,7 @@ test("test08TwoWordsAreTheSame", async function() {
 });
 ```
 
-And test fails.
+And the test fails.
 
 Let's use the parameter we are sending to them.
 
@@ -480,7 +480,7 @@ class Word {
 
 We add a different word for letters comparison.
 
-Remember letters() was hardcoded until now.
+Remember *letters()* function was hardcoded until now.
 
 [Gist Url]: # (https://gist.github.com/mcsee/fdd08a962d9b61b70cf4ffb740a904ac)
 ```javascript
@@ -520,7 +520,7 @@ Error: expect(received).toStrictEqual(expected) // deep equality
 
 - This is another reason to use IDEs and never text editors.
 
-Let's change the letters() function since we've been faking it.
+Let's change the *letters()* function since we've been faking it.
 
 [Gist Url]: # (https://gist.github.com/mcsee/a051bf0bb109627a0c6fa9c44e0a3502)
 ```javascript
@@ -578,7 +578,7 @@ class Word {
 
 Our words are in a bijection with English Wordle words. or not?
 
-Let's try a non-English word
+Let's try a non-English word.
 
 [Gist Url]: # (https://gist.github.com/mcsee/50ea04242702d5f40ce388624ec4414e)
 ```javascript
@@ -768,7 +768,7 @@ test("test16TryToPlayInvalid", async function() {
 });
 ```
 
-The test fails as expected
+The test fails as expected.
 
 We fix it.
 
@@ -840,7 +840,7 @@ TypeError: Cannot read properties of undefined (reading 'includes')
 
 # Play to Win
 
-Now, we play to win
+Now, we play to win.
 
 We add the test and need to change hasWon() accordingly.
 
@@ -1037,7 +1037,7 @@ And all the tests pass.
 
 ## Notice
 
-- Matching property is not symmetric
+- The matching property is not symmetric
 
 * * *
 
@@ -1213,7 +1213,7 @@ test("test25VeryComplexWrongPositions", async function() {
 });
 ```
 
-Let's steal the algorithm from the article
+Let's steal the algorithm from the article.
 
 [Gist Url]: # (https://gist.github.com/mcsee/fb0447b21f640167a08170a82cd237e1)
 ```javascript
@@ -1241,7 +1241,7 @@ matchesIncorrectPositionWith(correctWord) {
   }
 ```
 
-We need to add another funcion (will be usefull for keyboard colors)
+We need to add another function (which will be useful for keyboard colors).
 
 [Gist Url]: # (https://gist.github.com/mcsee/a6f6822743d9e982f7d8ec39f6335a9f)
 ```javascript
@@ -1257,7 +1257,7 @@ lettersAtWrongtPosition(correctWord) {
 ## Notice
 
 - The algorithm changes a copy of the correct word by placing '*' when the correct position matches
-- It also hides the visited letters by changing to a special (an invalid) '+'
+- It also hides the visited letters by changing to a special (an invalid '+').
 
 ```
 DREAD vs ADDED
@@ -1289,7 +1289,7 @@ Hope you find it interesting and follow the kata with me.
 
 # Try it out!
 
-You can play around with the wroking [repl.it](https://replit.com/@mcsee/Wordle-TDD)
+You can play around with the working [repl.it](https://replit.com/@mcsee/Wordle-TDD).
 
 # Next Steps
 
@@ -1297,6 +1297,6 @@ You can play around with the wroking [repl.it](https://replit.com/@mcsee/Wordle-
 
 - Use a real dictionary
 
-- Change the language and alphabet.
+- Change the language and alphabet
 
 - Change the rules to a different wordle
