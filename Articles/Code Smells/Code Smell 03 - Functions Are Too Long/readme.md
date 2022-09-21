@@ -58,11 +58,12 @@ function setUpChessBoard() {
 ```
 
 # Detection
+
 All linters can measure and warn when methods are larger than a predefined threshold.
 
 # Relations
 
--[Code Smell 102 - Arrow Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md)
+[Code Smell 102 - Arrow Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md)
 
 # More info
 

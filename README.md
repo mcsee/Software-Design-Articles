@@ -396,6 +396,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 163 - Collection in Name](/Articles/Code%20Smells/Code%20Smell%20163%20-%20Collection%20in%20Name/readme.md)
 
+* [Code Smell 164 - Mixed Indentations](/Articles/Code%20Smells/Code%20Smell%20164%20-%20Mixed%20Indentations/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
