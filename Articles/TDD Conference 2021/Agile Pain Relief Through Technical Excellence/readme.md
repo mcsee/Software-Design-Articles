@@ -18,7 +18,7 @@ One of the original signatories of the Agile Manifesto, James Grenning trains, c
 
 ## Talk
 
-[![Watch the video](https://img.youtube.com/vi/Q9dSXcIIjMk/maxresdefault.jpg)](https://youtu.be/Q9dSXcIIjMk) 
+[![Watch the video](https://img.youtube.com/vi/Q9dSXcIIjMk/sddefault.jpg)](https://youtu.be/Q9dSXcIIjMk) 
 
 # My Personal notes 
 

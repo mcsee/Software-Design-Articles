@@ -92,17 +92,17 @@ The first step is to stop thinking about properties and focus solely on behavior
 
 # More Info
 
-- [W3 schools](https://www.w3schools.com/cs/cs_properties.php)
+[W3 schools](https://www.w3schools.com/cs/cs_properties.php)
 
-- [Laziness I - Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
+[Laziness I - Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
 
-- [Laziness II - Code Wizards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
+[Laziness II - Code Wizards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
 
-- [Refactoring 001 - Remove Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
+[Refactoring 001 - Remove Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
 
-- [The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
+[The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
-- [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
+[Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
 # Credits
 

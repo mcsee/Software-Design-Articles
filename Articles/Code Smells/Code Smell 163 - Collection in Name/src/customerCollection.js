@@ -1,9 +1,7 @@
-foreach (var customer in customerCollection)
-{
+for (var customer in customerCollection) {
     // iterate with current customer
 }
 
-foreach (var customer in customersCollection)
-{
+for (var currentCustomer in customersCollection) {
     // iterate with current customer
 }

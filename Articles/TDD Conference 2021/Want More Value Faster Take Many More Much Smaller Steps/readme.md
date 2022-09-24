@@ -20,7 +20,7 @@ We all know and love GeePaw and his inimitable style of "Helping Geeks Produce f
 
 ## Talk
 
-[![Watch the video](https://img.youtube.com/vi/1mOs1_pvS9A/maxresdefault.jpg)](https://youtu.be/1mOs1_pvS9A) 
+[![Watch the video](https://img.youtube.com/vi/1mOs1_pvS9A/sddefault.jpg)](https://youtu.be/1mOs1_pvS9A) 
 
 # My Personal notes
 

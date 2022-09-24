@@ -4,7 +4,7 @@
 
 *Code that is no longer used or needed.*
 
-TL;DR: Do not keep code "just in case I need it".
+> TL;DR: Do not keep code "just in case I need it".
 
 # Problems
 

@@ -29,7 +29,7 @@ Most **IF** sentences are coupled to *accidental decisions*. This coupling gener
 
 IFs are considered as [Harmful](https://sddconf.com/brands/sdd/library/If_considered_Harmful_-_Jules_May_-_SDD2017.pdf) as **GOTOs**.
 
-[![Watch the video](https://img.youtube.com/vi/z43bmaMwagI/maxresdefault.jpg)](https://youtu.be/z43bmaMwagI) 
+[![Watch the video](https://img.youtube.com/vi/z43bmaMwagI/sddefault.jpg)](https://youtu.be/z43bmaMwagI) 
 
 *IF sentences* violate [open/closed principle](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle). Our designs will be less extensible and closed to extension.
 

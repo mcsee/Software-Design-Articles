@@ -70,7 +70,7 @@ Luckily, Ingenuity is a sophisticated Autonomous vehicle and has a robust fail-s
 
 This video describes the glitch
 
-[![Watch the video](https://img.youtube.com/vi/6IoMiwxL2wU/maxresdefault.jpg)](https://youtu.be/6IoMiwxL2wU) 
+[![Watch the video](https://img.youtube.com/vi/6IoMiwxL2wU/sddefault.jpg)](https://youtu.be/6IoMiwxL2wU) 
 
 # Relations
 

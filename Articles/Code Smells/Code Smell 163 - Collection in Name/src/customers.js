@@ -1,4 +1,3 @@
-foreach (var customer in customers)
-{
+for (var customer in customers) {
     // iterate with current customer
 }

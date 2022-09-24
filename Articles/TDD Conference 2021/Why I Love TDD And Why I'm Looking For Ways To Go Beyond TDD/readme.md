@@ -18,7 +18,7 @@ Alex is a software engineering veteran with over 30 years of hands-on profession
 
 ## Talk
 
-[![Watch the video](https://img.youtube.com/vi/U1j9tGLo-wM/maxresdefault.jpg)](https://youtu.be/U1j9tGLo-wM) 
+[![Watch the video](https://img.youtube.com/vi/U1j9tGLo-wM/sddefault.jpg)](https://youtu.be/U1j9tGLo-wM) 
 
 # My Personal notes
 

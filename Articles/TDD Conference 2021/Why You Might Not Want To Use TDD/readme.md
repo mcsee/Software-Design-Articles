@@ -18,7 +18,7 @@ Ola Kunysz is a software engineer with 14 years of experience. Besides coding, s
 
 ## Talk
 
-[![Watch the video](https://img.youtube.com/vi/K-tDuE2tN0c/maxresdefault.jpg)](https://youtu.be/K-tDuE2tN0c) 
+[![Watch the video](https://img.youtube.com/vi/K-tDuE2tN0c/sddefault.jpg)](https://youtu.be/K-tDuE2tN0c) 
 
 # My Personal notes
 

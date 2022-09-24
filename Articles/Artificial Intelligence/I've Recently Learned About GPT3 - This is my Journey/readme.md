@@ -40,7 +40,7 @@ I've been thinking a lot about transformers and generators applied to programmin
 
 Most code generators I've tested are too dumb. They can program very basic routines and are not yet able to create [great software designs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md).
 
-[![Watch the video](https://img.youtube.com/vi/fZSFNUT6iY8/maxresdefault.jpg)](https://youtu.be/fZSFNUT6iY8) 
+[![Watch the video](https://img.youtube.com/vi/fZSFNUT6iY8/sddefault.jpg)](https://youtu.be/fZSFNUT6iY8) 
 
 In my Code Smell Series, I suggest detection techniques and correction measures. 
 

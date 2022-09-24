@@ -8,7 +8,7 @@
 
 A few months ago, I watched a video (in Spanish) about creating a Wordle using AI.
 
-[![Watch the video](https://img.youtube.com/vi/FQqwynsDs7A/maxresdefault.jpg)](https://youtu.be/FQqwynsDs7A) 
+[![Watch the video](https://img.youtube.com/vi/FQqwynsDs7A/sddefault.jpg)](https://youtu.be/FQqwynsDs7A) 
 
 The video used OpenAI Codex to create a [Wordle](https://www.nytimes.com/games/wordle/index.html).
 

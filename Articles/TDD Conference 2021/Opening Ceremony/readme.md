@@ -22,7 +22,7 @@ With a science background, Alex shows us how to build software by watching natur
 
 ## Talk
 
-[![Watch the video](https://img.youtube.com/vi/-_noEVCR__I/maxresdefault.jpg)](https://youtu.be/-_noEVCR__I) 
+[![Watch the video](https://img.youtube.com/vi/-_noEVCR__I/sddefault.jpg)](https://youtu.be/-_noEVCR__I) 
 
 # My Personal notes
 
