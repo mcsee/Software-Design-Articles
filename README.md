@@ -402,6 +402,10 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 165 - Empty Exception Blocks](/Articles/Code%20Smells%2FCode%20Smell%20165%20-%20Empty%20Exception%20Blocks//readme.md)
 
+### Code Smells/Code Smell 166 - Low-Level Errors on User Interface
+
+* [Code Smell 166 - Low-Level Errors on User Interface](/Articles/Code%20Smells%2FCode%20Smell%20166%20-%20Low-Level%20Errors%20on%20User%20Interface//readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
