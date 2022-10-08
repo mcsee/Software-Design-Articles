@@ -406,6 +406,10 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 166 - Low-Level Errors on User Interface](/Articles/Code%20Smells%2FCode%20Smell%20166%20-%20Low-Level%20Errors%20on%20User%20Interface//readme.md)
 
+### Code Smells/Code Smell 167 - Hashing Comparison
+
+* [Code Smell 167 - Hashing Comparison](/Articles/Code%20Smells%2FCode%20Smell%20167%20-%20Hashing%20Comparison//readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
@@ -531,4 +535,8 @@ In this repository, you will find many articles related to Software Design
 * [Explain in 5 Levels of Difficulty: Linux](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20Linux/readme.md)
 
 * [Explain in 5 Levels of Difficulty: Object-Oriented Programming](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20Object-Oriented%20Programming/readme.md)
+
+### Security/How a Hacker Stole $566M USD Exploiting a Code Smell
+
+* [How a Hacker Stole $566M USD Exploiting a Code Smell](/Articles/Security%2FHow%20a%20Hacker%20Stole%20%24566M%20USD%20Exploiting%20a%20Code%20Smell//readme.md)
 
