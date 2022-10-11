@@ -410,6 +410,26 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 167 - Hashing Comparison](/Articles/Code%20Smells%2FCode%20Smell%20167%20-%20Hashing%20Comparison//readme.md)
 
+### Code Smells/Code Smell 168 - Undocumented Decisions
+
+* [Code Smell 168 - Undocumented Decisions](/Articles/Code%20Smells%2FCode%20Smell%20168%20-%20Undocumented%20Decisions//readme.md)
+
+### Code Smells/Code Smell 169 - Glued Methods
+
+* [Code Smell 169 - Glued Methods](/Articles/Code%20Smells%2FCode%20Smell%20169%20-%20Glued%20Methods//readme.md)
+
+### Code Smells/Code Smell 170 - Refactor with Functional Changes
+
+* [Code Smell 170 - Refactor with Functional Changes](/Articles/Code%20Smells%2FCode%20Smell%20170%20-%20Refactor%20with%20Functional%20Changes//readme.md)
+
+### Code Smells/Code Smell 171 - Plural Classes
+
+* [Code Smell 171 - Plural Classes](/Articles/Code%20Smells%2FCode%20Smell%20171%20-%20Plural%20Classes//readme.md)
+
+### Code Smells/Code Smell 172 - Default Argument Values Not Last
+
+* [Code Smell 172 - Default Argument Values Not Last](/Articles/Code%20Smells%2FCode%20Smell%20172%20-%20Default%20Argument%20Values%20Not%20Last//readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)

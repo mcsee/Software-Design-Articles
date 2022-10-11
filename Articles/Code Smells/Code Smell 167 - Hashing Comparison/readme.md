@@ -20,7 +20,7 @@ In 2022 Oct 7th one of the larger blockchains had to be halted.
 
 [This news](https://www.coindesk.com/business/2022/10/06/binance-linked-bnb-price-falls-close-to-4-on-hack-rumors/) was shocking since most blockchains are decentralized by definition.
 
-You can read a full article here
+You can read a full article here:
 
 [How a Hacker Stole $566M USD Exploiting a Code Smell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Security/How%20a%20Hacker%20Stole%20$566M%20USD%20Exploiting%20a%20Code%20Smell/readme.md)
 

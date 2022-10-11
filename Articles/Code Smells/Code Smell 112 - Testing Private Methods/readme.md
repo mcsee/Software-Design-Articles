@@ -120,7 +120,7 @@ With this guide, we should always choose the method object solution.
 
 - [Testing Private Methods Guide](http://shoulditestprivatemethods.com/)
 
-- [Laziness I - Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
+[Laziness I - Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
 
 # Credits
 
