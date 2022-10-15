@@ -4,11 +4,11 @@
 
 > TL;DR: A Compilation of bad smells in code.
 
-The code smells bad. 
+The code smells badly. 
 
 Let's see how to change the aromas.
 
-In this series, we will see several symptoms and situations that make us doubt the quality of our developments. We will present possible solutions.
+In this series, we will see several symptoms and situations that make us doubt the quality of our development. We will present possible solutions.
 
 Most of these smells are just *hints* of something that might be wrong. They are not rigid rules.
 
@@ -284,9 +284,81 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 135 - Interfaces With just One Realization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20135%20-%20Interfaces%20With%20just%20One%20Realization/readme.md)
 
+[Code Smell 136 - Classes With just One Subclass](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20136%20-%20Classes%20With%20just%20One%20Subclass/readme.md)
+
+[Code Smell 137 - Inheritance Tree Too Deep](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20137%20-%20Inheritance%20Tree%20Too%20Deep/readme.md)
+
+[Code Smell 138 - Packages Dependency](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20138%20-%20Packages%20Dependency/readme.md)
+
+[Code Smell 139 - Business Code in the User Interface](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20139%20-%20Business%20Code%20in%20the%20User%20Interface/readme.md)
+
+[Code Smell 140 - Short Circuit Evaluation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20140%20-%20Short%20Circuit%20Evaluation/readme.md)
+
+[Code Smell 141 - IEngine , AVehicle, ImplCar](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20141%20-%20IEngine%20,%20AVehicle,%20ImplCar/readme.md)
+
+[Code Smell 142 - Queries in Constructors](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20142%20-%20Queries%20in%20Constructors/readme.md)
+
+[Code Smell 143 - Data Clumps](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20143%20-%20Data%20Clumps/readme.md)
+
+[Code Smell 144 - Fungible Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20144%20-%20Fungible%20Objects/readme.md)
+
+[Code Smell 145 - Short Circuit Hack](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20145%20-%20Short%20Circuit%20Hack/readme.md)
+
+[Code Smell 146 - Getter Comments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20146%20-%20Getter%20Comments/readme.md)
+
+[Code Smell 147 - Too Many Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20147%20-%20Too%20Many%20Methods/readme.md)
+
+[Code Smell 148 - ToDos](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20148%20-%20ToDos/readme.md)
+
+[Code Smell 149 - Optional Chaining](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20149%20-%20Optional%20Chaining/readme.md)
+
+[Code Smell 150 - Equal Comparison](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20150%20-%20Equal%20Comparison/readme.md)
+
+[Code Smell 151 - Commented Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20151%20-%20Commented%20Code/readme.md)
+
+[Code Smell 152 - Logical Comment](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20152%20-%20Logical%20Comment/readme.md)
+
+[Code Smell 153 - Too Long Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20153%20-%20Too%20Long%20Names/readme.md)
+
+[Code Smell 154 - Too Many Variables](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20154%20-%20Too%20Many%20Variables/readme.md)
+
+[Code Smell 155 - Multiple Promises](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20155%20-%20Multiple%20Promises/readme.md)
+
+[Code Smell 156 - Implicit Else](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20156%20-%20Implicit%20Else/readme.md)
+
+[Code Smell 157 - Balance at 0](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20157%20-%20Balance%20at%200/readme.md)
+
+[Code Smell 158 - Variables not Variable](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20158%20-%20Variables%20not%20Variable/readme.md)
+
+[CoDe SmElL 159 - mIxEd_cASe](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20159%20-%20Mixed%20Case/readme.md)
+
+[Code Smell 160 - Invalid Id = 9999](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20160%20-%20Invalid%20Id%20=%209999/readme.md)
+
+[Code Smell 161 - Abstract/Final/Undefined Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20161%20-%20Abstract%20Final%20Undefined%20Classes/readme.md)
+
+[Code Smell 162 - Too Many Parentheses](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20162%20-%20Too%20Many%20Parentheses/readme.md)
+
+[Code Smell 163 - Collection in Name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20163%20-%20Collection%20in%20Name/readme.md)
+
+[Code Smell 164 - Mixed Indentations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20164%20-%20Mixed%20Indentations/readme.md)
+
+[Code Smell 165 - Empty Exception Blocks](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20165%20-%20Empty%20Exception%20Blocks/readme.md)
+
+[Code Smell 166 - Low-Level Errors on User Interface](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20166%20-%20Low-Level%20Errors%20on%20User%20Interface/readme.md)
+
+[Code Smell 167 - Hashing Comparison](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20167%20-%20Hashing%20Comparison/readme.md)
+
+[Code Smell 168 - Undocumented Decisions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20168%20-%20Undocumented%20Decisions/readme.md)
+
 ... and many more to come.
 
-* * * 
+* * *
+
+![Aroma](https://cdn.hashnode.com/res/hashnode/image/upload/v1603577138164/btRuwlKSA.jpeg)
+
+Photo by [Richárd Ecsedi](https://unsplash.com/@icsike2) on [Unsplash](https://unsplash.com/@icsike2)
+
+* * *
 
 > Smells are certain structures in the code that suggest (sometimes they scream for) the possibility of refactoring
 
@@ -300,6 +372,6 @@ Part of the objective of this series of articles is to generate spaces for debat
 
 [Object Design Checklist](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Object%20Design%20Checklist/readme.md)
 
-We look forward to comments and suggestions on this article.
+We look forward to your comments and suggestions on this article.
 
 Original Thread on [Twitter](https://twitter.com/mcsee1/status/1297685140995551233)
