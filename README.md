@@ -560,3 +560,7 @@ In this repository, you will find many articles related to Software Design
 
 * [How a Hacker Stole $566M USD Exploiting a Code Smell](/Articles/Security%2FHow%20a%20Hacker%20Stole%20%24566M%20USD%20Exploiting%20a%20Code%20Smell//readme.md)
 
+### Wordle/How to Create a Wordle as a Centaur
+
+* [How to Create a Wordle as a Centaur](/Articles/Wordle%2FHow%20to%20Create%20a%20Wordle%20as%20a%20Centaur//readme.md)
+
