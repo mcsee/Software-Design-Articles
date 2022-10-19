@@ -398,37 +398,21 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 164 - Mixed Indentations](/Articles/Code%20Smells/Code%20Smell%20164%20-%20Mixed%20Indentations/readme.md)
 
-### Code Smells/Code Smell 165 - Empty Exception Blocks
+* [Code Smell 165 - Empty Exception Blocks](/Articles/Code%20Smells/Code%20Smell%20165%20-%20Empty%20Exception%20Blocks/readme.md)
 
-* [Code Smell 165 - Empty Exception Blocks](/Articles/Code%20Smells%2FCode%20Smell%20165%20-%20Empty%20Exception%20Blocks//readme.md)
+* [Code Smell 166 - Low-Level Errors on User Interface](/Articles/Code%20Smells/Code%20Smell%20166%20-%20Low-Level%20Errors%20on%20User%20Interface/readme.md)
 
-### Code Smells/Code Smell 166 - Low-Level Errors on User Interface
+* [Code Smell 167 - Hashing Comparison](/Articles/Code%20Smells/Code%20Smell%20167%20-%20Hashing%20Comparison/readme.md)
 
-* [Code Smell 166 - Low-Level Errors on User Interface](/Articles/Code%20Smells%2FCode%20Smell%20166%20-%20Low-Level%20Errors%20on%20User%20Interface//readme.md)
+* [Code Smell 168 - Undocumented Decisions](/Articles/Code%20Smells/Code%20Smell%20168%20-%20Undocumented%20Decisions/readme.md)
 
-### Code Smells/Code Smell 167 - Hashing Comparison
+* [Code Smell 169 - Glued Methods](/Articles/Code%20Smells/Code%20Smell%20169%20-%20Glued%20Methods/readme.md)
 
-* [Code Smell 167 - Hashing Comparison](/Articles/Code%20Smells%2FCode%20Smell%20167%20-%20Hashing%20Comparison//readme.md)
+* [Code Smell 170 - Refactor with Functional Changes](/Articles/Code%20Smells/Code%20Smell%20170%20-%20Refactor%20with%20Functional%20Changes/readme.md)
 
-### Code Smells/Code Smell 168 - Undocumented Decisions
+* [Code Smell 171 - Plural Classes](/Articles/Code%20Smells/Code%20Smell%20171%20-%20Plural%20Classes/readme.md)
 
-* [Code Smell 168 - Undocumented Decisions](/Articles/Code%20Smells%2FCode%20Smell%20168%20-%20Undocumented%20Decisions//readme.md)
-
-### Code Smells/Code Smell 169 - Glued Methods
-
-* [Code Smell 169 - Glued Methods](/Articles/Code%20Smells%2FCode%20Smell%20169%20-%20Glued%20Methods//readme.md)
-
-### Code Smells/Code Smell 170 - Refactor with Functional Changes
-
-* [Code Smell 170 - Refactor with Functional Changes](/Articles/Code%20Smells%2FCode%20Smell%20170%20-%20Refactor%20with%20Functional%20Changes//readme.md)
-
-### Code Smells/Code Smell 171 - Plural Classes
-
-* [Code Smell 171 - Plural Classes](/Articles/Code%20Smells%2FCode%20Smell%20171%20-%20Plural%20Classes//readme.md)
-
-### Code Smells/Code Smell 172 - Default Argument Values Not Last
-
-* [Code Smell 172 - Default Argument Values Not Last](/Articles/Code%20Smells%2FCode%20Smell%20172%20-%20Default%20Argument%20Values%20Not%20Last//readme.md)
+* [Code Smell 172 - Default Argument Values Not Last](/Articles/Code%20Smells/Code%20Smell%20172%20-%20Default%20Argument%20Values%20Not%20Last/readme.md)
 
 ### Blogging
 
@@ -540,6 +524,8 @@ In this repository, you will find many articles related to Software Design
 
 ### Wordle
 
+* [How to Create a Wordle as a Centaur](/Articles/Wordle/How%20to%20Create%20a%20Wordle%20as%20a%20Centaur/readme.md)
+
 * [How to Create a Wordle with TDD in Javascript](/Articles/Wordle/How%20to%20Create%20a%20Wordle%20with%20TDD%20in%20Javascript/readme.md)
 
 * [Step by Step Wordle Creation With Codex AI](/Articles/Wordle/Step%20by%20Step%20Wordle%20Creation%20With%20Codex%20AI/readme.md)
@@ -556,11 +542,7 @@ In this repository, you will find many articles related to Software Design
 
 * [Explain in 5 Levels of Difficulty: Object-Oriented Programming](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20Object-Oriented%20Programming/readme.md)
 
-### Security/How a Hacker Stole $566M USD Exploiting a Code Smell
+### Security
 
-* [How a Hacker Stole $566M USD Exploiting a Code Smell](/Articles/Security%2FHow%20a%20Hacker%20Stole%20%24566M%20USD%20Exploiting%20a%20Code%20Smell//readme.md)
-
-### Wordle/How to Create a Wordle as a Centaur
-
-* [How to Create a Wordle as a Centaur](/Articles/Wordle%2FHow%20to%20Create%20a%20Wordle%20as%20a%20Centaur//readme.md)
+* [How a Hacker Stole $566M USD Exploiting a Code Smell](/Articles/Security/How%20a%20Hacker%20Stole%20%24566M%20USD%20Exploiting%20a%20Code%20Smell/readme.md)
 

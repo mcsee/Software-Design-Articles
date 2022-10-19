@@ -108,7 +108,7 @@ We are reifing the state into our Game object
 
 And this is when all magic happens.
 
-We replace the algorithmic and error prune letter counts computations with our more robust ones
+We replace the algorithmic and error prune letter count computations with our more robust ones
 
 [Gist Url]: # (https://gist.github.com/mcsee/d379d0e674d4a679bd4b0bbf85e839f3)
 ```javascript

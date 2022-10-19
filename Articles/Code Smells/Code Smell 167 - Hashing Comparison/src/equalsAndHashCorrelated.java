@@ -12,6 +12,6 @@ public String name;
  public int hashCode() {
    return name.hashCode(); 
  }
- // This is just an example of non correlation  
+ // This is just an example of non-correlation  
  
 }

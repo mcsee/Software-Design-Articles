@@ -83,7 +83,7 @@ On our [bijections](https://github.com/mcsee/Software-Design-Articles/tree/main/
 
 Interfaces are the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) correspondence to protocol.
 
-Dependency injection protocols declare interfaces that are fulfilled with their realizations. Until then, they can be empty.
+Dependency injection/Invesion protocols declare interfaces that are fulfilled with their realizations. Until then, they can be empty.
 
 If your language defines an interface for test mocking, it is another [code smell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md).
 

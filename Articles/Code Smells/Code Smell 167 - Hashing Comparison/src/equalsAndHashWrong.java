@@ -12,7 +12,7 @@ public String name;
  public int hashCode() {
    return (int)(Math.random()*256); 
  }
- // This is just an example of non correlation  
+ // This is just an example of non-correlation  
  
  // When using HashMaps we can make a mistake 
  // and guess the object is not present in the collection
