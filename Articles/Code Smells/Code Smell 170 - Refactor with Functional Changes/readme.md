@@ -30,9 +30,18 @@ We should put our solution on hold. Work on the refactoring, and continue with o
 
 [Gist Url]: # (https://gist.github.com/mcsee/f07e5ef021600a82d086fe7cb001fb84)
 ```kotlin
+getFactorial(n) {
+  return n * getFactorial(n);
+}
+
+// Rename and Change
+
 factorial(n) {
   return n * factorial(n-1);
 }
+
+// This is very small example
+// Things go works while dealing with huge code
 ```
 
 ## Right
