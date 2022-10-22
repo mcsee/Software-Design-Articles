@@ -51,11 +51,30 @@ buildCar("Volvo")}}
 // Works as expected
 ```
 
+[Gist Url]: # (https://gist.github.com/mcsee/f70b209c640d706fdb0d87dacb7f2ee1)
+```python
+def functionWithLastOptional(a, b, c='foo'):
+    print(a)
+    print(b)
+    print(c)
+functionWithLastOptional(1, 2)
+
+def functionWithMiddleOptional(a, b='foo', c):
+    print(a)
+    print(b)
+    print(c)
+functionWithMiddleOptional(1, 2)
+
+# SyntaxError: non-default argument follows default argument
+```
+
 # Detection
 
 [X] Automatic 
 
 Many Linters can enforce this rule since we can derive it from function signature.
+
+Also, many compilers directly forbid it.
 
 # Tags
 
@@ -73,7 +92,7 @@ Try to be strict when defining functions to avoid coupling.
 
 [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
-[Sonar Source](https://rules.sonarsource.com/php/type/Code%20Smell/RSPEC-1788)
+[Rule on Sonar Source](https://rules.sonarsource.com/php/type/Code%20Smell/RSPEC-1788)
 
 # Disclaimer
 
