@@ -2,6 +2,8 @@
 
 ![Code Smell 70 - Anemic Model Generators](Code%20Smell%2070%20-%20Anemic%20Model%20Generators.jpg)
 
+*Anemic Models are the problem. Anemic Model Generators are the Meta Problem.*
+
 > TL;DR: Do not create anemic objects. Much less with automatic tools.
 
 # Problems

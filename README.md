@@ -414,6 +414,10 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 172 - Default Argument Values Not Last](/Articles/Code%20Smells/Code%20Smell%20172%20-%20Default%20Argument%20Values%20Not%20Last/readme.md)
 
+* [Code Smell 173 - Class Name in Attributes](/Articles/Code%20Smells/Code%20Smell%20173%20-%20Class%20Name%20in%20Attributes/readme.md)
+
+* [Code Smell 174 - Broken Windows](/Articles/Code%20Smells/Code%20Smell%20174%20-%20Broken%20Windows/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
@@ -521,6 +525,8 @@ In this repository, you will find many articles related to Software Design
 * [Refactoring 007 - Extract Class](/Articles/Refactorings/Refactoring%20007%20-%20Extract%20Class/readme.md)
 
 * [Refactoring 008 - Convert Variables to Constant](/Articles/Refactorings/Refactoring%20008%20-%20Convert%20Variables%20to%20Constant/readme.md)
+
+* [Refactoring 009 - Protect Public Attributes](/Articles/Refactorings/Refactoring%20009%20-%20Protect%20Public%20Attributes/readme.md)
 
 ### Wordle
 
