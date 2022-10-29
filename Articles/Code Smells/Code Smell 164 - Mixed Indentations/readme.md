@@ -24,7 +24,7 @@
 
 4. Share the rules on all the codebase
 
-5. Use an IDE like VS Code or WebStorm that doesn't include tabs at all.
+5. Use an IDE like VSCode or WebStorm that doesn't include tabs at all.
 
 # Context
 

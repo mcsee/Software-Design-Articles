@@ -1,6 +1,6 @@
-# Code Smell 173 - Class Name in Attributes
+# Code Smell 174 - Class Name in Attributes
             
-![Code Smell 173 - Class Name in Attributes](Code%20Smell%20173%20-%20Class%20Name%20in%20Attributes.jpg)
+![Code Smell 174 - Class Name in Attributes](Code%20Smell%20174%20-%20Class%20Name%20in%20Attributes.jpg)
 
 *Redundancy in names is a bad smell. Names should be contextual*
 

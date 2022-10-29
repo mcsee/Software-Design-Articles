@@ -414,9 +414,11 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 172 - Default Argument Values Not Last](/Articles/Code%20Smells/Code%20Smell%20172%20-%20Default%20Argument%20Values%20Not%20Last/readme.md)
 
-* [Code Smell 173 - Class Name in Attributes](/Articles/Code%20Smells/Code%20Smell%20173%20-%20Class%20Name%20in%20Attributes/readme.md)
+* [Code Smell 173 - Broken Windows](/Articles/Code%20Smells/Code%20Smell%20173%20-%20Broken%20Windows/readme.md)
 
-* [Code Smell 174 - Broken Windows](/Articles/Code%20Smells/Code%20Smell%20174%20-%20Broken%20Windows/readme.md)
+* [Code Smell 174 - Class Name in Attributes](/Articles/Code%20Smells/Code%20Smell%20174%20-%20Class%20Name%20in%20Attributes/readme.md)
+
+* [Code Smell 175 - Changes Without Coverage](/Articles/Code%20Smells/Code%20Smell%20175%20-%20Changes%20Without%20Coverage/readme.md)
 
 ### Blogging
 
