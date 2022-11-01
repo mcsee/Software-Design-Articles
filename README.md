@@ -420,6 +420,10 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 175 - Changes Without Coverage](/Articles/Code%20Smells/Code%20Smell%20175%20-%20Changes%20Without%20Coverage/readme.md)
 
+* [Code Smell 176 - Changes in Essence](/Articles/Code%20Smells/Code%20Smell%20176%20-%20Changes%20in%20Essence/readme.md)
+
+* [Code Smell 177 - Missing Small Objects](/Articles/Code%20Smells/Code%20Smell%20177%20-%20Missing%20Small%20Objects/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
