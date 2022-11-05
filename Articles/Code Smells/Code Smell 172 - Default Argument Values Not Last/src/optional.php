@@ -1,7 +1,9 @@
 <?
 
-function buildCar($color = "red", $model){...}  
+function buildCar($color = "red", $model) {
+  //...
+}  
 // First argument with optional argument
 
-buildCar("Volvo")}}  
-// Runtime error: Missing argument 2 in call to buildCar()
+buildCar("Volvo");  
+// Runtime error: Too few arguments to function buildCar()

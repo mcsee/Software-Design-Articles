@@ -54,7 +54,7 @@ public class Point {
 
 Point location = new Point();
 // At this moment, it is not clear which points represent
-// It is coupled to constructor decision.
+// It is coupled to the constructor decision.
 // Might be null or some other convention
 
 location.setX(1);

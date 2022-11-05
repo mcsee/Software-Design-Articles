@@ -20,7 +20,7 @@
 
 When you need to make a change, you need to update the live specification of your code.
 
-That's why tests are for.
+That's what tests are for.
 
 Instead of generating dead documentation of what your code does, you should write a covering use scenario.
 
