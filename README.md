@@ -538,6 +538,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Refactoring 009 - Protect Public Attributes](/Articles/Refactorings/Refactoring%20009%20-%20Protect%20Public%20Attributes/readme.md)
 
+* [Refactoring 010 - Extract Method Object](/Articles/Refactorings/Refactoring%20010%20-%20Extract%20Method%20Object/readme.md)
+
 ### Wordle
 
 * [How to Create a Wordle as a Centaur](/Articles/Wordle/How%20to%20Create%20a%20Wordle%20as%20a%20Centaur/readme.md)

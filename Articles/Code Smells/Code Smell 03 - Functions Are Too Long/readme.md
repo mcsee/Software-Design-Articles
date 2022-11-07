@@ -15,11 +15,15 @@
 
 # Solutions
 
-1) Refactor
+1) [Refactor](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20010%20-%20Extract%20Method%20Object/readme.md)
 
-2) Create small objects dealing with some tasks. Unit test them.
+2) Create small objects dealing with some tasks. Unit-test them.
 
 3) Compose methods 
+
+# Refactorings
+
+[Refactoring 010 - Extract Method Object](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20010%20-%20Extract%20Method%20Object/readme.md)
 
 # Examples
 
@@ -63,11 +67,7 @@ All linters can measure and warn when methods are larger than a predefined thres
 
 # Relations
 
-[Code Smell 102 - Arrow Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md)
-
-# More info
-
-- [Refactoring Guru](https://refactoring.guru/es/smells/long-method)
+[Code Smell 75 - Comments Inside a Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2075%20-%20Comments%20Inside%20a%20Method/readme.md)
 
 # Tags
 
@@ -75,11 +75,15 @@ All linters can measure and warn when methods are larger than a predefined thres
 
 # Conclusion
 
-Extract long method into smaller pieces. Break complex algorithms in parts. You can also unit test these parts.
+Extract the long method into smaller pieces. Break complex algorithms into parts. You can also unit-test these parts.
 
 # Also Known as
 
 - Long Method
+
+# More info
+
+- [Refactoring Guru](https://refactoring.guru/es/smells/long-method)
 
 # Credits
 
