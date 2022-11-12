@@ -26,6 +26,10 @@
 
 6. Do not use [static methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md) for computations.
 
+# Refactorings
+
+[Refactoring 010 - Extract Method Object](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20010%20-%20Extract%20Method%20Object/readme.md)
+
 # Context
 
 We test our classes and methods.

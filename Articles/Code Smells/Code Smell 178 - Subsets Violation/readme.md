@@ -10,7 +10,7 @@
 
 - [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Fault 
 
-- [https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md](Fail fast principle violation)
+- [Fail fast principle violation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
 - [Repeated Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2046%20-%20Repeated%20Code/readme.md) validation
 
@@ -22,13 +22,13 @@
 
 This is a primitive obsession smell.
 
-Emails are a subset of strings,
+*EmailAddresses* are a subset of *string*.
 
-Valid Ages are a subset of Real.
+*Valid Ages* are a subset of *Real*.
 
-Ports are a subset of Integers.
+*Ports* are a subset of *Integers*.
 
-A wordle word is a subset of String
+A *wordle word* is a subset of String.
 
 # Sample Code
 
@@ -75,7 +75,7 @@ This is a semantic smell.
 
 # Conclusion
 
-We need to be loyal to the biyection to the real world. 
+We need to be loyal to the bijection of the real world. 
 
 Subsets are very important for early validations and fail fast principle.
 

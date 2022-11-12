@@ -2,7 +2,7 @@
 
 ![Code Smell 21 - Anonymous Functions Abusers](Code%20Smell%2021%20-%20Anonymous%20Functions%20Abusers.jpg)
 
-*Functions, lambdas, closures. So high order, nondeclarative, and hot.*
+*Functions, lambdas, closures. So high order, non-declarative, and hot.*
 
 > TL;DR: Don't abuse closures and functions. Encapsulate them into objects.
 
@@ -22,7 +22,11 @@
 
 1. Wrap functions/closures
 
-2. Reify algorithms in method object / Strategy
+2. Reify algorithms in a [method object](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20010%20-%20Extract%20Method%20Object/readme.md) / Strategy
+
+# Refactorings
+
+[Refactoring 010 - Extract Method Object](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20010%20-%20Extract%20Method%20Object/readme.md)
 
 # Sample Code
 

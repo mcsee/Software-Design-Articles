@@ -2,19 +2,19 @@
 
 ![Code Smell 24 - Boolean Coercions](Code%20Smell%2024%20-%20Boolean%20Coercions.jpg)
 
-*Booleans should be just True and false*
+*Booleans should be just True and False*
 
-> TL;DR: Don't do magic castings to boolean. You will regret on a friday nigth.
+> TL;DR: Don't do magic castings to boolean. You will regret it on a Friday night.
  
 # Problems
 
 - Hiding Errors
 
-- Accidental complexity coupled to one particular language.
+- Accidental complexity coupled with one particular language.
 
 - Readability
 
-- Difficulty to hop among languages.
+- Difficulty hopping among languages.
 
 - [IFs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
