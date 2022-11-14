@@ -1,6 +1,6 @@
-# How to Find the Stinky parts of your Code
+# How to Find the Stinky Parts of your Code
 
-![How to Find the Stinky parts of your Code](21%20-%20How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code.jpeg)
+![How to Find the Stinky Parts of your Code](21%20-%20How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code.jpeg)
 
 > TL;DR: A Compilation of bad smells in code.
 

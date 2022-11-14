@@ -68,7 +68,7 @@ In this repository, you will find many articles related to Software Design
 
 ### Code Smells
 
-* [How to Find the Stinky parts of your Code](/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+* [How to Find the Stinky Parts of your Code](/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
 
 * [Code Smell 01 - Anemic Models](/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
