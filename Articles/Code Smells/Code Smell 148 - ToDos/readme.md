@@ -101,7 +101,7 @@ We can count TODOs.
 
 Most linters do it.
 
-We need the policy to reduce it.
+We need the policy to reduce them.
 
 If we are using TDD, we write the missing code right away.
 

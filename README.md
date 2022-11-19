@@ -428,6 +428,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 179 - Known Bugs](/Articles/Code%20Smells/Code%20Smell%20179%20-%20Known%20Bugs/readme.md)
 
+* [Code Smell 180 - BitWise Optimizations](/Articles/Code%20Smells/Code%20Smell%20180%20-%20BitWise%20Optimizations/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
@@ -563,4 +565,8 @@ In this repository, you will find many articles related to Software Design
 ### Security
 
 * [How a Hacker Stole $566M USD Exploiting a Code Smell](/Articles/Security/How%20a%20Hacker%20Stole%20%24566M%20USD%20Exploiting%20a%20Code%20Smell/readme.md)
+
+### blogging
+
+* [Content Structure: The Do's and Dont's of Content Creation](/Articles/blogging/68%20-%20Content%20Structure%20The%20Do%27s%20and%20Dont%27s%20of%20Content%20Creation/readme.md)
 
