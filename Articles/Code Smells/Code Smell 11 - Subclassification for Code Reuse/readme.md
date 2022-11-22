@@ -125,7 +125,7 @@ In legacy systems is very common to have *Deep Hierarchies* and *method overridi
 
 [Code Smell 58 - Yo-yo Problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2058%20-%20Yo-yo%20Problem/readme.md)
 
-# More info
+# More Info
 
 - [Liskov Substitution](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
 

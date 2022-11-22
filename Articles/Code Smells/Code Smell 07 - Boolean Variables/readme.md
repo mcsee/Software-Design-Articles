@@ -74,7 +74,7 @@ In these coupled with accidental complexity languages, booleans are a common err
 
 - Primitive
 
-# More info
+# More Info
 
 %[https://martinfowler.com/bliki/FlagArgument.html]
 

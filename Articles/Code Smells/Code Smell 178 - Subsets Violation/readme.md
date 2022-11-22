@@ -52,13 +52,13 @@ public class EmailAddress {
     public EmailAddress(String address) {
         string expressions = @"^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$";
         if (!Regex.IsMatch(email, expressions) {
-          throw new Exception('Invalid address);
+          throw new Exception('Invalid address');
         }
         this.emailAddress = address;
     }
 }
 
-destination = new EmailAddress("destination@example.com);
+destination = new EmailAddress("destination@example.com");
 ```
 
 Not to be confused with the anemic [Java version](http://officedev.github.io/ews-java-api/docs/releases/api-2.0/apidocs/microsoft/exchange/webservices/data/property/complex/EmailAddress.html)

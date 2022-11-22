@@ -72,6 +72,8 @@ If we find this code in a pull request or code review, we need to understand the
 
 [Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
+[Code Smell 129 - Structural Optimizations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20129%20-%20Structural%20Optimizations/readme.md)
+
 # More Info
 
 [Tilde Operator ~~](https://stackoverflow.com/questions/5971645/what-is-the-double-tilde-operator-in-javascript)

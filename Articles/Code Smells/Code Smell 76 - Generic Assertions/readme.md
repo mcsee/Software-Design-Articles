@@ -62,7 +62,7 @@ We should use development techniques like [TDD](https://github.com/mcsee/Softwar
 
 [Code Smell 52 - Fragile Tests](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2052%20-%20Fragile%20Tests/readme.md)
 
-# More info
+# More Info
 
 - [Test Driven Development](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md)
 

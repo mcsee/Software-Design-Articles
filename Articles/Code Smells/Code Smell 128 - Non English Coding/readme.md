@@ -1,6 +1,6 @@
-# Code Smell 128 - Non English Coding
+# Code Smell 128 - Non-English Coding
 
-![Code Smell 128 - Non English Coding](Code%20Smell%20128%20-%20Non%20English%20Coding.jpg)
+![Code Smell 128 - Non-English Coding](Code%20Smell%20128%20-%20Non%20English%20Coding.jpg)
 
 *Using your local language is a great idea because domain naming is easier. Not*
 

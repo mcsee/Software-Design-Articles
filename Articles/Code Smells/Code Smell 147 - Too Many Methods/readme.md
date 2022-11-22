@@ -92,7 +92,7 @@ Most linters count methods and warn us.
 
 [Code Smell 34 - Too Many Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2034%20-%20Too%20Many%20Attributes/readme.md)
 
-# More info
+# More Info
 
 [Refactoring Guru](https://refactoring.guru/smells/large-class)
 

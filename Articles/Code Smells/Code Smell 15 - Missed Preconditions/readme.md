@@ -97,7 +97,7 @@ Fail fast is a blessing.
 
 [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
-# More info
+# More Info
 
 - [Object-Oriented Software Construction (by Bertrand Meyer)](https://en.wikipedia.org/wiki/Object-Oriented_Software_Construction)
 

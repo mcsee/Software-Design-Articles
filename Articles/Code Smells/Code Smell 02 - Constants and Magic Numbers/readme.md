@@ -55,7 +55,7 @@ Many linters can detect number literals in attributes and methods.
 - Hard coded
 - Constants
 
-# More info
+# More Info
 - [Refactoring Guru](https://refactoring.guru/es/replace-magic-number-with-symbolic-constant)
 - [How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 

@@ -87,7 +87,7 @@ Donald Knuth created/compiled the best/fastest algorithms and data structures. W
 
 [Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
-# More info
+# More Info
 
 - [c2 wiki](https://wiki.c2.com/?PrematureOptimization)
 

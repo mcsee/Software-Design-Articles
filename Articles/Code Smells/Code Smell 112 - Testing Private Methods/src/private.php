@@ -10,7 +10,7 @@ final class Star {
   
   private function convertDistanceInParsecsToLightYears($distanceInParsecs) {
       return 3.26 * $distanceInParsecs;
-      // function is using an argument which is already available.
+      // function is using an argument that is already available.
       // since it has private access to $distanceInParsecs
       // this is another smell indicator.
 

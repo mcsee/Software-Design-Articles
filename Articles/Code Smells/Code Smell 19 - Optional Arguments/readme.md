@@ -90,7 +90,7 @@ Detection is easy if language supports optional arguments.
 
 Be explicit. Favor readability over shorter (and more coupled) function call.
  
-# More info
+# More Info
 
 - [Function Arity](https://en.wikipedia.org/wiki/Arity)
 

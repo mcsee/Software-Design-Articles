@@ -268,7 +268,7 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 127 - Mutable Constants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20127%20-%20Mutable%20Constants/readme.md)
 
-[Code Smell 128 - Non English Coding](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20128%20-%20Non%20English%20Coding/readme.md)
+[Code Smell 128 - Non-English Coding](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20128%20-%20Non%20English%20Coding/readme.md)
 
 [Code Smell 129 - Structural Optimizations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20129%20-%20Structural%20Optimizations/readme.md)
 

@@ -154,7 +154,7 @@ His author warns us about its actual abuse.
 
 https://softwareengineering.stackexchange.com/questions/171457/what-is-the-point-of-using-dto-data-transfer-objects
 
-# More info
+# More Info
 
 %[https://martinfowler.com/bliki/LocalDTO.html]
 

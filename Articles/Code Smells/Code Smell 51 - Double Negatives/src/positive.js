@@ -1,1 +1,1 @@
-if ( work.isDone() )
+if (work.isDone())

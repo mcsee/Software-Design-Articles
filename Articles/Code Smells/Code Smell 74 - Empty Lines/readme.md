@@ -55,7 +55,7 @@ function translateFile() {
 <?
 
 function translateFile() {
-    $this->readFileToMemoy();
+    $this->readFileToMemory();
     $this->translateContents();
     $this->generateStatsAndSaveFileContents();  
 }

@@ -94,7 +94,7 @@ Linters can detect comments and check the ratio of comments/lines of code agains
 
 [Code Smell 75 - Comments Inside a Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2075%20-%20Comments%20Inside%20a%20Method/readme.md)
 
-# More info
+# More Info
 
 [Refactoring Guru](https://refactoring.guru/es/smells/comments)
 

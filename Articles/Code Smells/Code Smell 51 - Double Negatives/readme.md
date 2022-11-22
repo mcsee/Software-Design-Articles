@@ -18,14 +18,14 @@
 
 [Gist Url]: # (https://gist.github.com/mcsee/f5c32dfa2aefa4f7fcb180ea28995508)
 ```javascript
-if ( !work.isNotFinished() )
+if (!work.isNotFinished())
 ```
 
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/842684ebe8f5496d1d6374436a0c9473)
 ```javascript
-if ( work.isDone() )
+if (work.isDone())
 ```
 
 # Detection
@@ -54,7 +54,7 @@ We need to trust our test coverage and make safe renames and other refactors.
 
 [Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
-# More info
+# More Info
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 

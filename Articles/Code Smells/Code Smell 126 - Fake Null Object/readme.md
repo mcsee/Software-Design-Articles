@@ -32,11 +32,11 @@ Inheritance is not a proper way to achieve polymorphism.
 
 A simple solution is to create a real object behaving like a null one.
 
-For example: '0' is numbers' null object.
+For example: '0' is the numbers' null object.
 
 '' (or "") is String's null object
 
-An empty collection is collection's null object.
+An empty collection is the collection's null object.
 
 # Sample Code
 

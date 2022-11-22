@@ -88,7 +88,7 @@ If your classes are polluted with setters, getters and public methods you will c
 
 [Code Smell 28 - Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
 
-# More info
+# More Info
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Object_orgy)
 

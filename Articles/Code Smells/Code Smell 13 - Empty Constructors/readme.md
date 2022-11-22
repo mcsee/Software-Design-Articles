@@ -63,7 +63,7 @@ Any linter can warn this (possible) situation.
 
 - Stateless objects. Always better solution than static class methods.
 
-# More info
+# More Info
 
 https://codexposed.hashnode.dev/constructors-demystified
 

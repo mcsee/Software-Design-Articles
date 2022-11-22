@@ -40,12 +40,12 @@
 function setUpChessBoard() {
     $this->placeOnBoard($this->whiteTower);
     $this->placeOnBoard($this->whiteKnight);
-    // A lot of lines more
+    // A lot more lines
     
     // Empty space to pause definition
     $this->placeOnBoard($this->blackTower);
     $this->placeOnBoard($this->blackKnight);
-    // A lot of more lines
+    // A lot more lines
 }
 ```
 
@@ -81,7 +81,7 @@ Extract the long method into smaller pieces. Break complex algorithms into parts
 
 - Long Method
 
-# More info
+# More Info
 
 - [Refactoring Guru](https://refactoring.guru/es/smells/long-method)
 

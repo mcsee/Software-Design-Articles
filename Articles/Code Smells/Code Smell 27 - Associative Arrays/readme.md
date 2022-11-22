@@ -4,7 +4,7 @@
 
 *[Key, values], magic, fast, malleable and error prone.*
 
-TL;DR: Use arrays for rapid prototyping, use object for serious business.
+> TL;DR: Use arrays for rapid prototyping, use object for serious business.
  
 # Problems
 

@@ -1,1 +1,1 @@
-if ( !work.isNotFinished() )
+if (!work.isNotFinished())

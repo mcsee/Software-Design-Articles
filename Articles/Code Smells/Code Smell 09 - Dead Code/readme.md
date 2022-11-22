@@ -70,7 +70,7 @@ Remove dead code for simplicity.
 If you are uncertain of your code, you can temporarily disable it using [Feature Toggle](https://en.wikipedia.org/wiki/Feature_toggle).
 Removing code is always more rewarding than adding.
 
-# More info
+# More Info
 
 - [Laziness I: Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
 

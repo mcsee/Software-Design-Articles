@@ -102,7 +102,7 @@ Classes should know as little about each other as possible.
 
 [Code Smell 63 - Feature Envy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2063%20-%20Feature%20Envy/readme.md)
 
-# More info
+# More Info
 
 %[https://wiki.c2.com/?InappropriateIntimacy]
 

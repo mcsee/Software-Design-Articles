@@ -70,7 +70,7 @@ If your names collide use local names, extract your methods and avoid 'the' pref
 
 [Code Smell 38 - Abstract Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2038%20-%20Abstract%20Names/readme.md)
 
-# More info
+# More Info
 
 - [What is in a name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md).
 

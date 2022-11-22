@@ -80,7 +80,7 @@ This video describes the glitch
 
 [Code Smell 71 - Magic Floats Disguised as Decimals](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2071%20-%20Magic%20Floats%20Disguised%20as%20Decimals/readme.md)
 
-# More info
+# More Info
 
 - [Timestamp proposed changes](https://ieeexplore.ieee.org/document/805196)
 

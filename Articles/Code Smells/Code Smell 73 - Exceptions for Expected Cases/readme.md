@@ -62,7 +62,7 @@ The boundary between correct usage and wrong usage is blur like so many design p
 
 [Code Smell 26 - Exceptions Polluting](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2026%20-%20Exceptions%20Polluting/readme.md)
 
-# More info
+# More Info
 
 - [Don't use exceptions for flow control](https://wiki.c2.com/?DontUseExceptionsForFlowControl)
 

@@ -90,7 +90,7 @@ There are multiple strategies to deal with Legacy and coupled systems. We should
 
 - [Code Smell 08 - Long Chains Of Collaborations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2008%20-%20Long%20Chains%20Of%20Collaborations/readme.md)
 
-# More info
+# More Info
 
 - [How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
  

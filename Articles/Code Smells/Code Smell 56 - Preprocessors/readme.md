@@ -67,7 +67,7 @@ Bjarne Stroustrup, in his book *The Design and Evolution of C++*, regrets on the
 
 [Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
-# More info
+# More Info
 
 [Laziness I - Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
  

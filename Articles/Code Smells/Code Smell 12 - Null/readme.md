@@ -136,7 +136,7 @@ Most Linters can show null usages and warn us.
 
 - Null is the billion-dollar mistake. Yet, most program languages support them and libraries suggest its usage.
 
-# More info
+# More Info
 
 - [Null: The Billion-Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 

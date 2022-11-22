@@ -107,7 +107,7 @@ Avoid anemic models. Focus always on protocol instead of data.
 
 [Code Smell 15 - Missed Preconditions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2015%20-%20Missed%20Preconditions/readme.md)
 
-# More info
+# More Info
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Anemic_domain_model)
 - [Refactoring Guru](https://refactoring.guru/es/smells/data-class)

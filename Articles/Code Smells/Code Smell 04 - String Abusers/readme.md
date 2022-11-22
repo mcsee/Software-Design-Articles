@@ -70,7 +70,7 @@ Automated detection is not easy. If code uses too many string functions it can t
 
 - Primitive Obsession
 
-# More info
+# More Info
 
 # Tags
 

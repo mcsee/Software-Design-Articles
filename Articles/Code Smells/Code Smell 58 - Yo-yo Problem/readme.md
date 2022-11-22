@@ -103,7 +103,7 @@ We must refactor and flatten those classes.
 
 [Code Smell 137 - Inheritance Tree Too Deep](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20137%20-%20Inheritance%20Tree%20Too%20Deep/readme.md)
 
-# More info
+# More Info
 
 %[https://en.wikipedia.org/wiki/Yo-yo_problem]
 

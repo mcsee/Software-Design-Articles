@@ -4,7 +4,7 @@
 
 *We love to improve time and space complexity by guessing not real scenarios*
 
-> TL;DR: Don't optimize anything until you have a real use scenario benchmark.
+> TL;DR: Don't optimize anything until you have a real-use scenario benchmark.
 
 # Problems
 
@@ -18,17 +18,17 @@
 
 1. Cover your scenarios with tests.
 
-2. Write readable (and possible non-performant) code.
+2. Write readable (and possibly non-performant) code.
 
 3. Do a real benchmark with real user data. (No, iterating your code 100,000 times might not be a real use case).
 
-4. If you have conclusive data, you need to improve benchmark's found bottlenecks using [Pareto principle](https://en.wikipedia.org/wiki/Pareto_principle).
+4. If you have conclusive data, you need to improve the benchmark's found bottlenecks using the [Pareto principle](https://en.wikipedia.org/wiki/Pareto_principle).
 
-5. Attack the worst 20% problems causing 80% bad performance.
+5. Attack the worst 20% of problems causing 80% bad performance.
 
 # Context
 
-At university and online courses, we learn algorithms, data structures, and computational complexity before good design rules.
+In university and online courses, we learn algorithms, data structures, and computational complexity before good design rules.
 
 We tend to overestimate the (possible) performance problems and underestimate code readability and software lifetime.
 
@@ -77,7 +77,7 @@ for (innerIterator = 0; innerIterator < 3; innerIterator++) {
 
 This is a semantic smell. 
 
-We might find the code is harder to read.
+We might find the code harder to read.
 
 # Tags
 
@@ -85,7 +85,7 @@ We might find the code is harder to read.
 
 # Conclusion
 
-We need to stop optimizing for machines and start optimizing for humans readers and code maintainers.
+We need to stop optimizing for machines and start optimizing for human readers and code maintainers.
 
 We need to avoid programming languages designed for premature optimization and favor robust ones.
 

@@ -4,7 +4,7 @@
 
 *sort, doSort, basicSort, doBasicSort, primitiveSort, superBasicPrimitiveSort, who does the real work?*
 
-TL;DR: Shortcuts for mini wrappers shout for better solutions.
+> TL;DR: Shortcuts for mini wrappers shout for better solutions.
 
 # Problems
 
@@ -107,7 +107,7 @@ We can instruct our static linters to find wrapping methods if they follow conve
 
 We came across this kind of methods some time in our developer life, We smelled something was not OK with them. Now is the time to change them!
  
-# More info
+# More Info
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 

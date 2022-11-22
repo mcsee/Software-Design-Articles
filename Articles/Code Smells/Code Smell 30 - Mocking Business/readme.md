@@ -122,7 +122,7 @@ Mocks, like many other test doubles are excellent tools. Choosing wisely when to
 
 - Faker
 
-# More info
+# More Info
 
 https://medium.com/javascript-scene/mocking-is-a-code-smell-944a70c90a6a
 

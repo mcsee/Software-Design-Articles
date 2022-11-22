@@ -98,7 +98,7 @@ No good system was developed with these tools.
 
 [Code Smell 25 - Pattern Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2025%20-%20Pattern%20Abusers/readme.md)
  
-# More info
+# More Info
 
 [Laziness II - Code Wizards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
 

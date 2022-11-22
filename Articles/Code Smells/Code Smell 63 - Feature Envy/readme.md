@@ -87,7 +87,7 @@ Some linters can detect a sequential pattern of collaborations with another obje
 
 [Code Smell 89 - Math Feature Envy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2089%20-%20Math%20Feature%20Envy/readme.md)
 
-# More info
+# More Info
 
 - [Refactoring Guru](https://refactoring.guru/es/smells/feature-envy)
 

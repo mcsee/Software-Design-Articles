@@ -89,7 +89,7 @@ This is exactly the opposite to [Message Chain](https://github.com/mcsee/Softwar
 
 [Code Smell 114 - Empty Class](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20114%20-%20Empty%20Class/readme.md)
 
-# More info
+# More Info
 
 (Refactoring Guru)[https://refactoring.guru/smells/middle-man]
 

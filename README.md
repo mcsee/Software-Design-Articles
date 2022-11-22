@@ -324,7 +324,7 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 127 - Mutable Constants](/Articles/Code%20Smells/Code%20Smell%20127%20-%20Mutable%20Constants/readme.md)
 
-* [Code Smell 128 - Non English Coding](/Articles/Code%20Smells/Code%20Smell%20128%20-%20Non%20English%20Coding/readme.md)
+* [Code Smell 128 - Non-English Coding](/Articles/Code%20Smells/Code%20Smell%20128%20-%20Non%20English%20Coding/readme.md)
 
 * [Code Smell 129 - Structural Optimizations](/Articles/Code%20Smells/Code%20Smell%20129%20-%20Structural%20Optimizations/readme.md)
 
@@ -429,6 +429,12 @@ In this repository, you will find many articles related to Software Design
 * [Code Smell 179 - Known Bugs](/Articles/Code%20Smells/Code%20Smell%20179%20-%20Known%20Bugs/readme.md)
 
 * [Code Smell 180 - BitWise Optimizations](/Articles/Code%20Smells/Code%20Smell%20180%20-%20BitWise%20Optimizations/readme.md)
+
+* [Code Smell 181 - Nested Classes](/Articles/Code%20Smells/Code%20Smell%20181%20-%20Nested%20Classes/readme.md)
+
+* [Code Smell 182 - Over Generalization](/Articles/Code%20Smells/Code%20Smell%20182%20-%20Over%20Generalization/readme.md)
+
+* [Code Smell 183 - Obsolete Comments](/Articles/Code%20Smells/Code%20Smell%20183%20-%20Obsolete%20Comments/readme.md)
 
 ### Blogging
 

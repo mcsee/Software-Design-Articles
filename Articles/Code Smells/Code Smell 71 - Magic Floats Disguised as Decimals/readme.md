@@ -76,7 +76,7 @@ JavaScript is 30 years younger, and it has the same immaturity problems.
 
 [Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2069%20-%20Big%20Bang%20(JavaScript%20Ridiculous%20Castings)/readme.md)
 
-# More info
+# More Info
 
 Here is the technical (and accidental) explanation.
 
