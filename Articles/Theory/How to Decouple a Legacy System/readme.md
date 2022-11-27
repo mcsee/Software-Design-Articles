@@ -90,7 +90,7 @@ After having covered (for now manually) the necessary cases we can start with th
 
 ## 3 — The class name does not represent a real name in the bijection.
 
-Helpers do not exist in the real world, nor should they exist in any computable model.
+Helpers do not exist in the real-world, nor should they exist in any computable model.
 
 Let’s think about the responsibilities to choose the name in [MAPPER](https://codeburst.io/what-is-software-9a78c1172cf9).
 
@@ -105,7 +105,7 @@ class SupervisedLearningAlgorithm extends Singleton {
 }
 ```
 
-For now the name is good enough, and it gives us an idea of the responsibilities of your instances in the real world.
+For now the name is good enough, and it gives us an idea of the responsibilities of your instances in the real-world.
 
 ## 4 — The class is a singleton.
 
@@ -203,7 +203,7 @@ In this way, the strategy is **immutable** in its essence, with all the benefits
 
 ## 6 — We find a design pattern.
 
-The process, according to bijection, models a real world process. This seems to fit the [**Command**](https://en.wikipedia.org/wiki/Command_pattern)pattern.
+The process, according to bijection, models a real-world process. This seems to fit the [**Command**](https://en.wikipedia.org/wiki/Command_pattern)pattern.
 
 However, we believe that it is closer to a [**method object**](https://refactoring.guru/replace-method-with-method-object) where there is an ordered sequence of executions, modeling the different steps of an algorithm.
 

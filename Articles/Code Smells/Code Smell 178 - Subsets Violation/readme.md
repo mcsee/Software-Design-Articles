@@ -75,7 +75,7 @@ This is a semantic smell.
 
 # Conclusion
 
-We need to be loyal to the bijection of the real world. 
+We need to be loyal to the bijection of the real-world. 
 
 Subsets are very important for early validations and fail fast principle.
 

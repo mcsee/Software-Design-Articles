@@ -42,7 +42,7 @@ They are a particular case of global references and prevent the correct unit tes
 
 In this way, we can replace the configuration on tests and have full control and no side effects.
 
-[Code Smell 29 - Settings - Configs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2029%20-%20Settings%20-%20Configs/readme.md)
+[Code Smell 29 - Settings / Configs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2029%20-%20Settings%20-%20Configs/readme.md)
 
 ### Hidden Assumptions
 
@@ -82,7 +82,7 @@ Ifs (and hence cases) should be avoided unless these conditions are business rul
 
 A business rule *'A bonus should be paid to employees with 3 or more years at a company'* can be safely stated by an If clause but rules such as *'If the employee's position is junior then pay them 10.000' *shouldn't since this is not essential on the business rule but accidental therefore should be treated with polymorphism.
 
-In the real world, employees are aware of their position, but they are not usually aware of their age in the company.
+In the real-world, employees are aware of their position, but they are not usually aware of their age in the company.
 
 [Code Smell 36 - Switch/case/elseif/else/if statements](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md)
 

@@ -47,7 +47,7 @@ People out of software development cannot explain why we use this branching sent
 
 Before we move on and remove IF sentences we should decide if its an *essential* one or an *accidental* If.
 
-To check this out we will look for answers in real world through bijection.
+To check this out we will look for answers in real-world through bijection.
 
 [The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
@@ -84,7 +84,7 @@ We must understand whether it represents a business rule (*essential*) or an imp
 
 In the case above we will honor our [bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md). So we will NOT replace the if.
 
-> People In real world describe age constraints in natural language using **IFs**
+> People In real-world describe age constraints in natural language using **IFs**
 
 ## Accidental Ifs
 
@@ -118,7 +118,7 @@ jane.watchMovie(theExorcist);
 // Jane cannot watch the exorcist since she is 12
 ```
 
-The movie rating **IF** is not related to a **real world If** but to accidental (and coupled) implementation.
+The movie rating **IF** is not related to a **real-world If** but to accidental (and coupled) implementation.
 
 Our design decision was to model *ratings* with *strings*.
 

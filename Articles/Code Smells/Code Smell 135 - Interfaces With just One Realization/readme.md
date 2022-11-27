@@ -79,7 +79,7 @@ This rule applies to inter system definition and business logic.
 
 Some frameworks define an Interface as protocol to be fulfilled.
 
-On our [bijections](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) we need to model existing real world protocols.
+On our [bijections](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) we need to model existing real-world protocols.
 
 Interfaces are the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) correspondence to protocol.
 

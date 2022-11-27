@@ -20,9 +20,9 @@ In this article, we will try to show some present problems with nomenclature in 
 
 All objects help, There are no “non-supportive” objects.
 
-> In the real world there are no helpers.
+> In the real-world there are no helpers.
 
-We have a single design rule. If a concept does not exist in the real world and we cannot explain it to a domain expert, that object must not exist.
+We have a single design rule. If a concept does not exist in the real-world and we cannot explain it to a domain expert, that object must not exist.
 
 ![Lifeguard](https://cdn.hashnode.com/res/hashnode/image/upload/v1599773186331/h7PjoVYs2.jpeg)
 
@@ -40,7 +40,7 @@ There are no managers.
 
 There are objects with different responsibilities.
 
-In the real world, there are no managers (unless we are modeling job roles).
+In the real-world, there are no managers (unless we are modeling job roles).
 
 > Rule 10: Managers do not exist.
 
@@ -72,7 +72,7 @@ All these names are very bad. There are  [humorous sites](https://projects.haykr
 
 As we saw in previous articles, having _setters_ and _getters_ leads to encapsulation violations and misassignments of responsibilities. We should be suspicious of all _getXXX()_ or _setXXX()_ functions.
 
-We do not usually find these responsibilities in domain entities in the bijection to the real world. There are no real _set()_ and _get()_ responsibilities in business models.
+We do not usually find these responsibilities in domain entities in the bijection to the real-world. There are no real _set()_ and _get()_ responsibilities in business models.
 
 [Nude Models - Part I: Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20I Setters/readme.md)
 
@@ -104,7 +104,7 @@ Functions that start with _isXXXX()_ are usually implementative.
 
 They ask for a type (avoiding the double dispatch pattern), generate coupling, and are always followed by an if.
 
-As a general rule, we should restrict the use of Booleans to situations where such Booleans exist in the real world.
+As a general rule, we should restrict the use of Booleans to situations where such Booleans exist in the real-world.
 
 As a corollary, thinking on the MAPPER, distrust the _isXXX()_ methods.
 

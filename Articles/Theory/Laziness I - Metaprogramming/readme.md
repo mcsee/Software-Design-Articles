@@ -30,19 +30,19 @@ When we use meta-programming we speak about the **Metalanguage** and the **Meta 
 
 This extra layer allows us to reason and think about the relationship between the entities of reality in a higher-level language.
 
-In doing so we break the bijection we must use to observe reality since in the real world there are no **models** or **meta-models**, only **business entities** that we are speaking about.
+In doing so we break the bijection we must use to observe reality since in the real-world there are no **models** or **meta-models**, only **business entities** that we are speaking about.
 
 [The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 When we are attacking a business problem in real life, it is very difficult for us to justify references to meta entities because such meta entities **do not exist**, which means that we do not remain faithful to the only rule of a bijection between our objects and reality.
 
-![The metamodel is not present in the real world](The%20metamodel%20is%20not%20present%20in%20the%20real%20world.png)
+![The metamodel is not present in the real-world](The%20metamodel%20is%20not%20present%20in%20the%20real%20world.png)
 
 *The metamodel is not present in real-world*
 
-It will be very difficult for us to justify the presence of such **extra** objects and such nonexistent responsibilities in the real world.
+It will be very difficult for us to justify the presence of such **extra** objects and such nonexistent responsibilities in the real-world.
 
-Programmers like to [think about our models](https://en.wikipedia.org/wiki/Bertrand_Russell). This is good practice because it allows us to search for generalizations as long as **they exist** in that real world.
+Programmers like to [think about our models](https://en.wikipedia.org/wiki/Bertrand_Russell). This is good practice because it allows us to search for generalizations as long as **they exist** in that real-world.
 
 ### Open but not so much
 
@@ -208,7 +208,7 @@ Serialization and persistence can be used with meta-programming because they are
 
 Meta-programming is something we should avoid at all costs, instead of using abstractions that exist in the real-world and that we should only go looking for patiently.
 
-The search for such abstractions takes a much deeper understanding of the domain than what we came out to obtain, and in the face of the need to learn a new domain, programmers in general, due to laziness, we tend to invent gadgets and mechanisms instead of looking for them in the real world.
+The search for such abstractions takes a much deeper understanding of the domain than what we came out to obtain, and in the face of the need to learn a new domain, programmers in general, due to laziness, we tend to invent gadgets and mechanisms instead of looking for them in the real-world.
 
 * * *
 

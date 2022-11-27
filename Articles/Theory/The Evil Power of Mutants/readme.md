@@ -106,7 +106,7 @@ function setParty($aParty) {
 // .....
 ```
 
-This movement is mutable (despite not being so in the real world). We must ensure that it behaves as our observed entity.
+This movement is mutable (despite not being so in the real-world). We must ensure that it behaves as our observed entity.
 
 [Gist Url]: # (https://gist.github.com/mcsee/9247c16a3af3a743b2c60ca479762a05)
 ```php
@@ -129,9 +129,9 @@ final class Movement {
 
 Simple, elegant, immutable, without dataOk, always valid, without setters or getters.
 
-Movement is valid from inception, just as it happens in the real world.
+Movement is valid from inception, just as it happens in the real-world.
 
-Now let's assume that a business rule prevents us from making movements between the same party and counterparty (this happens in the real world).
+Now let's assume that a business rule prevents us from making movements between the same party and counterparty (this happens in the real-world).
 
 In our first version, this control would be impossible. In the immutable version we only represent real situations, it will be enough to prevent the construction of these objects.
 
@@ -153,7 +153,7 @@ function __construct($aParty, $aCounterParty, $anAmount, $aDate) {
 ## Times are changing
 
 We are going to continue the previous example focusing on the date on which said the transaction was made.
-In the real world, a date represents a day on an arbitrary calendar.
+In the real-world, a date represents a day on an arbitrary calendar.
 
 ![Walking Dates](Walking%20Dates.jpg)
 
@@ -164,7 +164,7 @@ If we create a movement in bitcoins for [May 12, 2020's halving event](https://w
 <? $halvingTransaction = new Movement($wallet, $destination, $bitcoins, Date(12,5,2020));
 ```
 
-But this violates our unique design principle of maintaining a bijection with the real world. Let's be true to our one rule.
+But this violates our unique design principle of maintaining a bijection with the real-world. Let's be true to our one rule.
 
 [Gist Url]: # (https://gist.github.com/mcsee/339a71cdb67c3e398ada290327c1210a)
 ```php
@@ -179,7 +179,7 @@ $halvingTransaction = new Movement($wallet, $destination, $bitcoins, $halvingDay
 
 We model reality's entities such as a day of a month, a calendar year, and a date, forgetting about arbitrary implementations with integers because bijection and declarativity are more important than performance and laziness.
 
-Let us dwell for a minute on the mutability of a date. One hopes that a given date will never mutate because it does not do so in the real world. No non-computer person would ever think of changing a date.
+Let us dwell for a minute on the mutability of a date. One hopes that a given date will never mutate because it does not do so in the real-world. No non-computer person would ever think of changing a date.
 
 Let us analyze by the method of reduction to the absurd what would happen if we allow a date to change.
 
@@ -231,7 +231,7 @@ Corollary 2
 
 Corollary 3
 
-> Getters should not exist (unless they exist in the real world and then the bijection is valid). It is not the responsibility of any real entity to reply to a getXXX() message.
+> Getters should not exist (unless they exist in the real-world and then the bijection is valid). It is not the responsibility of any real entity to reply to a getXXX() message.
 
 * * *
 

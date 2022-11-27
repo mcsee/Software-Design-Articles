@@ -1,6 +1,6 @@
-# Code Smell 29 - Settings - Configs
+# Code Smell 29 - Settings / Configs
 
-![Code Smell 29 - Settings - Configs](Code%20Smell%2029%20-%20Settings%20-%20Configs.jpg)
+![Code Smell 29 - Settings / Configs](Code%20Smell%2029%20-%20Settings%20-%20Configs.jpg)
 
 *Changing system behavior in a control board is the customer's dream. And the software engineer's nightmare.*
  

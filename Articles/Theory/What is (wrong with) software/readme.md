@@ -94,7 +94,7 @@ It allows us to reason and predict behaviors in the reality we are modeling.
 
 Because it has to reproduce conditions that occur in an observable environment.
 
-The ultimate goal is to forecast the real world, like any simulation.
+The ultimate goal is to forecast the real-world, like any simulation.
 
 * * * * *
 

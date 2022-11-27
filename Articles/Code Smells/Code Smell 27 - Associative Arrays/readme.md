@@ -133,9 +133,9 @@ We should avoid them on our systems.
 
 When creating objects, we must not think of them as *data*. This is a common misconception.
 
-We should stay loyal to our [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) and discover real world objects.
+We should stay loyal to our [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) and discover real-world objects.
 
-Most associative arrays have cohesion and represent real world entities, and we must treat them as first class objects.
+Most associative arrays have cohesion and represent real-world entities, and we must treat them as first class objects.
 
 # Relations
 

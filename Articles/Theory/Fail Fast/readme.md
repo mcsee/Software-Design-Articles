@@ -77,7 +77,7 @@ In this way, we will fail very close to the place where the fault occurs, and we
 
 The best way to fail fast is to properly represent objects while respecting our only design rule:
 
-> Bijection with the real world.
+> Bijection with the real-world.
 
 A misrepresentation of a geographic coordinate using an array with two integers is not going to know how to "defend" itself from possible invalid situations.
 

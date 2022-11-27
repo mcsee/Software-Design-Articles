@@ -74,7 +74,7 @@ The [agile manifesto](https://agilemanifesto.org/) is based on four pillars:
 
 4 **Responding to change** over following a plan
 
-*The theory developed is a process that does not have an initial plan or an end goal. It is an incremental spiral where theory adjusts to needs as it learns from the real world.*
+*The theory developed is a process that does not have an initial plan or an end goal. It is an incremental spiral where theory adjusts to needs as it learns from the real-world.*
 
 ## Axioms don't matter
 
@@ -150,7 +150,7 @@ Photo by [Roman Mager](https://unsplash.com/@roman_lazygeek) on [Unsplash](https
 
 ## Bad decisions
 
-Throughout the theory-building process, those involved make decisions so that the model corresponds to the [bijection to the real world](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md]). These decisions are not explicitly documented.
+Throughout the theory-building process, those involved make decisions so that the model corresponds to the [bijection to the real-world](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md]). These decisions are not explicitly documented.
 
 Observing the result without knowing why a design decision was made is another limitation that a theory can explain but the built software cannot.
 

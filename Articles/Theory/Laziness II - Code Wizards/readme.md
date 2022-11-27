@@ -14,7 +14,7 @@ There are several reasons:
 
 a) We have not yet reached the level of abstraction and we have to teach the interpreter to make syntactic manipulations on our models.
 
-If there is a certain redundancy, the usual approach would be to model that redundancy by searching in real world against the abstract concept we should match.
+If there is a certain redundancy, the usual approach would be to model that redundancy by searching in real-world against the abstract concept we should match.
 
 [What is (wrong with) software?](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
@@ -78,7 +78,7 @@ The trivial solution is to go, with the help of our favorite domain expert, to d
 ## Conclusions
 
 Dynamic code generators were a fad at a time when productivity was measured based on the lines of code generated.
-To avoid them, we must stay true to the rule of bijection and look for abstractions within the real world in the problem domain.
+To avoid them, we must stay true to the rule of bijection and look for abstractions within the real-world in the problem domain.
 
 Part of the objective of this series of articles is to generate spaces for debate and discussion on software design. 
 We look forward to comments and suggestions on this article.

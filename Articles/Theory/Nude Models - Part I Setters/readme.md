@@ -52,7 +52,7 @@ Same point can be represented in two different ways
 
 The polar representation (√2, π/8) is equivalent to the Cartesian (1, 1)
 
-Since it is the **same point** in real world, it must **necessarily** be represented by the same object in our bijection.
+Since it is the **same point** in real-world, it must **necessarily** be represented by the same object in our bijection.
 
 [The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
@@ -146,7 +146,7 @@ If we were working with the old rule:
 
 This article assumes that we are eager to build, with declarative objects, models where implementation hides behind the objects’ responsibilities.
 
-These responsibilities will be the same on the bijection between these objects and the real world.
+These responsibilities will be the same on the bijection between these objects and the real-world.
 
 [What is (wrong with) software?](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
@@ -161,13 +161,13 @@ Let’s look at setters and getters as separate problems.
 
 ## Setters
 
-Changing the internal state of an object violates the principle of immutability. This is discouraged since, in the real world, objects do not mutate in their **essence**.
+Changing the internal state of an object violates the principle of immutability. This is discouraged since, in the real-world, objects do not mutate in their **essence**.
 
 [The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 > The only method allowed to write to attributes is the atomic initialization. From then on, the variables should be read-only.
 
-If we stay true to bijection, we will notice that there are never messages with the form **_setAttribute_**..() in the real world. These are implementation tricks programmers use, and they break good models.
+If we stay true to bijection, we will notice that there are never messages with the form **_setAttribute_**..() in the real-world. These are implementation tricks programmers use, and they break good models.
 
 > We will never be able to explain to a business expert what responsibility these methods have from the name.
 
@@ -224,7 +224,7 @@ final class Polygon {
 }
 ```
 
-From now on, it will be impossible to create a polygon with less than three sides, thus fulfilling the bijection with the real world of Euclidean geometry.
+From now on, it will be impossible to create a polygon with less than three sides, thus fulfilling the bijection with the real-world of Euclidean geometry.
 
 Unless we use our setter …
 
@@ -251,7 +251,7 @@ The correct answer, according to our design axioms, is the second.
 
 # Repeated or absent logic of invariant verification
 
-Many objects have invariants that guarantee their cohesion and the validity of the representation to maintain real world bijection. Allowing partial setting (an attribute) would force us to control representation invariants in **more than one place**, generating **repeating code**, which is always error-prone when modifying a reference and ignoring other references.
+Many objects have invariants that guarantee their cohesion and the validity of the representation to maintain real-world bijection. Allowing partial setting (an attribute) would force us to control representation invariants in **more than one place**, generating **repeating code**, which is always error-prone when modifying a reference and ignoring other references.
 
 # Code generated without control
 

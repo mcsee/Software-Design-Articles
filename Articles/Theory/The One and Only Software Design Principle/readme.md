@@ -20,7 +20,7 @@ We are going to make an exercise on object-oriented software design by stating j
 
 ![model](https://cdn.hashnode.com/res/hashnode/image/upload/v1598842979012/j-xiUt-jT.png)
 
-The relationship between objects of the model and entities of the real world is 1: 1
+The relationship between objects of the model and entities of the real-world is 1: 1
 
 We can see the justification of this model in this article:
 
@@ -42,7 +42,7 @@ Monkey and banana experiment
 
 ## Models to the rescue
 
-When building models of any kind we want to simulate the conditions that occur in the observed real world so that we can follow each element of interest in our simulation and stimulate it to observe the changes in the same way that they happen in the real world.
+When building models of any kind we want to simulate the conditions that occur in the observed real-world so that we can follow each element of interest in our simulation and stimulate it to observe the changes in the same way that they happen in the real-world.
 
 Meteorologists make mathematical models to predict and anticipate the behavior of climate and most scientific disciplines are based on these simulations. 
 
@@ -58,7 +58,7 @@ Let's try to prove by the absurd what would happen if we did not comply with the
 
 Case 1) We have an object in our computable model to represent more than one real-world entity. For example, many programming languages ​​model algebraic measures using the only scalar magnitude.
 
-Then we can represent 10 meters and 10 inches (two completely different entities in the real world) by a single object (the number 10).
+Then we can represent 10 meters and 10 inches (two completely different entities in the real-world) by a single object (the number 10).
 
 We could add them together obtaining that in our model the number 10 (representing 10 meters) the number 10 (representing 10 inches) is equal to the number 20 (representing who knows what).
 
@@ -75,9 +75,9 @@ https://www.latimes.com/archives/la-xpm-1999-oct-01-mn-17288-story.html
 The probe exploded by mixing different units of measurement
 
 Case 2) Our computable model represents the same real-world entity with two objects.
-Suppose we have in our observable real world an athlete John Smith who competes in one discipline but who is also a judge in another athletic discipline.
+Suppose we have in our observable real-world an athlete John Smith who competes in one discipline but who is also a judge in another athletic discipline.
 
-A single person in the real world should be a single object in our computable model. We need to model just the minimum behavior to fulfill our partial simulation.
+A single person in the real-world should be a single object in our computable model. We need to model just the minimum behavior to fulfill our partial simulation.
 
 If we have two different objects (a competitor and a judge) that represent Jane Doe, we will sooner or later have inconsistencies by wanting to assign some responsibility to one of the two and not see it reflected in the other.
 

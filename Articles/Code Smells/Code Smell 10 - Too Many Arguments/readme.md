@@ -99,7 +99,7 @@ Most linters warn when the arguments list is too large.
 
 # Exceptions
 
-- Operations in real world needing not cohesive collaborators.
+- Operations in real-world needing not cohesive collaborators.
 
 # Tags
 
@@ -108,7 +108,7 @@ Most linters warn when the arguments list is too large.
 # Conclusion
 
 Relate arguments and group them.
-Always favor real world mappings. Find in real world how to group the arguments in cohesive objects.
+Always favor real-world mappings. Find in real-world how to group the arguments in cohesive objects.
 
 If a function gets too many arguments, some of them might be related to the class construction. This is a design smell too.
 

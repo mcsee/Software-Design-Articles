@@ -14,7 +14,7 @@ If we ask a domain expert to describe an entity he/she would hardly tell it is *
 
 - No Encapsulation.
 
-- No [mapping](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) to real world entities.
+- No [mapping](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) to real-world entities.
 
 - Duplicate Code.
 
@@ -111,8 +111,8 @@ Avoid anemic models. Focus always on protocol instead of data.
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Anemic_domain_model)
 - [Refactoring Guru](https://refactoring.guru/es/smells/data-class)
-- [Nude Models — Part I : Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20I Setters/readme.md)
-- [Nude Models — Part II : Getters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20II Getters/readme.md)
+- [Nude Models - Part I : Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20I Setters/readme.md)
+- [Nude Models - Part II : Getters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20II Getters/readme.md)
 - [How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 
 * * *

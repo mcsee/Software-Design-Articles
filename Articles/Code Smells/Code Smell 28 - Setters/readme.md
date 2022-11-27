@@ -158,7 +158,7 @@ But it has all drawbacks and considerations already mentioned.
 # Conclusion
 
 Creating incomplete and anemic objects is a very bad practice violating 
-mutability, fail fast principle and real world [bijections](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
+mutability, fail fast principle and real-world [bijections](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
  
 # Relations
 

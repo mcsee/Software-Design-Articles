@@ -26,7 +26,7 @@ Let’s be pragmatic as always, and look at the arguments for and against its us
 As we saw in previous articles, every object in our computable model has to be [mapped](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) on a **1 to 1** relationship with a real-world entity.
 
 Singletons are often linked to objects that need to be unique. As usual we will have to distinguish among the objects that are **essentially** unique (for problem domain drivers) and differentiate them from the **accidentally** unique ones regarding implementation reasons, efficiency, resource consumption, global access, etc.
-Most **accidentally** unique objects are not present in the real world, and we will see later on that the presumably **essentially** unique ones may not be so if we consider different contexts, environments, or situations.
+Most **accidentally** unique objects are not present in the real-world, and we will see later on that the presumably **essentially** unique ones may not be so if we consider different contexts, environments, or situations.
 
 [The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
@@ -119,7 +119,7 @@ If we use the TDD development technique, objects are defined purely and exclusiv
 Trying to create unit tests in an existing system coupled to a Singleton can be an almost impossible task.
 
 ### 10. Unique concepts are contextual
-When the pattern is stated it is usually accompanied by some idea that in the real world seems rather unique. For example, if we want to model the behavior of **God** according to the vision of Christianity, there could not be more than one **God**. But these rules are relative to the context and subjective vision of each religion. Various belief systems may coexist in the same world with their own gods (some monotheistic and other polytheistic beliefs).
+When the pattern is stated it is usually accompanied by some idea that in the real-world seems rather unique. For example, if we want to model the behavior of **God** according to the vision of Christianity, there could not be more than one **God**. But these rules are relative to the context and subjective vision of each religion. Various belief systems may coexist in the same world with their own gods (some monotheistic and other polytheistic beliefs).
 
 ![1_1UifacKmCXcooGNdkuL9KA[1].png](https://cdn.hashnode.com/res/hashnode/image/upload/v1598399753458/4F_Zy5fo1.png)
 

@@ -84,7 +84,7 @@ According to the popular myth, we can't use TDD on existing systems. This is not
 
 [How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 
-## The real world example
+## The real-world example
 
 * We have a ticketing system needing to showcase several artists performing live-streaming during COVID-19 pandemic.
 

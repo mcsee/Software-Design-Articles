@@ -30,7 +30,7 @@ Names are very important. They indicate the role that links the objects with the
 
 [What is (wrong with) software?](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
-Through this [bijective](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) relationship we will know who he is representing in the real world.
+Through this [bijective](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) relationship we will know who he is representing in the real-world.
 
 [The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
@@ -45,7 +45,7 @@ A single rule governs our designs:
 
 > Always comply with the bijection of our MAPPER.
 
-This is true in the particular case of names. When looking for a responsibility in the real world we will get the function name. then we will assign it to our objects in the computable model.
+This is true in the particular case of names. When looking for a responsibility in the real-world we will get the function name. then we will assign it to our objects in the computable model.
 
 ## Context is King
 

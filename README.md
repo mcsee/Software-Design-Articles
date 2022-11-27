@@ -126,7 +126,7 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 28 - Setters](/Articles/Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
 
-* [Code Smell 29 - Settings - Configs](/Articles/Code%20Smells/Code%20Smell%2029%20-%20Settings%20-%20Configs/readme.md)
+* [Code Smell 29 - Settings / Configs](/Articles/Code%20Smells/Code%20Smell%2029%20-%20Settings%20-%20Configs/readme.md)
 
 * [Code Smell 30 - Mocking Business](/Articles/Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md)
 
@@ -435,6 +435,8 @@ In this repository, you will find many articles related to Software Design
 * [Code Smell 182 - Over Generalization](/Articles/Code%20Smells/Code%20Smell%20182%20-%20Over%20Generalization/readme.md)
 
 * [Code Smell 183 - Obsolete Comments](/Articles/Code%20Smells/Code%20Smell%20183%20-%20Obsolete%20Comments/readme.md)
+
+* [Code Smell 184 - Exception Arrow Code](/Articles/Code%20Smells/Code%20Smell%20184%20-%20Exception%20Arrow%20Code/readme.md)
 
 ### Blogging
 

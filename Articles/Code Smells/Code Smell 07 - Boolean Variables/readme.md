@@ -14,7 +14,7 @@
 
 # Solutions
 
-- If Boolean maps to a real world entity is safe.
+- If Boolean maps to a real-world entity is safe.
 Otherwise, model as a State to favor Extensibility. 
 This also follows [Open/Closed Principle](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle).
 
@@ -58,7 +58,7 @@ Automatic detection can warn for boolean usage, but this can yield false positiv
 
 # Exceptions
 
--  Real world true/false rules
+-  Real-world true/false rules
 
 # Relations
 

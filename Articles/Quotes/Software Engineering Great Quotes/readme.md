@@ -1843,7 +1843,7 @@ _James A. Ward_
 
 * * *
 
-> A human organization is just as much an information system as any computer system. It is almost certainly more complex, but the same fundamental ideas apply. Things that are fundamentally difficult, like concurrency and coupling, are difficult in the real world of people, too. 
+> A human organization is just as much an information system as any computer system. It is almost certainly more complex, but the same fundamental ideas apply. Things that are fundamentally difficult, like concurrency and coupling, are difficult in the real-world of people, too. 
 
 _Dave Farley_
 
@@ -3245,7 +3245,7 @@ _Robert Martin_
 
 _Austin Freeman_
 
-[Code Smell 29 - Settings - Configs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2029%20-%20Settings%20-%20Configs/readme.md)
+[Code Smell 29 - Settings / Configs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2029%20-%20Settings%20-%20Configs/readme.md)
 
 * * *
 

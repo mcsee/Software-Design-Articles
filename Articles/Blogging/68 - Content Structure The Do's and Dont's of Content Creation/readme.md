@@ -194,13 +194,13 @@ Don't *abuse* styling.
 
 People **get tired** trying to *find* their **meaning**.
 
-# Avoid Passive Voice
+## Avoid Passive Voice
 
 Passive sentences *are read* slower than active ones.
 
 You *read* active sentences faster than passive ones.
 
-# Don't Write as You Speak
+## Don't Write as You Speak
 
 We talk and write using different structures and grammar.
 

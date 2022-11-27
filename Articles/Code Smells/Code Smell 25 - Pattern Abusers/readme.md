@@ -16,7 +16,7 @@
 
 1. Measure the tradeoff of patterns usage.
 
-2. Create solutions based on real world names ([essential](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md)) over architecture (accidental).
+2. Create solutions based on real-world names ([essential](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md)) over architecture (accidental).
 
 3. Choose [good names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md).
 
