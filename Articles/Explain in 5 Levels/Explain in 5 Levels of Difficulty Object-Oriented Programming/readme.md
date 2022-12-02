@@ -12,7 +12,7 @@ I will explain Object-Oriented Programming (OOP) in Five Levels (a child, a teen
 
 [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) is a programming style based on the idea of objects.
 
-An object is a [representation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) of something in the real world.
+An object is a [representation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) of something in the real-world.
 
 OOP makes it easy to create programs that can [model real-world objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md). 
 

@@ -28,7 +28,7 @@ A good software principle challenges us to have high cohesion. All the objects s
 
 The least cohesive object of any system is our wildcard: null
 
-![null biyection](Null:%20The%20Billion%20Dollar%20Mistake.png)
+![null bijection](Null:%20The%20Billion%20Dollar%20Mistake.png)
 
 Null is mapped to several different concepts in the real-world
 

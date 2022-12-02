@@ -2,7 +2,7 @@
 
 ![Code Smell 50 - Object Keys](Code%20Smell%2050%20-%20Object%20Keys.jpg)
 
-*Primary keys, IDs, references. The first attribute we add to our objects. They don't exist in the real world.*
+*Primary keys, IDs, references. The first attribute we add to our objects. They don't exist in the real-world.*
 
 # Problems
 

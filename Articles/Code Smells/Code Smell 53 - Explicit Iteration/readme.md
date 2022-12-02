@@ -51,7 +51,7 @@ There might be false positives. See exceptions below.
 
 If the problem domain needs the elements to be bijected to natural numbers like indices, the first solution is adequate.
 
-Remember all time to find real world analogies.
+Remember all time to find real-world analogies.
 
 [The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 

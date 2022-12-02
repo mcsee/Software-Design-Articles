@@ -82,7 +82,7 @@ Concepts such as software design, life cycle models, teamwork and building a sha
 
 We do not know for sure what the path of machine automation will be, but we can predict that the most creative and engineering part of our profession should be one of the last bastions to fall before automation.
 
-The next generation of software developers will have to focus their skills on design, modeling the real world, and creating abstractions that evolve along with the problem domain to avoid building obsolete and legacy software (19).
+The next generation of software developers will have to focus their skills on design, modeling the real-world, and creating abstractions that evolve along with the problem domain to avoid building obsolete and legacy software (19).
 
 This strategic approach is not limited only to development careers. In data science there are similar problems: data scientists focused on optimizing existing algorithms instead of training generalist professionals, able to understand the academic and commercial problems of our country with a battery of solutions and good criteria to determine which to choose in each situation. They should be trained to model the real problem and evaluate different possible solutions.
 
@@ -119,7 +119,7 @@ Our professionals must have basic knowledge of programming, algorithms, complexi
 
 Above all, they must learn to make designs based on continuous integration and continuous deployment models, with automated tests, using agile techniques such as Test-Driven Development. (23)
 
-The software produced must be declarative and based on the desired behavior (and specified in the automated functional tests); we must stop thinking in the reigning paradigm of the 60s and 70s, based on data types and file and string manipulations, to focus on high-level models that accompany the simulation of any aspect of the real world that we want to represent to solve a certain problem. (24)
+The software produced must be declarative and based on the desired behavior (and specified in the automated functional tests); we must stop thinking in the reigning paradigm of the 60s and 70s, based on data types and file and string manipulations, to focus on high-level models that accompany the simulation of any aspect of the real-world that we want to represent to solve a certain problem. (24)
 
 The techniques of design based on behavior are agnostic with respect to the accidental technology of fashion and this allows an engineer trained with these concepts 30 years ago to be able to make concrete developments even today.
 

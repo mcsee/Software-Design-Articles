@@ -31,7 +31,7 @@ We also underestimate the fact we can be on both sides of the counter.
 alert("Cancel the appointment?", "Yes", "No");
 
 // No consequences
-// Options not clear
+// The options not clear
 ```
 
 ## Right
@@ -43,8 +43,8 @@ alert("Cancel the appointment? \n" +
       "Cancel Appointment", 
       "Keep Editing");
 
-// Consequences are clear
-// Choice options have context
+// The consequences are clear
+// The choice options have context
 ```
 
 # Detection

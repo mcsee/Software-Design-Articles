@@ -5,7 +5,7 @@ final class GeographicCoordinate {
     function distanceTo(GeographicCoordinate $coordinate) {
     }
 
-    function pointInPoligon(Polygon $polygon) {
+    function pointInPolygon(Polygon $polygon) {
         // ....
     }
 }

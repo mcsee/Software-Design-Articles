@@ -52,7 +52,7 @@ sequence = nextNumber()
 
 # Detection
 
-Timestamps are very popular on many languages and are ubiquitous. 
+Timestamps are very popular in many languages and are ubiquitous. 
 
 We need to use them just to model... timestamps.
 

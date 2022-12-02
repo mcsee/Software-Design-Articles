@@ -1279,7 +1279,7 @@ And we learn by practicing katas like this one.
 
 We end up with 2 compact classes where we defined our business model.
 
-This small model has a real 1:1 bijection in the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) to the real world.
+This small model has a real 1:1 bijection in the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) to the real-world.
 
 It is ready to evolve.
 

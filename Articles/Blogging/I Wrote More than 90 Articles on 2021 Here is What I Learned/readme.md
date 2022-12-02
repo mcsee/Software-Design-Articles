@@ -34,7 +34,7 @@ Below you will find many resources and tools, and my method and tips for writing
 
 - I proofread all my articles with HemingwayApp, Grammarly, and Google Translate (all free) 🔡
 
-- I parse the markdown in my articles and convert them to HTML to republish on many platforms at once. 
+- I parse the markdown of my articles and convert it into HTML to republish on many platforms at once. 
 
 - I heavily use the *canonical URL* tag to avoid search penalties. 🔎
 

@@ -2,7 +2,7 @@ public class Printer {
   public void print() { }
 }
 
-public class DateToStringFormater {
+public class DateToStringFormatter {
   public void format() { }
 }
 

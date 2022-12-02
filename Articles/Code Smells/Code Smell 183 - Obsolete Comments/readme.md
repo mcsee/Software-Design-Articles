@@ -2,7 +2,7 @@
             
 ![Code Smell 183 - Obsolete Comments](Code%20Smell%20183%20-%20Obsolete%20Comments.jpg)
 
-*Comments are a code smell. Obsolete comments are a real danger*
+*Comments are a code smell. Obsolete comments are a real danger and nobody maintains what can't be executed.*
 
 > TL;DR: Don't trust comments. They are dead.
 
@@ -34,15 +34,15 @@ Since most people change logic and forget to update comments they might become o
 
 [Gist Url]: # (https://gist.github.com/mcsee/fd5b6b44920df66b6558be35f729f0f7)
 ```cpp
-void Widget::displayHarvesterPlugin(Unit* unit)
+void Widget::displayPlugin(Unit* unit)
 {
 
- // TODO the Plugin will be modified soon, so I don't implement this right now
+ 	// TODO the Plugin will be modified soon, so I don't implement this right now
 
- if (!isVisible) {
-	// hide all widgets
-	return;
- }
+ 	if (!isVisible) {
+		// hide all widgets
+		return;
+ 	}
 
 }
 ```
@@ -51,20 +51,17 @@ void Widget::displayHarvesterPlugin(Unit* unit)
 
 [Gist Url]: # (https://gist.github.com/mcsee/36f9dde4301f0ab77c034aeba7c0b391)
 ```cpp
-void Widget::displayHarvesterPlugin(Unit* unit)
-{
- 
- if (!isVisible) {
-	// hide all widgets
-	return;
- }
-
+void Widget::displayPlugin(Unit* unit)
+{ 
+	if (!isVisible) {
+		return;
+ 	}
 }
 ```
 
 # Detection
 
-[X] Semi-Automatic
+[X] Semi-Automatic 
 
 We can warn for comments in our code and try to remove them.
 
@@ -84,7 +81,7 @@ We need to think before adding a comment. Once It is in the codebase is beyond o
 
 [Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
 
-[Code Smell 152 - Logical Comment](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20152%20-%20Logical%20Comment/readme.md)
+[Code Smell 152 - Logical Comment](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20152%20-%20Logical%20Comment/readme.md) 
 
 [Code Smell 151 - Commented Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20151%20-%20Commented%20Code/readme.md)
 
@@ -95,12 +92,11 @@ Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Artic
 # Credits
 
 Photo by [Volodymyr Hryshchenko](https://unsplash.com/@lunarts) on [Unsplash](https://unsplash.com/s/photos/obsolete)
-
-
+    
 * * *
 
-Obsolete comments tend to migrate away from the code they once described. They become floating islands of irrelevance and misdirection in the code.
-
+> Obsolete comments tend to migrate away from the code they once described. They become floating islands of irrelevance and misdirection in the code.
+ 
 _Bob Martin_
 
 [Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)

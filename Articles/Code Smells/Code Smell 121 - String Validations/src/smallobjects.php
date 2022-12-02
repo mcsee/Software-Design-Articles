@@ -28,7 +28,7 @@ class EmailAddress {
 
 class Wordle { 
   function validateWord(WordleWord $wordleword) {
-    // Wordle word is a real world entity. Not a subset of string
+    // Wordle word is a real-world entity. Not a subset of string
   }
  }
 

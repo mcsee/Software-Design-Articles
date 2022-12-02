@@ -486,6 +486,8 @@ In this repository, you will find many articles related to Software Design
 
 * [GPT-3 Training Programmers for the Present (and the Future)](/Articles/Artificial%20Intelligence/GPT-3%20Training%20Programmers%20for%20the%20Present%20%28and%20the%20Future%29/readme.md)
 
+* [ChatGPT is Amazing. And It is FREE](/Articles/Artificial%20Intelligence/69%20-%20ChatGPT%20is%20Amazing.%20And%20It%20is%20FREE/readme.md)
+
 * [DeepMind's AlphaCode Won't Steal Your Job Either](/Articles/Artificial%20Intelligence/DeepMind%27s%20AlphaCode%20Won%27t%20Steal%20Your%20Job%20Either/readme.md)
 
 * [I Want to Build a Learning Companion for New Developers Using AI](/Articles/Artificial%20Intelligence/I%20Want%20to%20Build%20a%20Learning%20Companion%20for%20New%20Developers%20Using%20AI/readme.md)

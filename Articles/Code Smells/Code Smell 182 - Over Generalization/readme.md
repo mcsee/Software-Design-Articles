@@ -47,7 +47,7 @@ fn validate_integer(value: i32) {
 [Gist Url]: # (https://gist.github.com/mcsee/1eca09d9bb13cea966bcbe2eda95021c)
 ```rust
 fn validate_size(value: i32) {
-	validate_type(value, Type::Integer);
+ 	validate_type(value, Type::Integer);
 	validate_min_integer(value, 0);
 }
 	

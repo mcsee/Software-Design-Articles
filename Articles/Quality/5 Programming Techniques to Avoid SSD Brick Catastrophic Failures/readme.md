@@ -64,7 +64,7 @@ Embedded and hardware systems are often tuned for optimal performance.
 
 They skip some checks and are programmed with low-level languages.
 
-Most of them avoid [MAPPING]((https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)) the real world and use short integers as indices.
+Most of them avoid [MAPPING]((https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)) the real-world and use short integers as indices.
 
 According to our [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md), an *integer* is not a *shortint* (or *longint*) and a *shortint* is not an *integer*.
 

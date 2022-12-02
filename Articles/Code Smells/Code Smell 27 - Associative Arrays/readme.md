@@ -64,7 +64,7 @@ $coordinate = new GeographicCoordinate(1000, 2000);
 
 final class GeographicCoordinate {
 
-    function __construct($latitude, $langitude) {
+    function __construct($latitude, $longitude) {
         if (!$this->isValidLatitude($latitude)) {
             throw new InvalidLatitudeException($latitude);
             // ...
@@ -109,7 +109,7 @@ final class GeographicCoordinate {
     function distanceTo(GeographicCoordinate $coordinate) {
     }
 
-    function pointInPoligon(Polygon $polygon) {
+    function pointInPolygon(Polygon $polygon) {
         // ....
     }
 }

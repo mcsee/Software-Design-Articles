@@ -1,6 +1,6 @@
 public class Printer {   
   void print(String documentToPrint, 
-         String papersize,
+           String papersize,
            String orientation, 
            boolean grayscales,
            int pagefrom,
@@ -9,7 +9,7 @@ public class Printer {
            float marginLeft,
            float marginRight,
            float marginTop,
-           float marginBotton         
+           float marginBottom         
         ) {
     }
 }

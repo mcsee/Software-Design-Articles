@@ -8,7 +8,7 @@
 
 # Problems
 
-- Over Design
+- Over design
 
 - Readability
 
@@ -54,7 +54,7 @@ public final class AccountsComposite {
 [Gist Url]: # (https://gist.github.com/mcsee/9adec62e0637199e351100eb2ece56f2)
 ```java
 public final class FileSystem {
-    // These names map 1:1 to real world concepts
+    // These names map 1:1 to real-world concepts
 }
 
 public final class DateTimeFormatter {

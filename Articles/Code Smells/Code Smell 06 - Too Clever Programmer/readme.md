@@ -44,7 +44,7 @@ function primeFactors(n) {
        f[i++]=(d); 
        n /= d;
     }
-    else{
+    else {
       d++;
     }     
   }
@@ -64,9 +64,9 @@ function primeFactors(numberToFactor) {
   while(remainder>=2) {
     if(remainder % divisor === 0) {
        factors.push(divisor); 
-       remainder = remainder/ divisor;
+       remainder = remainder / divisor;
     }
-    else{
+    else {
       divisor++;
     }     
   }

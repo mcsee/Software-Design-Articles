@@ -6,7 +6,7 @@ function primeFactors(n) {
        f[i++]=(d); 
        n /= d;
     }
-    else{
+    else {
       d++;
     }     
   }

@@ -1,5 +1,5 @@
 fn validate_size(value: i32) {
-	validate_type(value, Type::Integer);
+ 	validate_type(value, Type::Integer);
 	validate_min_integer(value, 0);
 }
 	

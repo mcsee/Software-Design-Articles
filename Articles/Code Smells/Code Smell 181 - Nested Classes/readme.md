@@ -67,9 +67,9 @@ class Address {
   String description = "Address: ";
 }
  
- class City {
-    String name = "Doha";
-  }
+class City {
+  String name = "Doha";
+}
 
 public class Main {
   public static void main(String[] args) {
@@ -81,7 +81,7 @@ public class Main {
 
 // The output is "Adress: Doha"
 //
-// Now we can reuse and test City concept
+// Now we can reuse and test the City concept
 ```
 
 # Detection

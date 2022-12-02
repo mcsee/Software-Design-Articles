@@ -104,7 +104,7 @@ var rowIndex = game.wordsAttempted().length;
 
 rowIndex variable is no longer global. We compute it tied to the attempts tried on the game.
 
-We are reifing the state into our Game object
+We are reifying the state into our Game object
 
 And this is when all magic happens.
 

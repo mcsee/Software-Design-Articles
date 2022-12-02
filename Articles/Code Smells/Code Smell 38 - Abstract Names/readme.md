@@ -2,7 +2,7 @@
 
 ![Code Smell 38 - Abstract Names](Code%20Smell%2038%20-%20Abstract%20Names.jpg)
 
-*Avoid too abstract names. Names should have real world meaning*
+*Avoid too abstract names. Names should have real-world meaning*
 
 # Problems
 
@@ -10,7 +10,7 @@
 
 - Meaningless names
 
-- Broken [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) and [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) to real world entities.
+- Broken [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) and [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) to real-world entities.
 
 # Solutions
 

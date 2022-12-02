@@ -3,5 +3,5 @@ alert("Cancel the appointment? \n" +
       "Cancel Appointment", 
       "Keep Editing");
 
-// Consequences are clear
-// Choice options have context
+// The consequences are clear
+// The choice options have context

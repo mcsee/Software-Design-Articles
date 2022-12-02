@@ -28,7 +28,7 @@
 
 2. Unit test all your invalidation scenarios. Experience shows we face them in an incremental way.
 
-3. Look for a real world cache metaphor and model it.
+3. Look for a real-world cache metaphor and model it.
 
 # Sample Code
 
