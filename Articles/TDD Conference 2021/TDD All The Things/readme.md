@@ -24,8 +24,8 @@ Liz Keogh is a Lean and Agile consultant based in London. She is a well-known bl
 
 - BDD suggests we should start methods with 'should' instead of 'test'.
 - Nowadays we have annotations on tests.
-- BDD forces us to think about behaviour.
-- TDD cycle as behaviour: Test = Describe Behaviour, Pass = Change Behaviour, Refactor = Amplify the positives
+- BDD forces us to think about behavior.
+- TDD cycle as behavior: Test = Describe behavior, Pass = Change behavior, Refactor = Amplify the positives
 - The sandwich methodology: Say something good, then something bad, and after that something good again.
 - The sandwich done well: describe what you want and don't let people write their own code.
 - Try to find psychological safety. 
@@ -35,7 +35,7 @@ Liz Keogh is a Lean and Agile consultant based in London. She is a well-known bl
 - Knowledgeable Practitioners teach TDD to others.
 - When refactoring, aim for better, not perfect.
 - When refactoring people, we should play to our strengths and be forgiving.
-- In complexity, tests and descriptions of behaviour are just examples of what might happen.
+- In complexity, tests and descriptions of behavior are just examples of what might happen.
  
 # Speaker Links
 

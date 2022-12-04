@@ -95,7 +95,7 @@ They should ignore setters and getters and count real behavior methods.
 # Conclusion
 
 Avoid anemic models. Focus always on protocol instead of data. 
-[Behaviour](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md) is essential, data is accidental.
+[behavior](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md) is essential, data is accidental.
 
 # Also Known as
 

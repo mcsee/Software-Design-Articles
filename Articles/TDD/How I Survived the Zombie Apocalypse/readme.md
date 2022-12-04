@@ -288,7 +288,7 @@ We validate addresses upon creation. No invalid objects here!
 
 * * *
 
-ZOMBI here ! How about (E)xceptional behaviour?
+ZOMBI here ! How about (E)xceptional behavior?
 
 ```
 test06ExceptionalBehavior

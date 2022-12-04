@@ -254,7 +254,7 @@ With this outcome:
 
 2- A default statement is missing.
 
-*In this case default behaviour is no needed since exceptions break flow. In many times a Null Object will be enough.
+*In this case default behavior is no needed since exceptions break flow. In many times a Null Object will be enough.
 
 [Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 

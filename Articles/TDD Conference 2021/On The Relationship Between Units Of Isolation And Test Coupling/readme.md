@@ -24,14 +24,14 @@ Mario has been a software professional for more than a decade. He also conducted
 
 - Fragility is the opposite to Robust when we talk about tests.
 - Fragile tests are tests that break when they should not break.
-- Tests are the specification of behaviour.
-- if we are not changing the observable behaviour of tests, and they break, the tests are preventing our refactorings.
+- Tests are the specification of behavior.
+- if we are not changing the observable behavior of tests, and they break, the tests are preventing our refactorings.
 - We want to avoid, at all costs, fragile tests that fail when they shouldn't.
 - [Coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md) is the main cause of fragile tests.
 - Overspecified software makes more assumptions than necessary.
 - In a mocking approach, we need to change a lot of tests when we refactor.
 - if we make our attributes public to test them is a smell, we are testing accidental structure.
-- On Behavior-centric view, the true unit of isolation is not unit tests, but behaviour.
+- On Behavior-centric view, the true unit of isolation is not unit tests, but behavior.
 - Refactoring is the key step in TDD.
 - Tests are code even more important than production code.
 

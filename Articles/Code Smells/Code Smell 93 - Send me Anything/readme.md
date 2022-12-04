@@ -64,7 +64,7 @@ function parseArguments(array $arguments) {
 
 # Detection
 
-We can detect this kind of methods when they do different things, asking for the argument *kind*
+We can detect this kind of method when they do different things, asking for the argument *kind*
 
 # Tags
 
@@ -72,7 +72,7 @@ We can detect this kind of methods when they do different things, asking for the
 
 # Conclusion
 
-Magic castings and flexibility have a price. They put the rubbish under the rug and violate fail fast principle.
+Magic castings and flexibility have a price. They put the rubbish under the rug and violate the fail fast principle.
 
 # Relations
 

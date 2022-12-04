@@ -4,7 +4,7 @@
 
 *Assertions, Preconditions, Postconditions and invariants are our allies to avoid invalid objects. Avoiding them leads to hard-to-find errors.*
 
-> TD;DR: If you turn off your assertions just in production your phone will ring at late hours.
+> TL;DR: If you turn off your assertions just in production your phone will ring at late hours.
 
 # Problems
 - Consistency

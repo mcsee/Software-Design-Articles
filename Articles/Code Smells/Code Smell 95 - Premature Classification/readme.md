@@ -99,7 +99,7 @@ An abstract class with just one subclass is an indicator of premature classifica
 
 When working with classes, we name abstractions as soon as they *appear*. 
 
-Our rule is to choose [good names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md) after the behaviour.
+Our rule is to choose [good names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md) after the behavior.
 
 We should not name our abstractions until we name our concrete subclasses.
 

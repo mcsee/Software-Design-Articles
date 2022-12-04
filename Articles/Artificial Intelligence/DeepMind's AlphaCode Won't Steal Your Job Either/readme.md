@@ -32,7 +32,7 @@ The three current solutions (AlphaCode, [GitHub Copilot](https://github.com/mcse
 
 Model [domain entities](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) and business behavior instead of boring and repetitive algorithms full of code smells.
 
-Try to understand the entities and the behaviour on your simulation software.
+Try to understand the entities and the behavior on your simulation software.
 
 # References
 

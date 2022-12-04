@@ -66,7 +66,7 @@ Data is everywhere if you see the world as only data.
 
 We can never see the data we manipulate. 
 
-We can only infer it through behaviour.
+We can only infer it through behavior.
 
 We don't know the current temperature. We observe our thermometer pointing at 35 Degrees.
 
