@@ -16,7 +16,7 @@
 
 # Context
 
-In 2022 Oct 7th one of the larger blockchains had to be halted.
+On 2022 Oct 7th one of the larger blockchains had to be halted.
 
 [This news](https://www.coindesk.com/business/2022/10/06/binance-linked-bnb-price-falls-close-to-4-on-hack-rumors/) was shocking since most blockchains are decentralized by definition.
 

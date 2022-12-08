@@ -112,9 +112,9 @@ Look after your hierarchies and break them often.
 
 # More Info
 
-- [Coupling: The one and only problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+[Coupling: The one and only problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Cyclomatic_complexity)
+[Wikipedia](https://en.wikipedia.org/wiki/Cyclomatic_complexity)
 
 * * *
 

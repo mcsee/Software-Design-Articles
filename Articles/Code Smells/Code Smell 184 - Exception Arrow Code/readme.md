@@ -55,9 +55,10 @@ public class QuoteseSaver {
             throw new ArgumentException("Invalid path " + filename);
         } else if (!FileSystem.ParentDirectoryExists(filename)) {
             throw new I0Exception("Parent directory missing at " + filename);
-        } else if (!FileSystem.Exists(filename)) {
+        } else if (FileSystem.Exists(filename)) {
              throw new I0Exception("File exists: " + filename);
         }
+        this.SaveOnValidFilename(filename);
     }
 }
 ```

@@ -59,7 +59,7 @@ for (Object person : iterationPeople) {
         people.remove(person);
     }
 }
-// We iterate a copy and remove it from original
+// We iterate a copy and remove it from the original
 
 coll.removeIf(currentIndex -> currentIndex == 5);
 // Or use language tools (if available)

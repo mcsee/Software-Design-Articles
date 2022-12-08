@@ -438,6 +438,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 184 - Exception Arrow Code](/Articles/Code%20Smells/Code%20Smell%20184%20-%20Exception%20Arrow%20Code/readme.md)
 
+* [Code Smell 185 - Evil Regular Expressions](/Articles/Code%20Smells/Code%20Smell%20185%20-%20Evil%20Regular%20Expressions/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
@@ -579,4 +581,8 @@ In this repository, you will find many articles related to Software Design
 ### blogging
 
 * [Content Structure: The Do's and Dont's of Content Creation](/Articles/blogging/68%20-%20Content%20Structure%20The%20Do%27s%20and%20Dont%27s%20of%20Content%20Creation/readme.md)
+
+### unsorted
+
+* [70 - Debugging on Mobile is Too Hard](/Articles/unsorted/70%20-%20Debugging%20on%20Mobile%20is%20Too%20Hard/readme.md)
 
