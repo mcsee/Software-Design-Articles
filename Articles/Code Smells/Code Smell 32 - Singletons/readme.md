@@ -120,7 +120,7 @@ We can add linter rules for patterns like *'getInstance()'* so new developers ca
 
 # Conclusion
 
-This is an historical mistake already acknowledged by the community. Nevertheless, lazy developers bring it again and again. We need to reach a consensus on its drawbacks.
+This is an historical mistake already acknowledged by the community. Nevertheless, lazy developers bring it up again and again. We need to reach a consensus on its drawbacks.
 
 # Relations
 

@@ -4,7 +4,7 @@
 
 *When creating events, we should decouple the trigger from the action.*
 
-> TL;DR: Name your functions acording to what happened.
+> TL;DR: Name your functions according to what happened.
 
 # Problems
 

@@ -4,7 +4,7 @@
 
 *Code is there. Just in case. We might need it soon.*
 
-> TD:LR; Don't leave code for future use.
+> Tl:DR; Don't leave code for future use.
 
 # Problems
 
@@ -87,10 +87,6 @@ We can use modern development techniques like TDD to ensure all code is alive.
 - [Wikipedia](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
 
 - [Refactoring.guru](https://refactoring.guru/smells/speculative-generality)
-
-# Also Known as 
-
-- Speculative Generality
 
 # Credits
 

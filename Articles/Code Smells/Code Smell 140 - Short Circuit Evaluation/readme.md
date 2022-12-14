@@ -2,10 +2,6 @@
 
 ![Code Smell 140 - Short Circuit Evaluation](Code%20Smell%20140%20-%20Short%20Circuit%20Evaluation.jpg)
 
-# Code Smell 140 - Short Circuit Evaluation
-
-![Code Smell 140 - Short Circuit Evaluation](Code%20Smell%20140%20-%20Short%20Circuit%20Evaluation.jpg)
-
 *We learn short circuits in our first programming courses. We need to remember why.*
 
 > TL;DR: Be lazy when evaluating boolean conditions
