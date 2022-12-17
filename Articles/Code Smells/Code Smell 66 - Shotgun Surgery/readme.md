@@ -96,8 +96,8 @@ Some modern linters can detect repeated patterns (not just repeated code) and al
 
 # Conclusion
 
-Adding a new feature should be straightforward it our model maps 1:1 to real-world and our responsibilities are in the correct places. 
-We should be alert for small changes spanning in several classes.
+Adding a new feature should be straightforward in our model maps 1:1 to real-world and our responsibilities are in the correct places. 
+We should be alert for small changes spanning several classes.
 
 # More Info
 

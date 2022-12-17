@@ -1,5 +1,5 @@
 public final class FileTreeComposite {
-    // name should be inferred from behaviour
+    // name should be inferred from behavior
 }
     
 public final class DateTimeConverterAdapterSingleton {

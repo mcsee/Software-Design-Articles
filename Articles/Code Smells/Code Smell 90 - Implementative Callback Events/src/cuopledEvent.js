@@ -3,7 +3,7 @@ const Item = ({name, handlePageChange)} =>
     {name}
   </li>
 
-// handlePageChange is coupled to what you decide to do
+// handlePageChange is coupled with what you decide to do
 // instead of what really happened
 //
-// We cannot reuse this kind of callbacks
+// We cannot reuse this kind of callback

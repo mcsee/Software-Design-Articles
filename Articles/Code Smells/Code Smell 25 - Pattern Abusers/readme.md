@@ -29,7 +29,7 @@
 [Gist Url]: # (https://gist.github.com/mcsee/a94aac5dd5fee1e1c19b4b07e87e7887)
 ```java
 public final class FileTreeComposite {
-    // name should be inferred from behaviour
+    // name should be inferred from behavior
 }
     
 public final class DateTimeConverterAdapterSingleton {

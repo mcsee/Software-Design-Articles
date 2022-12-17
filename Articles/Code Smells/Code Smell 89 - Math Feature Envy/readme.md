@@ -2,7 +2,7 @@
 
 ![Code Smell 89 - Math Feature Envy](Code%20Smell%2089%20-%20Math%20Feature%20Envy.jpg)
 
-*One class calculating formulas for another class.*
+*One class calculates formulas for another class.*
 
 > TL;DR: Leave the formulas to the objects gathering the information.
 
@@ -29,7 +29,7 @@
 [Gist Url]: # (https://gist.github.com/mcsee/4b3483f5be825913df7a6c709efebdbc)
 ```javascript
 function area(rectangle) { 
-  return rectange.width * rectangle.height;
+  return rectangle.width * rectangle.height;
   // Notice we are sending consecutive messages to
   // the same object and doing calculations
 }
@@ -63,7 +63,7 @@ Since many cascading messages are sending to the same object, we can detect a pa
 
 # Conclusion
 
-This is a very basic smell. If we are manipulating another object characteristics, we should let it do it the maths for us.
+This is a very basic smell. If we are manipulating another object's characteristics, we should let it do it the maths for us.
 
 # Relations
 

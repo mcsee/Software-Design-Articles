@@ -2,7 +2,7 @@
 
 ![Code Smell 63 - Feature Envy](Code%20Smell%2063%20-%20Feature%20Envy.jpg)
 
-*If your method is jealous and don't trust in delegation you should start to do it.*
+*If your method is jealous and doesn't trust in delegation you should start to do it.*
 
 > TL;DR: Don't abuse your friend objects.
 
@@ -22,7 +22,7 @@
 
 # Solutions
 
-1.  Move method to the appropriate class.
+1.  Move the method to the appropriate class.
 
 # Sample Code
 
@@ -79,7 +79,7 @@ Some linters can detect a sequential pattern of collaborations with another obje
 
 # Conclusion
 
-- We should assign responsibilities according to real object [mappers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) and avoid abusing other objects protocol.
+- We should assign responsibilities according to real object [mappers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) and avoid abusing other objects' protocol.
  
 # Relations
 

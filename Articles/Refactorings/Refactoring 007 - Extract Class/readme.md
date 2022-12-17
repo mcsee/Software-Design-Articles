@@ -46,7 +46,7 @@
           return name;
       }
    
-      // Below cohesive behaviour
+      // Below cohesive behavior
       public String telephoneNumber() {
           return ("(" + homeAreaCode + ") " + homeNumber);
       }

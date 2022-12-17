@@ -20,8 +20,8 @@
 
 # Solutions
 
-1.  Make arguments explicit.
-2.  All function calls must have same [arity](https://en.wikipedia.org/wiki/Arity).
+1. Make arguments explicit.
+2. All function calls must the have same [arity](https://en.wikipedia.org/wiki/Arity).
 3. Use *Named Parameters* if your language supports them.
  
 # Sample Code
@@ -78,7 +78,7 @@ new Poll([], new NoAnonnyomousValidStrategy(), new StrictValidationPolicy());
 
 # Detection
 
-Detection is easy if language supports optional arguments.
+Detection is easy if the language supports optional arguments.
  
 # Tags
 
@@ -88,7 +88,7 @@ Detection is easy if language supports optional arguments.
 
 # Conclusion
 
-Be explicit. Favor readability over shorter (and more coupled) function call.
+Be explicit. Favor readability over shorter (and more coupled) function calls.
  
 # More Info
 

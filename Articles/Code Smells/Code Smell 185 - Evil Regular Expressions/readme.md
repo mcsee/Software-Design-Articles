@@ -74,8 +74,9 @@ func main() {
     words := strings.Fields(str)
     
     for i, word := range words {
-        if len(word) >= 2 && word[0] >= 'a' && word[0] <= 'z' && word[len(word)-1] >= 'A' && word[len(word)-1] <= 'Z' {
-            fmt.Println(word, "found at index", i)
+        if len(word) >= 2 && word[0] >= 'a' && word[0] <= 'z' && word[len(word)-1] >= 'A' 
+            && word[len(word)-1] <= 'Z' {
+                fmt.Println(word, "found at index", i)
         }
     }
 }
@@ -95,7 +96,7 @@ We can also scan the code for this vulnerability.
 
 # Conclusion
 
-Regular Expressions are tricky and hard de debug. 
+Regular Expressions are tricky and hard to debug. 
 
 We should avoid them as much as possible.
 

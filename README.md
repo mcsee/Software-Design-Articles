@@ -442,6 +442,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 186 - Hardcoded Business Conditions](/Articles/Code%20Smells/Code%20Smell%20186%20-%20Hardcoded%20Business%20Conditions/readme.md)
 
+* [Code Smell 187 - If/Else Backwards](/Articles/Code%20Smells/Code%20Smell%20187%20-%20If%20Else%20Backwards/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
