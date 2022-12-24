@@ -95,7 +95,7 @@ Some linters graph class relations and protocol dependency. Analyzing the collab
 
 # Conclusion
 
-It two classes are too related and don't talk much to others we might need to split, merge or refactor them,
+If two classes are too related and don't talk much to others we might need to split, merge or refactor them,
 Classes should know as little about each other as possible. 
 
 # Relations

@@ -4,7 +4,7 @@
 
 *Yet another bad code reuse symptom*
 
-> TL;DR: Favor composition over inheritance
+> TL;DR: Favor composition over inheritance.
 
 # Problems
 

@@ -4,7 +4,7 @@
 
 *Code is there. Just in case. We might need it soon.*
 
-> Tl:DR; Don't leave code for future use.
+> TL;DR: Don't leave code for future use.
 
 # Problems
 

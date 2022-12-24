@@ -4,7 +4,8 @@
 
 *First programming lesson: Control structures. Senior developer lesson: avoid them.*
 
-Problems:
+# Problems
+
 - Too many decisions together
 
 - Coupling

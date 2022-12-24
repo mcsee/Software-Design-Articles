@@ -104,7 +104,7 @@ Group behavior in the right place and hide the primitive data.
 
 # More Info
 
-- [Refacting Guru](https://refactoring.guru/es/smells/data-clumps)
+- [Refactoring Guru](https://refactoring.guru/es/smells/data-clumps)
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Data_clump)
 

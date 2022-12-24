@@ -49,7 +49,7 @@ if (currentExposure > 0.15 && customer != "Alameda") {
 ```solidity
   customer.liquidatePositionIfNecessary(0.15);
   
-  // This follows Tell, Don't ask principle
+  // This follows the Tell, Don't ask principle
 ```
 
 # Detection
