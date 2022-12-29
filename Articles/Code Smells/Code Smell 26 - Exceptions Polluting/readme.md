@@ -4,7 +4,7 @@
 
 *It is very nice to have lots of different exceptions. Your code is declarative and robust. Or not?*
 
-> TL;DR; Don't create anemic and empty objects. Even if they are Exceptions.
+> TL;DR: Don't create anemic and empty objects. Even if they are Exceptions.
  
 # Problems
 

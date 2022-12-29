@@ -235,7 +235,18 @@ There is never a valid reason to use **null**. **Null** does not exist in real l
 
 It violates the principle of **bijection** and generates coupling between the function caller and the argument. Also, it generates unnecessary **ifs** as **null** is not polymorphic with any other object.
 
-%https://gist.github.com/mcsee/862500b561af3151dee26e8c645ee4f7]
+[Gist Url]: # (https://gist.github.com/mcsee/862500b561af3151dee26e8c645ee4f7)
+```php
+<?
+
+private function executeAndGetData($processId, $isUsingFastMethod = null) {
+
+}
+
+private function executeAndGetData($processId, bool $isUsingFastMethod = false) {
+
+}
+```
 
 We change the absence of the argument to a boolean truth value.
 

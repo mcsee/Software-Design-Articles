@@ -4,7 +4,7 @@
 
 *Tests are our safety nets. If we don't trust on their integrity, we will be in great danger.*
 
-TL;DR: Don't write non-deterministic tests.
+> TL;DR: Don't write non-deterministic tests.
 
 # Problems
 
@@ -113,7 +113,7 @@ https://softwareengineering.stackexchange.com/questions/109703/how-to-avoid-frag
 
 Fragile tests show system coupling and not deterministic or erratic behavior.
 
-Developers spend lots of time and effort fighting against this false positives.
+Developers spend lots of time and effort fighting against these false positives.
  
 # Credits
 

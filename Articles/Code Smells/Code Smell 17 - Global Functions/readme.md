@@ -2,9 +2,9 @@
 
 ![Code Smell 17 - Global Functions](Code%20Smell%2017%20-%20Global%20Functions.jpg)
 
-*Discouraged by Object-Oriented Programmings, Many mixed languages support it. And developers abuse them.*
+*Discouraged by Object-Oriented Programming, Many mixed languages support it. And developers abuse them.*
 
-> TL;DR: Global function bring a lot of coupling. Don't use them.
+> TL;DR: Global functions bring a lot of coupling. Don't use them.
 
 # Problems
 

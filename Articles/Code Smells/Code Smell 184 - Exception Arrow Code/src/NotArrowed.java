@@ -1,4 +1,4 @@
-public class QuoteseSaver {
+public class QuotesSaver {
     public void Save(string filename) {
         if (!FileSystem.IsPathValid(filename)) {
             throw new ArgumentException("Invalid path " + filename);

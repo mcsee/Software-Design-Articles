@@ -2,9 +2,9 @@
 
 ![Code Smell 60 - Global Classes](Code%20Smell%2060%20-%20Global%20Classes.jpg)
 
-*Classes are handy. We can call them and invoke them any time. Is this good?*
+*Classes are handy. We can call them and invoke them at any time. Is this good?*
 
-TL;DR: Don't use your classes as a global point of access.
+> TL;DR: Don't use your classes as a global point of access.
 
 # Problems
 

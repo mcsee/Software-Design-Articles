@@ -34,21 +34,21 @@ Keeping hierarchies healthy is crucial to favor cohesion and avoid [coupling](ht
 ```java
 public class Vehicle
 {
-  // class is not a leaf. Therefore it should be abstract
+  // the class is not a leaf. Therefore it should be abstract
     
-  //an abstract method that only declares, but does not define the start 
-  //functionality because each vehicle uses a different starting mechanism
+  // an abstract method that only declares, but does not define the start 
+  // functionality because each vehicle uses a different starting mechanism
   abstract void start();
 }
 
 public class Car extends Vehicle
 {
-  // class is leaf. Therefore it should be final
+  // the class is a leaf. Therefore it should be final
 }
 
 public class Motorcycle extends Vehicle
 {
-  // class is leaf. Therefore it should be final
+  // the class is a leaf. Therefore it should be final
 }
 ```
 
@@ -58,7 +58,7 @@ public class Motorcycle extends Vehicle
 ```java
 abstract public class Vehicle
 {
-  // class is not a leaf. Therefore it is be abstract  
+  // the class is not a leaf. Therefore it must be abstract  
  
   //an abstract method that only declares, but does not define the start 
   //functionality because each vehicle uses a different starting mechanism
@@ -67,12 +67,12 @@ abstract public class Vehicle
 
 final public class Car extends Vehicle
 {
-  // class is leaf. Therefore it is final
+  // the class is a leaf. Therefore it is final
 }
 
 final public class Motorcycle extends Vehicle
 {
-  // class is leaf. Therefore it is final
+  // the class is a leaf. Therefore it is final
 }
 ```
 

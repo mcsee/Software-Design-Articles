@@ -8,5 +8,5 @@ factorial(n) {
   return n * factorial(n-1);
 }
 
-// This is very small example
+// This is a very small example
 // Things go works while dealing with huge code

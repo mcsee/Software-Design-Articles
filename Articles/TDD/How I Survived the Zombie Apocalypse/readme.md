@@ -22,7 +22,7 @@ TDD is an incredible technique but deciding *what* to test is cumbersome.
 
 I wrote TDD tests in a chaotic way for several years.
 
-I'll summarize some things I learnt these years hoping to spare some time to new developers.
+I'll summarize some things I learned these years hoping to spare some time to new developers.
 
 # The solutions
 

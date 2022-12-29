@@ -60,6 +60,8 @@ We need to name after the behavior, not type or data
 
 # Relations
 
+[Code Smell 188 - Redundant Parameter Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20188%20-%20Redundant%20Parameter%20Names/readme.md)
+
 [Code Smell 141 - IEngine , AVehicle, ImplCar](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20141%20-%20IEngine%20,%20AVehicle,%20ImplCar/readme.md)
 
 [Code Smell 96 - My Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2096%20-%20My%20Objects/readme.md)

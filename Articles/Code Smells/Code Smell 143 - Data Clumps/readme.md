@@ -56,9 +56,9 @@ public class DinnerTable
 ```csharp
 public class TimeInterval
 {
-    public TimeInterval(DateTime from, DateTime tol)
+    public TimeInterval(DateTime from, DateTime to)
     {
-        // We shoud validate From < To
+        // We should validate From < To
         From = from;
         To = to;
     }

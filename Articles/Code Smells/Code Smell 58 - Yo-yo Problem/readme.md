@@ -4,7 +4,7 @@
 
 *Searching for a concrete method implementation? Go back and forth, up and down.*
 
-TL;DR: Don't ab(use) hierarchies.
+> TL;DR: Don't ab(use) hierarchies.
 
 # Problems
 

@@ -49,7 +49,7 @@ class QuotesSaver {
 
 [Gist Url]: # (https://gist.github.com/mcsee/7d40861212d1d475a25d740f10c8f34e)
 ```java
-public class QuoteseSaver {
+public class QuotesSaver {
     public void Save(string filename) {
         if (!FileSystem.IsPathValid(filename)) {
             throw new ArgumentException("Invalid path " + filename);

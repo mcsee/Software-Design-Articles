@@ -446,6 +446,12 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 188 - Redundant Parameter Names](/Articles/Code%20Smells/Code%20Smell%20188%20-%20Redundant%20Parameter%20Names/readme.md)
 
+* [Code Smell 189 - Not Sanitized Input](/Articles/Code%20Smells/Code%20Smell%20189%20-%20Not%20Sanitized%20Input/readme.md)
+
+* [Code Smell 190 - Unnecessary Properties](/Articles/Code%20Smells/Code%20Smell%20190%20-%20Unnecessary%20Properties/readme.md)
+
+* [Code Smell 191 - Misplaced Responsibility](/Articles/Code%20Smells/Code%20Smell%20191%20-%20Misplaced%20Responsibility/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
@@ -494,7 +500,7 @@ In this repository, you will find many articles related to Software Design
 
 * [GPT-3 Training Programmers for the Present (and the Future)](/Articles/Artificial%20Intelligence/GPT-3%20Training%20Programmers%20for%20the%20Present%20%28and%20the%20Future%29/readme.md)
 
-* [ChatGPT is Amazing. And It is FREE](/Articles/Artificial%20Intelligence/69%20-%20ChatGPT%20is%20Amazing.%20And%20It%20is%20FREE/readme.md)
+* [ChatGPT is Amazing. And It is FREE](/Articles/Artificial%20Intelligence/ChatGPT%20is%20Amazing.%20And%20It%20is%20FREE/readme.md)
 
 * [DeepMind's AlphaCode Won't Steal Your Job Either](/Articles/Artificial%20Intelligence/DeepMind%27s%20AlphaCode%20Won%27t%20Steal%20Your%20Job%20Either/readme.md)
 
@@ -575,6 +581,8 @@ In this repository, you will find many articles related to Software Design
 * [Web3 For Dummies - Part 01 - What is a Blockchain?](/Articles/Web3/Web3%20For%20Dummies%20-%20Part%2001%20-%20What%20is%20a%20Blockchain/readme.md)
 
 ### Explain in 5 Levels
+
+* [Explain in 5 Levels of Difficulty: ChatGPT](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20ChatGPT/readme.md)
 
 * [Explain in 5 Levels of Difficulty: Linux](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20Linux/readme.md)
 

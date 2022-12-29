@@ -28,7 +28,7 @@ He frequently blogs about software design, code smells, and clean code.
 # My Personal notes
 
 - TDD is a *development* methodology. Not a testing one.
-- It favours KISS and YAGNI principles.
+- It favors KISS and YAGNI principles.
 - Systems are less coupled when developed with TDD 
 - We promote baby steps
 - Myth: *TDD Guaranties good designs*

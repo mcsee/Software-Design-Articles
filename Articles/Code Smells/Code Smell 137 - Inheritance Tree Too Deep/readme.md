@@ -22,13 +22,13 @@
 
 # Solutions
 
-1. Break clases and compose them.
+1. Break classes and compose them.
 
 # Context
 
 Old papers recommended using classes as a specialization for code reuse.
 
-We learnt that composition is a more efficient and extensible way to share behavior.
+We learned that composition is a more efficient and extensible way to share behavior.
 
 # Sample Code
 
@@ -57,15 +57,15 @@ classdef Equidae < Perissodactyla
 end
 
 classdef Equus < Equidae 
-//Equus behaviour
+// Equus behavior
 end
 
 classdef EFerus < Equus
-//EFerus behaviour
+// EFerus behavior
 end
 
 classdef EFCaballus < EFerus
-//EFCaballus behaviour    
+// EFCaballus behavior    
 end
 
 

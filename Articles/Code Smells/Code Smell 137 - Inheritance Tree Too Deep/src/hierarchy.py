@@ -19,14 +19,14 @@ classdef Equidae < Perissodactyla
 end
 
 classdef Equus < Equidae 
-//Equus behaviour
+// Equus behavior
 end
 
 classdef EFerus < Equus
-//EFerus behaviour
+// EFerus behavior
 end
 
 classdef EFCaballus < EFerus
-//EFCaballus behaviour    
+// EFCaballus behavior    
 end
 

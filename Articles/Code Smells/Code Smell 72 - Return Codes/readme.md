@@ -4,7 +4,7 @@
 
 *APIs, Return codes, C Programming Language, We've all been there.*
 
-## TL;DR: Don't return codes to yourself. Raise Exceptions.
+> TL;DR: Don't return codes to yourself. Raise Exceptions.
 
 # Problems
 

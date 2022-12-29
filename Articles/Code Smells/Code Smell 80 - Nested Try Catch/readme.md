@@ -69,7 +69,7 @@ We can detect this smell using parsing trees.
 
 Don't abuse exceptions, don't create Exception classes no one will ever catch, and don't be prepared for every case (unless you have a good real scenario with a covering test).
 
-Happy path should always be more important than exception cases.
+The happy path should always be more important than exception cases.
 
 # Relations
 

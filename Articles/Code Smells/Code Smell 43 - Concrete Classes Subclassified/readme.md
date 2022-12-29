@@ -55,7 +55,7 @@ abstract class Collection {
     
 }
 
-final class Stack extendes Collection { 
+final class Stack extends Collection { 
     private contents[] ArrayList;
   
     public Stack() {      

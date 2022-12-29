@@ -4,7 +4,7 @@
 
 *Exceptions are handy Gotos and flags. Let's abuse them.*
 
->TL;DR: Do not use exceptions for flow control.
+> TL;DR: Do not use exceptions for flow control.
 
 # Problems
 

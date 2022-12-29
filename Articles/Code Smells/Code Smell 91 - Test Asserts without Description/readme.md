@@ -62,7 +62,7 @@ public function testNoNewStarsAppeared(): void
 
 # Detection
 
-Since *assert* and *assertDescription* are different functions, we can adjust our policies to favour the latter.
+Since *assert* and *assertDescription* are different functions, we can adjust our policies to favor the latter.
 
 # Tags
 

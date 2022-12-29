@@ -35,7 +35,7 @@ public class MyDomainObject sum(MyCollection anObjectThatCanBeIterated) {
  // Tight coupling
 }
 
-// cannot fake or mock this method since it always expects an instance of MyCollection
+// We cannot fake or mock this method since it always expects an instance of MyCollection
 ```
 
 ## Right
@@ -64,7 +64,7 @@ public class myDomainObject sum(Iterator anObjectThatCanBeIterated) {
  // Loose coupling
 }
 
-// Can use any Iterator (even a mocked one as long as it adheres protocol)
+// Can use any Iterator (even a mocked one as long as it adheres to the protocol)
 ```
 
 # Detection

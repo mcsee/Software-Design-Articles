@@ -57,7 +57,7 @@ Since this is a "language feature", we can explicitly forbid it.
 
 # Conclusion
 
-We should always favour immutability on our designs and take extra care with side effects.
+We should always favor immutability on our designs and take extra care with side effects.
 
 # More Info
 

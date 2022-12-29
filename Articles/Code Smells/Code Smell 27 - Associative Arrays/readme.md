@@ -75,7 +75,7 @@ final class GeographicCoordinate {
 }
 
 $coordinate = new GeographicCoordinate(1000, 2000);
-// trows an error since these values don't exist on Earth
+// throws an error since these values don't exist on Earth
 ```
 
 ## Right
