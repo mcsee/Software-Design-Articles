@@ -65,7 +65,7 @@ Some actual linters warn us of this problem
 
 # Tags
 
-- Premature Optimizacion
+- Premature Optimization
 
 # Conclusion
 

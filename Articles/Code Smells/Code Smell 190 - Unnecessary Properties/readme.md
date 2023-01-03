@@ -2,7 +2,7 @@
             
 ![Code Smell 190 - Unnecessary Properties](Code%20Smell%20190%20-%20Unnecessary%20Properties.jpg)
 
-*Stop thinking on data as attributes. They are only needed to back your behavior*
+*Stop thinking of data as attributes. They are only needed to back your behavior*
 
 > TL;DR: Don't focus on accidental properties. You won't need many of them.
 
@@ -16,11 +16,11 @@
 
 # Solutions
 
-- Create attributes only to support your methods (behavior)
+- Create attributes only to support your methods (behavior).
 
 # Context
 
-Whenever they want to model a person or an employee, junior programmers or students add an attribute 'id' o 'name' without thinking if they are really going to need them.
+Whenever they want to model a person or an employee, junior programmers or students add an attribute *'id'* or *'name'* without thinking if they are really going to need them.
 
 We need to add attributes 'on-demand' when there's enough evidence. Objects are not 'data holders'.
 
@@ -58,7 +58,7 @@ end
 
 We can detect unused attributes. 
 
-But in many cases, we need a good designer to validate the real need.
+But in many cases, we need an excellent designer to validate the actual need.
 
 # Tags
 

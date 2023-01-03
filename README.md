@@ -506,6 +506,8 @@ In this repository, you will find many articles related to Software Design
 
 * [I Want to Build a Learning Companion for New Developers Using AI](/Articles/Artificial%20Intelligence/I%20Want%20to%20Build%20a%20Learning%20Companion%20for%20New%20Developers%20Using%20AI/readme.md)
 
+* [Maxi Contieri Explains ChatGPT Revolution](/Articles/Artificial%20Intelligence/71%20-%20Maxi%20Contieri%20Explains%20ChatGPT%20Revolution/readme.md)
+
 * [Why GitHub Copilot is not a Threat to your Job](/Articles/Artificial%20Intelligence/Why%20GitHub%20Copilot%20is%20not%20a%20Threat%20to%20your%20Job/readme.md)
 
 * [I've Recently Learned About GPT3 - This is my Journey](/Articles/Artificial%20Intelligence/I%27ve%20Recently%20Learned%20About%20GPT3%20-%20This%20is%20my%20Journey/readme.md)
