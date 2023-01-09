@@ -4,6 +4,8 @@
 
 *Why taking care of our past work is also very important.*
 
+> TL;DR: What's Gardening
+
 # The new concept
 
 At [Hashnode Bootcamp](https://hashnode.com/bootcamp/batch-3) I heard the word *Gardening* for the first time at @samjulien's talk.

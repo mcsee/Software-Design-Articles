@@ -4,6 +4,8 @@
 
 First International Test Driven Development took place on July 10th. 
 
+> TL;DR: An Index on all conference talks
+
 In this series, I included every talk together with my notes and further reading.
 
 Hopefully, a lot of readers will watch and re-watch the talks, as they are worth several reviews.
