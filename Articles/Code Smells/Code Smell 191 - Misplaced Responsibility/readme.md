@@ -85,7 +85,7 @@ This is a semantic smell.
 
 # Exceptions
 
-- Soma languages force you to add protocol in some objects and not on everyone (like primitive integers, Strings, Arrays, etc.)
+- Some languages force you to add protocol in some objects and not on everyone (like primitive integers, Strings, Arrays, etc.)
 
 # Tags
 
@@ -103,7 +103,7 @@ If you put the responsibilities in the proper object, you will surely find them 
 
 # More Info
 
-- [Clean Code Book](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+- [Clean Code Book](https://amzn.to/3k2apxY)
 
 # Disclaimer
 

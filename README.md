@@ -452,6 +452,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 191 - Misplaced Responsibility](/Articles/Code%20Smells/Code%20Smell%20191%20-%20Misplaced%20Responsibility/readme.md)
 
+* [Code Smell 192 - Optional Attributes](/Articles/Code%20Smells/Code%20Smell%20192%20-%20Optional%20Attributes/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
