@@ -40,7 +40,7 @@ In this way, we need to think of the N scenario and explicitly check the case.
 
 Otherwise, we cannot write code.
 
-TDD is incredibly good for [embedded systems](https://www.amazon.com/-/es/James-W-Grenning/dp/193435662X).
+TDD is incredibly good for [embedded systems](https://amzn.to/3k3Ok1M).
 
 ## 2 - Zombies
 

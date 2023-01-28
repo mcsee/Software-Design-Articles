@@ -33,15 +33,13 @@ When someone says something to ChatGPT, the program looks at the words in the se
 
 It does this by using a big database of words and their meanings, which helps it understand the context of the conversation.
 
-ChatGPT can learn from examples of how people talk and use that knowledge to generate their own responses
-
 It seem like it's a real person talking to you!
 
 # Teen
 
 ChatGPT is a natural language processing (NLP) tool developed by OpenAI, a leading research organization in the field of artificial intelligence (AI). 
 
-GTP is a type of language model that uses machine-learning techniques to generate human-like text.
+GPT is a type of language model that uses machine-learning techniques to generate human-like text.
 
 The main purpose of ChatGPT is to enable computers to hold conversations with humans in a way that is natural and intuitive. 
 

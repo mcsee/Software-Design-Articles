@@ -4,6 +4,8 @@
 
 *This article summarizes my experience as a writer during the pandemic year 2021*
 
+> TL;DR: Several advices to write great articles
+
 Below you will find many resources and tools, and my method and tips for writing a lot.
 
 # My Background

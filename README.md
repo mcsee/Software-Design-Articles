@@ -454,6 +454,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 192 - Optional Attributes](/Articles/Code%20Smells/Code%20Smell%20192%20-%20Optional%20Attributes/readme.md)
 
+* [Code Smell 193 - Switch Instead of Formula](/Articles/Code%20Smells/Code%20Smell%20193%20-%20Switch%20Instead%20of%20Formula/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
@@ -513,6 +515,8 @@ In this repository, you will find many articles related to Software Design
 * [Why GitHub Copilot is not a Threat to your Job](/Articles/Artificial%20Intelligence/Why%20GitHub%20Copilot%20is%20not%20a%20Threat%20to%20your%20Job/readme.md)
 
 * [I've Recently Learned About GPT3 - This is my Journey](/Articles/Artificial%20Intelligence/I%27ve%20Recently%20Learned%20About%20GPT3%20-%20This%20is%20my%20Journey/readme.md)
+
+* [ChatGPT: The Surprising Teacher of a +25 Year Senior Programmer](/Articles/Artificial%20Intelligence/72%20-%20ChatGPT%20The%20Surprising%20Teacher%20of%20a%20%2B25%20Year%20Senior%20Programmer/readme.md)
 
 ### TDD Conference 2021
 
