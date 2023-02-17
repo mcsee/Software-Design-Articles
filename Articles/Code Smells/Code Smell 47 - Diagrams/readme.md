@@ -4,6 +4,8 @@
 
 *Diagrams are not code. They cannot be a code smell. They are just Diagram Smells.*
 
+> TL;DR: Don't use diagrams. They are obsolete and dead.
+
 # Problems
 
 - Maintainability

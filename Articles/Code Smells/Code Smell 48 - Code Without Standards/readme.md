@@ -4,6 +4,8 @@
 
 *Working on a solo project is easy. Unless you go back to it after some months. Working with many other developers requires some agreements.*
 
+> TL;DR:  Don't be rude. Standardize your code!
+
 # Problems
 
 - Maintainability

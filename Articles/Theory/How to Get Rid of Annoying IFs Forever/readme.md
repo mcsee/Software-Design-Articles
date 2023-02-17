@@ -15,7 +15,7 @@ Next evolution step will be removing most [IF statements](https://en.wikipedia.o
 
 **IFs** / **Cases** and **Switches** are *GOTOs* disguised as structured flow. 
 
-Our tool will be [Object-Oriented](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Explain%20in%205%20Levels//Explain%20in%205%20Levels%20of%20Difficulty%20Object-Oriented%20Programming/readme.md) Programming principles.
+Our tool will be [Object-Oriented](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20Object-Oriented%20Programming/readme.md) Programming principles.
 
 ![roads](https://cdn.hashnode.com/res/hashnode/image/upload/v1604271082172/raods.jpeg)
 

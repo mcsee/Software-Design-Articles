@@ -98,7 +98,7 @@ You can read the original [Twitter thread](https://twitter.com/JeroenFrijters/st
 
 And lots of memes.
 
-As a final conclusion, I asked [ChatGPT](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Artificial%20Intelligence/72%20-%20ChatGPT%20The%20Surprising%20Teacher%20of%20a%20+25%20Year%20Senior%20Programmer/readme.md) and was not able to simplify it.
+As a final conclusion, I asked [ChatGPT](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Artificial%20Intelligence/ChatGPT%20The%20Surprising%20Teacher%20of%20a%20+25%20Year%20Senior%20Programmer/readme.md) and was not able to simplify it.
 
 # Relations
 

@@ -4,6 +4,8 @@
 
 *If we build our entire paradigm on a single rule, we can keep it simple and make excellent models.*
 
+> TL;DR: Just follow this design principle
+
 Being minimalist and being axiomatic means we can derive a set of rules from a single definition.
 
 If we build our entire paradigm over one single rule we can [Keep It Simple, Stupid](https://en.wikipedia.org/wiki/KISS_principle) and make excellent models and thus excellent software.

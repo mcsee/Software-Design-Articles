@@ -6,7 +6,7 @@
 
 > TL;DR: Change your bad names for good ones
 
-_We all use names for programming, it doesn’t matter if the language is high or low level, whether it is Imperative, Functional, or [Object -Oriented](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Explain%20in%205%20Levels//Explain%20in%205%20Levels%20of%20Difficulty%20Object-Oriented%20Programming/readme.md). Names are everywhere. But we continue to misuse them. In this second part, we will see how to change some habits._
+_We all use names for programming, it doesn’t matter if the language is high or low level, whether it is Imperative, Functional, or [Object -Oriented](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20Object-Oriented%20Programming/readme.md). Names are everywhere. But we continue to misuse them. In this second part, we will see how to change some habits._
 
 # The search is ongoing
 

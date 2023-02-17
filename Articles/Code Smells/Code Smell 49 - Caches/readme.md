@@ -4,6 +4,8 @@
 
 *Caches are sexy. They are a one-night stand. We need to avoid them in a long-term relationship.*
 
+> TL;DR: Any junior student can create a cache. Almost no senior developer can debug and invalidate them.
+
 # Problems
 
 - Coupling

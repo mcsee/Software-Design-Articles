@@ -72,7 +72,7 @@ This is an architectural pattern so it should be controlled/avoided by design po
 
 # Exceptions
 
-- Sometimes we use Feature togging as a safeguard mechanism. This is acceptable in a legacy system. These toggles should be very short-lived in a [CI/CD](https://en.wikipedia.org/wiki/CI/CD) system.
+- Sometimes we use Feature toggling as a safeguard mechanism. This is acceptable in a legacy system. These toggles should be very short-lived in a [CI/CD](https://en.wikipedia.org/wiki/CI/CD) system.
 
 - Hyper parameter settings should be managed by configuration objects.
 
