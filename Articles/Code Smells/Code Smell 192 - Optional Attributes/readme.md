@@ -52,7 +52,7 @@ class Person {
   constructor(name, emails) {
     this.name = name;
     this.emails = emails;
-    // emails should allways be a collection. 
+    // emails should always be a collection. 
     // even an empty one
     // We can check it here
   }

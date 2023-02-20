@@ -1,6 +1,6 @@
 # How to Get Rid of Annoying IFs Forever
 
-![How to Get Rid of Annoying IFs Forever](1_0bj3l7Fw0_WEIBW-JX3Aew.png)
+![How to Get Rid of Annoying IFs Forever](How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever.png)
 
 *Why the first instruction we learn to program should be the last to use.*
 
@@ -17,11 +17,11 @@ Next evolution step will be removing most [IF statements](https://en.wikipedia.o
 
 Our tool will be [Object-Oriented](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20Object-Oriented%20Programming/readme.md) Programming principles.
 
-![roads](https://cdn.hashnode.com/res/hashnode/image/upload/v1604271082172/raods.jpeg)
+![roads](https://cdn.hashnode.com/res/hashnode/image/upload/v1604271082172/roads.jpeg)
 
 Photo <a href="https://pixabay.com/es/users/przemko-1606435/">Przemysław Bromberek</a> en <a href="https://pixabay.com/">Pixabay</a>
  
- # The Problem
+# The Problem
 
 Most **IF** sentences are coupled to *accidental decisions*. This coupling generates ripple effect and make code harder to maintain.
 

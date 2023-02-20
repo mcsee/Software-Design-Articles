@@ -462,6 +462,10 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 196 - Javascript Array Constructors](/Articles/Code%20Smells/Code%20Smell%20196%20-%20Javascript%20Array%20Constructors/readme.md)
 
+* [Code Smell 197 - Gratuitous Context](/Articles/Code%20Smells/Code%20Smell%20197%20-%20Gratuitous%20Context/readme.md)
+
+* [Code Smell 198 - Gratuitous Booleans](/Articles/Code%20Smells/Code%20Smell%20198%20-%20Gratuitous%20Booleans/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)

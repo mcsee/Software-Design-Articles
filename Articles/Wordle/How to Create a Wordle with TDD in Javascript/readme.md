@@ -91,7 +91,7 @@ This is fine since we haven't defined what a word is.
 - This is not a [getter](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2068%20-%20Getters/readme.md). Every wordle word must answer its letters.
 - We don't care about letter sorting. That would be a **premature optimization** and gold plating scenario.
 - We start with a simple example. No duplicated.
-- We don't mess with word validation yet (the word might be XXXXX).
+- We don't mess with word validation yet (the word might be ZZZZZ).
 - We can start with a simpler test validating the word is created. This would violate the test structure that always requires an assertion.
 - The expected value should always be the first in the assertion.
 

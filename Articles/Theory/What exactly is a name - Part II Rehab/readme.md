@@ -100,7 +100,7 @@ class Polygon {
 
 ## Don’t ask who I am
 
-Functions that start with _isXXXX()_ are usually implementative.
+Functions that start with _isXXX()_ are usually implementative.
 
 They ask for a type (avoiding the double dispatch pattern), generate coupling, and are always followed by an if.
 

@@ -13,7 +13,7 @@ public final class Order {
         OrderState state = new OrderStatePending();
     }
     
-    public funtion changeStatus(OrderState newState) {
+    public function changeStatus(OrderState newState) {
         OrderState state = newState;
     }
 }

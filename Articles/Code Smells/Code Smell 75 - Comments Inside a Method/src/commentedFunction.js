@@ -16,7 +16,7 @@ function recoverFromGrief() {
     regret();
     askWhyToMyself();
     dreamOfAlternativeWhatIfScenarios();
-    postoponeSadness();
+    postponeSadness();
 
     // depression stage
     stayQuiet();

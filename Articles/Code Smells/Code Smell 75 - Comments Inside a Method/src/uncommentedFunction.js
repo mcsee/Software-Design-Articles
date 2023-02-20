@@ -25,7 +25,7 @@ function bargainingStage() {
     regret();
     askWhyToMyself();
     dreamOfAlternativeWhatIfScenarios();
-    postoponeSadness();
+    postponeSadness();
 }
 
 function depressionStage() {

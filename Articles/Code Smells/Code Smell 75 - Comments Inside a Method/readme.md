@@ -52,7 +52,7 @@ function recoverFromGrief() {
     regret();
     askWhyToMyself();
     dreamOfAlternativeWhatIfScenarios();
-    postoponeSadness();
+    postponeSadness();
 
     // depression stage
     stayQuiet();
@@ -97,7 +97,7 @@ function bargainingStage() {
     regret();
     askWhyToMyself();
     dreamOfAlternativeWhatIfScenarios();
-    postoponeSadness();
+    postponeSadness();
 }
 
 function depressionStage() {

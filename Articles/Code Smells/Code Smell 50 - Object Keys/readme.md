@@ -4,6 +4,8 @@
 
 *Primary keys, IDs, references. The first attribute we add to our objects. They don't exist in the real-world.*
 
+> TL;DR: Reference objects with objects, not ids.
+
 # Problems
 
 - Coupling

@@ -121,7 +121,7 @@ When running some nightly batch process that collects all the dates of the patie
 
 The stack with useful information for the developer will be very far from where the defect is present. Happy Debugging!
 
-![The Horror](Horror.jpg)
+![The Horror](The%20Horror.jpg)
 
 Photo by [Victoria Heath](https://unsplash.com/@vheath) on [Unsplash](https://unsplash.com/s/photos/hacker)
 

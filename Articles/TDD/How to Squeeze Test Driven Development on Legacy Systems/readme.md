@@ -129,7 +129,7 @@ Since this part is redundant and expensive to the database:
 OR (artist.fullname LIKE '%Radiohead.%') 
 OR (artist.fullname LIKE '%Sigur Ros%') 
 
-/*This part is unnecesary */
+/*This part is unnecessary */
 ```
    
 ## Let's get to work
