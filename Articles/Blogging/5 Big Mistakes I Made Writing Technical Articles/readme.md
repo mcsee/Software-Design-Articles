@@ -4,7 +4,7 @@
 
 *... and how to avoid them.*
 
-*TL;DR Read your articles on a mobile device.*
+> TL;DR: Read your articles on a mobile device.
 
 Today @[Davide Bellone](@davidebellone) mentioned one of my articles on Twitter.
 

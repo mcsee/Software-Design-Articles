@@ -3,8 +3,8 @@
 ![Software Engineering Great Quotes](Software%20Engineering%20Great%20Quotes.jpg)
 
 ## A short thought can bring amazing ideas.
- 
-There are some great quotes I’ve been collecting.
+
+> TL;DR: There are some great quotes I’ve been collecting.
 
 I use them as inspiration or motto for some articles.
 
@@ -12,3418 +12,4374 @@ I use them as inspiration or motto for some articles.
 
 > There are only two hard things in Computer Science: cache invalidation and naming things.
 
-_Phil Karlton_
+*Phil Karlton*
 
-[What exactly is a name - Part I The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
+[What exactly is a name - Part I The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md) 
 
-[Code Smell 49 - Caches](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2049%20-%20Caches/readme.md)
+[Code Smell 49 - Caches](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2049%20-%20Caches/readme.md) 
 
-* * *
+---
 
 > Make illegal states unrepresentable.
 
-_Yaron Minsky_
+*Yaron Minsky*
 
-[The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
+[The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md) 
 
-* * *
+---
 
 > First make the change easy (warning: this might be hard), then make the easy change.
 
-_Kent Beck_
+*Kent Beck*
 
-[Code Smell 35 - State as Properties](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2035%20-%20State%20as%20Properties/readme.md)
+[Code Smell 35 - State as Properties](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2035%20-%20State%20as%20Properties/readme.md) 
 
-* * *
+---
 
 > Object-oriented programming languages support encapsulation, thereby improving the ability of software to be reused, refined, tested, maintained, and extended. The full benefit of this support can only be realized if encapsulation is maximized during the design process.
 
-_Rebecca Wirfs-Brock_
+*Rebecca Wirfs-Brock*
 
-[Code Smell 28 - Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
+[Code Smell 28 - Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md) 
 
-* * *
+---
+
+> You might not think that programmers are artists, but programming is an extremely creative profession. It's logic-based creativity.”
+
+*John Romero*
+
+[Code Smell 152 - Logical Comment](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20152%20-%20Logical%20Comment/readme.md) 
+
+---
+
+> Good judgement comes from experience, and experience comes from bad judgement.
+
+*Frederick P. Brooks*
+
+---
 
 > Don’t automate an undisciplined workflow. The computer won’t solve what the customer’s management can’t.
 
-_Larry Bernstein_
+*Larry Bernstein*
 
-* * *
+---
 
 > Science is what we understand well enough to explain to a computer. Art is everything else we do.
 
-_Donald Knuth_
+*Donald Knuth*
 
-* * *
+---
+
+> Object thinking focuses our attention on the problem space rather than the solution space. Object thinkers take the advice of Plato, Parnas, Fred Brooks, Christopher Alexander, and many others by letting the problem define its own solution
+
+*David West*
+
+[Code Smell 190 - Unnecessary Properties](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20190%20-%20Unnecessary%20Properties/readme.md)
+
+---
 
 > Voluminous documentation is part of the problem, not part of the solution.
 
-_Tom DeMarco_
+*Tom DeMarco*
 
-* * *
+---
 
 > Before you use a method in a legacy system, check to see if there are tests for it. If there aren’t, write them. When you do this consistently, you use tests as a medium of communication.
 
-_Michael Feathers_
+*Michael Feathers*
 
-* * * 
+[Code Smell 175 - Changes Without Coverage](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20175%20-%20Changes%20Without%20Coverage/readme.md) 
+
+---
 
 > In software systems it is often the early bird that makes the worm.
 
-_Alan Perlis_
+*Alan Perlis*
 
-* * *
+---
 
 > The biggest issue on software teams is making sure everyone understands what everyone else is doing.
 
-_Martin Fowler_
+*Martin Fowler*
 
-* * *
+[Code Smell 156 - Implicit Else](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20156%20-%20Implicit%20Else/readme.md) 
 
-> A programming language is a tool that has a profound influence on our thinking habits. 
+---
 
-_Edsger Dijkstra_
+> A programming language is a tool that has a profound influence on our thinking habits.
 
-* * * 
+*Edsger Dijkstra*
+
+[Code Smell 128 - Non-English Coding](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20128%20-%20Non%20English%20Coding/readme.md) 
+
+---
 
 > Object thinking focuses our attention on the problem space rather than the solution space.
 
-_David West_
+*David West*
 
-* * * 
+---
 
 > The essence of XML is this: the problem it solves is not hard, and it does not solve the problem well.
 
-_Phil Wadler_
+*Phil Wadler*
 
-* * *
+---
 
 > Software is like entropy: It is difficult to grasp, weighs nothing, and obeys the Second Law of Thermodynamics; i.e., it always increases.
 
-_Norman Augustine_
+*Norman Augustine*
 
-* * *
+---
 
 > The key to performance is elegance, not battalions of special cases.
 
-_Jon Bentley and Douglas McIlroy_
+*Jon Bentley and Douglas McIlroy*
 
-* * *
+---
 
 > We comfort ourselves with the belief that if the customers had just been happy with what they said they needed, the design would have been fine. It’s the customer’s fault for changing the requirements on us.
 
-_Robert Martin_
+*Robert Martin*
 
-* * *
+---
 
 > PHP is a minor evil perpetrated and created by incompetent amateurs, whereas Perl is a great and insidious evil, perpetrated by skilled but perverted professionals.
 
-_Jon Ribbens_
+*Jon Ribbens*
 
-* * *
+---
 
 > At any particular point in time, the features provided by our programming languages reflect our understanding of software and programming.
 
-_R. E. Fairley_
+*R. E. Fairley*
 
-* * *
+[Code Smell 194 - Missing Interval](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20194%20-%20Missing%20Interval/readme.md)
+
+---
 
 > Programming isn't about what you know; it's about what you can figure out.
 
-_Chris Pine_
+*Chris Pine*
 
-* * *
+---
 
 > In general, the longer you wait before fixing a bug, the costlier (in time and money) it is to fix.
 
-_Joel Spolsky_
+*Joel Spolsky*
 
-* * *
+[Code Smell 179 - Known Bugs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20179%20-%20Known%20Bugs/readme.md) 
+
+---
 
 > Nothing is harder than working under a tight deadline and still taking the time to clean up as you go.
 
-_Kent Beck_
+*Kent Beck*
 
-[Code Smell 109 - Automatic Properties](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20109%20-%20Automatic%20Properties/readme.md)
+[Code Smell 109 - Automatic Properties](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20109%20-%20Automatic%20Properties/readme.md) 
 
-* * *
+---
 
-> When I’m studying code, refactoring leads me to higher levels of understanding that I would otherwise miss. Those who dismiss comprehension refactoring as useless fiddling with the code don’t realize they never see the opportunities hidden behind the confusion.  
+> When I’m studying code, refactoring leads me to higher levels of understanding that I would otherwise miss. Those who dismiss comprehension refactoring as useless fiddling with the code don’t realize they never see the opportunities hidden behind the confusion.
 
-_Martin Fowler_
+*Martin Fowler*
 
-* * *
+[Code Smell 170 - Refactor with Functional Changes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20170%20-%20Refactor%20with%20Functional%20Changes/readme.md) 
 
+---
 
 > The best way to start fixing a bug is to make it reproducible. After all, if you can’t reproduce it, how will you know if it is ever fixed?
 
-_Andrew Hunt_
+*Andrew Hunt*
 
-* * * 
+---
 
 > A computer once beat me at chess, but it was no match for me at kick boxing.
 
-_Emo Philips_
+*Emo Philips*
 
-* * *
+---
 
 > Later Equals Never.
 
-_LeBlanc's Law_
+*LeBlanc's Law*
 
-* * * 
+---
 
 > People think that computer science is the art of geniuses but the actual reality is the opposite, just many people doing things that build on each other, like a wall of mini stones.
 
-_Donald Knuth_
+*Donald Knuth*
 
-* * *
+[Code Smell 144 - Fungible Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20144%20-%20Fungible%20Objects/readme.md) 
+
+---
 
 > Your most unhappy customers are your greatest source of learning.
 
-_Bill Gates_
+*Bill Gates*
 
-* * *
+---
 
 > The danger from computers is not that they will eventually get as smart as men, but that we will meanwhile agree to meet them halfway.
 
-_Bernard Avishai_
+*Bernard Avishai*
 
-* * *
+---
 
 > In programming, if someone tells you “you’re overcomplicating it,” they’re either 10 steps behind you or 10 steps ahead of you.
 
-_Andrew Clark_
+*Andrew Clark*
 
-* * *
+---
 
 > The only truly secure system is one that is powered off, cast in a block of concrete and sealed in a lead-lined room with armed guards.
 
-_Gene Spafford_
+*Gene Spafford*
 
-[Code Smell 120 - Sequential IDs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20120%20-%20Sequential%20IDs/readme.md)
+[Code Smell 120 - Sequential IDs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20120%20-%20Sequential%20IDs/readme.md) 
 
-* * *
+---
 
 > It's not at all important to get it right the first time. It's vitally important to get it right the last time.
 
-_Andrew Hunt_
+*Andrew Hunt*
 
-[Code Smell 118 - Return False](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20118%20-%20Return%20False/readme.md)
+[Code Smell 118 - Return False](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20118%20-%20Return%20False/readme.md) 
 
-* * * 
+---
 
 > Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday's code.
 
-_Dan Salomon_
+*Dan Salomon*
 
-* * *
+---
 
 > Weeks of programming can save you hours of planning.
 
-_Anonymous_
+*Anonymous*
 
-* * *
+---
 
-> It’s OK to figure out murder mysteries, but you shouldn’t need to figure out code.  You should be able to read it.
+> It’s OK to figure out murder mysteries, but you shouldn’t need to figure out code. You should be able to read it.
 
-_Steve McConnell_
+*Steve McConnell*
 
-[Code Smell 74 - Empty Lines](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2074%20-%20Empty%20Lines/readme.md)
+[Code Smell 74 - Empty Lines](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2074%20-%20Empty%20Lines/readme.md) 
 
-* * *
+---
 
 > There is an art to knowing where things should be checked and making sure that the program fails fast if you make a mistake. That kind of choosing is part of the art of simplification.
 
-_Ward Cunningham_
+*Ward Cunningham*
 
-* * *
+---
 
 > I've finally learned what 'upward compatible' means. It means we get to keep all our old mistakes.
 
-_Dennie van Tassel_
+*Dennie van Tassel*
 
-[Code Smell 104 - Assert True](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20104%20-%20Assert%20True/readme.md)
+[Code Smell 104 - Assert True](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20104%20-%20Assert%20True/readme.md) 
 
-* * *
+---
 
 > The software isn’t finished until the last user is dead.
 
-_Sidney Markowitz_
+*Sidney Markowitz*
 
-* * *
+---
 
 > An error arises from treating object variables (instance variables) as if they were data attributes and then creating your hierarchy based on shared attributes. Always create hierarchies based on shared behaviors, side.
 
-_David West_
+*David West*
 
-[Code Smell 114 - Empty Class](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20114%20-%20Empty%20Class/readme.md)
+[Code Smell 114 - Empty Class](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20114%20-%20Empty%20Class/readme.md) 
 
-* * *
+---
 
 > Information shared by an object might or might not be part of the structure of that object. That is, the object might compute the information, or it might delegate the request for information to another object.
 
-_Rebecca Wirfs Brooks_
+*Rebecca Wirfs Brooks*
 
-* * *
+---
 
 > The cheapest, fastest and most reliable components of a computer system are those that aren’t there.
 
-_Gordon Bell_
+*Gordon Bell*
 
-* * * 
+---
 
 > You can prove anything by mentioning another computer language.
 
-_Larry Wall_
+*Larry Wall*
 
-* * *
+---
 
-> Your obligation is that of active participation. You should not act as knowledge-absorbing sponges, but as whetstones on which we can all sharpen our wits. 
+> Your obligation is that of active participation. You should not act as knowledge-absorbing sponges, but as whetstones on which we can all sharpen our wits.
 
-_Edsger W. Dijkstra_
+*Edsger W. Dijkstra*
 
-* * *
+---
 
 > Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the Universe trying to produce bigger and better idiots. So far, the Universe is winning.
 
-_Rick Cook_
+*Rick Cook*
 
-[Code Smell 84 - Max < Min (Javascript)](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2084%20-%20Max%20%20Min%20(Javascript)/readme.md)
+[Code Smell 84 - Max < Min (Javascript)](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2084%20-%20Max%20%20Min%20(Javascript)/readme.md) 
 
-* * *
+---
 
-> Without requirements or design, programming is the art of adding bugs to an empty text file. 
+> Without requirements or design, programming is the art of adding bugs to an empty text file.
 
-_Louis Srygley_
+*Louis Srygley*
 
-* * *
+---
 
 > Encapsulate the concept that varies.
 
-_Erich Gamma_
+*Erich Gamma*
 
-[Code Smell 103 - Double Encapsulation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20103%20-%20Double%20Encapsulation/readme.md)
+[Code Smell 103 - Double Encapsulation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20103%20-%20Double%20Encapsulation/readme.md) 
 
-* * * 
+---
 
 > Good programmers never write what they can steal or borrow.
 
-_Jeff Atwood_
+*Jeff Atwood*
 
-* * *
+---
 
 > It is very hard to predict, especially the future.
 
-_Niels Bohr_
+*Niels Bohr*
 
-[Code Smell 54 - Anchor Boats](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2054%20-%20Anchor%20Boats/readme.md)
+[Code Smell 54 - Anchor Boats](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2054%20-%20Anchor%20Boats/readme.md) 
 
-* * *
+---
 
 > You cannot teach beginners top-down programming, because they don't know which end is up.
 
-_Tony Hoare_
+*Tony Hoare*
 
-* * *
+---
 
 > Duplication is far cheaper than the wrong abstraction.
 
-_Sandi Metz_
+*Sandi Metz*
 
-* * *
+[Code Smell 182 - Over Generalization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20182%20-%20Over%20Generalization/readme.md) 
+
+---
 
 > Learn not to add too many features right away, and get the core idea built and tested.
 
-_Leah Culver_
+*Leah Culver*
 
-* * * 
+---
 
 > If it doesn’t work, it doesn’t matter how fast it doesn’t work.
 
-_Mich Ravera_
+*Mich Ravera*
 
-[Code Smell 101 - Comparison Against Booleans](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20101%20-%20Comparison%20Against%20Booleans/readme.md)
+[Code Smell 101 - Comparison Against Booleans](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20101%20-%20Comparison%20Against%20Booleans/readme.md) 
 
-* * *
+---
 
 > Writing a class without its contract would be similar to producing an engineering component (electrical circuit, VLSI (Very Large Scale Integration) chip, bridge, engine...) without a spec. No professional engineer would even consider the idea.
 
-_Bertrand Meyer_
+*Bertrand Meyer*
 
-* * *
+[Code Smell 136 - Classes With just One Subclass](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20136%20-%20Classes%20With%20just%20One%20Subclass/readme.md) 
 
->Telling a programmer there's already a library to do X is like telling a songwriter there's already a song about love.
+---
 
-_Pete Cordell_
+> Telling a programmer there's already a library to do X is like telling a songwriter there's already a song about love.
 
-* * *
+*Pete Cordell*
+
+---
 
 > A cache with a bad policy is another name for a memory leak.
 
-_Rico Mariani_
+*Rico Mariani*
 
-* * *
+---
 
-> In a purely functional program, the value of a [constant] never changes, and yet, it changes all the time! A paradox!
+> In a purely functional program, the value of a \[constant\] never changes, and yet, it changes all the time! A paradox!
 
-_Joel Spolsky_
+*Joel Spolsky*
 
-[Code Smell 02 - Constants and Magic Numbers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
+[Code Smell 02 - Constants and Magic Numbers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md) 
 
-* * *
+---
+
+> If I have seen further than others, it is by standing upon the shoulders of giants.
+
+*Isaac Newton*
+
+---
 
 > If you lie to the compiler, it will get its revenge.
 
-_Henry Spencer_
+*Henry Spencer*
 
-[Code Smell 62 - Flag Variables](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2062%20-%20Flag%20Variables/readme.md)
+[Code Smell 62 - Flag Variables](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2062%20-%20Flag%20Variables/readme.md) 
 
-* * * 
+---
 
 > When your code depends on an interface, that dependency is usually very minor and unobtrusive. Your code doesn’t have to change unless the interface changes, and interfaces typically change far less often than the code behind them. When you have an interface, you can edit classes that implement that interface or add new classes that implement the interface, all without impacting code that uses the interface.
 
 > For this reason, it is better to depend on interfaces or abstract classes than it is to depend on concrete classes. When you depend on less volatile things, you minimize the chance that particular changes will trigger massive recompilation.
 
-_Michael Feathers_
+*Michael Feathers*
 
-[Code Smell 61 - Coupling to Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2061%20-%20Coupling%20to%20Classes/readme.md)
+[Code Smell 61 - Coupling to Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2061%20-%20Coupling%20to%20Classes/readme.md) 
 
-* * *
+---
 
 > Never spend 6 minutes doing something by hand when you can spend 6 hours failing to automate it.
 
-_Zhuowei Zhang_
+*Zhuowei Zhang*
 
-* * *
+---
 
 > The value of a prototype is in the education it gives you, not in the code itself.
 
-_Alan Cooper_
+*Alan Cooper*
 
-[Code Smell 68 - Getters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2068%20-%20Getters/readme.md)
+[Code Smell 68 - Getters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2068%20-%20Getters/readme.md) 
 
-* * *
+---
 
 > When someone says, "I want a programming language in which I need only say what I want done," give him a lollipop.
 
-_Alan J. Perlis_
+*Alan J. Perlis*
 
-* * *
+[Code Smell 196 - Javascript Array Constructors](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20196%20-%20Javascript%20Array%20Constructors/readme.md)
+
+---
 
 > Changes in software design will eventually mean "one step forward, two steps back". It is inevitable.
 
-_Salman Arshad_
+*Salman Arshad*
 
-* * *
+[Code Smell 176 - Changes in Essence](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20176%20-%20Changes%20in%20Essence/readme.md) 
+
+---
 
 > The real hero of programming is the one who writes negative code.
 
-_Douglas McIlroy_
+*Douglas McIlroy*
 
-[Code Smell 119 - Stairs Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20119%20-%20Stairs%20Code/readme.md)
+[Code Smell 119 - Stairs Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20119%20-%20Stairs%20Code/readme.md) 
 
-* * *
+---
 
 > Mathematicians stand on each others' shoulders and computer scientists stand on each others' toes.
 
-_Richard Hamming_
+*Richard Hamming*
 
-* * *
+---
 
-> The code you write makes you a programmer. The code you delete makes you a good one. The code you don't have to write makes you a great one. 
+> The code you write makes you a programmer. The code you delete makes you a good one. The code you don't have to write makes you a great one.
 
-_Mario Fusco_
+*Mario Fusco*
 
-* * *
+---
 
 > Simple things should be simple, complex things should be possible.
 
-_Alan Kay_
+*Alan Kay*
 
-[Code Smell 31 - Accidental Methods on Business Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2031%20-%20Accidental%20Methods%20on%20Business%20Objects/readme.md)
+[Code Smell 31 - Accidental Methods on Business Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2031%20-%20Accidental%20Methods%20on%20Business%20Objects/readme.md) 
 
-* * *
+---
 
 > Final source code is the real software design.
 
-_Jack Reeves_
+*Jack Reeves*
 
-[Code Smell 99 - First Second](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2099%20-%20First%20Second/readme.md)
+[Code Smell 99 - First Second](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2099%20-%20First%20Second/readme.md) 
 
-* * *
+---
 
 > If you think good architecture is expensive, try bad architecture.
 
-_Brian Foote and Joseph Yoder_
+*Brian Foote and Joseph Yoder*
 
-* * *
+---
 
 > The whole point of getting things done is knowing what to leave undone.
 
-_Oswald Chambers_
+*Oswald Chambers*
 
-* * *
+---
 
 > Object-oriented programming increases the value of these metrics by managing this complexity. The most effective tool available for dealing with complexity is abstraction. Many types of abstraction can be used, but encapsulation is the main form of abstraction by which complexity is managed in object-oriented programming.
 
-_Rebecca Wirfs-Brock_
+*Rebecca Wirfs-Brock*
 
-[Code Smell 21 - Anonymous Functions Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2021%20-%20Anonymous%20Functions%20Abusers/readme.md)
+[Code Smell 21 - Anonymous Functions Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2021%20-%20Anonymous%20Functions%20Abusers/readme.md) 
 
-* * *
+---
 
 > Make it correct, make it clear, make it concise, make it fast. In that order.
 
-_Wes Dyer_
+*Wes Dyer*
 
-* * *
+---
 
 > Indeed, the woes of Software Engineering are not due to lack of tools, or proper management, but largely due to lack of sufficient technical competence.
 
-_Niklaus Wirth_
+*Niklaus Wirth*
 
-* * *
+---
 
 > The last good thing written in C was Franz Schubert's Symphony Number 9.
 
-_Erwin Dieterich_
+*Erwin Dieterich*
 
-* * *
+---
 
 > There is absolutely no reason to make computers as stupid as people are.
 
-_Nigel Jacob_
+*Nigel Jacob*
 
-* * *
+---
 
 > To me programming is more than an important practical art. It is also a gigantic undertaking in the foundations of knowledge.
 
-_Grace Hopper_
+*Grace Hopper*
 
-* * *
+---
 
 > The use of COBOL cripples the mind; its teaching should therefore be regarded as a criminal offense.
 
-_Edsger Dijkstra_
+*Edsger Dijkstra*
 
-* * *
+---
 
 > Optimism is an occupational hazard of programming: feedback is the treatment.
 
-_Kent Beck_
+*Kent Beck*
 
-* * *
+[Code Smell 129 - Structural Optimizations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20129%20-%20Structural%20Optimizations/readme.md) 
+
+---
 
 > Hackers are arrogant geek romantics. They lack the attentive spirit of inquiry.
 
-_Bruce Sterling_
+*Bruce Sterling*
 
-[Code Smell 44 - Magic Corrections](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2044%20-%20Magic%20Corrections/readme.md)
+[Code Smell 44 - Magic Corrections](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2044%20-%20Magic%20Corrections/readme.md) 
 
-* * *
+---
 
-> If someone claims to have the perfect programming language, he is either a fool or a salesman or both. 
+> If someone claims to have the perfect programming language, he is either a fool or a salesman or both.
 
-_Bjarne Stroustrup_
+*Bjarne Stroustrup*
 
-* * *
+[Code Smell 162 - Too Many Parentheses](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20162%20-%20Too%20Many%20Parentheses/readme.md) 
+
+---
 
 > Thinking is not the ability to manipulate language; it's the ability to manipulate concepts.
 
-_Leslie Lamport_
+*Leslie Lamport*
 
-* * *
+---
 
 > If you can get today’s work done today, but you do it in such a way that you can’t possibly get tomorrow’s work done tomorrow, then you lose.
 
-_Martin Fowler_
+*Martin Fowler*
 
-* * *
+---
 
 > A computer is a stupid machine with the ability to do incredibly smart things, while computer programmers are smart people with the ability to do incredibly stupid things. They are, in short, a perfect match.
 
-_Bill Bryson_
+*Bill Bryson*
 
-* * *
+[Code Smell 145 - Short Circuit Hack](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20145%20-%20Short%20Circuit%20Hack/readme.md) 
+
+---
 
 > Programming is not about typing, it's about thinking.
 
-_Rich Hickey_
+*Rich Hickey*
 
-* * *
+---
 
 > The most likely way for the world to be destroyed, most experts agree, is by accident. That's where we come in; we're computer professionals. We cause accidents.
 
-_Nathaniel S. Borenstein_
+*Nathaniel S. Borenstein*
 
-* * *
+---
 
 > There’s nothing more permanent than a temporary hack.
 
-_Kyle Simpson_
+*Kyle Simpson*
 
-[Code Smell 27 - Associative Arrays](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2027%20-%20Associative%20Arrays/readme.md)
+[Code Smell 27 - Associative Arrays](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2027%20-%20Associative%20Arrays/readme.md) 
 
-* * *
+---
 
-> The trouble with programmers is that you can never tell what a programmer is doing until it’s too late. 
+> The trouble with programmers is that you can never tell what a programmer is doing until it’s too late.
 
-_Seymour Cray_
+*Seymour Cray*
 
-* * *
+---
 
 > The primary disadvantage of Wrap Method is that it can lead to poor names. In the previous example, we renamed the pay method dispatchPay() just because we needed a different name for code in the original method.
 
-_Michael Feathers_
+*Michael Feathers*
 
-[Code Smell 59 - Basic / Do Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2059%20-%20Basic%20Do%20Functions/readme.md)
+[Code Smell 59 - Basic / Do Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2059%20-%20Basic%20Do%20Functions/readme.md) 
 
-* * *
+---
 
 > Learning to code is useful no matter what your career ambitions are.
 
-_Arianna Huffington_
+*Arianna Huffington*
 
-* * *
+---
 
 It is practically impossible to teach good programming to students that have had a prior exposure to BASIC: as potential programmers they are mentally mutilated beyond hope of regeneration.
 
 Edsger Dijkstra
 
-[Code Smell 100 - GoTo](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20100%20-%20GoTo/readme.md)
+[Code Smell 100 - GoTo](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20100%20-%20GoTo/readme.md) 
 
-* * *
+---
 
 > Of course bad code can be cleaned up. But it’s very expensive.
 
-_Robert C. Martin_
+*Robert C. Martin*
 
-* * *
+---
 
-> Blaming programmers has been the prevailing approach for a half century of software development: It has
-not solved the problem yet, so it is time to look in different directions.
+> Blaming programmers has been the prevailing approach for a half century of software development: It has not solved the problem yet, so it is time to look in different directions.
 
-_Boris Beizer_
+*Boris Beizer*
 
-* * *
+---
 
 > 80 percent of my problems are simple logic errors. 80 percent of the remaining problems are pointer errors. The remaining problems are hard.
 
-_Mark Donner_
+*Mark Donner*
 
-* * * 
+[Code Smell 166 - Low-Level Errors on User Interface](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20166%20-%20Low-Level%20Errors%20on%20User%20Interface/readme.md) 
+
+---
 
 > The purpose of software engineering is to control complexity, not to create it.
 
-_Pamela Zave_
+*Pamela Zave*
 
-[Code Smell 102 - Arrow Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md)
+[Code Smell 102 - Arrow Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md) 
 
-* * *
+---
 
 > The purpose of computing is insight, not numbers.
 
-_Richard Hamming_
+*Richard Hamming*
 
-[Code Smell 71 - Magic Floats Disguised as Decimals](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2071%20-%20Magic%20Floats%20Disguised%20as%20Decimals/readme.md)
+[Code Smell 71 - Magic Floats Disguised as Decimals](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2071%20-%20Magic%20Floats%20Disguised%20as%20Decimals/readme.md) 
 
-* * *
+---
 
 > Write shy code — modules that don't reveal anything unnecessary to other modules and that don't rely on other modules' implementations.
 
-_Dave Thomas_
+*Dave Thomas*
 
-[Code Smell 60 - Global Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2060%20-%20Global%20Classes/readme.md)
+[Code Smell 60 - Global Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2060%20-%20Global%20Classes/readme.md) 
 
-* * *
-
-> Software is a gas; it expands to fill its container.
-
-_Nathan Myhrvold_
-
-* * *
+---
 
 > The trick is to fix the problem you have, rather than the problem you want.
 
-_Bram Cohen_
+*Bram Cohen*
 
-[Singleton - The root of all evil](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
+[Singleton - The root of all evil](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md) 
 
-* * *
+---
 
 > Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification.
 
-_Bertrand Meyer_
+*Bertrand Meyer*
 
-* * *
+[Code Smell 137 - Inheritance Tree Too Deep](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20137%20-%20Inheritance%20Tree%20Too%20Deep/readme.md) 
+
+---
 
 > Software and cathedrals are much the same. First we build them, then we pray.
 
-_Sam Redwine_
+*Sam Redwine*
 
-* * *
+---
 
 > A design that doesn’t take change into account risks major redesign in the future.
 
-_Erich Gamma_
+*Erich Gamma*
 
-[Code Smell 124 - Divergent Change](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20124%20-%20Divergent%20Change/readme.md)
+[Code Smell 124 - Divergent Change](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20124%20-%20Divergent%20Change/readme.md) 
 
- * * *
+---
 
 > Either way you look at it (DRY or laziness), the idea is the same: make your program flexible. When change comes (and it always does), you'll have a much easier time changing with it.
 
-_Chris Pine_
+*Chris Pine*
 
-[Code Smell 83 - Variables Reassignment](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2083%20-%20Variables%20Reassignment/readme.md)
+[Code Smell 83 - Variables Reassignment](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2083%20-%20Variables%20Reassignment/readme.md) 
 
-* * * 
+---
 
 > Duplication is the primary enemy of a well-designed system.
 
-_Robert Martin_
+*Robert Martin*
 
-[Code Smell 66 - Shotgun Surgery](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2066%20-%20Shotgun%20Surgery/readme.md)
+[Code Smell 66 - Shotgun Surgery](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2066%20-%20Shotgun%20Surgery/readme.md) 
 
-* * *
+---
 
-Software is a gas; it expands to fill its container.
+> Software is a gas; it expands to fill its container.
 
-Nathan Myhrvold
+*Nathan Myhrvold*
 
-[Code Smell 43 - Concrete Classes Subclassified](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2043%20-%20Concrete%20Classes%20Subclassified/readme.md)
+[Code Smell 43 - Concrete Classes Subclassified](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2043%20-%20Concrete%20Classes%20Subclassified/readme.md) 
 
-* * *
+---
 
 > I couldn't resist the temptation to put in a null reference, simply because it was so easy to implement. This has led to innumerable errors, vulnerabilities, and system crashes, which have probably caused a billion dollars of pain and damage in the last forty years.
 
-_Tony Hoare_
+*Tony Hoare*
 
-[Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
+[Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md) 
 
-* * *
+---
 
-> One bad programmer can easily create two new jobs a year. 
+> One bad programmer can easily create two new jobs a year.
 
-_David Parnas_
+*David Parnas*
 
-* * *
+---
 
 > Every great developer you know got there by solving problems they were unqualified to solve until they actually did it.
 
-_Patrick McKenzie_
+*Patrick McKenzie*
 
-* * *
+---
 
 > Simplicity is prerequisite for reliability.
 
-_Edsger W. Dijkstra_
+*Edsger W. Dijkstra*
 
-* * *
+---
 
 > Good design adds value faster than it adds cost.
 
-_Thomas C. Gale_
+*Thomas C. Gale*
 
-* * *
+---
 
-> Types are essentially assertions about a program.  And I think it’s valuable to have things be as absolutely simple as possible, including not even saying what the types are.
+> Types are essentially assertions about a program. And I think it’s valuable to have things be as absolutely simple as possible, including not even saying what the types are.
 
-_Dan Ingalls_
+*Dan Ingalls*
 
-[Code Smell 65 - Variables Named after Types](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2065%20-%20Variables%20Named%20after%20Types/readme.md)
+[Code Smell 65 - Variables Named after Types](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2065%20-%20Variables%20Named%20after%20Types/readme.md) 
 
-* * *
+---
 
 > Some people are good programmers because they can handle many more details than most people. But there are a lot of disadvantages in selecting programmers for that reason — it can result in programs that no one else can maintain.
 
-_Butler Lampson_
+*Butler Lampson*
 
-* * * 
+---
 
 > Before software can be reusable it first has to be usable.
 
-_Ralph Johnson_
+*Ralph Johnson*
 
-* * *
+---
 
-> Copying skips understanding. Understanding is how you grow. You have to understand why something works or why something is how it is. When you copy it, you miss that. You just repurpose the last layer instead of understanding all the layers underneath. 
+> Copying skips understanding. Understanding is how you grow. You have to understand why something works or why something is how it is. When you copy it, you miss that. You just repurpose the last layer instead of understanding all the layers underneath.
 
-_Jason Fried_
+*Jason Fried*
 
-* * * 
+[Code Smell 174 - Class Name in Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20174%20-%20Class%20Name%20in%20Attributes/readme.md) 
+
+---
 
 > Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves.
 
-_Alan Kay_
+*Alan Kay*
 
-* * *
+---
 
 Bugs are bugs. You write code with bugs because you do. If it’s a safe language in the sense of run-time safe, the operating system crashes instead of doing a buffer overflow in a way that’s exploitable.
 
-_Ken Thompson_
+*Ken Thompson*
 
-[Code Smell 111 - Modifying Collections While Traversing](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20111%20-%20Modifying%20Collections%20While%20Traversing/readme.md)
+[Code Smell 111 - Modifying Collections While Traversing](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20111%20-%20Modifying%20Collections%20While%20Traversing/readme.md) 
 
-* * *
+---
 
 > The Scrum idea of a separated Scrum Master is good for Scrum, but not appropriate for most projects. Good development requires not just talkers but doers.
 
-_Bertrand Meyer_
+*Bertrand Meyer*
 
-* * *
+---
 
 > Any sufficiently advanced bug is indistinguishable from a feature.
 
-_Bruce Brown_
+*Bruce Brown*
 
-* * *
+---
 
 > Premature optimization is the root of all evil
 
-_Donald Knuth_
+*Donald Knuth*
 
-[Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
+[Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md) 
 
-* * *
+---
 
 > When in doubt, use brute force.
 
-_Ken Thompson_
+*Ken Thompson*
 
-* * *
+---
 
 > The main activity of programming is not the origination of new independent programs, but in the integration, modification, and explanation of existing ones.
 
-_Terry Winograd_
+*Terry Winograd*
 
-* * *
+---
 
 > Any problem in computer science can be solved with another level of indirection.
 
-_David Wheeler_
+*David Wheeler*
 
-[Code Smell 50 - Object Keys](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2050%20-%20Object%20Keys/readme.md)
+[Code Smell 50 - Object Keys](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2050%20-%20Object%20Keys/readme.md) 
 
-* * *
+---
 
 > Computer science is not about machines, in the same way that astronomy is not about telescopes. There is an essential unity of mathematics and computer science.
 
-_Michael R. Fellows_
+*Michael R. Fellows*
 
-[Code Smell 89 - Math Feature Envy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2089%20-%20Math%20Feature%20Envy/readme.md)
+[Code Smell 89 - Math Feature Envy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2089%20-%20Math%20Feature%20Envy/readme.md) 
 
-* * *
+---
 
 > There are two ways to write code: write code so simple there are obviously no bugs in it, or write code so complex that there are no obvious bugs in it.
 
-_Tony Hoare_
+*Tony Hoare*
 
-[Code Smell 78 - Callback Hell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2078%20-%20Callback%20Hell/readme.md)
+[Code Smell 78 - Callback Hell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2078%20-%20Callback%20Hell/readme.md) 
 
-* * * 
+---
 
 > Let us change our traditional attitude to the construction of programs: Instead of imagining that our main task is to instruct a computer what to do, let us concentrate rather on explaining to human beings what we want a computer to do.
 
-_Donald E. Knuth_
+*Donald E. Knuth*
 
-[Code Smell 95 - Premature Classification](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2095%20-%20Premature%20Classification/readme.md)
+[Code Smell 95 - Premature Classification](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2095%20-%20Premature%20Classification/readme.md) 
 
-* * * 
+---
 
 > Computer scientists have so far worked on developing powerful programming languages that make it possible to solve the technical problems of computation. Little effort has gone toward devising the languages of interaction.
 
-_Don Norman_
+*Don Norman*
 
-* * *
+---
 
 > When the final design seems too simple for the amount of work you've put in, then you know you're done.
 
-_Brady Clark_
+*Brady Clark*
 
-* * *
+[Code Smell 161 - Abstract/Final/Undefined Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20161%20-%20Abstract%20Final%20Undefined%20Classes/readme.md) 
 
-> Developers are drawn to complexity like moths to a flame, frequently with the same result. 
+---
 
-_Neal Ford_
+> Developers are drawn to complexity like moths to a flame, frequently with the same result.
 
-* * *
+*Neal Ford*
+
+[Code Smell 181 - Nested Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20181%20-%20Nested%20Classes/readme.md) 
+
+---
 
 > We have persistant objects, they're called files.
 
-_Ken Thompson_
+*Ken Thompson*
 
-* * *
+---
 
 > I am not terribly dogmatical about the goto statement. I have the uncomfortable feeling that others are making a religion out of it, as if the conceptual problems of programming could be solved by a single trick, by a simple form of coding discipline!
 
-_Edsger Dijkstra_
+*Edsger Dijkstra*
 
-* * *
+---
 
 > No amount of elegant programming or technology will solve a problem if it is improperly specified or understood to begin with.
 
-_Milt Bryce_
+*Milt Bryce*
 
-* * *
+---
 
 > Discovery consists of seeing what everyone else has seen and thinking what no one else has thought.
 
-_Albert Szent-Gyorgi_
+*Albert Szent-Gyorgi*
 
-* * *
+---
 
 > The longer it takes for a bug to surface, the harder it is to find.
 
-_Roedy Green_
+*Roedy Green*
 
-* * *
+---
 
 It should be noted that no ethically-trained software engineer would ever consent to write a DestroyBaghdad procedure. Basic professional ethics would instead require him to write a DestroyCity procedure, to which Baghdad could be given as a parameter.
 
-_Nathaniel Borenstein_
+*Nathaniel Borenstein*
 
-* * *
+---
 
 > So why was it so hard to tell a computer to do something only mildly complex? Well, it wasn't the "mildly complex" part that was giving me problems; it was the "tell a computer" part.
 
-_Chris Pine_
+*Chris Pine*
 
-* * * 
+---
 
 > There is no code so big, twisted, or complex that maintenance can't make it worse.
 
-_Gerald M. Weinberg_
+*Gerald M. Weinberg*
 
-* * *
+[Code Smell 147 - Too Many Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20147%20-%20Too%20Many%20Methods/readme.md) 
 
-> First think about what the ultimate would be. Then take a step away from that, and another, until you get something you can build. 
+---
 
-_Matt Reedy_
+> First think about what the ultimate would be. Then take a step away from that, and another, until you get something you can build.
 
-* * *
+*Matt Reedy*
 
-> You must have long-range goals to keep you from being frustrated by short-range failures.  
+---
 
-_Charles C. Noble_
+> You must have long-range goals to keep you from being frustrated by short-range failures.
 
-* * *
+*Charles C. Noble*
+
+---
 
 > In programming, the hard part isn't solving problems, but deciding what problems to solve.
 
-_Paul Graham_
+*Paul Graham*
 
-[Code Smell 39 - new Date()](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2039%20-%20new%20Date()/readme.md)
+[Code Smell 39 - new Date()](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2039%20-%20new%20Date()/readme.md) 
 
-* * *
+---
 
 > The key to efficient development is to make interesting new mistakes.
 
-_Tom Love_
+*Tom Love*
 
-* * * 
+---
 
 > The frog just doesn’t notice the change. Don’t be like the frog. Keep an eye on the big picture. Constantly review what’s happening around you, not just what you personally are doing.
 
-_Andrew Hunt_
+*Andrew Hunt*
 
-* * *
+---
 
 > Walking on water and developing software from a specification are easy if both are frozen.
 
-_Edward V Berard_
+*Edward V Berard*
 
-* * *
+---
 
 > The Diagram is Not the Model. The model is not the diagram. It is an abstraction, a set of concepts and relationships between them.
 
-_Eric Evans_
+*Eric Evans*
 
-[Code Smell 47 - Diagrams](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2047%20-%20Diagrams/readme.md)
+[Code Smell 47 - Diagrams](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2047%20-%20Diagrams/readme.md) 
 
-* * *
+---
 
 > Eighty percent of all input forms ask questions they have no business asking.
 
-_Mike Garey_
+*Mike Garey*
 
-* * *
+---
 
 > A primary cause of complexity is that software vendors uncritically adopt almost any feature that users want.
 
-_Niklaus Wirth_
+*Niklaus Wirth*
 
-* * *
+---
 
 > No crisis inside a computer is worth humiliating a human.
 
-_Alan Cooper_
+*Alan Cooper*
 
-* * *
+---
 
 > I love software, because if you can imagine something, you can build it.
 
-_Ray Ozzie_
+*Ray Ozzie*
 
-* * *
+[Code Smell 135 - Interfaces With just One Realization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20135%20-%20Interfaces%20With%20just%20One%20Realization/readme.md) 
+
+---
 
 > Beauty is more important in computing than anywhere else in technology because software is so complicated. Beauty is the ultimate defense against complexity.
 
-_D. Gelernter_
+*D. Gelernter*
 
-* * *
+[Code Smell 187 - If/Else Backwards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20187%20-%20If%20Else%20Backwards/readme.md) 
 
-> Small minds are concerned with the extraordinary, great minds with the ordinary. 
+---
 
-_Blaise Pascal_
+> Small minds are concerned with the extraordinary, great minds with the ordinary.
 
-* * *
+*Blaise Pascal*
+
+---
 
 > Sometimes it is the people no one can imagine anything of who do the things no one can imagine.
 
-_Alan Turing_
+*Alan Turing*
 
-* * *
+---
 
 > It can be better to copy a little code than to pull in a big library for one function. Dependency hygiene trumps code reuse.
 
-_Rob Pike_
+*Rob Pike*
 
-* * *
+---
 
 > I think you should always bear in mind that entropy is not on your side.
 
-_Elon Musk_
+*Elon Musk*
 
-* * *
+---
 
 > Computer Science education cannot make anybody an expert programmer any more than studying brushes and pigment can make somebody an expert painter.
 
-_E. Raymond_
+*E. Raymond*
 
-* * *
+---
 
 > Beware of programmers who carry screwdrivers.
 
-_Leonard Brandwein_
+*Leonard Brandwein*
 
-* * *
+---
 
-> Getting information off the Internet is like taking a drink from a fire hydrant
+> Getting information off the Internet is like taking a drink from a fire hydrant.
 
-_Mitch Kapor_
+*Mitch Kapor*
 
-* * *
+---
 
 > Don't get suckered in by the comments, they can be terribly misleading: Debug only the code.
 
-_Dave Storer_
+*Dave Storer*
 
-[Code Smell 75 - Comments Inside a Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2075%20-%20Comments%20Inside%20a%20Method/readme.md)
+[Code Smell 75 - Comments Inside a Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2075%20-%20Comments%20Inside%20a%20Method/readme.md) 
 
-* * *
+---
 
->  C++ is designed to allow you to express ideas, but if you don't have ideas or don't have any clue about how to express them, C++ doesn't offer much help.
+> C++ is designed to allow you to express ideas, but if you don't have ideas or don't have any clue about how to express them, C++ doesn't offer much help.
 
-_Bjarne Stroustrup_
+*Bjarne Stroustrup*
 
-[Code Smell 56 - Preprocessors](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2056%20-%20Preprocessors/readme.md)
+[Code Smell 56 - Preprocessors](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2056%20-%20Preprocessors/readme.md) 
 
-* * *
+---
 
 > Less than 10% of the code has to do with the ostensible purpose of the system; the rest deals with input-output, data validation, data structure maintenance, and other housekeeping.
 
-_Mary Shaw_
+*Mary Shaw*
 
-[Code Smell 121 - String Validations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20121%20-%20String%20Validations/readme.md)
+[Code Smell 121 - String Validations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20121%20-%20String%20Validations/readme.md) 
 
-* * *
+---
 
 > Programs, like people, get old. We can’t prevent aging, but we can understand its causes, limit its effects and reverse some of the damage.
 
-_Mario Fusco_
+*Mario Fusco*
 
-* * *
+[Code Smell 168 - Undocumented Decisions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20168%20-%20Undocumented%20Decisions/readme.md) 
 
-> The best performance improvement is the transition from the nonworking state to the working state. 
+---
 
-_J. Osterhout_
+> The best performance improvement is the transition from the nonworking state to the working state.
 
-* * *
+*J. Osterhout*
 
-> People tend to overestimate what can be done in one year and to underestimate what can be done in five or ten years. 
+---
 
-_Joseph Licklider_
+> People tend to overestimate what can be done in one year and to underestimate what can be done in five or ten years.
 
-* * *
+*Joseph Licklider*
+
+---
 
 > Don't be (too) clever. My point was to discourage overly clever code because "clever code" is hard to write, easy to get wrong, harder to maintain, and often no faster than simpler alternatives because it can be hard to optimize.
 
-_Bjarne Stroustrup_
+*Bjarne Stroustrup*
 
-* * *
+[Code Smell 133 - Hardcoded IF Conditions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20133%20-%20Hardcoded%20IF%20Conditions/readme.md) 
+
+---
 
 > Optimization hinders evolution. Everything should be built top-down, except the first time. Simplicity does not precede complexity, but follows it.
 
-_Alan Perlis_
+*Alan Perlis*
 
-* * *
+[Code Smell 165 - Empty Exception Blocks](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20165%20-%20Empty%20Exception%20Blocks/readme.md) 
+
+---
 
 > Computer science inverts the normal. In normal science, you're given a world, and your job is to find out the rules. In computer science, you give the computer the rules, and it creates the world.
 
-_Alan Kay_
+*Alan Kay*
 
-* * *
+[Code Smell 186 - Hardcoded Business Conditions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20186%20-%20Hardcoded%20Business%20Conditions/readme.md) 
+
+---
 
 > The good news is: Anything is possible on your computer. The bad news is: Nothing is easy.
 
-_Ted Nelson_
+*Ted Nelson*
 
-[Code Smell 115 - Return True](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20115%20-%20Return%20True/readme.md)
+[Code Smell 115 - Return True](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20115%20-%20Return%20True/readme.md) 
 
-* * *
+---
 
 > Bugs lurk in corners and congregate at boundaries.
 
-_Boris Beizer_
+*Boris Beizer*
 
-* * *
+[Code Smell 160 - Invalid Id = 9999](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20160%20-%20Invalid%20Id%20=%209999/readme.md) 
+
+---
 
 > Take reasonable steps to test, document, and otherwise draw attention to the assumptions made in every module and routine.
 
-_Daniel Read_
+*Daniel Read*
 
-* * *
+---
 
 > Simple systems are not feasible because they require infinite testing.
 
-_Norman Ralph Augustine_
+*Norman Ralph Augustine*
 
-* * *
+---
+
+> C is quirky, flawed, and an enormous success.
+
+*Dennis M. Ritchie*
+
+---
 
 I’m not a great programmer; I’m just a good programmer with great habits.
 
-_Kent Beck_
+*Kent Beck*
 
-* * *
+---
 
 > All programming languages are shit. But the good ones fertilize your mind.
-  
-_Reg Braithwaite_
 
-* * *
+*Reg Braithwaite*
+
+---
 
 > Conceptual integrity is the most important consideration in system design.
 
-_Frederick P. Brooks_
+*Frederick P. Brooks*
 
-* * *
+---
 
 > The workers and professionals of the world will soon be divided into two distinct groups. Those who will control computers and those who will be controlled by computers. It would be best for you to be in the former group.
 
-_Lewis D. Eigen_
+*Lewis D. Eigen*
 
-* * *
+---
 
 > Inside every well-written large program is a well-written small program.
 
-_C.A.R. Hoare_
+*C.A.R. Hoare*
 
+[Code Smell 98 - Speling Mistakes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2098%20-%20Speling%20Mistakes/readme.md) 
 
-[Code Smell 98 - Speling Mistakes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2098%20-%20Speling%20Mistakes/readme.md)
-
-* * * 
+---
 
 > I can’t be as confident about computer science as I can about biology. Biology easily has 500 years of exciting problems to work on. It’s at that level.
 
-_Donald Knuth_
+*Donald Knuth*
 
-* * *
+---
 
 > We must not forget that the wheel is reinvented so often because it is a very good idea; I've learned to worry more about the soundness of ideas that were invented only once.
 
-_David L. Parnas_
+*David L. Parnas*
 
-* * * 
+---
 
 > A data structure is just a stupid programming language.
 
-_Bill Gosper_
+*Bill Gosper*
 
-[Code Smell 55 - Object Orgy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2055%20-%20Object%20Orgy/readme.md)
+[Code Smell 55 - Object Orgy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2055%20-%20Object%20Orgy/readme.md) 
 
-* * *
+---
 
 > The Analytical Engine has no pretensions whatever to originate anything. It can do whatever we know how to order it to perform… But it is likely to exert an indirect and reciprocal influence on science itself.
 
-_Ada Lovelace_
+*Ada Lovelace*
 
-* * *
+---
 
 > Every craftsman starts his or her journey with a basic set of good-quality tools.
 
-_Andrew Hunt_
+*Andrew Hunt*
 
-* * *
+[Code Smell 178 - Subsets Violation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20178%20-%20Subsets%20Violation/readme.md) 
+
+---
 
 > Don't worry about design, if you listen to your code a good design will appear...Listen to the technical people. If they are complaining about the difficulty of making changes, then take such complaints seriously and give them time to fix things.
 
-_Martin Fowler_
+*Martin Fowler*
 
-* * *
+[Code Smell 131 - Zero Argument Constructor](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20131%20-%20Zero%20Argument%20Constructor/readme.md) 
+
+---
 
 > The programmer's primary weapon in the never-ending battle against slow system is to change the intramodular structure. Our first response should be to reorganize the modules' data structures.
 
-_Frederick P. Brooks_
+*Frederick P. Brooks*
 
-[Code Smell 92 - Isolated Subclasses Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2092%20-%20Isolated%20Subclasses%20Names/readme.md)
+[Code Smell 92 - Isolated Subclasses Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2092%20-%20Isolated%20Subclasses%20Names/readme.md) 
 
-* * *
+---
 
 > Luck is the residue of design.
 
-_Wesley Branch Rickey_
+*Wesley Branch Rickey*
 
-* * *
+---
 
-> The most dangerous kind of waste is the waste we do not recognize.  
+> The most dangerous kind of waste is the waste we do not recognize.
 
-_Shigeo Shingo_
+*Shigeo Shingo*
 
-* * *
+[Code Smell 197 - Gratuitous Context](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20197%20-%20Gratuitous%20Context/readme.md)
+
+---
 
 > Start out with finding the right problem to solve. This is a combination of “what customers are asking for”, “what customers don’t even know they want yet” and “what can be solved with something simple to understand and manage”.
 
-_Radia Perlman_
+*Radia Perlman*
 
-* * *
+---
 
 > It is far easier to design a class to be thread-safe than to retrofit it for thread safety later.
 
-_Brian Goetz_
+*Brian Goetz*
 
-[Code Smell 112 - Testing Private Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20112%20-%20Testing%20Private%20Methods/readme.md)
+[Code Smell 112 - Testing Private Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20112%20-%20Testing%20Private%20Methods/readme.md) 
 
-* * *
+---
 
 > Defect-free software does not exist.
 
-_Wietse Venema_
+*Wietse Venema*
 
-* * *
+[Code Smell 134 - Specialized Business Collections](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20134%20-%20Specialized%20Business%20Collections/readme.md) 
+
+---
 
 > If you want to do interesting software, you have to have a bunch of people do it, because the amount of software that one person can do isn't that interesting.
 
-_Nathan Myhrvold_
+*Nathan Myhrvold*
 
-* * *
+---
 
 > Just because something is easy to measure doesn't mean it's important.
 
-_David Heinemeier Hansson_
+*David Heinemeier Hansson*
 
-* * *
+---
 
 > That which optimizes one part of the system necessarily undermines the system as a whole.
 
-_Eric Ries_
+*Eric Ries*
 
-* * *
+---
 
 > If you're willing to restrict the flexibility of your approach, you can almost always do something better.
 
-_John Carmack_
+*John Carmack*
 
-* * *
+---
 
 > Physics is the universe’s operating system.
 
-_Steven R Garman_
+*Steven R Garman*
 
-* * *
+---
 
 > Good programming is good writing.
 
-_John Shore_
+*John Shore*
 
-* * *
+---
 
 > Temporary solutions often become permanent problems.
 
-_Craig Bruce_
+*Craig Bruce*
 
-* * *
+---
 
-> If we wish to count lines of code, we should not regard them as "lines produced" but as "lines spent". 
+> If we wish to count lines of code, we should not regard them as "lines produced" but as "lines spent".
 
-_Edsger Dijkstra_
+*Edsger Dijkstra*
 
-* * *
+---
 
-> Behavior is the most important thing about software. It is what users depend on. Users like it when we add behavior (provided it is what they really wanted), but if we change or remove behavior they depend on (introduce bugs), they stop trusting us. 
+> Behavior is the most important thing about software. It is what users depend on. Users like it when we add behavior (provided it is what they really wanted), but if we change or remove behavior they depend on (introduce bugs), they stop trusting us.
 
-_Michael Feathers_
+*Michael Feathers*
 
-* * *
+[Code Smell 150 - Equal Comparison](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20150%20-%20Equal%20Comparison/readme.md) 
 
-> Adapting old programs to fit new machines usually means adapting new machines to behave like old ones.  
+---
 
-_Alan J. Perlis_
+> Adapting old programs to fit new machines usually means adapting new machines to behave like old ones.
 
-* * *
+*Alan J. Perlis*
+
+---
+
+> Don’t ask whether you can do something, but how to do it
+
+*Adele Goldberg*
+
+---
 
 > If you can't explain it simply, you don't understand it well enough.
 
-_Albert Einstein_
+*Albert Einstein*
 
-* * *
+---
 
 > Good engineering is the difference between code running in eight minutes or eight hours. It affects real people in real ways. It's not a "matter of opinion." any more than a bird taking a flight is a "matter of opinion."
 
-_H. W. Kenton_
+*H. W. Kenton*
 
-* * *
+---
+
+> Design is choosing how you will fail.
+
+*Ron Fein*
+
+---
 
 > The whole of arithmetic now appeared within the grasp of mechanism.
 
-_Charles Babbage_
+*Charles Babbage*
 
-* * *
+---
+
+> 90% of the functionality delivered now is better than 100% delivered never.
+
+*Brian W. Kernighan*
+
+---
 
 > Technology is dominated by two types of people: those who understand what they do not manage, and those who manage what they do not understand.
 
-_Archibald Putt_
+*Archibald Putt*
 
-* * *
+---
 
 > The most important factor in software work is not the tools and techniques used by the programmers but rather the quality of the programmers themselves.
 
-_Robert Glass_
+*Robert Glass*
 
-* * *
+---
+
+> As the size and complexity of software systems increase, the design, specification, and analysis of overall system structure becomes a critical issue.
+
+*David Garlan*
+
+---
 
 > I know testers who make good devs. I know devs who make good testers. I know Scrum Masters who make good coffee.
 
-_David Evans_
+*David Evans*
 
-* * *
+---
 
 > Code should be remarkably expressive to avoid most of the comments. There'll be a few exceptions, but we should see comments as an 'failure of expression' until proven wrong.
 
-_Robert Martin_
+*Robert Martin*
 
-* * *
+[Code Smell 146 - Getter Comments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20146%20-%20Getter%20Comments/readme.md) 
+
+---
 
 > Don’t document the problem, fix it.
 
-_Atli Björgvin Oddsson_
+*Atli Björgvin Oddsson*
 
-* * *
+[Code Smell 151 - Commented Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20151%20-%20Commented%20Code/readme.md) 
+
+---
 
 > The secret to building large apps is never build large apps. Break your applications into small pieces. Then, assemble those testable, bite-sized pieces into your big application.
 
-_Justin Meyer_
+*Justin Meyer*
 
-* * *
+[Code Smell 177 - Missing Small Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20177%20-%20Missing%20Small%20Objects/readme.md) 
+
+---
 
 > One of the best programming skills you can have is knowing when to walk away for awhile.
 
-_Oscar Godson_
+*Oscar Godson*
 
-* * *
+---
 
 > Hardware eventually fails. Software eventually works.
 
-_Michael Hartung_
+*Michael Hartung*
 
-* * *
+---
 
 > The fundamental problem with program maintenance is that fixing a defect has a substantial chance of introducing another.
 
-_Fred Brooks_
+*Fred Brooks*
 
- * * *
+---
 
 > You won't get anything done by planning.
 
-_Karl Pilkington_
+*Karl Pilkington*
 
-* * *
+---
 
 > The amount of energy necessary to refute bullshit is an order of magnitude bigger than to produce it.
 
-_Alberto Brandolini_
+*Alberto Brandolini*
 
-* * *
+---
 
 > I think the lack of reusability comes in object-oriented languages, not in functional languages. Because the problem with object-oriented languages is they've got all this implicit environment that they carry around with them. You wanted a banana but what you got was a gorilla holding the banana and the entire jungle.
 
-_Joe Armstrong_
+*Joe Armstrong*
 
-* * *
+---
 
 > Almost without exception, the best products are developed by teams with desire to solve a problem; not a company's need to fulfil a strategy.
 
-_Jeff Weiner_
+*Jeff Weiner*
 
-* * *
+---
 
 > Science is a way of thinking much more than it is a body of knowledge.
 
-_Carl Sagan_
+*Carl Sagan*
 
-* * *
+---
+
+> Most of us don't invent ideas. We take the best ideas from someone else.
+
+*Sam Walton*
+
+---
 
 > Telling a programmer there's already a library to do X is like telling a songwriter there's already a song about love.
 
-_Pete Cordell_
+*Pete Cordell*
 
-* * *
+---
 
-> The flip side of the coin was that even good programmers and language designers tended to do terrible extensions when they were in the heat of programming, because design is something that is best done slowly and carefully. 
+> The flip side of the coin was that even good programmers and language designers tended to do terrible extensions when they were in the heat of programming, because design is something that is best done slowly and carefully.
 
-_Alan Kay_
+*Alan Kay*
 
-* * *
+---
 
 > An error doesn't become a mistake until you refuse to correct it.
 
-_Orlando Aloysius Battista_
+*Orlando Aloysius Battista*
 
-* * *
+[Code Smell 184 - Exception Arrow Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20184%20-%20Exception%20Arrow%20Code/readme.md) 
 
-> Builder pattern is more verbose than the telescoping constructor pattern, so it should be used only if there are enough parameters, say, four or more. 
+---
 
-_Joshua Bloch_
+> Builder pattern is more verbose than the telescoping constructor pattern, so it should be used only if there are enough parameters, say, four or more.
 
-* * *
+*Joshua Bloch*
+
+---
 
 > Complexity is a sign of technical immaturity. Simplicity of use is the real sign of a well design product whether it is an ATM or a Patriot missile.
 
-_Daniel T. Ling_
+*Daniel T. Ling*
 
-[Code Smell 106 - Production Dependent Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20106%20-%20Production%20Dependent%20Code/readme.md)
+[Code Smell 106 - Production Dependent Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20106%20-%20Production%20Dependent%20Code/readme.md) 
 
-* * *
+---
 
 > In a software project team of 10, there are probably 3 people who produce enough defects to make them net negative producers.
 
-_Gordon Schulmeyer_
+*Gordon Schulmeyer*
 
-* * *
+---
 
 > We are constantly interfacing with other people's code that might not live up to our high standards and dealing with inputs that may or may not be valid. So we are taught to code defensively. We use assertions to detect bad data and check for consistency.
 
-_Andrew Hunt_
+*Andrew Hunt*
 
-[Code Smell 123 - Mixed 'What' and 'How'](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20123%20-%20Mixed%20'What'%20and%20'How'/readme.md)
+[Code Smell 123 - Mixed 'What' and 'How'](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20123%20-%20Mixed%20'What'%20and%20'How'/readme.md) 
 
-* * *
+---
 
 > Simplicity before generality, use before reuse.
 
-_Kevlin Henney_
+*Kevlin Henney*
 
-[Code Smell 107 - Variables Reuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20107%20-%20Variables%20Reuse/readme.md)
+[Code Smell 107 - Variables Reuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20107%20-%20Variables%20Reuse/readme.md) 
 
-* * *
+---
 
 > Puzzling over some text to understand what’s going on is a great thing if you’re reading a detective novel, but not when you’re reading code. We may fantasize about being International Men of Mystery, but our code needs to be mundane and clear.
 
-_Martin Fowler_
+*Martin Fowler*
 
-* * *
+---
 
 > You start digging in the code. The more you dig, the more stuff you turn up. Eventually you dig yourself into a hole you can’t get out of. To avoid digging your own grave, refactoring must be done systematically.
 
-_Eric Gamma_
+*Eric Gamma*
 
-* * *
+[Code Smell 127 - Mutable Constants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20127%20-%20Mutable%20Constants/readme.md) 
+
+---
 
 > We live in a world of misconceptions of thinking knowing syntax is at the heart of the problems. A lot of people believe there's a technical solution to every problem and that it would be best for all us to sit in dark rooms working quietly by ourselves.
 
-_GeePaw Hill_
+*GeePaw Hill*
 
-[TDD Conference 2021 - GeePaw Hill - Want More Value Faster Take Many More Much Smaller Steps](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD%20Conference%202021/Want%20More%20Value%20Faster%20Take%20Many%20More%20Much%20Smaller%20Steps/readme.md)
+[TDD Conference 2021 - GeePaw Hill - Want More Value Faster Take Many More Much Smaller Steps](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD%20Conference%202021/Want%20More%20Value%20Faster%20Take%20Many%20More%20Much%20Smaller%20Steps/readme.md) 
 
-* * *
+---
+
+> I think it is important for software to avoiding imposing a cognitive style on workers and their work.
+
+*Edward Tufte*
+
+---
 
 > Do not use humans for jobs computers can do better - this is a waste of human energy and creativity, the only real resource on this planet, and demeans the human spirit.
 
-_J. Paul Morrison_
+*J. Paul Morrison*
 
-* * *
+---
 
 > Objects are abstractions of processing. Threads are abstractions of schedule.
 
-_James O. Coplien_
+*James O. Coplien*
 
-* * *
+---
 
 > We know about as much about software quality problems as they knew about the Black Plague in the 1600s. We've seen the victims' agonies and helped burn the corpses. We don't know what causes it; we don't really know if there is only one disease. We just suffer -- and keep pouring our sewage into our water supply.
 
-_Tom Van Vleck_
+*Tom Van Vleck*
 
-* * *
+---
 
 > Temporary variables can be a problem. They are only useful within their own routine, and therefore they encourage long, complex routines.
 
-_Martin Fowler_
+*Martin Fowler*
 
-* * *
+[Code Smell 154 - Too Many Variables](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20154%20-%20Too%20Many%20Variables/readme.md) 
+
+---
 
 > Don't have good ideas if you aren't willing to be responsible for them.
 
-_Alan J. Perlis_
+*Alan J. Perlis*
 
-* * *
+---
 
 > I think test-driven design is great. But you can test all you want and if you don’t know how to approach the problem, you’re not going to get a solution.
 
-_Peter Norvig_
+*Peter Norvig*
 
-* * *
+---
 
 > Code generation, like drinking alcohol, is good in moderation.
 
-_Alex Lowe_
+*Alex Lowe*
 
-[Laziness II - Code Wizards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
+[Laziness II - Code Wizards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20II%20-%20Code%20Wizards/readme.md) 
 
-* * *
+---
 
 > No amount of testing can prove a software right, a single test can prove a software wrong.
 
-_Amir Ghahrai_
+*Amir Ghahrai*
 
-* * *
+---
 
 > As someone who was basically a software engineer for many years, I became fascinated with how the brain functions and is put together and works in such a different fashion than computers do.
 
-_Paul Allen_
+*Paul Allen*
 
-* * *
+---
+
+> On two occasions, I have been asked \[by members of Parliament\], "if you put into the machine wrong figures, will the right answers come out?"...I am not able rightly to apprehend the kind of confusion of ideas that could provoke such a question.
+
+*Charles Babbage*
+
+---
+
+> To iterate is human, to recurse divine
+
+*Peter Deutsch*
+
+---
 
 > These days, the problem isn't how to innovate; it's how to get society to adopt the good ideas that already exist.
 
-_Douglas Engelbart_
+*Douglas Engelbart*
 
-* * *
+---
 
 > The art of debugging is figuring out what you really told your program to do rather than what you thought you told it to do.
 
-_Andrew Singer_
+*Andrew Singer*
 
-* * * 
+---
 
 > Forget this world and all its troubles and if possible its multitudinous Charlatans - everything in short but the Enchantress of Numbers.
 
-_Ada Lovelace_
+*Ada Lovelace*
 
-* * *
+---
 
 > A generalist is a jack-of-all-trades but a master of none, whereas a generalizing specialist is a jack-of-all-trades and master of a few. Big difference.
 
-_Scott Ambler_
+*Scott Ambler*
 
-* * *
+---
 
 > The art of programming is the art of organizing complexity, of mastering multitude and avoiding its bastard chaos as effectively as possible.
 
-_E. W. Dijkstra_
+*E. W. Dijkstra*
 
-* * *
+---
 
 > The programs that live best and longest are those with short functions. You learn just how valuable all those little functions are. All of the payoffs of indirection—explanation, sharing, and choosing—are supported by small functions.
 
-_Martin Fowler_
+*Martin Fowler*
 
-* * *
+---
+
+> C++: an octopus made by nailing extra legs onto a dog.
+
+*Steve Taylor*
+
+---
 
 > While it is a known fact that programmers never make mistakes, it is still a good idea to humor the users by checking for errors at critical points in your program.
 
-_Robert D. Schneider_
+*Robert D. Schneider*
 
-[Code Smell 97 - Error Messages Without Empathy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2097%20-%20Error%20Messages%20Without%20Empathy/readme.md)
+[Code Smell 97 - Error Messages Without Empathy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2097%20-%20Error%20Messages%20Without%20Empathy/readme.md) 
 
-* * *
+---
 
 > Absence of evidence is not evidence of absence.
 
-_Carl Sagan_
+*Carl Sagan*
 
-* * *
+---
+
+> TDD developed code tends to have low cyclomatic complexity .
+
+*Neal Ford*
+
+---
 
 > The best error message is the one that never shows up.
 
-_Thomas Fuchs_
+*Thomas Fuchs*
 
-* * *
+---
 
 > There have been people that suggest that we should have a back door. But the reality is if you put a back door in, that back door's for everybody - for good guys and bad guys.
 
-_Tim Cook_
+*Tim Cook*
 
-* * *
+---
 
 > The designer of a new system must not only be the implementor and the first large-scale user; the designer should also write the first user manual. If I had not participated fully in all these activities, literally hundreds of improvements would never have been made.
 
-_Donald Knuth_
+*Donald Knuth*
 
-* * *
+---
 
 > First, solve the problem. Then, write the code.
 
-_John Johnson_
+*John Johnson*
 
-* * *
+---
+
+> I like to say that in the old days, if you reinvented the wheel, you would get your wrist slapped for not reading. But nowadays people are reinventing the flat tire. I'd personally be happy if they reinvented the wheel, because at least we'd be moving forward.
+
+*Alan Kay*
+
+---
 
 > Be careful to preserve the orthogonality of your system as you introduce third-party toolkits and libraries. Choose your technologies wisely.
 
-_Andy Hunt_
+*Andy Hunt*
 
-* * *
+---
 
 > It’s better to wait for a productive programmer to become available than it is to wait for the first available programmer to become productive.
 
-_Steve McConnell_
+*Steve McConnell*
 
-* * *
+---
 
 > A programming language is a system of notation for describing computations. A useful programming language must therefore be suited for both description (i.e., for human writers and readers of programs) and for computation (i.e., for efficient implementation on computers). But human beings and computers are so different that it is difficult to find notational devices that are well suited to the capabilities of both.
 
-_R. Tennant_
+*R. Tennant*
 
-* * *
+---
 
 > The main activity of programming is not the origination of new independent programs, but in the integration, modification, and explanation of existing ones.
 
-_Terry Winograd_
+*Terry Winograd*
 
-* * *
+---
 
 > All models are wrong but some models are useful
 
-_George Box_
+*George Box*
 
-[Code Smell 126 - Fake Null Object](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20126%20-%20Fake%20Null%20Object/readme.md)
+[Code Smell 126 - Fake Null Object](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20126%20-%20Fake%20Null%20Object/readme.md) 
 
-* * *
+---
 
 > The best way to prepare is to write programs, and to study great programs that other people have written. In my case, I went to the garbage cans at the Computer Science Center and fished out listings of their operating system.
 
-_Bill Gates_
+*Bill Gates*
 
-* * *
+---
 
 > BASIC is to computer programming as QWERTY is to typing.
 
-_Seymour Papert_
+*Seymour Papert*
 
-* * *
+---
 
 > Before you say you can’t do something, try it.
 
-_Sakichi Toyoda_
+*Sakichi Toyoda*
 
-* * *
+---
 
 > Anytime you put a challenge out there, people come up with a creative solution on the software side.
 
-_Henry Samueli_
+*Henry Samueli*
 
-* * *
+---
 
 > Programmers have to fight against the two most destructive forces in the universe: entropy and stupidity.
 
-_Damian Conway_
+*Damian Conway*
 
-* * *
+---
 
 > Simplify, don’t complicate – especially processes, procedures and policies.
 
-_Richard A. Moran_
+*Richard A. Moran*
 
-* * *
+---
 
 > When in doubt, leave it out.
 
-_Joshua Bloch_
+*Joshua Bloch*
 
-* * *
+---
 
 > It's a lot easier to talk about code than it is to write code.
 
-_John O'Nolan_
+*John O'Nolan*
 
-* * *
+---
 
 > Architecture is the tension between coupling and cohesion.
 
-_Neal Ford_
+*Neal Ford*
 
-[Code Smell 16 - Ripple Effect](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2016%20-%20Ripple%20Effect/readme.md)
+[Code Smell 16 - Ripple Effect](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2016%20-%20Ripple%20Effect/readme.md) 
 
-* * *
+---
 
 > JavaScript is the only language that I'm aware of that people feel they don't need to learn before they start using it.
 
-_Douglas Crockford_
+*Douglas Crockford*
 
-* * *
+[Code Smell 155 - Multiple Promises](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20155%20-%20Multiple%20Promises/readme.md) 
+
+---
 
 > This ‘users are idiots, and are confused by functionality’ mentality of Gnome is a disease. If you think your users are idiots, only idiots will use it.
 
-_Linus Torvalds_
+*Linus Torvalds*
 
-[Code Smell 105 - Comedian Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20105%20-%20Comedian%20Methods/readme.md)
+[Code Smell 105 - Comedian Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20105%20-%20Comedian%20Methods/readme.md) 
 
-* * *
+---
+
+> In pioneer days they used oxen for heavy pulling, and when one ox couldn't budge a log, they didn't try to grow a larger ox. We shouldn't be trying for bigger computers, but for more systems of computers.
+
+*Grace Hopper*
+
+---
 
 > The role of a trainer or consultant is to empower the customer, not to make himself indispensable.
 
-_Bertrand Meyer_
+*Bertrand Meyer*
 
-* * *
+---
 
-> At some point software design becomes less about what and more about when
+> At some point software design becomes less about what and more about when.
 
-_Kent Beck_
+*Kent Beck*
 
-* * *
+---
 
 > Writing software is a very intense, very personal thing. You have to have time to work your way through it, to understand it. Then debug it.
 
-_Vint Cerf_
+*Vint Cerf*
 
-* * *
+---
 
-> If you automate a mess, you get an automated mess. 
+> If you automate a mess, you get an automated mess.
 
-_Rod Michael_
+*Rod Michael*
 
-* * *
+---
 
 > That's the thing about people who think they hate computers. What they really hate is lousy programmers.
 
-_Larry Niven_
+*Larry Niven*
 
-* * *
+---
 
 > When solving problems, dig at the roots instead of just hacking at the leaves.
 
-_Anthony J. D'Angelo_
+*Anthony J. D'Angelo*
 
-* * *
+---
 
 > Syntactic sugar causes cancer of the semicolon.
 
-_Alan J. Perlis_
+*Alan J. Perlis*
 
-* * *
+---
 
 > Iteration allows us to progressively approach some goal. We can discard the steps that take us further away and prefer the steps that move us nearer. This is in essence how evolution works. It is also at the heart of how modern machine learning (ML) works.
 
-_Dave Farley_
+*Dave Farley*
 
-[Code Smell 122 - Primitive Obsession](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20122%20-%20Primitive%20Obsession/readme.md)
+[Code Smell 122 - Primitive Obsession](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20122%20-%20Primitive%20Obsession/readme.md) 
 
-* * *
+---
 
 > The best programmers write only easy programs.
 
-_Michael A. Jackson_
+*Michael A. Jackson*
 
-* * *
+---
 
 > There is only one thing more painful than learning from experience, and that is not learning from experience.
 
-_Archibald McLeish_
+*Archibald McLeish*
 
-* * *
+---
 
 > Precise language is not the problem. Clear language is the problem.
 
-_R. Feynman_
+*R. Feynman*
 
-* * *
+---
+
+> If Mc Donalds were run like a software company, one out of every hundred Big Macs would give you food poisoning — and the response would be, “We’re sorry, here’s a coupon for two more.
+
+*Mark Minasi*
+
+---
 
 > Encoded names are seldom pronounceable and are easy to miss-type.
 
-_Robert C. Martin_
+*Robert C. Martin*
 
-* * *
+[Code Smell 130 - AddressImpl](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20130%20-%20AddressImpl/readme.md) 
+
+---
 
 > A computer lets you make more mistakes faster than any other invention with the possible exceptions of handguns and Tequila.
 
-_Mitch Ratcliffe_
+*Mitch Ratcliffe*
 
-[Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
+[Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md) 
 
-![Code](Code.jpeg) Photo by [Shahadat Rahman](https://unsplash.com/@hishahadat) on [Unsplash](https://unsplash.com/s/photos/programming-languages)
+![Function](https://cdn.hashnode.com/res/hashnode/image/upload/v1600707620601/Code.jpeg)
+
+Photo by [Shahadat Rahman](https://unsplash.com/@hishahadat) on [Unsplash](https://unsplash.com/s/photos/programming-languages)
 
 # Programming Languages
 
 > Many people tend to look at programming styles and languages like religions: if you belong to one, you cannot belong to others. But this analogy is another fallacy.
 
-_Niklaus Wirth_
+*Niklaus Wirth*
 
-* * *
+[Code Smell 153 - Too Long Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20153%20-%20Too%20Long%20Names/readme.md) 
+
+---
+
+> Blame the implementation, not the technique.
+
+*Tim Kadlec*
+
+---
+
+> Design activities certainly do take up time and effort, but they payoff because they make it easier to evolve the software into the future. You can save short-term time by neglecting design, but this accumulates TechDebt, which will slow your productivity later.
+
+*Martin Fowler*
+
+---
 
 > Promoting a good developer to management is often a twofold bad move: you'll lose a good developer and get a poor manager.
 
-_Mario Fusco_
+*Mario Fusco*
 
-* * *
+---
 
-> Tell me and I forget.  Teach me and I remember.  Involve me and I learn.
+> Most developers hate testing. They tend to test gently, subconsciously knowing where the code will break and avoiding the weak spots. Pragmatic Programmers are different. We are driven to find our bugs now, so we don’t have to endure the shame of others finding our bugs later.
 
-_Benjamin Franklin_
+*Andy Hunt*
 
-* * * 
+---
+
+> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+
+*Benjamin Franklin*
+
+---
+
+> Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
+
+*Antoine de Saint-Exupery*
+
+---
 
 > Hardware: the parts of a computer system that can be kicked.
 
-_Jeff Pesis_
+*Jeff Pesis*
 
-* * *
+---
 
 > We have to learn again that science without contact with experiments is an enterprise which is likely to go completely astray into imaginary conjecture.
 
-_Hannes Alfven_
+*Hannes Alfven*
 
-* * *
+---
 
 > The sooner you start to code, the longer the program will take.
 
-_Roy Carlson_
+*Roy Carlson*
 
-* * *
+---
 
-> Imagination is more important than knowledge.  For knowledge is limited, whereas imagination embraces the entire world, stimulating progress, giving birth to evolution.
+> Comprehensiveness is the enemy of comprehensibility.
 
-_Albert Einstein_
+*Martin Fowler*
 
-* * *
+---
 
-> In a room full of top software designers, if two agree on the same thing, that's a majority. 
+> Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world, stimulating progress, giving birth to evolution.
 
-_Bill Curtis_
+*Albert Einstein*
 
-* * *
+---
+
+> A computer would deserve to be called intelligent if it could deceive a human into believing that it was human.
+
+*Alan Turing*
+
+---
+
+> In a room full of top software designers, if two agree on the same thing, that's a majority.
+
+*Bill Curtis*
+
+---
 
 > Good engineers make solutions obsolete. Great engineers make themselves obsolete.
 
-_Jordan W_
+*Jordan W*
 
-* * *
+---
 
 > He who hasn't hacked assembly language as a youth has no heart. He who does as an adult has no brain.
 
-_John Moore_
+*John Moore*
 
-* * *
+---
 
 > Computer science is like engineering; it is all about getting something to do something, rather than just dealing with abstractions, as in the pre-Smith geology.
 
-_Richard Feynman_
+*Richard Feynman*
 
-* * *
+---
+
+> My real criticism with Null is that it brings back again unnecessarily all the agony of having to choose whether to run your program fast without checking or run it slow with checking.
+
+*Tony Hoare*
+
+[Code Smell 157 - Balance at 0](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20157%20-%20Balance%20at%200/readme.md) 
+
+---
+
+> Let there be no doubt that object-oriented design is fundamentally different than traditional structured design approaches: it requires a different way of thinking about decomposition, and it produces software architectures that are largely outside the realm of the structured design culture.
+
+*Grady Booch*
+
+---
 
 > A Fallacy of Software: If it works, and we don't change anything, it will keep working.
 
-_Jessica Kerr_
+*Jessica Kerr*
 
-* * *
+---
 
 > Quality is the ally of schedule and cost, not their adversary. If we have to sacrifice quality to meet schedule, it's because we are doing the job wrong from the very beginning.
 
-_James A. Ward_
+*James A. Ward*
 
-* * *
+---
 
-> A human organization is just as much an information system as any computer system. It is almost certainly more complex, but the same fundamental ideas apply. Things that are fundamentally difficult, like concurrency and coupling, are difficult in the real-world of people, too. 
+> Symmetry is a complexity-reducing concept (co-routines include subroutines); seek it everywhere.
 
-_Dave Farley_
+*Alan J. Perlis*
 
-* * *
+---
+
+> The critical thing in developing software is not the program, it's the design. It is translating understanding of user needs into something that can be realized as a computer program.
+
+*Mitch Kapor*
+
+---
+
+> A human organization is just as much an information system as any computer system. It is almost certainly more complex, but the same fundamental ideas apply. Things that are fundamentally difficult, like concurrency and coupling, are difficult in the real world of people, too.
+
+*Dave Farley*
+
+---
+
+> Programmers are often angry because they’re often scared.
+
+*Paul Ford*
+
+---
 
 > The best reaction to “this is confusing, where are the docs” is to rewrite the feature to make it less confusing, not write more docs.
 
-_Jeff Atwood_
+*Jeff Atwood*
 
-* * *
+---
 
 > Software is a great combination between artistry and engineering.
 
-_Bill Gates_
+*Bill Gates*
 
-* * *
+---
 
 > There is no single development, in either technology or management technique, which by itself promises even one order-of-magnitude improvement within a decade in productivity, in reliability, in simplicity.
 
-_Frederick P. Brooks_
+*Frederick P. Brooks*
 
-* * *
+---
 
-> The most important property of a program is whether it accomplishes the intention of its user. 
+> The most important property of a program is whether it accomplishes the intention of its user.
 
-_C.A.R Hoare_
+*C.A.R Hoare*
 
-* * * 
+---
 
 > Tests are the Programmer’s stone, transmuting fear into boredom.
 
-_Kent Beck_
+*Kent Beck*
 
-* * *
+---
 
 > Rules of Optimization: Rule 1: Don't do it. Rule 2 (for experts only): Don't do it yet.
 
-_Michael A. Jackson_
+*Michael A. Jackson*
 
-* * *
+---
+
+> This fascination with computer models is something I understand very well. Richard Feynman called it a disease. I fear he is right.
+
+*Michael Crichton*
+
+---
 
 > Language designers are not intellectuals. They're not as interested in thinking as you might hope. They just want to get a language done and start using it.
 
-_Dave Moon_
+*Dave Moon*
 
-* * *
+---
 
 > Writing in C or C++ is like running a chain saw with all the safety guards removed.
 
-_Bob Gray_
+*Bob Gray*
 
-* * *
+---
 
 > Most of you are familiar with the virtues of a programmer. There are three, of course: laziness, impatience, and hubris.
 
-_Larry Wall_
+*Larry Wall*
 
-* * * 
+---
 
 > That’s what’s cool about working with computers. They don’t argue, they remember everything, and they don’t drink all your beer.
 
-_Paul Leary_
+*Paul Leary*
 
-* * * 
+---
 
 > A good threat is worth a thousand tests.
 
-_Boris Beizer_
+*Boris Beizer*
 
-* * *
+---
+
+> Traditional technical interviews are terrible for everyone. They're a bad way for companies to evaluate candidates. They're a bad way for candidates to evaluate companies. They waste time and generate stress on both sides.
+
+*Jon Evans*
+
+---
 
 > Architecture is just regular software design.
 
-_Robert Martin_
+*Robert Martin*
 
-* * *
+---
+
+> Good programmers don't just write programs. They build a working vocabulary.
+
+*Guy Steele*
+
+---
+
+> It is easier to optimize correct code than to correct optimized code.
+
+*Bill Harlan*
+
+---
 
 > The world is changing, and I believe that, if I want to stay employed as a programmer, I'm going to have to change with it.
 
-_Kent Beck_
+*Kent Beck*
 
-* * *
+---
 
 > Program construction consists of a sequence of refinement steps.
 
-_Niklaus Wirth_
+*Niklaus Wirth*
 
-* * *
+---
 
 > Most xml i’ve seen makes me think i’m dyslexic. it also looks constipated, and two health problems in one standard is just too much.
 
-_Charles Forsyth_
+*Charles Forsyth*
 
-* * *
+---
 
-> A program that produces incorrect results twice as fast is infinitely slower. 
+> Explanations without metaphor would be difficult if not impossible, for in order to describe the unknown, we must resort to concepts that we know and understand, and that is the essence of metaphor.
 
-_John Osterhout_
+*Earl MacCormac*
 
-[Code Smell 76 - Generic Assertions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2076%20-%20Generic%20Assertions/readme.md)
+---
 
-* * * 
+> A program that produces incorrect results twice as fast is infinitely slower.
+
+*John Osterhout*
+
+[Code Smell 76 - Generic Assertions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2076%20-%20Generic%20Assertions/readme.md) 
+
+---
 
 > Programming is just saying “I have a meeting in an hour, so better not start on this yet” to yourself until you die.
 
-_Alex Engelberg_
+*Alex Engelberg*
 
-* * *
+---
 
 > Technology is anything invented after you were born.
 
-_Alan Kay_
+*Alan Kay*
 
-* * *
+---
 
 > Most of the effort in the software business goes into the maintenance of code that already exists.
 
-_Wietse Venema_
+*Wietse Venema*
 
-* * * 
+---
+
+> Technology is nothing. What's important is that you have a faith in people, that they're basically good and smart, and if you give them tools, they'll do wonderful things with them.
+
+*Steve Jobs*
+
+---
+
+> A year spent in artificial intelligence is enough to make one believe in God.
+
+*Alan Perlis*
+
+---
 
 > Criticism isn't just disliking things. Arts schools teach the skill & the respect for the work. Computer science schools don't.
 
-_Kent Beck_
+*Kent Beck*
 
-* * *
+---
 
 > Whenever possible, steal code.
 
-_Tom Duff_
+*Tom Duff*
 
-* * *
+---
+
+> Write code every day.
+
+*John Resig*
+
+---
+
+> The danger of computers becoming like humans is not as great as the danger of humans becoming like computers.
+
+*Konrad Zuse*
+
+---
+
+> An ultimate joint challenge for the biological and the computational sciences is the understanding of the mechanisms of the human brain, and its relationship with the human mind.
+
+*Tony Hoare*
+
+---
+
+> Those hours of practice, and failure, are a necessary part of the learning process.
+
+*Gina Sipley*
+
+---
 
 > The problem with using C++... is that there's already a strong tendency in the language to require you to know everything before you can do anything.
 
-_Larry Wall_
+*Larry Wall*
 
-* * *
+---
+
+> Great software today is often preferable to perfect software tomorrow.
+
+*Andrew Hunt*
+
+---
+
+> If the mind really is the finest computer, then there are a lot of people out there who need to be rebooted.
+
+*Tim Bryce*
+
+---
+
+> A model is a selectively simplified and consciously structured form of knowledge.
+
+*Eric Evans*
+
+---
+
+> The payoff of a customer-centric approach to software and digital product design is substantial and long-lasting for both companies and their customers.
+
+*Alan Cooper*
+
+---
+
+> After you finish the first 90% of a project, you have to finish the other 90%.
+
+*Michael Abrash*
+
+[Code Smell 148 - ToDos](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20148%20-%20ToDos/readme.md) 
+
+---
 
 > You do not really understand something unless you can explain it to your grandmother.
 
-_Albert Einstein_
+*Albert Einstein*
 
-[Code Smell 117 - Unrealistic Data](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20117%20-%20Unrealistic%20Data/readme.md)
+[Code Smell 117 - Unrealistic Data](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20117%20-%20Unrealistic%20Data/readme.md) 
 
-* * *
+---
 
 > God could create the world in six days because he didn't have to make it compatible with the previous version.
 
-_Mark Twain_
+*Mark Twain*
 
-* * *
+---
+
+> GoF patterns might better be called implementation patterns than design (or thinking) patterns.
+
+*David West*
+
+---
+
+> Thinking like an object will lead to a greater degree of isomorphism between objects found in the problem space (the enterprise domain) and those employed in a solution space (the computer program) than thinking like a computer.
+
+*David West*
+
+---
 
 > The danger of standard process is that people will miss chances to take important shortcuts.
 
-_T. DeMarco and T. Lister_
+*T. DeMarco and T. Lister*
 
-* * *
+---
 
 > Controlling complexity is the essence of computer programming.
 
-_Brian W. Kernighan_
+*Brian W. Kernighan*
 
-* * *
+---
+
+> The most effective debugging tool is still careful thought, coupled with judiciously placed print statements.
+
+*Brian W. Kernighan*
+
+---
+
+> Feedback is essential to our ability to learn. Without fast, effective feedback, we are guessing. Both the speed and the quality of feedback matter. If feedback is too late, it is useless. If it is misleading or wrong, the decisions that we make will be wrong, too
+
+*Dave Farley*
+
+---
 
 > The strength of JavaScript is that you can do anything. The weakness is that you will.
 
-_Reg Braithwaite_
+*Reg Braithwaite*
 
-* * * 
+---
 
 > One of the big lessons of a big project is you don't want people that aren't really programmers programming, you'll suffer for it!
 
-_John Carmack_
+*John Carmack*
 
-* * *
+---
 
 > Defects are not free. Somebody makes them, and gets paid for making them.
 
-_W Deming_
+*W Deming*
 
-* * * 
+---
 
 > By relieving the brain of all unnecessary work, a good notation sets it free to concentrate on more advanced problems, and in effect increases the mental power of the race. Before the introduction of the Arabic notation, multiplication was difficult, and division even of integers called into play the highest mathematical faculties. Our modern power of easy reckoning with decimal fractions is the almost miraculous result of the gradual discovery of a perfect notation.
 
-_Alfred North Whitehead_
+*Alfred North Whitehead*
 
-* * *
+---
 
 > Programmers regard themselves as artists. As such they consider keeping accurate records of their handwork on par with washing ashtray.
 
-_Otis Port_
+*Otis Port*
 
-* * *
+---
 
 > The heart of software is its ability to solve domain-related problems for its user. All other features, vital though they may be, support this basic purpose.
 
-_Eric Evans_
+*Eric Evans*
 
-* * *
+[Code Smell 143 - Data Clumps](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20143%20-%20Data%20Clumps/readme.md) 
+
+---
 
 > Incorrect documentation is often worse than no documentation.
 
-_Bertrand Meyer_
+*Bertrand Meyer*
 
-* * *
+---
+
+> Teamwork was more accepted 40 years ago.
+
+*Ken Olsen*
+
+---
 
 > Referential transparency is a very desirable property: it implies that functions consistently yield the same results given the same input, irrespective of where and when they are invoked.
 
-_Edward Garson_
+*Edward Garson*
 
-[Code Smell 93 - Send me Anything](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2093%20-%20Send%20me%20Anything/readme.md)
+[Code Smell 93 - Send me Anything](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2093%20-%20Send%20me%20Anything/readme.md) 
 
-* * *
+---
 
 > If debugging is the process of removing software bugs, then programming must be the process of putting them in.
 
-_Edsger Dijkstra_
+*Edsger Dijkstra*
 
-[Code Smell 36 - Switch/case/elseif/else/if statements](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md)
+[Code Smell 36 - Switch/case/elseif/else/if statements](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md) 
 
-* * *
+---
+
+> I've been a software engineer, a novelist, a journalist, and a manager - and managing developers is easily the trickiest thing I've ever done.
+
+*Jon Evans*
+
+---
 
 > We must not blame programmers for their bugs. They belong to them only until the code is merged to the repository. After that, all bugs are ours!
 
-_Yegor Bugayenko_
+*Yegor Bugayenko*
 
-* * *
+---
 
 > It is easier to change the specification to fit the program than vice versa.
 
-_Alan Perlis_
+*Alan Perlis*
 
-* * *
+---
 
 > Documentation is the castor oil of programming
 
-_Gerald M. Weinberg_
+*Gerald M. Weinberg*
 
-* * *
+---
 
 > C++ : Where friends have access to your private members.
 
-_Gavin Russell Baker_
+*Gavin Russell Baker*
 
-* * *
+---
+
+> Errors have occurred. We won't tell you where or why. Lazy programmers.
+
+*Charlie Gibbs*
+
+---
 
 > What would happen if you allowed a bug to slip through a module, and it cost your company $10,000? The nonprofessional would shrug his shoulders, say “stuff happens,” and start writing the next module. The professional would write the company a check for $10,000!
 
-_Bob Martin_
+*Bob Martin*
 
-* * *
+---
+
+> I hope the field of computer science never loses its sense of fun.
+
+*Alan J Perlis*
+
+---
+
+> The “naive” or “natural” expectations of objects represent a kind of integrity—what Alan Kay called a user illusion—that must be respected.
+
+*David West*
+
+---
 
 > Tests should be coupled to the behavior of code and decoupled from the structure of code
 
-_Kent Beck_
+*Kent Beck*
 
-* * *
+---
+
+> In the one and only true way. The object-oriented version of 'Spaghetti code' is, of course, 'Lasagna code'. (Too many layers).
+
+*Roberto Waltman*
+
+---
 
 > Any man can make mistakes, but only an idiot persists in his error.
 
-_Marcus Cicero_
+*Marcus Cicero*
 
-* * *
+[Code Smell 195 - Yoda Conditions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20195%20-%20Yoda%20Conditions/readme.md)
+
+---
 
 > One difference between a smart programmer and a professional programmer is that the professional understands that clarity is king. Professionals use their powers for good and write code that others can understand.
 
-_Robert C. Martin_
+*Robert C. Martin*
 
-[Code Smell 79 - TheResult](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2079%20-%20TheResult/readme.md)
+[Code Smell 79 - TheResult](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2079%20-%20TheResult/readme.md) 
 
-* * *
+---
 
 > First do it, then do it right, then do it better.
 
-_Addy Osmani_
+*Addy Osmani*
 
-* * *
+---
+
+> Feedback is essential to our ability to learn. Without fast, effective feedback, we are guessing. Both the speed and the quality of feedback matter. If the feedback is too late, it is useless. If it is misleading or wrong, the decisions that we make on its basis will be wrong, too
+
+*David Farley*
+
+---
 
 > A person without data is just another person with an opinion
 
-_William Edwards Deming_
+*William Edwards Deming*
 
-* * * 
+---
 
-> In software “production” is not our problem! Our product is a sequence of bytes, and we can recreate any sequence of bytes essentially for zero cost. 
-This means that we NEVER have a production problem!
+> Dijkstra will be happy to tell you that 95% of computer science faculty members can't program a binary search correctly, which doesn't give us much hope for the students they teach.
 
-_Dave Farley_
+*Ed Yourdon*
 
-* * *
+---
+
+> In software “production” is not our problem! Our product is a sequence of bytes, and we can recreate any sequence of bytes essentially for zero cost. This means that we NEVER have a production problem!
+
+*Dave Farley*
+
+---
 
 > Programming is not a zero-sum game. Teaching something to a fellow programmer doesn’t take it away from you.
 
-_John Carmack_
+*John Carmack*
 
-* * *
+---
+
+> There is nothing in the programming field more despicable than an undocumented program.
+
+*Ed Yourdon*
+
+---
+
+> The key to making programs fast is to make them do practically nothing.
+
+*Mike Haertel*
+
+---
+
+> The last thing you wanted any programmer to do is mess with internal state
+
+*Alan Kay*
+
+---
 
 > More good code has been written in languages denounced as “bad” than in languages proclaimed “wonderful” — much more.
 
-_Bjarne Stroustrup_
+*Bjarne Stroustrup*
 
-* * *
+---
 
 > There are two ways of constructing a software design. One way is to make it so simple that there are obviously no deficiencies. And the other way is to make it so complicated that there are no obvious deficiencies.
 
-_C. A. R. Hoare_
+*C. A. R. Hoare*
 
-* * *
+---
 
 > The computers do what you tell them to do, not what you want them to do.
 
-_Alexander Atanasov_
+*Alexander Atanasov*
 
-* * *
+---
+
+> When I first got into technology I didn't really understand what open source was. Once I started writing software, I realized how important this would be.
+
+*Matt Mullenweg*
+
+---
 
 > If you have too many special cases, you are doing it wrong.
 
-_Craig Zerouni_
+*Craig Zerouni*
 
-* * *
+[CoDe SmElL 159 - mIxEd_cASe](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20159%20-%20Mixed%20Case/readme.md) 
 
-> If you think you are worth what you know, you are very wrong.  Your knowledge today does not have much value beyond a couple of years.  Your value is what you can learn and how easily you can adapt to the changes this profession brings so often.
+---
 
-_Jose M. Aguilar_
+> If you think you are worth what you know, you are very wrong. Your knowledge today does not have much value beyond a couple of years. Your value is what you can learn and how easily you can adapt to the changes this profession brings so often.
 
-* * *
+*Jose M. Aguilar*
+
+---
 
 > Innovation distinguishes between a leader and a follower.
 
-_Steve Jobs_
+*Steve Jobs*
 
-* * *
+---
 
 > A programming language is for thinking about programs, not for expressing programs you've already thought of. It should be a pencil, not a pen.
 
-_Paul Graham_
+*Paul Graham*
 
-* * *
+---
 
-> If programmers got paid to remove code from software instead of
-writing new code, software would be a whole lot better.
+> No matter how slick the demo is in rehearsal, when you do it in front of a live audience the probability of a flawless presentation is inversely proportional to the number of people watching, raised to the power of the amount of money involved.
 
-_Nicholas Negroponte_
+*Mark Gibbs*
 
-* * *
+---
+
+> Bugs will happen. They cannot be eliminated, so they must be survived instead.
+
+*Michael T. Nygard*
+
+---
+
+> If programmers got paid to remove code from software instead of writing new code, software would be a whole lot better.
+
+*Nicholas Negroponte*
+
+---
 
 > Formal education will make you a living. Self-education will make you a fortune.
 
-_Jim Rohn_
+*Jim Rohn*
 
-* * *
+---
 
 > The most disastrous thing that you can ever learn is your first programming language.
 
-_Alan Kay_
+*Alan Kay*
 
-* * *
+---
 
 > The problem is, in software design, often the consequences of your decisions don't become apparent for years.
 
-_Kent Beck_
+*Kent Beck*
 
-* * *
+---
 
 > The central enemy of reliability is complexity.
 
-_Daniel Geer_
+*Daniel Geer*
 
-* * *
+---
 
 > Each pattern describes a problem which occurs over and over again in our environment, and then describes the core of the solution to that problem, in such a way that you can use this solution a million times over, without ever doing it the same way twice.
 
-_Christopher Alexander_
+*Christopher Alexander*
 
-* * *
+---
+
+> Being forced to write comments actually improves code, because it is easier to fix a crock than to explain it.
+
+*G. Steele*
+
+---
 
 > If you're actually doing TDD, you're throwing away tests all the time, as your understanding of what the code is changes.
 
-_Kerri Miller_
+*Kerri Miller*
 
-* * *
+---
 
 > One of the best things to come out of the home computer revolution could be the general and widespread understanding of how severely limited logic really is.
 
-_Frank Herbert_
+*Frank Herbert*
 
-* * *
+---
+
+> We crave for new sensations but soon become indifferent to them. Wonders of yesterday are today common occurrences.
+
+*Nikola Tesla*
+
+---
 
 > I think my software is going to become so ubiquitous, so essential, that if it stops working, there will be riots.
 
-_Michael J. Saylor_
+*Michael J. Saylor*
 
-* * *
+---
 
-The competent programmer is fully aware of the strictly limited size of his own skull; therefore he approaches the programming task in full humility, and among other things he avoids clever tricks like the plague.
+> The competent programmer is fully aware of the strictly limited size of his own skull; therefore he approaches the programming task in full humility, and among other things he avoids clever tricks like the plague.
 
-_E. W. Dijkstra_
+*E. W. Dijkstra*
 
-* * *
+---
+
+> As software began to be sold to people who would never consider themselves technical, it suddenly became clear that you needed people who spoke their language.
+
+*Marc Randolph*
+
+---
 
 > Simplicity does not precede complexity, but follows it
 
-_Alan Perlis_
+*Alan Perlis*
 
-* * *
+---
+
+> Brilliance in a scientist does not consist in being right more often but in being wrong about more interesting topics.
+
+*Kent Beck*
+
+---
+
+> Tests should be even more readable then the code they cover
+
+*Shaun Wessel*
+
+---
+
+> One broken window, left unrepaired for any substantial length of time, instills in the inhabitants of the building a sense of abandonment—a sense that the powers that be don't care about the building. So another window gets broken. People start littering. Graffiti appears. Serious structural damage begins. In a relatively short span of time, the building becomes damaged beyond the owner's desire to fix it, and the sense of abandonment becomes reality.
+
+*Andy Hunt*
+
+[Code Smell 173 - Broken Windows](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20173%20-%20Broken%20Windows/readme.md) 
+
+---
 
 > In essence, engineering is doing what you want with what you have.
 
-_J. Carmack_
+*J. Carmack*
 
-* * *
+---
+
+> Be curious. Read widely. Try new things. I think a lot of what people call intelligence boils down to curiosity.
+
+*Aaron Swartz*
+
+---
+
+> Software engineering is not the same as bridge building, but what most software developers think of as bridge building isn’t like real bridge building, either. This conversation is really a form of confusion between production engineering and design engineering.
+
+*Dave Farley*
+
+---
+
+> Organizing our work into a series of tiny steps gives us more opportunities to reflect on our progress and steer our designs toward better outcomes.
+
+*Dave Farley*
+
+---
+
+> Simply put, when you have very large pieces of software, most of the tools look at the individual lines of code as text. It is often extremely powerful to look not at individual pieces of code but at a system as a whole.
+
+*James Gosling*
+
+---
 
 > I hired finishers because I’m a good starter and a poor finisher.
 
-_Alan Kay_
+*Alan Kay*
 
-* * *
+---
+
+> The earlier you catch defects, the cheaper they are to fix.”
+
+*David Farley*
+
+---
+
+> Fighting patents one by one will never eliminate the danger of software patents, any more than swatting mosquitoes will eliminate malaria.
+
+*Richard Stallman*
+
+---
+
+> Pair programmers: Keep each other on task. Brainstorm refinements to the system. Clarify ideas. Take initiative when their partner is stuck, thus lowering frustration. Hold each other accountable to the team's practices. Pairing
+
+*Kent Beck*
+
+---
+
+> Obsolete comments tend to migrate away from the code they once described. They become floating islands of irrelevance and misdirection in the code.
+
+*Bob Martin*
+
+[Code Smell 183 - Obsolete Comments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20183%20-%20Obsolete%20Comments/readme.md) 
+
+---
 
 > A program is never less than 90% complete, and never more than 95% complete.
 
-_Terry Baker_
+*Terry Baker*
 
-* * *
+---
 
 > The definition I use for a pattern is an idea that has been useful in one practical context and will probably be useful in others.
 
-_Martin Fowler_
+*Martin Fowler*
 
-* * *
+---
 
 > With good program architecture debugging is a breeze, because bugs will be where they should be.
 
-_David May_
+*David May*
 
-* * *
+---
 
 > If you are choosing a JavaScript library purely based on popularity, I think you deserve what you get.
 
-_Tom Dale_
+*Tom Dale*
 
-* * *
+---
 
 > If someone says their code was broken for a couple of days while they are refactoring, you can be pretty sure they were not refactoring.
 
-_Martin Fowler_
+*Martin Fowler*
 
-* * *
+---
 
 > A programmable mind embraces mental agility, to practice “de-learning” and “relearning” all the time.
 
-_Pearl Zhu_
+*Pearl Zhu*
 
-* * *
+---
 
 > Don't wait until you have a bug to step through your code.
 
-_Steve Maguire_
+*Steve Maguire*
 
-* * *
+---
 
 > The most disastrous thing that you can ever learn is your first programming language.
 
-_Alan Kay_
+*Alan Kay*
 
-* * *
+---
 
 > Today, most software exists, not to solve a problem, but to interface with other software.
 
-_I Angell_
+*I Angell*
 
-* * *
+---
 
 > On almost anything someone does in the computer business, you can go back in the literature and prove someone had done it earlier.
 
-_Ken Olsen_
+*Ken Olsen*
 
-* * *
+---
+
+Passwords are like underwear: you don’t let people see it, you should change it very often, and you shouldn’t share it with strangers.
+
+*Chris Pirillo*
+
+---
+
+> Why do most developers fear to make continuous changes to their code? They are afraid they’ll break it! Why are they afraid they’ll break it? Because they don’t have tests.
+
+*Robert Martin*
+
+---
 
 > Computers are good at following instructions, but not at reading your mind.
 
-_Donald Knuth_
+*Donald Knuth*
 
-[Code Smell 87 - Inconsistent Parameters Sorting](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2087%20-%20Inconsistent%20Parameters%20Sorting/readme.md)
+[Code Smell 87 - Inconsistent Parameters Sorting](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2087%20-%20Inconsistent%20Parameters%20Sorting/readme.md) 
 
-* * *
+---
+
+> The only programs that don’t get changed are those that are so bad that nobody wants to use them.
+
+*David Parnas*
 
 > In the end, regardless of where you are on the development hierarchy, keep coding. It’s where you’re most valuable.
 
-_Ka Wai Cheung_
+*Ka Wai Cheung*
 
-* * * 
+---
 
 > I'm not saying we purposely introduced bugs or anything, but this is kind of a natural result of any complexities of software... that you can't fully test it.
 
-_Will Wright_
+*Will Wright*
 
-* * *
+---
+
+> it is not the most intellectual of the species that survives; it is not the strongest that survives; but the species that survives is the one that is able best to adapt and adjust to the changing environment in which it finds itself.
+
+*Charles Darwin*
+
+---
 
 > The wonderful thing about dynamic typing is it lets you express anything that is computable. And type systems don’t. Once you have a type system, you don’t even know what interesting programs are there.
 
-_Gilad Bracha_
+*Gilad Bracha*
 
-* * *
+---
 
-> A bad system will beat a good person every time.  
+> Bugs are often characteristic of a bad interface between subsystems, frequently a result of inadequate communication among people when they design the subsystems. When a bug is found, there is a tendency to handle it within the subsystem and not look at the program as a whole.
 
-_Edwards Deming_
+*Ray Ozzie*
 
-* * *
+---
+
+> The question of whether a computer can think is no more interesting than the question of whether a submarine can swim.
+
+*Edsger W. Dijkstra*
+
+---
+
+> A bad system will beat a good person every time.
+
+*Edwards Deming*
+
+---
 
 > Most of the biggest problems in software are problems of misconception.
 
-_Rich Hickey_
+*Rich Hickey*
 
-* * *
+---
+
+> The fantastic element that explain the appeal of dungeon games to many programmers is neither the fire-breathing monsters nor the milkyskinned, semi-clad sirens; it is the experience of carrying out a task from start to finish without user requirements changing.
+
+*Thomas Holaday*
+
+---
 
 > The problem with driving development with small scale tests (I call them “unit tests”, but they don’t match the accepted definition of unit tests very well) is that you run the risk of implementing what you think a user wants, but having it turn out to be not what they wanted at all.
 
-_Kent Beck_
+*Kent Beck*
 
-* * *
+---
 
 > Don't Gather Requirements, Dig for Them
 
-_Andrew Hunt_
+*Andrew Hunt*
 
-* * *
+---
 
 > There is the desire of a consumer society to have no learning curves. This tends to result in very dumbed-down products that are easy to get started on, but are generally worthless and/or debilitating.
 
-_Alan Kay_
+*Alan Kay*
 
-* * *
+---
+
+> Education makes machines which act like men and produces men who act like machines
+
+*Erich Fromm*
+
+---
+
+> Hey, I'm a good software engineer, but I'm not exactly known for my fashion sense. White socks and sandals don't translate to 'good design sense'.
+
+*Linus Torvalds*
+
+---
 
 > DRY - Don't Repeat Yourself - Every piece of knowledge must have a single, unambiguous, athoritative representation within a system.
 
-_Andy Hunt_
+*Andy Hunt*
 
-[Code Smell 125 - 'IS-A' Relationship](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20125%20-%20'IS-A'%20Relationship/readme.md)
+[Code Smell 125 - 'IS-A' Relationship](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20125%20-%20'IS-A'%20Relationship/readme.md) 
 
-* * *
+---
+
+> Adding functionality is not just a matter of adding code.
+
+*Wietse Venema*
+
+---
 
 > Computer science is a restless infant and its progress depends as much on shifts in point of view as on the orderly development of our current concepts.
 
-_Alan Perlis_
+*Alan Perlis*
 
-* * *
+---
 
 > Companies should make their own enterprise systems as often as network security companies should manufacture their own aspirin.
 
-_Phil Simon_
+*Phil Simon*
 
-* * * 
+[Code Smell 189 - Not Sanitized Input](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20189%20-%20Not%20Sanitized%20Input/readme.md)
+
+---
+
+> Software design is a contact sport
+
+*Tom Wujec*
+
+---
 
 > Write shy code — modules that don't reveal anything unnecessary to other modules and that don't rely on other modules' implementations.
 
-_Dave Thomas_
+*Dave Thomas*
 
-* * *
+---
 
 > Programming is usually taught by examples.
 
-_Niklaus Wirth_
+*Niklaus Wirth*
 
-* * *
+---
+
+> The best software architecture “knows” what changes often and makes that easy.
+
+*Paul Clements*
+
+---
 
 > A complex system that works is invariably found to have evolved from a simple system that worked.
 
-_John Gall_
+*John Gall*
 
-* * *
+[Code Smell 158 - Variables not Variable](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20158%20-%20Variables%20not%20Variable/readme.md) 
+
+---
 
 > Rarely is anyone thanked for the work they did to prevent the disaster that didn't happen.
 
-_Mikko Hypponen_
+*Mikko Hypponen*
 
-* * *
+---
+
+> Should array indices start at 0 or 1? My compromise of 0.5 was rejected without, I thought, proper consideration.
+
+*Stan Kelly-Bootle*
+
+---
+
+> Not all eyes that notice bugs in Open Source code belong to saints who will report or repair them in the interest of the public good.
+
+*Martin Fowler*
+
+---
 
 > Sun Microsystems had the right people to make Java into a first-class language, and I believe it was the Sun marketing people who rushed the thing out before it should have gotten out.
 
-_Alan Kay_
+*Alan Kay*
 
-* * *
+---
+
+Software as an asset isn't stable over time; it needs to be maintained.
+
+* Brian Behlendorf
+    
+
+---
 
 > A well installed microcode bug will be almost impossible to detect.
 
-_Ken Thompson_
+*Ken Thompson*
 
-* * *
+---
+
+> Extraordinary claims require extraordinary evidence
+
+*Carl Sagan*
+
+---
 
 > Playfully doing something difficult, whether useful or not, that is hacking.
 
-_Richard M. Stallman_
+*Richard M. Stallman*
 
-* * *
+---
 
 > There are only two kinds of languages: the ones people complain about and the ones nobody uses.
 
-_Bjarne Stroustrup_
+*Bjarne Stroustrup*
 
-* * *
+---
 
-![Planning](Planning.jpg) Photo by [You X Ventures](https://unsplash.com/@youxventures) on [Unsplash](https://unsplash.com/s/photos/planning)
+> The fruit we wish to pick tomorrow lies hidden in the seed of today. The goals we are to read and the problems we are to solve tomorrow depend upon today's diligence, hope and faith, today's conviction of the almightiness of good.
+
+*Ralph Johnson*
+
+---
+
+![Team](https://cdn.hashnode.com/res/hashnode/image/upload/v1600707666755/vTWEubhPJ.jpeg)
+
+Photo by [You X Ventures](https://unsplash.com/@youxventures) on [Unsplash](https://unsplash.com/s/photos/planning)
 
 # Planning / Management
 
 > The cost of adding a feature isn’t just the time it takes to code it. The cost also includes the addition of an obstacle to future expansion. The trick is to pick the features that don’t fight each other.
 
-_John Carmack_
+*John Carmack*
 
-[Code Smell 110 - Switches With Defaults](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20110%20-%20Switches%20With%20Defaults/readme.md)
+[Code Smell 110 - Switches With Defaults](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20110%20-%20Switches%20With%20Defaults/readme.md) 
 
-* * *
+---
+
+> Non-technical questions sometimes don't have an answer at all.
+
+*Linus Torvalds*
+
+---
+
+> Giving pointers and threads to programmers is like giving whisky and car keys to teenagers.
+
+*P. J. O'Rourke*
+
+---
 
 > Science is what we understand well enough to explain to a computer, Art is all the rest
 
-_Donald Knuth_
+*Donald Knuth*
 
-* * *
+---
 
 > Programmers must avoid leaving false clues that obscure the meaning of code.
 
-_Robert C. Martin_
+*Robert C. Martin*
 
-* * * 
+---
+
+> People enjoy the interaction on the Internet, and the feeling of belonging to a group that does something interesting: that's how some software projects are born.
+
+*Linus Torvalds*
+
+---
 
 > Programming without an overall architecture or design in mind is like exploring a cave with only a flashlight: You don't know where you've been, you don't know where you're going, and you don't know quite where you are.
 
-_Danny Thorpe_
+*Danny Thorpe*
 
-* * *
+---
+
+> The cardinal rule of writing unmaintainable code is to specify each fact in as many places as possible and in as many ways as possible.
+
+*Roedy Green*
+
+---
 
 > For us, the real goal is to make it so that the software ecosystem is as healthy as possible.
 
-_James Gosling_
+*James Gosling*
 
-* * *
+---
+
+> The computer is simply an instrument whose music is ideas.
+
+*Alan Kay*
+
+---
 
 > When you actually sit down to write some code, you learn things that you didn’t get from thinking about them in modeling terms…there is a feedback process there that you can only really get at from executing some things and seeing what works.
 
-_Martin Fowler_
+*Martin Fowler*
 
-* * * 
+---
 
 > The problem with quick and dirty, is that the dirty remains long after the quick has been forgotten
 
-_Steve C. McConnell_
+*Steve C. McConnell*
 
-* * *
+---
 
 > If you put fences around people, you get sheep. GIve people the room they need.
 
-_William L. McKnight_
+*William L. McKnight*
 
-* * *
+---
+
+> I think another good principle is separating presentation or user interface (UI) from the real essence of what your app is about. By following that principle I have gotten lucky with changes time and time again. So I think that's a good principle to follow.
+
+*Martin Fowler*
+
+[Code Smell 139 - Business Code in the User Interface](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20139%20-%20Business%20Code%20in%20the%20User%20Interface/readme.md) 
+
+---
+
+> These machines have no common sense; they have not yet learned to "think," and they do exactly as they are told, no more and no less. This fact is the hardest concept to grasp when one first tries to use a computer.
+
+*Don Knuth*
+
+---
+
+> Whatever the device you use for getting your information out, it should be the same information.
+
+*Tim Berners-Lee*
+
+[Code Smell 164 - Mixed Indentations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20164%20-%20Mixed%20Indentations/readme.md) 
+
+---
 
 > Whether you draw diagrams that generate code or you type at a browser, you are coding.
 
-_Kent Beck_
+*Kent Beck*
 
-* * *
+---
 
-> If you make a general statement, a programmer says, 'Yes, but...' while a designer says, 'Yes, and...' 
+> If you make a general statement, a programmer says, 'Yes, but...' while a designer says, 'Yes, and...'
 
-_André Bensoussan_
+*André Bensoussan*
 
-* * *
+---
+
+> Software is Too Important to be Left to Programmers.
+
+*Meilir Page-Jones*
+
+---
+
+> If you can improve just one thing in your software development, make it getting faster feedback.
+
+*Dave Farley*
+
+---
+
+> I get into the meanest, nastiest frame of mind I can manage, and I write the nastiest (testing) code I can think of. Then I turn around and embed that in even nastier constructions that are nearly obscene.
+
+*Donald E. Knuth*
+
+---
 
 > Blame the implementation, not the technique.
 
-_Tim Kadlec_
+*Tim Kadlec*
 
-* * *
+---
 
 > Get out of the way of your developers or lose them to someone who will.
 
-_Adrian Cockcroft_
+*Adrian Cockcroft*
 
-* * *
+---
+
+> In almost all cases, I’m opposed to setting aside time for refactoring. In my view refactoring is not an activity you set aside time to do. Refactoring is something you do all the time in little bursts.
+
+*Martin Fowler*
+
+---
 
 > Memory is like an orgasm. It's a lot better if you don't have to fake it.
 
-_Seymour Cray_
+*Seymour Cray*
 
-* * *
+---
 
-> The most important single aspect of software development is to be clear about what you are trying to build. 
+> The most important single aspect of software development is to be clear about what you are trying to build.
 
-_Bjarne Stroustrup_
+*Bjarne Stroustrup*
 
-* * *
+---
 
 > If you're a technical lead, you need to be coding.
 
-_Martin Fowler_
+*Martin Fowler*
 
-* * *
+---
+
+> The primary duty of an exception handler is to get the error out of the lap of the programmer and into the surprised face of the user.
+
+*Verity Stob*
+
+[Code Smell 132 - Exception Try Too Broad](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20132%20-%20Exception%20Try%20Too%20Broad/readme.md) 
+
+---
+
+> Email is a wonderful thing for people whose role in life is to be on top of things. But not for me; my role is to be on the bottom of things. What I do takes long hours of studying and uninterruptible concentration
+
+*Don Knuth*
+
+---
+
+> You can't communicate complexity, only an awareness of it.
+
+*Alan Perlis*
+
+---
 
 > Einstein repeatedly argued that there must be simplified explanations of nature, because God is not capricious or arbitrary. No such faith comforts the software engineer.
 
-_Fred Brooks_
+*Fred Brooks*
 
-[No Silver Bullet](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md)
+[No Silver Bullet](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md) 
 
-* * *
+---
+
+> A refund for defective software might be nice, except it would bankrupt the entire software industry in the first year.
+
+*Andrew S. Tanenbaum*
+
+---
+
+> A distributed system is one in which the failure of a computer you didn't even know existed can render your own computer unusable.
+
+*Leslie Lamport*
+
+---
 
 > Quality is never an accident; it is always the result of intelligent effort.
 
-_John Ruskin_
+*John Ruskin*
 
-* * *
+---
 
 > Simplicity is about subtracting the obvious and adding the meaningful.
 
-_John Maeda_
+*John Maeda*
 
-* * *
+---
+
+> He who fights with monsters might take care lest he thereby become a monster. And if you gaze for long into an abyss, the abyss gazes also into you.
+
+*Nietzsche*
+
+[Code Smell 149 - Optional Chaining](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20149%20-%20Optional%20Chaining/readme.md) 
+
+---
 
 > Software eventually and necessarily gained the same respect as any other discipline.
 
-_Margaret H. Hamilton_
+*Margaret H. Hamilton*
 
-* * *
+---
 
 > If it takes more than a sentence to explain what you are doing, it’s almost always a sign that what you are doing is too complicated.
 
-_Sam Altman_
+*Sam Altman*
 
-[Code Smell 85 - And Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2085%20-%20And%20Functions/readme.md)
+[Code Smell 85 - And Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2085%20-%20And%20Functions/readme.md) 
 
-* * *
+---
 
 > There’s no obfuscated Perl contest because it’s pointless.
 
-_Jeff Polk_
+*Jeff Polk*
 
-* * *
+---
+
+> Programming languages are concrete manifestations of a set of values, ideals, and goals, which in turn reflect a more inclusive worldview or philosophical context.
+
+\_ David West\_
+
+---
 
 > One of the things I've been trying to do is look for simpler or rules underpinning good or bad design. I think one of the most valuable rules is avoiding duplication. "Once and only once" is the Extreme Programming phrase.
 
-_Martin Fowler_
+*Martin Fowler*
 
-* * *
+---
 
 > Subclasses shouldn’t always share all characteristics of their parent class but will do so with inheritance. This can make a program’s design less flexible. It also introduces the possibility of calling methods on subclasses that don’t make sense or that cause errors because the methods don’t apply to the subclass.
 
-_Steve Klabnik_
+*Steve Klabnik*
 
-[Code Smell 37 - Protected Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2037%20-%20Protected%20Attributes/readme.md)
+[Code Smell 37 - Protected Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2037%20-%20Protected%20Attributes/readme.md) 
 
-* * *
+---
 
 > The greatest obstacle to discovery is not ignorance, but the illusion of knowledge.
 
-_Daniel Boorstin_
+*Daniel Boorstin*
 
-* * *
+---
 
 > The most disastrous thing that you can ever learn is your first programming language.
 
-_Alan Kay_
+*Alan Kay*
 
-* * *
+---
 
 > In 2031, lawyers will be commonly a part of most development teams.
 
-_Grady Booch_
+*Grady Booch*
 
-* * *
+---
 
 > Everything will ultimately fail. Hardware is fallible, so we add redundancy. This allows us to survive individuals hardware failures, but increases the likelihood of having at least one failure at any given time.
 
-_Michael Nygard_
+*Michael Nygard*
 
-* * *
+---
+
+> I found out that most programmers don't like to test their software as intensely as I do.
+
+*Kent Beck*
+
+---
 
 > Programmers are as emotional and irrational as normal people.
 
-_Douglas Crockford_
+*Douglas Crockford*
 
-* * *
+---
 
 > There is nothing so useless as doing efficiently that which should not be done at all.
 
-_Peter Drucker_
+*Peter Drucker*
 
-* * *
+---
 
 > It is easier to write an incorrect program than understand a correct one
 
-_Alan J. Perlis_
+*Alan J. Perlis*
 
-* * *
+---
+
+> All programmers are optimists.
+
+*Fred Brooks*
+
+---
+
+> Computer science research is different from these more traditional disciplines. It differs from the physical sciences because it seeks not to discover, explain, or exploit the natural world, but instead to study the properties of machines of human creation
+
+*Dennis Ritchie*
+
+---
 
 > It's easy to cry "bug" when the truth is that you've got a complex system and sometimes it takes a while to get all the components to co-exist peacefully.
 
-_D. Vargas_
+*D. Vargas*
 
-* * *
+---
 
 > The first rule of functions is that they should be small. The second rule of functions is that they should be smaller than that.
 
-_Robert C. Martin_
+*Robert C. Martin*
 
-* * *
+---
 
 > A language that doesn’t affect the way you think about programming, is not worth knowing.
 
-_Alan Perlis_
+*Alan Perlis*
 
-* * *
+---
 
 > You can mass-produce hardware; you cannot mass-produce software; you cannot mass-produce the human mind.
 
-_Michio Kaku_
+*Michio Kaku*
 
-* * *
+---
 
 > Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization’s communication structure.
 
-_Melvin Conway_
+*Melvin Conway*
 
-* * *
+---
 
 > Optimism is an occupational hazard of programming: feedback is the treatment.
 
-_Kent Beck_
+*Kent Beck*
 
-* * *
+---
 
-> Don't waste time learning the "tricks of the trade."  Instead, learn the trade.  
+> The most delicate and the most essential piece of mechanism that a man has to deal with is the human machine.
 
-_James Charlton_
+*Andrew Carnegie*
 
-* * *
+---
+
+> Don't waste time learning the "tricks of the trade." Instead, learn the trade.
+
+*James Charlton*
+
+---
+
+> The key is to acknowledge from the start that you have no idea how this will grow. Accepting that you don't know everything, you begin to design the system defensively... You should spend most of your time thinking about interfaces rather than implementations.",
+
+*Nicholas Zakas*
+
+---
 
 > Good programmers use their brains, but good guidelines save us having to think out every case.
 
-_Francis Glassborow_
+*Francis Glassborow*
 
-* * *
+---
 
 > Compatibility means deliberately repeating other people's mistakes.
 
-_David Wheeler_
+*David Wheeler*
 
-* * *
+---
 
-![Accounting](Accounting.jpg) Photo by [Bench Accounting](https://unsplash.com/@benchaccounting) on [Unsplash](https://unsplash.com/s/photos/clean)
+![Accounting](https://cdn.hashnode.com/res/hashnode/image/upload/v1600707728842/ChkrWm4k9.jpeg)
+
+Photo by [Bench Accounting](https://unsplash.com/@benchaccounting) on [Unsplash](https://unsplash.com/s/photos/clean)
 
 # Clean Code
 
 > Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
 
-_John Woods_
+*John Woods*
 
-[Code Smell 91 - Test Asserts without Description](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2091%20-%20Test%20Asserts%20without%20Description/readme.md)
+[Code Smell 91 - Test Asserts without Description](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2091%20-%20Test%20Asserts%20without%20Description/readme.md) 
 
-* * *
+---
 
 > You have to refactor when you run into ugly code—but excellent code needs plenty of refactoring too.
 
-_Martin Fowler_
+*Martin Fowler*
 
-* * *
+---
 
-> Successful software always gets changed.     
+> Bubbles don't crash.
 
-_Fred Brooks_
+*Bertrand Meyer*
 
-* * *
+---
+
+> Coding is about writing code while programming is coding and thinking
+
+*Leslie Lamport*
+
+---
+
+> Hubris: Excessive pride, the sort of thing Zeus zaps you for. Also the quality that makes you write (and maintain) programs that other people won’t want to say bad things about. Hence, the third great virtue of a programmer
+
+*Larry Wall*
+
+---
+
+> Both real and imaginary numbers have exactly the same logical status. They are human concepts that model reality, but they are not themselves real
+
+*Ian Stewart*
+
+---
+
+> Successful software always gets changed.
+
+*Fred Brooks*
+
+---
+
+> We are not nouns, we are verbs. I am not a thing - an actor, a writer - I am a person who does things - I write, I act - and I never know what I'm going to do next. I think you can be imprisoned if you think of yourself as a noun.
+
+*Stephen Fry*
+
+---
 
 > If we want users to like our software, we should design it to behave like a likeable person.
 
-_Alan Cooper_
+*Alan Cooper*
 
-* * *
+---
+
+> Teams are immutable. Every time someone leaves, or joins, you have a new team, not a changed team.
+
+*Richard Dalton*
+
+---
+
+> As a program is evolved its complexity increases unless work is done to maintain or reduce it.
+
+*Lehman’s law of Increasing Complexity*
+
+---
 
 > The lesson is: Even if you know exactly what is going on in your system, measure performance, don't speculate. You'll learn something, and nine times out of ten, it won't be that you were right!
 
-_Ron Jeffries_
+*Ron Jeffries*
 
-[TDD Conference 2021 - Benefits Of Going Beyond The Make-It-Work Phase - Francisco Climent](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD%20Conference%202021/Benefits%20Of%20Going%20Beyond%20The%20Make-It-Work%20Phase/readme.md)
+[TDD Conference 2021 - Benefits Of Going Beyond The Make-It-Work Phase - Francisco Climent](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD%20Conference%202021/Benefits%20Of%20Going%20Beyond%20The%20Make-It-Work%20Phase/readme.md) 
 
-* * *
+---
 
 > God made the natural numbers; all else is the work of man.
 
-_Leopold Kronecker_
+*Leopold Kronecker*
 
-[Code Smell 108 - Float Assertions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20108%20-%20Float%20Assertions/readme.md)
+[Code Smell 108 - Float Assertions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20108%20-%20Float%20Assertions/readme.md) 
 
-* * *
+---
+
+> Don't try to find the best design in software architecture , instead , strive for the least worst combination of trade-offs
+
+*Neal Ford*
+
+---
+
+> We know an object by what it does, by what services it can provide. That is to say, we know objects by their behaviors.
+
+*David West*
+
+[Code Smell 191 - Misplaced Responsibility](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20191%20-%20Misplaced%20Responsibility/readme.md)
+
+---
 
 > Software engineering is not the same thing as computer science, though we often confuse the two. We need both software engineers and computer scientists.
 
-_Dave Farley_
+*Dave Farley*
 
-* * *
+---
 
 > Languages that try to disallow idiocy become themselves idiotic.
 
-_Rob Pike_
+*Rob Pike*
 
-* * *
+---
 
 > A heuristic we follow is that whenever we feel the need to comment something, we write a method instead.
 
-_Martin Fowler_
+*Martin Fowler*
 
-* * *
+---
 
 > We are still in the infancy of naming what is really happening on software development projects.
 
-_Alistair Cockburn_
+*Alistair Cockburn*
 
-* * *
+[Code Smell 171 - Plural Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20171%20-%20Plural%20Classes/readme.md) 
+
+---
 
 > Thinking about my experience of modifying code, I see that I spend much more time reading the existing code than I do writing new code. If I want to make my code cheap, therefore, I should make it easy to read.
 
-_Kent Beck_
+*Kent Beck*
 
-[Code Smell 96 - My Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2096%20-%20My%20Objects/readme.md)
+[Code Smell 96 - My Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2096%20-%20My%20Objects/readme.md) 
 
-* * *
+---
 
 > In software design, it's all about making a guess, trying it, and then learning from the experience.
 
-_Stewart Butterfield_
+*Stewart Butterfield*
 
-* * *
+---
 
 > Programming is a skill best acquired by practice and example rather than from books
 
-_Alan Turing_
+*Alan Turing*
 
- * * *
+---
 
 > Static typing is to reliable programming what a spelling checker is to a good writer.
 
-_Peter Van Roy_
+*Peter Van Roy*
 
-* * *
+---
 
 > If you have a procedure with ten parameters, you probably missed some.
 
-_Alan Perlis_
+*Alan Perlis*
 
-* * * 
+---
 
 > Redundant comments are just places to collect lies and misinformation.
 
-_Robert Martin_
+*Robert Martin*
 
-* * *
+---
 
 > My belief is still, if you get the data structures and their invariants right, most of the code will kind of write itself.
 
-_Peter Deustch_
+*Peter Deustch*
 
-* * * 
+[Code Smell 142 - Queries in Constructors](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20142%20-%20Queries%20in%20Constructors/readme.md) 
+
+---
 
 > Recognizing the need is the primary condition for design.
 
-_Charles Eames_
+*Charles Eames*
 
-* * *
+---
 
-> When you are stuck in a traffic jam with a Porsche, all you do is burn more gas in idle.  Scalability is about building wider roads, not about building faster cars.
+> When you are stuck in a traffic jam with a Porsche, all you do is burn more gas in idle. Scalability is about building wider roads, not about building faster cars.
 
-_Steve Swartz_
+*Steve Swartz*
 
-* * *
+---
 
-> Watch the little things; a small leak will sink a great ship.  
+> Watch the little things; a small leak will sink a great ship.
 
-_Benjamin Franklin_
+*Benjamin Franklin*
 
-* * *
+[Code Smell 180 - BitWise Optimizations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20180%20-%20BitWise%20Optimizations/readme.md) 
+
+---
 
 > Good code is its own best documentation.
 
-_Steve McConnell_
+*Steve McConnell*
 
-* * *
+---
 
 > If you have to spend effort looking at a fragment of code and figuring out what it’s doing, then you should extract it into a function and name the function after the what.
 
-_Martin Fowler_
+*Martin Fowler*
 
-[Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
+[Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md) 
 
-* * *
+---
 
 > Remember, code is your house, and you have to live in it.
 
-_Michael C. Feathers_
+*Michael C. Feathers*
 
-* * *
+---
 
-> No one hates software more than software developers. 
+> No one hates software more than software developers.
 
-_Jeff Atwood_
+*Jeff Atwood*
 
-* * *
+---
 
 > Come to think of it, there are already a million monkeys on a million typewriters, and Usenet is nothing like Shakespeare.
 
-_Blair Houghton_
+*Blair Houghton*
 
-* * *
+---
 
 > Skilled and motivated programmers can overcome inadequate processes, but perfect processes can never compensate for inadequate programmers or poor software managers.
 
-_Dick Fairley_
+*Dick Fairley*
 
-* * *
+---
 
 > A good enough first version will take longer to produce with $170K than it would have with $0K.
 
-_Jason Fried_
+*Jason Fried*
 
-* * *
+---
 
 > I'm a victim of Developaralysis: the crippling sense that the software industry is evolving so fast that no one person can possibly keep up.
 
-_Jon Evans_
+*Jon Evans*
 
-* * *
+---
 
 > Fools ignore complexity. Pragmatists suffer it. Some can avoid it. Geniuses remove it.
 
-_Alan Perlis_
+*Alan Perlis*
 
-[Code Smell 94 - Too Many imports](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2094%20-%20Too%20Many%20imports/readme.md)
+[Code Smell 94 - Too Many imports](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2094%20-%20Too%20Many%20imports/readme.md) 
 
-* * * 
+---
 
 > No matter how slow you are writing clean code, you will always be slower if you make a mess.
 
-_Robert Martin_
+*Robert Martin*
 
-[Code Smell 64 - Inappropriate Intimacy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2064%20-%20Inappropriate%20Intimacy/readme.md)
+[Code Smell 64 - Inappropriate Intimacy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2064%20-%20Inappropriate%20Intimacy/readme.md) 
 
-* * *
+---
 
 > The nice thing about standards is that there are so many to choose from.
 
-_Andrew S. Tannenbaum_
+*Andrew S. Tannenbaum*
 
-[Code Smell 48 - Code Without Standards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2048%20-%20Code%20Without%20Standards/readme.md)
+[Code Smell 48 - Code Without Standards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2048%20-%20Code%20Without%20Standards/readme.md) 
 
-* * *
+---
 
 > Playing with pointers is like playing with fire. Fire is perhaps the most important tool known to man. Carefully used, fire brings enormous benefits; but when fire gets out of control, disaster strikes.
 
-_J Barnes_
+*J Barnes*
 
-* * *
+---
 
 > The objective of cleaning is not just to clean, but to feel happiness living within that environment.
 
-_Marie Kondo_
+*Marie Kondo*
 
-* * *
+---
 
 > When I write software, I know that it will fail, either due to my own mistake, or due to some other cause.
 
-_Wietse Venema_
+*Wietse Venema*
 
-* * *
+---
+
+> The billion dollar mistake of having null in the language. And since JavaScript has both null and undefined, it's the two billion dollar mistake.
+
+*Anders Hejlsberg*
+
+---
+
+> Objects are there for the picking.
+
+*Bertrand Meyer*
+
+---
 
 > It’s harder to read code than to write it.
 
-_Joel Spolsky_
+*Joel Spolsky*
 
-[Code Smell 51 - Double Negatives](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2051%20-%20Double%20Negatives/readme.md)
+[Code Smell 51 - Double Negatives](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2051%20-%20Double%20Negatives/readme.md) 
 
-* * *
+---
 
-> Complexity kills.  It sucks the life out of developers, it makes products difficult to plan, build and test, it introduces security challenges, and it causes end-user and administrator frustration.
+> Complexity kills. It sucks the life out of developers, it makes products difficult to plan, build and test, it introduces security challenges, and it causes end-user and administrator frustration.
 
-_Ray Ozzie_
+*Ray Ozzie*
 
-* * *
+[Code Smell 138 - Packages Dependency](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20138%20-%20Packages%20Dependency/readme.md) 
+
+---
 
 > Clearly, programming courses should teach methods of design and construction, and the selected examples should be such that a gradual development can be nicely demonstrated.
 
-_Niklaus Wirth_
+*Niklaus Wirth*
 
-* * *
+---
 
 > Twenty percent of all input forms filled out by people contain bad data.
 
-_Dennis Ritchie_
+*Dennis Ritchie*
 
-[Code Smell 113 - Data Naming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20113%20-%20Data%20Naming/readme.md)
+[Code Smell 113 - Data Naming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20113%20-%20Data%20Naming/readme.md) 
 
-* * *
+---
 
 > That's why I write, because life never works except in retrospect. You can't control life, at least you can control your version.
 
-_Chuck Palahniuk_
+*Chuck Palahniuk*
 
-[Code Smell 57 - Versioned Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2057%20-%20Versioned%20Functions/readme.md)
+[Code Smell 57 - Versioned Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2057%20-%20Versioned%20Functions/readme.md) 
 
-* * *
+---
 
 > If you get tired of writing for loops, take a break and continue later.
 
-_David Walker_
+*David Walker*
 
-[Code Smell 53 - Explicit Iteration](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2053%20-%20Explicit%20Iteration/readme.md)
+[Code Smell 53 - Explicit Iteration](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2053%20-%20Explicit%20Iteration/readme.md) 
 
-* * *
+---
 
-> The most beautiful code, the most beautiful functions, and the most beautiful programs are sometimes not there at all. 
+> The most beautiful code, the most beautiful functions, and the most beautiful programs are sometimes not there at all.
 
-_Jon Bentley_
+*Jon Bentley*
 
-[Code Smell 77 - Timestamps](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2077%20-%20Timestamps/readme.md)
+[Code Smell 77 - Timestamps](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2077%20-%20Timestamps/readme.md) 
 
-* * *
+---
 
-> The proper use of comments is to compensate for our failure to express ourselves in code. 
+> The proper use of comments is to compensate for our failure to express ourselves in code.
 
-_Robert C. Martin_
+*Robert C. Martin*
 
-* * *
+---
 
 > It is not the language that makes programs appear simple. It is the programmer that make the language appear simple.
 
-_Robert Martin_
+*Robert Martin*
 
-* * *
+---
+
+> Instead of working on a feature until it is “finished”, CI and its big brother CD demand of us to make changes in small steps and have something ready for use after every small step. This changes how we think about the design of our system in some important ways.
+
+*Dave Farley*
+
+---
 
 > Scientists build to learn; Engineers learn to build.
 
-_Fred Brooks_
+*Fred Brooks*
 
-* * * 
+---
 
 > Don't Live with Broken Windows
 
-_Andy Hunt_
+*Andy Hunt*
 
-* * *
+---
 
-> Programmers don't burn out on hard work, they burn out on change-with-the-wind directives and not 'shipping'. 
+> Programmers don't burn out on hard work, they burn out on change-with-the-wind directives and not 'shipping'.
 
-_Mark Berry_
+*Mark Berry*
 
-* * * 
+---
 
 > We have to stop optimizing for programmers and start optimizing for users.
 
-_Jeff Atwood_
+*Jeff Atwood*
 
-[Code Smell 88 - Lazy Initialization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2088%20-%20Lazy%20Initialization/readme.md)
+[Code Smell 88 - Lazy Initialization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2088%20-%20Lazy%20Initialization/readme.md) 
 
-* * *
+---
 
 > It is hard to write even the smallest piece of code correctly.
 
-_Joshua Bloch_
+*Joshua Bloch*
 
-* * *
+---
 
 Does experience help? NO! Not if we are doing the wrong things.
 
-_Edwards Deming _
+\_Edwards Deming \_
 
-* * *
+---
+
+Continuous deployment came before continuous delivery. We need to learn from it.
+
+*Neal Ford*
+
+---
+
+> I would suggest an approach to an eventual “really nice” statically typed language by first making a dynamic language that can use objects as “semantic type definers and guards” to be installed in variables and to make a number of sample systems with it to find what level of static type-safety really pays for itself, and to then do co-evolution passes to get the dynamic types in good enough semantic shape so that all (or most) of what they do dynamically can be done at code writing time.
+
+*Alan Kay*
+
+---
 
 > The optimum committee has no members.
 
-_Norman Ralph Augustine_
+*Norman Ralph Augustine*
 
-* * *
+---
 
 > I do not fear computers. I fear lack of them.
 
-_Isaac Asimov_
+*Isaac Asimov*
 
-* * *
+---
+
+> Learning the art of programming, like most other disciplines, consists of first learning the rules and then learning when to break them.
+
+*Joshua Bloch*
+
+[Code Smell 169 - Glued Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20169%20-%20Glued%20Methods/readme.md) 
+
+---
 
 > An organization that treats its programmers as morons will soon have programmers that are willing and able to act like morons only.
 
-_Bjarne Stroustrup_
+*Bjarne Stroustrup*
 
-* * *
+---
 
 > If you have three pet dogs, give them names. If you have 10,000 head of cattle, don't bother. Nowadays, the idea of giving a name to every file on your computer is ridiculous.
 
-_David Gelernter_
+*David Gelernter*
 
-[Code Smell 45 - Not Polymorphic](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2045%20-%20Not%20Polymorphic/readme.md)
+[Code Smell 45 - Not Polymorphic](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2045%20-%20Not%20Polymorphic/readme.md) 
 
-* * *
+---
 
 > The computer programmer is a creator of universes for which he alone is the lawgiver. No playwright, no stage director, no emperor, however powerful, has exercised such absolute authority to arrange a stage or field of battle.
 
-_Joseph Weizenbaum_
+*Joseph Weizenbaum*
 
-* * *
+---
 
 > Design patterns should not be applied indiscriminately. Often they achieve flexibility and variability by introducing additional levels of indirection. A design pattern should only be applied when the flexibility it affords is actually needed.
 
-_Erich Gamma_
+*Erich Gamma*
 
-* * *
+---
 
 > Agile methods derive much of their agility by relying on the tacit knowledge embodied in the team, rather than writing the knowledge down in plans.
 
-_Barry Boehm_
+*Barry Boehm*
 
-* * *
+---
 
 > A program which perfectly meets a lousy specification is a lousy program.
 
-_Cem Kaner_
+*Cem Kaner*
 
-* * *
+---
 
 > Error handling is important, but if it obscures logic, it’s wrong.
 
-_Robert Martin_
+*Robert Martin*
 
-[Code Smell 72 - Return Codes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2072%20-%20Return%20Codes/readme.md)
+[Code Smell 72 - Return Codes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2072%20-%20Return%20Codes/readme.md) 
 
-* * *
+---
 
 > It would be nice if products and programming languages were designed to have only good parts.
 
-_Douglas Crockford_
+*Douglas Crockford*
 
-* * *
+---
 
 > When debugging, novices insert corrective code; experts remove defective code.
 
-_Richard Pattis_
+*Richard Pattis*
 
-[Code Smell 73 - Exceptions for Expected Cases](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2073%20-%20Exceptions%20for%20Expected%20Cases/readme.md)
+[Code Smell 73 - Exceptions for Expected Cases](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2073%20-%20Exceptions%20for%20Expected%20Cases/readme.md) 
 
-* * *
+---
 
-> A good programmer is someone who always looks both ways before crossing a one-way street. 
+> A good programmer is someone who always looks both ways before crossing a one-way street.
 
-_Doug Linder_
+*Doug Linder*
 
-* * *
+---
 
 > Alzheimer's Law of Programming: Looking at code you wrote more than two weeks ago is like looking at code you are seeing for the first time.
 
-_Dan Hurvitz_
+*Dan Hurvitz*
 
-* * *
+[Code Smell 163 - Collection in Name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20163%20-%20Collection%20in%20Name/readme.md) 
 
-> The cleaner and nicer the program, the faster it's going to run. And if it doesn't, it'll be easy to make it fast. 
+---
 
-_Joshua Bloch_
+> The cleaner and nicer the program, the faster it's going to run. And if it doesn't, it'll be easy to make it fast.
 
-* * *
+*Joshua Bloch*
+
+---
+
+> The object-oriented model makes it easy to build up programs by accretion. What this often means, in practice, is that it provides a structured way to write spaghetti code.
+
+*Paul Graham*
+
+---
 
 > Writing software as if we are the only person that ever has to comprehend it is one of the biggest mistakes and false assumptions that can be made.
 
-_Karolina Szczur_
+*Karolina Szczur*
 
-[Code Smell 80 - Nested Try/Catch](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2080%20-%20Nested%20Try%20Catch/readme.md)
+[Code Smell 80 - Nested Try/Catch](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2080%20-%20Nested%20Try%20Catch/readme.md) 
 
-* * *
+---
 
-> Standards are always out of date.  That’s what makes them standards.
+> Standards are always out of date. That’s what makes them standards.
 
-_Alan Bennett_
+*Alan Bennett*
 
-* * *
+---
 
 > The best smells are something that's easy to spot and most of time lead you to really interesting problems. Data classes (classes with all data and no behavior) are good examples of this. You look at them and ask yourself what behavior should be in this class.
 
-_Martin Fowler_
+*Martin Fowler*
 
-* * *
+---
 
 > The most unsuccessful three years in the education of cost estimators appears to be fifth-grade arithmetic.
 
-_Norman R. Augustine_
+*Norman R. Augustine*
 
-* * *
+---
 
 > Complexity has nothing to do with intelligence, simplicity does.
 
-_Larry Bossidy_
+*Larry Bossidy*
 
-* * *
+---
 
 > If the code and the comments disagree, then both are probably wrong.
 
-_Norm Schryer_
+*Norm Schryer*
 
- * * *
+---
 
 > Those who can imagine anything, can create the impossible
 
-_Alan Turing_
+*Alan Turing*
 
-* * *
+---
 
-> I think it is inevitable that people program poorly.  Training will not substantially help matters.  We have to learn to live with it.
+> I think it is inevitable that people program poorly. Training will not substantially help matters. We have to learn to live with it.
 
-_Alan Perlis_
+*Alan Perlis*
 
-* * *
+---
 
 > My computer's so fast it finishes an infinite loop in 5 minutes.
 
-_Chisel Wright_
+*Chisel Wright*
 
-* * * 
+---
 
 > I object to doing things that computers can do.
 
-_Olin Shivers_
+*Olin Shivers*
 
-* * *
+---
 
 > The amateur software engineer is always in search of magic.
 
-_Grady Booch_
+*Grady Booch*
 
-[Code Smell 52 - Fragile Tests](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2052%20-%20Fragile%20Tests/readme.md)
+[Code Smell 52 - Fragile Tests](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2052%20-%20Fragile%20Tests/readme.md) 
 
-* * *
+---
 
 > Truth can only be found in one place: the code.
 
-_Robert C. Martin_
+*Robert C. Martin*
 
-* * *
+---
 
 > The benefits of a truly effective new technology are foregone when, in the rush to try out the next shiny whiz-bang tool, we abandon the current one.
 
-_Scott Guthrie_
+*Scott Guthrie*
 
-* * *
+---
 
-> A language that doesn’t have everything is actually easier to program in than some that do." ~ Dennis 
+> A language that doesn’t have everything is actually easier to program in than some that do." ~ Dennis
 
-_M. Ritchie_
+*M. Ritchie*
 
-* * *
+---
 
 > It's not at all important to get it right the first time. It's vitally important to get it right the last time.
 
-_Andrew Hunt and David Thomas_
+*Andrew Hunt and David Thomas*
 
-* * *
+---
 
 > Prolific developers don’t always write a lot of code, instead they solve a lot of problems. The two things are not the same.
 
-_J. Chambers_
+*J. Chambers*
 
-* * *
+---
 
 > Programs are meant to be read by humans and only incidentally for computers to execute.
 
-_Donald Knuth_
+*Donald Knuth*
 
-* * *
+[Code Smell 172 - Default Argument Values Not Last](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20172%20-%20Default%20Argument%20Values%20Not%20Last/readme.md) 
 
-> A programming language is low level when its programs require attention to the irrelevant. 
+---
 
-_Alan J. Perlis_
+> A programming language is low level when its programs require attention to the irrelevant.
 
-* * *
+*Alan J. Perlis*
+
+---
 
 > This will surprise some of your readers, but my primary interest is not with computer security. I am primarily interested in writing software that works as intended.
 
-_Wietse Venema_
+*Wietse Venema*
 
-* * * 
+[Code Smell 167 - Hashing Comparison](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20167%20-%20Hashing%20Comparison/readme.md) 
+
+---
+
+> The secret to fast software, in all but hard real-time contexts, is to write tunable software first and then tune it for sufficient speed.
+
+*Martin Fowler*
+
+---
 
 > You will fall to ruin because you believe that exceptions to the rule make new rules.
 
-_Pierce Brown_
+*Pierce Brown*
 
-[Code Smell 26 - Exceptions Polluting](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2026%20-%20Exceptions%20Polluting/readme.md)
+[Code Smell 26 - Exceptions Polluting](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2026%20-%20Exceptions%20Polluting/readme.md) 
 
-* * *
+---
 
 > Every time you write a comment, you should grimace and feel the failure of your ability of expression
 
-_Robert Martin_
+*Robert Martin*
 
-* * * 
+---
 
 > Simplicity is the soul of efficiency.
 
-_Austin Freeman_
+*Austin Freeman*
 
-[Code Smell 29 - Settings / Configs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2029%20-%20Settings%20-%20Configs/readme.md)
+[Code Smell 29 - Settings / Configs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2029%20-%20Settings%20-%20Configs/readme.md) 
 
-* * *
+---
 
 > Inheritance is surely a good answer but who knows the questions?
 
-_Michel Gauthier_
+*Michel Gauthier*
 
-* * *
+---
 
 > Programming can be fun, so can cryptography; however they should not be combined.
 
-_Kreitzberg & Shneiderman_
+*Kreitzberg & Shneiderman*
 
-[Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
+[Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md) 
 
-* * *
+---
 
 > So much complexity in software comes from trying to make one thing do two things.
 
-_Ryan Singer_
+*Ryan Singer*
 
-[Code Smell 34 - Too Many Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2034%20-%20Too%20Many%20Attributes/readme.md)
+[Code Smell 34 - Too Many Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2034%20-%20Too%20Many%20Attributes/readme.md) 
 
-* * *
+---
+
+> Effective leadership is not about making speeches or being liked; leadership is defined by results not attributes.
+
+*Peter Drucker*
+
+---
 
 > Deleted code is debugged code.
 
-_Jeff Sickel_
+*Jeff Sickel*
 
-* * *
+---
 
 > Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
 
-_Martin Fowler_
+*Martin Fowler*
 
-* * *
+---
 
 > The ratio of time spent reading (code) versus writing is well over 10 to 1 ... (therefore) making it easy to read makes it easier to write.
 
-_Robert Martin_
+*Robert Martin*
 
-* * *
+---
 
-> Another effective technique is to explain your code to someone else. This will often cause you to explain the bug to yourself. Sometimes it takes no more than a few sentences, followed by an embarrassed "Never mind, I see what's wrong.  Sorry to bother you." 
+> Another effective technique is to explain your code to someone else. This will often cause you to explain the bug to yourself. Sometimes it takes no more than a few sentences, followed by an embarrassed "Never mind, I see what's wrong. Sorry to bother you."
 
-_Brian Kernighan_
+*Brian Kernighan*
 
-* * *
+---
 
 > Just as it is a good practice to make all fields private unless they need greater visibility, it is a good practice to make all fields final unless they need to be mutable.
 
-_Brian Goetz_
+*Brian Goetz*
 
-[Code Smell 116 - Variables Declared With 'var'](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20116%20-%20Variables%20Declared%20With%20'var'/readme.md)
+[Code Smell 116 - Variables Declared With 'var'](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20116%20-%20Variables%20Declared%20With%20'var'/readme.md) 
 
-* * *
+---
 
 > Rather than apply minutes of suspect reasoning, we can just ask the computer by making the change and running the tests.
 
-_Kent Beck_
+*Kent Beck*
 
-* * *
+---
 
 > Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
 
-_Antoine de Saint Exupéry_
+*Antoine de Saint Exupéry*
 
-* * * 
+---
 
 > A single human brain has about a hundred million nerve cells... and a computer program that throws light on the mind/brain problem will have to incorporate the deepest insights of biologists, nerve scientists, psychologists, physiologists, linguists, social scientists, and even philosophers.
 
-_Tony Hoare_
+*Tony Hoare*
 
-* * *
+---
 
 > Any code of your own that you haven’t looked at for six or more months might as well have been written by someone else.
 
-_Eagleson’s Law_
+*Eagleson’s Law*
 
-* * *
+---
 
 > Automated testing is a safety net that protects the program from its programmers.
 
-_Yegor Bugayenko_
+*Yegor Bugayenko*
 
-* * *
+---
 
 > One day my daughter came in, looked over my shoulder at some Perl 4 code, and said, "What is that, swearing?"
 
-_Larry Wall_
+*Larry Wall*
 
-* * *
+---
+
+> I think it's very important to get more women into computing. My slogan is: Computing is too important to be left to men.
+
+*Karen Spärck Jones*
+
+---
 
 > It´s more about good enough than it is about right or wrong.
 
-_James Bach_
+*James Bach*
 
-* * *
+---
 
 > The methodologies and best practices used to develop software can be applied successfully to any challenge in life.
 
-_Walter O'Brien_
+*Walter O'Brien*
 
- * * * 
+---
 
-> No one in the brief history of computing has ever written a piece of perfect software. It's unlikely that you'll be the first. 
+> No one in the brief history of computing has ever written a piece of perfect software. It's unlikely that you'll be the first.
 
-_Andrew Hunt_
+*Andrew Hunt*
 
-* * *
+---
 
 > Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.
 
-_Brian Kernighan_
+*Brian Kernighan*
 
-* * *
+---
 
 > If you say “I told you so”, you are the one who has failed. Because you knew, but did not manage to stop the train wreck.
 
-_Robert Martin_
+*Robert Martin*
 
-* * *
+---
 
->Some people, when confronted with a problem, think “I know, I’ll use regular expressions.” Now they have two problems.
+> Some people, when confronted with a problem, think “I know, I’ll use regular expressions.” Now they have two problems.
 
-_Jamie Zawinski_
+*Jamie Zawinski*
 
-* * * 
+[Code Smell 185 - Evil Regular Expressions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20185%20-%20Evil%20Regular%20Expressions/readme.md) 
+
+[Code Smell 141 - IEngine , AVehicle, ImplCar](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20141%20-%20IEngine%20,%20AVehicle,%20ImplCar/readme.md) 
+
+---
 
 The best way to get accurate information on Stack Overflow is to post something wrong and wait for corrections.
 
-_Matthew Austern_
+*Matthew Austern*
 
-* * *
+---
 
 > Don’t comment bad code — rewrite it.
 
-_Brian Kernighan_
+*Brian Kernighan*
 
-[What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
+[What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md) 
 
-* * *
+---
 
 > Code is like humor. When you have to explain it, it’s bad.
 
-_Cory House_
+*Cory House*
 
-[Code Smell 81 - Result](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2081%20-%20Result/readme.md)
+[Code Smell 81 - Result](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2081%20-%20Result/readme.md) 
 
-* * *
+---
+
+> If you do a big bang rewrite, the only thing you're certain of is a big bang
+
+*Martin Fowler*
+
+---
 
 > A long descriptive name is better than a short enigmatic name. A long descriptive name is better than a long descriptive comment.
 
-_Robert Martin_
+*Robert Martin*
 
-[Code Smell 33 - Abbreviations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2033%20-%20Abbreviations/readme.md)
+[Code Smell 33 - Abbreviations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2033%20-%20Abbreviations/readme.md) 
 
-* * *
+---
 
 > Talk is cheap. Show me the code.
 
-_Linus Torvalds_
+*Linus Torvalds*
 
-* * *
+---
 
 > The language in which we express our ideas has a strong influence on our thought processes.
 
-_Don Knuth_
+*Don Knuth*
 
-* * * 
+---
 
 > Smart data structures and dumb code works a lot better than the other way around.
 
-_Eric Raymond_
+*Eric Raymond*
 
-* * *
+---
 
-![Quality](Quality.jpg)
+![Quality](https://cdn.hashnode.com/res/hashnode/image/upload/v1600707787466/2A7jlRXw5.jpeg)
 
 Photo by [Raquel Martínez](https://unsplash.com/@fiteka) on [Unsplash](https://unsplash.com/s/photos/quality)
 
@@ -3431,278 +4387,291 @@ Photo by [Raquel Martínez](https://unsplash.com/@fiteka) on [Unsplash](https://
 
 > Legacy code is code without tests.
 
-_Michael Feathers_
+*Michael Feathers*
 
 [How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md) 
 
-* * *
+---
 
-> Regardless of your plans, production is the ultimate testing environment. 
+> Regardless of your plans, production is the ultimate testing environment.
 
-_J T Wall_
+*J T Wall*
 
-* * *
+---
 
-> Somebody will say they have a program that’s verified and it’s only verified because it met its specification according to some verifier.  But the verifier might have bugs in it. The specifications might have bugs in them
+> Somebody will say they have a program that’s verified and it’s only verified because it met its specification according to some verifier. But the verifier might have bugs in it. The specifications might have bugs in them
 
-_Donald Knuth_
+*Donald Knuth*
 
-* * *
+---
 
 > The first 90 percent of the code accounts for the first 90 percent of the development time. The remaining 10 percent of the code accounts for the other 90 percent of the development time
 
-_Tom Cargill_
+*Tom Cargill*
 
-* * *
+---
 
-> One man's crappy software is another man's full time job.     
+> Simplicity is hard to build, easy to use, and hard to charge for. Complexity is easy to build, hard to use, and easy to charge for.
 
-_Jessica Gaston_
+*Chris Sacca*
 
-[Code Smell 42 - Warnings/Strict Mode Off](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2042%20-%20Warnings%20Strict%20Mode%20Off/readme.md)
+---
 
-* * *
+> One man's crappy software is another man's full time job.
+
+*Jessica Gaston*
+
+[Code Smell 42 - Warnings/Strict Mode Off](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2042%20-%20Warnings%20Strict%20Mode%20Off/readme.md) 
+
+---
 
 > We're entering a new world in which data may be more important than software.
 
-_Tim O'Reilly_
+*Tim O'Reilly*
 
-* * *
+---
 
 > The pesticide paradox. Every method you use to prevent or find bugs leaves a residue of subtler bugs against which those methods are ineffective.
 
-_Boris Beizer_
+*Boris Beizer*
 
-[Code Smell 30 - Mocking Business](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md)
+[Code Smell 30 - Mocking Business](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md) 
 
-* * *
+---
 
 I try to think mostly in terms of preconditions, and checking things in the constructor and the beginning of a function.
 
-_Brad Fitzpatrick_
+*Brad Fitzpatrick*
 
-* * *
+---
 
 > "Don't fix it if it ain't broke" presupposed that you can't improve something that works reasonably well already. If the world's inventors had believed this, we'd still be driving Model A Fords and using outhouses.
 
-_H. W. Kenton_
+*H. W. Kenton*
 
-* * *
+---
 
 > The first step of any project is to grossly underestimate its complexity and difficulty.
 
-_Nicoll Hunt_
+*Nicoll Hunt*
 
-* * *
+---
 
 > Good software, like wine, takes time.
 
-_Joel Spolsky_
+*Joel Spolsky*
 
-* * *
+---
 
 > Pasting code from the internet into production code is like chewing gum found in the street.
 
-_Mike Johnson_
+*Mike Johnson*
 
-* * *
+---
 
 > Discovering the unexpected is more important than confirming the known.
 
-_George E. P. Box_
+*George E. P. Box*
 
-* * *
+---
 
 > Pay attention to zeros. If there is a zero, someone will divide by it.
 
-_Cem Kaner_
+*Cem Kaner*
 
-* * *
+---
 
 > Beta testing is a symptom of weak testing practices and poor communication with customers
 
-_Kent Beck_
+*Kent Beck*
 
-* * *
+---
 
-> Beware of bugs in the above code; I have only proved it correct, not tried it. 
+> Beware of bugs in the above code; I have only proved it correct, not tried it.
 
-_Donald Knuth_
+*Donald Knuth*
 
-[Stop Calling them 'Bugs'](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quality/Stop%20Calling%20them%20'Bugs'/readme.md)
+[Stop Calling them 'Bugs'](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quality/Stop%20Calling%20them%20'Bugs'/readme.md) 
 
-* * *
+---
 
 > The key to building a great product is building a great team first. To me, great teams aren’t bound by roles, but they’re driven by moving forward.
 
-_Alan Page_
+*Alan Page*
 
-* * * 
+---
 
 > Simplicity, carried to the extreme, becomes elegance.
 
-_Jon Franklin_
+*Jon Franklin*
 
-* * *
+---
 
-> With tests, we can change the behavior of our code quickly and verifiably.
-> Without them, we really don’t know if our code is getting better or worse.”
+> With tests, we can change the behavior of our code quickly and verifiably. Without them, we really don’t know if our code is getting better or worse.”
 
-_Michael Feathers_
+*Michael Feathers*
 
-[How to Squeeze Test Driven Development on Legacy Systems](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md)
+[How to Squeeze Test Driven Development on Legacy Systems](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md) 
 
-* * *
+---
 
 > Don't patch bad code - rewrite it.
 
-_P. J. Plauger_
+*P. J. Plauger*
 
-* * *
+---
 
 > Correctness is clearly the prime quality. If a system does not do what it is supposed to do, then everything else about it matters little.
 
-_Bertrand Meyer_
+*Bertrand Meyer*
 
-[Code Smell 86 - Mutable Const Arrays](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2086%20-%20Mutable%20Const%20Arrays/readme.md)
+[Code Smell 86 - Mutable Const Arrays](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2086%20-%20Mutable%20Const%20Arrays/readme.md) 
 
-* * *
+---
 
 > A Perl program is correct if it gets the job done before your boss fires you.
 
-_Larry Wall_
+*Larry Wall*
 
-[Code Smell 41 - Regular Expression Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2041%20-%20Regular%20Expression%20Abusers/readme.md)
+[Code Smell 41 - Regular Expression Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2041%20-%20Regular%20Expression%20Abusers/readme.md) 
 
-* * *
+---
 
 > As the Tests get more Specific, the Code gets more Generic.
 
-_Robert Martin_
+*Robert Martin*
 
-* * *
+---
 
 > Software testing is not only ensuring absence of bugs but also ensuring presence of value.
 
-_Amit Kalantri_
+*Amit Kalantri*
 
-* * *
+---
 
 > When you choose a language, you're choosing more than a set of technical trade-offs-you're choosing a community.
 
-_Joshua Bloch_
+*Joshua Bloch*
 
-* * *
+---
 
 > Quality is free, but only to those who are willing to pay heavily for it.
 
-_DeMarco and Lister_
+*DeMarco and Lister*
 
-* * *
+---
 
 > Developer testing is an important step towards accountability. It gives developers a way to demonstrate the quality of the software they produce.
 
-_Kent Beck_
+*Kent Beck*
 
-* * *
+---
 
 > It’s hard enough to find an error in your code when you’re looking for it; its even harder when you’ve assumed your code is error-free.
 
-_Steve McConnell_
+*Steve McConnell*
 
-* * *
+---
 
 > On the seventh day, God said, "Ship it! We'll release patches later."
 
-_Josh Flachsbart_
+*Josh Flachsbart*
 
-* * * 
+---
 
 > Make it hard to ignore error conditions. Don't bury error codes in return values.
 
-_Steve Maguire_
+*Steve Maguire*
 
-* * * 
+---
 
 > One of the most valuable things about TDD is that it lets us concentrate on one thing at a time. We are either writing code or refactoring; we are never doing both at once.
 
-_Michael Feathers_
+*Michael Feathers*
 
-* * * 
+---
 
 > You haven't mastered a tool until you understand when it should not be used.
 
-_Kelsey Hightower_
+*Kelsey Hightower*
 
-* * *
+---
 
 > Reducing a product's definition to a list of features and functions ignores the real opportunity - orchestrating technological capability to serve human needs and goals.
 
-_Alan Cooper_
+*Alan Cooper*
 
-* * *
+---
 
 > Beyond basic mathematical aptitude, the difference between good programmers and great programmers is verbal ability.
 
-_Marissa Mayer_
+*Marissa Mayer*
 
-[Code Smell 90 - Implementative Callback Events](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2090%20-%20Implementative%20Callback%20Events/readme.md)
+[Code Smell 90 - Implementative Callback Events](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2090%20-%20Implementative%20Callback%20Events/readme.md) 
 
-* * * 
+---
 
 > We argue that design practices which take a data-driven approach fail to maximize encapsulation because they focus too quickly on the implementation of objects. We propose an alternative object-oriented design method which takes a responsibility-driven approach.
 
-_Rebecca Wirf Brooks_
+*Rebecca Wirf Brooks*
 
-[Code Smell 63 - Feature Envy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2063%20-%20Feature%20Envy/readme.md)
+[Code Smell 63 - Feature Envy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2063%20-%20Feature%20Envy/readme.md) 
 
-* * *
+---
 
 > .. one of the main causes of the fall of the Roman Empire was that, lacking zero, they had no way to indicate successful termination of their C programs.
 
-_Robert Firth_
+*Robert Firth*
 
-* * *
+---
 
 > Software never was perfect and won’t get perfect. But is that a license to create garbage? The missing ingredient is our reluctance to quantify quality.
 
-_Boris Beizer_
+*Boris Beizer*
 
-* * *
+---
 
 > Nothing makes a system more flexible than a suite of tests.
 
-_Robert Martin_
+*Robert Martin*
 
-[Code Smell 82 - Tests Violating Encapsulation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2082%20-%20Tests%20Violating%20Encapsulation/readme.md)
+[Code Smell 82 - Tests Violating Encapsulation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2082%20-%20Tests%20Violating%20Encapsulation/readme.md) 
 
-* * *
+---
+
+> Good code is its own best documentation. As you're about to add a comment, ask yourself, 'How can I improve the code so that this comment isn't needed?'
+
+*Steve McConnell*
+
+---
 
 > Programming is similar to a game of golf. The point is not getting the ball in the hole but how many strokes it takes.
 
-_Harlan D. Mills_
+*Harlan D. Mills*
 
-* * *
+---
 
 > If you’re afraid to change something it is clearly poorly designed.
 
-_Martin Fowler_
+*Martin Fowler*
 
-* * *
+---
 
 > As a rule, software systems do not work well until they have been used, and have failed repeatedly, in real applications.
 
-_David Parnas_
+*David Parnas*
 
-* * *
+[Code Smell 188 - Redundant Parameter Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20188%20-%20Redundant%20Parameter%20Names/readme.md) 
+
+---
 
 > There are two ways to write error-free programs; only the third one works.
 
-_Alan J. Perlis_
+*Alan J. Perlis*
 
-* * *
+---
 
-![Sorting](Sorting.jpg)
+![Sorting](https://cdn.hashnode.com/res/hashnode/image/upload/v1600707869812/D8LL5gWKE.jpeg)
 
 Photo by [Kelvyn Ornettte Sol Marte](https://unsplash.com/@kelvyn) on [Unsplash](https://unsplash.com/s/photos/sorting)
 
@@ -3710,45 +4679,45 @@ Photo by [Kelvyn Ornettte Sol Marte](https://unsplash.com/@kelvyn) on [Unsplash]
 
 > Whenever I have to think to understand what the code is doing, I ask myself if I can refactor the code to make that understanding more immediately apparent.
 
-_Martin Fowler_
+*Martin Fowler*
 
-[Code Smell 67 - Middle Man](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2067%20-%20Middle%20Man/readme.md)
+[Code Smell 67 - Middle Man](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2067%20-%20Middle%20Man/readme.md) 
 
-* * *
+---
 
 > A true professional does not waste the time and money of other people by handing over software that is not reasonably free of obvious bugs; that has not undergone minimal unit testing; that does not meet the specifications and requirements; that is gold-plated with unnecessary features; or that looks like junk.
 
-_Daniel Read_
+*Daniel Read*
 
-* * *
+---
 
 > Everything in software architecture is a trade-off.
 
-_Neal Ford_
+*Neal Ford*
 
-* * *
+---
 
-![Cells](Cells.jpg)
+![Cells](https://cdn.hashnode.com/res/hashnode/image/upload/v1600707909501/Cf-_1eAmb.jpeg)
 
 Photo by [National Cancer Institute](https://unsplash.com/@nci) on [Unsplash](https://unsplash.com/s/photos/cells)
 
-# Object-Oriented
+# Object Oriented
 
 > Let there be no doubt that object-oriented design is fundamentally different than traditional structured design approaches: it requires different ways of thinking about decomposition, and it produces software architectures that are largely outside the realm of the structured design culture.
 
-_Grady Booch_
+*Grady Booch*
 
-* * *
+---
 
-> I invented the term ‘object-oriented’, and C++ was not what I had in mind.
+> I invented the term ‘object oriented’, and C++ was not what I had in mind.
 
-_Alan Kay_
+*Alan Kay*
 
-* * *
+---
 
 Part of the objective of this series of articles is to generate spaces for debate and discussion on software design.
 
-[Object Design Checklist](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Object%20Design%20Checklist/readme.md)
+[Object Design Checklist](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Object%20Design%20Checklist/readme.md) 
 
 We look forward to comments and suggestions on this article.
 

@@ -5,6 +5,8 @@
 *This is part of [productivity series](https://maximilianocontieri/series/productivity)
 You can read previous tips [here](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md) and [here](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2%20(2021%20Guide)/readme.md)*
 
+> TL;DR: Very short tips for productivity.
+
 # 1- Lazy people automate 🤖
 
 Try to avoid repetitive tasks. 

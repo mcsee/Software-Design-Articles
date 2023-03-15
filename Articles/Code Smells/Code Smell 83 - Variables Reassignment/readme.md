@@ -50,7 +50,7 @@ taxAmount = lastPurchase.taxesCharged();
 
 # a few hours later..
 lastPurchase = Item('Whisky');
-# I bough another drink
+# I bought another drink
 
 taxAmount += lastPurchase.taxesCharged();
 ```

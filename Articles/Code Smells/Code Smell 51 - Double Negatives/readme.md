@@ -4,6 +4,8 @@
 
 *Not operator is our friend. Not not operator is not our friend.*
 
+> TL;DR: Avoid double negatives in boolean expressions
+
 # Problems
 
 - Readability

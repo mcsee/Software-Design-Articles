@@ -2,6 +2,8 @@
 
 ![Maxi Contieri on Clean Code, Refactoring, and Test-Driven Development](Maxi%20Contieri%20on%20Clean%20Code,%20Refactoring,%20and%20Test-Driven%20Development.jpg)
 
+> TL;DR: A Quick interview on clean code
+
 This Slack AMA discussion by Limarc Ambalina, Arthur Tkachenko, Amy Tom, Muhammad Bilal, Natasha, David, and I occurred in Slogging's official #amas channel, and has been edited for readability.
 
 

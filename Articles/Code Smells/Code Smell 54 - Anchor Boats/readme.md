@@ -56,7 +56,7 @@ final class DatabaseQueryOptimizer {
 
 # Detection
 
-Using some [mutation testing](https://en.wikipedia.org/wiki/Mutation_testing) variants we can remove the dead code and see it test fails.
+Using some [mutation testing](https://en.wikipedia.org/wiki/Mutation_testing) variants we can remove the dead code and see if test fails.
 
 We need to have good coverage to rely on this solution.
 

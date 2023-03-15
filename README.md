@@ -464,7 +464,9 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 197 - Gratuitous Context](/Articles/Code%20Smells/Code%20Smell%20197%20-%20Gratuitous%20Context/readme.md)
 
-* [Code Smell 198 - Gratuitous Booleans](/Articles/Code%20Smells/Code%20Smell%20198%20-%20Gratuitous%20Booleans/readme.md)
+* [Code Smell 198 - Hidden Assumptions](/Articles/Code%20Smells/Code%20Smell%20198%20-%20Hidden%20Assumptions/readme.md)
+
+* [Code Smell 199 - Gratuitous Booleans](/Articles/Code%20Smells/Code%20Smell%20199%20-%20Gratuitous%20Booleans/readme.md)
 
 ### Blogging
 
@@ -609,6 +611,8 @@ In this repository, you will find many articles related to Software Design
 * [Explain in 5 Levels of Difficulty: Linux](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20Linux/readme.md)
 
 * [Explain in 5 Levels of Difficulty: Object-Oriented Programming](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20Object-Oriented%20Programming/readme.md)
+
+* [Explain in 5 Levels of Difficulty: The Fermi Paradox](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20The%20Fermi%20Paradox/readme.md)
 
 ### Security
 

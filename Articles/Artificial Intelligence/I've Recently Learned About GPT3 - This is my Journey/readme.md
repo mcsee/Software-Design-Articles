@@ -4,6 +4,8 @@
 
 *My future project on text transformers applied to code.*
 
+> TL;DR: Some thought on GTP-3 Hype
+
 I've been very excited since GPT-3 release almost a year ago.
 
 I applied early for closed beta, but had no news so far.

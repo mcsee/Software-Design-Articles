@@ -4,6 +4,8 @@
 
 > He is not our friend. It does not simplify life or make us more efficient. Just more lazy. It is time to stop using null.
 
+> TL;DR: The simple mistake that is causing a lot of problems
+
 # Tearing down another inveteracy
 
 All of us have been heavily using null.
