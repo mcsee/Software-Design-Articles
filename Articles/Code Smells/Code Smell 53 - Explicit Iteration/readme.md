@@ -2,7 +2,7 @@
 
 ![Code Smell 53 - Explicit Iteration](Code%20Smell%2053%20-%20Explicit%20Iteration.jpg)
 
-*We learned loops back in school. But enumerators and iterators are the next generation.*
+*We learned loops back in school. But enumerators and iterators are the next generation*
 
 > TL;DR: Don't use indices while iterating. Prefer Higher level collections.
 
@@ -61,9 +61,9 @@ Remember all time to find real-world analogies.
 
 # Conclusion
 
-This kind of smell do not ring the bell to many developers because they think this is a subtlety. 
+This kind of smell does not ring a bell to many developers because they think this is a subtlety.
 
-Clean code is full of this few declarative things that can make a difference.
+Clean code is full of these few declarative things that can make a difference.
 
 # Relations
 

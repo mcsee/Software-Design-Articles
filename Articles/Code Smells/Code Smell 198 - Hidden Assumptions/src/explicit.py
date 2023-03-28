@@ -14,7 +14,7 @@ class Measure:
 centimetersUnit = Unit("centimeters", "cm")
 inchesUnit = Unit("inches", "in")
 
-tencCntimeters = Measure(10, centimeters)
+tencCentimeters = Measure(10, centimeters)
 tenInches = Measure(10, inches)
 
 tenCentimeters + tenInches

@@ -4,7 +4,7 @@
 
 *This is a nice way to mark 'your' classes and objects*
 
-> TL;DR: Don prefix or suffix your names with irrelevant information
+> TL;DR: Don't prefix or suffix your names with irrelevant information
 
 # Problems
 

@@ -1,6 +1,6 @@
 # Code Smell 199 - Gratuitous Booleans
             
-![Code Smell 199 - Gratuitous Booleans](Code%20Smell%20198%20-%20Gratuitous%20Booleans.jpg)
+![Code Smell 199 - Gratuitous Booleans](Code%20Smell%20199%20-%20Gratuitous%20Booleans.jpg)
 
 *A code that either returns or no returns at all*
 

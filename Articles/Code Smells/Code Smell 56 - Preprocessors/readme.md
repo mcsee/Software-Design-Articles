@@ -2,7 +2,9 @@
 
 ![Code Smell 56 - Preprocessors](Code%20Smell%2056%20-%20Preprocessors.jpg)
 
-*We want our code to behave different on different environments, operating systems, so taking decisions at compile time is the best decision, isn't it?.*
+*We want our code to behave differently on different environments, and operating systems, so taking decisions at compile time is the best decision, isn't it?.*
+
+> TL;DR: Preprocessors make some unnecessary magic
 
 # Problems
 

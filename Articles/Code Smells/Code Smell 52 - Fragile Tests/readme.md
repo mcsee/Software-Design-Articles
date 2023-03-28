@@ -2,7 +2,7 @@
 
 ![Code Smell 52 - Fragile Tests](Code%20Smell%2052%20-%20Fragile%20Tests.jpg)
 
-*Tests are our safety nets. If we don't trust on their integrity, we will be in great danger.*
+*Tests are our safety nets. If we don't trust on their integrity, we will be in great danger*
 
 > TL;DR: Don't write non-deterministic tests.
 

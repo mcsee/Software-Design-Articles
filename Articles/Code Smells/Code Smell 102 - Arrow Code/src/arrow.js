@@ -28,7 +28,7 @@ if (actualIndex < totalItems)
           }
           actualIndex++;
         }
-        while (actualIndex < totalCounf && totalPrice < wallet.money);
+        while (actualIndex < totalCount && totalPrice < wallet.money);
       }
       else
         actualIndex++;

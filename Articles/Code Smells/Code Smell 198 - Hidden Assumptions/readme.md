@@ -10,13 +10,13 @@
 
 - [Coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
-- Fail Fast Principle violation
+- [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md) Principle violation
 
 - [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Fault
 
 # Solutions
 
-1.  Be declarative and explicit
+1. Be declarative and explicit
 
 2. Don't oversimplify
 
@@ -63,7 +63,7 @@ class Measure:
 centimetersUnit = Unit("centimeters", "cm")
 inchesUnit = Unit("inches", "in")
 
-tencCntimeters = Measure(10, centimeters)
+tencCentimeters = Measure(10, centimeters)
 tenInches = Measure(10, inches)
 
 tenCentimeters + tenInches
@@ -81,13 +81,17 @@ This is a design smell
 
 # Tags
 
-- Coupling 
+- Coupling
 
 # Conclusion
 
-Hidden assumptions can be difficult to identify and can lead to bugs, security vulnerabilities, and usability issues. 
+Hidden assumptions can be difficult to identify and can lead to bugs, security vulnerabilities, and usability issues.
 
-To mitigate these risks, software developers should be aware of their assumptions and biases, engage with users to understand their needs and expectations, and thoroughly test their software in various scenarios to uncover hidden assumptions and edge cases.
+To mitigate these risks, software developers should be aware of their assumptions and biases.
+
+Developers also need to engage with users to understand their needs and expectations.
+
+They must test their software in various scenarios to uncover hidden assumptions and edge cases.
 
 # Relations
 
@@ -97,9 +101,9 @@ To mitigate these risks, software developers should be aware of their assumption
 
 [Mars Climate Orbiter Disaster](https://solarsystem.nasa.gov/missions/mars-climate-orbiter/in-depth/)
 
-%[Coupling: The only design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)]
+[Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
-%[Measure Solution](https://www.semanticscholar.org/paper/Arithmetic-with-measurements-on-dynamically-typed-Wilkinson-Prieto/40ac4b9918f8fa71fde88449ce9261857317c192)
+[Measure Solution](https://www.semanticscholar.org/paper/Arithmetic-with-measurements-on-dynamically-typed-Wilkinson-Prieto/40ac4b9918f8fa71fde88449ce9261857317c192)
 
 # Disclaimer
 
@@ -108,13 +112,13 @@ Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/t
 # Credits
 
 Photo by [Christian Pfeifer](https://unsplash.com/@sailingaroundtheworld) on [Unsplash](https://unsplash.com/photos/l6OraG-v0d8)
-    
+
 * * *
 
 > A human organization is just as much an information system as any computer system. It is almost certainly more complex, but the same fundamental ideas apply. Things that are fundamentally difficult, like concurrency and coupling, are difficult in the real world of people, too.
 
 _Dave Farley_
- 
+
 [Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *

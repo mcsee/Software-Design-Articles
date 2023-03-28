@@ -2,6 +2,8 @@
 
 ![Coupling - The one and only software design problem](Coupling%20-%20The%20one%20and%20only%20software%20design%20problem.jpg)
 
+> TL;DR: Why you should address coupling now
+
 A root cause analysis of all failures of our software will find a single culprit with multiple costumes.
 
 The enemy is always there. Many times disguised as laziness, sometimes simplification, and usually with the optimization outfit.

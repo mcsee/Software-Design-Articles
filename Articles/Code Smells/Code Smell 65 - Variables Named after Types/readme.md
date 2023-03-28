@@ -4,6 +4,8 @@
 
 *Names should always indicate role.*
 
+> TL;DR: Don't name your variables with the accidental type
+
 # Problems
 
 - Declarative

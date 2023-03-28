@@ -468,6 +468,16 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 199 - Gratuitous Booleans](/Articles/Code%20Smells/Code%20Smell%20199%20-%20Gratuitous%20Booleans/readme.md)
 
+* [Code Smell 200 - Poltergeist](/Articles/Code%20Smells/Code%20Smell%20200%20-%20Poltergeist/readme.md)
+
+* [Code Smell 201 - Nested Ternaries](/Articles/Code%20Smells/Code%20Smell%20201%20-%20Nested%20Ternaries/readme.md)
+
+* [Code Smell 202 - God Constant Class](/Articles/Code%20Smells/Code%20Smell%20202%20-%20God%20Constant%20Class/readme.md)
+
+* [Code Smell 203 - Irrelevant Test Information](/Articles/Code%20Smells/Code%20Smell%20203%20-%20Irrelevant%20Test%20Information/readme.md)
+
+* [Code Smell 204 - Tests Depending on Dates](/Articles/Code%20Smells/Code%20Smell%20204%20-%20Tests%20Depending%20on%20Dates/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
@@ -587,6 +597,10 @@ In this repository, you will find many articles related to Software Design
 * [Refactoring 009 - Protect Public Attributes](/Articles/Refactorings/Refactoring%20009%20-%20Protect%20Public%20Attributes/readme.md)
 
 * [Refactoring 010 - Extract Method Object](/Articles/Refactorings/Refactoring%20010%20-%20Extract%20Method%20Object/readme.md)
+
+* [Refactoring 011 - Remove Repeated Code](/Articles/Refactorings/Refactoring%20011%20-%20Remove%20Repeated%20Code/readme.md)
+
+* [Refactoring 012 - Remove IF](/Articles/Refactorings/Refactoring%20012%20-%20Remove%20IF/readme.md)
 
 ### Wordle
 
