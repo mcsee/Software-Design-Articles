@@ -2,6 +2,8 @@
 
 ![How to Squeeze Test Driven Development on Legacy Systems](How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems.jpg)
 
+> TL;DR: A guide to use TDD on Legacy Systems
+
 *We all love T.D.D. We know its benefits, we have read a thousand tutorials on how to build a system using this technique. But this not feasible for currently legacy systems.*
 
 # What is TDD? 

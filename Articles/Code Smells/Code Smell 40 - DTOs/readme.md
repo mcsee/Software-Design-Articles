@@ -4,6 +4,8 @@
 
 *DTOs are widely used and the 'solve' real problems, do they?*
 
+> TL;DR: Don't use DTOs
+
 # Problems
 
 - Anemic Object
@@ -152,13 +154,17 @@ His author warns us about its actual abuse.
 
 [Code Smell 13 - Empty Constructors](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2013%20-%20Empty%20Constructors/readme.md)
 
-https://softwareengineering.stackexchange.com/questions/171457/what-is-the-point-of-using-dto-data-transfer-objects
+[Code Smell 50 - Object Keys](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2050%20-%20Object%20Keys/readme.md)
+
+[Code Smell 139 - Business Code in the User Interface](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20139%20-%20Business%20Code%20in%20the%20User%20Interface/readme.md)
 
 # More Info
 
-%[https://martinfowler.com/bliki/LocalDTO.html]
+[Martin Fowler on DTOS](https://martinfowler.com/bliki/LocalDTO.html)
 
-https://refactoring.guru/es/smells/data-class
+[Refactoring.guru](https://refactoring.guru/es/smells/data-class)
+
+[Stack Exchange](https://softwareengineering.stackexchange.com/questions/171457/what-is-the-point-of-using-dto-data-transfer-objects)
 
 # Credits
 

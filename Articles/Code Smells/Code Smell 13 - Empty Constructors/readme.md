@@ -65,7 +65,7 @@ Any linter can warn this (possible) situation.
 
 # More Info
 
-https://codexposed.hashnode.dev/constructors-demystified
+[Code Exposed](https://codexposed.hashnode.dev/constructors-demystified)
 
 [The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 

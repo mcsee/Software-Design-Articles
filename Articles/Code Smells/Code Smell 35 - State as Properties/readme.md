@@ -4,6 +4,8 @@
 
 *When an object changes its state the best solution is to change the attribute, isn't it?* 
 
+> TL;DR: Don't model state using attributes
+
 # Problems
 
 - Mutability

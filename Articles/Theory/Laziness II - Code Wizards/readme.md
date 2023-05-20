@@ -4,6 +4,8 @@
 
 *Code generators do our hard work. But we don’t need them anymore.*
 
+> TL;DR: Don't use code wizards.
+
 ## Free lines of code
 
 A few years ago working in the industry I took part on the demo of a programming product in which a *wizard *or *code generator *was used. The presenter boasted of writing less code, leaving the machine to write the text for her. Based on the templates that she was declaring.
@@ -62,7 +64,7 @@ g) The generated code has little added value, and often encourages bad design pr
 
 h) Finally, if computers can make inferences about the repetition of our design patterns, it is because we are not contributing the creative part (and for now not replicable) and we will be out of work in the short-term.
 
-[(Most) Programmers are losing our jobs very soon](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Opinion/(Most)%20Programmers%20are%20losing%20our%20jobs%20very%20soon/readme.md)
+[Most Programmers are losing our jobs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Opinion/(Most)%20Programmers%20are%20losing%20our%20jobs%20very%20soon/readme.md)
 
 ## The solution is on the usual shelf
 

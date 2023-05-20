@@ -97,7 +97,7 @@ It is very hard to put some test in maintenance since we are removing a safety n
 
 # More Info
 
-https://softwareengineering.stackexchange.com/questions/109703/how-to-avoid-fragile-unit-tests
+[Stack Exchange](https://softwareengineering.stackexchange.com/questions/109703/how-to-avoid-fragile-unit-tests)
 
 # Relations
 

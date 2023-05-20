@@ -56,6 +56,8 @@ We need to explicitly state our intentions and usages.
 
 [Code Smell 86 - Mutable Const Arrays](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2086%20-%20Mutable%20Const%20Arrays/readme.md)
 
+[Code Smell 158 - Variables not Variable](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20158%20-%20Variables%20not%20Variable/readme.md)
+
 # More Info
 
 - [Differences between let, const, and var](https://twitter.com/SajalShlan/status/1495010893683314689)

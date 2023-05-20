@@ -90,6 +90,8 @@ The first step is to stop thinking about properties and focus solely on behavior
 
 [Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
+[Code Smell 190 - Unnecessary Properties](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20190%20-%20Unnecessary%20Properties/readme.md)
+
 # More Info
 
 [W3 schools](https://www.w3schools.com/cs/cs_properties.php)

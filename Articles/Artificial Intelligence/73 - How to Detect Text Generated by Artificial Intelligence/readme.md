@@ -18,7 +18,7 @@ Now the popular [ChatGPT](https://github.com/mcsee/Software-Design-Articles/tree
 
 The full blog post is here:
 
-https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text/
+[Open AI](https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text/)
 
 * * *
 

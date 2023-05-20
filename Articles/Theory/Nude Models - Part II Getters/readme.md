@@ -4,6 +4,8 @@
 
 ## Ye olde Reliable Data Structures and Their Controversial (Read) Access.
 
+> TL;DR: Why you should avoid getters
+
 _Using objects as data structures is an established practice that generates many problems associated with the maintainability and evolution of software. It misuses brilliant concepts that were stated five decades ago. In this second part we will reflect on the_ **_reading_** _access of these objects._
 
 In the first part of this article, we showed the transition from hidden information in data structures towards living objects responsibilities (the essential **what**) hiding the implementation (the accidental **how**).

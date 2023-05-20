@@ -2,6 +2,8 @@
 
 ![Nude Models - Part I: Setters](Nude%20Models - Part%20I Setters.jpg)
 
+> TL;DR: Don't use setters.
+
 ## Ye olde Reliable Data Structures and Their Controversial (Write) Access.
 
 _Using objects as data structures is an established practice that generates many problems associated with the maintainability and evolution of software and misuses brilliant concepts that were stated five decades ago. In this first part we will reflect on the_ **_writing_** _access of these objects._

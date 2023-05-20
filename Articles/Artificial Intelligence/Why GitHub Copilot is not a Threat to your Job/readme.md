@@ -66,7 +66,7 @@ If you read the benefits above, most of the Copilot code belongs to the [code sm
 
 Very soon, transformers like Copilot will replace lazy and implementative programmers.
 
-[(Most) Programmers are losing our jobs very soon](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Opinion/(Most)%20Programmers%20are%20losing%20our%20jobs%20very%20soon/readme.md)
+[Programmers losing their jobs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Opinion/(Most)%20Programmers%20are%20losing%20our%20jobs%20very%20soon/readme.md)
 
 # What should be doing right now?
 

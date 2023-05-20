@@ -2,6 +2,8 @@
 
 ![How I Survived the Zombie Apocalypse](How%20I%20Survived%20the%20Zombie%20Apocalypse.jpg)
 
+> TL;DR: ZOMBIES are amazing!
+
 *Selecting great test cases is very hard. Unless you summon the undead.*
 
 # The Problem
@@ -65,7 +67,7 @@ Zombie testing is an acronym for:
 
 **S** – Simple Scenarios, Simple Solutions
 
-https://www.agilealliance.org/resources/sessions/test-driven-development-guided-by-zombies
+[Agile Alliance](https://www.agilealliance.org/resources/sessions/test-driven-development-guided-by-zombies)
 
 ## Example
 

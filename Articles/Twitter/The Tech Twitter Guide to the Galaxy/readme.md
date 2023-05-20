@@ -4,6 +4,8 @@
 
 *My __personal__ recommendations on whom to follow*
 
+> TL;DR: A follow list
+
 TL;DR Follow these people on Twitter to learn a lot about software development.
 
 (A-Z)

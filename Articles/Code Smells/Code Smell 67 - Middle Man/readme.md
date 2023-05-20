@@ -2,6 +2,8 @@
 
 ![Code Smell 67 - Middle Man](Code%20Smell%2067%20-%20Middle%20Man.jpg)
 
+> TL;DR: Remove the Intermediators
+
 *Let's break Demeter's Law.*
 
 # Problems
@@ -91,15 +93,15 @@ This is exactly the opposite to [Message Chain](https://github.com/mcsee/Softwar
 
 # More Info
 
-(Refactoring Guru)[https://refactoring.guru/smells/middle-man]
+[Refactoring Guru](https://refactoring.guru/smells/middle-man)
 
-(Refactoring.com)[https://refactoring.com/catalog/removeMiddleMan.html]
+[Refactoring.com](https://refactoring.com/catalog/removeMiddleMan.html)
 
-(C2 Wiki)[https://wiki.c2.com/?MiddleMan]
+[C2 Wiki](https://wiki.c2.com/?MiddleMan)
 
-(JetBrains)[https://www.jetbrains.com/help/idea/remove-middleman.html#remove_middleman_example]
+[JetBrains](https://www.jetbrains.com/help/idea/remove-middleman.html#remove_middleman_example)
 
-(Wikipedia)[https://en.wikipedia.org/wiki/Law_of_Demeter]
+[Wikipedia](https://en.wikipedia.org/wiki/Law_of_Demeter)
 
 # Credits
 

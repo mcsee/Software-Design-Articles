@@ -54,7 +54,7 @@ Ola Kunysz is a software engineer with 14 years of experience. Besides coding, s
 
 # Talk source 
 
-https://dev.to/olaqnysz/why-you-might-not-want-to-use-tdd-26jf
+[Why you might not want to use TDD](https://dev.to/olaqnysz/why-you-might-not-want-to-use-tdd-26jf)
 
 * * *
 

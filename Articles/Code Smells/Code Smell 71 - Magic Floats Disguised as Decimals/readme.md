@@ -80,7 +80,7 @@ JavaScript is 30 years younger, and it has the same immaturity problems.
 
 Here is the technical (and accidental) explanation.
 
-https://blog.pankajtanwar.in/do-you-know-01-02-03-in-javascript-here-is-why
+[Technical Explanation](https://blog.pankajtanwar.in/do-you-know-01-02-03-in-javascript-here-is-why)
 
 Please, don't argue telling this is fine and expected since this is the binary representation. 
 

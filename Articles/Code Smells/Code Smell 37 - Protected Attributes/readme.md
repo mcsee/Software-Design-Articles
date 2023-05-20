@@ -4,6 +4,8 @@
 
 *Protected attributes are great for encapsulating and controlling access to our properties. They might be warning us for another smell.*
 
+> TL;DR: Don't use protected attributes
+
 # Problems
 
 - [Sub classification](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md) for code reuse purposes.
@@ -58,7 +60,7 @@ final class Iphone extends Idevice {
 
     private $phoneModule:
  
-  public __construct(Battery $batery, OperatingSystem $ios, PhoneModule $phoneModule) {
+  public __construct(Battery $battery, OperatingSystem $ios, PhoneModule $phoneModule) {
     $this->phoneModule = $phoneModule;
     parent::__construct($battery, $ios)
   }

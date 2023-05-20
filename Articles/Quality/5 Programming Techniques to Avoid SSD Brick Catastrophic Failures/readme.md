@@ -17,7 +17,7 @@ On [this thread](https://news.ycombinator.com/item?id=32028511) we can find what
 > I once had a small fleet of SSDs fail because they had some uptime counters that overflowed after 4.5 years, and that somehow persistently wrecked some internal data structures. It turned them into little, unrecoverable bricks.
 > It was not awesome seeing a bunch of servers go dark in just about the order we had originally powered them on. Not a fun day at all.
 
-https://www.techradar.com/news/new-bug-destroys-hpe-ssds-after-40000-hours
+[Tech Radar](https://www.techradar.com/news/new-bug-destroys-hpe-ssds-after-40000-hours)
 
 # The Cause
 

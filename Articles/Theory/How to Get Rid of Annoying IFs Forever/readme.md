@@ -4,6 +4,8 @@
 
 *Why the first instruction we learn to program should be the last to use.*
 
+> TL;DR: The final recipe to avoid IFs
+
 Nobody uses [GOTO instruction](https://en.wikipedia.org/wiki/Goto) anymore and few programming languages still support it.
 
 We have matured and confirmed [spaghetti code](https://en.wikipedia.org/wiki/Spaghetti_code) is unmaintainable and error prone.
@@ -408,7 +410,7 @@ We should avoid the last design and set a **clear boundary** between *essential*
 
 According to evidence shown above. We should consider many *IFs* to be a code smell and tackle them with our recipe.
 
-https://sourcemaking.com/refactoring/replace-conditional-with-polymorphism
+[Replace Conditional](https://sourcemaking.com/refactoring/replace-conditional-with-polymorphism)
 
 ## Why this is happening?
 
@@ -419,7 +421,7 @@ Remember, Laziness and hidden assumptions are very rooted on our profession. We 
 
 This is a root cause analysis of a serious SSL defect on IOS caused by a lazy case:
 
-https://blog.codecentric.de/en/2014/02/curly-braces/
+[Code Centric](https://blog.codecentric.de/en/2014/02/curly-braces/)
 
 This article's thesis suggests there's a correlation between **IFs/Switch/Case** and defects.
 

@@ -104,9 +104,9 @@ No good system was developed with these tools.
 
 [Laziness II - Code Wizards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
 
-%[https://en.wikipedia.org/wiki/Computer-aided_software_engineering]
+[Wikipedia](https://en.wikipedia.org/wiki/Computer-aided_software_engineering)
 
-%[https://en.wikipedia.org/wiki/Domain-driven_design]
+[Wikipedia](https://en.wikipedia.org/wiki/Domain-driven_design)
 
 # Credits
 

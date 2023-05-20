@@ -4,6 +4,8 @@
 
 *Compilers are smarter than us. On a Friday night production deploy they betray us.*
 
+> TL;DR: Avoid magic coercions by all means
+
 # Problems
 
 - Fail Fast
@@ -78,6 +80,8 @@ They feel they belong to *community standards* that enforce bad behaviors like a
 # Relations
 
 [Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
+
+[Code Smell 84 - Max < Min (Javascript)](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2084%20-%20Max%20%20Min%20(Javascript)/readme.md)
 
 # More Info
 

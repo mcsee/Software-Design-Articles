@@ -10,7 +10,7 @@ JOMO (Joy of Missing out) is the opposite of FOMO (Fear of Missing out).
 
 This was first described by Patrick McGinnis in his amazing book:
 
-https://www.goodreads.com/book/show/51788433-fear-of-missing-out
+[Good Reads](https://www.goodreads.com/book/show/51788433-fear-of-missing-out)
 
 - Modern sites and applications exploit our primitive vulnerabilities. Our brains are wired for alerts and attention. This is how we survive as a race.
 
@@ -78,4 +78,4 @@ It is just an internal joke, a clickbait is the opposite of a JOMO.
 
 See the full story here:
 
-https://dev.to/inhuofficial/13-amazing-tips-for-writing-listicles-5eja
+[Amazing tips for Listicles](https://dev.to/inhuofficial/13-amazing-tips-for-writing-listicles-5eja)

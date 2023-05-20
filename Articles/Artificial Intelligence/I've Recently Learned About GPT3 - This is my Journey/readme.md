@@ -16,15 +16,15 @@ I've read some very interesting articles related to GPT-3:
 
 %[https://hashnode.com/search?q=gpt-3]
 
-https://anujsyal.com/gpt-3-the-latest-language-model-in-ai-c8634a314911
+[GPT-3](https://anujsyal.com/gpt-3-the-latest-language-model-in-ai-c8634a314911)
 
 ... and made some theoretical courses on it 
 
-https://www.linkedin.com/learning/introduction-to-gpt-3-a-leap-in-artificial-intelligence/gpt-3-the-next-leap-in-ai
+[Next Leap](https://www.linkedin.com/learning/introduction-to-gpt-3-a-leap-in-artificial-intelligence/gpt-3-the-next-leap-in-ai)
 
 By now, GPT-3 is closer to [narrow artificial intelligence](https://en.wikipedia.org/wiki/Weak_AI) than [Artificial General intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence). But it is a very successful narrow transformer deceiving humans for long time periods.
 
-https://codereek.hashnode.dev/gpt-3-a-new-step-towards-general-artificial-intelligence
+[Codereek](https://codereek.hashnode.dev/gpt-3-a-new-step-towards-general-artificial-intelligence)
 
 # State of the art
 
@@ -32,7 +32,7 @@ There are not many GPT-3 Implementations due to being on closed beta.
 
 There's an incipient app marketplace
 
-https://gpt3demo.com/
+[GPT-3 Demo](https://gpt3demo.com/)
 
 Hopefully it will grow soon.
 

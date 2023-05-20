@@ -4,6 +4,8 @@
 
 *First programming lesson: Control structures. Senior developer lesson: avoid them.*
 
+> TL;DR: Don use Ifs or its friends
+
 # Problems
 
 - Too many decisions together

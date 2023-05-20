@@ -12,7 +12,7 @@ At [Hashnode Bootcamp](https://hashnode.com/bootcamp/batch-3) I heard the word *
 
 I rushed to Wikipedia to see if the metaphor was specialized to other domains.
 
-%[https://en.wikipedia.org/wiki/Gardening]
+[Wikipedia](https://en.wikipedia.org/wiki/Gardening)
 
 To my astonishment, Wikipedia is not aware of the term (beyond its obvious meaning).
 

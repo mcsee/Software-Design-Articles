@@ -2,6 +2,8 @@
 
 ![Programming as Theory Building](Programming%20as%20Theory%20Building.jpg)
 
+> TL;DR: We review Peter Naur's article on software development
+
 Building models and solutions in software is not just about programming. We will review Peter Naur's classic paper.
 
 *This classic article from 1985 anticipated many of the concepts that are in common use in the industry today.
@@ -168,7 +170,7 @@ According to Naur, the model should remain solely as a theory among the particip
 
 [GPT3](https://en.wikipedia.org/wiki/GPT-3) and the other [transformers](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model) are cornering programmers who write code without understanding the underlying theory. We still have time to avoid it.
 
-[(Most) Programmers are losing our jobs very soon](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Opinion/(Most)%20Programmers%20are%20losing%20our%20jobs%20very%20soon/readme.md)
+[Most Programmers are losing our jobs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Opinion/(Most)%20Programmers%20are%20losing%20our%20jobs%20very%20soon/readme.md)
 
 # Conclusions
 

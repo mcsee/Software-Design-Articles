@@ -1,9 +1,9 @@
 class Workflow {
     moveToNextTransition() {
-        if (!this.canWeMoveOn()) {
-            throw new Exception('Preconditions are not met yet..');
+        if (this.canWeMoveOn()) {
+           this.moveToNextStep();
         } else {
-            this.moveToNextStep();
+           throw new Error('Preconditions are not met yet..');            
         }
     }
 

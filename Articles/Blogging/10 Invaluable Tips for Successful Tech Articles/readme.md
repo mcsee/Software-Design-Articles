@@ -2,6 +2,8 @@
 
 ![10 Invaluable Tips for Successful Tech Articles](10%20Invaluable%20Tips%20for%20Successful%20Tech%20Articles.jpg)
 
+> TL;DR: More tips for technical writting
+
 *I'm a developer learning to write technical articles. This is my journey.*
 
 # 1. Go straight to the point
@@ -166,4 +168,4 @@ These tips are the beginning of my personal quest.
 
 Hopefully more tips will come very soon and will add new articles to the series
 
-https://hashnode.com/series/blogging-ckhl993jk02i1p7s12bjb1rcv
+[Series](https://hashnode.com/series/blogging-ckhl993jk02i1p7s12bjb1rcv)

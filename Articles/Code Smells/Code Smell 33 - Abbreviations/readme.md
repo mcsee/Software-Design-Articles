@@ -4,6 +4,8 @@
 
 *Abbreviating is very important so that we look smart and save memory and mind space.*
 
+> TL;DR: Don't Abbreviate your objects
+
 # Problems
 
 - Coupling
@@ -97,6 +99,8 @@ It is 2020, We need to write software for humans, not for compilers.
 # Relations
 
 [Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
+
+[Code Smell 153 - Too Long Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20153%20-%20Too%20Long%20Names/readme.md)
 
 # More Info
 

@@ -4,6 +4,8 @@
 
 *Senior Developers have learning reasons too.*
 
+> TL;DR: My personal reasons to start writting
+
 Hello Everyone! 
 
 Recently I attended Hashnode Bootcamp III, and also had some interviews on a couple of podcasts.

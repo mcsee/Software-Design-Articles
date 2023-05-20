@@ -478,6 +478,26 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 204 - Tests Depending on Dates](/Articles/Code%20Smells/Code%20Smell%20204%20-%20Tests%20Depending%20on%20Dates/readme.md)
 
+* [Code Smell 205 - Code in Destructors](/Articles/Code%20Smells/Code%20Smell%20205%20-%20Code%20in%20Destructors/readme.md)
+
+* [Code Smell 206 - Long Ternaries](/Articles/Code%20Smells/Code%20Smell%20206%20-%20Long%20Ternaries/readme.md)
+
+* [Code Smell 207 - Dynamic Methods](/Articles/Code%20Smells/Code%20Smell%20207%20-%20Dynamic%20Methods/readme.md)
+
+* [Code Smell 208 - Null Island](/Articles/Code%20Smells/Code%20Smell%20208%20-%20Null%20Island/readme.md)
+
+* [Code Smell 209 - Side Effects](/Articles/Code%20Smells/Code%20Smell%20209%20-%20Side%20Effects/readme.md)
+
+* [Code Smell 210 - Dynamic Properties](/Articles/Code%20Smells/Code%20Smell%20210%20-%20Dynamic%20Properties/readme.md)
+
+* [Code Smell 211 - Tab over Spaces](/Articles/Code%20Smells/Code%20Smell%20211%20-%20Tab%20over%20Spaces/readme.md)
+
+* [Code Smell 212 - Elvis Operator](/Articles/Code%20Smells/Code%20Smell%20212%20-%20Elvis%20Operator/readme.md)
+
+* [Code Smell 213 - Hoisting](/Articles/Code%20Smells/Code%20Smell%20213%20-%20Hoisting/readme.md)
+
+* [Code Smell 214 - Duplicate Parameter Names](/Articles/Code%20Smells/Code%20Smell%20214%20-%20Duplicate%20Parameter%20Names/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
@@ -598,9 +618,11 @@ In this repository, you will find many articles related to Software Design
 
 * [Refactoring 010 - Extract Method Object](/Articles/Refactorings/Refactoring%20010%20-%20Extract%20Method%20Object/readme.md)
 
-* [Refactoring 011 - Remove Repeated Code](/Articles/Refactorings/Refactoring%20011%20-%20Remove%20Repeated%20Code/readme.md)
+* [Refactoring 011 - Replace Comments with Tests](/Articles/Refactorings/Refactoring%20011%20-%20Replace%20Comments%20with%20Tests/readme.md)
 
-* [Refactoring 012 - Remove IF](/Articles/Refactorings/Refactoring%20012%20-%20Remove%20IF/readme.md)
+* [Refactoring 012 - Remove Repeated Code](/Articles/Refactorings/Refactoring%20012%20-%20Remove%20Repeated%20Code/readme.md)
+
+* [Refactoring 013 - Remove IF](/Articles/Refactorings/Refactoring%20013%20-%20Remove%20IF/readme.md)
 
 ### Wordle
 

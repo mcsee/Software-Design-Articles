@@ -4,6 +4,8 @@
 
 *RegEx are a wonderful tool, we should to use them carefully and not to look smart.*
 
+> TL;DR: Avoid regular expressions as much as possible.
+
 # Problems
 
 - Readability
@@ -66,6 +68,10 @@ Unless we have a conclusive benchmark of **impressive** performance improvement.
 [Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
 [Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md) 
+
+[Code Smell 121 - String Validations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20121%20-%20String%20Validations/readme.md)
+
+[Code Smell 185 - Evil Regular Expressions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20185%20-%20Evil%20Regular%20Expressions/readme.md)
 
 # More Info
 

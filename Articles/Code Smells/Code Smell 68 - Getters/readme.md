@@ -2,6 +2,8 @@
 
 ![Code Smell 68 - Getters](Code%20Smell%2068%20-%20Getters.jpg)
 
+> TL;DR: How to avoid getters
+
 *Getting things is widespread and safe. But it is a very bad practice.*
 
 # Problems
@@ -102,6 +104,10 @@ Getters and Setters are a bad established practice. Instead of focusing on objec
 [Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
 [Code Smell 64 - Inappropriate Intimacy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2064%20-%20Inappropriate%20Intimacy/readme.md)
+
+[Code Smell 109 - Automatic Properties](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20109%20-%20Automatic%20Properties/readme.md)
+
+[Code Smell 146 - Getter Comments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20146%20-%20Getter%20Comments/readme.md)
 
 # More Info
 

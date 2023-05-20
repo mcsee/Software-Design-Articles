@@ -2,6 +2,8 @@
 
 ![Code Smell 61 - Coupling to Classes](Code%20Smell%2061%20-%20Coupling%20to%20Classes.jpg)
 
+> TL;DR: Leave classe alone!
+
 *Classes are handy. We can call them and invoke them any time. Is this good?*
 
 # Problems
@@ -91,7 +93,7 @@ Some objects implement many interfaces, declaring which part depends on which in
 
 [Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md) 
 
-%[https://en.wikipedia.org/wiki/Loose_coupling]
+[Wikipedia](https://en.wikipedia.org/wiki/Loose_coupling)
 
 # Credits
 

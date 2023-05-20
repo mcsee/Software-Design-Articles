@@ -2,6 +2,8 @@
 
 ![16 Simple Tips to Boost Your Productivity x10](16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10.gif)
 
+> TL;DR: More productivity tips
+
 *These easy-to-follow tips will improve your output dramatically.*
 
 # 1. Remove Notifications 🔔

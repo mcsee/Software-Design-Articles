@@ -4,6 +4,8 @@
 
 *A class defines objects with lots of attributes.*
 
+> TL;DR: Don't define too many attributes on your classes
+
 # Problems
 
 - Low Cohesion
@@ -90,6 +92,8 @@ Developers change these objects a lot, so they bring merge conflicts and are a c
 [Code Smell 10 - Too Many Arguments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2010%20-%20Too%20Many%20Arguments/readme.md)
 
 [Code Smell 14 - God Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2014%20-%20God%20Objects/readme.md)
+
+[Code Smell 147 - Too Many Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20147%20-%20Too%20Many%20Methods/readme.md)
 
 # Credits
 

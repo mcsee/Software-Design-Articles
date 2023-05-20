@@ -39,8 +39,8 @@ Choosing wise declarative names is a daily challenge.
 class Workflow {
     moveToNextTransition() {
         // We couple the business rule with the accidental implementation
-        if (this.stepWork.hasPendingTasks) {
-            throw new Exception('Preconditions are not met yet..');
+        if (this.stepWork.hasPendingTasks()) {
+            throw new Error('Preconditions are not met yet..');
         } else {
             this.moveToNextStep();
         }
@@ -54,10 +54,10 @@ class Workflow {
 ```javascript
 class Workflow {
     moveToNextTransition() {
-        if (!this.canWeMoveOn()) {
-            throw new Exception('Preconditions are not met yet..');
+        if (this.canWeMoveOn()) {
+           this.moveToNextStep();
         } else {
-            this.moveToNextStep();
+           throw new Error('Preconditions are not met yet..');            
         }
     }
 

@@ -4,6 +4,8 @@
 
 *What I would say to myself if I could travel to my past.*
 
+> TL;DR: Advices for myself
+
 Today I wrote a tweet asking for recommendations for junior developers
 
 [Twitter](https://twitter.com/1359541631171653640)

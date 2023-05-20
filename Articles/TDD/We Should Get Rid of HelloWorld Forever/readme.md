@@ -4,9 +4,11 @@
 
 *Every tutorial I've read for the last 30 years starts with the infamous 'Hello World' example. This could be one of the reasons we write crappy software.*
 
+> TL;DR: Let's get rid of "Hello World"
+
 "Hello World" is the first program me make in every language.
 
-%[https://en.wikipedia.org/wiki/%22Hello,_World!%22_program]
+[Wikipedia](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)
 
 We can measure the complexity of language by counting the lines it takes to produce the desired output.
 

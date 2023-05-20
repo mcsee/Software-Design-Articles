@@ -111,9 +111,9 @@ We came across this kind of methods some time in our developer life, We smelled 
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
-%[https://en.wikipedia.org/wiki/Wrapper_function]
+[Wikipedia](https://en.wikipedia.org/wiki/Wrapper_function)
 
-%[https://en.wikipedia.org/wiki/Decorator_pattern]
+[Wikipedia](https://en.wikipedia.org/wiki/Decorator_pattern)
  
 # Credits
 

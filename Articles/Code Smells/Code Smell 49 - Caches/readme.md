@@ -123,9 +123,9 @@ We shouldn't cache domain objects.
  
 # More Info
 
-https://dev.vamsirao.com/what-is-cache-and-common-ways-of-using-it
+[What is Cache](https://dev.vamsirao.com/what-is-cache-and-common-ways-of-using-it)
 
-https://frankel.hashnode.dev/a-hitchhikers-guide-to-caching-patterns
+[Hitchhikers Guide to Caching](https://frankel.hashnode.dev/a-hitchhikers-guide-to-caching-patterns)
 
 # Credits
 

@@ -4,6 +4,8 @@
 
 *Avoid too abstract names. Names should have real-world meaning*
 
+> TL;DR: Don't use abstract names
+
 # Problems
 
 - Implemental Naming

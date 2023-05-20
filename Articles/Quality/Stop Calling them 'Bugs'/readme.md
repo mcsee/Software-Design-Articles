@@ -4,11 +4,13 @@
 
 *Let's name things the right way*
 
+> TL;DR: We need to stop the bugs
+
 According to Wikipedia:
 
 > A software bug is an error, flaw or fault in a computer program or system that causes it to produce an incorrect or unexpected result, or to behave in unintended ways. The process of finding and fixing bugs is termed "debugging" and often uses formal techniques or tools to pinpoint bugs, and since the 1950s, some computer systems have been designed to also deter, detect or auto-correct various computer bugs during operations.
 
-%[https://en.wikipedia.org/wiki/Software_bug]
+[Wikipedia](https://en.wikipedia.org/wiki/Software_bug)
 
 ![first bug](https://cdn.hashnode.com/res/hashnode/image/upload/v1616372340739/wJ9TwhPEe.jpeg)
 

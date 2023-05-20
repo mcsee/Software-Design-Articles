@@ -4,6 +4,8 @@
 
 *Meta-programming is magic. That is the main reason why we should not use it. There are many dire consequences on the horizon.*
 
+> TL;DR: Don't use meta programming
+
 The same happens with [meta-programming](https://en.wikipedia.org/wiki/Metaprogramming) as with design patterns:
 
 There are states of excitement that all programmers go through. What state are you in?

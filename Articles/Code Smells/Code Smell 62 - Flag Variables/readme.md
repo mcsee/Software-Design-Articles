@@ -2,6 +2,8 @@
 
 ![Code Smell 62 - Flag Variables](Code%20Smell%2062%20-%20Flag%20Variables.gif)
 
+> TL;DR: Fun with Flags
+
 *Flags indicate what happened. Unless their name is too generic.*
 
 # Problems
@@ -80,7 +82,7 @@ Flags are widespread on production code. We should restrict their usage and use 
 
 # More Info
 
-%[https://en.wikipedia.org/wiki/Boolean_flag]
+[Wikipedia](https://en.wikipedia.org/wiki/Boolean_flag)
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 

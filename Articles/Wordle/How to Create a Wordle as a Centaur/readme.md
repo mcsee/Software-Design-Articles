@@ -40,9 +40,9 @@ We have two repositories:
 
 1 - The one with the Javascript Wordle made with TDD
 
-%[https://replit.com/@mcsee/Wordle-TDD]
+[Repl.it](https://replit.com/@mcsee/Wordle-TDD)
 
-%[https://github.com/mcsee/wordle/tree/main/How%20to%20Create%20a%20Wordle%20with%20TDD%20in%20Javascript]
+[Github](https://github.com/mcsee/wordle/tree/main/How%20to%20Create%20a%20Wordle%20with%20TDD%20in%20Javascript)
 
 2 - The one with the machine-generated code
 
@@ -50,7 +50,7 @@ We have two repositories:
 
 Playable Version (Live) With Defects
 
-%[https://mcsee.github.io/wordle/DotCSV/index.html]
+[Live Demo](https://mcsee.github.io/wordle/DotCSV/index.html)
 
 # Making it work together
 

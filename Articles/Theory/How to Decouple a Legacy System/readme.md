@@ -1,8 +1,8 @@
 # How to Decouple a Legacy System
 
 ![How to Decouple a Legacy System](How%20to%20Decouple%20a%20Legacy%20System.jpg)
-
-## An exercise improving legacy code
+				   
+> TL;DR: An exercise on improving legacy code
 
 _There are many articles explaining how to make a good design and what rules to follow. In this note we will see a concrete example on how to convert a_ [_legacy design_](https://en.wikipedia.org/wiki/Legacy_system) _into a better one._
 

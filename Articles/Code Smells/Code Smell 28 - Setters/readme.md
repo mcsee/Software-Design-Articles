@@ -3,6 +3,8 @@
 ![Code Smell 28 - Setters](Code%20Smell%2028%20-%20Setters.jpg)
 
 *The first exercise junior programmers do. IDEs, tutorial and senior developers keep teaching them this anti-pattern.*
+
+> TL;DR: Don't use setters.
  
 # Problems
 
@@ -163,6 +165,12 @@ mutability, fail fast principle and real-world [bijections](https://github.com/m
 # Relations
 
 [Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
+
+[Code Smell 68 - Getters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2068%20-%20Getters/readme.md)
+
+[Code Smell 109 - Automatic Properties](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20109%20-%20Automatic%20Properties/readme.md)
+
+[Code Smell 131 - Zero Argument Constructor](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20131%20-%20Zero%20Argument%20Constructor/readme.md)
 
 # More Info
 

@@ -2,6 +2,8 @@
 
 ![Code Smell 66 - Shotgun Surgery](Code%20Smell%2066%20-%20Shotgun%20Surgery.jpg)
 
+> TL;DR: Don't fire!
+
 *Say it only once*
 
 # Problems
@@ -101,13 +103,13 @@ We should be alert for small changes spanning several classes.
 
 # More Info
 
-(Wikipedia)[https://en.wikipedia.org/wiki/Shotgun_surgery]
+[Wikipedia](https://en.wikipedia.org/wiki/Shotgun_surgery)
 
-(Refactoring Guru)[https://refactoring.guru/es/smells/shotgun-surgery]
+[Refactoring Guru](https://refactoring.guru/es/smells/shotgun-surgery)
 
-(NDpend Blog)[https://blog.ndepend.com/shotgun-surgery]
+[NDpend Blog](https://blog.ndepend.com/shotgun-surgery)
 
-(Dzone)[https://dzone.com/articles/code-smell-shot-surgery]
+[Dzone](https://dzone.com/articles/code-smell-shot-surgery)
 
 # Credits
 

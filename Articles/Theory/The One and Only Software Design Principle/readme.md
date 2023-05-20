@@ -70,7 +70,7 @@ Bijection is broken
 
 This generates problems not always captured on time. Because it is a semantic fault, the error usually occurs long after the failure as in the famous case of the Mars Climate Orbiter.
 
-https://www.latimes.com/archives/la-xpm-1999-oct-01-mn-17288-story.html
+[Full Story](https://www.latimes.com/archives/la-xpm-1999-oct-01-mn-17288-story.html)
 
 ![mars probe](https://cdn.hashnode.com/res/hashnode/image/upload/v1598843154032/6CvVfEHXa.jpeg)
 

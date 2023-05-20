@@ -10,7 +10,7 @@ Last year, I [wrote a paper](https://cartografiasdelsur.undav.edu.ar/index.php/C
 
 In the same way, The Guardian asked [GPT-3](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Artificial%20Intelligence/I've%20Recently%20Learned%20About%20GPT3%20-%20This%20is%20my%20Journey/readme.md) when it was in private beta.
 
-https://www.theguardian.com/commentisfree/2020/sep/08/robot-wrote-this-article-gpt-3
+[The Guardian](https://www.theguardian.com/commentisfree/2020/sep/08/robot-wrote-this-article-gpt-3)
 
 When I asked *it* to translate the article, it decided the title was not good enough.
 

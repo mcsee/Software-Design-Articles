@@ -3,6 +3,8 @@
 ![Code Smell 29 - Settings / Configs](Code%20Smell%2029%20-%20Settings%20-%20Configs.jpg)
 
 *Changing system behavior in a control board is the customer's dream. And the software engineer's nightmare.*
+
+> TL;DR: Don't use Settings / Configs or any Feature Toggle
  
 # Problems
 
@@ -94,7 +96,13 @@ In this way, our code will be more declarative, clean and testable. It is not as
 
 - Feature Toggles
 
-https://jeromedane.medium.com/feature-flags-are-dangerous-88ef9d6c9f04
+[Feature Flags are Dangerous](https://jeromedane.medium.com/feature-flags-are-dangerous-88ef9d6c9f04)
+
+# Relations
+
+[Code Smell 133 - Hardcoded IF Conditions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20133%20-%20Hardcoded%20IF%20Conditions/readme.md)
+
+[Code Smell 186 - Hardcoded Business Conditions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20186%20-%20Hardcoded%20Business%20Conditions/readme.md)
 
 # More Info
 

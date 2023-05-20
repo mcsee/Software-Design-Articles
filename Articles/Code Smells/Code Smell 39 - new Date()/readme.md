@@ -4,6 +4,8 @@
 
 *70s first tutorial: getCurrentDate(). Piece of Cake. We are in the 20s Time is global no more*
 
+> TL;DR: Don't user new Date()
+
 # Problems
 
 - Coupling

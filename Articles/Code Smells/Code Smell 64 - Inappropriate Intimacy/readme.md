@@ -2,6 +2,8 @@
 
 ![Code Smell 64 - Inappropriate Intimacy](Code%20Smell%2064%20-%20Inappropriate%20Intimacy.jpg)
 
+> TL;DR: Don't get too intimate
+
 *Two classes entangled in love.*
 
 # Problems
@@ -26,7 +28,7 @@
 
 3. Replace Hierarchy With Delegation.
 
-%[https://refactoring.com/catalog/replaceSuperclassWithDelegate.html]
+[Refactoring](https://refactoring.com/catalog/replaceSuperclassWithDelegate.html)
 
 # Sample Code
 
@@ -104,11 +106,11 @@ Classes should know as little about each other as possible.
 
 # More Info
 
-%[https://wiki.c2.com/?InappropriateIntimacy]
+[C2 Wiki](https://wiki.c2.com/?InappropriateIntimacy)
 
-https://refactoring.guru/es/smells/inappropriate-intimacy
+[Refactoring Guru](https://refactoring.guru/es/smells/inappropriate-intimacy)
 
-https://www.thecodebuzz.com/awesome-code-inappropriate-intimacy-code-smell-resolution/
+[Code Buzz](https://www.thecodebuzz.com/awesome-code-inappropriate-intimacy-code-smell-resolution/)
  
 # Credits
 

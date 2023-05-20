@@ -4,6 +4,8 @@
 
 *Adding persistence, serialization, displaying, importing, exporting code to an object bloats its protocol and brings coupling.*
 
+> TL;DR: Don't pollute your business obejcts with accidental behavior
+
 # Problems
 
 - Readability

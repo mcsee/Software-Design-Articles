@@ -4,6 +4,8 @@
 
 *The most used and (in)famous design pattern in the world is causing us great harm.*
 
+> TL;DR: Don't use Singletons. Ever.
+
 # Problems
 
 - Coupling

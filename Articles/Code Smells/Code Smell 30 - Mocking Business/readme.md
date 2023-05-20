@@ -4,6 +4,8 @@
 
 *Mocking is a great aid when testing behavior. Like with many other tools, we are abusing them.*
 
+> TL;DR: Don't use Mocks
+
 # Problems
 
 - Complexity
@@ -124,9 +126,9 @@ Mocks, like many other test doubles are excellent tools. Choosing wisely when to
 
 # More Info
 
-https://medium.com/javascript-scene/mocking-is-a-code-smell-944a70c90a6a
+[Mocking is a Code Smell](https://medium.com/javascript-scene/mocking-is-a-code-smell-944a70c90a6a)
 
-%[https://martinfowler.com/articles/mocksArentStubs.html]
+[Mocks aren't Stubs](https://martinfowler.com/articles/mocksArentStubs.html)
 
 # Credits
 

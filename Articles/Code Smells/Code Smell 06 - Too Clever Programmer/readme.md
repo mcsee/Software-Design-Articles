@@ -93,6 +93,8 @@ Watch some warnings related to complexity, bad names, post-increment variables, 
 
 [Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
+[Code Smell 44 - Magic Corrections](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2044%20-%20Magic%20Corrections/readme.md)
+
 # Conclusion
 
 Too clever developers write cryptic code to brag. Smart developers write clean code. 
@@ -104,7 +106,7 @@ Clear beats clever.
 
 # More Info
 
-https://ardalis.com/are-boolean-flags-on-methods-a-code-smell/
+[Are boolean flags a code smell?](https://ardalis.com/are-boolean-flags-on-methods-a-code-smell/)
 
 # Credits
 

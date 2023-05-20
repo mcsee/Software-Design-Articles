@@ -15,7 +15,7 @@ public class FileReader {
             if (exception.description == (this.expectionMessages().errorDescriptionFileTemporaryLocked() {
                 // sleep and retry
                 // IF behavior is the same with all the exceptions just change the text on 
-                // object creation and raise the icorrect instance
+                // object creation and raise the incorrect instance
             }            
             this.showErrorToUser(exception.messageToUser();
              // This example is simplified. Text should be translated

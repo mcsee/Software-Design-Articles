@@ -2,6 +2,8 @@
 
 ![Code Smell 46 - Repeated Code](Code%20Smell%2046%20-%20Repeated%20Code.jpg)
 
+> TL;DR: Don't Repeat Yourself
+
 *DRY is our mantra. Teachers tell us to remove duplication. We need to go beyond.*
 
 # Problems
@@ -110,9 +112,9 @@ With our refactoring tools, we need to accept the duplication remove challenge t
 
 [Laziness II - Code Wizards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
 
-%[https://en.wikipedia.org/wiki/Copy_and_paste_programming]
+[Copy and Paste Programming](https://en.wikipedia.org/wiki/Copy_and_paste_programming)
 
-https://deepdive.hashnode.dev/dry-dont-repeat-yourself
+[Dry](https://deepdive.hashnode.dev/dry-dont-repeat-yourself)
 
 # Credits
 

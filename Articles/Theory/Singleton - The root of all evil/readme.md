@@ -2,6 +2,8 @@
 
 ![Singleton - The root of all evil](Singleton%20-%20The%20root%20of%20all%20evil.jpg)
 
+> TL;DR: Don't ever user Singletons
+
 *Allowed global variables and supposed memory savings.*
 
 *For 20 years I have been teaching software at the University of Buenos Aires. In the software engineering course we teach design patterns and the same “scheme” is always repeated almost like a type of deja vu, the same sequence that I had the opportunity to witness in several of my works and in the free software that I use:* 

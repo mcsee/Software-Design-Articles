@@ -2,6 +2,8 @@
 
 ![10 Tricks to Build an Awesome Personal Portfolio and Get Your Dream Job](10%20Tricks%20to%20Build%20an%20Awesome%20Personal%20Portfolio%20and%20Get%20Your%20Dream%20Job.gif)
 
+> TL;DR: How to create an amazing portfolio
+
 I've recently discovered personal branding and the importance of a shinny and updated portfolio.
 
 Working as a software engineer for 25 years never spend enough time on personal branding.
@@ -20,11 +22,11 @@ Whenever you publish something, create a new open source project or finish a cou
 
 I take a lot of interviews and I google every candidate trying to find out if she/he keeps updated and learns all the time.
 
-https://lo-victoria.com/why-a-personal-brand-is-important-for-a-developer
+[Personal Brand](https://lo-victoria.com/why-a-personal-brand-is-important-for-a-developer)
 
 Garden your profile.
 
-[Today I Learned the Concept of Gardening](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/Today%20I%20Learned%20the%20Concept%20of%20Gardening/readme.md)
+[Gardening](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/Today%20I%20Learned%20the%20Concept%20of%20Gardening/readme.md)
 
 # 2. Use the same picture everywhere 😲
 
@@ -50,7 +52,7 @@ Say what you are good at, and *more important* what [you aren't](https://maximil
 
 You can use hashnode's custom domain, so you don't need to know anything about website programming, hosting etc.
 
-https://catalinstech.medium.com/why-hashnode-is-different-than-other-blogging-platforms-and-the-best-for-developers-83c23f6b323d
+[Catalin's Tech](https://catalinstech.medium.com/why-hashnode-is-different-than-other-blogging-platforms-and-the-best-for-developers-83c23f6b323d)
 
 # 5. Take Good Care of SEO 🔎
 
@@ -58,14 +60,14 @@ Google your articles, find relevant keywords, use [Search Console](https://searc
 
 If you republish your articles, make sure you use canonical urls to avoid harming your SEO.
 
-https://blog.kieranroberts.dev/how-i-improved-my-portfolio-seo-including-tips-and-resources
+[Improve Portfolio](https://blog.kieranroberts.dev/how-i-improved-my-portfolio-seo-including-tips-and-resources)
 
 # 6. Build your Network 🕸️
 
 Recommend people and be recommended on LinkedIn.
 Add your [assessments](https://www.linkedin.com/help/linkedin/answer/94427) and validate them with the online exams.
 
-https://blog.nickbulljs.com/linkedin-profile-every-recruiter-want-you-to-have-cklm66h7r04rpsbs1es0zdw6z
+[Profile for Recruiters](https://blog.nickbulljs.com/linkedin-profile-every-recruiter-want-you-to-have-cklm66h7r04rpsbs1es0zdw6z)
 
 # 7. Be Ready for You Interviews 🕴️
 
@@ -105,12 +107,10 @@ Make sure you follow these tags:
 
 Besides following your own tech preferences.
 
-https://lauragift21.hashnode.dev/building-a-killer-personal-brand
+[Building a Personal Brand](https://lauragift21.hashnode.dev/building-a-killer-personal-brand)
 
 # 10. Follow the Right People for More Advices 💃🕺
 
 These people know a lot about personal branding and publish amazing content.
 
 @[Victoria Lo](@victoria), @[Nick Bull](@nickbulljs), @[Gift Egwuenu](@lauragift21) and many others
-
-%%[buymeacoffee]

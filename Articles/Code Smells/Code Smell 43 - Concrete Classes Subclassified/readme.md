@@ -4,6 +4,8 @@
 
 *Inheritance. Concrete classes. Reuse. A fantastic mix up.*
 
+> TL;DR: Don't subclassify concrete classes
+
 # Problems
 
 - Bad Models
@@ -103,7 +105,7 @@ After sub-classing the parent class should be abstract.
 
 # More Info
  
-%[https://en.wikipedia.org/wiki/Composition_over_inheritance]
+[Wikipedia](https://en.wikipedia.org/wiki/Composition_over_inheritance)
 
 * * *
 

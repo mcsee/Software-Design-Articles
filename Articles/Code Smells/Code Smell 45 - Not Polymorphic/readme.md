@@ -4,6 +4,8 @@
 
 *Methods should be interchangeable if they do the same.*
 
+> TL;DR: If your method do the same, you should name them the same
+
 # Problems
 
 - Missed Polymorphism

@@ -13,6 +13,7 @@
 - Low readability
 
 # Solutions
+
 1) Rename the constant with a semantic and name (meaningful and intention revealing).
 
 2) Replace constants with parameters, so you can mock them from the outside.
@@ -20,6 +21,7 @@
 3) The constant definition is often a different object than the constant (ab)user.
 
 # Examples
+
 - Algorithms Hyper Parameters
 
 # Sample Code
@@ -46,16 +48,32 @@ def energy(mass)
     mass * PhysicsConstants::LIGHT_SPEED ** 2
 end
 ```
-
+												    
 # Detection
 
 Many linters can detect number literals in attributes and methods.
 
 # Tags
+
 - Hard coded
 - Constants
 
+# Relations
+
+[Code Smell 158 - Variables not Variable](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20158%20-%20Variables%20not%20Variable/readme.md)
+
+[Code Smell 127 - Mutable Constants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20127%20-%20Mutable%20Constants/readme.md)
+
+[Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
+
+[Code Smell 162 - Too Many Parentheses](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20162%20-%20Too%20Many%20Parentheses/readme.md)
+
+[Code Smell 198 - Hidden Assumptions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20198%20-%20Hidden%20Assumptions/readme.md)
+
+[Code Smell 202 - God Constant Class](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20202%20-%20God%20Constant%20Class/readme.md)
+
 # More Info
+
 - [Refactoring Guru](https://refactoring.guru/es/replace-magic-number-with-symbolic-constant)
 - [How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 

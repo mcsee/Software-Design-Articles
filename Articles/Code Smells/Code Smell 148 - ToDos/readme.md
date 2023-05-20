@@ -107,11 +107,15 @@ If we are using TDD, we write the missing code right away.
 
 In this context, TODOs are only valid when doing Depth First development to remember open paths to visit.
 
+# Relations
+
+[Code Smell 179 - Known Bugs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20179%20-%20Known%20Bugs/readme.md)
+
 # More Info
 
-- [Should you put ToDos?](https://www.osedea.com/en/blog/should-you-put-todos-in-the-source-code)
+[Should you put ToDos?](https://www.osedea.com/en/blog/should-you-put-todos-in-the-source-code)
 
-- [Broken Windows Theory](https://en.wikipedia.org/wiki/Broken_windows_theory)
+[Broken Windows Theory](https://en.wikipedia.org/wiki/Broken_windows_theory)
 
 # Credits
 

@@ -155,7 +155,7 @@ This breaks the chain of invocations forcing put Ifs to control the absence of t
 
 What's more, null corrupts type controls. If we use a typed language and trust the compiler defense network. Null manages to penetrate it like a virus and spread to the other types as pointed out below.
 
-https://www.lucidchart.com/techblog/2015/08/31/the-worst-mistake-of-computer-science
+[The worst mistake of computer science](https://www.lucidchart.com/techblog/2015/08/31/the-worst-mistake-of-computer-science)
 
 # The solution
 
@@ -290,7 +290,7 @@ We build a less algorithmic but more declarative, maintainable, and extensible s
 
 Some languages ​​support optionally the concept of Maybe/Optional which is a particular case of the proposed solution implemented above at the language level.
 
-%[https://en.wikipedia.org/wiki/Option_type]
+[Wikipedia](https://en.wikipedia.org/wiki/Option_type)
 
 [Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
