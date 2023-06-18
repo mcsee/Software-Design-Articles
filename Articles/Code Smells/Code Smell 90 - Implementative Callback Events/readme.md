@@ -61,6 +61,10 @@ This is a semantic smell. We can detect it on peer code reviews.
 
 Names are very important. We should delay implementation coupled names until the very last moment.
 
+# Relations
+
+[Code Smell 139 - Business Code in the User Interface](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20139%20-%20Business%20Code%20in%20the%20User%20Interface/readme.md)
+
 # More Info
 
 - [What is exactly in a name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
@@ -70,7 +74,6 @@ Names are very important. We should delay implementation coupled names until the
 # Credits
 
 Photo by [Ashim D’Silva](https://unsplash.com/@randomlies) on [Unsplash](https://unsplash.com/s/photos/button-pressed)
-  
 
 Thanks to Maciej for this tip
 

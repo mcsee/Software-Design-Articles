@@ -21,7 +21,9 @@
 # Solutions
 
 1. Make arguments explicit.
+
 2. All function calls must the have same [arity](https://en.wikipedia.org/wiki/Arity).
+
 3. Use *Named Parameters* if your language supports them.
  
 # Sample Code
@@ -89,6 +91,12 @@ Detection is easy if the language supports optional arguments.
 # Conclusion
 
 Be explicit. Favor readability over shorter (and more coupled) function calls.
+
+# Relations
+
+[Code Smell 172 - Default Argument Values Not Last](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20172%20-%20Default%20Argument%20Values%20Not%20Last/readme.md)
+
+[Code Smell 42 - Warnings/Strict Mode Off](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2042%20-%20Warnings%20Strict%20Mode%20Off/readme.md)
  
 # More Info
 

@@ -9,7 +9,9 @@
 # Problems
 
 - [Coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+
 - Low testability
+
 - Low readability
 
 # Solutions
@@ -56,6 +58,7 @@ Many linters can detect number literals in attributes and methods.
 # Tags
 
 - Hard coded
+
 - Constants
 
 # Relations
@@ -74,8 +77,9 @@ Many linters can detect number literals in attributes and methods.
 
 # More Info
 
-- [Refactoring Guru](https://refactoring.guru/es/replace-magic-number-with-symbolic-constant)
-- [How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
+[Refactoring Guru](https://refactoring.guru/es/replace-magic-number-with-symbolic-constant)
+
+[How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 
 # Credits
 

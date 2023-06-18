@@ -105,7 +105,7 @@ We need to wait for abstractions and not be creative and speculative
 
 # Credits
 
-Photo by [Brian Kostiuk](https://unsplash.com/photos/WZ43jnCeWOs#:~:text=Photo%20by%20Brian%20Kostiuk%20on%20Unsplash) on Unsplash
+Photo by [Brian Kostiuk](https://unsplash.com/photos/WZ43jnCeWOs) on Unsplash
 
 * * *
 

@@ -74,6 +74,12 @@ In these coupled with accidental complexity languages, booleans are a common err
 
 - Primitive
 
+#Relations
+
+[Code Smell 51 - Double Negatives](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2051%20-%20Double%20Negatives/readme.md)
+
+[Code Smell 62 - Flag Variables](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2062%20-%20Flag%20Variables/readme.md)
+
 # More Info
 
 %[https://martinfowler.com/bliki/FlagArgument.html]

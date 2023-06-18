@@ -87,7 +87,7 @@ Extract the long method into smaller pieces. Break complex algorithms into parts
 
 # More Info
 
-- [Refactoring Guru](https://refactoring.guru/es/smells/long-method)
+[Refactoring Guru](https://refactoring.guru/es/smells/long-method)
 
 # Credits
 

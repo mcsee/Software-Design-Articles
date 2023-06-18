@@ -50,6 +50,7 @@ class Robot {
 }
 ```
 
+
 # Detection
 
 Coverage tools can find dead code (uncovered) if you have a great suite of tests.
@@ -59,6 +60,10 @@ Coverage tools can find dead code (uncovered) if you have a great suite of tests
 - Avoid metaprogramming. When used, it is very difficult to find references to the code.
 
 [Laziness I - Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
+
+# Relations
+
+[Code Smell 54 - Anchor Boats](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2054%20-%20Anchor%20Boats/readme.md)
 
 # Tags
 
@@ -72,7 +77,7 @@ Removing code is always more rewarding than adding.
 
 # More Info
 
-- [Laziness I: Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
+[Laziness I - Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
 
 # Credits
 

@@ -93,6 +93,10 @@ In case we need to expose internal objects to the external world, we should use 
 
 In this way, we can detect (and block) brute force attacks monitoring the traffic and [404 errors](https://en.wikipedia.org/wiki/HTTP_404).
 
+# Relations
+
+[Code Smell 66 - Shotgun Surgery](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2066%20-%20Shotgun%20Surgery/readme.md)
+
 # More Info
 
 - [IDOR Vulnerability](https://portswigger.net/web-security/access-control/idor)

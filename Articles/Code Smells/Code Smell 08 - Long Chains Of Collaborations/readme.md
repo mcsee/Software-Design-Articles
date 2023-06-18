@@ -84,7 +84,7 @@ dog.walk();
 
 # More Info
 
-- [Refactoring Guru](https://refactoring.guru/es/smells/message-chains)
+[Refactoring Guru](https://refactoring.guru/es/smells/message-chains)
  
 # Tags
 

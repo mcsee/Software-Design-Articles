@@ -72,6 +72,10 @@ Our linters can find SQL patterns on constructors and warn us.
 
 Separation of concerns is key and coupling is our main enemy when designing robust software.
 
+# Relations
+
+[Code Smell 205 - Code in Destructors](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20205%20-%20Code%20in%20Destructors/readme.md)
+
 # More Info
 
 - [Coupling: The one and only Software Problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)

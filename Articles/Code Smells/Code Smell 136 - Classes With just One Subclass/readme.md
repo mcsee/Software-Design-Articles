@@ -90,13 +90,15 @@ A more elegant solution would be to declare [an interface](https://github.com/mc
 
 [Code Smell 135 - Interfaces With just One Realization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20135%20-%20Interfaces%20With%20just%20One%20Realization/readme.md)
 
+[Code Smell 161 - Abstract/Final/Undefined Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20161%20-%20Abstract%20Final%20Undefined%20Classes/readme.md)
+
 # Conclusion
 
 We need to wait for abstractions and not be creative and speculative.
 
 # Credits
 
-Photo by [Benjamin Davies](https://unsplash.com/photos/9b5dvrjb05g#:~:text=Photo%20by%20Benjamin%20Davies%20on%20Unsplash) on Unsplash
+Photo by [Benjamin Davies](https://unsplash.com/photos/9b5dvrjb05g) on Unsplash
 
 * * *
 

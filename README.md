@@ -498,6 +498,12 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 214 - Duplicate Parameter Names](/Articles/Code%20Smells/Code%20Smell%20214%20-%20Duplicate%20Parameter%20Names/readme.md)
 
+* [Code Smell 215 - Deserializing Object Vulnerability](/Articles/Code%20Smells/Code%20Smell%20215%20-%20Deserializing%20Object%20Vulnerability/readme.md)
+
+* [Code Smell 216 - Fat Interface](/Articles/Code%20Smells/Code%20Smell%20216%20-%20Fat%20Interface/readme.md)
+
+* [Code Smell 217 - Empty Implementation](/Articles/Code%20Smells/Code%20Smell%20217%20-%20Empty%20Implementation/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)

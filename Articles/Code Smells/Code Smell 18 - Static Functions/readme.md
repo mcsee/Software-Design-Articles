@@ -89,6 +89,8 @@ Therefore, we have a global reference too difficult to decouple.
 
 [Code Smell 22 - Helpers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2022%20-%20Helpers/readme.md)
 
+[Code Smell 112 - Testing Private Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20112%20-%20Testing%20Private%20Methods/readme.md)
+
 # More Info
 
 - [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single-responsibility_principle)

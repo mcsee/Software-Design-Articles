@@ -80,6 +80,8 @@ Flags are widespread on production code. We should restrict their usage and use 
 
 [Code Smell 07 - Boolean Variables](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2007%20-%20Boolean%20Variables/readme.md)
 
+[Code Smell 118 - Return False](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20118%20-%20Return%20False/readme.md)
+
 # More Info
 
 [Wikipedia](https://en.wikipedia.org/wiki/Boolean_flag)

@@ -95,9 +95,11 @@ If some of our business rules change we need to change a *single point*.
 
 [Code Smell 122 - Primitive Obsession](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20122%20-%20Primitive%20Obsession/readme.md)
 
+[Code Smell 167 - Hashing Comparison](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20167%20-%20Hashing%20Comparison/readme.md)
+
 # Credits
 
-Photo by [Piret Ilver](https://unsplash.com/@saltsup) on [Unsplash](https://unsplash.com/s/photos/scale?)  
+Photo by [Piret Ilver](https://unsplash.com/@saltsup) on [Unsplash](https://unsplash.com/s/photos/scale)  
 
 * * *
 

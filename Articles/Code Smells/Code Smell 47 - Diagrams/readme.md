@@ -36,7 +36,7 @@
 
 ## Wrong
 
-![class-example-library-domain](https://cdn.hashnode.com/res/hashnode/image/upload/v1607469295593/BHMBjTokB.png)
+![class-example-library-domain](Figure12.2.jpg)
 
 ## Right
 

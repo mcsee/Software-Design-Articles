@@ -93,7 +93,7 @@ Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Artic
 
 # Credits
 
-Photo by [Remy Gieling](https://unsplash.com/@gieling?) on [Unsplash](https://unsplash.com/s/photos/archer)
+Photo by [Remy Gieling](https://unsplash.com/@gieling) on [Unsplash](https://unsplash.com/s/photos/archer)
   
 * * *
 

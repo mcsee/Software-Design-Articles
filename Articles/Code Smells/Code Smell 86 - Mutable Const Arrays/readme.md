@@ -67,7 +67,7 @@ We should always favor immutability on our designs and take extra care with side
 
 # More Info
 
-- [The evil power of mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
+[The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 # Credits
 

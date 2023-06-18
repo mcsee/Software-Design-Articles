@@ -69,15 +69,17 @@ Many modern languages avoid them. For the permissive ones, scope rules can be ap
 
 Structured programming considers global functions **harmful**. Yet, we can observe some bad practices cross paradigm boundaries.
 
+- Singleton and Classes are global points of access.
+
 # Relations
 
-- Singleton and Classes are global points of access.
+[Code Smell 60 - Global Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2060%20-%20Global%20Classes/readme.md)
 
 [Singleton - The root of all evil](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
 
 # More Info
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Global_variable)
+[Wikipedia](https://en.wikipedia.org/wiki/Global_variable)
 
 # Credits
 

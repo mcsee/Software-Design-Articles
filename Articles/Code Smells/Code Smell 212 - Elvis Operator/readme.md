@@ -39,19 +39,15 @@ The symbol "?:", with its round shape on top and a curl underneath, vaguely rese
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/a976521e75a08ca0c57cb0153039e67e)
-```java
-String shipTo = address?.zipCode();
-
+```kotlin
+val shipTo = address?: "No address specified"
 ```
 
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/1f0771dc50c77d39c6577405142e52e8)
-```java
-String shipTo = null;
-if (address != null) {
-    shipTo = address.zipCode();
-}   
+```kotlin
+val shipTo = if (address != null) address else "No address specified"
 
 // This keeps the billion-dollar mistake error 
 ```

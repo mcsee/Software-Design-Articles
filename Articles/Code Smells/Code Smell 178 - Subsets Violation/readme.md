@@ -95,7 +95,7 @@ Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Artic
 
 # Credits
 
-Photo by [Mona Eendra](https://unsplash.com/@monaeendra) on [Unsplash](https://unsplash.com/s/photos/boxed?)  
+Photo by [Mona Eendra](https://unsplash.com/@monaeendra) on [Unsplash](https://unsplash.com/s/photos/boxed)  
 
 * * *
 

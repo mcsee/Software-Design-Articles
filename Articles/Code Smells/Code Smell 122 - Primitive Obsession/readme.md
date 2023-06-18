@@ -99,11 +99,11 @@ We need to transform our strings, numbers, and arrays into small objects.
 
 # More Info
 
-- [Why a Host is not a String and a Port is not an Integer](https://towardsdev.com/why-a-host-is-not-a-string-and-a-port-is-not-an-integer-595c182d817c)
+[Why a Host is not a String and a Port is not an Integer](https://towardsdev.com/why-a-host-is-not-a-string-and-a-port-is-not-an-integer-595c182d817c)
 
-- [Primitive Obsession — A Code Smell that Hurts People the Most](https://medium.com/the-sixt-india-blog/primitive-obsession-code-smell-that-hurt-people-the-most-5cbdd70496e9)
+[Primitive Obsession — A Code Smell that Hurts People the Most](https://medium.com/the-sixt-india-blog/primitive-obsession-code-smell-that-hurt-people-the-most-5cbdd70496e9)
 
-- [Refactoring Guru](https://refactoring.guru/es/smells/primitive-obsession)
+[Refactoring Guru](https://refactoring.guru/es/smells/primitive-obsession)
 
 # Credits
 

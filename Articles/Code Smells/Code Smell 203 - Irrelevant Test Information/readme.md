@@ -99,7 +99,7 @@ Tests should be prose. Always focus on the reader. It might be you a couple of m
 
 # More Info
 
-- [xUnit Test Patterns: Refactoring Test Code](https://amzn.to/40z6atJ)
+[xUnit Test Patterns: Refactoring Test Code](https://amzn.to/40z6atJ)
 
 # Disclaimer
 

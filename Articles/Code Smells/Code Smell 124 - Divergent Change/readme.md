@@ -120,7 +120,7 @@ If they evolve in different ways, they are doing too much.
 
 # More Info
 
-- [Refactoring.guru](https://refactoring.guru/es/smells/divergent-change)
+[Refactoring.guru](https://refactoring.guru/es/smells/divergent-change)
 
 * * *
 
