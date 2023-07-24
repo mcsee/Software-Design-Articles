@@ -504,6 +504,10 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 217 - Empty Implementation](/Articles/Code%20Smells/Code%20Smell%20217%20-%20Empty%20Implementation/readme.md)
 
+* [Code Smell 218 - Magic Concatenation](/Articles/Code%20Smells/Code%20Smell%20218%20-%20Magic%20Concatenation/readme.md)
+
+* [Code Smell 219 - Looping from index 0](/Articles/Code%20Smells/Code%20Smell%20219%20-%20Looping%20from%20index%200/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)

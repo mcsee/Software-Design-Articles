@@ -6,7 +6,7 @@ class MerchantProcessor {
 
 class MockMerchantProcessor extends MerchantProcessor {
   processPayment(amount) {
-     // Empty implementation to comply with compiler
+     // Empty implementation to comply with the compiler
      // Won't do anything
   }
 }

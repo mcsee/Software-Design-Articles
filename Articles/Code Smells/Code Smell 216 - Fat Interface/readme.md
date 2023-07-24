@@ -46,7 +46,8 @@ class Dog implements Animal {
 class Fish implements Animal
   public void eat() { }
   public void sleep() {
-    throw new UnsupportedOperationException("I do not sleep");}
+    throw new UnsupportedOperationException("I do not sleep");
+  }
   public void makeSound() {
     throw new UnsupportedOperationException("I cannot make sounds");
   }
