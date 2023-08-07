@@ -508,6 +508,10 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 219 - Looping from index 0](/Articles/Code%20Smells/Code%20Smell%20219%20-%20Looping%20from%20index%200/readme.md)
 
+* [Code Smell 220 - Return Tuple](/Articles/Code%20Smells/Code%20Smell%20220%20-%20Return%20Tuple/readme.md)
+
+* [Code Smell 221 - Missing Break in Switch](/Articles/Code%20Smells/Code%20Smell%20221%20-%20Missing%20Break%20in%20Switch/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)

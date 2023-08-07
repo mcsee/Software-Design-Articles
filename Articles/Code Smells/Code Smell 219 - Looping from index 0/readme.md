@@ -104,6 +104,8 @@ Humans count from one.
 
 [Wikipedia](https://en.wikipedia.org/wiki/Zero-based_numbering)
 
+[Dijkstra on Numbering](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD08xx/EWD831.html)
+
 # Disclaimer
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
