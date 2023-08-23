@@ -38,12 +38,11 @@ We should ask them for real evidence and contrast the more maintainable solution
 
 [Gist Url]: # (https://gist.github.com/mcsee/d3eda35a36e6dfe7cb292ff2be5a7b71)
 ```javascript
-if (address.street == 'Broad Street') {
-  
+if (address.street == 'Broad Street') { }  
 
-if (location.street == 'Bourbon St') {
+if (location.street == 'Bourbon St') { }
   
-// 15000 usages in a big system  
+// 24601 usages in a big system  
 // Comparisons are case sensitive
 ```
 
@@ -51,17 +50,13 @@ if (location.street == 'Bourbon St') {
 
 [Gist Url]: # (https://gist.github.com/mcsee/7ecfc60fccc9053db2a7b22dc30f31cd)
 ```javascript
-if (address.isAtStreet('Broad Street') {
-    }
+if (address.isAtStreet('Broad Street') {  }
 
-// ...
-
-if (location.isAtStreet('Bourbon St') {
-    }  
-// 15000 usages in a big system  
+if (location.isAtStreet('Bourbon St') { }  
+// 24601 usages in a big system  
   
 function isAtStreet(street) {
-  // We can change Comparisons to 
+  // You can change Comparisons to 
   // case sensitive in just one place. 
 }
 

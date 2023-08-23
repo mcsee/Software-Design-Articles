@@ -38,8 +38,6 @@ user_input = "abc123!@#"
 
 [Gist Url]: # (https://gist.github.com/mcsee/2c19c64f268afb946ee8560e19cf444f)
 ```python
-import re
-
 def sanitize(string):
   # Remove any characters that are not letters or numbers
   sanitized_string = re.sub(r'[^a-zA-Z0-9]', '', string)
@@ -48,7 +46,6 @@ def sanitize(string):
 
 user_input = "abc123!@#"
 print(sanitize(user_input))  # Output: "abc123"
-
 ```
 
 # Detection

@@ -41,20 +41,18 @@ class Book {
     private List<Long> authorIds; // book knows author IDs
 }
 
-Book harryPotter = new Book(1, {2});
-Book cleanCode = new Book(2, {4});
-Book donQuixote = new Book(3, {5});
+Book harryPotter = new Book(1, List.of(2));
+Book designPatterns = new Book(2, List.of(4, 6, 7, 8));
+Book donQuixote = new Book(3, List.of(5));
 
-// We can scrape from now on.
+// We can scrape from now on
 ```
 
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/83b1660ec07e5bafd0a5b1c567f76aee)
 ```java
-class Author {    
-    // .. Author protocol
-}
+class Author { }
 
 class Book {    
     private List<Author> authors; // book knows authors
@@ -69,12 +67,19 @@ class BookResource {
 }
 
 Book harryPotter = new Book(new Author('J. K. Rowling'));
-Book cleanCode = new Book(new Author('Robert Martin'))
-Book donQuixote = new Book(new Author('Miguel Cervantes'));
-                             
-BookResource harryPotterResource = new BookResource(harryPotter, UUID.randomUUID());                             
 
-// Books don't know they id. Just the resource does
+Book designPatterns = new Book(
+    new Author('Erich Gamma'), 
+    new Author('Richard Helm'), 
+    new Author('Ralph Johnson'), 
+    new Author('John Vlissides')); 
+    
+Book donQuixote = new Book(new Author('Miguel Cervantes'));
+
+BookResource harryPotterResource = new BookResource(
+    harryPotter, UUID.randomUUID());
+
+// Books don’t know their id. Just the resource does
 ```
 
 # Detection

@@ -49,7 +49,9 @@ Fatal error: Uncaught Error: Class 'MyClass'
 // A user-defined exception handler function
 function myException($exception) {
     logError($exception->description())
-    // We don't show Exception to final users      
+    // You don’t show Exception to final users
+    // This is a business decision
+    // You can also show a generic user message     
 }
 
 // Set user-defined exception handler function

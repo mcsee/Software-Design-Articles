@@ -53,17 +53,17 @@ fun elapsedDays(fromDate: LocalDate, toDate: LocalDate): Long {
     return ChronoUnit.DAYS.between(fromDate, toDate)
 }
 
-// We need to apply this short function 
+// You need to apply this short function 
 // Or the inline version many times in our code
-// We don't check from Date to be less than toDate
-// We can make accounting numbers with a negative number
+// You don't check from Date to be less than toDate
+// You can make accounting numbers with a negative number
 ```
 
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/cff12c234110259b3b39b6a0122e1b76)
 ```kotlin
-// We reify the Interval Concept
+// You reify the Interval Concept
 
 data class Interval(val fromDate: LocalDate, val toDate: LocalDate) {
     init {

@@ -28,17 +28,14 @@
 <?
 
 abstract class ElectronicDevice {
-
     protected $battery;
 
     public function __construct(OperatingSystem $battery) {
         $this->battery = $battery;
     }
-
 }
 
 abstract class Idevice extends ElectronicDevice {
-
     protected $operatingSystem;
 
     public function __construct(Battery $battery, OperatingSystem $ios) {
@@ -58,13 +55,12 @@ final class Ipad extends Idevice {
 
 final class Iphone extends Idevice {
 
-    private $phoneModule:
+  private $phoneModule:
  
   public __construct(Battery $battery, OperatingSystem $ios, PhoneModule $phoneModule) {
     $this->phoneModule = $phoneModule;
     parent::__construct($battery, $ios)
   }
-
 }
 ```
 
@@ -74,20 +70,31 @@ final class Iphone extends Idevice {
 ```php
 <?
 
-interface ElectronicDevice {
-    // ...
+interface ElectronicDevice { }
+
+interface PhoneCommunication { }
+
+final class IPad implements ElectronicDevice {
+    private $operatingSystem; // The attributes are duplicated
+    private $battery; 
+    // If you have too much duplicated behavior you should extract them
+
+    public function __construct(Battery $battery, OperatingSystem $ios) {
+        $this->operatingSystem = $ios;
+        $this->battery = $battery;
+    }
 }
 
-interface PhoneCommunication {
-    // ...
-}
-
-final class Ipad implements ElectronicDevice {
-
+final class IPhone implements ElectronicDevice, PhoneCommunication {
+    private $phoneModule;
     private $operatingSystem;
     private $battery;
 
-    public function __construct(Battery $battery, OperatingSystem $ios) {
+    public function __construct(
+        Battery $battery, 
+        OperatingSystem $ios,
+        PhoneModule $phoneModule) {
+        $this->phoneModule = $phoneModule;
         $this->operatingSystem = $ios;
         $this->battery = $battery;
     }

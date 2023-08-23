@@ -36,10 +36,9 @@ A *wordle word* is a subset of String.
 
 [Gist Url]: # (https://gist.github.com/mcsee/6fedc83479a0894ca2467247ecd5e85c)
 ```java
-destination = "destination@example.com"
-  
-destination = "destination.example.com"
-// No error thrown
+validDestination = "destination@example.com"  
+invalidDestination = "destination.example.com"
+// No error is thrown
 ```
 
 ## Right
@@ -52,7 +51,7 @@ public class EmailAddress {
     public EmailAddress(String address) {
         string expressions = @"^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$";
         if (!Regex.IsMatch(email, expressions) {
-          throw new Exception('Invalid address');
+          throw new Exception('Invalid email address');
         }
         this.emailAddress = address;
     }

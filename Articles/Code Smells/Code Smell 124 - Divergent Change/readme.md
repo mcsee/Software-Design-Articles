@@ -40,23 +40,7 @@ class Webpage {
     renderRssHeader();
     renderRssTitle();
     renderRssDescription();
-   // ...
   }
-  // HTML render can change
-
-  renderRssDescription() {
-   // ...
-  }
-
-  renderRssTitle() {
-   // ...
-  }
-
-  renderRssPubDate() {
-   // ...
-  }
-  // RSS Format might change
-
 }
 ```
 
@@ -70,9 +54,6 @@ class Webpage {
     this.renderDocType();
     this.renderTitle();
     (new RSSFeed()).render();
-    this.renderRssTitle();
-    this.renderRssDescription();
-   // ...
   }
   // HTML render can change
 }

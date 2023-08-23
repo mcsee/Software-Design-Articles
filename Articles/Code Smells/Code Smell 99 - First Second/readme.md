@@ -31,10 +31,6 @@ We never refactor the obvious, neither.
 class Calculator:
   def subtract(self, first, second):
     return first - second
-
-class CalculatorTest  
-  def test_multiply():
-    assert equals(first, second)
 ```
 
 ## Right
@@ -44,10 +40,6 @@ class CalculatorTest
 class Calculator:
   def subtract(self, minuend, subtrahend):
     return minuend - subtrahend
-
-class CalculatorTest  
-  def test_multiply():
-    assert equals(expectedValue, realValue)
 ```
 
 # Detection

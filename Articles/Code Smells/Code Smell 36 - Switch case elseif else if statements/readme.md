@@ -44,9 +44,8 @@
 
 [Gist Url]: # (https://gist.github.com/mcsee/fd1c07ce153817a5572cb3cb84ae1007)
 ```javascript
-Class Mp3Converter {
-
-  public convertToMp3(source, String mimeType) {
+class Mp3Converter {
+  convertToMp3(source, mimeType) {
     if(mimeType.equals("audio/mpeg")) {
         this.convertMpegToMp3(source)
     } else if(mimeType.equals("audio/wav")) {
@@ -54,7 +53,7 @@ Class Mp3Converter {
     } else if(mimeType.equals("audio/ogg")) {
         this.convertOggToMp3(source)
     } else if(...) {
-        // Lots of new elses
+        // Lots of new clauses
 }
 ```
 
@@ -62,16 +61,17 @@ Class Mp3Converter {
 
 [Gist Url]: # (https://gist.github.com/mcsee/ef02daf9882bbf6a6f12820b31e19920)
 ```javascript
-Class Mp3Converter {
-
-  public convertToMp3(source, mimeType) {
-    foundConverter = this.registeredConverters.find(converter => converter.handles(mimeType));
-    // Do not use metaprogramming to find and iterate converters since this is another smell.
-    
-    if (foundConverter == undefined) {
-      throw new ('No converter found for' + mimetype)
-    }
+class Mp3Converter {
+  convertToMp3(source, mimeType) {
+    const foundConverter = this.registeredConverters.
+        find(converter => converter.handles(mimeType));
+        // Do not use metaprogramming to find and iterate converters
+        // since this is another problem.    
+    if (!foundConverter) {
+      throw new Error('No converter found for ' + mimeType);
+    }    
     foundConverter.convertToMp3(source);
+  }
 }
 ```
 

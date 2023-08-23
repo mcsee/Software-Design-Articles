@@ -30,7 +30,7 @@ const Item = ({name, handlePageChange)} =>
 // handlePageChange is coupled with what you decide to do
 // instead of what really happened
 //
-// We cannot reuse this kind of callback
+// You cannot reuse this kind of callback
 ```
 
 ## Right
@@ -44,7 +44,7 @@ const Item = ({name, onItemSelected)} =>
 
 // onItemSelected will be called just when an item was selected. KISS
 // Parent can decide what to do (or do nothing)
-// We defer the decision
+// You defer the decision
 ```
 
 # Detection

@@ -68,7 +68,8 @@ $year2020 = new Year(2020);
 $feb2020 = new YearMonth(2, $year2020);
 $invalidDate = new Date($day30, $feb2020);
 // will raise an exception. 
-// No, It will not coerce to March,1st or do "under the rug magic" to coverup  the programmer contract violation
+// No, It will not coerce to March,1st
+// or do "under the rug magic" to coverup the programmer contract violation
 ```
 
 In this way, we will fail very close to the place where the fault occurs, and we can take action. Most of the "modern" languages ​​hide the dirt under the carpet and allow "continue (as if nothing happens)" the execution so that we have to debug the cause of the problem with logs in order to carry out a forensic analysis in search of the failure root cause far away.
@@ -86,7 +87,7 @@ A misrepresentation of a geographic coordinate using an array with two integers 
 <?
 
 $coordinate = array('latitude'=>1000, 'longitude'=>2000); 
-// It is OK. they are just arrays. A Bunch of raw data
+// They are just arrays. A Bunch of raw data
 ```
 
 For example, we can represent latitude 1000°, and longitude 2000° on a map as follows and this will generate errors when we want to calculate distances in some component that uses this coordinate (probably doing some kind of modulus magic and getting very cheap tickets).

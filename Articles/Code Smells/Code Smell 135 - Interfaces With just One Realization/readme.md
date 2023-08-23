@@ -48,7 +48,7 @@ public class Car implements Vehicle {
     }
 }
 
-// No more vehicles??
+// No more concrete vehicles??
 ```
 
 ## Right
@@ -64,7 +64,7 @@ public class Car {
     }
 }
 
-// Wait until more vehicles are discovered
+// Wait until you discover more concrete vehicles
 ```
 
 # Detection

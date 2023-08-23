@@ -33,7 +33,9 @@ In some languages, this style is used to avoid accidental assignment instead of 
 [Gist Url]: # (https://gist.github.com/mcsee/530570169b351c8d411c310d9a182d1a)
 ```javascript
 if (42 == answerToLifeMeaning) {
-  // 
+  // prevents the accidental assignation typo
+  // since ‘42 = answerToLifeMeaning’ is invalid
+  // but ‘answerToLifeMeaning = 42’ is valid
 }
 ```
 

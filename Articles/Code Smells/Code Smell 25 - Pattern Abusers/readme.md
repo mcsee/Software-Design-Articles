@@ -32,21 +32,10 @@ public final class FileTreeComposite {
     // name should be inferred from behavior
 }
     
-public final class DateTimeConverterAdapterSingleton {
-    //
-}
-
-public final class PermutationSorterStrategy {
-    //
-} 
-
-public final class NetworkPacketObserver {
-    //
-}
-    
-public final class AccountsComposite {
-    //
-}
+public final class DateTimeConverterAdapterSingleton { }
+public final class PermutationSorterStrategy { } 
+public final class NetworkPacketObserver { }    
+public final class AccountsComposite { }
 ```
 
 ## Right
@@ -57,21 +46,10 @@ public final class FileSystem {
     // These names map 1:1 to real-world concepts
 }
 
-public final class DateTimeFormatter {
-    //
-}
-
-public final class BubbleSort {
-    //
-}
-
-public final class NetworkSniffer {
-    //
-}
-
-public final class Portfolio {
-    //
-}        
+public final class DateTimeFormatter { }
+public final class BubbleSort { }
+public final class NetworkSniffer { }
+public final class Portfolio { }        
 ```
 
 # Detection

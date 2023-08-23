@@ -47,7 +47,7 @@ class Person
 ```csharp
 class Person
 {
-  private string name  
+  private string name;  
   
   public Person(string personName)
   {

@@ -37,7 +37,7 @@ import java.util.NoSuchElementException
 import java.util.Queue;
 import org.fermi.common.util.ClassUtil;
 import org.fermi.Data;
-// We rely on too many libraries
+// You rely on too many libraries
 
 public class Demo {
    public static void main(String[] args) {
@@ -50,11 +50,10 @@ public class Demo {
 
 [Gist Url]: # (https://gist.github.com/mcsee/920db69fda667e32b9d682fdab61c634)
 ```java
-
 import org.fermi.domainModel;
 import org.fermi.workflow;
 
-// We rely on few libraries
+// You rely on few libraries
 // and we hide their implementation
 // So maybe transitive imports are the same
 // but we don't break encapsulation

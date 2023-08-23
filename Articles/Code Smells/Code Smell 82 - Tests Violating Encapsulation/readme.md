@@ -40,7 +40,7 @@ class Hangman {
 
     public function getWordToGuess(): string {
         return $this->wordToGuess;
-        // Sadly we need to reveal this
+        // Sadly you need to reveal this
     }
 }
 
@@ -48,7 +48,7 @@ class HangmanTest extends TestCase {
     function test01WordIsGuessed() {
         $hangmanGame = new Hangman();
         $this->assertEquals('tests', $hangmanGame->wordToGuess());
-        // How can we make sure the word is guessed?
+        // How can you make sure the word is guessed?
     }
 }
 ```
@@ -76,7 +76,7 @@ class MockRandomizer implements WordRandomizer {
 class HangmanTest extends TestCase {
     function test01WordIsGuessed() {
         $hangmanGame = new Hangman(new MockRandomizer());
-        // We are in full control!
+        // You are in full control!
         $this->assertFalse($hangmanGame->wordWasGuessed());
         $hangmanGame->play('t');
         $this->assertFalse($hangmanGame->wordWasGuessed());
@@ -84,7 +84,7 @@ class HangmanTest extends TestCase {
         $this->assertFalse($hangmanGame->wordWasGuessed());
         $hangmanGame->play('s');
         $this->assertTrue($hangmanGame->wordWasGuessed());
-        // We just test behavior
+        // You just test behavior
     }
 }
 ```

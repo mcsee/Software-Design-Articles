@@ -32,30 +32,13 @@
 ```php
 <?
 
-abstract class Controller {
+abstract class Controller {}
 
-}
-
-class BaseController extends Controller {
-
-}
-
-class SimpleController extends BaseController {
-
-}
-
-class ControllerBase extends SimpleController {
-
-}
-
-class LoggedController extends ControllerBase {
-
-}
-
-class RealController extends LoggedController {
-
-}
-
+class BaseController extends Controller {}
+class SimpleController extends BaseController {}
+class ControllerBase extends SimpleController {}
+class LoggedController extends ControllerBase {}
+class RealController extends LoggedController {}
 ```
 
 ## Right
@@ -64,21 +47,11 @@ class RealController extends LoggedController {
 ```php
 <?
 
-interface ControllerInterface {
-  
-}
+interface ControllerInterface {}
 
-abstract class Controller implements ControllerInterface {
-
-}
-
-final class LoggedControllerDecorator implements ControllerInterface {
-
-}
-
-final class RealController implements ControllerInterface {
-
-}
+abstract class Controller implements ControllerInterface {}
+final class LoggedControllerDecorator implements ControllerInterface { }
+final class RealController implements ControllerInterface {}
 ```
 
 # Detection

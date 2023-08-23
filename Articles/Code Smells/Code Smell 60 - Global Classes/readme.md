@@ -41,13 +41,9 @@ final class StringUtilHelper {
     }
 }
 
-class Singleton {
+class Singleton { }
 
-}
-
-final class DatabaseAccessor extends Singleton {
-
-}
+final class DatabaseAccessor extends Singleton { }
 ```
 
 ## Right

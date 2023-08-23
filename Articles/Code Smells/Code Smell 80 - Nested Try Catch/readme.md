@@ -33,10 +33,9 @@ try {
     }
 }
 
-// Nested Try catchs
-// Exception cases are
-// more important than happy path
-// We use exceptions as control flow
+// Nested Try catches
+// Exception cases are more important than the happy path
+// You use exceptions as control flow
 ```
 
 ## Right
@@ -51,10 +50,8 @@ try {
 }
 
 // transaction error policy is not defined in this function
-// so we don't have repeated code
-// code is more readable
-// It is up to the transaction
-// and the error to decide what to do
+// so you don't have repeated code and code is more readable
+// It is up to the transaction and the error to decide what to do
 ```
 
 # Detection

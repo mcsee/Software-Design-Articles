@@ -30,7 +30,7 @@ If we cannot write a failing test, we need to have a function with an excellent 
 
 [Gist Url]: # (https://gist.github.com/mcsee/554144e5e61703b8a556328671b0a3dd)
 ```c
-// We need to run this process with more memory
+// You need to run this process with more memory
 set_memory("512k)
            
 run_process();           

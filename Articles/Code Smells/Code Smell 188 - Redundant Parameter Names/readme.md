@@ -27,7 +27,10 @@ When using names, we often miss that words are contextual and need to be read as
 [Gist Url]: # (https://gist.github.com/mcsee/846ae86d9b75ccb1ccbabe75c4306800)
 ```crystal
 class Employee
-  def initialize(@employee_first_name : String, @employee_last_name : String, @employee_birthdate : Time)
+  def initialize(
+      @employee_first_name : String, 
+      @employee_last_name : String, 
+      @employee_birthdate : Time)
   end
 end
 
@@ -38,7 +41,10 @@ end
 [Gist Url]: # (https://gist.github.com/mcsee/5f4a6933b3d176e061d795119d5bc11c)
 ```crystal
 class Employee
-  def initialize(@first_name : String, @last_name : String, @birthdate : Time)
+  def initialize(
+      @first_name : String, 
+      @last_name : String, 
+      @birthdate : Time)
   end
 end
 ```

@@ -31,26 +31,22 @@
 [Gist Url]: # (https://gist.github.com/mcsee/f97b6362fcfa4018e75d1d2ce9fc9169)
 ```python
 class Item:
-  def __init__(self, name):
-    self.name = name
   def taxesCharged(self):
     return 1;
-class Money:
-  pass 
 
 lastPurchase = Item('Soda');
 # Do something with the purchase
 
 taxAmount = lastPurchase.taxesCharged();
 # Lots of stuff related to the purchase
-# I drink the soda
+# You drink the soda
 
 # I cannot extract method from below without passing
 # useless lastPurchase as parameter
 
 # a few hours later..
 lastPurchase = Item('Whisky');
-# I bought another drink
+# You bought another drink
 
 taxAmount += lastPurchase.taxesCharged();
 ```
@@ -60,27 +56,23 @@ taxAmount += lastPurchase.taxesCharged();
 [Gist Url]: # (https://gist.github.com/mcsee/d5f970273099100449221f600cd7612f)
 ```python
 class Item:
-  def __init__(self, name):
-    self.name = name
   def taxesCharged(self):
     return 1;
-class Money:
-  pass 
   
 def buySupper():
   supperPurchase = Item('Soda');
   # Do something with the purchase
  
   # Lots of stuff related to the purchase
-  # I drink the soda
+  # You drink the soda
   return supperPurchase;
 
 def buyDrinks():
-  # I could extract method! 
+  # You could extract method! 
 
   # a few hours later..
   drinksPurchase = Item('Whisky');
-  # I bough another drink
+  # You bough another drink
   
   return drinksPurchase;
 

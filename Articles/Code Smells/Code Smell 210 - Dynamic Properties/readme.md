@@ -51,7 +51,7 @@ print(nightmare.presentation)
 ```python
 class Dream:
     def __init__(self):
-        self.presentation = None
+        self.presentation = ""
 
 nightmare = Dream()
 

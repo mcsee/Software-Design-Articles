@@ -40,7 +40,7 @@ System.out.println("Line total: " + total );
 total = order.getTotal() - order.getDiscount();
 System.out.println( "Amount due: " + total );
 
-// variable is reused
+// 'total' variable is reused
 ```
 
 ## Right
@@ -48,13 +48,13 @@ System.out.println( "Amount due: " + total );
 [Gist Url]: # (https://gist.github.com/mcsee/9657946be3bcd5a81aebc12d4ef82d0b)
 ```java
 function printLineTotal() {
-  double total = item.getPrice() * item.getQuantity();
-  System.out.println("Line total: " + total );
+  double lineTotal = item.getPrice() * item.getQuantity();
+  System.out.println("Line total: " + lineTotal );
 }
 
 function printAmountTotal() {
-  double total = order.getTotal() - order.getDiscount();
-  System.out.println( "Amount due: " + total );
+  double ammountTotal = order.getTotal() - order.getDiscount();
+  System.out.println( "Amount due: " + ammountTotal );
 }
 ```
 

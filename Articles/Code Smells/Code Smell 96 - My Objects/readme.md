@@ -39,10 +39,8 @@ MainWindow myWindow = Application.Current.MainWindow as MainWindow;
 MainWindow salesWindow = Application.Current.MainWindow as MainWindow;
 
 /*
-
-Since window is instanciated, we are currently working
+Since window is instanciated, you are currently working
 with a specialized window playing a special role
-
 */
 ```
 

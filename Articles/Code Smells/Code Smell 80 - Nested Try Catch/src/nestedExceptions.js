@@ -11,7 +11,6 @@ try {
     }
 }
 
-// Nested Try catchs
-// Exception cases are
-// more important than happy path
-// We use exceptions as control flow
+// Nested Try catches
+// Exception cases are more important than the happy path
+// You use exceptions as control flow

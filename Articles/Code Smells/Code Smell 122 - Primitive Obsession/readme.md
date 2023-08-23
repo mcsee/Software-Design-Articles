@@ -45,32 +45,28 @@ We need to start thinking in a whitebox way and looking at the protocol and beha
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/12dc64f150fb047541b9aaa795d85faf)
-```javascript
-// Samples borrowed with permission from
-// https://towardsdev.com/why-a-host-is-not-a-string-and-a-port-is-not-an-integer-595c182d817c
-
-var port = 8080;
-
-var in = open("example.org", port);
-var uri = urifromPort("example.org", port);
-var address = addressFromPort("example.org", port);
-var path = pathFromPort("example.org", port);
+```java
+int port = 8080;
+InetSocketAddress in = open("example.org", port);
+String uri = urifromPort("example.org", port);
+String address = addressFromPort("example.org", port);
+String path = pathFromPort("example.org", port);
 ```
 
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/32202947a8d5ef760936a1e094d3f6b3)
-```javascript
-// Samples borrowed with permission from
-// https://towardsdev.com/why-a-host-is-not-a-string-and-a-port-is-not-an-integer-595c182d817c
-
-const server = Port.parse(this, "www.kivakit.org:8080");
+```java
+Port server = Port.parse(this, "www.kivakit.org:8080");
 // Port is a smallobject with responsibilities and protocol
 
-let in = port.open(this);
-const uri = port.asUri(this);
-const address = port.asInetSocketAddress();
-const path = port.path(this, "/index.html");
+Port in = server.open(this); // returns a port, not a number
+URI uri = server.asUri(this); // returns an URI
+InetSocketAddress address = server.asInetSocketAddress();
+// returns an Address
+Path path = server.path(this, "/index.html"); // returns a Path
+// all of them are validated small bijection objects with very few and precise
+// responsibilities
 ```
 
 # Detection

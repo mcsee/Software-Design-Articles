@@ -43,6 +43,18 @@ export default class UserHelpers {
     return userPoints > 70 ? 'A' : 'B';
   }
 }
+
+// Notice static methods
+import UserHelpers from ’./UserHelpers’;
+
+const alice = {
+   firstName: ’Alice’,
+   lastName: ’Gray’,
+   points: 78,
+};
+
+const fullName = UserHelpers.getFullName(alice);
+const category = UserHelpers.getCategory(alice);
 ```
 
 Notice *static* methods.
@@ -101,8 +113,7 @@ class CategoryCalculator{
   display() {
     return this._userscore.points() > 70 ? 'A' : 'B';
   }
-}
-  
+}  
   
 let alice = new UserScore('Alice', 'Gray', 78);
 

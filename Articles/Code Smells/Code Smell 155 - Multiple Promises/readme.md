@@ -28,27 +28,27 @@ We should wait until all conditions are met no matter the ordering.
 
 [Gist Url]: # (https://gist.github.com/mcsee/08e94e3b7dbf0fd20cc1d9c296d6fdbc)
 ```javascript
-async fetchOne() { /* long task */ }
-async fetchTwo() { /* another long task */ }
+async fetchLongTask() { }
+async fetchAnotherLongTask() { }
 
 async fetchAll() {
-  let res1 = await this.fetchOne(); 
-  let res2 = await this.fetchTwo();
+  let result1 = await this.fetchLongTask(); 
+  let result2 = await this.fetchAnotherLongTask();
   // they can run in parallel !!  
-}
-                                 
+}                                 
 ```
 
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/b1f4721f8b8db8da67435c499fcec83d)
 ```javascript
-async fetchOne() { /* long task */ }
-async fetchTwo() { /* another long task */ }
+async fetchLongTask() { }
+async fetchAnotherLongTask() { }
 
 async fetchAll() {
-  let [res3, res4] = await Promise.all([this.fetchOne(), this.fetchTwo()]);
-  //We wait until ALL are done
+  let [result1, result2] = 
+      await Promise.all([this.fetchLongTask(), this.fetchAnotherLongTask()]);
+      // You wait until ALL are done
 }
 ```
 

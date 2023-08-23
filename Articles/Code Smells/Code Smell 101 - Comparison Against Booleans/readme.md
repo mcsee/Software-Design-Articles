@@ -41,7 +41,6 @@ fi
 # this evaluates to true since 
 # "false" is a non-empty string
 
-
 if [ false ] = true; then
     echo "True"
 else

@@ -35,9 +35,7 @@ class Dog {
 }
 
 class Foot {
-  move() {
-    // ..
-  }
+  move() { }
 }
 
 feet = [new Foot(), new Foot(), new Foot(), new Foot()];
@@ -46,6 +44,8 @@ dog = new Dog(feet);
 for (var foot of dog.getFeet()) {
   foot.move(); 
 }
+
+// Equivalent to dog.getFeet()[0].move(); dog.getFeet()[1].move() ...
 ```
 
 ## Right
@@ -57,6 +57,7 @@ class Dog {
      this.feet = feet;    
   }
   walk() {
+    // This is encapsulated on how the dog walks
     for (var foot of this.feet) {
       foot.move(); 
     }
@@ -64,9 +65,7 @@ class Dog {
 }
 
 class Foot {
-  move() {
-    // ..
-  }
+  move() { }
 }
 
 feet = [new Foot(), new Foot(), new Foot(), new Foot()];

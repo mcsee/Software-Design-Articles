@@ -34,7 +34,7 @@ function dummy() {
 
     while ($flag == true) {
 
-        $result = doSomething();
+        $result = checkSomething();
         if ($result) {
             $flag = false;
         }
@@ -48,7 +48,7 @@ function dummy() {
 ```php
 <?
 
-function dummyFunction()
+function dummy()
 {
     $atLeastOneElementWasFound = false;
 

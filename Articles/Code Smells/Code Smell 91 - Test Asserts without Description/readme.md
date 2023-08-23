@@ -35,7 +35,7 @@ public function testNoNewStarsAppeared(): void
      // These sentences get a very large collection
   
      $this->assertEquals($expectedStars, $observedStars);
-     // If something fails we will have a very hard debugging time
+     // If something fails you will have a very hard time debugging
     }
 ```
 
@@ -53,9 +53,9 @@ public function testNoNewStarsAppeared(): void
   
      $newStars = array_diff($expectedStars, $observedStars);
   
-     $this->assertEquals($expectedStars, $observedStars ,
+     $this->assertEquals($expectedStars, $observedStars,
          'There are new stars ' . print_r($newStars,true));
-     // Now we can see EXACTLY why the assertion failed with a clear and
+     // Now you can see EXACTLY why the assertion failed with a clear and
      // Declarative Message
     }
 ```

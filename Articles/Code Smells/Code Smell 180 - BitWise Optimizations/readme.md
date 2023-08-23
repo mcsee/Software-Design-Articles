@@ -37,6 +37,12 @@ We should benchmark only if necessary and improve code only if really necessary 
 [Gist Url]: # (https://gist.github.com/mcsee/46a0a22d915e949c42cfb8260a5689bc)
 ```javascript
 const nowInSeconds = ~~(Date.now() / 1000)
+
+// The double bitwise NOT operator ~~ 
+// is a bitwise operation that performs a bitwise
+// negation followed by a bitwise negation again.
+// This operation effectively truncates any decimal places
+// converting the result to an integer.
 ```
 
 ## Right

@@ -40,8 +40,8 @@ class list {
     }
 }
 
-class Set {
-    public function setSort() {
+class Stack {
+    public function stackSort() {
     }
 }
 ```
@@ -52,18 +52,25 @@ class Set {
 ```php
 <?
 
-class Array {
+interface Sortable {
+   public function sort();
+}
+
+class Array implements Sortable {
    public function sort() {
+      // Implementation of the sort() method for Array
    }
 }
 
-class List {
+class List implements Sortable {
    public function sort() {
+      // Implementation of the sort() method for List
    }
 }
 
-class Set {
+class Stack implements Sortable {
    public function sort() {
+      // Implementation of the sort() method for Stack
    }
 }
 ```

@@ -24,34 +24,25 @@
 
 [Gist Url]: # (https://gist.github.com/mcsee/1f21534bd7ddf9390271ed0badd7352b)
 ```javascript
-function giveFirstDoseOfVaccine(person, vaccine) {
-  //
-}
+function giveFirstDoseOfVaccine(person, vaccine) { }
 
-function giveSecondDoseOfVaccine(vaccine, person) {
-  //
-}
+function giveSecondDoseOfVaccine(vaccine, person) { }
 
-
-giveFirstDoseOfVaccine(jane, pfizer);
-giveSecondDoseOfVaccine(jane, pfizer);  // Unnoticed mistake
+giveFirstDoseOfVaccine(jane, flu);
+giveSecondDoseOfVaccine(jane, flu);  
+//Unnoticed mistake since you changed the parameters’ order
 ```
 
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/e33e4b69f36750d7a24621f70aba155c)
 ```javascript
-function giveFirstDoseOfVaccine(person, vaccine) {
-  //
-}
+function giveFirstDoseOfVaccine(person, vaccine) { }
 
-function giveSecondDoseOfVaccine(person, vaccine) {
-  //
-}
+function giveSecondDoseOfVaccine(person, vaccine) { }
 
-
-giveFirstDoseOfVaccine(jane, pfizer);
-giveSecondDoseOfVaccine(jane, pfizer);  // Jane is immunized
+giveFirstDoseOfVaccine(jane, flu);
+giveSecondDoseOfVaccine(jane, flu); 
 ```
 
 # Detection

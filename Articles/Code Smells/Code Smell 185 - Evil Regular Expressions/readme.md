@@ -38,19 +38,12 @@ A string with a vector attack format is passed to an application. Then this stri
 
 [Gist Url]: # (https://gist.github.com/mcsee/a4e74fb3e18cde7ff7f15636e05ced89)
 ```go
-package main
-
-import (
-    "regexp"
-    "fmt"
-)
-
 func main() {
-    var re = regexp.MustCompile(`^(([a-z])+.)+[A-Z]([a-z])+$`)
-    var str = `aaaaaaaaaaaaaaaaaaaaaaaa!`
-    
-    for i, match := range re.FindAllString(str, -1) {
-        fmt.Println(match, "found at index", i)
+    var regularExpression = regexp.MustCompile(`^(([a-z])+.)+[A-Z]([a-z])+$`)
+    var candidateString = "aaaaaaaaaaaaaaaaaaaaaaaa!"
+    for index, match := 
+        range regularExpression.FindAllString(candidateString, -1) {
+            fmt.Println(match, "found at index", index)
     }
 }
 ```
@@ -61,22 +54,16 @@ func main() {
 
 [Gist Url]: # (https://gist.github.com/mcsee/4ba06d514fb663f0ee628139d463f8c7)
 ```go
-package main
-
-import (
-    "fmt"
-    "strings"
-)
-
 func main() {
-    var str = `aaaaaaaaaaaaaaaaaaaaaaaa!`
-    
-    words := strings.Fields(str)
-    
-    for i, word := range words {
-        if len(word) >= 2 && word[0] >= 'a' && word[0] <= 'z' && word[len(word)-1] >= 'A' 
-            && word[len(word)-1] <= 'Z' {
-                fmt.Println(word, "found at index", i)
+    var candidateString = "aaaaaaaaaaaaaaaaaaaaaaaa!"
+
+    words := strings.Fields(candidateString)
+
+    for index, word := range words {
+        if len(word) >= 2 && word[0] >= ’a’ && 
+            word[0] <= ’z’ && word[len(word)-1] >= ’A’
+            && word[len(word)-1] <= ’Z’ {
+                fmt.Println(word, "found at index", index)
         }
     }
 }

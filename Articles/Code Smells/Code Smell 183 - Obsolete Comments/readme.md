@@ -34,17 +34,15 @@ Since most people change logic and forget to update comments they might become o
 
 [Gist Url]: # (https://gist.github.com/mcsee/fd5b6b44920df66b6558be35f729f0f7)
 ```cpp
-void Widget::displayPlugin(Unit* unit)
-{
+void Widget::displayPlugin(Unit* unit){
 
- 	// TODO the Plugin will be modified soon, 
-	// so I don't implement this right now
+  // TODO the Plugin will be modified soon, 
+  // so I don't implement this right now
 
- 	if (!isVisible) {
-		// hide all widgets
-		return;
- 	}
-
+  if (!isVisible) {
+    // hide all widgets
+    return;
+  }
 }
 ```
 
@@ -54,9 +52,9 @@ void Widget::displayPlugin(Unit* unit)
 ```cpp
 void Widget::displayPlugin(Unit* unit)
 { 
-	if (!isVisible) {
-		return;
- 	}
+  if (!isVisible) {
+    return;
+  }
 }
 ```
 

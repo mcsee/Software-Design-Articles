@@ -32,16 +32,13 @@
 
 [Gist Url]: # (https://gist.github.com/mcsee/817257ca2966c8f2381dcf9887dfa1a4)
 ```java
-public abstract class OrderState {
-     
-}
+public abstract class OrderState { }
 
-public final class OrderStatePending extends OrderState {
-     
-}
+public final class OrderStatePending extends OrderState { }
+// This is a polymorphic hierarchy with different behavior
+// An enum is not enough to model state
 
-public final class Order {
-    
+public final class Order {    
     public Order(LinkedList<int> items) {
         LinkedList<int> items = items;
         OrderState state = new OrderStatePending();
@@ -50,6 +47,10 @@ public final class Order {
     public function changeStatus(OrderState newState) {
         OrderState state = newState;
     }
+    
+    public function confirm() {
+        state.Confirm(this);
+    }
 }
 ```
 
@@ -57,9 +58,6 @@ public final class Order {
 
 [Gist Url]: # (https://gist.github.com/mcsee/1b98448f97cd23b6b5f8438280b73736)
 ```java
-import java.io.*; 
-import java.util.*; 
-
 final class Order {
     
     public Order(LinkedList<int> items) {
@@ -83,7 +81,6 @@ class OrderProcessor {
     
     pendingOrders.remove(sampleOrder);  
     confirmedOrders.add(sampleOrder);
-
     }
 }
 ```

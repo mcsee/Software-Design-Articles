@@ -54,10 +54,9 @@ homer.DriveCar();
 
 [Gist Url]: # (https://gist.github.com/mcsee/0c13213cc8d76d0f1d5041deb94a7946)
 ```csharp
+// You don't need the driver
 Car porsche = new Car();
-
 porsche.driveCar();
-// We don't need the driver
 ```
 
 # Detection

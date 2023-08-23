@@ -488,7 +488,8 @@ New cases are broken since they were not represented by a previous one. We keep 
 ```php
 <?
 
-private function alreadyIncludesPattern(array $patternsWithoutDuplicates, string $needlePattern): bool {
+private function alreadyIncludesPattern(
+    array $patternsWithoutDuplicates, string $needlePattern): bool {
     foreach ($patternsWithoutDuplicates as $innerPattern) {
         if ($needlePattern != $innerPattern &&
             (stripos($needlePattern, $innerPattern) !== false)) {
@@ -500,7 +501,8 @@ private function alreadyIncludesPattern(array $patternsWithoutDuplicates, string
 
 function simplify(array $patterns): array {
     return array_values(array_filter($patterns,
-        fn ($outerPattern) => $this->alreadyIncludesPattern($patterns, $outerPattern)));
+        fn ($outerPattern) =>
+            $this->alreadyIncludesPattern($patterns, $outerPattern)));
 }
 ```
 

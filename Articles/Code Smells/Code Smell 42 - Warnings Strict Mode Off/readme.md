@@ -30,33 +30,25 @@
 
 [Gist Url]: # (https://gist.github.com/mcsee/d4f19089543214fbc677a846967cb501)
 ```javascript
-array = [];
-console.log(array['1'])
-// undefined but keep going on
+undefinedVariable = 310;
 
-hiddenGlobal = "I am a global"
+console.log(undefinedVariable); // Output: 310
 
-console.log(hiddenGlobal)
-//  I'm a global
+delete x; // No error you can delete undefinedVariable
 ``` 
 
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/4523879f8fd11134654d4683b5c68ceb)
 ```javascript
-array = [];
-console.log(array['1'])
-// Index Error
+’use strict’
 
-noGlobal = "I am not a global"
+undefinedVariable = 310;
+console.log(undefinedVariable); 
+// undefinedVariable is not defined
 
-console.log(noGlobal)
-// ReferenceError
-
-var noGlobal = "I am not a global"
-
-console.log(noGlobal)
-// I am not a global
+delete undefinedVariable ; 
+// Delete of an unqualified identifier in strict mode
 ``` 
 
 # Detection

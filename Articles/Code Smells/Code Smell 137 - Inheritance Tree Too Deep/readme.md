@@ -36,50 +36,25 @@ We learned that composition is a more efficient and extensible way to share beha
 
 [Gist Url]: # (https://gist.github.com/mcsee/ca80ab1c2443f8494817c027678ab7f3)
 ```python
-classdef Animalia
-   
-end
-
-classdef Chordata < Animalia 
-
-end
-
-classdef Mammalia < Chordata 
-
-end
-
-classdef Perissodactyla < Mammalia 
-
-end
-
-classdef Equidae < Perissodactyla  
-
-end
-
-classdef Equus < Equidae 
-// Equus behavior
-end
-
-classdef EFerus < Equus
-// EFerus behavior
-end
-
-classdef EFCaballus < EFerus
-// EFCaballus behavior    
-end
-
-
+class Animalia:
+class Chordata(Animalia):
+class Mammalia(Chordata):
+class Carnivora(Mammalia):
+class Pinnipedia(Carnivora):
+class Phocidae(Pinnipedia):
+class Halichoerus(Phocidae):
+class GreySeal(Halichoerus):
 ```
 
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/23622a20da88b3192eb97577557a1f08)
 ```python
-classdef Horse       
-    methods        
-      // Horse behavior       
-    end    
-end
+class GreySeal:
+    def eat(self): # find the common behavior in the hierarchy
+    def sleep(self): # find the common behavior in the hierarchy
+    def swim(self): # find the common behavior in the hierarchy
+    def breed(self): # find the common behavior in the hierarchy
 ```
 
 # Detection

@@ -38,7 +38,7 @@ Choosing wise declarative names is a daily challenge.
 ```javascript
 class Workflow {
     moveToNextTransition() {
-        // We couple the business rule with the accidental implementation
+        // You couple the business rule with the accidental implementation
         if (this.stepWork.hasPendingTasks()) {
             throw new Error('Preconditions are not met yet..');
         } else {
@@ -61,8 +61,8 @@ class Workflow {
         }
     }
 
-    canWeMoveOn() {
-        // We hide accidental implementation 'the how'
+    canMoveOn() {
+        // You hide accidental implementation 'the how'
         // under the 'what'
         return !this.stepWork.hasPendingTasks();
     }

@@ -70,18 +70,7 @@ move(livingstone);
 
 [Gist Url]: # (https://gist.github.com/mcsee/5c0218fcf1362228f406e463f79171a9)
 ```javascript
-/*Avoid these methods
-if (typeof(x) === 'undefined') {
-    console.log('variable x is not defined');   
-}
-
-function isNumber(data) {
-  return (typeof data === 'number');
-}
-*/
-
-class Animal {
-} 
+class Animal { } 
 
 class Rabbit extends Animal {
   move() {

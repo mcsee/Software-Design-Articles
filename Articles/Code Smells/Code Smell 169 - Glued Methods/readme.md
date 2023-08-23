@@ -48,7 +48,7 @@ removeDuplicates();
 printNumbers();
 
 // Three different methods
-// We can test them and reuse them
+// You can test them and reuse them
 ```
 
 # Detection

@@ -34,15 +34,15 @@ Modifying them is generally not safe.
 
 [Gist Url]: # (https://gist.github.com/mcsee/9d66e179c57495aa7c2080ee34152c11)
 ```java
-Collection<Integer> people = new ArrayList<>();
 // here we add elements to the collection...
+Collection<Integer> people = new ArrayList<>();
   
 for (Object person : people) {
     if (condition(person)) {
         people.remove(person);
     }
 }
-// We iterate AND remove elements
+// You iterate AND remove elements, elements, risking skipping other candidates for removal
 ```
 
 ## Right

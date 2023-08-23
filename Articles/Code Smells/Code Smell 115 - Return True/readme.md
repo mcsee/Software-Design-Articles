@@ -33,10 +33,11 @@ When we create complex and mature software, we start to forget about this primit
 [Gist Url]: # (https://gist.github.com/mcsee/973a11295d0d93baa620763dd8eff801)
 ```java
 boolean isEven(int num) {
-     if(num%2 == 0) {
+     if(num % 2 == 0) {
        return true;
-    } else {
-       return false;}        
+     } else {
+       return false;
+     }        
 }
 ```
 
@@ -45,7 +46,7 @@ boolean isEven(int num) {
 [Gist Url]: # (https://gist.github.com/mcsee/ab38ef6fcc5dd6dea98f1edb452e75e9)
 ```java
 boolean isEven(int numberToCheck) {
-  // We decouple the what (to check for even or odd)
+  // You decouple the what (to check for even or odd)
   // With how (the algorithm)
   return (numberToCheck % 2 == 0);     
 }

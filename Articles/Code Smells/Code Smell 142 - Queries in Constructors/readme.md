@@ -36,7 +36,8 @@ public class Person {
   int childrenCount; 
 
   public Person(int id) {
-    childrenCount = database.sqlCall("SELECT COUNT(CHILDREN) FROM PERSON WHERE ID = " . id); 
+    childrenCount = database.sqlCall(
+      "SELECT COUNT(CHILDREN) FROM PERSON WHERE ID = " . id); 
   }
 }
 ```
@@ -48,12 +49,11 @@ public class Person {
 public class Person {
   int childrenCount; 
 
-  // Create a class constructor for the Main class
   public Person(int id, int childrenCount) {
-    childrenCount = childrenCount; 
-    // We can assign the number in the constructor
+    this.childrenCount = childrenCount; 
+    // You can assign the number in the constructor
     // Accidental Database is decoupled
-    // We can test the object
+    // You can test the object
   }
 }
 ```

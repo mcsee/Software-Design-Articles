@@ -46,6 +46,10 @@ package main
 
 import "fmt"
 
+type YVC struct {
+   id int
+}
+
 func main() {
     fmt.Println("Hello, World")
 }
@@ -58,6 +62,10 @@ func main() {
 package main
 
 import "formatter"
+
+type YoutTubeVideoContent struct {
+    imdbMovieIdentifier int
+}
 
 function main() {
     formatter.Printline("Hello, World")

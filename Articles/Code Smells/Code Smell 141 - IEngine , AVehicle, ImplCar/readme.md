@@ -39,20 +39,7 @@ public interface IEngine
     void Start();
 }
 
-public class ACar 
-{
-
-}
-
-public class ImplCar 
-{
-
-}
-
-public class CarImpl
-{
-
-}
+public class ACar {}
 ```
 
 ## Right
@@ -64,15 +51,8 @@ public interface Engine
     void Start();
 }
 
-public class Vehicle 
-{
-
-}
-
-public class Car 
-{
-
-}
+public class Vehicle {}
+public class Car {}
 ```
 
 # Detection

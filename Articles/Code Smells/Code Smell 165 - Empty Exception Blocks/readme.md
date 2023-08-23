@@ -26,7 +26,6 @@ We have evolved.
 
 [Gist Url]: # (https://gist.github.com/mcsee/9569c95218a7d8a33d68587fa70e5782)
 ```python
-# bad
 import logging
 
 def send_email(): 
@@ -49,8 +48,8 @@ import logging
 logger logging.getLogger(__name___)
 try:
   send_email()
-except ConnectionError as exc:
-  logger.error(f"Cannot send email {exc}")
+except ConnectionError as exception:
+  logger.error("Cannot send email {exception}")
 ```
 
 # Detection

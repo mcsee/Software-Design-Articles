@@ -39,153 +39,50 @@ Behavior is essential, data is [accidental](https://github.com/mcsee/Software-De
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/34677fbac1f6a837bf2b8d17bc882251)
-```cpp
-// If you made Square derive from Rectangle, 
-// then a Square should be usable anywhere you expect a rectangle
+```java
+class ComplexNumber {
+    protected double realPart;
+    protected double imaginaryPart;
 
-#include <iostream>
-
-Rectangle::Rectangle(const unsigned width, const unsigned height):
-    m_width(width),
-    m_height(height)
-{
+    public ComplexNumber(double realPart, double imaginaryPart) {
+        this.realPart = realPart;
+        this.imaginaryPart = imaginaryPart;
+    }
 }
 
-unsigned Rectangle::getWidth() const
-{
-    return m_width;
-}
+class RealNumber extends ComplexNumber {
+    public RealNumber(double realPart) {
+        super(realPart, 0);
+    }
 
-void Rectangle::setWidth(const unsigned width)
-{
-  /* Width and Height are independent */
-    m_width = width;
-}
-
-unsigned Rectangle::getHeight() const
-{
-    return m_height;
-}
-
-void Rectangle::setHeight(const unsigned height)
-{
-    m_height = height;
-}
-
-unsigned Rectangle::area() const
-{
-  /*Valid for both Rectangles and Squares*/
-    return m_height * m_width;
-}
-
-Square::Square(const unsigned size)
-    : Rectangle(size, size)
-{
-}
-
-// OK for squares, bad for rectangles
-// Protocol is bad, width and height are not relevant on squares
-void Square::setWidth(const unsigned size)
-{
-    m_height = size;
-    m_width = size;
-}
-
-// OK for squares, bad for rectangles
-// Protocol is bad, width and height are not relevant on squares
-void Square::setHeight(const unsigned size)
-{
-    m_height = size;
-    m_width = size;
-}
-
-void process(Rectangle& r)
-{
-    unsigned h = 10;
-    auto w = r.getWidth();
-    r.setHeight(h);
-
-    std::cout << "Expected area: " << (w*h) << ", got " << r.area() << "\n";
-    // area is not well defined in squares
-    // every square IS-A rectangle, but does not behave-like a rectangle
-}
-
-int main()
-{
-    Rectangle rectangle{3,4};
-    Square square{5};
-    process(rectangle);
-    process(square);
+    public void setImaginaryPart(double imaginaryPart) {
+        System.out.println("Cannot set imaginary part for a real number.");
+    }
 }
 ```
 
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/29e46d1d672ac397552fae978148a7c2)
-```cpp
-// If you made Square derive from Rectangle, 
-// then a Square should be usable anywhere you expect a rectangle
+```java
+class Number {
+    protected double value;
 
-#include <iostream>
-
-Rectangle::Rectangle(const unsigned width, const unsigned height):
-    m_width(width),
-    m_height(height)
-{
+    public Number(double value) {
+        this.value = value;
+    }
 }
 
-void Rectangle:changeWidth(const unsigned width)
-{
-  /* Width and Height are independant */
-    m_width = width;
-    // We should discuss if it is good to mutate 
-    // and not create a new Figure
+class ComplexNumber extends Number {
+    protected double imaginaryPart; 
+    
+    public ComplexNumber(double realPart, double imaginaryPart) {
+        super(realPart);
+        this.imaginaryPart = imaginaryPart;
+    }
 }
 
-void Rectangle::changeHeight(const unsigned height)
-{
-    m_height = height;
-}
-
-unsigned Rectangle::area() const
-{ 
-    return m_height * m_width;
-}
-
-// No inheritance
-Square::Square(const unsigned size):
-    m_size(size)
-{
-}
-
-unsigned Square::area() const
-{ 
-    return m_size * m_size;
-}
- 
-void Square::changeSize(const unsigned size)
-{
-    m_size = size; 
-}
- 
-void testRectangleChange(Rectangle& r)
-{
-    unsigned h = 10;
-    auto w = r.getWidth();
-    r.setHeight(h);
-
-    std::cout << "Expected area: " << (w*h) << ", got " << r.area() << "\n";
-    // area is not well defined in squares
-    // every square IS-A rectangle, but does not behave-like a rectangle
-}
-
-int main()
-{
-    Rectangle rectangle{3,4};
-    Square square{5};
-    testRectangleChange(rectangle);
-    testRectangleChange(square);
-}
+class RealNumber extends Number { } 
 ```
 
 # Detection 

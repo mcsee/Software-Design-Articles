@@ -40,7 +40,7 @@ function area(rectangle) {
 [Gist Url]: # (https://gist.github.com/mcsee/891b1df84cd9e0528fad2dae42322c54)
 ```javascript
 class Rectangle {
-    constructor(width, height, color) { 
+    constructor(width, height) { 
          this.height = height;
          this.width = width;
     }

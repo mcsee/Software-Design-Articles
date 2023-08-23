@@ -42,12 +42,10 @@ function retrieveImagesFrom(array $imageUrls) {
     $fullImageName = $this->directory() . "\\" . $imageFilename;
     if (!file_exists($fullImageName)) {
       if (str_starts_with($imageFilename, 'https://cdn.example.com/')) {
-          // TODO: Remove Hardcode
           $url = $imageFilename;
           // This variable duplication is not really necessary 
           // When we scope variables        
           $saveto= "c:\\temp"."\\".basename($imageFilename);
-          // TODO: Remove Hardcode
           $ch = curl_init ($url);
           curl_setopt($ch, CURLOPT_HEADER, 0);
           curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -74,7 +72,7 @@ function retrieveImagesFrom(array $imageUrls) {
           if (!$found){
             throw new \Exception('We couldnt find image');
          }
-        // Debugging at this point our context is polluted with variables
+        // Debugging at this point your context is polluted with variables
         // from previous executions no longer needed
         // for example: the curl handler
   }
@@ -86,7 +84,7 @@ function retrieveImagesFrom(array $imageUrls) {
 
 [Gist Url]: # (https://gist.github.com/mcsee/21117af327d700e359d1eccf2d45accc)
 ```php
-<?php
+<?
 
 function retrieveImagesFrom(string imageUrls) {
   foreach ($imageUrls as $index => $imageFilename) {
@@ -97,12 +95,15 @@ function retrieveImagesFrom(string imageUrls) {
             $temporaryFilename = $this->temporaryLocalPlaceFor($imageFilename);
             $this->retrieveFileAndSaveIt($imageFilename, $temporaryFilename);
             $localFileSha1 = sha1_file($temporaryFilename);
-            list($found, $images, $imageFilename) = $this->tryToFindFile($localFileSha1, $imageFilename, $images, $imageName);
+            list($found, $images, $imageFilename) = 
+              $this->tryToFindFile($localFileSha1, $imageFilename, $images, $imageName);
             if (!$found) {
-                throw new \Exception('File not found locally ('.$imageFilename.'). Need to retrieve it and store it');
+                throw new Exception('File not found locally ('.$imageFilename.') .
+                Need to retrieve it and store it');
             }
         } else {
-            throw new \Exception('Image does not exist on directory ' . $fullImageName);
+            throw new \Exception('Image does not exist on directory ' .
+               $fullImageName);
         }
     }
 ```

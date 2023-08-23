@@ -44,19 +44,17 @@
 ```php
 <?
 
-class Singleton {
+class God {
     private static $instance = null;
 
-    private function __construct() {
-    }
+    private function __construct() { }
 
     public static function getInstance() {
-        if (null === self::$instance) {
-            self::$instance = new self();
-        }
-
-        return self::$instance;
+    if (null === self::$instance) {
+        self::$instance = new self();
     }
+    return self::$instance;
+   }
 }
 ```
 
@@ -67,11 +65,11 @@ class Singleton {
 <?
 
 interface Religion {
-    // Define behavior
+    // Define common behavior for religions
 }
 
 final class God {
-    // There can be as many as you wish
+    // Different religions have different beliefs
 }
 
 final class PolythiesticReligion implements Religion {
@@ -90,24 +88,24 @@ final class MonotheisticReligion implements Religion {
     }
 }
 
-// According to christianity there's only one God.
-// This does not hold on other religions
+// According to Christianity and some other religions,
+// there’s only one God.
+// This does not hold for other religions.
 
 $christianGod = new God();
 $christianReligion = new MonotheisticReligion($christianGod);
-// Under this context God is unique. We cannot create or change a new one.
-// This is a scoped global
+// Under this context God is unique.
+// You cannot create or change a new one.
+// This is a scoped global.
 
 $jupiter = new God();
 $saturn = new God();
 $mythogicalReligion = new PolythiesticReligion([$jupiter, $saturn]);
 
 // Gods are unique (or not) according to context
-// We can create test religions with or without unicity
+// You can create test religions with or without unicity
 // This is less coupled since we break the direct reference to God class
 // God class Single Responsibility is to create gods. Not to manage them
-
-
 ```
 
 # Detection

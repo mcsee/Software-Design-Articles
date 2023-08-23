@@ -59,7 +59,6 @@ class GraphicEditor {
 [Gist Url]: # (https://gist.github.com/mcsee/57f86bc7ab8f2e4c67039733ddacb118)
 ```javascript
 class Integer {
-
   function add(adder) {
     return this + adder;
   }
@@ -73,7 +72,7 @@ class GraphicEditor {
     and circumference ${2 * Number.pi() * radius}.`);
   }
 }
-// PI's definition is Number's responsibility
+// PI's definition is RealConstants (or Number)'s responsibility
 
 ```
 

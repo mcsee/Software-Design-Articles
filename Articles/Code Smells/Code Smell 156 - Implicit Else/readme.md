@@ -36,7 +36,7 @@ That is when we miss the real cases.
 ```javascript
 function carBrandImplicit(model) {
   if (model === 'A4') {
-    return 'audi';
+    return 'Audi';
   }
   return 'Mercedes-Benz';
 }
@@ -48,7 +48,7 @@ function carBrandImplicit(model) {
 ```javascript
 function carBrandExplicit(model) {
   if (model === 'A4') {
-    return 'audi';
+    return 'Audi';
   }
   if (model === 'AMG') {
     return 'Mercedes-Benz';

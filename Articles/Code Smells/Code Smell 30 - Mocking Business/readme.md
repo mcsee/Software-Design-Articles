@@ -28,13 +28,8 @@
 
 [Gist Url]: # (https://gist.github.com/mcsee/191cee3a71132501564cdb58abef27a7)
 ```php
-<?php
+<?
 
-namespace phpUnitTutorial\Test;
-
-use phpUnitTutorial\Payment;
-
-class PaymentTest extends \PHPUnit_Framework_TestCase
 {
     public function testProcessPaymentReturnsTrueOnSuccessfulPayment()
     {
@@ -49,13 +44,18 @@ class PaymentTest extends \PHPUnit_Framework_TestCase
             ->getMock();
         // We should not mock a business object
 
-        $authorizeNet = new \AuthorizeNetAIM($payment::API_ID, $payment::TRANS_KEY);
+        $payment = $this->getMockBuilder('Payment')
+            ->setConstructorArgs(array())
+            ->getMock();
+            // You should not mock a business object!
+
+        $authorizeNet = new AuthorizeNetAIM(
+            $payment::API_ID, $payment::TRANS_KEY);
         // This is an external and coupled system.
-        // We have no control on it so tests might be fragile
-
-        $result = $payment->processPayment($authorizeNet, $paymentDetails);
-
-        $this->assertTrue($result);
+        // You have no control over it so tests become fragile
+        $paymentProcessResult = $payment->processPayment(
+            $authorizeNet, $paymentDetails);
+        $this->assertTrue($paymentProcessResult);
     }
 }
 ```

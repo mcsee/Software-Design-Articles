@@ -31,73 +31,25 @@ I had to learn structured programming from scratch in Rehab mode.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/5d76fda8dfbe6f351e709baa00e0e61c)
-```go
-for x < 0 {
-    if x > -1e-09 {
-      goto small
-    }
-    z = z / x
-    x = x + 1
-  }
-  for x < 2 {
-    if x < 1e-09 {
-      goto small
-    }
-    z = z / x
-    x = x + 1
-  }
+```csharp
+int i = 0;
 
-  if x == 2 {
-    return z
-  }
-
-  x = x - 2
-  p = (((((x*_gamP[0]+_gamP[1])*x+_gamP[2])*x+_gamP[3])*x+_gamP[4])*x+_gamP[5])*x + _gamP[6]
-  q = ((((((x*_gamQ[0]+_gamQ[1])*x+_gamQ[2])*x+_gamQ[3])*x+_gamQ[4])*x+_gamQ[5])*x+_gamQ[6])*x + _gamQ[7]
-  return z * p / q
-
-small:
-  if x == 0 {
-    return Inf(1)
-  }
-  return z / ((1 + Euler*x) * x)
+start:
+if (i < 10)
+{
+    Console.WriteLine(i);
+    i++;
+    goto start;
 }
 ```
 
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/da74b8e901f234b6bc400c9a6e0b7725)
-```go
-for x < 0 {
-    if x > -1e-09 {
-      return small(x, z)
-    }
-    z = z / x
-    x = x + 1
-  }
-  for x < 2 {
-    if x < 1e-09 {
-      return small(x, z)
-    }
-    z = z / x
-    x = x + 1
-  }
-
-  if x == 2 {
-    return z
-  }
-
-  x = x - 2
-  p = (((((x*_gamP[0]+_gamP[1])*x+_gamP[2])*x+_gamP[3])*x+_gamP[4])*x+_gamP[5])*x + _gamP[6]
-  q = ((((((x*_gamQ[0]+_gamQ[1])*x+_gamQ[2])*x+_gamQ[3])*x+_gamQ[4])*x+_gamQ[5])*x+_gamQ[6])*x + _gamQ[7]
-  return z * p / q
-
-small(x, z) {
-  if x == 0 {
-     return Inf(1)
-   }
-   return z / ((1 + Euler*x) * x)
- }
+```csharp
+for (int i = 0; i < 10; i++)
+{
+    Console.WriteLine(i);
 }
 ```
 

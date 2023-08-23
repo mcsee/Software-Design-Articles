@@ -33,6 +33,7 @@ It is common usage using a zero-argument constructor and a bunch of setters to c
  public Person();
 
 // Anemic and mutable
+// Does not have the essence to be a valid person
 ```
 
 ## Right
@@ -42,10 +43,9 @@ It is common usage using a zero-argument constructor and a bunch of setters to c
 public Person(String name, int age) {
      this.name = name;
      this.age = age;
-     } 
  }
 
-// We 'pass' the essence to the object 
+// You 'pass' the essence to the object 
 // So it does not mutate
 ```
 

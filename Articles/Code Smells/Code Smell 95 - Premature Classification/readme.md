@@ -28,61 +28,36 @@ We tend to classify and name things **before** gathering enough knowledge and co
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/e6ca123df9f10f291a92e863bf168cc0)
-```java
-class Rectangle 
- { 
-       int length; 
-       int breadth; 
-       
-       int area() 
-       {
-         return length * breadth;
-       } 
- } 
-// We are creating a premature abstraction
-// And misusing is-a relation since a Square "is a" Rectangle
+```javascript
+class Song {
+    constructor(title, artist) {
+        this.title = title;
+        this.artist = artist;
+    }
 
-class Square extends Rectangle
- { 
-       int length;  
-       
-       int area() 
-       {  
-         return length * length; 
-       } 
- } 
+    play() {
+        console.log(`Playing ${this.title} by ${this.artist}`);
+    }
+}
 ```
 
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/d3232090ebc0c1360c85dd1079aebe14)
-```java
-class Rectangle 
- { 
-       int length; 
-       int breadth; 
-       
-       int area() 
-       {
-         return length * breadth;
-       } 
- }  
+```javascript
+class ClassicalSong extends Song {
+    constructor(title, artist, composer) {
+        super(title, artist);
+        this.composer = composer;
+    }
 
-class Square 
-{ 
-       int length;  
-       
-       int area() 
-       {  
-         return length * length; 
-       } 
- } 
-// Square might-be a Rectangle
-// But it does not follow behaves-like relation so we won't go ahead
-// and create a strong relation between them
-// Maybe they are shapes. We don't have enough examples and protocol yet
-// We will not guess until further knowledge
+    listenCarefully() {
+        console.log(`I am listening to ${this.title} by ${this.composer}`);
+    }
+}
 
+const goldberg = new ClassicalSong
+    ("The Goldberg Variations", "Glenn Gould", "Bach");
 ```
 
 # Detection

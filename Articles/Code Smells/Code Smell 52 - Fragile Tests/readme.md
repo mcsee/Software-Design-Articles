@@ -36,13 +36,6 @@ We must avoid them.
 
 [Gist Url]: # (https://gist.github.com/mcsee/20c94ec159e6333ddd5891b4af0d5688)
 ```java
-import static org.junit.Assert.assertEquals;
-
-import org.junit.Test;
-
-import components.set.Set;
-import components.set.Set1L;
-
 public abstract class SetTest {
  
     protected abstract Set<String> constructor();
@@ -62,13 +55,6 @@ public abstract class SetTest {
 
 [Gist Url]: # (https://gist.github.com/mcsee/e89bdc655b7248598e0e8ccd3e94997d)
 ```java
-import static org.junit.Assert.assertEquals;
-
-import org.junit.Test;
-
-import components.set.Set;
-import components.set.Set1L;
-
 public abstract class SetTest {
  
     protected abstract Set<String> constructor();

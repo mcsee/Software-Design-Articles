@@ -41,42 +41,26 @@ If we ask a domain expert to describe an entity he/she would hardly tell it is *
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/73f84d80f7c3e89a216dd9e40ab71bcc)
-```python
-class Window:
-    def __init__(self):
-        self.height = None
-        self.width = None
-
-    def getHeight(self):
-        return self.height
-
-    def setHeight(self, height):
-        self.height = height
-
-    def getWidth(self):
-        return self.width
-
-    def setWidth(self, width):
-        self.width = width
+```java
+public class Song {
+   String name;
+   String authorName;
+   String albumName;
+}
 ```
 
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/78f2dd78120db843c960ed41839f29cb)
-```python
-class GraphicWindow:
+```java
+public class Song {
+   private String name;
+   private Artist author; // Will reference rich objects
+   private Album album; // instead of primitive data types
 
-  def area(self):
-    # implementation
-    return
-
-  def open(self):
-    # implementation
-    return
-
-  def isOpen(self):
-    # implementation
-    return 
+   public String albumName() {
+     return album.name() ;
+}
 ```
 
 # Detection

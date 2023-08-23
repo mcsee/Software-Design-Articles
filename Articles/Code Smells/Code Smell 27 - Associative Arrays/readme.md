@@ -35,7 +35,7 @@
 <?
 
 $coordinate = array('latitude'=>1000, 'longitude'=>2000); 
-// It is OK. they are just arrays. A Bunch of raw data
+// They are just arrays. A Bunch of raw data
 ```
 
 ### Anaemic
@@ -46,9 +46,9 @@ $coordinate = array('latitude'=>1000, 'longitude'=>2000);
 
 final class GeographicCoordinate {
 
-    function __construct($latitude, $longitude) {
-        $this->longitude = $longitude;
-        $this->latitude = $latitude;
+    function __construct($latitudeInDegrees, $longitudeInDegrees) {
+        $this->longitude = $longitudeInDegress;
+        $this->latitude = $latitudeInDegress;
     }
 }
 
@@ -64,12 +64,12 @@ $coordinate = new GeographicCoordinate(1000, 2000);
 
 final class GeographicCoordinate {
 
-    function __construct($latitude, $longitude) {
-        if (!$this->isValidLatitude($latitude)) {
-            throw new InvalidLatitudeException($latitude);
+    function __construct($latitudeInDegrees, $longitudeInDegrees) {
+        if (!$this->isValidLatitude($latitudeInDegrees)) {
+            throw new InvalidLatitudeException($latitudeInDegrees);
             // ...
-            $this->longitude = $longitude;
-            $this->latitude = $latitude;
+            $this->longitude = $longitudeInDegrees;
+            $this->latitude = $latitudeInDegrees;
         }
     }
 }
@@ -106,15 +106,13 @@ The performance argument is not valid nowadays since modern virtual machines can
 
 final class GeographicCoordinate {
 
-    function distanceTo(GeographicCoordinate $coordinate) {
-    }
+    function distanceTo(GeographicCoordinate $coordinate) { }
 
-    function pointInPolygon(Polygon $polygon) {
-        // ....
-    }
+    function pointInPolygon(Polygon $polygon) { }
 }
 
-// Now we are in geometry world (and not in array world anymore). we can safely do many exciting things.
+// Now you are in geometry world (and not in array world anymore). 
+// You can safely do many exciting things.
 ```
 
 # Detection

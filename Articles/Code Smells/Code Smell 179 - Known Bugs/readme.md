@@ -68,7 +68,7 @@ function integerDivide($numerator, $denominator) {
   return $numerator / $denominator;  
 }
 
-// we pay our debts
+// You pay your debts
 ```
 
 # Detection

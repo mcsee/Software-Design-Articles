@@ -39,7 +39,8 @@ def is_platypus(self):
                         return True
     return False
 
-# This is also wrong since it is polluted with IFs and not readable by a biologist
+# This is also wrong since it is polluted 
+# with IFs and not readable by a biologist
 def is_platypus(self):
     if not self.is_mammal():
         return False
@@ -59,9 +60,13 @@ def is_platypus(self):
 [Gist Url]: # (https://gist.github.com/mcsee/b0afdb15577225b97f66381872f373f1)
 ```python
 def is_platypus(self):
-    return self.is_mammal() && self.has_fur() && self.has_beak() && self.has_tail() && self.can_swim()
+    return self.is_mammal() && 
+        self.has_fur() &&
+            self.has_beak() && 
+                self.has_tail() &&
+                    self.can_swim()
   
-# We can even group conditions according to animal taxonomies
+# You can even group conditions according to animal taxonomies
 ```
 
 # Detection

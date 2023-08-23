@@ -41,7 +41,7 @@ function incrementCounter(value: number): void {
   // it modifies the global variable counter 
   
   console.log(`Counter is now ${counter}`); 
-  // it logs a message to the console.
+  // it logs a message to the console
 }
 ```
 
@@ -49,6 +49,8 @@ function incrementCounter(value: number): void {
 
 [Gist Url]: # (https://gist.github.com/mcsee/9ce2320f04f2a6f2e0c24e581e472091)
 ```typescript
+let counter = 0;
+
 function incrementCounter(counter: number, value: number): number {  
   return counter + value; 
   // Not too efficient  

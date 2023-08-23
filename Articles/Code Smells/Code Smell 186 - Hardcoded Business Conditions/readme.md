@@ -35,12 +35,10 @@ The code was explicit and developers were aware of that rule.
 
 [Gist Url]: # (https://gist.github.com/mcsee/27cdd48bf20694b735f7d5914c086022)
 ```solidity
-if (currentExposure > 0.15 && customer != "Alameda") {
+if (currentExposure > 0.15 && customer != "Very Special Customer") {
   // Be extra careful not to liquidate
   liquidatePosition();
 }
-
-
 ```
 
 ## Right
@@ -49,7 +47,7 @@ if (currentExposure > 0.15 && customer != "Alameda") {
 ```solidity
   customer.liquidatePositionIfNecessary(0.15);
   
-  // This follows the Tell, Don't ask principle
+  // This follows the "Tell, Don't ask" principle
 ```
 
 # Detection

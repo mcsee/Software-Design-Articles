@@ -38,15 +38,12 @@ Then we grew up and model special scenarios with polymorphic special values.
 
 [Gist Url]: # (https://gist.github.com/mcsee/342599869ca032390b55d4cc76c49548)
 ```c
-#include "stdio.h"
-#include "stdlib.h"
-#include "stdbool.h"
 #define INVALID_VALUE 999
 
 int main(void)
 {    
     int id = get_value();
-    if (id==INVALID_VALUE)
+    if (id == INVALID_VALUE)
     { 
         return EXIT_FAILURE;  
         // id is a flag and also a valid domain value        
@@ -67,30 +64,25 @@ int get_value()
 
 [Gist Url]: # (https://gist.github.com/mcsee/40fb4a5238c9d6fbf5ad0f0aefa7fd07)
 ```c
-#include "stdio.h"
-#include "stdlib.h"
-#include "stdbool.h"
-// No INVALID_VALUE defined
-
 int main(void)
 {    
     int id;
     id = get_value();
-    if (!id) 
+    if (id < 0) 
     { 
+        printf("Error: Failed to obtain value\n");
         return EXIT_FAILURE;
-        // Sadly, C Programming Language has no exceptions
     }  
     return id;
 }  
 
-get_value() 
+int get_value() 
 {
   // something bad happened
-  return false;
+  return -1; // Return a negative value to indicate error
 }
 
-// returns EXIT_FAILURE (1)
+// No INVALID_VALUE defined
 ```
 
 # Detection

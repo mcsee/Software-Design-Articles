@@ -49,19 +49,10 @@ public class Application {
 [Gist Url]: # (https://gist.github.com/mcsee/63674fe800fca77d3a7edc39bde428c8)
 ```java
 public class Client {
-    Address address;
-    // client now has to expose its address
-    public address() {
-        return address;
-    }
-}
-
-public class Address {
-    private ZipCode zipCode;
-    
-    public ZipCode zipCode() {
-        return new ZipCode('CA90210');
-    }
+   public ZipCode zipCode() {
+      // Can also store it
+      return new ZipCode(’CA90210’);
+   }
 }
 
 public class Application {   

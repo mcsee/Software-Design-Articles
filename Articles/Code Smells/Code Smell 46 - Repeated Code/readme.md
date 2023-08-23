@@ -38,17 +38,19 @@
 ```php
 <?
 
-final class WordProcessor {
+class WordProcessor {
 
     function replaceText(string $patternToFind, string $textToReplace) {
-        $this->text = '<<<' . str_replace($patternToFind, $textToReplace, $this->text) . '>>>';
+        $this->text = '<<<' . 
+            str_replace($patternToFind, $textToReplace, $this->text) . '>>>';
     }
 }
 
 final class Obfuscator {
 
     function obfuscate(string $patternToFind, string $textToReplace) {
-        $this->text = strlower(str_ireplace($patternToFind, $textToReplace, $this->text));
+        $this->text = 
+            strlower(str_ireplace($patternToFind, $textToReplace, $this->text));
     }
 }
 ```
@@ -60,7 +62,12 @@ final class Obfuscator {
 <?
 
 final class TextReplacer {
-    function replace(string $patternToFind, string $textToReplace, string $subject, string $replaceFunctionName, $postProcessClosure) {
+    function replace(
+        string $patternToFind, 
+        string $textToReplace, 
+        string $subject, 
+        string $replaceFunctionName, 
+        $postProcessClosure) {
         return $postProcessClosure($replaceFunctionName($patternToFind, $textToReplace, $subject));
     }
 }
@@ -68,16 +75,22 @@ final class TextReplacer {
 // Lots of tests on text replacer so we can gain confidence.
 
 final class WordProcessor {
-
     function replaceText(string $patternToFind, string $textToReplace) {
-        $this->text = (new TextReplacer())->replace($patternToFind, $textToReplace, $this->text, 'str_replace', fn($text) => '<<<' . $text . '>>>');
+        $this->text = (new TextReplacer())->replace(
+            $patternToFind, 
+            $textToReplace, 
+            $this->text, 
+            'str_replace', fn($text) => '<<<' . $text . '>>>');
     }
 }
 
 final class Obfuscator {
-
     function obfuscate(string $patternToFind, string $textToReplace) {
-        $this->text = (new TextReplacer())->replace($patternToFind, $textToReplace, $this->text, 'str_ireplace', fn($text) => strlower($text));
+        $this->text = (new TextReplacer())->replace(
+            $patternToFind, 
+            $textToReplace, 
+            $this->text, 
+            'str_ireplace', fn($text) => strlower($text));
     }
 }
 ```

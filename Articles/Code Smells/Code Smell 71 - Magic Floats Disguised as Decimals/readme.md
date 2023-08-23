@@ -29,7 +29,7 @@ console.log(0.2 + 0.1)
 
 // We are adding two decimal numbers
 // 2/10  +  1/10 
-// Result should be 3/10 as we learned at school
+// Result should be 3/10 as you learned at school
 ```
 
 ## Right
@@ -50,7 +50,8 @@ class Decimal {
 console.log((new Decimal(2).plus(new Decimal(1))).toString());
 // 0.3
 
-// We can represent the numbers with a Decimal class (storing only the numerator)
+// You can represent the numbers 
+// with a Decimal class (storing only the numerator)
 // or with a generic Fraction class (storing both the numerator and denominator)
 ```
 

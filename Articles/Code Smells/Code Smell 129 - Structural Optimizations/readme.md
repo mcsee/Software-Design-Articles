@@ -50,7 +50,7 @@ for (k = 0; k < 3 * 3; ++k) {
  
 // This cryptic piece of code iterates a
 // two-dimensional array
-// We don't have proof this will be useful
+// You don't have proof this will be useful
 // In real contexts
 ```
 
@@ -58,17 +58,16 @@ for (k = 0; k < 3 * 3; ++k) {
 
 [Gist Url]: # (https://gist.github.com/mcsee/b68e67c449b7d0a5b13f69381f02e8e4)
 ```javascript
-for (innerIterator = 0; innerIterator < 3; innerIterator++) {
-  for (outerIterator = 0; outerIterator < 3; outerIterator++) {
-   console.log(innerIterator + ' ' +  outerIterator);
-  }
- }
+for (outerIterator = 0; outerIterator< 3; outerIterator++) {
+    for (innerIterator = 0; innerIterator< 3; innerIterator++) {
+        console.log(outerIterator + ' ' + innerIterator);
+    }
+}
 
 // This is a readable double for-loop
 // 3 is a small number
 // No performance issues (by now)
-// We will wait for real evidence
-
+// You will wait for real evidence
 ```
 
 # Detection

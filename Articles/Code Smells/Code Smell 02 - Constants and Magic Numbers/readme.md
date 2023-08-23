@@ -31,10 +31,12 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/dec9856bf69a06c367d2e683b179577a)
-```ruby
-def energy(mass)
-    mass * 299792458 ** 2
-end
+```php
+<?
+
+function energy($mass) {
+    return $mass * (299792 ** 2)
+}
 ```
 
 ## Right

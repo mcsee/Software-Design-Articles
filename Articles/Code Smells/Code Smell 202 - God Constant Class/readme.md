@@ -31,26 +31,25 @@ The repository can be a class, file, or JSON.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/402d6689b9a9bdef6a0cedf4e8974805)
-```csharp
+```javascript
 public static class GlobalConstants
 {
-    public const int MaxPlayers = 10;
-    public const string DefaultLanguage = "en-US";
-    public const double Pi = 3.14159; 
+   public const int MaxPlayers = 10;
+   public const string DefaultLanguage = "en-US";
+   public const double Pi = 3.14159;
 }
-
 ```
 
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/d26aa5ca0e29c906689c7e0b3be8cd54)
-```csharp
-public static class MaxPlayersConstants
+```javascript
+public static class GameConstants
 {
-    public const int MaxPlayers = 10;    
+    public const int MaxPlayers = 10;
 }
 
-public static class DefaultLanguageConstants
+public static class LanguageConstants
 {
     public const string DefaultLanguage = "en-US";
 }
@@ -59,7 +58,6 @@ public static class MathConstants
 {
     public const double Pi = 3.14159;
 }
-
 ```
 
 # Detection
