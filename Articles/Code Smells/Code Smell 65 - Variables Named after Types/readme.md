@@ -24,11 +24,12 @@
 
 [Gist Url]: # (https://gist.github.com/mcsee/00c30c369fe7339e28d50f858392cf4c)
 ```java
-public bool CheckIfStringHas3To7LowercaseCharsFollowedBy3or4Numbers(string textToCheck)
+public bool CheckIfStringHas3To7LowercaseCharsFollowedBy3or4Numbers
+    (string textToCheck)
 {
-  Regex regex = new Regex(@"[a-z]{2,7}[1-9]{3,4}")
-  var bool = regex.IsMatch(textToCheck);
-  return bool;
+        Regex regex = new Regex(@"[a-z]{2,7}[1-9]{3,4}")
+        var bool = regex.IsMatch(textToCheck);
+        return bool;
 }
 ```
 
@@ -36,7 +37,8 @@ public bool CheckIfStringHas3To7LowercaseCharsFollowedBy3or4Numbers(string textT
 
 [Gist Url]: # (https://gist.github.com/mcsee/91e3a3f2b1351fa0e09fb8c56a5c2779)
 ```java
-public bool CheckIfStringHas3To7LowercaseCharsFollowedBy3or4Numbers(string password)
+public bool CheckIfStringHas3To7LowercaseCharsFollowedBy3or4Numbers
+    (string password)
 {
   Regex stringHas3To7LowercaseCharsFollowedBy3or4Numbers = 
     new Regex(@"[a-z]{2,7}[1-9]{3,4}")

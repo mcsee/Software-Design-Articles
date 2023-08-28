@@ -45,7 +45,7 @@ Book harryPotter = new Book(1, List.of(2));
 Book designPatterns = new Book(2, List.of(4, 6, 7, 8));
 Book donQuixote = new Book(3, List.of(5));
 
-// We can scrape from now on
+// You can scrape from now on
 ```
 
 ## Right
@@ -63,7 +63,7 @@ class Book {
 
 class BookResource {    
     private Book resource; // The resource knows the underlying book
-    private id; // The id is the link we provide to external world
+    private id; // The id is the link you provide to the external world
 }
 
 Book harryPotter = new Book(new Author('J. K. Rowling'));

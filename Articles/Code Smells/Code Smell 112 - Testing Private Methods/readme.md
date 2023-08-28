@@ -49,16 +49,18 @@ final class Star {
   private $distanceInParsecs;
   
   public function timeToReachLightToUs() {
-    return $this->convertDistanceInParsecsToLightYears($this->distanceInParsecs);
+    return $this->convertDistanceInParsecsToLightYears(
+      $this->distanceInParsecs);
   }
   
-  private function convertDistanceInParsecsToLightYears($distanceInParsecs) {
+  private function convertDistanceInParsecsToLightYears(
+    $distanceInParsecs) {
       return 3.26 * $distanceInParsecs;
       // function is using an argument that is already available.
       // since it has private access to $distanceInParsecs
       // this is another smell indicator.
 
-      // We cannot test this function since it is private
+      // You cannot test this function since it is private
   }
 }
 ```
@@ -88,11 +90,10 @@ final class ParsecsToLightYearsConverterTest extends TestCase {
   public function testConvert0ParsecsReturns0LightYears() {
     $this->assertEquals(0, (new ParsecsToLightYearsConverter)->convert(0));
   }
-    // we can add lots of tests and rely on this object
-    // So we don't need to test Star conversions.
-    // We can yet test Star public timeToReachLightToUs()
+    // You can add lots of tests and rely on this object
+    // So we don't need to test Star conversions
+    // You can't yet test Star public timeToReachLightToUs()
     // This is a simplified scenario
-
 }
 ```
 

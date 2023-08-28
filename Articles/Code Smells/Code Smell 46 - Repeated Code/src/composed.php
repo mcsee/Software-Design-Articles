@@ -7,11 +7,12 @@ final class TextReplacer {
         string $subject, 
         string $replaceFunctionName, 
         $postProcessClosure) {
-        return $postProcessClosure($replaceFunctionName($patternToFind, $textToReplace, $subject));
+        return $postProcessClosure(
+            $replaceFunctionName($patternToFind, $textToReplace, $subject));
     }
 }
 
-// Lots of tests on text replacer so we can gain confidence.
+// Lots of tests on text replacer so you can gain confidence.
 
 final class WordProcessor {
     function replaceText(string $patternToFind, string $textToReplace) {

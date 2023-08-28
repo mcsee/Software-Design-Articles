@@ -49,7 +49,8 @@ We need to validate objects on the back-end and send good validation errors to c
     }
     re = /^\w+$/;
     if(!re.test(form.username.value)) {
-      alert("Error: Username must contain only letters, numbers and underscores!");
+      alert("Error: Username must contain only letters," 
+        + " numbers and underscores!");
       form.username.focus();
       return false;
     }
@@ -73,18 +74,21 @@ We need to validate objects on the back-end and send good validation errors to c
       }
       re = /[a-z]/;
       if(!re.test(form.pwd1.value)) {
-        alert("Error: password must contain at least one lowercase letter (a-z)!");
+        alert("Error: password must contain at least"
+              + " one lowercase letter (a-z)!");
         form.pwd1.focus();
         return false;
       }
       re = /[A-Z]/;
       if(!re.test(form.pwd1.value)) {
-        alert("Error: password must contain at least one uppercase letter (A-Z)!");
+        alert("Error: password must contain at least"
+              + " one uppercase letter (A-Z)!");
         form.pwd1.focus();
         return false;
       }
     } else {
-      alert("Error: Please check that you've entered and confirmed your password!");
+      alert("Error: Please check that you've entered"
+            +" and confirmed your password!");
       form.pwd1.focus();
       return false;
     }
@@ -135,7 +139,8 @@ We need to validate objects on the back-end and send good validation errors to c
             if (response.ok) {
                 return response.json();
             } else {
-                throw new Error("Could not reach the API: " + response.statusText);
+                throw new Error("Could not reach the API: " +
+                    response.statusText);
             }
         }).then(function(data) {
             document.getElementById("message").innerHTML = data.encoded;

@@ -67,7 +67,7 @@ tenCentimeters = Measure(10, centimetersUnit)
 tenInches = Measure(10, inchesUnit)
 
 tenCentimeters + tenInches
-# error until we introduce a conversion factor
+# error until you introduce a conversion factor
 # in this case the conversion is constant 
 # inches = centimeters / 2.54
 

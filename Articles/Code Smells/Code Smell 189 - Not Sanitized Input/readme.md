@@ -31,7 +31,7 @@ Even better, we can work with [Domain Restricted Objects](https://github.com/mcs
 [Gist Url]: # (https://gist.github.com/mcsee/d72d1e6617755cd8eff723b4dba90078)
 ```python
 user_input = "abc123!@#"
-# This content might not be very safe if we expect just alphanumeric characters
+# This content might not be very safe if you expect just alphanumeric characters
 ```
 
 ## Right

@@ -72,7 +72,8 @@ janePhoneCall.set_origin('555-5555')
 janePhoneCall.set_destination('555-5555')
 janePhoneCall.set_duration(60) 
 
-# We can't change destination during call. This is not enforced due to setters
+# You can't change the destination during the call.
+# This is not enforced due to setters
 
 # Origin and Destination cannot be the same
 
@@ -105,7 +106,8 @@ class PhoneCall:
     return self._duration
   
 # duration is exposed in seconds as a ripple effect
-# this violates information hiding principle and prevents us from changing it representation
+# this violates information hiding principle
+# and prevents you from changing it representation
 ```
 
 ## Right
@@ -122,7 +124,8 @@ class PhoneCall:
       if destination == origin:
        raise ValueError("Destination cannot be the same as origin")
       # single control point.
-      # We only create valid phone calls and they remain valid since they cannot mutate
+      # You only create valid phone calls 
+      # and they remain valid since they cannot mutate
       
       self._origin = origin
       self._destination = destination

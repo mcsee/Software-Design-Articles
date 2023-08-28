@@ -57,7 +57,7 @@ struct PeopleProfile {
     let age: Int
 }
 
-// We reify the PeopleProfile object
+// You reify the PeopleProfile object
 func getNameAndAge() -> PeopleProfile {
     let name = "John"
     let age = 30

@@ -61,7 +61,8 @@ public class TimeInterval
         if (from >= to)
         {
             throw new ArgumentException
-                ("Invalid time interval: ’from’ must be earlier than ’to’.");
+                ("Invalid time interval:" + 
+                 " ’from’ must be earlier than ’to’.");
         }
         From = from;
         To = to;

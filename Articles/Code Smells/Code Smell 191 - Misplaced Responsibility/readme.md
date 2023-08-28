@@ -39,7 +39,7 @@ function add(a, b) {
 class GraphicEditor {
   constructor() {
     this.PI = 3.14;
-    // We shouldn't define it here
+    // You shouldn't define it here
   }
 
   pi() {

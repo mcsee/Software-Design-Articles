@@ -1,4 +1,4 @@
-// here we add elements to the collection...
+// here you add elements to the collection...
 Collection<Integer> people = new ArrayList<>();
   
 for (Object person : people) {
@@ -6,4 +6,5 @@ for (Object person : people) {
         people.remove(person);
     }
 }
-// You iterate AND remove elements, elements, risking skipping other candidates for removal
+// You iterate AND remove elements, elements,
+// risking skipping other candidates for removal

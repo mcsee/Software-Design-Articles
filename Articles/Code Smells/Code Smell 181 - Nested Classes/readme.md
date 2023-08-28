@@ -56,7 +56,7 @@ public class Main {
 //
 // If you change privacy to 'private class City' 
 //
-// We you an error " Address.City has private access in Address"
+// you will get an error " Address.City has private access in Address"
 ```
 
 ## Right

@@ -36,7 +36,8 @@ class QuotesSaver {
                     throw new I0Exception("File exists: " + filename);
                 }
             } else {
-                throw new I0Exception("Parent directory missing at " + filename);
+                throw new I0Exception("Parent directory missing at " + 
+                    filename);
             }
         } else {
             throw new ArgumentException("Invalid path " + filename);
