@@ -51,7 +51,7 @@ for (Object person : people) {
 [Gist Url]: # (https://gist.github.com/mcsee/18369eb8798462ef04372be56827c9d6)
 ```java
 Collection<Integer> people = new ArrayList<>();
-// Here we add elements to the collection...
+// Here you add elements to the collection...
 
 List<Object> iterationPeople = ImmutableList.copyOf(people);
     
@@ -60,7 +60,7 @@ for (Object person : iterationPeople) {
         people.remove(person);
     }
 }
-// We iterate a copy and remove it from the original
+// You iterate a copy and remove it from the original
 
 coll.removeIf(currentIndex -> currentIndex == 5);
 // Or use language tools (if available)

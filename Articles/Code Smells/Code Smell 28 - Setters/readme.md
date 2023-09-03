@@ -65,7 +65,7 @@ Mutation brings lots of problems
 
 [Gist Url]: # (https://gist.github.com/mcsee/2706ba1e510ef085a1f25dde11254e1a)
 ```python
-# Since we have a setter we can create invalid combinations
+# Since you have a setter you can create invalid combinations
 
 janePhoneCall = PhoneCall()
 janePhoneCall.set_origin('555-5555')

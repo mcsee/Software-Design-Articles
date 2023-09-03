@@ -117,7 +117,7 @@ We need to validate objects on the back-end and send good validation errors to c
   // backend has domain rules
   // backend has test coverage and richmodels
   // it is more difficult to inject code in a backend
-  // Validations will evolve on our backend
+  // Validations will evolve on your backend
   // Business rules and validations are shared with every consumer
   // UI / REST / Tests / Microservices ... etc. etc.
   // No duplicated code
