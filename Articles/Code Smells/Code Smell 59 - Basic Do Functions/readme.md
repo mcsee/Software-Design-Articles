@@ -62,7 +62,7 @@ final class Calculator {
 
 final class Calculator {
     function computeSomething() {
-        // Do Real work here since I am Compute!
+        // Do Real work here since I am the compute method
     }
 }
 

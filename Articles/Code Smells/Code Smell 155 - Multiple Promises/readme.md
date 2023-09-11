@@ -34,7 +34,7 @@ async fetchAnotherLongTask() { }
 async fetchAll() {
   let result1 = await this.fetchLongTask(); 
   let result2 = await this.fetchAnotherLongTask();
-  // they can run in parallel !!  
+  // But they can run in parallel !!  
 }                                 
 ```
 

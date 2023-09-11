@@ -43,10 +43,7 @@ const distanceBlackHoles = 5.7e20;  // Distance between black holes in meters
 var force = (distanceSquared = distanceBlackHoles * distanceBlackHoles,
              (gravitationalConstant * massBlackHole1 * massBlackHole2) /
              distanceSquared);
-
-// Two operations in a single statement with comma operator     
-
-console.log("Gravitational force between two black holes:", force);
+// Two operations in a single statement with comma operator  
 ```
 
 ## Right
@@ -67,11 +64,7 @@ const force = calculateGravitationalForce(
   massBlackHole2,
   distanceBlackHoles
 );
-
 // Notice force is calculated with a separate function
-
-console.log("Gravitational force between two black holes:", force);
-
 ```
 
 # Detection

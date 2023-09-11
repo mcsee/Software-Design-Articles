@@ -32,6 +32,8 @@ Permit List and Block List: Another option is to use "permit list" in place of "
 
 Main branches: You can replace "master" with "main".
 
+Master/Slave: You can replace them with Primary/Replica/Mirror etc.
+
 # Sample Code
 
 ## Wrong

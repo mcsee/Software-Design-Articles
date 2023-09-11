@@ -57,7 +57,7 @@ String path = pathFromPort("example.org", port);
 
 [Gist Url]: # (https://gist.github.com/mcsee/32202947a8d5ef760936a1e094d3f6b3)
 ```java
-Port server = Port.parse(this, "www.kivakit.org:8080");
+Port server = Port.parse(this, "www.example.org:8080");
 // Port is a smallobject with responsibilities and protocol
 
 Port in = server.open(this); // returns a port, not a number

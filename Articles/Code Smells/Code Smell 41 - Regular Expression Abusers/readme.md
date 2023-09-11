@@ -37,7 +37,7 @@ val regex = Regex("^\\+(?:[0-9a-zA-Z][– -]?){6,14}[0-9a-zA-Z]$")
 ```perl
 
 val prefix = "\\+"
-val digit = "[0-9a-zA-Z]"
+val digit = "[0-9]"
 val space = "[– -]"
 val phoneRegex = Regex("^$prefix(?:$digit$space?){6,14}$digit$")
 ``` 

@@ -30,7 +30,6 @@
 
 [Gist Url]: # (https://gist.github.com/mcsee/395fe180085be252c2ff97020b9f3bc9)
 ```python
-# using time module
 import time
   
 # ts stores the time in seconds

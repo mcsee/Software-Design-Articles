@@ -61,9 +61,8 @@ doMore();
 // you can do it with a covering test forcing
 // real world scenario and not the code
 
-testLargeCartItems() {}
-
-testUserIsRetail() {}
+testLargeCartItems() 
+testUserIsRetail()
 ```
 
 # Detection

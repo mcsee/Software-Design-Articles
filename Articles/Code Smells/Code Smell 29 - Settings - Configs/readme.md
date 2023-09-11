@@ -40,16 +40,17 @@
 
 [Gist Url]: # (https://gist.github.com/mcsee/f001710d13fd158e75313c9b54ffc1aa)
 ```javascript
-class VerySpecificAndSmallObjectDealingWithPersistency {   
-  retrieveData() {
-    if (GlobalSettingsSingleton.getInstance().
-        valueAt('IamAPossibleMistypedString')) {
-      this.retriveDataThisWay();
+class VerySpecificAndSmallObjectDealingWithPersistency {
+    retrieveData() {
+        if (GlobalSettingsSingleton.getInstance()
+            .valueAt('RetrievDataDirectly')) {
+            // Notice the unnoticed typo in 'RetrievDataDirectly'
+            this.retrieveDataThisWay();
+        }
+        else {
+            this.retrieveDataThisOtherWay();
+        }
     }
-    else {
-      this.retriveDataThisOtherWay();    
-    }
-  }
 }
 ```
 

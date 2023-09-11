@@ -39,17 +39,17 @@ function add(a, b) {
 class GraphicEditor {
   constructor() {
     this.PI = 3.14;
-    // You shouldn't define it here
+    // You shouldn't define the constant here
   }
 
   pi() {
     return this.PI;
-    // Not this object responsibility
+    // Not this object's responsibility
   }
 
   drawCircle(radius) {
-    console.log(`Drawing a circle with radius ${radius}
-    and circumference ${2 * this.pi() * radius}.`);
+    console.log("Drawing a circle with radius ${radius} " +
+    "and circumference " + (2 * this.pi()) * radius");
   }
 }
 ```
@@ -68,12 +68,17 @@ class Integer {
 
 class GraphicEditor {
   drawCircle(radius) {
-    console.log(`Drawing a circle with radius ${radius} 
-    and circumference ${2 * Number.pi() * radius}.`);
+    console.log("Drawing a circle with radius " + radius +
+      " and circumference " + (2 * RealConstants.pi() * radius));    
   }
 }
 // PI's definition is RealConstants (or Number)'s responsibility
 
+class RealConstants {
+  pi() {
+    return 3.14;
+  }
+}
 ```
 
 # Detection

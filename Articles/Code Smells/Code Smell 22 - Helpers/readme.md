@@ -45,11 +45,11 @@ export default class UserHelpers {
 }
 
 // Notice static methods
-import UserHelpers from ’./UserHelpers’;
+import UserHelpers from './UserHelpers';
 
 const alice = {
-   firstName: ’Alice’,
-   lastName: ’Gray’,
+   firstName: 'Alice',
+   lastName: 'Gray',
    points: 78,
 };
 

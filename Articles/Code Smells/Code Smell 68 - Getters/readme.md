@@ -59,7 +59,7 @@ final class Window {
 
 [Gist Url]: # (https://gist.github.com/mcsee/cd465eb9ca4f2771fb3dc5e30dc491cc)
 ```php
-<?php
+<?
 
 final class Window {
     private $width;

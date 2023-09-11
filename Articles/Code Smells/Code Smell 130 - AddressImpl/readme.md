@@ -29,11 +29,10 @@ We should pick our names carefully.
 [Gist Url]: # (https://gist.github.com/mcsee/f1f4d16d6f90c682f540cd2c0c2cc5f2)
 ```java
 public interface Address extends ChangeAware, Serializable {
-
     String getStreet();
 }
 
-// Wrong Name - There is no concept 'AddressImpl' in real world
+// Wrong Name - There is no concept 'AddressImpl' in the real world
 public class AddressImpl implements Address {
     private String street;
     private String houseNumber;

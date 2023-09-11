@@ -47,8 +47,7 @@
 final class BookItem {
     function numberOfPages() { }
     function language(): Language { }
-    function book(): Book { }
-        // Book can tell us a lot about her/his author, title etc. 
+    function book(): Book { }        
     function edition(): BookEdition { }
     // Loan and overdues are not book items responsibility
 }
@@ -63,7 +62,7 @@ final class LoanTracker {
 }
 
 final class LoanTrackerTests extends TestCase {
-    // Lots of maintained tests telling us how the system really works
+    // Lots of maintained tests telling you how the system really works
 }
 ```
 

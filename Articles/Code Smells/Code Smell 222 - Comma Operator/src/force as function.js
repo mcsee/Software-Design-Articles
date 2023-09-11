@@ -12,7 +12,4 @@ const force = calculateGravitationalForce(
   massBlackHole2,
   distanceBlackHoles
 );
-
 // Notice force is calculated with a separate function
-
-console.log("Gravitational force between two black holes:", force);

@@ -34,11 +34,11 @@ We should narrow the scope as much as possible.
 ```java
 // print line total
 double total = item.getPrice() * item.getQuantity();
-System.out.println("Line total: " + total );
+System.out.println("Line total: " + total);
 
 // print amount total 
 total = order.getTotal() - order.getDiscount();
-System.out.println( "Amount due: " + total );
+System.out.println( "Amount due: " + total);
 
 // 'total' variable is reused
 ```
@@ -49,12 +49,12 @@ System.out.println( "Amount due: " + total );
 ```java
 function printLineTotal() {
   double lineTotal = item.getPrice() * item.getQuantity();
-  System.out.println("Line total: " + lineTotal );
+  System.out.println("Line total: " + lineTotal);
 }
 
 function printAmountTotal() {
   double ammountTotal = order.getTotal() - order.getDiscount();
-  System.out.println( "Amount due: " + ammountTotal );
+  System.out.println( "Amount due: " + ammountTotal);
 }
 ```
 

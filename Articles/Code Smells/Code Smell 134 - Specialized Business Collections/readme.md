@@ -28,7 +28,7 @@ After refining we should remove unneeded abstractions.
 
 [Gist Url]: # (https://gist.github.com/mcsee/6e4e3684bbb29379a6bf30f4a00a2c7f)
 ```php
-<?php
+<?
 
 Namespace Spelling;
 
@@ -51,8 +51,6 @@ final class Dictionary {
 // This has protocol similar to an abstract datatype dictionary
 // And the tests
   
-use PHPUnit\Framework\TestCase;
-
 final class DictionaryTest extends TestCase {
     public function test01EmptyDictionaryHasNoWords() {
         $dictionary = new Dictionary([]);
@@ -83,15 +81,11 @@ final class DictionaryTest extends TestCase {
 ```php
 <?php
 
-Namespace Spelling;
-
 // final class Dictionary is no longer needed
     
 // The tests use a standard class
 // In PHP you use associative arrays
 // Java and other languages have HashTables, Dictionaries etc. etc.
-  
-use PHPUnit\Framework\TestCase;
 
 final class DictionaryTest extends TestCase {
     public function test01EmptyDictionaryHasNoWords() {

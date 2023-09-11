@@ -516,6 +516,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 223 - Racial Naming](/Articles/Code%20Smells/Code%20Smell%20223%20-%20Racial%20Naming/readme.md)
 
+* [Code Smell 224 - Deodorant Comments](/Articles/Code%20Smells/Code%20Smell%20224%20-%20Deodorant%20Comments/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
@@ -675,4 +677,8 @@ In this repository, you will find many articles related to Software Design
 ### blogging
 
 * [Content Structure: The Do's and Dont's of Content Creation](/Articles/blogging/68%20-%20Content%20Structure%20The%20Do%27s%20and%20Dont%27s%20of%20Content%20Creation/readme.md)
+
+### Unsorted
+
+* [3.2 Identifying the Essence of Your Objects](/Articles/Unsorted/3.2%20Identifying%20the%20Essence%20of%20Your%20Objects/readme.md)
 

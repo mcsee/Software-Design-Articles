@@ -42,14 +42,13 @@ This will also avoid [Magic Constants](https://github.com/mcsee/Software-Design-
 
 [Gist Url]: # (https://gist.github.com/mcsee/ab8aca666d5064bac5a4e8d096900138)
 ```php
-<?php
+<?
 
 function configureUser() {
-  $password = '123456';
-  // Setting a password on a variable is another vulnerability
-  // And Code Smell
-  $user = new User($password);
-  // Notice Variable doesn't change
+    $password = '123456';
+    // Setting a password on a variable is a vulnerability
+    $user = new User($password);
+    // Notice variable doesn't change
 }
 ```
 
@@ -57,25 +56,23 @@ function configureUser() {
 
 [Gist Url]: # (https://gist.github.com/mcsee/9649878302b3d66603b2cfdce2de87ba)
 ```php
-<?php
+<?
 
 define("USER_PASSWORD", '123456')
 
 function configureUser() {  
-  $user = new User(USER_PASSWORD);
+    $user = new User(USER_PASSWORD);
 }
 
 // or 
 
 function configureUser() {  
-  $user = new User(userPassword());
+    $user = new User(userPassword());
 }
 
 function userPassword() : string {
-  return '123456';
+    return '123456';
 }
-
-// Case is an oversimplification as usual
 ```
 
 # Detection

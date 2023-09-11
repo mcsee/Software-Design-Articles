@@ -24,8 +24,8 @@
 
 [Gist Url]: # (https://gist.github.com/mcsee/9277f66f0a09b0e01ab217a65f80fe61)
 ```javascript
-for (i = 0; i < colors.count(), i++) {
-  print(colors[i]);
+for (let i = 0; i < colors.length; i++) {
+  console.log(colors[i]);
 }
 ```
 
@@ -33,12 +33,11 @@ for (i = 0; i < colors.count(), i++) {
 
 [Gist Url]: # (https://gist.github.com/mcsee/c5640773e3691e2aa6ac6db27b5596bf)
 ```javascript
-foreach (color of colors) {
-  print(color);
-}
+colors.forEach((color) => {
+  console.log(color);
+});
 
 // You use closures and arrow functions
-colors.foreach(color => print(color));
 ```
 
 # Detection

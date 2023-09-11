@@ -31,7 +31,7 @@ We also underestimate the fact we can be on both sides of the counter.
 alert("Cancel the appointment?", "Yes", "No");
 
 // No consequences
-// The options not clear
+// The options are not clear
 ```
 
 ## Right

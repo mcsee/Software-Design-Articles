@@ -62,7 +62,7 @@ final class SocialNetworkProfile {
     // Lots of protocol
 }
 
-// If you need to transfer to an External system you need
+// If you need to transfer to an external system you need
 // to duplicate (and maintain) the structure
 
 final class SocialNetworkProfileDTO {
@@ -71,13 +71,13 @@ final class SocialNetworkProfileDTO {
    private $friends; // duplicated to be synchronized
    private $feed; // duplicated to be synchronized
    public function __construct() {
-   // Empty constructor without validations
+        // Empty constructor without validations
    }
 
    // No protocol, just serializers
 }
 
-// If you need to transfer to an External system you create an anemic DTO
+// If you need to transfer to an external system you create an anemic DTO
 $janesProfileToTransfer = new SocialNetworkProfileDTO();
 ```
 
@@ -106,32 +106,29 @@ final class SocialNetworkProfile {
         $this->assertNoFriendOfMyself($friends);
 
     }
-    // lots of protocol
+    // lots of protocol associated with the profile
+    // No serialization protocol
+    // No behavior or attribute duplication
 }
 
-interface FriendsCollectionProtocol {
-}
+interface FriendsCollectionProtocol { }
 
-final class FriendsCollection implements FriendsCollectionProtocol {
-
-}
+final class FriendsCollection implements FriendsCollectionProtocol { }
 
 final class FriendsCollectionProxy implements FriendsCollectionProtocol {
     // proxy protocol
     // travels as a lightweight object and can get contents when requested
 }
 
-abstract class UserFeedBehavior {
-}
+abstract class UserFeedBehavior { }
 
-final class UserFeed extends UserFeedBehavior {
-}
+final class UserFeed extends UserFeedBehavior { }
 
 final class NullFeed extends UserFeedBehavior {
     // throws an error when requested for behavior
 }
 
-// If you need to transfer to an External system you create a valid object
+// If you need to transfer to an external system you create a valid object
 $janesProfileToTransfer = new SocialNetworkProfile(
     'jane', 
     new FriendCollectionProxy(), 
