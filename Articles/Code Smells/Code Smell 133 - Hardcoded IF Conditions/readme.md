@@ -48,7 +48,8 @@ private string FindCountryName (string internetCode)
 
 [Gist Url]: # (https://gist.github.com/mcsee/5d45c77d532eb370ca6b78606c0db05e)
 ```csharp
-private string[] country_names = {"Germany", "France", "Argentina"} // lots more
+private string[] country_names = {"Germany", "France", "Argentina"} 
+// and lots more
 private string[] Internet_code_suffixes= {"de", "fr", "ar" } // more
  
 private Dictionary<string, string> Internet_codes = 

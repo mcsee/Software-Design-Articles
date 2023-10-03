@@ -518,6 +518,10 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 224 - Deodorant Comments](/Articles/Code%20Smells/Code%20Smell%20224%20-%20Deodorant%20Comments/readme.md)
 
+* [Code Smell 225 - Pass by Reference](/Articles/Code%20Smells/Code%20Smell%20225%20-%20Pass%20by%20Reference/readme.md)
+
+* [Code Smell 226 - Mixed Priorities](/Articles/Code%20Smells/Code%20Smell%20226%20-%20Mixed%20Priorities/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)

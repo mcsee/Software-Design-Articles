@@ -50,7 +50,8 @@ final class Obfuscator {
 
     function obfuscate(string $patternToFind, string $textToReplace) {
         $this->text = 
-            strlower(str_ireplace($patternToFind, $textToReplace, $this->text));
+            strlower(
+                str_ireplace($patternToFind, $textToReplace, $this->text));
     }
 }
 ```

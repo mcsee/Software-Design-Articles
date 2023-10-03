@@ -92,7 +92,8 @@ function retrieveImagesFrom(string imageUrls) {
     $fullImageName = $this->directory() . "\\" . $imageFilename;
     if (!file_exists($fullImageName)) {
         if ($this->isRemoteFileName($imageFilename)) {
-            $temporaryFilename = $this->temporaryLocalPlaceFor($imageFilename);
+            $temporaryFilename = 
+              $this->temporaryLocalPlaceFor($imageFilename);
             $this->retrieveFileAndSaveIt($imageFilename, $temporaryFilename);
             $localFileSha1 = sha1_file($temporaryFilename);
             list($found, $images, $imageFilename) = 

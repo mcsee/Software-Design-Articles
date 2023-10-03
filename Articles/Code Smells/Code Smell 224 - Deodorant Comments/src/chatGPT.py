@@ -3,7 +3,7 @@ def calculate_sum(number1, number2):
     result = number1 + number2
     return result
 
-#In this improved version:
+# In this improved version:
 #
 # The function name calculate_sum is more descriptive than sum, 
 # making it clear that this function calculates the sum of two numbers.
