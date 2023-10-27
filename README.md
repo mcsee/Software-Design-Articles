@@ -522,6 +522,16 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 226 - Mixed Priorities](/Articles/Code%20Smells/Code%20Smell%20226%20-%20Mixed%20Priorities/readme.md)
 
+* [Code Smell 227 - Cowboy Coding](/Articles/Code%20Smells/Code%20Smell%20227%20-%20Cowboy%20Coding/readme.md)
+
+* [Code Smell 228 - Multiple Classes per File](/Articles/Code%20Smells/Code%20Smell%20228%20-%20Multiple%20Classes%20per%20File/readme.md)
+
+* [Code Smell 229 - Red Tape](/Articles/Code%20Smells/Code%20Smell%20229%20-%20Red%20Tape/readme.md)
+
+* [Code Smell 230 - Schrödinger Code](/Articles/Code%20Smells/Code%20Smell%20230%20-%20Schrodinger%20Code/readme.md)
+
+* [Code Smell 231 - Redundant Data](/Articles/Code%20Smells/Code%20Smell%20231%20-%20Redundant%20Data/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
@@ -685,4 +695,8 @@ In this repository, you will find many articles related to Software Design
 ### Unsorted
 
 * [3.2 Identifying the Essence of Your Objects](/Articles/Unsorted/3.2%20Identifying%20the%20Essence%20of%20Your%20Objects/readme.md)
+
+### unsorted
+
+* [Clean Code Cookbook is Out](/Articles/unsorted/Clean%20Code%20Cookbook%20is%20Out/readme.md)
 
