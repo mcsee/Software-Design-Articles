@@ -532,6 +532,10 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 231 - Redundant Data](/Articles/Code%20Smells/Code%20Smell%20231%20-%20Redundant%20Data/readme.md)
 
+* [Code Smell 232 - Reusable Code](/Articles/Code%20Smells/Code%20Smell%20232%20-%20Reusable%20Code/readme.md)
+
+* [Code Smell 233 - Collections Count](/Articles/Code%20Smells/Code%20Smell%20233%20-%20Collections%20Count/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)

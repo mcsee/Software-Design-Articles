@@ -2,24 +2,37 @@
             
 ![Code Smell 231 - Redundant Data](Code%20Smell%20231%20-%20Redundant%20Data.jpg)
 
-**
+*Where are your sources of truth?*
 
 > TL;DR: Say it only once
 
 # Problems
 
-- 
+- Don't Repeat Yourself principle violation
+
+- Consistency problems
+
+- Maintainability
+
+- Testing and Debugging
 
 # Solutions
 
-1. 
-
-# Refactorings
-
-%[
+1. Keep the responsibilities to relevant objects and delegate to a single source of truth
 
 # Context
 
+The principle of "Don't Repeat Yourself" (DRY) encourages you to avoid redundancy and duplication of behavior.
+
+Redundant data can lead to inconsistencies because updates or changes need to be made in multiple places. 
+
+If you update one instance of the data and forget to update another, your system can become inconsistent, which can lead to errors and unexpected behavior.
+
+Maintaining redundant data can be a nightmare when it comes to making changes or updates since It increases the workload and the likelihood of introducing errors during maintenance. 
+
+With a single source of truth, you only need to make changes in one place, simplifying the maintenance process.
+
+When data is repeated in multiple places, it becomes difficult to identify the authoritative source of that data, leading to confusion for developers.
 
 # Sample Code
 
@@ -96,23 +109,25 @@ This is a semantic smell
 
 # Exceptions
 
-- For performance issues, you can add caches and redundancy, but you need extra effort to keep the data synchronized
+- For performance issues, you can add [caches](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2049%20-%20Caches/readme.md) and redundancy, but you need extra effort to keep the data synchronized
 
 # Tags
 
-- 
+- Data
 
 # Conclusion
 
+In larger and more complex systems, redundancy becomes a significant problem. 
 
+As your system grows, the challenges associated with maintaining and synchronizing redundant data also increase.
+
+Redundant data also increases the surface area for testing and debugging.
+
+You need to ensure that all copies of the data behave consistently, which can be a challenging task.
 
 # Relations
 
 [Code Smell 49 - Caches](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2049%20-%20Caches/readme.md)
-
-# More Info
-
-[]()
 
 # Disclaimer
 
