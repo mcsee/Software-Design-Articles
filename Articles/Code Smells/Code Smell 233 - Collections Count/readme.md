@@ -14,12 +14,13 @@
 
 1. Accurately describe your collections
 
-# Refactorings
-
-%[
-
 # Context
 
+Names are significant and should not deceive the reader.
+												f
+You name things and lose the scope of the name. 
+
+It is important to be accurate of the expected reference on the names.
 
 # Sample Code
 
@@ -77,12 +78,19 @@ const standardModelParticles = {
 };
  
 const quarks = standardModelParticles.quarks.length; 
-// Bad names name. It is not representing a count
+// Bad name. It does not represent a count
+// But a Collection of things
 ```
 
 ## Right
 
-%[quarkCount]
+[Gist Url]: # (https://gist.github.com/mcsee/8b0d7ed980f656ff26f070e228fbc760)
+```javascript
+const standardModelParticles = {
+}; // Same as the "Wrong" example
+ 
+const quarksCount = standardModelParticles.quarks.length; 
+```
 
 # Detection
 
@@ -90,25 +98,23 @@ const quarks = standardModelParticles.quarks.length;
 
 Some linters can check the types and names and infer a mistake
 
-# Exceptions
-
--
-
 # Tags
 
-- 
+- Namings
 
 # Conclusion
 
+Take care of your names.
 
+Use automatic refactor tools whenever you come across a bad name.
 
 # Relations
 
-%[
+[Code Smell 163 - Collection in Name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20163%20-%20Collection%20in%20Name/readme.md)
 
-# More Info
+[Code Smell 134 - Specialized Business Collections](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20134%20-%20Specialized%20Business%20Collections/readme.md)
 
-[]()
+[Code Smell 33 - Abbreviations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2033%20-%20Abbreviations/readme.md)
 
 # Disclaimer
 
@@ -120,7 +126,7 @@ Photo by [Sandy Millar](https://unsplash.com/@sandym10) on [Unsplash](https://un
     
 * * *
 
-> Some people are good programmers because they can handle many more details than most people. But there are a lot of disadvantages in selecting programmers for that reason — it can result in programs that no one else can maintain.
+> Some people are good programmers because they can handle many more details than most people. But there are a lot of disadvantages in selecting programmers for that reason - it can result in programs that no one else can maintain.
 
 _Butler Lampson_
  

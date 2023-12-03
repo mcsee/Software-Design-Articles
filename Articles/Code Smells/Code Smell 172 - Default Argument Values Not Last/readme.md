@@ -2,7 +2,7 @@
             
 ![Code Smell 172 - Default Argument Values Not Last](Code%20Smell%20172%20-%20Default%20Argument%20Values%20Not%20Last.jpg)
 
-*Function signature should be error prune*
+*Function signature should be error prone*
 
 > TL;DR: Don't use Optional Arguments before mandatory ones. In fact: Don't use Optional Arguments at all
 

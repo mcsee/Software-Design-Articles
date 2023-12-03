@@ -5,3 +5,7 @@
 Change the image
 
 > TL;DR: How to remove repeated code
+
+
+
+code smell 232

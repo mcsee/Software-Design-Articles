@@ -2,9 +2,9 @@
             
 ![Code Smell 232 - Reusable Code](Code%20Smell%20232%20-%20Reusable%20Code.jpg)
 
-*Don't Repeat Yourself*
+*Don't Repeat Yourself. Don't Repeat Yourself*
 
-> TL;DR: You find a missing abstraction by looking at repeated code
+> TL;DR: You can find missing abstractions by looking at repeated code
 
 # Problems
 
@@ -73,9 +73,9 @@ The abstraction must have a dependency correspondence on the [Bijection](https:/
 
 Repeated code is a problem and a hint for a missing abstraction.
 
-Remember you don't need to avoid cut and pasting.
+Remember you *don't need to avoid* copying and pasting.
 
-You must explicitly write the repeated code and remove the duplication by introducing an abstraction.
+You must explicitly *write* the repeated code and remove the duplication by introducing an abstraction.
 
 Avoiding the cut and paste is a shortcut and a symptom of premature optimization.
 
@@ -84,8 +84,6 @@ Avoiding the cut and paste is a shortcut and a symptom of premature optimization
 [Code Smell 46 - Repeated Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2046%20-%20Repeated%20Code/readme.md)
 
 [Code Smell 182 - Over Generalization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20182%20-%20Over%20Generalization/readme.md)
-
-# More Info
 
 # Disclaimer
 

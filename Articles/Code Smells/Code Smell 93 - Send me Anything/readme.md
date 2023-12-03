@@ -10,7 +10,7 @@
 
 - Fail Fast principle violation
 
-- Error prune
+- Error prone
 
 - Readability
 

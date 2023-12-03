@@ -89,7 +89,7 @@ $coordinate = new GeographicCoordinate(1000, 2000);
 final class Latitude {
     function __construct($degrees) {
         if (!$degrees->between(-90, 90)) {
-            throw new InvalidLatitudeException($latitude);
+            throw new InvalidLatitudeException($degrees);
         }
         // ...
     }
@@ -139,6 +139,8 @@ Most associative arrays have cohesion and represent real-world entities, and we 
 [Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
 [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
+
+[Refactoring 012 - Reify Associative Arrays](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20012%20-%20Reify%20Associative%20Arrays/readme.md)
 
 # Credits
 

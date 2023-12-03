@@ -28,7 +28,8 @@ Parentheses often break this flow, adding cognitive complexity
 
 [Gist Url]: # (https://gist.github.com/mcsee/03c6940b1fa140572f29bfe37cf784c1)
 ```javascript
-schwarzschild = ((((2 * GRAVITATION_CONSTANT)) * mass) / ((LIGHT_SPEED ** 2)))
+schwarzschild =
+  ((((2 * GRAVITATION_CONSTANT)) * mass) / ((LIGHT_SPEED ** 2)))
 ```
 
 ## Right

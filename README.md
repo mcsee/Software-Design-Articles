@@ -536,6 +536,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 233 - Collections Count](/Articles/Code%20Smells/Code%20Smell%20233%20-%20Collections%20Count/readme.md)
 
+* [Code Smell 234 - Long Circuit](/Articles/Code%20Smells/Code%20Smell%20234%20-%20Long%20Circuit/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
@@ -658,9 +660,11 @@ In this repository, you will find many articles related to Software Design
 
 * [Refactoring 011 - Replace Comments with Tests](/Articles/Refactorings/Refactoring%20011%20-%20Replace%20Comments%20with%20Tests/readme.md)
 
-* [Refactoring 012 - Remove Repeated Code](/Articles/Refactorings/Refactoring%20012%20-%20Remove%20Repeated%20Code/readme.md)
+* [Refactoring 012 - Reify Associative Arrays](/Articles/Refactorings/Refactoring%20012%20-%20Reify%20Associative%20Arrays/readme.md)
 
 * [Refactoring 013 - Remove IF](/Articles/Refactorings/Refactoring%20013%20-%20Remove%20IF/readme.md)
+
+* [Refactoring 015 - Remove Repeated Code](/Articles/Refactorings/Refactoring%20015%20-%20Remove%20Repeated%20Code/readme.md)
 
 ### Wordle
 
