@@ -1,20 +1,25 @@
 def is_warm():
-    # This is a fast api call to our thermometer
-    response = requests.get("https://iot-device-api.example.com/current_temperature")
+    # This is a fast api call to your thermometer
+    response = requests.get
+        ("https://iot-device-api.example.com/current_temperature")
     temperature_data = response.json()
     
     return temperature_data.get('temperature', 0) > 25  
     
 def is_weekend():
-    # This function checks if today is a weekend based on a slow calendar API call
-    response = requests.get("https://calendar-api.example.com/today")
+    # This function checks if today is a weekend
+    # based on a slow calendar API call
+    response = requests.get
+        ("https://calendar-api.example.com/today")
     calendar_data = response.json()
     
-    return calendar_data.get('day_of_week', '').lower() in ['saturday', 'sunday']
+    return calendar_data.get('day_of_week', '').lower() 
+        in ['saturday', 'sunday']
 
 def is_sunny():
     # Very slow function to a low performant weather API call
-    response = requests.get("https://weather-api.example.com/current")
+    response = requests.get
+        ("https://weather-api.example.com/current")
     weather_data = response.json()
     
     return weather_data.get('weather', '') == 'sunny'
