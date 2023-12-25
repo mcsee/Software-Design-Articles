@@ -2,7 +2,9 @@
 public function test10NoMatch() {
         $firstWord = new Word('trees');
         $secondWord = new Word('valid');
-        $this->assertEquals([], $firstWord->matchesPositionWith($secondWord));
+        $this->assertEquals(
+                [],
+                $firstWord->matchesPositionWith($secondWord));
     }
 
 

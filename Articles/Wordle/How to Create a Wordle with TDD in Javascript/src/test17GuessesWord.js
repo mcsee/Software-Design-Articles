@@ -15,5 +15,6 @@ class Game {
     this._correctWord = correctWord;
   }
   hasWon() {
-    return this._attempts.some(attempt => attempt.sameAs(this._correctWord)); 
+    return this._attempts.some(
+      attempt => attempt.sameAs(this._correctWord)); 
 }

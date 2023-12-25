@@ -350,6 +350,138 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 168 - Undocumented Decisions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20168%20-%20Undocumented%20Decisions/readme.md)
 
+[Code Smell 169 - Glued Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20169%20-%20Glued%20Methods/readme.md) 
+
+[Code Smell 170 - Refactor with Functional Changes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20170%20-%20Refactor%20with%20Functional%20Changes/readme.md) 
+
+[Code Smell 171 - Plural Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20171%20-%20Plural%20Classes/readme.md) 
+
+[Code Smell 172 - Default Argument Values Not Last](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20172%20-%20Default%20Argument%20Values%20Not%20Last/readme.md) 
+
+[Code Smell 173 - Broken Windows](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20173%20-%20Broken%20Windows/readme.md) 
+
+[Code Smell 174 - Class Name in Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20174%20-%20Class%20Name%20in%20Attributes/readme.md) 
+
+[Code Smell 175 - Changes Without Coverage](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20175%20-%20Changes%20Without%20Coverage/readme.md) 
+
+[Code Smell 176 - Changes in Essence](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20176%20-%20Changes%20in%20Essence/readme.md) 
+
+[Code Smell 177 - Missing Small Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20177%20-%20Missing%20Small%20Objects/readme.md) 
+
+[Code Smell 178 - Subsets Violation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20178%20-%20Subsets%20Violation/readme.md) 
+
+[Code Smell 179 - Known Bugs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20179%20-%20Known%20Bugs/readme.md) 
+
+[Code Smell 180 - BitWise Optimizations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20180%20-%20BitWise%20Optimizations/readme.md) 
+
+[Code Smell 181 - Nested Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20181%20-%20Nested%20Classes/readme.md) 
+
+[Code Smell 182 - Over Generalization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20182%20-%20Over%20Generalization/readme.md) 
+
+[Code Smell 183 - Obsolete Comments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20183%20-%20Obsolete%20Comments/readme.md) 
+
+[Code Smell 184 - Exception Arrow Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20184%20-%20Exception%20Arrow%20Code/readme.md) 
+
+[Code Smell 185 - Evil Regular Expressions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20185%20-%20Evil%20Regular%20Expressions/readme.md) 
+
+[Code Smell 186 - Hardcoded Business Conditions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20186%20-%20Hardcoded%20Business%20Conditions/readme.md) 
+
+[Code Smell 187 - If/Else Backwards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20187%20-%20If%20Else%20Backwards/readme.md) 
+
+[Code Smell 188 - Redundant Parameter Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20188%20-%20Redundant%20Parameter%20Names/readme.md) 
+
+[Code Smell 189 - Not Sanitized Input](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20189%20-%20Not%20Sanitized%20Input/readme.md) 
+
+[Code Smell 190 - Unnecessary Properties](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20190%20-%20Unnecessary%20Properties/readme.md)
+
+[Code Smell 191 - Misplaced Responsibility](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20191%20-%20Misplaced%20Responsibility/readme.md)
+
+[Code Smell 192 - Optional Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20192%20-%20Optional%20Attributes/readme.md)
+
+[Code Smell 193 - Switch Instead of Formula](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20193%20-%20Switch%20Instead%20of%20Formula/readme.md)
+
+[Code Smell 194 - Missing Interval](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20194%20-%20Missing%20Interval/readme.md)
+
+[Code Smell 195 - Yoda Conditions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20195%20-%20Yoda%20Conditions/readme.md)
+
+[Code Smell 196 - Javascript Array Constructors](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20196%20-%20Javascript%20Array%20Constructors/readme.md)
+
+[Code Smell 197 - Gratuitous Context](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20197%20-%20Gratuitous%20Context/readme.md)
+
+[Code Smell 198 - Hidden Assumptions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20198%20-%20Hidden%20Assumptions/readme.md)
+
+[Code Smell 199 - Gratuitous Booleans](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20199%20-%20Gratuitous%20Booleans/readme.md)
+
+[Code Smell 200 - Poltergeist](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20200%20-%20Poltergeist/readme.md)
+
+[Code Smell 201 - Nested Ternaries](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20201%20-%20Nested%20Ternaries/readme.md)
+
+[Code Smell 202 - God Constant Class](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20202%20-%20God%20Constant%20Class/readme.md)
+
+[Code Smell 203 - Irrelevant Test Information](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20203%20-%20Irrelevant%20Test%20Information/readme.md)
+
+[Code Smell 204 - Tests Depending on Dates](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20204%20-%20Tests%20Depending%20on%20Dates/readme.md)
+
+[Code Smell 205 - Code in Destructors](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20205%20-%20Code%20in%20Destructors/readme.md)
+
+[Code Smell 206 - Long Ternaries](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20206%20-%20Long%20Ternaries/readme.md)
+
+[Code Smell 207 - Dynamic Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20207%20-%20Dynamic%20Methods/readme.md)
+
+[Code Smell 208 - Null Island](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20208%20-%20Null%20Island/readme.md)
+
+[Code Smell 209 - Side Effects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20209%20-%20Side%20Effects/readme.md)
+
+[Code Smell 210 - Dynamic Properties](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20210%20-%20Dynamic%20Properties/readme.md)
+
+[Code Smell 211 - Tab over Spaces](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20211%20-%20Tab%20over%20Spaces/readme.md)
+
+[Code Smell 212 - Elvis Operator](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20212%20-%20Elvis%20Operator/readme.md)
+
+[Code Smell 213 - Hoisting](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20213%20-%20Hoisting/readme.md)
+
+[Code Smell 214 - Duplicate Parameter Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20214%20-%20Duplicate%20Parameter%20Names/readme.md)
+
+[Code Smell 215 - Deserializing Object Vulnerability](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20215%20-%20Deserializing%20Object%20Vulnerability/readme.md)
+
+[Code Smell 216 - Fat Interface](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20216%20-%20Fat%20Interface/readme.md)
+
+[Code Smell 217 - Empty Implementation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20217%20-%20Empty%20Implementation/readme.md)
+
+[Code Smell 218 - Magic Concatenation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20218%20-%20Magic%20Concatenation/readme.md)
+
+[Code Smell 219 - Looping from index 0](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20219%20-%20Looping%20from%20index%200/readme.md)
+
+[Code Smell 220 - Return Tuple](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20220%20-%20Return%20Tuple/readme.md)
+
+[Code Smell 221 - Missing Break in Switch](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20221%20-%20Missing%20Break%20in%20Switch/readme.md)
+
+[Code Smell 222 - Comma Operator](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20222%20-%20Comma%20Operator/readme.md)
+
+[Code Smell 223 - Racial Naming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20223%20-%20Racial%20Naming/readme.md)
+
+[Code Smell 224 - Deodorant Comments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20224%20-%20Deodorant%20Comments/readme.md)
+
+[Code Smell 225 - Pass by Reference](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20225%20-%20Pass%20by%20Reference/readme.md)
+
+[Code Smell 226 - Mixed Priorities](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20226%20-%20Mixed%20Priorities/readme.md)
+
+[Code Smell 227 - Cowboy Coding](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20227%20-%20Cowboy%20Coding/readme.md)
+
+[Code Smell 228 - Multiple Classes per File](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20228%20-%20Multiple%20Classes%20per%20File/readme.md)
+
+[Code Smell 229 - Red Tape](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20229%20-%20Red%20Tape/readme.md)
+
+[Code Smell 230 - Schrödinger Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20230%20-%20Schrodinger%20Code/readme.md)
+
+[Code Smell 231 - Redundant Data](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20231%20-%20Redundant%20Data/readme.md)
+
+[Code Smell 232 - Reusable Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20232%20-%20Reusable%20Code/readme.md)
+
+[Code Smell 233 - Collections Count](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20233%20-%20Collections%20Count/readme.md)
+
+[Code Smell 234 - Long Circuit](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20234%20-%20Long%20Circuit/readme.md)
+  
 ... and many more to come.
 
 * * *

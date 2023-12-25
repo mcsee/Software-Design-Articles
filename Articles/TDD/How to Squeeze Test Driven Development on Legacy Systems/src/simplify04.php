@@ -5,8 +5,14 @@ function simplify(array $patterns): array {
         function ($outerPattern) use ($patterns) {
             foreach ($patterns as $innerPattern) {
                 if ($outerPattern != $innerPattern &&
-                    substr_compare($outerPattern, $innerPattern, 0, strlen($innerPattern)) === 0) {
-                        return false;
+                    substr_compare(
+                        $outerPattern, 
+                        $innerPattern,
+                        0,
+                        strlen($innerPattern)
+                        )
+                        === 0) {
+                    return false;
                 }
             }
             return true;

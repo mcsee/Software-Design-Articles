@@ -292,7 +292,8 @@ input.style.width = '100px';
 
 [Gist Url]: # (https://gist.github.com/mcsee/21932f36905040772ae706275224a255)
 ```javascript
-/*add a button by the field with the 'tick' character. The Button must have un id named 'validate' */
+/* add a button by the field with the 'tick' character. 
+The Button must have un id named 'validate' */
 
 var button = document.createElement('button');
 button.innerHTML = '&#10003;';
@@ -451,7 +452,8 @@ we need to check if the characters of the chosen row
 are included in the secret word. 
 If they are, the cell should be marked as yellow (#edc953) */
 
-document.getElementById('validate').addEventListener('click', function(event) { 
+document.getElementById('validate').addEventListener('click',
+  function(event) { 
   var cells = document.querySelectorAll('td');
   for (var i = 0; i < cells.length; i++) {
     if (i >= rowIndex * 5 && i < (rowIndex + 1) * 5) {
@@ -475,7 +477,8 @@ document.getElementById('validate').addEventListener('click', function(event) {
 
 // if character is in right position, cell should be in green (#aedb95)
 
-document.getElementById('validate').addEventListener('click', function(event) {
+document.getElementById('validate').addEventListener('click', 
+  function(event) {
   for (var i = 0; i < cells.length; i++) {
     if (i >= rowIndex * 5 && i < (rowIndex + 1) * 5) {
       if (secretWord.charAt(i - rowIndex * 5) === cells[i].innerHTML) {
@@ -498,8 +501,9 @@ document.getElementById('validate').addEventListener('click', function(event) {
 ```javascript
 /* when clicking validate button, rowIndex variable increases */
 
-document.getElementById('validate').addEventListener('click', function(event) {
-  rowIndex++;
+document.getElementById('validate').addEventListener('click',
+  function(event) {
+    rowIndex++;
 });
 ```
 
@@ -515,9 +519,11 @@ document.getElementById('validate').addEventListener('click', function(event) {
 ```javascript
 // Step 25
 
-// when pushing remove button, every letter is erased, rowIndex goes to 0 and all cells turn gray 
+// when pushing remove button, every letter is erased,
+// rowIndex goes to 0 and all cells turn gray 
 
-document.getElementById('remove').addEventListener('click', function(event) {
+document.getElementById('remove').addEventListener('click', 
+  function(event) {
   var cells = document.querySelectorAll('td');
   for (var i = 0; i < cells.length; i++) {
     cells[i].innerHTML = '';
@@ -537,7 +543,8 @@ document.getElementById('remove').addEventListener('click', function(event) {
 ```javascript
 // Step 26
 
-/* save a collection of the following words: tools, super, faker, catch, cried in uppercase */
+/* save a collection of the following words:
+tools, super, faker, catch, cried in uppercase */
 
 var words = ['TOOLS', 'SUPER', 'FAKER', 'CATCH', 'CRIED'];
 ```
@@ -552,7 +559,8 @@ var words = ['TOOLS', 'SUPER', 'FAKER', 'CATCH', 'CRIED'];
 ```javascript
 // Step 27
 
-/* when pressing remove, chose randomly the secret word from the words collection */ 
+/* when pressing remove, 
+chose randomly the secret word from the words collection */ 
 
 document.getElementById('remove').addEventListener('click', function(event) {
   var randomIndex = Math.floor(Math.random() * words.length);

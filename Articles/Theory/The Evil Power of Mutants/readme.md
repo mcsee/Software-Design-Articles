@@ -142,13 +142,16 @@ In our first version, this control would be impossible. In the immutable version
 <?
 
 function __construct($aParty, $aCounterParty, $anAmount, $aDate) {
-    if ($aParty == $aCounterParty) {
-        throw new PartyAndCounterpartyCannotBeTheSameException($aParty, $aCounterParty);
-    }
-    $this->party = $aParty;
-    $this->counterparty = $aCounterParty;
-    $this->amount = $anAmount;
-    $this->date = $aDate;
+   if ($aParty == $aCounterParty) {
+      throw new 
+         PartyAndCounterpartyCannotBeTheSameException(
+            $aParty, 
+            $aCounterParty);
+   }
+   $this->party = $aParty;
+   $this->counterparty = $aCounterParty;
+   $this->amount = $anAmount;
+   $this->date = $aDate;
 }
 ```
 
@@ -163,7 +166,9 @@ If we create a movement in bitcoins for [May 12, 2020's halving event](https://w
 
 [Gist Url]: # (https://gist.github.com/mcsee/821d9499b2518d47f192faa6c0f0294c)
 ```php
-<? $halvingTransaction = new Movement($wallet, $destination, $bitcoins, Date(12,5,2020));
+<? 
+  $halvingTransaction = new Movement(
+    $wallet, $destination, $bitcoins, Date(12,5,2020));
 ```
 
 But this violates our unique design principle of maintaining a bijection with the real-world. Let's be true to our one rule.
@@ -176,7 +181,8 @@ $day12 = new Day(12);
 $year2020 = new Year(2020);
 $may2020 = new YearMonth(5, $year2020);
 $halvingDay = new Date($day12, $may2020);
-$halvingTransaction = new Movement($wallet, $destination, $bitcoins, $halvingDay);
+$halvingTransaction = new 
+  Movement($wallet, $destination, $bitcoins, $halvingDay);
 ```
 
 We model reality's entities such as a day of a month, a calendar year, and a date, forgetting about arbitrary implementations with integers because bijection and declarativity are more important than performance and laziness.

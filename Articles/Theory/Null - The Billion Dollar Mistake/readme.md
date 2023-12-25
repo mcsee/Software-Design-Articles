@@ -45,22 +45,22 @@ Example 1: Lets us model the interaction between people during the current covid
 <?
 
 final class City {
-    public function interactionBetween($somePerson, $anotherPerson) {
-        if ($this->meetingProbability() < random()) {
-            return null; // no interaction
-        } else {
-            return new PersonToPersonInteraction($somePerson, $anotherPerson);
-        }
+   public function interactionBetween($somePerson, $anotherPerson) {
+       if ($this->meetingProbability() < random()) {
+           return null; // no interaction       
+       } else {
+           return new PersonToPersonInteraction($somePerson, $anotherPerson);
+       }
     }
 }
 
 final class PersonToPersonInteraction {
-    public function propagate($aVirus) {
-        if ($this->somePerson->isInfectedWith($aVirus) 
-        && $aVirus->infectionProbability() > random()) {
-            $this->anotherPerson->getInfectedWith($aVirus);
-        }
-    }
+   public function propagate($aVirus) {
+       if ($this->somePerson->isInfectedWith($aVirus) 
+           && $aVirus->infectionProbability() > random()) {
+           $this->anotherPerson->getInfectedWith($aVirus);
+       }
+   }
 }
 
 $covid19 = new Virus();
@@ -76,7 +76,7 @@ if ($interaction != null) {
 /* In this example we modeled the interaction 
 between an infected person and a healthy one.
 Jane is healthy but might be infected 
-if Virus R0 applies to her.*/
+if Virus R0 applies to her. */
 ```
 
 We can see there are two null flags and the corresponding if clause.
@@ -195,19 +195,20 @@ final class SocialDistancing implements SocialInteraction {
 }
 
 final class PersonToPersonInteraction implements SocialInteraction {
-    public function propagate($aVirus) {
-        if ($this->somePerson->isInfectedWith($aVirus) && $aVirus->infectionProbability() > random()) {
-            $this->anotherPerson->getInfectedWith($aVirus);
-        }
-    }
+   public function propagate($aVirus) {
+       if ($this->somePerson->isInfectedWith($aVirus) 
+           && $aVirus->infectionProbability() > random()) {
+              $this->anotherPerson->getInfectedWith($aVirus);
+       }
+   }
 }
 
 final class City {
 
     public function interactionBetween($aPerson, $anotherPerson) {
         return new SocialDistancing(); 
-    // The cities are smart enough to implement
-    // social distancing to model Person to Person interactions
+        // The cities are smart enough to implement
+        // social distancing to model Person to Person interactions
     }
 }
 

@@ -1,5 +1,8 @@
 test("test15TryFiveWordsLoses", async function() {
-  const game = new Game([new Word('loser'), new Word('music')], new Word('music'));
+  const game = new Game(
+    [new Word('loser'),
+    new Word('music')],
+    new Word('music'));
   game.addAttempt(new Word('loser'));
   game.addAttempt(new Word('loser'));
   game.addAttempt(new Word('loser'));

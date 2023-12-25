@@ -116,7 +116,8 @@ We replace the algorithmic and error prune letter count computations with our mo
 	  
 /* when clicking validate button we add an attempt */
 
-document.getElementById('validate').addEventListener('click', function(event) {
+document.getElementById('validate').
+	addEventListener('click', function(event) {
   var cells = document.querySelectorAll('td');
   var currentLetters = '';
   for (var i = 0; i < cells.length; i++) {
@@ -150,7 +151,8 @@ document.getElementById('validate').addEventListener('click', function(event) {
      status.value = 'Congratulations. You won!';
   }
   if (game.hasLost()){
-     status.value = 'Sorry. You have lost! Correct word was ' + winnerWord.word();
+     status.value = 'Sorry. You have lost! Correct word was ' + 
+			 winnerWord.word();
   }
   document.getElementById('input').value = '';
   rowIndex = game.wordsAttempted().length;
@@ -172,7 +174,8 @@ This was one of the many mistakes corrected from the first version.
 ```javascript
 // Step 27
 
-/* when pressing remove, chose randomly the secret word from the words collection */ 
+/* when pressing remove, 
+chose randomly the secret word from the words collection */ 
 
 document.getElementById('remove').addEventListener('click', function(event) {
   var randomIndex = Math.floor(Math.random() * words.length);

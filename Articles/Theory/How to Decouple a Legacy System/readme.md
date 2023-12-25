@@ -167,14 +167,16 @@ This is a _code smell_ suggesting us to check the **cohesion** between this para
 <?
 
 final class SupervisedLearningAlgorithm {
-    public function calculate($processId) {
-    }
-
-    private function analize($processId) {
-    }
-
-    private function executeAndGetData($processId, $isUsingFastMethod = null) {
-    }
+  public function calculate($processId) {
+  }
+    
+  private function analize($processId) {
+  }
+    
+  private function executeAndGetData(
+    $processId,
+    $isUsingFastMethod = null) {
+  }
     // ... etc etc etc
 }
 ```
@@ -239,11 +241,13 @@ It violates the principle of **bijection** and generates coupling between the fu
 ```php
 <?
 
-private function executeAndGetData($processId, $isUsingFastMethod = null) {
+private function 
+  executeAndGetData($processId, $isUsingFastMethod = null) {
 
 }
 
-private function executeAndGetData($processId, bool $isUsingFastMethod = false) {
+private function 
+  executeAndGetData($processId, bool $isUsingFastMethod = false) {
 
 }
 ```

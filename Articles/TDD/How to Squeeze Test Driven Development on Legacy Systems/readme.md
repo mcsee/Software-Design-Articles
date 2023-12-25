@@ -270,8 +270,14 @@ function simplify(array $patterns): array {
         function ($outerPattern) use ($patterns) {
             foreach ($patterns as $innerPattern) {
                 if ($outerPattern != $innerPattern &&
-                    substr_compare($outerPattern, $innerPattern, 0, strlen($innerPattern)) === 0) {
-                        return false;
+                    substr_compare(
+                        $outerPattern, 
+                        $innerPattern,
+                        0,
+                        strlen($innerPattern)
+                        )
+                        === 0) {
+                    return false;
                 }
             }
             return true;
@@ -334,10 +340,17 @@ function test06CapitalizationIsNotImportantWeMustSimplify() {
 <?
 
 function simplify(array $patterns): array {
-    return array_values(array_filter($patterns, function ($outerPattern) use ($patterns) {
+    return array_values(array_filter($patterns,
+        function ($outerPattern) use ($patterns) {
         foreach ($patterns as $innerPattern) {
             if ($outerPattern != $innerPattern &&
-                substr_compare($outerPattern, $innerPattern, 0, strlen($innerPattern), true) === 0) {
+                substr_compare(
+                    $outerPattern,
+                    $innerPattern,
+                    0,
+                    strlen($innerPattern),
+                    true)
+                  === 0) {
                 return false;
             }
         }
@@ -358,10 +371,15 @@ Code smells and we have several test cases. We need a better solution.
 ```php
 <?
 
-private function alreadyIncludesPattern(array $patterns, string $needlePattern): bool {
+private function alreadyIncludesPattern(
+    array $patterns, string $needlePattern): bool {
     foreach ($patterns as $innerPattern) {
         if ($needlePattern != $innerPattern &&
-            substr_compare($needlePattern, $innerPattern, 0, strlen($innerPattern), true) === 0) {
+            substr_compare
+                ($needlePattern,
+                 $innerPattern,
+                 0,
+                 strlen($innerPattern), true) === 0) {
             return false;
         }
     }
@@ -370,7 +388,8 @@ private function alreadyIncludesPattern(array $patterns, string $needlePattern):
 
 function simplify(array $patterns): array {
     return array_values(array_filter($patterns,
-        fn ($outerPattern) => $this->alreadyIncludesPattern($patterns, $outerPattern)));
+        fn ($outerPattern) => $this->alreadyIncludesPattern(
+            $patterns, $outerPattern)));
 }
 ```
 
@@ -387,7 +406,11 @@ function simplify(array $patterns): array {
 function test07MultipleRelatedPatternsSimplifyTwoOfThem() {
     $this->assertEquals(['Arcade Fire', 'Radiohead', 'Sigur'],
         (new LikePatternSimplifier())->simplify(
-            ['Arcade Fire', 'Radiohead.', 'Radiohead', 'Sigur Ros', 'Sigur']));
+            ['Arcade Fire',
+             'Radiohead.',
+             'Radiohead',
+             'Sigur Ros',
+             'Sigur']));
 }
 
 ```
@@ -408,7 +431,10 @@ private function addTerms(string $SQLSelect) {
     $selectSentence = $this->createSqlWhere();
     foreach ($this->texts() as $text) {
         $selectSentence->addWhere(
-            $this->tableAlias() . " LIKE '%" . $this->sanitize($text) . "%'");
+            $this->tableAlias() . 
+            " LIKE '%" . 
+            $this->sanitize($text) .
+            "%'");
     }
     $SQLselect->addWhere($selectSentence->asSQLSentence());
 }
@@ -424,11 +450,15 @@ Let's inject it.
 private function addTerms(string $SQLselect) {
     $selectSentence = $this->createSqlWhere();
     // INJECTED CODE
-    $simplifiedTerms = (new LikePatternSimplifier())->simplify($this->texts());
+    $simplifiedTerms = 
+        (new LikePatternSimplifier())->simplify($this->texts());
     // INJECTED CODE
     foreach ($simplifiedTerms as $text) {
         $selectSentence->addWhere(
-            $this->tableAlias() . " LIKE '%" . $this->sanitize($text) . "%'");
+            $this->tableAlias() .
+            " LIKE '%" .
+            $this->sanitize($text) .
+            "%'");
     }
     $SQLselect->addWhere($selectSentence->asSQLSentence());
 }
@@ -460,19 +490,22 @@ Customer agreed to add this functionality.
 function test08LeftPatternMiddleOfRightOneShouldBeSimplified() {
     $this->assertEquals(
         ['house'],
-        (new LikePatternSimplifier())->simplify(['house', 'casahousecasa']));
+        (new LikePatternSimplifier())->simplify
+        (['house', 'casahousecasa']));
 }
 
 function test09RightPatternMiddleOfLeftOneShouldBeSimplified() {
     $this->assertEquals(
         ['medio'],
-        (new LikePatternSimplifier())->simplify(['enmediodetodo', 'medio']));
+        (new LikePatternSimplifier())->simplify(
+            ['enmediodetodo', 'medio']));
 }
 
-function test10RightPatternMiddleOfLeftOneAnotherUnrelatedShouldBeSimplified() {
+function test10RightPatternMiddleOfLeftOneUnrelatedShouldBeSimplified() {
     $this->assertEquals(
         ['medio', 'nada'],
-        (new LikePatternSimplifier())->simplify(['enmediodetodo', 'medio', 'nada']));
+        (new LikePatternSimplifier())->simplify(
+            ['enmediodetodo', 'medio', 'nada']));
 }
 
 // Test data were suggested by Spanish speaking QA Engineers
@@ -554,7 +587,8 @@ We can fix it by doing a duplicate's remover case-insensitive pre-processor at t
 ```php
 <?
 
-private function removeDuplicates(array $patternsWithPossibleDuplicates): array {
+private function removeDuplicates(
+    array $patternsWithPossibleDuplicates): array {
     return array_intersect_key(
         $patternsWithPossibleDuplicates,
         array_unique(
@@ -564,7 +598,9 @@ private function removeDuplicates(array $patternsWithPossibleDuplicates): array 
 function simplify(array $patterns): array {
     $patternsWithoutDuplicates = $this->removeDuplicates($patterns);
     return array_values(array_filter($patternsWithoutDuplicates,
-        fn ($outerPattern) => $this->alreadyIncludesPattern($patternsWithoutDuplicates, $outerPattern)));
+        fn ($outerPattern) => 
+           $this->alreadyIncludesPattern(
+               $patternsWithoutDuplicates, $outerPattern)));
 }
 ```
 
@@ -615,25 +651,29 @@ Tests are green again
 function test14SamePatternsDifferentCaseWithExtraShouldSimplifyTwo() {
     $this->assertEquals(
         ['Yes', 'no'],
-        (new LikePatternSimplifier())->simplify(['Yes', 'yes', 'no']));
+        (new LikePatternSimplifier())->simplify(
+            ['Yes', 'yes', 'no']));
 }
 
 function test15TwoPairsOfPatternsDifferentCaseShouldSimplifyTwo() {
     $this->assertEquals(
         ['Yes', 'no'],
-        (new LikePatternSimplifier())->simplify(['Yes', 'yes', 'no', 'No']));
+        (new LikePatternSimplifier())->simplify(
+            ['Yes', 'yes', 'no', 'No']));
 }
 
 function test16TwoPairsOfPatternsDifferentCaseExtraShouldSimplifyThree() {
     $this->assertEquals(
         ['Yes', 'no', 'Sure'],
-        (new LikePatternSimplifier())->simplify(['Yes', 'yes', 'no', 'No', 'Sure']));
+        (new LikePatternSimplifier())->simplify(
+            ['Yes', 'yes', 'no', 'No', 'Sure']));
 }
 
-function test17TwoPairsOfPatternsDifferentCaseExtraTrickyShouldSimplifyTwo() {
+function test17TwoPairsOfPatternsDifferentCaseTrickyShouldSimplifyTwo() {
     $this->assertEquals(
         ['Yes', 'no'],
-        (new LikePatternSimplifier())->simplify(['Yes', 'yes', 'no', 'No', 'Not Sure']));
+        (new LikePatternSimplifier())->simplify(
+            ['Yes', 'yes', 'no', 'No', 'Not Sure']));
 }
 //’Not sure’ is a special case of ‘No’ which makes sense in a like pattern
 ```

@@ -64,7 +64,8 @@
 
 [Gist Url]: # (https://gist.github.com/mcsee/3038811d4e9e821908b54092ad8efaee)
 ```java
-// 1. Extract the methods (and accidentally the properties) coupled into a new concept      
+// 1. Extract the methods (and accidentally the properties) 
+// coupled into a new concept      
    public class TelephoneNumber {
    
       private String number;

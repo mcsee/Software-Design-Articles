@@ -215,13 +215,14 @@ Let’s try adding the constraint on the number of vertices in the constructor:
 
 final class Polygon {
 
-    private $vertices;
+  private $vertices;
 
-    private function __construct(Collection $newVertices) {
-        if (count($newVertices < 3)) {
-            throw new Exception('Cannot create a polygon with less than 3 vertices');
-        }
-        $this->vertices = $newVertices;
+  private function __construct(Collection $newVertices) {
+    if (count($newVertices < 3)) {
+       throw new 
+         Exception('Cannot create a polygon with less than 3 vertices');
+    }
+    $this->vertices = $newVertices;
     }
 }
 ```

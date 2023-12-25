@@ -94,7 +94,7 @@ const quarksCount = standardModelParticles.quarks.length;
 
 # Detection
 
-[X] SemiAutomatic 
+[X] Semi-Automatic 
 
 Some linters can check the types and names and infer a mistake
 

@@ -9,5 +9,6 @@ test("test18CorrectWordNotInDictionary", async function() {
 class Game {
   constructor(validWords, correctWord) {
     if (!validWords.some(validWord => validWord.sameAs(correctWord)))
-      throw new Error("Correct word " + word.word() + " is not a valid word");  
+      throw new Error(
+        "Correct word " + word.word() + " is not a valid word");  
   }

@@ -733,7 +733,10 @@ As always. We stop faking it and decide to make it.
 [Gist Url]: # (https://gist.github.com/mcsee/91f61c07ac433e392490707413493c46)
 ```javascript
 test("test15TryFiveWordsLoses", async function() {
-  const game = new Game([new Word('loser'), new Word('music')], new Word('music'));
+  const game = new Game(
+    [new Word('loser'),
+    new Word('music')],
+    new Word('music'));
   game.addAttempt(new Word('loser'));
   game.addAttempt(new Word('loser'));
   game.addAttempt(new Word('loser'));
@@ -863,7 +866,8 @@ class Game {
     this._correctWord = correctWord;
   }
   hasWon() {
-    return this._attempts.some(attempt => attempt.sameAs(this._correctWord)); 
+    return this._attempts.some(
+      attempt => attempt.sameAs(this._correctWord)); 
 }
 
 ```
@@ -895,7 +899,8 @@ test("test18CorrectWordNotInDictionary", async function() {
 class Game {
   constructor(validWords, correctWord) {
     if (!validWords.some(validWord => validWord.sameAs(correctWord)))
-      throw new Error("Correct word " + word.word() + " is not a valid word");  
+      throw new Error(
+        "Correct word " + word.word() + " is not a valid word");  
   }
 ```
 
@@ -925,7 +930,10 @@ Zombies ask us always to check for (B)boundaries where bugs hide.
 [Gist Url]: # (https://gist.github.com/mcsee/c02c61e48fece9e40a0c29fde979b965)
 ```javascript
 test("test19TryFiveWordsWins", async function() {
-  const game = new Game([new Word('loser'),new Word('heros')],new Word('heros'));
+  const game = new Game(
+    [new Word('loser'),
+     new Word('heros')],
+     new Word('heros'));
   game.addAttempt(new Word('loser'));
   game.addAttempt(new Word('loser'));
   game.addAttempt(new Word('loser'));
@@ -1024,9 +1032,10 @@ matchesPositionWith(correctWord) {
    for (var currentPosition = 0; 
       currentPosition < this.letters().length; 
       currentPosition++) {
-       if (this.letters()[currentPosition] == correctWord.letters()[currentPosition]) {
+       if (this.letters()[currentPosition] == 
+           correctWord.letters()[currentPosition]) {
              positions.push(currentPosition + 1); 
-             //Humans start counting on 1
+             // Humans start counting on 1
        }
    }
    return positions;
@@ -1054,8 +1063,10 @@ and always the simplest solution...
 test("test23MatchesIncorrectPositions", async function() {
   const guessWord = new Word('trees');
   const correctWord = new Word('drama');
-  expect([2]).toStrictEqual(guessWord.matchesPositionWith(correctWord));
-  expect([]).toStrictEqual(guessWord.matchesIncorrectPositionWith(correctWord));
+  expect([2]).toStrictEqual(
+    guessWord.matchesPositionWith(correctWord));
+  expect([]).toStrictEqual(
+    guessWord.matchesIncorrectPositionWith(correctWord));
 });
 
 // The simplest solution
@@ -1078,11 +1089,15 @@ A more spicy test case.
 test("test24MatchesIncorrectPositionsWithMatch", async function() {
   const guessWord = new Word('alarm');
   const correctWord = new Word('drama');
-  expect([3]).toStrictEqual(guessWord.matchesPositionWith(correctWord));
-  expect([1, 4, 5]).toStrictEqual(guessWord.matchesIncorrectPositionWith(correctWord));
+  expect([3]).toStrictEqual(
+    guessWord.matchesPositionWith(correctWord));
+  expect([1, 4, 5]).toStrictEqual(
+    guessWord.matchesIncorrectPositionWith(correctWord));
   // A*ARM vs *RAMA
-  expect([3]).toStrictEqual(correctWord.matchesPositionWith(guessWord));
-  expect([2, 4, 5]).toStrictEqual(correctWord.matchesIncorrectPositionWith(guessWord));
+  expect([3]).toStrictEqual(
+    correctWord.matchesPositionWith(guessWord));
+  expect([2, 4, 5]).toStrictEqual(
+    correctWord.matchesIncorrectPositionWith(guessWord));
 });
 ```
 
@@ -1093,13 +1108,17 @@ Let's go for the implementation
  class Word {
   matchesIncorrectPositionWith(correctWord) {
       var positions = [];
-      for (var currentPosition = 0; currentPosition < 5; currentPosition++) {
-        if (correctWord.letters().includes(this.letters()[currentPosition])) {
-          positions.push(currentPosition + 1);
+      for (var currentPosition = 0;
+           currentPosition < 5; 
+           currentPosition++) {
+        if (correctWord.letters().
+            includes(this.letters()[currentPosition])) {
+             positions.push(currentPosition + 1);
         }
       }
       return positions.filter(function(position) {
-        return !this.matchesPositionWith(correctWord).includes(position);
+        return !this.matchesPositionWith(correctWord).
+         includes(position);
      }.bind(this));
     }
   }
@@ -1138,29 +1157,41 @@ test("test20220911", async function() {
   expect(game.hasLost()).toStrictEqual(false);
   // P(A)PER vs TIBIA
   game.addAttempt(new Word('paper'));
-  expect([]).toStrictEqual((new Word('paper')).matchesPositionWith(correctWord));
-  expect([2]).toStrictEqual((new Word('paper')).matchesIncorrectPositionWith(correctWord));
+  expect([]).toStrictEqual((new Word('paper')).
+                           matchesPositionWith(correctWord));
+  expect([2]).toStrictEqual((new Word('paper')).
+                            matchesIncorrectPositionWith(correctWord));
   // [T]OOLS vs TIBIA
-  expect([1]).toStrictEqual((new Word('tools')).matchesPositionWith(correctWord));
-  expect([]).toStrictEqual((new Word('tools')).matchesIncorrectPositionWith(correctWord));  
+  expect([1]).toStrictEqual((new Word('tools'))
+                            .matchesPositionWith(correctWord));
+  expect([]).toStrictEqual((new Word('tools'))
+                           .matchesIncorrectPositionWith(correctWord));  
   game.addAttempt(new Word('tools'));
   // MUS[I]C vs TIBIA
-  expect([4]).toStrictEqual((new Word('music')).matchesPositionWith(correctWord));
-  expect([]).toStrictEqual((new Word('music')).matchesIncorrectPositionWith(correctWord));
+  expect([4]).toStrictEqual((new Word('music')).
+                            matchesPositionWith(correctWord));
+  expect([]).toStrictEqual((new Word('music')).
+                           matchesIncorrectPositionWith(correctWord));
   game.addAttempt(new Word('music'));
   // [T]H(I)NK vs TIBIA
-  expect([1]).toStrictEqual((new Word('think')).matchesPositionWith(correctWord));
-  expect([3]).toStrictEqual((new Word('think')).matchesIncorrectPositionWith(correctWord));
+  expect([1]).toStrictEqual((new Word('think')).
+                            matchesPositionWith(correctWord));
+  expect([3]).toStrictEqual((new Word('think')).
+                            matchesIncorrectPositionWith(correctWord));
   game.addAttempt(new Word('think'));
   // [T]W(I)NS vs TIBIA
-  expect([1]).toStrictEqual((new Word('twins')).matchesPositionWith(correctWord));
-  expect([3]).toStrictEqual((new Word('twins')).matchesIncorrectPositionWith(correctWord));  
+  expect([1]).toStrictEqual((new Word('twins')).
+                            matchesPositionWith(correctWord));
+  expect([3]).toStrictEqual((new Word('twins')).
+                            matchesIncorrectPositionWith(correctWord));  
   game.addAttempt(new Word('twins'));  
   expect(game.hasWon()).toStrictEqual(false);
   expect(game.hasLost()).toStrictEqual(false);
   // [T][I]GHT vs TIBIA
-  expect([1, 2]).toStrictEqual((new Word('tight')).matchesPositionWith(correctWord));
-  expect([]).toStrictEqual((new Word('tight')).matchesIncorrectPositionWith(correctWord));  
+  expect([1, 2]).toStrictEqual((new Word('tight')).
+                               matchesPositionWith(correctWord));
+  expect([]).toStrictEqual((new Word('tight')).
+                           matchesIncorrectPositionWith(correctWord));  
   
   game.addAttempt(new Word('tight'));
   expect(game.hasWon()).toStrictEqual(false);
@@ -1189,26 +1220,38 @@ test("test25VeryComplexWrongPositions", async function() {
 
   const guessWord = new Word('geese');
   const correctWord = new Word('those');
-  expect([4, 5]).toStrictEqual(guessWord.matchesPositionWith(correctWord));
-  expect(['s','e']).toStrictEqual(guessWord.lettersAtCorrectPosition(correctWord));
-  expect([]).toStrictEqual(guessWord.lettersAtWrongtPosition(correctWord));
-  expect([]).toStrictEqual(guessWord.matchesIncorrectPositionWith(correctWord));
+  expect([4, 5]).toStrictEqual(guessWord.
+                       matchesPositionWith(correctWord));
+  expect(['s','e']).toStrictEqual(guessWord.
+                       lettersAtCorrectPosition(correctWord));
+  expect([]).toStrictEqual(guessWord.
+                       lettersAtWrongtPosition(correctWord));
+  expect([]).toStrictEqual(guessWord.
+                       matchesIncorrectPositionWith(correctWord));
   // GEE[S][E] vs THOSE
 
   const anotherGuessWord = new Word('added');
   const anotherCorrectWord = new Word('dread');
-  expect([5]).toStrictEqual(anotherGuessWord.matchesPositionWith(anotherCorrectWord));
-  expect(['d']).toStrictEqual(anotherGuessWord.lettersAtCorrectPosition(anotherCorrectWord));
-  expect(['a', 'd', 'e']).toStrictEqual(anotherGuessWord.lettersAtWrongtPosition(anotherCorrectWord));
-  expect([1, 2, 4]).toStrictEqual(anotherGuessWord.matchesIncorrectPositionWith(anotherCorrectWord));
+  expect([5]).toStrictEqual(anotherGuessWord.
+                       matchesPositionWith(anotherCorrectWord));
+  expect(['d']).toStrictEqual(anotherGuessWord.
+                       lettersAtCorrectPosition(anotherCorrectWord));
+  expect(['a', 'd', 'e']).toStrictEqual(anotherGuessWord.
+                       lettersAtWrongtPosition(anotherCorrectWord));
+  expect([1, 2, 4]).toStrictEqual(anotherGuessWord.
+                       matchesIncorrectPositionWith(anotherCorrectWord));
   // (A)(D)D(E)[D] vs DREAD
   
   const yetAnotherGuessWord = new Word('mamma');
   const yetAnotherCorrectWord = new Word('maxim');
-  expect([1, 2]).toStrictEqual(yetAnotherGuessWord.matchesPositionWith(yetAnotherCorrectWord));
-  expect(['m', 'a']).toStrictEqual(yetAnotherGuessWord.lettersInCorrectPosition(yetAnotherCorrectWord));
-  expect(['m']).toStrictEqual(yetAnotherGuessWord.lettersAtWrongtPosition(yetAnotherCorrectWord));
-  expect([3]).toStrictEqual(yetAnotherGuessWord.matchesIncorrectPositionWith(yetAnotherCorrectWord));
+  expect([1, 2]).toStrictEqual(yetAnotherGuessWord.
+                       matchesPositionWith(yetAnotherCorrectWord));
+  expect(['m', 'a']).toStrictEqual(yetAnotherGuessWord.
+                       lettersInCorrectPosition(yetAnotherCorrectWord));
+  expect(['m']).toStrictEqual(yetAnotherGuessWord.
+                       lettersAtWrongtPosition(yetAnotherCorrectWord));
+  expect([3]).toStrictEqual(yetAnotherGuessWord.
+                       matchesIncorrectPositionWith(yetAnotherCorrectWord));
   // [M][A](M)MA vs MAXIM
 });
 ```
@@ -1224,13 +1267,14 @@ matchesIncorrectPositionWith(correctWord) {
     var ownWordLetters = this.letters();
     for (var currentPosition = 0; currentPosition < 5; currentPosition++) {
       if (correctPositions.includes(currentPosition + 1)) {
-        // We can use these wildcards since they are no valid letters
+        // You can use these wildcards since they are no valid letters
         correctWordLetters.splice(currentPosition, 1, '*');
         ownWordLetters.splice(currentPosition, 1, '+');
       }
     }    
     for (var currentPosition = 0; currentPosition < 5; currentPosition++) {
-      const positionInCorrectWord = correctWordLetters.indexOf(ownWordLetters[currentPosition]);
+      const positionInCorrectWord = correctWordLetters.
+      indexOf(ownWordLetters[currentPosition]);
       if (positionInCorrectWord != -1) {        
         correctWordLetters.splice(positionInCorrectWord, 1, '*');
         ownWordLetters.splice(currentPosition, 1, '+');
@@ -1246,11 +1290,13 @@ We need to add another function (which will be useful for keyboard colors).
 [Gist Url]: # (https://gist.github.com/mcsee/a6f6822743d9e982f7d8ec39f6335a9f)
 ```javascript
 lettersAtCorrectPosition(correctWord) {
-    return this.matchesPositionWith(correctWord).map(position => this.letters()[position -1 ]);
+    return this.matchesPositionWith(correctWord).
+        map(position => this.letters()[position -1 ]);
 }
   
 lettersAtWrongtPosition(correctWord) {
-    return this.matchesIncorrectPositionWith(correctWord).map(position => this.letters()[position -1]);
+    return this.matchesIncorrectPositionWith(correctWord).
+        map(position => this.letters()[position -1]);
 }
 ```
 

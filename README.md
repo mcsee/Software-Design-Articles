@@ -538,6 +538,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 234 - Long Circuit](/Articles/Code%20Smells/Code%20Smell%20234%20-%20Long%20Circuit/readme.md)
 
+* [Code Smell 235 - Console Side Effects](/Articles/Code%20Smells/Code%20Smell%20235%20-%20Console%20Side%20Effects/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
@@ -705,6 +707,8 @@ In this repository, you will find many articles related to Software Design
 * [3.2 Identifying the Essence of Your Objects](/Articles/Unsorted/3.2%20Identifying%20the%20Essence%20of%20Your%20Objects/readme.md)
 
 ### unsorted
+
+* [Bridging the Industry-Academia Divide](/Articles/unsorted/78%20-%20Bridging%20the%20Industry-Academia%20Divide/readme.md)
 
 * [Clean Code Cookbook is Out](/Articles/unsorted/Clean%20Code%20Cookbook%20is%20Out/readme.md)
 

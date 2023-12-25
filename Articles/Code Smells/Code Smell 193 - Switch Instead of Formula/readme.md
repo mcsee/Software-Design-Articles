@@ -65,7 +65,9 @@ private static string GetPercentageRounds(double percentage)
 }
 
 // Full source
-// https://github.com/MinBZK/woo-besluit-broncode-digid-app/blob/master/Source/DigiD.iOS/Services/NFCService.cs
+// https://github.com/MinBZK/
+// woo-besluit-broncode-digid-app/
+// blob/master/Source/DigiD.iOS/Services/NFCService.cs
 ```
 
 ## Right?

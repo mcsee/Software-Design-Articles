@@ -11,19 +11,20 @@ final class SocialDistancing implements SocialInteraction {
 }
 
 final class PersonToPersonInteraction implements SocialInteraction {
-    public function propagate($aVirus) {
-        if ($this->somePerson->isInfectedWith($aVirus) && $aVirus->infectionProbability() > random()) {
-            $this->anotherPerson->getInfectedWith($aVirus);
-        }
-    }
+   public function propagate($aVirus) {
+       if ($this->somePerson->isInfectedWith($aVirus) 
+           && $aVirus->infectionProbability() > random()) {
+              $this->anotherPerson->getInfectedWith($aVirus);
+       }
+   }
 }
 
 final class City {
 
     public function interactionBetween($aPerson, $anotherPerson) {
         return new SocialDistancing(); 
-    // The cities are smart enough to implement
-    // social distancing to model Person to Person interactions
+        // The cities are smart enough to implement
+        // social distancing to model Person to Person interactions
     }
 }
 

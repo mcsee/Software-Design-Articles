@@ -47,7 +47,9 @@ use PHPUnit\Framework\TestCase;
 final class WordTest extends TestCase {
     public function test01ValidWordLettersAreValid() {
         $wordleWord = new Word('valid');
-        $this->assertEquals(['v', 'a', 'l', 'i', 'd'], $wordleWord->letters());
+        $this->assertEquals(
+            ['v', 'a', 'l', 'i', 'd'], 
+            $wordleWord->letters());
     }
 }
 ```
@@ -375,7 +377,9 @@ We add a different word for letters comparison
 
 public function test09LettersForGrassWord() {
         $grassWord = new Word('grass');
-        $this->assertEquals(['g', 'r', 'a', 's', 's'], $grassWord->letters());
+        $this->assertEquals(
+                ['g', 'r', 'a', 's', 's'], 
+                $grassWord->letters());
     }
 ```
 
@@ -864,7 +868,9 @@ We can do it in Word class.
 public function test10NoMatch() {
         $firstWord = new Word('trees');
         $secondWord = new Word('valid');
-        $this->assertEquals([], $firstWord->matchesPositionWith($secondWord));
+        $this->assertEquals(
+                [],
+                $firstWord->matchesPositionWith($secondWord));
     }
 
 
@@ -890,7 +896,9 @@ Let's match
   public function test11MatchesFirstLetter() {
         $firstWord = new Word('trees');
         $secondWord = new Word('table');
-        $this->assertEquals([1], $firstWord->matchesPositionWith($secondWord));
+        $this->assertEquals(
+            [1],
+            $firstWord->matchesPositionWith($secondWord));
     }
 ```
 
@@ -903,9 +911,13 @@ We need to define it better
 <?php
 function matchesPositionWith(Word $anotherWord) : array {
         $positions = [];
-        for ($currentPosition = 0; $currentPosition < count($this->letters()); $currentPosition++) {
-            if ($this->letters()[$currentPosition] == $anotherWord->letters()[$currentPosition]) {
-                $positions[] = $currentPosition + 1; // Humans start counting on 1
+        for ($currentPosition = 0; 
+             $currentPosition < count($this->letters());
+             $currentPosition++) {
+            if ($this->letters()[$currentPosition] ==
+                $anotherWord->letters()[$currentPosition]) {
+                        $positions[] = $currentPosition + 1; 
+                // Humans start counting on 1
                 // We can implement this better in several other languages
             }
         }
@@ -929,7 +941,9 @@ We can add a safety test to be more declarative
 public function test12MatchesAllLetters() {
         $firstWord = new Word('trees');
         $secondWord = new Word('trees');
-        $this->assertEquals([1, 2, 3, 4,5], $firstWord->matchesPositionWith($secondWord));
+        $this->assertEquals(
+                [1, 2, 3, 4,5],
+                $firstWord->matchesPositionWith($secondWord));
     }
 ```
 
@@ -943,17 +957,20 @@ and always the simplest solution...
 [Gist Url]: # (https://gist.github.com/mcsee/8dacb47f2ed6cf6e47b967da1dca7e4c)
 ```php
 <?php
+
 public function test13MatchesIncorrectPositions() {
-        $firstWord = new Word('trees');
-        $secondWord = new Word('drama');
-        $this->assertEquals([2], $firstWord->matchesPositionWith($secondWord));
-        $this->assertEquals([], $firstWord->matchesIncorrectPositionWith($secondWord));
-    }
+  $firstWord = new Word('trees');
+  $secondWord = new Word('drama');
+  $this->assertEquals([2], 
+       $firstWord->matchesPositionWith($secondWord));
+  $this->assertEquals([], 
+       $firstWord->matchesIncorrectPositionWith($secondWord));
+}
 
 // the easy solution
 function matchesIncorrectPositionWith(Word $anotherWord) : array {
-        return [];
-    }
+  return [];
+}
 ```
 
 # Notice
@@ -971,25 +988,39 @@ Let's go for the implementation
 public function test14MatchesIncorrectPositionsWithMatch() {
         $firstWord = new Word('alarm');
         $secondWord = new Word('drama');
-        $this->assertEquals([3], $firstWord->matchesPositionWith($secondWord));
-        $this->assertEquals([1, 4, 5], $firstWord->matchesIncorrectPositionWith($secondWord));
+        $this->assertEquals([3], 
+                $firstWord->matchesPositionWith($secondWord));
+        $this->assertEquals([1, 4, 5], 
+                $firstWord->matchesIncorrectPositionWith($secondWord));
         // A*ARM vs *RAMA
-        $this->assertEquals([3], $secondWord->matchesPositionWith($firstWord));
-        $this->assertEquals([2, 4, 5], $secondWord->matchesIncorrectPositionWith($firstWord));
+        $this->assertEquals
+                ([3],
+                $secondWord->matchesPositionWith($firstWord));
+        $this->assertEquals([2, 4, 5],
+                $secondWord->matchesIncorrectPositionWith($firstWord));
     }
 
 // The complicated solution
 
 function matchesIncorrectPositionWith(Word $anotherWord) : array {
         $positions = [];
-        // count($this->letters() is always 5, but we don't want to add a magic number here
-        for ($currentPosition = 0; $currentPosition < count($this->letters()); $currentPosition++) {
-            if (in_array($this->letters()[$currentPosition], $anotherWord->letters())) {
-                $positions[] = $currentPosition + 1; // Humans start counting on 1
-                // We can implement this better in several other languages
+        // count($this->letters() is always 5,
+        // but you don't want to add a magic number here
+        for ($currentPosition = 0;
+             $currentPosition < count($this->letters()); 
+             $currentPosition++) {
+            if (in_array(
+                    $this->letters()[$currentPosition],
+                    $anotherWord->letters())) {
+                $positions[] = $currentPosition + 1; 
+                // Humans start counting on 1
+                // You can implement this better in several other languages
             }
         }
-        return array_values(array_diff($positions, $this->matchesPositionWith($anotherWord)));
+        return array_values(
+                array_diff(
+                    $positions, 
+                    $this->matchesPositionWith($anotherWord)));
     }
 ```
 
