@@ -540,6 +540,16 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 235 - Console Side Effects](/Articles/Code%20Smells/Code%20Smell%20235%20-%20Console%20Side%20Effects/readme.md)
 
+* [Code Smell 236 - Unwrapped Lines](/Articles/Code%20Smells/Code%20Smell%20236%20-%20Unwrapped%20Lines/readme.md)
+
+* [Code Smell 237 - Attribute Definitions](/Articles/Code%20Smells/Code%20Smell%20237%20-%20Attribute%20Definitions/readme.md)
+
+* [Code Smell 238 - Entangled Code](/Articles/Code%20Smells/Code%20Smell%20238%20-%20Entangled%20Code/readme.md)
+
+* [Code Smell 239 - Big Pull Request](/Articles/Code%20Smells/Code%20Smell%20239%20-%20Big%20Pull%20Request/readme.md)
+
+* [Code Smell 240 - Dead Store](/Articles/Code%20Smells/Code%20Smell%20240%20-%20Dead%20Store/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
@@ -701,6 +711,10 @@ In this repository, you will find many articles related to Software Design
 ### blogging
 
 * [Content Structure: The Do's and Dont's of Content Creation](/Articles/blogging/68%20-%20Content%20Structure%20The%20Do%27s%20and%20Dont%27s%20of%20Content%20Creation/readme.md)
+
+### podcasts
+
+* [Maximiliano Contieri on Bridging the Industry-Academia Divide](/Articles/podcasts/01%20-%20Maximiliano%20Contieri%20on%20Bridging%20the%20Industry-Academia%20Divide/readme.md)
 
 ### Unsorted
 
