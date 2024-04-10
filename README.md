@@ -550,6 +550,20 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 240 - Dead Store](/Articles/Code%20Smells/Code%20Smell%20240%20-%20Dead%20Store/readme.md)
 
+* [Code Smell 241 - Referential Transparency Violation](/Articles/Code%20Smells/Code%20Smell%20241%20-%20Referential%20Transparency%20Violation/readme.md)
+
+* [Code Smell 242 - Zombie Feature Flags](/Articles/Code%20Smells/Code%20Smell%20242%20-%20Zombie%20Feature%20Flags/readme.md)
+
+* [Code Smell 243 - Concatenated Properties](/Articles/Code%20Smells/Code%20Smell%20243%20-%20Concatenated%20Properties/readme.md)
+
+* [Code Smell 244 - Incomplete Error information](/Articles/Code%20Smells/Code%20Smell%20244%20-%20Incomplete%20Error%20information/readme.md)
+
+* [Code Smell 245 - exec() and eval()](/Articles/Code%20Smells/Code%20Smell%20245%20-%20exec%28%29%20and%20eval%28%29/readme.md)
+
+* [Code Smell 246 - Expiration Date](/Articles/Code%20Smells/Code%20Smell%20246%20-%20Expiration%20Date/readme.md)
+
+* [Code Smell 247 - Javascript Replace](/Articles/Code%20Smells/Code%20Smell%20247%20-%20Javascript%20Replace/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
@@ -725,4 +739,8 @@ In this repository, you will find many articles related to Software Design
 * [Bridging the Industry-Academia Divide](/Articles/unsorted/78%20-%20Bridging%20the%20Industry-Academia%20Divide/readme.md)
 
 * [Clean Code Cookbook is Out](/Articles/unsorted/Clean%20Code%20Cookbook%20is%20Out/readme.md)
+
+* [Rethinking Leap Years: Why Your Favorite Programming Language's Approach May Be Flawed](/Articles/unsorted/82%20-%20Rethinking%20Leap%20Years%20Why%20Your%20Favorite%20Programming%20Language%27s%20Approach%20May%20Be%20Flawed/readme.md)
+
+* [Warning: The Universe's Event Simulator Is a Fierce Adversary for Coders!](/Articles/unsorted/80%20-%20Warning%20The%20Universe%27s%20Event%20Simulator%20Is%20a%20Fierce%20Adversary%20for%20Coders/readme.md)
 
