@@ -54,7 +54,4 @@ Twitter is full of hate quotes showing when ChatGPT is wrong.
 
 *The example is a bit sexist but it is a meme illustrating the point.*
 
-To be a decent software engineer, we must be experts at learning, and ChatGPT is an amazing teacher. Not just for juniors.
-
-
-
+To be a decent software engineer, we must be experts at learning, and ChatGPT is an amazing teacher. Not just for juniors. 

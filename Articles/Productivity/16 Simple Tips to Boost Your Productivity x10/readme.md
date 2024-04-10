@@ -66,7 +66,6 @@
 - When emptying those inboxes we should define new 'homes' if necessary.
 
 # 8. Keep a Daily Agenda 📅
-
 - Start each day with a short daily agenda.
 - You can mix personal and work items or keep them in two separate lists.
 - Plan for unplanned work.

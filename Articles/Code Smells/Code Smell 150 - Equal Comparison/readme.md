@@ -59,7 +59,6 @@ function isAtStreet(street) {
   // You can change Comparisons to 
   // case sensitive in just one place. 
 }
-
 ```
 
 # Detection

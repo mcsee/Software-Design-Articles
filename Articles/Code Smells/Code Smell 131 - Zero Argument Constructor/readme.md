@@ -30,7 +30,7 @@ It is common usage using a zero-argument constructor and a bunch of setters to c
 
 [Gist Url]: # (https://gist.github.com/mcsee/d42be6d1931e7f4f80781b1360e86a0f)
 ```java
- public Person();
+public Person();
 
 // Anemic and mutable
 // Does not have the essence to be a valid person

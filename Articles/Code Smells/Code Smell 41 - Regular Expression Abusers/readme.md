@@ -35,7 +35,6 @@ val regex = Regex("^\\+(?:[0-9a-zA-Z][– -]?){6,14}[0-9a-zA-Z]$")
 
 [Gist Url]: # (https://gist.github.com/mcsee/f3df119d3be0cdfee7fddd6d725f92be)
 ```perl
-
 val prefix = "\\+"
 val digit = "[0-9]"
 val space = "[– -]"

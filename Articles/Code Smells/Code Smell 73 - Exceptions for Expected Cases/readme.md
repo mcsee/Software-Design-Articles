@@ -25,8 +25,8 @@
 [Gist Url]: # (https://gist.github.com/mcsee/14fe90a45804c47d898bab4fe8d17d36)
 ```java
 try {
-	for (int i = 0;; i++)
-		array[i]++;
+	for (int index = 0;; index++)
+		array[index]++;
 	} catch (ArrayIndexOutOfBoundsException e) {}
 
 // Endless loop without end condition

@@ -62,7 +62,7 @@ We set up our valid game before building our UI
 
 [Gist Url]: # (https://gist.github.com/mcsee/29c9c0090376e51d71b99a9fd38988d9)
 ```javascript
- const response = await fetch("dictionary.txt");
+const response = await fetch("dictionary.txt");
  const dictionary = await response.text();
  const words = dictionary.split(/\r?\n/).map((string) => new Word(string));
 
@@ -157,7 +157,6 @@ document.getElementById('validate').
   document.getElementById('input').value = '';
   rowIndex = game.wordsAttempted().length;
 });
-
 ```
 
 We put it as a very long function in the same event for clarification.
@@ -177,7 +176,8 @@ This was one of the many mistakes corrected from the first version.
 /* when pressing remove, 
 chose randomly the secret word from the words collection */ 
 
-document.getElementById('remove').addEventListener('click', function(event) {
+document.getElementById('remove').
+    addEventListener('click', function(event) {
   var randomIndex = Math.floor(Math.random() * words.length);
   winnerWord = words[randomIndex];
   game = new Game(words, winnerWord);   

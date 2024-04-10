@@ -81,7 +81,6 @@ private static string GetPercentageRounds(double percentage)
     int startingPoint = 10-blueDots;
     return dots. Substring(startingPoint, 10);
 }
-
 ```
 
 # Detection

@@ -71,8 +71,7 @@ final class DictionaryTest extends TestCase {
         $dictionary = new Dictionary(['happy']);
         $this->assertTrue($dictionary->includesWord('happy'));
     }
-} 
-
+}
 ```
 
 ## Right
@@ -107,8 +106,7 @@ final class DictionaryTest extends TestCase {
         $dictionary = ['happy'];  
         $this->assertTrue(in_array('happy', $dictionary));
     }
-} 
-
+}
 ```
 
 # Detection

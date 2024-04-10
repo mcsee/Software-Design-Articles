@@ -49,7 +49,6 @@ class Skynet < ActiveRecord::Base
     end
   end
 end
-
 ```
 
 ## Right
@@ -65,7 +64,6 @@ class Skynet < ActiveRecord::Base
     # implementation
   end    
 end
-
 ```
 
 # Detection

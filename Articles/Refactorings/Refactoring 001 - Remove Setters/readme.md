@@ -62,7 +62,6 @@ location.setX(1);
 
 location.setY(2);
 // Now we have point(1,2)
-
 ```
 
 [Gist Url]: # (https://gist.github.com/mcsee/d8a4183ef00f5636c2d821f96a9cefd0)
@@ -120,11 +119,9 @@ public class Car {
    }   
 }
 
-
 // 1. Locate the setters usage
 // 3. If you need to change an accidental property
 // it is not a setter. Remove the setXXX prefix
-
 
 Car tesla = new Car();
 // Our car is stopped

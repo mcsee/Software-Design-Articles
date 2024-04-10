@@ -50,7 +50,6 @@ if cats_alive > 0:
 #
 # 1. cats_alive > 0 and feedThem() is called.
 # 2. cats_alive <= 0 and feedThem() is not called.
-
 ```
 
 ## Right
@@ -77,7 +76,6 @@ if cats_alive > 0:
 # the `cats_alive` variable at the same time.
 # This means that the value of `cats_alive` is always determined, 
 # and the program will not exhibit Schrödinger code behavior.
-
 ```
 
 # Detection

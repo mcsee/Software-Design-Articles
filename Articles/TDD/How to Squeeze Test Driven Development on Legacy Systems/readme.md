@@ -412,7 +412,6 @@ function test07MultipleRelatedPatternsSimplifyTwoOfThem() {
              'Sigur Ros',
              'Sigur']));
 }
-
 ```
 
 And it works !
@@ -438,7 +437,6 @@ private function addTerms(string $SQLSelect) {
     }
     $SQLselect->addWhere($selectSentence->asSQLSentence());
 }
-
 ```
 
 Let's inject it.
@@ -462,7 +460,6 @@ private function addTerms(string $SQLselect) {
     }
     $SQLselect->addWhere($selectSentence->asSQLSentence());
 }
-
 ``` 
 
 * * *
@@ -552,13 +549,8 @@ function simplify(array $patterns): array {
 Once we submitted the *intelligent* SQL simplifier something bad happened.
 
 This was actual SQL after terms of bad handling:
-
-
-```
-
-SELECT * FROM artists WHERE (())  
-
-``` 
+```						   
+SELECT * FROM artists WHERE (())      										   ``` 
 
 This SQL generation mistaken as an empty condition.
 
@@ -571,7 +563,7 @@ We isolate the defect and add it as a broken TDD Case
 ```php
 <?
 
-function test12SamePatternsDifferentCaseShouldYieldJustOneTermInLowercase() {
+function test12SamePatternsDifferentCaseShouldYieldJustOneTermLowercase() {
     $this->assertEquals(
         ['yes'],
         (new LikePatternSimplifier())->simplify(
@@ -618,7 +610,7 @@ Not dealing with case-sensitive duplicate's algorithm worked again.
 ```php
 <?
 
-function test13SamePatternsDifferentCaseDifferentOrderSimplifyToLowerCase() {
+function test13SamePatternsDifferentCaseDifferentOrderSimplifyLowerCase() {
     $this->assertEquals(
         ['yes'],
         (new LikePatternSimplifier())->simplify(

@@ -28,7 +28,6 @@ In software, we can replace fungible objects with others.
 
 When [mapping](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) our objects with real ones, we sometimes forget about the *partial* model and build over design. 
 
-
 ![Fungible Model](Fungible%20Model.png) 
 
 # Sample Code
@@ -58,7 +57,7 @@ public class Person  {
 } 
 
 shoppingQueueSystem.queue(new Person());
-// The identity is irrelevant for queue simulation 
+// The identity is irrelevant for queue simulation
 ```
 
 # Detection

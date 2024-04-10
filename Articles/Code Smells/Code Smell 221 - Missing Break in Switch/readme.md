@@ -36,7 +36,7 @@ This is similar to a very [serious vulnerability](https://embeddedgurus.com/barr
 
 [Gist Url]: # (https://gist.github.com/mcsee/d07af4a8fdbbc9be0392eefaa6934122)
 ```c
-  switch (number) {
+switch (number) {
       case 1:
           printf("Number is 1.\n");
           break;
@@ -58,7 +58,7 @@ This is similar to a very [serious vulnerability](https://embeddedgurus.com/barr
 
 [Gist Url]: # (https://gist.github.com/mcsee/006410b727680f0215d8fd2d84eb9f92)
 ```c
-  switch (number) {
+switch (number) {
       case 1:
           printf("Number is 1.\n");
           break;

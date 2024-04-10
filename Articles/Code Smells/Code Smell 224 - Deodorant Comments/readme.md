@@ -30,7 +30,6 @@ def s(a, b):
     res = a + b
     # And return the result
     return res
-
 ```
 
 ## Right

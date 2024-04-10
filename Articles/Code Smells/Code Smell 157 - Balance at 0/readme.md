@@ -44,7 +44,7 @@ def get_balance(address):
     if response.status_code == 200:
         return response.text
     else:
-        return 0       
+        return 0
 ```
 
 ## Right

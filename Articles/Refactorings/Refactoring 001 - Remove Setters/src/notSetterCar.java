@@ -10,11 +10,9 @@ public class Car {
    }   
 }
 
-
 // 1. Locate the setters usage
 // 3. If you need to change an accidental property
 // it is not a setter. Remove the setXXX prefix
-
 
 Car tesla = new Car();
 // Our car is stopped

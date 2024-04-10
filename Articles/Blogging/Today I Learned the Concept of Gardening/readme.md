@@ -41,8 +41,6 @@ From now on, I will revisit my old articles, gather the comments and suggestions
 I am more aware today of [great tools](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/10%20Invaluable%20Tips%20for%20Successful%20Tech%20Articles/readme.md) and I can improve past articles with these new tools.
 
 Hashnode adds page metadata if we update our articles:
-
-
 ```
 <meta itemProp="dateModified" content="2020-12-22T13:43:58.780Z"/>
 ``` 
@@ -53,7 +51,6 @@ I will also add a footer showing when was the article last visited. This is not 
 
 * * * 
 
-Last Article Update: 07-04-2021
-
+Last Article Update: 07-04-2021		  
 
 %%[buymeacoffee]

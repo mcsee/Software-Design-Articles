@@ -98,7 +98,6 @@ echo moreElements.size() yields 2 // Since it is a multiset
 
 // elements and moreElements are polymorphic
 // You can exchange their implementation anytime
-
 ```
 
 # Detection

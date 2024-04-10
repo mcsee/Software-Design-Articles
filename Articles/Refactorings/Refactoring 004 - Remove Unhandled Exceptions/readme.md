@@ -37,8 +37,6 @@ rescue RangeNotSatisfiedException => e
     puts e.message 
     puts e.exception_type 
 end
-
-
 ```
 
 ## After

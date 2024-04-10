@@ -82,7 +82,6 @@ public DinnerTable(Person guest, Interval reservationTime)
     Guest = guest;
     Interval = reservationTime;
 }
-
 ```
 
 # Detection

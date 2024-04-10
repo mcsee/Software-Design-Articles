@@ -43,7 +43,6 @@ except ValueError as e:
         print('Day ' + str(birthDay) + 
               ' is out of range. The day must be a number in 1...' +
               str(calendar.monthrange(birthYear, birthMonth)))
-
 ```
 
 ## Right
@@ -72,7 +71,7 @@ except ValueError as e:
     elif str(e) == 'day is out of range for month': 
         print('Day ' + str(birthDay) + ' is out of range. '
               'The day must be a number in 1...' +
-              str(calendar.monthrange(birthYear, birthMonth)))        
+              str(calendar.monthrange(birthYear, birthMonth)))
 ```
 
 # Detection

@@ -65,7 +65,6 @@ transfer = Transfer(transfer_amount, income, expense)
 print("Transfer amount:", transfer.amount)
 print("Income amount:", transfer.income.amount)
 print("Expense amount:", transfer.expense.amount)
-
 ```
 
 ## Right
@@ -98,7 +97,6 @@ transfer = Transfer(transfer_amount)
 print("Transfer amount:", transfer.amount)
 print("Income amount:", transfer.income.get_amount())
 print("Expense amount:", transfer.expense.get_amount())
-
 ```
 
 # Detection

@@ -7,7 +7,6 @@ public function test10NoMatch() {
                 $firstWord->matchesPositionWith($secondWord));
     }
 
-
 // This method in Word class
 
  function matchesPositionWith(Word $anotherWord) : array {

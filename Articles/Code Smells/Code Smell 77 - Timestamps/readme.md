@@ -46,7 +46,6 @@ numbers = range(1, 100000)
 
 # or
 sequence = nextNumber()
-
 ```
 
 # Detection

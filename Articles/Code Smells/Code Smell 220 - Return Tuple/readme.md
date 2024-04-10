@@ -45,7 +45,6 @@ func getNameAndAge() -> (String, Int) {
     let age = 30
     return (name, age)
 }
-
 ```
 
 ## Right

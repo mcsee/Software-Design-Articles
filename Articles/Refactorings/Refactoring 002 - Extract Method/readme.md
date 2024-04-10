@@ -81,11 +81,11 @@ object Ingenuity {
     
     fun moveFollowingPerseverance() {
         takeOff()
-        //2. Replace the old code with a call to the recently created method.
+        //2. Replace the old code with a call to the recently created method
         moveForwardToPerseverance()
-        //2. Replace the old code with a call to the recently created method.
+        //2. Replace the old code with a call to the recently created method
         land()
-        //2. Replace the old code with a call to the recently created method.
+        //2. Replace the old code with a call to the recently created method
     }
 }
 ```

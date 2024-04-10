@@ -107,7 +107,6 @@ class Student {
 // If you need to expose a School to an external API or a database,
 // another object (not school)
 // will keep the mapping externalId<->school and so on
-
 ```
 
 # Detection

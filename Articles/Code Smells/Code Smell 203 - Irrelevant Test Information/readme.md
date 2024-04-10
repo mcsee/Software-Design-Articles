@@ -74,7 +74,6 @@ def test_formula_1_race():
     assert racers[2]["car_model"] == "RB16B"
     assert racers[3]["car_model"] == "MCL35M"
     assert racers[4]["car_model"] == "W12"
-
 ```
 
 ## Right
@@ -95,7 +94,7 @@ def test_formula_1_race():
     winner = simulate_formula_1_race(racers)
 
     # Test
-    assert winner == "Lewis Hamilton"  
+    assert winner == "Lewis Hamilton"
 ```
 
 # Detection

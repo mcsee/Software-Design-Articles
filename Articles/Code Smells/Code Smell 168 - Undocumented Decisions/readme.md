@@ -33,7 +33,7 @@ If we cannot write a failing test, we need to have a function with an excellent 
 // You need to run this process with more memory
 set_memory("512k");
            
-run_process();           
+run_process();
 ```
 
 ## Right
@@ -41,7 +41,7 @@ run_process();
 [Gist Url]: # (https://gist.github.com/mcsee/ab76cec5efd320d5cf9a2e626343d3e8)
 ```c
 increase_memory_to_avoid_false_positives();
-run_process();      
+run_process();
 ```
 
 # Detection

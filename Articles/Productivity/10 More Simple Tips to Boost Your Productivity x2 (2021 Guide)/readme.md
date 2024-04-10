@@ -12,7 +12,7 @@
 
 [16 Simple Tips to Boost Your Productivity x10](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md)
 
-# 17. Track Goal and Metrics 🥅
+# 17. Track Goal and Metrics 🥅.
 
 - Goals and objectives are important. But without tracking they are useless.
 - Progress metrics, and goal replanning, are keys.
@@ -27,7 +27,8 @@
 - Repeat 21 days (streak).
 - Fake it till you make it.
 
-# 19. Focus 👁️
+# 19. Focus 👁️.
+
 - If the product is free, **you** are the product
 - Attention is *your* asset
 - When you use website/application/soft and try to do A, there will be a lot of alerts, banners, messages and clickbaits prompting you to do B/C/D, etc.

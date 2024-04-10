@@ -85,7 +85,3 @@ We need to be humbler and learn from our past mistakes.
 # Credits
 
 Photo by [Patrick Perkins](https://unsplash.com/@patrickperkins) on [Unsplash](https://unsplash.com/s/photos/disaste)
-  
-
-
-

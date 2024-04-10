@@ -84,7 +84,6 @@ val from = LocalDate.of(2018, 12, 9)
 val to = LocalDate.of(2002, 12, 22)
 
 val interval = Interval(from, to) // Invalid
-
 ```
 
 # Detection

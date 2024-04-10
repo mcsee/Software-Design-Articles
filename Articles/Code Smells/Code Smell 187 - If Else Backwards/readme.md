@@ -40,7 +40,6 @@ fun addToCart(item: Any) {
         this.cart.addItem(Item);
     }
 }
-
 ```
 
 ## Right

@@ -68,6 +68,3 @@ Please follow TDD Conference on:
 
 - [YouTube](https://www.youtube.com/channel/UCKn-DadPoyYssfAOMk1LSew)
 - [Twitter](https://twitter.com/tddconf)
-
-
-

@@ -33,7 +33,6 @@ class Employee
       @employee_birthdate : Time)
   end
 end
-
 ```
 
 ## Right

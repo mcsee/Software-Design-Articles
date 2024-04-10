@@ -162,8 +162,6 @@ First test passes!!!
 * * *
 
 Let's go for the (O)ne.
-
-
 ```
 test02OneRecipient
 
@@ -273,8 +271,7 @@ test05InterfaceDefinition
 	self should: [ EmailMessage forRecipients: 1 ] raise: Exception
 ``` 
 
-If we try to create a message with an integer with are violating our interface, therefore it should raise an exception.
-
+If we try to create a message with an integer with are violating our interface, therefore it should raise an exception.	      
 
 ```
 forRecipients: recipients 
@@ -299,8 +296,6 @@ test06ExceptionalBehavior
 ``` 
 
 Duplicates are invalid according to our domain. Let's check them!
-
-
 ```
 forRecipients: recipients 
 

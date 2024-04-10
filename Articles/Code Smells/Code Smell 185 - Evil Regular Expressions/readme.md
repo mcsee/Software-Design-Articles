@@ -39,7 +39,8 @@ A string with a vector attack format is passed to an application. Then this stri
 [Gist Url]: # (https://gist.github.com/mcsee/a4e74fb3e18cde7ff7f15636e05ced89)
 ```go
 func main() {
-    var regularExpression = regexp.MustCompile(`^(([a-z])+.)+[A-Z]([a-z])+$`)
+    var regularExpression = 
+        regexp.MustCompile(`^(([a-z])+.)+[A-Z]([a-z])+$`)
     var candidateString = "aaaaaaaaaaaaaaaaaaaaaaaa!"
     for index, match := 
         range regularExpression.FindAllString(candidateString, -1) {

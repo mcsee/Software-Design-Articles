@@ -446,7 +446,6 @@ class Word {
       return ['v', 'a', 'l', 'i', 'd'];
   }  
 }
-
 ```
 
 ```
@@ -805,8 +804,6 @@ Class Word {
     return word.word() == this.word();
   }
 }
-
-
 ```
 
 and the test is fixed, but...
@@ -869,7 +866,6 @@ class Game {
     return this._attempts.some(
       attempt => attempt.sameAs(this._correctWord)); 
 }
-
 ```
 
 ## Notice
@@ -1105,7 +1101,7 @@ Let's go for the implementation
 
 [Gist Url]: # (https://gist.github.com/mcsee/84d386ea6218a4bc0f1ad0a121668da3)
 ```javascript
- class Word {
+class Word {
   matchesIncorrectPositionWith(correctWord) {
       var positions = [];
       for (var currentPosition = 0;

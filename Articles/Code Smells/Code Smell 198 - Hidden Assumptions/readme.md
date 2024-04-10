@@ -40,7 +40,7 @@ tenInches = 10
 tenCentimeters + tenInches
 # 20
 # this error is based on the hidden assumption of a unit (any)
-# and caused the Mars Climate Orbiter failure 
+# and caused the Mars Climate Orbiter failure
 ```
 
 ## Right
@@ -70,7 +70,6 @@ tenCentimeters + tenInches
 # error until you introduce a conversion factor
 # in this case the conversion is constant 
 # inches = centimeters / 2.54
-
 ```
 
 # Detection

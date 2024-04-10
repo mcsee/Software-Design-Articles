@@ -280,7 +280,7 @@ With this outcome:
 
 [Gist Url]: # (https://gist.github.com/mcsee/49382a7cff708d0b4a8c2e602295484f)
 ```javascript
- movie.rate.warnIfNotAllowed(this.age);  
+movie.rate.warnIfNotAllowed(this.age);
 ```
 
 [Gist Url]: # (https://gist.github.com/mcsee/c41292108e66a2db187151c10f690230)
@@ -450,7 +450,3 @@ We have been using *If removal technique* at [Universidad de Buenos Aires](https
 Part of the objective of this series of articles is to generate spaces for debate and discussion on software design.
 
 [Object Design Checklist](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Object%20Design%20Checklist/readme.md)
-
-
-
-

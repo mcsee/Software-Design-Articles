@@ -14,7 +14,6 @@ In the first part of this article, we showed the transition from hidden informat
 
 In this second part, we will show the drawbacks of using _getters_.
 
-
 ![Building](https://cdn.hashnode.com/res/hashnode/image/upload/v1598579222019/VLttZIpFk.jpeg) 
 
 Photo by [Dominik Vanyi](https://unsplash.com/@dominik_photography) on [Unsplash](https://unsplash.com/s/photos/mining)
@@ -37,7 +36,8 @@ Suppose we want to draw the polygon [presented on Part I](/dev-genius/nude-model
 ```php
 <?
 
-$triangle = new Polygon([new Point(1, 1), new Point(2, 2), new Point(3, 3)]);
+$triangle = 
+    new Polygon([new Point(1, 1), new Point(2, 2), new Point(3, 3)]);
 $lastPoint = $triangle->getVertices()->last();
 foreach ($triangle->getVertices() as $vertex) {
     $canvas->drawLine($vertex, $lastPoint);
@@ -136,7 +136,6 @@ Using _setters_ and _getters_, a novice programmer would be tempted to add a fol
   $mcsee1 = new TwitterAccount('mcsee1');
   $pontifex = new TwitterAccount('pontifex');
   $mcsee1->getFollowers()[] = $pontifex;
-
 ```
 
 A correct responsibility assignment guided by business rules suggests that it is the account’s responsibility to add a new follower, carry out validations (for example, that it is was not followed previously) and keep collection integrity.
@@ -224,8 +223,7 @@ In case of not having enough coverage we will be in front of a [legacy code syst
 
 > A legacy code system is one that has no coverage.
 
-Should this be the case, we must **first cover** the existing functionality, and then we can carry out the necessary transformations.
-
+Should this be the case, we must **first cover** the existing functionality, and then we can carry out the necessary transformations.       
 
 ![Rainbow](https://cdn.hashnode.com/res/hashnode/image/upload/v1598579706117/BoxGDholW.jpeg)
 
@@ -237,6 +235,7 @@ The well established practice of using _setters_ and _getters_ generates **coupl
 
 According to the arguments stated in this article, we should restrict their use as much as possible.
 
+* * *
 
 Part of the objective of this series of articles is to generate spaces for debate and discussion on software design.
 

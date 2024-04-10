@@ -62,7 +62,7 @@ else
     echo "False"
 fi
 
-# this evaluates to false   
+# this evaluates to false
 ```
 
 # Detection

@@ -30,7 +30,7 @@ We must take ownership of code with errors and leave it better.
 
 [Gist Url]: # (https://gist.github.com/mcsee/5577d55a7a059073137b7d892b218e80)
 ```c
-    int mult(int a,int  other) 
+int mult(int a,int  other) 
     { int prod
       prod= 0; 
       for(int i=0;i<other  ;i++) 

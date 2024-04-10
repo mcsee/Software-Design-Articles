@@ -51,7 +51,6 @@ fun main() {
         }
     }
 }
-
 ```
 
 ## Right
@@ -64,7 +63,8 @@ abstract class Location {
         unknownAction: () -> Unit)
 }
 
-class EarthLocation(val latitude: Double, val longitude: Double): Location(){
+class EarthLocation(val latitude: Double, val longitude: Double): 
+  Location() {
     override fun calculateDistance(other: Location): Double {
         val earthRadius = 6371.0
         val latDistance = Math.toRadians(
@@ -106,7 +106,8 @@ fun main() {
         Person("Charlie", EarthLocation(48.8566, 2.3522)), // Paris
         Person("Tony", UnknownLocation()) // Unknown location
     )
-    val rio = EarthLocation(-22.9068, -43.1729) // Rio de Janeiro coordinates
+    val rio = EarthLocation(-22.9068, -43.1729)
+    // Rio de Janeiro coordinates
 
     for (person in people) {
         person.location.ifKnownOrElse(

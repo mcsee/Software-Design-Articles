@@ -55,7 +55,6 @@ def calculate_average(numbers):
 
 numbers = [1, 2, 3, 4, 5]
 print("The average is:", calculate_average(numbers))
-
 ```
 
 ## Right
@@ -73,7 +72,6 @@ def calculate_average(numbers):
 
 numbers = [1, 2, 3, 4, 5]
 print("The average is:", calculate_average(numbers))
-
 ```
 
 # Detection

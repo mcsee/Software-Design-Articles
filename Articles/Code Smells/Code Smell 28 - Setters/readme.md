@@ -38,7 +38,6 @@
 
 [Gist Url]: # (https://gist.github.com/mcsee/7133ca38aceb3bace14d25548610f682)
 ```python
- 
 class PhoneCall:
   _origin = ''
   _destination = ''
@@ -58,7 +57,7 @@ janePhoneCall.set_origin('555-5555')
 janePhoneCall.set_destination('444-4444')
 janePhoneCall.set_duration(60)
 
-# Anemic and mutable Class 
+# Anemic and mutable Class
 ```
 
 Mutation brings lots of problems
@@ -87,7 +86,6 @@ janePhoneCall.set_duration(60)
       raise ValueError("Destination cannot be the same as origin")
     # repeated code   
     self._origin = originNumber
-
 ```
  
 Information Hiding Violated

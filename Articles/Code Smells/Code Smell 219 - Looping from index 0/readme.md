@@ -55,7 +55,6 @@ func main() {
         fmt.Println(numbers[i])
     }
 }
-
 ```
 
 ## Right
@@ -69,7 +68,6 @@ numbers = [10, 20, 30, 40, 50];
 for currentIndex = 1:length(numbers)
     disp(numbers(currentIndex));
 end
-
 ```
 
 # Detection

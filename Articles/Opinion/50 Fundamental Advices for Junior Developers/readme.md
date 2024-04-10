@@ -852,8 +852,7 @@ https://twitter.com/AatmaTechi
 
 Expect egotistic employees to give you irrelevant coding tests during employment interviews.
 
-https://twitter.com/Greymarch
-
+https://twitter.com/Greymarch			   
 
 ## I partially Disagree with
 

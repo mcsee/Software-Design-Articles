@@ -3,9 +3,9 @@
 final class City {
    public function interactionBetween($somePerson, $anotherPerson) {
        if ($this->meetingProbability() < random()) {
-           return null; // no interaction       
+          return null; // no interaction       
        } else {
-           return new PersonToPersonInteraction($somePerson, $anotherPerson);
+          return new PersonToPersonInteraction($somePerson, $anotherPerson);
        }
     }
 }

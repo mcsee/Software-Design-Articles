@@ -53,7 +53,6 @@ public class Address {
     // ..
 }
 
-
 // OR
 // Both are real-world names
 public class Address implements ContactLocation {

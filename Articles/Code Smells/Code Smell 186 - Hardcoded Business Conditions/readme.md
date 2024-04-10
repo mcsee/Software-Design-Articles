@@ -2,7 +2,6 @@
             
 ![Code Smell 186 - Hardcoded Business Conditions](Code%20Smell%20186%20-%20Hardcoded%20Business%20Conditions.jpg)
 
-
 *You are FTX and your code allows special cases*
 
 > TL;DR: Don't add hard business rules to your code.
@@ -45,7 +44,7 @@ if (currentExposure > 0.15 && customer != "Very Special Customer") {
 
 [Gist Url]: # (https://gist.github.com/mcsee/d43ab068cbec6d361fb429fd2860f518)
 ```solidity
-  customer.liquidatePositionIfNecessary(0.15);
+customer.liquidatePositionIfNecessary(0.15);
   
   // This follows the "Tell, Don't ask" principle
 ```

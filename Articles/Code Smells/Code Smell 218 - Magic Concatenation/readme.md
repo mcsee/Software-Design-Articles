@@ -48,8 +48,6 @@ print(len(tools))
 print(tools)
 # ['Amazon Codewhisperer', 'BardChatGPT', 'Dalle-EEliza']
 # Missing Commas act as hidden string concatenators
-
-
 ```
 
 ## Right

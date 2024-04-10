@@ -76,7 +76,7 @@ class Person {
 }
 
 // You can iterate the person.emails() 
-// in a loop without checking for null 
+// in a loop without checking for null
 ```
 
 # Detection

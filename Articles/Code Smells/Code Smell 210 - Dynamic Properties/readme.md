@@ -59,7 +59,6 @@ nightmare.presentation = "I am the Sandman"
 
 print(nightmare.presentation) 
 # Output: "I am the Sandman"
-
 ```
 
 # Detection

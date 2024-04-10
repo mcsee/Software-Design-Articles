@@ -49,7 +49,7 @@ public final class FileSystem {
 public final class DateTimeFormatter { }
 public final class BubbleSort { }
 public final class NetworkSniffer { }
-public final class Portfolio { }        
+public final class Portfolio { }
 ```
 
 # Detection

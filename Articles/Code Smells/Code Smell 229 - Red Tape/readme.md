@@ -62,7 +62,6 @@ voting_system = VotingSystem(config)
 
 # Voter validation, voting, report generation, 
 # and auditing are handled based on the configuration.
-
 ```
 
 ## Right
@@ -93,7 +92,6 @@ voting_auditor = VotingAuditor()
 
 # Voter verification, vote casting, report generation, 
 # and auditing are handled separately.
-
 ```
 
 # Detection

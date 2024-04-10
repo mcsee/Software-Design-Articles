@@ -51,7 +51,6 @@ public:
 private:
     FILE* file_;
 };
-
 ```
 
 ## Right
@@ -93,7 +92,6 @@ public:
 private:
     FILE* file_;
 };
-
 ```
 
 # Detection

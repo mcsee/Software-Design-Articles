@@ -35,7 +35,7 @@ async fetchAll() {
   let result1 = await this.fetchLongTask(); 
   let result2 = await this.fetchAnotherLongTask();
   // But they can run in parallel !!  
-}                                 
+}
 ```
 
 ## Right
@@ -47,7 +47,8 @@ async fetchAnotherLongTask() { }
 
 async fetchAll() {
   let [result1, result2] = 
-      await Promise.all([this.fetchLongTask(), this.fetchAnotherLongTask()]);
+      await Promise.all(
+        [this.fetchLongTask(), this.fetchAnotherLongTask()]);
       // You wait until ALL are done
 }
 ```

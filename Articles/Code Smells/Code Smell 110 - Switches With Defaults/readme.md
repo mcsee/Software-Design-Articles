@@ -71,8 +71,8 @@ switch (value) {
     doSomethingSpecial();
     break;
   default:
-    // if value does not match the above values you need to take a decision
-    throw new Exception('Unexpected case ' + value + ' need to consider it');
+    // if value does not match the above values you need a decision
+    throw new Exception('Unexpected ' + value + ' need to consider it');
     break;
 }
 ```

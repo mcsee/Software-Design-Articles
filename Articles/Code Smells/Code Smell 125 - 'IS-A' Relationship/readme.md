@@ -82,7 +82,7 @@ class ComplexNumber extends Number {
     }
 }
 
-class RealNumber extends Number { } 
+class RealNumber extends Number { }
 ```
 
 # Detection 

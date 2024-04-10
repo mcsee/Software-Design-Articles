@@ -6,11 +6,6 @@
 
 This Slack AMA discussion by Limarc Ambalina, Arthur Tkachenko, Amy Tom, Muhammad Bilal, Natasha, David, and I occurred in Slogging's official #amas channel, and has been edited for readability.
 
-
-
-
-
-
 mcseeMar 24, 2021, 1:05 AM
 Hello! My name is Maxi Contieri. I blog about clean code, refactoring and TDD. I have been working on the industry for the past 25 years and teaching at university. You can AMA related to clean code, code smells, refactoring and Object-Oriented Design.
 

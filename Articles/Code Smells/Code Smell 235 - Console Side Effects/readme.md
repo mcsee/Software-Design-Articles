@@ -47,7 +47,6 @@ function drawChristmasTree(height) {
   console.log(tree);
 }
 
-
 drawChristmasTree(7);
 ```
 
@@ -91,7 +90,6 @@ describe('createChristmasTree', () => {
   });
 
 });
-
 ```
 
 # Detection

@@ -78,8 +78,7 @@ Photo by [Sangga Rima Roman Selia](https://unsplash.com/@sxy_selia) on [Unsplash
   
 This idea came from this tweet
 
-[Twitter](https://twitter.com/1377522389312008193)
-
+[Twitter](https://twitter.com/1377522389312008193)	    
 
 * * *
 

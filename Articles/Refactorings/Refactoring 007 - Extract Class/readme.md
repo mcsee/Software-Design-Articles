@@ -34,7 +34,7 @@
 
 [Gist Url]: # (https://gist.github.com/mcsee/04dfcde00d2d40c8741f9af2fbeba469)
 ```java
- final class Person {
+final class Person {
  
       private String name;
    
@@ -57,7 +57,6 @@
           return officeNumber;
       } 
  }
- 
 ```
 
 ## After
@@ -97,8 +96,6 @@ final class Person {
       }
      
   }
-
-
 ```
 
 # Type

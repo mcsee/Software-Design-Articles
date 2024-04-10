@@ -71,7 +71,7 @@ public class Database {
 
 public class RadioTelescope {
   public void solveFermiParadox() { }
-}   
+}
 ```
 
 # Detection

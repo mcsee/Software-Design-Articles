@@ -64,7 +64,7 @@ Try reading this:
 
 [Gist Url]: # (https://gist.github.com/mcsee/49382a7cff708d0b4a8c2e602295484f)
 ```javascript
- movie.rate.warnIfNotAllowed(this.age);  
+movie.rate.warnIfNotAllowed(this.age);
 ```
 
 against this:

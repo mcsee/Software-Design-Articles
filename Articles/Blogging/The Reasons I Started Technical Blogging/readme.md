@@ -66,8 +66,7 @@ This was very true on lockdown weekends.
 
 My approach was to connect with people from every corner of the world and exchange software experiences. 
 
-[The Tech Twitter Guide to the Galaxy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Twitter/The%20Tech%20Twitter%20Guide%20to%20the%20Galaxy/readme.md)
-
+[The Tech Twitter Guide to the Galaxy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Twitter/The%20Tech%20Twitter%20Guide%20to%20the%20Galaxy/readme.md)		    
 
 * * *
 

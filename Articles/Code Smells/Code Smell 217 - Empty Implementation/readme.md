@@ -63,8 +63,6 @@ class MockMerchantProcessor extends MerchantProcessor {
     console.log('Mock payment processed: $${amount}');
   }
 }
-
-
 ```
 
 # Detection

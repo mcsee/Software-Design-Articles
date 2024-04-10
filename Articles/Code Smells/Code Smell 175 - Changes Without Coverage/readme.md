@@ -41,7 +41,7 @@ export function sayHello(name: string): string {
 +  const salutation = 
 +  `Hello ${name}, I see your name has ${lengthOfName} letters!`;
   return salutation;
-} 
+}
 ```
 
 ## Right

@@ -1,6 +1,6 @@
 <?
 
-function test13SamePatternsDifferentCaseDifferentOrderSimplifyToLowerCase() {
+function test13SamePatternsDifferentCaseDifferentOrderSimplifyLowerCase() {
     $this->assertEquals(
         ['yes'],
         (new LikePatternSimplifier())->simplify(

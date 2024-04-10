@@ -56,8 +56,7 @@ final class SocialNetworkProfile {
         $this->userName = $userName;
         $this->friends = $friends;
         $this->feed = $feed;
-        $this->assertNoFriendofMylsef($friends);
-
+        $this->assertNoFriendOfMyself($friends);
     }
     // Lots of protocol
 }

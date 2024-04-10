@@ -95,7 +95,7 @@ class car:
         
     def startEngine(self):
         ## code to start engine
-        self.engine.start() 
+        self.engine.start()
 ```
 
 # Detection
@@ -115,7 +115,6 @@ We should try to use better languages/frameworks.
 # Conclusion
 
 We are very used to see business objects polluted. This is normal. We need to reflect on the consequences and coupling from these designs.
-
 
 # Credits
 

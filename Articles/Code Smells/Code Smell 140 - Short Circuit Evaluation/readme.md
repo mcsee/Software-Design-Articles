@@ -48,7 +48,7 @@ if (isOpen(file) & size(contents(file)) > 0)
 
 if (isOpen(file) && size(contents(file)) > 0)
   // Short circuit evaluation 
-  // If the file is not open it willtry to get the contents  
+  // If the file is not open it willtry to get the contents
 ```
 
 # Detection

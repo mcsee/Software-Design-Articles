@@ -48,11 +48,11 @@ Below you will find many resources and tools, and my method and tips for writing
 
 # Time management
 
-- I read a lot of articles early in the morning and bookmark them during the day. 🌅
+- I read a lot of articles early in the morning and bookmark them during the day 🌅.
 
 - I use Trello, Inoreader, Pocket, and Obsidian.
 
-- I Use [The Pomodoro technique](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md) to focus when writing. 🍅
+- I Use [The Pomodoro technique](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md) to focus when writing 🍅.
 
 - I avoid perfection. I publish them when they are *ready*. 
 
@@ -176,7 +176,7 @@ No language is perfect and that is my point.
 
 ### Your solutions have too many indirections
 
-- [Coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md) is our worst enemy. 🙅
+- [Coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md) is our worst enemy 🙅.
 
 - We need to avoid direct relationships.
 

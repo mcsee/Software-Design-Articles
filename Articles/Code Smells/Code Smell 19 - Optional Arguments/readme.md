@@ -71,14 +71,16 @@ final class Poll {
     }
 }
 
-
 // invalid
 new Poll([]);
 new Poll([], new NoAnonnyomousValidStrategy());
 new Poll([], , new StrictValidationPolicy());
 
 // Valid
-new Poll([], new NoAnonnyomousValidStrategy(), new StrictValidationPolicy());
+new Poll(
+    [], 
+    new NoAnonnyomousValidStrategy(), new StrictValidationPolicy()
+);
 ```
 
 # Detection

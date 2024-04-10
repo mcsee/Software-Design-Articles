@@ -266,9 +266,7 @@ Let's add more invalid letters and correct the code.
         if (str_contains($letters, '.'))
             throw new \Exception('word contain invalid letters');
     // ....
-  } 
-  
-
+  }
 ```
 
 ## Notice
@@ -469,7 +467,6 @@ final class Dictionary {
         return 0;
     }
 }
-
 ```
 
 ## Notice
@@ -544,7 +541,6 @@ public function test03DictionaryDoesNotIncludeWord() {
 function includesWord(): bool {
         return false;
     }
-
 ```
 
 * * *
@@ -636,7 +632,6 @@ public function test02EmptyGameWordsTried() {
 function wordsTried(): array {
         return [];
     }
-
 ```
 
 * * *
@@ -701,8 +696,6 @@ public function test04TryOneWordAndDontLooseYet() {
  function hasLost(): bool {
         return false;
     }
-
-
 ```
 
 * * *
@@ -732,7 +725,6 @@ So we change it as below.
 function hasLost(): bool {
         return count($this->wordsTried) > 4;
     }
-
 ```
 
 * * *
@@ -848,7 +840,6 @@ function __construct(Dictionary $validWords, Word $winnerWord) {
         if (!$validWords->includesWord($winnerWord)) {
             throw new \Exception('Winner word must be in dictionary');
         }
-
 ```
 
 > OK (8 tests, 10 assertions)
@@ -872,7 +863,6 @@ public function test10NoMatch() {
                 [],
                 $firstWord->matchesPositionWith($secondWord));
     }
-
 
 // This method in Word class
 
@@ -923,7 +913,6 @@ function matchesPositionWith(Word $anotherWord) : array {
         }
         return $positions;
     }
-
 ```
 
 We keep running all the tests all the time

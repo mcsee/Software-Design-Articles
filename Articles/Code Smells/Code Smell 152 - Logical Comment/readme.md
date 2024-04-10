@@ -44,7 +44,7 @@ doMore();
 
 if (true || cart.items() > 11 && user.isRetail())  {
 // Same hack to force the condition
-// The code after the true is never evaluated  
+// The code after the true is never evaluated
 ```
 
 ## Right

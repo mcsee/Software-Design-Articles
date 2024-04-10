@@ -2,8 +2,7 @@
             
 ![Explain in 5 Levels of Difficulty: GIT](Explain%20in%205%20Levels%20of%20Difficulty:%20GIT.png)
 
-*Know and understand this fantastic tool*
-
+*Know and understand this fantastic tool*				
 
 > TL;DR: What is GIT and why should you learn how to use it?
 

@@ -107,7 +107,6 @@ class BookCartTestCase(unittest.TestCase):
             self.cart.items['Divergent'],
             1,
             msg='Quantity of books not correct after removing book')
-
 ```
 
 # Detection

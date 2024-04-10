@@ -43,14 +43,14 @@
 [Gist Url]: # (https://gist.github.com/mcsee/9ac202ec7527f486b6a3ff1895d6ba41)
 ```javascript
 class Person {
-    ancestors() {
-        cachedResults = 
-            GlobalPeopleSingletonCache.getInstance().relativesCache(this.id);
-        if (cachedResults != null) {
-            return (cachedResults.hashFor(this.id)).getAllParents();
-        }
-        return database().getAllParents(this.id);
+  ancestors() {
+    cachedResults = 
+        GlobalPeopleSingletonCache.getInstance().relativesCache(this.id);
+    if (cachedResults != null) {
+        return (cachedResults.hashFor(this.id)).getAllParents();
     }
+    return database().getAllParents(this.id);
+  }
 }
 ```
 

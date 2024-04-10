@@ -58,7 +58,6 @@ class Soldier {
    fight() {}
    clean() {}    
   }
-
 ```
 
 # Detection

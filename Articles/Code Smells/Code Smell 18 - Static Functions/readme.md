@@ -60,8 +60,6 @@ class DateToStringFormatter {
 }
 
 new DateToStringFormatter(new Date()).englishFormat()
-
-
 ```
 
 # Detection
