@@ -1,0 +1,2 @@
+SELECT (EXTRACT(year FROM TIMESTAMP '2024-02-29') IS NOT NULL)
+ AS is_leap_year;
