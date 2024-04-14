@@ -46,9 +46,15 @@ In this repository, you will find many articles related to Software Design
 
 * [(Most) Programmers are losing our jobs very soon](/Articles/Opinion/%28Most%29%20Programmers%20are%20losing%20our%20jobs%20very%20soon/readme.md)
 
+* [Bridging the Industry-Academia Divide](/Articles/Opinion/Bridging%20the%20Industry-Academia%20Divide/readme.md)
+
 * [Maxi Contieri on Clean Code, Refactoring, and Test-Driven Development](/Articles/Opinion/Maxi%20Contieri%20on%20Clean%20Code%2C%20Refactoring%2C%20and%20Test-Driven%20Development/readme.md)
 
+* [Rethinking Leap Years: Why Your Favorite Programming Language's Approach May Be Flawed](/Articles/Opinion/Rethinking%20Leap%20Years%20Why%20Your%20Favorite%20Programming%20Language%27s%20Approach%20May%20Be%20Flawed/readme.md)
+
 * [Software Engineer Maxi Contieri on writing about "boring" fundamentals](/Articles/Opinion/Software%20Engineer%20Maxi%20Contieri%20on%20writing%20about%20boring%20fundamentals/readme.md)
+
+* [Warning: The Universe's Event Simulator Is a Fierce Adversary for Coders!](/Articles/Opinion/Warning%20The%20Universe%27s%20Event%20Simulator%20Is%20a%20Fierce%20Adversary%20for%20Coders/readme.md)
 
 * [10 Pieces of Advice to Get your First Job from a Senior Interviewer](/Articles/Opinion/10%20Pieces%20of%20Advice%20to%20Get%20your%20First%20Job%20from%20a%20Senior%20Interviewer/readme.md)
 
@@ -608,6 +614,20 @@ In this repository, you will find many articles related to Software Design
 
 * [Y2K22 - The Mistake That Embarrasses Us](/Articles/Quality/Y2K22%20-%20The%20Mistake%20That%20Embarrasses%20Us/readme.md)
 
+### Nerdearla
+
+* [Conviertete en un Centauro del Codigo Limpio](/Articles/Nerdearla/2024%20-%20Convi%C3%A9rtete%20en%20un%20Centauro%20del%20C%C3%B3digo%20Limpio/readme.md)
+
+* [Programando un Wordle con TDD e Inteligencia Artificial](/Articles/Nerdearla/2022%20-%20Programando%20un%20Wordle%20con%20TDD%20e%20Inteligencia%20Artificial/readme.md)
+
+* [Test Driven Development en Sistemas Heredados](/Articles/Nerdearla/2021%20-%20Test%20Driven%20Development%20en%20Sistemas%20Heredados/readme.md)
+
+* [Test Driven Refactoring](/Articles/Nerdearla/2021%20-%20Test%20Driven%20Refactoring/readme.md)
+
+* [Una Regla para Gobernarlos a Todos](/Articles/Nerdearla/2022%20-%20Una%20Regla%20para%20Gobernarlos%20a%20Todos/readme.md)
+
+* [Test Driven Development 101](/Articles/Nerdearla/2023%20-%20Test%20Driven%20Development%20101/readme.md)
+
 ### Artificial Intelligence
 
 * [GPT-3 Training Programmers for the Present (and the Future)](/Articles/Artificial%20Intelligence/GPT-3%20Training%20Programmers%20for%20the%20Present%20%28and%20the%20Future%29/readme.md)
@@ -710,7 +730,7 @@ In this repository, you will find many articles related to Software Design
 
 * [Explain in 5 Levels of Difficulty: ChatGPT](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20ChatGPT/readme.md)
 
-* [Explain in 5 Levels of Difficulty: GIT](/Articles/Explain%20in%205%20Levels/04%20-%20Explain%20in%205%20Levels%20of%20Difficulty%20GIT/readme.md)
+* [Explain in 5 Levels of Difficulty: GIT](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20GIT/readme.md)
 
 * [Explain in 5 Levels of Difficulty: Linux](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20Linux/readme.md)
 
@@ -736,11 +756,5 @@ In this repository, you will find many articles related to Software Design
 
 ### unsorted
 
-* [Bridging the Industry-Academia Divide](/Articles/unsorted/78%20-%20Bridging%20the%20Industry-Academia%20Divide/readme.md)
-
 * [Clean Code Cookbook is Out](/Articles/unsorted/Clean%20Code%20Cookbook%20is%20Out/readme.md)
-
-* [Rethinking Leap Years: Why Your Favorite Programming Language's Approach May Be Flawed](/Articles/unsorted/82%20-%20Rethinking%20Leap%20Years%20Why%20Your%20Favorite%20Programming%20Language%27s%20Approach%20May%20Be%20Flawed/readme.md)
-
-* [Warning: The Universe's Event Simulator Is a Fierce Adversary for Coders!](/Articles/unsorted/80%20-%20Warning%20The%20Universe%27s%20Event%20Simulator%20Is%20a%20Fierce%20Adversary%20for%20Coders/readme.md)
 
