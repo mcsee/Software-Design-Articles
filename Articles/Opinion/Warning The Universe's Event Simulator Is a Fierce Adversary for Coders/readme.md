@@ -1,6 +1,6 @@
 # Warning: The Universe's Event Simulator Is a Fierce Adversary for Coders!
             
-![Warning: The Universe's Event Simulator Is a Fierce Adversary for Coders!](Warning:%20The%20Universe's%20Event%20Simulator%20Is%20a%20Fierce%20Adversary%20for%20Coders!.png)
+![Warning: The Universe's Event Simulator Is a Fierce Adversary for Coders!](Warning%20The%20Universe's%20Event%20Simulator%20Is%20a%20Fierce%20Adversary%20for%20Coders!.png)
 
 *Comprehending the laws and boundaries of nature enhances our skills as programmers.*
 

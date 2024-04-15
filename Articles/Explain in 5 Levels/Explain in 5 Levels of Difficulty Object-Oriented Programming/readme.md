@@ -1,6 +1,6 @@
 # Explain in 5 Levels of Difficulty: Object-Oriented Programming
 
-![Explain in 5 Levels of Difficulty: Object-Oriented Programming](Explain%20in%205%20Levels%20of%20Difficulty:%20Object-Oriented%20Programming.gif)
+![Explain in 5 Levels of Difficulty: Object-Oriented Programming](Explain%20in%205%20Levels%20of%20Difficulty%20Object-Oriented%20Programming.gif)
 
 > TL;DR: What is Object-Oriented Programming
 

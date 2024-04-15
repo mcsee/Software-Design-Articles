@@ -1,6 +1,6 @@
 # Null: The Billion Dollar Mistake
 
-![Null: The Billion Dollar Mistake](Null:%20The%20Billion%20Dollar%20Mistake.png)
+![Null: The Billion Dollar Mistake](Null%20The%20Billion%20Dollar%20Mistake.png)
 
 > He is not our friend. It does not simplify life or make us more efficient. Just more lazy. It is time to stop using null.
 
@@ -30,7 +30,7 @@ A good software principle challenges us to have high cohesion. All the objects s
 
 The least cohesive object of any system is our wildcard: null
 
-![null bijection](Null:%20The%20Billion%20Dollar%20Mistake.png)
+![null bijection](Null%20The%20Billion%20Dollar%20Mistake.png)
 
 Null is mapped to several different concepts in the real-world
 

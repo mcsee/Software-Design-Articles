@@ -1,6 +1,6 @@
 # Explain in 5 Levels of Difficulty: Linux
 
-![Explain in 5 Levels of Difficulty: Linux](Explain%20in%205%20Levels%20of%20Difficulty:%20Linux.gif)
+![Explain in 5 Levels of Difficulty: Linux](Explain%20in%205%20Levels%20of%20Difficulty%20Linux.gif)
 
 > TL;DR: What are the Pros and Cons of using Linux
 

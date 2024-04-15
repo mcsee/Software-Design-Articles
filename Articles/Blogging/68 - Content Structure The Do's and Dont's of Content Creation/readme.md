@@ -1,6 +1,6 @@
 # Content Structure: The Do's and Dont's of Content Creation
             
-![Content Structure: The Do's and Dont's of Content Creation](Content%20Structure:%20The%20Do's%20and%20Dont's%20of%20Content%20Creation.jpg)
+![Content Structure: The Do's and Dont's of Content Creation](Content%20Structure%20The%20Do's%20and%20Dont's%20of%20Content%20Creation.jpg)
 
 *Many tips and tricks on how to make amazing content.*
 

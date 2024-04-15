@@ -1,6 +1,6 @@
 # Explain in 5 Levels of Difficulty: ChatGPT
             
-![Explain in 5 Levels of Difficulty: ChatGPT](Explain%20in%205%20Levels%20of%20Difficulty:%20ChatGPT.png)
+![Explain in 5 Levels of Difficulty: ChatGPT](Explain%20in%205%20Levels%20of%20Difficulty%20ChatGPT.png)
 
 *The future is here. Maybe even a [silver bullet](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md)*
 
