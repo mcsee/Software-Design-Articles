@@ -34,6 +34,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/19b5965879d11e6c185d4591add24042)
+
 ```php
 <?
 
@@ -48,6 +49,7 @@ $school = preg_split('/[\s,]+/', $schoolDescription, 3)[0]; //'College'
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/9aea4a3d401b7e3c2e80101ff348dfa6)
+
 ```php
 <?
 

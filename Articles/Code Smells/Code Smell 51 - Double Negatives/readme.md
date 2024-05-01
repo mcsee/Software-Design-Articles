@@ -19,6 +19,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/f5c32dfa2aefa4f7fcb180ea28995508)
+
 ```javascript
 if (!work.isNotFinished())
 ```
@@ -26,6 +27,7 @@ if (!work.isNotFinished())
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/842684ebe8f5496d1d6374436a0c9473)
+
 ```javascript
 if (work.isDone())
 ```

@@ -27,6 +27,7 @@ We also underestimate the fact we can be on both sides of the counter.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/e35210910d75821224dd75de8053b46f)
+
 ```javascript
 alert("Cancel the appointment?", "Yes", "No");
 
@@ -37,6 +38,7 @@ alert("Cancel the appointment?", "Yes", "No");
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/220e4c4d8eea96d15a0f34de2c5e96e3)
+
 ```javascript
 alert("Cancel the appointment? \n" +
       "You will lose all the history", 

@@ -33,6 +33,7 @@ We should think about domain-specific and role-suggesting names.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/0c0c6b9e9e8a5b2aa4dfe32828c9cbc5)
+
 ```javascript
 if (!dataExists()) {
   return '<div>Loading Data...</div>';
@@ -42,6 +43,7 @@ if (!dataExists()) {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/945e6a64fd3167637ff1e1eb872ff179)
+
 ```javascript
 if (!peopleFound()) {
   return '<div>Loading People...</div>';

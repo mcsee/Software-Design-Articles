@@ -41,6 +41,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/9ac202ec7527f486b6a3ff1895d6ba41)
+
 ```javascript
 class Person {
   ancestors() {
@@ -57,6 +58,7 @@ class Person {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/8f6b87de8228b342caabefab2b05ca42)
+
 ```javascript
 class Person {   
   ancestors() {

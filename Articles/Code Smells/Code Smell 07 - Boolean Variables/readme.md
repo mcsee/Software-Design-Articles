@@ -27,6 +27,7 @@ This also follows [Open/Closed Principle](https://en.wikipedia.org/wiki/Open%E2%
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/5a3e8e05def917a29b84be7264493a67)
+
 ```php
 <?
 
@@ -41,6 +42,7 @@ function processBatch(
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/66956e6ccfe8126d0819fa193d793dd5)
+
 ```php
 <?
 

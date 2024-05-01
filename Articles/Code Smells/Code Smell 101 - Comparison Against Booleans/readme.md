@@ -29,6 +29,7 @@ Many languages cast values to boolean crossing domains.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/118ff2e5ebd9779675f664ed46bae95d)
+
 ```bash
 #!/bin/bash
 
@@ -53,6 +54,7 @@ fi
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/405d45ed06a94a81d1f1a3b06381c0f9)
+
 ```bash
 #!/bin/bash
 

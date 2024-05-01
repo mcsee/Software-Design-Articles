@@ -35,6 +35,7 @@ We recommend avoiding floats at all and trying to use infinite precision numbers
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/2fc79af85305eaada328fd324cb38c0d)
+
 ```java
 Assert.assertEquals(0.0012f, 0.0012f); // Deprecated
 Assert.assertTrue(0.0012f == 0.0012f); // Not JUnit - Smell
@@ -43,6 +44,7 @@ Assert.assertTrue(0.0012f == 0.0012f); // Not JUnit - Smell
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/570958fcfb8e52379b7ddde2389ad6f8)
+
 ```java
 Assert.assertEquals(0.0012f, 0.0014f, 0.0002); // true
 Assert.assertEquals(0.0012f, 0.0014f, 0.0001); // false

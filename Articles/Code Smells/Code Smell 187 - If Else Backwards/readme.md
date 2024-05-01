@@ -27,6 +27,7 @@ We need to pay special attention to readability.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/7f2c51762feac4966f03df57f57db76f)
+
 ```kotlin
 fun addToCart(item: Any) {
     if (!cartExists()) {
@@ -45,6 +46,7 @@ fun addToCart(item: Any) {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/b804c849ea5ac33be4e27abe929837c1)
+
 ```kotlin
 fun addToCart(item: Any) {
     if (cartExists()) {

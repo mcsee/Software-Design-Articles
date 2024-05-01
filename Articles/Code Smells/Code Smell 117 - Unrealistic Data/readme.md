@@ -39,6 +39,7 @@ If we find an error in a production system, we need to add a case covering the e
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/d9b312e97d7233738ea06f322ae41da1)
+
 ```python
 class BookCartTestCase(unittest.TestCase):
     def setUp(self):
@@ -76,6 +77,7 @@ class BookCartTestCase(unittest.TestCase):
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/539d4699db494d180219620b7baeedea)
+
 ```python
 class BookCartTestCase(unittest.TestCase):
     def setUp(self):

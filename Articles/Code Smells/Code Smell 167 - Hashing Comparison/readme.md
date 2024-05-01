@@ -29,6 +29,7 @@ You can read a full article here:
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/b97afa5814c25e6d9c53e35f3fc5f09e)
+
 ```java
 public class Person {
  
@@ -55,6 +56,7 @@ public String name;
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/4a40df553e8d08860b23f35fb4400c0e)
+
 ```java
 public class Person {
  

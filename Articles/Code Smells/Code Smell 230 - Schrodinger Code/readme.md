@@ -31,6 +31,7 @@ This can happen when the code contains a race condition, or when the code depend
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/b55ffb2e174db3880e40a162405d8fd1)
+
 ```python
 import threading
 
@@ -55,6 +56,7 @@ if cats_alive > 0:
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/d147d5084dc7c0680f4ff01c10cce152)
+
 ```python
 import threading
 

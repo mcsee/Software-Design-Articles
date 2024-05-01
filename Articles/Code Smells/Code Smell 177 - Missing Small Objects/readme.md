@@ -29,6 +29,7 @@ in the [Wordle TDD Kata](https://github.com/mcsee/Software-Design-Articles/tree/
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/9a4cce1354fa6b13bdf90b19e453fbb8)
+
 ```java
 public class Person {
     private final String name; 
@@ -42,6 +43,7 @@ public class Person {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/79e4e83a5f5f2a17f310a4ae743221b4)
+
 ```java
 public class Name {
     private final String name; 

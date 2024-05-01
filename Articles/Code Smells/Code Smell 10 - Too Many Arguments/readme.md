@@ -29,6 +29,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/ea7d32472830d5ea877be1438807fe89)
+
 ```java
 public class Printer {   
   void print(String documentToPrint, 
@@ -50,6 +51,7 @@ public class Printer {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/200a18dd99a76a95155df4cb032b1d10)
+
 ```java
 final public class PaperSize { }
 final public class Document { }

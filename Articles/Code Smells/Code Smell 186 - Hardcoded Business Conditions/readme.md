@@ -33,6 +33,7 @@ The code was explicit and developers were aware of that rule.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/27cdd48bf20694b735f7d5914c086022)
+
 ```solidity
 if (currentExposure > 0.15 && customer != "Very Special Customer") {
   // Be extra careful not to liquidate
@@ -43,6 +44,7 @@ if (currentExposure > 0.15 && customer != "Very Special Customer") {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/d43ab068cbec6d361fb429fd2860f518)
+
 ```solidity
 customer.liquidatePositionIfNecessary(0.15);
   

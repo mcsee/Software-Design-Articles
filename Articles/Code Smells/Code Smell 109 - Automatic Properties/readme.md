@@ -33,6 +33,7 @@ Some languages provide explicit support to build anemic models and DTOs.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/2353f11cfb336aaeda194c4a11a21324)
+
 ```csharp
 class Person
 {
@@ -44,6 +45,7 @@ class Person
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/198d8a232bd1abf52cda0884fb96bc5f)
+
 ```csharp
 class Person
 {

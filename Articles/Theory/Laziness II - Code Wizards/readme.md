@@ -28,6 +28,7 @@ c) Some programming languages ​​impose arbitrary type restrictions that are 
 Non-declarative languages ​​like C++ or Java offer us with tools like [Templates](https://en.wikipedia.org/wiki/Template_(C%2B%2B)) or [Generics](https://en.wikipedia.org/wiki/Generics_in_Java) that [look different but are similar.](https://www.geeksforgeeks.org/templates-in-c-vs-generics-in-java/)
 
 [Gist Url]: # (https://gist.github.com/mcsee/cc4a2eaa2770317a964515925072175c)
+
 ```cpp
 template <class T>
 bool Linked_List<T>::isEmpty() {

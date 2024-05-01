@@ -27,6 +27,7 @@ A "red tape" code smell could relate to unnecessary complexity, bureaucracy, or 
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/682cf5073e3fc55ae45f6e45c960e010)
+
 ```python
 class VotingSystem:
     def __init__(self, config):
@@ -67,6 +68,7 @@ voting_system = VotingSystem(config)
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/9bf78bef70aa93c82a3f77fb1d30e1e2)
+
 ```python
 class VoterVerification:
     def verify_voter(self, voter_id):

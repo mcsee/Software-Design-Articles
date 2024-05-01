@@ -29,6 +29,7 @@ Even better, we can work with [Domain Restricted Objects](https://github.com/mcs
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/d72d1e6617755cd8eff723b4dba90078)
+
 ```python
 user_input = "abc123!@#"
 # This content might not be very safe 
@@ -38,6 +39,7 @@ user_input = "abc123!@#"
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/2c19c64f268afb946ee8560e19cf444f)
+
 ```python
 def sanitize(string):
   # Remove any characters that are not letters or numbers

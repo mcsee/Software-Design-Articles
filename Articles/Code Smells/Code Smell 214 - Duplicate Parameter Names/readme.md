@@ -31,6 +31,7 @@ Most compilers forbid duplicate parameters since they are a common mistake in a 
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/d7f79fb931bf07d11b28a4f6ca4d2239)
+
 ```javascript
 function addNumbers(a, b, a) {
   console.log(a + b);
@@ -44,6 +45,7 @@ addNumbers(2, 3, 4);
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/1fc2681a474de57d2b124b709df9137a)
+
 ```javascript
 "use strict";
 

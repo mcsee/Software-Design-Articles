@@ -43,6 +43,7 @@ An empty collection is the collection's null object.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/36ff0b92d6365291ba000de230e3924e)
+
 ```java
 abstract class Address {
 	public abstract String getCity();
@@ -99,6 +100,7 @@ public class RealAddress extends Address {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/baa5c877b821b807ef9c691569a4174d)
+
 ```java
 // There are just "addresses"
 public class Address {

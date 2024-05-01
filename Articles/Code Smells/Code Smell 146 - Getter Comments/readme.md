@@ -31,6 +31,7 @@ Comment should describe only a critical design decision.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/29cd4411aa32467291998e467e6ef503)
+
 ```solidity
 contract Property {
     int private price;   
@@ -46,6 +47,7 @@ contract Property {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/bf1ab1d44b078d797796d19554032591)
+
 ```solidity
 contract Property {
     int private _price;   

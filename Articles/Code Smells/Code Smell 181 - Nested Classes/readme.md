@@ -35,6 +35,7 @@ These classes are harder to test, harder to debug, and reuse.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/836b485a9a9bb29e8292f9e79b867cbb)
+
 ```java
 class Address {
   String description = "Address: ";
@@ -62,6 +63,7 @@ public class Main {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/abcc622d9f0f27c40fd94202535dcced)
+
 ```java
 class Address {
   String description = "Address: ";

@@ -35,6 +35,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/388923d775ca893eb1e6ca4c28c3287f)
+
 ```javascript
 class Teacher {
     static getByID(id) {
@@ -81,6 +82,7 @@ class Student {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/9a0f4f02514f740f3872cbc463d25c8b)
+
 ```javascript
 class Teacher {
     constructor(fullName) {

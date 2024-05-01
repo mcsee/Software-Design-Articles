@@ -43,6 +43,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/fd1c07ce153817a5572cb3cb84ae1007)
+
 ```javascript
 class Mp3Converter {
   convertToMp3(source, mimeType) {
@@ -60,6 +61,7 @@ class Mp3Converter {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/ef02daf9882bbf6a6f12820b31e19920)
+
 ```javascript
 class Mp3Converter {
   convertToMp3(source, mimeType) {

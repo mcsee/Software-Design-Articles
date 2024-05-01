@@ -31,6 +31,7 @@ In some languages, this style is used to avoid accidental assignment instead of 
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/530570169b351c8d411c310d9a182d1a)
+
 ```javascript
 if (42 == answerToLifeMeaning) {
   // prevents the accidental assignation typo
@@ -42,6 +43,7 @@ if (42 == answerToLifeMeaning) {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/3a59fd09423eef0bbc5ab7857d041309)
+
 ```javascript
 if (answerToLifeMeaning == 42) {
   // might be mistaken with answerToLifeMeaning = 42

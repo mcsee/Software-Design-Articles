@@ -37,6 +37,7 @@ Then we grew up and model special scenarios with polymorphic special values.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/342599869ca032390b55d4cc76c49548)
+
 ```c
 #define INVALID_VALUE 999
 
@@ -63,6 +64,7 @@ int get_value()
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/40fb4a5238c9d6fbf5ad0f0aefa7fd07)
+
 ```c
 int main(void)
 {    

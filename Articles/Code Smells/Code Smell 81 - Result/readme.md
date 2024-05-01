@@ -27,6 +27,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/9d1f20a108047109bf229baf1c4c9976)
+
 ```javascript
 var result;
 
@@ -40,6 +41,7 @@ addBlockAfter(result);
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/75488df759013fcc4f3381b1006b7f82)
+
 ```javascript
 var lastBlockchainBlock;
 

@@ -25,6 +25,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/6712052beddeaac0d959785726fa82ca)
+
 ```python
 square = Square(5)
 
@@ -36,6 +37,7 @@ assert square.area() != 0
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/d9f05a81f7689e86c353ccd6a29e8306)
+
 ```python
 square = Square(5)
 

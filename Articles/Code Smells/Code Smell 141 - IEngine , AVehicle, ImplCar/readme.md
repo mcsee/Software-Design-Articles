@@ -33,6 +33,7 @@ We must [KISS](https://en.wikipedia.org/wiki/KISS_principle).
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/00b852bfb884a47c5d7adf0543ec3a61)
+
 ```java
 public interface IEngine
 {
@@ -45,6 +46,7 @@ public class ACar {}
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/4507889577dd937dda844b8119782a50)
+
 ```java
 public interface Engine
 {

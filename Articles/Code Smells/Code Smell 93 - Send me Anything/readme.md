@@ -31,6 +31,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/d6efbffa513dae1c59059439c64eea1b)
+
 ```php
 <?
 
@@ -53,6 +54,7 @@ function parseArguments($arguments) {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/7876a9b6bacf55a72abcaf5e2ca2e008)
+
 ```php
 <?
 

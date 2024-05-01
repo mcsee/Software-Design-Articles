@@ -33,6 +33,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/38b69082f08a26158420fbfb1856e8c2)
+
 ```ruby
 class Skynet < ActiveRecord::Base
   # dynamically add some attributes based on a configuration file
@@ -54,6 +55,7 @@ end
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/7249e35ba5c33c91aa93388647d9f345)
+
 ```ruby
 class Skynet < ActiveRecord::Base
   # define some attributes explicitly

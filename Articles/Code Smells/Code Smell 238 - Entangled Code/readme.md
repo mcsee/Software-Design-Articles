@@ -33,6 +33,7 @@ You are reading the code, then skip to another subject and return to the first o
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/59914b6bd6ac72937d729894a52b5ec5)
+
 ```python
 def planetary_properties(semi_major_axis,
                          incoming_radiation, reflected_radiation):
@@ -55,6 +56,7 @@ def planetary_properties(semi_major_axis,
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/4be2d21770d15e0b851a94fd5da0ec3f)
+
 ```python
 def planetary_properties(semi_major_axis,
                          incoming_radiation, reflected_radiation):

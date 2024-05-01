@@ -33,6 +33,7 @@ While writing [my last book](https://cleancodecookbook.com/), people read the co
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/23e0186c3fb8b7abe64ca491570ddb13)
+
 ```rust
 struct ExtraterrestrialSignal { signal_frequency: f64, signal_strength: f64, signal_duration: f64, }
 
@@ -53,6 +54,7 @@ fn perform_signal_processing_and_analysis(extraterrestrial_signal: &Extraterrest
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/83600dadd790c861d6faa89b63be0e81)
+
 ```rust
 struct ExtraterrestrialSignal {
     signal_frequency: f64,

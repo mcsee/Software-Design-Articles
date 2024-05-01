@@ -29,6 +29,7 @@
 ## Before
 
 [Gist Url]: # (https://gist.github.com/mcsee/4beca4e8726130c29a74b956df6aefe2)
+
 ```java
 double energy(double mass) {
   return mass * 300.000 ^ 2;
@@ -38,6 +39,7 @@ double energy(double mass) {
 ## After
 
 [Gist Url]: # (https://gist.github.com/mcsee/17728639113169878b08a95a373624e3)
+
 ```java
 // 1. Move the constant code fragment to a constant declaration
 final double LIGHT_SPEED = 300.000;

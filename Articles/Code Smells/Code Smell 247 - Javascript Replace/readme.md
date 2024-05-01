@@ -67,6 +67,10 @@ You can search and forbid the usage of *replace()* in your code and define *repl
 
 - Naming
 
+- Javascript
+
+- Language Specific
+
 # Level
 
 [x] Beginner

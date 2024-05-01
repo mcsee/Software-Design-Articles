@@ -31,6 +31,7 @@ Programmers tend to return accidental implementative solutions instead of real b
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/57c079a22fe139667c8330a937d4dcca)
+
 ```javascript
 function canWeMoveOn() {
   if (work.hasPendingTasks())
@@ -43,6 +44,7 @@ function canWeMoveOn() {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/0f0cfe7cd5133dc605555eeb20feaa95)
+
 ```javascript
 function canWeMoveOn() {
   return !work.hasPendingTasks();

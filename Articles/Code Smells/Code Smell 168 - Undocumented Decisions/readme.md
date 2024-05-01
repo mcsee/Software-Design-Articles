@@ -29,6 +29,7 @@ If we cannot write a failing test, we need to have a function with an excellent 
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/554144e5e61703b8a556328671b0a3dd)
+
 ```c
 // You need to run this process with more memory
 set_memory("512k");
@@ -39,6 +40,7 @@ run_process();
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/ab76cec5efd320d5cf9a2e626343d3e8)
+
 ```c
 increase_memory_to_avoid_false_positives();
 run_process();

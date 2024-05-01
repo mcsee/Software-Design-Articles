@@ -43,6 +43,7 @@ This is the same.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/1e7dafa0143427c7e381017d77da987e)
+
 ```kotlin
 val from = LocalDate.of(2018, 12, 9)
 val to = LocalDate.of(2022, 12, 22)
@@ -62,6 +63,7 @@ fun elapsedDays(fromDate: LocalDate, toDate: LocalDate): Long {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/cff12c234110259b3b39b6a0122e1b76)
+
 ```kotlin
 // You reify the Interval Concept
 

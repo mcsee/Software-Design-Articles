@@ -45,6 +45,7 @@ These files serve as a way to share information about the structure and interfac
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/4e5896ea95b0115f6f3dfb3571dc827a)
+
 ```java
 public class ShoppingCart {
   
@@ -79,6 +80,7 @@ public class ShoppingCart {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/e4aec099dfea90daba8ce073baf626db)
+
 ```java
 public class ShoppingCart {
      

@@ -39,6 +39,7 @@ When data is repeated in multiple places, it becomes difficult to identify the a
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/49c09f2dd730d321372e3bbab37feb5f)
+
 ```python
 class Transfer:
     def __init__(self, amount, income, expense):
@@ -70,6 +71,7 @@ print("Expense amount:", transfer.expense.amount)
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/9574b28e226eed4436d571abb5b1f59e)
+
 ```python
 class Transfer:
     def __init__(self, amount):

@@ -29,6 +29,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/62bc32206f71d61c1d0b63dcf87f8b80)
+
 ```java
 class Candidate {
 
@@ -44,6 +45,7 @@ class Candidate {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/edaade5842cdfa8ddd474c9904942e66)
+
 ```java
 class Job {
 

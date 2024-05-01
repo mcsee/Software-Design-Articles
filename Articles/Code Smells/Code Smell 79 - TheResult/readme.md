@@ -27,6 +27,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/eba3cf3c61494bd4e6a087776bfc5484)
+
 ```javascript
 var result;
 result = getSomeResult();
@@ -38,6 +39,7 @@ theResult = getSomeResult();
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/35dba1f621ebe19431e5fbe693546c9a)
+
 ```javascript
 var averageSalary;
 averageSalary = calculateAverageSalary();

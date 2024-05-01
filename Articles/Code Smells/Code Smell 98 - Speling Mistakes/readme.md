@@ -31,6 +31,7 @@ We need to have extra care for our texts and names.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/a4c5716a56fdb9b1b743debae3adfb4c)
+
 ```javascript
 comboFeededBySupplyer = supplyer.providers();
 ```
@@ -38,6 +39,7 @@ comboFeededBySupplyer = supplyer.providers();
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/1fc16a4982d8f423107d3e64d3c31e48)
+
 ```javascript
 comboFedBySupplier = supplier.providers();
 ```

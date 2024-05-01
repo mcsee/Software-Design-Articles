@@ -29,6 +29,7 @@ A language should be intuitive, homogeneous, predictable, simple, and pure.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/5d0644c120630d637c9649d7c92805c7)
+
 ```javascript
 const arrayWithFixedLength = new Array(3);
 
@@ -44,6 +45,7 @@ console.log(arrayWithFixedLength.length); // 3
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/a7f4c59210257cb279efc6747b4e3122)
+
 ```javascript
 const arrayWithTwoElements = new Array(3, 1);
 

@@ -24,6 +24,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/9e793df7489a96dc27d29d0f4e963bdf)
+
 ```javascript
 class Robot {   
   walk() {
@@ -41,6 +42,7 @@ class Robot {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/e1075cc971b5f7af28e37d29b492735d)
+
 ```javascript
 class Robot {   
   walk() {

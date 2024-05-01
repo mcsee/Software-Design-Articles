@@ -35,6 +35,7 @@ We should benchmark only if necessary and improve code only if really necessary 
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/46a0a22d915e949c42cfb8260a5689bc)
+
 ```javascript
 const nowInSeconds = ~~(Date.now() / 1000)
 
@@ -48,6 +49,7 @@ const nowInSeconds = ~~(Date.now() / 1000)
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/31a2d5a8699579d5472688b3ac9d9f61)
+
 ```javascript
 const nowInSeconds = Math.floor(Date.now() / 1000)
 ```

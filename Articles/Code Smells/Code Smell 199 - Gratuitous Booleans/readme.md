@@ -27,6 +27,7 @@ This rule raises an issue when a function contains several return statements tha
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/dc73985cd7ff45aa7496f41f96e81fe3)
+
 ```python
 # Gratuitous boolean expressions
 
@@ -41,6 +42,7 @@ else:
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/c8d0be601736520faa86a8d7e781be2f)
+
 ```python
 if a > 0:
     print("a is positive")

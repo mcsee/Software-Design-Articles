@@ -62,6 +62,7 @@ All names are contextual. (Spoiler alert!)
 *   Kylo Ren is Darth Vader’s **grandson**
 
 [Gist Url]: # (https://gist.github.com/mcsee/52d67ad05c3a0525fc5345702dcdb5fb)
+
 ```php
 <?
 
@@ -77,6 +78,7 @@ Dark Model
 The same person can be mother and daughter because they are roles. (more spoilers).
 
 [Gist Url]: # (https://gist.github.com/mcsee/e62fb2e5d3842b112f7eaab73831c61e)
+
 ```php
 <?
 
@@ -97,6 +99,7 @@ These invisible decisions violate the principle of substitution and prevent poly
 The fact that we are all human beings does not mean that there must be a variable _$human_ referencing us.
 
 [Gist Url]: # (https://gist.github.com/mcsee/d2d0a96e0a76678186c5c7885c6ea930)
+
 ```php
 <?
 
@@ -119,6 +122,7 @@ Numbers on bijection
 *   1/3 represents the fraction 1/3.
 
 [Gist Url]: # (https://gist.github.com/mcsee/8ac7a3e495d6286a29fc0bffab06d57d)
+
 ```php
 <?
 
@@ -212,6 +216,7 @@ It is extremely difficult to modify a system while keeping bad names.
 For example, this is a piece of code that is used in job interviews in order to find a mistake.
 
 [Gist Url]: # (https://gist.github.com/mcsee/4804592d6fa65f37cf91d7d676acc3d2)
+
 ```php
 <?
 

@@ -23,6 +23,7 @@ The term comes from Martin Fowler's book "Refactoring: Improving the Design of E
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/fd3612b1beeb9cde934bec4eca92bf16)
+
 ```python
 # This is a function that adds two numbers
 def s(a, b):
@@ -35,6 +36,7 @@ def s(a, b):
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/57f6e1f31f3cd599deafc21236ae71ce)
+
 ```python
 def sum(adder, anotherAdder):
     
@@ -44,6 +46,7 @@ def sum(adder, anotherAdder):
 If you ask ChatGPT to improve this version it will actually worsen it:
 
 [Gist Url]: # (https://gist.github.com/mcsee/57bce159d43ab49377e9de2de1e6706d)
+
 ```python
 def calculate_sum(number1, number2):
     # Calculate the sum of two numbers

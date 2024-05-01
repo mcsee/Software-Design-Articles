@@ -27,6 +27,7 @@ We should pick our names carefully.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/f1f4d16d6f90c682f540cd2c0c2cc5f2)
+
 ```java
 public interface Address extends ChangeAware, Serializable {
     String getStreet();
@@ -44,6 +45,7 @@ public class AddressImpl implements Address {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/6cf15d798176fd83cbe00e207d8351fc)
+
 ```java
 // Simple
 public class Address {

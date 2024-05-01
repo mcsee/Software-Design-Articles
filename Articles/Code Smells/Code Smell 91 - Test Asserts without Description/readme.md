@@ -25,6 +25,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/4edc85bb65bc9a70d11706086e0fab99)
+
 ```php
 <?
 
@@ -42,6 +43,7 @@ public function testNoNewStarsAppeared(): void
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/72a551eb26d02f1480142e9cd41a5ca7)
+
 ```php
 <?
 

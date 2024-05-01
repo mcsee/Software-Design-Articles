@@ -61,6 +61,7 @@ Remember the scripted UI version was not modular.
 We set up our valid game before building our UI
 
 [Gist Url]: # (https://gist.github.com/mcsee/29c9c0090376e51d71b99a9fd38988d9)
+
 ```javascript
 const response = await fetch("dictionary.txt");
  const dictionary = await response.text();
@@ -78,6 +79,7 @@ const response = await fetch("dictionary.txt");
 We create a text field to show status/errors to end users
 
 [Gist Url]: # (https://gist.github.com/mcsee/8fd4f81d9b19893d4131cd470dd8682a)
+
 ```javascript
 // Step 14 bis
 /* add an input text field under the table */
@@ -95,6 +97,7 @@ status.style.width = '300px';
 This is not strictly necessary but it helps keep the UI as simple as possible.
 
 [Gist Url]: # (https://gist.github.com/mcsee/25c2b2fa74c035c8b1d2dd4d656289c9)
+
 ```javascript
 // Step 17
 /* create variable named 'rowindex' starting at 0 */
@@ -111,6 +114,7 @@ And this is when all magic happens.
 We replace the algorithmic and error prune letter count computations with our more robust ones
 
 [Gist Url]: # (https://gist.github.com/mcsee/d379d0e674d4a679bd4b0bbf85e839f3)
+
 ```javascript
 // Step 24
 	  
@@ -170,6 +174,7 @@ Finally, we reset the game.
 This was one of the many mistakes corrected from the first version.
 
 [Gist Url]: # (https://gist.github.com/mcsee/be59d4aefd61fedfb89c2bfd4ab67b9f)
+
 ```javascript
 // Step 27
 

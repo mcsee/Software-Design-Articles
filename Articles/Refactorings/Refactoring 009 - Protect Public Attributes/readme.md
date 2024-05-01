@@ -27,6 +27,7 @@
 ## Before
 
 [Gist Url]: # (https://gist.github.com/mcsee/803a3400fe6b241417de5abd17b89606)
+
 ```java
 public class Song {
    String artistName;
@@ -37,6 +38,7 @@ public class Song {
 ## After
 
 [Gist Url]: # (https://gist.github.com/mcsee/bfefa85761d0030892bcbdd438ca7f59)
+
 ```java
 public class Song {
    // 1- Change the visibility of your attributes from public to private

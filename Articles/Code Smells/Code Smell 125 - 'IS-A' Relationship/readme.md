@@ -39,6 +39,7 @@ Behavior is essential, data is [accidental](https://github.com/mcsee/Software-De
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/34677fbac1f6a837bf2b8d17bc882251)
+
 ```java
 class ComplexNumber {
     protected double realPart;
@@ -64,6 +65,7 @@ class RealNumber extends ComplexNumber {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/29e46d1d672ac397552fae978148a7c2)
+
 ```java
 class Number {
     protected double value;

@@ -31,6 +31,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/dec9856bf69a06c367d2e683b179577a)
+
 ```php
 <?
 
@@ -42,6 +43,7 @@ function energy($mass) {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/2e4c88a516078500ce833dbfbd3d9b0e)
+
 ```ruby
 # Storing magnitudes without units is another smell
 class PhysicsConstants

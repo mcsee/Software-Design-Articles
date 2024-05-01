@@ -47,6 +47,7 @@ On the contrary, functional languages forbid this mechanism completely.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/5f444e26b2b3a658004a8c39ef5f30a1)
+
 ```csharp
 using System;
  
@@ -82,6 +83,7 @@ namespace Example
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/8e19291a5de8ad1b7a7ebf30ab0935f0)
+
 ```csharp
 using System;
  

@@ -31,6 +31,7 @@ According to the single responsibility principle, they should only build *valid*
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/5125008158d94d51b27e8687bbbbf812)
+
 ```java
 public class Person {
   int childrenCount; 
@@ -45,6 +46,7 @@ public class Person {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/a84b6d71034c47c1f95590d74bd2126d)
+
 ```java
 public class Person {
   int childrenCount; 

@@ -23,6 +23,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/46a81f9ff84ac7c32b2f482e0625efce)
+
 ```javascript
 console.log(0.2 + 0.1) 
 // 0.30000000000000004
@@ -35,6 +36,7 @@ console.log(0.2 + 0.1)
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/f57afd489e3f65c44e4e92fc1ff74fb8)
+
 ```javascript
 class Decimal {
   constructor(numerator) {

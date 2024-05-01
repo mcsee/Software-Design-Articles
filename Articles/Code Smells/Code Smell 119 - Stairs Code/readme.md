@@ -29,6 +29,7 @@ When dealing with boolean formulas, it is more readable to show a business boole
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/b7125d33f30a8a37a40bc994fe7fcba6)
+
 ```python
 def is_platypus(self):
     if self.is_mammal():
@@ -58,6 +59,7 @@ def is_platypus(self):
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/b0afdb15577225b97f66381872f373f1)
+
 ```python
 def is_platypus(self):
     return self.is_mammal() && 

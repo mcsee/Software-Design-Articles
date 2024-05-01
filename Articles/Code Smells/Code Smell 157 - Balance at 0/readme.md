@@ -37,6 +37,7 @@ The blockchain was unreachable 💩
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/4b6caebfa8707878eba0416c260fd180)
+
 ```python
 def get_balance(address):
     url = "https://blockchain.info/q/addressbalance/" + address
@@ -50,6 +51,7 @@ def get_balance(address):
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/f59614042404c4d55eac82d3f6f9c8a0)
+
 ```python
 def get_balance(address):
     url = "https://blockchain.info/q/addressbalance/" + address

@@ -29,6 +29,7 @@ This is very relevant when dealing with complex scenarios, large objects, or arr
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/9427d3e30d0485bf431a0dd21db3a40d)
+
 ```python
 VALID_COLUMNS = ['name', 'gender', 'email']
 
@@ -50,6 +51,7 @@ process_API_information(data)
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/b7eb7b4def657b3798dea3c0bdcf0809)
+
 ```python
 VALID_COLUMNS = ['name', 'gender', 'email']
 

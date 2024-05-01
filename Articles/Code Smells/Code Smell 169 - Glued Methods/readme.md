@@ -31,6 +31,7 @@ If you name a method with 'And' you are probably missing an extract-and-break me
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/a5f7f776b32957ad3d40d57b4ff99c7f)
+
 ```rust
 calculatePrimeFactorsRemoveDuplicatesAndPrintThem()
 
@@ -40,6 +41,7 @@ calculatePrimeFactorsRemoveDuplicatesAndPrintThem()
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/435d364b6ae0222952ace057ec099e94)
+
 ```rust
 calculatePrimeFactors();
 

@@ -35,6 +35,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/293dc79524550a542fc70db572d8e092)
+
 ```javascript
 class DateStringHelper {
    static format(date) {
@@ -48,6 +49,7 @@ DateStringHelper.format(new Date());
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/b8cfaddb9085b92d21a434a2bca2b14e)
+
 ```javascript
 class DateToStringFormatter {
    constructor(date) {

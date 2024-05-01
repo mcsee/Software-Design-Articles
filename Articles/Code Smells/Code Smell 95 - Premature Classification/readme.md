@@ -28,6 +28,7 @@ We tend to classify and name things **before** gathering enough knowledge and co
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/e6ca123df9f10f291a92e863bf168cc0)
+
 ```javascript
 class Song {
     constructor(title, artist) {
@@ -44,6 +45,7 @@ class Song {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/d3232090ebc0c1360c85dd1079aebe14)
+
 ```javascript
 class ClassicalSong extends Song {
     constructor(title, artist, composer) {

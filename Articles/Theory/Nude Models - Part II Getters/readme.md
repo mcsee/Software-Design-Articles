@@ -33,6 +33,7 @@ Many objects manage collections. The contents management, the invariants or the 
 Suppose we want to draw the polygon [presented on Part I](/dev-genius/nude-models-part-i-setters-77ac784a91f3), on a canvas. We will achieve it with the following code:
 
 [Gist Url]: # (https://gist.github.com/mcsee/7b491e643c6a3fe6cba647fa29162c5d)
+
 ```php
 <?
 
@@ -52,6 +53,7 @@ By exposing the vertices collection (and since collections are [passed by refere
 Nothing prevents this other code from running:
 
 [Gist Url]: # (https://gist.github.com/mcsee/a154cc16b478e6146d185c788ead7a36)
+
 ```php
 <?
 
@@ -81,6 +83,7 @@ How do we solve the polygon draw operation ?
 If we want to go around our polygon, we can return an iterator (indicating **what** we need to do) without revealing our underlying data structure (**how** we traverse it).
 
 [Gist Url]: # (https://gist.github.com/mcsee/6a5a88acd88887469e762a91cbedb88c)
+
 ```php
 <?
 
@@ -94,6 +97,7 @@ Returning an iterator allows the object to change its representation
 In case of languages supporting [anonymous functions](https://en.wikipedia.org/wiki/Anonymous_function) or [closures](https://en.wikipedia.org/wiki/Closure_(computer_programming)), we could take the responsibility of iterating elements without exposing an iterator outwards:
 
 [Gist Url]: # (https://gist.github.com/mcsee/5d54b7dddaa7b707ea51d03e28508e32)
+
 ```php
 <?
 
@@ -115,6 +119,7 @@ If we wanted to model a _Twitter_ account and keep its followers, knowing the bu
 _let’s ignore the suggestions that it offers us when creating the new account._
 
 [Gist Url]: # (https://gist.github.com/mcsee/d628f6f8a4382b668d6eae966bd6765e)
+
 ```php
 <?
 
@@ -130,6 +135,7 @@ _let’s ignore the suggestions that it offers us when creating the new account.
 Using _setters_ and _getters_, a novice programmer would be tempted to add a follower in this way:
 
 [Gist Url]: # (https://gist.github.com/mcsee/a3345c7c768547dc37e3c4c90be97c32)
+
 ```php
 <?
 
@@ -143,6 +149,7 @@ A correct responsibility assignment guided by business rules suggests that it is
 Therefore, a better solution would be:
 
 [Gist Url]: # (https://gist.github.com/mcsee/cdc635137dd1b626c64ad3d8045f7f54)
+
 ```php
 <?
 

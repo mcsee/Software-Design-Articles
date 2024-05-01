@@ -79,6 +79,7 @@ We do not usually find these responsibilities in domain entities in the bijectio
 In the accidental case of matching responsibility with an attribute, we will call the function in the same way without the _get()_ prefix.
 
 [Gist Url]: # (https://gist.github.com/mcsee/2fd1605ce5b27e5c6db52c4e8482b4bc)
+
 ```php
 <?
 

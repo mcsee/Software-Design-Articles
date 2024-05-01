@@ -25,6 +25,7 @@ In the same way [arrow code](https://github.com/mcsee/Software-Design-Articles/t
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/18a248332d86061c9cccdf5195a70ca8)
+
 ```java
 class QuotesSaver {
     public void Save(string filename) {
@@ -49,6 +50,7 @@ class QuotesSaver {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/7d40861212d1d475a25d740f10c8f34e)
+
 ```java
 public class QuotesSaver {
     public void Save(string filename) {

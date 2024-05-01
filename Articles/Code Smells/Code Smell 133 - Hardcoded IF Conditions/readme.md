@@ -29,6 +29,7 @@ We need to clean up stuff.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/894c442e034658ee3a6d602c1dcfcca4)
+
 ```csharp
 private string FindCountryName (string internetCode)
 {
@@ -47,6 +48,7 @@ private string FindCountryName (string internetCode)
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/5d45c77d532eb370ca6b78606c0db05e)
+
 ```csharp
 private string[] country_names = {"Germany", "France", "Argentina"} 
 // and lots more

@@ -101,6 +101,7 @@ By losing the coverage of all possible cases we might lose some use case that is
 Let’s see an example of a dynamic function name construction:
 
 [Gist Url]: # (https://gist.github.com/mcsee/55bc0391067a05d90a88b724f80a473c)
+
 ```php
 <?
 
@@ -167,6 +168,7 @@ To solve the dilemma we can check the site [shoulditestprivatemethods.com](http:
 The alternative is to think about the reason for testing a private function. The answer is always that the private function does an internal calculation or models an algorithm.
 
 [Gist Url]: # (https://gist.github.com/mcsee/a5daf26160d96d9d4b7375267f376fae)
+
 ```php
 <?
 
@@ -178,6 +180,7 @@ The alternative is to think about the reason for testing a private function. The
 To solve the dilemma we leave the private method. We extract the algorithm and test it unitary, achieving concept reification (which surely exists in the domain of the problem) and its possible reuse favoring composition. Happy ending.
 
 [Gist Url]: # (https://gist.github.com/mcsee/e20277044d2e7955b0f745841509d3a7)
+
 ```php
 <?
 
@@ -189,6 +192,7 @@ private function doSomeCrazyMathToFindAMagicNumber() {
 and we can test it!!
 
 [Gist Url]: # (https://gist.github.com/mcsee/ffc5a2063073da9039936e6765167037)
+
 ```php
 <? final class CrazyObjectCalculatorTest extends TestCase {
 

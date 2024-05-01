@@ -31,6 +31,7 @@ You must avoid merge requests making different unrelated changes.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/8324fa9cdd7a18f1f66f33ad874244c8)
+
 ```javascript
 function generateFibonacci(ordinal) {
   const fibonacciSequence = [0, 1];
@@ -58,6 +59,7 @@ function voyagerDistanceFromEarth(currentDistanceInKms, yearsTravelled) {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/9d8adddf01f4ba19917b6307cdcd66f3)
+
 ```javascript
 function generateFibonacci(ordinal) {
   const fibonacciSequence = [0, 1];

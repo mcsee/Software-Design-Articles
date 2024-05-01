@@ -23,6 +23,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/059b9deb2e9e13c94a724b82e54f6fda)
+
 ```python
 def fetch_and_display_personnel():
   data = # ...
@@ -34,6 +35,7 @@ def fetch_and_display_personnel():
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/47a1f8cd217afd58bc47b373b91593ef)
+
 ```python
 def fetch_personnel():
   return # ...

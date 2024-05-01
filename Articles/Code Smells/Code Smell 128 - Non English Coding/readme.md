@@ -41,6 +41,7 @@ My code (tries to be) in English.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/498a2b777034a67a6725885a20d30c15)
+
 ```javascript
 const elements = new Set();
 
@@ -79,6 +80,7 @@ class Person {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/34f1d56858e83e39ebda706a05315454)
+
 ```javascript
 const elements = new Set();
 

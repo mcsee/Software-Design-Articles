@@ -29,6 +29,7 @@ Defining optional arguments before mandatory ones is an error.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/ed058f746a6eefe2d303743cd82c6fb0)
+
 ```php
 <?
 
@@ -44,6 +45,7 @@ buildCar("Volvo");
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/a1cf6479f6b0820fb0843441b5ea7499)
+
 ```php
 <?
 
@@ -54,6 +56,7 @@ buildCar("Volvo")}}
 ```
 
 [Gist Url]: # (https://gist.github.com/mcsee/f70b209c640d706fdb0d87dacb7f2ee1)
+
 ```python
 def functionWithLastOptional(a, b, c='foo'):
     print(a)

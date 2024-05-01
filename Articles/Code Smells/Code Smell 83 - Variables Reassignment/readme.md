@@ -29,6 +29,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/f97b6362fcfa4018e75d1d2ce9fc9169)
+
 ```python
 class Item:
   def taxesCharged(self):
@@ -54,6 +55,7 @@ taxAmount += lastPurchase.taxesCharged();
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/d5f970273099100449221f600cd7612f)
+
 ```python
 class Item:
   def taxesCharged(self):

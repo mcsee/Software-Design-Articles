@@ -27,6 +27,7 @@ We need to refactor behavior and check if it needs an abstraction.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/2b7734f1f6c0ab46a88a71b37464ceeb)
+
 ```rust
 fn validate_size(value: i32) {
     validate_integer(value);
@@ -45,6 +46,7 @@ fn validate_integer(value: i32) {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/1eca09d9bb13cea966bcbe2eda95021c)
+
 ```rust
 fn validate_size(value: i32) {
  	validate_type(value, Type::Integer);

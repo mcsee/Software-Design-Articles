@@ -29,6 +29,7 @@
 *Correct sample taken from Sandro [Mancuso's bank kata](https://github.com/sandromancuso/Bank-kata/blob/master/src/main/java/org/craftedsw/domain/Account.java)*
 
 [Gist Url]: # (https://gist.github.com/mcsee/ef87aec745f654878ce71c844f786f17)
+
 ```java
 public class MY_Account {
  // This class name has a different case and underscores
@@ -81,6 +82,7 @@ private void privRecordTransactionAfterEnteredthabalance
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/55ade1bd7d835ef3804e86b55ec3abaa)
+
 ```java
 public class Account {
 

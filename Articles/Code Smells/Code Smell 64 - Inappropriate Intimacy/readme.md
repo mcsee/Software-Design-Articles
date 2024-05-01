@@ -35,6 +35,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/5f9206a8a131b4dcaaa2fd64562c9eca)
+
 ```java
 class Candidate {
 
@@ -55,6 +56,7 @@ class Candidate {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/f94d51d327592ca511b625bac37cb441)
+
 ```java
 final class Address {
  void print() {

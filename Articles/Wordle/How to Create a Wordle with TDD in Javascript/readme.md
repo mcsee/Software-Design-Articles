@@ -61,6 +61,7 @@ A word in Wordle is a *valid* 5-letter word.
 Let's start with our happy path:
 
 [Gist Url]: # (https://gist.github.com/mcsee/ec82148f478ade72222ab31e8ea37a35)
+
 ```javascript
 test("test01ValidWordLettersAreValid", async function() {
   const word = new Word('valid');
@@ -100,6 +101,7 @@ This is fine since we haven't defined what a word is.
 We need to create a Word with the *letters()* function.
 
 [Gist Url]: # (https://gist.github.com/mcsee/5c56be1b70bcd05c52a902db48aee85e)
+
 ```javascript
 class Word {
   letters() {
@@ -129,6 +131,7 @@ We run all the tests (just 1) and we are OK.
 Let's write another test:
 
 [Gist Url]: # (https://gist.github.com/mcsee/4e366fed90874353fbc16e74aa8f3c82)
+
 ```javascript
 test("test02FewWordLettersShouldRaiseException", async function() {
   expect(() => { 
@@ -167,6 +170,7 @@ Received function did not throw
 We need to change our implementation to make *test02* pass (and also *test01*).
 
 [Gist Url]: # (https://gist.github.com/mcsee/c99a5093fcf300fee7c14c72c00d3a10)
+
 ```javascript
 class Word {
   constructor(word) {
@@ -201,6 +205,7 @@ And the tests pass.
 Let's check for too many.
 
 [Gist Url]: # (https://gist.github.com/mcsee/872e0b7a24e76d743930c8b809d1201c)
+
 ```javascript
 test("test03TooManyWordLettersShouldRaiseException", async function() {
   expect(() => { 
@@ -232,6 +237,7 @@ Received function did not throw
 We add the validation:
 
 [Gist Url]: # (https://gist.github.com/mcsee/95c243fc74a36df850d626e6133ad527)
+
 ```javascript
 class Word {
   constructor(letters) {
@@ -264,6 +270,7 @@ We can also add a test for zero words following the [Zombie methodology](https:/
 Let's do it.
 
 [Gist Url]: # (https://gist.github.com/mcsee/ebe62e4ac40bc41d19fa1246c95e8cb4)
+
 ```javascript
 test("test04EmptyLettersShouldRaiseException", async function() {
   expect(() => { 
@@ -295,6 +302,7 @@ As this test adds no value, we should remove it.
 Let's check now what are valid letters:
 
 [Gist Url]: # (https://gist.github.com/mcsee/1f839bedd5816e69d50f0e14ca282027)
+
 ```javascript
 test("test05InvalidLettersShouldRaiseException", async function() {
    expect(() => { 
@@ -320,6 +328,7 @@ Received function did not throw
 We need to correct the code...
 
 [Gist Url]: # (https://gist.github.com/mcsee/2060b50bb3a31ec9ae25a199deccb466)
+
 ```javascript
 class Word {
   constructor(word) {
@@ -350,6 +359,7 @@ All tests have passed 5/5
 Let's add more invalid letters and correct the code.
 
 [Gist Url]: # (https://gist.github.com/mcsee/461929411d2ecb441445df324ccb9a44)
+
 ```javascript
 test("test06PointShouldRaiseException", async function() {
    expect(() => { 
@@ -381,6 +391,7 @@ We can refactor.
 We replace the last two sentences. 
 
 [Gist Url]: # (https://gist.github.com/mcsee/9b973d0391ced4d805f25e904c7dabf6)
+
 ```javascript
 class Word {
   constructor(word) {
@@ -417,6 +428,7 @@ We need to keep track of all of them until we open new ones.
 We need to compare words.
 
 [Gist Url]: # (https://gist.github.com/mcsee/334da5849a12fcf84696c8023fd42c0e)
+
 ```javascript
 test("test07TwoWordsAreNotTheSame", async function() {
     const firstWord = new Word('valid');
@@ -436,6 +448,7 @@ And the test fails.
 Let's use the parameter we are sending to them.
 
 [Gist Url]: # (https://gist.github.com/mcsee/4e3858f55e112cbfa7440ebef43ad2e8)
+
 ```javascript
 class Word {
   constructor(word) { 
@@ -482,6 +495,7 @@ We add a different word for letters comparison.
 Remember *letters()* function was hardcoded until now.
 
 [Gist Url]: # (https://gist.github.com/mcsee/fdd08a962d9b61b70cf4ffb740a904ac)
+
 ```javascript
 test("test09LettersForGrassWord", async function() {
   const grassWord = new Word('grass'); 
@@ -522,6 +536,7 @@ Error: expect(received).toStrictEqual(expected) // deep equality
 Let's change the *letters()* function since we've been faking it.
 
 [Gist Url]: # (https://gist.github.com/mcsee/a051bf0bb109627a0c6fa9c44e0a3502)
+
 ```javascript
 class Word {
   letters() {
@@ -537,6 +552,7 @@ class Word {
 We need to make sure comparisons are not case-sensitive.
 
 [Gist Url]: # (https://gist.github.com/mcsee/7ab40f31bddbe67f1778d82393d6a4ca)
+
 ```javascript
 test("test10ComparisonIsCaseInsensitve", async function() {
     const firstWord = new Word('valid');
@@ -558,6 +574,7 @@ We won't do magic conversions.
 We change the test to catch invalid uppercase letters and fix them.
 
 [Gist Url]: # (https://gist.github.com/mcsee/7ac9a02b47895ae6f3bfbecfe842de8b)
+
 ```javascript
 test("test10NoUppercaseAreAllowed", async function() {
    expect(() => { 
@@ -580,6 +597,7 @@ Our words are in a bijection with English Wordle words. or not?
 Let's try a non-English word.
 
 [Gist Url]: # (https://gist.github.com/mcsee/50ea04242702d5f40ce388624ec4414e)
+
 ```javascript
 test("test11XXXXIsnotAValidWord", async function() {
   expect(() => { 
@@ -615,6 +633,7 @@ Let's create the game.
 We start talking about a game that does not exist.
 
 [Gist Url]: # (https://gist.github.com/mcsee/f4ab6a5f8ea7dd48e0b496867229ae34)
+
 ```javascript
 test("test11EmptyGameHasNoWinner", async function() {
   const game = new Game()
@@ -629,6 +648,7 @@ We need to create the class and the function.
 # Creating Game Objects
 
 [Gist Url]: # (https://gist.github.com/mcsee/883f0afc47f66d6cbf0d5c19bbf82b56)
+
 ```javascript
 class Game {
   hasWon() {
@@ -648,6 +668,7 @@ And the simplest solution.
 Hardcoding as always.
 
 [Gist Url]: # (https://gist.github.com/mcsee/150f2b229ead9940f6522edbf18438aa)
+
 ```javascript
 test("test12EmptyGameWordsAttempted", async function() {
   const game = new Game()
@@ -671,6 +692,7 @@ class Game {
 # Start guessing
 
 [Gist Url]: # (https://gist.github.com/mcsee/123bfc2be3d3a605bf48aca0c09f311f)
+
 ```javascript
 test("test13TryOneWordAndRecordIt", async function() {
   var game = new Game();
@@ -707,6 +729,7 @@ We can implement hasLost() if it misses 6 attempts.
 With the simplest implementation as usual.
 
 [Gist Url]: # (https://gist.github.com/mcsee/cd4f512f864df2a51c5f563a378de9a7)
+
 ```javascript
 test("test14TryOneWordAndDontLooseYet", async function() {
   const game = new Game();
@@ -730,6 +753,7 @@ class Game {
 As always. We stop faking it and decide to make it.
 
 [Gist Url]: # (https://gist.github.com/mcsee/91f61c07ac433e392490707413493c46)
+
 ```javascript
 test("test15TryFiveWordsLoses", async function() {
   const game = new Game(
@@ -761,6 +785,7 @@ We have most of the mechanics.
 Let's add valid words dictionary and play invalid.
 
 [Gist Url]: # (https://gist.github.com/mcsee/9321c44468c5557a3564cd93cc1843fe)
+
 ```javascript
 test("test16TryToPlayInvalid", async function() {
   const game = new Game([]);  
@@ -775,6 +800,7 @@ The test fails as expected.
 We fix it.
 
 [Gist Url]: # (https://gist.github.com/mcsee/0b54f2baf740ef0ae7b9a371c04200ca)
+
 ```javascript
 class Game {
   constructor(validWords) {
@@ -845,6 +871,7 @@ Now, we play to win.
 We add the test and need to change hasWon() accordingly.
 
 [Gist Url]: # (https://gist.github.com/mcsee/4569c8bfe5fa10531895f0ad3d447bc9)
+
 ```javascript
 test("test17GuessesWord", async function() {
   const words = [new Word('happy')];
@@ -883,6 +910,7 @@ We added the *Correct Word*.
 We need to assert this word is in the dictionary.
 
 [Gist Url]: # (https://gist.github.com/mcsee/a919e191a875d0d3ff90b2df939aa70d)
+
 ```javascript
 test("test18CorrectWordNotInDictionary", async function() {
   const words = [new Word('happy')];
@@ -924,6 +952,7 @@ What happens if we win in the final attempt?
 Zombies ask us always to check for (B)boundaries where bugs hide.
 
 [Gist Url]: # (https://gist.github.com/mcsee/c02c61e48fece9e40a0c29fde979b965)
+
 ```javascript
 test("test19TryFiveWordsWins", async function() {
   const game = new Game(
@@ -961,6 +990,7 @@ Let's add the letter's positions.
 We can do it in Word class.
 
 [Gist Url]: # (https://gist.github.com/mcsee/07e861eebc069ca0a39810d86a1256c8)
+
 ```javascript
 test("test20LettersDoNotMatch", async function() {
   const firstWord = new Word('trees');
@@ -981,6 +1011,7 @@ TypeError: firstWord.matchesPositionWith is not a function
 Let's fake it as usual.
 
 [Gist Url]: # (https://gist.github.com/mcsee/72e0ee60c96c78e9685fe4cc7663f3cf)
+
 ```javascript
 class Word {
   matchesPositionWith(correctWord) {
@@ -1003,6 +1034,7 @@ class Word {
 Let's match
 
 [Gist Url]: # (https://gist.github.com/mcsee/5ff25365ed85eba5695f181e1ed68130)
+
 ```javascript
 test("test21MatchesFirstLetter", async function() {
   const guessWord = new Word('trees');
@@ -1022,6 +1054,7 @@ Ugly and imperative
 We will refactor it later, for sure.
 
 [Gist Url]: # (https://gist.github.com/mcsee/caddd5b89927478e10ea23df58dd01b5)
+
 ```javascript
 matchesPositionWith(correctWord) {
    var positions = [];
@@ -1055,6 +1088,7 @@ Matching in incorrect positions.
 and always the simplest solution...
 
 [Gist Url]: # (https://gist.github.com/mcsee/499d7e27102345b91ab1a1835d6a62bb)
+
 ```javascript
 test("test23MatchesIncorrectPositions", async function() {
   const guessWord = new Word('trees');
@@ -1081,6 +1115,7 @@ class Word {
 A more spicy test case.
 
 [Gist Url]: # (https://gist.github.com/mcsee/4b8be148dc13e3ded3723c315d22cc17)
+
 ```javascript
 test("test24MatchesIncorrectPositionsWithMatch", async function() {
   const guessWord = new Word('alarm');
@@ -1100,6 +1135,7 @@ test("test24MatchesIncorrectPositionsWithMatch", async function() {
 Let's go for the implementation
 
 [Gist Url]: # (https://gist.github.com/mcsee/84d386ea6218a4bc0f1ad0a121668da3)
+
 ```javascript
 class Word {
   matchesIncorrectPositionWith(correctWord) {
@@ -1132,6 +1168,7 @@ All tests have passed 21/21
 # Playing with real examples
 
 [Gist Url]: # (https://gist.github.com/mcsee/fe5f2933602519ba102b99cc4dd3b37a)
+
 ```javascript
 test("test20220911", async function() {
   const correctWord = new Word('tibia');
@@ -1211,6 +1248,7 @@ Learning new rules is not a problem when we have [TDD](https://github.com/mcsee/
 Let's cover the examples from the article
 
 [Gist Url]: # (https://gist.github.com/mcsee/af352a39b07ef05a02a668b3d514ca05)
+
 ```javascript
 test("test25VeryComplexWrongPositions", async function() {
 
@@ -1255,6 +1293,7 @@ test("test25VeryComplexWrongPositions", async function() {
 Let's steal the algorithm from the article.
 
 [Gist Url]: # (https://gist.github.com/mcsee/fb0447b21f640167a08170a82cd237e1)
+
 ```javascript
 matchesIncorrectPositionWith(correctWord) {     
     const correctPositions = this.matchesPositionWith(correctWord);
@@ -1284,6 +1323,7 @@ matchesIncorrectPositionWith(correctWord) {
 We need to add another function (which will be useful for keyboard colors).
 
 [Gist Url]: # (https://gist.github.com/mcsee/a6f6822743d9e982f7d8ec39f6335a9f)
+
 ```javascript
 lettersAtCorrectPosition(correctWord) {
     return this.matchesPositionWith(correctWord).

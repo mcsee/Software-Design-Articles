@@ -29,6 +29,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/4713b63031ad073d46701b7b4c81b028)
+
 ```php
 <?
 
@@ -45,6 +46,7 @@ class Employee {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/74d9534ee563afc1fdf766b90115fb10)
+
 ```php
 <?
 

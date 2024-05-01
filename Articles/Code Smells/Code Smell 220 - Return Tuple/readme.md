@@ -39,6 +39,7 @@ Some languages are: C#, Javascript, Go, Lua, Matlab, PHP, Python, Rust, and Swif
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/d7cb1ea13ceb86ad1c087e2a52926c89)
+
 ```swift
 func getNameAndAge() -> (String, Int) {
     let name = "John"
@@ -50,6 +51,7 @@ func getNameAndAge() -> (String, Int) {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/e6db8dfa30b45043ff6a187ba14be10a)
+
 ```swift
 struct PeopleProfile {
     let name: String

@@ -570,6 +570,14 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 247 - Javascript Replace](/Articles/Code%20Smells/Code%20Smell%20247%20-%20Javascript%20Replace/readme.md)
 
+* [Code Smell 248 - Unreliable Copy](/Articles/Code%20Smells/Code%20Smell%20248%20-%20Unreliable%20Copy/readme.md)
+
+* [Code Smell 249 - Constants as Numbers](/Articles/Code%20Smells/Code%20Smell%20249%20-%20Constants%20as%20Numbers/readme.md)
+
+* [Code Smell 250 - Premature Memoization](/Articles/Code%20Smells/Code%20Smell%20250%20-%20Premature%20Memoization/readme.md)
+
+* [Code Smell 251 - Collections Empty](/Articles/Code%20Smells/Code%20Smell%20251%20-%20Collections%20Empty/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)

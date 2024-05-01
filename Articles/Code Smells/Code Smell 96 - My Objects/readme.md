@@ -28,6 +28,7 @@ This is vague and lead to context mistakes.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/5c9ab47e5af40a643dee30ace2b57a93)
+
 ```csharp
 MainWindow myWindow = Application.Current.MainWindow as MainWindow;
 ```
@@ -35,6 +36,7 @@ MainWindow myWindow = Application.Current.MainWindow as MainWindow;
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/8d230b138e3220e08064acedd585dd7d)
+
 ```csharp
 MainWindow salesWindow = Application.Current.MainWindow as MainWindow;
 

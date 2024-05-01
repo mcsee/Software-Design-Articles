@@ -27,6 +27,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/8440adc57486989468045de4df3c9bef)
+
 ```javascript
 console.log(Math.max() > Math.min());
 
@@ -40,6 +41,7 @@ console.log(Math.max());
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/7f275da71e96bd4050e17c0ec7511c14)
+
 ```javascript
 console.log(Math.max() > Math.min());
 console.log(Math.max());

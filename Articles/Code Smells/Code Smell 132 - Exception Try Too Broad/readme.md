@@ -23,6 +23,7 @@
 ## Wrong 
 
 [Gist Url]: # (https://gist.github.com/mcsee/0ff3c46988812be98da1e256b54c00d1)
+
 ```python
 import calendar, datetime
 try: 
@@ -48,6 +49,7 @@ except ValueError as e:
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/0d7e270416ebc934fbfbe8934175e52c)
+
 ```python
 import calendar, datetime
 

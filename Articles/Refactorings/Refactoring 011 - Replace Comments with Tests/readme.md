@@ -35,6 +35,7 @@
 ## Before
 
 [Gist Url]: # (https://gist.github.com/mcsee/99a20b92785fa34a4dd5c32a8623e8d4)
+
 ```python
 def multiply(a, b):
     # This function multiplies two numbers and returns the result
@@ -52,6 +53,7 @@ def multiply(a, b):
 ## After
 
 [Gist Url]: # (https://gist.github.com/mcsee/e73306c042cbc8f200fc149d78f24173)
+
 ```python
 def multiply(first_multiplier, second_multiplier):
     return first_multiplier * second_multiplier

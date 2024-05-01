@@ -25,6 +25,7 @@ Non-premature optimization happens when you have actual evidence you can improve
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/ddef91c2fc31de6da80b8c5b244ff904)
+
 ```python
 def is_warm():
     # This is a fast api call to your thermometer
@@ -66,6 +67,7 @@ else:
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/2d9bb0dcab1d80de01358e8259412cf4)
+
 ```python
 if is_warm() and is_weekend() and is_sunny():
     # the 3 conditions are evaluated in short circuit 

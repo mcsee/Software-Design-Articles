@@ -43,6 +43,7 @@ You have anemic associative arrays that hold unstructured data and you want to h
 ## Before
 
 [Gist Url]: # (https://gist.github.com/mcsee/ca8de4d5b62f43e87002b6424de11d60)
+
 ```php
 <?
 
@@ -88,6 +89,7 @@ $credential =
 ## After
 
 [Gist Url]: # (https://gist.github.com/mcsee/d8c3cb918572138803015c91a0274d9d)
+
 ```php
 <?
 

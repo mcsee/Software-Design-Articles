@@ -31,6 +31,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/9e31898b70c00fcb2d71d6d9a47be02d)
+
 ```javascript
 class Soldier {
    run() {}
@@ -52,6 +53,7 @@ class Soldier {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/93818a16a693b7371c8a81670ef522e5)
+
 ```javascript
 class Soldier {
    run() {}

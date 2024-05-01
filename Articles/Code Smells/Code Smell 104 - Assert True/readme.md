@@ -29,6 +29,7 @@ Error tracking gets more difficult.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/c54f0b1ee42d6a1aff640507e0bdf625)
+
 ```php
 <?
 
@@ -56,6 +57,7 @@ final class RangeUnitTest extends TestCase {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/edf0b1c3339451662bb000055ef5d782)
+
 ```php
 <?
 

@@ -35,6 +35,7 @@ Nowadays, object destruction is automatic in most modern programming languages.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/73df39bf0fcbf9537ed210cf367daac6)
+
 ```cpp
 class File {
 public:
@@ -56,6 +57,7 @@ private:
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/a0423d39f6b1310dadb049e4188f5fc5)
+
 ```cpp
 class File {
 public:

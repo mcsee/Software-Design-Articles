@@ -29,6 +29,7 @@ We must take ownership of code with errors and leave it better.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/5577d55a7a059073137b7d892b218e80)
+
 ```c
 int mult(int a,int  other) 
     { int prod
@@ -44,6 +45,7 @@ int mult(int a,int  other)
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/952f2de180ccdbe8bb73f7dfac162fe5)
+
 ```c
 int multiply(int firstMultiplier, int secondMultiplier) {
   int product = 0; 

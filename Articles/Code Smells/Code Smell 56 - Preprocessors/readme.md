@@ -29,6 +29,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/b9945cd67cc06de97cffe8edb114862c)
+
 ```c
 #if VERBOSE >= 2
   printf("trace message");
@@ -38,6 +39,7 @@
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/717c0b451c159315180c56fb0849419c)
+
 ```c
 if (runtimeEnvironment->traceDebug()) {
   printf("trace message");

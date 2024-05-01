@@ -31,6 +31,7 @@ Code should be straightforward and readable.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/f0858b7401a061b1d87ad5e488a85bc3)
+
 ```json
 {
     "id": 2,
@@ -45,6 +46,7 @@ Code should be straightforward and readable.
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/3dd8fd30a0c8c50538b401cbfb746ecc)
+
 ```json
 {
     "id": 2,

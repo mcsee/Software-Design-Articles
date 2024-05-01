@@ -33,6 +33,7 @@ Modifying them is generally not safe.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/9d66e179c57495aa7c2080ee34152c11)
+
 ```java
 // here you add elements to the collection...
 Collection<Integer> people = new ArrayList<>();
@@ -49,6 +50,7 @@ for (Object person : people) {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/18369eb8798462ef04372be56827c9d6)
+
 ```java
 Collection<Integer> people = new ArrayList<>();
 // Here you add elements to the collection...

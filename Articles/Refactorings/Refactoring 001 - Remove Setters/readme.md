@@ -33,6 +33,7 @@
 ## Before
  
 [Gist Url]: # (https://gist.github.com/mcsee/b34136c13dddf4cd751579c2b51d91a3)
+
 ```java
 public class Point {
    protected int x;
@@ -65,6 +66,7 @@ location.setY(2);
 ```
 
 [Gist Url]: # (https://gist.github.com/mcsee/d8a4183ef00f5636c2d821f96a9cefd0)
+
 ```java
 public class Car {
    protected int speed;
@@ -87,6 +89,7 @@ tesla.setSpeed(100 km/h);
 ## After
 
 [Gist Url]: # (https://gist.github.com/mcsee/9998a9ed50514d162333c7d05ca34415)
+
 ```java
 // 1. We locate setters usage
 location.setX(1);
@@ -106,6 +109,7 @@ Point location = new Point(1, 2);
 ```
 
 [Gist Url]: # (https://gist.github.com/mcsee/28a11e50d2880767238e6198ccaa93f5)
+
 ```java
 public class Car {
    protected int speed;

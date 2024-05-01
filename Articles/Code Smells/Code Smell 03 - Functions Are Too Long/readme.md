@@ -34,6 +34,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/1f12fb2d0cb9f8eea202526597cf4b83)
+
 ```php
 <?
 
@@ -52,6 +53,7 @@ function setUpChessBoard() {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/0f66ce8c2bba8990e44a36495fa4c3e1)
+
 ```php
 <?
 

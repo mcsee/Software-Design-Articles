@@ -37,6 +37,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/c429e71f6b0239b83e7e307feb5927fe)
+
 ```php
 <?
 
@@ -61,6 +62,7 @@ final class Book {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/7b6a2b5eb49cbb4dc690a2657d6837d0)
+
 ```php
 <?
 

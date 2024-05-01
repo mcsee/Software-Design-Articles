@@ -29,6 +29,7 @@ There are also other bad examples we will never reach some date, tests running a
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/7e96669a0239ea203c90423e2e08b22d)
+
 ```java
 class DateTest {
     @Test
@@ -44,6 +45,7 @@ class DateTest {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/3ccfe6623e9eea63c135afa59c4dbf4f)
+
 ```java
 class DateTest {
     @Test

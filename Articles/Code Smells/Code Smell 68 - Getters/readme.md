@@ -33,6 +33,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/39d40cf2f0d4159c95d90243c59a4df5)
+
 ```php
 <?php
 
@@ -58,6 +59,7 @@ final class Window {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/cd465eb9ca4f2771fb3dc5e30dc491cc)
+
 ```php
 <?
 

@@ -37,6 +37,7 @@ We often use bad and vague names instead of looking for good names in the [MAPPE
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/685b6d202e94d8c5b410dafd15d8b5de)
+
 ```javascript
 for (var customer in customerCollection) {
     // iterate with current customer
@@ -50,6 +51,7 @@ for (var currentCustomer in customersCollection) {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/a8a2b41722dde835757f360a5d1f01d2)
+
 ```javascript
 for (var customer in customers) {
     // iterate with current customer

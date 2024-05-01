@@ -29,6 +29,7 @@ In this case, we need to configure the environment with the strength strategy an
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/2b00edcf1fded330263a4773b227cd06)
+
 ```python
 def send_welcome_email(email_address, environment):
   if ENVIRONMENT_NAME == "production":
@@ -48,6 +49,7 @@ send_welcome_email("john@doe.com", "production")
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/4a598f416f01357597a072d75ba30a6f)
+
 ```python
 class ProductionEnvironment:
   FROM_EMAIL = "Bob Builder <bob@builder.com>"

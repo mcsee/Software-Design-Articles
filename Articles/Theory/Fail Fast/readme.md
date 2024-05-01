@@ -52,6 +52,7 @@ As we saw in the article about the immutability of objects if an invalid date is
 [The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 [Gist Url]: # (https://gist.github.com/mcsee/0a519a375e302a5d25ec09185bf95312)
+
 ```php
 <?
 
@@ -83,6 +84,7 @@ The best way to fail fast is to properly represent objects while respecting our 
 A misrepresentation of a geographic coordinate using an array with two integers is not going to know how to "defend" itself from possible invalid situations.
 
 [Gist Url]: # (https://gist.github.com/mcsee/ff148550e3d2018c2ee345ea0790e8fc)
+
 ```php
 <?
 
@@ -99,6 +101,7 @@ This is solved with good representations and with small objects that respect the
 A bijection is straight: a coordinate is not an array. not all arrays are coordinates.
 
 [Gist Url]: # (https://gist.github.com/mcsee/a1794b5ca43c5229bb9e1c8b6a8b1041)
+
 ```php
 <?
 
@@ -118,6 +121,7 @@ This would be the first iteration. The coordinate should check that the latitude
 Let's be extreme:
 
 [Gist Url]: # (https://gist.github.com/mcsee/33f84258133eb9bafbac1f85532527c6)
+
 ```php
 <?
 
@@ -154,6 +158,7 @@ As the last example let's go back to the situation where the Mars Climate Orbite
 The rocket was developed by two teams from different countries using different metric systems. The example below is a simplified scenario.
 
 [Gist Url]: # (https://gist.github.com/mcsee/0f0f44841986926a762be86eef72ca4b)
+
 ```php
 <?
 
@@ -177,6 +182,7 @@ These assertions must always be on in productive environments. Once again, when 
 Exceptions must occur at all levels. If a movement is created with an invalid date the exception must be reported when creating the date. If the date is valid but it is incompatible with some business rule (for example, you cannot settle movements in the past) this must also be controlled.
 
 [Gist Url]: # (https://gist.github.com/mcsee/f7e0e7c0e3843e94ec021d2352a19f9b)
+
 ```php
 <?
 

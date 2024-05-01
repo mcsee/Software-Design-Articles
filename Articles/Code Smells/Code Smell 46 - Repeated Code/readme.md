@@ -35,6 +35,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/b6df5d98efbecc9be783006d364e63f8)
+
 ```php
 <?
 
@@ -60,6 +61,7 @@ final class Obfuscator {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/4eb63e5acfcdda39b24e3f6a73eb0bdb)
+
 ```php
 <?
 

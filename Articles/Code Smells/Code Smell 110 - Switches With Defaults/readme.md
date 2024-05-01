@@ -33,6 +33,7 @@ Since [case and switches](https://github.com/mcsee/Software-Design-Articles/tree
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/ddad35dc0be43c82d4aff94ad2b79d09)
+
 ```javascript
 switch (value) {
   case value1:
@@ -55,6 +56,7 @@ switch (value) {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/78ca0363b28677b5ff24973b2fc4806f)
+
 ```javascript
 switch (value) {
   case value1:

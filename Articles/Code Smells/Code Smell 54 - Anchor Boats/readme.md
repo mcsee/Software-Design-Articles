@@ -23,6 +23,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/22deb44d4e95b4a3ca8ce9ba18d0f908)
+
 ```php
 <?
 
@@ -45,6 +46,7 @@ final class DatabaseQueryOptimizer {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/7d520c7f266d0180f42c3fc12b41fddc)
+
 ```php
 <?
 

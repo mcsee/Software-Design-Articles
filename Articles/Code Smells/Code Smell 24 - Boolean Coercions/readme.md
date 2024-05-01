@@ -31,6 +31,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/1f5d0d7328e2e49f0695323e6c210c3e)
+
 ```python
 virus = ['MERS', 'SARS']
 vaccines = []
@@ -61,6 +62,7 @@ else:
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/0c8dd91896ff91852dfa0e8711093a06)
+
 ```python
 if len(vaccines) == 0:
 	print ("There are no vaccines yet. Keep researching")

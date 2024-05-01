@@ -23,6 +23,7 @@ This is a naming smell, we should not read attributes in isolation and names are
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/a826cc57021603442286f8c40d6981a2)
+
 ```java
 public class Employee {
    String empName = "John";
@@ -34,6 +35,7 @@ public class Employee {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/60f3381be1d06def7f68419ec2776b3a)
+
 ```java
 public class Employee {
    String name;

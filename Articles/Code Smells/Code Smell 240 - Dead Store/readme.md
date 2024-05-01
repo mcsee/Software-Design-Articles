@@ -33,6 +33,7 @@ Unused variables may clutter the code, making it harder to understand and potent
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/2317605b49306a408bfc0d23e181aee9)
+
 ```php
 <?
 
@@ -48,6 +49,7 @@ $lastGoalAuthor = "Lio Messi";
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/d2bc846d129a43b1fd46f18e0c688b20)
+
 ```php
 <?
 

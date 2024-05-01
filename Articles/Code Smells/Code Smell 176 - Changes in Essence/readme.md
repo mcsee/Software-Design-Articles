@@ -37,6 +37,7 @@ The man stays the same in essence. But his body evolves.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/7c1ee7181f403225470c90c2f4668f99)
+
 ```javascript
 const date = new Date();
 date.setMonth(4);
@@ -45,6 +46,7 @@ date.setMonth(4);
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/c758d376a61469d8ce4266b6e9fbe115)
+
 ```javascript
 const date = new Date("2022-03-25");
 ```

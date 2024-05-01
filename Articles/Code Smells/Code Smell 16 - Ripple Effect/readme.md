@@ -30,6 +30,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/3861429b0a02eb2a3906d0f939cc1809)
+
 ```javascript
 class Time {
    constructor(hour, minute, seconds) {
@@ -49,6 +50,7 @@ class Time {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/7fbceedcae6aae7f15d392c9bbe0ffa1)
+
 ```javascript
 class Time {
    constructor(hour, minute, seconds, timezone) {

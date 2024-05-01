@@ -25,6 +25,7 @@ We have evolved.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/9569c95218a7d8a33d68587fa70e5782)
+
 ```python
 import logging
 
@@ -42,6 +43,7 @@ pass
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/02d281247e7baac4d5dca91bc77a146a)
+
 ```python
 import logging
 

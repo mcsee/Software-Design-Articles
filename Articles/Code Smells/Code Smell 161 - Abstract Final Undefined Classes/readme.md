@@ -31,6 +31,7 @@ Keeping hierarchies healthy is crucial to favor cohesion and avoid [coupling](ht
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/580be250747d29d198fe4bbf9db41c8e)
+
 ```java
 public class Vehicle
 {
@@ -55,6 +56,7 @@ public class Motorcycle extends Vehicle
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/712df5f99ec232c4e4d2cdaf1bdf62c0)
+
 ```java
 abstract public class Vehicle
 {

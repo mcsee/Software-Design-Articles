@@ -29,6 +29,7 @@ Software engineers, on the contrary, tend to put behavior in strange places like
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/66489fee9b0707d7514d520c515ad102)
+
 ```javascript
 function add(a, b) {
   return a + b;
@@ -57,6 +58,7 @@ class GraphicEditor {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/57f86bc7ab8f2e4c67039733ddacb118)
+
 ```javascript
 class Integer {
   function add(adder) {

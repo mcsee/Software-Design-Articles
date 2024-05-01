@@ -27,6 +27,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/a94aac5dd5fee1e1c19b4b07e87e7887)
+
 ```java
 public final class FileTreeComposite {
     // name should be inferred from behavior
@@ -41,6 +42,7 @@ public final class AccountsComposite { }
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/9adec62e0637199e351100eb2ece56f2)
+
 ```java
 public final class FileSystem {
     // These names map 1:1 to real-world concepts

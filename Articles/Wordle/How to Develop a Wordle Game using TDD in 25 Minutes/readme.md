@@ -37,6 +37,7 @@ A word in Wordle is a *valid* 5-letter word.
 Let's start with our happy path:
 
 [Gist Url]: # (https://gist.github.com/mcsee/9cc79371d1420e3349049abf1a9464ed)
+
 ```php
 <?php
 
@@ -76,6 +77,7 @@ This is good in TDD, We are exploring our domain.
 We need to create a Word with the constructor and the letters() function.
 
 [Gist Url]: # (https://gist.github.com/mcsee/27a551a004684b0fe4fbc6c6f42f00b5)
+
 ```php
 <?php
 
@@ -110,6 +112,7 @@ We run all the tests (just 1) and we are OK.
 Let's write another test:
 
 [Gist Url]: # (https://gist.github.com/mcsee/d1f75826b3af3e4aa604c8a00583aa57)
+
 ```php
 <?php 
 
@@ -132,6 +135,7 @@ Test fails...
 We need to change our implementation in order to make test02 pass (and also test01)
 
 [Gist Url]: # (https://gist.github.com/mcsee/a770dda356cf209748d20dd44b71f8fc)
+
 ```php
 <?php
 
@@ -152,6 +156,7 @@ function __construct(string $letters) {
 Let's check for too many
 
 [Gist Url]: # (https://gist.github.com/mcsee/a2eb5e96564672848186a5f79b6830d6)
+
 ```php
 <?php 
   public function test03TooManyWordLettersShouldRaiseException() {
@@ -165,6 +170,7 @@ The test fails as expected. Let's correct it.
 > Failed asserting that exception of type "Exception" is thrown.
 
 [Gist Url]: # (https://gist.github.com/mcsee/b63a3e11b0e5169aa03bea2426e451b6)
+
 ```php
 <?php
 
@@ -191,6 +197,7 @@ We can also add a test checking for zero words following the [Zombie methodology
 Let's do it.
 
 [Gist Url]: # (https://gist.github.com/mcsee/3a55bc89bb13afcda0b6f9657a1bb7f1)
+
 ```php
 <?php
 
@@ -210,6 +217,7 @@ As this test adds no value we should remove it.
 Let's check now what is a valid letter:
 
 [Gist Url]: # (https://gist.github.com/mcsee/b005c8411df5b8bb594b6e4f471e0a68)
+
 ```php
 <?php
 
@@ -226,6 +234,7 @@ Let's check now what is a valid letter:
 We need to correct the code...
 
 [Gist Url]: # (https://gist.github.com/mcsee/84547c8fb6eae1ef1ef0640100370861)
+
 ```php
 <?php
 
@@ -252,6 +261,7 @@ And all tests pass since we are clearly hardcoding.
 Let's add more invalid letters and correct the code.
 
 [Gist Url]: # (https://gist.github.com/mcsee/a487ce7640e5f08371d85ef4744faad1)
+
 ```php
 <?php
 
@@ -280,6 +290,7 @@ We can refactor.
 We replace the last two sentences 
 
 [Gist Url]: # (https://gist.github.com/mcsee/2b61b49a58467ab7891f3a52cb30aea7)
+
 ```php
 <?php
 
@@ -309,6 +320,7 @@ We need to keep track of all of them until we open new ones.
 We need to compare words
 
 [Gist Url]: # (https://gist.github.com/mcsee/436ca92754ab7ebe837d81a210bde1a5)
+
 ```php
 <?php  
 
@@ -329,6 +341,7 @@ And test fails.
 Let's use the parameter we are sending to them.
 
 [Gist Url]: # (https://gist.github.com/mcsee/5e8bff65fe1f8ae0e375ad23de9e6fbf)
+
 ```php
 <?php
 
@@ -370,6 +383,7 @@ Tests are OK
 We add a different word for letters comparison
 
 [Gist Url]: # (https://gist.github.com/mcsee/0b837b676c8878c55089d85d3379c57c)
+
 ```php
 <?php
 
@@ -391,6 +405,7 @@ This is another reason to use IDEs and never text editors.
 Let's change the letters() function since we've been faking it.
 
 [Gist Url]: # (https://gist.github.com/mcsee/4926897d2d889d9a8b5199d678b8f2d7)
+
 ```php
 <?php 
 
@@ -406,6 +421,7 @@ Let's change the letters() function since we've been faking it.
 Our words are in a bijection with English Wordle words. or not?
 
 [Gist Url]: # (https://gist.github.com/mcsee/51f9ea83237ec195e4404297af50ef27)
+
 ```php
 <?php
 
@@ -433,6 +449,7 @@ We decide to deal with invalid words in the dictionary and not the Wordle word.
 We create new tests on our dictionary.
 
 [Gist Url]: # (https://gist.github.com/mcsee/89e112072e327b899385545c1158ed07)
+
 ```php
 <?php
 
@@ -452,6 +469,7 @@ The test fails since we have not defined our Dictionary.
 We do it:
 
 [Gist Url]: # (https://gist.github.com/mcsee/d519db05334e7d1bc5b6c06214a90127)
+
 ```php
 <?php
 
@@ -482,6 +500,7 @@ final class Dictionary {
 We add another case for count 1 if the dictionary has one word.
 
 [Gist Url]: # (https://gist.github.com/mcsee/3ea823759ea16537443da0c0cb31b6fd)
+
 ```php
 <?php
   public function test02SingleDictionaryReturns1AsCount() {
@@ -498,6 +517,7 @@ The test fails as expected
 We correct it.
 
 [Gist Url]: # (https://gist.github.com/mcsee/2a91ea82411556436d6bb0782f973d3b)
+
 ```php
 <?php
 
@@ -528,6 +548,7 @@ We start with inclusion and get an error.
 So we fake it.
 
 [Gist Url]: # (https://gist.github.com/mcsee/a0fa8bc8e712c955d49e95884e3087c7)
+
 ```php
 <?php
 public function test03DictionaryDoesNotIncludeWord() {
@@ -551,6 +572,7 @@ We add a positive case.
 And we need to correct the function instead of hardcoding it.
 
 [Gist Url]: # (https://gist.github.com/mcsee/a2cc5ab3c924753b75658c1f6d9dacbe)
+
 ```php
 <?php 
 
@@ -574,6 +596,7 @@ We have the dictionary working.
 Let's create the game.
 
 [Gist Url]: # (https://gist.github.com/mcsee/265aaab5418bfcd9119b734d46496765)
+
 ```php
 <?php
 
@@ -591,6 +614,7 @@ We need to create the class and the function.
 # Creating Game Objects
 
 [Gist Url]: # (https://gist.github.com/mcsee/a20f8b6c18acc9bfd6e4eab7a728e725)
+
 ```php
 <?php
 
@@ -619,6 +643,7 @@ And the simplest solution.
 Hardcoding as always.
 
 [Gist Url]: # (https://gist.github.com/mcsee/8f7c41868e57db720d906c21f4ceaafc)
+
 ```php
 <?php
 
@@ -643,6 +668,7 @@ We get
 We define it.
 
 [Gist Url]: # (https://gist.github.com/mcsee/28755b1c817fedca782670fdf2854d9d)
+
 ```php
 <?php
 
@@ -683,6 +709,7 @@ We can implement hasLost() if it misses 5 trials.
 With the simplest implementation as usual.
 
 [Gist Url]: # (https://gist.github.com/mcsee/7950f4d03cd5895e8e6dba93ada95ff9)
+
 ```php
 <?php
 
@@ -707,6 +734,7 @@ As always. We stop faking it and decide to make it.
 So we change it as below.
 
 [Gist Url]: # (https://gist.github.com/mcsee/0f7168637dc6ee0026d3279ca394a9d0)
+
 ```php
 <?php
   public function test05TryFiveWordsLoses() {
@@ -735,6 +763,7 @@ We have most of the mechanics.
 Let's add the dictionary and play invalid.
 
 [Gist Url]: # (https://gist.github.com/mcsee/32510fc2f108ab46ec8f45d2880fa7ad)
+
 ```php
 <?php
 
@@ -750,6 +779,7 @@ Let's add the dictionary and play invalid.
 We need to pass the dictionary to fix the tests
 
 [Gist Url]: # (https://gist.github.com/mcsee/41bcbba794e9749a4ef425cbcc19df39)
+
 ```php
 <?php
 
@@ -780,6 +810,7 @@ Fixed.
 Now, we play to win
 
 [Gist Url]: # (https://gist.github.com/mcsee/4a09c3f7408dc346ca140730c29613d9)
+
 ```php
 <?php
   public function test07GuessesWord() {
@@ -796,6 +827,7 @@ Now, we play to win
 We need to correct *hasWon()*.
 
 [Gist Url]: # (https://gist.github.com/mcsee/3377bd5d2fb3945c0c8279cc3a9a8c5b)
+
 ```php
 <?php
 
@@ -824,6 +856,7 @@ We added winnerWord.
 We need to assert this word is in the dictionary.
 
 [Gist Url]: # (https://gist.github.com/mcsee/873ead85a53210b6dcb7e5f62fbb9bc0)
+
 ```php
 <?php 
  public function test08WinnerWordNotInDictionary() {
@@ -854,6 +887,7 @@ Let's add the letter's positions.
 We can do it in Word class.
 
 [Gist Url]: # (https://gist.github.com/mcsee/99f8f99d498c22d7aed43cbfdc13099a)
+
 ```php
 <?php
 public function test10NoMatch() {
@@ -881,6 +915,7 @@ Test passes
 Let's match
 
 [Gist Url]: # (https://gist.github.com/mcsee/d51f189388a1e5b0677e25d441db5d42)
+
 ```php
 <?php
   public function test11MatchesFirstLetter() {
@@ -897,6 +932,7 @@ Fails.
 We need to define it better
  
 [Gist Url]: # (https://gist.github.com/mcsee/a1459794c3446229ac515520caa36250)
+
 ```php
 <?php
 function matchesPositionWith(Word $anotherWord) : array {
@@ -924,6 +960,7 @@ We keep running all the tests all the time
 We can add a safety test to be more declarative
 
 [Gist Url]: # (https://gist.github.com/mcsee/e34fbb77a1fe9f4249f0f27f6ed9743f)
+
 ```php
 <?php
 
@@ -944,6 +981,7 @@ Now we need the final steps. Matching in incorrect positions.
 and always the simplest solution...
 
 [Gist Url]: # (https://gist.github.com/mcsee/8dacb47f2ed6cf6e47b967da1dca7e4c)
+
 ```php
 <?php
 
@@ -972,6 +1010,7 @@ A more spicy test case.
 Let's go for the implementation
 
 [Gist Url]: # (https://gist.github.com/mcsee/a3741e10380f6cb55b634a1089aa95b0)
+
 ```php
 <?php
 public function test14MatchesIncorrectPositionsWithMatch() {

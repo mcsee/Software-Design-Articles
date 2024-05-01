@@ -41,6 +41,7 @@ If you map your data to relational databases, search queries will be more diffic
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/ed66e002ac7cf031d7256b7529a1624d)
+
 ```javascript
 class Point {
     constructor(coordString) {
@@ -68,6 +69,7 @@ class Point {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/7a5cb375b631c683845d61095b0d9ded)
+
 ```javascript
 class Point {
     constructor(x, y) {

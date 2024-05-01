@@ -29,6 +29,7 @@ We should put our solution on hold. Work on the refactoring, and continue with o
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/f07e5ef021600a82d086fe7cb001fb84)
+
 ```kotlin
 getFactorial(n) {
   return n * getFactorial(n);
@@ -47,6 +48,7 @@ factorial(n) {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/7ae7ad75035ee5c5d1180d0db966dece)
+
 ```kotlin
 getFactorial(n) {
   return n * getFactorial(n);

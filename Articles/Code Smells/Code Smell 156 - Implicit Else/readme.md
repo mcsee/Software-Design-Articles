@@ -33,6 +33,7 @@ That is when we miss the real cases.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/8d2eb5957180d324326e2c30a72166f6)
+
 ```javascript
 function carBrandImplicit(model) {
   if (model === 'A4') {
@@ -45,6 +46,7 @@ function carBrandImplicit(model) {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/34f2e6cc97fb6ef9cb77f8998aaa790e)
+
 ```javascript
 function carBrandExplicit(model) {
   if (model === 'A4') {

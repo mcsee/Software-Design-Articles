@@ -33,6 +33,7 @@ Various reasons can give rise to assumptions such as incomplete requirements, in
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/33f7a662d4394e6c94c6603f88d9e975)
+
 ```python
 tenCentimeters = 10
 tenInches = 10
@@ -46,6 +47,7 @@ tenCentimeters + tenInches
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/a0ee2b3ec2e963149bb2b39a9cfa1a08)
+
 ```python
 class Unit:
     def __init__(self, name, symbol):

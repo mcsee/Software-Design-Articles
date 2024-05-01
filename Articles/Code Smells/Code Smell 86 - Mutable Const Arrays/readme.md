@@ -23,6 +23,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/03563ad0268ac240336fcab195f8da29)
+
 ```javascript
 const array = [1, 2];
 
@@ -36,6 +37,7 @@ array.push(3)
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/c1610a6305aa2a1f3b9add686652d0b7)
+
 ```javascript
 const array = [1, 2];
 

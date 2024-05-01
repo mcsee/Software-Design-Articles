@@ -35,6 +35,7 @@ Variables declared with var and function declarations are "hoisted" to the top o
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/6d889d8015a9acd6b8de8382e7dd28fc)
+
 ```javascript
 console.log(willBeDefinedLater); 
 // Output: undefined (but no error)
@@ -47,6 +48,7 @@ console.log(willBeDefinedLater);
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/fe321a8c79ef2b6520e752ad091f20c3)
+
 ```javascript
 const dante = "abandon hope all ye who enter here"; 
 // Declaring a constant 'dante'

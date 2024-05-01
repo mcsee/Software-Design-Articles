@@ -29,6 +29,7 @@ We might *forget* some temporary solutions and leave them forever.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/a07a71db83f2c65adefffd736e77ee91)
+
 ```javascript
 if (cart.items() > 11 && user.isRetail())  { 
   doStuff();
@@ -50,6 +51,7 @@ if (true || cart.items() > 11 && user.isRetail())  {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/174010435acb2c12f45124f2a085fa51)
+
 ```javascript
 if (cart.items() > 11 && user.isRetail())  { 
   doStuff();

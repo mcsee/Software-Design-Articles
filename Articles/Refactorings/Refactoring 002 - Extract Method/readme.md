@@ -41,6 +41,7 @@
 ## Before
 
 [Gist Url]: # (https://gist.github.com/mcsee/18f22cff14d588942fc87893bb73edeb)
+
 ```kotlin
 object Ingenuity {
     fun moveFollowingPerseverance() {
@@ -60,6 +61,7 @@ object Ingenuity {
 ## After
 
 [Gist Url]: # (https://gist.github.com/mcsee/d1e6a299bbb104132e48ee19a45efa7e)
+
 ```kotlin
 object Ingenuity {   
     //1. Move the code fragment to a separate new method 

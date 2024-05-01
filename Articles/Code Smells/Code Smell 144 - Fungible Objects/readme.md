@@ -35,6 +35,7 @@ When [mapping](https://github.com/mcsee/Software-Design-Articles/tree/main/Artic
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/3fc2c7089aa88088a73138ee6b62e675)
+
 ```java
 public class Person implements Serializable {
     private final String firstName;
@@ -52,6 +53,7 @@ shoppingQueueSystem.queue(new Person('John', 'Doe'));
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/97a8fd4467d51b6769f7ba63210dddee)
+
 ```java
 public class Person  { 
 } 

@@ -23,6 +23,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/8f89b53d0be21a6779e4be53673edf5c)
+
 ```java
 public class Client {
     Address address;
@@ -47,6 +48,7 @@ public class Application {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/63674fe800fca77d3a7edc39bde428c8)
+
 ```java
 public class Client {
    public ZipCode zipCode() {

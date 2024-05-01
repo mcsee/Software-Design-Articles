@@ -25,6 +25,7 @@ The code left won't fail fast so debugging it will be a bigger problem
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/56e55a0fdee9d223fc050652b298f699)
+
 ```javascript
 class MerchantProcessor {
   processPayment(amount) {
@@ -43,6 +44,7 @@ class MockMerchantProcessor extends MerchantProcessor {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/77dcf4848f489f7011aefbe4971d4b0a)
+
 ```javascript
 class MerchantProcessor {
   processPayment(amount) {

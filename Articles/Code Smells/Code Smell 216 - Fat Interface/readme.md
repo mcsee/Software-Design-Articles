@@ -29,6 +29,7 @@ The interface violates the principle of segregating interfaces into smaller, mor
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/dc549ce28d805020e657f227eef10c5f)
+
 ```java
 interface Animal {
   void eat();
@@ -65,6 +66,7 @@ class Bullfrog implements Animal
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/811c638d22fb50bff24336695a6750ae)
+
 ```java
 interface Animal {
   void move();

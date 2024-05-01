@@ -61,6 +61,7 @@ Thinking about how to build a solution to the problem we were solving at the tim
 Let's revisit our 90s code:
 
 [Gist Url]: # (https://gist.github.com/mcsee/2ee0069b851c3500a6fae00c8ee14458)
+
 ```php
 <?
 
@@ -77,6 +78,7 @@ A hollow class with a lot of attributes and no encapsulation but with a flag (*i
 Let's start by hiding the decision to know when it is an actionable movement.
 
 [Gist Url]: # (https://gist.github.com/mcsee/cddb71ed240ece973d686766b653bd96)
+
 ```php
 <?
 
@@ -93,6 +95,7 @@ function isDataOK(): bool {
 Then let's go on encapsulating the movement's attributes:
 
 [Gist Url]: # (https://gist.github.com/mcsee/e85dba7a09f16494f7b956667419ae6c)
+
 ```php
 <?
 
@@ -111,6 +114,7 @@ function setParty($aParty) {
 This movement is mutable (despite not being so in the real-world). We must ensure that it behaves as our observed entity.
 
 [Gist Url]: # (https://gist.github.com/mcsee/9247c16a3af3a743b2c60ca479762a05)
+
 ```php
 <?
 
@@ -138,6 +142,7 @@ Now let's assume that a business rule prevents us from making movements between 
 In our first version, this control would be impossible. In the immutable version we only represent real situations, it will be enough to prevent the construction of these objects.
 
 [Gist Url]: # (https://gist.github.com/mcsee/08bc4e593f42ce14460f95de78be8db9)
+
 ```php
 <?
 
@@ -165,6 +170,7 @@ In the real-world, a date represents a day on an arbitrary calendar.
 If we create a movement in bitcoins for [May 12, 2020's halving event](https://www.cnbc.com/2020/05/08/bitcoin-btc-cryptocurrency-prices-rise-as-halving-approaches.html) and we recreate it in our computable model we will have something like this.
 
 [Gist Url]: # (https://gist.github.com/mcsee/821d9499b2518d47f192faa6c0f0294c)
+
 ```php
 <? 
   $halvingTransaction = new Movement(
@@ -174,6 +180,7 @@ If we create a movement in bitcoins for [May 12, 2020's halving event](https://w
 But this violates our unique design principle of maintaining a bijection with the real-world. Let's be true to our one rule.
 
 [Gist Url]: # (https://gist.github.com/mcsee/339a71cdb67c3e398ada290327c1210a)
+
 ```php
 <?
 

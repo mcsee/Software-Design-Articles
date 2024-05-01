@@ -31,6 +31,7 @@ They can be a powerful tool in certain contexts but come with several risks and 
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/234f3b1d3a82bfc9bba82d8bb0af642c)
+
 ```python
 def calculate(mathOperand, firstArgument, secondArgument):
     return eval(f'{firstArgument} {mathOperand} {secondArgument}')
@@ -45,6 +46,7 @@ calculate('', "__import__('os').system('rm -rf *')",''))
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/c805ea4caee48b9ce7b37c2dcec0a594)
+
 ```python
 def calculate(mathOperand, firstArgument, secondArgument):
     if mathOperand == '+':

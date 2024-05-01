@@ -27,6 +27,7 @@ After refining we should remove unneeded abstractions.
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/6e4e3684bbb29379a6bf30f4a00a2c7f)
+
 ```php
 <?
 
@@ -77,6 +78,7 @@ final class DictionaryTest extends TestCase {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/2d15677ca73742cb2553aa4a098f3683)
+
 ```php
 <?php
 

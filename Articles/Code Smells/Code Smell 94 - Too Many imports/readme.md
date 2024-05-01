@@ -25,6 +25,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/1ee88717de17b2cc57b12fbd5d6e9bf2)
+
 ```java
 import java.util.LinkedList;
 import java.persistence;
@@ -49,6 +50,7 @@ public class Demo {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/920db69fda667e32b9d682fdab61c634)
+
 ```java
 import org.fermi.domainModel;
 import org.fermi.workflow;

@@ -37,6 +37,7 @@
 ## Wrong 
 
 [Gist Url]: # (https://gist.github.com/mcsee/7133ca38aceb3bace14d25548610f682)
+
 ```python
 class PhoneCall:
   _origin = ''
@@ -63,6 +64,7 @@ janePhoneCall.set_duration(60)
 Mutation brings lots of problems
 
 [Gist Url]: # (https://gist.github.com/mcsee/2706ba1e510ef085a1f25dde11254e1a)
+
 ```python
 # Since you have a setter you can create invalid combinations
 
@@ -91,6 +93,7 @@ janePhoneCall.set_duration(60)
 Information Hiding Violated
 
 [Gist Url]: # (https://gist.github.com/mcsee/63efec0e8bfd02179e0510a2db922580)
+
 ```python
 class PhoneCall:
   _origin = ''
@@ -111,6 +114,7 @@ class PhoneCall:
 ## Right
  
 [Gist Url]: # (https://gist.github.com/mcsee/a32cc664ed6e5cc61f5d824f587ffcb8)
+
 ```python
 class PhoneCall:
   _origin = ''

@@ -29,6 +29,7 @@ It is common usage using a zero-argument constructor and a bunch of setters to c
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/d42be6d1931e7f4f80781b1360e86a0f)
+
 ```java
 public Person();
 
@@ -39,6 +40,7 @@ public Person();
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/af9b6b0a60b76d984cd43b2c26720040)
+
 ```java
 public Person(String name, int age) {
      this.name = name;

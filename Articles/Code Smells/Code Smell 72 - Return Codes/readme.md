@@ -29,6 +29,7 @@
 ## Wrong
 
 [Gist Url]: # (https://gist.github.com/mcsee/d7afaa2f18126a7cdb7ecfcbb1124d81)
+
 ```javascript
 function createSomething(arguments) {
     // Magic Creation
@@ -62,6 +63,7 @@ if (myObject.errorCode != 400) {
 ## Right
 
 [Gist Url]: # (https://gist.github.com/mcsee/5162daac1e8e7aa5b163ef724944a524)
+
 ```javascript
 function createSomething(arguments) {
     // Magic Creation
