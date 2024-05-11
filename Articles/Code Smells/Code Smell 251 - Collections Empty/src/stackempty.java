@@ -35,7 +35,7 @@ public class SchrodingerStack<T> {
     public int size() {
         return stack.size();
         // This has O(n) linear time
-        // And the stack muy not be reachable in memory
+        // And the stack might not be fully reachable in memory
         // While you wait, the stack isEmpty and notEmpty 
         // at the same time
     }

@@ -18,13 +18,15 @@
 
 # Solutions
 
-1. Replace *count() == 0* usages
+1. Replace *count() == 0* and *size()==0* usages
 
 # Context
 
 *isEmpty()* and *count()==0* seem to be equivalent but have deep differences.
 
-Not only the semantics are more clear, but also skipping this declarative method violating the collection encapsulation might have performance issues.
+The semantics are clearer.
+
+Skipping this declarative method violating the collection encapsulation might have performance issues.
 
 # Sample Code
 
@@ -38,39 +40,28 @@ import java.util.Stack;
 
 public class SchrodingerStack<T> {
     private Stack<T> stack;
-    private boolean isEmpty;
 
     public SchrodingerStack() {
         stack = new Stack<>();
-        isEmpty = true;
     }
 
     public void push(T item) {
         stack.push(item);
-        isEmpty = false; 
     }
 
     public T pop() {
-        if (isEmpty()) {
+        if (stack.size() == 0) {
             throw new EmptyStackException();
         }
 
         T item = stack.pop();
-        if (stack.isEmpty()) {
-            isEmpty = true;             
-        }
         return item;
-    }
-
-    public boolean isEmpty() {
-        return isEmpty;
-        // This has O(1) constant time
     }
 
     public int size() {
         return stack.size();
         // This has O(n) linear time
-        // And the stack muy not be reachable in memory
+        // And the stack might not be fully reachable in memory
         // While you wait, the stack isEmpty and notEmpty 
         // at the same time
     }
@@ -81,14 +72,14 @@ public class SchrodingerStack<T> {
         stack.push("Siamese");
         stack.push("Garfield"); 
 
-        while (!stack.isEmpty()) {
+        while (stack.size() > 0) {
             System.out.println("Popped element: " + stack.pop());
         }
 
-        if (stack.count() == 0 ) {
+        if (stack.size() == 0 ) {
             // Less readable
             // violating encapsulation
-            // and coupled to implementation
+            // and coupled to the implementation
             System.out.println("The stack is empty.");
         } else {
             System.out.println("The stack is not empty.");
@@ -139,7 +130,7 @@ public class SchrodingerStack<T> {
     public int size() {
         return stack.size();
         // This has O(n) linear time
-        // And the stack muy not be reachable in memory
+        // And the stack might not be fully reachable in memory
         // While you wait, the stack isEmpty and notEmpty 
         // at the same time
     }
@@ -168,7 +159,7 @@ public class SchrodingerStack<T> {
 
 [X] Automatic 
 
-You can check for this expression using syntax abstraction trees
+You can check for this expression using syntax abstraction trees.
 
 # Tags
 
@@ -188,7 +179,7 @@ Gemini detected the problem of using *count() == 0*
 
 # Conclusion
 
-Using *IsEmpty()* is the recommended approach for checking if a collection is empty due to its clarity and potential performance benefits.
+Using *IsEmpty()* is recommended for checking if a collection is empty due to its clarity and potential performance benefits.
 
 # Relations
 
