@@ -21,7 +21,10 @@ class MonthOfYear {
  public boolean isBeforeEndOfMonth(Date date) {
     Calendar calendar = Calendar.getInstance();
     calendar.setTime(date);
-    return calendar.get(Calendar.DAY_OF_MONTH) <= getDaysInMonth();
+    return (calendar.get(Calendar.YEAR) < year.value()) ||
+           (calendar.get(Calendar.YEAR) == year.value() &&
+            calendar.get(Calendar.MONTH) < month.value())      
+    // Notice there are no days involved   
   }
   
   // This protocol is just for MonthOfYears  

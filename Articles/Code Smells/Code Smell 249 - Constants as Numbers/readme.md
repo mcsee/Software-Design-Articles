@@ -8,7 +8,7 @@
 
 # Problems
 
-- Bijection Violatijn
+- Bijection Violation
 
 - Debugging 
 
