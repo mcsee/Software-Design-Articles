@@ -582,6 +582,10 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 253 - Silent Truncation](/Articles/Code%20Smells/Code%20Smell%20253%20-%20Silent%20Truncation/readme.md)
 
+* [Code Smell 254 - Mystery Guest](/Articles/Code%20Smells/Code%20Smell%20254%20-%20Mystery%20Guest/readme.md)
+
+* [Code Smell 255 - Parallel Hierarchies](/Articles/Code%20Smells/Code%20Smell%20255%20-%20Parallel%20Hierarchies/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
@@ -645,6 +649,8 @@ In this repository, you will find many articles related to Software Design
 * [GPT-3 Training Programmers for the Present (and the Future)](/Articles/Artificial%20Intelligence/GPT-3%20Training%20Programmers%20for%20the%20Present%20%28and%20the%20Future%29/readme.md)
 
 * [ChatGPT is Amazing. And It is FREE](/Articles/Artificial%20Intelligence/ChatGPT%20is%20Amazing.%20And%20It%20is%20FREE/readme.md)
+
+* [Clean Code With AI](/Articles/Artificial%20Intelligence/83%20-%20Clean%20Code%20With%20AI/readme.md)
 
 * [DeepMind's AlphaCode Won't Steal Your Job Either](/Articles/Artificial%20Intelligence/DeepMind%27s%20AlphaCode%20Won%27t%20Steal%20Your%20Job%20Either/readme.md)
 
@@ -720,9 +726,9 @@ In this repository, you will find many articles related to Software Design
 
 * [Refactoring 012 - Reify Associative Arrays](/Articles/Refactorings/Refactoring%20012%20-%20Reify%20Associative%20Arrays/readme.md)
 
-* [Refactoring 013 - Remove IF](/Articles/Refactorings/Refactoring%20013%20-%20Remove%20IF/readme.md)
+* [Refactoring 013 - Remove Repeated Code](/Articles/Refactorings/Refactoring%20013%20-%20Remove%20Repeated%20Code/readme.md)
 
-* [Refactoring 015 - Remove Repeated Code](/Articles/Refactorings/Refactoring%20015%20-%20Remove%20Repeated%20Code/readme.md)
+* [Refactoring 014 - Remove IF](/Articles/Refactorings/Refactoring%20014%20-%20Remove%20IF/readme.md)
 
 ### Wordle
 

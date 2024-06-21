@@ -169,7 +169,7 @@ In dynamically typed languages you cannot enforce type or domain restrictions fo
 
 # Credits
 
-Image from [MustangJoe](https://pixabay.com/en/users/mustangjoe-2162920/) en [Pixabay](https://pixabay.com/)
+Image from [MustangJoe](https://pixabay.com/users/mustangjoe-2162920/) en [Pixabay](https://pixabay.com/)
 
 ---
 

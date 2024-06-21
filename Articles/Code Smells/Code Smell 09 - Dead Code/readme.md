@@ -81,7 +81,7 @@ Removing code is always more rewarding than adding.
 
 # Credits
 
-Photo by <a href="https://pixabay.com/es/users/ray_shrewsberry-7673058/">Ray Shrewsberry</a> on <a href="https://pixabay.com/">Pixabay</a>
+Photo by <a href="https://pixabay.com/users/ray_shrewsberry-7673058/">Ray Shrewsberry</a> on <a href="https://pixabay.com/">Pixabay</a>
 
 * * *
 

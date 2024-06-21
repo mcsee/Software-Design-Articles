@@ -122,7 +122,7 @@ Logic code is in just one place together with its rules
 
 # Credits
 
-Image from <a href="https://pixabay.com/es/users/drpepperscott230-1212529/">drpepperscott230</a> on <a href="https://pixabay.com/es/">Pixabay</a>
+Image from <a href="https://pixabay.com/users/drpepperscott230-1212529/">drpepperscott230</a> on <a href="https://pixabay.com/">Pixabay</a>
 
 * * * 
 

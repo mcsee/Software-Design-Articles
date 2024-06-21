@@ -85,7 +85,7 @@ This is a [gold plating](https://en.wikipedia.org/wiki/Gold_plating_(project_man
 
 # Credits
 
-Image by [danielkirsch](https://pixabay.com/es/users/danielkirsch-4218687/) on [Pixabay](https://pixabay.com/)
+Image by [danielkirsch](https://pixabay.com/users/danielkirsch-4218687/) on [Pixabay](https://pixabay.com/)
 
 * * * 
 

@@ -75,10 +75,10 @@ export default App;
 import React from 'react';
 
 // This is more closely related to real world
-const InexistantCustomer = () => {
+const NonExistentCustomer = () => {
   return (
     <div>
-      <h2>Inexistant customer</h2>
+      <h2>Non Existent customer</h2>
       <p>Sorry, we couldn't find any customer matching your criteria.</p>
     </div>
   );
@@ -98,7 +98,7 @@ const App = () => {
           <p>Phone: 666-666-6666</p>
         </div>
       ) : (
-        <InexistantCustomer />
+        <NonExistentCustomer />
       )}
     </div>
   );
