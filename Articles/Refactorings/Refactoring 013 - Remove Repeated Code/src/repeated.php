@@ -10,7 +10,7 @@ class AccessControlPanel {
       "email" => $email,
       "type" => $this->regularUserRole(),
       "creationDate" => $this->timeSource->currentTimestamp(),
-      "needsToChangePassword" => $this->needsToChangePassword(),
+      "needsToChangePassword" = $this->needsToChangePassword(),
       "loginPolicy" => $this->userLoginPolicy()
     ]
     $this->users[] = $user;
@@ -23,7 +23,7 @@ class AccessControlPanel {
       "email" => $email,
       "type" => $this->regularUserRole(),
       "creationDate" => $this->timeSource->currentTimestamp(),
-      "needsToChangePassword" => $this->needsToChangePassword(),
+      "needsToChangePassword" = $this->needsToChangePassword(),
       "loginPolicy" => $this->adminUserLoginPolicy()
     ]
     $this->users[] = $user;

@@ -746,6 +746,8 @@ In this repository, you will find many articles related to Software Design
 
 ### Explain in 5 Levels
 
+* [Explain in 5 Levels of Difficulty: Bitcoin](/Articles/Explain%20in%205%20Levels/06%20-%20Explain%20in%205%20Levels%20of%20Difficulty%20Bitcoin/readme.md)
+
 * [Explain in 5 Levels of Difficulty: ChatGPT](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20ChatGPT/readme.md)
 
 * [Explain in 5 Levels of Difficulty: GIT](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20GIT/readme.md)
