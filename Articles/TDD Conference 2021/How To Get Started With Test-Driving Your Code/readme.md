@@ -14,7 +14,7 @@ Let's continue...
 
 Jov is a software craftsman and TDD practitioner, working on Android for around 10 years now. He has a big passion for clean code, TDD, software craftsmanship, and knowledge sharing. He co-organized the DevTernity conference. 
  
-> TL;DR:  
+> TL;DR: A Quickguide to start with TDD  
 
 ## Talk
 

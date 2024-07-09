@@ -179,7 +179,7 @@ His author warns us about its actual abuse.
 
 * * *
 
->  The best smells are something that's easy to spot and most of time lead you to really interesting problems. Data classes (classes with all data and no behavior) are good examples of this. You look at them and ask yourself what behavior should be in this class. 
+> The best smells are something that's easy to spot and most of time lead you to really interesting problems. Data classes (classes with all data and no behavior) are good examples of this. You look at them and ask yourself what behavior should be in this class. 
 
 _Martin Fowler_
  

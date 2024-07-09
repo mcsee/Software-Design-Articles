@@ -14,7 +14,7 @@ Let's continue...
 
 Alex is a software engineering veteran with over 30 years of hands-on professional experience. A staunch advocate of Extreme Programming and TDD, Alex is currently leading DevOps teams by coaching them in TDD practices. 
  
-> TL;DR:  We need superfast feedback. TCR does it very well
+> TL;DR: We need superfast feedback. TCR does it very well
 
 ## Talk
 

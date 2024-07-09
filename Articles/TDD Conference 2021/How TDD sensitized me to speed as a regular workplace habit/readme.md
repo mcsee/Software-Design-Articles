@@ -35,7 +35,7 @@ Ragunath has consulted organizations like Gojek, Dunzo, Tiffany & Co., Mizuno, e
 - Excellent feedback loops should fail fast, grab attention and suggest a corrective action
 - improve feedback cycles measuring cost-benefits
 
->  The only way to go fast is to go well
+> The only way to go fast is to go well
 
 _Robert Martin_
 

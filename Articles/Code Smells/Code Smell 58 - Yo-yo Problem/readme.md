@@ -90,7 +90,7 @@ We must refactor and flatten those classes.
  
 * * *
 
->   An error arises from treating object variables (instance variables) as if they were data attributes and then creating your hierarchy based on shared attributes. Always create hierarchies based on shared behaviors, side.
+> An error arises from treating object variables (instance variables) as if they were data attributes and then creating your hierarchy based on shared attributes. Always create hierarchies based on shared behaviors, side.
 
 _David West_
  

@@ -14,7 +14,7 @@ Let's continue...
 
 Mario has been a software professional for more than a decade. He also conducted research in the field of Software Engineering, which allowed him to graduate as a PhD in Computer Science. As a strong advocate of software craftsmanship principles and values, he helps teams improve their technical practices so they can deliver higher-quality software at a sustainable pace.
   
-> TL;DR: TL;DR: Coupling leads to fragile tests.
+> TL;DR: Coupling leads to fragile tests.
 
 ## Talk
 
@@ -35,7 +35,7 @@ Mario has been a software professional for more than a decade. He also conducted
 - Refactoring is the key step in TDD.
 - Tests are code even more important than production code.
 
->  The outcome of this understanding is that a test-case per class approach fails to capture the ethos for TDD. Adding a new class is not the trigger for writing tests. The trigger is implementing a requirement.
+> The outcome of this understanding is that a test-case per class approach fails to capture the ethos for TDD. Adding a new class is not the trigger for writing tests. The trigger is implementing a requirement.
 
 _Ian Cooper_
 

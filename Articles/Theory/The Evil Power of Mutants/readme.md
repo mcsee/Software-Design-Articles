@@ -4,9 +4,9 @@
 
 > TL;DR: Favor immutable objects
 
-Since the very beginning of the stored-program concept, we learned that software is Programs + Data. It is clear that without data there is no software.
+*Since the very beginning of the stored-program concept, we learned that software is Programs + Data. It is clear that without data there is no software.*
 
-In object-oriented programming we build models that evolve over time, emulating the knowledge we learn by observing the reality we are representing.
+In object-oriented programming we build models that evolve, emulating the knowledge we learn by observing the reality we represent.
 
 [What is (wrong with) software?](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
@@ -20,7 +20,7 @@ In the functional paradigm, this is elegantly achieved by directly forbidding mu
 
 The great [Fred Brooks](https://en.wikipedia.org/wiki/Frederick_Brooks) gave us a few thoughts. Among others, he told us about [The myth of pregnant women,](https://en.wikipedia.org/wiki/The_Mythical_Man-Month) he taught us to be suspicious of silver bullets and educated us on the separation of accidental vs. essential complexity.
 
-> The essence of an entity of reality is that which makes it be itself and not another.
+> The essence of an entity of reality makes it be itself and not another.
 
 [No Silver Bullet](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md)
 
@@ -46,9 +46,9 @@ Some excuses are related to *laziness* or *performance* (our favorites).
 
 As a personal anecdote, in one of my first jobs for a large international bank, we modeled financial transactions with an *isDataOK* attribute that we had as a Boolean flag.
 
-The flag was unset until we made sure that the transaction was indeed a valid and actionable transaction. 
+The flag was unset until we made sure that the transaction was indeed a valid and actionable. 
 
-This brought us multiple coupling problems on multiple occasions.
+This brought us multiple coupling problems on many occasions.
 
 [Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
@@ -56,7 +56,7 @@ Besides, many of those fields remained with null values ​​(instead of modeli
 
 [Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
-Thinking about how to build a solution to the problem we were solving at the time, I found the answer on our only axiom: Bijection one by one with reality.
+Thinking about how to build a solution to the problem we were solving at the time, We found the answer in our only axiom: Bijection one by one with reality.
 
 Let's revisit our 90s code:
 
@@ -74,7 +74,7 @@ class Movement {
 }
 ```
 
-A hollow class with a lot of attributes and no encapsulation but with a flag (*isDataOK*) should when it could be safely used.
+A hollow class with many attributes and no encapsulation but with a flag (*isDataOK*) should when it could be safely used.
 Let's start by hiding the decision to know when it is an actionable movement.
 
 [Gist Url]: # (https://gist.github.com/mcsee/cddb71ed240ece973d686766b653bd96)
@@ -137,7 +137,7 @@ Simple, elegant, immutable, without dataOk, always valid, without setters or get
 
 Movement is valid from inception, just as it happens in the real-world.
 
-Now let's assume that a business rule prevents us from making movements between the same party and counterparty (this happens in the real-world).
+Let's assume that a business rule prevents us from making movements between the same party and counterparty (this happens in the real-world).
 
 In our first version, this control would be impossible. In the immutable version we only represent real situations, it will be enough to prevent the construction of these objects.
 
@@ -162,7 +162,7 @@ function __construct($aParty, $aCounterParty, $anAmount, $aDate) {
 
 ## Times are changing
 
-We are going to continue the previous example focusing on the date on which said the transaction was made.
+We continue the previous example focusing on the date on which the transaction was made.
 In the real-world, a date represents a day on an arbitrary calendar.
 
 ![Walking Dates](Walking%20Dates.jpg)
@@ -196,11 +196,17 @@ We model reality's entities such as a day of a month, a calendar year, and a dat
 
 Let us dwell for a minute on the mutability of a date. One hopes that a given date will never mutate because it does not do so in the real-world. No non-computer person would ever think of changing a date.
 
-Let us analyze by the method of reduction to the absurd what would happen if we allow a date to change.
+Let us analyze using the reduction to the absurd method. 
 
-Our accredited transaction on the day of halving knows its imputation date. If it changes internally all consecutive blockchains should be recalculated and this is expressly prohibited by the financial domain. It is clear that the date should never mutate.
+What would happen if we allowed a date to change.
 
-# Is it crystal clear for everybody that a date should not mutate?
+Our accredited transaction on the day of halving knows its imputation date. 
+
+If it changes internally all consecutive blockchains should be recalculated and this is expressly prohibited by the financial domain. 
+
+the date should never mutate.
+
+# Is it crystal clear to everybody that a date should not mutate?
 
 Let's review the date class in the most widely used languages ​​in today's industry.
 
@@ -219,7 +225,11 @@ Date problem's domain is probably one of the oldest and best known to humanity. 
 # Possible solutions
 
 A possible attack is to reverse the burden of proof. Objects are completely immutable unless otherwise stated.
-Should they evolve they must always do so in their accidental aspects. Never in their essence. This change should not be coupled with all the other objects that use it.
+Should they evolve they must always do so in their accidental aspects. 
+
+Never in their essence. 
+
+This change should not be coupled with all the other objects that use it.
 
 # Conclusions
 
@@ -230,7 +240,7 @@ Should they evolve they must always do so in their accidental aspects. Never in 
 > Most entities are immutable.
 
 These rules keep the model consistently consistent with representation.
-As a corollary of the demonstration by the absurd we can derive a series of rules:
+As a corollary of the demonstration by the absurd, we can derive a series of rules:
 
 Corollary 1
 
@@ -256,4 +266,4 @@ Part of the objective of this series of articles is to generate spaces for debat
 
 We look forward to comments and suggestions on this article.
 
-This article was published at the same time in Spanish [here](https://medium.com/@mcsee/los-poderes-mal%C3%A9ficos-de-los-mutantes-664163409f41).
+This article was published simultaneously in Spanish [here](https://medium.com/@mcsee/los-poderes-mal%C3%A9ficos-de-los-mutantes-664163409f41).

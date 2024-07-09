@@ -115,7 +115,7 @@ Be explicit. Favor readability over shorter (and more coupled) function calls.
 
 * * *
 
->  The trouble with programmers is that you can never tell what a programmer is doing until it’s too late. 
+> The trouble with programmers is that you can never tell what a programmer is doing until it’s too late. 
 
 _Seymour Cray_
 

@@ -104,7 +104,7 @@ Photo by [Vincent Péré](https://unsplash.com/@vinzpr) on [Unsplash](https://unsp
 
 * * *
 
->  Before you use a method in a legacy system, check to see if there are tests for it. If there aren’t, write them. When you do this consistently, you use tests as a medium of communication.
+> Before you use a method in a legacy system, check to see if there are tests for it. If there aren’t, write them. When you do this consistently, you use tests as a medium of communication.
 
 _Michael Feathers_
 

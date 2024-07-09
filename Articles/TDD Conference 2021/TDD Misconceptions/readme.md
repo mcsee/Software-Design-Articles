@@ -14,7 +14,7 @@ Let's continue...
 
 Olena is a full stack developer at The Adecco Group from Berlin in Germany. She has previously worked in a service company based in Ukraine and took a part in the creation of various products from small startups, B2B applications, to enterprise platforms. Moreover, she is passionate about new technologies, clean code and best practices. In her free time, when she’s not spending it on hobbies, she likes to build demos around real-life use cases, share knowledge with others, and the opposite, learn about someone else's experience.
  
-> TL;DR:  
+> TL;DR: Desroying common TDD Misconceptions 
 
 ## Talk
 

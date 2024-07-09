@@ -94,7 +94,7 @@ Photo by [Nathan Dumlao](https://unsplash.com/@nate_dumlao) on [Unsplash](https:
 
 * * *
 
->  When you have a hammer, every problem looks like a nail.
+> When you have a hammer, every problem looks like a nail.
 
 [Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 

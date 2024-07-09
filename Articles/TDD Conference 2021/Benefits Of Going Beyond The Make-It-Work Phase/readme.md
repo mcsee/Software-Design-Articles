@@ -16,7 +16,7 @@ Fran is a telecommunications engineer with more than 15 years of experience deve
 
 Six years ago he discovered TDD, which led him to XP, Agile, and Craftsmanship. It was a revealing moment: he felt like he had been living inside Plato's cave. Like a prisoner suffering Stockholm syndrome with his beloved hardware, being devoid of the proper principles, knowledge and tools to consider himself a true professional. Nowadays, he helps teams and organizations to improve their development processes as a part of his long road to software craftsmanship.
  
-> TL;DR:  Use dual Target TDD on embedded systems. Hide accidental layers. 
+> TL;DR: Use dual Target TDD on embedded systems. Hide accidental layers. 
 
 ## Talk
 
