@@ -480,7 +480,55 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 233 - Collections Count](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20233%20-%20Collections%20Count/readme.md)
 
-[Code Smell 234 - Long Circuit](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20234%20-%20Long%20Circuit/readme.md)
+[Code Smell 234 - Long Circuit](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20234%20-%20Long%20Circuit/readme.md)			 													  
+
+[Code Smell 235 - Console Side Effects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20235%20-%20Console%20Side%20Effects/readme.md)
+
+[Code Smell 236 - Unwrapped Lines](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20236%20-%20Unwrapped%20Lines/readme.md)
+
+[Code Smell 237 - Attribute Definitions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20237%20-%20Attribute%20Definitions/readme.md)
+
+[Code Smell 238 - Entangled Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20238%20-%20Entangled%20Code/readme.md)
+
+[Code Smell 239 - Big Pull Request](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20239%20-%20Big%20Pull%20Request/readme.md)
+
+[Code Smell 240 - Dead Store](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20240%20-%20Dead%20Store/readme.md)
+
+[Code Smell 241 - Referential Transparency Violation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20241%20-%20Referential%20Transparency%20Violation/readme.md)
+
+[Code Smell 242 - Zombie Feature Flags](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20242%20-%20Zombie%20Feature%20Flags/readme.md)
+
+[Code Smell 243 - Concatenated Properties](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20243%20-%20Concatenated%20Properties/readme.md)
+
+[Code Smell 244 - Incomplete Error information](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20244%20-%20Incomplete%20Error%20information/readme.md)
+
+[Code Smell 245 - exec() and eval()](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20245%20-%20exec()%20and%20eval()/readme.md)
+
+[Code Smell 246 - Expiration Date](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20246%20-%20Expiration%20Date/readme.md)
+
+[Code Smell 247 - Javascript Replace](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20247%20-%20Javascript%20Replace/readme.md)
+
+[Code Smell 248 - Unreliable Copy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20248%20-%20Unreliable%20Copy/readme.md)
+
+[Code Smell 249 - Constants as Numbers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20249%20-%20Constants%20as%20Numbers/readme.md)
+
+[Code Smell 250 - Premature Memoization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20250%20-%20Premature%20Memoization/readme.md)
+  
+[Code Smell 251 - Collections Empty](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20251%20-%20Collections%20Empty/readme.md)
+
+[Code Smell 252 - NullCustomer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20252%20-%20NullCustomer/readme.md)
+
+[Code Smell 253 - Silent Truncation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20253%20-%20Silent%20Truncation/readme.md)
+
+[Code Smell 254 - Mystery Guest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20254%20-%20Mystery%20Guest/readme.md)
+
+[Code Smell 255 - Parallel Hierarchies](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20255%20-%20Parallel%20Hierarchies/readme.md)
+
+[Code Smell 256 - Mutable Getters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20256%20-%20Mutable%20Getters/readme.md)
+
+[Code Smell 257 - Name With Collections](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20257%20-%20Name%20With%20Collections/readme.md)
+
+[Code Smell 258 - Secrets in Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20258%20-%20Secrets%20in%20Code/readme.md)
   
 ... and many more to come.
 

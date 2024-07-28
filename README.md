@@ -590,6 +590,12 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 257 - Name With Collections](/Articles/Code%20Smells/Code%20Smell%20257%20-%20Name%20With%20Collections/readme.md)
 
+* [Code Smell 258 - Secrets in Code](/Articles/Code%20Smells/Code%20Smell%20258%20-%20Secrets%20in%20Code/readme.md)
+
+* [Code Smell 259 - Testing with External Resources](/Articles/Code%20Smells/Code%20Smell%20259%20-%20Testing%20with%20External%20Resources/readme.md)
+
+* [Code Smell 260 - Crowdstrike NULL](/Articles/Code%20Smells/Code%20Smell%20260%20-%20Crowdstrike%20NULL/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
@@ -733,6 +739,8 @@ In this repository, you will find many articles related to Software Design
 * [Refactoring 013 - Remove Repeated Code](/Articles/Refactorings/Refactoring%20013%20-%20Remove%20Repeated%20Code/readme.md)
 
 * [Refactoring 014 - Remove IF](/Articles/Refactorings/Refactoring%20014%20-%20Remove%20IF/readme.md)
+
+* [Refactoring 015 - Remove NULL](/Articles/Refactorings/Refactoring%20015%20-%20Remove%20NULL/readme.md)
 
 ### Wordle
 

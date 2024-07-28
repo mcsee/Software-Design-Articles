@@ -4,7 +4,7 @@
 
 *Using boolean variables as flags, exposes accidental implementation and pollutes the code with Ifs.*
 
-> TL;DR: Don't use boolean variables, they force you to write Ifs. Create polymorfic states instead.
+> TL;DR: Don't use boolean variables, they force you to write Ifs. Create polymorphic states instead.
 
 # Problems
 
@@ -101,7 +101,7 @@ Photo by [Phil Hearing](https://unsplash.com/@philhearing) on [Unsplash](https:/
 
 These tweets inspired this code smell:
 
-[Twitter](https://twitter.com/1319247170294472705)
+[Twitter](https://x.com/1319247170294472705)
 
 * * *
 
