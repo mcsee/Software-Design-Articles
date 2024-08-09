@@ -79,7 +79,7 @@ Photo by [Ashim D’Silva](https://unsplash.com/@randomlies) on [Unsplash](https
 
 Thanks to Maciej for this tip
 
-[Twitter](https://twitter.com/1445692315360653318)
+[Twitter](https://x.com/1445692315360653318)
 
 * * *
 

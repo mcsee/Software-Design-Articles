@@ -50,7 +50,8 @@ final class City {
        if ($this->meetingProbability() < random()) {
           return null; // no interaction       
        } else {
-          return new PersonToPersonInteraction($somePerson, $anotherPerson);
+          return new PersonToPersonInteraction(
+             $somePerson, $anotherPerson);
        }
     }
 }

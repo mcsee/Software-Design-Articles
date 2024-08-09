@@ -69,7 +69,7 @@ public class SoccerMatch {
 
     public int totalGoals() {
         int goals = regularTime.goals();
-        // You might forget this if check 
+        // You might forget this IF check 
         // resulting in a null error
         if (extraTime != null) {
             goals += extraTime.goals();

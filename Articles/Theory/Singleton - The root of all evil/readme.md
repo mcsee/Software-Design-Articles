@@ -11,11 +11,11 @@
 > The ‘magical’ appearance of the Singleton pattern.
 
 # The origin of evil
-The pattern has been used in the industry for decades. Its popularity is attributed to the excellent book [Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns). There are numerous software frameworks that use it and we rarely find literature that discourages its use.
-Despite this, in the corresponding  [Wikipedia](https://en.wikipedia.org/wiki/Design_Patterns) entry we can read a Dantesque warning:
+The pattern has been used in the industry for decades. Its popularity is attributed to the excellent book [Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns). There are numerous software frameworks that use it, and we rarely find literature that discourages its use.
+Despite this, in the corresponding [Wikipedia](https://en.wikipedia.org/wiki/Design_Patterns) entry we can read a Dantesque warning:
 
 > 
-Critics consider the singleton to be an  [anti-pattern](https://en.wikipedia.org/wiki/Anti-pattern)  in that it is frequently used in scenarios where it is not beneficial, introduces unnecessary restrictions in situations where a sole instance of a class is not actually required, and introduces  [global state](Link)  into an application.
+Critics consider the singleton to be an [anti-pattern](https://en.wikipedia.org/wiki/Anti-pattern)  in that it is frequently used in scenarios where it is not beneficial, introduces unnecessary restrictions in situations where a sole instance of a class is not actually required, and introduces  [global state](Link)  into an application.
 
 ![Devil](https://cdn.hashnode.com/res/hashnode/image/upload/v1598394410649/AWB5yatBl.jpeg)
 
@@ -172,7 +172,7 @@ Having stated the arguments against Singleton let’s try to see the possible be
 
 ### 1. It allows us to save up memory
 
-This argument is fallacious according to the current state of the art of languages ​​with a decent virtual machine and garbage collector. It is enough to carry out a benchmark and look for evidence to convince us.
+This argument is fallacious according to the current state of the art of languages with a decent virtual machine and garbage collector. It is enough to carry out a benchmark and look for evidence to convince us.
 
 ### 2. It’s good for unique concepts modeling
 

@@ -77,7 +77,7 @@ If the rule states we need to wait for ALL operations, we should not force a par
 
 Thanks for the idea
 
-[Twitter](https://twitter.com/1542249552480174081)
+[Twitter](https://x.com/1542249552480174081)
 
 Photo by [Alvin Mahmudov](https://unsplash.com/es/@alvinmahmudov) on [Unsplash](https://unsplash.com/s/photos/flowers-boyfriend)
   

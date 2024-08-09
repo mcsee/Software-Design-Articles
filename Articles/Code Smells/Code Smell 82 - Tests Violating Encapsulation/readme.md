@@ -119,7 +119,7 @@ White-box tests are fragile. They test implementation instead of behavior.
 
 This smell was inspired by @[Rodrigo](https://twitter.com/_rodrigomd)
 
-[Twitter](https://twitter.com/1408032157629485056)
+%[https://twitter.com/_rodrigomd/status/1408032157629485056]
 
 * * *
 

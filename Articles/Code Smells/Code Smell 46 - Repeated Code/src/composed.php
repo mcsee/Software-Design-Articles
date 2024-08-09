@@ -8,7 +8,9 @@ final class TextReplacer {
         string $replaceFunctionName, 
         $postProcessClosure) {
         return $postProcessClosure(
-            $replaceFunctionName($patternToFind, $textToReplace, $subject));
+            $replaceFunctionName($patternToFind,
+                                 $textToReplace,
+                                 $subject));
     }
 }
 

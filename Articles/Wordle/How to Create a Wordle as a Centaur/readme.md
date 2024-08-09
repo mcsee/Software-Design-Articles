@@ -207,6 +207,6 @@ It is a proof of concept, not an elegant and final solution.
 
 Image credit: A funny Twitter thread asking AIs to draw a Centaur
 
-[Twitter](https://twitter.com/1571835127101100033)
+%[https://twitter.com/Alt_Products_AI/status/1571835127101100033]
 
  

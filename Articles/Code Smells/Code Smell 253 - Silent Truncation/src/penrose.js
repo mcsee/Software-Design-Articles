@@ -56,7 +56,7 @@ app.listen(3000, () => console.log('Server started on port 3000'));
   <form id="textForm">
     <textarea id="textArea" 
       rows="10" 
-      placeholder="Enter text about Penrose's theory (max 1000 characters)">
+      placeholder="Enter text about Penrose's theory (max 1000 chars)">
     </textarea>
     <button type="submit">Save</button>
   </form>

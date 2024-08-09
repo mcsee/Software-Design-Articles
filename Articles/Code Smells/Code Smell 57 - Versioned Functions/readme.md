@@ -66,13 +66,13 @@ Time and code evolution management is always present in software development. Lu
 
 [Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
  
-# Creditshttps://pbs.twimg.com/media/FWcrogWWQAAXXb1?format=png&name=small
+# Credits
 
 <span>Photo by [K8](https://unsplash.com/@k8_iv) on [Unsplash](https://unsplash.com/s/photos/onion)</span>
 
 Original idea
 
-[Twitter](https://twitter.com/1341808635115151360)
+[Twitter](https://x.com/1341808635115151360)
 
 * * *
 

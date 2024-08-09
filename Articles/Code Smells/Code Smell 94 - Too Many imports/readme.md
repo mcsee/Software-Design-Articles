@@ -95,7 +95,7 @@ We need to think about dependencies when building our solutions to minimize Ripp
 
 Photo by [Zdeněk Macháček](https://unsplash.com/@zmachacek) on [Unsplash](https://unsplash.com/s/photos/pile)
 
-[Twitter](https://twitter.com/1447623706767921153)
+%[https://twitter.com/BelloneDavide/status/1447623706767921153]
 
 * * *
 

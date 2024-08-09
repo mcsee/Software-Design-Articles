@@ -596,6 +596,10 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 260 - Crowdstrike NULL](/Articles/Code%20Smells/Code%20Smell%20260%20-%20Crowdstrike%20NULL/readme.md)
 
+* [Code Smell 261 - DigiCert Underscores](/Articles/Code%20Smells/Code%20Smell%20261%20-%20DigiCert%20Underscores/readme.md)
+
+* [Code Smell 262 - Not Replaced Constants](/Articles/Code%20Smells/Code%20Smell%20262%20-%20Not%20Replaced%20Constants/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)

@@ -101,7 +101,8 @@ Photo by [Phil Hearing](https://unsplash.com/@philhearing) on [Unsplash](https:/
 
 These tweets inspired this code smell:
 
-[Twitter](https://x.com/1319247170294472705)
+%[
+]
 
 * * *
 

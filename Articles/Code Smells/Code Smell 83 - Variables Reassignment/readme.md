@@ -109,7 +109,7 @@ Reusing variables is a non-contextual copy and paste hint.
 
 Photo by [Robby McCullough](https://unsplash.com/@mybbor) on [Unsplash](https://unsplash.com/s/photos/spiral)
 
-[Twitter](https://twitter.com/1414832436547133440)
+[Twitter](https://x.com/1414832436547133440)
 
 * * *
 

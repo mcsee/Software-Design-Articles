@@ -68,7 +68,7 @@ Photo by [Paul](https://unsplash.com/@causeimluap) on [Unsplash](https://unsplas
   
 This smell was inspired by
 
-[Twitter](https://twitter.com/1428027665529769985)
+[Twitter](https://x.com/1428027665529769985)
 
 * * *
 

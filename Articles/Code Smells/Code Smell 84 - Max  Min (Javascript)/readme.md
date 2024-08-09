@@ -8,7 +8,7 @@
 
 # Problems
 
-- Principle of least astonishment
+- Principle of the least astonishment
 
 - [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Violation.
 
@@ -70,7 +70,7 @@ We need to be very careful using functions that violate real-world concepts usin
 
 # More Info
 
-- [Principle of least astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment)
+- [Principle of the least astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment)
 
 - [Bijection Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
@@ -82,7 +82,7 @@ Photo by [Cris Baron](https://unsplash.com/@cris024) on [Unsplash](https://unspl
   
 Inspired by @@[Oliver Jumpertz](@OliverJumpertz)
 
-[Twitter](https://twitter.com/1416798870747684864)
+[Twitter](https://x.com/1416798870747684864)
 
 * * *
 

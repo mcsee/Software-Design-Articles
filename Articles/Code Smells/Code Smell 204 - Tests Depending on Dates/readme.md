@@ -4,7 +4,7 @@
 
 *It is a good idea to assert something has happened in the future*
 
-> TL;DR: Tests must be in full control and you can't manage time.
+> TL;DR: Tests must be in full control, and you can't manage time.
 
 # Problems
 
@@ -77,7 +77,7 @@ They are often a cause of mistakes.
 
 # More Info
 
-[Twitter](https://twitter.com/1639975667713409030)
+[Twitter](https://x.com/1639975667713409030)
 
 # Disclaimer
 

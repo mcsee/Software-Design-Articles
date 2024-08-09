@@ -98,7 +98,7 @@ Photo by [Ryan Quintal](https://unsplash.com/@ryanquintal) on [Unsplash](https:/
   
 Originally on this tweet:
 
-[Twitter](https://twitter.com/1621348702907502593)
+[Twitter](https://x.com/1621348702907502593)
   
 * * *
 

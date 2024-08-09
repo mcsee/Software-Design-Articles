@@ -26,7 +26,7 @@
 
 Last week, a tweet went viral because of a missing formula.
 
-[Twitter](https://twitter.com/1615204074588180481)
+%[https://twitter.com/JeroenFrijters/status/1615204074588180481]
 
 It is the DigiD digital authentication iOS app in the Netherlands.
 
@@ -111,7 +111,7 @@ As a final conclusion, I asked [ChatGPT](https://github.com/mcsee/Software-Desig
 
 # More Info
 
-[Twitter](https://twitter.com/1615204074588180481)
+%[https://twitter.com/JeroenFrijters/status/1615204074588180481]
 
 - [GitHub Repo](https://github.com/MinBZK/woo-besluit-broncode-digid-app/)
 

@@ -94,7 +94,7 @@ Photo by [James Best](https://unsplash.com/@jim_at_jibba) on [Unsplash](https://
   
 Thank you @[Jan Giacomelli](@jangia)
 
-[Twitter](https://twitter.com/1571126817322602496)
+[Twitter](https://x.com/1571126817322602496)
 
 * * *
 

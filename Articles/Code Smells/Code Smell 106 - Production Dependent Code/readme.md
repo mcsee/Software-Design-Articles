@@ -109,7 +109,7 @@ Photo by [Birmingham Museums Trust](https://unsplash.com/@birminghammuseumstrust
   
 This tweet was inspired by @[Jan Giacomelli](@jangia)
 
-[Twitter](https://twitter.com/1462469614177173505)
+[Twitter](https://x.com/1462469614177173505)
 
 * * *
 

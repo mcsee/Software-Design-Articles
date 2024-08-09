@@ -107,7 +107,7 @@ Photo by [Jens Lelie](https://unsplash.com/@madebyjens) on [Unsplash](https://un
 
 Thanks, Cory 
 
-[Twitter](https://twitter.com/1644774155642863616)
+[Twitter](https://x.com/1644774155642863616)
     
 * * *
 

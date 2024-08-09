@@ -8,7 +8,7 @@
 
 Today @[Davide Bellone](@davidebellone) mentioned one of my articles on Twitter.
 
-[Twitter](https://twitter.com/1392135734518325249)
+%[https://twitter.com/BelloneDavide/status/1392135734518325249]
 
 I frequently read my articles again and make small adjustments. 
 

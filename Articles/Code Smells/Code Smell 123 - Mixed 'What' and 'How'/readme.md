@@ -111,7 +111,7 @@ The idea of this smell is here:
 
 and here:
 
-[Twitter](https://twitter.com/1103649549355233280)
+%[https://twitter.com/TonyFlury/status/1103649549355233280]
 
 * * *
 

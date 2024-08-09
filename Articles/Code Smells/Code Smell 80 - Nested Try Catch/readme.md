@@ -86,7 +86,7 @@ Photo by [David Clode](https://unsplash.com/@davidclode) on [Unsplash](https://u
   
 Thanks to @[Rodrigo](@rodrigomd) for his inspiration
 
-[Twitter](https://twitter.com/1403359513965731843)
+%[https://twitter.com/_rodrigomd/status/1403359513965731843]
 
 * * *
 

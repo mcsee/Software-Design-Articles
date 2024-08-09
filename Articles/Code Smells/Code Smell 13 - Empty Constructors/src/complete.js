@@ -1,5 +1,9 @@
 class AirTicket {
-   constructor(origin, destination, arline, departureTime, passenger) {     
+   constructor(origin,
+                destination, 
+                arline,
+                departureTime,
+                passenger) {     
      
   // ...
   }

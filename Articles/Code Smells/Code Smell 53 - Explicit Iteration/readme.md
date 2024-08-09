@@ -92,7 +92,7 @@ _David Walker_
 
 Original twitter thread by @[Matt Moll](@MattCodeJourney)
 
-[Twitter](https://twitter.com/1346193744178110465)
+%[https://twitter.com/MattCodeJourney/status/1346193744178110465]
 
 * * * 
 

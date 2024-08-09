@@ -7,5 +7,6 @@ def multiply(a, b):
     return a * b
 
 # This code has a comment that explains what the function does.
-# Instead of relying on this comment to understand the behavior of the code,
+# Instead of relying on this comment 
+# to understand the behavior of the code,
 # You can write some unit tests that verify the behavior of the function.

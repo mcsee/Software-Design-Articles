@@ -75,7 +75,7 @@ We should always favor immutability on our designs and take extra care with side
 
 Photo by [Zorik D](https://unsplash.com/@justzorik) on [Unsplash](https://unsplash.com/s/photos/zombie)  
 
-[Twitter](https://twitter.com/1430154471921922049)
+[Twitter](https://x.com/1430154471921922049)
 
 * * *
 
