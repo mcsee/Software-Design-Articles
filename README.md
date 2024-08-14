@@ -600,6 +600,10 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 262 - Not Replaced Constants](/Articles/Code%20Smells/Code%20Smell%20262%20-%20Not%20Replaced%20Constants/readme.md)
 
+* [Code Smell 263 - Squatting](/Articles/Code%20Smells/Code%20Smell%20263%20-%20Squatting/readme.md)
+
+* [Code Smell 264 - Hanlon's Razor](/Articles/Code%20Smells/Code%20Smell%20264%20-%20Hanlon%27s%20Razor/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
