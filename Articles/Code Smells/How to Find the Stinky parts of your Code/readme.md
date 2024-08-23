@@ -529,6 +529,14 @@ Most of these smells are just *hints* of something that might be wrong. They are
 [Code Smell 257 - Name With Collections](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20257%20-%20Name%20With%20Collections/readme.md)
 
 [Code Smell 258 - Secrets in Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20258%20-%20Secrets%20in%20Code/readme.md)
+
+[Code Smell 259 - Testing with External Resources](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20259%20-%20Testing%20with%20External%20Resources/readme.md)
+
+[Code Smell 260 - Crowdstrike NULL](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20260%20-%20Crowdstrike%20NULL/readme.md)
+
+[Code Smell 261 - DigiCert Underscores](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20261%20-%20DigiCert%20Underscores/readme.md)
+
+[Code Smell 262 - Not Replaced Constants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20262%20-%20Not%20Replaced%20Constants/readme.md)
   
 ... and many more to come.
 

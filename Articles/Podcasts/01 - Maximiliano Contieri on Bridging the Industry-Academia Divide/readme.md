@@ -2,9 +2,9 @@
             
 ![Maximiliano Contieri on Bridging the Industry-Academia Divide](Maximiliano%20Contieri%20on%20Bridging%20the%20Industry-Academia%20Divide.jpg)
 
-> TL;DR: My recent interview on the Semaphore podcast
+*Despite their common subject matter, the software industry and computer science often operate on divergent assumptions and priorities, making collaboration difficult. In this episode, Maximiliano Contieri helps us understand the longstanding tension between academia and industry from an insider’s perspective. Read on for an insightful discussion on strengthening bridges, applying rigorous methodologies aimed at real-world relevance, and the central goal of building robust software simulations that capture the complexity of the world around us.*
 
-Despite their common subject matter, the software industry and computer science often operate on divergent assumptions and priorities, making collaboration difficult. In this episode, Maximiliano Contieri helps us understand the longstanding tension between academia and industry from an insider’s perspective. Read on for an insightful discussion on strengthening bridges, applying rigorous methodologies aimed at real-world relevance, and the central goal of building robust software simulations that capture the complexity of the world around us.
+> TL;DR: My recent interview on the Semaphore podcast
 
 [![Watch the video](https://img.youtube.com/vi/q0VtmkA6sVM/sddefault.jpg)](https://youtu.be/q0VtmkA6sVM) 
 

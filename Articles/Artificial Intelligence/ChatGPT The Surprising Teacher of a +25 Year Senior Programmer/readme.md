@@ -28,7 +28,7 @@ And I talk to [non-technical people](https://github.com/mcsee/Software-Design-Ar
 
 Now, I am a bit more frightened it will also replace software designers who don't use A.I. Tools.
 
-I am revisiting my whole collection of 195 code smell articles with [ChatGPT](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Artificial%20Intelligence/Maxi%20Contieri%20Explains%20ChatGPT%20Revolution/readme.md) and still learning new things.
+I am revisiting my whole collection of 195 code smell articles with [ChatGPT](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Podcasts/Maxi%20Contieri%20Explains%20ChatGPT%20Revolution/readme.md) and still learning new things.
 
 I try to publish design rules and tips language agnostic.
 
