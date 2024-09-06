@@ -604,6 +604,12 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 265 - Linguistic Confusion](/Articles/Code%20Smells/Code%20Smell%20265%20-%20Linguistic%20Confusion/readme.md)
 
+* [Code Smell 266 - Collection Aliasing](/Articles/Code%20Smells/Code%20Smell%20266%20-%20Collection%20Aliasing/readme.md)
+
+* [Code Smell 267 - Objects Aliasing](/Articles/Code%20Smells/Code%20Smell%20267%20-%20Objects%20Aliasing/readme.md)
+
+* [Code Smell 268 - Ternary Metaprogramming](/Articles/Code%20Smells/Code%20Smell%20268%20-%20Ternary%20Metaprogramming/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
