@@ -173,7 +173,7 @@ Leave the business rules as **"domain ifs"** and don't apply this refactoring
 
 # Credits
 
-Image by <a href="https://pixabay.com/users/renuagra-5667962/">Renuagra</a> on <a href="https://pixabay.com/">Pixabay</a>
+Image by [Renuagra](https://pixabay.com/users/renuagra-5667962/) on [Pixabay](https://pixabay.com/)
 
 * * * 
 

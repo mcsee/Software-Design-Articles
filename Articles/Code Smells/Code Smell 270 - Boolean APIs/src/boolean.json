@@ -1,0 +1,14 @@
+{
+  "message": {
+    "imageMessage": {
+      "url": "https://mmg.whatsapp.net/v/art_vanderley.jpg",
+      "mimetype": "image/jpeg",
+      "fileSha256": "mJh9DKj34ao9Ph7cBm/CwKurgjbyMTFHJeo=",
+      "fileLength": 24601,
+      "height": 2048,
+      "width": 1536
+    },
+    "viewOnce": true
+  },
+  "type": "notify"
+}

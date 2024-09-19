@@ -118,7 +118,7 @@ We can leave comments reflecting important design decisions.
 
 # Credits
 
-Image by <a href="https://pixabay.com/users/philm1310-752382/">philm1310</a> on <a href="https://pixabay.com/">Pixabay</a>
+Image by [philm1310](https://pixabay.com/users/philm1310-752382/) on [Pixabay](https://pixabay.com/)
 
 * * * 
 

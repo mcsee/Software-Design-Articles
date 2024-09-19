@@ -87,7 +87,12 @@ They may need specific instructions about readability and maintainability.
 
 *Remember AI Assistants make lots of mistakes*
 
- [ChatGPT](https://chat.openai.com/?q=Correct+and+Explain+this+Code%3A+%60%60%60javascript%0D%0Aconst+method+%3D+success+%3F+%27start%27+%3A+%27stop%27%3B%0D%0Aobj%5Bmethod%5D%28%29%3B%0D%0A%60%60%60) [Claude](https://claude.ai/new?q=Correct+and+Explain+this+Code%3A+%60%60%60javascript%0D%0Aconst+method+%3D+success+%3F+%27start%27+%3A+%27stop%27%3B%0D%0Aobj%5Bmethod%5D%28%29%3B%0D%0A%60%60%60) [Perplexity](https://perplexity.ai/?q=Correct+and+Explain+this+Code%3A+%60%60%60javascript%0D%0Aconst+method+%3D+success+%3F+%27start%27+%3A+%27stop%27%3B%0D%0Aobj%5Bmethod%5D%28%29%3B%0D%0A%60%60%60) [Gemini](https://gemini.google.com/?q=Correct+and+Explain+this+Code%3A+%60%60%60javascript%0D%0Aconst+method+%3D+success+%3F+%27start%27+%3A+%27stop%27%3B%0D%0Aobj%5Bmethod%5D%28%29%3B%0D%0A%60%60%60)
+| Without Proper Instructions    | With Specific Instructions |
+| -------- | ------- |
+| [ChatGPT](https://chat.openai.com/?q=Correct+and+explain+this+code%3A+%60%60%60javascript%0D%0Aconst+method+%3D+success+%3F+%27start%27+%3A+%27stop%27%3B%0D%0Aobj%5Bmethod%5D%28%29%3B%0D%0A%60%60%60) | [ChatGPT](https://chat.openai.com/?q=Remove+metaprogramming+usage%3A+%60%60%60javascript%0D%0Aconst+method+%3D+success+%3F+%27start%27+%3A+%27stop%27%3B%0D%0Aobj%5Bmethod%5D%28%29%3B%0D%0A%60%60%60) |
+| [Claude](https://claude.ai/new?q=Correct+and+explain+this+code%3A+%60%60%60javascript%0D%0Aconst+method+%3D+success+%3F+%27start%27+%3A+%27stop%27%3B%0D%0Aobj%5Bmethod%5D%28%29%3B%0D%0A%60%60%60) | [Claude](https://claude.ai/new?q=Remove+metaprogramming+usage%3A+%60%60%60javascript%0D%0Aconst+method+%3D+success+%3F+%27start%27+%3A+%27stop%27%3B%0D%0Aobj%5Bmethod%5D%28%29%3B%0D%0A%60%60%60) |
+| [Perplexity](https://perplexity.ai/?q=Correct+and+explain+this+code%3A+%60%60%60javascript%0D%0Aconst+method+%3D+success+%3F+%27start%27+%3A+%27stop%27%3B%0D%0Aobj%5Bmethod%5D%28%29%3B%0D%0A%60%60%60) | [Perplexity](https://perplexity.ai/?q=Remove+metaprogramming+usage%3A+%60%60%60javascript%0D%0Aconst+method+%3D+success+%3F+%27start%27+%3A+%27stop%27%3B%0D%0Aobj%5Bmethod%5D%28%29%3B%0D%0A%60%60%60) |
+| [Gemini](https://gemini.google.com/?q=Correct+and+explain+this+code%3A+%60%60%60javascript%0D%0Aconst+method+%3D+success+%3F+%27start%27+%3A+%27stop%27%3B%0D%0Aobj%5Bmethod%5D%28%29%3B%0D%0A%60%60%60) | [Gemini](https://gemini.google.com/?q=Remove+metaprogramming+usage%3A+%60%60%60javascript%0D%0Aconst+method+%3D+success+%3F+%27start%27+%3A+%27stop%27%3B%0D%0Aobj%5Bmethod%5D%28%29%3B%0D%0A%60%60%60) | 
 
 # Conclusion
 

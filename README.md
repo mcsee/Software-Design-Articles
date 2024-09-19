@@ -610,6 +610,10 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 268 - Ternary Metaprogramming](/Articles/Code%20Smells/Code%20Smell%20268%20-%20Ternary%20Metaprogramming/readme.md)
 
+* [Code Smell 269 - Low-Level Addition](/Articles/Code%20Smells/Code%20Smell%20269%20-%20Low-Level%20Addition/readme.md)
+
+* [Code Smell 270 - Boolean APIs](/Articles/Code%20Smells/Code%20Smell%20270%20-%20Boolean%20APIs/readme.md)
+
 ### Blogging
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
@@ -753,6 +757,8 @@ In this repository, you will find many articles related to Software Design
 * [Refactoring 014 - Remove IF](/Articles/Refactorings/Refactoring%20014%20-%20Remove%20IF/readme.md)
 
 * [Refactoring 015 - Remove NULL](/Articles/Refactorings/Refactoring%20015%20-%20Remove%20NULL/readme.md)
+
+* [Refactoring 016 - Build With The Essence](/Articles/Refactorings/Refactoring%20016%20-%20Build%20With%20The%20Essence/readme.md)
 
 ### Wordle
 
