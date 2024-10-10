@@ -48,6 +48,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Maxi Contieri on Clean Code, Refactoring, and Test-Driven Development](/Articles/Opinion/Maxi%20Contieri%20on%20Clean%20Code%2C%20Refactoring%2C%20and%20Test-Driven%20Development/readme.md)
 
+* [Reputation and Trust. Rely on Others](/Articles/Opinion/Reputation%20and%20Trust.%20Rely%20on%20Others/readme.md)
+
 * [Rethinking Leap Years: Why Your Favorite Programming Language's Approach May Be Flawed](/Articles/Opinion/Rethinking%20Leap%20Years%20Why%20Your%20Favorite%20Programming%20Language%27s%20Approach%20May%20Be%20Flawed/readme.md)
 
 * [Software Engineer Maxi Contieri on writing about "boring" fundamentals](/Articles/Opinion/Software%20Engineer%20Maxi%20Contieri%20on%20writing%20about%20boring%20fundamentals/readme.md)
@@ -613,6 +615,14 @@ In this repository, you will find many articles related to Software Design
 * [Code Smell 269 - Low-Level Addition](/Articles/Code%20Smells/Code%20Smell%20269%20-%20Low-Level%20Addition/readme.md)
 
 * [Code Smell 270 - Boolean APIs](/Articles/Code%20Smells/Code%20Smell%20270%20-%20Boolean%20APIs/readme.md)
+
+* [Code Smell 271 - The Hollywood Principle](/Articles/Code%20Smells/Code%20Smell%20271%20-%20The%20Hollywood%20Principle/readme.md)
+
+* [Code Smell 272 - API Chain](/Articles/Code%20Smells/Code%20Smell%20272%20-%20API%20Chain/readme.md)
+
+* [Code Smell 273 - Overengineering](/Articles/Code%20Smells/Code%20Smell%20273%20-%20Overengineering/readme.md)
+
+* [Code Smell 274 - Cascaded Returns](/Articles/Code%20Smells/Code%20Smell%20274%20-%20Cascaded%20Returns/readme.md)
 
 ### Blogging
 
