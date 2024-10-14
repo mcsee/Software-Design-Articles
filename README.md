@@ -624,7 +624,11 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 274 - Cascaded Returns](/Articles/Code%20Smells/Code%20Smell%20274%20-%20Cascaded%20Returns/readme.md)
 
+* [Code Smell 275 - Missing Test Wrong Path](/Articles/Code%20Smells/Code%20Smell%20275%20-%20Missing%20Test%20Wrong%20Path/readme.md)
+
 ### Blogging
+
+* [Content Structure: The Do's and Dont's of Content Creation](/Articles/Blogging/68%20-%20Content%20Structure%20The%20Do%27s%20and%20Dont%27s%20of%20Content%20Creation/readme.md)
 
 * [The Complete Etiquette Guide to Writing #programming Articles on Hashnode](/Articles/Blogging/The%20Complete%20Etiquette%20Guide%20to%20Writing%20programming%20Articles%20on%20Hashnode/readme.md)
 
@@ -802,10 +806,6 @@ In this repository, you will find many articles related to Software Design
 
 * [How a Hacker Stole $566M USD Exploiting a Code Smell](/Articles/Security/How%20a%20Hacker%20Stole%20%24566M%20USD%20Exploiting%20a%20Code%20Smell/readme.md)
 
-### blogging
-
-* [Content Structure: The Do's and Dont's of Content Creation](/Articles/blogging/68%20-%20Content%20Structure%20The%20Do%27s%20and%20Dont%27s%20of%20Content%20Creation/readme.md)
-
 ### Podcasts
 
 * [How to Improve Software Quality, and reduce bugs in Startups](/Articles/Podcasts/02%20-%20How%20to%20Improve%20Software%20Quality%2C%20and%20reduce%20bugs%20in%20Startups/readme.md)
@@ -818,11 +818,9 @@ In this repository, you will find many articles related to Software Design
 
 * [74 - Software Design Videos](/Articles/Videos/74%20-%20Software%20Design%20Videos/readme.md)
 
-### Unsorted
+### Book
 
-* [3.2 Identifying the Essence of Your Objects](/Articles/Unsorted/3.2%20Identifying%20the%20Essence%20of%20Your%20Objects/readme.md)
+* [Clean Code Cookbook is Out](/Articles/Book/Clean%20Code%20Cookbook%20is%20Out/readme.md)
 
-### unsorted
-
-* [Clean Code Cookbook is Out](/Articles/unsorted/Clean%20Code%20Cookbook%20is%20Out/readme.md)
+* [3.2 Identifying the Essence of Your Objects](/Articles/Book/3.2%20Identifying%20the%20Essence%20of%20Your%20Objects/readme.md)
 
