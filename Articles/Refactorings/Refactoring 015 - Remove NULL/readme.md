@@ -206,4 +206,4 @@ The Null Object Pattern ensures you always work with objects, avoiding null poin
 
 This article is part of the Refactoring Series.
 
-[How to Improve your Code With Easy Refactorings](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles//readme.md)
+[How to Improve Your Code With Easy Refactorings](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles//readme.md)

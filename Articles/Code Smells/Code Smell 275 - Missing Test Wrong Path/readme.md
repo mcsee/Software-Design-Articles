@@ -23,7 +23,7 @@
 5. Check all your test paths
 6. Use mutation testing
 
-Context
+# Context
 
 When writing tests you expect certain cases to throw exceptions. 
 
@@ -71,8 +71,8 @@ try {
      // Firing at the same spot
     
      // THIS LINE IS IMPORTANT
-     cnsole.assert(false, 
-        'An exception should have been thrown' .
+     console.assert(false, 
+        'An exception should have been thrown' +
         ' for firing at the same position.');
      // THIS LINE IS IMPORTANT
   

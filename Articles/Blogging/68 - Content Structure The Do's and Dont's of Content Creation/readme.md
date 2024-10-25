@@ -78,7 +78,7 @@ Most writers use tools like these (especially if English is not your mother lang
 
 - Create your own illustrations with [Dalle-2](https://openai.com/dall-e-2/), [Stable Diffusion](https://stability.ai/), or [Midjourney](https://www.midjourney.com/).
 
-By the way, this article photo by <a href="https://unsplash.com/@ryansnaadt">Ryan Snaadt</a> on <a href="https://unsplash.com/s/photos/writer">Unsplash</a>
+By the way, this article photo by [Ryan Snaadt](https://unsplash.com/@ryansnaadt) on [Unsplash](https://unsplash.com/s/photos/writer)
   
 ## Create Your Own Tools
 

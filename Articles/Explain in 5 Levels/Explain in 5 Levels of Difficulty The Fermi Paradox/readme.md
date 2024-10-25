@@ -210,5 +210,6 @@ This is a subset of the Rare Earth Hypothesis solution.
 
 What is your opinion?
 
-Image Credit: <a href="https://unsplash.com/fr/@stephenleo1982">Stephen Leonardi</a> on <a href="https://unsplash.com/es/fotos/sMPRCsoUM4A">Unsplash</a>
+Image Credit: [Stephen Leonardi](https://unsplash.com/@stephenleo1982) on [Unsplash](https://unsplash.com/es/fotos/sMPRCsoUM4A)
+
   

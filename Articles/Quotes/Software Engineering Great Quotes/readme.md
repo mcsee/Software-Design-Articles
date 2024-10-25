@@ -4643,7 +4643,7 @@ I try to think mostly in terms of preconditions, and checking things in the cons
 
 ---
 
-> "Don't fix it if it ain't broke" presupposed that you can't improve something that works reasonably well already. If the world's inventors had believed this, we'd still be driving Model A Fords and using outhouses.
+>"Don't fix it if it ain't broke" presupposed that you can't improve something that works reasonably well already. If the world's inventors had believed this, we'd still be driving Model A Fords and using outhouses.
 
 *H. W. Kenton*
 

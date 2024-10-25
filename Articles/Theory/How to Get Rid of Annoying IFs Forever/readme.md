@@ -21,7 +21,7 @@ Our tool will be [Object-Oriented](https://github.com/mcsee/Software-Design-Arti
 
 ![roads](https://cdn.hashnode.com/res/hashnode/image/upload/v1604271082172/roads.jpeg)
 
-Photo <a href="https://pixabay.com/users/przemko-1606435/">Przemysław Bromberek</a> en <a href="https://pixabay.com/">Pixabay</a>
+Photo by [Przemysław Bromberek](https://pixabay.com/users/przemko-1606435/) in [Pixabay](https://pixabay.com/)
  
 # The Problem
 

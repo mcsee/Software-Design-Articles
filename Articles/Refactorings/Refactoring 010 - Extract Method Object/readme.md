@@ -145,4 +145,4 @@ Image by [Manuel de la Fuente](https://pixabay.com/users/mfuente-1590732/) on [P
 
 This article is part of the Refactoring Series.
 
-[How to Improve your Code With Easy Refactorings](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles//readme.md)
+[How to Improve Your Code With Easy Refactorings](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles//readme.md)

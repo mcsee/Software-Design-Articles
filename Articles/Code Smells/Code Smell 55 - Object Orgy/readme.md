@@ -100,7 +100,7 @@ If your classes are polluted with setters, getters and public methods you will c
 
 # Credits
 
-Picture by <a href="https://www.nationalgallery.org.uk/paintings/nicolas-poussin-a-bacchanalian-revel-before-a-term#">Nicolas Poussin</a> 
+Picture by [Nicolas Poussin](https://www.nationalgallery.org.uk/paintings/nicolas-poussin-a-bacchanalian-revel-before-a-term#)
 
 * * *
 

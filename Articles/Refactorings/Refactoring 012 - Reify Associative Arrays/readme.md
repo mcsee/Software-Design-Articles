@@ -175,4 +175,4 @@ Image from [MustangJoe](https://pixabay.com/users/mustangjoe-2162920/) en [Pixab
 
 This article is part of the Refactoring Series.
 
-[How to Improve your Code With Easy Refactorings](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles//readme.md)
+[How to Improve Your Code With Easy Refactorings](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles//readme.md)

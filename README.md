@@ -626,6 +626,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 275 - Missing Test Wrong Path](/Articles/Code%20Smells/Code%20Smell%20275%20-%20Missing%20Test%20Wrong%20Path/readme.md)
 
+* [Code Smell 276 - Untested Regular Expressions](/Articles/Code%20Smells/Code%20Smell%20276%20-%20Untested%20Regular%20Expressions/readme.md)
+
 ### Blogging
 
 * [Content Structure: The Do's and Dont's of Content Creation](/Articles/Blogging/68%20-%20Content%20Structure%20The%20Do%27s%20and%20Dont%27s%20of%20Content%20Creation/readme.md)
@@ -774,6 +776,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Refactoring 016 - Build With The Essence](/Articles/Refactorings/Refactoring%20016%20-%20Build%20With%20The%20Essence/readme.md)
 
+* [Refactoring 017 - Convert Attributes to Sets](/Articles/Refactorings/Refactoring%20017%20-%20Convert%20Attributes%20to%20Sets/readme.md)
+
 ### Wordle
 
 * [How to Create a Wordle as a Centaur](/Articles/Wordle/How%20to%20Create%20a%20Wordle%20as%20a%20Centaur/readme.md)
@@ -793,6 +797,8 @@ In this repository, you will find many articles related to Software Design
 * [Explain in 5 Levels of Difficulty: Bitcoin](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20Bitcoin/readme.md)
 
 * [Explain in 5 Levels of Difficulty: ChatGPT](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20ChatGPT/readme.md)
+
+* [Explain in 5 Levels of Difficulty: Ethereum](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20Ethereum/readme.md)
 
 * [Explain in 5 Levels of Difficulty: GIT](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20GIT/readme.md)
 
@@ -816,7 +822,7 @@ In this repository, you will find many articles related to Software Design
 
 ### Videos
 
-* [74 - Software Design Videos](/Articles/Videos/74%20-%20Software%20Design%20Videos/readme.md)
+* [Software Design Videos](/Articles/Videos/Software%20Design%20Videos/readme.md)
 
 ### Book
 

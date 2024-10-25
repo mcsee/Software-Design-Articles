@@ -163,7 +163,7 @@ Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/t
 
 # Credits
 
-Photo by <a href="https://unsplash.com/@artisanalphoto">ArtisanalPhoto</a> in <a href="https://unsplash.com/fotos/barandillas-de-metal-gris-en-escalera-blanca-MJcb7ZhNeUA">Unsplash</a>
+Photo by [ArtisanalPhoto](https://unsplash.com/@artisanalphoto) in [Unsplash](https://unsplash.com/fotos/barandillas-de-metal-gris-en-escalera-blanca-MJcb7ZhNeUA)
     
 * * *
 

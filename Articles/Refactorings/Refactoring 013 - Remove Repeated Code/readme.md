@@ -189,12 +189,14 @@ You have a single source of truth, more compact code, and an easier-to-maintain 
 
 [Refactoring 010 - Extract Method Object](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20010%20-%20Extract%20Method%20Object/readme.md)
 
+[Refactoring 014 - Remove IF](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20014%20-%20Remove%20IF/readme.md)
+
 # Credits
 
-Imagen de <a href="https://pixabay.com/users/rachealmarie-3893509/">Rachealmarie</a> en <a href="https://pixabay.com/">Pixabay</a>
+Image from [Rachealmarie](https://pixabay.com/users/rachealmarie-3893509/) on [Pixabay](https://pixabay.com/)
 
 * * * 
 
 This article is part of the Refactoring Series.
 
-[How to Improve your Code With Easy Refactorings](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles//readme.md)
+[How to Improve Your Code With Easy Refactorings](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles//readme.md)

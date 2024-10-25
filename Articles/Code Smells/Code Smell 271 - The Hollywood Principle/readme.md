@@ -168,7 +168,7 @@ Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/t
   
 * * *
 
-> "Dependency Injection is fundamentally about passing dependencies to objects, rather than having objects create or find them." 
+> Dependency Injection is fundamentally about passing dependencies to objects, rather than having objects create or find them.
 
 _Martin Fowler_
  
