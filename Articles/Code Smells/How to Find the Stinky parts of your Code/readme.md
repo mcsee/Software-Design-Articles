@@ -536,8 +536,38 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 261 - DigiCert Underscores](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20261%20-%20DigiCert%20Underscores/readme.md)
 
-[Code Smell 262 - Not Replaced Constants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20262%20-%20Not%20Replaced%20Constants/readme.md)
-  
+[Code Smell 262 - Not Replaced Constants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20262%20-%20Not%20Replaced%20Constants/readme.md)	   
+
+[Code Smell 263 - Squatting](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20263%20-%20Squatting/readme.md)
+
+[Code Smell 264 - Hanlon's Razor](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20264%20-%20Hanlon's%20Razor/readme.md)
+
+[Code Smell 265 - Linguistic Confusion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20265%20-%20Linguistic%20Confusion/readme.md)
+
+[Code Smell 266 - Collection Aliasing](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20266%20-%20Collection%20Aliasing/readme.md)
+
+[Code Smell 267 - Objects Aliasing](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20267%20-%20Objects%20Aliasing/readme.md)
+
+[Code Smell 268 - Ternary Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20268%20-%20Ternary%20Metaprogramming/readme.md)
+
+[Code Smell 269 - Low-Level Addition](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20269%20-%20Low-Level%20Addition/readme.md)
+
+[Code Smell 270 - Boolean APIs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20270%20-%20Boolean%20APIs/readme.md)
+
+[Code Smell 271 - The Hollywood Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20271%20-%20The%20Hollywood%20Principle/readme.md)
+
+[Code Smell 272 - API Chain](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20272%20-%20API%20Chain/readme.md)
+
+[Code Smell 273 - Overengineering](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20273%20-%20Overengineering/readme.md)
+
+[Code Smell 274 - Cascaded Returns](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20274%20-%20Cascaded%20Returns/readme.md)
+
+[Code Smell 275 - Missing Test Wrong Path](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20275%20-%20Missing%20Test%20Wrong%20Path/readme.md)
+
+[Code Smell 276 - Untested Regular Expressions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20276%20-%20Untested%20Regular%20Expressions/readme.md)
+
+[Code Smell 277 - UPPERCASE Acronyms](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20277%20-%20UPPERCASE%20Acronyms/readme.md)
+
 ... and many more to come.
 
 * * *

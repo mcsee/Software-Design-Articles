@@ -630,6 +630,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 277 - UPPERCASE Acronyms](/Articles/Code%20Smells/Code%20Smell%20277%20-%20UPPERCASE%20Acronyms/readme.md)
 
+* [Code Smell 278 - DirName and File](/Articles/Code%20Smells/Code%20Smell%20278%20-%20DirName%20and%20File/readme.md)
+
 ### Blogging
 
 * [Content Structure: The Do's and Dont's of Content Creation](/Articles/Blogging/68%20-%20Content%20Structure%20The%20Do%27s%20and%20Dont%27s%20of%20Content%20Creation/readme.md)
@@ -779,6 +781,8 @@ In this repository, you will find many articles related to Software Design
 * [Refactoring 016 - Build With The Essence](/Articles/Refactorings/Refactoring%20016%20-%20Build%20With%20The%20Essence/readme.md)
 
 * [Refactoring 017 - Convert Attributes to Sets](/Articles/Refactorings/Refactoring%20017%20-%20Convert%20Attributes%20to%20Sets/readme.md)
+
+* [Refactoring 018 - Replace Singleton](/Articles/Refactorings/Refactoring%20018%20-%20Replace%20Singleton/readme.md)
 
 ### Wordle
 
