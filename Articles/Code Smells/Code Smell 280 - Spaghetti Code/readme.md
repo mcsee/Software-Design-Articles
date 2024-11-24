@@ -31,7 +31,7 @@ When you overuse GOTO statements, your program becomes a tangled mess of uncontr
 
 This was common in the 70s when *BASIC* encouraged *GOTO* for flow control. While it can solve simple problems quickly, *GOTO* leads to spaghetti code that’s nearly impossible to debug or extend.
 
-*Spaghetti Code << Structured Programming << Object-Oriented Programming << Machine Learnign Programming*
+*Spaghetti Code << Structured Programming << Object-Oriented Programming << Machine Learning Programming*
 
 # Sample Code
 

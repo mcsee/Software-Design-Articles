@@ -568,6 +568,12 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 277 - UPPERCASE Acronyms](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20277%20-%20UPPERCASE%20Acronyms/readme.md)
 
+[Code Smell 278 - DirName and File](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20278%20-%20DirName%20and%20File/readme.md)
+
+[Code Smell 279 - Loop Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20279%20-%20Loop%20Premature%20Optimization/readme.md)
+
+[Code Smell 280 - Spaghetti Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20280%20-%20Spaghetti%20Code/readme.md)
+
 ... and many more to come.
 
 * * *

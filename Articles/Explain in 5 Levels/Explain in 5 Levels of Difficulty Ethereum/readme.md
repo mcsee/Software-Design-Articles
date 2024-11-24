@@ -74,7 +74,7 @@ Developers write smart contracts in Solidity, compile them to bytecode, and then
 
 Ethereum's flexibility enables complex decentralized applications, decentralized finance protocols, and non-fungible tokens.
 
-[10 Predictions About the Future of Finance](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles//readme.md)
+[10 Predictions About the Future of Finance](https://hackernoon.com/10-predictions-about-the-future-of-finance)
 
 Ethereum is evolving toward scalability and sustainability through its roadmap for Ethereum 2.0, incorporating sharding to enhance throughput and reduce energy consumption.
 

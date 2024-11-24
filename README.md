@@ -636,6 +636,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 280 - Spaghetti Code](/Articles/Code%20Smells/Code%20Smell%20280%20-%20Spaghetti%20Code/readme.md)
 
+* [Code Smell 281 - Hashes](/Articles/Code%20Smells/Code%20Smell%20281%20-%20Hashes/readme.md)
+
 ### Blogging
 
 * [Content Structure: The Do's and Dont's of Content Creation](/Articles/Blogging/68%20-%20Content%20Structure%20The%20Do%27s%20and%20Dont%27s%20of%20Content%20Creation/readme.md)
@@ -751,6 +753,8 @@ In this repository, you will find many articles related to Software Design
 * [TDD Conference 2021 - Why You Might Not Want To Use TDD - Ola Kunysz](/Articles/TDD%20Conference%202021/Why%20You%20Might%20Not%20Want%20To%20Use%20TDD/readme.md)
 
 ### Refactorings
+
+* [How to Improve Your Code With Easy Refactorings](/Articles/Refactorings/How%20to%20Improve%20your%20Code%20With%20Easy%20Refactorings/readme.md)
 
 * [Refactoring 001 - Remove Setters](/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
 
