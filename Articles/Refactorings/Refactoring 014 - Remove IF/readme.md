@@ -149,7 +149,7 @@ final class MicrophoneStateOff extends MicrophoneState {
 
 Most steps are mechanic. This is a pretty safe refactoring
 
-# Why is the code better?
+# Why is the Code Better?
 
 The refactored code follows the open/closed principle and favors polymorphism instead of using IFs
 

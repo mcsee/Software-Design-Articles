@@ -103,7 +103,7 @@ This is a syntactic and structural refactoring.
 
 We can make the changes automatically in a safe way.
 
-# Why code is better?
+# Why is the Code Better?
 
 We extract the logic into a new component.
 

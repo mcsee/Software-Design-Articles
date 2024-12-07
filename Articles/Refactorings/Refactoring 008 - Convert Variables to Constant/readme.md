@@ -69,7 +69,7 @@ Our IDEs can check if a variable is written but never updated.
 
 This is a safe refactor.
 
-# Why code is better?
+# Why is the Code Better?
 
 Code is more compact and declarative.
 

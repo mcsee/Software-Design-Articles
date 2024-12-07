@@ -67,13 +67,17 @@ function replaceBracesWithSpaces($input) {
 
 Some IDEs have this refactoring although naming is not fully automatic.
 
-# Why the code is better?
+# Why is the Code Better?
 
 Comments always lie.
 
 It is hard to maintain comments.
 
 On the contrary, Functions are alive and self-explanatory.
+
+# Safety
+
+This is a safe refactoring.
 
 # Limitations
 
@@ -83,9 +87,13 @@ As always, very important design decisions are valid comments.
 
 - Comments
 
+# Related Refactorings
+
+[Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
+
 # See also
 
-[What is in a name?](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
+[What exactly is a name - Part I The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
 
 # Credits
 

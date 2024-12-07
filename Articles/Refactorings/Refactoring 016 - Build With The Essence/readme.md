@@ -128,7 +128,7 @@ This refactoring is generally safe if you ensure you pass all essential attribut
 
 You must update all object creation sites, which may require refactoring tools and careful review in larger codebases.
 
-# Why is the code better?
+# Why is the Code Better?
 
 The refactored code enforces object integrity by requiring all essential attributes at creation time.
 

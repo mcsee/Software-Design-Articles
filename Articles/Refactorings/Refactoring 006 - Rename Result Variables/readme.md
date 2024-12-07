@@ -61,7 +61,11 @@ const favoriteNumberDoubled = doubleFavoriteNumber(2);
 
 As with many name heuristics, we can replace the variable with another refactor *rename variable*
 
-# Why code is better?
+# Safety
+
+This is a safe refactoring.
+
+# Why is the Code Better?
 
 A variable scope can last a lot.
 
@@ -70,6 +74,10 @@ Assignment and usage might be very far away from each other.
 # Tags
 
 - Naming 
+
+# Related Refactorings
+
+- Rename method
 
 # See also
 

@@ -171,7 +171,7 @@ The steps are defined but sometimes not about text duplication, but behavior dup
 
 Since this is not a mechanical refactoring, you need good coverage on the code you modify.
 
-# Why is the code better?
+# Why is the Code Better?
 
 You have a single source of truth, more compact code, and an easier-to-maintain solution.
 

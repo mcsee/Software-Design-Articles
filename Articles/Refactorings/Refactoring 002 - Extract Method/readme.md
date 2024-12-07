@@ -101,7 +101,11 @@ object Ingenuity {
  
 Many IDEs support this safe refactoring
 
-# Why code is better?
+# Safety
+
+This is a safe refactoring.
+
+# Why is the Code Better?
 
 Code is more compact and easier to read.
 

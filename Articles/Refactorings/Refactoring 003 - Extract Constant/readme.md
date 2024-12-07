@@ -56,13 +56,17 @@ double energy(double mass) {
  
 Many IDEs support this safe refactoring
 
-# Why code is better?
+# Why is the Code Better?
 
 Constant names add meaning to our code.
 
 Magic numbers are difficult to understand and change.
 
 Code must be as declarative as possible.
+
+# Safety 
+
+This is a safe refactoring.
 
 # Tags
 

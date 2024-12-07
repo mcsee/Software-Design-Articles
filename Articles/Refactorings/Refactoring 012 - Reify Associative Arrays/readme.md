@@ -145,7 +145,7 @@ You can perform this refactor with the aid of an IDE.
 
 This is not an automatic refactoring but small steps are safe if you have good coverage.
 
-# Why is code better?
+# Why is the Code Better?
 
 Your new object fails fast and is more declarative.
 

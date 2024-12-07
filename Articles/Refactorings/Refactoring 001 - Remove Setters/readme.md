@@ -67,6 +67,8 @@ location.setY(2);
 // Now we have point(1,2)
 ```
 
+## After
+
 [Gist Url]: # (https://gist.github.com/mcsee/d8a4183ef00f5636c2d821f96a9cefd0)
 
 ```java
@@ -86,28 +88,6 @@ Car tesla = new Car();
 
 tesla.setSpeed(100 km/h);
 // Now our car runs fast
-```
-
-## After
-
-[Gist Url]: # (https://gist.github.com/mcsee/9998a9ed50514d162333c7d05ca34415)
-
-```java
-// 1. We locate setters usage
-location.setX(1);
-
-location.setY(2);
-
-// 2. If you are setting essential properties move
-// them to the constructor and remove the method
-public class Point {
-   public Point(int x, int y) {
-        this.x = x;
-        this.y = y;        
-     // We remove the setters
-   }
-
-Point location = new Point(1, 2);
 ```
 
 [Gist Url]: # (https://gist.github.com/mcsee/28a11e50d2880767238e6198ccaa93f5)
@@ -138,14 +118,20 @@ tesla.speed(100 km/h);
 // if it manages through the engine
 // if the road is moving etc
 ```
-
+	     
 # Type
 
 [X] Semi-Automatic
 
 We should detect setters (unless they use meta-programming) with our IDEs.
 
-We can also remove them and see which tests fail if we have good coverage
+We can also remove them and see which tests fail if we have good coverage.
+
+# Safety
+
+This is not a safe refactoring since you might miss some methods calling the removed setters.
+
+You need to make sure to have good coverage and also an excellent QA process to ensure a smooth refactoring.
 
 # Tags
 
@@ -158,6 +144,10 @@ We can also remove them and see which tests fail if we have good coverage
 - Pass essential properties in the constructor
 
 - Initialize essential properties in the constructor
+
+# Why is the Code Better?
+
+This refactoring improves encapsulation and integrity adding an extra access control layer.
 
 # Credits
 

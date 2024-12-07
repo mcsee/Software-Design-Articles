@@ -96,7 +96,7 @@ We can rewrite the comment and compact it, but it is not always in an algorithmi
 
 This is not a safe refactor but it increases coverage.
 
-# Why code is better?
+# Why is the Code Better?
 
 Comments lie. The code doesn't.
 

@@ -162,7 +162,7 @@ Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/t
 
 # Credits
 
-Photo by [Nathana Rebouças](https://unsplash.com/@nathanareboucas) on [Unsplash](https://unsplash.com/photos/a-person-holding-a-credit-card-and-a-cell-phone-aGkR0b7hgI8)      
+Photo by [Nathana RebouÃ§as ](https://unsplash.com/@nathanareboucas) on [Unsplash](https://unsplash.com/photos/a-person-holding-a-credit-card-and-a-cell-phone-aGkR0b7hgI8)      
 
 [Incident description (in Spanish)](https://www.youtube.com/watch?v=J2QOejhA6ek)
 

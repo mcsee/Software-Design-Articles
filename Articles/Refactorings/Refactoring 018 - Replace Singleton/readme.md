@@ -101,7 +101,7 @@ This refactoring is safe when you update all references to the singleton and han
 
 Testing each step ensures that no references to the singleton are missed.
 
-# Why the code is better?
+# Why is the Code Better?
 
 Refactoring away from a singleton makes the code more modular, testable, and less prone to issues caused by the global state. 
 

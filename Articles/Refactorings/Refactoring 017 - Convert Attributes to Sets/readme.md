@@ -113,7 +113,7 @@ This refactoring is safe when your attributes don't rely on specific indexing be
 
 Since sets don't maintain element order, check if your logic depends on order.
 
-# Why is the code better?
+# Why is the Code Better?
 
 Entities are immutable in the essence.
 

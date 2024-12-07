@@ -178,7 +178,7 @@ The null object needs to be partially polymorphic with real ones.
 
 In strongly typed languages, they must adhere to the same interface or belong to the same hierarchy.
 
-# Why is the code better?
+# Why is the Code Better?
 
 You eliminate null checks with [accidental IF conditions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20014%20-%20Remove%20IF/readme.md), making the code cleaner and easier to understand. 
 

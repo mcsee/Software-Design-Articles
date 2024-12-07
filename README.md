@@ -794,6 +794,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Refactoring 018 - Replace Singleton](/Articles/Refactorings/Refactoring%20018%20-%20Replace%20Singleton/readme.md)
 
+* [Refactoring 019 - Reify Email Addresses](/Articles/Refactorings/Refactoring%20019%20-%20Reify%20Email%20Addresses/readme.md)
+
 ### Wordle
 
 * [How to Create a Wordle as a Centaur](/Articles/Wordle/How%20to%20Create%20a%20Wordle%20as%20a%20Centaur/readme.md)

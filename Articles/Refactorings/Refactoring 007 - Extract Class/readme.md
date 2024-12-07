@@ -106,20 +106,28 @@ final class Person {
 
 Most IDEs implement this safe refactor.
 
-# Why code is better?
+# Why is the Code Better?
 
 Logic code is in just one place together with its rules
+
+# Safety
+
+This is a safe refactoring.
 
 # Tags
 
 - Classes
+
+# Related Refactorings
+
+[Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
 # See also
 
 [Refactoring.com](https://refactoring.com/catalog/extractClass.html)
 
 [Refactoring Guru](https://refactoring.guru/extract-class)
-
+ 
 # Credits
 
 Image from [drpepperscott230](https://pixabay.com/users/drpepperscott230-1212529/) on [Pixabay](https://pixabay.com/)

@@ -61,7 +61,7 @@ This is not a safe refactor.
 
 Existing dependencies may break.
 
-# Why code is better?
+# Why is the Code Better?
 
 We can change encapsulated code easily.
 
