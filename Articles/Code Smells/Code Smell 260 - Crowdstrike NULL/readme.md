@@ -60,7 +60,7 @@ In privileged drivers, null pointer usage poses significant risks. You can mitig
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/c908be6c215429cb57470523ba8505a3)
+<!-- [Gist Url](https://gist.github.com/mcsee/c908be6c215429cb57470523ba8505a3) -->
 
 ```cpp
 // This case is not exactly what happened with Crowdstrike
@@ -89,7 +89,7 @@ int process_data(void* data) {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/3e37b7540276272fdf9fc594ef4f6225)
+<!-- [Gist Url](https://gist.github.com/mcsee/3e37b7540276272fdf9fc594ef4f6225) -->
 
 ```cpp
 // You should ideally replace the null with a polymorphic call

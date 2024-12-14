@@ -32,7 +32,7 @@ They couple *different behavior* concept with *returning different data*.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/729e6032d21c0c2997228680170ff768)
+<!-- [Gist Url](https://gist.github.com/mcsee/729e6032d21c0c2997228680170ff768) -->
 
 ```javascript
 class ShopItem { 
@@ -50,7 +50,7 @@ class BookItem extends ShopItem {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/a8c680954291f8d9be4023ff8062b504)
+<!-- [Gist Url](https://gist.github.com/mcsee/a8c680954291f8d9be4023ff8062b504) -->
 
 ```javascript
 class ShopItem { 

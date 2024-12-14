@@ -39,7 +39,7 @@ Immutable objects mitigate this risk by ensuring you cannot change their interna
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/5c5d78c37c8a02a76f5016a1d9cce5b9)
+<!-- [Gist Url](https://gist.github.com/mcsee/5c5d78c37c8a02a76f5016a1d9cce5b9) -->
 
 ```java
 public class Person {
@@ -63,7 +63,7 @@ public static void main(String[] args) {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/a2f26976d78ac14d239005c1a351cd4e)
+<!-- [Gist Url](https://gist.github.com/mcsee/a2f26976d78ac14d239005c1a351cd4e) -->
 
 ```java
 public class ImmutablePerson {

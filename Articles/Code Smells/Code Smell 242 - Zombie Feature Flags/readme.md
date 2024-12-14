@@ -40,7 +40,7 @@ Within minutes, Knight Capital Group suffered losses of approximately $440 milli
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/ddc8429d93d44337a2721df438844c35)
+<!-- [Gist Url](https://gist.github.com/mcsee/ddc8429d93d44337a2721df438844c35) -->
 
 ```java
 public class WeatherSimulation {
@@ -70,7 +70,7 @@ public class WeatherSimulation {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/ba73de8f56fa1b74e6d40fc9d3cb2266)
+<!-- [Gist Url](https://gist.github.com/mcsee/ba73de8f56fa1b74e6d40fc9d3cb2266) -->
 
 ```java
 public class WeatherSimulation {

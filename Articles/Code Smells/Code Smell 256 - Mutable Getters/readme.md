@@ -42,7 +42,7 @@ You can edit some memories by bringing them from long-term memory.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/715a932cd775b89b1ea04ce0e42775fe)
+<!-- [Gist Url](https://gist.github.com/mcsee/715a932cd775b89b1ea04ce0e42775fe) -->
 
 ```java
 public class Person {
@@ -60,7 +60,7 @@ public class Person {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/ddb3f75add70512e671e57a9440a862c)
+<!-- [Gist Url](https://gist.github.com/mcsee/ddb3f75add70512e671e57a9440a862c) -->
 
 ```java
 public class Person {

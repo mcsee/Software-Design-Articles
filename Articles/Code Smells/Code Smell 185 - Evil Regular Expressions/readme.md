@@ -36,7 +36,7 @@ A string with a vector attack format is passed to an application. Then this stri
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/a4e74fb3e18cde7ff7f15636e05ced89)
+<!-- [Gist Url](https://gist.github.com/mcsee/a4e74fb3e18cde7ff7f15636e05ced89) -->
 
 ```go
 func main() {
@@ -54,7 +54,7 @@ func main() {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/4ba06d514fb663f0ee628139d463f8c7)
+<!-- [Gist Url](https://gist.github.com/mcsee/4ba06d514fb663f0ee628139d463f8c7) -->
 
 ```go
 func main() {

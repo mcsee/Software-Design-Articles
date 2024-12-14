@@ -33,7 +33,7 @@ Multiple semantics lead to coupling and errors.*
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/2f7aee362e99fbe447d8c1e8aaeb9f8e)
+<!-- [Gist Url](https://gist.github.com/mcsee/2f7aee362e99fbe447d8c1e8aaeb9f8e) -->
 
 ```javascript
 class CartItem {
@@ -84,7 +84,7 @@ cart = new Cart([
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/a7571cf0ce9e7666bd6a393520f9a968)
+<!-- [Gist Url](https://gist.github.com/mcsee/a7571cf0ce9e7666bd6a393520f9a968) -->
 
 ```javascript
 class CartItem {

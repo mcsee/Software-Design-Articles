@@ -24,7 +24,7 @@ When using names, we often miss that words are contextual and need to be read as
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/846ae86d9b75ccb1ccbabe75c4306800)
+<!-- [Gist Url](https://gist.github.com/mcsee/846ae86d9b75ccb1ccbabe75c4306800) -->
 
 ```crystal
 class Employee
@@ -38,7 +38,7 @@ end
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/5f4a6933b3d176e061d795119d5bc11c)
+<!-- [Gist Url](https://gist.github.com/mcsee/5f4a6933b3d176e061d795119d5bc11c) -->
 
 ```crystal
 class Employee

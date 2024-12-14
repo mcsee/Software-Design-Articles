@@ -34,7 +34,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/df27505a28b5f65faaa273b0bfe1f322)
+<!-- [Gist Url](https://gist.github.com/mcsee/df27505a28b5f65faaa273b0bfe1f322) -->
 
 ```javascript
 function primeFactors(n) {
@@ -55,7 +55,7 @@ function primeFactors(n) {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/4749cfe51de1c02848df1aa802fa5705)
+<!-- [Gist Url](https://gist.github.com/mcsee/4749cfe51de1c02848df1aa802fa5705) -->
 
 ```javascript
 function primeFactors(numberToFactor) {

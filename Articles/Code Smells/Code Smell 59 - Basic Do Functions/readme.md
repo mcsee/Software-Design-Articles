@@ -26,7 +26,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/dd988af705942cfafd5811df60acaed2)
+<!-- [Gist Url](https://gist.github.com/mcsee/dd988af705942cfafd5811df60acaed2) -->
 
 ```php
 <?
@@ -57,7 +57,7 @@ final class Calculator {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/ce98c6db785d947e77790c3cc6b4bad0)
+<!-- [Gist Url](https://gist.github.com/mcsee/ce98c6db785d947e77790c3cc6b4bad0) -->
 
 ```php
 <?

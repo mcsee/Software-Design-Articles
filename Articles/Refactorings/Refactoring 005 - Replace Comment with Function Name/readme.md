@@ -30,7 +30,7 @@
 
 ## Before
 
-[Gist Url]: # (https://gist.github.com/mcsee/ec23401dcd3a6e03ca6613d3c58867d0)
+<!-- [Gist Url](https://gist.github.com/mcsee/ec23401dcd3a6e03ca6613d3c58867d0) -->
 
 ```php
 <?
@@ -46,7 +46,7 @@ function repl($str) {
 
 ## After
 
-[Gist Url]: # (https://gist.github.com/mcsee/25b76368b744b08194ea3c853fc8f5e8)
+<!-- [Gist Url](https://gist.github.com/mcsee/25b76368b744b08194ea3c853fc8f5e8) -->
 
 ```php
 <?

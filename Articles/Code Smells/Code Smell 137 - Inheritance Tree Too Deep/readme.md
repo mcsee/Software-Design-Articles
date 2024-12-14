@@ -34,7 +34,7 @@ We learned that composition is a more efficient and extensible way to share beha
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/ca80ab1c2443f8494817c027678ab7f3)
+<!-- [Gist Url](https://gist.github.com/mcsee/ca80ab1c2443f8494817c027678ab7f3) -->
 
 ```python
 class Animalia:
@@ -49,7 +49,7 @@ class GreySeal(Halichoerus):
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/23622a20da88b3192eb97577557a1f08)
+<!-- [Gist Url](https://gist.github.com/mcsee/23622a20da88b3192eb97577557a1f08) -->
 
 ```python
 class GreySeal:

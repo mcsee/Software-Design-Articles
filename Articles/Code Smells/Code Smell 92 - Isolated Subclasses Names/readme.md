@@ -22,7 +22,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/78ec88e709cd2a5efc4a0a09903c5a4e)
+<!-- [Gist Url](https://gist.github.com/mcsee/78ec88e709cd2a5efc4a0a09903c5a4e) -->
 
 ```java
 abstract class PerserveranceDirection { 
@@ -39,7 +39,7 @@ class South extends PerserveranceDirection {}
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/f46bfc303a23c3e6c2d31d7bb4168f28)
+<!-- [Gist Url](https://gist.github.com/mcsee/f46bfc303a23c3e6c2d31d7bb4168f28) -->
 
 ```java
 abstract class PerserveranceDirection { 

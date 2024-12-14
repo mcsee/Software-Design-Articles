@@ -28,7 +28,7 @@ An object is responsible for many small tasks, resulting in excessive coupling a
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/e51b8f319d33c800895b14e463b3b380)
+<!-- [Gist Url](https://gist.github.com/mcsee/e51b8f319d33c800895b14e463b3b380) -->
 
 ```csharp
 public class Driver
@@ -53,7 +53,7 @@ homer.DriveCar();
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/0c13213cc8d76d0f1d5041deb94a7946)
+<!-- [Gist Url](https://gist.github.com/mcsee/0c13213cc8d76d0f1d5041deb94a7946) -->
 
 ```csharp
 // You don't need the driver

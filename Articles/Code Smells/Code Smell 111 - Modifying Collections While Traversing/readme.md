@@ -32,7 +32,7 @@ Modifying them is generally not safe.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/9d66e179c57495aa7c2080ee34152c11)
+<!-- [Gist Url](https://gist.github.com/mcsee/9d66e179c57495aa7c2080ee34152c11) -->
 
 ```java
 // here you add elements to the collection...
@@ -49,7 +49,7 @@ for (Object person : people) {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/18369eb8798462ef04372be56827c9d6)
+<!-- [Gist Url](https://gist.github.com/mcsee/18369eb8798462ef04372be56827c9d6) -->
 
 ```java
 Collection<Integer> people = new ArrayList<>();

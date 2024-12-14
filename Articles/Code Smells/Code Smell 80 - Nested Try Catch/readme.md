@@ -18,7 +18,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/f180d0e09abe6dc0f637a142c4a5a58b)
+<!-- [Gist Url](https://gist.github.com/mcsee/f180d0e09abe6dc0f637a142c4a5a58b) -->
 
 ```javascript
 try {
@@ -41,7 +41,7 @@ try {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/a4fc40e63f2506bf02144c9f71f164a3)
+<!-- [Gist Url](https://gist.github.com/mcsee/a4fc40e63f2506bf02144c9f71f164a3) -->
 
 ```javascript
 try {

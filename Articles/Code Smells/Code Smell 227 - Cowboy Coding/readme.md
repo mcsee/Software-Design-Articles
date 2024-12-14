@@ -36,7 +36,7 @@ Cowboy Programmers are good people; however, [they cannot work in a group](https
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/b600a57bd4f4b095b919cbc6a2e65323)
+<!-- [Gist Url](https://gist.github.com/mcsee/b600a57bd4f4b095b919cbc6a2e65323) -->
 
 ```python
 # Very simple example 
@@ -58,7 +58,7 @@ print("The sum is: " + result)  # (No validation or formatting)
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/5fc81635624c7e7ed7f0de537094ad6d)
+<!-- [Gist Url](https://gist.github.com/mcsee/5fc81635624c7e7ed7f0de537094ad6d) -->
 
 ```python
 def add_numbers():

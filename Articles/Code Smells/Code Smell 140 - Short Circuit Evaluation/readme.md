@@ -30,7 +30,7 @@ Short circuit evaluation helps us to be lazy and even build invalid full evaluat
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/57e3cb3fc3c5e8c90a544834022f3ab8)
+<!-- [Gist Url](https://gist.github.com/mcsee/57e3cb3fc3c5e8c90a544834022f3ab8) -->
 
 ```php
 <?
@@ -43,7 +43,7 @@ if (isOpen(file) & size(contents(file)) > 0)
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/c548b8d38d7ddfd3dc98aa799ef975c1)
+<!-- [Gist Url](https://gist.github.com/mcsee/c548b8d38d7ddfd3dc98aa799ef975c1) -->
 
 ```php
 <?

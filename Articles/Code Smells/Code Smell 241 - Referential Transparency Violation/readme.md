@@ -30,7 +30,7 @@ This violates the principle that an expression or function can be replaced with 
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/8d91de12e8bce988a1ef8a16b858bcd4)
+<!-- [Gist Url](https://gist.github.com/mcsee/8d91de12e8bce988a1ef8a16b858bcd4) -->
 
 ```python
 # Global mutable variable
@@ -55,7 +55,7 @@ def get_current_time():
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/e396dd603b41cc11865ad780ca6ffed6)
+<!-- [Gist Url](https://gist.github.com/mcsee/e396dd603b41cc11865ad780ca6ffed6) -->
 
 ```python
 import random

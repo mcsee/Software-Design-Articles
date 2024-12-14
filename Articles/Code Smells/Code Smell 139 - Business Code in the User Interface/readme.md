@@ -36,7 +36,7 @@ We need to validate objects on the back-end and send good validation errors to c
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/213101392f85e7b9b06727204c84abe1)
+<!-- [Gist Url](https://gist.github.com/mcsee/213101392f85e7b9b06727204c84abe1) -->
 
 ```javascript
 <script type="text/javascript">
@@ -110,7 +110,7 @@ We need to validate objects on the back-end and send good validation errors to c
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/f3b239c093b15786d3e87f4a236203a2)
+<!-- [Gist Url](https://gist.github.com/mcsee/f3b239c093b15786d3e87f4a236203a2) -->
 
 ```javascript
 <script type="text/javascript">

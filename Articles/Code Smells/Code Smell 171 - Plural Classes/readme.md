@@ -26,7 +26,7 @@ We need to agree on certain rules.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/5d0c869a94d623684baefce9897563e2)
+<!-- [Gist Url](https://gist.github.com/mcsee/5d0c869a94d623684baefce9897563e2) -->
 
 ```scala
 class Users
@@ -34,7 +34,7 @@ class Users
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/34c2fa54fa1629971b55d084541e9ce2)
+<!-- [Gist Url](https://gist.github.com/mcsee/34c2fa54fa1629971b55d084541e9ce2) -->
 
 ```scala
 class User

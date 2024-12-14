@@ -26,7 +26,7 @@ Premature optimization always hurts readability.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/be2e697d71cfb438110d911c9e4751dc)
+<!-- [Gist Url](https://gist.github.com/mcsee/be2e697d71cfb438110d911c9e4751dc) -->
 
 ```javascript
 userIsValid() && logUserIn();
@@ -44,7 +44,7 @@ functionDefinedOrNot && functionDefinedOrNot();
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/5c48bd13ce74f1605cf8d6a8ed2de4d9)
+<!-- [Gist Url](https://gist.github.com/mcsee/5c48bd13ce74f1605cf8d6a8ed2de4d9) -->
 
 ```javascript
 if (userIsValid()) {

@@ -34,7 +34,7 @@ A few months after, we pay more interest than the original debt.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/76fb2f5fada656e6dd5be6989351e91c)
+<!-- [Gist Url](https://gist.github.com/mcsee/76fb2f5fada656e6dd5be6989351e91c) -->
 
 ```java
 public class Door
@@ -61,7 +61,7 @@ public class Door
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/2d1fcb683f9c9c0391c7c369baf54bff)
+<!-- [Gist Url](https://gist.github.com/mcsee/2d1fcb683f9c9c0391c7c369baf54bff) -->
 
 ```java
 public class Door

@@ -4,7 +4,7 @@
 
 *Breaking the code to favor readability asks for refactor.*
 
-> TL;DR Don't add empty lines to your methods. Extract them!
+> TL;DR: Don't add empty lines to your methods. Extract them!
 
 # Problems
 
@@ -26,7 +26,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/3e7f0a453f04d443a98d3ffd99d9bfde)
+<!-- [Gist Url](https://gist.github.com/mcsee/3e7f0a453f04d443a98d3ffd99d9bfde) -->
 
 ```php
 <?
@@ -51,7 +51,7 @@ function translateFile() {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/13ce5551b29a588db5dbb9903d714b84)
+<!-- [Gist Url](https://gist.github.com/mcsee/13ce5551b29a588db5dbb9903d714b84) -->
 
 ```php
 <?

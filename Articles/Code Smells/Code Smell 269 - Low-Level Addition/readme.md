@@ -33,7 +33,7 @@ It tells you exactly what the code is doing and not how it is doing it.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/77bb05bc96d301c961d096fa5bbd4687)
+<!-- [Gist Url](https://gist.github.com/mcsee/77bb05bc96d301c961d096fa5bbd4687) -->
 
 ```python
 transaction_values = [10.0, -5.21, 101.32, 1.11, -0.38]
@@ -44,7 +44,7 @@ for transaction_value in transaction_values:
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/1dd5fadc08e94b85be0d1cfca26ce8a6)
+<!-- [Gist Url](https://gist.github.com/mcsee/1dd5fadc08e94b85be0d1cfca26ce8a6) -->
 
 ```python
 transactions_values = [10.0, -5.21, 101.32, 1.11, -0.38]

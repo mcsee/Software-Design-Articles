@@ -40,7 +40,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/91a2d630101ba6137f64195e76c1b266)
+<!-- [Gist Url](https://gist.github.com/mcsee/91a2d630101ba6137f64195e76c1b266) -->
 
 ```php
 <?
@@ -83,7 +83,7 @@ $janesProfileToTransfer = new SocialNetworkProfileDTO();
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/e1ecfdec6bd0fbe72f2d9ee7664af1c4)
+<!-- [Gist Url](https://gist.github.com/mcsee/e1ecfdec6bd0fbe72f2d9ee7664af1c4) -->
 
 ```php
 <?

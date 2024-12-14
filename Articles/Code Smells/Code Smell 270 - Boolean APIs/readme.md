@@ -47,7 +47,7 @@ This approach allows for more precise control, better traceability, and easier m
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/6b2796c76d53e679606a484ed6317056)
+<!-- [Gist Url](https://gist.github.com/mcsee/6b2796c76d53e679606a484ed6317056) -->
 
 ```json
 {
@@ -68,7 +68,7 @@ This approach allows for more precise control, better traceability, and easier m
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/3a8b97427a1dc2300b737bbdf4d62a47)
+<!-- [Gist Url](https://gist.github.com/mcsee/3a8b97427a1dc2300b737bbdf4d62a47) -->
 
 ```python
 # Instead of a single endpoint with a boolean flag:

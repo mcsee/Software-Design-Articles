@@ -43,7 +43,7 @@ Check if the *POST* succeeded by validating the status code or checking the reso
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/5eb9b894e0b974af2a2ad4ba6a7a9072)
+<!-- [Gist Url](https://gist.github.com/mcsee/5eb9b894e0b974af2a2ad4ba6a7a9072) -->
 
 ```gherkin
 Feature: Movie Management
@@ -60,7 +60,7 @@ Feature: Movie Management
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/69210049d4e68330f70cf1dbbe66dcba)
+<!-- [Gist Url](https://gist.github.com/mcsee/69210049d4e68330f70cf1dbbe66dcba) -->
 
 ```gherkin
 Feature: Movie Management

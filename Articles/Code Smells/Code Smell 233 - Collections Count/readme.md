@@ -26,7 +26,7 @@ It is important to be accurate of the expected reference on the names.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/75e43eb48e025f1e41e65c1e7439c7b7)
+<!-- [Gist Url](https://gist.github.com/mcsee/75e43eb48e025f1e41e65c1e7439c7b7) -->
 
 ```javascript
 const standardModelParticles = {
@@ -85,7 +85,7 @@ const quarks = standardModelParticles.quarks.length;
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/8b0d7ed980f656ff26f070e228fbc760)
+<!-- [Gist Url](https://gist.github.com/mcsee/8b0d7ed980f656ff26f070e228fbc760) -->
 
 ```javascript
 const standardModelParticles = {

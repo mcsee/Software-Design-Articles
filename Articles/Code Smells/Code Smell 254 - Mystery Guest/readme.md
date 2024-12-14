@@ -48,7 +48,7 @@ All of them must be explicit
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/ba2c15c5d72c871a4251c9d08dfcf728)
+<!-- [Gist Url](https://gist.github.com/mcsee/ba2c15c5d72c871a4251c9d08dfcf728) -->
 
 ```java
 @Test
@@ -60,7 +60,7 @@ void shouldReturnAnswerWhenAnswerExists() {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/48162612d1667217eb493109f9ae8405)
+<!-- [Gist Url](https://gist.github.com/mcsee/48162612d1667217eb493109f9ae8405) -->
 
 ```java
 @Test

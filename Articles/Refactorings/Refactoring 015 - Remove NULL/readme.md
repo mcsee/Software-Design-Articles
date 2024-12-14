@@ -48,7 +48,7 @@ These steps are a special case of [Remove IF Refactoring](https://github.com/mcs
 
 ## Before
 
-[Gist Url]: # (https://gist.github.com/mcsee/11ff9fab5c27f29304b0b7e31ee3b71d)
+<!-- [Gist Url](https://gist.github.com/mcsee/11ff9fab5c27f29304b0b7e31ee3b71d) -->
 
 ```java
 public class SoccerMatch {
@@ -93,7 +93,7 @@ class TimeRecord {
 
 ## After
 
-[Gist Url]: # (https://gist.github.com/mcsee/785aa63b08fbecb6ea243c80c3c36389)
+<!-- [Gist Url](https://gist.github.com/mcsee/785aa63b08fbecb6ea243c80c3c36389) -->
 
 ```java
 // 1. Create a Null Object class that implements the same interface

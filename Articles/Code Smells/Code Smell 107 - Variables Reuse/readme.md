@@ -30,7 +30,7 @@ We should narrow the scope as much as possible.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/88615884493c78d45a57be565964ae5b)
+<!-- [Gist Url](https://gist.github.com/mcsee/88615884493c78d45a57be565964ae5b) -->
 
 ```java
 // print line total
@@ -46,7 +46,7 @@ System.out.println( "Amount due: " + total);
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/9657946be3bcd5a81aebc12d4ef82d0b)
+<!-- [Gist Url](https://gist.github.com/mcsee/9657946be3bcd5a81aebc12d4ef82d0b) -->
 
 ```java
 function printLineTotal() {

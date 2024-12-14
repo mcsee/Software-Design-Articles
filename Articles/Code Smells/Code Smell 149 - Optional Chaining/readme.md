@@ -28,7 +28,7 @@ There's no need to use them once our code is mature, robust, and without nulls.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/7f97455e51c8cd89319117103b25bda5)
+<!-- [Gist Url](https://gist.github.com/mcsee/7f97455e51c8cd89319117103b25bda5) -->
 
 ```javascript
 const user = {
@@ -47,7 +47,7 @@ user.functionDefinedOrNot?.();
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/df8b74e09cd2bc4ee69e7b9197585a0a)
+<!-- [Gist Url](https://gist.github.com/mcsee/df8b74e09cd2bc4ee69e7b9197585a0a) -->
 
 ```javascript
 function login() {}

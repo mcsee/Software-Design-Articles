@@ -34,7 +34,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/9780cd7772afddbc8356bab8aa5eabed)
+<!-- [Gist Url](https://gist.github.com/mcsee/9780cd7772afddbc8356bab8aa5eabed) -->
 
 ```java
 class Stack extends ArrayList {
@@ -52,7 +52,7 @@ class Stack extends ArrayList {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/3edd25966d27541140a3e4672f5e9b3c)
+<!-- [Gist Url](https://gist.github.com/mcsee/3edd25966d27541140a3e4672f5e9b3c) -->
 
 ```java
 abstract class Collection {

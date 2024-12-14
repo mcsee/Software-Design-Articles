@@ -42,7 +42,7 @@ Some screen readers and other assistive technologies may have difficulty reading
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/f0e5a66c59069833be76905f11a6da7b)
+<!-- [Gist Url](https://gist.github.com/mcsee/f0e5a66c59069833be76905f11a6da7b) -->
 
 ```python
 def calculate_average(numbers):
@@ -60,7 +60,7 @@ print("The average is:", calculate_average(numbers))
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/3382696a06e5b8a1e5f032289fba3be3)
+<!-- [Gist Url](https://gist.github.com/mcsee/3382696a06e5b8a1e5f032289fba3be3) -->
 
 ```python
 def calculate_average(numbers):

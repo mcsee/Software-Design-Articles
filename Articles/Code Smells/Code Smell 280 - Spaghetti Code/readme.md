@@ -37,7 +37,7 @@ This was common in the 70s when *BASIC* encouraged *GOTO* for flow control. Whil
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/3d7eece73ed40d88e25701b3dc9c5988)
+<!-- [Gist Url](https://gist.github.com/mcsee/3d7eece73ed40d88e25701b3dc9c5988) -->
 
 ```basic
 0 REM Request a Zero
@@ -51,7 +51,7 @@ This was common in the 70s when *BASIC* encouraged *GOTO* for flow control. Whil
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/1d4e14095a2a844a7d659a2e9b94e348)
+<!-- [Gist Url](https://gist.github.com/mcsee/1d4e14095a2a844a7d659a2e9b94e348) -->
 
 ```basic
 10 DO

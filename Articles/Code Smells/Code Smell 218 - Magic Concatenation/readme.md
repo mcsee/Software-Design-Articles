@@ -32,7 +32,7 @@ You should use them with caution and trust your tests.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/0f9cad84530ebad6592fa17cb016f2c8)
+<!-- [Gist Url](https://gist.github.com/mcsee/0f9cad84530ebad6592fa17cb016f2c8) -->
 
 ```python
 tools = [
@@ -53,7 +53,7 @@ print(tools)
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/4dfc8f7fb9189f1aa2f2986e924f41d1)
+<!-- [Gist Url](https://gist.github.com/mcsee/4dfc8f7fb9189f1aa2f2986e924f41d1) -->
 
 ```python
 tools = [

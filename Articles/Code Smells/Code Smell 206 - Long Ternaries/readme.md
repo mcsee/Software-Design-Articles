@@ -32,7 +32,7 @@ This can make it harder to identify and fix bugs, as well as to understand how t
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/274faf5d13f9853f63228fa10ee45d7e)
+<!-- [Gist Url](https://gist.github.com/mcsee/274faf5d13f9853f63228fa10ee45d7e) -->
 
 ```javascript
 const invoice = isCreditCard ? 
@@ -55,7 +55,7 @@ const invoice = isCreditCard ?
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/36ef3f34e5767f120dcabe8eebda1072)
+<!-- [Gist Url](https://gist.github.com/mcsee/36ef3f34e5767f120dcabe8eebda1072) -->
 
 ```javascript
 const invoice = isCreditCard ? 

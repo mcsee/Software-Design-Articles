@@ -57,7 +57,7 @@ To check this out we will look for answers in real-world through bijection.
 
 Let's see an *essential* **IF** statement
 
-[Gist Url]: # (https://gist.github.com/mcsee/ab050467c32205a1b8623352f6bb8dd8)
+<!-- [Gist Url](https://gist.github.com/mcsee/ab050467c32205a1b8623352f6bb8dd8) -->
 
 ```javascript
 class Moviegoer {
@@ -93,7 +93,7 @@ In the case above we will honor our [bijection](https://github.com/mcsee/Softwar
 
 Let us dive now into *bad* **IFs**.
 
-[Gist Url]: # (https://gist.github.com/mcsee/3c0d6d285a537041900a92f71c9c73c8)
+<!-- [Gist Url](https://gist.github.com/mcsee/3c0d6d285a537041900a92f71c9c73c8) -->
 
 ```javascript
 class Movie {
@@ -130,7 +130,7 @@ This is a classic *neither open to extension, nor closed to modification* soluti
 
 Let's see what happens with new requirements.
 
-[Gist Url]: # (https://gist.github.com/mcsee/c237bf02c4ec561939b7ec5973fc913a)
+<!-- [Gist Url](https://gist.github.com/mcsee/c237bf02c4ec561939b7ec5973fc913a) -->
 
 ```javascript
 class Movie {
@@ -192,7 +192,7 @@ Let's fix this mess with these steps:
 
 On our example:
 
-[Gist Url]: # (https://gist.github.com/mcsee/747c2a4a6bb3531966b7e98ad92924e3)
+<!-- [Gist Url](https://gist.github.com/mcsee/747c2a4a6bb3531966b7e98ad92924e3) -->
 
 ```javascript
 // 1. Create a Polymorphic Hierarchy for every IF condition
@@ -282,13 +282,13 @@ With this outcome:
 
 ## Breaking this collaborator chain
 
-[Gist Url]: # (https://gist.github.com/mcsee/49382a7cff708d0b4a8c2e602295484f)
+<!-- [Gist Url](https://gist.github.com/mcsee/49382a7cff708d0b4a8c2e602295484f) -->
 
 ```javascript
 movie.rate.warnIfNotAllowed(this.age);
 ```
 
-[Gist Url]: # (https://gist.github.com/mcsee/c41292108e66a2db187151c10f690230)
+<!-- [Gist Url](https://gist.github.com/mcsee/c41292108e66a2db187151c10f690230) -->
 
 ```javascript
 class Movie {
@@ -321,7 +321,7 @@ As a consequence we are safe to avoid *getters*.
 
 Now we have the secret formula we can go further and try to remove the *essential* **IF condition** related to age.
 
-[Gist Url]: # (https://gist.github.com/mcsee/884f18fcdf4e1ada78a4ad095abb5c1e)
+<!-- [Gist Url](https://gist.github.com/mcsee/884f18fcdf4e1ada78a4ad095abb5c1e) -->
 
 ```javascript
 class Age {

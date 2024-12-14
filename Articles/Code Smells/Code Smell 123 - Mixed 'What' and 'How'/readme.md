@@ -34,7 +34,7 @@ Choosing wise declarative names is a daily challenge.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/d6d3df14e1268f9308fdd2121ccd598d)
+<!-- [Gist Url](https://gist.github.com/mcsee/d6d3df14e1268f9308fdd2121ccd598d) -->
 
 ```javascript
 class Workflow {
@@ -51,7 +51,7 @@ class Workflow {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/4fb3c004b00d81cfb1749bd22394772c)
+<!-- [Gist Url](https://gist.github.com/mcsee/4fb3c004b00d81cfb1749bd22394772c) -->
 
 ```javascript
 class Workflow {

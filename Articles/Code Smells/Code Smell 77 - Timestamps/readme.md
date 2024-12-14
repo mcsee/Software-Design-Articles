@@ -28,7 +28,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/395fe180085be252c2ff97020b9f3bc9)
+<!-- [Gist Url](https://gist.github.com/mcsee/395fe180085be252c2ff97020b9f3bc9) -->
 
 ```python
 import time
@@ -40,7 +40,7 @@ ts2 = time.time() # might be the same!!
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/67d4df804716d5fb10bcbb7d8ce6f7fe)
+<!-- [Gist Url](https://gist.github.com/mcsee/67d4df804716d5fb10bcbb7d8ce6f7fe) -->
 
 ```python
 numbers = range(1, 100000)

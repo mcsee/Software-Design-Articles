@@ -48,7 +48,7 @@ Changes in the domain model require changes in the parallel classes, making the 
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/1b8a4c6bc7bd1fc9947f684e4e92b30c)
+<!-- [Gist Url](https://gist.github.com/mcsee/1b8a4c6bc7bd1fc9947f684e4e92b30c) -->
 
 ```java
 // Domain classes
@@ -82,7 +82,7 @@ class CreditCardTransactionDAO extends TransactionDAO {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/30d21e449099f361010a767dcc66c571)
+<!-- [Gist Url](https://gist.github.com/mcsee/30d21e449099f361010a767dcc66c571) -->
 
 ```java
 public class TransactionService {

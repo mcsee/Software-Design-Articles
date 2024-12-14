@@ -40,7 +40,7 @@ At some point, we rely on auxiliary computations and we need to test them in a w
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/47c21b9a717ee1ac9b7d2f10bbb7a2d0)
+<!-- [Gist Url](https://gist.github.com/mcsee/47c21b9a717ee1ac9b7d2f10bbb7a2d0) -->
 
 ```php
 <?
@@ -68,7 +68,7 @@ final class Star {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/acf7c184cef3babb5251da6ea946f5ae)
+<!-- [Gist Url](https://gist.github.com/mcsee/acf7c184cef3babb5251da6ea946f5ae) -->
 
 ```php
 <?

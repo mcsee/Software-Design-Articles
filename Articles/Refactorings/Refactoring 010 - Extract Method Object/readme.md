@@ -44,7 +44,7 @@
 
 ## Before
 
-[Gist Url]: # (https://gist.github.com/mcsee/c8984513652806d25e26f5c184849af0)
+<!-- [Gist Url](https://gist.github.com/mcsee/c8984513652806d25e26f5c184849af0) -->
 
 ```java
 class BlockchainAccount {
@@ -58,7 +58,7 @@ class BlockchainAccount {
 
 ## After
 
-[Gist Url]: # (https://gist.github.com/mcsee/77d24738ede67a5a99d28e796ce1fade)
+<!-- [Gist Url](https://gist.github.com/mcsee/77d24738ede67a5a99d28e796ce1fade) -->
 
 ```java
 class BlockchainAccount {

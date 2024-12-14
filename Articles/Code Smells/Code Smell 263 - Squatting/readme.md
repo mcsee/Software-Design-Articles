@@ -52,7 +52,7 @@ Many systems avoid this indirection fearing the performance penalty which is a c
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/fadc914160d921bcf04f44c9b33397c2)
+<!-- [Gist Url](https://gist.github.com/mcsee/fadc914160d921bcf04f44c9b33397c2) -->
 
 ```python
 def create_bucket(account_id, region):
@@ -63,7 +63,7 @@ def create_bucket(account_id, region):
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/05b5dedb14f5696545c7e96d120fafd9)
+<!-- [Gist Url](https://gist.github.com/mcsee/05b5dedb14f5696545c7e96d120fafd9) -->
 
 ```python
 import uuid

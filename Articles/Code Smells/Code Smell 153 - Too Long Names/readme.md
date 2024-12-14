@@ -30,7 +30,7 @@ Naming is an art and we should be cautious with it.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/661d68a82e80799c6f9330d33c271a0b)
+<!-- [Gist Url](https://gist.github.com/mcsee/661d68a82e80799c6f9330d33c271a0b) -->
 
 ```java
 PlanetarySystem.PlanetarySystemCentralStarCatalogEntry
@@ -40,7 +40,7 @@ PlanetarySystem.PlanetarySystemCentralStarCatalogEntry
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/7da772566dee2fb79f3bfea13196ee22)
+<!-- [Gist Url](https://gist.github.com/mcsee/7da772566dee2fb79f3bfea13196ee22) -->
 
 ```java
 PlanetarySystem.CentralStarCatalogEntry

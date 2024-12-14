@@ -31,7 +31,7 @@
 
 ## Before
 
-[Gist Url]: # (https://gist.github.com/mcsee/43f6accd32cfcfef4e1daf5d159c1394)
+<!-- [Gist Url](https://gist.github.com/mcsee/43f6accd32cfcfef4e1daf5d159c1394) -->
 
 ```java
 public class DatabaseConnection {
@@ -60,7 +60,7 @@ public class Service {
 
 ## After
 
-[Gist Url]: # (https://gist.github.com/mcsee/d52dafea0e452a5343045d47a4524510)
+<!-- [Gist Url](https://gist.github.com/mcsee/d52dafea0e452a5343045d47a4524510) -->
 
 ```java
 public class DatabaseConnection {  

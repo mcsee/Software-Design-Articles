@@ -34,7 +34,7 @@ These are always [accidental problems](https://github.com/mcsee/Software-Design-
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/095409b419d460484cc418d549861c98)
+<!-- [Gist Url](https://gist.github.com/mcsee/095409b419d460484cc418d549861c98) -->
 
 ```java
 class Book {
@@ -51,7 +51,7 @@ Book donQuixote = new Book(3, List.of(5));
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/83b1660ec07e5bafd0a5b1c567f76aee)
+<!-- [Gist Url](https://gist.github.com/mcsee/83b1660ec07e5bafd0a5b1c567f76aee) -->
 
 ```java
 class Author { }

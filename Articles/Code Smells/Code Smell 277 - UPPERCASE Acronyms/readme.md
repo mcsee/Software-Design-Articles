@@ -30,7 +30,7 @@ Treating acronyms like normal words in camelCase (*sendJsonRequest*) keeps your 
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/3fb92baefac7fb65577e03e196472f67)
+<!-- [Gist Url](https://gist.github.com/mcsee/3fb92baefac7fb65577e03e196472f67) -->
 
 ```swift
 class NetworkConnector {
@@ -49,7 +49,7 @@ class NetworkConnector {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/280cb3e2dd681b0039b9604aac32330a)
+<!-- [Gist Url](https://gist.github.com/mcsee/280cb3e2dd681b0039b9604aac32330a) -->
 
 ```swift
 class NetworkConnector {

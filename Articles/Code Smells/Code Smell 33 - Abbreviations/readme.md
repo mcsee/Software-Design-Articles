@@ -40,7 +40,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/946b6391e043d6abec9a3ae5976c5d8f)
+<!-- [Gist Url](https://gist.github.com/mcsee/946b6391e043d6abec9a3ae5976c5d8f) -->
 
 ```go
 package main
@@ -58,7 +58,7 @@ func main() {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/6b5865d3a16ed5ccccd34348070d7d62)
+<!-- [Gist Url](https://gist.github.com/mcsee/6b5865d3a16ed5ccccd34348070d7d62) -->
 
 ```go
 package main

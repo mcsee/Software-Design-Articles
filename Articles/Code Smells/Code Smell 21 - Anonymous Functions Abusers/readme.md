@@ -32,7 +32,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/ee95a7e72f3c758d6544eab054ce2697)
+<!-- [Gist Url](https://gist.github.com/mcsee/ee95a7e72f3c758d6544eab054ce2697) -->
 
 ```javascript
 sortFunction = function(arr, fn) {
@@ -56,7 +56,7 @@ sorted = sortFunction(scores, (a,b) => {return a > b});
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/f3000f6792099ea70c649698203554b8)
+<!-- [Gist Url](https://gist.github.com/mcsee/f3000f6792099ea70c649698203554b8) -->
 
 ```javascript
 class ElementComparator{

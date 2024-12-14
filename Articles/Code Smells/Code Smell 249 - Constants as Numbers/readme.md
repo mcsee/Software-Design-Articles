@@ -44,7 +44,7 @@ Saving attributes as *integers* to improve the persistence performance or space 
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/6dca45949652677ea4fe0f611c0a290d)
+<!-- [Gist Url](https://gist.github.com/mcsee/6dca45949652677ea4fe0f611c0a290d) -->
 
 ```csharp
 public const FORMAT_JPG = 1;
@@ -54,7 +54,7 @@ public const FORMAT_PNG = 3;
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/8af320b9550e7a7f4884df45820d7478)
+<!-- [Gist Url](https://gist.github.com/mcsee/8af320b9550e7a7f4884df45820d7478) -->
 
 ```csharp
 public const string FORMAT_JPG = "JPG";

@@ -36,7 +36,7 @@ As a final step, after all our tests pass, we must remove them following clean c
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/ff64e843938e642edb15cc473008bdc2)
+<!-- [Gist Url](https://gist.github.com/mcsee/ff64e843938e642edb15cc473008bdc2) -->
 
 ```javascript
 function arabicToRoman(num) {
@@ -60,7 +60,7 @@ function arabicToRoman(num) {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/4d485268c773366069213c5b915acf89)
+<!-- [Gist Url](https://gist.github.com/mcsee/4d485268c773366069213c5b915acf89) -->
 
 ```javascript
 function arabicToRoman(arabicNumber) {

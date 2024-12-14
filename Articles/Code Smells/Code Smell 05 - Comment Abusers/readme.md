@@ -47,7 +47,7 @@ Comments are coupled to implementation and hardly maintained.*
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/4fb1f04c950ece88450fec59ed6a827b)
+<!-- [Gist Url](https://gist.github.com/mcsee/4fb1f04c950ece88450fec59ed6a827b) -->
 
 ```php
 <?
@@ -66,7 +66,7 @@ final class ChatBotConnectionHelper {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/698102c04428aec69356cad26d4c50cd)
+<!-- [Gist Url](https://gist.github.com/mcsee/698102c04428aec69356cad26d4c50cd) -->
 
 ```php
 <?

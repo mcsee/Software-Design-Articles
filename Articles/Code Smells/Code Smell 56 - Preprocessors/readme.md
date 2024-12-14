@@ -28,7 +28,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/b9945cd67cc06de97cffe8edb114862c)
+<!-- [Gist Url](https://gist.github.com/mcsee/b9945cd67cc06de97cffe8edb114862c) -->
 
 ```c
 #if VERBOSE >= 2
@@ -38,7 +38,7 @@
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/717c0b451c159315180c56fb0849419c)
+<!-- [Gist Url](https://gist.github.com/mcsee/717c0b451c159315180c56fb0849419c) -->
 
 ```c
 if (runtimeEnvironment->traceDebug()) {

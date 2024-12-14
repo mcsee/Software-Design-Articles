@@ -56,7 +56,7 @@ See a complete explanation in this [talk](https://github.com/mcsee/Software-Desi
 
 ## Before
 
-[Gist Url]: # (https://gist.github.com/mcsee/4faa40928a8ac53cca2d1381c8a2e1c2)
+<!-- [Gist Url](https://gist.github.com/mcsee/4faa40928a8ac53cca2d1381c8a2e1c2) -->
 
 ```php
 <?php
@@ -98,7 +98,7 @@ class AccessControlPanel {
 
 ## After
 
-[Gist Url]: # (https://gist.github.com/mcsee/9c90a11f4488bfbeded051d6e1be596a)
+<!-- [Gist Url](https://gist.github.com/mcsee/9c90a11f4488bfbeded051d6e1be596a) -->
 
 ```php
 <?php

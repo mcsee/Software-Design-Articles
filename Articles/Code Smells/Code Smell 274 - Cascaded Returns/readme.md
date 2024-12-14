@@ -40,7 +40,7 @@ You read through multiple branches to determine when and where the function ends
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/edb3a375c0b798f14447fe4c7230d2e8)
+<!-- [Gist Url](https://gist.github.com/mcsee/edb3a375c0b798f14447fe4c7230d2e8) -->
 
 ```javascript
 function discount(price, isMember) {
@@ -62,7 +62,7 @@ function discount(price, isMember) {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/b3b1ce40384367e300872e989faf6ead)
+<!-- [Gist Url](https://gist.github.com/mcsee/b3b1ce40384367e300872e989faf6ead) -->
 
 ```javascript
 class Member {

@@ -30,7 +30,7 @@ It would help if you only used it with *strong factual evidence* on *real* busin
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/7cdd5907fa5404a79581a3fac7a2af65)
+<!-- [Gist Url](https://gist.github.com/mcsee/7cdd5907fa5404a79581a3fac7a2af65) -->
 
 ```python
 memo = {}
@@ -51,7 +51,7 @@ def factorial_with_memo(n):
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/3aa806cc9c3d9eb8493706ec031f7343)
+<!-- [Gist Url](https://gist.github.com/mcsee/3aa806cc9c3d9eb8493706ec031f7343) -->
 
 ```python
 def factorial(n):

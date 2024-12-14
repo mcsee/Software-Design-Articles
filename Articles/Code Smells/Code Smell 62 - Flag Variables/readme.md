@@ -24,7 +24,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/694068de9cd2bbb8592d1a14bd89fe9e)
+<!-- [Gist Url](https://gist.github.com/mcsee/694068de9cd2bbb8592d1a14bd89fe9e) -->
 
 ```php
 <?
@@ -45,7 +45,7 @@ function dummy() {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/8a0de13a6fb13ae4da9c51a1b91c9705)
+<!-- [Gist Url](https://gist.github.com/mcsee/8a0de13a6fb13ae4da9c51a1b91c9705) -->
 
 ```php
 <?

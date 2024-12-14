@@ -2,7 +2,7 @@
             
 ![3.2 Identifying the Essence of Your Objects](3.2%20Identifying%20the%20Essence%20of%20Your%20Objects.png)
 
-> TL;DR:
+> TL;DR: 
 
 https://gist.github.com/mcsee/7c1ee7181f403225470c90c2f4668f99
 

@@ -30,7 +30,7 @@ The repository can be a class, file, or JSON.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/402d6689b9a9bdef6a0cedf4e8974805)
+<!-- [Gist Url](https://gist.github.com/mcsee/402d6689b9a9bdef6a0cedf4e8974805) -->
 
 ```javascript
 public static class GlobalConstants
@@ -43,7 +43,7 @@ public static class GlobalConstants
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/d26aa5ca0e29c906689c7e0b3be8cd54)
+<!-- [Gist Url](https://gist.github.com/mcsee/d26aa5ca0e29c906689c7e0b3be8cd54) -->
 
 ```javascript
 public static class GameConstants

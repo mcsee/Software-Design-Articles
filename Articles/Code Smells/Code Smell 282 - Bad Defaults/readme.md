@@ -46,7 +46,7 @@ The platform's revenue plummets, leading to bankruptcy.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/a71157328cdafbfe6c0639fe6c64b361)
+<!-- [Gist Url](https://gist.github.com/mcsee/a71157328cdafbfe6c0639fe6c64b361) -->
 
 ```java
 String response = paymentProcessor.authorize(cardDetails);
@@ -66,7 +66,7 @@ switch (response) {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/fc8724bf7b47ece2dad8a3ac2c44a85f)
+<!-- [Gist Url](https://gist.github.com/mcsee/fc8724bf7b47ece2dad8a3ac2c44a85f) -->
 
 ```java
 String response = paymentProcessor.authorize(cardDetails);

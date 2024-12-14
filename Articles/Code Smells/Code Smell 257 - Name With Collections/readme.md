@@ -38,7 +38,7 @@ Coupling the name to a collection implementation prevents you from introducing a
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/b929bfe2ee406a7d9a822c5318db5b61)
+<!-- [Gist Url](https://gist.github.com/mcsee/b929bfe2ee406a7d9a822c5318db5b61) -->
 
 ```rust
 struct Task {
@@ -56,7 +56,7 @@ impl Task {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/1c4c774f018e5f6cde339148962a4562)
+<!-- [Gist Url](https://gist.github.com/mcsee/1c4c774f018e5f6cde339148962a4562) -->
 
 ```rust
 struct Task {

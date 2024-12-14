@@ -38,7 +38,7 @@ This oversight left countless devices open to exploitation, allowing threat acto
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/79f0f0cd0289ce799b501db97ea6b926)
+<!-- [Gist Url](https://gist.github.com/mcsee/79f0f0cd0289ce799b501db97ea6b926) -->
 
 ```rust
 fn generate_pk() -> String {
@@ -54,7 +54,7 @@ fn use_default_pk() -> String {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/54f9da4bbeb24a1ec33f1af75c038278)
+<!-- [Gist Url](https://gist.github.com/mcsee/54f9da4bbeb24a1ec33f1af75c038278) -->
 
 ```rust
 fn generate_pk() -> String {

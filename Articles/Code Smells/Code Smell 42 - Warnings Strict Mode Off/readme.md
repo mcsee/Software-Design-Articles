@@ -28,7 +28,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/d4f19089543214fbc677a846967cb501)
+<!-- [Gist Url](https://gist.github.com/mcsee/d4f19089543214fbc677a846967cb501) -->
 
 ```javascript
 undefinedVariable = 310;
@@ -41,7 +41,7 @@ delete x; // No error
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/4523879f8fd11134654d4683b5c68ceb)
+<!-- [Gist Url](https://gist.github.com/mcsee/4523879f8fd11134654d4683b5c68ceb) -->
 
 ```javascript
 ’use strict’

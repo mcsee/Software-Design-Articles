@@ -38,7 +38,7 @@ Master/Slave: You can replace them with Primary/Replica/Mirror etc.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/28af00a4c811f8f389b3e1005664a48e)
+<!-- [Gist Url](https://gist.github.com/mcsee/28af00a4c811f8f389b3e1005664a48e) -->
 
 ```kotlin
 val whitelist = listOf("Barbie", "Ken")
@@ -52,7 +52,7 @@ val process = Runtime.getRuntime().exec(gitCommand)
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/fe9156be3bca544361185ed9f973d8df)
+<!-- [Gist Url](https://gist.github.com/mcsee/fe9156be3bca544361185ed9f973d8df) -->
 
 ```kotlin
 val allowlist = listOf("Barbie", "Ken")

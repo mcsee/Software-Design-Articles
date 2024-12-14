@@ -28,7 +28,7 @@ Even better, we can work with [Domain Restricted Objects](https://github.com/mcs
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/d72d1e6617755cd8eff723b4dba90078)
+<!-- [Gist Url](https://gist.github.com/mcsee/d72d1e6617755cd8eff723b4dba90078) -->
 
 ```python
 user_input = "abc123!@#"
@@ -38,7 +38,7 @@ user_input = "abc123!@#"
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/2c19c64f268afb946ee8560e19cf444f)
+<!-- [Gist Url](https://gist.github.com/mcsee/2c19c64f268afb946ee8560e19cf444f) -->
 
 ```python
 def sanitize(string):

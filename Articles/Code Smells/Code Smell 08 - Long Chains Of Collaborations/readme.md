@@ -23,7 +23,7 @@ Any chain change breaks the code.*
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/de702945b0bb7cd80f696f8cbe19c91c)
+<!-- [Gist Url](https://gist.github.com/mcsee/de702945b0bb7cd80f696f8cbe19c91c) -->
 
 ```javascript
 class Dog {
@@ -51,7 +51,7 @@ for (var foot of dog.getFeet()) {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/b3b7d73ffb6554df2c06fce3b93a134f)
+<!-- [Gist Url](https://gist.github.com/mcsee/b3b7d73ffb6554df2c06fce3b93a134f) -->
 
 ```javascript
 class Dog {

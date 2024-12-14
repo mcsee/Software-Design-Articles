@@ -32,7 +32,7 @@ Not before.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/e86499e8b367ce0d5524c347ed821cda)
+<!-- [Gist Url](https://gist.github.com/mcsee/e86499e8b367ce0d5524c347ed821cda) -->
 
 ```java
 public interface Vehicle {
@@ -54,7 +54,7 @@ public class Car implements Vehicle {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/c7c06a683be5fe72d481840c2720e0d5)
+<!-- [Gist Url](https://gist.github.com/mcsee/c7c06a683be5fe72d481840c2720e0d5) -->
 
 ```java
 public class Car {

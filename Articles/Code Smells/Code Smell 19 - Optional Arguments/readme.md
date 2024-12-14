@@ -30,7 +30,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/66738047685e798a4e4008e291dcff70)
+<!-- [Gist Url](https://gist.github.com/mcsee/66738047685e798a4e4008e291dcff70) -->
 
 ```php
 <?
@@ -58,7 +58,7 @@ new Poll([], , new StrictValidationPolicy());
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/559b802e5a6a0e1aa432e594fe5f28dc)
+<!-- [Gist Url](https://gist.github.com/mcsee/559b802e5a6a0e1aa432e594fe5f28dc) -->
 
 ```php
 <? 

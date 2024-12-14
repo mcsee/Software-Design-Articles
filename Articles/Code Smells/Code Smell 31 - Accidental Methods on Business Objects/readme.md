@@ -38,7 +38,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/11c5f7da7d9c54a05456102e128d010d)
+<!-- [Gist Url](https://gist.github.com/mcsee/11c5f7da7d9c54a05456102e128d010d) -->
 
 ```python
 class car:
@@ -82,7 +82,7 @@ class car:
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/47847ea77875bb6f6e5e1cba2e914b05)
+<!-- [Gist Url](https://gist.github.com/mcsee/47847ea77875bb6f6e5e1cba2e914b05) -->
 
 ```python
 class car:

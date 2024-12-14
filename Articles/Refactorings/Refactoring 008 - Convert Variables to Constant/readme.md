@@ -32,7 +32,7 @@
 
 ## Before
 
-[Gist Url]: # (https://gist.github.com/mcsee/3ae265e1ae7422164c175b16a7f822d3)
+<!-- [Gist Url](https://gist.github.com/mcsee/3ae265e1ae7422164c175b16a7f822d3) -->
 
 ```javascript
 let lightSpeed = 300000;
@@ -45,7 +45,7 @@ var gravity = 9.8;
 
 ## After
 
-[Gist Url]: # (https://gist.github.com/mcsee/e25d1ded85b4547d20fee70e4c1f0ca6)
+<!-- [Gist Url](https://gist.github.com/mcsee/e25d1ded85b4547d20fee70e4c1f0ca6) -->
 
 ```javascript
 const lightSpeed = 300000;

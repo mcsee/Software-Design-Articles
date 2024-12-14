@@ -22,7 +22,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/1f21534bd7ddf9390271ed0badd7352b)
+<!-- [Gist Url](https://gist.github.com/mcsee/1f21534bd7ddf9390271ed0badd7352b) -->
 
 ```javascript
 function giveFirstDoseOfVaccine(person, vaccine) { }
@@ -36,7 +36,7 @@ giveSecondDoseOfVaccine(jane, flu);
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/e33e4b69f36750d7a24621f70aba155c)
+<!-- [Gist Url](https://gist.github.com/mcsee/e33e4b69f36750d7a24621f70aba155c) -->
 
 ```javascript
 function giveFirstDoseOfVaccine(person, vaccine) { }

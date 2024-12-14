@@ -40,7 +40,7 @@ If we ask a domain expert to describe an entity he/she would hardly tell it is *
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/73f84d80f7c3e89a216dd9e40ab71bcc)
+<!-- [Gist Url](https://gist.github.com/mcsee/73f84d80f7c3e89a216dd9e40ab71bcc) -->
 
 ```java
 public class Song {
@@ -52,7 +52,7 @@ public class Song {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/78f2dd78120db843c960ed41839f29cb)
+<!-- [Gist Url](https://gist.github.com/mcsee/78f2dd78120db843c960ed41839f29cb) -->
 
 ```java
 public class Song {

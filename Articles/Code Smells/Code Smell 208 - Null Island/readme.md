@@ -30,7 +30,7 @@ This point has become a popular reference for geographic information systems (GI
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/8103413f0cbda26e2133f977a3180d8a)
+<!-- [Gist Url](https://gist.github.com/mcsee/8103413f0cbda26e2133f977a3180d8a) -->
 
 ```kotlin
 class Person(val name: String, val latitude: Double, val longitude: Double)
@@ -56,7 +56,7 @@ fun main() {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/dea28242b003409926f2d49cf7ad0849)
+<!-- [Gist Url](https://gist.github.com/mcsee/dea28242b003409926f2d49cf7ad0849) -->
 
 ```kotlin
 abstract class Location {

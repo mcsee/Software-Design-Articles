@@ -26,7 +26,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/a94aac5dd5fee1e1c19b4b07e87e7887)
+<!-- [Gist Url](https://gist.github.com/mcsee/a94aac5dd5fee1e1c19b4b07e87e7887) -->
 
 ```java
 public final class FileTreeComposite {
@@ -41,7 +41,7 @@ public final class AccountsComposite { }
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/9adec62e0637199e351100eb2ece56f2)
+<!-- [Gist Url](https://gist.github.com/mcsee/9adec62e0637199e351100eb2ece56f2) -->
 
 ```java
 public final class FileSystem {

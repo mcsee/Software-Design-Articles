@@ -38,7 +38,7 @@
 
 ## Wrong 
 
-[Gist Url]: # (https://gist.github.com/mcsee/f001710d13fd158e75313c9b54ffc1aa)
+<!-- [Gist Url](https://gist.github.com/mcsee/f001710d13fd158e75313c9b54ffc1aa) -->
 
 ```javascript
 class VerySpecificAndSmallObjectDealingWithPersistency {
@@ -57,7 +57,7 @@ class VerySpecificAndSmallObjectDealingWithPersistency {
 
 ## Right
  
-[Gist Url]: # (https://gist.github.com/mcsee/b4f9f8e80f19c89e99e10c999871ea2d)
+<!-- [Gist Url](https://gist.github.com/mcsee/b4f9f8e80f19c89e99e10c999871ea2d) -->
 
 ```javascript
 class VerySpecificAndSmallObjectDealingWithPersistency { 

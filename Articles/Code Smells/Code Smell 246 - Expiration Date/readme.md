@@ -32,7 +32,7 @@ it's generally considered a better practice to represent the expiry date with an
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/f2f64b2f510c08a4f85a6c8cbe85de58)
+<!-- [Gist Url](https://gist.github.com/mcsee/f2f64b2f510c08a4f85a6c8cbe85de58) -->
 
 ```java
 import java.util.Date;
@@ -56,7 +56,7 @@ public class CreditCard {
 }
 ```
 
-[Gist Url]: # (https://gist.github.com/mcsee/9816f1ef8c6e05ceb9f750113471e03f)
+<!-- [Gist Url](https://gist.github.com/mcsee/9816f1ef8c6e05ceb9f750113471e03f) -->
 
 ```java
 public class CreditCard {
@@ -82,7 +82,7 @@ public class CreditCard {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/87977580c06f4816c48ca9c6f9d10b23)
+<!-- [Gist Url](https://gist.github.com/mcsee/87977580c06f4816c48ca9c6f9d10b23) -->
 
 ```java
 class CreditCard {

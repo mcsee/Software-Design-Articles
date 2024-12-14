@@ -32,7 +32,7 @@ Suppose you change the code with existing coverage. Lucky you! Go and change you
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/51317c09b8994b6cb57e09e2059a5d9b)
+<!-- [Gist Url](https://gist.github.com/mcsee/51317c09b8994b6cb57e09e2059a5d9b) -->
 
 ```typescript
 export function sayHello(name: string): string {
@@ -47,7 +47,7 @@ export function sayHello(name: string): string {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/7a5adcac0ead17d037924b6fd47888fb)
+<!-- [Gist Url](https://gist.github.com/mcsee/7a5adcac0ead17d037924b6fd47888fb) -->
 
 ```typescript
 export function sayHello(name: string): string {

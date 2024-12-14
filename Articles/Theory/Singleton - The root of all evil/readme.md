@@ -45,7 +45,7 @@ What a priori appears as a benefit for preventing us from having to pass context
 By focusing early on implementation issues (the *Singleton* is an implementation pattern) we orient ourselves according to **accidentality** (**how**) and underestimate the most important thing of an object: the responsibilities it has (**what**).
 When carrying out premature optimization in our designs, we usually award a concept that we have just discovered as *Singleton*.
 
-[Gist Url]: # (https://gist.github.com/mcsee/5f0b4685e3af22e2a0a82f9f642c5c79)
+<!-- [Gist Url](https://gist.github.com/mcsee/5f0b4685e3af22e2a0a82f9f642c5c79) -->
 
 ```php
 <?
@@ -79,7 +79,7 @@ When we ask a class to create a new instance we expect the contract to be honore
 
 [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
-[Gist Url]: # (https://gist.github.com/mcsee/df78952fd4871362eaffcc6ce7ab6c94)
+<!-- [Gist Url](https://gist.github.com/mcsee/df78952fd4871362eaffcc6ce7ab6c94) -->
 
 ```php
 <?
@@ -92,7 +92,7 @@ $christianGod = new God();
 
 A better answer would be to show with an exception it is not valid to create new instances in this execution context.
 
-[Gist Url]: # (https://gist.github.com/mcsee/74b7ad0cc6e4a80cb376fc8bb41fac4a)
+<!-- [Gist Url](https://gist.github.com/mcsee/74b7ad0cc6e4a80cb376fc8bb41fac4a) -->
 
 ```php
 <?
@@ -109,7 +109,7 @@ This will force us to have a private constructor to use it internally. Thus viol
 ### 8. It forces us to explicitly couple to implementation
 When invoking a class to use it (again, to use its **what**), we will have to couple with the fact that it is accidentally a *Singleton* (its **how**), generating a relation that, when trying to break it, would produce the much-feared ripple effect.
 
-[Gist Url]: # (https://gist.github.com/mcsee/e9a082aca6e2e7e4412d5da4290a5f0a)
+<!-- [Gist Url](https://gist.github.com/mcsee/e9a082aca6e2e7e4412d5da4290a5f0a) -->
 
 ```php
 <?
@@ -179,7 +179,7 @@ This argument is fallacious according to the current state of the art of languag
 The Singleton can be used to guarantee the uniqueness of a concept. But it is not the only way or the best.
 Let’s rewrite the previous example:
 
-[Gist Url]: # (https://gist.github.com/mcsee/48af2ebb8874c53f5aa5091c24c832e5)
+<!-- [Gist Url](https://gist.github.com/mcsee/48af2ebb8874c53f5aa5091c24c832e5) -->
 
 ```php
 <?

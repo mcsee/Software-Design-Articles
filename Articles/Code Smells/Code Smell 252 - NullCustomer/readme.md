@@ -30,7 +30,7 @@ Null Customers don't exist in the same way [NULL](https://github.com/mcsee/Softw
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/b13e79a85fdd706f17dfff192a8a4b6f)
+<!-- [Gist Url](https://gist.github.com/mcsee/b13e79a85fdd706f17dfff192a8a4b6f) -->
 
 ```react
 import React from 'react';
@@ -69,7 +69,7 @@ export default App;
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/15f41dcd4d4f1c89e8b31348d6649740)
+<!-- [Gist Url](https://gist.github.com/mcsee/15f41dcd4d4f1c89e8b31348d6649740) -->
 
 ```react
 import React from 'react';

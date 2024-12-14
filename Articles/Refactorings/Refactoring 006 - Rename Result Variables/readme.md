@@ -24,7 +24,7 @@
 
 ## Before
 
-[Gist Url]: # (https://gist.github.com/mcsee/c4f1e90fb0a61724ea5993e04d572b5c)
+<!-- [Gist Url](https://gist.github.com/mcsee/c4f1e90fb0a61724ea5993e04d572b5c) -->
 
 ```javascript
 function doubleFavoriteNumber(n) {
@@ -41,7 +41,7 @@ var result = doubleFavoriteNumber(2);
 
 ## After
 
-[Gist Url]: # (https://gist.github.com/mcsee/5a9bbc54b45798a610f0a76b8c25a583)
+<!-- [Gist Url](https://gist.github.com/mcsee/5a9bbc54b45798a610f0a76b8c25a583) -->
 
 ```javascript
 function doubleFavoriteNumber(n) {

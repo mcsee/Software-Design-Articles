@@ -30,7 +30,7 @@ They also hide possible name collisions since dynamic properties may have the sa
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/1fceddaa27b7dcbb2cf0ba4f85861237)
+<!-- [Gist Url](https://gist.github.com/mcsee/1fceddaa27b7dcbb2cf0ba4f85861237) -->
 
 ```python
 class Dream:
@@ -48,7 +48,7 @@ print(nightmare.presentation)
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/b2f04e4bafd415006b4ace96e4456612)
+<!-- [Gist Url](https://gist.github.com/mcsee/b2f04e4bafd415006b4ace96e4456612) -->
 
 ```python
 class Dream:

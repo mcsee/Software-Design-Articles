@@ -22,7 +22,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/9277f66f0a09b0e01ab217a65f80fe61)
+<!-- [Gist Url](https://gist.github.com/mcsee/9277f66f0a09b0e01ab217a65f80fe61) -->
 
 ```javascript
 for (let i = 0; i < colors.length; i++) {
@@ -32,7 +32,7 @@ for (let i = 0; i < colors.length; i++) {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/c5640773e3691e2aa6ac6db27b5596bf)
+<!-- [Gist Url](https://gist.github.com/mcsee/c5640773e3691e2aa6ac6db27b5596bf) -->
 
 ```javascript
 colors.forEach((color) => {

@@ -42,7 +42,7 @@ That can result in an annoying debugging experience and non-deterministic test r
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/1b6f129a641e984ad18433c485270b21)
+<!-- [Gist Url](https://gist.github.com/mcsee/1b6f129a641e984ad18433c485270b21) -->
 
 ```javascript
 const fs = require('fs');
@@ -62,7 +62,7 @@ test('test process file', () => {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/50b5d79df54bf0c4239fb301b966a612)
+<!-- [Gist Url](https://gist.github.com/mcsee/50b5d79df54bf0c4239fb301b966a612) -->
 
 ```javascript
 const fs = require('fs');

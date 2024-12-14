@@ -28,7 +28,7 @@
 
 ## Before
 
-[Gist Url]: # (https://gist.github.com/mcsee/4beca4e8726130c29a74b956df6aefe2)
+<!-- [Gist Url](https://gist.github.com/mcsee/4beca4e8726130c29a74b956df6aefe2) -->
 
 ```java
 double energy(double mass) {
@@ -38,7 +38,7 @@ double energy(double mass) {
 
 ## After
 
-[Gist Url]: # (https://gist.github.com/mcsee/17728639113169878b08a95a373624e3)
+<!-- [Gist Url](https://gist.github.com/mcsee/17728639113169878b08a95a373624e3) -->
 
 ```java
 // 1. Move the constant code fragment to a constant declaration

@@ -52,7 +52,7 @@ GoTo [Codex Javascript Sandbox](https://beta.openai.com/codex-javascript-sandbox
 
 Output
 
-[Gist Url]: # (https://gist.github.com/mcsee/654fa142e7020610fd62c2dffc9db6a6)
+<!-- [Gist Url](https://gist.github.com/mcsee/654fa142e7020610fd62c2dffc9db6a6) -->
 
 ```javascript
 /* create a table with 6 rows and 5 columns */
@@ -89,7 +89,7 @@ document.body.appendChild(table);
 /* Cells are grey, squared of 80px 80px */
 `
 
-[Gist Url]: # (https://gist.github.com/mcsee/f57b037a11d7d86504ec87835aaade4c)
+<!-- [Gist Url](https://gist.github.com/mcsee/f57b037a11d7d86504ec87835aaade4c) -->
 
 ```javascript
 /* Cells are grey, squared of 80px 80px */
@@ -112,7 +112,7 @@ for (var i = 0; i < cells.length; i++) {
 /* cells are half size */
 `
 
-[Gist Url]: # (https://gist.github.com/mcsee/be3acb12333af3537d6f0cb10a247fe8)
+<!-- [Gist Url](https://gist.github.com/mcsee/be3acb12333af3537d6f0cb10a247fe8) -->
 
 ```javascript
 /* cells are half size */
@@ -133,7 +133,7 @@ for (var i = 0; i < cells.length; i++) {
 /* there are no borders */
 `
 
-[Gist Url]: # (https://gist.github.com/mcsee/c5e48c2ce3868ccf0b27e6de6749667e)
+<!-- [Gist Url](https://gist.github.com/mcsee/c5e48c2ce3868ccf0b27e6de6749667e) -->
 
 ```javascript
 /* there are no borders */
@@ -149,7 +149,7 @@ table.style.border = 'none';
 /* Cells have no border */
 `
 
-[Gist Url]: # (https://gist.github.com/mcsee/721bb457df66172ee20db0128a46b686)
+<!-- [Gist Url](https://gist.github.com/mcsee/721bb457df66172ee20db0128a46b686) -->
 
 ```javascript
 /* Cells have no border */
@@ -169,7 +169,7 @@ for (var i = 0; i < cells.length; i++) {
 /* text is centered */
 `
 
-[Gist Url]: # (https://gist.github.com/mcsee/f501bf82876cb741c19da4e7a0b9a59a)
+<!-- [Gist Url](https://gist.github.com/mcsee/f501bf82876cb741c19da4e7a0b9a59a) -->
 
 ```javascript
 /* Text is centered */
@@ -187,7 +187,7 @@ for (var i = 0; i < cells.length; i++) {
 /* text is white*/
 `
 
-[Gist Url]: # (https://gist.github.com/mcsee/52734cbd26ab3462cd6d9e705b2b8c80)
+<!-- [Gist Url](https://gist.github.com/mcsee/52734cbd26ab3462cd6d9e705b2b8c80) -->
 
 ```javascript
 /* text is white */
@@ -205,7 +205,7 @@ for (var i = 0; i < cells.length; i++) {
 /* text is font Helvetica and bold */
 `
 
-[Gist Url]: # (https://gist.github.com/mcsee/95fcdd17d93b26abd5994c067f0d818c)
+<!-- [Gist Url](https://gist.github.com/mcsee/95fcdd17d93b26abd5994c067f0d818c) -->
 
 ```javascript
 /* text is font Helvetica and bold */
@@ -226,7 +226,7 @@ for (var i = 0; i < cells.length; i++) {
 /*  Cells have no padding */
 `
 
-[Gist Url]: # (https://gist.github.com/mcsee/d6d091bfbec50d2f800fddcb01b9af57)
+<!-- [Gist Url](https://gist.github.com/mcsee/d6d091bfbec50d2f800fddcb01b9af57) -->
 
 ```javascript
 /* cells have no padding */
@@ -244,7 +244,7 @@ for (var i = 0; i < cells.length; i++) {
 /* cells are empty */
 `
 
-[Gist Url]: # (https://gist.github.com/mcsee/7d7963651a00331766843a61d6a999fd)
+<!-- [Gist Url](https://gist.github.com/mcsee/7d7963651a00331766843a61d6a999fd) -->
 
 ```javascript
 /* cells are empty */
@@ -266,7 +266,7 @@ for (var i = 0; i < cells.length; i++) {
 /* add an input text field under the table */
 `
 
-[Gist Url]: # (https://gist.github.com/mcsee/ddf74c760a838a2803889f8d0138e4fd)
+<!-- [Gist Url](https://gist.github.com/mcsee/ddf74c760a838a2803889f8d0138e4fd) -->
 
 ```javascript
 /* add an input text field under the table */
@@ -285,7 +285,7 @@ document.body.appendChild(input);
 /* add margin reduce text field width to 100px */
 `
 
-[Gist Url]: # (https://gist.github.com/mcsee/67657a613a82dbe42e888f1d63f80b61)
+<!-- [Gist Url](https://gist.github.com/mcsee/67657a613a82dbe42e888f1d63f80b61) -->
 
 ```javascript
 /* add margin reduce text field width to 100px */
@@ -302,7 +302,7 @@ input.style.width = '100px';
 /* add a button by the field with the 'tick' character. The button must have an id named 'validate' */
 `
 
-[Gist Url]: # (https://gist.github.com/mcsee/21932f36905040772ae706275224a255)
+<!-- [Gist Url](https://gist.github.com/mcsee/21932f36905040772ae706275224a255) -->
 
 ```javascript
 /* add a button by the field with the 'tick' character. 
@@ -328,7 +328,7 @@ document.body.appendChild(button);
 /* add another button with id 'remove' and the 'x' character as label */
 `
 
-[Gist Url]: # (https://gist.github.com/mcsee/ea0aad9007a7256d531919269c955ad7)
+<!-- [Gist Url](https://gist.github.com/mcsee/ea0aad9007a7256d531919269c955ad7) -->
 
 ```javascript
 /* add another button with id 'remove' and the 'x' character as label */
@@ -347,7 +347,7 @@ document.body.appendChild(button);
 /* Center box text */
 `
 
-[Gist Url]: # (https://gist.github.com/mcsee/313f6630fb44b5895670e60f7b40de88)
+<!-- [Gist Url](https://gist.github.com/mcsee/313f6630fb44b5895670e60f7b40de88) -->
 
 ```javascript
 /* center box text */
@@ -363,7 +363,7 @@ input.style.textAlign = 'center';
 /* we cannot write more than 5 characters in the input field */
 `
 
-[Gist Url]: # (https://gist.github.com/mcsee/cd7e2b1f324f77af0382f80e44cd143f)
+<!-- [Gist Url](https://gist.github.com/mcsee/cd7e2b1f324f77af0382f80e44cd143f) -->
 
 ```javascript
 /* we cannot write more than 5 characters in the input field */
@@ -379,7 +379,7 @@ input.setAttribute('maxlength','5');
 /* create variable named 'rowIndex' starting at 0 */
 `
 
-[Gist Url]: # (https://gist.github.com/mcsee/05d172be13a1567c5aacb31aa4ba534c)
+<!-- [Gist Url](https://gist.github.com/mcsee/05d172be13a1567c5aacb31aa4ba534c) -->
 
 ```javascript
 /* create variable named 'rowIndex' starting at 0 */
@@ -401,7 +401,7 @@ var rowIndex = 0;
 /* when entering text in the box, convert it to uppercase */
 `
 
-[Gist Url]: # (https://gist.github.com/mcsee/6b147fb8d1c2c2921c2235e2c007ab5c)
+<!-- [Gist Url](https://gist.github.com/mcsee/6b147fb8d1c2c2921c2235e2c007ab5c) -->
 
 ```javascript
 /* when entering text in the box, convert it to uppercase */
@@ -425,7 +425,7 @@ input.addEventListener('keyup', function(event) {
 /* after writing on the text field, the value from every character will be written on each cell of the selected row */
 `
 
-[Gist Url]: # (https://gist.github.com/mcsee/4e3ddf5a94c2edfb30db38ca42354ffc)
+<!-- [Gist Url](https://gist.github.com/mcsee/4e3ddf5a94c2edfb30db38ca42354ffc) -->
 
 ```javascript
 /* after writing on the text field,
@@ -451,7 +451,7 @@ input.addEventListener('keyup', function(event) {
 /* store in a variable the secret word 'PAPER' */
 `
 
-[Gist Url]: # (https://gist.github.com/mcsee/d11fc687ec48692f25d05b8871085c05)
+<!-- [Gist Url](https://gist.github.com/mcsee/d11fc687ec48692f25d05b8871085c05) -->
 
 ```javascript
 /* store in a variable the secret word 'PAPER' */
@@ -465,7 +465,7 @@ var secretWord = 'PAPER';
 /* When clicking the 'validate' button, we need to check if the characters of the chosen row are included in the secret word. If they are, the cell should be marked as yellow */
 `
 
-[Gist Url]: # (https://gist.github.com/mcsee/af640d8630e75114a9ca79df77e339e7)
+<!-- [Gist Url](https://gist.github.com/mcsee/af640d8630e75114a9ca79df77e339e7) -->
 
 ```javascript
 /* When clicking validate button, 
@@ -492,7 +492,7 @@ document.getElementById('validate').addEventListener('click',
 /* if character is in right position, cell should be in green (#a9e54e) */
 `
 
-[Gist Url]: # (https://gist.github.com/mcsee/30ed757a4f47754ae388ca21b49038a1)
+<!-- [Gist Url](https://gist.github.com/mcsee/30ed757a4f47754ae388ca21b49038a1) -->
 
 ```javascript
 // Step 23
@@ -519,7 +519,7 @@ document.getElementById('validate').addEventListener('click',
 /*when clicking validate button, rowIndex variable increases */
 `
 
-[Gist Url]: # (https://gist.github.com/mcsee/d3317770fac42bf071c9e3c02b199937)
+<!-- [Gist Url](https://gist.github.com/mcsee/d3317770fac42bf071c9e3c02b199937) -->
 
 ```javascript
 /* when clicking validate button, rowIndex variable increases */
@@ -538,7 +538,7 @@ document.getElementById('validate').addEventListener('click',
 /* when clicking validate button, rowIndex variable increases */
 `
 
-[Gist Url]: # (https://gist.github.com/mcsee/1faf21999ce4802ada87459ccdee0d5b)
+<!-- [Gist Url](https://gist.github.com/mcsee/1faf21999ce4802ada87459ccdee0d5b) -->
 
 ```javascript
 // Step 25
@@ -563,7 +563,7 @@ document.getElementById('remove').addEventListener('click',
 /* save a collection of the following words: tools, super, faker, catch, cried in uppercase */
 `
 
-[Gist Url]: # (https://gist.github.com/mcsee/1e1431aa247d973eede919f3133f40a1)
+<!-- [Gist Url](https://gist.github.com/mcsee/1e1431aa247d973eede919f3133f40a1) -->
 
 ```javascript
 // Step 26
@@ -580,7 +580,7 @@ var words = ['TOOLS', 'SUPER', 'FAKER', 'CATCH', 'CRIED'];
 /* when pressing remove, chose randomly the secret word from the words collection */ 
 `
 
-[Gist Url]: # (https://gist.github.com/mcsee/5e20258f4bd55d742cb0c59f42770827)
+<!-- [Gist Url](https://gist.github.com/mcsee/5e20258f4bd55d742cb0c59f42770827) -->
 
 ```javascript
 // Step 27

@@ -28,7 +28,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/568bc61348f648e3e0db8434b59b92a2)
+<!-- [Gist Url](https://gist.github.com/mcsee/568bc61348f648e3e0db8434b59b92a2) -->
 
 ```php
 <?
@@ -43,7 +43,7 @@ abstract class AbstractTransportation {}
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/106a64e384b1348dea8b1d486b4bacc5)
+<!-- [Gist Url](https://gist.github.com/mcsee/106a64e384b1348dea8b1d486b4bacc5) -->
 
 ```php
 <?

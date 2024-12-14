@@ -22,7 +22,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/ee56984fadcd35eb91b7e2617eec875a)
+<!-- [Gist Url](https://gist.github.com/mcsee/ee56984fadcd35eb91b7e2617eec875a) -->
 
 ```php
 <?
@@ -42,7 +42,7 @@ final class DistanceCalculator {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/4135a48a51ff4361359326f2d4b2076e)
+<!-- [Gist Url](https://gist.github.com/mcsee/4135a48a51ff4361359326f2d4b2076e) -->
 
 ```php
 <?

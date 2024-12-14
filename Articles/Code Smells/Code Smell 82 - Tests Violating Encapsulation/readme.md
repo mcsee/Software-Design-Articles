@@ -26,7 +26,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/06757fcedc4c442584f144c68b16d597)
+<!-- [Gist Url](https://gist.github.com/mcsee/06757fcedc4c442584f144c68b16d597) -->
 
 ```php
 <?
@@ -56,7 +56,7 @@ class HangmanTest extends TestCase {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/c2d16cf8f0d533345ec74314c04863ea)
+<!-- [Gist Url](https://gist.github.com/mcsee/c2d16cf8f0d533345ec74314c04863ea) -->
 
 ```php
 <?

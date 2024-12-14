@@ -30,7 +30,7 @@ Outputting to the console within an internal function generates coupling and sid
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/c8fcd38572bce8e59bf28ceaede7a055)
+<!-- [Gist Url](https://gist.github.com/mcsee/c8fcd38572bce8e59bf28ceaede7a055) -->
 
 ```javascript
 function drawChristmasTree(height) {
@@ -53,7 +53,7 @@ drawChristmasTree(7);
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/1c4881a54286a827b8fc037fdd89722c)
+<!-- [Gist Url](https://gist.github.com/mcsee/1c4881a54286a827b8fc037fdd89722c) -->
 
 ```javascript
 function createChristmasTree(height) {

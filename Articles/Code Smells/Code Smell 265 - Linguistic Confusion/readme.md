@@ -42,7 +42,7 @@ This causes bugs, makes maintenance harder, and leads to team frustration.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/9333f3505a7ffaba61e7e8509e2797d1)
+<!-- [Gist Url](https://gist.github.com/mcsee/9333f3505a7ffaba61e7e8509e2797d1) -->
 
 ```java
 public class AbstractDataHandlerManager {
@@ -58,7 +58,7 @@ public class AbstractDataHandlerManager {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/61de3fb3c822b5a14be3a80df6cae63d)
+<!-- [Gist Url](https://gist.github.com/mcsee/61de3fb3c822b5a14be3a80df6cae63d) -->
 
 ```java
 public class SETIProcessor {

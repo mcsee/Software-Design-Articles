@@ -34,7 +34,7 @@ If two or more primitive objects are glued together, with business logic repeate
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/076c003ce49b9fc4af66f4dffeb71079)
+<!-- [Gist Url](https://gist.github.com/mcsee/076c003ce49b9fc4af66f4dffeb71079) -->
 
 ```csharp
 public class DinnerTable
@@ -53,7 +53,7 @@ public class DinnerTable
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/a848e76a45559291a2f71cd76aa91961)
+<!-- [Gist Url](https://gist.github.com/mcsee/a848e76a45559291a2f71cd76aa91961) -->
 
 ```csharp
 public class TimeInterval

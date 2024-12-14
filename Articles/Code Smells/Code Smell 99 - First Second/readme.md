@@ -26,7 +26,7 @@ We never refactor the obvious, neither.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/552f2a10d660ee37744f111fe9bf6665)
+<!-- [Gist Url](https://gist.github.com/mcsee/552f2a10d660ee37744f111fe9bf6665) -->
 
 ```python
 class Calculator:
@@ -36,7 +36,7 @@ class Calculator:
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/bbbc636c7c309c86b4f1114b1f57f6b8)
+<!-- [Gist Url](https://gist.github.com/mcsee/bbbc636c7c309c86b4f1114b1f57f6b8) -->
 
 ```python
 class Calculator:

@@ -36,7 +36,7 @@ This can be confusing and lead to data loss.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/647393a744f23bb2594cd309ba92e56c)
+<!-- [Gist Url](https://gist.github.com/mcsee/647393a744f23bb2594cd309ba92e56c) -->
 
 ```php
 <?
@@ -63,7 +63,7 @@ This can be confusing and lead to data loss.
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/75cb385ad949635913e898aa6a030b95)
+<!-- [Gist Url](https://gist.github.com/mcsee/75cb385ad949635913e898aa6a030b95) -->
 
 ```php
 <?

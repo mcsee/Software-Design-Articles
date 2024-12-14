@@ -26,7 +26,7 @@ We can fix it with polymorphism or early returns
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/45754a6d586d067627c4796748686384)
+<!-- [Gist Url](https://gist.github.com/mcsee/45754a6d586d067627c4796748686384) -->
 
 ```javascript
 const getUnits = secs => (
@@ -41,7 +41,7 @@ const getUnits = secs => (
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/4ac913c6d842c4f0fc9d8e9998348335)
+<!-- [Gist Url](https://gist.github.com/mcsee/4ac913c6d842c4f0fc9d8e9998348335) -->
 
 ```javascript
 const getUnits = secs => {

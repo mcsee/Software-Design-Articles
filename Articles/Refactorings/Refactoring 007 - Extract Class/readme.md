@@ -32,7 +32,7 @@
 
 ## Before
 
-[Gist Url]: # (https://gist.github.com/mcsee/04dfcde00d2d40c8741f9af2fbeba469)
+<!-- [Gist Url](https://gist.github.com/mcsee/04dfcde00d2d40c8741f9af2fbeba469) -->
 
 ```java
 final class Person {
@@ -62,7 +62,7 @@ final class Person {
 
 ## After
 
-[Gist Url]: # (https://gist.github.com/mcsee/3038811d4e9e821908b54092ad8efaee)
+<!-- [Gist Url](https://gist.github.com/mcsee/3038811d4e9e821908b54092ad8efaee) -->
 
 ```java
 // 1. Extract the methods (and accidentally the properties) 

@@ -40,7 +40,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/5f0b4685e3af22e2a0a82f9f642c5c79)
+<!-- [Gist Url](https://gist.github.com/mcsee/5f0b4685e3af22e2a0a82f9f642c5c79) -->
 
 ```php
 <?
@@ -61,7 +61,7 @@ class God {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/48af2ebb8874c53f5aa5091c24c832e5)
+<!-- [Gist Url](https://gist.github.com/mcsee/48af2ebb8874c53f5aa5091c24c832e5) -->
 
 ```php
 <?

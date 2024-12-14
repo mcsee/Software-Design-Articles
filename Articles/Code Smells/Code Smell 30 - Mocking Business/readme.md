@@ -26,7 +26,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/191cee3a71132501564cdb58abef27a7)
+<!-- [Gist Url](https://gist.github.com/mcsee/191cee3a71132501564cdb58abef27a7) -->
 
 ```php
 <?
@@ -59,7 +59,7 @@ class PaymentTest extends TestCase
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/1a84f6cf33594a0b63f5171a13513439)
+<!-- [Gist Url](https://gist.github.com/mcsee/1a84f6cf33594a0b63f5171a13513439) -->
 
 ```php
 <?php

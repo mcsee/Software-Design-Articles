@@ -32,7 +32,7 @@ After we have good coverage we need to refactor and reduce methods.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/b3d04c90186e88bca3e3353af7c24284)
+<!-- [Gist Url](https://gist.github.com/mcsee/b3d04c90186e88bca3e3353af7c24284) -->
 
 ```php
 <?
@@ -85,7 +85,7 @@ function retrieveImagesFrom(array $imageUrls) {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/21117af327d700e359d1eccf2d45accc)
+<!-- [Gist Url](https://gist.github.com/mcsee/21117af327d700e359d1eccf2d45accc) -->
 
 ```php
 <?

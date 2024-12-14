@@ -34,7 +34,7 @@ A *wordle word* is a subset of String.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/6fedc83479a0894ca2467247ecd5e85c)
+<!-- [Gist Url](https://gist.github.com/mcsee/6fedc83479a0894ca2467247ecd5e85c) -->
 
 ```java
 validDestination = "destination@example.com"  
@@ -44,7 +44,7 @@ invalidDestination = "destination.example.com"
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/51ea6966c13b5aa25c34437218eef5b8)
+<!-- [Gist Url](https://gist.github.com/mcsee/51ea6966c13b5aa25c34437218eef5b8) -->
 
 ```java
 public class EmailAddress {

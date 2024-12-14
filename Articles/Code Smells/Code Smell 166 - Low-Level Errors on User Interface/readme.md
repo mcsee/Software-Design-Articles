@@ -32,7 +32,7 @@ Even in 2022, we can see "serious" websites showing casual users a stack or debu
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/8d71bdae68fc52a1b6d1c65e8ce944af)
+<!-- [Gist Url](https://gist.github.com/mcsee/8d71bdae68fc52a1b6d1c65e8ce944af) -->
 
 ```php
 <?
@@ -43,7 +43,7 @@ Fatal error: Uncaught Error: Class 'MyClass'
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/3d16a49a680234811e19a56fd3d5be17)
+<!-- [Gist Url](https://gist.github.com/mcsee/3d16a49a680234811e19a56fd3d5be17) -->
 
 ```php
 <?

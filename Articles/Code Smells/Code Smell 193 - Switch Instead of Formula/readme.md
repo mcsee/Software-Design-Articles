@@ -34,7 +34,7 @@ It is the DigiD digital authentication iOS app in the Netherlands.
 
 ## Wrong?
 
-[Gist Url]: # (https://gist.github.com/mcsee/0a2979db94ff5288a342e2846155d955)
+<!-- [Gist Url](https://gist.github.com/mcsee/0a2979db94ff5288a342e2846155d955) -->
 
 ```csharp
 private static string GetPercentageRounds(double percentage)
@@ -73,7 +73,7 @@ private static string GetPercentageRounds(double percentage)
 
 ## Right?
 
-[Gist Url]: # (https://gist.github.com/mcsee/e24ffc9ad7e587f44862ed7dff22e1b7)
+<!-- [Gist Url](https://gist.github.com/mcsee/e24ffc9ad7e587f44862ed7dff22e1b7) -->
 
 ```csharp
 private static string GetPercentageRounds(double percentage)

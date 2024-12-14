@@ -40,7 +40,7 @@ Adding this control only in the UI or external API is another code smell about m
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/7b1f2afc8132fc6a518c3a5d5fb70f3c)
+<!-- [Gist Url](https://gist.github.com/mcsee/7b1f2afc8132fc6a518c3a5d5fb70f3c) -->
 
 ```javascript
 const express = require('express');
@@ -111,7 +111,7 @@ app.listen(3000, () => console.log('Server started on port 3000'));
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/3861712d705be4717836079118457b80)
+<!-- [Gist Url](https://gist.github.com/mcsee/3861712d705be4717836079118457b80) -->
 
 ```javascript
 const express = require('express');

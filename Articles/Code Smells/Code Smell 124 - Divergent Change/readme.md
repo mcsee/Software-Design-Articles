@@ -30,7 +30,7 @@ If an object does too much, it might change in different directions.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/398ed708b96ddabe79971b98edefce4a)
+<!-- [Gist Url](https://gist.github.com/mcsee/398ed708b96ddabe79971b98edefce4a) -->
 
 ```javascript
 class Webpage {
@@ -47,7 +47,7 @@ class Webpage {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/cb5736ef2d43863b8cae0ff060c1317a)
+<!-- [Gist Url](https://gist.github.com/mcsee/cb5736ef2d43863b8cae0ff060c1317a) -->
 
 ```javascript
 class Webpage {

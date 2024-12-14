@@ -32,7 +32,7 @@ It is important if it does not mutate.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/3317c6e127e2d8b800174415eb79a08e)
+<!-- [Gist Url](https://gist.github.com/mcsee/3317c6e127e2d8b800174415eb79a08e) -->
 
 ```javascript
 const DISCOUNT_PLATINUM = 0.1;
@@ -69,7 +69,7 @@ ALL_CONSTANTS.DISCOUNT.PLATINUM = 0.12; // NOT AN ERROR. OOPS!
 
 ## Right
  
-[Gist Url]: # (https://gist.github.com/mcsee/e656ae640875909f55bd7eda10b4d227)
+<!-- [Gist Url](https://gist.github.com/mcsee/e656ae640875909f55bd7eda10b4d227) -->
 
 ```javascript
 export const ALL_CONSTANTS = Object.freeze({

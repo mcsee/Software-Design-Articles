@@ -35,7 +35,7 @@ Incomplete objects cause lots of issues.*
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/d9d34fad693fd4f6309d68636a5010e5)
+<!-- [Gist Url](https://gist.github.com/mcsee/d9d34fad693fd4f6309d68636a5010e5) -->
 
 ```javascript
 class AirTicket {
@@ -46,7 +46,7 @@ class AirTicket {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/2e8f884045798f699399bf1ba9c26ab2)
+<!-- [Gist Url](https://gist.github.com/mcsee/2e8f884045798f699399bf1ba9c26ab2) -->
 
 ```javascript
 class AirTicket {

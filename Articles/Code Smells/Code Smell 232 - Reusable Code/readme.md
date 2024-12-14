@@ -34,7 +34,7 @@ This is natural in the learning process since we cannot foresee those abstractio
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/b1380b6b9850ec6f12c14bfeebbfc505)
+<!-- [Gist Url](https://gist.github.com/mcsee/b1380b6b9850ec6f12c14bfeebbfc505) -->
 
 ```python
 def calculate_area(length, width):
@@ -46,7 +46,7 @@ def calculate_volume(length, width, height):
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/582e44a1004c102199039c5961f32ceb)
+<!-- [Gist Url](https://gist.github.com/mcsee/582e44a1004c102199039c5961f32ceb) -->
 
 ```python
 def calculate_area(length, width):

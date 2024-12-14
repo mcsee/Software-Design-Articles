@@ -44,7 +44,7 @@ Not by creating To-Fix lists.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/352ade4d98a059ed49e4312ae3bab44e)
+<!-- [Gist Url](https://gist.github.com/mcsee/352ade4d98a059ed49e4312ae3bab44e) -->
 
 ```php
 <?
@@ -58,7 +58,7 @@ function divide($numerator, $denominator) {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/d1323654df40648970e8058c0cbd55cc)
+<!-- [Gist Url](https://gist.github.com/mcsee/d1323654df40648970e8058c0cbd55cc) -->
 
 ```php
 <?

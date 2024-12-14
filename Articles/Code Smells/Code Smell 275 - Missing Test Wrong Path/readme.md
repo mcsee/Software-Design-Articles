@@ -37,7 +37,7 @@ Always include a failure condition to ensure the test fails when the expected ex
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/5e14a4afa16ee8d9cfe49ae717dfedcd)
+<!-- [Gist Url](https://gist.github.com/mcsee/5e14a4afa16ee8d9cfe49ae717dfedcd) -->
 
 ```javascript
 // Test: firing at an already hit position should not be allowed
@@ -57,7 +57,7 @@ try {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/7e86687a61a69093e9c1d4ab1115d718)
+<!-- [Gist Url](https://gist.github.com/mcsee/7e86687a61a69093e9c1d4ab1115d718) -->
 
 ```javascript
 // Test: firing at an already hit position should not be allowed

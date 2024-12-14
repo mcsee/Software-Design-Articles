@@ -36,7 +36,7 @@
 
 ## Before
 
-[Gist Url]: # (https://gist.github.com/mcsee/1653269940ca6f9ea0618197d29eaf6f)
+<!-- [Gist Url](https://gist.github.com/mcsee/1653269940ca6f9ea0618197d29eaf6f) -->
 
 ```java
 public class Person {
@@ -71,7 +71,7 @@ public class JobApplication {
 
 ## After
 
-[Gist Url]: # (https://gist.github.com/mcsee/39efccf33d24bf297d200a6e9034381a)
+<!-- [Gist Url](https://gist.github.com/mcsee/39efccf33d24bf297d200a6e9034381a) -->
 
 ```java
 public class EmailAddress {

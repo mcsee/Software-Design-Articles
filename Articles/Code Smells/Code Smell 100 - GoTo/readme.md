@@ -30,7 +30,7 @@ I had to learn structured programming from scratch in Rehab mode.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/5d76fda8dfbe6f351e709baa00e0e61c)
+<!-- [Gist Url](https://gist.github.com/mcsee/5d76fda8dfbe6f351e709baa00e0e61c) -->
 
 ```csharp
 int i = 0;
@@ -46,7 +46,7 @@ if (i < 10)
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/da74b8e901f234b6bc400c9a6e0b7725)
+<!-- [Gist Url](https://gist.github.com/mcsee/da74b8e901f234b6bc400c9a6e0b7725) -->
 
 ```csharp
 for (int i = 0; i < 10; i++)

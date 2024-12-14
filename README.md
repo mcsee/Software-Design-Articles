@@ -798,6 +798,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Refactoring 019 - Reify Email Addresses](/Articles/Refactorings/Refactoring%20019%20-%20Reify%20Email%20Addresses/readme.md)
 
+* [Refactoring 020 - Transform Static Functions](/Articles/Refactorings/Refactoring%20020%20-%20Transform%20Static%20Functions/readme.md)
+
 ### Wordle
 
 * [How to Create a Wordle as a Centaur](/Articles/Wordle/How%20to%20Create%20a%20Wordle%20as%20a%20Centaur/readme.md)

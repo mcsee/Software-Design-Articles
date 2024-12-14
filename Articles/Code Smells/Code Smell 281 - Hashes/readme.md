@@ -45,7 +45,7 @@ Once within your controlled system, rely on identity and forget equality issues.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/8a78eb904fa716bd84f2d01143ae959c)
+<!-- [Gist Url](https://gist.github.com/mcsee/8a78eb904fa716bd84f2d01143ae959c) -->
 
 ```java
 class BrokenObject {
@@ -69,7 +69,7 @@ class BrokenObject {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/feb1a8d1a834c968b101b7b2be4ed735)
+<!-- [Gist Url](https://gist.github.com/mcsee/feb1a8d1a834c968b101b7b2be4ed735) -->
 
 ```java
 class FixedObject {

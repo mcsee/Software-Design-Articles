@@ -46,7 +46,7 @@
 
 ## Before
 
-[Gist Url]: # (https://gist.github.com/mcsee/ffba17263f40053ed57698d0880b942c)
+<!-- [Gist Url](https://gist.github.com/mcsee/ffba17263f40053ed57698d0880b942c) -->
 
 ```java
 public String handleMicrophoneState(String state) {
@@ -72,7 +72,7 @@ will require changes in multiple places in the code. */
 
 ## After
 
-[Gist Url]: # (https://gist.github.com/mcsee/2c97cd57dc9e98c877e91fcb7ed3191c)
+<!-- [Gist Url](https://gist.github.com/mcsee/2c97cd57dc9e98c877e91fcb7ed3191c) -->
 
 ```java
 // Step 1: Find or Create a Polymorphic Hierarchy

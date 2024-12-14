@@ -30,7 +30,7 @@ When we create complex and mature software, we start to forget about this primit
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/973a11295d0d93baa620763dd8eff801)
+<!-- [Gist Url](https://gist.github.com/mcsee/973a11295d0d93baa620763dd8eff801) -->
 
 ```java
 boolean isEven(int num) {
@@ -44,7 +44,7 @@ boolean isEven(int num) {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/ab38ef6fcc5dd6dea98f1edb452e75e9)
+<!-- [Gist Url](https://gist.github.com/mcsee/ab38ef6fcc5dd6dea98f1edb452e75e9) -->
 
 ```java
 boolean isEven(int numberToCheck) {

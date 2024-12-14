@@ -32,7 +32,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/0fcfc27f845835533e1853384bc2f4da)
+<!-- [Gist Url](https://gist.github.com/mcsee/0fcfc27f845835533e1853384bc2f4da) -->
 
 ```javascript
 export default class UserHelpers {
@@ -60,7 +60,7 @@ const category = UserHelpers.getCategory(alice);
 
 Notice *static* methods.
 
-[Gist Url]: # (https://gist.github.com/mcsee/f049135c8043e628551a40844bef0983)
+<!-- [Gist Url](https://gist.github.com/mcsee/f049135c8043e628551a40844bef0983) -->
 
 ```javascript
 import UserHelpers from './UserHelpers';
@@ -77,7 +77,7 @@ const category = UserHelpers.getCategory(alice);
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/bd0982f4c86a3523cd5a956196214b9c)
+<!-- [Gist Url](https://gist.github.com/mcsee/bd0982f4c86a3523cd5a956196214b9c) -->
 
 ```javascript
 class UserScore {  
@@ -126,7 +126,7 @@ const category = new CategoryCalculator(alice).display();
 
 or we can make the former *Helper* stateless for reuse...
 
-[Gist Url]: # (https://gist.github.com/mcsee/b6550c193e41862ed8a84cbe885d989d)
+<!-- [Gist Url](https://gist.github.com/mcsee/b6550c193e41862ed8a84cbe885d989d) -->
 
 ```javascript
 class UserScore {  

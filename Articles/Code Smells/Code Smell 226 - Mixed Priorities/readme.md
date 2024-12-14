@@ -32,7 +32,7 @@ Spacecrafts have a [long history](https://github.com/mcsee/Software-Design-Artic
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/e828fb96c53f62f62b40dc70bc1b02ee)
+<!-- [Gist Url](https://gist.github.com/mcsee/e828fb96c53f62f62b40dc70bc1b02ee) -->
 
 ```python
 class TaskManager:
@@ -70,7 +70,7 @@ task_manager.execute_tasks()
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/eb49b855ffcefc372150228b9b9f0a70)
+<!-- [Gist Url](https://gist.github.com/mcsee/eb49b855ffcefc372150228b9b9f0a70) -->
 
 ```python
 class TaskManager:

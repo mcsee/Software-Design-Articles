@@ -31,7 +31,7 @@
 
 ## Before
 
-[Gist Url]: # (https://gist.github.com/mcsee/18b119021e9a5c4e2340a72a0bd12978)
+<!-- [Gist Url](https://gist.github.com/mcsee/18b119021e9a5c4e2340a72a0bd12978) -->
 
 ```typescript
 class Bill {
@@ -58,7 +58,7 @@ console.log(bill.paid); // true
 
 ## After
 
-[Gist Url]: # (https://gist.github.com/mcsee/f05f0411564b9a39697ebfa848e46995)
+<!-- [Gist Url](https://gist.github.com/mcsee/f05f0411564b9a39697ebfa848e46995) -->
 
 ```typescript
 // 1. Identify attributes representing states

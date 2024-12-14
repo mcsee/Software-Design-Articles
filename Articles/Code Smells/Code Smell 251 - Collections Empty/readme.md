@@ -32,7 +32,7 @@ Skipping this declarative method violating the collection encapsulation might ha
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/8b7f7ec65cf3a60e31a3c31d4477615f)
+<!-- [Gist Url](https://gist.github.com/mcsee/8b7f7ec65cf3a60e31a3c31d4477615f) -->
 
 ```java
 import java.util.EmptyStackException;
@@ -90,7 +90,7 @@ public class SchrodingerStack<T> {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/7e789f2e3e6e070e12177182192a62f7)
+<!-- [Gist Url](https://gist.github.com/mcsee/7e789f2e3e6e070e12177182192a62f7) -->
 
 ```java
 import java.util.EmptyStackException;

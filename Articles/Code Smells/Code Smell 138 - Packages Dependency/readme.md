@@ -32,7 +32,7 @@ This introduces coupling into our designs and architectural solutions.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/32a73793d00fc672138e1a98bbdc9aa8)
+<!-- [Gist Url](https://gist.github.com/mcsee/32a73793d00fc672138e1a98bbdc9aa8) -->
 
 ```javascript
 $ npm install --save is-odd
@@ -48,7 +48,7 @@ module.exports = function isOdd(value) {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/751b57a8178500e9143ea2081237ffaf)
+<!-- [Gist Url](https://gist.github.com/mcsee/751b57a8178500e9143ea2081237ffaf) -->
 
 ```javascript
 function isOdd(value) {

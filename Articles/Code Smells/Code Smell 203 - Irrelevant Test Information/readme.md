@@ -26,7 +26,7 @@ Tests should be minimal and follow the SetUp/Exercise/Assert pattern
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/913c97719a02e75721ea53d8e4e674c7)
+<!-- [Gist Url](https://gist.github.com/mcsee/913c97719a02e75721ea53d8e4e674c7) -->
 
 ```python
 def test_formula_1_race():
@@ -79,7 +79,7 @@ def test_formula_1_race():
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/ce5da0101b5e9eb72af22c12d6338f6a)
+<!-- [Gist Url](https://gist.github.com/mcsee/ce5da0101b5e9eb72af22c12d6338f6a) -->
 
 ```python
 def test_formula_1_race():

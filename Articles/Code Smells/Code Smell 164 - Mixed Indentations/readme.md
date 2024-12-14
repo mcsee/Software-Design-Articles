@@ -40,7 +40,7 @@ Tabs can count as many different options.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/17de024e249327b44a614f30e4961d94)
+<!-- [Gist Url](https://gist.github.com/mcsee/17de024e249327b44a614f30e4961d94) -->
 
 ```javascript
 function add(x, y) {
@@ -60,7 +60,7 @@ function main() {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/49bfb99979315a69bfe809afb0ae2158)
+<!-- [Gist Url](https://gist.github.com/mcsee/49bfb99979315a69bfe809afb0ae2158) -->
 
 ```javascript
 function add(x, y) {

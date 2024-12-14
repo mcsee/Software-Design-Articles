@@ -26,7 +26,7 @@
 
 ## Before
 
-[Gist Url]: # (https://gist.github.com/mcsee/c95a843d906b0e339ec617779f79f538)
+<!-- [Gist Url](https://gist.github.com/mcsee/c95a843d906b0e339ec617779f79f538) -->
 
 ```ruby
 class RangeNotSatisfiedException < StandardError
@@ -42,7 +42,7 @@ end
 
 ## After
 
-[Gist Url]: # (https://gist.github.com/mcsee/63915cf29a543ce091267619bb21917b)
+<!-- [Gist Url](https://gist.github.com/mcsee/63915cf29a543ce091267619bb21917b) -->
 
 ```ruby
 # 1. Check there are no references to the empty exception class.

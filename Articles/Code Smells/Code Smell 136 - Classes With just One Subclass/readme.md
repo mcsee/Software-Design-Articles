@@ -34,7 +34,7 @@ Not with interfaces, not with classes.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/ce3cbe785c4b1d542a2b0660acabbc8f)
+<!-- [Gist Url](https://gist.github.com/mcsee/ce3cbe785c4b1d542a2b0660acabbc8f) -->
 
 ```python
 class Boss(object):
@@ -52,7 +52,7 @@ class GoodBoss(Boss):
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/441d6bf98d916336dbfa2670d7109640)
+<!-- [Gist Url](https://gist.github.com/mcsee/441d6bf98d916336dbfa2670d7109640) -->
 
 ```python
 class Boss(object):

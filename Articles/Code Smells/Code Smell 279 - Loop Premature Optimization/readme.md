@@ -35,7 +35,7 @@ Keep loops simple and only optimize when you know a bottleneck exists in *real u
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/6ab1403ec709624ed0d20633258fed02)
+<!-- [Gist Url](https://gist.github.com/mcsee/6ab1403ec709624ed0d20633258fed02) -->
 
 ```python
 # Over-optimized and less readable
@@ -44,7 +44,7 @@ result = [item.process() for item in items if item.is_valid()]
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/3d6ccf81d53eeb55dfd100c8e14be382)
+<!-- [Gist Url](https://gist.github.com/mcsee/3d6ccf81d53eeb55dfd100c8e14be382) -->
 
 ```python
 # Clearer and easier to understand

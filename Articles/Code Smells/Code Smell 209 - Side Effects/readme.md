@@ -30,7 +30,7 @@ Functions are treated as mathematical expressions that map inputs to outputs.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/e532e326a6b5ac7d4b88b9aadaa86c0b)
+<!-- [Gist Url](https://gist.github.com/mcsee/e532e326a6b5ac7d4b88b9aadaa86c0b) -->
 
 ```typescript
 let counter = 0;
@@ -47,7 +47,7 @@ function incrementCounter(value: number): void {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/9ce2320f04f2a6f2e0c24e581e472091)
+<!-- [Gist Url](https://gist.github.com/mcsee/9ce2320f04f2a6f2e0c24e581e472091) -->
 
 ```typescript
 let counter = 0;

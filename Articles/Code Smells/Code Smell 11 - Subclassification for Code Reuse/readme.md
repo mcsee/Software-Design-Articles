@@ -20,7 +20,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/4f53d085c8b566936c04483064e25ed9)
+<!-- [Gist Url](https://gist.github.com/mcsee/4f53d085c8b566936c04483064e25ed9) -->
 
 ```java
 public class Rectangle {
@@ -56,7 +56,7 @@ public class Box extends Rectangle{
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/9f0082db40c2ab590b2b6ea9702bbb22)
+<!-- [Gist Url](https://gist.github.com/mcsee/9f0082db40c2ab590b2b6ea9702bbb22) -->
 
 ```java
 abstract public class Shape{

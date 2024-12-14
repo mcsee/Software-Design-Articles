@@ -26,7 +26,7 @@ Parentheses often break this flow, adding cognitive complexity
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/03c6940b1fa140572f29bfe37cf784c1)
+<!-- [Gist Url](https://gist.github.com/mcsee/03c6940b1fa140572f29bfe37cf784c1) -->
 
 ```javascript
 schwarzschild =
@@ -35,7 +35,7 @@ schwarzschild =
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/5b468c4d60d25dec61e538d0c1ed1329)
+<!-- [Gist Url](https://gist.github.com/mcsee/5b468c4d60d25dec61e538d0c1ed1329) -->
 
 ```javascript
 schwarzschild = (2 * GRAVITATION_CONSTANT * mass) / (LIGHT_SPEED ** 2)

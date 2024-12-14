@@ -38,7 +38,7 @@ The simple solution is to build only real-world and valid abstractions.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/1b6799dac071ce8bd2a1082dfdbd668d)
+<!-- [Gist Url](https://gist.github.com/mcsee/1b6799dac071ce8bd2a1082dfdbd668d) -->
 
 ```php
 <?
@@ -75,7 +75,7 @@ class Wordle {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/d2eace32ecb9f7564ebeaf8136118f53)
+<!-- [Gist Url](https://gist.github.com/mcsee/d2eace32ecb9f7564ebeaf8136118f53) -->
 
 ```php
 <?

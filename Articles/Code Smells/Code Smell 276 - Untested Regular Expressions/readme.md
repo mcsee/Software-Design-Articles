@@ -36,7 +36,7 @@ If you write a cryptic regex and skip automated testing, you could miss importan
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/311fe9e5b4509c7d0795b70e012ec248)
+<!-- [Gist Url](https://gist.github.com/mcsee/311fe9e5b4509c7d0795b70e012ec248) -->
 
 ```java
 public class PasswordValidator {
@@ -50,7 +50,7 @@ public class PasswordValidator {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/6569117489915db493b9a3f52429735d)
+<!-- [Gist Url](https://gist.github.com/mcsee/6569117489915db493b9a3f52429735d) -->
 
 ```java
 import java.util.ArrayList;

@@ -40,7 +40,7 @@ Null is not polymorphic with any object so any function that invokes it will bre
 
 Example 1: Lets us model the interaction between people during the current covid-19 pandemic.
 
-[Gist Url]: # (https://gist.github.com/mcsee/ec7035f1f818db309662460fc8a59d96)
+<!-- [Gist Url](https://gist.github.com/mcsee/ec7035f1f818db309662460fc8a59d96) -->
 
 ```php
 <?
@@ -182,7 +182,7 @@ The best solution in a classification language is to declare an interface to whi
 
 In the first example:
 
-[Gist Url]: # (https://gist.github.com/mcsee/bde14771106be4ffad1389a16f23c5c8)
+<!-- [Gist Url](https://gist.github.com/mcsee/bde14771106be4ffad1389a16f23c5c8) -->
 
 ```php
 <?
@@ -235,7 +235,7 @@ In this example, we replaced null with a specialization that, unlike it, exists 
 
 Let's go back to the patient form example. We needed to compute the average leaving out not filled forms.
 
-[Gist Url]: # (https://gist.github.com/mcsee/eae5a5035af62088a004f24ed6074986)
+<!-- [Gist Url](https://gist.github.com/mcsee/eae5a5035af62088a004f24ed6074986) -->
 
 ```php
 <? 

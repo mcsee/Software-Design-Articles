@@ -29,7 +29,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/61e95b5c7a8d697cb748cd49b43aab90)
+<!-- [Gist Url](https://gist.github.com/mcsee/61e95b5c7a8d697cb748cd49b43aab90) -->
 
 ```python
 class Date:
@@ -53,7 +53,7 @@ startDate.setMonth(13)
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/b5eebe620b66c510bafe04a7a4f8ef82)
+<!-- [Gist Url](https://gist.github.com/mcsee/b5eebe620b66c510bafe04a7a4f8ef82) -->
 
 ```python
 class Date:

@@ -45,7 +45,7 @@ Keeping things simple helps avoid creating code that is difficult to understand 
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/8d15f910232fe91b7d6516dcaafa6ddd)
+<!-- [Gist Url](https://gist.github.com/mcsee/8d15f910232fe91b7d6516dcaafa6ddd) -->
 
 ```java
 // Overengineered approach 
@@ -82,7 +82,7 @@ double darkMatter = calculator.calculateDarkMatter(1000);
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/7fc58766071d5a15e9991bc618ae4a8f)
+<!-- [Gist Url](https://gist.github.com/mcsee/7fc58766071d5a15e9991bc618ae4a8f) -->
 
 ```java
 // Simpler approach, without unnecessary factories and abstractions

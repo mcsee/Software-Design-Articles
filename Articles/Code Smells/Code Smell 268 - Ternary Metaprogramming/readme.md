@@ -36,7 +36,7 @@ Clean Code is the opposite of [Clever Code](https://github.com/mcsee/Software-De
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/c9358a49673ff171d4e6ee820cd38db5)
+<!-- [Gist Url](https://gist.github.com/mcsee/c9358a49673ff171d4e6ee820cd38db5) -->
 
 ```javascript
 const method = success ? 'start' : 'stop';
@@ -45,7 +45,7 @@ obj[method]();
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/3b0d3f749a608dcb64814b921a5c7e43)
+<!-- [Gist Url](https://gist.github.com/mcsee/3b0d3f749a608dcb64814b921a5c7e43) -->
 
 ```javascript
 if (success) {

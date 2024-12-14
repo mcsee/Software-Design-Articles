@@ -32,7 +32,7 @@ Consequently, you must know accidental implementations to avoid this [defect](ht
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/6283f6599373f54c37ad914fbbf89849)
+<!-- [Gist Url](https://gist.github.com/mcsee/6283f6599373f54c37ad914fbbf89849) -->
 
 ```javascript
 const pets = '😺🐶😺';
@@ -44,7 +44,7 @@ const catsArePresent = justDogs.includes('😺');
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/d1d819ebfaf99b4143e2545fab928adf)
+<!-- [Gist Url](https://gist.github.com/mcsee/d1d819ebfaf99b4143e2545fab928adf) -->
 
 ```javascript
 const pets = '😺🐶😺';

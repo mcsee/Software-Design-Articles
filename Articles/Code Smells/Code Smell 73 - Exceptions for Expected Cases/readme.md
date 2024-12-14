@@ -22,7 +22,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/14fe90a45804c47d898bab4fe8d17d36)
+<!-- [Gist Url](https://gist.github.com/mcsee/14fe90a45804c47d898bab4fe8d17d36) -->
 
 ```java
 try {
@@ -35,7 +35,7 @@ try {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/49811ad62691011166020c49c1c2ed71)
+<!-- [Gist Url](https://gist.github.com/mcsee/49811ad62691011166020c49c1c2ed71) -->
 
 ```java
 for (int index = 0; index < array.length; index++)

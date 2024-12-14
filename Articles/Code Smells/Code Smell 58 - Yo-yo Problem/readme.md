@@ -28,7 +28,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/85826dec4db583e6301c9c45a625a246)
+<!-- [Gist Url](https://gist.github.com/mcsee/85826dec4db583e6301c9c45a625a246) -->
 
 ```php
 <?
@@ -44,7 +44,7 @@ class RealController extends LoggedController {}
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/d50419e3b895ee4d4341ca3c31faa091)
+<!-- [Gist Url](https://gist.github.com/mcsee/d50419e3b895ee4d4341ca3c31faa091) -->
 
 ```php
 <?

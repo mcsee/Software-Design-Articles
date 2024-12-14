@@ -50,7 +50,7 @@ Simple code is easier to maintain, debug, and understand.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/5e59715c1c7bcfc4f1b8a4b89a2731fc)
+<!-- [Gist Url](https://gist.github.com/mcsee/5e59715c1c7bcfc4f1b8a4b89a2731fc) -->
 
 ```javascript
 function processData(data) {
@@ -105,7 +105,7 @@ function processData(data) {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/b5c20329bc5670687423d274d0b6f3e8)
+<!-- [Gist Url](https://gist.github.com/mcsee/b5c20329bc5670687423d274d0b6f3e8) -->
 
 ```javascript
 function processData(data) {

@@ -40,7 +40,7 @@ This strategy will reduce the risk of data breaches and make it easier to update
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/9f6389d74995cdebda3e81f5e9831fbe)
+<!-- [Gist Url](https://gist.github.com/mcsee/9f6389d74995cdebda3e81f5e9831fbe) -->
 
 ```python
 import requests
@@ -52,7 +52,7 @@ response = requests.get("https://api.example.com",
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/8ce54f7836bdc9552d505b9d350ee8d1)
+<!-- [Gist Url](https://gist.github.com/mcsee/8ce54f7836bdc9552d505b9d350ee8d1) -->
 
 ```python
 import os

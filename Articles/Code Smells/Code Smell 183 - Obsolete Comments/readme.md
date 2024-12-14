@@ -32,7 +32,7 @@ Since most people change logic and forget to update comments they might become o
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/fd5b6b44920df66b6558be35f729f0f7)
+<!-- [Gist Url](https://gist.github.com/mcsee/fd5b6b44920df66b6558be35f729f0f7) -->
 
 ```cpp
 void Widget::displayPlugin(Unit* unit){
@@ -49,7 +49,7 @@ void Widget::displayPlugin(Unit* unit){
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/36f9dde4301f0ab77c034aeba7c0b391)
+<!-- [Gist Url](https://gist.github.com/mcsee/36f9dde4301f0ab77c034aeba7c0b391) -->
 
 ```cpp
 void Widget::displayPlugin(Unit* unit)

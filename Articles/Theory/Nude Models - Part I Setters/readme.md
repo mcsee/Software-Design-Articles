@@ -20,7 +20,7 @@ Prior to Parnas’ paper, there were no clear rules on information accessing and
 
 Let’s see how to model a Cartesian point:
 
-[Gist Url]: # (https://gist.github.com/mcsee/d7c4b221d7b8c53a4d3f1a50973d4ec5)
+<!-- [Gist Url](https://gist.github.com/mcsee/d7c4b221d7b8c53a4d3f1a50973d4ec5) -->
 
 ```c
 struct Point {
@@ -37,7 +37,7 @@ Since it's just a data structure without operations, the attribute’s semantics
 
 Hence, if we want to change the **accidental** implementation of the point to its polar coordinates analogous:
 
-[Gist Url]: # (https://gist.github.com/mcsee/fffd65b045c23c30d0f2731fc7092dfe)
+<!-- [Gist Url](https://gist.github.com/mcsee/fffd65b045c23c30d0f2731fc7092dfe) -->
 
 ```c
 struct Point {
@@ -74,7 +74,7 @@ Upon [object-oriented](https://github.com/mcsee/Software-Design-Articles/tree/ma
 
 Returning to the previous example, we move from:
 
-[Gist Url]: # (https://gist.github.com/mcsee/e85b4194389f46c7b8f07f10f4296ec4)
+<!-- [Gist Url](https://gist.github.com/mcsee/e85b4194389f46c7b8f07f10f4296ec4) -->
 
 ```php
 <?
@@ -87,7 +87,7 @@ final class Point {
 
 towards representation change:
 
-[Gist Url]: # (https://gist.github.com/mcsee/9d367dbe97e94f81ae534c0775f94b4b)
+<!-- [Gist Url](https://gist.github.com/mcsee/9d367dbe97e94f81ae534c0775f94b4b) -->
 
 ```php
 <?
@@ -102,7 +102,7 @@ final class Point {
 
 Therefore, if we define a good point **interface**, they can arbitrarily change their representation (even on runtime) without propagating any ripple effect.
 
-[Gist Url]: # (https://gist.github.com/mcsee/4c61943f140fd78099ac61d92b6af436)
+<!-- [Gist Url](https://gist.github.com/mcsee/4c61943f140fd78099ac61d92b6af436) -->
 
 ```php
 <?
@@ -123,7 +123,7 @@ final class Point {
 
 when representation changes …
 
-[Gist Url]: # (https://gist.github.com/mcsee/3c518ce3708147f653813bf7a7c1865d)
+<!-- [Gist Url](https://gist.github.com/mcsee/3c518ce3708147f653813bf7a7c1865d) -->
 
 ```php
 <?
@@ -181,7 +181,7 @@ If we stay true to bijection, we will notice that there are never messages with 
 
 Let’s imagine a polygon as a data structure.
 
-[Gist Url]: # (https://gist.github.com/mcsee/ad55d3fbce11fd17cb53da994dde6406)
+<!-- [Gist Url](https://gist.github.com/mcsee/ad55d3fbce11fd17cb53da994dde6406) -->
 
 ```php
 <?
@@ -197,7 +197,7 @@ Being a data structure, we cannot impose such restriction.
 
 Using our amazing IDE with automatic code generation, we add the _setters_ and _getters_ to it.
 
-[Gist Url]: # (https://gist.github.com/mcsee/e0fb2b6319ad6df5f838d01894f46c69)
+<!-- [Gist Url](https://gist.github.com/mcsee/e0fb2b6319ad6df5f838d01894f46c69) -->
 
 ```php
 <?
@@ -217,7 +217,7 @@ final class Polygon {
 
 Let’s try adding the constraint on the number of vertices in the constructor:
 
-[Gist Url]: # (https://gist.github.com/mcsee/5d67de4e22f76db964ae06ae33dad6de)
+<!-- [Gist Url](https://gist.github.com/mcsee/5d67de4e22f76db964ae06ae33dad6de) -->
 
 ```php
 <?
@@ -242,7 +242,7 @@ Unless we use our setter …
 
 Nothing prevents us from running this code:
 
-[Gist Url]: # (https://gist.github.com/mcsee/f0353e604ae04b9479ac00b8762f64b2)
+<!-- [Gist Url](https://gist.github.com/mcsee/f0353e604ae04b9479ac00b8762f64b2) -->
 
 ```php
 <?

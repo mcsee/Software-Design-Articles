@@ -32,7 +32,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/eae0f716ae595002445926a33fb4d7e8)
+<!-- [Gist Url](https://gist.github.com/mcsee/eae0f716ae595002445926a33fb4d7e8) -->
 
 ```javascript
 function recoverFromGrief() {
@@ -69,7 +69,7 @@ function recoverFromGrief() {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/06f878717d284007d42c0140ccd0cb8e)
+<!-- [Gist Url](https://gist.github.com/mcsee/06f878717d284007d42c0140ccd0cb8e) -->
 
 ```javascript
 function recoverFromGrief() {

@@ -28,7 +28,7 @@ We need to add attributes 'on-demand' when there's enough evidence. Objects are 
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/f3a9f762f2781017247f5acf6cf281a1)
+<!-- [Gist Url](https://gist.github.com/mcsee/f3a9f762f2781017247f5acf6cf281a1) -->
 
 ```ruby
 class PersonInQueue
@@ -43,7 +43,7 @@ end
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/53d1777f204e64f5746a9a148ada934a)
+<!-- [Gist Url](https://gist.github.com/mcsee/53d1777f204e64f5746a9a148ada934a) -->
 
 ```ruby
 class PersonInQueue

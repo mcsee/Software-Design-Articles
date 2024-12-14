@@ -36,7 +36,7 @@ We should ask them for real evidence and contrast the more maintainable solution
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/d3eda35a36e6dfe7cb292ff2be5a7b71)
+<!-- [Gist Url](https://gist.github.com/mcsee/d3eda35a36e6dfe7cb292ff2be5a7b71) -->
 
 ```javascript
 if (address.street == 'Broad Street') { }  
@@ -49,7 +49,7 @@ if (location.street == 'Bourbon St') { }
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/7ecfc60fccc9053db2a7b22dc30f31cd)
+<!-- [Gist Url](https://gist.github.com/mcsee/7ecfc60fccc9053db2a7b22dc30f31cd) -->
 
 ```javascript
 if (address.isAtStreet('Broad Street') {  }

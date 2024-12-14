@@ -574,6 +574,12 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 280 - Spaghetti Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20280%20-%20Spaghetti%20Code/readme.md)
 
+[Code Smell 281 - Hashes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20281%20-%20Hashes/readme.md)
+
+[Code Smell 282 - Bad Defaults](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20282%20-%20Bad%20Defaults/readme.md)
+
+[Code Smell 283 - Unresolved Meta Tags](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20283%20-%20Unresolved%20Meta%20Tags/readme.md)
+
 ... and many more to come.
 
 * * *

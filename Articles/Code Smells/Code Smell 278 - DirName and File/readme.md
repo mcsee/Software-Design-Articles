@@ -49,7 +49,7 @@ Clear and descriptive variable names improve code readability and maintainabilit
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/0fb80439dd8c8e83797a3dad15a0cb22)
+<!-- [Gist Url](https://gist.github.com/mcsee/0fb80439dd8c8e83797a3dad15a0cb22) -->
 
 ```javascript
 function importBoardGameScores(file) {
@@ -72,7 +72,7 @@ function importDirectoryScores(dirName) {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/2946663ac7d99b4925457dbbe5dfaefd)
+<!-- [Gist Url](https://gist.github.com/mcsee/2946663ac7d99b4925457dbbe5dfaefd) -->
 
 ```javascript
 function importBoardGameScores(fileName) {

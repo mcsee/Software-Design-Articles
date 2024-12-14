@@ -28,7 +28,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/a2307973172b62bb9dc7b11ef7450220)
+<!-- [Gist Url](https://gist.github.com/mcsee/a2307973172b62bb9dc7b11ef7450220) -->
 
 ```javascript
 if (typeof(x) === 'undefined') {
@@ -69,7 +69,7 @@ move(livingstone);
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/5c0218fcf1362228f406e463f79171a9)
+<!-- [Gist Url](https://gist.github.com/mcsee/5c0218fcf1362228f406e463f79171a9) -->
 
 ```javascript
 class Animal { } 

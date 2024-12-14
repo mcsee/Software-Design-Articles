@@ -35,7 +35,7 @@
 
 ## Before
 
-[Gist Url]: # (https://gist.github.com/mcsee/7dbe7a31b56db54fdb510b1cc44480b5)
+<!-- [Gist Url](https://gist.github.com/mcsee/7dbe7a31b56db54fdb510b1cc44480b5) -->
 
 ```java
 public class CreditCard {
@@ -82,7 +82,7 @@ card.setCvv(123);
 
 ## After
 
-[Gist Url]: # (https://gist.github.com/mcsee/d78f13ba29b3b64b1a2fc3271dd3a0ac)
+<!-- [Gist Url](https://gist.github.com/mcsee/d78f13ba29b3b64b1a2fc3271dd3a0ac) -->
 
 ```java
 public class CreditCard {

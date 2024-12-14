@@ -22,7 +22,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/3b63bc3a76faf6e98c3770171f8e1c10)
+<!-- [Gist Url](https://gist.github.com/mcsee/3b63bc3a76faf6e98c3770171f8e1c10) -->
 
 ```javascript
 findMatch()
@@ -42,7 +42,7 @@ findMatch_thisisit_for_real()
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/1e3df98869010c8b9f37f1a76ff80c8b)
+<!-- [Gist Url](https://gist.github.com/mcsee/1e3df98869010c8b9f37f1a76ff80c8b) -->
 
 ```javascript
 findMatch()

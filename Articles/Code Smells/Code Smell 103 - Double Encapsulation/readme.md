@@ -38,7 +38,7 @@ Cost/benefit is not worth it.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/6f91efd52401b93f91322f20ab6d3aab)
+<!-- [Gist Url](https://gist.github.com/mcsee/6f91efd52401b93f91322f20ab6d3aab) -->
 
 ```solidity
 contract MessageContract {
@@ -61,7 +61,7 @@ contract MessageContract {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/91d0aa627815f79d471fa79150c5dc9b)
+<!-- [Gist Url](https://gist.github.com/mcsee/91d0aa627815f79d471fa79150c5dc9b) -->
 
 ```solidity
 contract MessageContract {

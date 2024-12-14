@@ -28,7 +28,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/c8fefffd87c98af9bec173266f090497)
+<!-- [Gist Url](https://gist.github.com/mcsee/c8fefffd87c98af9bec173266f090497) -->
 
 ```java
 import java.io.FileNotFoundException;
@@ -70,7 +70,7 @@ public class FileReader {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/029e21221849e251babf8d933170e62f)
+<!-- [Gist Url](https://gist.github.com/mcsee/029e21221849e251babf8d933170e62f) -->
 
 ```java
 public class FileReader {

@@ -34,7 +34,7 @@ We must avoid them.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/20c94ec159e6333ddd5891b4af0d5688)
+<!-- [Gist Url](https://gist.github.com/mcsee/20c94ec159e6333ddd5891b4af0d5688) -->
 
 ```java
 public abstract class SetTest {
@@ -55,7 +55,7 @@ public abstract class SetTest {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/e89bdc655b7248598e0e8ccd3e94997d)
+<!-- [Gist Url](https://gist.github.com/mcsee/e89bdc655b7248598e0e8ccd3e94997d) -->
 
 ```java
 public abstract class SetTest {

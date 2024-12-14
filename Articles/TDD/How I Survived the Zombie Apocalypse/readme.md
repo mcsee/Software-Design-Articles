@@ -278,7 +278,7 @@ forRecipients: recipients
 
 	recipients do: [:eachAddress | 
 		eachAddress isString
-			ifFalse: [ self error: (eachAddress , ' is not a valid recipient')]].
+			ifFalse: [ self error: (eachAddress , ' is not a valid recipient')] ].
 		 
 	^self new initializeForRecipients: recipients 
 ``` 
@@ -301,7 +301,7 @@ forRecipients: recipients
 
 recipients do: [:eachAddress | 
     eachAddress isString
-        ifFalse: [ self error: (eachAddress , ' is not a valid recipient')]].
+        ifFalse: [ self error: (eachAddress , ' is not a valid recipient')] ].
     (recipients asSet size = recipients size)
         ifFalse: [self error: 'Duplicates'].
 		 

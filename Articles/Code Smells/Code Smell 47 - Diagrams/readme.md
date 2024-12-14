@@ -40,7 +40,7 @@
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/36f0af6785ea36a05c3ec394fa71e4e8)
+<!-- [Gist Url](https://gist.github.com/mcsee/36f0af6785ea36a05c3ec394fa71e4e8) -->
 
 ```php
 <?

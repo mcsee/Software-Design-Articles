@@ -44,7 +44,7 @@ We need to start thinking in a whitebox way and looking at the protocol and beha
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/12dc64f150fb047541b9aaa795d85faf)
+<!-- [Gist Url](https://gist.github.com/mcsee/12dc64f150fb047541b9aaa795d85faf) -->
 
 ```java
 int port = 8080;
@@ -56,7 +56,7 @@ String path = pathFromPort("example.org", port);
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/32202947a8d5ef760936a1e094d3f6b3)
+<!-- [Gist Url](https://gist.github.com/mcsee/32202947a8d5ef760936a1e094d3f6b3) -->
 
 ```java
 Port server = Port.parse(this, "www.example.org:8080");

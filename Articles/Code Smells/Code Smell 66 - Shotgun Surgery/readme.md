@@ -26,7 +26,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/cb3d9eb1ede5297a16006a1453009867)
+<!-- [Gist Url](https://gist.github.com/mcsee/cb3d9eb1ede5297a16006a1453009867) -->
 
 ```php
 <?
@@ -58,7 +58,7 @@ final class SocialNetwork {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/23a8649a28ec56db1d0874c1a32b4fc7)
+<!-- [Gist Url](https://gist.github.com/mcsee/23a8649a28ec56db1d0874c1a32b4fc7) -->
 
 ```php
 <?

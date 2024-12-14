@@ -40,7 +40,7 @@ We just need to refactor.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/d1c326e90aa2feba4746c6e019999312)
+<!-- [Gist Url](https://gist.github.com/mcsee/d1c326e90aa2feba4746c6e019999312) -->
 
 ```java
 public class MyHelperClass {
@@ -56,7 +56,7 @@ public class MyHelperClass {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/c64e13c3ea97620ce02dab73ffc517b2)
+<!-- [Gist Url](https://gist.github.com/mcsee/c64e13c3ea97620ce02dab73ffc517b2) -->
 
 ```java
 public class Printer {

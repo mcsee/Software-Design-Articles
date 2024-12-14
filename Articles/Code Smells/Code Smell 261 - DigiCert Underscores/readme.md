@@ -37,7 +37,7 @@ This resulted in certificates being issued without proper validation and a casca
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/35be34c8eece30b4637f9c0dc0fbe387)
+<!-- [Gist Url](https://gist.github.com/mcsee/35be34c8eece30b4637f9c0dc0fbe387) -->
 
 ```rust
 // Incorrect random value without underscore
@@ -49,7 +49,7 @@ setup_dns_record(
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/bb6accc36fc74a838f8e90c5c6bcf6b4)
+<!-- [Gist Url](https://gist.github.com/mcsee/bb6accc36fc74a838f8e90c5c6bcf6b4) -->
 
 ```rust
 // Correct random value with underscore

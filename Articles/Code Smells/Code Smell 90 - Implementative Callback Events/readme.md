@@ -20,7 +20,7 @@
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/0a96468b7877744c0ec41d60378df4cd)
+<!-- [Gist Url](https://gist.github.com/mcsee/0a96468b7877744c0ec41d60378df4cd) -->
 
 ```javascript
 const Item = ({name, handlePageChange)} =>
@@ -36,7 +36,7 @@ const Item = ({name, handlePageChange)} =>
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/185fef9ac202fed779fcf8a6c8f0bac3)
+<!-- [Gist Url](https://gist.github.com/mcsee/185fef9ac202fed779fcf8a6c8f0bac3) -->
 
 ```javascript
 const Item = ({name, onItemSelected)} =>

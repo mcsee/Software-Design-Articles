@@ -35,7 +35,7 @@ This is also known as *Inversion of Control*.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/d925b228b08c4772a5ac7aac291221af)
+<!-- [Gist Url](https://gist.github.com/mcsee/d925b228b08c4772a5ac7aac291221af) -->
 
 ```typescript
 class TicketCart {
@@ -66,7 +66,7 @@ cart.checkout(money);
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/8b20655d72060014443b93b8a4578ca8)
+<!-- [Gist Url](https://gist.github.com/mcsee/8b20655d72060014443b93b8a4578ca8) -->
 
 ```typescript
 interface PaymentMethod {

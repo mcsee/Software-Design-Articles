@@ -25,7 +25,7 @@ Empty collections and non-empty collections are polymorphic.
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/a6549bd6a333574a2ba7120a74bcb974)
+<!-- [Gist Url](https://gist.github.com/mcsee/a6549bd6a333574a2ba7120a74bcb974) -->
 
 ```javascript
 class Person {
@@ -46,7 +46,7 @@ class Person {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/ec3cca15f071ae1ecebb223675e0cf79)
+<!-- [Gist Url](https://gist.github.com/mcsee/ec3cca15f071ae1ecebb223675e0cf79) -->
 
 ```javascript
 class Person {

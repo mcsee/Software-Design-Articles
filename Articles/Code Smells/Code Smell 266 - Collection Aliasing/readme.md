@@ -43,7 +43,7 @@ This is a special case of [Object Aliasing](https://github.com/mcsee/Software-De
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/60235f0e33f8eb07c6a52c92a36eb2f1)
+<!-- [Gist Url](https://gist.github.com/mcsee/60235f0e33f8eb07c6a52c92a36eb2f1) -->
 
 ```java
 public class MutableExample {
@@ -58,7 +58,7 @@ public class MutableExample {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/af93d425f2ad43f93dbb9e0dd630e61d)
+<!-- [Gist Url](https://gist.github.com/mcsee/af93d425f2ad43f93dbb9e0dd630e61d) -->
 
 ```java
 public class ImmutableExample {

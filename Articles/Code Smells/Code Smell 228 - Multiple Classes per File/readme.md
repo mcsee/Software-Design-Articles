@@ -38,7 +38,7 @@ This way, you can maintain a logical and efficient codebase while avoiding the i
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/ac8b6a8e3680a3083b1a74419973b12a)
+<!-- [Gist Url](https://gist.github.com/mcsee/ac8b6a8e3680a3083b1a74419973b12a) -->
 
 ```php
 <?
@@ -60,7 +60,7 @@ class Class2 {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/4b950a826ccb43b3309fa11a0cee13bd)
+<!-- [Gist Url](https://gist.github.com/mcsee/4b950a826ccb43b3309fa11a0cee13bd) -->
 
 ```php
 <?
@@ -74,7 +74,7 @@ class Class1 {
 }
 ```
 
-[Gist Url]: # (https://gist.github.com/mcsee/e55306d421eb33c7f70ddb77869f0ba2)
+<!-- [Gist Url](https://gist.github.com/mcsee/e55306d421eb33c7f70ddb77869f0ba2) -->
 
 ```php
 <?

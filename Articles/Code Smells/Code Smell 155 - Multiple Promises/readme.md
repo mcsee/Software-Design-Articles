@@ -26,7 +26,7 @@ We should wait until all conditions are met no matter the ordering.
 
 ## Wrong 
 
-[Gist Url]: # (https://gist.github.com/mcsee/08e94e3b7dbf0fd20cc1d9c296d6fdbc)
+<!-- [Gist Url](https://gist.github.com/mcsee/08e94e3b7dbf0fd20cc1d9c296d6fdbc) -->
 
 ```javascript
 async fetchLongTask() { }
@@ -41,7 +41,7 @@ async fetchAll() {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/b1f4721f8b8db8da67435c499fcec83d)
+<!-- [Gist Url](https://gist.github.com/mcsee/b1f4721f8b8db8da67435c499fcec83d) -->
 
 ```javascript
 async fetchLongTask() { }

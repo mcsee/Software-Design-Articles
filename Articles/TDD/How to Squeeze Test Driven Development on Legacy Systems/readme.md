@@ -102,7 +102,7 @@ According to the popular myth, we can't use TDD on existing systems. This is not
 
 We need to simplify redundant searches. That's all.
 
-[Gist Url]: # (https://gist.github.com/mcsee/e440f9528ac25f93eea05b6e162e60db)
+<!-- [Gist Url](https://gist.github.com/mcsee/e440f9528ac25f93eea05b6e162e60db) -->
 
 ```sql
 SELECT * FROM ARTISTS
@@ -116,7 +116,7 @@ OR (artist.fullname LIKE '%Sigur%')))
 
 System will execute just:
 
-[Gist Url]: # (https://gist.github.com/mcsee/6bbc4c4e9718114546d113d86edf2dca)
+<!-- [Gist Url](https://gist.github.com/mcsee/6bbc4c4e9718114546d113d86edf2dca) -->
 
 ```sql
 SELECT * FROM ARTISTS
@@ -128,7 +128,7 @@ OR (artist.fullname LIKE '%Sigur%')))
 
 Since this part is redundant and expensive to the database:
 
-[Gist Url]: # (https://gist.github.com/mcsee/9dfb863ad16e502ba99b367f668d25d1)
+<!-- [Gist Url](https://gist.github.com/mcsee/9dfb863ad16e502ba99b367f668d25d1) -->
 
 ```sql
 OR (artist.fullname LIKE '%Radiohead.%') 
@@ -143,7 +143,7 @@ OR (artist.fullname LIKE '%Sigur Ros%')
  
 1) Add a test (empty case) 
 
-[Gist Url]: # (https://gist.github.com/mcsee/9c07677d781d362b513265371ee425ae)
+<!-- [Gist Url](https://gist.github.com/mcsee/9c07677d781d362b513265371ee425ae) -->
 
 ```php
 <?
@@ -170,7 +170,7 @@ Notice:
 
 3) Write the simplest possible solution to make the test pass.
 
-[Gist Url]: # (https://gist.github.com/mcsee/32aa44cff1af0494bed7666bbf9ec68c)
+<!-- [Gist Url](https://gist.github.com/mcsee/32aa44cff1af0494bed7666bbf9ec68c) -->
 
 ```php
 <?
@@ -191,7 +191,7 @@ Notice:
 
 1) Add a test (simple expression) 
 
-[Gist Url]: # (https://gist.github.com/mcsee/a4076fb03f7af62a82d88ee7d803ae3f)
+<!-- [Gist Url](https://gist.github.com/mcsee/a4076fb03f7af62a82d88ee7d803ae3f) -->
 
 ```php
 <?
@@ -205,7 +205,7 @@ function test02SinglePatternDoesNotSimplify() {
 
 3) And the simplest solution for both cases.
 
-[Gist Url]: # (https://gist.github.com/mcsee/548c0df24149b087b6e5bd30e3e866c0)
+<!-- [Gist Url](https://gist.github.com/mcsee/548c0df24149b087b6e5bd30e3e866c0) -->
 
 ```php
 <?
@@ -225,7 +225,7 @@ We are taking **baby steps**, **slicing** the problem and following **divide and
 
 1) Add a test (two independent expressions).
 
-[Gist Url]: # (https://gist.github.com/mcsee/63f2766fcbb24aeb2fe03c2b4be15166)
+<!-- [Gist Url](https://gist.github.com/mcsee/63f2766fcbb24aeb2fe03c2b4be15166) -->
 
 ```php
 <?
@@ -249,7 +249,7 @@ Let's move on.
 
 1) Add a test (one expression containing the other).
 
-[Gist Url]: # (https://gist.github.com/mcsee/9719eeea751c2eef90efb6717bf8503b)
+<!-- [Gist Url](https://gist.github.com/mcsee/9719eeea751c2eef90efb6717bf8503b) -->
 
 ```php
 <?
@@ -270,7 +270,7 @@ This is an ugly algorithmic solution, but we will improve it with a refactoring 
 
 We cannot *fake it* anymore. We need to *make it*.
 
-[Gist Url]: # (https://gist.github.com/mcsee/ff2a499a73034fa621ae684742de6d0a)
+<!-- [Gist Url](https://gist.github.com/mcsee/ff2a499a73034fa621ae684742de6d0a) -->
 
 ```php
 <?
@@ -307,7 +307,7 @@ Luckily, we will soon have time for better solutions.
 
 1) Add a test (left expression containing the right one) 
 
-[Gist Url]: # (https://gist.github.com/mcsee/851bbc77560f890f6676031d2c1cb033)
+<!-- [Gist Url](https://gist.github.com/mcsee/851bbc77560f890f6676031d2c1cb033) -->
 
 ```php
 <?
@@ -330,7 +330,7 @@ We make it explicit so no smart refactor can ever break it!
 
 1) Add a test (Capitalization is not relevant to MYSQL engine but our users might not be aware of that) 
 
-[Gist Url]: # (https://gist.github.com/mcsee/5e195837ad99e937c9951d4cea7b5036)
+<!-- [Gist Url](https://gist.github.com/mcsee/5e195837ad99e937c9951d4cea7b5036) -->
 
 ```php
 <?
@@ -347,7 +347,7 @@ function test06CapitalizationIsNotImportantWeMustSimplify() {
 
 3) The simplest solution for all the already written cases (with the new case).
 
-[Gist Url]: # (https://gist.github.com/mcsee/e0db739062069689de3efcd018192e39)
+<!-- [Gist Url](https://gist.github.com/mcsee/e0db739062069689de3efcd018192e39) -->
 
 ```php
 <?
@@ -380,7 +380,7 @@ Code smells and we have several test cases. We need a better solution.
 
 4) Let’s refactor the solution with a more efficient and readable one
 
-[Gist Url]: # (https://gist.github.com/mcsee/0beea3108976e868fdc78292b24ffbf4)
+<!-- [Gist Url](https://gist.github.com/mcsee/0beea3108976e868fdc78292b24ffbf4) -->
 
 ```php
 <?
@@ -413,7 +413,7 @@ function simplify(array $patterns): array {
 
 1) Add two unrelated redundant prefixes
 
-[Gist Url]: # (https://gist.github.com/mcsee/2bd6fdca179095400a4f5f6f9e52a696)
+<!-- [Gist Url](https://gist.github.com/mcsee/2bd6fdca179095400a4f5f6f9e52a696) -->
 
 ```php
 <?
@@ -437,7 +437,7 @@ And it works !
 
 Before
 
-[Gist Url]: # (https://gist.github.com/mcsee/25cb8c5f34c73399e24d9b338941f687)
+<!-- [Gist Url](https://gist.github.com/mcsee/25cb8c5f34c73399e24d9b338941f687) -->
 
 ```php
 <?
@@ -457,7 +457,7 @@ private function addTerms(string $SQLSelect) {
 
 Let's inject it.
 
-[Gist Url]: # (https://gist.github.com/mcsee/820585e06dad19fde4cddd17d357a473)
+<!-- [Gist Url](https://gist.github.com/mcsee/820585e06dad19fde4cddd17d357a473) -->
 
 ```php
 <?
@@ -497,7 +497,7 @@ Customer agreed to add this functionality.
 
 > Lets consider those cases
 
-[Gist Url]: # (https://gist.github.com/mcsee/ab38f62dcecbe3f1a421f4eddca93b9b)
+<!-- [Gist Url](https://gist.github.com/mcsee/ab38f62dcecbe3f1a421f4eddca93b9b) -->
 
 ```php
 <?
@@ -532,7 +532,7 @@ New cases are broken since they were not represented by a previous one. We keep 
 
 4) Let’s change the solution to cover all previous cases and the new ones.
 
-[Gist Url]: # (https://gist.github.com/mcsee/c1a978fb7b7ca24fed559ab83844887c)
+<!-- [Gist Url](https://gist.github.com/mcsee/c1a978fb7b7ca24fed559ab83844887c) -->
 
 ```php
 <?
@@ -578,7 +578,7 @@ This SQL generation mistaken as an empty condition.
 > So we will fix it TDD Way.
 We isolate the defect and add it as a broken TDD Case
 
-[Gist Url]: # (https://gist.github.com/mcsee/399681e65513e52b989477831d2c1f69)
+<!-- [Gist Url](https://gist.github.com/mcsee/399681e65513e52b989477831d2c1f69) -->
 
 ```php
 <?
@@ -595,7 +595,7 @@ Of Course, it fails since previous implementation brought an empty solution (and
 
 We can fix it by doing a duplicate's remover case-insensitive pre-processor at the beginning of simplify function:
 
-[Gist Url]: # (https://gist.github.com/mcsee/0dae05cfead4089b3da9c93669e193f1)
+<!-- [Gist Url](https://gist.github.com/mcsee/0dae05cfead4089b3da9c93669e193f1) -->
 
 ```php
 <?
@@ -627,7 +627,7 @@ Not dealing with case-sensitive duplicate's algorithm worked again.
 
 > Lets consider a different order.
 
-[Gist Url]: # (https://gist.github.com/mcsee/b82191e3251fff7d23fb97bc640f7dae)
+<!-- [Gist Url](https://gist.github.com/mcsee/b82191e3251fff7d23fb97bc640f7dae) -->
 
 ```php
 <?
@@ -658,7 +658,7 @@ Tests are green again
 
 > We add more tests considering mixed cases
 
-[Gist Url]: # (https://gist.github.com/mcsee/04555137bdad3fd71b3845e21c0e8585)
+<!-- [Gist Url](https://gist.github.com/mcsee/04555137bdad3fd71b3845e21c0e8585) -->
 
 ```php
 <?

@@ -41,7 +41,7 @@ These languages are known for being higher level and more declarative:
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/79140cca1b6b1d1459ae73801ef26845)
+<!-- [Gist Url](https://gist.github.com/mcsee/79140cca1b6b1d1459ae73801ef26845) -->
 
 ```go
 package main
@@ -60,7 +60,7 @@ func main() {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/3ccf0ebb605c95b96a185999290bd52f)
+<!-- [Gist Url](https://gist.github.com/mcsee/3ccf0ebb605c95b96a185999290bd52f) -->
 
 ```matlab
 numbers = [10, 20, 30, 40, 50];

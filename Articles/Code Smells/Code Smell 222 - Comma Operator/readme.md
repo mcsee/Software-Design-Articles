@@ -32,7 +32,7 @@ Each expression is evaluated in order from left to right, and the final value of
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/b18abdb155a811f6f3f694b079837330)
+<!-- [Gist Url](https://gist.github.com/mcsee/b18abdb155a811f6f3f694b079837330) -->
 
 ```javascript
 const gravitationalConstant = 6.67430e-11;
@@ -54,7 +54,7 @@ var force = (distanceSquared = distanceBlackHoles * distanceBlackHoles,
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/3a928ca6aa06e70c0f20d40487c6bad9)
+<!-- [Gist Url](https://gist.github.com/mcsee/3a928ca6aa06e70c0f20d40487c6bad9) -->
 
 ```javascript
 function calculateGravitationalForce(mass1, mass2, distance) {

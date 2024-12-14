@@ -40,7 +40,7 @@ We need to surgically improve our code when the facts tell us we have a real iss
 
 ## Wrong
 
-[Gist Url]: # (https://gist.github.com/mcsee/b8d538891f3b1cf508e984399af004b0)
+<!-- [Gist Url](https://gist.github.com/mcsee/b8d538891f3b1cf508e984399af004b0) -->
 
 ```javascript
 for (k = 0; k < 3 * 3; ++k) {
@@ -57,7 +57,7 @@ for (k = 0; k < 3 * 3; ++k) {
 
 ## Right
 
-[Gist Url]: # (https://gist.github.com/mcsee/b68e67c449b7d0a5b13f69381f02e8e4)
+<!-- [Gist Url](https://gist.github.com/mcsee/b68e67c449b7d0a5b13f69381f02e8e4) -->
 
 ```javascript
 for (outerIterator = 0; outerIterator< 3; outerIterator++) {
