@@ -6,7 +6,8 @@ use phpUnitTutorial\Payment;
 
 class PaymentTest extends \PHPUnit_Framework_TestCase
 {
-    public function testProcessPaymentReturnsTrueOnSuccessfulPayment()
+    public function 
+        testProcessPaymentReturnsTrueOnSuccessfulPayment()
     {
         $paymentDetails = array(
             'amount'   => 123.99,
@@ -32,7 +33,8 @@ class PaymentTest extends \PHPUnit_Framework_TestCase
             ->method('authorizeAndCapture')
             ->will($this->returnValue($response));
 
-        $result = $payment->processPayment($authorizeNet, $paymentDetails);
+        $result = $payment->processPayment(
+            $authorizeNet, $paymentDetails);
 
         $this->assertTrue($result);
     }

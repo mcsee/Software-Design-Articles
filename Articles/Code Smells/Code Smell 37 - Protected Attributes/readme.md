@@ -21,6 +21,8 @@
 3. Extract behavior to separate objects.
 4. Use [traits](https://en.wikipedia.org/wiki/Trait_(computer_programming) (if available).
 
+# Sample Code
+
 ## Wrong
 
 <!-- [Gist Url](https://gist.github.com/mcsee/b599977d400cf92eda495f5f5011fb97) -->
@@ -128,6 +130,10 @@ In languages supporting *protected* attributes we can avoid them by policy or ha
 # Tags
 
 - Encapsulation
+
+# Level
+
+[X] Intermediate
 
 # Conclusion
 

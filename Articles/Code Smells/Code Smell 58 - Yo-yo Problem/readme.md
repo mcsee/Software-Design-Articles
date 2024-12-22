@@ -64,6 +64,10 @@ Any linter can check for suspects against a max depth threshold.
 
 - Hierarchy
 
+# Level
+
+[X] Intermediate
+
 # Conclusion
 
 Many novice programmers reuse code through hierarchies. This brings high coupled and low cohesive hierarchies. 

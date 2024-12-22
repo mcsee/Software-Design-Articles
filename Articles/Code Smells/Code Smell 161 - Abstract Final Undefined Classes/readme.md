@@ -35,10 +35,13 @@ Keeping hierarchies healthy is crucial to favor cohesion and avoid [coupling](ht
 ```java
 public class Vehicle
 {
-  // the class is not a leaf. Therefore it should be abstract
+  // the class is not a leaf. 
+  // Therefore it should be abstract
     
-  // an abstract method that only declares, but does not define the start 
-  // functionality because each vehicle uses a different starting mechanism
+  // an abstract method that only declares,
+  // but does not define the start 
+  // functionality because 
+  // each vehicle uses a different starting mechanism
   abstract void start();
 }
 
@@ -87,6 +90,10 @@ Since this is enforced by static analysis, we can't do it with most available to
 # Tags
 
 - Subclassification
+
+# Level
+
+[X] Intermediate
 
 # Conclusion
 

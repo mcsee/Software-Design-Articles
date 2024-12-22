@@ -85,6 +85,10 @@ Also, many compilers directly forbid it.
 
 - Readability
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 Try to be strict when defining functions to avoid coupling.

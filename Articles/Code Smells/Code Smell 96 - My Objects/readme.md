@@ -56,6 +56,10 @@ We can tell our linters and static checkers to search for this prefix and warn u
 
 - Naming
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 Avoid using *my*. Objects change according to the usage context.

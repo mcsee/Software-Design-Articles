@@ -61,6 +61,10 @@ Automatic detection is not an easy task. We could enforce local naming policies 
 
 - Naming
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 Choose your names wisely.

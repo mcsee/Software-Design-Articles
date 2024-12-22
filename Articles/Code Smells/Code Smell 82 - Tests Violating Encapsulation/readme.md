@@ -101,6 +101,10 @@ We can detect we need a method just for test.
 
 - Information Hiding
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 White-box tests are fragile. They test implementation instead of behavior.

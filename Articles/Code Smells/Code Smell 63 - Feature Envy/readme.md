@@ -75,6 +75,10 @@ Some linters can detect a sequential pattern of collaborations with another obje
 
 - Coupling
 
+# Level
+
+[X] Intermediate
+
 # Conclusion
 
 - We should assign responsibilities according to real object [mappers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) and avoid abusing other objects' protocol.

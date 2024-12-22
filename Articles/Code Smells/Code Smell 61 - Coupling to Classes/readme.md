@@ -81,6 +81,10 @@ We can use almost any linter to find references to classes. We should not abuse 
 
 - Coupling
 
+# Level
+
+[X] Intermediate
+
 # Conclusion
 
 Dependencies to Interfaces make a system less coupled and thus more extensible and testable.

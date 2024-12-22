@@ -37,7 +37,7 @@ When handling a single *fileName* or *directoryPath*, vague names like *file* or
 * A *fileHandler* should represent a pointer to an external resource
 * *dirName* should be *directoryPath*
 
-Clear names like *fileName* for names and *directoryPath* for directories communicate each variable’s role. 
+Clear names like *fileName* for names and *directoryPath* for directories communicate each variable's role. 
 
 When you name a variable file, it can confuse others about its purpose. Does it store a file object or just the filename? 
 

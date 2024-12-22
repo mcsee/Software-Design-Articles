@@ -104,6 +104,10 @@ We can instruct our static linters to find wrapping methods if they follow conve
 
 - Declarativiness
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 We came across this kind of methods some time in our developer life, We smelled something was not OK with them. Now is the time to change them!

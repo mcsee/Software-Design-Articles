@@ -60,6 +60,10 @@ We can block them on our linters.
 
 - Javascript
 
+# Level
+
+[x] Intermediate
+
 # Conclusion
 
 We need to be very careful using functions that violate real-world concepts using language tricks.

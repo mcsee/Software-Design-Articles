@@ -89,6 +89,10 @@ Many linters can warn us from reusing variables
 
 - Readability
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 Reusing variables is a non-contextual copy and paste hint.

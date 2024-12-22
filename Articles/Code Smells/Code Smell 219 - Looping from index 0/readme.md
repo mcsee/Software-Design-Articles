@@ -86,6 +86,10 @@ This is a language smell.
 
 - Declarative Code
 
+# Level
+
+[X] Intermediate
+
 # Conclusion
 
 We need to think as humans when we code and not as machines.

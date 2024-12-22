@@ -18,7 +18,7 @@ You can purchase candies, save them for later, or trade your Bitcoin like fantas
 
 You can use Bitcoin to buy things online or trade with other people.
 
-It’s different from real bills or physical coins because no bank or government prints or issues it.
+Itï¿½s different from real bills or physical coins because no bank or government prints or issues it.
 
 The Bitcoin network uses blockchain technology to track transactions and ensure everything is visible and safe.
 
@@ -52,7 +52,7 @@ This is very attractive as an alternative to traditional banking systems.
 
 The emergence property of the blockchain adds new interesting properties different from traditional asset management.
 
-Bitcoin’s value fluctuates based on market demand, and people often see it as both a digital asset and a potential store of value.
+Bitcoin's value fluctuates based on market demand, and people often see it as both a digital asset and a potential store of value.
 
 # Expert
 

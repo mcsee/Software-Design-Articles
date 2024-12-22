@@ -84,6 +84,10 @@ We might find the code harder to read.
 
 - Premature Optimization
 
+# Level
+
+[X] Intermediate
+
 # Conclusion
 
 We need to stop optimizing for machines and start optimizing for human readers and code maintainers.

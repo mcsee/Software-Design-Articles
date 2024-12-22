@@ -68,6 +68,10 @@ We need to have good coverage to rely on this solution.
 
 - YAGNI
 
+# Level
+
+[X] Intermediate
+
 # Conclusion
 
 Dead code is always a problem.

@@ -65,7 +65,8 @@ We set up our valid game before building our UI
 ```javascript
 const response = await fetch("dictionary.txt");
  const dictionary = await response.text();
- const words = dictionary.split(/\r?\n/).map((string) => new Word(string));
+ const words = dictionary.split(/\r?\n/).map((string) 
+     => new Word(string));
 
  var randomIndex = Math.floor(Math.random() * words.length);
  var winnerWord = words[randomIndex];
@@ -140,8 +141,10 @@ document.getElementById('validate').
     return;
   }  
 
-  var correctMatches = attempt.matchesPositionWith(winnerWord); 
-  var incorrectMatches = attempt.matchesIncorrectPositionWith(winnerWord); 
+  var correctMatches = 
+      attempt.matchesPositionWith(winnerWord); 
+  var incorrectMatches = 
+      attempt.matchesIncorrectPositionWith(winnerWord); 
   
   for (var i = rowIndex * 5; i < (rowIndex + 1) * 5; i++) { 
     if (correctMatches.includes(i-(rowIndex * 5)+1)) { 

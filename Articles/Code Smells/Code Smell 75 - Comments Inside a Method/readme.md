@@ -133,6 +133,10 @@ Tip: (Thanks [@GreenFieldCoder](https://twitter.com/GreenFieldCoder))
 
 - Comments
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 Comments are a code smell. If you need to document a design decision, you should do it before the actual method code.

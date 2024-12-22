@@ -69,6 +69,10 @@ Many linters report *Depth of inheritance tree (DIT)*.
 
 - Hierarchies
 
+# Level
+
+[X] Intermediate
+
 # Conclusion
 
 Look after your hierarchies and break them often.

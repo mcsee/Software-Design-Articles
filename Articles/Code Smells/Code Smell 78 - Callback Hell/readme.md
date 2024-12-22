@@ -101,6 +101,10 @@ This problem shines at the naked eye. Many linters can detect this complexity an
 
 - Complexity
 
+# Level
+
+[X] Intermediate
+
 # Conclusion
 
 Callback Hell is a very common problem in programming languages with futures or promises.

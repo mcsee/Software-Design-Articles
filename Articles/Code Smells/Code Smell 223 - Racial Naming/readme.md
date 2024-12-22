@@ -104,7 +104,7 @@ Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/t
 
 # Credits
 
-Photo by [Aarón Blanco Tejedor](https://unsplash.com/@the_meaning_of_love) on [Unsplash](https://unsplash.com/photos/yH18lOSaZVQ)
+Photo by [AarÃ³n Blanco Tejedor](https://unsplash.com/@the_meaning_of_love) on [Unsplash](https://unsplash.com/photos/yH18lOSaZVQ)
     
 * * *
 

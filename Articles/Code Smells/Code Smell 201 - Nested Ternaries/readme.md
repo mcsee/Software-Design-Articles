@@ -81,6 +81,10 @@ Linters can detect this complexity using parsing trees.
 
 - IFs
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 We must deal with [accidental complexity](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md) to improve code readability.

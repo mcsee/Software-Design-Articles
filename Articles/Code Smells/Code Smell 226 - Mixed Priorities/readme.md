@@ -22,7 +22,7 @@
 
 [Luna-25](https://en.wikipedia.org/wiki/Luna_25) crashed on the moon's surface on August 19, 2023. 
 
-4 days before India’s [Chandrayaan-3](https://en.wikipedia.org/wiki/Chandrayaan-3) soft landed on Moon's south pole.
+4 days before India's [Chandrayaan-3](https://en.wikipedia.org/wiki/Chandrayaan-3) soft landed on Moon's south pole.
 
 A [forensic analysis](https://t.me/roscosmos_gk/11053) revealed that the instructions shared a bus and were not prioritized correctly.
 
@@ -137,7 +137,7 @@ Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/t
   
 * * *
 
-> The Analytical Engine has no pretensions whatever to originate anything. It can do whatever we know how to order it to perform… But it is likely to exert an indirect and reciprocal influence on science itself.
+> The Analytical Engine has no pretensions whatever to originate anything. It can do whatever we know how to order it to performï¿½ But it is likely to exert an indirect and reciprocal influence on science itself.
 
 _Ada Lovelace_
  

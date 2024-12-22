@@ -76,6 +76,10 @@ You can set your linters to warn you for public attributes, setters and getters 
 
 - Coupling
 
+# Level
+
+[X] Intermediate
+
 # Conclusion
 
 If your classes are polluted with setters, getters and public methods you will certainly have ways to couple to their accidental implementation.

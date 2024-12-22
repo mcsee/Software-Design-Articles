@@ -80,6 +80,10 @@ We can find command patterns and rename all objects.
 
 - Naming
 
+# Level
+
+[X] Intermediate
+
 # Conclusion
 
 Class Preffixing was a widespread practice decades ago to claim ownership. 

@@ -1,9 +1,12 @@
 public class Vehicle
 {
-  // the class is not a leaf. Therefore it should be abstract
+  // the class is not a leaf. 
+  // Therefore it should be abstract
     
-  // an abstract method that only declares, but does not define the start 
-  // functionality because each vehicle uses a different starting mechanism
+  // an abstract method that only declares,
+  // but does not define the start 
+  // functionality because 
+  // each vehicle uses a different starting mechanism
   abstract void start();
 }
 

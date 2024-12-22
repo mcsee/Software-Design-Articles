@@ -114,7 +114,7 @@ Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/t
 
 # Credits
 
-Photo by [Håkon Grimstad](https://unsplash.com/@grimstad) on [Unsplash](https://unsplash.com/photos/blue-and-black-butterfly-on-brown-stick-hteXWSF9jA4)
+Photo by [HÃ¥kon Grimstad](https://unsplash.com/@grimstad) on [Unsplash](https://unsplash.com/photos/blue-and-black-butterfly-on-brown-stick-hteXWSF9jA4)
     
 * * *
 

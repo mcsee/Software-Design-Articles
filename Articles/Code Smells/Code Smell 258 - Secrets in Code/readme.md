@@ -121,7 +121,7 @@ Photo by [saeed karimi](https://unsplash.com/@saeedkarimi) on [Unsplash](https:/
   
 * * *
 
-> Passwords are like underwear: you don’t let people see it, you should change it very often, and you shouldn’t share it with strangers.
+> Passwords are like underwear: you donï¿½t let people see it, you should change it very often, and you shouldn't share it with strangers.
 
 _Chris Pirillo_
  

@@ -22,8 +22,10 @@ document.getElementById('validate').
     return;
   }  
 
-  var correctMatches = attempt.matchesPositionWith(winnerWord); 
-  var incorrectMatches = attempt.matchesIncorrectPositionWith(winnerWord); 
+  var correctMatches = 
+      attempt.matchesPositionWith(winnerWord); 
+  var incorrectMatches = 
+      attempt.matchesIncorrectPositionWith(winnerWord); 
   
   for (var i = rowIndex * 5; i < (rowIndex + 1) * 5; i++) { 
     if (correctMatches.includes(i-(rowIndex * 5)+1)) { 

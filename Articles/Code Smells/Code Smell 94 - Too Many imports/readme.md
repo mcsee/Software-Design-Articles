@@ -77,6 +77,10 @@ We can set a warning threshold on our linters.
 
 - Ripple Effect
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 We need to think about dependencies when building our solutions to minimize Ripple Effect.

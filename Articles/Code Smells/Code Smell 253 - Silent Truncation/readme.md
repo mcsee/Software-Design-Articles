@@ -239,7 +239,7 @@ Photo by [Jametlene Reskp](https://unsplash.com/@reskp) on [Unsplash](https://un
     
 * * *
 
-> In programming, if someone tells you “you’re overcomplicating it,” they’re either 10 steps behind you or 10 steps ahead of you.
+> In programming, if someone tells you you're overcomplicating it, they're either 10 steps behind you or 10 steps ahead of you.
 
 _Andrew Clark_
 

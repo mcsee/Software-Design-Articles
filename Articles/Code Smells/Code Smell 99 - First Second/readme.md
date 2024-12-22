@@ -54,6 +54,10 @@ We can warn for forbidden words like 'first' and 'second' as argument names.
 
 - Readability
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 Always follow rule suggesting parameter.

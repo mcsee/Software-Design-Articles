@@ -54,6 +54,10 @@ With [Mutation Testing](https://en.wikipedia.org/wiki/Mutation_testing) techniqu
 
 - Testing
 
+# Level
+
+[X] Intermediate
+
 # Conclusion
 
 We should use development techniques like [TDD](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md) that request concrete business cases and make concrete assertions based on our domain.

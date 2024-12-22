@@ -54,7 +54,8 @@ class ClassicalSong extends Song {
     }
 
     listenCarefully() {
-        console.log(`I am listening to ${this.title} by ${this.composer}`);
+        console.log(
+            `I am listening to ${this.title} by ${this.composer}`);
     }
 }
 
@@ -71,6 +72,10 @@ An abstract class with just one subclass is an indicator of premature classifica
 - Bad Design 
 
 - Classification
+
+# Level
+
+[X] Beginner
 
 # Conclusion
 

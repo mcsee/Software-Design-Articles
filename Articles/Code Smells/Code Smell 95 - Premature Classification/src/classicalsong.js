@@ -5,7 +5,8 @@ class ClassicalSong extends Song {
     }
 
     listenCarefully() {
-        console.log(`I am listening to ${this.title} by ${this.composer}`);
+        console.log(
+            `I am listening to ${this.title} by ${this.composer}`);
     }
 }
 

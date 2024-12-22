@@ -70,6 +70,10 @@ Since *assert* and *assertDescription* are different functions, we can adjust ou
 
 - Test Smells
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 Be respectful to the reader of your assertions.

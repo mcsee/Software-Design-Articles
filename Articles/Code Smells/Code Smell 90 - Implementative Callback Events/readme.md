@@ -59,6 +59,10 @@ This is a semantic smell. We can detect it on peer code reviews.
 
 - Naming
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 Names are very important. We should delay implementation coupled names until the very last moment.

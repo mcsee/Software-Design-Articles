@@ -580,13 +580,15 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 283 - Unresolved Meta Tags](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20283%20-%20Unresolved%20Meta%20Tags/readme.md)
 
+[Code Smell 284 - Encrypted Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20284%20-%20Encrypted%20Functions/readme.md)
+
 ... and many more to come.
 
 * * *
 
 ![Aroma](https://cdn.hashnode.com/res/hashnode/image/upload/v1603577138164/btRuwlKSA.jpeg)
 
-Photo by [Richárd Ecsedi](https://unsplash.com/@icsike2) on [Unsplash](https://unsplash.com/@icsike2)
+Photo by [Richard Ecsedi](https://unsplash.com/@icsike2) on [Unsplash](https://unsplash.com/@icsike2)
 
 * * *
 

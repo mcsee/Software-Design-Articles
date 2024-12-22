@@ -60,6 +60,10 @@ This is a syntactic directive promoted by several languages, therefore it is eas
 
 - Metaprogramming
 
+# Level
+
+[X] Intermediate
+
 # Conclusion
 
 Adding an extra layer of complexity makes debugging very difficult. This technique was used when memory and CPU were scarce. Nowadays, we need clean code and we must leave premature optimization buried in the past.

@@ -128,7 +128,8 @@ class AccessControlPanel {
     return $user;
   }
   
-  // 2. Parametrize what is different (in this case $role and $loginPolicy)
+  // 2. Parametrize what is different
+  // (in this case $role and $loginPolicy)
 
   public function createRegularUser($username, $password, $email) {
     // 3. Invoke the abstraction

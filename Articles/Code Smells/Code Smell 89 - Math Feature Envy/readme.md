@@ -63,6 +63,10 @@ Since many cascading messages are sending to the same object, we can detect a pa
 
 - Coupling
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 This is a very basic smell. If we are manipulating another object's characteristics, we should let it do it the maths for us.

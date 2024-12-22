@@ -54,6 +54,10 @@ There's not much automated way of checking for possible abusers. A whitelist mig
 
 - Abusers
 
+# Level
+
+[X] Intermediate
+
 # Conclusion
 
 Regular expressions are a great tool for string validation. We must use them in a declarative way and just for strings.

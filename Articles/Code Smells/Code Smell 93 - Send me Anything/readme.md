@@ -71,6 +71,10 @@ We can detect this kind of method when they do different things, asking for the 
 
 - If Polluter
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 Magic castings and flexibility have a price. They put the rubbish under the rug and violate the fail fast principle.

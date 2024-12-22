@@ -70,7 +70,8 @@ $feb2020 = new YearMonth(2, $year2020);
 $invalidDate = new Date($day30, $feb2020);
 // will raise an exception. 
 // No, It will not coerce to March,1st
-// or do "under the rug magic" to coverup the programmer contract violation
+// or do "under the rug magic" 
+// to coverup the programmer contract violation
 ```
 
 In this way, we will fail very close to the place where the fault occurs, and we can take action. Most of the "modern" languages ​​hide the dirt under the carpet and allow "continue (as if nothing happens)" the execution so that we have to debug the cause of the problem with logs in order to carry out a forensic analysis in search of the failure root cause far away.

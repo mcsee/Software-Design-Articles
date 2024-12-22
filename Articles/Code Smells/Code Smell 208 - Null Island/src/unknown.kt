@@ -29,7 +29,8 @@ class EarthLocation(val latitude: Double, val longitude: Double):
 class UnknownLocation : Location() {
     override fun calculateDistance(other: Location): Double {
         throw IllegalArgumentException(
-            "Cannot calculate distance from an unknown location.")
+            "Cannot calculate distance" +
+            " from an unknown location.")
     }
 
     override fun ifKnownOrElse(knownAction:
@@ -42,10 +43,14 @@ class Person(val name: String, val location: Location)
 
 fun main() {
     val people = listOf(
-        Person("Alice", EarthLocation(40.7128, -74.0060)), // New York City
-        Person("Bob", EarthLocation(51.5074, -0.1278)), // London
-        Person("Charlie", EarthLocation(48.8566, 2.3522)), // Paris
-        Person("Tony", UnknownLocation()) // Unknown location
+        Person("Alice", EarthLocation(40.7128, -74.0060)), 
+        // New York City
+        Person("Bob", EarthLocation(51.5074, -0.1278)), 
+        // London
+        Person("Charlie", EarthLocation(48.8566, 2.3522)),
+        // Paris
+        Person("Tony", UnknownLocation()) 
+        // Unknown location
     )
     val rio = EarthLocation(-22.9068, -43.1729)
     // Rio de Janeiro coordinates

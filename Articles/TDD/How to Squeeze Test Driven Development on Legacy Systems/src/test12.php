@@ -1,6 +1,7 @@
 <?
 
-function test12SamePatternsDifferentCaseShouldYieldJustOneTermLowercase() {
+function 
+    test12SamePatternsDifferentCaseShouldYieldJustOneTermLowercase() {
     $this->assertEquals(
         ['yes'],
         (new LikePatternSimplifier())->simplify(

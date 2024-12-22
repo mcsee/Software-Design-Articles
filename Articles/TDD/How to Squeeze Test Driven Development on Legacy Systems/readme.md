@@ -583,7 +583,8 @@ We isolate the defect and add it as a broken TDD Case
 ```php
 <?
 
-function test12SamePatternsDifferentCaseShouldYieldJustOneTermLowercase() {
+function 
+    test12SamePatternsDifferentCaseShouldYieldJustOneTermLowercase() {
     $this->assertEquals(
         ['yes'],
         (new LikePatternSimplifier())->simplify(
@@ -632,7 +633,8 @@ Not dealing with case-sensitive duplicate's algorithm worked again.
 ```php
 <?
 
-function test13SamePatternsDifferentCaseDifferentOrderSimplifyLowerCase() {
+function 
+    test13SamePatternsDifferentCaseDifferentOrderSimplifyLowerCase() {
     $this->assertEquals(
         ['yes'],
         (new LikePatternSimplifier())->simplify(

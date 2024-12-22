@@ -61,6 +61,10 @@ We need to read all exception messages in code reviews.
 
 - UX
 
+# Level
+
+[X] Beginner
+
 # Relations
 
 [Code Smell 139 - Business Code in the User Interface](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20139%20-%20Business%20Code%20in%20the%20User%20Interface/readme.md)

@@ -71,6 +71,10 @@ final class LoanTrackerTests extends TestCase {
 
 We can remove all code annotations and forbid them by policy. 
 
+# Tags
+
+- Design
+
 # Conclusion
 
 Designing is a contact sport. We need to prototype and learn from our running models. 

@@ -89,6 +89,10 @@ With mutation testing, we can seed different objects with the same hash and chec
 
 - Security
 
+# Tags
+
+- Comparison
+
 # Conclusion
 
 Every performance improvement has its drawbacks.

@@ -153,7 +153,7 @@ Photo by [engin akyurt](https://unsplash.com/@enginakyurt) on [Unsplash](https:/
     
 * * *
 
-> We comfort ourselves with the belief that if the customers had just been happy with what they said they needed, the design would have been fine. It’s the customer’s fault for changing the requirements on us.
+> We comfort ourselves with the belief that if the customers had just been happy with what they said they needed, the design would have been fine. Itï¿½s the customer's fault for changing the requirements on us.
 
 _Robert Martin_
   

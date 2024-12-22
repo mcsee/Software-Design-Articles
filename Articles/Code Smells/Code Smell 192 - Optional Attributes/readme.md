@@ -91,6 +91,10 @@ You can detect nullable attributes and change them when necessary.
 
 - Null 
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 This is a generalization of the null object pattern.

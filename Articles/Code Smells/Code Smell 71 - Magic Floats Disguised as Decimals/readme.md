@@ -68,6 +68,10 @@ Since this is a language feature, it is difficult to detect. We can ask our lint
 
 - Premature Optimization
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 My first programming language was [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64)'s basic back in 1985.

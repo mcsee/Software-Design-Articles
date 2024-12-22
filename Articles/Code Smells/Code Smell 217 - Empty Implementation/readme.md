@@ -77,6 +77,10 @@ Since empty code is valid sometimes only a good peer review will find these prob
 
 - Hierarchies
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 Being lazy and deferring certain decisions is acceptable, but it's crucial to be explicit about it.

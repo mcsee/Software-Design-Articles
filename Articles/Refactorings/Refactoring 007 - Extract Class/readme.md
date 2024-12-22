@@ -106,13 +106,13 @@ final class Person {
 
 Most IDEs implement this safe refactor.
 
-# Why is the Code Better?
-
-Logic code is in just one place together with its rules
-
 # Safety
 
 This is a safe refactoring.
+
+# Why is the Code Better?
+
+Logic code is in just one place together with its rules
 
 # Tags
 

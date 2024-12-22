@@ -56,6 +56,10 @@ As with many of our naming conventions, we can instruct our linters to forbid na
 
 - Readability
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 Always use intention revealing names. 

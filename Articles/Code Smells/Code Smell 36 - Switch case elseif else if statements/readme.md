@@ -77,9 +77,25 @@ class Mp3Converter {
 }
 ```
 
-#Detection
+# Detection
 
 Since there are [valid cases](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md) for If/else usages, we should not pull the plug and forbid these instructions. We can put a ratio of if statements/other statements as a warning instead.  
+
+# Tags
+
+- IFs
+
+# Level
+
+- Begginner
+
+# Conclusion
+
+Switches and if-else chains often disguise deep structural problems in code. 
+
+When you replace them with polymorphism, state, or strategy patterns, you enhance flexibility, reduce duplication, and adhere to the Open/Closed Principle.
+
+Control structures overuse or misuse leads to brittle, hard-to-maintain systems.
 
 # Relations
 

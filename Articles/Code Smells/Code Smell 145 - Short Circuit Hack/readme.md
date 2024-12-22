@@ -69,6 +69,10 @@ Some actual linters warn us of this problem
 
 - Premature Optimization
 
+# Level
+
+[X] Intermediate
+
 # Conclusion
 
 Don't try to look smart. 

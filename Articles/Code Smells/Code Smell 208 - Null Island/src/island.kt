@@ -1,11 +1,17 @@
-class Person(val name: String, val latitude: Double, val longitude: Double)
+class Person(val name: String, 
+             val latitude: Double,
+             val longitude: Double)
 
 fun main() {
     val people = listOf(
-        Person("Alice", 40.7128, -74.0060), // New York City
-        Person("Bob", 51.5074, -0.1278), // London
-        Person("Charlie", 48.8566, 2.3522), // Paris
-        Person("Tony Hoare", 0.0, 0.0) // Null Island
+        Person("Alice", 40.7128, -74.0060), 
+        // New York City
+        Person("Bob", 51.5074, -0.1278), 
+        // London
+        Person("Charlie", 48.8566, 2.3522), 
+        // Paris
+        Person("Tony Hoare", 0.0, 0.0) 
+        // Null Island
     )
     
     for (person in people) {

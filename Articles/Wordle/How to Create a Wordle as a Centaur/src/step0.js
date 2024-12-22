@@ -1,6 +1,7 @@
  const response = await fetch("dictionary.txt");
  const dictionary = await response.text();
- const words = dictionary.split(/\r?\n/).map((string) => new Word(string));
+ const words = dictionary.split(/\r?\n/).map((string) 
+     => new Word(string));
 
  var randomIndex = Math.floor(Math.random() * words.length);
  var winnerWord = words[randomIndex];

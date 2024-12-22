@@ -119,7 +119,7 @@ Use these tools to automate meta-tag detection and reduce human error.
 
 # Conclusion
 
-Incomplete meta tags are more than just sloppy—they're harmful. Validate tags, assert completeness, and throw exceptions when needed. 
+Incomplete meta tags are more than just sloppy they're harmful. Validate tags, assert completeness, and throw exceptions when needed. 
 
 Handling meta tags carefully prevents errors and ensures a professional experience.
 

@@ -63,6 +63,10 @@ Some linters can warn us about methods including the term 'and'.
 
 - Coupling
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 When making methods, it is very important to play some rubber duck story and tell ourselves if we are making things right.

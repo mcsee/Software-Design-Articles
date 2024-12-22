@@ -83,6 +83,10 @@ We can automatically detect large classes or track changes.
 
 - Coupling
 
+# Level
+
+[X] Intermediate
+
 # Conclusion
 
 Classes must follow the Single Responsibility Principle and have just one reason to change.

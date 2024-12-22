@@ -73,6 +73,10 @@ This is a language smell.
 
 - Naming
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 Use real names for your models.

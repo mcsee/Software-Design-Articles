@@ -58,6 +58,10 @@ Our linters can warn us with too long names.
 
 - Naming
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 There are no [hard rules](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md) on name length.

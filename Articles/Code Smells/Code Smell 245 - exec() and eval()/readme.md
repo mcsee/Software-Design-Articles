@@ -114,7 +114,7 @@ Photo by [Yang](https://unsplash.com/@yangshuo) on [Unsplash](https://unsplash.c
   
 * * *
 
-> When you actually sit down to write some code, you learn things that you didn’t get from thinking about them in modeling terms…there is a feedback process there that you can only really get at from executing some things and seeing what works.
+> When you actually sit down to write some code, you learn things that you didn't get from thinking about them in modeling terms there is a feedback process there that you can only really get at from executing some things and seeing what works.
 
 _Martin Fowler_
   

@@ -88,6 +88,10 @@ Many [linters](https://rules.sonarsource.com/c/type/Code%20Smell/RSPEC-128/) and
 
 - IFs
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 Using switches and causes is problematic, your need to use higher-level sentences.

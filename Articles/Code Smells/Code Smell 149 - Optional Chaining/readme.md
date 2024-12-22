@@ -87,6 +87,10 @@ We can detect it and remove it.
 
 - Null
 
+# Level
+
+[X] Intermediate
+
 # Conclusion
 
 Many developers feel safe polluting the code with null dealing.

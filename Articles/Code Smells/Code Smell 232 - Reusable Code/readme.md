@@ -71,6 +71,10 @@ The abstraction must have a dependency correspondence on the [Bijection](https:/
 
 - Bloaters
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 Repeated code is a problem and a hint for a missing abstraction.

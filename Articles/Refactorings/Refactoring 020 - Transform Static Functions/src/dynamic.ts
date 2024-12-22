@@ -1,4 +1,4 @@
-// 1. Identify static methods used in your code.
+// 1. Identify static methods used in your code.			       
 // 2. Replace static methods with instance methods.
 // 3. Pass dependencies explicitly through
 // constructors or method parameters.

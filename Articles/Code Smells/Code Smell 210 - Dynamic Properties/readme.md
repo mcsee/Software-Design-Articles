@@ -75,7 +75,7 @@ Most languages have compiler options to avoid them.
 
 # Conclusion
 
-Dynamic properties are supported in many programming languages like PHP,    Python, Ruby,  JavaScript,  C#, Objective-C, Swift, Kotlin, etc.
+Dynamic properties are supported in many programming languages like PHP, Python, Ruby, JavaScript, C#, Objective-C, Swift, Kotlin, etc.
 
 In these languages, dynamic properties can be added to objects at runtime, and accessed using the object's property accessor syntax. 
 
@@ -93,7 +93,7 @@ Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/t
 
 # Credits
 
-Photo by [Karsten Würth](https://unsplash.com/@karsten_wuerth) on [Unsplash](https://unsplash.com/photos/0w-uTa0Xz7w)
+Photo by [Karsten WÃ¼rth](https://unsplash.com/@karsten_wuerth) on [Unsplash](https://unsplash.com/photos/0w-uTa0Xz7w)
     
 * * *
 

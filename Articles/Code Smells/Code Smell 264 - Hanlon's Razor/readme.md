@@ -2,7 +2,7 @@
 
 ![Code Smell 264 - Hanlon's Razor](Code%20Smell%20264%20-%20Hanlon's%20Razor.jpg)
 
-*Don’t Overcomplicate: Keep It Simple*
+*Donï¿½t Overcomplicate: Keep It Simple*
 
 > TL;DR: Overdefensive code leads to unnecessary complexity.
 
@@ -171,7 +171,7 @@ Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/t
 
 # Credits
 
-Photo by [Nacho Fernández](https://unsplash.com/@inteligencia_eco) on [Unsplash](https://unsplash.com/photos/gray-metal-razor-quxbQxvGiPA)
+Photo by [Nacho Fernï¿½ndez](https://unsplash.com/@inteligencia_eco) on [Unsplash](https://unsplash.com/photos/gray-metal-razor-quxbQxvGiPA)
   
 * * *
 

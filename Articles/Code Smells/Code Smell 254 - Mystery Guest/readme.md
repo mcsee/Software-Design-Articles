@@ -32,7 +32,7 @@
 
 Your test depends on external data or configurations not immediately visible within the test itself.
 
-This obscures the test’s setup, making it difficult for someone reading it to understand what is being tested and why it might fail. 
+This obscures the test's setup, making it difficult for someone reading it to understand what is being tested and why it might fail. 
 
 Every test case should have three stages:
 

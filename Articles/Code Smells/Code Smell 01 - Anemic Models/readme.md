@@ -78,6 +78,10 @@ They should ignore setters and getters and count real behavior methods.
 - Setters/Getters
 - Mutability
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 Avoid anemic models. Focus always on protocol instead of data. 

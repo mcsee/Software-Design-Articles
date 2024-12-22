@@ -55,6 +55,10 @@ giveSecondDoseOfVaccine(jane, flu);
 
 - Readability
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 This is a very simple smell. 

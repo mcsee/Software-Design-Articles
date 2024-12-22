@@ -94,7 +94,7 @@ Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Artic
 
 # Credits
 
-Photo by [Frédéric Barriol](https://unsplash.com/@webmaster13870) on [Unsplash](https://unsplash.com/s/photos/clock)  
+Photo by [FrÃ©dÃ©ric Barriol](https://unsplash.com/@webmaster13870) on [Unsplash](https://unsplash.com/s/photos/clock)  
 
 Original Article [Here](https://dev.to/dvddpl/clever-coding-tricks-that-we-dont-need--228l).
   

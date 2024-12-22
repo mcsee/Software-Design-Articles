@@ -58,6 +58,10 @@ This is a semantic rule. We can instruct our linters to warn us from using names
 
 - Declarative
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 The first name we can across is related to an accidental point of view. It takes time to build a theory on the models we are building using our [MAPPERS](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md). Once we get there, we must rename our variables-

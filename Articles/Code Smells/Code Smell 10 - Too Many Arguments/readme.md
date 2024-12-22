@@ -92,6 +92,10 @@ Most linters warn when the arguments list is too large.
 
 - primitive
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 Relate arguments and group them.

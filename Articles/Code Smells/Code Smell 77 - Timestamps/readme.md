@@ -60,6 +60,10 @@ We need to use them just to model... timestamps.
 
 - Bijection
 
+# Level
+
+[X] Intermediate
+
 # Conclusion
 
 This smell was inspired by recent [Ingenuity software fault](https://www.hebergementwebs.com/transport/the-autonomous-helicopter-mars-named-ingenuity-is-confused-by-a-time-stamp-issue-providing-insightful-lessons-for-self-driving-cars-ai).

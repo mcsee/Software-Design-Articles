@@ -87,6 +87,10 @@ You can remove deodorant comments and improve the code.
 
 - Comments
 
+# Level
+
+[X] Intermediate
+
 # Conclusion
 
 Remove any meaningless comment you find in your code.

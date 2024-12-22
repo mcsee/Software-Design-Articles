@@ -94,6 +94,10 @@ We can use [Pentesting techniques](https://en.wikipedia.org/wiki/Penetration_tes
 
 - Security 
 
+# Level
+
+[X] Intermediate
+
 # Conclusion
 
 In case we need to expose internal objects to the external world, we should use non-obvious IDs.

@@ -57,6 +57,10 @@ Since this is a "language feature", we can explicitly forbid it.
 
 - JavaScript
 
+# Level
+
+[X] Intermediate
+
 # Conclusion
 
 We should always favor immutability on our designs and take extra care with side effects.

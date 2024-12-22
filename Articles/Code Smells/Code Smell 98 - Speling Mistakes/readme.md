@@ -60,6 +60,10 @@ comboFedBySupplier = supplier.providers();
 
 - Code Styling
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 Pay close attention to your names. 

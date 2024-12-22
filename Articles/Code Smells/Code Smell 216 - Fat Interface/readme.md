@@ -96,6 +96,10 @@ class Bullfrog implements Animal {
 
 We can check the size of the interface protocol
 
+# Level
+
+[X] Intermediate
+
 # Tags
 
 - Cohesion

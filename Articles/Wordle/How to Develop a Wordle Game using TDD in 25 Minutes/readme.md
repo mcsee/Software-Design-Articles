@@ -1017,15 +1017,15 @@ public function test14MatchesIncorrectPositionsWithMatch() {
         $firstWord = new Word('alarm');
         $secondWord = new Word('drama');
         $this->assertEquals([3], 
-                $firstWord->matchesPositionWith($secondWord));
+            $firstWord->matchesPositionWith($secondWord));
         $this->assertEquals([1, 4, 5], 
-                $firstWord->matchesIncorrectPositionWith($secondWord));
+            $firstWord->matchesIncorrectPositionWith($secondWord));
         // A*ARM vs *RAMA
         $this->assertEquals
-                ([3],
-                $secondWord->matchesPositionWith($firstWord));
+            ([3],
+            $secondWord->matchesPositionWith($firstWord));
         $this->assertEquals([2, 4, 5],
-                $secondWord->matchesIncorrectPositionWith($firstWord));
+            $secondWord->matchesIncorrectPositionWith($firstWord));
     }
 
 // The complicated solution
@@ -1042,7 +1042,8 @@ function matchesIncorrectPositionWith(Word $anotherWord) : array {
                     $anotherWord->letters())) {
                 $positions[] = $currentPosition + 1; 
                 // Humans start counting on 1
-                // You can implement this better in several other languages
+                // You can implement this better
+                // in several other languages
             }
         }
         return array_values(

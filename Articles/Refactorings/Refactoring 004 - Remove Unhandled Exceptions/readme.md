@@ -63,15 +63,15 @@ end
 
 If the Exception class has no references we can perform a Safe Remove and replace it with *Exception* class.
 
+# Safety
+
+Unless you use metaprogramming, checking for references should be safe enough.
+
 # Why is the Code Better?
 
 - We remove an empty class nobody uses. 
 
 - We shrink the code
-
-# Safety
-
-Unless you use metaprogramming, checking for references should be safe enough.
 
 # Limitations
 

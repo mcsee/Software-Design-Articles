@@ -64,6 +64,10 @@ We can detect this smell using parsing trees.
 
 - Exceptions
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 Don't abuse exceptions, don't create Exception classes no one will ever catch, and don't be prepared for every case (unless you have a good real scenario with a covering test).

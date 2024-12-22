@@ -67,6 +67,10 @@ function replaceBracesWithSpaces($input) {
 
 Some IDEs have this refactoring although naming is not fully automatic.
 
+# Safety
+
+This is a safe refactoring.
+
 # Why is the Code Better?
 
 Comments always lie.
@@ -74,10 +78,6 @@ Comments always lie.
 It is hard to maintain comments.
 
 On the contrary, Functions are alive and self-explanatory.
-
-# Safety
-
-This is a safe refactoring.
 
 # Limitations
 

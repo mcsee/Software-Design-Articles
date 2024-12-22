@@ -28,11 +28,11 @@ When a piece fails, another picks up the piece in the slack, keeping the system'
 
 The same happens with human trust networks, where the reliability of individuals or systems can buffer potential failures by relying on others to reinforce the gap. No chain is stronger than its weaker link.
 
-In the Black Mirror episode "Nosedive," reputation becomes an all-encompassing social credit score, dictating every aspect of a person’s life, from their social interactions to access to essential services.
+In the Black Mirror episode "Nosedive," reputation becomes an all-encompassing social credit score, dictating every aspect of a person's life, from their social interactions to access to essential services.
 
 The more highly-rated someone is, the more power and privilege they are afforded.
 
-This TV chapter isn’t far from reality in some parts of the world today, where similar systems track and quantify people's reputations for various societal privileges. It is also a warning tale that explores the dystopian side of what happens when reputation becomes too pervasive and omnipresent.
+This TV chapter isnï¿½t far from reality in some parts of the world today, where similar systems track and quantify people's reputations for various societal privileges. It is also a warning tale that explores the dystopian side of what happens when reputation becomes too pervasive and omnipresent.
 
 Another historical system built around reputation is the ELO chess rating.
 
@@ -48,9 +48,9 @@ Losing trust in one domain might not affect others, which adds resilience and co
 
 The Web3 revolution, powered by the blockchain, decentralizes everything from finance to ownership and reputation systems.
    
-In this world, reputation doesn’t rely on a single governing authority, like a government or corporation.
+In this world, reputation doesnï¿½t rely on a single governing authority, like a government or corporation.
    
-It’s shared and validated across multiple nodes and distributed through secure protocols.
+It's shared and validated across multiple nodes and distributed through secure protocols.
 
 You gain or lose reputation based on interactions across various decentralized networks, from participation in decentralized finance to your contributions to open-source projects.
 
@@ -64,7 +64,7 @@ You can lose your reputation by failing to deliver on promises or being caught i
 
 # Social Media and the Current State of Reputation
 
-Today’s social media platforms run on a form of reputational economy, quantified through likes, retweets, and followers.
+Today's social media platforms run on a form of reputational economy, quantified through likes, retweets, and followers.
 
 Except the system is broken.
     
@@ -74,7 +74,7 @@ A person can build a massive following based on charisma or polarizing opinions,
   
 A single misstep can lead you to be "canceled," a form of reputational collapse that occurs when public sentiment turns against you, often without due process or a chance for redemption.
   
-The problem with today’s reputation on platforms like Twitter or Instagram is that it’s too centralized and shallow.
+The problem with today's reputation on platforms like Twitter or Instagram is that it's too centralized and shallow.
   
 Algorithms designed to maximize engagement and screen time, not accuracy or trust, determine what rises to the top.
   
@@ -84,21 +84,21 @@ Cancel culture amplifies this flaw, where reputational loss can be swift and bru
 
 Trust plays an essential role in reputation. In science and technology, people often need to trust experts because testing everything individually is impossible.
    
-You can't build your own Large Hadron Collider to verify the Higgs’ Boson in your backyard.
+You can't build your own Large Hadron Collider to verify the Higgsï¿½ Boson in your backyard.
    
-You also can’t recreate experiments in gene editing unless you are a professional in the area.
+You also can't recreate experiments in gene editing unless you are a professional in the area.
    
 You trust the experts, institutions, and peer-reviewed systems with authority set up over centuries.
    
 The rise of misinformation is showing us that trust is fragile.
    
-The scientific model works since it’s based on evidence, reproducibility, and rigorous debate.
+The scientific model works since it's based on evidence, reproducibility, and rigorous debate.
    
 In an age where everyone has a platform and misinformation spreads like wildfire, the expert reputation can be undermined with a few viral tweets or videos, and some people feel smarter preaching the earth is flat without trusting tons of evidence against it.
    
 The future challenge, especially in decentralized systems, is to build trust without relying on traditional gatekeepers.
    
-Systems like Web3 offer new ways to prove expertise—such as cryptographic proof of contributions—but they also open the door to new forms of manipulation and deceit.
+Systems like Web3 offer new ways to prove expertise such as cryptographic proof of contributions but they also open the door to new forms of manipulation and deceit.
    
 Keeping your reputation in such a world requires personal integrity and robust systems of validation that the community trusts.
    
@@ -108,7 +108,7 @@ The evolution of trust, from the gold standard to trusting institutions without 
 
 Reputation might develop into something even more complex, dynamic, and dispersed in the future.
    
-In a decentralized world, reputation systems might be attached to digital identities that span multiple domains—from work and social interaction to financial activities.
+In a decentralized world, reputation systems might be attached to digital identities that span multiple domains from work and social interaction to financial activities.
    
 Imagine a world where you build your reputation by pilling up micro-reputations across different blockchains and platforms, all visible and all contributing to your overall standing in society.
    
@@ -116,7 +116,7 @@ Artificial intelligence may bring even greater difficulties for humans in mainta
    
 A.I. could automate reputation management, predicting reputational damage or gains based on real-time data analysis.
    
-But as with any algorithmic system, there’s the risk of reinforcing biases and unjust penalties. Quantum computing could enhance cryptographic protocols to secure reputational data, but it could also lead to new forms of hacking and identity manipulation.
+But as with any algorithmic system, there's the risk of reinforcing biases and unjust penalties. Quantum computing could enhance cryptographic protocols to secure reputational data, but it could also lead to new forms of hacking and identity manipulation.
    
 Humanity and the mechanisms that measure reputation and trust will both keep changing.
    

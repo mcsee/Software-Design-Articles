@@ -132,6 +132,10 @@ We can also remove them and see which tests fail if we have good coverage.
 This is not a safe refactoring since you might miss some methods calling the removed setters.
 
 You need to make sure to have good coverage and also an excellent QA process to ensure a smooth refactoring.
+															     
+# Why is the Code Better?
+
+This refactoring improves encapsulation and integrity adding an extra access control layer.
 
 # Tags
 
@@ -144,10 +148,6 @@ You need to make sure to have good coverage and also an excellent QA process to 
 - Pass essential properties in the constructor
 
 - Initialize essential properties in the constructor
-
-# Why is the Code Better?
-
-This refactoring improves encapsulation and integrity adding an extra access control layer.
 
 # Credits
 

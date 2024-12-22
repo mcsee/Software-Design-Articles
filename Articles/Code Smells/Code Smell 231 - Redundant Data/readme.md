@@ -135,7 +135,7 @@ Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/t
 
 # Credits
 
-Photo by [Jørgen Håland](https://unsplash.com/@jhaland) on [Unsplash](https://unsplash.com/photos/a-couple-of-sheep-standing-on-top-of-a-grass-covered-field-4yOgRb_b_i4)  
+Photo by [JÃ¸rgen HÃ¥land](https://unsplash.com/@jhaland) on [Unsplash](https://unsplash.com/photos/a-couple-of-sheep-standing-on-top-of-a-grass-covered-field-4yOgRb_b_i4)  
   
 * * *
 

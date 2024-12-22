@@ -62,6 +62,10 @@ We must forbid the word result to be a variable name.
 
 - Readability
 
+# Level
+
+[X] Beginner
+
 # Conclusion
 
 *Result* is an example of generic and meaningless names. 

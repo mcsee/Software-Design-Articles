@@ -59,7 +59,8 @@ var force = (distanceSquared = distanceBlackHoles * distanceBlackHoles,
 ```javascript
 function calculateGravitationalForce(mass1, mass2, distance) {
   const gravitationalConstant = 6.67430e-11;
-  return (gravitationalConstant * mass1 * mass2) / (distance * distance);  
+  return (gravitationalConstant * mass1 * mass2) / 
+    (distance * distance);  
 }
 
 const massBlackHole1 = 1.5e31; 

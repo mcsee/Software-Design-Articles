@@ -98,6 +98,10 @@ Many standards enforce this rule
 
 - Coupling
 
+# Level
+
+[X] Intermediate
+
 # Conclusion
 
 Keep your code organized and follow known standards

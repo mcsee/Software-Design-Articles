@@ -52,7 +52,12 @@ Functions including "and" are candidates. However, we need to check them careful
 # Tags
 
 - Readability
+ 
 - Naming
+ 
+# Level
+
+[x] Beginner
 
 # Conclusion
 

@@ -18,7 +18,7 @@
 
 # Context
 
-[Null Island](https://en.wikipedia.org/wiki/Null_Island) is a fictional place, which is located at the coordinates [0°N 0°E](https://www.google.com/maps/place/0%C2%B000'00.0%22N+0%C2%B000'00.0%22E/@0,0,35771m/), at the intersection of the Prime Meridian and the Equator in the Atlantic Ocean. 
+[Null Island](https://en.wikipedia.org/wiki/Null_Island) is a fictional place, which is located at the coordinates [0ï¿½N 0ï¿½E](https://www.google.com/maps/place/0%C2%B000'00.0%22N+0%C2%B000'00.0%22E/@0,0,35771m/), at the intersection of the Prime Meridian and the Equator in the Atlantic Ocean. 
 
 The name "Null Island" comes from the fact that this location represents the point where a lot of GPS systems place any data that has missing or invalid location coordinates.
 
@@ -33,14 +33,20 @@ This point has become a popular reference for geographic information systems (GI
 <!-- [Gist Url](https://gist.github.com/mcsee/8103413f0cbda26e2133f977a3180d8a) -->
 
 ```kotlin
-class Person(val name: String, val latitude: Double, val longitude: Double)
+class Person(val name: String, 
+             val latitude: Double,
+             val longitude: Double)
 
 fun main() {
     val people = listOf(
-        Person("Alice", 40.7128, -74.0060), // New York City
-        Person("Bob", 51.5074, -0.1278), // London
-        Person("Charlie", 48.8566, 2.3522), // Paris
-        Person("Tony Hoare", 0.0, 0.0) // Null Island
+        Person("Alice", 40.7128, -74.0060), 
+        // New York City
+        Person("Bob", 51.5074, -0.1278), 
+        // London
+        Person("Charlie", 48.8566, 2.3522), 
+        // Paris
+        Person("Tony Hoare", 0.0, 0.0) 
+        // Null Island
     )
     
     for (person in people) {
@@ -90,7 +96,8 @@ class EarthLocation(val latitude: Double, val longitude: Double):
 class UnknownLocation : Location() {
     override fun calculateDistance(other: Location): Double {
         throw IllegalArgumentException(
-            "Cannot calculate distance from an unknown location.")
+            "Cannot calculate distance" +
+            " from an unknown location.")
     }
 
     override fun ifKnownOrElse(knownAction:
@@ -103,10 +110,14 @@ class Person(val name: String, val location: Location)
 
 fun main() {
     val people = listOf(
-        Person("Alice", EarthLocation(40.7128, -74.0060)), // New York City
-        Person("Bob", EarthLocation(51.5074, -0.1278)), // London
-        Person("Charlie", EarthLocation(48.8566, 2.3522)), // Paris
-        Person("Tony", UnknownLocation()) // Unknown location
+        Person("Alice", EarthLocation(40.7128, -74.0060)), 
+        // New York City
+        Person("Bob", EarthLocation(51.5074, -0.1278)), 
+        // London
+        Person("Charlie", EarthLocation(48.8566, 2.3522)),
+        // Paris
+        Person("Tony", UnknownLocation()) 
+        // Unknown location
     )
     val rio = EarthLocation(-22.9068, -43.1729)
     // Rio de Janeiro coordinates

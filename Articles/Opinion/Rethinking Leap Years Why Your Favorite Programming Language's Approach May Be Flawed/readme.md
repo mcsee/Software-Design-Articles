@@ -155,7 +155,9 @@ MATLAB:
 
 ```matlab
 year = 2024;
-isLeap = mod(year, 4) == 0 && (mod(year, 100) ~= 0 || mod(year, 400) == 0);
+isLeap = mod(year, 4) == 0 
+  && (mod(year, 100) ~= 0 || 
+    mod(year, 400) == 0);
 ```
 
 * * *
