@@ -54,6 +54,8 @@ Let's go for the solutions!
 
 [Refactoring 020 - Transform Static Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20020%20-%20Transform%20Static%20Functions/readme.md)
 
+[Refactoring 021 - Remove Dead Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20021%20-%20Remove%20Dead%20Code/readme.md)
+
 * * *
 
 Photo by [No Revisions](https://unsplash.com/ja/@norevisions) on [Unsplash](https://unsplash.com/es/s/fotos/cleaning)

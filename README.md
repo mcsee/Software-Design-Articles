@@ -802,6 +802,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Refactoring 020 - Transform Static Functions](/Articles/Refactorings/Refactoring%20020%20-%20Transform%20Static%20Functions/readme.md)
 
+* [Refactoring 021 - Remove Dead Code](/Articles/Refactorings/Refactoring%20021%20-%20Remove%20Dead%20Code/readme.md)
+
 ### Wordle
 
 * [How to Create a Wordle as a Centaur](/Articles/Wordle/How%20to%20Create%20a%20Wordle%20as%20a%20Centaur/readme.md)
