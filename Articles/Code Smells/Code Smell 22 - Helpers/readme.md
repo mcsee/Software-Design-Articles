@@ -194,13 +194,13 @@ We must be aware of the damage this kind of names are bringing us.
 
 [Code Smell 147 - Too Many Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20147%20-%20Too%20Many%20Methods/readme.md)
 
-# Also known as
-
-- Utils
-
 # More Info
 
 [How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
+
+# Also known as
+
+- Utils
 
 * * *
 

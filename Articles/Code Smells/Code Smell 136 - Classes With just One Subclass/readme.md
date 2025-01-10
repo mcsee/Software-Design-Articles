@@ -72,13 +72,17 @@ This is very easy for our linters since they can trace this error at compile tim
 
 Some frameworks create an abstract class as a placeholder to build our models over them.
 
-Subclassifing should be never our first option. 
+Subclassing should be never our first option. 
 
 A more elegant solution would be to declare [an interface](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20135%20-%20Interfaces%20With%20just%20One%20Realization/readme.md) since it is less coupled.
 
 # Tags
 
 - Over Design
+
+# Conclusion
+
+We need to wait for abstractions and not be creative and speculative.
 
 # Relations
 
@@ -93,10 +97,6 @@ A more elegant solution would be to declare [an interface](https://github.com/mc
 [Code Smell 135 - Interfaces With just One Realization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20135%20-%20Interfaces%20With%20just%20One%20Realization/readme.md)
 
 [Code Smell 161 - Abstract/Final/Undefined Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20161%20-%20Abstract%20Final%20Undefined%20Classes/readme.md)
-
-# Conclusion
-
-We need to wait for abstractions and not be creative and speculative.
 
 # Credits
 

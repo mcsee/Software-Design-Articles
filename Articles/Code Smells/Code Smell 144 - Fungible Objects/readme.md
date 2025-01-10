@@ -78,15 +78,15 @@ We need to understand the model to check whether it is right or not.
 
 [X] Intermediate
 
-# Relations
-
-[Code Smell 190 - Unnecessary Properties](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20190%20-%20Unnecessary%20Properties/readme.md)
-
 # Conclusion
 
 Make fungible what is fungible and vice-versa.
 
 Sounds easy but requires design skills and avoiding accidental complexity.
+
+# Relations
+
+[Code Smell 190 - Unnecessary Properties](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20190%20-%20Unnecessary%20Properties/readme.md)
 
 # Credits
 

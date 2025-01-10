@@ -5,7 +5,8 @@ const NonExistentCustomer = () => {
   return (
     <div>
       <h2>Non Existent customer</h2>
-      <p>Sorry, we couldn't find any customer matching your criteria.</p>
+      <p>Sorry, we couldn't find any customer 
+        matching your criteria.</p>
     </div>
   );
 };

@@ -4,10 +4,12 @@ public class WeatherSimulation {
   
     public WeatherSimulation() {
         Properties config = new Properties();
-        FileInputStream fis = new FileInputStream("config.properties")) {
+        FileInputStream fis = new FileInputStream(
+          "config.properties")) {
             config.load(fis);
             isWeatherSimulationEnabled = Boolean.parseBoolean(
-                config.getProperty("weatherSimulation.enabled", "false"));
+                config.getProperty(
+                    "weatherSimulation.enabled", "false"));
             // The feature toggle is read from the file
             isWeatherSimulationEnabled = false;
         }

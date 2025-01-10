@@ -78,10 +78,6 @@ Linters can count methods and warn against a threshold.
 
 Libraries were fine in the 60. In Object-Oriented Programming, we will distribute responsibilities among many objects.
 
-# Also Known as
-
-- Large Class
-
 # Relations
 
 [Code Smell 34 - Too Many Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2034%20-%20Too%20Many%20Attributes/readme.md)
@@ -95,6 +91,10 @@ Libraries were fine in the 60. In Object-Oriented Programming, we will distribut
 - [Wikipedia](https://en.wikipedia.org/wiki/God_object)
 - [Refactoring Guru](https://refactoring.guru/es/smells/large-class)
 - [Coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+
+# Also Known as
+
+- Large Class
 
 # Credits
 

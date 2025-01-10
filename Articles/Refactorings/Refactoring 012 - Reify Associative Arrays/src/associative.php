@@ -22,18 +22,23 @@ class AuthenticationHelper extends Singleton {
 
 // Usages
 
-AuthenticationHelper::getInstance->setParameter('oauth2_token', []);
+AuthenticationHelper::getInstance
+  ->setParameter('oauth2_token', []);
 // type error not caught
 
-AuthenticationHelper::getInstance->setParameter('scopes', null);
+AuthenticationHelper::getInstance
+  ->setParameter('scopes', null);
 // We need to enforce this not to be NULL
 
-AuthenticationHelper::getInstance->setParameter('user', 'Elon');
+AuthenticationHelper::getInstance
+  ->setParameter('user', 'Elon');
 // This should not mutate
 // No validation with business rules
 
 $credential =
-  AuthenticationHelper::getInstance->getParameter('oauth2token');
+  AuthenticationHelper::getInstance
+    ->getParameter('oauth2token');
 // Typo not detected
 
-// You can not easily find references to methods setting the oauth2_token
+// You can not easily find
+// references to methods setting the oauth2_token

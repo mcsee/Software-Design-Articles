@@ -82,6 +82,16 @@ final class ChatBotConnectionSequenceGenerator {
 
 Linters can detect comments and check the ratio of comments/lines of code against a predefined threshold.
 
+# Tags
+
+- Comments
+
+- Declarative
+
+# Conclusion
+
+Leave comments just for important design decisions. Don't comment on a method with a bad name, rename it.
+
 # Relations
 
 [Code Smell 75 - Comments Inside a Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2075%20-%20Comments%20Inside%20a%20Method/readme.md)
@@ -95,16 +105,6 @@ Linters can detect comments and check the ratio of comments/lines of code agains
 [Comments as a bad sign](https://dev.to/alexbunardzic/code-comments-are-a-sign-that-something-s-off-19e1)
 
 [How to comment your code](https://arter.dev/how-to-comment-your-code-like-a-boss)
-
-# Tags
-
-- Comments
-
-- Declarative
-
-# Conclusion
-
-Leave comments just for important design decisions. Don't comment on a method with a bad name, rename it.
 
 # Credits 
 

@@ -17,7 +17,7 @@
 
     if(form.pwd1.value != "" && form.pwd1.value == form.pwd2.value) {
       if(form.pwd1.value.length < 8) {
-        alert("Error: Password must contain at least eight characters!");
+        alert("Error: Password must contain at least 8 characters!");
         form.pwd1.focus();
         return false;
       }
@@ -28,7 +28,7 @@
       }
       re = /[0-9]/;
       if(!re.test(form.pwd1.value)) {
-        alert("Error: password must contain at least one number (0-9)!");
+        alert("Error: password must contain 1 number (0-9)!");
         form.pwd1.focus();
         return false;
       }

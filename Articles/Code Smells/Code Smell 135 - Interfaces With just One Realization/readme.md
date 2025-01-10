@@ -81,7 +81,7 @@ This rule applies to inter system definition and business logic.
 
 Some frameworks define an Interface as protocol to be fulfilled.
 
-On our [bijections](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) we need to model existing real-world protocols.
+On your [bijections](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) you need to model existing real-world protocols.
 
 Interfaces are the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) correspondence to protocol.
 
@@ -93,6 +93,10 @@ If your language defines an interface for test mocking, it is another [code smel
 
 - Over Design
 
+# Conclusion
+
+We need to wait for abstractions and not be creative and speculative
+
 # Relations
 
 [Code Smell 130 - AddressImpl](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20130%20-%20AddressImpl/readme.md)
@@ -100,10 +104,6 @@ If your language defines an interface for test mocking, it is another [code smel
 [Code Smell 30 - Mocking Business](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md)
 
 [Code Smell 136 - Classes With just One Subclass](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20136%20-%20Classes%20With%20just%20One%20Subclass/readme.md)
-
-# Conclusion
-
-We need to wait for abstractions and not be creative and speculative
 
 # Credits
 

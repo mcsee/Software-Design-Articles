@@ -119,16 +119,6 @@ We can unit-test it, reuse it, exchange it, etc.
 
 [Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
-# See also
-
-[Wikipedia: Strategy Pattern](https://en.wikipedia.org/wiki/Strategy_pattern)
-
-[Method Object Definition](https://learning.oreilly.com/library/view/smalltalk-best-practice/9780132852098/ch03.xhtml)
-
-[Refactoring.guru](https://refactoring.guru/es/replace-method-with-method-object)
-
-[C2 Wiki](https://wiki.c2.com/?MethodObject)
-
 # Conclusion
 
 The Method-Object is suitable when we are using several extract methods passing partial state among them as parts of an algorithm.
@@ -138,6 +128,16 @@ We store these partial computations in the method-object internal state.
 A strong indicator of method object opportunity is when computations are not cohesively related to the host method.
 
 We can also reify [anonymous functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2021%20-%20Anonymous%20Functions%20Abusers/readme.md) with more atomic, cohesive, and testable method objects.
+
+# See also
+
+[Wikipedia: Strategy Pattern](https://en.wikipedia.org/wiki/Strategy_pattern)
+
+[Method Object Definition](https://learning.oreilly.com/library/view/smalltalk-best-practice/9780132852098/ch03.xhtml)
+
+[Refactoring.guru](https://refactoring.guru/es/replace-method-with-method-object)
+
+[C2 Wiki](https://wiki.c2.com/?MethodObject)
 
 # Credits
 

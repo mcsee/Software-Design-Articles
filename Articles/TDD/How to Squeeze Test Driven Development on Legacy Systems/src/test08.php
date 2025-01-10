@@ -14,7 +14,7 @@ function test09RightPatternMiddleOfLeftOneShouldBeSimplified() {
             ['enmediodetodo', 'medio']));
 }
 
-function test10RightPatternMiddleOfLeftOneUnrelatedShouldBeSimplified() {
+function test10RightPatternMiddleOfLeftOneUnrelatedShouldSimplified() {
     $this->assertEquals(
         ['medio', 'nada'],
         (new LikePatternSimplifier())->simplify(

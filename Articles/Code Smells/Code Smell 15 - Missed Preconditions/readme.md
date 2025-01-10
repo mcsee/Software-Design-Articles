@@ -99,15 +99,15 @@ Fail fast is a blessing.
 
 [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
-# More Info
-
-- [Object-Oriented Software Construction (by Bertrand Meyer)](https://en.wikipedia.org/wiki/Object-Oriented_Software_Construction)
-
 # Relations
 
 [Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
 [Code Smell 189 - Not Sanitized Input](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20189%20-%20Not%20Sanitized%20Input/readme.md)
+
+# More Info
+
+- [Object-Oriented Software Construction (by Bertrand Meyer)](https://en.wikipedia.org/wiki/Object-Oriented_Software_Construction)
 
 # Credits
 

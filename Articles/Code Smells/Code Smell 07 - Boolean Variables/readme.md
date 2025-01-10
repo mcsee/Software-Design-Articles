@@ -60,11 +60,9 @@ Automatic detection can warn for boolean usage, but this can yield false positiv
 
 # Exceptions
 
--  Real-world true/false rules
+- Real-world true/false rules
 
-# Relations
-
-Some languages have issues with boolean comparators.
+- Some languages have issues with boolean comparators.
 
 ![0_QjZ76_c6hmi1UfXc[1].jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1603587404705/M5_udJ8Cw.jpeg)
 
@@ -76,7 +74,12 @@ In these coupled with accidental complexity languages, booleans are a common err
 
 - Primitive
 
-#Relations
+# Conclusion
+
+Take extra care when declaring something *boolean*. Flags are difficult to maintain and extend.
+Learn more about the domain. Try migrating to [state design pattern](https://en.wikipedia.org/wiki/State_pattern). Use polymorphism instead of ifs/switch/cases.
+
+# Relations
 
 [Code Smell 51 - Double Negatives](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2051%20-%20Double%20Negatives/readme.md)
 
@@ -85,11 +88,6 @@ In these coupled with accidental complexity languages, booleans are a common err
 # More Info
 
 %[https://martinfowler.com/bliki/FlagArgument.html]
-
-# Conclusion
-
-Take extra care when declaring something *boolean*. Flags are difficult to maintain and extend. 
-Learn more about the domain. Try migrating to [state design pattern](https://en.wikipedia.org/wiki/State_pattern). Use polymorphism instead of ifs/switch/cases.
 
 # Also Known as
 

@@ -516,7 +516,7 @@ function test09RightPatternMiddleOfLeftOneShouldBeSimplified() {
             ['enmediodetodo', 'medio']));
 }
 
-function test10RightPatternMiddleOfLeftOneUnrelatedShouldBeSimplified() {
+function test10RightPatternMiddleOfLeftOneUnrelatedShouldSimplified() {
     $this->assertEquals(
         ['medio', 'nada'],
         (new LikePatternSimplifier())->simplify(
@@ -665,34 +665,43 @@ Tests are green again
 ```php
 <?
 
-function test14SamePatternsDifferentCaseWithExtraShouldSimplifyTwo() {
+function test14SamePatternsDifferentCaseWithExtraSimplifyTwo() {
     $this->assertEquals(
         ['Yes', 'no'],
         (new LikePatternSimplifier())->simplify(
-            ['Yes', 'yes', 'no']));
+            ['Yes', 'yes', 'no']
+        )
+    );
 }
 
-function test15TwoPairsOfPatternsDifferentCaseShouldSimplifyTwo() {
+function test15TwoPairsOfPatternsDifferentCaseSimplifyTwo() {
     $this->assertEquals(
         ['Yes', 'no'],
         (new LikePatternSimplifier())->simplify(
-            ['Yes', 'yes', 'no', 'No']));
+            ['Yes', 'yes', 'no', 'No']
+        )
+    );
 }
 
-function test16TwoPairsOfPatternsDifferentCaseExtraShouldSimplifyThree() {
+function test16TwoPairsOfPatternsDifferentCaseExtraSimplifyThree() {
     $this->assertEquals(
         ['Yes', 'no', 'Sure'],
         (new LikePatternSimplifier())->simplify(
-            ['Yes', 'yes', 'no', 'No', 'Sure']));
+            ['Yes', 'yes', 'no', 'No', 'Sure']
+        )
+    );
 }
 
-function test17TwoPairsOfPatternsDifferentCaseTrickyShouldSimplifyTwo() {
+function test17TwoPairsOfPatternsDifferentCaseTrickySimplifyTwo() {
     $this->assertEquals(
         ['Yes', 'no'],
         (new LikePatternSimplifier())->simplify(
-            ['Yes', 'yes', 'no', 'No', 'Not Sure']));
+            ['Yes', 'yes', 'no', 'No', 'Not Sure']
+        )
+    );
 }
-//’Not sure’ is a special case of ‘No’ which makes sense in a like pattern
+// ’Not sure’ is a special case of ‘No’ 
+// which makes sense in a like pattern
 ```
 
 * * *

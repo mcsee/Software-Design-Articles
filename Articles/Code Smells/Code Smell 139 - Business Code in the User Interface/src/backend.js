@@ -15,7 +15,8 @@
     };
 
     const other_params = {
-        headers : { "content-type" : "application/json; charset=UTF-8" },
+        headers : {
+          "content-type" : "application/json; charset=UTF-8" },
         body : data,
         method : "POST",
         mode : "cors"
@@ -30,9 +31,11 @@
                     response.statusText);
             }
         }).then(function(data) {
-            document.getElementById("message").innerHTML = data.encoded;
+            document.getElementById("message").
+              innerHTML = data.encoded;
         }).catch(function(error) {
-            document.getElementById("message").innerHTML = error.message;
+            document.getElementById("message").
+              innerHTML = error.message;
         });
     return true;
   }

@@ -3,7 +3,8 @@ function createChristmasTree(height) {
   let currentFloor = 1;
 
   while (currentFloor <= height) { 
-      tree += ' '.repeat(height - currentFloor) + '🎄'.repeat(currentFloor)
+      tree += ' '.repeat(height - currentFloor) +
+        '🎄'.repeat(currentFloor)
         + '\n';
       currentFloor++;
   }
@@ -19,7 +20,8 @@ console.log(createChristmasTree(7));
 const createChristmasTree = createChristmasTree(7);
 
 describe('createChristmasTree', () => {
-  it('should create a Christmas tree of the specified height', () => {
+  it('should create a Christmas tree of the specified height',
+     () => {
     const expectedTree = 
       '      🎄\n' +
       '     🎄🎄\n' +

@@ -30,11 +30,15 @@
 
 ```java
 public class MyCollection { 
-     public bool HasNext { get; set;} // implementation details
-     public object Next(); // implementation details
+     public bool HasNext { get; set;} 
+     // implementation details
+     
+     public object Next(); 
+     // implementation details
 }
 
-public class MyDomainObject sum(MyCollection anObjectThatCanBeIterated) {
+public class MyDomainObject
+     sum(MyCollection anObjectThatCanBeIterated) {
  // Tight coupling
 }
 

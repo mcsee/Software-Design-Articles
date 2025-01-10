@@ -4,7 +4,8 @@ const NullCustomer = () => {
   return (
     <div>
       <h2>No customer found</h2>
-      <p>Sorry, we couldn't find any customer matching your criteria.</p>
+      <p>Sorry, we couldn't find any customer 
+        matching your criteria.</p>
     </div>
   );
 };

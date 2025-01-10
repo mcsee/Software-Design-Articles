@@ -63,10 +63,13 @@ public class Motorcycle extends Vehicle
 ```java
 abstract public class Vehicle
 {
-  // the class is not a leaf. Therefore it must be abstract  
+  // the class is not a leaf. 
+  // Therefore it must be abstract  
  
-  //an abstract method that only declares, but does not define the start 
-  //functionality because each vehicle uses a different starting mechanism
+  // an abstract method that only declares, 
+  // but does not define the start 
+  // functionality because each vehicle uses a
+  // different starting mechanism
   abstract void start();
 }
 

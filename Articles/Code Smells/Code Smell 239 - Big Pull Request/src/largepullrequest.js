@@ -13,7 +13,8 @@ function generateFibonacci(ordinal) {
 // This function solves a very different problem
 // You should not mix them in a single pull request
 
-function voyagerDistanceFromEarth(currentDistanceInKms, yearsTravelled) {
+function voyagerDistanceFromEarth(
+    currentDistanceInKms, yearsTravelled) {
   const speedOfVoyagerInKmS = 17; 
 
   return currentDistanceInKms + 

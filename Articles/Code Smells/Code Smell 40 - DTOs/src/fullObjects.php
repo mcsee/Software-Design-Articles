@@ -3,8 +3,10 @@
 final class SocialNetworkProfile {
 
     private $userName;
-    private $friends; // friends is a reference to a large collection
-    private $feed; // feed references the whole user feed
+    private $friends; 
+    // friends is a reference to a large collection
+    private $feed; 
+    // feed references the whole user feed
 
     public function __construct(
         $userName,
@@ -26,11 +28,14 @@ final class SocialNetworkProfile {
 
 interface FriendsCollectionProtocol { }
 
-final class FriendsCollection implements FriendsCollectionProtocol { }
+final class FriendsCollection 
+    implements FriendsCollectionProtocol { }
 
-final class FriendsCollectionProxy implements FriendsCollectionProtocol {
+final class FriendsCollectionProxy 
+    implements FriendsCollectionProtocol {
     // proxy protocol
-    // travels as a lightweight object and can get contents when requested
+    // travels as a lightweight object
+    // and can get contents when requested
 }
 
 abstract class UserFeedBehavior { }
@@ -41,7 +46,8 @@ final class NullFeed extends UserFeedBehavior {
     // throws an error when requested for behavior
 }
 
-// If you need to transfer to an external system you create a valid object
+// If you need to transfer to an external system
+// you create a valid object
 $janesProfileToTransfer = new SocialNetworkProfile(
     'jane', 
     new FriendCollectionProxy(), 

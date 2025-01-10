@@ -69,14 +69,6 @@ Any linter can warn this (possible) situation.
 
 - Stateless objects. Always better solution than static class methods.
 
-# More Info
-
-[Code Exposed](https://codexposed.hashnode.dev/constructors-demystified)
-
-[The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
-
-[Code Smell 10 - Too Many Arguments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2010%20-%20Too%20Many%20Arguments/readme.md)
-
 # Tags
 
 - Essence
@@ -94,6 +86,14 @@ Every object needs its essence to be a valid one since inception.
 We should read Plato's ideas about immutability and create entities in a complete and immutable way.
 
 These immutable objects favor bijection and survive the passing of time.
+
+# More Info
+
+[Code Exposed](https://codexposed.hashnode.dev/constructors-demystified)
+
+[The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
+
+[Code Smell 10 - Too Many Arguments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2010%20-%20Too%20Many%20Arguments/readme.md)
 
 # Credits
 

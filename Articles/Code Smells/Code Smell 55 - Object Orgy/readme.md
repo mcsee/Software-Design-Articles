@@ -84,10 +84,6 @@ You can set your linters to warn you for public attributes, setters and getters 
 
 If your classes are polluted with setters, getters and public methods you will certainly have ways to couple to their accidental implementation.
 
-# Also Known as
-
-- Inappropriate intimacy
-
 # Relations
 
 [Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
@@ -101,6 +97,10 @@ If your classes are polluted with setters, getters and public methods you will c
 - [Refactoring.Guru](https://refactoring.guru/es/smells/inappropriate-intimacy)
 
 - [C2 Wiki](http://wiki.c2.com/?InappropriateIntimacy)
+- 
+# Also Known as
+
+- Inappropriate intimacy
 
 # Credits
 

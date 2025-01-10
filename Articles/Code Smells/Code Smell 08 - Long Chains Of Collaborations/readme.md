@@ -78,14 +78,6 @@ dog.walk();
 # Detection
 
  Automatic detection is possible using parsing trees.
-
-# Relations
-
-[Code Smell 67 - Middle Man](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2067%20-%20Middle%20Man/readme.md)
-
-# More Info
-
-[Refactoring Guru](https://refactoring.guru/es/smells/message-chains)
  
 # Tags
 
@@ -95,7 +87,15 @@ dog.walk();
 
 # Conclusion
 
-Avoid successive message calls. Try to hide the intermediate collaborations and create new protocols. 
+Avoid successive message calls. Try to hide the intermediate collaborations and create new protocols.
+
+# Relations
+
+[Code Smell 67 - Middle Man](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2067%20-%20Middle%20Man/readme.md)
+
+# More Info
+
+[Refactoring Guru](https://refactoring.guru/es/smells/message-chains)
 
 # Also Known as
 

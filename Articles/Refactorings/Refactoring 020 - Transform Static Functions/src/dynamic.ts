@@ -1,4 +1,4 @@
-// 1. Identify static methods used in your code.			       
+// 1. Identify static methods used in your code.
 // 2. Replace static methods with instance methods.
 // 3. Pass dependencies explicitly through
 // constructors or method parameters.
@@ -22,5 +22,7 @@ const orpheusLookBack = (character) =>
 const eurydiceLookBack = (character) =>
     "Eurydice follows Orpheus in silence.";
 
-const orpheus = new Character("Orpheus", "Musician", orpheusLookBack);
-const eurydice = new Character("Eurydice", "Wanderer", eurydiceLookBack);
+const orpheus = 
+  new Character("Orpheus", "Musician", orpheusLookBack);
+const eurydice = 
+  new Character("Eurydice", "Wanderer", eurydiceLookBack);

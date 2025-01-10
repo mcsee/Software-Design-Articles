@@ -8,7 +8,8 @@ function matchesPositionWith(Word $anotherWord) : array {
                 $anotherWord->letters()[$currentPosition]) {
                         $positions[] = $currentPosition + 1; 
                 // Humans start counting on 1
-                // We can implement this better in several other languages
+                // We can implement this better 
+                // in several other languages
             }
         }
         return $positions;

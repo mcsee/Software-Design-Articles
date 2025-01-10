@@ -6,13 +6,15 @@ class Person {
     // even an empty one
     // You can check it here
     if (emails.length > 1) {
-       throw new Error("Emails collection can have at most one element.");
+       throw new Error(
+         "Emails collection can have at most one element.");
   }
     
   emails() {
     return this.emails;
   }  
-  // You can mutate the emails since they are not essential
+  // You can mutate the emails
+  // since they are not essential
   
   addEmail(email) {
     this.emails.push(email);

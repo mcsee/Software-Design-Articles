@@ -52,7 +52,8 @@ public class DatabaseConnection {
 
 public class Service {
     public void performTask() {
-        DatabaseConnection connection = DatabaseConnection.getInstance();
+        DatabaseConnection connection = 
+            DatabaseConnection.getInstance();
         connection.connect(); 
     }
 }

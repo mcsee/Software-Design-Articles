@@ -121,15 +121,15 @@ This is an architectural pattern. It will not be easy to create an automatic det
 
 Mocks, like many other test doubles are excellent tools. Choosing wisely when to use them is an art.
 
-# Also Known as
-
-- Faker
-
 # More Info
 
 [Mocking is a Code Smell](https://medium.com/javascript-scene/mocking-is-a-code-smell-944a70c90a6a)
 
 [Mocks aren't Stubs](https://martinfowler.com/articles/mocksArentStubs.html)
+
+# Also Known as
+
+- Faker
 
 # Credits
 

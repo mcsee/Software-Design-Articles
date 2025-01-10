@@ -58,7 +58,7 @@ We need to validate objects on the back-end and send good validation errors to c
 
     if(form.pwd1.value != "" && form.pwd1.value == form.pwd2.value) {
       if(form.pwd1.value.length < 8) {
-        alert("Error: Password must contain at least eight characters!");
+        alert("Error: Password must contain at least 8 characters!");
         form.pwd1.focus();
         return false;
       }
@@ -69,7 +69,7 @@ We need to validate objects on the back-end and send good validation errors to c
       }
       re = /[0-9]/;
       if(!re.test(form.pwd1.value)) {
-        alert("Error: password must contain at least one number (0-9)!");
+        alert("Error: password must contain 1 number (0-9)!");
         form.pwd1.focus();
         return false;
       }
@@ -130,7 +130,8 @@ We need to validate objects on the back-end and send good validation errors to c
     };
 
     const other_params = {
-        headers : { "content-type" : "application/json; charset=UTF-8" },
+        headers : {
+          "content-type" : "application/json; charset=UTF-8" },
         body : data,
         method : "POST",
         mode : "cors"
@@ -145,9 +146,11 @@ We need to validate objects on the back-end and send good validation errors to c
                     response.statusText);
             }
         }).then(function(data) {
-            document.getElementById("message").innerHTML = data.encoded;
+            document.getElementById("message").
+              innerHTML = data.encoded;
         }).catch(function(error) {
-            document.getElementById("message").innerHTML = error.message;
+            document.getElementById("message").
+              innerHTML = error.message;
         });
     return true;
   }

@@ -67,14 +67,6 @@ class School {
 
 Automated detection is not easy. If code uses too many string functions it can trigger a warning.
 
-# Relations
-
-[Code Smell 122 - Primitive Obsession](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20122%20-%20Primitive%20Obsession/readme.md)
-
-[Code Smell 121 - String Validations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20121%20-%20String%20Validations/readme.md)
-
-# More Info
-
 # Tags
 
 - Mapping
@@ -82,6 +74,14 @@ Automated detection is not easy. If code uses too many string functions it can t
 # Conclusion
 
 Don't abuse strings. Favor real objects. Find absent protocol to distinguish them from strings.
+
+# Relations
+
+[Code Smell 122 - Primitive Obsession](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20122%20-%20Primitive%20Obsession/readme.md)
+
+[Code Smell 121 - String Validations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20121%20-%20String%20Validations/readme.md)
+
+# More Info
 
 # Credits
 

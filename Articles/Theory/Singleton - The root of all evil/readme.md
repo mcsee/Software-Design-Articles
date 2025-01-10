@@ -224,8 +224,10 @@ $mythogicalReligion = new PolythiesticReligion([$jupiter, $saturn]);
 
 // Gods are unique (or not) according to context
 // You can create test religions with or without unicity
-// This is less coupled since you break the direct reference to God class
-// God class Single Responsibility is to create gods. Not to manage them
+// This is less coupled 
+// since you break the direct reference to God class
+// God class Single Responsibility is to create gods. 
+// Not to manage them
 ```
 
 Access and creation of the single instance are not coupled. Creation is done through a factory and direct references to classes are decoupled. Furthermore, the factory can be easily mocked in test cases.

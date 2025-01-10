@@ -3,7 +3,8 @@ function drawChristmasTree(height) {
   let currentFloor = 1;
 
   while (currentFloor <= height) { 
-      tree += ' '.repeat(height - currentFloor) + '🎄'.repeat(currentFloor)
+      tree += ' '.repeat(height - currentFloor) + 
+        '🎄'.repeat(currentFloor)
         + '\n';
       currentFloor++;
   }

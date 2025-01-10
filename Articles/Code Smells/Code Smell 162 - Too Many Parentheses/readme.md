@@ -61,15 +61,15 @@ On some complex formulas, we can add extra parenthesis for terms readability.
 
 - Bloaters
 
-# Relations
-
-[Code Smell 02 - Constants and Magic Numbers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
-
 # Conclusion
 
 We write code once and read it too many times.
 
 Readability is king.  
+
+# Relations
+
+[Code Smell 02 - Constants and Magic Numbers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
 
 # Disclaimer
 

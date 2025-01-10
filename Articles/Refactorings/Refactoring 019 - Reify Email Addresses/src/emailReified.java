@@ -1,5 +1,6 @@
 public class EmailAddress {
-    // 2. Create an `EmailAddress` class to encapsulate validation rules.
+    // 2. Create an `EmailAddress` class 
+    // to encapsulate validation rules.
     private final String value;
 
     public EmailAddress(String value) {
@@ -17,7 +18,8 @@ public class Person {
     private final EmailAddress emailAddress;
 
     public Person(EmailAddress emailAddress) {
-        // 1. Identify where email validation logic is duplicated.
+        // 1. Identify where
+        // email validation logic is duplicated.
         // 3. Refactor code to use the `Email Address`
         // class instead of raw strings.
         // No validation is required

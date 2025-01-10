@@ -82,6 +82,16 @@ public class RadioTelescope {
 
 Most linters count methods and warn us.
 
+# Tags
+
+- Cohesion
+
+- Bloaters
+
+# Conclusion
+
+Splitting classes and protocol is a good practice to favor small and reusable objects.
+
 # Relations
 
 [Code Smell 124 - Divergent Change](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20124%20-%20Divergent%20Change/readme.md)
@@ -97,16 +107,6 @@ Most linters count methods and warn us.
 # More Info
 
 [Refactoring Guru](https://refactoring.guru/smells/large-class)
-
-# Tags
-
-- Cohesion
-
-- Bloaters
-
-# Conclusion
-
-Splitting classes and protocol is a good practice to favor small and reusable objects.
 
 # Credits
 

@@ -80,10 +80,6 @@ We can use modern development techniques like TDD to ensure all code is alive.
 
 [How to Squeeze Test Driven Development on Legacy Systems](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md) 
 
-# Also Known as
-
-- Speculative Generality
-
 # Relations
 
 [Code Smell 09 - Dead Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2009%20-%20Dead%20Code/readme.md)
@@ -97,6 +93,10 @@ We can use modern development techniques like TDD to ensure all code is alive.
 - [Wikipedia](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
 
 - [Refactoring.guru](https://refactoring.guru/smells/speculative-generality)
+
+# Also Known as
+
+- Speculative Generality
 
 # Credits
 

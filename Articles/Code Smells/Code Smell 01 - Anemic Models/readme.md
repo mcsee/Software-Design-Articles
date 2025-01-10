@@ -87,10 +87,6 @@ They should ignore setters and getters and count real behavior methods.
 Avoid anemic models. Focus always on protocol instead of data. 
 [behavior](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md) is essential, data is accidental.
 
-# Also Known as
-
-- Data Class
-
 # Relations
 
 [Code Smell 28 - Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
@@ -104,6 +100,10 @@ Avoid anemic models. Focus always on protocol instead of data.
 - [Nude Models - Part I : Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20I Setters/readme.md)
 - [Nude Models - Part II : Getters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20II Getters/readme.md)
 - [How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
+
+# Also Known as
+
+- Data Class
 
 * * *
 

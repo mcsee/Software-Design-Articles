@@ -552,16 +552,16 @@ So we fake it.
 ```php
 <?php
 public function test03DictionaryDoesNotIncludeWord() {
-        $words = [new Word('happy')];
-        $dictionary = new Dictionary($words);
-        $this->assertFalse($dictionary->includesWord(new Word('sadly')));
-    }
-
+  $words = [new Word('happy')];
+  $dictionary = new Dictionary($words);
+  $this->assertFalse(
+      $dictionary->includesWord(new Word('sadly')));
+}
  
 // the solution
 function includesWord(): bool {
-        return false;
-    }
+   return false;
+}
 ```
 
 * * *
@@ -944,7 +944,8 @@ function matchesPositionWith(Word $anotherWord) : array {
                 $anotherWord->letters()[$currentPosition]) {
                         $positions[] = $currentPosition + 1; 
                 // Humans start counting on 1
-                // We can implement this better in several other languages
+                // We can implement this better 
+                // in several other languages
             }
         }
         return $positions;
