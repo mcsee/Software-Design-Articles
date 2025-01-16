@@ -582,6 +582,8 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 284 - Encrypted Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20284%20-%20Encrypted%20Functions/readme.md)
 
+[Code Smell 285 - Non-Imperative Functions Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20285%20-%20Non-Imperative%20Functions%20Names/readme.md)
+
 ... and many more to come.
 
 * * *

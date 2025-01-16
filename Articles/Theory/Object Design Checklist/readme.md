@@ -4,7 +4,9 @@
 
 ## This is an index to already published articles on software design.
 
-There are some rules to follow and embrace to make great software designs. This article will summarize them, serving as an index to full stories.
+Some rules must be followed and embraced to create great software designs. 
+
+This article summarizes them, serving as an index to full stories.
 
 > TL;DR: Important concepts about Object-Oriented Programming
 
@@ -88,6 +90,16 @@ Avoid Code Smells
 
 [How to Find the Stinky Parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
 
+## Refactorings
+
+Understand Refactorings
+
+[How to Improve Your Code With Easy Refactorings](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/How%20to%20Improve%20your%20Code%20With%20Easy%20Refactorings/readme.md)
+
+## Philosophy
+
+[Warning: The Universe's Event Simulator Is a Fierce Adversary for Coders!](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Opinion/Warning%20The%20Universe's%20Event%20Simulator%20Is%20a%20Fierce%20Adversary%20for%20Coders/readme.md)
+
 ## Exercises
 
 [How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
@@ -96,10 +108,19 @@ Avoid Code Smells
 
 [How I Survived the Zombie Apocalypse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20I%20Survived%20the%20Zombie%20Apocalypse/readme.md)
 
+## Index on GitHub
+
+[GitHub](https://github.com/mcsee/Software-Design-Articles)
+
+## Buy my Book
+
+[Clean Code Cookbook](https://cleancodecookbook.com/)
+
+									   
 * * *
+									      
+This series aims to spark debate and discussion on software design. 
 
-Part of the objective of this series of articles is to generate spaces for debate and discussion on software design.
-
-We look forward to comments and suggestions on this article.
+Your comments and suggestions are highly appreciated.
 
 This article is also available in Spanish [here](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Object%20Design%20Checklist/readme.md).
