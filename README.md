@@ -808,6 +808,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Refactoring 021 - Remove Dead Code](/Articles/Refactorings/Refactoring%20021%20-%20Remove%20Dead%20Code/readme.md)
 
+* [Refactoring 022 - Extract Common Ancestor](/Articles/Refactorings/Refactoring%20022%20-%20Extract%20Common%20Ancestor/readme.md)
+
 ### Wordle
 
 * [How to Create a Wordle as a Centaur](/Articles/Wordle/How%20to%20Create%20a%20Wordle%20as%20a%20Centaur/readme.md)
@@ -835,6 +837,8 @@ In this repository, you will find many articles related to Software Design
 * [Explain in 5 Levels of Difficulty: Linux](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20Linux/readme.md)
 
 * [Explain in 5 Levels of Difficulty: Object-Oriented Programming](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20Object-Oriented%20Programming/readme.md)
+
+* [Explain in 5 Levels of Difficulty: Quantum Computing](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20Quantum%20Computing/readme.md)
 
 * [Explain in 5 Levels of Difficulty: The Fermi Paradox](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20The%20Fermi%20Paradox/readme.md)
 

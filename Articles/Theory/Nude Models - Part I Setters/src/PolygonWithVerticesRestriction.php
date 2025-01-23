@@ -7,7 +7,8 @@ final class Polygon {
   private function __construct(Collection $newVertices) {
     if (count($newVertices < 3)) {
        throw new 
-         Exception('Cannot create a polygon with less than 3 vertices');
+         Exception(
+           'Cannot create a polygon with less than 3 vertices');
     }
     $this->vertices = $newVertices;
     }

@@ -584,6 +584,8 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 285 - Non-Imperative Functions Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20285%20-%20Non-Imperative%20Functions%20Names/readme.md)
 
+[Code Smell 286 - Overlapping Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20286%20-%20Overlapping%20Methods/readme.md)
+
 ... and many more to come.
 
 * * *

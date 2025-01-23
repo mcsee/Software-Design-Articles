@@ -96,7 +96,7 @@ After having covered (for now manually) the necessary cases we can start with th
 
 Helpers do not exist in the real-world, nor should they exist in any computable model.
 
-Let’s think about the responsibilities to choose the name in [MAPPER](https://codeburst.io/what-is-software-9a78c1172cf9).
+Let’s think about the responsibilities to choose the name in [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md).
 
 [The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
