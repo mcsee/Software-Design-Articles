@@ -648,6 +648,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 286 - Overlapping Methods](/Articles/Code%20Smells/Code%20Smell%20286%20-%20Overlapping%20Methods/readme.md)
 
+* [Code Smell 287 - Unused Local Assignment](/Articles/Code%20Smells/Code%20Smell%20287%20-%20Unused%20Local%20Assignment/readme.md)
+
 ### Blogging
 
 * [Content Structure: The Do's and Dont's of Content Creation](/Articles/Blogging/68%20-%20Content%20Structure%20The%20Do%27s%20and%20Dont%27s%20of%20Content%20Creation/readme.md)
