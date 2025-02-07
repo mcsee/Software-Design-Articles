@@ -586,6 +586,12 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 286 - Overlapping Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20286%20-%20Overlapping%20Methods/readme.md)
 
+[Code Smell 287 - Unused Local Assignment](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20287%20-%20Unused%20Local%20Assignment/readme.md)
+
+[Code Smell 288 - Unthrown Exceptions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20288%20-%20Unthrown%20Exceptions/readme.md)
+
+[Code Smell 289 - Shy Visitor](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20289%20-%20Shy%20Visitor/readme.md)
+
 ... and many more to come.
 
 * * *
