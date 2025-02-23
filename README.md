@@ -654,6 +654,10 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 289 - Shy Visitor](/Articles/Code%20Smells/Code%20Smell%20289%20-%20Shy%20Visitor/readme.md)
 
+* [Code Smell 290 - Refused Bequest](/Articles/Code%20Smells/Code%20Smell%20290%20-%20Refused%20Bequest/readme.md)
+
+* [Code Smell 291 - Mutable Keys](/Articles/Code%20Smells/Code%20Smell%20291%20-%20Mutable%20Keys/readme.md)
+
 ### Blogging
 
 * [Content Structure: The Do's and Dont's of Content Creation](/Articles/Blogging/68%20-%20Content%20Structure%20The%20Do%27s%20and%20Dont%27s%20of%20Content%20Creation/readme.md)
@@ -815,6 +819,8 @@ In this repository, you will find many articles related to Software Design
 * [Refactoring 021 - Remove Dead Code](/Articles/Refactorings/Refactoring%20021%20-%20Remove%20Dead%20Code/readme.md)
 
 * [Refactoring 022 - Extract Common Ancestor](/Articles/Refactorings/Refactoring%20022%20-%20Extract%20Common%20Ancestor/readme.md)
+
+* [Refactoring 023 - Replace Inheritance with Delegation](/Articles/Refactorings/Refactoring%20023%20-%20Replace%20Inheritance%20with%20Delegation/readme.md)
 
 ### Wordle
 

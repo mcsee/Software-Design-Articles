@@ -9,7 +9,7 @@
 # 1. Remove Notifications 🔔
 
 - Check your phone after a couple of hours.
-- Keep an eye on the app with the most notifications.
+- Keep an eye on the app that has the most notifications.
 - Block them.
 - Don't fear *[FOMO](https://en.wikipedia.org/wiki/Fear_of_missing_out)*.
 - Choose your shots.
@@ -29,25 +29,24 @@
 # 3. Inbox0 📥
 
 - Keep your inbox ALWAYS empty.
-- Unsubscribe to all irrelevant emails (most of the time is just one click).
+- Unsubscribe to all irrelevant emails (most of the time, it takes just one click).
 - Create filtering rules - out of the inbox.
-- If you need to take action on emails: (keep the list out, create a special folder).
+- If you need to take action on emails: (keep the list out, and create a special folder).
 - Inbox is not a To-do list.
 
 # 4. Find your Flow 🕯️
 
 - Creative work happens on [flow state](https://en.wikipedia.org/wiki/Flow_(psychology).
-- Takes some time to enter flow (about 15 mins).
-- Takes one second to leave it and go to the queue again.
+- It takes some time to enter the flow state (about 15 mins).
+- It takes one second to leave it and go to the queue again.
 - Remove all external flow interruptions, notifications, noise
 - Control all internal stimuli.
 
 # 5. Use [Zenware](https://searchunifiedcommunications.techtarget.com/definition/zenware) 💭
 
 - Use simple software.
-- Minimalistic tasks editors like [writemonkey](https://writemonkey.com/) and simple managing software like [Trello](https://trello.com/)
-- If you blog on @hashnode you will find its markup editor very convenient.
-- Don't procrastinate gold plating your articles.
+- Minimalistic task editors like [writemonkey](https://writemonkey.com/) and simple managing software like [Trello](https://trello.com/) 
+- Don't procrastinate gold-plating your articles.
 
 # 6. Close Your Browser Tabs 🔓
 
@@ -55,22 +54,23 @@
 - Do not open multiple tabs.
 - No operating system or web browser handles them very well. Neither you.
 - Don't multitask.
-- If something takes less than two minutes do it. Else add it to the To-Do list.
+- If something takes less than two minutes do it. Otherwise, add it to the To-Do list.
 - Web tabs are not to-do lists.
 
 # 7. Find *Homes* for everything 🏠
 
 - Every object (real or virtual) should have a home.
-- We can keep inboxes (or incoming places) for things for a couple of days.
-- We need brief processes to empty those inboxes.
-- When emptying those inboxes we should define new 'homes' if necessary.
+- You can keep inboxes (or incoming places) for things for a couple of days.
+- You need short processes to empty those inboxes.
+- When emptying those inboxes, you should define new 'homes' if necessary.
 
-# 8. Keep a Daily Agenda 📅
+# 8. Keep a Daily Agenda 🗓️
+
 - Start each day with a short daily agenda.
 - You can mix personal and work items or keep them in two separate lists.
 - Plan for unplanned work.
 - Revisit hourly to keep up.
-- And close it at night.
+- Close it at night.
 - Never reuse it for the next day. Start from scratch.
 
 # 9. Automate Repetitive Tasks 🤖
@@ -79,7 +79,7 @@
 - Automate repetitive tasks.
 - It is a two-sharp blade. Never automate when DOING a task.
 - Automating is more enjoyable than doing (Procrastination).
-- Automate only tasks made on daily basis.
+- Automate only tasks made daily.
 - Don't automate infrequent things.
 
 # 10. Avoid Unproductive Meetings 🤝
@@ -95,10 +95,10 @@ Commitments must include:
 
 # 11. Avoid Multitasking 👨‍💼
 
-- Don’t multitask. 
-- Work on one task at a time. 
-- Multitasking is a myth and trying to do it only splits your focus.
-- Human Brain is a monotask.
+- Don’t multitask.
+- Work on one task at a time.
+- Multitasking is a myth, trying to do it only splits your focus.
+- The Human Brain is a monotask.
 - Context Switching for neurons is too expensive, so you are thrashing most of the time.
 
 Focus -> Flow.
@@ -108,9 +108,9 @@ Focus -> Flow.
 - Voice Calls are interruptions.
 - Interruptions are our worst enemy.
 - Avoid unscheduled voice calls.
-- If it is not urgent you can talk via messaging in an asynchronous way.
+- If it is not urgent you can asynchronously talk via messaging.
 - If it is urgent, *double-check* it is urgent.
-- If you wanna talk, schedule!
+- If you want to talk, schedule!
 
 # 13. [Eat the Frog](https://todoist.com/productivity-methods/eat-the-frog) Early in the Morning 🌤️
 - Do the annoying tasks early in the morning.
@@ -124,27 +124,28 @@ Focus -> Flow.
 
 - Start each day with a different one.
 - With this method, there's no carry-over.
-- Daily check yesterday's unfinished goals and evaluate if they deserve being on the new list.
+- Daily check yesterday's unfinished goals and evaluate if they deserve to be on the new list.
 - It is YOUR list. Be honest with yourself.
 
 # 15. Measure Objectives 📈
 
-- Set long-term, middle-term and short-term goals.
+- Set long-term, middle-term, and short-term goals.
 - They should not be fuzzy.
 - Set a realistic and measurable metric.
 - If it is not measurable with exit condition it is not a goal.
-- Keep track of them on a weekly basis.
-- Change it if need it.
+- Keep track of them every week.
+- Change it if needed.
 
 # 16. Don't Save for Later 🍓
 
 - Save for later is a myth.
-- There are excellent apps like 
-[Pocket](https://getpocket.com/), [Inoreader](https://www.inoreader.com/), [Evernote](https://evernote.com/) or even [Hashnode Bookmark](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md) like in this article.
+- There are excellent apps like
+[Pocket](https://getpocket.com/), [Inoreader](https://www.inoreader.com/) [Evernote](https://evernote.com/), or even [Hashnode Bookmark]
+  (https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md) as in this article.
 - But unless you consume the list often this will grow forever.
 - Don't save content, consume it.
 - Have you bookmarked this article for later?
-- Don't [Hoard](https://en.wikipedia.org/wiki/Digital_hoarding is a disorder).
+- Don't [Hoard](https://en.wikipedia.org/wiki/Digital_hoarding).
 
 * * *
 
@@ -152,6 +153,7 @@ Focus -> Flow.
 
 [10 More Simple Tips to Boost Your Productivity x2 (2021 Guide)](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2%20(2021%20Guide)/readme.md)
 
-I'm sure there is plenty of productivity advice around. Which one does work for you? 
+I'm sure there is plenty of productivity advice around. Which one does work for you?
 
 Please leave me a comment.
+Now, don't procrastinate writing your comment.
