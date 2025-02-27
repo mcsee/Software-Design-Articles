@@ -4,7 +4,7 @@ class AccessControlPanel {
 
   private $users = [];
 
-  // 1.  Make a contextual copy of the repeated code
+  // 1. Make a contextual copy of the repeated code
   
   private function createUser(
      $username, 

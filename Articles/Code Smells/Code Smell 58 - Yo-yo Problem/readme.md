@@ -20,7 +20,7 @@
  
 # Solutions
 
-1.  Favor composition over inheritance.
+1. Favor composition over inheritance.
 
 2. Refactor deep hierarchies.
 

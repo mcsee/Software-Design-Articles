@@ -15,7 +15,7 @@ The pattern has been used in the industry for decades. Its popularity is attribu
 Despite this, in the corresponding [Wikipedia](https://en.wikipedia.org/wiki/Design_Patterns) entry we can read a Dantesque warning:
 
 > 
-Critics consider the singleton to be an [anti-pattern](https://en.wikipedia.org/wiki/Anti-pattern)  in that it is frequently used in scenarios where it is not beneficial, introduces unnecessary restrictions in situations where a sole instance of a class is not actually required, and introduces  [global state](Link)  into an application.
+Critics consider the singleton to be an [anti-pattern](https://en.wikipedia.org/wiki/Anti-pattern) in that it is frequently used in scenarios where it is not beneficial, introduces unnecessary restrictions in situations where a sole instance of a class is not actually required, and introduces  [global state](Link)  into an application.
 
 ![Devil](https://cdn.hashnode.com/res/hashnode/image/upload/v1598394410649/AWB5yatBl.jpeg)
 

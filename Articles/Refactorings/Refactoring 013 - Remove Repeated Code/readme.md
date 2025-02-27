@@ -38,7 +38,7 @@ Refactoring isn't a one-time event; it's an ongoing process that should be integ
 
 # Steps
 
-1.  Make a contextual copy of the repeated code
+1. Make a contextual copy of the repeated code
 
 2. Parametrize what is different
 
@@ -107,7 +107,7 @@ class AccessControlPanel {
 
   private $users = [];
 
-  // 1.  Make a contextual copy of the repeated code
+  // 1. Make a contextual copy of the repeated code
   
   private function createUser(
      $username, 

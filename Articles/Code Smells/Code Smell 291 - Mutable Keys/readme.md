@@ -8,14 +8,14 @@
 
 # Problems 😔
 
--  Lost Values
+- Lost Values
 - Hard Debugging
 - The Least Surprise Principle Violation
 - Unexpected Behavior
 
 # Solutions 😃
 
-1.  Use [immutable](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md) objects as keys.
+1. Use [immutable](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md) objects as keys.
 2. Override [equals/hashCode](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20167%20-%20Hashing%20Comparison/readme.md) well.
 3. Use final fields (If your language allows it)
 4. Rehash after mutation (This is an over-engineering solution)

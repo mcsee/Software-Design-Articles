@@ -609,11 +609,11 @@ https://x.com/KadaGuetouache
 
 * * *
 
-1.  Once you get OOP under your belt, learn a functional language. 
+1. Once you get OOP under your belt, learn a functional language. 
 
-2.  Learn modeling.
+2. Learn modeling.
 
-3.  Use TDD.
+3. Use TDD.
 
 https://x.com/thefakezzig
 

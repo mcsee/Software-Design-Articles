@@ -24,7 +24,7 @@ Six years ago he discovered TDD, which led him to XP, Agile, and Craftsmanship. 
 
 # My Personal notes
 
--  In embedded systems, there are several microcontrollers answering in an autonomous manner.
+- In embedded systems, there are several microcontrollers answering in an autonomous manner.
 - Firmware becomes obsolete because it depends on the hardware. The software can be changed.
 - Fallacy 1: "Right solution at first iteration". More complex because on embedded systems orders of magnitude are higher.
 - Embedded system code is tied to the current architecture. 

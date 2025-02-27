@@ -18,7 +18,7 @@
 
 # Solutions
 
-1.  Model special cases with special objects.
+1. Model special cases with special objects.
 
 2. Avoid 9999, -1, and 0 since they are valid domain objects and implementation coupling.
 

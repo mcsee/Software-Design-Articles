@@ -8,7 +8,7 @@
 
 # Problems
 
--  Readability
+Readability
  
 - Maintainability
 
@@ -16,7 +16,7 @@
 
 # Solutions
 
-1.  Use meaningful names
+1. Use meaningful names
 
 2. Try to avoid flags. They generate coupling.
 

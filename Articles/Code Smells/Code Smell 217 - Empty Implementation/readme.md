@@ -12,7 +12,7 @@
 
 # Solutions
 
-1.  Throw an error indicating implementation is not complete
+1. Throw an error indicating implementation is not complete
 
 # Context
 

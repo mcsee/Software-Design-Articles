@@ -16,7 +16,7 @@
 
 # Solutions
 
-1.  Use spaces. Always.
+1. Use spaces. Always.
 
 2. Use automatic tools to prevent tabs in the code.
 

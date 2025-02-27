@@ -480,7 +480,7 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 233 - Collections Count](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20233%20-%20Collections%20Count/readme.md)
 
-[Code Smell 234 - Long Circuit](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20234%20-%20Long%20Circuit/readme.md)			 													  
+[Code Smell 234 - Long Circuit](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20234%20-%20Long%20Circuit/readme.md)
 
 [Code Smell 235 - Console Side Effects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20235%20-%20Console%20Side%20Effects/readme.md)
 

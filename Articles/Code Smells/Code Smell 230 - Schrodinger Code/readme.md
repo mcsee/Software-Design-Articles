@@ -14,7 +14,7 @@
 
 # Solutions
 
-1.  Avoid race conditions 
+1. Avoid race conditions 
 
 2. Avoid global variables
 

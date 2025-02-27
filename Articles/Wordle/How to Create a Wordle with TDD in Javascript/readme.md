@@ -78,7 +78,7 @@ Message: letters from word must be 'valid'
 Stack Trace:
 ReferenceError: Word is not defined
     at Object.<anonymous> (/home/runner/Wordle-TDD/_test_runnertest_suite.js:6:18)
-    at Promise.then.completed (/home/runner/Wordle-TDD/node_modules/jest-circus/build/utils.js:333:28)    
+    at Promise.then.completed (/home/runner/Wordle-TDD/node_modules/jest-circus/build/utils.js:333:28)
 ```
 
 This is fine since we haven't defined what a word is.
@@ -514,15 +514,15 @@ Error: expect(received).toStrictEqual(expected) // deep equality
 + Received  + 4
 
   Array [
--   "v",
-+   "g",
-+   "r",
-    "a",
--   "l",
--   "i",
--   "d",
-+   "s",
-+   "s",
+- "v",
++ "g",
++ "r",
+  "a",
+- "l",
+- "i",
+- "d",
++ "s",
++ "s",
   ]
     at Object.toStrictEqual (/home/runner/Wordle-TDD/_test_runnertest_suite.js:9:37)
 ```

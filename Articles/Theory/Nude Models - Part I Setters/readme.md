@@ -255,8 +255,8 @@ $triangle->setVertices([new Point(1, 1)]);
 
 At this point we have two options:
 
-1.  Duplicate the business logic in the constructor and in the setter.
-2.  Eliminate the setter permanently, favoring immutability
+1. Duplicate the business logic in the constructor and in the setter.
+2. Eliminate the setter permanently, favoring immutability
 
 In case of accepting the repeated code, the ripple effect begins to spread when our restrictions grow. For example, if we make the precondition even stronger:
 

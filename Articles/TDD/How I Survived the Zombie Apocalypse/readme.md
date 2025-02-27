@@ -100,7 +100,7 @@ test01ZeroRecipients
 
 name test01ZeroRecipients is composed by
 
--  a prefix *test* mandatory in many testing frameworks. (*mandatory*)
+- a prefix *test* mandatory in many testing frameworks. (*mandatory*)
 
 - a sequential order (to incrementally show the learning/testing procedure). (*optional*)
 

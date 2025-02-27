@@ -22,7 +22,7 @@ Ragunath has consulted organizations like Gojek, Dunzo, Tiffany & Co., Mizuno, e
 
 # My Personal notes
 
--  On a good feedback loop, the system tells you when something is not right.
+- On a good feedback loop, the system tells you when something is not right.
 - They help us catch mistakes early on.
 - Good feedback loops are not as good as feedback loops telling you something is wrong.
 - Negative Feedback loops help experiment much faster and figure out small solutions

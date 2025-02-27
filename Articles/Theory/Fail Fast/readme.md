@@ -206,9 +206,9 @@ The solution is robust but it is coupling the movement to date and a static meth
 
 To solve this problem we have several options:
 
-1.  Leave the coupling to the class.
-2.  Send as a parameter a date validator that can validate the date using double dispatch.
-3.  Remove date validation responsibility from the movement.
+1. Leave the coupling to the class.
+2. Send as a parameter a date validator that can validate the date using double dispatch.
+3. Remove date validation responsibility from the movement.
 
 When in doubt about our design decisions, we can always go back to our bijection and ask our business expert whose responsibility is this.
 

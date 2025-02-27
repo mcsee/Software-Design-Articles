@@ -16,7 +16,7 @@
 
 # Solutions
 
-1.  Rename your variable according to the role.
+1. Rename your variable according to the role.
 
 # Sample Code
 

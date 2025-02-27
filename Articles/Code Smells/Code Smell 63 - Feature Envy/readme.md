@@ -22,7 +22,7 @@
 
 # Solutions
 
-1.  Move the method to the appropriate class.
+1. Move the method to the appropriate class.
 
 # Sample Code
 

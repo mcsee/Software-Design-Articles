@@ -22,7 +22,7 @@
 
 # Solutions
 
-1.  Avoid Getters
+1. Avoid Getters
 
 2. Use domain names instead
 

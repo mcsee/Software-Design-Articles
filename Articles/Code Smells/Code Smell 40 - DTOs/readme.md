@@ -158,7 +158,7 @@ We can check for *anemic* classes with no business object behavior (removing ser
  
  # Tags
 
--  Anemic
+- Anemic
 
 # Conclusion
 

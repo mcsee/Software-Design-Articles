@@ -125,7 +125,7 @@ Does not work well if you use [meta-programming anti-pattern](https://github.com
 
 # Related Refactorings
 
--  Move method to a new class
+- Move method to a new class
 
 # Credits
 
