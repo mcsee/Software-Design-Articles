@@ -9,7 +9,7 @@ const massBlackHole2 = 2.2e32;
 const distanceBlackHoles = 5.7e20;  
 // Distance between black holes in meters
 
-var force = (distanceSquared = distanceBlackHoles * distanceBlackHoles,
-             (gravitationalConstant * massBlackHole1 * massBlackHole2) /
+var force = (distanceSquared = distanceBlackHoles*distanceBlackHoles,
+            (gravitationalConstant * massBlackHole1*massBlackHole2) /
              distanceSquared);
 // Two operations in a single statement with comma operator  

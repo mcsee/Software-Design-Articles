@@ -152,7 +152,7 @@ No matter how interesting the theory, fundamentals, and evidence are, readers wi
 
 Follow some [productivity tips](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/My%20Best%20Short%20Productivity%20Tips/readme.md) to stay focused.
 
-You can set your own micro rewards, baby steps goals, [disable all notifications](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2%20(2021%20Guide)/readme.md), and many others.
+You can set your own micro rewards, baby steps goals, [disable all notifications](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2/readme.md), and many others.
 
 ## Track Your Code Samples
 

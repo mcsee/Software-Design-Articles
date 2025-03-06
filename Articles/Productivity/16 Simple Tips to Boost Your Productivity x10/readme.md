@@ -151,7 +151,7 @@ Focus -> Flow.
 
 # [Update] Part II
 
-[10 More Simple Tips to Boost Your Productivity x2 (2021 Guide)](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2%20(2021%20Guide)/readme.md)
+[10 More Simple Tips to Boost Your Productivity x2](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2/readme.md)
 
 I'm sure there is plenty of productivity advice around. Which one does work for you?
 

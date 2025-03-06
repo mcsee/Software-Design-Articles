@@ -75,7 +75,7 @@ class TestMultiply(unittest.TestCase):
         self.assertEqual(result, 0)
     def test_multiply_both_are_zero_outcome_is_zero(self):
         result = multiply(0, 0)
-        self.assertEqual(result, 0)           
+        self.assertEqual(result, 0)
 
 # You define a test function called test_multiply,
 # which calls the multiply function with different arguments 

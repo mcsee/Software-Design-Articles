@@ -596,6 +596,8 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 291 - Mutable Keys](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20291%20-%20Mutable%20Keys/readme.md)
 
+[Code Smell 292 - Missing Return](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20292%20-%20Missing%20Return/readme.md)
+
 ... and many more to come.
 
 * * *

@@ -24,7 +24,7 @@ The first step is to become aware of your habits.
 
 Habits are automated behaviors that we have learned from experience.
 
-You have to start paying attention to the things you do [every day](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2%20(2021%20Guide)/readme.md), without thinking. 
+You have to start paying attention to the things you do [every day](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2/readme.md), without thinking. 
 
 When you walk through a dark room, you don't think, you try to find the light switch.
 

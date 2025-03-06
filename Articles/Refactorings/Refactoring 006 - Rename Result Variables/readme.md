@@ -89,4 +89,6 @@ Image by [HeungSoon](https://pixabay.com/users/heungsoon-4523762/) on [Pixabay](
 
 * * * 
 
-This article is part of the Refactoring Series.
+This article is part of the Refactoring Series
+
+[How to Improve Your Code With Easy Refactorings](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/How%20to%20Improve%20your%20Code%20With%20Easy%20Refactorings/readme.md)

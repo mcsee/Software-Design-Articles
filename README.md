@@ -660,6 +660,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 292 - Missing Return](/Articles/Code%20Smells/Code%20Smell%20292%20-%20Missing%20Return/readme.md)
 
+* [Code Smell 293 - isTesting](/Articles/Code%20Smells/Code%20Smell%20293%20-%20isTesting/readme.md)
+
 ### Blogging
 
 * [Content Structure: The Do's and Dont's of Content Creation](/Articles/Blogging/68%20-%20Content%20Structure%20The%20Do%27s%20and%20Dont%27s%20of%20Content%20Creation/readme.md)
@@ -690,9 +692,9 @@ In this repository, you will find many articles related to Software Design
 
 * [What is JOMO and Why it will Increase your Productivity x97](/Articles/Productivity/What%20is%20JOMO%20and%20Why%20it%20will%20Increase%20your%20Productivity%20x97/readme.md)
 
-* [16 Simple Tips to Boost Your Productivity x10](/Articles/Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md)
+* [10 More Simple Tips to Boost Your Productivity x2](/Articles/Productivity/10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2/readme.md)
 
-* [10 More Simple Tips to Boost Your Productivity x2 (2021 Guide)](/Articles/Productivity/10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2%20%282021%20Guide%29/readme.md)
+* [16 Simple Tips to Boost Your Productivity x10](/Articles/Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md)
 
 ### Twitter
 

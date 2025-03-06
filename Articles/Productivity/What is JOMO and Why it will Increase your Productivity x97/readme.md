@@ -70,7 +70,7 @@ According to Patrick McGinnis' 3 tips, we can fight it:
 
 [16 Simple Tips to Boost Your Productivity x10](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md)
 
-[10 More Simple Tips to Boost Your Productivity x2 (2021 Guide)](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2%20(2021%20Guide)/readme.md)
+[10 More Simple Tips to Boost Your Productivity x2](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2/readme.md)
 
 # What does the 97x stand for?
 

@@ -81,7 +81,7 @@ Most static analyzers and linters often catch this.
 
 # Level 🔋
 
-[x] Beginner
+[X] Beginner
 
 # Why the Bijection Is Important 🗺️
 
