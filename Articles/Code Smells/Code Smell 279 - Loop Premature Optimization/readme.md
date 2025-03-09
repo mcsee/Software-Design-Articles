@@ -86,15 +86,18 @@ With proper instructions to stress readability and maintainability, AI can detec
 
 *Remember: AI Assistants make lots of mistakes*
 
+> Suggested Prompt: Convert it to more declarative removing optimizations
+
 | Without Proper Instructions    | With Specific Instructions |
 | -------- | ------- |
 | [ChatGPT](https://chat.openai.com/?q=Correct+and+explain+this+code%3A+%60%60%60python%0D%0A%23+Over-optimized+and+less+readable%0D%0Aresult+%3D+%5Bitem.process%28%29+for+item+in+items+if+item.is_valid%28%29%5D%0D%0A%60%60%60) | [ChatGPT](https://chat.openai.com/?q=Convert+it+to+more+declarative+removing+optimizations%3A+%60%60%60python%0D%0A%23+Over-optimized+and+less+readable%0D%0Aresult+%3D+%5Bitem.process%28%29+for+item+in+items+if+item.is_valid%28%29%5D%0D%0A%60%60%60) |
 | [Claude](https://claude.ai/new?q=Correct+and+explain+this+code%3A+%60%60%60python%0D%0A%23+Over-optimized+and+less+readable%0D%0Aresult+%3D+%5Bitem.process%28%29+for+item+in+items+if+item.is_valid%28%29%5D%0D%0A%60%60%60) | [Claude](https://claude.ai/new?q=Convert+it+to+more+declarative+removing+optimizations%3A+%60%60%60python%0D%0A%23+Over-optimized+and+less+readable%0D%0Aresult+%3D+%5Bitem.process%28%29+for+item+in+items+if+item.is_valid%28%29%5D%0D%0A%60%60%60) |
 | [Perplexity](https://www.perplexity.ai/?q=Correct+and+explain+this+code%3A+%60%60%60python%0D%0A%23+Over-optimized+and+less+readable%0D%0Aresult+%3D+%5Bitem.process%28%29+for+item+in+items+if+item.is_valid%28%29%5D%0D%0A%60%60%60) | [Perplexity](https://www.perplexity.ai/?q=Convert+it+to+more+declarative+removing+optimizations%3A+%60%60%60python%0D%0A%23+Over-optimized+and+less+readable%0D%0Aresult+%3D+%5Bitem.process%28%29+for+item+in+items+if+item.is_valid%28%29%5D%0D%0A%60%60%60) |
 | [Copilot](https://www.bing.com/chat?showconv=1&sendquery=1&q=Correct+and+explain+this+code%3A+%60%60%60python%0D%0A%23+Over-optimized+and+less+readable%0D%0Aresult+%3D+%5Bitem.process%28%29+for+item+in+items+if+item.is_valid%28%29%5D%0D%0A%60%60%60) | [Copilot](https://www.bing.com/chat?showconv=1&sendquery=1&q=Convert+it+to+more+declarative+removing+optimizations%3A+%60%60%60python%0D%0A%23+Over-optimized+and+less+readable%0D%0Aresult+%3D+%5Bitem.process%28%29+for+item+in+items+if+item.is_valid%28%29%5D%0D%0A%60%60%60) |
-| [Gemini](https://gemini.google.com/?q=Correct+and+explain+this+code%3A+%60%60%60python%0D%0A%23+Over-optimized+and+less+readable%0D%0Aresult+%3D+%5Bitem.process%28%29+for+item+in+items+if+item.is_valid%28%29%5D%0D%0A%60%60%60) | [Gemini](https://gemini.google.com/?q=Convert+it+to+more+declarative+removing+optimizations%3A+%60%60%60python%0D%0A%23+Over-optimized+and+less+readable%0D%0Aresult+%3D+%5Bitem.process%28%29+for+item+in+items+if+item.is_valid%28%29%5D%0D%0A%60%60%60) | 
-| [DeepSeek](https://chat.deepseek.com/?q=Correct+and+explain+this+code%3A+%60%60%60python%0D%0A%23+Over-optimized+and+less+readable%0D%0Aresult+%3D+%5Bitem.process%28%29+for+item+in+items+if+item.is_valid%28%29%5D%0D%0A%60%60%60) | [DeepSeek](https://chat.deepseek.com/?q=Convert+it+to+more+declarative+removing+optimizations%3A+%60%60%60python%0D%0A%23+Over-optimized+and+less+readable%0D%0Aresult+%3D+%5Bitem.process%28%29+for+item+in+items+if+item.is_valid%28%29%5D%0D%0A%60%60%60) | 
-| [Meta AI](https://www.meta.ai/chat?q=Correct+and+explain+this+code%3A+%60%60%60python%0D%0A%23+Over-optimized+and+less+readable%0D%0Aresult+%3D+%5Bitem.process%28%29+for+item+in+items+if+item.is_valid%28%29%5D%0D%0A%60%60%60) | [Meta AI](https://www.meta.ai/?q=Convert+it+to+more+declarative+removing+optimizations%3A+%60%60%60python%0D%0A%23+Over-optimized+and+less+readable%0D%0Aresult+%3D+%5Bitem.process%28%29+for+item+in+items+if+item.is_valid%28%29%5D%0D%0A%60%60%60) | 
+| [Gemini](https://gemini.google.com/) | [Gemini](https://gemini.google.com/) | 
+| [DeepSeek](https://chat.deepseek.com/) | [DeepSeek](https://chat.deepseek.com/) | 
+| [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
+| [Qwen](https://chat.qwen.ai) | [Qwen](https://chat.qwen.ai) | 
 
 # Conclusion
 

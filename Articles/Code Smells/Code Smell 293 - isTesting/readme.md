@@ -177,7 +177,7 @@ Photo by [Christian Gertenbach](https://unsplash.com/@kc_gertenbach) on [Unsplas
 
 > When you add testing flags, you undermine confidence in production.
 
-_ Ward Cunningham_  
+_Ward Cunningham_
  
 [Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 

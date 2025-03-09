@@ -87,15 +87,18 @@ They may need specific instructions about readability and maintainability.
 
 *Remember AI Assistants make lots of mistakes*
 
+> Suggested Prompt: Remove metaprogramming usage
+
 | Without Proper Instructions    | With Specific Instructions |
 | -------- | ------- |
 | [ChatGPT](https://chat.openai.com/?q=Correct+and+explain+this+code%3A+%60%60%60javascript%0D%0Aconst+method+%3D+success+%3F+%27start%27+%3A+%27stop%27%3B%0D%0Aobj%5Bmethod%5D%28%29%3B%0D%0A%60%60%60) | [ChatGPT](https://chat.openai.com/?q=Remove+metaprogramming+usage%3A+%60%60%60javascript%0D%0Aconst+method+%3D+success+%3F+%27start%27+%3A+%27stop%27%3B%0D%0Aobj%5Bmethod%5D%28%29%3B%0D%0A%60%60%60) |
 | [Claude](https://claude.ai/new?q=Correct+and+explain+this+code%3A+%60%60%60javascript%0D%0Aconst+method+%3D+success+%3F+%27start%27+%3A+%27stop%27%3B%0D%0Aobj%5Bmethod%5D%28%29%3B%0D%0A%60%60%60) | [Claude](https://claude.ai/new?q=Remove+metaprogramming+usage%3A+%60%60%60javascript%0D%0Aconst+method+%3D+success+%3F+%27start%27+%3A+%27stop%27%3B%0D%0Aobj%5Bmethod%5D%28%29%3B%0D%0A%60%60%60) |
 | [Perplexity](https://www.perplexity.ai/?q=Correct+and+explain+this+code%3A+%60%60%60javascript%0D%0Aconst+method+%3D+success+%3F+%27start%27+%3A+%27stop%27%3B%0D%0Aobj%5Bmethod%5D%28%29%3B%0D%0A%60%60%60) | [Perplexity](https://www.perplexity.ai/?q=Remove+metaprogramming+usage%3A+%60%60%60javascript%0D%0Aconst+method+%3D+success+%3F+%27start%27+%3A+%27stop%27%3B%0D%0Aobj%5Bmethod%5D%28%29%3B%0D%0A%60%60%60) |
 | [Copilot](https://www.bing.com/chat?showconv=1&sendquery=1&q=Correct+and+explain+this+code%3A+%60%60%60javascript%0D%0Aconst+method+%3D+success+%3F+%27start%27+%3A+%27stop%27%3B%0D%0Aobj%5Bmethod%5D%28%29%3B%0D%0A%60%60%60) | [Copilot](https://www.bing.com/chat?showconv=1&sendquery=1&q=Remove+metaprogramming+usage%3A+%60%60%60javascript%0D%0Aconst+method+%3D+success+%3F+%27start%27+%3A+%27stop%27%3B%0D%0Aobj%5Bmethod%5D%28%29%3B%0D%0A%60%60%60) |
-| [Gemini](https://gemini.google.com/?q=Correct+and+explain+this+code%3A+%60%60%60javascript%0D%0Aconst+method+%3D+success+%3F+%27start%27+%3A+%27stop%27%3B%0D%0Aobj%5Bmethod%5D%28%29%3B%0D%0A%60%60%60) | [Gemini](https://gemini.google.com/?q=Remove+metaprogramming+usage%3A+%60%60%60javascript%0D%0Aconst+method+%3D+success+%3F+%27start%27+%3A+%27stop%27%3B%0D%0Aobj%5Bmethod%5D%28%29%3B%0D%0A%60%60%60) | 
-| [DeepSeek](https://chat.deepseek.com/?q=Correct+and+explain+this+code%3A+%60%60%60javascript%0D%0Aconst+method+%3D+success+%3F+%27start%27+%3A+%27stop%27%3B%0D%0Aobj%5Bmethod%5D%28%29%3B%0D%0A%60%60%60) | [DeepSeek](https://chat.deepseek.com/?q=Remove+metaprogramming+usage%3A+%60%60%60javascript%0D%0Aconst+method+%3D+success+%3F+%27start%27+%3A+%27stop%27%3B%0D%0Aobj%5Bmethod%5D%28%29%3B%0D%0A%60%60%60) | 
-| [Meta AI](https://www.meta.ai/chat?q=Correct+and+explain+this+code%3A+%60%60%60javascript%0D%0Aconst+method+%3D+success+%3F+%27start%27+%3A+%27stop%27%3B%0D%0Aobj%5Bmethod%5D%28%29%3B%0D%0A%60%60%60) | [Meta AI](https://www.meta.ai/?q=Remove+metaprogramming+usage%3A+%60%60%60javascript%0D%0Aconst+method+%3D+success+%3F+%27start%27+%3A+%27stop%27%3B%0D%0Aobj%5Bmethod%5D%28%29%3B%0D%0A%60%60%60) | 
+| [Gemini](https://gemini.google.com/) | [Gemini](https://gemini.google.com/) | 
+| [DeepSeek](https://chat.deepseek.com/) | [DeepSeek](https://chat.deepseek.com/) | 
+| [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
+| [Qwen](https://chat.qwen.ai) | [Qwen](https://chat.qwen.ai) | 
 
 # Conclusion
 

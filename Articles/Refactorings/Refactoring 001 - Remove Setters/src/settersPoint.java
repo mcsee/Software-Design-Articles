@@ -3,16 +3,16 @@ public class Point {
    protected int y;
   
    public Point() {
-        this.x = 0;
-        this.y = 0;        
+      this.x = 0;
+      this.y = 0;        
    }
     
    public void setX(int x) {
-	this.x = x;
+      this.x = x;
    }
   
    public void setY(int y) {
-        this.y = y;
+      this.y = y;
   } 
 }
 
@@ -22,7 +22,7 @@ Point location = new Point();
 // Might be null or some other convention
 
 location.setX(1);
-// Now we have point(1,0)
+// Now you have point(1,0)
 
 location.setY(2);
-// Now we have point(1,2)
+// Now you have point(1,2)
