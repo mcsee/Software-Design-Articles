@@ -2,7 +2,7 @@
 
 ![10 More Simple Tips to Boost Your Productivity x2](10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2.gif)
 
-*The previous article on life-hacks was a huge success. Let's start the year with more productivity tips!*
+*The previous article on life hacks was a huge success. Let's start the year with more productivity tips!*
 
 > TL;DR: More tips to stay productive
 
@@ -21,7 +21,7 @@
 
 # 18. Build Habits 🏃
 
-- Surgeon Maxwell Maltz found out [it takes about 21 days](https://jamesclear.com/new-habit) to create a new habit.
+- Surgeon Maxwell Maltz learned [it takes about 21 days](https://jamesclear.com/new-habit) to create a new habit.
 - It takes at least 21 days for an old mental image to dissolve and a new one to harden.
 - Creating (or removing) a habit is straightforward.
 - Repeat 21 days (streak).
@@ -30,7 +30,7 @@
 # 19. Focus 👁️
 - If the product is free, **you** are the product
 - Attention is *your* asset
-When you use a website, application, or software and try to do A, you will see many alerts, banners, messages, and click baits prompting you to do B/C/D, etc.
+- When you use a website, application, or software and try to do A, you will see many alerts, banners, messages, and click baits prompting you to do B/C/D, etc.
 - Be like Ulysses, don't listen to Mermaids!
 
 # 20. Disable notification questions 🔕
@@ -83,7 +83,7 @@ Fake deadline: today.*
 Write your goals as *SMART* Sentences:
 
 Example:
-> “Write one [Code Smell](https://hashnode.com/series/code-smells-ckh0jrbfm07pu20s1bc0yaae1) article every week until 2022."
+> “Write one [Code Smell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md) article every week until 2032."
 
 # 27. Drastic Measures 🐱‍🚀
 
@@ -92,7 +92,7 @@ Example:
 - Block site IPs on hosts.txt or similar.
 - Cut off the internet using router rules.
 - Go to an internet void zone in the wild.
-- Engage on a goal-based group to be accountable.
+- Engage in a goal-based group to be accountable.
 
 * * *
 

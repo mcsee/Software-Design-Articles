@@ -82,7 +82,7 @@ As always, we need to stick to evidence in real-world scenarios.
 
 # Tags
 
-- Primitive
+- Primitive Obsession
 
 # Conclusion
 
