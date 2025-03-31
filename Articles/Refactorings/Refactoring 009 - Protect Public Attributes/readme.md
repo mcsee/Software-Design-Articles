@@ -41,7 +41,8 @@ public class Song {
 
 ```java
 public class Song {
-   // 1- Change the visibility of your attributes from public to private
+   // 1- Change the visibility 
+   // of your attributes from public to private
    private String artistName;
    private String AlbumName;
   

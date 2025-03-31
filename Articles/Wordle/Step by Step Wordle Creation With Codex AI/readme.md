@@ -331,7 +331,8 @@ document.body.appendChild(button);
 <!-- [Gist Url](https://gist.github.com/mcsee/ea0aad9007a7256d531919269c955ad7) -->
 
 ```javascript
-/* add another button with id 'remove' and the 'x' character as label */
+/* add another button with id 'remove'
+and the 'x' character as label */
 
 var button = document.createElement('button');
 button.innerHTML = '&#10007;';

@@ -86,8 +86,6 @@ Linters can detect comments and check the ratio of comments/lines of code agains
 
 - Comments
 
-- Declarative
-
 # Conclusion
 
 Leave comments just for important design decisions. Don't comment on a method with a bad name, rename it.

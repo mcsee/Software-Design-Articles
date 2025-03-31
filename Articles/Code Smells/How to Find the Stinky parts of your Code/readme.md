@@ -600,6 +600,10 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 293 - isTesting](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20293%20-%20isTesting/readme.md)
 
+[Code Smell 294 - Implicit Return](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20294%20-%20Implicit%20Return/readme.md)
+
+[Code Smell 295 - String Concatenation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20295%20-%20String%20Concatenation/readme.md)
+
 ... and many more to come.
 
 * * *

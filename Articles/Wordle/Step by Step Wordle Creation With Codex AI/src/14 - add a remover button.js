@@ -1,4 +1,5 @@
-/* add another button with id 'remove' and the 'x' character as label */
+/* add another button with id 'remove'
+and the 'x' character as label */
 
 var button = document.createElement('button');
 button.innerHTML = '&#10007;';

@@ -834,6 +834,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Refactoring 024 - Replace Global Variables with Dependency Injection](/Articles/Refactorings/Refactoring%20024%20-%20Replace%20Global%20Variables%20with%20Dependency%20Injection/readme.md)
 
+* [Refactoring 025 - Decompose Regular Expressions](/Articles/Refactorings/Refactoring%20025%20-%20Decompose%20Regular%20Expressions/readme.md)
+
 ### Wordle
 
 * [How to Create a Wordle as a Centaur](/Articles/Wordle/How%20to%20Create%20a%20Wordle%20as%20a%20Centaur/readme.md)
