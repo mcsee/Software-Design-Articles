@@ -87,6 +87,10 @@ As always, very important design decisions are valid comments.
 
 - Comments
 
+# Level 🔋
+
+[X] Beginner
+
 # Related Refactorings
 
 [Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)

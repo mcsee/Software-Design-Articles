@@ -184,11 +184,13 @@ You eliminate null checks with [accidental IF conditions](https://github.com/mcs
 
 The Null Object Pattern ensures you always work with objects, avoiding null pointer exceptions - [The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md).
 
-# Limitations
-
 # Tags
 
 - Null
+
+# Level 🔋
+
+[X] Intermediate
 
 # Related Refactorings
 

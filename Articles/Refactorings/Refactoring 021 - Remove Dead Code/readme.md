@@ -200,6 +200,10 @@ This process relies on static analysis or thorough codebase knowledge, which can
 
 - Bloaters
 
+# Level 🔋
+
+[X] Beginner
+
 # Related Refactorings
 
 [Refactoring 004 - Remove Unhandled Exceptions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20004%20-%20Remove%20Unhandled%20Exceptions/readme.md)

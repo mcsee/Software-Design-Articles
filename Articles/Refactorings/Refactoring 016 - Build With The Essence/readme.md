@@ -163,6 +163,10 @@ You can have clear pre-prompts requesting all your code samples to favor immutab
 
 - Mutability
 
+# Level 🔋
+
+[X] Intermediate
+
 # Related Refactorings
 
 [Refactoring 001 - Remove Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md) 

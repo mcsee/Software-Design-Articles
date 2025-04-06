@@ -157,6 +157,10 @@ They never do actual benchmarks with real world data.
 
 - Encapsulation
 
+# Level 🔋
+
+[X] Intermediate
+
 # Related Refactorings
 
 [Refactoring 007 - Extract Class](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20007%20-%20Extract%20Class/readme.md)

@@ -207,7 +207,7 @@ You should leave this mechanical task to AI.
 
 - Testability
 
-Level 🔋
+# Level 🔋
 
 [X] Intermediate
 

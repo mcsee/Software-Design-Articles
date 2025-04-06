@@ -136,6 +136,10 @@ By introducing an abstract class, the code better reflects the [real-world](http
 
 - Inheritance
 
+# Level 🔋
+
+[X] Intermediate
+
 # Related Refactorings
 
 [Refactoring 013 - Remove Repeated Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20013%20-%20Remove%20Repeated%20Code/readme.md)

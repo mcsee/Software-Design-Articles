@@ -152,6 +152,10 @@ You can prompt your AI assistants to make this refactoring for you.
 
 - Mutability
 
+# Level 🔋
+
+[X] Intermediate
+
 # Related Refactorings
 
 https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md

@@ -81,6 +81,10 @@ The scope is more clear.
 
 - Mutability
 
+# Level 🔋
+
+[X] Beginner
+
 # Related Refactorings
 
 [Refactoring 003 - Extract Constant](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20003%20-%20Extract%20Constant/readme.md)

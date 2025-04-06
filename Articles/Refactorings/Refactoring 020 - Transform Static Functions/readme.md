@@ -138,6 +138,10 @@ You remove hidden global dependencies, making the code clearer and easier to und
 
 - Cohesion
 
+# Level 🔋
+
+[X] Intermediate
+
 # Related Refactorings
 
 [Refactoring 018 - Replace Singleton](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20018%20-%20Replace%20Singleton/readme.md)

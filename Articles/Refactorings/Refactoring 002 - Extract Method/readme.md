@@ -123,6 +123,10 @@ Does not work well if you use [meta-programming anti-pattern](https://github.com
 
 - Readability
 
+# Level 🔋
+
+[X] Beginner
+
 # Related Refactorings
 
 - Move method to a new class

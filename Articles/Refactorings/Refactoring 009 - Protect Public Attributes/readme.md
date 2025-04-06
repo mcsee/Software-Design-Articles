@@ -76,6 +76,10 @@ Some languages don't have visibility options.
 
 - Anemic
 
+# Level 🔋
+
+[X] Intermediate
+
 # Related Refactorings
 
 [Refactoring 001 - Remove Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)

@@ -84,6 +84,10 @@ This is a [gold plating](https://en.wikipedia.org/wiki/Gold_plating_(project_man
 
 - Clean up
 
+# Level 🔋
+
+[X] Beginner
+
 # Related Refactorings
 
 - Safe Remove

@@ -178,6 +178,10 @@ This refactoring improves encapsulation and integrity adding an extra access con
 
 - Mutability
 
+# Level 🔋
+
+[X] Beginner
+
 # Related Refactorings
 
 [Refactoring 016 - Build With The Essence](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20016%20-%20Build%20With%20The%20Essence/readme.md)

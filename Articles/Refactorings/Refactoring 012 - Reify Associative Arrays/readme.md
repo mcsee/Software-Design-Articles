@@ -163,6 +163,10 @@ In dynamically typed languages you cannot enforce type or domain restrictions fo
 # Tags
 
 - Anemic
+
+# Level 🔋
+
+[X] Beginner
     
 # Related Refactorings
 

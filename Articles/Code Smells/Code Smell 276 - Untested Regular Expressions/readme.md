@@ -24,6 +24,10 @@
 5. Refactor regex once you created the tests
 6. Improve the [Error Messages](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2097%20-%20Error%20Messages%20Without%20Empathy/readme.md)
 
+# Refactorings ⚙️
+
+[Refactoring 025 - Decompose Regular Expressions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20025%20-%20Decompose%20Regular%20Expressions/readme.md)
+
 # Context
 
 Regular expressions are powerful but tricky.

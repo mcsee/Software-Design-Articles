@@ -112,6 +112,10 @@ Injecting dependencies allows you to easily replace DatabaseConnection with a mo
 
 - Coupling
 
+# Level 🔋
+
+[X] Intermediate
+
 # Related Refactorings
 
 [Refactoring 007 - Extract Class](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20007%20-%20Extract%20Class/readme.md)

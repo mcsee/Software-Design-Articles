@@ -75,6 +75,10 @@ Assignment and usage might be very far away from each other.
 
 - Naming 
 
+# Level 🔋
+
+[X] Beginner
+
 # Related Refactorings
 
 - Rename method

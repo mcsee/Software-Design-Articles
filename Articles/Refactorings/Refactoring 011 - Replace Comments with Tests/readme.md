@@ -113,6 +113,10 @@ We can leave comments reflecting important design decisions.
 
 - Comments
 
+# Level 🔋
+
+[X] Beginner
+
 # Related Refactorings
 
 [Refactoring 010 - Extract Method Object](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20010%20-%20Extract%20Method%20Object/readme.md)
