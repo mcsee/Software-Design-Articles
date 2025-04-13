@@ -146,7 +146,7 @@ You can prompt your AI assistants to make this refactoring for you.
 | [Gemini](https://gemini.google.com/) | [Gemini](https://gemini.google.com/) | 
 | [DeepSeek](https://chat.deepseek.com/) | [DeepSeek](https://chat.deepseek.com/) | 
 | [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
-| [Qwen](https://chat.qwen.ai) | [Qwen](https://chat.qwen.ai) | 
+| [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
 # Tags
 
@@ -158,7 +158,7 @@ You can prompt your AI assistants to make this refactoring for you.
 
 # Related Refactorings
 
-https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md
+[Refactoring 001 - Remove Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
 
 # See also
 

@@ -1,6 +1,6 @@
 n = int(input("Enter a positive integer: "))
 # You need to make accidental castings 
-# And deal with obscure data types valitaciones
+# And deal with obscure data types validations
 # which are a distraction for new programming students
 if n <= 0:
     print("Please enter a positive integer.")

@@ -64,6 +64,8 @@ Let's go for the solutions!
 
 [Refactoring 025 - Decompose Regular Expressions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20025%20-%20Decompose%20Regular%20Expressions/readme.md)
 
+[Refactoring 026 - Migrate Global Console Input to Declarative Function](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20026%20-%20Migrate%20Global%20Console%20Input%20to%20Declarative%20Function/readme.md)
+
 * * *
 
 Photo by [No Revisions](https://unsplash.com/ja/@norevisions) on [Unsplash](https://unsplash.com/es/s/fotos/cleaning)

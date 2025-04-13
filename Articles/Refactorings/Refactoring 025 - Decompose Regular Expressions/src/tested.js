@@ -12,7 +12,6 @@ describe("Protocol Validation", () => {
   test("should pass for https://", () => {
     expect(protocolPattern.test("https://")).toBe(true);
   });
-
   test("should fail for invalid protocols", () => {
     expect(protocolPattern.test("ftp://")).toBe(false);
   });
@@ -76,7 +75,7 @@ describe("Full URL Validation", () => {
   test("should fail for invalid URLs", () => {
     expect(() => validateURL("ftp://mastropiero.com")).
       toThrow("Invalid protocol");
-    expect(() => validateURL("http://estherpsicore..com")).
+    expect(() => validateURL("http://estherpiscore..com")).
       toThrow("Invalid domain name");
     expect(() => validateURL("http://book.warren-sanchez")).
       toThrow("Invalid path");

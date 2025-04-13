@@ -22,6 +22,8 @@
 
 [Code Smell 109 - Automatic Properties](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20109%20-%20Automatic%20Properties/readme.md)
 
+[Code Smell 176 - Changes in Essence](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20176%20-%20Changes%20in%20Essence/readme.md)
+
 # Steps
 
 1. Locate the setters' usage
@@ -172,7 +174,7 @@ This refactoring improves encapsulation and integrity adding an extra access con
 | [Gemini](https://gemini.google.com/) | [Gemini](https://gemini.google.com/) | 
 | [DeepSeek](https://chat.deepseek.com/) | [DeepSeek](https://chat.deepseek.com/) | 
 | [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
-| [Qwen](https://chat.qwen.ai) | [Qwen](https://chat.qwen.ai) | 
+| [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
 # Tags
 
@@ -185,6 +187,12 @@ This refactoring improves encapsulation and integrity adding an extra access con
 # Related Refactorings
 
 [Refactoring 016 - Build With The Essence](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20016%20-%20Build%20With%20The%20Essence/readme.md)
+
+[Refactoring 001 - Remove Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
+
+[Refactoring 009 - Protect Public Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20009%20-%20Protect%20Public%20Attributes/readme.md)	      
+
+[Refactoring 017 - Convert Attributes to Sets](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20017%20-%20Convert%20Attributes%20to%20Sets/readme.md)
 
 - Remove Getters
 

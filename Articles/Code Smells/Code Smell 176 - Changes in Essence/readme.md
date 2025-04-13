@@ -28,9 +28,13 @@
 
 Heraclitus said:
 
-> “No man ever steps in the same river twice. For it’s not the same river and he’s not the same man.”
+> No man ever steps in the same river twice. For it’s not the same river and he’s not the same man.
 
 The man stays the same in essence. But his body evolves.
+
+# Refactorings
+
+[Refactoring 001 - Remove Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
 
 # Sample Code
 

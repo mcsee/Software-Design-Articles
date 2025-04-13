@@ -132,7 +132,7 @@ You remove hidden global dependencies, making the code clearer and easier to und
 | [Gemini](https://gemini.google.com/) | [Gemini](https://gemini.google.com/) | 
 | [DeepSeek](https://chat.deepseek.com/) | [DeepSeek](https://chat.deepseek.com/) | 
 | [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
-| [Qwen](https://chat.qwen.ai) | [Qwen](https://chat.qwen.ai) | 
+| [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
 # Tags
 

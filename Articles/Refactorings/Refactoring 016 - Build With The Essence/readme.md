@@ -157,7 +157,7 @@ You can have clear pre-prompts requesting all your code samples to favor immutab
 | [Gemini](https://gemini.google.com/) | [Gemini](https://gemini.google.com/) | 
 | [DeepSeek](https://chat.deepseek.com/) | [DeepSeek](https://chat.deepseek.com/) | 
 | [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
-| [Qwen](https://chat.qwen.ai) | [Qwen](https://chat.qwen.ai) | 
+| [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
 # Tags
 

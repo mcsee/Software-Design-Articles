@@ -116,7 +116,7 @@ AI-assisted refactoring with clear instructions can flag unused variables and su
 | [Gemini](https://gemini.google.com/) | [Gemini](https://gemini.google.com/) | 
 | [DeepSeek](https://chat.deepseek.com/) | [DeepSeek](https://chat.deepseek.com/) | 
 | [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
-| [Qwen](https://chat.qwen.ai) | [Qwen](https://chat.qwen.ai) | 
+| [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
 # Conclusion
 
