@@ -194,7 +194,7 @@ Adding **accidental** complexity with _setters_ and _getters_ implies generating
 
 Let’s go back to our only design rule that asks for a [bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) between the model we are building and the real-world and respecting the principle of [Anthropomorphism](https://en.wikipedia.org/wiki/Anthropomorphism) (giving a living entity to each object).
 
-[The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) 
+[The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 In doing so, we will discover that the **responsibilities** we give to objects after they have been returned with a _getter_ do not **map** with the real-world violating [bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
 

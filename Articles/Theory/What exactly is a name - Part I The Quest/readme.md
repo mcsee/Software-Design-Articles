@@ -94,7 +94,7 @@ There is a trend in the industry to name after the type (or class) of an object.
 
 These invisible decisions violate the principle of substitution and prevent polymorphism, by having coupled the name to the type we expect.
 
-[Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md) 
+[Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 The fact that we are all human beings does not mean that there must be a variable _$human_ referencing us.
 
@@ -289,7 +289,7 @@ We just need to tackle the damage already done and build better solutions.
 
 In the following article we focus on a series of current bad practices explaining with arguments which ingrained uses we should modify.
 
-[What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md) 
+[What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
 # Rules Summary (so far)
 

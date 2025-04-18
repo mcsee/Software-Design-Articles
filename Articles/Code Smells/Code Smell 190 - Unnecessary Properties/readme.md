@@ -39,7 +39,7 @@ class PersonInQueue
     @job = job
   end
 end
-``` 
+```
 
 ## Right
 
@@ -52,7 +52,7 @@ class PersonInQueue
     # implement protocol
   end
 end
-``` 
+```
 
 # Detection
 
@@ -92,7 +92,7 @@ Photo by [Melanie Pongratz](https://unsplash.com/@melanie_sophie) on [Unsplash](
 
 _David West_
 
-[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md) 
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 ---
 

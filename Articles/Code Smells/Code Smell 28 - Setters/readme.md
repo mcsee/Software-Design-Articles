@@ -183,7 +183,7 @@ mutability, fail fast principle and real-world [bijections](https://github.com/m
 
 Here is the full discussion on *Setters*
 
-[Nude Models - Part I: Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20I Setters/readme.md) 
+[Nude Models - Part I: Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20I Setters/readme.md)
  
 # Credits
 

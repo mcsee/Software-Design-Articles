@@ -37,7 +37,7 @@ function processBatch(
     bool $beforeToday) {
     // ...
 }
-``` 
+```
 
 ## Right
 
@@ -52,7 +52,7 @@ function processBatch(
     Date $cutoffDate) {
     // ...
 }
-``` 
+```
 
 # Detection
 

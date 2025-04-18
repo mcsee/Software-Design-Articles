@@ -30,7 +30,7 @@
 
 ```perl
 val regex = Regex("^\\+(?:[0-9a-zA-Z][– -]?){6,14}[0-9a-zA-Z]$")
-``` 
+```
 
 ## Right
 
@@ -41,7 +41,7 @@ val prefix = "\\+"
 val digit = "[0-9]"
 val space = "[– -]"
 val phoneRegex = Regex("^$prefix(?:$digit$space?){6,14}$digit$")
-``` 
+```
 
 # Detection
 
@@ -72,7 +72,7 @@ Unless we have a conclusive benchmark of **impressive** performance improvement.
 
 [Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
-[Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md) 
+[Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
 [Code Smell 121 - String Validations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20121%20-%20String%20Validations/readme.md)
 

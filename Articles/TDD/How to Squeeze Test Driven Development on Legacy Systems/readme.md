@@ -477,7 +477,7 @@ private function addTerms(string $SQLselect) {
     }
     $SQLselect->addWhere($selectSentence->asSQLSentence());
 }
-``` 
+```
 
 * * *
 

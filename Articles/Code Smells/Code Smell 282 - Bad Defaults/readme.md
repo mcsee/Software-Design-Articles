@@ -62,7 +62,7 @@ switch (response) {
         // Authorize purchase
         break;
 }
-``` 
+```
 
 ## Right
 
@@ -88,7 +88,7 @@ switch (response) {
         // Reject purchase (default case for unknown responses)
         break;
 }
-``` 
+```
 
 # Detection
 
@@ -143,6 +143,7 @@ AI generators can fix this smell when you instruct them to treat unknown cases a
 | [Gemini](https://gemini.google.com/) | [Gemini](https://gemini.google.com/) | 
 | [DeepSeek](https://chat.deepseek.com/) | [DeepSeek](https://chat.deepseek.com/) | 
 | [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
+| [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
 # Conclusion
@@ -177,7 +178,7 @@ Photo by [Nathana Rebouças ](https://unsplash.com/@nathanareboucas) on [Unsplas
 
 _Said Ouissal_
 
-[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md) 
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 ---
 

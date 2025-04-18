@@ -8,15 +8,15 @@
 
 I use them as inspiration or a motto for some articles.
 
-# Software Design
+Here we go:
 
 > There are only two hard things in Computer Science: cache invalidation and naming things.
 
 *Phil Karlton*
 
-[What exactly is a name - Part I The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md) 
+[What exactly is a name - Part I The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
 
-[Code Smell 49 - Caches](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2049%20-%20Caches/readme.md) 
+[Code Smell 49 - Caches](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2049%20-%20Caches/readme.md)
 
 ---
 
@@ -24,7 +24,7 @@ I use them as inspiration or a motto for some articles.
 
 *Yaron Minsky*
 
-[The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md) 
+[The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 ---
 
@@ -32,7 +32,7 @@ I use them as inspiration or a motto for some articles.
 
 *Kent Beck*
 
-[Code Smell 35 - State as Properties](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2035%20-%20State%20as%20Properties/readme.md) 
+[Code Smell 35 - State as Properties](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2035%20-%20State%20as%20Properties/readme.md)
 
 ---
 
@@ -40,7 +40,7 @@ I use them as inspiration or a motto for some articles.
 
 *Rebecca Wirfs-Brock*
 
-[Code Smell 28 - Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md) 
+[Code Smell 28 - Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
 
 ---
 
@@ -48,7 +48,7 @@ I use them as inspiration or a motto for some articles.
 
 *John Romero*
 
-[Code Smell 152 - Logical Comment](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20152%20-%20Logical%20Comment/readme.md) 
+[Code Smell 152 - Logical Comment](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20152%20-%20Logical%20Comment/readme.md)
 
 ---
 
@@ -88,7 +88,7 @@ I use them as inspiration or a motto for some articles.
 
 *Michael Feathers*
 
-[Code Smell 175 - Changes Without Coverage](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20175%20-%20Changes%20Without%20Coverage/readme.md) 
+[Code Smell 175 - Changes Without Coverage](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20175%20-%20Changes%20Without%20Coverage/readme.md)
 
 ---
 
@@ -100,7 +100,7 @@ I use them as inspiration or a motto for some articles.
 
 > Immutability changes everything.
 
-_Pat Helland_
+*Pat Helland*
 
 [Code Smell 267 - Objects Aliasing](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20267%20-%20Objects%20Aliasing/readme.md)
 
@@ -110,7 +110,7 @@ _Pat Helland_
 
 *Martin Fowler*
 
-[Code Smell 156 - Implicit Else](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20156%20-%20Implicit%20Else/readme.md) 
+[Code Smell 156 - Implicit Else](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20156%20-%20Implicit%20Else/readme.md)
 
 ---
 
@@ -118,13 +118,13 @@ _Pat Helland_
 
 *Edsger Dijkstra*
 
-[Code Smell 128 - Non-English Coding](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20128%20-%20Non%20English%20Coding/readme.md) 
+[Code Smell 128 - Non-English Coding](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20128%20-%20Non%20English%20Coding/readme.md)
 
 ---
 
-*Security is a process, not a product*
+> Security is a process, not a product
 
-_Bruce Schneier_
+*Bruce Schneier*
 
 [Code Smell 261 - DigiCert Underscores](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20261%20-%20DigiCert%20Underscores/readme.md)
 
@@ -145,6 +145,8 @@ _Bruce Schneier_
 > Software is like entropy: It is difficult to grasp, weighs nothing, and obeys the Second Law of Thermodynamics; i.e., it always increases.
 
 *Norman Augustine*
+
+[Code Smell 288 - Unthrown Exceptions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20288%20-%20Unthrown%20Exceptions/readme.md)
 
 ---
 
@@ -188,7 +190,7 @@ _Bruce Schneier_
 
 *Joel Spolsky*
 
-[Code Smell 179 - Known Bugs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20179%20-%20Known%20Bugs/readme.md) 
+[Code Smell 179 - Known Bugs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20179%20-%20Known%20Bugs/readme.md)
 
 ---
 
@@ -196,7 +198,7 @@ _Bruce Schneier_
 
 *Kent Beck*
 
-[Code Smell 109 - Automatic Properties](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20109%20-%20Automatic%20Properties/readme.md) 
+[Code Smell 109 - Automatic Properties](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20109%20-%20Automatic%20Properties/readme.md)
 
 ---
 
@@ -204,7 +206,7 @@ _Bruce Schneier_
 
 *Martin Fowler*
 
-[Code Smell 170 - Refactor with Functional Changes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20170%20-%20Refactor%20with%20Functional%20Changes/readme.md) 
+[Code Smell 170 - Refactor with Functional Changes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20170%20-%20Refactor%20with%20Functional%20Changes/readme.md)
 
 ---
 
@@ -230,7 +232,7 @@ _Bruce Schneier_
 
 *Donald Knuth*
 
-[Code Smell 144 - Fungible Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20144%20-%20Fungible%20Objects/readme.md) 
+[Code Smell 144 - Fungible Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20144%20-%20Fungible%20Objects/readme.md)
 
 ---
 
@@ -248,6 +250,14 @@ _Bruce Schneier_
 
 ---
 
+> A function should follow the "arrow shape" of reading naturally from top to bottom, not wander into deeper nesting like a poorly designed maze.
+
+*Venkat Subramaniam*
+
+[Code Smell 296 - Unhappy to the Right](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20296%20-%20Unhappy%20to%20the%20Right/readme.md)
+
+---
+
 > In programming, if someone tells you “you’re overcomplicating it,” they’re either 10 steps behind you or 10 steps ahead of you.
 
 *Andrew Clark*
@@ -260,7 +270,7 @@ _Bruce Schneier_
 
 *Gene Spafford*
 
-[Code Smell 120 - Sequential IDs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20120%20-%20Sequential%20IDs/readme.md) 
+[Code Smell 120 - Sequential IDs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20120%20-%20Sequential%20IDs/readme.md)
 
 ---
 
@@ -268,7 +278,7 @@ _Bruce Schneier_
 
 *Andrew Hunt*
 
-[Code Smell 118 - Return False](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20118%20-%20Return%20False/readme.md) 
+[Code Smell 118 - Return False](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20118%20-%20Return%20False/readme.md)
 
 ---
 
@@ -288,7 +298,7 @@ _Bruce Schneier_
 
 *Steve McConnell*
 
-[Code Smell 74 - Empty Lines](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2074%20-%20Empty%20Lines/readme.md) 
+[Code Smell 74 - Empty Lines](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2074%20-%20Empty%20Lines/readme.md)
 
 ---
 
@@ -304,7 +314,7 @@ _Bruce Schneier_
 
 *Dennie van Tassel*
 
-[Code Smell 104 - Assert True](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20104%20-%20Assert%20True/readme.md) 
+[Code Smell 104 - Assert True](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20104%20-%20Assert%20True/readme.md)
 
 ---
 
@@ -320,7 +330,7 @@ _Bruce Schneier_
 
 *David West*
 
-[Code Smell 114 - Empty Class](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20114%20-%20Empty%20Class/readme.md) 
+[Code Smell 114 - Empty Class](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20114%20-%20Empty%20Class/readme.md)
 
 ---
 
@@ -352,7 +362,7 @@ _Bruce Schneier_
 
 *Rick Cook*
 
-[Code Smell 84 - Max < Min (Javascript)](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2084%20-%20Max%20%20Min%20(Javascript)/readme.md) 
+[Code Smell 84 - Max < Min (Javascript)](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2084%20-%20Max%20%20Min%20(Javascript)/readme.md)
 
 ---
 
@@ -368,7 +378,7 @@ _Bruce Schneier_
 
 *Erich Gamma*
 
-[Code Smell 103 - Double Encapsulation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20103%20-%20Double%20Encapsulation/readme.md) 
+[Code Smell 103 - Double Encapsulation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20103%20-%20Double%20Encapsulation/readme.md)
 
 ---
 
@@ -382,7 +392,7 @@ _Bruce Schneier_
 
 *Niels Bohr*
 
-[Code Smell 54 - Anchor Boats](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2054%20-%20Anchor%20Boats/readme.md) 
+[Code Smell 54 - Anchor Boats](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2054%20-%20Anchor%20Boats/readme.md)
 
 ---
 
@@ -404,7 +414,7 @@ _Bruce Schneier_
 
 *Sandi Metz*
 
-[Code Smell 182 - Over Generalization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20182%20-%20Over%20Generalization/readme.md) 
+[Code Smell 182 - Over Generalization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20182%20-%20Over%20Generalization/readme.md)
 
 ---
 
@@ -418,7 +428,7 @@ _Bruce Schneier_
 
 *Mich Ravera*
 
-[Code Smell 101 - Comparison Against Booleans](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20101%20-%20Comparison%20Against%20Booleans/readme.md) 
+[Code Smell 101 - Comparison Against Booleans](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20101%20-%20Comparison%20Against%20Booleans/readme.md)
 
 ---
 
@@ -426,7 +436,7 @@ _Bruce Schneier_
 
 *Bertrand Meyer*
 
-[Code Smell 136 - Classes With just One Subclass](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20136%20-%20Classes%20With%20just%20One%20Subclass/readme.md) 
+[Code Smell 136 - Classes With just One Subclass](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20136%20-%20Classes%20With%20just%20One%20Subclass/readme.md)
 
 ---
 
@@ -444,11 +454,11 @@ _Bruce Schneier_
 
 ---
 
-> In a purely functional program, the value of a \[constant\] never changes, and yet, it changes all the time! A paradox!
+> In a purely functional program, the value of a constant never changes, and yet, it changes all the time! A paradox!
 
 *Joel Spolsky*
 
-[Code Smell 02 - Constants and Magic Numbers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md) 
+[Code Smell 02 - Constants and Magic Numbers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
 
 ---
 
@@ -462,7 +472,7 @@ _Bruce Schneier_
 
 *Henry Spencer*
 
-[Code Smell 62 - Flag Variables](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2062%20-%20Flag%20Variables/readme.md) 
+[Code Smell 62 - Flag Variables](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2062%20-%20Flag%20Variables/readme.md)
 
 ---
 
@@ -472,7 +482,7 @@ _Bruce Schneier_
 
 *Michael Feathers*
 
-[Code Smell 61 - Coupling to Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2061%20-%20Coupling%20to%20Classes/readme.md) 
+[Code Smell 61 - Coupling to Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2061%20-%20Coupling%20to%20Classes/readme.md)
 
 ---
 
@@ -486,7 +496,7 @@ _Bruce Schneier_
 
 *Alan Cooper*
 
-[Code Smell 68 - Getters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2068%20-%20Getters/readme.md) 
+[Code Smell 68 - Getters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2068%20-%20Getters/readme.md)
 
 ---
 
@@ -502,7 +512,7 @@ _Bruce Schneier_
 
 *Salman Arshad*
 
-[Code Smell 176 - Changes in Essence](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20176%20-%20Changes%20in%20Essence/readme.md) 
+[Code Smell 176 - Changes in Essence](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20176%20-%20Changes%20in%20Essence/readme.md)
 
 ---
 
@@ -510,7 +520,7 @@ _Bruce Schneier_
 
 *Douglas McIlroy*
 
-[Code Smell 119 - Stairs Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20119%20-%20Stairs%20Code/readme.md) 
+[Code Smell 119 - Stairs Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20119%20-%20Stairs%20Code/readme.md)
 
 ---
 
@@ -530,7 +540,7 @@ _Bruce Schneier_
 
 *Alan Kay*
 
-[Code Smell 31 - Accidental Methods on Business Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2031%20-%20Accidental%20Methods%20on%20Business%20Objects/readme.md) 
+[Code Smell 31 - Accidental Methods on Business Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2031%20-%20Accidental%20Methods%20on%20Business%20Objects/readme.md)
 
 ---
 
@@ -538,7 +548,7 @@ _Bruce Schneier_
 
 *Jack Reeves*
 
-[Code Smell 99 - First Second](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2099%20-%20First%20Second/readme.md) 
+[Code Smell 99 - First Second](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2099%20-%20First%20Second/readme.md)
 
 ---
 
@@ -558,7 +568,7 @@ _Bruce Schneier_
 
 *Rebecca Wirfs-Brock*
 
-[Code Smell 21 - Anonymous Functions Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2021%20-%20Anonymous%20Functions%20Abusers/readme.md) 
+[Code Smell 21 - Anonymous Functions Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2021%20-%20Anonymous%20Functions%20Abusers/readme.md)
 
 ---
 
@@ -604,7 +614,7 @@ _Bruce Schneier_
 
 *Kent Beck*
 
-[Code Smell 129 - Structural Optimizations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20129%20-%20Structural%20Optimizations/readme.md) 
+[Code Smell 129 - Structural Optimizations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20129%20-%20Structural%20Optimizations/readme.md)
 
 ---
 
@@ -612,7 +622,7 @@ _Bruce Schneier_
 
 *Bruce Sterling*
 
-[Code Smell 44 - Magic Corrections](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2044%20-%20Magic%20Corrections/readme.md) 
+[Code Smell 44 - Magic Corrections](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2044%20-%20Magic%20Corrections/readme.md)
 
 ---
 
@@ -620,7 +630,7 @@ _Bruce Schneier_
 
 *Bjarne Stroustrup*
 
-[Code Smell 162 - Too Many Parentheses](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20162%20-%20Too%20Many%20Parentheses/readme.md) 
+[Code Smell 162 - Too Many Parentheses](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20162%20-%20Too%20Many%20Parentheses/readme.md)
 
 ---
 
@@ -640,7 +650,7 @@ _Bruce Schneier_
 
 *Bill Bryson*
 
-[Code Smell 145 - Short Circuit Hack](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20145%20-%20Short%20Circuit%20Hack/readme.md) 
+[Code Smell 145 - Short Circuit Hack](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20145%20-%20Short%20Circuit%20Hack/readme.md)
 
 ---
 
@@ -662,7 +672,7 @@ _Bruce Schneier_
 
 *Kyle Simpson*
 
-[Code Smell 27 - Associative Arrays](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2027%20-%20Associative%20Arrays/readme.md) 
+[Code Smell 27 - Associative Arrays](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2027%20-%20Associative%20Arrays/readme.md)
 
 ---
 
@@ -676,7 +686,7 @@ _Bruce Schneier_
 
 *Michael Feathers*
 
-[Code Smell 59 - Basic / Do Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2059%20-%20Basic%20Do%20Functions/readme.md) 
+[Code Smell 59 - Basic / Do Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2059%20-%20Basic%20Do%20Functions/readme.md)
 
 ---
 
@@ -690,7 +700,7 @@ It is practically impossible to teach good programming to students that have had
 
 Edsger Dijkstra
 
-[Code Smell 100 - GoTo](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20100%20-%20GoTo/readme.md) 
+[Code Smell 100 - GoTo](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20100%20-%20GoTo/readme.md)
 
 ---
 
@@ -712,7 +722,7 @@ Edsger Dijkstra
 
 *Mark Donner*
 
-[Code Smell 166 - Low-Level Errors on User Interface](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20166%20-%20Low-Level%20Errors%20on%20User%20Interface/readme.md) 
+[Code Smell 166 - Low-Level Errors on User Interface](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20166%20-%20Low-Level%20Errors%20on%20User%20Interface/readme.md)
 
 ---
 
@@ -720,7 +730,7 @@ Edsger Dijkstra
 
 *Pamela Zave*
 
-[Code Smell 102 - Arrow Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md) 
+[Code Smell 102 - Arrow Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md)
 
 ---
 
@@ -728,7 +738,7 @@ Edsger Dijkstra
 
 *Richard Hamming*
 
-[Code Smell 71 - Magic Floats Disguised as Decimals](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2071%20-%20Magic%20Floats%20Disguised%20as%20Decimals/readme.md) 
+[Code Smell 71 - Magic Floats Disguised as Decimals](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2071%20-%20Magic%20Floats%20Disguised%20as%20Decimals/readme.md)
 
 ---
 
@@ -736,7 +746,7 @@ Edsger Dijkstra
 
 *Dave Thomas*
 
-[Code Smell 60 - Global Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2060%20-%20Global%20Classes/readme.md) 
+[Code Smell 60 - Global Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2060%20-%20Global%20Classes/readme.md)
 
 ---
 
@@ -744,7 +754,7 @@ Edsger Dijkstra
 
 *Bram Cohen*
 
-[Singleton - The root of all evil](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md) 
+[Singleton - The root of all evil](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
 
 ---
 
@@ -752,7 +762,7 @@ Edsger Dijkstra
 
 *Bertrand Meyer*
 
-[Code Smell 137 - Inheritance Tree Too Deep](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20137%20-%20Inheritance%20Tree%20Too%20Deep/readme.md) 
+[Code Smell 137 - Inheritance Tree Too Deep](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20137%20-%20Inheritance%20Tree%20Too%20Deep/readme.md)
 
 ---
 
@@ -766,7 +776,7 @@ Edsger Dijkstra
 
 *Erich Gamma*
 
-[Code Smell 124 - Divergent Change](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20124%20-%20Divergent%20Change/readme.md) 
+[Code Smell 124 - Divergent Change](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20124%20-%20Divergent%20Change/readme.md)
 
 ---
 
@@ -774,7 +784,7 @@ Edsger Dijkstra
 
 *Chris Pine*
 
-[Code Smell 83 - Variables Reassignment](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2083%20-%20Variables%20Reassignment/readme.md) 
+[Code Smell 83 - Variables Reassignment](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2083%20-%20Variables%20Reassignment/readme.md)
 
 ---
 
@@ -782,7 +792,7 @@ Edsger Dijkstra
 
 *Robert Martin*
 
-[Code Smell 66 - Shotgun Surgery](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2066%20-%20Shotgun%20Surgery/readme.md) 
+[Code Smell 66 - Shotgun Surgery](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2066%20-%20Shotgun%20Surgery/readme.md)
 
 ---
 
@@ -790,7 +800,7 @@ Edsger Dijkstra
 
 *Nathan Myhrvold*
 
-[Code Smell 43 - Concrete Classes Subclassified](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2043%20-%20Concrete%20Classes%20Subclassified/readme.md) 
+[Code Smell 43 - Concrete Classes Subclassified](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2043%20-%20Concrete%20Classes%20Subclassified/readme.md)
 
 ---
 
@@ -798,7 +808,7 @@ Edsger Dijkstra
 
 *Tony Hoare*
 
-[Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md) 
+[Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
 ---
 
@@ -832,7 +842,7 @@ Edsger Dijkstra
 
 *Dan Ingalls*
 
-[Code Smell 65 - Variables Named after Types](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2065%20-%20Variables%20Named%20after%20Types/readme.md) 
+[Code Smell 65 - Variables Named after Types](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2065%20-%20Variables%20Named%20after%20Types/readme.md)
 
 ---
 
@@ -854,7 +864,7 @@ Edsger Dijkstra
 
 *Jason Fried*
 
-[Code Smell 174 - Class Name in Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20174%20-%20Class%20Name%20in%20Attributes/readme.md) 
+[Code Smell 174 - Class Name in Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20174%20-%20Class%20Name%20in%20Attributes/readme.md)
 
 ---
 
@@ -868,7 +878,7 @@ Bugs are bugs. You write code with bugs because you do. If it’s a safe languag
 
 *Ken Thompson*
 
-[Code Smell 111 - Modifying Collections While Traversing](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20111%20-%20Modifying%20Collections%20While%20Traversing/readme.md) 
+[Code Smell 111 - Modifying Collections While Traversing](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20111%20-%20Modifying%20Collections%20While%20Traversing/readme.md)
 
 ---
 
@@ -888,7 +898,7 @@ Bugs are bugs. You write code with bugs because you do. If it’s a safe languag
 
 *Donald Knuth*
 
-[Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md) 
+[Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
 ---
 
@@ -908,7 +918,7 @@ Bugs are bugs. You write code with bugs because you do. If it’s a safe languag
 
 *David Wheeler*
 
-[Code Smell 50 - Object Keys](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2050%20-%20Object%20Keys/readme.md) 
+[Code Smell 50 - Object Keys](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2050%20-%20Object%20Keys/readme.md)
 
 ---
 
@@ -916,7 +926,7 @@ Bugs are bugs. You write code with bugs because you do. If it’s a safe languag
 
 *Michael R. Fellows*
 
-[Code Smell 89 - Math Feature Envy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2089%20-%20Math%20Feature%20Envy/readme.md) 
+[Code Smell 89 - Math Feature Envy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2089%20-%20Math%20Feature%20Envy/readme.md)
 
 ---
 
@@ -924,7 +934,7 @@ Bugs are bugs. You write code with bugs because you do. If it’s a safe languag
 
 *Tony Hoare*
 
-[Code Smell 78 - Callback Hell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2078%20-%20Callback%20Hell/readme.md) 
+[Code Smell 78 - Callback Hell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2078%20-%20Callback%20Hell/readme.md)
 
 ---
 
@@ -932,9 +942,15 @@ Bugs are bugs. You write code with bugs because you do. If it’s a safe languag
 
 *Donald E. Knuth*
 
-[Code Smell 95 - Premature Classification](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2095%20-%20Premature%20Classification/readme.md) 
+[Code Smell 95 - Premature Classification](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2095%20-%20Premature%20Classification/readme.md)
 
 ---
+
+> Bad programmers worry about the code. Good programmers worry about data structures and their relationships.
+
+*Linus Torvalds*
+
+[Code Smell 281 - Hashes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20281%20-%20Hashes/readme.md)
 
 > Computer scientists have so far worked on developing powerful programming languages that make it possible to solve the technical problems of computation. Little effort has gone toward devising the languages of interaction.
 
@@ -946,7 +962,7 @@ Bugs are bugs. You write code with bugs because you do. If it’s a safe languag
 
 *Brady Clark*
 
-[Code Smell 161 - Abstract/Final/Undefined Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20161%20-%20Abstract%20Final%20Undefined%20Classes/readme.md) 
+[Code Smell 161 - Abstract/Final/Undefined Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20161%20-%20Abstract%20Final%20Undefined%20Classes/readme.md)
 
 ---
 
@@ -954,7 +970,7 @@ Bugs are bugs. You write code with bugs because you do. If it’s a safe languag
 
 *Neal Ford*
 
-[Code Smell 181 - Nested Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20181%20-%20Nested%20Classes/readme.md) 
+[Code Smell 181 - Nested Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20181%20-%20Nested%20Classes/readme.md)
 
 ---
 
@@ -1006,7 +1022,7 @@ It should be noted that no ethically-trained software engineer would ever consen
 
 *Gerald M. Weinberg*
 
-[Code Smell 147 - Too Many Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20147%20-%20Too%20Many%20Methods/readme.md) 
+[Code Smell 147 - Too Many Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20147%20-%20Too%20Many%20Methods/readme.md)
 
 ---
 
@@ -1026,7 +1042,7 @@ It should be noted that no ethically-trained software engineer would ever consen
 
 *Paul Graham*
 
-[Code Smell 39 - new Date()](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2039%20-%20new%20Date()/readme.md) 
+[Code Smell 39 - new Date()](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2039%20-%20new%20Date()/readme.md)
 
 ---
 
@@ -1052,7 +1068,7 @@ It should be noted that no ethically-trained software engineer would ever consen
 
 *Eric Evans*
 
-[Code Smell 47 - Diagrams](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2047%20-%20Diagrams/readme.md) 
+[Code Smell 47 - Diagrams](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2047%20-%20Diagrams/readme.md)
 
 ---
 
@@ -1078,7 +1094,7 @@ It should be noted that no ethically-trained software engineer would ever consen
 
 *Ray Ozzie*
 
-[Code Smell 135 - Interfaces With just One Realization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20135%20-%20Interfaces%20With%20just%20One%20Realization/readme.md) 
+[Code Smell 135 - Interfaces With just One Realization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20135%20-%20Interfaces%20With%20just%20One%20Realization/readme.md)
 
 ---
 
@@ -1086,7 +1102,7 @@ It should be noted that no ethically-trained software engineer would ever consen
 
 *D. Gelernter*
 
-[Code Smell 187 - If/Else Backwards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20187%20-%20If%20Else%20Backwards/readme.md) 
+[Code Smell 187 - If/Else Backwards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20187%20-%20If%20Else%20Backwards/readme.md)
 
 ---
 
@@ -1136,7 +1152,7 @@ It should be noted that no ethically-trained software engineer would ever consen
 
 *Dave Storer*
 
-[Code Smell 75 - Comments Inside a Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2075%20-%20Comments%20Inside%20a%20Method/readme.md) 
+[Code Smell 75 - Comments Inside a Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2075%20-%20Comments%20Inside%20a%20Method/readme.md)
 
 ---
 
@@ -1144,7 +1160,7 @@ It should be noted that no ethically-trained software engineer would ever consen
 
 *Bjarne Stroustrup*
 
-[Code Smell 56 - Preprocessors](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2056%20-%20Preprocessors/readme.md) 
+[Code Smell 56 - Preprocessors](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2056%20-%20Preprocessors/readme.md)
 
 ---
 
@@ -1152,7 +1168,7 @@ It should be noted that no ethically-trained software engineer would ever consen
 
 *Mary Shaw*
 
-[Code Smell 121 - String Validations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20121%20-%20String%20Validations/readme.md) 
+[Code Smell 121 - String Validations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20121%20-%20String%20Validations/readme.md)
 
 ---
 
@@ -1160,7 +1176,7 @@ It should be noted that no ethically-trained software engineer would ever consen
 
 *Mario Fusco*
 
-[Code Smell 168 - Undocumented Decisions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20168%20-%20Undocumented%20Decisions/readme.md) 
+[Code Smell 168 - Undocumented Decisions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20168%20-%20Undocumented%20Decisions/readme.md)
 
 ---
 
@@ -1180,7 +1196,7 @@ It should be noted that no ethically-trained software engineer would ever consen
 
 *Bjarne Stroustrup*
 
-[Code Smell 133 - Hardcoded IF Conditions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20133%20-%20Hardcoded%20IF%20Conditions/readme.md) 
+[Code Smell 133 - Hardcoded IF Conditions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20133%20-%20Hardcoded%20IF%20Conditions/readme.md)
 
 ---
 
@@ -1188,7 +1204,7 @@ It should be noted that no ethically-trained software engineer would ever consen
 
 *Alan Perlis*
 
-[Code Smell 165 - Empty Exception Blocks](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20165%20-%20Empty%20Exception%20Blocks/readme.md) 
+[Code Smell 165 - Empty Exception Blocks](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20165%20-%20Empty%20Exception%20Blocks/readme.md)
 
 ---
 
@@ -1196,7 +1212,7 @@ It should be noted that no ethically-trained software engineer would ever consen
 
 *Alan Kay*
 
-[Code Smell 186 - Hardcoded Business Conditions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20186%20-%20Hardcoded%20Business%20Conditions/readme.md) 
+[Code Smell 186 - Hardcoded Business Conditions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20186%20-%20Hardcoded%20Business%20Conditions/readme.md)
 
 ---
 
@@ -1204,7 +1220,7 @@ It should be noted that no ethically-trained software engineer would ever consen
 
 *Ted Nelson*
 
-[Code Smell 115 - Return True](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20115%20-%20Return%20True/readme.md) 
+[Code Smell 115 - Return True](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20115%20-%20Return%20True/readme.md)
 
 ---
 
@@ -1212,7 +1228,7 @@ It should be noted that no ethically-trained software engineer would ever consen
 
 *Boris Beizer*
 
-[Code Smell 160 - Invalid Id = 9999](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20160%20-%20Invalid%20Id%20=%209999/readme.md) 
+[Code Smell 160 - Invalid Id = 9999](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20160%20-%20Invalid%20Id%20=%209999/readme.md)
 
 ---
 
@@ -1264,7 +1280,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 *C.A.R. Hoare*
 
-[Code Smell 98 - Speling Mistakes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2098%20-%20Speling%20Mistakes/readme.md) 
+[Code Smell 98 - Speling Mistakes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2098%20-%20Speling%20Mistakes/readme.md)
 
 ---
 
@@ -1284,7 +1300,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 *Bill Gosper*
 
-[Code Smell 55 - Object Orgy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2055%20-%20Object%20Orgy/readme.md) 
+[Code Smell 55 - Object Orgy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2055%20-%20Object%20Orgy/readme.md)
 
 ---
 
@@ -1300,7 +1316,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 *Andrew Hunt*
 
-[Code Smell 178 - Subsets Violation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20178%20-%20Subsets%20Violation/readme.md) 
+[Code Smell 178 - Subsets Violation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20178%20-%20Subsets%20Violation/readme.md)
 
 ---
 
@@ -1308,7 +1324,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 *Martin Fowler*
 
-[Code Smell 131 - Zero Argument Constructor](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20131%20-%20Zero%20Argument%20Constructor/readme.md) 
+[Code Smell 131 - Zero Argument Constructor](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20131%20-%20Zero%20Argument%20Constructor/readme.md)
 
 ---
 
@@ -1316,7 +1332,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 *Frederick P. Brooks*
 
-[Code Smell 92 - Isolated Subclasses Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2092%20-%20Isolated%20Subclasses%20Names/readme.md) 
+[Code Smell 92 - Isolated Subclasses Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2092%20-%20Isolated%20Subclasses%20Names/readme.md)
 
 ---
 
@@ -1344,7 +1360,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 *Brian Goetz*
 
-[Code Smell 112 - Testing Private Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20112%20-%20Testing%20Private%20Methods/readme.md) 
+[Code Smell 112 - Testing Private Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20112%20-%20Testing%20Private%20Methods/readme.md)
 
 ---
 
@@ -1352,7 +1368,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 *Wietse Venema*
 
-[Code Smell 134 - Specialized Business Collections](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20134%20-%20Specialized%20Business%20Collections/readme.md) 
+[Code Smell 134 - Specialized Business Collections](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20134%20-%20Specialized%20Business%20Collections/readme.md)
 
 ---
 
@@ -1410,7 +1426,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 *Michael Feathers*
 
-[Code Smell 150 - Equal Comparison](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20150%20-%20Equal%20Comparison/readme.md) 
+[Code Smell 150 - Equal Comparison](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20150%20-%20Equal%20Comparison/readme.md)
 
 ---
 
@@ -1486,7 +1502,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 *Robert Martin*
 
-[Code Smell 146 - Getter Comments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20146%20-%20Getter%20Comments/readme.md) 
+[Code Smell 146 - Getter Comments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20146%20-%20Getter%20Comments/readme.md)
 
 ---
 
@@ -1494,7 +1510,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 *Atli Björgvin Oddsson*
 
-[Code Smell 151 - Commented Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20151%20-%20Commented%20Code/readme.md) 
+[Code Smell 151 - Commented Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20151%20-%20Commented%20Code/readme.md)
 
 ---
 
@@ -1502,7 +1518,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 *Justin Meyer*
 
-[Code Smell 177 - Missing Small Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20177%20-%20Missing%20Small%20Objects/readme.md) 
+[Code Smell 177 - Missing Small Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20177%20-%20Missing%20Small%20Objects/readme.md)
 
 ---
 
@@ -1576,7 +1592,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 *Orlando Aloysius Battista*
 
-[Code Smell 184 - Exception Arrow Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20184%20-%20Exception%20Arrow%20Code/readme.md) 
+[Code Smell 184 - Exception Arrow Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20184%20-%20Exception%20Arrow%20Code/readme.md)
 
 ---
 
@@ -1598,7 +1614,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 *Daniel T. Ling*
 
-[Code Smell 106 - Production Dependent Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20106%20-%20Production%20Dependent%20Code/readme.md) 
+[Code Smell 106 - Production Dependent Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20106%20-%20Production%20Dependent%20Code/readme.md)
 
 ---
 
@@ -1612,7 +1628,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 *Andrew Hunt*
 
-[Code Smell 123 - Mixed 'What' and 'How'](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20123%20-%20Mixed%20'What'%20and%20'How'/readme.md) 
+[Code Smell 123 - Mixed 'What' and 'How'](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20123%20-%20Mixed%20'What'%20and%20'How'/readme.md)
 
 ---
 
@@ -1620,7 +1636,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 *Kevlin Henney*
 
-[Code Smell 107 - Variables Reuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20107%20-%20Variables%20Reuse/readme.md) 
+[Code Smell 107 - Variables Reuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20107%20-%20Variables%20Reuse/readme.md)
 
 ---
 
@@ -1634,7 +1650,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 *Eric Gamma*
 
-[Code Smell 127 - Mutable Constants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20127%20-%20Mutable%20Constants/readme.md) 
+[Code Smell 127 - Mutable Constants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20127%20-%20Mutable%20Constants/readme.md)
 
 ---
 
@@ -1642,7 +1658,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 *GeePaw Hill*
 
-[TDD Conference 2021 - GeePaw Hill - Want More Value Faster Take Many More Much Smaller Steps](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD%20Conference%202021/Want%20More%20Value%20Faster%20Take%20Many%20More%20Much%20Smaller%20Steps/readme.md) 
+[TDD Conference 2021 - GeePaw Hill - Want More Value Faster Take Many More Much Smaller Steps](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD%20Conference%202021/Want%20More%20Value%20Faster%20Take%20Many%20More%20Much%20Smaller%20Steps/readme.md)
 
 ---
 
@@ -1674,7 +1690,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 *Martin Fowler*
 
-[Code Smell 154 - Too Many Variables](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20154%20-%20Too%20Many%20Variables/readme.md) 
+[Code Smell 154 - Too Many Variables](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20154%20-%20Too%20Many%20Variables/readme.md)
 
 ---
 
@@ -1690,11 +1706,19 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 ---
 
+> Explicit is better than implicit.
+
+*Tim Peters*
+
+[Code Smell 294 - Implicit Return](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20294%20-%20Implicit%20Return/readme.md)
+
+---
+
 > Code generation, like drinking alcohol, is good in moderation.
 
 *Alex Lowe*
 
-[Laziness II - Code Wizards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20II%20-%20Code%20Wizards/readme.md) 
+[Laziness II - Code Wizards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
 
 ---
 
@@ -1772,7 +1796,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 *Robert D. Schneider*
 
-[Code Smell 97 - Error Messages Without Empathy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2097%20-%20Error%20Messages%20Without%20Empathy/readme.md) 
+[Code Smell 97 - Error Messages Without Empathy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2097%20-%20Error%20Messages%20Without%20Empathy/readme.md)
 
 ---
 
@@ -1814,6 +1838,14 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 ---
 
+> Even when a module is old and stable, bad code may be a time bomb and we might defuse it by isolating that code in its own library
+
+*Adam Tornhill*
+
+[Code Smell 274 - Cascaded Returns](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20274%20-%20Cascaded%20Returns/readme.md)
+
+---
+
 > I like to say that in the old days, if you reinvented the wheel, you would get your wrist slapped for not reading. But nowadays people are reinventing the flat tire. I'd personally be happy if they reinvented the wheel, because at least we'd be moving forward.
 
 *Alan Kay*
@@ -1848,7 +1880,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 *George Box*
 
-[Code Smell 126 - Fake Null Object](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20126%20-%20Fake%20Null%20Object/readme.md) 
+[Code Smell 126 - Fake Null Object](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20126%20-%20Fake%20Null%20Object/readme.md)
 
 ---
 
@@ -1904,7 +1936,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 *Neal Ford*
 
-[Code Smell 16 - Ripple Effect](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2016%20-%20Ripple%20Effect/readme.md) 
+[Code Smell 16 - Ripple Effect](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2016%20-%20Ripple%20Effect/readme.md)
 
 ---
 
@@ -1912,7 +1944,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 *Douglas Crockford*
 
-[Code Smell 155 - Multiple Promises](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20155%20-%20Multiple%20Promises/readme.md) 
+[Code Smell 155 - Multiple Promises](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20155%20-%20Multiple%20Promises/readme.md)
 
 ---
 
@@ -1920,7 +1952,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 *Linus Torvalds*
 
-[Code Smell 105 - Comedian Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20105%20-%20Comedian%20Methods/readme.md) 
+[Code Smell 105 - Comedian Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20105%20-%20Comedian%20Methods/readme.md)
 
 ---
 
@@ -1976,7 +2008,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 *Dave Farley*
 
-[Code Smell 122 - Primitive Obsession](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20122%20-%20Primitive%20Obsession/readme.md) 
+[Code Smell 122 - Primitive Obsession](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20122%20-%20Primitive%20Obsession/readme.md)
 
 ---
 
@@ -2010,7 +2042,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 *Robert C. Martin*
 
-[Code Smell 130 - AddressImpl](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20130%20-%20AddressImpl/readme.md) 
+[Code Smell 130 - AddressImpl](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20130%20-%20AddressImpl/readme.md)
 
 ---
 
@@ -2018,19 +2050,15 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 *Mitch Ratcliffe*
 
-[Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md) 
+[Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
-![Function](https://cdn.hashnode.com/res/hashnode/image/upload/v1600707620601/Code.jpeg)
-
-Photo by [Shahadat Rahman](https://unsplash.com/@hishahadat) on [Unsplash](https://unsplash.com/s/photos/programming-languages)
-
-# Programming Languages
+---
 
 > Many people tend to look at programming styles and languages like religions: if you belong to one, you cannot belong to others. But this analogy is another fallacy.
 
 *Niklaus Wirth*
 
-[Code Smell 153 - Too Long Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20153%20-%20Too%20Long%20Names/readme.md) 
+[Code Smell 153 - Too Long Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20153%20-%20Too%20Long%20Names/readme.md)
 
 ---
 
@@ -2112,6 +2140,14 @@ Photo by [Shahadat Rahman](https://unsplash.com/@hishahadat) on [Unsplash](https
 
 ---
 
+> Complexity is the worst enemy of security, and our systems are getting more complex all the time.
+
+*Bruce Schneier*
+
+[Code Smell 270 - Boolean APIs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20270%20-%20Boolean%20APIs/readme.md)
+
+---
+
 > Good engineers make solutions obsolete. Great engineers make themselves obsolete.
 
 *Jordan W*
@@ -2134,7 +2170,7 @@ Photo by [Shahadat Rahman](https://unsplash.com/@hishahadat) on [Unsplash](https
 
 *Tony Hoare*
 
-[Code Smell 157 - Balance at 0](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20157%20-%20Balance%20at%200/readme.md) 
+[Code Smell 157 - Balance at 0](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20157%20-%20Balance%20at%200/readme.md)
 
 ---
 > A Fallacy of Software: If it works, and we don't change anything, it will keep working.
@@ -2142,6 +2178,14 @@ Photo by [Shahadat Rahman](https://unsplash.com/@hishahadat) on [Unsplash](https
 *Jessica Kerr*
 
 [Code Smell 229 - Red Tape](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20229%20-%20Red%20Tape/readme.md)
+
+---
+
+> The strength of a cryptographic system depends entirely on the strength of its weakest component.
+
+*Bruce Schneier*
+
+[Code Smell 284 - Encrypted Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20284%20-%20Encrypted%20Functions/readme.md)
 
 ---
 
@@ -2198,6 +2242,8 @@ Photo by [Shahadat Rahman](https://unsplash.com/@hishahadat) on [Unsplash](https
 > The most important property of a program is whether it accomplishes the intention of its user.
 
 *C.A.R Hoare*
+
+[Code Smell 269 - Low-Level Addition](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20269%20-%20Low-Level%20Addition/readme.md)
 
 ---
 
@@ -2301,7 +2347,7 @@ Photo by [Shahadat Rahman](https://unsplash.com/@hishahadat) on [Unsplash](https
 
 *John Osterhout*
 
-[Code Smell 76 - Generic Assertions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2076%20-%20Generic%20Assertions/readme.md) 
+[Code Smell 76 - Generic Assertions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2076%20-%20Generic%20Assertions/readme.md)
 
 ---
 
@@ -2411,7 +2457,7 @@ Photo by [Shahadat Rahman](https://unsplash.com/@hishahadat) on [Unsplash](https
 
 *Michael Abrash*
 
-[Code Smell 148 - ToDos](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20148%20-%20ToDos/readme.md) 
+[Code Smell 148 - ToDos](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20148%20-%20ToDos/readme.md)
 
 ---
 
@@ -2419,7 +2465,7 @@ Photo by [Shahadat Rahman](https://unsplash.com/@hishahadat) on [Unsplash](https
 
 *Albert Einstein*
 
-[Code Smell 117 - Unrealistic Data](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20117%20-%20Unrealistic%20Data/readme.md) 
+[Code Smell 117 - Unrealistic Data](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20117%20-%20Unrealistic%20Data/readme.md)
 
 ---
 
@@ -2434,8 +2480,8 @@ There is only one basic way of dealing with complexity: divide and conquer
 
 *Bjarne Stroustrup*
 
-___
-     
+---
+
 > GoF patterns might better be called implementation patterns than design (or thinking) patterns.
 
 *David West*
@@ -2510,7 +2556,7 @@ ___
 
 *Eric Evans*
 
-[Code Smell 143 - Data Clumps](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20143%20-%20Data%20Clumps/readme.md) 
+[Code Smell 143 - Data Clumps](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20143%20-%20Data%20Clumps/readme.md)
 
 ---
 
@@ -2530,7 +2576,7 @@ ___
 
 *Edward Garson*
 
-[Code Smell 93 - Send me Anything](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2093%20-%20Send%20me%20Anything/readme.md) 
+[Code Smell 93 - Send me Anything](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2093%20-%20Send%20me%20Anything/readme.md)
 
 ---
 
@@ -2538,7 +2584,7 @@ ___
 
 *Edsger Dijkstra*
 
-[Code Smell 36 - Switch/case/elseif/else/if statements](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md) 
+[Code Smell 36 - Switch/case/elseif/else/if statements](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md)
 
 ---
 
@@ -2624,7 +2670,7 @@ ___
 
 *Robert C. Martin*
 
-[Code Smell 79 - TheResult](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2079%20-%20TheResult/readme.md) 
+[Code Smell 79 - TheResult](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2079%20-%20TheResult/readme.md)
 
 ---
 
@@ -2676,6 +2722,22 @@ ___
 
 ---
 
+> Assumptions are the mother of all failures.
+
+*Said Ouissal*
+
+[Code Smell 282 - Bad Defaults](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20282%20-%20Bad%20Defaults/readme.md)
+
+---
+
+> If you have to spend effort to decipher code, you should rewrite it.
+
+*Martin Golding*
+
+[Code Smell 287 - Unused Local Assignment](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20287%20-%20Unused%20Local%20Assignment/readme.md)
+
+---
+
 > The key to making programs fast is to make them do practically nothing.
 
 *Mike Haertel*
@@ -2718,7 +2780,7 @@ ___
 
 *Craig Zerouni*
 
-[CoDe SmElL 159 - mIxEd_cASe](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20159%20-%20Mixed%20Case/readme.md) 
+[CoDe SmElL 159 - mIxEd_cASe](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20159%20-%20Mixed%20Case/readme.md)
 
 ---
 
@@ -2836,6 +2898,14 @@ ___
 
 ---
 
+> Dependency Injection is fundamentally about passing dependencies to objects, rather than having objects create or find them.
+
+*Martin Fowler*
+
+[Code Smell 271 - The Hollywood Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20271%20-%20The%20Hollywood%20Principle/readme.md)
+
+---
+
 > Simplicity does not precede complexity, but follows it
 
 *Alan Perlis*
@@ -2858,7 +2928,7 @@ ___
 
 *Andy Hunt*
 
-[Code Smell 173 - Broken Windows](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20173%20-%20Broken%20Windows/readme.md) 
+[Code Smell 173 - Broken Windows](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20173%20-%20Broken%20Windows/readme.md)
 
 ---
 
@@ -2886,7 +2956,7 @@ ___
 
 [Code Smell 264 - Hanlon's Razor](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20264%20-%20Hanlon's%20Razor/readme.md)
 
-___
+---
 
 > Organizing our work into a series of tiny steps gives us more opportunities to reflect on our progress and steer our designs toward better outcomes.
 
@@ -2903,6 +2973,12 @@ ___
 > I hired finishers because I’m a good starter and a poor finisher.
 
 *Alan Kay*
+
+---
+
+> A function name should be a verb or a verb phrase, and it needs to be meaningful
+
+*Robert C. Martin*
 
 ---
 
@@ -2928,13 +3004,21 @@ ___
 
 *Bob Martin*
 
-[Code Smell 183 - Obsolete Comments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20183%20-%20Obsolete%20Comments/readme.md) 
+[Code Smell 183 - Obsolete Comments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20183%20-%20Obsolete%20Comments/readme.md)
 
 ---
 
 > A program is never less than 90% complete, and never more than 95% complete.
 
 *Terry Baker*
+
+---
+
+> Programming is the art of telling another human what one wants the computer to do.
+
+*Donald Knuth*
+
+[Code Smell 218 - Magic Concatenation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20218%20-%20Magic%20Concatenation/readme.md)
 
 ---
 
@@ -3012,7 +3096,7 @@ Passwords are like underwear: you don’t let people see it, you should change i
 
 *Donald Knuth*
 
-[Code Smell 87 - Inconsistent Parameters Sorting](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2087%20-%20Inconsistent%20Parameters%20Sorting/readme.md) 
+[Code Smell 87 - Inconsistent Parameters Sorting](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2087%20-%20Inconsistent%20Parameters%20Sorting/readme.md)
 
 ---
 
@@ -3086,6 +3170,14 @@ Passwords are like underwear: you don’t let people see it, you should change i
 
 ---
 
+> More computing sins are committed in the name of efficiency without necessarily achieving it than for any other single reason.
+
+*W. A. Wulf*
+
+[Code Smell 279 - Loop Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20279%20-%20Loop%20Premature%20Optimization/readme.md)
+
+---
+
 > Don't Gather Requirements, Dig for Them
 
 *Andrew Hunt*
@@ -3114,7 +3206,7 @@ Passwords are like underwear: you don’t let people see it, you should change i
 
 *Andy Hunt*
 
-[Code Smell 125 - 'IS-A' Relationship](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20125%20-%20'IS-A'%20Relationship/readme.md) 
+[Code Smell 125 - 'IS-A' Relationship](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20125%20-%20'IS-A'%20Relationship/readme.md)
 
 ---
 
@@ -3162,9 +3254,9 @@ Passwords are like underwear: you don’t let people see it, you should change i
 
 ---
 
-> The reason we mention comments here is that comments often are used as a deodorant. It's surprising how often you look at thickly commented code and _notice that the comments are there because the code is bad._
+> The reason we mention comments here is that comments often are used as a deodorant. It's surprising how often you look at thickly commented code and notice that the comments are there because the code is bad.
 
-Martin Fowler		       
+*Martin Fowler*
 
 [Code Smell 224 - Deodorant Comments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20224%20-%20Deodorant%20Comments/readme.md)
 
@@ -3174,7 +3266,7 @@ Martin Fowler
 
 *John Gall*
 
-[Code Smell 158 - Variables not Variable](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20158%20-%20Variables%20not%20Variable/readme.md) 
+[Code Smell 158 - Variables not Variable](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20158%20-%20Variables%20not%20Variable/readme.md)
 
 ---
 
@@ -3239,17 +3331,19 @@ Software as an asset isn't stable over time; it needs to be maintained.
 
 ---
 
-![Team](https://cdn.hashnode.com/res/hashnode/image/upload/v1600707666755/vTWEubhPJ.jpeg)
-
-Photo by [You X Ventures](https://unsplash.com/@youxventures) on [Unsplash](https://unsplash.com/s/photos/planning)
-
-# Planning / Management
-
 > The cost of adding a feature isn’t just the time it takes to code it. The cost also includes the addition of an obstacle to future expansion. The trick is to pick the features that don’t fight each other.
 
 *John Carmack*
 
-[Code Smell 110 - Switches With Defaults](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20110%20-%20Switches%20With%20Defaults/readme.md) 
+[Code Smell 110 - Switches With Defaults](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20110%20-%20Switches%20With%20Defaults/readme.md)
+
+---
+
+> Simple can be harder than complex
+
+*Steve Jobs*
+
+[Code Smell 277 - UPPERCASE Acronyms](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20277%20-%20UPPERCASE%20Acronyms/readme.md)
 
 ---
 
@@ -3276,6 +3370,14 @@ Photo by [You X Ventures](https://unsplash.com/@youxventures) on [Unsplash](http
 > Programmers must avoid leaving false clues that obscure the meaning of code.
 
 *Robert C. Martin*
+
+---
+
+> Time invested in writing tests and refactoring delivers impressive returns in delivery speed, and Continuous Integration is a core part of making that work in a team setting
+
+*Martin Fowler*
+
+[Code Smell 275 - Missing Test Wrong Path](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20275%20-%20Missing%20Test%20Wrong%20Path/readme.md)
 
 ---
 
@@ -3325,6 +3427,14 @@ Photo by [You X Ventures](https://unsplash.com/@youxventures) on [Unsplash](http
 
 ---
 
+> Feedback is the breakfast of champions.
+
+*Ken Blanchard*
+
+[Code Smell 276 - Untested Regular Expressions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20276%20-%20Untested%20Regular%20Expressions/readme.md)
+
+---
+
 > The problem with quick and dirty, is that the dirty remains long after the quick has been forgotten
 
 *Steve C. McConnell*
@@ -3341,7 +3451,7 @@ Photo by [You X Ventures](https://unsplash.com/@youxventures) on [Unsplash](http
 
 *Martin Fowler*
 
-[Code Smell 139 - Business Code in the User Interface](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20139%20-%20Business%20Code%20in%20the%20User%20Interface/readme.md) 
+[Code Smell 139 - Business Code in the User Interface](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20139%20-%20Business%20Code%20in%20the%20User%20Interface/readme.md)
 
 ---
 
@@ -3355,7 +3465,7 @@ Photo by [You X Ventures](https://unsplash.com/@youxventures) on [Unsplash](http
 
 *Tim Berners-Lee*
 
-[Code Smell 164 - Mixed Indentations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20164%20-%20Mixed%20Indentations/readme.md) 
+[Code Smell 164 - Mixed Indentations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20164%20-%20Mixed%20Indentations/readme.md)
 
 ---
 
@@ -3417,7 +3527,7 @@ Photo by [You X Ventures](https://unsplash.com/@youxventures) on [Unsplash](http
 
 > Every Time you Encounter a Testability Problem, there’s an Underlying Design Problem
 
-_Michael Feath_
+*Michael Feath*
 
 ---
 
@@ -3445,13 +3555,21 @@ _Michael Feath_
 
 *Verity Stob*
 
-[Code Smell 132 - Exception Try Too Broad](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20132%20-%20Exception%20Try%20Too%20Broad/readme.md) 
+[Code Smell 132 - Exception Try Too Broad](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20132%20-%20Exception%20Try%20Too%20Broad/readme.md)
 
 ---
 
 > Email is a wonderful thing for people whose role in life is to be on top of things. But not for me; my role is to be on the bottom of things. What I do takes long hours of studying and uninterruptible concentration
 
 *Don Knuth*
+
+---
+
+> A bug is never just a mistake. It represents something bigger.
+
+*Sergey Zefirov*
+
+[Code Smell 292 - Missing Return](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20292%20-%20Missing%20Return/readme.md)
 
 ---
 
@@ -3463,11 +3581,35 @@ _Michael Feath_
 
 ---
 
+> The Visitor pattern is a way to add new operations to a set of objects without changing their classes.
+
+*Erich Gamma*
+
+[Code Smell 289 - Shy Visitor](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20289%20-%20Shy%20Visitor/readme.md)
+
+---
+
 > Einstein repeatedly argued that there must be simplified explanations of nature, because God is not capricious or arbitrary. No such faith comforts the software engineer.
 
 *Fred Brooks*
 
-[No Silver Bullet](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md) 
+[No Silver Bullet](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md)
+
+---
+
+> The most important property of a program is whether it accomplishes the intention of its user.
+
+*C.A.R. Hoare*
+
+[Code Smell 291 - Mutable Keys](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20291%20-%20Mutable%20Keys/readme.md)
+
+---
+
+> Inheritance is good, but you should never forget that it introduces tight coupling.
+
+*Robert C. Martin*
+
+[Code Smell 286 - Overlapping Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20286%20-%20Overlapping%20Methods/readme.md)
 
 ---
 
@@ -3499,7 +3641,7 @@ _Michael Feath_
 
 *Nietzsche*
 
-[Code Smell 149 - Optional Chaining](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20149%20-%20Optional%20Chaining/readme.md) 
+[Code Smell 149 - Optional Chaining](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20149%20-%20Optional%20Chaining/readme.md)
 
 ---
 
@@ -3513,7 +3655,7 @@ _Michael Feath_
 
 *Sam Altman*
 
-[Code Smell 85 - And Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2085%20-%20And%20Functions/readme.md) 
+[Code Smell 85 - And Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2085%20-%20And%20Functions/readme.md)
 
 ---
 
@@ -3541,7 +3683,7 @@ _Michael Feath_
 
 *Steve Klabnik*
 
-[Code Smell 37 - Protected Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2037%20-%20Protected%20Attributes/readme.md) 
+[Code Smell 37 - Protected Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2037%20-%20Protected%20Attributes/readme.md)
 
 ---
 
@@ -3677,17 +3819,11 @@ _Michael Feath_
 
 ---
 
-![Accounting](https://cdn.hashnode.com/res/hashnode/image/upload/v1600707728842/ChkrWm4k9.jpeg)
-
-Photo by [Bench Accounting](https://unsplash.com/@benchaccounting) on [Unsplash](https://unsplash.com/s/photos/clean)
-
-# Clean Code
-
 > Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
 
 *John Woods*
 
-[Code Smell 91 - Test Asserts without Description](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2091%20-%20Test%20Asserts%20without%20Description/readme.md) 
+[Code Smell 91 - Test Asserts without Description](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2091%20-%20Test%20Asserts%20without%20Description/readme.md)
 
 ---
 
@@ -3755,7 +3891,7 @@ Photo by [Bench Accounting](https://unsplash.com/@benchaccounting) on [Unsplash]
 
 *Ron Jeffries*
 
-[TDD Conference 2021 - Benefits Of Going Beyond The Make-It-Work Phase - Francisco Climent](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD%20Conference%202021/Benefits%20Of%20Going%20Beyond%20The%20Make-It-Work%20Phase/readme.md) 
+[TDD Conference 2021 - Benefits Of Going Beyond The Make-It-Work Phase - Francisco Climent](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD%20Conference%202021/Benefits%20Of%20Going%20Beyond%20The%20Make-It-Work%20Phase/readme.md)
 
 ---
 
@@ -3763,7 +3899,7 @@ Photo by [Bench Accounting](https://unsplash.com/@benchaccounting) on [Unsplash]
 
 *Leopold Kronecker*
 
-[Code Smell 108 - Float Assertions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20108%20-%20Float%20Assertions/readme.md) 
+[Code Smell 108 - Float Assertions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20108%20-%20Float%20Assertions/readme.md)
 
 ---
 
@@ -3803,7 +3939,7 @@ Photo by [Bench Accounting](https://unsplash.com/@benchaccounting) on [Unsplash]
 
 *Alistair Cockburn*
 
-[Code Smell 171 - Plural Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20171%20-%20Plural%20Classes/readme.md) 
+[Code Smell 171 - Plural Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20171%20-%20Plural%20Classes/readme.md)
 
 ---
 
@@ -3811,7 +3947,7 @@ Photo by [Bench Accounting](https://unsplash.com/@benchaccounting) on [Unsplash]
 
 *Kent Beck*
 
-[Code Smell 96 - My Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2096%20-%20My%20Objects/readme.md) 
+[Code Smell 96 - My Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2096%20-%20My%20Objects/readme.md)
 
 ---
 
@@ -3849,7 +3985,7 @@ Photo by [Bench Accounting](https://unsplash.com/@benchaccounting) on [Unsplash]
 
 *Peter Deustch*
 
-[Code Smell 142 - Queries in Constructors](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20142%20-%20Queries%20in%20Constructors/readme.md) 
+[Code Smell 142 - Queries in Constructors](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20142%20-%20Queries%20in%20Constructors/readme.md)
 
 ---
 
@@ -3869,7 +4005,7 @@ Photo by [Bench Accounting](https://unsplash.com/@benchaccounting) on [Unsplash]
 
 *Benjamin Franklin*
 
-[Code Smell 180 - BitWise Optimizations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20180%20-%20BitWise%20Optimizations/readme.md) 
+[Code Smell 180 - BitWise Optimizations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20180%20-%20BitWise%20Optimizations/readme.md)
 
 ---
 
@@ -3883,7 +4019,7 @@ Photo by [Bench Accounting](https://unsplash.com/@benchaccounting) on [Unsplash]
 
 *Martin Fowler*
 
-[Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md) 
+[Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
 
 ---
 
@@ -3927,7 +4063,7 @@ Photo by [Bench Accounting](https://unsplash.com/@benchaccounting) on [Unsplash]
 
 *Alan Perlis*
 
-[Code Smell 94 - Too Many imports](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2094%20-%20Too%20Many%20imports/readme.md) 
+[Code Smell 94 - Too Many imports](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2094%20-%20Too%20Many%20imports/readme.md)
 
 ---
 
@@ -3935,7 +4071,7 @@ Photo by [Bench Accounting](https://unsplash.com/@benchaccounting) on [Unsplash]
 
 *Robert Martin*
 
-[Code Smell 64 - Inappropriate Intimacy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2064%20-%20Inappropriate%20Intimacy/readme.md) 
+[Code Smell 64 - Inappropriate Intimacy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2064%20-%20Inappropriate%20Intimacy/readme.md)
 
 ---
 
@@ -3943,7 +4079,7 @@ Photo by [Bench Accounting](https://unsplash.com/@benchaccounting) on [Unsplash]
 
 *Andrew S. Tannenbaum*
 
-[Code Smell 48 - Code Without Standards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2048%20-%20Code%20Without%20Standards/readme.md) 
+[Code Smell 48 - Code Without Standards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2048%20-%20Code%20Without%20Standards/readme.md)
 
 ---
 
@@ -3985,7 +4121,7 @@ Photo by [Bench Accounting](https://unsplash.com/@benchaccounting) on [Unsplash]
 
 *Joel Spolsky*
 
-[Code Smell 51 - Double Negatives](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2051%20-%20Double%20Negatives/readme.md) 
+[Code Smell 51 - Double Negatives](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2051%20-%20Double%20Negatives/readme.md)
 
 ---
 
@@ -3993,7 +4129,7 @@ Photo by [Bench Accounting](https://unsplash.com/@benchaccounting) on [Unsplash]
 
 *Ray Ozzie*
 
-[Code Smell 138 - Packages Dependency](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20138%20-%20Packages%20Dependency/readme.md) 
+[Code Smell 138 - Packages Dependency](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20138%20-%20Packages%20Dependency/readme.md)
 
 ---
 
@@ -4003,11 +4139,19 @@ Photo by [Bench Accounting](https://unsplash.com/@benchaccounting) on [Unsplash]
 
 ---
 
+> Spaghetti code is a program with its logic tangled like spaghetti. Avoid the tangles, and you simplify your life.
+
+*Martin Fowler*
+
+[Code Smell 280 - Spaghetti Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20280%20-%20Spaghetti%20Code/readme.md)
+
+---
+
 > Twenty percent of all input forms filled out by people contain bad data.
 
 *Dennis Ritchie*
 
-[Code Smell 113 - Data Naming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20113%20-%20Data%20Naming/readme.md) 
+[Code Smell 113 - Data Naming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20113%20-%20Data%20Naming/readme.md)
 
 ---
 
@@ -4015,7 +4159,7 @@ Photo by [Bench Accounting](https://unsplash.com/@benchaccounting) on [Unsplash]
 
 *Chuck Palahniuk*
 
-[Code Smell 57 - Versioned Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2057%20-%20Versioned%20Functions/readme.md) 
+[Code Smell 57 - Versioned Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2057%20-%20Versioned%20Functions/readme.md)
 
 ---
 
@@ -4023,7 +4167,7 @@ Photo by [Bench Accounting](https://unsplash.com/@benchaccounting) on [Unsplash]
 
 *David Walker*
 
-[Code Smell 53 - Explicit Iteration](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2053%20-%20Explicit%20Iteration/readme.md) 
+[Code Smell 53 - Explicit Iteration](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2053%20-%20Explicit%20Iteration/readme.md)
 
 ---
 
@@ -4031,7 +4175,7 @@ Photo by [Bench Accounting](https://unsplash.com/@benchaccounting) on [Unsplash]
 
 *Jon Bentley*
 
-[Code Smell 77 - Timestamps](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2077%20-%20Timestamps/readme.md) 
+[Code Smell 77 - Timestamps](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2077%20-%20Timestamps/readme.md)
 
 ---
 
@@ -4061,6 +4205,14 @@ Photo by [Bench Accounting](https://unsplash.com/@benchaccounting) on [Unsplash]
 
 ---
 
+> When you add testing flags, you undermine confidence in production.
+
+*Ward Cunningham*
+
+[Code Smell 293 - isTesting](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20293%20-%20isTesting/readme.md)
+
+---
+
 > Scientists build to learn; Engineers learn to build.
 
 *Fred Brooks*
@@ -4083,7 +4235,7 @@ Photo by [Bench Accounting](https://unsplash.com/@benchaccounting) on [Unsplash]
 
 *Jeff Atwood*
 
-[Code Smell 88 - Lazy Initialization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2088%20-%20Lazy%20Initialization/readme.md) 
+[Code Smell 88 - Lazy Initialization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2088%20-%20Lazy%20Initialization/readme.md)
 
 ---
 
@@ -4129,7 +4281,7 @@ Continuous deployment came before continuous delivery. We need to learn from it.
 
 *Joshua Bloch*
 
-[Code Smell 169 - Glued Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20169%20-%20Glued%20Methods/readme.md) 
+[Code Smell 169 - Glued Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20169%20-%20Glued%20Methods/readme.md)
 
 ---
 
@@ -4143,7 +4295,7 @@ Continuous deployment came before continuous delivery. We need to learn from it.
 
 *David Gelernter*
 
-[Code Smell 45 - Not Polymorphic](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2045%20-%20Not%20Polymorphic/readme.md) 
+[Code Smell 45 - Not Polymorphic](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2045%20-%20Not%20Polymorphic/readme.md)
 
 ---
 
@@ -4175,7 +4327,7 @@ Continuous deployment came before continuous delivery. We need to learn from it.
 
 *Robert Martin*
 
-[Code Smell 72 - Return Codes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2072%20-%20Return%20Codes/readme.md) 
+[Code Smell 72 - Return Codes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2072%20-%20Return%20Codes/readme.md)
 
 ---
 
@@ -4189,7 +4341,7 @@ Continuous deployment came before continuous delivery. We need to learn from it.
 
 *Richard Pattis*
 
-[Code Smell 73 - Exceptions for Expected Cases](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2073%20-%20Exceptions%20for%20Expected%20Cases/readme.md) 
+[Code Smell 73 - Exceptions for Expected Cases](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2073%20-%20Exceptions%20for%20Expected%20Cases/readme.md)
 
 ---
 
@@ -4203,7 +4355,7 @@ Continuous deployment came before continuous delivery. We need to learn from it.
 
 *Dan Hurvitz*
 
-[Code Smell 163 - Collection in Name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20163%20-%20Collection%20in%20Name/readme.md) 
+[Code Smell 163 - Collection in Name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20163%20-%20Collection%20in%20Name/readme.md)
 
 ---
 
@@ -4223,7 +4375,7 @@ Continuous deployment came before continuous delivery. We need to learn from it.
 
 *Karolina Szczur*
 
-[Code Smell 80 - Nested Try/Catch](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2080%20-%20Nested%20Try%20Catch/readme.md) 
+[Code Smell 80 - Nested Try/Catch](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2080%20-%20Nested%20Try%20Catch/readme.md)
 
 ---
 
@@ -4291,7 +4443,7 @@ Continuous deployment came before continuous delivery. We need to learn from it.
 
 *Grady Booch*
 
-[Code Smell 52 - Fragile Tests](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2052%20-%20Fragile%20Tests/readme.md) 
+[Code Smell 52 - Fragile Tests](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2052%20-%20Fragile%20Tests/readme.md)
 
 ---
 
@@ -4329,7 +4481,7 @@ Continuous deployment came before continuous delivery. We need to learn from it.
 
 *Donald Knuth*
 
-[Code Smell 172 - Default Argument Values Not Last](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20172%20-%20Default%20Argument%20Values%20Not%20Last/readme.md) 
+[Code Smell 172 - Default Argument Values Not Last](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20172%20-%20Default%20Argument%20Values%20Not%20Last/readme.md)
 
 ---
 
@@ -4345,7 +4497,7 @@ Continuous deployment came before continuous delivery. We need to learn from it.
 
 *Wietse Venema*
 
-[Code Smell 167 - Hashing Comparison](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20167%20-%20Hashing%20Comparison/readme.md) 
+[Code Smell 167 - Hashing Comparison](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20167%20-%20Hashing%20Comparison/readme.md)
 
 ---
 
@@ -4359,7 +4511,7 @@ Continuous deployment came before continuous delivery. We need to learn from it.
 
 *Pierce Brown*
 
-[Code Smell 26 - Exceptions Polluting](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2026%20-%20Exceptions%20Polluting/readme.md) 
+[Code Smell 26 - Exceptions Polluting](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2026%20-%20Exceptions%20Polluting/readme.md)
 
 ---
 
@@ -4373,7 +4525,7 @@ Continuous deployment came before continuous delivery. We need to learn from it.
 
 *Austin Freeman*
 
-[Code Smell 29 - Settings / Configs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2029%20-%20Settings%20-%20Configs/readme.md) 
+[Code Smell 29 - Settings / Configs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2029%20-%20Settings%20-%20Configs/readme.md)
 
 ---
 
@@ -4385,11 +4537,19 @@ Continuous deployment came before continuous delivery. We need to learn from it.
 
 ---
 
+> Favor object composition over class inheritance.
+
+*Erich Gamma*
+
+[Code Smell 290 - Refused Bequest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20290%20-%20Refused%20Bequest/readme.md)
+
+---
+
 > Programming can be fun, so can cryptography; however they should not be combined.
 
 *Kreitzberg & Shneiderman*
 
-[Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md) 
+[Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
 ---
 
@@ -4397,7 +4557,7 @@ Continuous deployment came before continuous delivery. We need to learn from it.
 
 *Ryan Singer*
 
-[Code Smell 34 - Too Many Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2034%20-%20Too%20Many%20Attributes/readme.md) 
+[Code Smell 34 - Too Many Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2034%20-%20Too%20Many%20Attributes/readme.md)
 
 ---
 
@@ -4435,7 +4595,7 @@ Continuous deployment came before continuous delivery. We need to learn from it.
 
 *Brian Goetz*
 
-[Code Smell 116 - Variables Declared With 'var'](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20116%20-%20Variables%20Declared%20With%20'var'/readme.md) 
+[Code Smell 116 - Variables Declared With 'var'](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20116%20-%20Variables%20Declared%20With%20'var'/readme.md)
 
 ---
 
@@ -4517,9 +4677,9 @@ Continuous deployment came before continuous delivery. We need to learn from it.
 
 *Jamie Zawinski*
 
-[Code Smell 185 - Evil Regular Expressions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20185%20-%20Evil%20Regular%20Expressions/readme.md) 
+[Code Smell 185 - Evil Regular Expressions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20185%20-%20Evil%20Regular%20Expressions/readme.md)
 
-[Code Smell 141 - IEngine , AVehicle, ImplCar](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20141%20-%20IEngine%20,%20AVehicle,%20ImplCar/readme.md) 
+[Code Smell 141 - IEngine , AVehicle, ImplCar](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20141%20-%20IEngine%20,%20AVehicle,%20ImplCar/readme.md)
 
 ---
 
@@ -4533,7 +4693,7 @@ The best way to get accurate information on Stack Overflow is to post something 
 
 *Brian Kernighan*
 
-[What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md) 
+[What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
 ---
 
@@ -4541,7 +4701,7 @@ The best way to get accurate information on Stack Overflow is to post something 
 
 *Cory House*
 
-[Code Smell 81 - Result](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2081%20-%20Result/readme.md) 
+[Code Smell 81 - Result](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2081%20-%20Result/readme.md)
 
 ---
 
@@ -4555,13 +4715,19 @@ The best way to get accurate information on Stack Overflow is to post something 
 
 *Robert Martin*
 
-[Code Smell 33 - Abbreviations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2033%20-%20Abbreviations/readme.md) 
+[Code Smell 33 - Abbreviations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2033%20-%20Abbreviations/readme.md)
 
 ---
 
 > Talk is cheap. Show me the code.
 
 *Linus Torvalds*
+
+---
+
+> Code should be written to be read by humans first, and machines second.
+
+*Don Laabs*
 
 ---
 
@@ -4577,17 +4743,11 @@ The best way to get accurate information on Stack Overflow is to post something 
 
 ---
 
-![Quality](https://cdn.hashnode.com/res/hashnode/image/upload/v1600707787466/2A7jlRXw5.jpeg)
-
-Photo by [Raquel Martínez](https://unsplash.com/@fiteka) on [Unsplash](https://unsplash.com/s/photos/quality)
-
-# Software Quality
-
 > Legacy code is code without tests.
 
 *Michael Feathers*
 
-[How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md) 
+[How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 
 ---
 
@@ -4619,7 +4779,7 @@ Photo by [Raquel Martínez](https://unsplash.com/@fiteka) on [Unsplash](https://
 
 *Jessica Gaston*
 
-[Code Smell 42 - Warnings/Strict Mode Off](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2042%20-%20Warnings%20Strict%20Mode%20Off/readme.md) 
+[Code Smell 42 - Warnings/Strict Mode Off](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2042%20-%20Warnings%20Strict%20Mode%20Off/readme.md)
 
 ---
 
@@ -4633,7 +4793,7 @@ Photo by [Raquel Martínez](https://unsplash.com/@fiteka) on [Unsplash](https://
 
 *Boris Beizer*
 
-[Code Smell 30 - Mocking Business](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md) 
+[Code Smell 30 - Mocking Business](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md)
 
 ---
 
@@ -4643,7 +4803,7 @@ I try to think mostly in terms of preconditions, and checking things in the cons
 
 ---
 
->"Don't fix it if it ain't broke" presupposed that you can't improve something that works reasonably well already. If the world's inventors had believed this, we'd still be driving Model A Fords and using outhouses.
+> 'Don't fix it if it ain't broke' presupposed that you can't improve something that works reasonably well already. If the world's inventors had believed this, we'd still be driving Model A Fords and using outhouses.
 
 *H. W. Kenton*
 
@@ -4693,7 +4853,7 @@ I try to think mostly in terms of preconditions, and checking things in the cons
 
 *Donald Knuth*
 
-[Stop Calling them 'Bugs'](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quality/Stop%20Calling%20them%20'Bugs'/readme.md) 
+[Stop Calling them 'Bugs'](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quality/Stop%20Calling%20them%20'Bugs'/readme.md)
 
 ---
 
@@ -4713,7 +4873,7 @@ I try to think mostly in terms of preconditions, and checking things in the cons
 
 *Michael Feathers*
 
-[How to Squeeze Test Driven Development on Legacy Systems](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md) 
+[How to Squeeze Test Driven Development on Legacy Systems](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md)
 
 ---
 
@@ -4727,7 +4887,7 @@ I try to think mostly in terms of preconditions, and checking things in the cons
 
 *Bertrand Meyer*
 
-[Code Smell 86 - Mutable Const Arrays](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2086%20-%20Mutable%20Const%20Arrays/readme.md) 
+[Code Smell 86 - Mutable Const Arrays](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2086%20-%20Mutable%20Const%20Arrays/readme.md)
 
 ---
 
@@ -4735,7 +4895,7 @@ I try to think mostly in terms of preconditions, and checking things in the cons
 
 *Larry Wall*
 
-[Code Smell 41 - Regular Expression Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2041%20-%20Regular%20Expression%20Abusers/readme.md) 
+[Code Smell 41 - Regular Expression Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2041%20-%20Regular%20Expression%20Abusers/readme.md)
 
 ---
 
@@ -4809,7 +4969,7 @@ I try to think mostly in terms of preconditions, and checking things in the cons
 
 *Marissa Mayer*
 
-[Code Smell 90 - Implementative Callback Events](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2090%20-%20Implementative%20Callback%20Events/readme.md) 
+[Code Smell 90 - Implementative Callback Events](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2090%20-%20Implementative%20Callback%20Events/readme.md)
 
 ---
 
@@ -4817,7 +4977,7 @@ I try to think mostly in terms of preconditions, and checking things in the cons
 
 *Rebecca Wirf Brooks*
 
-[Code Smell 63 - Feature Envy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2063%20-%20Feature%20Envy/readme.md) 
+[Code Smell 63 - Feature Envy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2063%20-%20Feature%20Envy/readme.md)
 
 ---
 
@@ -4837,7 +4997,7 @@ I try to think mostly in terms of preconditions, and checking things in the cons
 
 *Robert Martin*
 
-[Code Smell 82 - Tests Violating Encapsulation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2082%20-%20Tests%20Violating%20Encapsulation/readme.md) 
+[Code Smell 82 - Tests Violating Encapsulation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2082%20-%20Tests%20Violating%20Encapsulation/readme.md)
 
 ---
 
@@ -4863,7 +5023,7 @@ I try to think mostly in terms of preconditions, and checking things in the cons
 
 *David Parnas*
 
-[Code Smell 188 - Redundant Parameter Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20188%20-%20Redundant%20Parameter%20Names/readme.md) 
+[Code Smell 188 - Redundant Parameter Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20188%20-%20Redundant%20Parameter%20Names/readme.md)
 
 ---
 
@@ -4873,17 +5033,11 @@ I try to think mostly in terms of preconditions, and checking things in the cons
 
 ---
 
-![Sorting](https://cdn.hashnode.com/res/hashnode/image/upload/v1600707869812/D8LL5gWKE.jpeg)
-
-Photo by [Kelvyn Ornettte Sol Marte](https://unsplash.com/@kelvyn) on [Unsplash](https://unsplash.com/s/photos/sorting)
-
-# Refactoring
-
 > Whenever I have to think to understand what the code is doing, I ask myself if I can refactor the code to make that understanding more immediately apparent.
 
 *Martin Fowler*
 
-[Code Smell 67 - Middle Man](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2067%20-%20Middle%20Man/readme.md) 
+[Code Smell 67 - Middle Man](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2067%20-%20Middle%20Man/readme.md)
 
 ---
 
@@ -4891,7 +5045,7 @@ Photo by [Kelvyn Ornettte Sol Marte](https://unsplash.com/@kelvyn) on [Unsplash]
 
 *Marijn Haverbeke*
 
-___
+---
 
 > A true professional does not waste the time and money of other people by handing over software that is not reasonably free of obvious bugs; that has not undergone minimal unit testing; that does not meet the specifications and requirements; that is gold-plated with unnecessary features; or that looks like junk.
 
@@ -4919,7 +5073,7 @@ ___
 
 Part of the objective of this series of articles is to generate spaces for debate and discussion on software design.
 
-[Object Design Checklist](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Object%20Design%20Checklist/readme.md) 
+[Object Design Checklist](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Object%20Design%20Checklist/readme.md)
 
 We look forward to comments and suggestions on this article.
 

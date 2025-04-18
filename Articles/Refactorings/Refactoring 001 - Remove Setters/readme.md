@@ -174,6 +174,7 @@ This refactoring improves encapsulation and integrity adding an extra access con
 | [Gemini](https://gemini.google.com/) | [Gemini](https://gemini.google.com/) | 
 | [DeepSeek](https://chat.deepseek.com/) | [DeepSeek](https://chat.deepseek.com/) | 
 | [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
+| [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
 # Tags
@@ -193,6 +194,8 @@ This refactoring improves encapsulation and integrity adding an extra access con
 [Refactoring 009 - Protect Public Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20009%20-%20Protect%20Public%20Attributes/readme.md)	      
 
 [Refactoring 017 - Convert Attributes to Sets](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20017%20-%20Convert%20Attributes%20to%20Sets/readme.md)
+
+[Refactoring 027 - Remove Getters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20027%20-%20Remove%20Getters/readme.md)
 
 - Remove Getters
 

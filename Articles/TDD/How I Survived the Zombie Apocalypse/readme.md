@@ -249,7 +249,7 @@ Message with 10 recipients is not valid.
 
 ```
 isValid
-	 ^recipients notEmpty and: [recipients size < 10] 
+	 ^recipients notEmpty and: [recipients size < 10]
 ``` 
 
 This condition now checks for lower limits and upper ones. it is equal to:

@@ -103,7 +103,7 @@ Some objects implement many interfaces, declaring which part depends on which in
 
 # More Info
 
-[Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md) 
+[Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 [Wikipedia](https://en.wikipedia.org/wiki/Loose_coupling)
 

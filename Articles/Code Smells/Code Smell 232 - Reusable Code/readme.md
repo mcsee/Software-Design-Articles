@@ -42,7 +42,7 @@ def calculate_area(length, width):
 
 def calculate_volume(length, width, height):
     return length * width * height
-``` 
+```
 
 ## Right
 
@@ -55,7 +55,7 @@ def calculate_area(length, width):
 def calculate_volume(length, width, height):
     base_area = calculate_area(length, width)
     return base_area * height
-``` 
+```
 
 # Detection
 
@@ -105,7 +105,7 @@ Photo by [Mitchell Griest](https://unsplash.com/@griestprojects) on [Unsplash](h
 
 _Mike Johnson_
 
-[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md) 
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 ---
 

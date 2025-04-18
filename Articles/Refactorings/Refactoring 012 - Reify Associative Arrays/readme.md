@@ -18,7 +18,7 @@
     
 # Related Code Smells
 
-[Code Smell 27 - Associative Arrays](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2027%20-%20Associative%20Arrays/readme.md) 
+[Code Smell 27 - Associative Arrays](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2027%20-%20Associative%20Arrays/readme.md)
 
 # Context
 
@@ -89,7 +89,7 @@ $credential =
 
 // You can not easily find
 // references to methods setting the oauth2_token
-``` 
+```
 
 ## After
 
@@ -136,7 +136,7 @@ $credentials->oauth2_token(null);
 
 $credentials->scope();
 // Typo detected
-``` 
+```
 
 Now, you have an anemic data class or [DTO](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2040%20-%20DTOs/readme.md). It is time to give it behavior and (possibly) remove some getters and setters.
 
@@ -170,11 +170,11 @@ In dynamically typed languages you cannot enforce type or domain restrictions fo
     
 # Related Refactorings
 
-[Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md) 
+[Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
 # See also
 
-[Code Smell 27 - Associative Arrays](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2027%20-%20Associative%20Arrays/readme.md) 
+[Code Smell 27 - Associative Arrays](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2027%20-%20Associative%20Arrays/readme.md)
 
 # Credits
 

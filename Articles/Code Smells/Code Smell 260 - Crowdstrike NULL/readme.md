@@ -183,7 +183,7 @@ Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/t
 
 _Tony Hoare_
 
-[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md) 
+[Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 ---
 

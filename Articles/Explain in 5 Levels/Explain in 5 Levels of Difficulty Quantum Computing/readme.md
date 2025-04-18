@@ -62,7 +62,7 @@ Quantum computers can factor large numbers exponentially faster than classical c
 
 This capability threatens traditional cryptography and blockchains that rely on factoring difficulty.
 
-[Explain in 5 Levels of Difficulty: Bitcoin](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20Bitcoin/readme.md) 
+[Explain in 5 Levels of Difficulty: Bitcoin](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20Bitcoin/readme.md)
 
 Researchers also explore quantum computing’s implications in multiverse theories, as qubits seemingly compute across many realities.
 
@@ -124,7 +124,7 @@ This fact is disputed today and need further verification by the scientific comm
 
 The Planck scale (10^-35 m) suggests a fundamental graininess to spacetime, potentially limiting quantum computational power.
 
-[Warning: The Universe's Event Simulator Is a Fierce Adversary for Coders!](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Opinion/Warning%20The%20Universe's%20Event%20Simulator%20Is%20a%20Fierce%20Adversary%20for%20Coders/readme.md) 
+[Warning: The Universe's Event Simulator Is a Fierce Adversary for Coders!](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Opinion/Warning%20The%20Universe's%20Event%20Simulator%20Is%20a%20Fierce%20Adversary%20for%20Coders/readme.md)
 
 Nature reports underscore advancements in stabilizing qubits through topological quantum error correction and fault-tolerant designs, essential for practical quantum computation.
 

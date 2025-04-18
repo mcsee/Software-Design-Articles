@@ -604,6 +604,8 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 295 - String Concatenation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20295%20-%20String%20Concatenation/readme.md)
 
+[Code Smell 296 - Unhappy to the Right](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20296%20-%20Unhappy%20to%20the%20Right/readme.md)
+
 ... and many more to come.
 
 * * *
