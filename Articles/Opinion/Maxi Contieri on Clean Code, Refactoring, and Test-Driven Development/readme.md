@@ -59,13 +59,13 @@ mcseeMar 24, 2021, 6:25 PM
 Hi Arthur Tkachenko, Nice to meet you !
 
 Amy TomMar 24, 2021, 6:26 PM
-Hi Maxi! Thanks for doing an AMA! Great to meet you. As a beginner in the coding world, I’d love for you to explain further what you mean by “code smells”
+Hi Maxi! Thanks for doing an AMA! Great to meet you. As a beginner in the coding world, I’d love for you to explain further what you mean by "code smells"
 
 Arthur TkachenkoMar 24, 2021, 6:27 PM
 (yes, I voted for you on our last noonies)
 
 mcseeMar 24, 2021, 6:27 PM
-I think every organization has its structure. I am myself a sofware engineer manager so I choose team priorities. I take everyday decisions on priorities and they are not very easy to make. Sometimes we have time for refactorings, sometimes we don't. So we schedule a case and move on to build new features or correct defects. What i am sure of is , technical debt is a debt, the later you pay it the more cost it has.
+I think every organization has its structure. I am myself a software engineer manager so I choose team priorities. I take everyday decisions on priorities and they are not very easy to make. Sometimes we have time for refactorings, sometimes we don't. So we schedule a case and move on to build new features or correct defects. What i am sure of is , technical debt is a debt, the later you pay it the more cost it has.
 
 mcseeMar 24, 2021, 6:29 PM
 I cannot give you a rule on time. But if you postpone a refactor and you encounter a defect, time moves on and you find another defect etc. your technical debt is clearly shouting. On the opposite side, if we just do refactors and tech debts we miss a lot of business opportunities. I have no silver bullet on this, sorry.

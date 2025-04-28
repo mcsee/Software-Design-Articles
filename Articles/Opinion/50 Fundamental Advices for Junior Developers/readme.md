@@ -86,7 +86,7 @@ https://x.com/emystein
 
 * * *
 
-Never think of yourself as a “junior”. Do what you care about and do it well.   Don’t go after “promotions”. If you do what you care about well they will come.
+Never think of yourself as a "junior". Do what you care about and do it well.   Don’t go after "promotions". If you do what you care about well they will come.
 
 https://x.com/rbieber
 
@@ -568,7 +568,7 @@ https://x.com/snhrdt
 
 * * *
 
-Learn the “why”, not just copy and paste or do something because it’s the cool thing. Why is this method better than that? What is the goal of this task, and why is this language/framework/database better for this task? Why did this bug happen?
+Learn the "why", not just copy and paste or do something because it’s the cool thing. Why is this method better than that? What is the goal of this task, and why is this language/framework/database better for this task? Why did this bug happen?
 
 https://x.com/sbscomp
 

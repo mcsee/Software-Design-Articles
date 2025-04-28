@@ -50,7 +50,7 @@ _Ron Jeffries_
 
 _Martin Fowler_
 
-> if ‘non-accidents were investigated, the public would discover that the messy interior of engineering practice which after an accident looks like an “accident waiting to happen,” is nothing more or less than “normal technology”
+> if ‘non-accidents were investigated, the public would discover that the messy interior of engineering practice which after an accident looks like an "accident waiting to happen," is nothing more or less than "normal technology"
 
 _Diane Vaughan_
 

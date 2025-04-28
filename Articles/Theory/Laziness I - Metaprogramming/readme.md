@@ -12,17 +12,17 @@ There are states of excitement that all programmers go through. What state are y
 
 1. We get to [know them](https://en.wikipedia.org/wiki/Software_design_pattern).
 
-1. We don’t understand them.
+2. We don’t understand them.
 
-1. We study them thoroughly.
+3. We study them thoroughly.
 
-1. We master them.
+4. We master them.
 
-1. We read [the bible](https://en.wikipedia.org/wiki/Design_Patterns) that tells us that patterns are everywhere.
+5. We read [the bible](https://en.wikipedia.org/wiki/Design_Patterns) that tells us that patterns are everywhere.
 
-1. We [abuse them](http://www.jot.fm/issues/issue_2006_07/column4/) thinking they are our brand [new silver bullet](https://en.wikipedia.org/wiki/No_Silver_Bullet).
+6. We [abuse them](http://www.jot.fm/issues/issue_2006_07/column4/) thinking they are our brand [new silver bullet](https://en.wikipedia.org/wiki/No_Silver_Bullet).
 
-1. We learn to avoid them.
+7. We learn to avoid them.
 
 [No Silver Bullet](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md)
 
@@ -82,7 +82,7 @@ Let’s see an example of how you can open it declaratively using the [Open/Clos
 
 2 We generate a dependency to a parsing provider using [Dependency Injection ](https://en.wikipedia.org/wiki/Dependency_injection)(Solid’s D).
 
-3 In different environments (production, testing, configurations) we use different Parsing providers and we do not connect to them belonging to the same hierarchy.
+3 In different environments (production, testing, configurations) we use different Parsing providers, and we do not connect to them belonging to the same hierarchy.
 
 4 We use declarative coupling. We ask these providers to realize the **ParseHandling** interface.
 
@@ -146,12 +146,12 @@ Using meta-programming to fulfill such accidental responsibilities for accessing
 
 However, it does bring coupling and encapsulation violation issues.
 
-Some languages ​​incorporate the concept of [Friend Class](https://en.wikipedia.org/wiki/Friend_class), which can be used instead of meta-programming.
+Some languages incorporate the concept of [Friend Class](https://en.wikipedia.org/wiki/Friend_class), which can be used instead of meta-programming.
 
 ## The exception to the exception
 
 Most testing frameworks use meta-programming techniques to collect items to be tested or test cases.
-For example, xUnit finds all subclasses of TestCcase and all functions that start with *testXXX* to build test cases.
+For example, xUnit finds all subclasses of TestCase and all functions that start with *testXXX* to build test cases.
 
 After many unit tests sooner or later, the need arises to test a **private** method of a problem domain entity.
 
@@ -161,7 +161,7 @@ In this situation there are two possibilities:
 
 2 Use meta-programming to ‘invoke’ a private method with some reflection mechanism that avoids controls.
 
-But to perform 1) we should start to expose accidental behavior that does not belong to the real entity violating the rule of bijection and regarding 2) many languages ​​do not allow it and it is also a bad design practice.
+But to perform 1) we should start to expose accidental behavior that does not belong to the real entity violating the rule of bijection and regarding 2) many languages do not allow it, and it is also a bad design practice.
 
 To solve the dilemma we can check the site [shoulditestprivatemethods.com](http://shoulditestprivatemethods.com) created by the great [Kent Beck](https://twitter.com/KentBeck/status/1258954349314625538).
 
@@ -204,7 +204,7 @@ and we can test it!!
 
 So we did it in tests.
 
-Serialization and persistence can be used with meta-programming because they are not real problems of the domain we are modeling and they should not add “extra behavior” dirtying objects.
+Serialization and persistence can be used with meta-programming because they are not real problems of the domain we are modeling and they should not add "extra behavior" dirtying objects.
 
 ![Dirty](https://cdn.hashnode.com/res/hashnode/image/upload/v1599423183846/OgsUDCZyt.jpeg)
 

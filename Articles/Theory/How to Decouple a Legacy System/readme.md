@@ -68,7 +68,7 @@ private function optimize($processId) {
 
 Unfortunately just a single test fails, so we discovered that the process is not covered and we see that the Michael Feathers maxim is sadly applied:
 
-> “An inherited system is one that has no tests”
+> An inherited system is one that has no tests
 
 The strategy to refactor an inherited system is to **cover** the existing functionality before making any changes.
 
@@ -277,7 +277,7 @@ The default parameters produce **coupling** and ripple effect. They are availabl
 
 ## 10 — We remove hard coded constants.
 
-These constants coupled within the code will not allow us to make good tests “manipulating time”.
+These constants coupled within the code will not allow us to make good tests "manipulating time".
 
 Remember that the tests have to **be in control of the entire environment** and the time is **global** and **fragile** to match the tests.
 
@@ -426,7 +426,7 @@ function testOptimizationBelowThreshold() {
 }
 ```
 
-And our system is much less “legacy” compared to when we found it.
+And our system is much less "legacy" compared to when we found it.
 
 ![notes](https://cdn.hashnode.com/res/hashnode/image/upload/v1599601047677/uHl2buUNa.jpeg)
 

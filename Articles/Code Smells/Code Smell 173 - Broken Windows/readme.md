@@ -2,7 +2,7 @@
             
 ![Code Smell 173 - Broken Windows](Code%20Smell%20173%20-%20Broken%20Windows.jpg)
 
-*Always leave the campground cleaner than you found it.” If you find a mess on the ground, you clean it up regardless of who might have made it.*
+*Always leave the campground cleaner than you found it. If you find a mess on the ground, you clean it up regardless of who might have made it.*
 
 > TL;DR: Follow Uncle Bob's boy scout rule.
 

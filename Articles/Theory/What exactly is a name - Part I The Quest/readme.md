@@ -269,7 +269,7 @@ An _anti-pattern_ would be to keep the same name that we defined the first time 
 
 Writing comments is a _code smell_ indicating that a method, name, variable etc. it is not very declarative.
 
-If we can write incredibly descriptive names, we will avoid having to maintain “clarifying” comments that do not add value and are linked to accidental decisions and hardly maintained.
+If we can write incredibly descriptive names, we will avoid having to maintain "clarifying" comments that do not add value and are linked to accidental decisions and hardly maintained.
 
 > Rule 7: Avoid comments.
 
@@ -314,4 +314,4 @@ Part of the objective of this series of articles is to generate spaces for debat
 
 We look forward to comments and suggestions on this article.
 
-Hit me up on Twitter [@mcsee1](https://twitter.com/mcsee1) :)
+Hit me up on X/Twitter [@mcsee1](https://twitter.com/mcsee1) :)

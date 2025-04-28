@@ -44,7 +44,7 @@ Here we go:
 
 ---
 
-> You might not think that programmers are artists, but programming is an extremely creative profession. It's logic-based creativity.”
+> You might not think that programmers are artists, but programming is an extremely creative profession. It's logic-based creativity."
 
 *John Romero*
 
@@ -258,7 +258,7 @@ Here we go:
 
 ---
 
-> In programming, if someone tells you “you’re overcomplicating it,” they’re either 10 steps behind you or 10 steps ahead of you.
+> In programming, if someone tells you "you’re overcomplicating it," they’re either 10 steps behind you or 10 steps ahead of you.
 
 *Andrew Clark*
 
@@ -1350,7 +1350,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 ---
 
-> Start out with finding the right problem to solve. This is a combination of “what customers are asking for”, “what customers don’t even know they want yet” and “what can be solved with something simple to understand and manage”.
+> Start out with finding the right problem to solve. This is a combination of "what customers are asking for", "what customers don’t even know they want yet" and "what can be solved with something simple to understand and manage".
 
 *Radia Perlman*
 
@@ -2032,7 +2032,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 ---
 
-> If Mc Donalds were run like a software company, one out of every hundred Big Macs would give you food poisoning — and the response would be, “We’re sorry, here’s a coupon for two more.
+> If Mc Donalds were run like a software company, one out of every hundred Big Macs would give you food poisoning — and the response would be, "We’re sorry, here’s a coupon for two more.
 
 *Mark Minasi*
 
@@ -2221,7 +2221,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 ---
 
-> The best reaction to “this is confusing, where are the docs” is to rewrite the feature to make it less confusing, not write more docs.
+> The best reaction to "this is confusing, where are the docs" is to rewrite the feature to make it less confusing, not write more docs.
 
 *Jeff Atwood*
 
@@ -2351,7 +2351,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 ---
 
-> Programming is just saying “I have a meeting in an hour, so better not start on this yet” to yourself until you die.
+> Programming is just saying "I have a meeting in an hour, so better not start on this yet" to yourself until you die.
 
 *Alex Engelberg*
 
@@ -2626,7 +2626,7 @@ There is only one basic way of dealing with complexity: divide and conquer
 
 ---
 
-> What would happen if you allowed a bug to slip through a module, and it cost your company $10,000? The nonprofessional would shrug his shoulders, say “stuff happens,” and start writing the next module. The professional would write the company a check for $10,000!
+> What would happen if you allowed a bug to slip through a module, and it cost your company $10,000? The nonprofessional would shrug his shoulders, say "stuff happens," and start writing the next module. The professional would write the company a check for $10,000!
 
 *Bob Martin*
 
@@ -2638,7 +2638,7 @@ There is only one basic way of dealing with complexity: divide and conquer
 
 ---
 
-> The “naive” or “natural” expectations of objects represent a kind of integrity—what Alan Kay called a user illusion—that must be respected.
+> The "naive" or "natural" expectations of objects represent a kind of integrity—what Alan Kay called a user illusion—that must be respected.
 
 *David West*
 
@@ -2704,7 +2704,7 @@ There is only one basic way of dealing with complexity: divide and conquer
 
 ---
 
-> In software “production” is not our problem! Our product is a sequence of bytes, and we can recreate any sequence of bytes essentially for zero cost. This means that we NEVER have a production problem!
+> In software "production" is not our problem! Our product is a sequence of bytes, and we can recreate any sequence of bytes essentially for zero cost. This means that we NEVER have a production problem!
 
 *Dave Farley*
 
@@ -2752,7 +2752,7 @@ There is only one basic way of dealing with complexity: divide and conquer
 
 ---
 
-> More good code has been written in languages denounced as “bad” than in languages proclaimed “wonderful” — much more.
+> More good code has been written in languages denounced as "bad" than in languages proclaimed "wonderful" — much more.
 
 *Bjarne Stroustrup*
 
@@ -2982,7 +2982,7 @@ There is only one basic way of dealing with complexity: divide and conquer
 
 ---
 
-> The earlier you catch defects, the cheaper they are to fix.”
+> The earlier you catch defects, the cheaper they are to fix."
 
 *David Farley*
 
@@ -3048,7 +3048,7 @@ There is only one basic way of dealing with complexity: divide and conquer
 
 ---
 
-> A programmable mind embraces mental agility, to practice “de-learning” and “relearning” all the time.
+> A programmable mind embraces mental agility, to practice "de-learning" and "relearning" all the time.
 
 *Pearl Zhu*
 
@@ -3164,7 +3164,7 @@ Passwords are like underwear: you don’t let people see it, you should change i
 
 ---
 
-> The problem with driving development with small scale tests (I call them “unit tests”, but they don’t match the accepted definition of unit tests very well) is that you run the risk of implementing what you think a user wants, but having it turn out to be not what they wanted at all.
+> The problem with driving development with small scale tests (I call them "unit tests", but they don’t match the accepted definition of unit tests very well) is that you run the risk of implementing what you think a user wants, but having it turn out to be not what they wanted at all.
 
 *Kent Beck*
 
@@ -3248,7 +3248,7 @@ Passwords are like underwear: you don’t let people see it, you should change i
 
 ---
 
-> The best software architecture “knows” what changes often and makes that easy.
+> The best software architecture "knows" what changes often and makes that easy.
 
 *Paul Clements*
 
@@ -4199,7 +4199,7 @@ Software as an asset isn't stable over time; it needs to be maintained.
 
 ---
 
-> Instead of working on a feature until it is “finished”, CI and its big brother CD demand of us to make changes in small steps and have something ready for use after every small step. This changes how we think about the design of our system in some important ways.
+> Instead of working on a feature until it is "finished", CI and its big brother CD demand of us to make changes in small steps and have something ready for use after every small step. This changes how we think about the design of our system in some important ways.
 
 *Dave Farley*
 
@@ -4259,7 +4259,7 @@ Continuous deployment came before continuous delivery. We need to learn from it.
 
 ---
 
-> I would suggest an approach to an eventual “really nice” statically typed language by first making a dynamic language that can use objects as “semantic type definers and guards” to be installed in variables and to make a number of sample systems with it to find what level of static type-safety really pays for itself, and to then do co-evolution passes to get the dynamic types in good enough semantic shape so that all (or most) of what they do dynamically can be done at code writing time.
+> I would suggest an approach to an eventual "really nice" statically typed language by first making a dynamic language that can use objects as "semantic type definers and guards" to be installed in variables and to make a number of sample systems with it to find what level of static type-safety really pays for itself, and to then do co-evolution passes to get the dynamic types in good enough semantic shape so that all (or most) of what they do dynamically can be done at code writing time.
 
 *Alan Kay*
 
@@ -4667,13 +4667,13 @@ Continuous deployment came before continuous delivery. We need to learn from it.
 
 ---
 
-> If you say “I told you so”, you are the one who has failed. Because you knew, but did not manage to stop the train wreck.
+> If you say "I told you so", you are the one who has failed. Because you knew, but did not manage to stop the train wreck.
 
 *Robert Martin*
 
 ---
 
-> Some people, when confronted with a problem, think “I know, I’ll use regular expressions.” Now they have two problems.
+> Some people, when confronted with a problem, think "I know, I’ll use regular expressions." Now they have two problems.
 
 *Jamie Zawinski*
 
@@ -4869,7 +4869,7 @@ I try to think mostly in terms of preconditions, and checking things in the cons
 
 ---
 
-> With tests, we can change the behavior of our code quickly and verifiably. Without them, we really don’t know if our code is getting better or worse.”
+> With tests, we can change the behavior of our code quickly and verifiably. Without them, we really don’t know if our code is getting better or worse."
 
 *Michael Feathers*
 

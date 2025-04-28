@@ -66,7 +66,7 @@ This capability threatens traditional cryptography and blockchains that rely on 
 
 Researchers also explore quantum computing’s implications in multiverse theories, as qubits seemingly compute across many realities.
 
-Recently, Google claimed a quantum computer achieved [“quantum supremacy”](https://research.google/pubs/quantum-supremacy-using-a-programmable-superconducting-processor/), solving a problem classical computers couldn’t handle in a reasonable timeframe.
+Recently, Google claimed a quantum computer achieved ["quantum supremacy"](https://research.google/pubs/quantum-supremacy-using-a-programmable-superconducting-processor/), solving a problem classical computers couldn’t handle in a reasonable timeframe.
 
 A Nature study also highlighted new quantum materials to stabilize qubits.
 

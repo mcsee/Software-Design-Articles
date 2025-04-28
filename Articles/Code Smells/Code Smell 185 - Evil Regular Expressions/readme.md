@@ -112,7 +112,7 @@ Photo by [engin akyurt](https://unsplash.com/@enginakyurt) on [Unsplash](https:/
   
 * * *
 
-> Some people, when confronted with a problem, think “I know, I’ll use regular expressions.” Now they have two problems.
+> Some people, when confronted with a problem, think "I know, I’ll use regular expressions." Now they have two problems.
 
 _Jamie Zawinski_
  

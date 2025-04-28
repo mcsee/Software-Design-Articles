@@ -60,11 +60,11 @@ Fake deadline: today.*
 
 (web hack)
 
-1. Go to “Explore” under “Home”
-2. Click the wheel at the right of the “Search Twitter” box.
-3. Click “Explore Locations”.
+1. Go to "Explore" under "Home"
+2. Click the wheel at the right of the "Search Twitter" box.
+3. Click "Explore Locations".
 4. Pick a country (like [St Kitts](https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis)).
-5. Now the “What’s Happening” will only display content for the location (empty).
+5. Now the "What’s Happening" will only display content for the location (empty).
 6. You will only see your timeline.
 
 # 25. Auto Deadlines 🔫
@@ -83,7 +83,7 @@ Fake deadline: today.*
 Write your goals as *SMART* Sentences:
 
 Example:
-> “Write one [Code Smell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md) article every week until 2032."
+> Write one [Code Smell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md) article every week until 2032.
 
 # 27. Drastic Measures 🐱‍🚀
 

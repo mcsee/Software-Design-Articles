@@ -18,7 +18,7 @@ In this article, we will try to show some present problems with nomenclature in 
 
 ## We do not need help
 
-All objects help, There are no “non-supportive” objects.
+All objects help, There are no "non-supportive" objects.
 
 > In the real-world there are no helpers.
 
@@ -48,7 +48,7 @@ In the real-world, there are no managers (unless we are modeling job roles).
 
 Photo by [Amy Hirschi](https://unsplash.com/@amyhirschi) on [Unsplash](https://unsplash.com/s/photos/boss)
 
-## We don’t need to say “objects.”
+## We don’t need to say "objects".
 
 Objects are omnipresent. Naming a class by saying Object… is a code smell like the ones mentioned above.
 

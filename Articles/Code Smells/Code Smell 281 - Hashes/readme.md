@@ -179,7 +179,7 @@ Photo by [frank mckenna](https://unsplash.com/@frankiefoto) on [Unsplash](https:
         
 * * *
 
-> “Bad programmers worry about the code. Good programmers worry about data structures and their relationships.”
+> Bad programmers worry about the code. Good programmers worry about data structures and their relationships.
 
 _Linus Torvalds_
  

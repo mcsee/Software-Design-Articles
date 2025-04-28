@@ -74,7 +74,7 @@ We tell ourselves that we need to make radical overhauls to our lives to see res
 
 Even the smallest adjustments can lead to big results over time.
 
-This is the principle of “compounding” – small changes compound to create large results. And it’s the key to making lasting change in your life.
+This is the principle of "compounding" – small changes compound to create large results. And it’s the key to making lasting change in your life.
 
 Going back to start working out. You know you need to exercise for at least 30 minutes a day to see results. 
 

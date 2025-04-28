@@ -6,7 +6,7 @@
 
 *Allowed global variables and supposed memory savings.*
 
-*For 20 years I have been teaching software at the University of Buenos Aires. In the software engineering course we teach design patterns and the same “scheme” is always repeated almost like a type of deja vu, the same sequence that I had the opportunity to witness in several of my works and in the free software that I use:* 
+*For 20 years I have been teaching software at the University of Buenos Aires. In the software engineering course we teach design patterns and the same "scheme" is always repeated almost like a type of deja vu, the same sequence that I had the opportunity to witness in several of my works and in the free software that I use:* 
 
 > The ‘magical’ appearance of the Singleton pattern.
 
@@ -69,7 +69,7 @@ The aforementioned coupling has as a corollary; the impossibility of having full
 
 ### 5. Does not save up memory space
 The argument used to propose its use is to avoid the construction of multiple volatile objects. This supposed advantage is not real in virtual machines with efficient garbage collection mechanisms.
-In such virtual machines, used by most modern languages, keeping objects in a memory area whose Garbage Collector algorithm is a double pass (mark & ​​sweep) is much more expensive than creating volatile objects and quickly removing them.
+In such virtual machines, used by most modern languages, keeping objects in a memory area whose Garbage Collector algorithm is a double pass (mark & sweep) is much more expensive than creating volatile objects and quickly removing them.
 
 ### 6. It prevents us from using dependency injection
 As good solid design advocates, we favor inversion of control through dependency injection to avoid coupling. In this way the service provider (formerly a hardcoded Singleton) is decoupled from the service itself, replacing it with an injectable dependency that meets the defined requirements, coupling us to what and not how.
