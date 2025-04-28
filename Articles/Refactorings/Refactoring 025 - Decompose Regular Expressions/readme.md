@@ -219,7 +219,7 @@ You should leave this mechanical task to AI.
 
 # See also 📚
 
-[The Great Programmer Purge: How AI Is Taking Over the Tech Workforce](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Artificial%20Intelligence/86%20-%20The%20Great%20Programmer%20Purge%20How%20AI%20Is%20Taking%20Over%20the%20Tech%20Workforce/readme.md)
+[The Great Programmer Purge: How AI Is Taking Over the Tech Workforce](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Artificial%20Intelligence/The%20Great%20Programmer%20Purge%20How%20AI%20Is%20Taking%20Over%20the%20Tech%20Workforce/readme.md)
 
 [Regex 101](https://regex101.com/)
 

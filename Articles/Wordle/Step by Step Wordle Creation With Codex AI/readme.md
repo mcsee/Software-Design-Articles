@@ -36,7 +36,7 @@ I will translate his steps into English.
 
 Go to [Opean AI Site](https://beta.openai.com/)
 
-Create an account if you hadn't done yet.
+Create an account if you haven't done yet.
 
 (You might have to wait for access for a couple of days).
 

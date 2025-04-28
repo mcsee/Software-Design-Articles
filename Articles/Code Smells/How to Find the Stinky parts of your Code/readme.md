@@ -606,6 +606,8 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 296 - Unhappy to the Right](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20296%20-%20Unhappy%20to%20the%20Right/readme.md)
 
+[Code Smell 297 - Syntactic Noise](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20297%20-%20Syntactic%20Noise/readme.md)
+
 ... and many more to come.
 
 * * *

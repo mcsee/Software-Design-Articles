@@ -48,9 +48,9 @@ I've been using AI for 10 years, writing about [artificial intelligence](https:/
 
 I am also an advocate of professional Vibe Coding.
 
-In every [conference](https://www.youtube.com/live/99GuXTIW0R4), [article](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Artificial%20Intelligence/86%20-%20The%20Great%20Programmer%20Purge%20How%20AI%20Is%20Taking%20Over%20the%20Tech%20Workforce/readme.md), and paper I write, I encourage humans to embrace the AI tools and use them heavily (with caution).
+In every [conference](https://www.youtube.com/live/99GuXTIW0R4), [article](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Artificial%20Intelligence/The%20Great%20Programmer%20Purge%20How%20AI%20Is%20Taking%20Over%20the%20Tech%20Workforce/readme.md), and paper I write, I encourage humans to embrace the AI tools and use them heavily (with caution).
 
-[The Great Programmer Purge](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Artificial%20Intelligence/86%20-%20The%20Great%20Programmer%20Purge%20How%20AI%20Is%20Taking%20Over%20the%20Tech%20Workforce/readme.md)
+[The Great Programmer Purge](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Artificial%20Intelligence/The%20Great%20Programmer%20Purge%20How%20AI%20Is%20Taking%20Over%20the%20Tech%20Workforce/readme.md)
 
 I have two quotes (not mine):
 
