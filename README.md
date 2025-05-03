@@ -6,7 +6,7 @@ In this repository, you will find many articles related to Software Design
 
 ### Theory
 
-* [Coupling — The one and only software design problem](/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+* [Coupling - The one and only software design problem](/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 * [Fail Fast](/Articles/Theory/Fail%20Fast/readme.md)
 
@@ -669,6 +669,8 @@ In this repository, you will find many articles related to Software Design
 * [Code Smell 296 - Unhappy to the Right](/Articles/Code%20Smells/Code%20Smell%20296%20-%20Unhappy%20to%20the%20Right/readme.md)
 
 * [Code Smell 297 - Syntactic Noise](/Articles/Code%20Smells/Code%20Smell%20297%20-%20Syntactic%20Noise/readme.md)
+
+* [Code Smell 298 - Microsoft Windows Time Waste](/Articles/Code%20Smells/Code%20Smell%20298%20-%20Microsoft%20Windows%20Time%20Waste/readme.md)
 
 ### Blogging
 

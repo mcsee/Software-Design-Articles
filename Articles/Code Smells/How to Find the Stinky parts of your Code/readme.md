@@ -608,6 +608,8 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 297 - Syntactic Noise](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20297%20-%20Syntactic%20Noise/readme.md)
 
+[Code Smell 298 - Microsoft Windows Time Waste](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20298%20-%20Microsoft%20Windows%20Time%20Waste/readme.md)
+
 ... and many more to come.
 
 * * *
