@@ -720,7 +720,7 @@ In this repository, you will find many articles related to Software Design
 
 * [Y2K22 - The Mistake That Embarrasses Us](/Articles/Quality/Y2K22%20-%20The%20Mistake%20That%20Embarrasses%20Us/readme.md)
 
-### Nerdearla
+### Nerdearla (Spanish)
 
 * [Conviertete en un Centauro del Codigo Limpio](/Articles/Nerdearla/2024%20-%20Convi%C3%A9rtete%20en%20un%20Centauro%20del%20C%C3%B3digo%20Limpio/readme.md)
 
