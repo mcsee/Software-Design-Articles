@@ -502,25 +502,25 @@ Customer agreed to add this functionality.
 ```php
 <?
 
-function test08LeftPatternMiddleOfRightOneShouldBeSimplified() {
-    $this->assertEquals(
-        ['house'],
-        (new LikePatternSimplifier())->simplify
-        (['house', 'casahousecasa']));
+function test08LeftPatternMiddleOfRightOneShouldSimplify() {
+  $this->assertEquals(
+      ['house'],
+      (new LikePatternSimplifier())->simplify
+      (['house', 'casahousecasa']));
 }
 
-function test09RightPatternMiddleOfLeftOneShouldBeSimplified() {
-    $this->assertEquals(
-        ['medio'],
-        (new LikePatternSimplifier())->simplify(
-            ['enmediodetodo', 'medio']));
+function test09RightPatternMiddleOfLeftOneShouldSimplify() {
+  $this->assertEquals(
+      ['medio'],
+      (new LikePatternSimplifier())->simplify(
+          ['enmediodetodo', 'medio']));
 }
 
-function test10RightPatternMiddleOfLeftOneUnrelatedShouldSimplified() {
-    $this->assertEquals(
-        ['medio', 'nada'],
-        (new LikePatternSimplifier())->simplify(
-            ['enmediodetodo', 'medio', 'nada']));
+function test10RightPatternMiddleOfLeftOneUnrelatedShouldSimplify() {
+  $this->assertEquals(
+      ['medio', 'nada'],
+      (new LikePatternSimplifier())->simplify(
+          ['enmediodetodo', 'medio', 'nada']));
 }
 
 // Test data were suggested by Spanish speaking QA Engineers
@@ -602,19 +602,19 @@ We can fix it by doing a duplicate's remover case-insensitive pre-processor at t
 <?
 
 private function removeDuplicates(
-    array $patternsWithPossibleDuplicates): array {
-    return array_intersect_key(
-        $patternsWithPossibleDuplicates,
-        array_unique(
-            array_map("strtolower", $patternsWithPossibleDuplicates)));
+  array $patternsWithPossibleDuplicates): array {
+  return array_intersect_key(
+      $patternsWithPossibleDuplicates,
+      array_unique(
+          array_map("strtolower", $patternsWithPossibleDuplicates)));
 }
 
 function simplify(array $patterns): array {
-    $patternsWithoutDuplicates = $this->removeDuplicates($patterns);
-    return array_values(array_filter($patternsWithoutDuplicates,
-        fn ($outerPattern) => 
-           $this->alreadyIncludesPattern(
-               $patternsWithoutDuplicates, $outerPattern)));
+  $patternsWithoutDuplicates = $this->removeDuplicates($patterns);
+  return array_values(array_filter($patternsWithoutDuplicates,
+      fn ($outerPattern) => 
+         $this->alreadyIncludesPattern(
+             $patternsWithoutDuplicates, $outerPattern)));
 }
 ```
 

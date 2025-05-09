@@ -9,7 +9,8 @@ public static class WallpaperInitializer
         // and PLEASE DON'T use NULLs in case you hadn't    
         {
             LoadWallpaperBitmap();
-            Report(WallpaperReady); // Missed if wallpaper is undefined
+            Report(WallpaperReady); 
+            // Missed if wallpaper is undefined
         }
        // No default report, causing delays
     }

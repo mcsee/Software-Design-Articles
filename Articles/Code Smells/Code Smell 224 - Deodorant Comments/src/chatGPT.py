@@ -6,7 +6,8 @@ def calculate_sum(number1, number2):
 # In this improved version:
 #
 # The function name calculate_sum is more descriptive than sum, 
-# making it clear that this function calculates the sum of two numbers.
+# making it clear that
+# this function calculates the sum of two numbers.
 # (Wrong) it is more imperative and mistakes the 'what' with the 'how'
 #
 # The parameter names number1 and number2 are more meaningful 

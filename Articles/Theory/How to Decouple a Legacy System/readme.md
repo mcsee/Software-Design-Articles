@@ -340,8 +340,8 @@ We can now use the object with several different kind of loggers (like [tests do
 <?
 
 final class SupervisedLearningAlgorithm {
-    public function __construct($processId, closure $loggingFunction) {
-    }
+  public function __construct($processId, closure $loggingFunction) {
+  }
 }
 ```
 
