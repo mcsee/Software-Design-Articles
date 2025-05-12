@@ -1,0 +1,14 @@
+// package.json
+{
+  "name": "my-app",
+  "dependencies": {
+    "react": "18.2.0",
+    "lodash": "4.17.21",  // Correct spelling with exact version
+    "@company-scope/internal-logger": "2.1.0" // Scoped package
+  },
+  "resolutions": {
+    "lodash": "4.17.21"  
+    // Force specific version for nested dependencies
+  },
+  "packageManager": "yarn@3.2.0" // Lock package manager version
+}

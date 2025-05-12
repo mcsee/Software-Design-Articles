@@ -674,6 +674,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 299 - Overloaded Test Setup](/Articles/Code%20Smells/Code%20Smell%20299%20-%20Overloaded%20Test%20Setup/readme.md)
 
+* [Code Smell 300 - Package Hallucination](/Articles/Code%20Smells/Code%20Smell%20300%20-%20Package%20Hallucination/readme.md)
+
 ### Blogging
 
 * [Content Structure: The Do's and Dont's of Content Creation](/Articles/Blogging/68%20-%20Content%20Structure%20The%20Do%27s%20and%20Dont%27s%20of%20Content%20Creation/readme.md)
@@ -720,7 +722,7 @@ In this repository, you will find many articles related to Software Design
 
 * [Y2K22 - The Mistake That Embarrasses Us](/Articles/Quality/Y2K22%20-%20The%20Mistake%20That%20Embarrasses%20Us/readme.md)
 
-### Nerdearla (Spanish)
+### Nerdearla
 
 * [Conviertete en un Centauro del Codigo Limpio](/Articles/Nerdearla/2024%20-%20Convi%C3%A9rtete%20en%20un%20Centauro%20del%20C%C3%B3digo%20Limpio/readme.md)
 

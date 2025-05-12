@@ -1,0 +1,10 @@
+// package.json
+{
+  "name": "my-app",
+  "dependencies": {
+    "react": "^18.2.0",
+    "lodahs": "1.0.0",  // Typosquatting attack
+    "internal-logger": "2.1.0" 
+    // Vulnerable to dependency confusion
+  }
+}
