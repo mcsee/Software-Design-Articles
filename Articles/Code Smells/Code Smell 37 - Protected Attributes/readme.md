@@ -41,9 +41,10 @@ abstract class ElectronicDevice {
 abstract class Idevice extends ElectronicDevice {
   protected $operatingSystem;
 
-  public function __construct(Battery $battery, OperatingSystem $ios) {
-    $this->operatingSystem = $ios;
-    parent::__construct($battery)
+  public function __construct(
+    Battery $battery, OperatingSystem $ios) {
+      $this->operatingSystem = $ios;
+      parent::__construct($battery)
   }
 
 }

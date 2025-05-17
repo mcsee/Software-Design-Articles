@@ -610,6 +610,10 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 298 - Microsoft Windows Time Waste](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20298%20-%20Microsoft%20Windows%20Time%20Waste/readme.md)
 
+[Code Smell 299 - Overloaded Test Setup](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20299%20-%20Overloaded%20Test%20Setup/readme.md)
+
+[Code Smell 300 - Package Hallucination](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20300%20-%20Package%20Hallucination/readme.md)
+
 ... and many more to come.
 
 * * *

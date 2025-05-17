@@ -85,7 +85,7 @@ Remove [middleman](https://github.com/mcsee/Software-Design-Articles/tree/main/A
 
 # More Info
 
-[Wikipedia](https://en.wikipedia.org/wiki/Poltergeist_(computer_programming))
+[Wikipedia](https://en.wikipedia.org/wiki/Poltergeist_%28computer_programming%29)
 
 # Disclaimer
 

@@ -84,7 +84,7 @@ You can detect this smell by looking for tests that do not clearly show their se
 
 # Tags
 
-- Test Smells
+- Testing
 
 # Level
 

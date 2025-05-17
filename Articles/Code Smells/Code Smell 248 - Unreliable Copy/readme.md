@@ -43,8 +43,11 @@ This can be confusing and lead to data loss.
 
   $sourceFile = 'C:\temp\source.txt';
   $destination = 'C:\temp\destination.txt';
-  $copyWasSuccessful = copy($sourceFile, $destination); // true
-  $destinationFileExists = file_exists($destination); // true
+  $copyWasSuccessful = copy($sourceFile, $destination);
+  // true
+  
+  $destinationFileExists = file_exists($destination); 
+  // true
   
   $sourceFile = 'C:\temp\source.txt';
   $destination = 'C:\temp\destination :txt';
@@ -57,7 +60,7 @@ This can be confusing and lead to data loss.
   $destinationFileExists = file_exists($destination); 
   // false since it was not created
 
-  $destinationChangedFileExists = file_exists('C:\temp\destination '); 
+  $destinationChangedFileExists = file_exists('C:\temp\destination ');
   // true but unexpected
 ```
 

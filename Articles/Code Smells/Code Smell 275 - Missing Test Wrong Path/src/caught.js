@@ -17,5 +17,5 @@ try {
   
 } catch (e) {
     console.assert(e.message === 'Position already hit.',
-     'The error message should indicate the position is already hit.');
+     'The message should indicate the position is already hit.');
 }
