@@ -6,7 +6,7 @@
 
 > TL;DR: Don't ab(use) hierarchies.
 
-# Problems
+# Problems 😔 
 
 - Deep Hierarchies
 
@@ -18,15 +18,15 @@
 
 - High Coupling
  
-# Solutions
+# Solutions 😃
 
 1. Favor composition over inheritance.
 
 2. Refactor deep hierarchies.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/85826dec4db583e6301c9c45a625a246) -->
 
@@ -42,7 +42,7 @@ class LoggedController extends ControllerBase {}
 class RealController extends LoggedController {}
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d50419e3b895ee4d4341ca3c31faa091) -->
 
@@ -59,19 +59,19 @@ final class RealController
   implements ControllerInterface {}
 ```
 
-# Detection
+# Detection 🔍
 
 Any linter can check for suspects against a max depth threshold.
 
-# Tags
+# Tags 🏷️
 
 - Hierarchy
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# Conclusion
+# Conclusion 🏁
 
 Many novice programmers reuse code through hierarchies. This brings high coupled and low cohesive hierarchies. 
 
@@ -79,13 +79,13 @@ Many novice programmers reuse code through hierarchies. This brings high coupled
 
 We must refactor and flatten those classes.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 11 - Subclassification for Code Reuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
 
 [Code Smell 137 - Inheritance Tree Too Deep](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20137%20-%20Inheritance%20Tree%20Too%20Deep/readme.md)
 
-# More Info
+# More Information 📕
 
 [Wikipedia](https://en.wikipedia.org/wiki/Yo-yo_problem)
 

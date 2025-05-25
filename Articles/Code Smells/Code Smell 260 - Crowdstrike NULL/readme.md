@@ -6,7 +6,7 @@
 
 > TL;DR: Using null pointers in critical code can crash your system
 
-# Problems
+# Problems 😔 
 
 * Memory access violation
     
@@ -22,7 +22,7 @@
 
 * Security Risk
     
-# Solutions
+# Solutions 😃
 
 1. Avoid using [NULLs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
     
@@ -42,7 +42,7 @@
     
 ![BSOD](BSOD.jpg)
 
-# Context
+# Context 💬
 
 When you use nulls in a privileged driver, you risk causing serious issues.
 
@@ -56,9 +56,9 @@ In privileged drivers, null pointer usage poses significant risks. You can mitig
 
 [This problem](https://x.com/perpetualmaniac/status/1814376668095754753) caused one of the worst software blackouts in 2024.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/c908be6c215429cb57470523ba8505a3) -->
 
@@ -87,7 +87,7 @@ int process_data(void* data) {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/3e37b7540276272fdf9fc594ef4f6225) -->
 
@@ -113,7 +113,7 @@ int process_data(const std::unique_ptr<int>& data) {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic
 
@@ -121,21 +121,21 @@ You can detect this smell by checking for null pointer usage in critical parts o
 
 Human code reviews are good for checking this kind of problem.
 
-# Tags
+# Tags 🏷️
 
 * Null
     
-# Level
+# Level 🔋
 
 [x] Advanced
 
-# AI Generation
+# AI Generation 🤖
 
 AI generators can sometimes produce this smell, especially if they generate code without context about the environment where the code will run.
 
 AI generators are fed with code with NULL usage even though [his creator told us](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md) to avoid it altogether.
 
-# AI Detection
+# AI Detection 🥃
 
 AI tools can detect this smell with specific instructions.
 
@@ -145,7 +145,7 @@ Teaching it the nuances of privileged driver development and null safety best pr
 
 Use static analysis tools to flag null pointer dereferences.
 
-# Conclusion
+# Conclusion 🏁
 
 Voyager 1's software has been running for more than 50 years.
 
@@ -157,7 +157,7 @@ I have written a book on [clean code](https://cleancodecookbook.com/) and a whol
 
 Hopefully, Crowdstrike engineers will read it!
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
@@ -165,7 +165,7 @@ Hopefully, Crowdstrike engineers will read it!
 
 [Code Smell 208 - Null Island](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20208%20-%20Null%20Island/readme.md)
 
-# More Info
+# More Information 📕
 
 [Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
@@ -173,7 +173,7 @@ Hopefully, Crowdstrike engineers will read it!
 
 [Technical Information](https://x.com/perpetualmaniac/status/1814376668095754753)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 

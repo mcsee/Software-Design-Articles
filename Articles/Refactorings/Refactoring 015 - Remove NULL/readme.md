@@ -6,7 +6,7 @@
 
 > TL;DR: Use the Null Object Pattern to eliminate null checks and simplify your code.
 
-# Problems Addressed
+# Problems Addressed 😔
 
 - Frequent null checks and [IFs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20014%20-%20Remove%20IF/readme.md) cluttering your code
 
@@ -20,7 +20,7 @@
 
 - More [detail about NULL creation and regrets](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
-# Related Code Smells
+# Related Code Smells 💨
 
 [Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
@@ -36,7 +36,7 @@
 
 [Code Smell 208 - Null Island](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20208%20-%20Null%20Island/readme.md)
 
-# Steps
+# Steps 👣 
 
 These steps are a special case of [Remove IF Refactoring](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20014%20-%20Remove%20IF/readme.md)
 
@@ -44,9 +44,9 @@ These steps are a special case of [Remove IF Refactoring](https://github.com/mcs
 
 2. Replace null checks with the polymorphic Null Object
 
-# Sample Code
+# Sample Code 📖
 
-## Before
+## Before 🚨 
 
 <!-- [Gist Url](https://gist.github.com/mcsee/11ff9fab5c27f29304b0b7e31ee3b71d) -->
 
@@ -91,7 +91,7 @@ class TimeRecord {
 }
 ```
 
-## After
+## After 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/785aa63b08fbecb6ea243c80c3c36389) -->
 
@@ -162,13 +162,13 @@ public class SoccerMatch {
 
 * .. and suggests using the first version with [the billion-dollar mistake problem!](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare/)*
 
-# Type
+# Type 📝
 
 [X] Semi-Automatic
 
 The refactoring has a semantic part that needs to find an existing NullObejct in the domain.
 
-# Safety
+# Safety 🛡️
 
 This refactoring is generally safe.
 
@@ -178,13 +178,13 @@ The null object needs to be partially polymorphic with real ones.
 
 In strongly typed languages, they must adhere to the same interface or belong to the same hierarchy.
 
-# Why is the Code Better?
+# Why is the Code Better? ✨
 
 You eliminate null checks with [accidental IF conditions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20014%20-%20Remove%20IF/readme.md), making the code cleaner and easier to understand. 
 
 The Null Object Pattern ensures you always work with objects, avoiding null pointer exceptions - [The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md).
 
-# Tags
+# Tags 🏷️
 
 - Null
 
@@ -192,11 +192,11 @@ The Null Object Pattern ensures you always work with objects, avoiding null poin
 
 [X] Intermediate
 
-# Related Refactorings
+# Related Refactorings 🔄
 
 [Refactoring 014 - Remove IF](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20014%20-%20Remove%20IF/readme.md)
 
-# See also
+# See also 📚
 
 [Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 

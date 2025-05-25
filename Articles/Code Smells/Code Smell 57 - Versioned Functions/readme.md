@@ -6,21 +6,21 @@
 
 *sort, sortOld, sort20210117, workingSort, It is great to have them all. Just in case*
 
-# Problems
+# Problems 😔 
 
 - Readability
 
 - Maintainability
 
-# Solutions
+# Solutions 😃
 
 1. Keep just one working version of your artifact (class, method, attribute).
 
 2. Leave time control to your version control system.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/3b63bc3a76faf6e98c3770171f8e1c10) -->
 
@@ -40,7 +40,7 @@ findMatch_thisisit()
 findMatch_thisisit_for_real()
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/1e3df98869010c8b9f37f1a76ff80c8b) -->
 
@@ -48,25 +48,25 @@ findMatch_thisisit_for_real()
 findMatch()
 ```
 
-# Detection
+# Detection 🔍
 
 We can add automatic rules to find versioned methods with patterns.
 
 Like many other patterns we might create an internal policy and communicate.
 
-# Tags
+# Tags 🏷️
 
 - Versioning
  
-# Conclusion
+# Conclusion 🏁
 
 Time and code evolution management is always present in software development. Luckily nowadays we have mature tools to address this problem.
  
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
  
-# Credits
+# Credits 🙏
 
 <span>Photo by [K8](https://unsplash.com/@k8_iv) on [Unsplash](https://unsplash.com/s/photos/onion)</span>
 

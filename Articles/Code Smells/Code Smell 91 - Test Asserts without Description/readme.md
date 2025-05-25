@@ -6,7 +6,7 @@
 
 > TL;DR: Use asserts with declarative descriptions.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -14,15 +14,15 @@
 
 - Time waste
 
-# Solutions
+# Solutions 😃
 
 1. Put a nice descriptive assertion
 
 2. Share guides for problem-solving
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/4edc85bb65bc9a70d11706086e0fab99) -->
 
@@ -40,7 +40,7 @@ public function testNoNewStarsAppeared(): void
     }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/72a551eb26d02f1480142e9cd41a5ca7) -->
 
@@ -63,29 +63,29 @@ public function testNoNewStarsAppeared(): void
     }
 ```
 
-# Detection
+# Detection 🔍
 
 Since *assert* and *assertDescription* are different functions, we can adjust our policies to favor the latter.
 
-# Tags
+# Tags 🏷️
 
 - Test Smells
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 Be respectful to the reader of your assertions.
 
 It might even be yourself!
 
-# More Info
+# More Information 📕
 
 - [XUnit: Assert Description Deprecation](https://github.com/xunit/xunit/issues/350)
 
-# Credits
+# Credits 🙏
 
 Photo by [Startaê Team](https://unsplash.com/@startaeteam) on [Unsplash](https://unsplash.com/s/photos/dialogue)  
 

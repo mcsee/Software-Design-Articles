@@ -6,19 +6,19 @@
 
 > TL;DR: In a natural way, write your conditions.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
 - The least surprise principle violation
 
-# Solutions
+# Solutions 😃
 
 1. Write your conditions with the expected value as the second.
 
 2. Name the variables accordingly.
 
-# Context
+# Context 💬
 
 Most programmers write the variable or condition first and the test value second.
 
@@ -26,9 +26,9 @@ In fact, this is the correct order for assertions.
 
 In some languages, this style is used to avoid accidental assignment instead of equality comparison, which can result in a logic error in the code.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/530570169b351c8d411c310d9a182d1a) -->
 
@@ -40,7 +40,7 @@ if (42 == answerToLifeMeaning) {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/3a59fd09423eef0bbc5ab7857d041309) -->
 
@@ -50,29 +50,29 @@ if (answerToLifeMeaning == 42) {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 We can check for constant values on the first side of the comparison.
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
-# Conclusion
+# Conclusion 🏁
 
 Reliable, direct, and clear be when conditions your writing.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 99 - First Second](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2099%20-%20First%20Second/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Lia](https://unsplash.com/@liaphotography) on [Unsplash](https://unsplash.com/photos/2Wc_wz2k1Bs)  
   

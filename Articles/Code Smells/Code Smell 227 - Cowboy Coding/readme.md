@@ -6,7 +6,7 @@
 
 > TL;DR: Write code as a team programmer
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -16,13 +16,13 @@
 
 - Lack of [coordination](https://en.wikipedia.org/wiki/Cowboy_coding)
 
-# Solutions
+# Solutions 😃
 
 1. Write professional code
 
 2. Use declarative non-cryptic names
 
-# Context
+# Context 💬
 
 Cowboy coders don't follow best practices. 
 
@@ -32,9 +32,9 @@ Cowboy coding is generally considered an unprofessional and risky approach to so
 
 Cowboy Programmers are good people; however, [they cannot work in a group](https://www.linkedin.com/pulse/software-development-cowboy-coding-hakan-atba%C5%9F/).
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/b600a57bd4f4b095b919cbc6a2e65323) -->
 
@@ -60,7 +60,7 @@ print("The sum is: " + result)
 # no version control, and no structure.)
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/5fc81635624c7e7ed7f0de537094ad6d) -->
 
@@ -84,25 +84,25 @@ if __name__ == "__main__":
     main()
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
 You can set environmental rules to prevent these coding practices and enforce team building.
 
-# Exceptions
+# Exceptions 🛑
 
 - Very small personal projects
 
-# Tags
+# Tags 🏷️
 
 - Declarative
 
-# Conclusion
+# Conclusion 🏁
 
 Software development is teamwork. 
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
@@ -110,17 +110,17 @@ Software development is teamwork.
 
 [Code Smell 105 - Comedian Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20105%20-%20Comedian%20Methods/readme.md)
 
-# More Info
+# More Information 📕
 
 [Wikipedia](https://en.wikipedia.org/wiki/Cowboy_coding)
 
 [Cowboy Coder Description](https://www.linkedin.com/pulse/software-development-cowboy-coding-hakan-atba%C5%9F/)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Taylor Brandon](https://unsplash.com/@house_42) on [Unsplash](https://unsplash.com/photos/3HmP1kOdACU)
   

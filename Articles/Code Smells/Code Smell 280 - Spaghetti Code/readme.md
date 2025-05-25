@@ -8,7 +8,7 @@
 
 > TL;DR: GOTO statements create confusing and unmaintainable code
 
-# Problems
+# Problems 😔 
 
 - Logic becomes unclear  
 - Debugging gets harder  
@@ -16,14 +16,14 @@
 - Code lacks structure  
 - Maintenance becomes difficult 
 
-# Solutions
+# Solutions 😃
 
 1. Use structured programming
 2. Replace with loops  
 3. Simplify control flow  
 4. Avoid unnecessary [jumps](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20100%20-%20GoTo/readme.md)
  
-# Context
+# Context 💬
 
 Spaghetti describes code that is poorly structured and difficult to understand. It often involves deeply nested loops, excessive use of goto statements, and complex control flow. 
 
@@ -33,9 +33,9 @@ This was common in the 70s when *BASIC* encouraged *GOTO* for flow control. Whil
 
 *Spaghetti Code << Structured Programming << Object-Oriented Programming << Machine Learning Programming*
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/3d7eece73ed40d88e25701b3dc9c5988) -->
 
@@ -49,7 +49,7 @@ This was common in the 70s when *BASIC* encouraged *GOTO* for flow control. Whil
 60 END
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/1d4e14095a2a844a7d659a2e9b94e348) -->
 
@@ -62,7 +62,7 @@ This was common in the 70s when *BASIC* encouraged *GOTO* for flow control. Whil
 60 END
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
@@ -70,25 +70,25 @@ You can detect this smell by scanning for frequent *GOTO* usage, especially when
 
 Look for logical breaks caused by excessive jumping and ask if structured control flow can replace them.
 
-# Tags
+# Tags 🏷️
 
 - Coupling
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# AI Generation
+# AI Generation 🤖
 
 AI generators can include *GOTO* when mimicking older coding styles.
 
 They might use it for simplicity without considering modern best practices.
 
-# AI Detection
+# AI Detection 🥃
 
 You can instruct AI to replace *GOTO* with loops or structured constructs like *IF-ELSE* or *WHILE*.
 
-## Try Them!
+## Try Them! 🛠
 
 *Remember: AI Assistants make lots of mistakes*
 
@@ -106,25 +106,25 @@ You can instruct AI to replace *GOTO* with loops or structured constructs like *
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Conclusion
+# Conclusion 🏁
 
 Overusing [GOTO](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20100%20-%20GoTo/readme.md) creates chaotic and unmanageable code. 
 
 Replace it with structured programming techniques to improve readability and maintainability.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 100 - GoTo](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20100%20-%20GoTo/readme.md)
 
-# More Info
+# More Information 📕
 
 [Wikipedia](https://en.wikipedia.org/wiki/BASIC)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Sofia Ciravegna](https://unsplash.com/@sociravegna) on [Unsplash](https://unsplash.com/photos/a-plate-of-spaghetti-with-meat-and-tomato-sauce-khQeenz99H0)      
   

@@ -160,7 +160,7 @@ Follow blogging topics like [technical writing](https://hashnode.com/n/technical
 
 * * *
 
-# Conclusion
+# Conclusion 🏁
 
 I always wrap up my articles with a short paragraph.
 

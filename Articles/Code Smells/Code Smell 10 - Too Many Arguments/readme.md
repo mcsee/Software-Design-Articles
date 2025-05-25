@@ -6,7 +6,7 @@
 
 > TL;DR: Don't pass more than three arguments to your functions.
 
-# Problems
+# Problems 😔 
 
 - Low maintainability
 
@@ -14,7 +14,7 @@
 
 - Coupling
 
-# Solutions
+# Solutions 😃
 
 - Find cohesive relations among arguments
 
@@ -24,9 +24,9 @@
 
 - Avoid "basic" Types: strings, arrays, integers, etc. Think on objects.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ea7d32472830d5ea877be1438807fe89) -->
 
@@ -48,7 +48,7 @@ public class Printer {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/200a18dd99a76a95155df4cb032b1d10) -->
 
@@ -80,30 +80,30 @@ final public class Printer {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 Most linters warn when the arguments list is too large.
 
-# Exceptions
+# Exceptions 🛑
 
 - Operations in real-world needing not cohesive collaborators.
 
-# Tags
+# Tags 🏷️
 
 - primitive
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 Relate arguments and group them.
 Always favor real-world mappings. Find in real-world how to group the arguments in cohesive objects.
 
 If a function gets too many arguments, some of them might be related to the class construction. This is a design smell too.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 34 - Too Many Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2034%20-%20Too%20Many%20Attributes/readme.md)
 
@@ -113,7 +113,7 @@ If a function gets too many arguments, some of them might be related to the clas
 
 [Refactoring 010 - Extract Method Object](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20010%20-%20Extract%20Method%20Object/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Tobias Tullius](https://unsplash.com/@tobiastu) on [Unsplash](https://unsplash.com/s/photos/loaded)
 

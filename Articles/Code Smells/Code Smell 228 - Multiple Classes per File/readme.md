@@ -6,7 +6,7 @@
 
 > TL;DR: Follow the separation of concerns principle and file organization
 
-# Problems
+# Problems 😔 
 
 - Code Organization
 
@@ -18,13 +18,13 @@
 
 - Version control and merge conflicts
 
-# Solutions
+# Solutions 😃
 
 1. Declare a single class per file
 
 2. Use name scoping
 
-# Context
+# Context 💬
 
 In languages that declare classes using a file system, having one class per file is generally considered a best practice. 
 
@@ -34,9 +34,9 @@ You can organize namespaces into separate directories within your project struct
 
 This way, you can maintain a logical and efficient codebase while avoiding the issues of declaring multiple classes in a single file.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ac8b6a8e3680a3083b1a74419973b12a) -->
 
@@ -58,7 +58,7 @@ class Class2 {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/4b950a826ccb43b3309fa11a0cee13bd) -->
 
@@ -88,39 +88,39 @@ class Class2 {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 Many standards enforce this rule
 
-# Tags
+# Tags 🏷️
 
 - Coupling
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# Conclusion
+# Conclusion 🏁
 
 Keep your code organized and follow known standards
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 48 - Code Without Standards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2048%20-%20Code%20Without%20Standards/readme.md)
 
-# More Info
+# More Information 📕
 
 [Wikipedia Namespaces](https://en.wikipedia.org/wiki/Namespace)
 
 [Sonar Source](https://rules.sonarsource.com/java/RSPEC-1996/)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Marjan Blan](https://unsplash.com/@marjan_blan) on [Unsplash](https://unsplash.com/photos/jZrundu19Hw)
     

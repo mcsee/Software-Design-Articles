@@ -6,7 +6,7 @@
 
 *Let's break Demeter's Law.*
 
-# Problems
+# Problems 😔 
 
 - Unnecessary Indirection
 
@@ -14,13 +14,13 @@
 
 - Readability
 
-# Solutions
+# Solutions 😃
 
 1. Remove Middle man.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/8f89b53d0be21a6779e4be53673edf5c) -->
 
@@ -45,7 +45,7 @@ public class Application {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/63674fe800fca77d3a7edc39bde428c8) -->
 
@@ -62,11 +62,11 @@ public class Application {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 Same as its [opposite smell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2008%20-%20Long%20Chains%20Of%20Collaborations/readme.md), We can detect this small using parsing trees.
 
-# Tags
+# Tags 🏷️
 
 - Coupling
 
@@ -74,11 +74,11 @@ Same as its [opposite smell](https://github.com/mcsee/Software-Design-Articles/t
 
 - Readability
 
-# Conclusion
+# Conclusion 🏁
 
 This is exactly the opposite to [Message Chain](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2008%20-%20Long%20Chains%20Of%20Collaborations/readme.md). We make explicit the message chain. 
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 08 - Long Chains Of Collaborations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2008%20-%20Long%20Chains%20Of%20Collaborations/readme.md)
 
@@ -86,7 +86,7 @@ This is exactly the opposite to [Message Chain](https://github.com/mcsee/Softwar
 
 [Code Smell 200 - Poltergeist](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20200%20-%20Poltergeist/readme.md)
 
-# More Info
+# More Information 📕
 
 [Refactoring Guru](https://refactoring.guru/smells/middle-man)
 
@@ -98,7 +98,7 @@ This is exactly the opposite to [Message Chain](https://github.com/mcsee/Softwar
 
 [Wikipedia](https://en.wikipedia.org/wiki/Law_of_Demeter)
 
-# Credits
+# Credits 🙏
 
 Photo by [Dan Counsell](https://unsplash.com/@dancounsell) on [Unsplash](https://unsplash.com/s/photos/robber)
   

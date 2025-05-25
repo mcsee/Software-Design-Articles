@@ -6,7 +6,7 @@
 
 > TL;DR: Don't mix indentation styles
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -14,7 +14,7 @@
 
 - Standards violation
 
-# Solutions
+# Solutions 😃
 
 1. Choose one of them
 
@@ -26,7 +26,7 @@
 
 5. Use an IDE like VSCode or WebStorm that doesn't include tabs at all.
 
-# Context
+# Context 💬
 
 Whenever I publish an article many people don't care about the sample intent and rush to point at indentation mistakes.
 
@@ -36,9 +36,9 @@ Spaces always count as one.
 
 Tabs can count as many different options.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/17de024e249327b44a614f30e4961d94) -->
 
@@ -58,7 +58,7 @@ function main() {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/49bfb99979315a69bfe809afb0ae2158) -->
 
@@ -69,23 +69,23 @@ function add(x, y) {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 Any parser can enforce this rule.
 
-# Exceptions
+# Exceptions 🛑
 
 Some languages like Python consider indent as part of the syntax.
 
 In these languages, indentation is not accidental since it changes code semantics.
 
-# Tags
+# Tags 🏷️
 
 - Code Standards
 
-# Conclusion
+# Conclusion 🏁
 
 There's been so much debate on this subject.
 
@@ -93,15 +93,15 @@ The smell is related to mixing them, not about using one instead of another.
 
 Some IDEs automatically convert one convention to the other one.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 48 - Code Without Standards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2048%20-%20Code%20Without%20Standards/readme.md)
 
-# More Info
+# More Information 📕
 
 - [ES Lint](https://eslint.org/docs/latest/rules/no-mixed-spaces-and-tabs)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 

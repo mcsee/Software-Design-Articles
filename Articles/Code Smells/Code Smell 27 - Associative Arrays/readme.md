@@ -6,7 +6,7 @@
 
 > TL;DR: Use arrays for rapid prototyping, use object for serious business.
  
-# Problems
+# Problems 😔 
 
 - Coupling
 
@@ -18,7 +18,7 @@
 
 - Integrity
 
-# Solutions
+# Solutions 😃
 
 1. Reify objects
 
@@ -26,7 +26,7 @@
 
 3. Don't leave them anaemic, find their cohesive relations.
 
-# Sample Code
+# Sample Code 📖
 
 ## Wrong 
 
@@ -81,7 +81,7 @@ $coordinate = new GeographicCoordinate(1000, 2000);
 // throws an error since these values don't exist on Earth
 ```
 
-## Right
+## Right 👉
 
 ### Degrees deserves reification
 
@@ -120,7 +120,7 @@ final class GeographicCoordinate {
 // You can safely do many exciting things.
 ```
 
-# Detection
+# Detection 🔍
 
 We cannot forbid Associative Arrays since they are very good as a first approach.
 
@@ -128,11 +128,11 @@ They will be fine for exporting data, serialization, persistence and other accid
 
 We should avoid them on our systems.
 
-# Tags
+# Tags 🏷️
 
 - Primitive
 
-# Conclusion
+# Conclusion 🏁
 
 When creating objects, we must not think of them as *data*. This is a common misconception.
 
@@ -140,7 +140,7 @@ We should stay loyal to our [Bijection](https://github.com/mcsee/Software-Design
 
 Most associative arrays have cohesion and represent real-world entities, and we must treat them as first class objects.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
@@ -148,7 +148,7 @@ Most associative arrays have cohesion and represent real-world entities, and we 
 
 [Refactoring 012 - Reify Associative Arrays](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20012%20-%20Reify%20Associative%20Arrays/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Melissa Askew](https://unsplash.com/@melissaaskew) on [Unsplash](https://unsplash.com/s/photos/group)
 

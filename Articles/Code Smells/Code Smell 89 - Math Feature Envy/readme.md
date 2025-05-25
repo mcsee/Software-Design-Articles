@@ -6,7 +6,7 @@
 
 > TL;DR: Leave the formulas to the objects gathering the information.
 
-# Problems
+# Problems 😔 
 
 - Declaratively
 
@@ -16,15 +16,15 @@
 
 - Encapsulation
 
-# Solutions
+# Solutions 😃
 
 1. Move the math formula to the class
 
 2. Search for [real-world abstractions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/4b3483f5be825913df7a6c709efebdbc) -->
 
@@ -36,7 +36,7 @@ function area(rectangle) {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/891b1df84cd9e0528fad2dae42322c54) -->
 
@@ -53,33 +53,33 @@ class Rectangle {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 Since many cascading messages are sending to the same object, we can detect a pattern.
 
-# Tags
+# Tags 🏷️
 
 - Encapsulation
 
 - Coupling
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 This is a very basic smell. If we are manipulating another object's characteristics, we should let it do it the maths for us.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 63 - Feature Envy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2063%20-%20Feature%20Envy/readme.md)
 
-# More Info
+# More Information 📕
 
 - [The one and only one software principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Michal Matlon](https://unsplash.com/@michalmatlon) on [Unsplash](https://unsplash.com/s/photos/math)
   

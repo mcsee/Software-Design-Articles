@@ -6,19 +6,19 @@
 
 > TL;DR: Don't name your variables as Data.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
 - Bad Naming
 
-# Solutions
+# Solutions 😃
 
 1. Use role suggesting names.
 
 2. Find names in the [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
 
-# Context
+# Context 💬
 
 We use 'data' a lot in our variables.
 
@@ -28,9 +28,9 @@ Using this kind of name favors the anemic treatment of objects.
 
 We should think about domain-specific and role-suggesting names.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/0c0c6b9e9e8a5b2aa4dfe32828c9cbc5) -->
 
@@ -40,7 +40,7 @@ if (!dataExists()) {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/945e6a64fd3167637ff1e1eb872ff179) -->
 
@@ -50,19 +50,19 @@ if (!peopleFound()) {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 We can check for this substring on our code and warn our developers.
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
 - Naming
 
-# Conclusion
+# Conclusion 🏁
 
 Data is everywhere if you see the world as only data.
 
@@ -76,13 +76,13 @@ Our variables should reflect the domain and role they are fulfilling.
 
 Naming them as 'data' is lazy and hinders readability.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
 [Code Smell 65 - Variables Named after Types](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2065%20-%20Variables%20Named%20after%20Types/readme.md)
 
-# More Info
+# More Information 📕
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 

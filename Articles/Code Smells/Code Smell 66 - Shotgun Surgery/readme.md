@@ -6,7 +6,7 @@
 
 *Say it only once*
 
-# Problems
+# Problems 😔 
 
 - Bad Responsibilities Assignments
  
@@ -18,13 +18,13 @@
 
 - Copy-pasted code.
 
-# Solutions
+# Solutions 😃
 
 1. Refactor
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/cb3d9eb1ede5297a16006a1453009867) -->
 
@@ -56,7 +56,7 @@ final class SocialNetwork {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/23a8649a28ec56db1d0874c1a32b4fc7) -->
 
@@ -91,20 +91,20 @@ final class SocialNetwork {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 Some modern linters can detect repeated patterns (not just repeated code) and also while performing our code reviews we can easily detect this problem and ask for a refactor.
 
-# Tags
+# Tags 🏷️
 
 - Code Duplication
 
-# Conclusion
+# Conclusion 🏁
 
 Adding a new feature should be straightforward in our model maps 1:1 to real-world and our responsibilities are in the correct places. 
 We should be alert for small changes spanning several classes.
 
-# More Info
+# More Information 📕
 
 [Wikipedia](https://en.wikipedia.org/wiki/Shotgun_surgery)
 
@@ -114,7 +114,7 @@ We should be alert for small changes spanning several classes.
 
 [Dzone](https://dzone.com/articles/code-smell-shot-surgery)
 
-# Credits
+# Credits 🙏
 
 Photo by [William Isted](https://unsplash.com/@williamisted) on [Unsplash](https://unsplash.com/s/photos/shotgun)
     

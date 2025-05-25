@@ -6,7 +6,7 @@
 
 > TL;DR: Avoid Magic numbers without explanation.  We don't know their source and we are very afraid of changing them.
 
-# Problems
+# Problems 😔 
 
 - [Coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
@@ -14,7 +14,7 @@
 
 - Low readability
 
-# Solutions
+# Solutions 😃
 
 1) Rename the constant with a semantic and name (meaningful and intention revealing).
 
@@ -26,9 +26,9 @@
 
 - Algorithms Hyper Parameters
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/dec9856bf69a06c367d2e683b179577a) -->
 
@@ -40,7 +40,7 @@ function energy($mass) {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/2e4c88a516078500ce833dbfbd3d9b0e) -->
 
@@ -55,17 +55,18 @@ def energy(mass)
 end
 ```
 												    
-# Detection
+# Detection 🔍
 
 Many linters can detect number literals in attributes and methods.
 
-# Tags
+# Tags 🏷️
 
 - Hard coded
 
 - Constants
 
-# Conclusion
+# Conclusion 🏁
+
  
 You should address and remove your magic numbers to safeguard your code's readability, maintainability, and testability. 
 
@@ -75,7 +76,7 @@ Every magic number you replace with intention-revealing logic is a step away fro
 
 Don't let numbers dictate your code; define their purpose and context instead.
 		
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 158 - Variables not Variable](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20158%20-%20Variables%20not%20Variable/readme.md)
 
@@ -89,13 +90,13 @@ Don't let numbers dictate your code; define their purpose and context instead.
 
 [Code Smell 202 - God Constant Class](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20202%20-%20God%20Constant%20Class/readme.md)
 
-# More Info
+# More Information 📕
 
 [Refactoring Guru](https://refactoring.guru/es/replace-magic-number-with-symbolic-constant)
 
 [How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Kristopher Roller](https://unsplash.com/@krisroller) on [Unsplash](https://unsplash.com/s/photos/magic)
 

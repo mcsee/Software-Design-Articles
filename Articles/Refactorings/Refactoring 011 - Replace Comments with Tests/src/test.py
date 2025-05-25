@@ -20,7 +20,8 @@ class TestMultiply(unittest.TestCase):
 
 # You define a test function called test_multiply,
 # which calls the multiply function with different arguments 
-# and verifies that the result is correct using the assertEqual method.
+# and verifies that the result
+# is correct using the assertEqual method.
 
 # 1. Take the comment of the method explaining what the function does.
 # 2. Rename the method with the comment description (the what).

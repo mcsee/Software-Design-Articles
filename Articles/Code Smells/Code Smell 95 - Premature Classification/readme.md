@@ -6,26 +6,26 @@
 
 > TL;DR: Don't guess what the future will bring you.
 
-# Problems
+# Problems 😔 
 
 - Futurology
 
 - Bad designs
 
-# Solutions
+# Solutions 😃
 
 1. Wait for concretions
 
 2. Refactor late
 
-# Context
+# Context 💬
 
 Aristotelian Classification is a big problem in computer science. 
 We tend to classify and name things **before** gathering enough knowledge and context.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/e6ca123df9f10f291a92e863bf168cc0) -->
 
@@ -42,7 +42,7 @@ class Song {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d3232090ebc0c1360c85dd1079aebe14) -->
 
@@ -63,21 +63,21 @@ const goldberg = new ClassicalSong
     ("The Goldberg Variations", "Glenn Gould", "Bach");
 ```
 
-# Detection
+# Detection 🔍
 
 An abstract class with just one subclass is an indicator of premature classification
 
-# Tags
+# Tags 🏷️
 
 - Bad Design 
 
 - Classification
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 When working with classes, we name abstractions as soon as they *appear*. 
 
@@ -85,15 +85,15 @@ Our rule is to choose [good names](https://github.com/mcsee/Software-Design-Arti
 
 We should not name our abstractions until we name our concrete subclasses.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 11 - Subclassification for Code Reuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
 
-# More Info
+# More Information 📕
 
 - [What is in a name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Faye Cornish](https://unsplash.com/@fcornish) on [Unsplash](https://unsplash.com/s/photos/tree)
   

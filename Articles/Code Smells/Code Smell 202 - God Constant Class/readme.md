@@ -6,7 +6,7 @@
 
 > TL;DR: Don't define too many unrelated constants in the same class. Don't pile up the junk together.
 
-# Problems
+# Problems 😔 
 
 - Bad Cohesion
 
@@ -16,19 +16,19 @@
 
 - Single Responsibility principle violation
 
-# Solutions
+# Solutions 😃
 
 1. Break the contents following Real World responsibilities using the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md).
 
-# Context
+# Context 💬
 
 This is a special case of a God Object restricted only to constant definitions.
 
 The repository can be a class, file, or JSON. 
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/402d6689b9a9bdef6a0cedf4e8974805) -->
 
@@ -41,7 +41,7 @@ public static class GlobalConstants
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d26aa5ca0e29c906689c7e0b3be8cd54) -->
 
@@ -62,21 +62,21 @@ public static class MathConstants
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic
 
 We can tell our linters to warn us of too many constants' definitions against a preset threshold. 
 
-# Tags
+# Tags 🏷️
 
 - Coupling
 
-# Conclusion
+# Conclusion 🏁
 
 Finding correct responsibilities is one of our primary tasks when designing software.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 14 - God Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2014%20-%20God%20Objects/readme.md)
 
@@ -84,15 +84,15 @@ Finding correct responsibilities is one of our primary tasks when designing soft
 
 [Code Smell 02 - Constants and Magic Numbers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
 
-# More Info
+# More Information 📕
 
 [Medium](https://bytedev.medium.com/the-god-constant-class-30d82cd4f677)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Aaron Burden](https://unsplash.com/@aaronburden) on [Unsplash](https://unsplash.com/images/things/book)
     

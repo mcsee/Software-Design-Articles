@@ -6,7 +6,7 @@
 
 > TL;DR: Replace static functions with object interactions.
 
-# Problems Addressed
+# Problems Addressed 😔
 
 - High [coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md) due to [global access](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md)
 
@@ -16,7 +16,7 @@
 
 - Decreased cohesion
 
-# Related Code Smells
+# Related Code Smells 💨
 
 [Code Smell 18 - Static Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md)
 
@@ -24,7 +24,7 @@
 
 [Code Smell 22 - Helpers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2022%20-%20Helpers/readme.md)
 
-# Steps
+# Steps 👣 
 
 1. Identify static methods used in your code.
 
@@ -34,9 +34,9 @@
 
 4. Refactor clients to interact with objects instead of static functions.
 
-# Sample Code
+# Sample Code 📖
 
-## Before
+## Before 🚨 
 
 <!-- [Gist Url](https://gist.github.com/mcsee/cf849ddce7e7fff8f3daad3c9973bf70) -->
 
@@ -64,7 +64,7 @@ const orpheus = CharacterUtils.createOrpheus();
 const eurydice = CharacterUtils.createEurydice();
 ```
 
-## After
+## After 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ead99192e8a822b36ff77cb4eeef0b34) -->
 
@@ -99,19 +99,19 @@ const eurydice =
   new Character("Eurydice", "Wanderer", eurydiceLookBack);
 ```
 
-# Type
+# Type 📝
 
 [X] Semi-Automatic
 
 You can make step-by-step replacements. 
 
-# Safety
+# Safety 🛡️
 
 This refactoring is generally safe, but you should test your changes thoroughly.
 
 Ensure no other parts of your code depend on the static methods you replace.
 
-# Why is the Code Better?
+# Why is the Code Better? ✨
 
 Your code is easier to test because you can replace dependencies during testing.
 
@@ -135,7 +135,7 @@ You remove hidden global dependencies, making the code clearer and easier to und
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Tags
+# Tags 🏷️
 
 - Cohesion
 
@@ -143,7 +143,7 @@ You remove hidden global dependencies, making the code clearer and easier to und
 
 [X] Intermediate
 
-# Related Refactorings
+# Related Refactorings 🔄
 
 [Refactoring 018 - Replace Singleton](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20018%20-%20Replace%20Singleton/readme.md)
 
@@ -151,7 +151,7 @@ You remove hidden global dependencies, making the code clearer and easier to und
 
 - Replace Global Variable with Dependency Injection
 
-# See also
+# See also 📚
 
 [Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 

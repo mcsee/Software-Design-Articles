@@ -6,7 +6,7 @@
 
 > TL;DR: Don't leave dead [unused code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2009%20-%20Dead%20Code/readme.md). Clean your flag mess.
 
-# Problems
+# Problems 😔 
 
 - [Dead Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2009%20-%20Dead%20Code/readme.md)
 
@@ -14,13 +14,13 @@
 
 - Unnecessary complexity
 
-# Solutions
+# Solutions 😃
 
 1. Clean up dead code
 
 2. Set up a clear lifecycle for your Feature Flags
 
-# Context
+# Context 💬
 
 [Feature flags](https://en.wikipedia.org/wiki/Feature_toggle) are often used to [toggle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2029%20-%20Settings%20-%20Configs/readme.md) certain functionalities or features on or off dynamically, allowing for controlled rollouts or [A/B testing](https://en.wikipedia.org/wiki/A/B_testing). 
 
@@ -36,9 +36,9 @@ Old code left active under a feature flag alongside new code caused the system t
 
 Within minutes, Knight Capital Group suffered losses of approximately $440 million, nearly bankrupting the firm. 
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ddc8429d93d44337a2721df438844c35) -->
 
@@ -70,7 +70,7 @@ public class WeatherSimulation {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ba73de8f56fa1b74e6d40fc9d3cb2266) -->
 
@@ -102,17 +102,17 @@ public class WeatherSimulation {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 You can use mutation testing and remove the potential dead code to see if your coverage net catches a defect.
 
-# Tags
+# Tags 🏷️
 
 - Bloaters
 
-# Level
+# Level 🔋
 
 [X] Intermediate 
 
@@ -120,7 +120,7 @@ You can use mutation testing and remove the potential dead code to see if your c
 
 AI assistants don't usually add dead code or feature flags unless you tell them explicitly.
 
-# Conclusion
+# Conclusion 🏁
 
 You should regularly review and clean up feature flags and their associated code to remove any unnecessary or obsolete sections. 
 
@@ -128,21 +128,21 @@ This ensures that the code remains lean, understandable, and free from potential
 
 Feature flags should be shortlived and the lifecycle must be supervised.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 09 - Dead Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2009%20-%20Dead%20Code/readme.md)
 
 [Code Smell 29 - Settings / Configs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2029%20-%20Settings%20-%20Configs/readme.md)
 
-# More Info
+# More Information 📕
 
 [A feature flag disaster](https://dougseven.com/2014/04/17/knightmare-a-devops-cautionary-tale/)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [the blowup](https://unsplash.com/@theblowup) on [Unsplash](https://unsplash.com/photos/person-in-white-dress-with-red-yellow-and-green-face-paint-km5_ZJThpMc)
 

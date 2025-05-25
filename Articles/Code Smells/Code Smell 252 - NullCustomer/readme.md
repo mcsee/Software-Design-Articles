@@ -6,17 +6,17 @@
 
 > TL;DR: Prefer real domain names to Implementation names
 
-# Problems
+# Problems 😔 
 
 - [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Fault
 
 - Naming
 
-# Solutions
+# Solutions 😃
 
 1. Search for a real-world metaphor
 
-# Context
+# Context 💬
 
 Naming is essential when designing software.
 
@@ -26,9 +26,9 @@ You need to search for these abstractions in the real world and name them after 
 
 Null Customers don't exist in the same way [NULL](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md) doesn't exist.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/b13e79a85fdd706f17dfff192a8a4b6f) -->
 
@@ -68,7 +68,7 @@ const App = () => {
 export default App;
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/15f41dcd4d4f1c89e8b31348d6649740) -->
 
@@ -109,47 +109,47 @@ const App = () => {
 export default App;
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 You can search for names including implementation patterns and check if they represent a real-world concept
 
-# Tags
+# Tags 🏷️
 
 - Naming 
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# AI Generation
+# AI Generation 🤖
 
 AI generators are better at finding these names and don't abuse design patterns unless we prompt them.
 
-# AI Detection
+# AI Detection 🥃
 
 When prompted to use better names with the wrong code tested AI suggested a few, but none detected by itself as a mistake.
 
-# Conclusion
+# Conclusion 🏁
 
 Some concepts are harder to find than others.
 
 Choose your names wisely.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 25 - Pattern Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2025%20-%20Pattern%20Abusers/readme.md)
 
-# More Info
+# More Information 📕
 
 [Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [engin akyurt](https://unsplash.com/@enginakyurt) on [Unsplash](https://unsplash.com/photos/two-black-and-white-folding-chairs-on-beach-during-daytime-2-eCuma3qO0)
     

@@ -6,13 +6,13 @@
 
 > TL;DR: Look carefully for race conditions
 
-# Problems
+# Problems 😔 
 
 - Principle of Least Surprise violation
 
 - [Race Conditions](https://en.wikipedia.org/wiki/Race_condition)
 
-# Solutions
+# Solutions 😃
 
 1. Avoid race conditions 
 
@@ -20,15 +20,15 @@
 
 3. Use proper [synchronization](https://en.wikipedia.org/wiki/Semaphore_(programming))
 
-# Context
+# Context 💬
 
 Schrödinger code is code that can be in two different states at the same time, but the state of the code is not determined until it is executed. 
 
 This can happen when the code contains a race condition, or when the code depends on the state of a global variable that can be changed by other threads or processes.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/b55ffb2e174db3880e40a162405d8fd1) -->
 
@@ -53,7 +53,7 @@ if cats_alive > 0:
 # 2. cats_alive <= 0 and feedThem() is not called.
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d147d5084dc7c0680f4ff01c10cce152) -->
 
@@ -80,25 +80,25 @@ if cats_alive > 0:
 # and the program will not exhibit Schrödinger code behavior.
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
 Make code reviews on concurrent code
 
-# Tags
+# Tags 🏷️
 
 - Concurrency
 
 - Globals
 
-# Conclusion
+# Conclusion 🏁
 
 To avoid Schrödinger code, avoid race conditions and avoid depending on the state of global variables that can be changed by other threads or processes.
 
 If you need to use a global variable in your code, ensure it is correctly synchronized.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 198 - Hidden Assumptions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20198%20-%20Hidden%20Assumptions/readme.md)
 
@@ -106,11 +106,11 @@ If you need to use a global variable in your code, ensure it is correctly synchr
 
 [Code Smell 60 - Global Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2060%20-%20Global%20Classes/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Yerlin Matu](https://unsplash.com/@yerlinmatu) on [Unsplash](https://unsplash.com/photos/shallow-focus-photography-of-white-and-brown-cat-GtwiBmtJvaU)  
   

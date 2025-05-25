@@ -6,7 +6,7 @@
 
 > TL;DR: Don't mess with other object's data.
 
-# Problems
+# Problems 😔 
 
 - Information Hiding Violation
 
@@ -14,13 +14,13 @@
 
 - Coupling
 
-# Solutions
+# Solutions 😃
 
 1. Couple to interfaces and behavior, never data.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ee56984fadcd35eb91b7e2617eec875a) -->
 
@@ -40,7 +40,7 @@ final class DistanceCalculator {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/4135a48a51ff4361359326f2d4b2076e) -->
 
@@ -68,29 +68,29 @@ final class DistanceCalculator {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 You can set your linters to warn you for public attributes, setters and getters usage and discourage them.
 
-# Tags
+# Tags 🏷️
 
-- Coupling
+- Anemic Models
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# Conclusion
+# Conclusion 🏁
 
 If your classes are polluted with setters, getters and public methods you will certainly have ways to couple to their accidental implementation.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
 [Code Smell 28 - Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Object_orgy)
 
@@ -102,7 +102,7 @@ If your classes are polluted with setters, getters and public methods you will c
 
 - Inappropriate intimacy
 
-# Credits
+# Credits 🙏
 
 Picture by [Nicolas Poussin](https://www.nationalgallery.org.uk/paintings/nicolas-poussin-a-bacchanalian-revel-before-a-term#)
 

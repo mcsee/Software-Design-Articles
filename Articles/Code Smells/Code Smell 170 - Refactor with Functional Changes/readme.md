@@ -6,17 +6,17 @@
 
 > TL;DR: Don't change functionally and refactor at the same time.
 
-# Problems
+# Problems 😔 
 
 - Hard to review solutions
 
 - Merge Conflicts
 
-# Solutions
+# Solutions 😃
 
 1. Never change functionality while refactoring
 
-# Context
+# Context 💬
 
 Sometimes we detect a refactoring is needed for further development.
 
@@ -24,9 +24,9 @@ We are experts at learning.
 
 We should put our solution on hold. Work on the refactoring, and continue with our solution.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/f07e5ef021600a82d086fe7cb001fb84) -->
 
@@ -45,7 +45,7 @@ factorial(n) {
 // Things go works while dealing with huge code
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/7ae7ad75035ee5c5d1180d0db966dece) -->
 
@@ -69,27 +69,27 @@ factorial(n) {
 // Rename
 ```
 
-# Detection
+# Detection 🔍
 
 This is a refactoring smell.
 
 [X] Manual
 
-# Tags
+# Tags 🏷️
 
 - Refactoring
 
-# Conclusion
+# Conclusion 🏁
 
 We should use a physical token.
 
 Either we are in the refactoring stage or the developing stage.
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Dannie Jing](https://unsplash.com/@dannie_jing) on [Unsplash](https://unsplash.com/s/photos/circus)
   

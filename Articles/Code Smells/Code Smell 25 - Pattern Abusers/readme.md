@@ -6,13 +6,13 @@
 
 > TL;DR: Don't abuse patterns.
 
-# Problems
+# Problems 😔 
 
 - Over design
 
 - Readability
 
-# Solutions
+# Solutions 😃
 
 1. Measure the tradeoff of patterns usage.
 
@@ -22,9 +22,9 @@
 
 4. User [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) technique to find [bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) real entities.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/a94aac5dd5fee1e1c19b4b07e87e7887) -->
 
@@ -39,7 +39,7 @@ public final class NetworkPacketObserver { }
 public final class AccountsComposite { }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/9adec62e0637199e351100eb2ece56f2) -->
 
@@ -54,23 +54,23 @@ public final class NetworkSniffer { }
 public final class Portfolio { }
 ```
 
-# Detection
+# Detection 🔍
 
 It would be very difficult to create automatic detection rules. 
 
 A class name with more than one pattern on it, is a warning.
 
-# Tags
+# Tags 🏷️
 
 - Abuser
 
 - Naming
 
-# Conclusion
+# Conclusion 🏁
 
 Chose when to apply a pattern solution. You are not [smarter](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md) for using too many patterns. You are smart if you choose the right opportunity for everyone.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
@@ -82,13 +82,13 @@ Chose when to apply a pattern solution. You are not [smarter](https://github.com
 
 [Code Smell 32 - Singletons](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2032%20-%20Singletons/readme.md)
 
-# More Info
+# More Information 📕
 
 [How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Nathan Dumlao](https://unsplash.com/@nate_dumlao) on [Unsplash](https://unsplash.com/s/photos/addict)
 

@@ -6,23 +6,23 @@
 
 > TL;DR: Premature Optimization is Evil. Optimization is Good.
 
-# Problems
+# Problems 😔 
 
 - Low Performance
 
-# Solutions
+# Solutions 😃
 
 1. Sort the conditions from faster to slower
 
-# Context
+# Context 💬
 
 Readability is always essential and you should avoid premature optimization.
 
 Non-premature optimization happens when you have actual evidence you can improve your code execution time without much readability penalizations.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ddef91c2fc31de6da80b8c5b244ff904) -->
 
@@ -64,7 +64,7 @@ else:
     print("Stay at home.")
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/2d9bb0dcab1d80de01358e8259412cf4) -->
 
@@ -78,7 +78,7 @@ else:
     print("Stay at home.")
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
@@ -86,27 +86,27 @@ You can detect slow calls using actual benchmarks.
 
 Do not consider algorithm complexity since sometimes it is unrelated to actual data distribution. (for example, optimizing an array with a few elements).
 
-# Tags
+# Tags 🏷️
 
 - Performance
 
-# Conclusion
+# Conclusion 🏁
 
 Find bottlenecks using Pareto rules. 
 
 Optimize your code-critical sections.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 140 - Short Circuit Evaluation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20140%20-%20Short%20Circuit%20Evaluation/readme.md)
 
 [Code Smell 145 - Short Circuit Hack](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20145%20-%20Short%20Circuit%20Hack/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Nick Abrams](https://unsplash.com/@nbabrams) on [Unsplash](https://unsplash.com/photos/brown-tortoise-on-brown-sand-FTKfX3xZIcc)
     

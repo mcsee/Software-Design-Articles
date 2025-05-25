@@ -6,7 +6,7 @@
 
 > TL;DR: Don't use DTOs
 
-# Problems
+# Problems 😔 
 
 - Anemic Object
 
@@ -24,7 +24,7 @@
 
 - Data integrity
 
-# Solutions
+# Solutions 😃
 
 1. Transfer anemic data on arrays
 
@@ -32,13 +32,13 @@
 
 3. If we want to transfer partial objects: use proxies or null objects to break the reference graph.
 
-# Refactorings
+# Refactorings ⚙️
 
 [Refactoring 009 - Protect Public Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20009%20-%20Protect%20Public%20Attributes/readme.md)
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/91a2d630101ba6137f64195e76c1b266) -->
 
@@ -88,7 +88,7 @@ final class SocialNetworkProfileDTO {
 $janesProfileToTransfer = new SocialNetworkProfileDTO();
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/e1ecfdec6bd0fbe72f2d9ee7664af1c4) -->
 
@@ -150,25 +150,25 @@ $janesProfileToTransfer = new SocialNetworkProfile(
 );
 ```
 
-# Detection
+# Detection 🔍
 
 We can use the same anemic object detectors. 
 
 We can check for *anemic* classes with no business object behavior (removing serializes, constructors, mutators etc).
  
- # Tags
+ # Tags 🏷️
 
-- Anemic
+- Anemic Models
 
-# Conclusion
+# Conclusion 🏁
 
 DTOs are a tool and an established practice in some languages. We should use them with care and responsibility.
 
-If we need to disassemble our objects in order to send them away from our realms, we need to be extremely cautioned. Since dismembered objects have no integrity considerations.
+If we need to disassemble our objects to send them away from our realms, we need to be extremely cautioned. Since dismembered objects have no integrity considerations.
 
 His author warns us about its actual abuse.
  
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
@@ -178,17 +178,13 @@ His author warns us about its actual abuse.
 
 [Code Smell 139 - Business Code in the User Interface](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20139%20-%20Business%20Code%20in%20the%20User%20Interface/readme.md)
 
-# More Info
+# More Information 📕
 
 [Martin Fowler on DTOS](https://martinfowler.com/bliki/LocalDTO.html)
 
 [Refactoring.guru](https://refactoring.guru/es/smells/data-class)
 
 [Stack Exchange](https://softwareengineering.stackexchange.com/questions/171457/what-is-the-point-of-using-dto-data-transfer-objects)
-
-# Credits
-
- 
 
 * * *
 

@@ -6,25 +6,25 @@
 
 > TL;DR: Check carefully your boolean expressions
 
-# Problems
+# Problems 😔 
 
 - Readability
 
 - Possible Defects
 
-# Solutions
+# Solutions 😃
 
 1. Refactor and remove obsolete code
 
-# Context
+# Context 💬
 
 When a function is designed to return an invariant value, it may be poor design, but it shouldn’t adversely affect the outcome of your program. However, when it happens on all paths through the logic, it is likely a mistake.
 
 This rule raises an issue when a function contains several return statements that all return the same value.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/dc73985cd7ff45aa7496f41f96e81fe3) -->
 
@@ -39,7 +39,7 @@ else:
     print("a is not positive")
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/c8d0be601736520faa86a8d7e781be2f) -->
 
@@ -50,21 +50,21 @@ else:
     print("a is not positive")
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 Many [linters](https://rules.sonarsource.com/javascript/type/Code%20Smell/RSPEC-2589) can detect this problem by parsing execution trees.
 
-# Tags
+# Tags 🏷️
 
 - Complexity
 
-# Conclusion
+# Conclusion 🏁
 
 Boolean expressions should be straightforward to read and understand.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 115 - Return True](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20115%20-%20Return%20True/readme.md)
 
@@ -72,17 +72,17 @@ Boolean expressions should be straightforward to read and understand.
 
 [Code Smell 101 - Comparison Against Booleans](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20101%20-%20Comparison%20Against%20Booleans/readme.md)
 
-# More Info
+# More Information 📕
 
 [How to Get Rid of Annoying IFs Forever](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
 [SonarSource](https://rules.sonarsource.com/javascript/type/Code%20Smell/RSPEC-2589)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Jungwoo Hong](https://unsplash.com/@hjwinunsplsh) on [Unsplash](https://unsplash.com/images/things/arrow)
     

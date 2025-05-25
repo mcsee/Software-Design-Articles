@@ -6,7 +6,7 @@
 
 > TL;DR: Don't mix booleans with non-booleans.
 
-# Problems
+# Problems 😔 
 
 - Not Declarative Code
 
@@ -16,7 +16,7 @@
 
 - Accidental Complexity
 
-# Solutions
+# Solutions 😃
 
 1. Be Explicit
 
@@ -30,9 +30,9 @@
 
 [The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/2ba58f618ce930b3d8361596e1a76d28) -->
 
@@ -59,7 +59,7 @@ obj = new Object;
 !!obj // returns true
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/fef521fa00f16f2e302d2f7ef41bf178) -->
 
@@ -87,13 +87,13 @@ obj = new Object;
 !!obj // nonsense
 ```
 
-# Detection
+# Detection 🔍
 
 Since this is a "feature" in some languages it would be hard to test. We can set programming policies or choose more [strict languages](https://dev.to/tmaximini/typescript-bang-operator-considered-harmful-3hhi).
 
 We should detect *!* *!!* usages in non-boolean objects and warn our programmers.
 
-# Tags
+# Tags 🏷️
 
 - Casting
 
@@ -101,13 +101,13 @@ We should detect *!* *!!* usages in non-boolean objects and warn our programmers
 
 - Javascript
 
-# Conclusion
+# Conclusion 🏁
 
 Languages like JavaScript divide their whole universe into *true* or *false* values. This decision hides errors when dealing with non booleans. 
 
 We should be very strict and keep booleans (and their behavior), far away from non booleans.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 24 - Boolean Coercions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2024%20-%20Boolean%20Coercions/readme.md)
 
@@ -115,7 +115,7 @@ We should be very strict and keep booleans (and their behavior), far away from n
 
 [Code Smell 101 - Comparison Against Booleans](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20101%20-%20Comparison%20Against%20Booleans/readme.md)
 
-# More Info
+# More Information 📕
 
 [Programmer Humor](https://www.reddit.com/r/ProgrammerHumor/comments/6erd7r/the_best_thing_about_a_boolean_is_that_even_if/)
 
@@ -125,7 +125,7 @@ We should be very strict and keep booleans (and their behavior), far away from n
 
 [Wat Video](https://www.destroyallsoftware.com/talks/wat)
 
-# Credits
+# Credits 🙏
 
 Photo by [Greg Rakozy](https://unsplash.com/@grakozy) on [Unsplash](https://unsplash.com/s/photos/universe)  
 

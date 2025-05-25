@@ -6,11 +6,11 @@
 
 > TL;DR: Avoid nested IFs. Even Better: Avoid ALL IFs
 
-# Problems
+# Problems 😔 
 
 - Readability 
 
-# Solutions
+# Solutions 😃
 
 1. Extract Method
 
@@ -18,39 +18,39 @@
 
 3. Remove accidental IFs
 
-# Context
+# Context 💬
 
 In procedural code, it is very common to see complex nested ifs. This solution is more related to scripting than object-oriented programming.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 https://gist.github.com/mcsee/0313b55715cf050e4eadb80e7b0ffad2
 
-## Right
+## Right 👉
 
 https://gist.github.com/mcsee/a01fc3411e8aff647a2ff0812f313318
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 Since many linters can parse trees, we can check on compile-time for nesting levels.
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
 - Complexity
 
-# Conclusion
+# Conclusion 🏁
 
 Following [uncle bob's advice](https://learning.oreilly.com/library/view/97-things-every/9780596809515/ch08.html), we should leave the code cleaner than we found it.
 
 Refactoring this problem is easy.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 78 - Callback Hell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2078%20-%20Callback%20Hell/readme.md)
 
@@ -66,7 +66,7 @@ Refactoring this problem is easy.
 
 [Code Smell 184 - Exception Arrow Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20184%20-%20Exception%20Arrow%20Code/readme.md)
 
-# More Info
+# More Information 📕
 
 - [C2 Wiki](http://wiki.c2.com/?ArrowAntiPattern)
 

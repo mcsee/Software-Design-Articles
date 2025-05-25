@@ -6,7 +6,7 @@
 
 > TL;DR: Always stick to baby steps
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -16,19 +16,19 @@
 
 - Testing Challenges
 
-# Solutions
+# Solutions 😃
 
 1. Break the change in atomic parts
 
-# Context
+# Context 💬
 
 When pull requests become very large, they can pose several challenges and problems for development teams.
 
 You must avoid merge requests making different unrelated changes.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/8324fa9cdd7a18f1f66f33ad874244c8) -->
 
@@ -57,7 +57,7 @@ function voyagerDistanceFromEarth(
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/9d8adddf01f4ba19917b6307cdcd66f3) -->
 
@@ -77,21 +77,21 @@ function generateFibonacci(ordinal) {
 // You break it into two different pull requests
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 You can put a threshold and a warning on big merge requests.
 
-# Exceptions
+# Exceptions 🛑
 
 - Big refactors that cannot be made with baby steps
 
-# Tags
+# Tags 🏷️
 
 - Complexity
 
-# Level
+# Level 🔋
 
 [ X] Beginner
 
@@ -101,19 +101,19 @@ AI assistants do not create pull requests.
 
 They generate the code you need.
 
-# Conclusion
+# Conclusion 🏁
 
 Software engineers must be experts at managing (and avoiding) [accidental complexity](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md).
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 170 - Refactor with Functional Changes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20170%20-%20Refactor%20with%20Functional%20Changes/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Håkon Grimstad](https://unsplash.com/@grimstad) on [Unsplash](https://unsplash.com/photos/blue-and-black-butterfly-on-brown-stick-hteXWSF9jA4)
     

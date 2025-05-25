@@ -6,7 +6,7 @@
 
 > TL;DR: Underscore and special characters can lead to validation errors
 
-# Problems
+# Problems 😔 
 
 - Incomplete Validation
 - Security Risks
@@ -15,7 +15,7 @@
 - System Inconsistency
 - Breaking changes with legacy data
 
-# Solutions
+# Solutions 😃
 
 1. Use consistent prefix
 2. Implement strict validation
@@ -23,7 +23,7 @@
 4. Create migration tests
 5. Test with legacy data
 
-# Context
+# Context 💬
 
 In digital certificate validation, ensuring domain control is critical.
 
@@ -33,9 +33,9 @@ DigiCert [recently encountered](https://thehackernews.com/2024/07/digicert-to-re
 
 This resulted in certificates being issued without proper validation and a cascade of broken sites with few advancement notices.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/35be34c8eece30b4637f9c0dc0fbe387) -->
 
@@ -47,7 +47,7 @@ setup_dns_record(
   "dcv.digicert.com");
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/bb6accc36fc74a838f8e90c5c6bcf6b4) -->
 
@@ -57,7 +57,7 @@ let random_value = format!("_{}", generate_random_value());
 setup_dns_record(&random_value, "dcv.digicert.com");
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
@@ -65,35 +65,35 @@ You can detect this smell by reviewing the validation process and checking if al
 
 You should also store historical data and check the new rules applied to them.
  
-# Tags
+# Tags 🏷️
 
 - Security
 
-# Level
+# Level 🔋
 
 [X] Advanced
 
-# AI Generation
+# AI Generation 🤖
 
 AI-generated code might miss adding specific prefixes unless explicitly instructed. 
 
 This can lead to security risks if the generated code is not thoroughly reviewed.
 
-# AI Detection
+# AI Detection 🥃
 
 With proper examples and instructions, AI tools can be trained to detect missing prefixes in generated or existing code. 
 
-# Conclusion
+# Conclusion 🏁
 
 Skipping an essential part of the validation process, like an underscore prefix, can lead to significant issues. 
 
 Ensuring such steps are consistently applied and reviewed is crucial for maintaining system integrity and security.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 189 - Not Sanitized Input](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20189%20-%20Not%20Sanitized%20Input/readme.md)
 
-# More Info
+# More Information 📕
 
 [Revocation Incident](https://www.digicert.com/support/certificate-revocation-incident)
 
@@ -101,11 +101,11 @@ Ensuring such steps are consistently applied and reviewed is crucial for maintai
 
 [Domain Validation Bug](https://www.bleepingcomputer.com/news/security/digicert-mass-revoking-tls-certificates-due-to-domain-validation-bug/)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Markus Spiske](https://unsplash.com/@markusspiske) on [Unsplash](https://unsplash.com/photos/assorted-color-padlocks-on-fence-during-daytime-Jjue0ESkXAU)
     

@@ -6,7 +6,7 @@
 
 > TL;DR: Optional Arguments generate a hidden coupling in the name of smaller code.
 
-# Problems
+# Problems 😔 
 
 - Coupling
 
@@ -18,7 +18,7 @@
 
 - In languages with optional arguments but limited to basic types, we need to set a flag and add an accidental IF (another smell).
 
-# Solutions
+# Solutions 😃
 
 1. Make arguments explicit.
 
@@ -26,9 +26,9 @@
 
 3. Use *Named Parameters* if your language supports them.
  
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/66738047685e798a4e4008e291dcff70) -->
 
@@ -56,7 +56,7 @@ new Poll([], true , new NormalValidationPolicy());
 new Poll([], , new StrictValidationPolicy());
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/559b802e5a6a0e1aa432e594fe5f28dc) -->
 
@@ -85,27 +85,27 @@ new Poll(
 );
 ```
 
-# Detection
+# Detection 🔍
 
 Detection is easy if the language supports optional arguments.
  
-# Tags
+# Tags 🏷️
 
 - Optional
 
 - Laziness
 
-# Conclusion
+# Conclusion 🏁
 
 Be explicit. Favor readability over shorter (and more coupled) function calls.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 172 - Default Argument Values Not Last](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20172%20-%20Default%20Argument%20Values%20Not%20Last/readme.md)
 
 [Code Smell 42 - Warnings/Strict Mode Off](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2042%20-%20Warnings%20Strict%20Mode%20Off/readme.md)
  
-# More Info
+# More Information 📕
 
 - [Function Arity](https://en.wikipedia.org/wiki/Arity)
 

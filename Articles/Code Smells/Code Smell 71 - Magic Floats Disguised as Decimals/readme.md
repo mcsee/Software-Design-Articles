@@ -4,7 +4,7 @@
 
 > TL;DR: Don't trust numbers on immature languages like JavaScript.
 
-# Problems
+# Problems 😔 
 
 - [Principle of Least Surprise](https://en.wikipedia.org/wiki/Principle_of_least_astonishment) Violation
 
@@ -12,15 +12,15 @@
 
 - Wrong decimal representations.
 
-# Solutions
+# Solutions 😃
 
 1. Choose Mature Languages.
 
 2. Represent [Decimals with Decimals](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/46a81f9ff84ac7c32b2f482e0625efce) -->
 
@@ -33,7 +33,7 @@ console.log(0.2 + 0.1)
 // Result should be 3/10 as you learned at school
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/f57afd489e3f65c44e4e92fc1ff74fb8) -->
 
@@ -58,21 +58,21 @@ console.log((new Decimal(2).plus(new Decimal(1))).toString());
 // (storing both the numerator and denominator)
 ```
 
-# Detection
+# Detection 🔍
 
 Since this is a language feature, it is difficult to detect. We can ask our linters to prevent us from manipulating numbers this way.
 
-# Tags
+# Tags 🏷️
 
 - JavaScript
 
 - Premature Optimization
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 My first programming language was [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64)'s basic back in 1985.
 
@@ -80,11 +80,11 @@ I was very surprised to discover that 1+1+1 was not always 3. Then they introduc
 
 JavaScript is 30 years younger, and it has the same immaturity problems.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2069%20-%20Big%20Bang%20(JavaScript%20Ridiculous%20Castings)/readme.md)
 
-# More Info
+# More Information 📕
 
 Here is the technical (and accidental) explanation.
 
@@ -100,7 +100,7 @@ Premature optimization is the root of all evil.
 
 [Floating Point Standard - 83 pages](https://en.wikipedia.org/wiki/IEEE_754)
 
-# Credits
+# Credits 🙏
 
 Photo by [Stephen Radford](https://unsplash.com/@steve228uk) on [Unsplash](https://unsplash.com/s/photos/explosion)  
 

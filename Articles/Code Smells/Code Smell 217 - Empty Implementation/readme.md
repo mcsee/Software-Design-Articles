@@ -6,23 +6,23 @@
 
 > TL;DR: Don't fill in methods to comply
 
-# Problems
+# Problems 😔 
 
 - Fail Fast Principle Violation
 
-# Solutions
+# Solutions 😃
 
 1. Throw an error indicating implementation is not complete
 
-# Context
+# Context 💬
 
 Creating an empty implementation might seem fine to jump to more interesting problems. 
 
 The code left won't fail fast so debugging it will be a bigger problem
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/56e55a0fdee9d223fc050652b298f699) -->
 
@@ -41,7 +41,7 @@ class MockMerchantProcessor extends MerchantProcessor {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/77dcf4848f489f7011aefbe4971d4b0a) -->
 
@@ -67,39 +67,39 @@ class MockMerchantProcessor extends MerchantProcessor {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
 Since empty code is valid sometimes only a good peer review will find these problems.
 
-# Tags
+# Tags 🏷️
 
 - Hierarchies
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 Being lazy and deferring certain decisions is acceptable, but it's crucial to be explicit about it.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 30 - Mocking Business](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md)
 
 [Code Smell 114 - Empty Class](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20114%20-%20Empty%20Class/readme.md)
 
-# More Info
+# More Information 📕
 
 [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Joey Kyber](https://unsplash.com/@jtkyber1) on [Unsplash](https://unsplash.com/photos/45FJgZMXCK8)
     

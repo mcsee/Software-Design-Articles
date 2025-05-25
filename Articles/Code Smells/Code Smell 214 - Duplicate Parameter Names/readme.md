@@ -6,7 +6,7 @@
 
 > TL;DR: Turn on Strict Checks
 
-# Problems
+# Problems 😔 
 
 - Unexpected errors
 
@@ -16,19 +16,19 @@
 
 - Portability
 
-# Solutions
+# Solutions 😃
 
 1. Enable [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
 
 2. Use role-naming arguments
 
-# Context
+# Context 💬
 
 Most compilers forbid duplicate parameters since they are a common mistake in a large parameters list
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d7f79fb931bf07d11b28a4f6ca4d2239) -->
 
@@ -42,7 +42,7 @@ addNumbers(2, 3, 4);
 // Outputs 7 (2 + 3 + 2)
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/1fc2681a474de57d2b124b709df9137a) -->
 
@@ -54,29 +54,29 @@ function addNumbers(a, b, a) { }
 // SyntaxError: Duplicate parameter name not allowed in this context
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 By enabling strict mode, the compiler will warn us
 
-# Tags
+# Tags 🏷️
 
 - Naming
 
-# Conclusion
+# Conclusion 🏁
 
 Enable the stricter modes you can find on your compilers.
 
 Try to [fail fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md) and catch errors as early as possible and leave the hard and dumb work to the tools.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 188 - Redundant Parameter Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20188%20-%20Redundant%20Parameter%20Names/readme.md)
 
 [Code Smell 65 - Variables Named after Types](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2065%20-%20Variables%20Named%20after%20Types/readme.md)
 
-# More Info
+# More Information 📕
 
 [Sonar Source](https://rules.sonarsource.com/csharp/RSPEC-3872)
 
@@ -84,11 +84,11 @@ Try to [fail fast](https://github.com/mcsee/Software-Design-Articles/tree/main/A
 
 [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Caroline Veronez](https://unsplash.com/@carolineveronez) on [Unsplash](https://unsplash.com/photos/bbjmFMdWYfw)
     

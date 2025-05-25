@@ -6,25 +6,25 @@
 
 > TL;DR: Don't add unnecessary information to your assertions
 
-# Problems
+# Problems 😔 
 
 - Readability 
 
 - Maintainability
 
-# Solutions
+# Solutions 😃
 
 1. Remove irrelevant data 
 
 2. Leave only the needed assertions
 
-# Context
+# Context 💬
 
 Tests should be minimal and follow the SetUp/Exercise/Assert pattern
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/913c97719a02e75721ea53d8e4e674c7) -->
 
@@ -77,7 +77,7 @@ def test_formula_1_race():
     assert racers[4]["car_model"] == "W12"
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ce5da0101b5e9eb72af22c12d6338f6a) -->
 
@@ -99,33 +99,33 @@ def test_formula_1_race():
     assert winner == "Lewis Hamilton"
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 We can find some patterns in not needed assertions.
 
-# Tags
+# Tags 🏷️
 
 - Testing
 
-# Conclusion
+# Conclusion 🏁
 
 Tests should be prose. Always focus on the reader. It might be you a couple of months from now.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 76 - Generic Assertions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2076%20-%20Generic%20Assertions/readme.md)
 
-# More Info
+# More Information 📕
 
 [xUnit Test Patterns: Refactoring Test Code](https://amzn.to/40z6atJ)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Evan Demicoli](https://unsplash.com/@evandemicoli) on [Unsplash](https://unsplash.com/photos/HGCqL-tRcac)
     

@@ -6,7 +6,7 @@
 
 > TL;DR: Avoid regular expressions as much as possible.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -16,15 +16,15 @@
 
 - Intention Revealing
 
-# Solutions
+# Solutions 😃
 
 1. Use regular expression just for string validation. 
 
 2. If you need to manipulate objects, don't make them strings. 
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d0e8d1c002a12a9f535ab2fef4440d31) -->
 
@@ -32,7 +32,7 @@
 val regex = Regex("^\\+(?:[0-9a-zA-Z][– -]?){6,14}[0-9a-zA-Z]$")
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/f3df119d3be0cdfee7fddd6d725f92be) -->
 
@@ -43,22 +43,22 @@ val space = "[– -]"
 val phoneRegex = Regex("^$prefix(?:$digit$space?){6,14}$digit$")
 ```
 
-# Detection
+# Detection 🔍
 
 Regular expressions are a valid tool.
 There's not much automated way of checking for possible abusers. A whitelist might be of help.
  
- # Tags
+ # Tags 🏷️
 
 - Primitive Obsession
 
 - Abusers
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# Conclusion
+# Conclusion 🏁
 
 Regular expressions are a great tool for string validation. We must use them in a declarative way and just for strings.
 
@@ -68,7 +68,7 @@ If we need to manipulate objects or hierarchies, we should do it in an *object w
 
 Unless we have a conclusive benchmark of **impressive** performance improvement.  
  
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
@@ -78,11 +78,11 @@ Unless we have a conclusive benchmark of **impressive** performance improvement.
 
 [Code Smell 185 - Evil Regular Expressions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20185%20-%20Evil%20Regular%20Expressions/readme.md)
 
-# More Info
+# More Information 📕
 
 [What exactly is a name - Part I The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [John Jennings](https://unsplash.com/@john_jennings) on [Unsplash](https://unsplash.com/s/photos/letters)
 

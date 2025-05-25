@@ -6,13 +6,13 @@
 
 > TL;DR: Bad function names will lead you to defects
 
-# Problems
+# Problems 😔 
 
 - [Misleading Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
 - The least surprise principle violation
 
-# Solutions
+# Solutions 😃
 
 1. Avoid ambiguous or bad names
 
@@ -20,7 +20,7 @@
 
 3. Use mature languajes
 
-# Context
+# Context 💬
 
 Some names in immature languages break the [bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) principle.
 
@@ -28,9 +28,9 @@ When you use them, you agree on some semantics that are not the actual behavior.
 
 Consequently, you must know accidental implementations to avoid this [defect](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quality/Stop%20Calling%20them%20'Bugs'/readme.md).
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/6283f6599373f54c37ad914fbbf89849) -->
 
@@ -42,7 +42,7 @@ const catsArePresent = justDogs.includes('😺');
 // returns true
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d1d819ebfaf99b4143e2545fab928adf) -->
 
@@ -57,13 +57,13 @@ const catsArePresent = justDogs.includes('😺');
 // returns false
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic
 
 You can search and forbid the usage of *replace()* in your code and define *replaceFirst()* if you need to change only the first occurrence
 
-# Tags
+# Tags 🏷️
 
 - Naming
 
@@ -71,15 +71,15 @@ You can search and forbid the usage of *replace()* in your code and define *repl
 
 - Language Specific
 
-# Level
+# Level 🔋
 
 [x] Beginner
 
-# AI Generation
+# AI Generation 🤖
 
 All generators avoided this problem.
 
-# AI Detection
+# AI Detection 🥃
 
 ChatGPT and Copilot use [Regular Expressions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2041%20-%20Regular%20Expression%20Abusers/readme.md) to solve the problem.
 
@@ -87,27 +87,27 @@ Gemini and Claude failed to spot the mistake.
 
 None of them use *replaceAll()* (introduced in [ES2021](https://www.w3schools.com/js/js_2021.asp))
 
-# Conclusion
+# Conclusion 🏁
 
 Using *replace()* instead of *replaceAll()* would not fully achieve the intended result of replacing all occurrences. 
 
 It would only replace the first occurrence, potentially leading to incorrect behavior if there are multiple occurrences.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 38 - Abstract Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2038%20-%20Abstract%20Names/readme.md)
 
 [Code Smell 41 - Regular Expression Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2041%20-%20Regular%20Expression%20Abusers/readme.md)
 
-# More Info
+# More Information 📕
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Jari Hytönen](https://unsplash.com/@jarispics) on [Unsplash](https://unsplash.com/photos/four-assorted-color-tabby-kittens-on-brown-basket-YCPkW_r_6uA)
     

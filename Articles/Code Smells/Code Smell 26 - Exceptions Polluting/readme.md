@@ -6,7 +6,7 @@
 
 > TL;DR: Don't create anemic and empty objects. Even if they are Exceptions.
  
-# Problems
+# Problems 😔 
 
 - Over Design
 
@@ -14,7 +14,7 @@
 
 - [Empty Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20114%20-%20Empty%20Class/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1. Avoid creating [anemic](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md) exceptions as globals.
 
@@ -24,9 +24,9 @@
 
 4. [Remove Unhandled Exceptions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20004%20-%20Remove%20Unhandled%20Exceptions/readme.md)
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/c8fefffd87c98af9bec173266f090497) -->
 
@@ -68,7 +68,7 @@ public class FileReader {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/029e21221849e251babf8d933170e62f) -->
 
@@ -106,19 +106,19 @@ public class FileReader {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 New exceptions should override behavior methods. 
 
 No. *code*, *description*, *resumable*, etc. are not behavioral.
 
-# Tags
+# Tags 🏷️
 
 - Abuser
 
 - Naming
 
-# Conclusion
+# Conclusion 🏁
 
 You would not create different classes for every Person instance, so they return different names. Why would you do it with exceptions.
 
@@ -132,13 +132,13 @@ You are already coupled to the class. Couple to the description instead.
 
 Exception instances should **NOT** be [Singletons](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md).
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
 [Code Smell 114 - Empty Class](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20114%20-%20Empty%20Class/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Nick van den Berg](https://unsplash.com/@nngvandenberg) on [Unsplash](https://unsplash.com/s/photos/smog)
 

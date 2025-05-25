@@ -6,23 +6,23 @@
 
 > TL;DR: Don't cascade your exceptions
 
-# Problems
+# Problems 😔 
 
 - Readability
 
 - Complexity
 
-# Solutions
+# Solutions 😃
 
 1. Rewrite the nested clauses
 
-# Context
+# Context 💬
 
 In the same way [arrow code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md) is hard to read, handling exceptions is a usual case when we must address the topics in a cascade way.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/18a248332d86061c9cccdf5195a70ca8) -->
 
@@ -47,7 +47,7 @@ class QuotesSaver {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/7d40861212d1d475a25d740f10c8f34e) -->
 
@@ -69,23 +69,23 @@ public class QuotesSaver {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 Some linters warn us when we have this kind of complexity
 
-# Tags
+# Tags 🏷️
 
 - Exceptions
 
-# Conclusion
+# Conclusion 🏁
 
 Exceptions are less critical than normal cases.
 
 If we need to read more exceptional code than normal then it is time to improve our code.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 102 - Arrow Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md)
 
@@ -93,11 +93,11 @@ If we need to read more exceptional code than normal then it is time to improve 
 
 [Code Smell 119 - Stairs Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20119%20-%20Stairs%20Code/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Remy Gieling](https://unsplash.com/@gieling) on [Unsplash](https://unsplash.com/s/photos/archer)
   

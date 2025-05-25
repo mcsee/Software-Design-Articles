@@ -6,31 +6,31 @@
 
 > TL;DR: Don't mix your train of thought
 
-# Problems
+# Problems 😔 
 
 - Readability
 
 - Bad Scoping
 
-# Solutions
+# Solutions 😃
 
 1. Move the code close together
 
 2. Try to [extract the method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
-# Refactorings
+# Refactorings ⚙️
 
 [Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
-# Context
+# Context 💬
 
 Entangled code is related beyond time and space.
 
 You are reading the code, then skip to another subject and return to the first one.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/59914b6bd6ac72937d729894a52b5ec5) -->
 
@@ -53,7 +53,7 @@ def planetary_properties(semi_major_axis,
     retrun orbital_period, albedo
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/4be2d21770d15e0b851a94fd5da0ec3f) -->
 
@@ -78,17 +78,17 @@ def planetary_properties(semi_major_axis,
     retrun orbital_period, albedo
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 Some linters can infer scopes and make suggestions.
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
@@ -96,19 +96,19 @@ Some linters can infer scopes and make suggestions.
 
 AI assistants suggest code without this mistake and improve this problem when asked.
 
-# Conclusion
+# Conclusion 🏁
 
 This is a tiny tip and a short example of [tidying](https://amzn.to/42nVekV)
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 107 - Variables Reuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20107%20-%20Variables%20Reuse/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Michael Hamments](https://unsplash.com/@35mmtodgt) on [Unsplash](https://unsplash.com/photos/a-dead-tree-in-the-middle-of-a-field-XJ19LCMozUc)
     

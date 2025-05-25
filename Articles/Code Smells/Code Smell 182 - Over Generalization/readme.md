@@ -6,25 +6,25 @@
 
 > TL;DR: Don't make generalizations beyond real knowledge.
 
-# Problems
+# Problems 😔 
 
 - Overgeneralization
 
 - [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) violation
 
-# Solutions
+# Solutions 😃
 
 1. Think before making structural generalizations
 
-# Context
+# Context 💬
 
 Refactoring is not just looking at structural code. 
 
 We need to refactor behavior and check if it needs an abstraction.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/2b7734f1f6c0ab46a88a71b37464ceeb) -->
 
@@ -43,7 +43,7 @@ fn validate_integer(value: i32) {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/1eca09d9bb13cea966bcbe2eda95021c) -->
 
@@ -61,35 +61,35 @@ fn validate_years(value: i32) {
 // Duplication is accidental, therefore you should not abstract it
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
 This is a semantic smell.
 
-# Tags
+# Tags 🏷️
 
 - Duplication
 
-# Conclusion
+# Conclusion 🏁
 
 Software development is a thinking activity. 
 
 We have automated tools to help and assist us. We need to be in charge.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 46 - Repeated Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2046%20-%20Repeated%20Code/readme.md)
 
-# More Info
+# More Information 📕
 
 - [DRY—The Evils of Duplication](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Matthew Henry](https://unsplash.com/@matthewhenry) on [Unsplash](https://unsplash.com/s/photos/duplicate)  
   

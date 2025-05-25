@@ -724,7 +724,7 @@ Our simplifier was already aware of that, so we injected in a second place being
 
 * * *
 
-# Conclusions
+# Conclusion 🏁
 
 - Quality Assurance engineering should add a broken integration test before correcting the implementation that should comply with it.
 

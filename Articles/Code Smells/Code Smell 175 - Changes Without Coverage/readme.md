@@ -6,17 +6,17 @@
 
 > TL;DR: Don't change the code without breaking some tests.
 
-# Problems
+# Problems 😔 
 
 - Quality
 
 - Maintainability
 
-# Solutions
+# Solutions 😃
 
 1. Cover your code.
 
-# Context
+# Context 💬
 
 When you need to make a change, you need to update the live specification of your code.
 
@@ -28,9 +28,9 @@ If you change uncovered tests, you need to add coverage.
 
 Suppose you change the code with existing coverage. Lucky you! Go and change your broken tests.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/51317c09b8994b6cb57e09e2059a5d9b) -->
 
@@ -46,7 +46,7 @@ export function sayHello(name: string): string {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/7a5adcac0ead17d037924b6fd47888fb) -->
 
@@ -69,21 +69,21 @@ test('given a name produces the expected greeting', () => {
 });
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 We can ensure all our merge requests include test code.
 
-# Exceptions
+# Exceptions 🛑
 
 If your code and your tests harness live in different repositories, you might have different pull requests.
 
-# Tags
+# Tags 🏷️
 
 - Quality
 
-# Conclusion
+# Conclusion 🏁
 
 Test coverage is as important as functional code. 
 
@@ -91,15 +91,15 @@ The test system is our first and more loyal customer.
 
 We need to care for them.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
  
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Vincent Péré](https://unsplash.com/@vinzpr) on [Unsplash](https://unsplash.com/s/photos/umbrella)  
 

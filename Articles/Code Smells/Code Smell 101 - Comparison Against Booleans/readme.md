@@ -6,7 +6,7 @@
 
 > TL;DR: Don't compare against true. Either you are true, or false or you shouldn't compare
 
-# Problems
+# Problems 😔 
 
 - Hidden castings
 
@@ -14,19 +14,19 @@
 
 - [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md) principle violation
 
-# Solutions
+# Solutions 😃
 
 1. Use booleans
 
 2. Don't mix booleans with *boolean castable objects*
 
-# Context
+# Context 💬
 
 Many languages cast values to boolean crossing domains.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/118ff2e5ebd9779675f664ed46bae95d) -->
 
@@ -51,7 +51,7 @@ fi
 # this also evaluates to true
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/405d45ed06a94a81d1f1a3b06381c0f9) -->
 
@@ -67,31 +67,31 @@ fi
 # this evaluates to false
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 Linters can check for explicit comparisons and warnings.
 
-# Tags
+# Tags 🏷️
 
 - Castings
 
-# Conclusion
+# Conclusion 🏁
 
 It is a common industry practice to use many non booleans as booleans. 
 
 We should be very strict when using booleans.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2069%20-%20Big%20Bang%20(JavaScript%20Ridiculous%20Castings)/readme.md)
 
-# More Info
+# More Information 📕
 
 [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Michael Held](https://unsplash.com/@michaelheld) on [Unsplash](https://unsplash.com/s/photos/disguise)
   

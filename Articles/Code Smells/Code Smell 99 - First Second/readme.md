@@ -6,25 +6,25 @@
 
 > TL;DR: Name your arguments according to the role and not the accidental position
 
-# Problems
+# Problems 😔 
 
 - Readability
 
 - Intention Revealing Names
 
-# Solutions
+# Solutions 😃
 
 1. Use meaningful names
 
-# Context
+# Context 💬
 
 When writing methods, we usually don't stop to find decent names.
 
 We never refactor the obvious, neither.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/552f2a10d660ee37744f111fe9bf6665) -->
 
@@ -34,7 +34,7 @@ class Calculator:
     return first - second
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/bbbc636c7c309c86b4f1114b1f57f6b8) -->
 
@@ -44,35 +44,35 @@ class Calculator:
     return minuend - subtrahend
 ```
 
-# Detection
+# Detection 🔍
 
 [x] Manual
 
 We can warn for forbidden words like 'first' and 'second' as argument names.
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 Always follow rule suggesting parameter.
 
 Name your collaborators according to the role.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 65 - Variables Named after Types](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2065%20-%20Variables%20Named%20after%20Types/readme.md)
 
-# More Info
+# More Information 📕
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Priscilla Du Preez](https://unsplash.com/@priscilladupreez) on [Unsplash](https://unsplash.com/s/photos/two)
   

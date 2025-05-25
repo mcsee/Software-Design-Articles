@@ -6,7 +6,7 @@
 
 > TL;DR: Don't process calls in a callback way. Write a sequence.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -14,7 +14,7 @@
 
 - Complexity
 
-# Solutions
+# Solutions 😃
 
 1. Change callbacks to sequence calls.
 
@@ -22,9 +22,9 @@
 
 3. Refactor.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/110f803da03a27f4024ebbce97154307) -->
 
@@ -50,7 +50,7 @@ asyncFunc1(function (error, result1) {
 });
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/90622aea76933ddedea1fd344dbe4751) -->
 
@@ -91,21 +91,21 @@ async function performAsyncOperations() {
 performAsyncOperations();
 ```
 
-# Detection
+# Detection 🔍
 
 This problem shines at the naked eye. Many linters can detect this complexity and warn us.
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
 - Complexity
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# Conclusion
+# Conclusion 🏁
 
 Callback Hell is a very common problem in programming languages with futures or promises.
 
@@ -113,7 +113,7 @@ Callbacks are added in an incremental way. There's no much mess at the beginning
 
 Complexity without refactoring makes them hard to read and debug.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 

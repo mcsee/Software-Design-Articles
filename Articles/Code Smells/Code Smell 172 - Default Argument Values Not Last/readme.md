@@ -6,27 +6,27 @@
 
 > TL;DR: Don't use Optional Arguments before mandatory ones. In fact: Don't use Optional Arguments at all
 
-# Problems
+# Problems 😔 
 
 - [Fail Fast principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md) violation
 
 - Readability
 
-# Solutions
+# Solutions 😃
 
 1. Move your optional arguments last.
 
 2. Avoid [Optional Arguments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2019%20-%20Optional%20Arguments/readme.md).
 
-# Context
+# Context 💬
 
 Optional Arguments are a code smell.
 
 Defining optional arguments before mandatory ones is an error.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ed058f746a6eefe2d303743cd82c6fb0) -->
 
@@ -42,7 +42,7 @@ buildCar("Volvo");
 // Runtime error: Too few arguments to function buildCar()
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/a1cf6479f6b0820fb0843441b5ea7499) -->
 
@@ -73,7 +73,7 @@ functionWithMiddleOptional(1, 2)
 # SyntaxError: non-default argument follows default argument
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
@@ -81,35 +81,35 @@ Many Linters can enforce this rule since we can derive it from function signatur
 
 Also, many compilers directly forbid it.
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 Try to be strict when defining functions to avoid coupling.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 19 - Optional Arguments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2019%20-%20Optional%20Arguments/readme.md)
 
 [Code Smell 87 - Inconsistent Parameters Sorting](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2087%20-%20Inconsistent%20Parameters%20Sorting/readme.md)
 
-# More Info
+# More Information 📕
 
 [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
 [Rule on Sonar Source](https://rules.sonarsource.com/php/type/Code%20Smell/RSPEC-1788)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Manuel Torres Garcia](https://unsplash.com/ja/@matoga) on [Unsplash](https://unsplash.com/s/photos/precipicio)
   

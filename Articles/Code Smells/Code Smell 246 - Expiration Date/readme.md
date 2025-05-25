@@ -6,7 +6,7 @@
 
 > TL;DR: Model real word expiration dates with... *expiration dates*
 
-# Problems
+# Problems 😔 
 
 - [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Violation
 
@@ -16,11 +16,11 @@
 
 - [Primitive Obsession](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20122%20-%20Primitive%20Obsession/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1. Honor the bijection and model correct behavior
 
-# Context
+# Context 💬
 
 In many systems, the expiry date of a credit card is often represented by simply using a Date object.
 
@@ -28,9 +28,9 @@ This can lead to potential issues and misunderstandings, especially when dealing
 
 it's generally considered a better practice to represent the expiry date with an adequate object.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/f2f64b2f510c08a4f85a6c8cbe85de58) -->
 
@@ -84,7 +84,7 @@ public class CreditCard {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/87977580c06f4816c48ca9c6f9d10b23) -->
 
@@ -128,31 +128,31 @@ class MonthOfYear {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
 This is a design smell
 
-# Tags
+# Tags 🏷️
 
 - Primitive Obsession
 
-# Level
+# Level 🔋
 
 [x] Intermediate
 
 This is not an obvious design decision
 
-# AI Generation
+# AI Generation 🤖
 
 Actual AI assistants are not very good at creating these kinds of small objects
 
-# AI Detection
+# AI Detection 🥃
 
 Gemini detected this is a possible smell
 
-# Conclusion
+# Conclusion 🏁
 
 ExpiryDate explicitly separates month and year, making the code more readable and easier to understand the specific information needed for expiry.
 
@@ -162,21 +162,21 @@ While Date objects offer date manipulation functionalities, they don't inherentl
 
 Finding small objects with concrete behavior is always a difficult task.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 122 - Primitive Obsession](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20122%20-%20Primitive%20Obsession/readme.md)
 
 [Code Smell 177 - Missing Small Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20177%20-%20Missing%20Small%20Objects/readme.md)
 
-# More Info
+# More Information 📕
 
 [The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [CardMapr.nl](https://unsplash.com/@cardmapr) on [Unsplash](https://unsplash.com/photos/visa-card-on-brown-wooden-table-oJAHi6JyFF4)
 

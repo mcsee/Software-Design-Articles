@@ -6,21 +6,21 @@
 
 > TL;DR: Don't leave code for future use.
 
-# Problems
+# Problems 😔 
 
 - Complexity
 
 - Coupling
 
-# Solutions
+# Solutions 😃
 
 1. Remove dead code.
 
 2. Leave covered and real tested code.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/22deb44d4e95b4a3ca8ce9ba18d0f908) -->
 
@@ -43,7 +43,7 @@ final class DatabaseQueryOptimizer {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/7d520c7f266d0180f42c3fc12b41fddc) -->
 
@@ -58,21 +58,21 @@ final class DatabaseQueryOptimizer {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 Using some [mutation testing](https://en.wikipedia.org/wiki/Mutation_testing) variants we can remove the dead code and see if test fails.
 
 We need to have good coverage to rely on this solution.
 
-# Tags
+# Tags 🏷️
 
 - YAGNI
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# Conclusion
+# Conclusion 🏁
 
 Dead code is always a problem.
 
@@ -80,13 +80,13 @@ We can use modern development techniques like TDD to ensure all code is alive.
 
 [How to Squeeze Test Driven Development on Legacy Systems](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md)
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 09 - Dead Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2009%20-%20Dead%20Code/readme.md)
 
 [Code Smell 200 - Poltergeist](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20200%20-%20Poltergeist/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Exception not Found](https://exceptionnotfound.net/boat-anchor-the-daily-software-anti-pattern)
 
@@ -98,7 +98,7 @@ We can use modern development techniques like TDD to ensure all code is alive.
 
 - Speculative Generality
 
-# Credits
+# Credits 🙏
 
 Photo by [Kris Mikael Krister](https://unsplash.com/@kmkr) on [Unsplash](https://unsplash.com/s/photos/anchor)
 

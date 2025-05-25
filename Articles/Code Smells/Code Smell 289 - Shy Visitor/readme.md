@@ -173,7 +173,7 @@ AI can help fix this smell by suggesting refactoring steps to remove *instanceof
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Conclusion ✔️
+# Conclusion 🏁
 
 When you use the Visitor pattern, avoid combining it with *iskindOf* checks.
 

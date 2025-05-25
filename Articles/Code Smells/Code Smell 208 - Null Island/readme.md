@@ -6,17 +6,17 @@
 
 > TL;DR: Don't use null for real places
 
-# Problems
+# Problems 😔 
 
 - Coupling
 
 - Unexpected Results
 
-# Solutions
+# Solutions 😃
 
 1. Model the unknown location with polymorphism
 
-# Context
+# Context 💬
 
 [Null Island](https://en.wikipedia.org/wiki/Null_Island) is a fictional place, which is located at the coordinates [0�N 0�E](https://www.google.com/maps/place/0%C2%B000'00.0%22N+0%C2%B000'00.0%22E/@0,0,35771m/), at the intersection of the Prime Meridian and the Equator in the Atlantic Ocean. 
 
@@ -26,9 +26,9 @@ In reality, there is no landmass at this location, and it is actually in the mid
 
 This point has become a popular reference for geographic information systems (GIS) and mapping software, as it serves as a way to filter out errors in location data.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/8103413f0cbda26e2133f977a3180d8a) -->
 
@@ -60,7 +60,7 @@ fun main() {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/dea28242b003409926f2d49cf7ad0849) -->
 
@@ -133,21 +133,21 @@ fun main() {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 We can check for special numbers used as nulls
 
-# Tags
+# Tags 🏷️
 
 - Null
 
-# Conclusion
+# Conclusion 🏁
 
 Don't use [Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md) to represent [real objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20126%20-%20Fake%20Null%20Object/readme.md)
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
@@ -155,13 +155,13 @@ Don't use [Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Art
 
 [Code Smell 160 - Invalid Id = 9999](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20160%20-%20Invalid%20Id%20=%209999/readme.md)
 
-# More Info
+# More Information 📕
 
 [Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
 [Wikipedia](https://en.wikipedia.org/wiki/Null_Island)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
   

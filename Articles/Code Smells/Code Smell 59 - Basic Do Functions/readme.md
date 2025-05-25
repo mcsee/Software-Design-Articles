@@ -6,7 +6,7 @@
 
 > TL;DR: Shortcuts for mini wrappers shout for better solutions.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -16,15 +16,15 @@
 
 - Single Responsibility Principle
  
-# Solutions
+# Solutions 😃
 
 1. Use good object wrappers
 
 2. Use dynamic decorators
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/dd988af705942cfafd5811df60acaed2) -->
 
@@ -55,7 +55,7 @@ final class Calculator {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ce98c6db785d947e77790c3cc6b4bad0) -->
 
@@ -96,23 +96,23 @@ final class CalculatorDecoratorLogger {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 We can instruct our static linters to find wrapping methods if they follow conventions like *doXXX()*, *basicXX()* etc.
 
-# Tags
+# Tags 🏷️
 
 - Declarativiness
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 We came across this kind of methods some time in our developer life, We smelled something was not OK with them. Now is the time to change them!
  
-# More Info
+# More Information 📕
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
@@ -120,7 +120,7 @@ We came across this kind of methods some time in our developer life, We smelled 
 
 [Wikipedia](https://en.wikipedia.org/wiki/Decorator_pattern)
  
-# Credits
+# Credits 🙏
 
 Photo by [Roger Bradshaw](https://unsplash.com/@roger3010) on [Unsplash](https://unsplash.com/s/photos/recursive)
 

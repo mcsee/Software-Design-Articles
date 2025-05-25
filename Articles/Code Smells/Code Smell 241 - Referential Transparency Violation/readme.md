@@ -6,7 +6,7 @@
 
 > TL;DR: Your functions should be replaceable by the computation result.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -16,19 +16,19 @@
 
 - [Coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1. Avoid side effects and erratic behavior
  
-# Context
+# Context 💬
 
 Breaking referential transparency occurs when the code introduces side effects or relies on a mutable state.
 
 This violates the principle that an expression or function can be replaced with its value without changing the program's behavior.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/8d91de12e8bce988a1ef8a16b858bcd4) -->
 
@@ -53,7 +53,7 @@ def get_current_time():
     return time.time()
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/e396dd603b41cc11865ad780ca6ffed6) -->
 
@@ -74,17 +74,17 @@ def get_current_time(timesource):
     return timesource.time()
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 Many linters warn you when you violate referential transparency
 
-# Tags
+# Tags 🏷️
 
 - Coupling
 
-# Level
+# Level 🔋
 
 [x] Intermediate
 
@@ -92,25 +92,25 @@ Many linters warn you when you violate referential transparency
 
 Most AI assistants will avoid violating referential transparency.
 
-# Conclusion
+# Conclusion 🏁
 
 Functional programming is known for its ability to enable concise, expressive, and maintainable code, as well as facilitating parallel and concurrent programming due to its emphasis on immutable data and pure functions. 
 
 There are many concepts to borrow from it.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 209 - Side Effects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20209%20-%20Side%20Effects/readme.md)
 
-# More Info
+# More Information 📕
 
 [Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Wilhelm Gunkel](https://unsplash.com/@wilhelmgunkel) on [Unsplash](https://unsplash.com/photos/white-and-black-diamond-shape-illustration-3VQ4AfOKCVc)
     

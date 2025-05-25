@@ -6,7 +6,7 @@
 
 > TL;DR: Don't reuse variable names. You break readability and refactor chances and gain nothing but laziness.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -18,15 +18,15 @@
 
 - Garbage Collection Missed Opportunities
 
-# Solutions
+# Solutions 😃
 
 1. Define, use and dispose variables.
 
 2. Keep your Definition, Usage and Destroy variables short.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/f97b6362fcfa4018e75d1d2ce9fc9169) -->
 
@@ -52,7 +52,7 @@ lastPurchase = Item('Whisky');
 taxAmount += lastPurchase.taxesCharged();
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d5f970273099100449221f600cd7612f) -->
 
@@ -81,27 +81,27 @@ def buyDrinks():
 taxAmount = buySupper().taxesCharged() + buyDrinks().taxesCharged();
 ```
 
-# Detection
+# Detection 🔍
 
 Many linters can warn us from reusing variables
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 Reusing variables is a non-contextual copy and paste hint.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 03 - Functions Are Too Long](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2003%20-%20Functions%20Are%20Too%20Long/readme.md)
 
-# More Info
+# More Information 📕
 
 - [The Evil power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
@@ -109,7 +109,7 @@ Reusing variables is a non-contextual copy and paste hint.
 
 - [Wikiversity](https://en.wikiversity.org/wiki/Software_Design/Don%27t_reuse_a_variable)
 
-# Credits
+# Credits 🙏
 
 Photo by [Robby McCullough](https://unsplash.com/@mybbor) on [Unsplash](https://unsplash.com/s/photos/spiral)
 

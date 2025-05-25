@@ -6,25 +6,25 @@
 
 > TL;DR: Classes represent concepts. And concepts are singular.
 
-# Problems
+# Problems 😔 
 
 - Naming
 
 - Code Standards
 
-# Solutions
+# Solutions 😃
 
 1. Rename classes to singular
 
-# Context
+# Context 💬
 
 Naming things is hard.
 
 We need to agree on certain rules.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/5d0c869a94d623684baefce9897563e2) -->
 
@@ -32,7 +32,7 @@ We need to agree on certain rules.
 class Users
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/34c2fa54fa1629971b55d084541e9ce2) -->
 
@@ -40,31 +40,31 @@ class Users
 class User
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 This is a syntactic rule.
 
-# Tags
+# Tags 🏷️
 
 - Naming
 
-# Conclusion
+# Conclusion 🏁
 
 Name concepts in the singular.
 
 Classes are concepts.
 
-# More Info
+# More Information 📕
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Anton Malanin](https://unsplash.com/@antomalani) on [Unsplash](https://unsplash.com/s/photos/twins)
   

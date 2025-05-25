@@ -6,7 +6,7 @@
 
 > TL;DR: Watch out for fancy language assumptions
 
-# Problems
+# Problems 😔 
 
 - Possible defects
 
@@ -14,7 +14,7 @@
 
 - Hidden Assumptions
 
-# Solutions
+# Solutions 😃
 
 1. Be declarative
 
@@ -22,15 +22,15 @@
 
 3. Prefer declarative languages
 
-# Context
+# Context 💬
 
 Many programming languages favor laziness over readability and clean code.
 
 You should use them with caution and trust your tests.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/0f9cad84530ebad6592fa17cb016f2c8) -->
 
@@ -51,7 +51,7 @@ print(tools)
 # Missing Commas act as hidden string concatenators
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/4dfc8f7fb9189f1aa2f2986e924f41d1) -->
 
@@ -73,7 +73,7 @@ print(tools)
 # ['Amazon Codewhisperer', 'Bard', 'ChatGPT', 'Dalle-E', 'Eliza']
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
@@ -81,11 +81,11 @@ Many linters warn about this problem.
 
 Also, [ChatGPT](https://chat.openai.com/) and [Bard](https://bard.google.com/) can detect the problem.
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
-# Conclusion
+# Conclusion 🏁
 
 Many modern programming languages come with a significant amount of accidental complexity. 
 
@@ -93,7 +93,7 @@ They are often optimized for writing code quickly, even though they may be prone
 
 Unfortunately, when working with these languages, it is essential to exercise extreme caution.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 84 - Max < Min (Javascript)](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2084%20-%20Max%20%20Min%20(Javascript)/readme.md)
 
@@ -101,11 +101,11 @@ Unfortunately, when working with these languages, it is essential to exercise ex
 
 [Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Edge2Edge Media](https://unsplash.com/@edge2edgemedia) on [Unsplash](https://unsplash.com/photos/t1OalCBUYRc)
     

@@ -6,7 +6,7 @@
 
 > TL;DR: Misaligned equals() and hashCode() break collections.
 
-# Problems
+# Problems 😔 
 
 - The least surprise principle violation
 - Contract violations  
@@ -15,7 +15,7 @@
 - Debugging becomes hard  
 - Poor hash distribution  
 
-# Solutions
+# Solutions 😃
 
 1. Avoid mutable keys  
 2. Use effective hashes  
@@ -23,7 +23,7 @@
 4. Avoid redefining equal and hash
 5. Honor the [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) 
  
-# Context
+# Context 💬
 
 When you work with hashed collections like *HashMap* or *HashSet*, you should pay special attention to *equals()* and *hashCode()*. 
 
@@ -41,9 +41,9 @@ Whenever you get an external object you need to map it to your bijection corresp
 
 Once within your controlled system, rely on identity and forget equality issues.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/8a78eb904fa716bd84f2d01143ae959c) -->
 
@@ -67,7 +67,7 @@ class BrokenObject {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/feb1a8d1a834c968b101b7b2be4ed735) -->
 
@@ -111,29 +111,29 @@ class CleanObject {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 Automated linters and IDEs flag issues when you don't properly override *equals()* or *hashCode()*.
 
-# Tags
+# Tags 🏷️
 
 - Premature Optimization
 
-# Level
+# Level 🔋
 
 [x] Intermediate
 
-# AI Generation
+# AI Generation 🤖
 
 AI-generated code often missteps when generating *equals()* and *hashCode()*, especially for mutable objects. 
 
-# AI Detection
+# AI Detection 🥃
 
 AI tools can help fix this smell with minimal guidance.
 
-## Try Them!
+## Try Them! 🛠
 
 *Remember: AI Assistants make lots of mistakes*
 
@@ -151,13 +151,13 @@ AI tools can help fix this smell with minimal guidance.
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Conclusion
+# Conclusion 🏁
 
 When you misuse *equals()* or *hashCode()*, collections misbehave. 
 
 Stick to their contracts, use effective hashes, and avoid [mutable keys](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md). 
  
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 150 - Equal Comparison](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20150%20-%20Equal%20Comparison/readme.md)
 
@@ -165,15 +165,15 @@ Stick to their contracts, use effective hashes, and avoid [mutable keys](https:/
 
 [Code Smell 49 - Caches](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2049%20-%20Caches/readme.md)
 
-# More Info
+# More Information 📕
 
 [The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [frank mckenna](https://unsplash.com/@frankiefoto) on [Unsplash](https://unsplash.com/photos/two-toddlers-standing-in-front-of-white-window-curtain-8-rErfjcr1k)
         

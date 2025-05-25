@@ -6,7 +6,7 @@
 
 > TL;DR: Unless you need atomicity, do not perform more than one task.
 
-# Problems
+# Problems 😔 
 
 - Coupling
 - Single Responsibility Principle violation
@@ -14,13 +14,13 @@
 - Low Cohesion
 - Testability
 
-# Solutions
+# Solutions 😃
 
 1. Break the function
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/059b9deb2e9e13c94a724b82e54f6fda) -->
 
@@ -32,7 +32,7 @@ def fetch_and_display_personnel():
     print(person)
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/47a1f8cd217afd58bc47b373b91593ef) -->
 
@@ -45,29 +45,29 @@ def display_personnel(data):
     print(person)
 ```
 
-# Detection
+# Detection 🔍
 
 Functions including "and" are candidates. However, we need to check them carefully since there might be false positives.
 
-# Tags
+# Tags 🏷️
 
 - Readability
  
 - Naming
  
-# Level
+# Level 🔋
 
 [x] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 We should avoid doing more than needed, and our functions should be both minimal and atomic.
 
-# More Info
+# More Information 📕
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Paul](https://unsplash.com/@causeimluap) on [Unsplash](https://unsplash.com/s/photos/train)
   

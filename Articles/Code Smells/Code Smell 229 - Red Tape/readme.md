@@ -6,7 +6,7 @@
 
 > TL;DR: Avoid Accidental complexity and bureaucracy
 
-# Problems
+# Problems 😔 
 
 - Accidental Complexity
 
@@ -14,17 +14,17 @@
 
 - [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Fault
 
-# Solutions
+# Solutions 😃
 
 1. Asign the responsibilities to real-world objects using the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
-# Context
+# Context 💬
 
 A "red tape" code smell could relate to unnecessary complexity, bureaucracy, or excessive configuration that makes the codebase harder to understand or maintain. 
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/682cf5073e3fc55ae45f6e45c960e010) -->
 
@@ -65,7 +65,7 @@ voting_system = VotingSystem(config)
 # and auditing are handled based on the configuration.
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/9bf78bef70aa93c82a3f77fb1d30e1e2) -->
 
@@ -96,31 +96,31 @@ voting_auditor = VotingAuditor()
 # and auditing are handled separately.
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 Some tools can guess you are bloating your objects with unnecessary responsibilities.
 
-# Tags
+# Tags 🏷️
 
 - Bloaters
 
-# Conclusion
+# Conclusion 🏁
 
 The red tape code smell is evident as developers need to navigate the complex configuration to determine which features are active. 
 
 This not only adds unnecessary complexity but also increases the likelihood of misconfigurations that could impact the integrity of your system.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 54 - Anchor Boats](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2054%20-%20Anchor%20Boats/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [the blowup](https://unsplash.com/@theblowup) on [Unsplash](https://unsplash.com/photos/ZrwLQZ7GUxs)  
   

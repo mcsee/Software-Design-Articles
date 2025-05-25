@@ -6,7 +6,7 @@
 
 > TL;DR: Catch your errors. Even the ones you don't expect.
 
-# Problems
+# Problems 😔 
 
 - Security
 
@@ -16,7 +16,7 @@
 
 - Bad UX Experience
 
-# Solutions
+# Solutions 😃
 
 1. Use a top-level handler
 
@@ -24,13 +24,13 @@
 
 3. Expect database and low-level errors
 
-# Context
+# Context 💬
 
 Even in 2022, we can see "serious" websites showing casual users a stack or debugging message.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/8d71bdae68fc52a1b6d1c65e8ce944af) -->
 
@@ -41,7 +41,7 @@ Fatal error: Uncaught Error: Class 'MyClass'
   not found in /nstest/src/Container.php:9
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/3d16a49a680234811e19a56fd3d5be17) -->
 
@@ -60,17 +60,17 @@ function myException($exception) {
 set_exception_handler("myException");
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 We can use mutation testing to simulate problems and see if they are handled correctly.
 
-# Tags
+# Tags 🏷️
 
 - Security
 
-# Conclusion
+# Conclusion 🏁
 
 We need to keep maturing. 
 
@@ -78,19 +78,19 @@ Our solutions shouldn't be sloppy.
 
 We need to improve our reputation as serious software engineers.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 72 - Return Codes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2072%20-%20Return%20Codes/readme.md)
 
-# More Info
+# More Information 📕
 
 [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [jesse orrico](https://unsplash.com/@jessedo81) on [Unsplash](https://unsplash.com/s/photos/dirty)  
 

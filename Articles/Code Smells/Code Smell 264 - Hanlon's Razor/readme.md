@@ -6,7 +6,7 @@
 
 > TL;DR: Overdefensive code leads to unnecessary complexity.
 
-# Problems
+# Problems 😔 
 
 - Unnecessary complexity
 
@@ -20,7 +20,7 @@
 
 - Cluttered Code
 
-# Solutions
+# Solutions 😃
 
 1. Simplify checks
 
@@ -32,7 +32,7 @@
 
 5. Refactor regularly
 
-# Context
+# Context 💬
 
 Overthinking and overdesigning your code can lead to unnecessary complexity. 
 
@@ -46,9 +46,9 @@ You might anticipate future problems that might never happen or try to make your
 
 Simple code is easier to maintain, debug, and understand.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/5e59715c1c7bcfc4f1b8a4b89a2731fc) -->
 
@@ -103,7 +103,7 @@ function processData(data) {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/b5c20329bc5670687423d274d0b6f3e8) -->
 
@@ -119,33 +119,33 @@ function processData(data) {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
 Complicated code usually has more lines and [long methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2003%20-%20Functions%20Are%20Too%20Long/readme.md) are a possible hint.
 
-# Tags
+# Tags 🏷️
 
 - Bloaters
 
-# Level
+# Level 🔋
 
 [x] Intermediate
 
-# AI Generation
+# AI Generation 🤖
 
 AI generators can introduce this smell when they try to account for every possible edge case. 
 
 For example, dealing with [NULLs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md) is unnecessary if you completely [avoid them](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20015%20-%20Remove%20NULL/readme.md).
 
-# AI Detection
+# AI Detection 🥃
 
 AI tools can help detect overly defensive code by analyzing the logic and suggesting simplifications with proper guidance. 
 
 These tools often recommend removing unnecessary checks or combining them for clarity.
 
-# Conclusion
+# Conclusion 🏁
 
 Avoid overthinking and overdesigning your code.
 
@@ -153,23 +153,23 @@ Focus on the most likely scenarios and write clear, straightforward logic.
 
 Simplicity leads to better code quality and easier maintenance.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 03 - Functions Are Too Long](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2003%20-%20Functions%20Are%20Too%20Long/readme.md)
 
 [Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
-# More Info
+# More Information 📕
 
 [Wikipedia](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
 
 [Defensive Programming](https://en.wikipedia.org/wiki/Defensive_programming)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Nacho Fern�ndez](https://unsplash.com/@inteligencia_eco) on [Unsplash](https://unsplash.com/photos/gray-metal-razor-quxbQxvGiPA)
   

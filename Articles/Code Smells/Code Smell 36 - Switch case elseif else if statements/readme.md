@@ -6,7 +6,7 @@
 
 > TL;DR: Don use Ifs or its friends
 
-# Problems
+# Problems 😔 
 
 - Too many decisions together
 
@@ -20,7 +20,7 @@
 
 - Nulls
 
-# Solutions
+# Solutions 😃
 
 1. Polymorphism
 
@@ -38,9 +38,9 @@
 
 - Algorithm choice.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/fd1c07ce153817a5572cb3cb84ae1007) -->
 
@@ -58,7 +58,7 @@ class Mp3Converter {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ef02daf9882bbf6a6f12820b31e19920) -->
 
@@ -77,19 +77,19 @@ class Mp3Converter {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 Since there are [valid cases](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md) for If/else usages, we should not pull the plug and forbid these instructions. We can put a ratio of if statements/other statements as a warning instead.  
 
-# Tags
+# Tags 🏷️
 
 - IFs
 
-# Level
+# Level 🔋
 
 - Begginner
 
-# Conclusion
+# Conclusion 🏁
 
 Switches and if-else chains often disguise deep structural problems in code. 
 
@@ -97,7 +97,7 @@ When you replace them with polymorphism, state, or strategy patterns, you enhanc
 
 Control structures overuse or misuse leads to brittle, hard-to-maintain systems.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
@@ -107,11 +107,11 @@ Control structures overuse or misuse leads to brittle, hard-to-maintain systems.
 
 [Code Smell 133 - Hardcoded IF Conditions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20133%20-%20Hardcoded%20IF%20Conditions/readme.md)
 
-# More Info
+# More Information 📕
 
 [How to Get Rid of Annoying IFs Forever](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Adarsh Kummur](https://unsplash.com/@akummur) on [Unsplash](https://unsplash.com/s/photos/tree)
 

@@ -6,7 +6,7 @@
 
 > TL;DR: Group your cohesive sentences together
 
-# Problems Addressed
+# Problems Addressed 😔
 
 - Readability
 
@@ -14,7 +14,7 @@
 
 - Code Reuse
 
-# Related Code Smells
+# Related Code Smells 💨
 
 [Code Smell 03 - Functions Are Too Long](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2003%20-%20Functions%20Are%20Too%20Long/readme.md)
 
@@ -30,15 +30,15 @@
 
 [Code Smell 102 - Arrow Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md)
 
-# Steps
+# Steps 👣 
 
 1. Move the code fragment to a separate new method 
 
 2. Replace the old code with a call to the recently created method.
 
-# Sample Code
+# Sample Code 📖
 
-## Before
+## Before 🚨 
 
 <!-- [Gist Url](https://gist.github.com/mcsee/18f22cff14d588942fc87893bb73edeb) -->
 
@@ -58,7 +58,7 @@ object Ingenuity {
     }
 ```
 
-## After
+## After 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d1e6a299bbb104132e48ee19a45efa7e) -->
 
@@ -95,17 +95,17 @@ object Ingenuity {
 }
 ```
 
-# Type
+# Type 📝
 
 [X] Automatic
  
 Many IDEs support this safe refactoring
 
-# Safety
+# Safety 🛡️
 
 This is a safe refactoring.
 
-# Why is the Code Better?
+# Why is the Code Better? ✨
 
 Code is more compact and easier to read.
 
@@ -113,11 +113,11 @@ Functions can be reused.
 
 Algorithms and functions are more declarative hiding implementative details on extracted code.
 
-# Limitations
+# Limitations ⚠️
 
 Does not work well if you use [meta-programming anti-pattern](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md).
 
-# Tags
+# Tags 🏷️
 
 - Complexity
 
@@ -127,11 +127,33 @@ Does not work well if you use [meta-programming anti-pattern](https://github.com
 
 [X] Beginner
 
-# Related Refactorings
+# Related Refactorings 🔄
+
+[Code Smell 107 - Variables Reuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20107%20-%20Variables%20Reuse/readme.md)
+
+[Refactoring 010 - Extract Method Object](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20010%20-%20Extract%20Method%20Object/readme.md)
+
+[Code Smell 154 - Too Many Variables](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20154%20-%20Too%20Many%20Variables/readme.md)
+
+[Code Smell 169 - Glued Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20169%20-%20Glued%20Methods/readme.md)
+
+[Refactoring 025 - Decompose Regular Expressions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20025%20-%20Decompose%20Regular%20Expressions/readme.md)
+
+[Refactoring 007 - Extract Class](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20007%20-%20Extract%20Class/readme.md)
+
+[Refactoring 003 - Extract Constant](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20003%20-%20Extract%20Constant/readme.md)
+
+[Refactoring 012 - Reify Associative Arrays](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20012%20-%20Reify%20Associative%20Arrays/readme.md)
+
+[Refactoring 019 - Reify Email Addresses](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20019%20-%20Reify%20Email%20Addresses/readme.md)
+
+[Refactoring 013 - Remove Repeated Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20013%20-%20Remove%20Repeated%20Code/readme.md)
+
+[Refactoring 005 - Replace Comment with Function Name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
 
 - Move method to a new class
 
-# Credits
+# Credits 🙏
 
 Image by [Hreisho](https://pixabay.com/users/hreisho-2216364/) on [Pixabay](https://pixabay.com/)
 

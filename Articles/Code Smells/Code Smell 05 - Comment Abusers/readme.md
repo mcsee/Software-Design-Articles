@@ -7,7 +7,7 @@ Comments are coupled to implementation and hardly maintained.*
 
 > TL;DR: Leave comments just for important design decisions. Don't explain the obvious.
 
-# Problems
+# Problems 😔 
 
 - Maintainability
 
@@ -17,7 +17,7 @@ Comments are coupled to implementation and hardly maintained.*
 
 - Code and comments duplication.
 
-# Solutions
+# Solutions 😃
 
 1) Refactor methods.
 
@@ -31,7 +31,7 @@ Comments are coupled to implementation and hardly maintained.*
 
 [What exactly is a name - Part I The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
 
-# Refactorings
+# Refactorings ⚙️
 
 [Refactoring 005 - Replace Comment with Function Name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
 
@@ -43,9 +43,9 @@ Comments are coupled to implementation and hardly maintained.*
 
 - Method Comments
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/4fb1f04c950ece88450fec59ed6a827b) -->
 
@@ -64,7 +64,7 @@ final class ChatBotConnectionHelper {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/698102c04428aec69356cad26d4c50cd) -->
 
@@ -78,23 +78,23 @@ final class ChatBotConnectionSequenceGenerator {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 Linters can detect comments and check the ratio of comments/lines of code against a predefined threshold.
 
-# Tags
+# Tags 🏷️
 
 - Comments
 
-# Conclusion
+# Conclusion 🏁
 
 Leave comments just for important design decisions. Don't comment on a method with a bad name, rename it.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 75 - Comments Inside a Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2075%20-%20Comments%20Inside%20a%20Method/readme.md)
 
-# More Info
+# More Information 📕
 
 [Refactoring Guru](https://refactoring.guru/es/smells/comments)
 

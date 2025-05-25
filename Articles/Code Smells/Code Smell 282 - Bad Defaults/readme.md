@@ -6,7 +6,7 @@
 
 > TL;DR: Treat unknown responses as unauthorized, not as valid.
 
-# Problems
+# Problems 😔 
 
 - Security risks
 - Ignoring unknown cases
@@ -16,7 +16,7 @@
 - Failing to log events
 - Exploitation Potential
 
-# Solutions
+# Solutions 😃
 
 1. Validate all responses against a closed  set of known codes.
 2. Default (and unknown) to unauthorized or [Remove Defaults](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20110%20-%20Switches%20With%20Defaults/readme.md).
@@ -26,7 +26,7 @@
 6. Focus on security making it a shift left process.
 7. Design systems with change resilience to handle evolving scenarios.
 
-# Context
+# Context 💬
 
 Today is [computer security day](https://www.nationaldaycalendar.com/national-day/computer-security-day-november-30) and every programmer needs to acknowledge its responsibility. 
 
@@ -42,9 +42,9 @@ Users notice this flaw and exploit it to make unauthorized purchases.
 
 The platform's revenue plummets, leading to bankruptcy.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/a71157328cdafbfe6c0639fe6c64b361) -->
 
@@ -64,7 +64,7 @@ switch (response) {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/fc8724bf7b47ece2dad8a3ac2c44a85f) -->
 
@@ -90,7 +90,7 @@ switch (response) {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
@@ -102,11 +102,11 @@ Automated tests can help identify if new or unexpected inputs default to valid a
 
 Static analysis tools can help by flagging potentially incomplete error handling.
 
-# Tags
+# Tags 🏷️
 
 - Security
 
-# Level
+# Level 🔋
 
 [X] Intermediate 
 
@@ -118,17 +118,17 @@ When you break the [Bijection](https://github.com/mcsee/Software-Design-Articles
 
 The application interprets unknown codes incorrectly, leading to unexpected behavior, security holes, and potentially disastrous business consequences.
 
-# AI Generation
+# AI Generation 🤖
 
 AI tools can create this smell if you don't specify how to handle unknown cases. 
 
 For example, generic error handling might default to benign outcomes like "not found" or "success."
 
-# AI Detection
+# AI Detection 🥃
 
 AI generators can fix this smell when you instruct them to treat unknown cases as unauthorized and emphasize logging and testing unexpected scenarios.
 
-## Try Them!
+## Try Them! 🛠
 
 *Remember: AI Assistants make lots of mistakes*
 
@@ -146,7 +146,7 @@ AI generators can fix this smell when you instruct them to treat unknown cases a
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Conclusion
+# Conclusion 🏁
 
 Always handle unknown cases cautiously. 
 
@@ -156,17 +156,17 @@ Make logging and denying unknown responses part of your development practices.
 
 Make shift-left decisions related to security while programming.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 110 - Switches With Defaults](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20110%20-%20Switches%20With%20Defaults/readme.md)
 
 [Code Smell 36 - Switch/case/elseif/else/if statements](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Nathana Rebouças ](https://unsplash.com/@nathanareboucas) on [Unsplash](https://unsplash.com/photos/a-person-holding-a-credit-card-and-a-cell-phone-aGkR0b7hgI8)      
 

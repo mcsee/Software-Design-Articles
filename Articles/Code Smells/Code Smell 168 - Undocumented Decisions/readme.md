@@ -6,27 +6,27 @@
 
 > TL;DR: Be declarative on your design or implementation decisions.
 
-# Problems
+# Problems 😔 
 
 - Code Comments
 
 - Lack of testability
 
-# Solutions
+# Solutions 😃
 
 1. Be Explicit about the reasons.
 
 2. Convert the comment to a method.
 
-# Context
+# Context 💬
 
 Sometimes we find arbitrary rules not so easily testable. 
 
 If we cannot write a failing test, we need to have a function with an excellent and declarative name instead of a comment.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/554144e5e61703b8a556328671b0a3dd) -->
 
@@ -37,7 +37,7 @@ set_memory("512k");
 run_process();
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ab76cec5efd320d5cf9a2e626343d3e8) -->
 
@@ -46,7 +46,7 @@ increase_memory_to_avoid_false_positives();
 run_process();
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
@@ -54,25 +54,25 @@ This is a semantic smell.
 
 We can detect comments and warn us.
 
-# Tags
+# Tags 🏷️
 
 - Comments
 
-# Conclusion
+# Conclusion 🏁
 
 Code is prose. And design decisions should be narrative.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
 
 [Code Smell 75 - Comments Inside a Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2075%20-%20Comments%20Inside%20a%20Method/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Goh Rhy Yan](https://unsplash.com/@gohrhyyan) on [Unsplash](https://unsplash.com/s/photos/warning)
   

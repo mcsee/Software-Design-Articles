@@ -6,13 +6,13 @@
 
 > TL;DR: Don't comment on what you are doing. Name what you are doing. 
 
-# Problems Addressed
+# Problems Addressed 😔
 
 - Bad Names
 
 - Comments
 
-# Related Code Smells
+# Related Code Smells 💨
 
 [Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
 
@@ -20,15 +20,15 @@
 
 [Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
-# Steps
+# Steps 👣 
 
 1. Name the function with the previous comment
 
 2. Remove the Comment
 
-# Sample Code
+# Sample Code 📖
 
-## Before
+## Before 🚨 
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ec23401dcd3a6e03ca6613d3c58867d0) -->
 
@@ -44,7 +44,7 @@ function repl($str) {
 }
 ```
 
-## After
+## After 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/25b76368b744b08194ea3c853fc8f5e8) -->
 
@@ -61,17 +61,17 @@ function replaceBracesWithSpaces($input) {
 }
 ```
 
-# Type
+# Type 📝
 
 [X] Semi-Automatic
 
 Some IDEs have this refactoring although naming is not fully automatic.
 
-# Safety
+# Safety 🛡️
 
 This is a safe refactoring.
 
-# Why is the Code Better?
+# Why is the Code Better? ✨
 
 Comments always lie.
 
@@ -79,11 +79,11 @@ It is hard to maintain comments.
 
 On the contrary, Functions are alive and self-explanatory.
 
-# Limitations
+# Limitations ⚠️
 
 As always, very important design decisions are valid comments.
 
-# Tags
+# Tags 🏷️
 
 - Comments
 
@@ -91,15 +91,15 @@ As always, very important design decisions are valid comments.
 
 [X] Beginner
 
-# Related Refactorings
+# Related Refactorings 🔄
 
 [Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
-# See also
+# See also 📚
 
 [What exactly is a name - Part I The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
 
-# Credits
+# Credits 🙏
 
 Image by [Jannik Texler](https://pixabay.com/users/texler-3778340/) on [Pixabay](https://pixabay.com/)
 

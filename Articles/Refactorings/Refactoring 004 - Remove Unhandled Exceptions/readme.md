@@ -6,25 +6,25 @@
 
 > TL;DR: Remove unnecessary and not references empty exception classes.
 
-# Problems Addressed
+# Problems Addressed 😔
 
 - Empty Classes
 
 - Namespace Polluted
 
-# Related Code Smells
+# Related Code Smells 💨
 
 [Code Smell 26 - Exceptions Polluting](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2026%20-%20Exceptions%20Polluting/readme.md)
 
-# Steps
+# Steps 👣 
 
 1. Check there are no references to the empty exception class.
 
 2. Replace the throw sentence with a generic one.
 
-# Sample Code
+# Sample Code 📖
 
-## Before
+## Before 🚨 
 
 <!-- [Gist Url](https://gist.github.com/mcsee/c95a843d906b0e339ec617779f79f538) -->
 
@@ -41,7 +41,7 @@ rescue RangeNotSatisfiedException => e
 end
 ```
 
-## After
+## After 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/63915cf29a543ce091267619bb21917b) -->
 
@@ -58,29 +58,29 @@ rescue StandardError => exception
 end
 ```
 
-# Type
+# Type 📝
 
 [X] Automatic
 
 If the Exception class has no references we can perform a Safe Remove and replace it with *Exception* class.
 
-# Safety
+# Safety 🛡️
 
 Unless you use metaprogramming, checking for references should be safe enough.
 
-# Why is the Code Better?
+# Why is the Code Better? ✨
 
 - We remove an empty class nobody uses. 
 
 - We shrink the code
 
-# Limitations
+# Limitations ⚠️
 
 If we need to declare an empty exception class as documentation for an API module, our clients might need to catch it.
 
 This is a [gold plating](https://en.wikipedia.org/wiki/Gold_plating_(project_management) and [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) example.
 
-# Tags
+# Tags 🏷️
 
 - Clean up
 
@@ -88,11 +88,11 @@ This is a [gold plating](https://en.wikipedia.org/wiki/Gold_plating_(project_man
 
 [X] Beginner
 
-# Related Refactorings
+# Related Refactorings 🔄
 
 - Safe Remove
 
-# Credits
+# Credits 🙏
 
 Image by [danielkirsch](https://pixabay.com/users/danielkirsch-4218687/) on [Pixabay](https://pixabay.com/)
 

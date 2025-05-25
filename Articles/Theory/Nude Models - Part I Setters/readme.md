@@ -284,7 +284,7 @@ This facility spreads the problem, having this tool gives the feeling that it is
 *   Have no public static attributes. In addition to what is mentioned above, the classes should be stateless and this is a _code smell_ showing a class that is used as a global variable.
 *   Avoid [anemic objects](https://en.wikipedia.org/wiki/Anemic_domain_model) (those containing just attributes without responsibilities). This is a _code smell_ hinting some missing object on the bijection.
 
-# Conclusions
+# Conclusion 🏁
 
 Using setters generates coupling and prevents the incremental evolution of our computer systems. For the arguments stated in this article, we should restrict its use as much as possible.
 

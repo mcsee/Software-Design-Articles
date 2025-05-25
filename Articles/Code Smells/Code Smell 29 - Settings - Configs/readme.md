@@ -6,7 +6,7 @@
 
 > TL;DR: Don't use Settings / Configs or any Feature Toggle
  
-# Problems
+# Problems 😔 
 
 - Duplicated Code
 
@@ -20,7 +20,7 @@
 
 - Complexity
  
-# Solutions
+# Solutions 😃
 
 1. Avoid Settings
 
@@ -34,7 +34,7 @@
 
 - [Feature Toggle](https://en.wikipedia.org/wiki/Feature_toggle)
 
-# Sample Code
+# Sample Code 📖
 
 ## Wrong 
 
@@ -55,7 +55,7 @@ class VerySpecificAndSmallObjectDealingWithPersistency {
 }
 ```
 
-## Right
+## Right 👉
  
 <!-- [Gist Url](https://gist.github.com/mcsee/b4f9f8e80f19c89e99e10c999871ea2d) -->
 
@@ -71,21 +71,21 @@ class VerySpecificAndSmallObjectDealingWithPersistency {
 // You get rid of the if condition by using a polymorphic strategy
 ```
 
-# Detection
+# Detection 🔍
 
 This is an architectural pattern so it should be controlled/avoided by design policies. 
 
-# Exceptions
+# Exceptions 🛑
 
 - Sometimes we use Feature toggling as a safeguard mechanism. This is acceptable in a legacy system. These toggles should be very short-lived in a [CI/CD](https://en.wikipedia.org/wiki/CI/CD) system.
 
 - Hyper parameter settings should be managed by configuration objects.
 
-# Tags
+# Tags 🏷️
 
 - Globals
 
-# Conclusion
+# Conclusion 🏁
 
 Setting runtime behavior is great for software systems. 
 
@@ -101,13 +101,13 @@ In this way, our code will be more declarative, clean and testable. It is not as
 
 [Feature Flags are Dangerous](https://jeromedane.medium.com/feature-flags-are-dangerous-88ef9d6c9f04)
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 133 - Hardcoded IF Conditions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20133%20-%20Hardcoded%20IF%20Conditions/readme.md)
 
 [Code Smell 186 - Hardcoded Business Conditions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20186%20-%20Hardcoded%20Business%20Conditions/readme.md)
 
-# More Info
+# More Information 📕
 
 [How to Get Rid of Annoying IFs Forever](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
  

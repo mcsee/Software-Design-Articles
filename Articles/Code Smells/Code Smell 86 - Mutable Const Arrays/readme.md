@@ -6,21 +6,21 @@
 
 > TL;DR: Don't rely on languages cheating about directives.
 
-# Problems
+# Problems 😔 
 
 - Unexpected side effects
 
 - Accidental complexity
 
-# Solutions
+# Solutions 😃
 
 1. Use better languages
 
 2. Use [spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/03563ad0268ac240336fcab195f8da29) -->
 
@@ -34,7 +34,7 @@ array.push(3)
 // constant != immutable ?
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/c1610a6305aa2a1f3b9add686652d0b7) -->
 
@@ -47,35 +47,35 @@ const newArray = [...array, 3]
 // newArray = [1, 2, 3]
 ```
 
-# Detection
+# Detection 🔍
 
 Since this is a "language feature", we can explicitly forbid it.
 
-# Tags
+# Tags 🏷️
 
 - Mutability
 
 - JavaScript
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# Conclusion
+# Conclusion 🏁
 
 We should always favor immutability on our designs and take extra care with side effects.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 116 - Variables Declared With 'var'](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20116%20-%20Variables%20Declared%20With%20'var'/readme.md)
 
 [Code Smell 127 - Mutable Constants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20127%20-%20Mutable%20Constants/readme.md)
 
-# More Info
+# More Information 📕
 
 [The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Zorik D](https://unsplash.com/@justzorik) on [Unsplash](https://unsplash.com/s/photos/zombie)  
 

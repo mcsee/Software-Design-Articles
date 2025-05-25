@@ -6,7 +6,7 @@
 
 > TL;DR: Don't abuse closures and functions. Encapsulate them into objects.
 
-# Problems
+# Problems 😔 
 
  - Maintainability
 
@@ -18,19 +18,19 @@
 
 - Debugging
 
-# Solutions
+# Solutions 😃
 
 1. Wrap functions/closures
 
 2. Reify algorithms in a [method object](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20010%20-%20Extract%20Method%20Object/readme.md) / Strategy
 
-# Refactorings
+# Refactorings ⚙️
 
 [Refactoring 010 - Extract Method Object](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20010%20-%20Extract%20Method%20Object/readme.md)
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ee95a7e72f3c758d6544eab054ce2697) -->
 
@@ -54,7 +54,7 @@ scores = [9, 5, 2, 7, 23, 1, 3];
 sorted = sortFunction(scores, (a,b) => {return a > b});
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/f3000f6792099ea70c649698203554b8) -->
 
@@ -107,25 +107,25 @@ sorted = new
   BubbleSortingStrategy(scores,new ElementComparator()).sorted();
 ```
 
-# Detection
+# Detection 🔍
 
 - Closures and anonymous functions are very useful to model *code blocks*, *promises* etc. So It'd difficult to tear them apart.
 
-# Tags
+# Tags 🏷️
 
 - Primitive
 
 - Abuser
 
-# Conclusion
+# Conclusion 🏁
 
 Humans read code. Software works ok with anonymous functions, but maintainability is compromised when multiple closures are invoked.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Roman Mager](https://unsplash.com/@roman_lazygeek) on [Unsplash](https://unsplash.com/s/photos/math)
 

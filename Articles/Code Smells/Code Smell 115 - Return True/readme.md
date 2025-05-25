@@ -6,7 +6,7 @@
 
 > TL;DR: Don't return true or false. Be declarative.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -14,21 +14,21 @@
 
 - [If/Else abuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1. Return truth value in a declarative way
 
 2. Replace *IF* With polymorphism.
 
-# Context
+# Context 💬
 
 Dealing with low-level abstractions, we usually return booleans. 
 
 When we create complex and mature software, we start to forget about this primitive obsession and care about [real-world](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) rules and identities.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/973a11295d0d93baa620763dd8eff801) -->
 
@@ -42,7 +42,7 @@ boolean isEven(int num) {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ab38ef6fcc5dd6dea98f1edb452e75e9) -->
 
@@ -54,31 +54,31 @@ boolean isEven(int numberToCheck) {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 Many linters can check syntactic trees and look for explicit true/value returns.
 
-# Tags
+# Tags 🏷️
 
 - Primitive
 
-# Conclusion
+# Conclusion 🏁
 
 Search on code libraries for *return true* statements and try to replace them when possible.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 36 - Switch/case/elseif/else/if statements](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md)
 
 [Code Smell 118 - Return False](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20118%20-%20Return%20False/readme.md)
 
-# More Info
+# More Information 📕
 
 - [How to get rid of IFs forever](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [engin akyurt](https://unsplash.com/@enginakyurt) on [Unsplash](https://unsplash.com/s/photos/flag)  
 

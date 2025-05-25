@@ -6,7 +6,7 @@
 
 > TL;DR: Beware of passing arguments by reference
 
-# Problems
+# Problems 😔 
 
 - Unexpected Results
 
@@ -16,7 +16,7 @@
 
 - Broken Encapsulation
 
-# Solutions
+# Solutions 😃
 
 1. Pass arguments by copying even large objects. Don't make [premature optimizations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md).
 
@@ -28,7 +28,7 @@
 
 5 Use Pure Functions
 
-# Context
+# Context 💬
 
 A call-by-reference language like C# or PHP makes it more difficult for a programmer to track the effects of a function call, and may introduce subtle bugs.
 
@@ -42,9 +42,9 @@ However, when you pass a pointer to an object, you can modify the original objec
 
 On the contrary, functional languages forbid this mechanism completely. 
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/5f444e26b2b3a658004a8c39ef5f30a1) -->
 
@@ -81,7 +81,7 @@ namespace Example
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/8e19291a5de8ad1b7a7ebf30ab0935f0) -->
 
@@ -119,23 +119,23 @@ namespace Example
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 You can use many linters to warn with arguments passed by reference
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
-# Conclusion
+# Conclusion 🏁
 
 Passing objects by reference can lead to unexpected side effects if the function modifies the object in a way that wasn't anticipated by the caller. 
 
 You should use copy by value instead.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 116 - Variables Declared With 'var'](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20116%20-%20Variables%20Declared%20With%20'var'/readme.md)
 
@@ -143,17 +143,17 @@ You should use copy by value instead.
 
 [Code Smell 209 - Side Effects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20209%20-%20Side%20Effects/readme.md)
 
-# More Info
+# More Information 📕
 
 [Modifiyng Method Parameter](https://methodpoet.com/modifying-method-parameter/)
 
 [Wikipedia](https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_reference)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Quino Al](https://unsplash.com/@quinoal) on [Unsplash](https://unsplash.com/photos/KydWCDJe9s0)
     

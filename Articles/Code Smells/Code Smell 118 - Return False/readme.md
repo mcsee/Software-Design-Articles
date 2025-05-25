@@ -6,7 +6,7 @@
 
 > TL;DR: Don't return explicit booleans. Most boolean usages are code smells.
 
-# Problems
+# Problems 😔 
 
 - Declarativeness
 
@@ -14,21 +14,21 @@
 
 - Implementative solutions
 
-# Solutions
+# Solutions 😃
 
 1. Return a boolean proposition instead of checking a negation.
 
 2. Answer must be a business logic formula, not an algorithm.
 
-# Context
+# Context 💬
 
 When dealing with boolean formulas, it is more readable to show a business boolean formula than introduce a negated [IF](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md) clause.
 
 Programmers tend to return accidental implementative solutions instead of real business rules.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/57c079a22fe139667c8330a937d4dcca) -->
 
@@ -41,7 +41,7 @@ function canWeMoveOn() {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/0f0cfe7cd5133dc605555eeb20feaa95) -->
 
@@ -51,23 +51,23 @@ function canWeMoveOn() {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 Based on syntax trees, we can safely refactor the code.
 
-# Tags
+# Tags 🏷️
 
 - Boolean
 
-# Conclusion
+# Conclusion 🏁
 
 Beware of returning booleans. 
 
 After the return, you will need an [If statement](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md) which is also a [code smell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md).
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 115 - Return True](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20115%20-%20Return%20True/readme.md)
 
@@ -83,11 +83,11 @@ After the return, you will need an [If statement](https://github.com/mcsee/Softw
 
 [Code Smell 199 - Gratuitous Booleans](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20199%20-%20Gratuitous%20Booleans/readme.md)
 
-# More Info
+# More Information 📕
 
 - [How to Get Rid of Annoying Ifs Forever](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Morgan Housel](https://unsplash.com/@morganhousel) on [Unsplash](https://unsplash.com/s/photos/not)
   

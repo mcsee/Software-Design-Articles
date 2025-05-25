@@ -6,7 +6,7 @@
 
 > TL;DR: Ensure you fail the test when no exception is thrown in invalid conditions.
 
-# Problems
+# Problems 😔 
 
 - Silent faulty tests
 - Missing failure condition
@@ -14,7 +14,7 @@
 - Unclear test outcome
 - Skipped test logic
 
-# Solutions
+# Solutions 😃
 
 1. Add failure assertion
 2. Explicit exception validation
@@ -23,7 +23,7 @@
 5. Check all your test paths
 6. Use mutation testing
 
-# Context
+# Context 💬
 
 When writing tests you expect certain cases to throw exceptions. 
 
@@ -33,9 +33,9 @@ If breaking some contract doesn't raise an exception, the test will still pass w
 
 Always include a failure condition to ensure the test fails when the expected exception isn't thrown.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/5e14a4afa16ee8d9cfe49ae717dfedcd) -->
 
@@ -55,7 +55,7 @@ try {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/7e86687a61a69093e9c1d4ab1115d718) -->
 
@@ -83,7 +83,7 @@ try {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
@@ -91,27 +91,27 @@ You can detect this smell by looking for *try-catch* blocks without a failure co
 
 Test cases expecting exceptions should always include *assert(false)* right after the invalid action.
  
-# Tags
+# Tags 🏷️
 
 - Testing 
 
-# Level
+# Level 🔋
  
 [X] Intermediate 
 
-# AI Generation
+# AI Generation 🤖
 
 AI generators can create this smell because they often focus on handling exceptions but might miss adding failure conditions when the exception doesn't occur. 
 
 This leads to the silent passing of faulty tests.
 
-# AI Detection
+# AI Detection 🥃
 
 AI can detect this smell if you instruct it to check for missing failure assertions after expected exceptions. 
 
 It can automatically add the missing condition to ensure tests fail properly when no exception is thrown.
 
-## Try Them!
+## Try Them! 🛠
 
 *Remember: AI Assistants make lots of mistakes*
 
@@ -129,13 +129,13 @@ It can automatically add the missing condition to ensure tests fail properly whe
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Conclusion
+# Conclusion 🏁
 
 You must include a fail condition when testing invalid actions like firing at the same position in Battleship. 
 
 This ensures the test fails if no exception is thrown, preventing silent errors. Always validate the error message and ensure your tests catch valid and invalid behaviors.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 73 - Exceptions for Expected Cases](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2073%20-%20Exceptions%20for%20Expected%20Cases/readme.md)
 
@@ -143,11 +143,11 @@ This ensures the test fails if no exception is thrown, preventing silent errors.
 
 [Code Smell 132 - Exception Try Too Broad](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20132%20-%20Exception%20Try%20Too%20Broad/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Nik](https://unsplash.com/@helloimnik) on [Unsplash](https://unsplash.com/photos/pathway-between-forest-trees-YBlIqmme5pE)
     

@@ -68,6 +68,8 @@ Let's go for the solutions!
 
 [Refactoring 027 - Remove Getters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20027%20-%20Remove%20Getters/readme.md)
 
+[Refactoring 028 - Replace Consecutive IDs with Dark Keys](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20028%20-%20Replace%20Consecutive%20IDs%20with%20Dark%20Keys/readme.md)
+
 * * *
 
 Photo by [No Revisions](https://unsplash.com/ja/@norevisions) on [Unsplash](https://unsplash.com/es/s/fotos/cleaning)

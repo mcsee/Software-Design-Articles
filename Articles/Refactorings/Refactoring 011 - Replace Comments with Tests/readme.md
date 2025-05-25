@@ -6,13 +6,13 @@
 
 > TL;DR: Take your comment, compact it, and name your functions. Now test it and remove the comments.
 
-# Problems Addressed
+# Problems Addressed 😔
 
 - Maintainability
 
 - Readability
 
-# Related Code Smells
+# Related Code Smells 💨
 
 [Code Smell 183 - Obsolete Comments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20183%20-%20Obsolete%20Comments/readme.md)
 
@@ -20,7 +20,7 @@
 
 [Code Smell 112 - Testing Private Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20112%20-%20Testing%20Private%20Methods/readme.md)
 
-# Steps
+# Steps 👣 
 
 1. Take the comment of the method explaining what the function does.
 
@@ -30,9 +30,9 @@
 
 4. Omit irrelevant implementation details.
 
-# Sample Code
+# Sample Code 📖
 
-## Before
+## Before 🚨 
 
 <!-- [Gist Url](https://gist.github.com/mcsee/99a20b92785fa34a4dd5c32a8623e8d4) -->
 
@@ -52,7 +52,7 @@ def multiply(a, b):
 # that verify the behavior of the function.
 ```
 
-## After
+## After 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/e73306c042cbc8f200fc149d78f24173) -->
 
@@ -79,7 +79,8 @@ class TestMultiply(unittest.TestCase):
 
 # You define a test function called test_multiply,
 # which calls the multiply function with different arguments 
-# and verifies that the result is correct using the assertEqual method.
+# and verifies that the result
+# is correct using the assertEqual method.
 
 # 1. Take the comment of the method explaining what the function does.
 # 2. Rename the method with the comment description (the what).
@@ -87,21 +88,21 @@ class TestMultiply(unittest.TestCase):
 # 4. Omit irrelevant implementation details
 ```
 
-# Type
+# Type 📝
 
 [X] Semi-Automatic
 
 We can rewrite the comment and compact it, but it is not always in an algorithmic way.
 
-# Safety
+# Safety 🛡️
 
 This is not a safe refactor but it increases coverage.
 
-# Why is the Code Better?
+# Why is the Code Better? ✨
 
 Comments lie. The code doesn't.
 
-# Limitations
+# Limitations ⚠️
 
 We cannot [test private methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20112%20-%20Testing%20Private%20Methods/readme.md).
 
@@ -109,7 +110,7 @@ In the unlikely event that we need to replace a comment on a private method, we 
 
 We can leave comments reflecting important design decisions.
 
-# Tags
+# Tags 🏷️
 
 - Comments
 
@@ -117,11 +118,11 @@ We can leave comments reflecting important design decisions.
 
 [X] Beginner
 
-# Related Refactorings
+# Related Refactorings 🔄
 
 [Refactoring 010 - Extract Method Object](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20010%20-%20Extract%20Method%20Object/readme.md)
 
-# Credits
+# Credits 🙏
 
 Image by [philm1310](https://pixabay.com/users/philm1310-752382/) on [Pixabay](https://pixabay.com/)
 

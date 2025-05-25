@@ -6,27 +6,27 @@
 
 > TL;DR: Follow Uncle Bob's boy scout rule.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
 - Maintainability
 
-# Solutions
+# Solutions 😃
 
 1. Leave the code better
 
 2. Change it
 
-# Context
+# Context 💬
 
 We read code many more times than we write.
 
 We must take ownership of code with errors and leave it better.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/5577d55a7a059073137b7d892b218e80) -->
 
@@ -42,7 +42,7 @@ int mult(int a,int  other)
 // Formatting, naming, assignment and standards inconsistent
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/952f2de180ccdbe8bb73f7dfac162fe5) -->
 
@@ -60,21 +60,21 @@ int multiply(int firstMultiplier, int secondMultiplier) {
 // or just multiply them :)
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 We can use other code smell detectors and leave the code in a better shape.
 
-# Tags
+# Tags 🏷️
 
 - Standards
 
-# Conclusion
+# Conclusion 🏁
 
 We must follow the Boy Scout rule and leave the code better.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 164 - Mixed Indentations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20164%20-%20Mixed%20Indentations/readme.md)
 
@@ -82,11 +82,11 @@ We must follow the Boy Scout rule and leave the code better.
 
 [Code Smell 148 - ToDos](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20148%20-%20ToDos/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Pawel Czerwinski](https://unsplash.com/@pawel_czerwinski) on [Unsplash](https://unsplash.com/s/photos/windows-broken)  
 

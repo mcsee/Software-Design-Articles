@@ -6,20 +6,20 @@
 
 > TL;DR: Ditch the Loops: Write Cleaner Code with Declarative Style
 
-# Problems
+# Problems 😔 
 
 - Verbose logic
 - Repeated patterns
 - Readability
 - Maintainability
 
-# Solutions
+# Solutions 😃
 
 1. Remove loops
 2. Simplify logic
 3. Write declarative and high-level code
 
-# Context
+# Context 💬
 
 When summing a collection, you might manually loop through the elements and add each one to a variable. 
 
@@ -29,9 +29,9 @@ Using language high-level functions, you can make your code shorter, clearer, an
 
 It tells you exactly what the code is doing and not how it is doing it.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/77bb05bc96d301c961d096fa5bbd4687) -->
 
@@ -42,7 +42,7 @@ for transaction_value in transaction_values:
     balance += transaction_value
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/1dd5fadc08e94b85be0d1cfca26ce8a6) -->
 
@@ -51,31 +51,31 @@ transactions_values = [10.0, -5.21, 101.32, 1.11, -0.38]
 balance = sum(transactions_values)
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 You can detect this smell when you see explicit loops accumulating a result, especially in simple operations like summing values.  
 
-# Tags
+# Tags 🏷️
 
 - Declarative
 
-# Level
+# Level 🔋
 
 [X] Beginner 
 
-# AI Generation
+# AI Generation 🤖
 
 AI generators can sometimes produce this smell by writing verbose loops instead of using functions like *sum()*.
 
 If you don't specify the need for cleaner, declarative solutions, they might opt for more lines of code.
 
-# AI Detection
+# AI Detection 🥃
 
 AI systems can easily detect and simplify this smell when you ask them to reduce code complexity with simple instructions to "optimize" or "simplify," most AI tools suggest using *sum()* in this case.
 
-## Try Them!
+## Try Them! 🛠
 
 *Remember: AI Assistants make lots of mistakes*
 
@@ -93,23 +93,23 @@ AI systems can easily detect and simplify this smell when you ask them to reduce
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Conclusion
+# Conclusion 🏁
 
 Favoring declarative functions like *sum()* improves readability and reduces potential errors. 
 
 You reduce the need for manual loops and make it easier to maintain. It shows exactly what the code is doing with minimal syntax and clutter.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 53 - Explicit Iteration](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2053%20-%20Explicit%20Iteration/readme.md)
 
 [Code Smell 123 - Mixed 'What' and 'How'](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20123%20-%20Mixed%20'What'%20and%20'How'/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Kati Hoehl](https://unsplash.com/@helenatheactress) on [Unsplash](https://unsplash.com/photos/a-wooden-abacusk-sitting-on-top-of-a-table-next-to-a-plant-i3rBo3b9QbA)
     

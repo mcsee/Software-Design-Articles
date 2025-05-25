@@ -6,19 +6,19 @@
 
 > TL;DR: Design and test the software. It is cheaper than the hardware
 
-# Problems
+# Problems 😔 
 
 - [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Fault
 
 - Unexpected Defects
 
-# Solutions
+# Solutions 😃
 
 1. Create accurate simulations
 
 2. Make [fault-tolerant](https://en.wikipedia.org/wiki/Fault_tolerance) software
 
-# Context
+# Context 💬
 
 [Luna-25](https://en.wikipedia.org/wiki/Luna_25) crashed on the moon's surface on August 19, 2023. 
 
@@ -28,9 +28,9 @@ A [forensic analysis](https://t.me/roscosmos_gk/11053) revealed that the instruc
 
 Spacecrafts have a [long history](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md) of software faults.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/e828fb96c53f62f62b40dc70bc1b02ee) -->
 
@@ -68,7 +68,7 @@ task_manager.add_task(reviveKlaatu, 3)
 task_manager.execute_tasks()
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/eb49b855ffcefc372150228b9b9f0a70) -->
 
@@ -107,31 +107,31 @@ task_manager.add_task(reviveKlaatu, 3)
 task_manager.execute_tasks()
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
 This is a design smell
 
-# Tags
+# Tags 🏷️
 
 - Reliability
 
-# Conclusion
+# Conclusion 🏁
 
 Create software components and simulate real and not real conditions
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 198 - Hidden Assumptions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20198%20-%20Hidden%20Assumptions/readme.md)
 
-# More Info
+# More Information 📕
 
 [Roscosmos Telegram](https://t.me/roscosmos_gk/11053)
 
 [Asia Times](https://asiatimes.com/2023/08/luna-25-crash-lands-russia-china-space-ambitions/)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
   

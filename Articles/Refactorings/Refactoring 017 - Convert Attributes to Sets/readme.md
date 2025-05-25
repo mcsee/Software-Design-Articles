@@ -6,14 +6,14 @@
 
 > TL;DR: Using sets for attributes simplifies your code and makes state management easier
 
-# Problems Addressed
+# Problems Addressed 😔
 
 - Mutability 
 - Complexity
 - [Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2034%20-%20Too%20Many%20Attributes/readme.md) become polluted  
 - Setters  
 
-# Related Code Smells
+# Related Code Smells 💨
 
 [Code Smell 35 - State as Properties](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2035%20-%20State%20as%20Properties/readme.md)
 
@@ -21,15 +21,15 @@
 
 [Code Smell 34 - Too Many Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2034%20-%20Too%20Many%20Attributes/readme.md)
 
-# Steps
+# Steps 👣 
 
 1. Identify attributes representing states
 2. Replace the attributes with sets: one for each state
 3. Adjust methods to move items between sets instead of mutating attributes
 
-# Sample Code
+# Sample Code 📖
 
-## Before
+## Before 🚨 
 
 <!-- [Gist Url](https://gist.github.com/mcsee/18b119021e9a5c4e2340a72a0bd12978) -->
 
@@ -56,7 +56,7 @@ bill.pay();
 console.log(bill.paid); // true
 ```
 
-## After
+## After 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/f05f0411564b9a39697ebfa848e46995) -->
 
@@ -103,17 +103,17 @@ accountant.payBill(bill);
 console.log(accountant.paidBills.has(bill)); // true
 ```
 
-# Type
+# Type 📝
 
 [X] Semi-Automatic
 
-# Safety
+# Safety 🛡️
 
 This refactoring is safe when your attributes don't rely on specific indexing behavior.
 
 Since sets don't maintain element order, check if your logic depends on order.
 
-# Why is the Code Better?
+# Why is the Code Better? ✨
 
 Entities are immutable in the essence.
 
@@ -123,7 +123,7 @@ You no longer need to check for duplicates before adding elements.
 
 Operations like union, intersection, and difference become straightforward, making your code more maintainable and flexible.
 
-# Limitations
+# Limitations ⚠️
 
 Sets don't preserve element order.
 
@@ -149,7 +149,7 @@ You can prompt your AI assistants to make this refactoring for you.
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Tags
+# Tags 🏷️
 
 - Mutability
 
@@ -157,15 +157,15 @@ You can prompt your AI assistants to make this refactoring for you.
 
 [X] Intermediate
 
-# Related Refactorings
+# Related Refactorings 🔄
 
 [Refactoring 001 - Remove Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
 
-# See also
+# See also 📚
 
 [The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
-# Credits
+# Credits 🙏
 
 Image by [Angelo Giordano](https://pixabay.com/users/angelo_giordano-753934/) in [Pixabay](https://pixabay.com/)
 

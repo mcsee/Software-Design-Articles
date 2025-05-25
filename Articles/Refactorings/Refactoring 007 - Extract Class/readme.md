@@ -6,7 +6,7 @@
 
 > TL;DR: Put together what belongs together 
 
-# Problems Addressed
+# Problems Addressed 😔
 
 - Code Duplication
 
@@ -14,7 +14,7 @@
 
 - Low Cohesion
 
-# Related Code Smells
+# Related Code Smells 💨
 
 [Code Smell 124 - Divergent Change](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20124%20-%20Divergent%20Change/readme.md)
 
@@ -22,15 +22,15 @@
 
 [Code Smell 147 - Too Many Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20147%20-%20Too%20Many%20Methods/readme.md)
 
-# Steps
+# Steps 👣 
 
 1. Extract the methods (and accidentally the properties) coupled into a new concept
 
 2. Use the new concept
 
-# Sample Code
+# Sample Code 📖
 
-## Before
+## Before 🚨 
 
 <!-- [Gist Url](https://gist.github.com/mcsee/04dfcde00d2d40c8741f9af2fbeba469) -->
 
@@ -60,7 +60,7 @@ final class Person {
  }
 ```
 
-## After
+## After 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/3038811d4e9e821908b54092ad8efaee) -->
 
@@ -100,21 +100,21 @@ final class Person {
   }
 ```
 
-# Type
+# Type 📝
 
 [X] Automatic
 
 Most IDEs implement this safe refactor.
 
-# Safety
+# Safety 🛡️
 
 This is a safe refactoring.
 
-# Why is the Code Better?
+# Why is the Code Better? ✨
 
 Logic code is in just one place together with its rules
 
-# Tags
+# Tags 🏷️
 
 - Classes
 
@@ -122,17 +122,27 @@ Logic code is in just one place together with its rules
 
 [X] Intermediate
 
-# Related Refactorings
+# Related Refactorings 🔄
 
 [Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
-# See also
+[Refactoring 019 - Reify Email Addresses](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20019%20-%20Reify%20Email%20Addresses/readme.md)
+
+[Refactoring 013 - Remove Repeated Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20013%20-%20Remove%20Repeated%20Code/readme.md)
+
+[Refactoring 023 - Replace Inheritance with Delegation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20023%20-%20Replace%20Inheritance%20with%20Delegation/readme.md)
+
+[Refactoring 018 - Replace Singleton](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20018%20-%20Replace%20Singleton/readme.md)
+
+[Refactoring 020 - Transform Static Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20020%20-%20Transform%20Static%20Functions/readme.md)
+
+# See also 📚
 
 [Refactoring.com](https://refactoring.com/catalog/extractClass.html)
 
 [Refactoring Guru](https://refactoring.guru/extract-class)
  
-# Credits
+# Credits 🙏
 
 Image from [drpepperscott230](https://pixabay.com/users/drpepperscott230-1212529/) on [Pixabay](https://pixabay.com/)
 

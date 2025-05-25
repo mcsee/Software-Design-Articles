@@ -6,17 +6,17 @@
 
 > TL;DR: Be very careful with Javascript Arrays.
 
-# Problems
+# Problems 😔 
 
 - The Least surprise principle violation
 
-# Solutions
+# Solutions 😃
 
 1. Be as declarative as possible
 
 2. Avoid creating Arrays with one argument.
 
-# Context
+# Context 💬
 
 Javascript has a lot of magic tricks.
 
@@ -24,9 +24,9 @@ Knowing them makes some developers proud and a sense of belonging to juniors.
 
 A language should be intuitive, homogeneous, predictable, simple, and pure.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/5d0644c120630d637c9649d7c92805c7) -->
 
@@ -42,7 +42,7 @@ console.log(arrayWithFixedLength[4]); // Undefined too
 console.log(arrayWithFixedLength.length); // 3
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/a7f4c59210257cb279efc6747b4e3122) -->
 
@@ -67,21 +67,21 @@ console.log(arrayWithTwoElementsLiteral[5]); // Undefined
 console.log(arrayWithTwoElementsLiteral.length); // 2
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 We can check for the notation with one argument and flag it as a warning.
 
-# Tags
+# Tags 🏷️
 
 - Smart
 
-# Conclusion
+# Conclusion 🏁
 
 Many "modern" languages are full of hacks to make life easier for programmers but are a source of potential undiscovered bugs.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
@@ -89,11 +89,11 @@ Many "modern" languages are full of hacks to make life easier for programmers bu
 
 [Code Smell 93 - Send me Anything](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2093%20-%20Send%20me%20Anything/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Ryan Quintal](https://unsplash.com/@ryanquintal) on [Unsplash](https://unsplash.com/photos/US9Tc9pKNBU)
   

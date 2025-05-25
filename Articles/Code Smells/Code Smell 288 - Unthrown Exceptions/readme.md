@@ -30,7 +30,7 @@ Creating exceptions is the same as creating business objects and constructors sh
 
 Unless you throw them, it is **[dead code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2009%20-%20Dead%20Code/readme.md)**.
 
-# Sample Code
+# Sample Code 📖
 
 ## Wrong 🚫
 
@@ -127,7 +127,7 @@ Fixing it requires proper domain knowledge to decide **where to throw the except
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Conclusion ✔️
+# Conclusion 🏁
 
 Always throw exceptions **immediately** after you create them.
 

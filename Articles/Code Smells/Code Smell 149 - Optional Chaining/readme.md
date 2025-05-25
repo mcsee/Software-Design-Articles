@@ -6,27 +6,27 @@
 
 > TL;DR: Avoid Nulls and undefined. If you avoid them you will never need Optionals.
 
-# Problems
+# Problems 😔 
 
 - Nulls
 
 - [IF Polluting](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1. Remove nulls
 
 2. Deal with undefined
 
-# Context
+# Context 💬
 
 [Optional Chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining), Optionals, Coalescence, and many other solutions help us deal with the infamous nulls. 
 
 There's no need to use them once our code is mature, robust, and without nulls.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/7f97455e51c8cd89319117103b25bda5) -->
 
@@ -45,7 +45,7 @@ user.functionDefinedOrNot?.();
 // of potential NULLs and Undefined
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/df8b74e09cd2bc4ee69e7b9197585a0a) -->
 
@@ -75,7 +75,7 @@ if (user.functionDefinedOrNot !== undefined) {
 // Explicit undefined checks are yet another code smell
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
@@ -83,15 +83,15 @@ This is a *Language Feature*.
 
 We can detect it and remove it.
 
-# Tags
+# Tags 🏷️
 
 - Null
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# Conclusion
+# Conclusion 🏁
 
 Many developers feel safe polluting the code with null dealing.
 
@@ -107,7 +107,7 @@ We need to aim higher and make cleaner code.
 
 *The ugly*: not treating nulls at all
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 145 - Short Circuit Hack](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20145%20-%20Short%20Circuit%20Hack/readme.md)
 
@@ -115,7 +115,7 @@ We need to aim higher and make cleaner code.
 
 [Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2069%20-%20Big%20Bang%20(JavaScript%20Ridiculous%20Castings)/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Optional Chaining Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
 
@@ -125,7 +125,7 @@ We need to aim higher and make cleaner code.
 
 [WAT?](https://www.destroyallsoftware.com/talks/wat)
 
-# Credits
+# Credits 🙏
 
 Photo by [engin akyurt](https://unsplash.com/@enginakyurt) on [Unsplash](https://unsplash.com/s/photos/chains)
   

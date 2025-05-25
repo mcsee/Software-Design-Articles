@@ -6,7 +6,7 @@
 
 > TL;DR: Use clear names for better code understanding.
 
-# Problems
+# Problems 😔 
 
 - Unclear variable purpose
 - [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Fault 
@@ -17,7 +17,7 @@
 - [Abbreviations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2033%20-%20Abbreviations/readme.md)
 - Increased cognitive load
 
-# Solutions
+# Solutions 😃
 
 1. Honor the [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) 
 2. Use precise names
@@ -27,7 +27,7 @@
 6. Follow naming conventions
 7. Reify names with their rules
 
-# Context
+# Context 💬
 
 When handling a single *fileName* or *directoryPath*, vague names like *file* or *dirName* create confusion. 
 
@@ -45,9 +45,9 @@ When you name a variable *dirName* instead of directoryName it leads to ambiguit
 
 Clear and descriptive variable names improve code readability and maintainability, especially in collaborative environments.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/0fb80439dd8c8e83797a3dad15a0cb22) -->
 
@@ -70,7 +70,7 @@ function importDirectoryScores(dirName) {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/2946663ac7d99b4925457dbbe5dfaefd) -->
 
@@ -135,31 +135,31 @@ class Filename {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 Look for generic names in code handling files or directory paths like *file* or *dirName*. 
   
-# Tags
+# Tags 🏷️
 
 - Naming
 
-# Level
+# Level 🔋
 
 [x] Beginner 
 
-# AI Generation
+# AI Generation 🤖
 
 AI models may default to ambiguous names like *file* or *dirName* without specific instructions. 
 
 Adding descriptive naming and code extraction guidelines can improve the AI's output.
 
-# AI Detection
+# AI Detection 🥃
 
 AI tools can fix this smell by using clear naming conventions and suggesting code extraction if prompted to avoid redundant code.
 
-## Try Them!
+## Try Them! 🛠
 
 *Remember: AI Assistants make lots of mistakes*
 
@@ -177,21 +177,21 @@ AI tools can fix this smell by using clear naming conventions and suggesting cod
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Conclusion
+# Conclusion 🏁
 
 By using precise names like *fileName* and *directoryPath* and extracting reusable methods, you improve code clarity and maintainability. 
 
 These simple practices help reduce redundancy and keep your code understandable.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 33 - Abbreviations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2033%20-%20Abbreviations/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Gabriel Heinzer](https://unsplash.com/@6heinz3r) on [Unsplash](https://unsplash.com/photos/a-close-up-of-a-computer-screen-with-a-bunch-of-words-on-it-EUzk9BIEq6M)
         

@@ -6,7 +6,7 @@
 
 > TL;DR: Stick to English. Always.
 
-# Problems
+# Problems 😔 
 
 - Polymorphism
 
@@ -16,13 +16,13 @@
 
 - Syntactic Errors
 
-# Solutions
+# Solutions 😃
 
 1. Write in English
 
 2. Rename Domain Concepts to English
 
-# Context
+# Context 💬
 
 All programming languages are written in English.
 
@@ -36,9 +36,9 @@ I am not a Native English speaker.
 
 My code (tries to be) in English.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/498a2b777034a67a6725885a20d30c15) -->
 
@@ -77,7 +77,7 @@ class Person {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/34f1d56858e83e39ebda706a05315454) -->
 
@@ -102,7 +102,7 @@ echo moreElements.size() yields 2 // Since it is a multiset
 // You can exchange their implementation anytime
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
@@ -110,23 +110,23 @@ Most IDEs and linters have a thesaurus.
 
 We can search for foreign words.
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
-# Conclusion
+# Conclusion 🏁
 
 Don't mix Non-English domain words with English primitives.
 
 Even when [Mapping](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) your real-world entities, use plain English.
 
-# More Info
+# More Information 📕
 
 - [Coding Is for Everyone—as Long as You Speak English](https://www.wired.com/story/coding-is-for-everyoneas-long-as-you-speak-english/)
 
 - [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Anna Vander Stel](https://unsplash.com/@ann_van_) on [Unsplash](https://unsplash.com/s/photos/speak)  
 

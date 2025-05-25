@@ -6,7 +6,7 @@
 
 > TL;DR: Don't use diagrams. They are obsolete and dead.
 
-# Problems
+# Problems 😔 
 
 - Maintainability
 
@@ -16,7 +16,7 @@
 
 - Diagrams focus only on structure (accidental) and not behavior (essential).
 
-# Solutions
+# Solutions 😃
 
 1. Use diagrams only to communicate ideas with other humans.
 
@@ -32,13 +32,13 @@
 
 - [Automatic Code Generators](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 ![class-example-library-domain](Figure12.2.jpg)
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/36f0af6785ea36a05c3ec394fa71e4e8) -->
 
@@ -46,36 +46,36 @@
 <?
 
 final class BookItem {
-    function numberOfPages() { }
-    function language(): Language { }
-    function book(): Book { }        
-    function edition(): BookEdition { }
-    // Loan and overdues are not book items responsibility
+  function numberOfPages() { }
+  function language(): Language { }
+  function book(): Book { }        
+  function edition(): BookEdition { }
+  // Loan and overdues are not book items responsibility
 }
 
 final class LoanTracker {
-    function loan(
-        BookItem $bookCopy, 
-        LibraryUser $reader, 
-        DatePeriod $loanDates) {
-        // DatePeriod is better than anemic $fromDate and $toDate
-    }
+  function loan(
+      BookItem $bookCopy, 
+      LibraryUser $reader, 
+      DatePeriod $loanDates) {
+      // DatePeriod is better than anemic $fromDate and $toDate
+  }
 }
 
 final class LoanTrackerTests extends TestCase {
-    // Lots of maintained tests telling you how the system really works
+  // Lots of maintained tests telling you how the system really works
 }
 ```
 
-# Detection
+# Detection 🔍
 
 We can remove all code annotations and forbid them by policy. 
 
-# Tags
+# Tags 🏷️
 
 - Design
 
-# Conclusion
+# Conclusion 🏁
 
 Designing is a contact sport. We need to prototype and learn from our running models. 
 
@@ -84,13 +84,13 @@ Papers and JPGs don't run. They live in the utopic world where everything works 
 [CASE](https://en.wikipedia.org/wiki/Computer-aided_software_engineering) was a very hot trend back in the 90s. 
 No good system was developed with these tools.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
 [Code Smell 25 - Pattern Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2025%20-%20Pattern%20Abusers/readme.md)
  
-# More Info
+# More Information 📕
 
 [Laziness II - Code Wizards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
 
@@ -98,7 +98,7 @@ No good system was developed with these tools.
 
 [Wikipedia](https://en.wikipedia.org/wiki/Domain-driven_design)
 
-# Credits
+# Credits 🙏
 
 Photo by [Nick Seagrave](https://unsplash.com/@seagrave) on [Unsplash](https://unsplash.com/s/photos/map)
 

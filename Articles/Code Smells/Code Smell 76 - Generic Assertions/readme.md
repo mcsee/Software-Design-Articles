@@ -6,13 +6,13 @@
 
 > TL;DR: Test Assertions should be precise. Not too Vague and not too specific. There is no silver bullet.
 
-# Problems
+# Problems 😔 
 
 - False Negatives
 
 - Lack of Trust
 
-# Solutions
+# Solutions 😃
 
 1. Check the right case
 
@@ -20,9 +20,9 @@
 
 3. Don't test implementation.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/6712052beddeaac0d959785726fa82ca) -->
 
@@ -34,7 +34,7 @@ assert square.area() != 0
 # This will lead to false negatives since it is too vague
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d9f05a81f7689e86c353ccd6a29e8306) -->
 
@@ -46,29 +46,29 @@ assert square.area() = 25
 # Assertion should be precise
 ```
 
-# Detection
+# Detection 🔍
 
 With [Mutation Testing](https://en.wikipedia.org/wiki/Mutation_testing) techniques we can find these errors on our tests.
 
-# Tags
+# Tags 🏷️
 
 - Testing
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# Conclusion
+# Conclusion 🏁
 
 We should use development techniques like [TDD](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md) that request concrete business cases and make concrete assertions based on our domain.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 30 - Mocking Business](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md)
 
 [Code Smell 52 - Fragile Tests](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2052%20-%20Fragile%20Tests/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Test Driven Development](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md)
 
@@ -76,7 +76,7 @@ We should use development techniques like [TDD](https://github.com/mcsee/Softwar
 
 - [Mutation Testing](https://en.wikipedia.org/wiki/Mutation_testing)
 
-# Credits
+# Credits 🙏
 
 This smell was inspired by @[Mario Cervera](@macerub) and used with his [permission](https://twitter.com/macerub/status/1401209540436283397).
 

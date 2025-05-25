@@ -6,7 +6,7 @@
 
 > TL;DR: Avoid duplicate email validations.
 
-# Problems Addressed
+# Problems Addressed 😔
 
 - [Repeated email validation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2046%20-%20Repeated%20Code/readme.md) logic in multiple places.
 - Risk of inconsistent validation rules.
@@ -14,7 +14,7 @@
 - [Primitive Obsession](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20122%20-%20Primitive%20Obsession/readme.md)
 - [Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
-# Related Code Smells
+# Related Code Smells 💨
 
 [Code Smell 46 - Repeated Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2046%20-%20Repeated%20Code/readme.md)
  
@@ -26,15 +26,15 @@
 
 [Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)				     
 
-# Steps
+# Steps 👣 
 
 1. Identify where email validation logic is duplicated.
 2. Create an `Email Address` class to encapsulate validation rules.
 3. Refactor code to use the `Email Address` class instead of raw strings.
 
-# Sample Code
+# Sample Code 📖
 
-## Before
+## Before 🚨 
 
 <!-- [Gist Url](https://gist.github.com/mcsee/1653269940ca6f9ea0618197d29eaf6f) -->
 
@@ -69,7 +69,7 @@ public class JobApplication {
 }
 ```
 
-## After
+## After 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/39efccf33d24bf297d200a6e9034381a) -->
 
@@ -112,15 +112,15 @@ public class JobApplication {
 }
 ```
 
-# Type
+# Type 📝
 
 [X] Semi-Automatic
 
-# Safety
+# Safety 🛡️
 
 This refactoring is safe if you replace all occurrences of raw email strings with the 'EmailAddress' class and ensure all tests pass.
 
-# Why is the Code Better?
+# Why is the Code Better? ✨
 
 You make email validation consistent across your application. 
 
@@ -154,7 +154,7 @@ They never do actual benchmarks with real world data.
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Tags
+# Tags 🏷️
 
 - Encapsulation
 
@@ -162,7 +162,7 @@ They never do actual benchmarks with real world data.
 
 [X] Intermediate
 
-# Related Refactorings
+# Related Refactorings 🔄
 
 [Refactoring 007 - Extract Class](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20007%20-%20Extract%20Class/readme.md)
  
@@ -170,7 +170,7 @@ They never do actual benchmarks with real world data.
 
 [Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
-# Credits
+# Credits 🙏
  
 Image by [Gerd Altmann](https://pixabay.com/users/geralt-9301/) from [Pixabay](https://pixabay.com/)	       
 

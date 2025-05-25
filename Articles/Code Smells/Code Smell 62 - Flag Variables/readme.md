@@ -6,7 +6,7 @@
 
 *Flags indicate what happened. Unless their name is too generic.*
 
-# Problems
+# Problems 😔 
 
 Readability
  
@@ -14,15 +14,15 @@ Readability
 
 - Coupling
 
-# Solutions
+# Solutions 😃
 
 1. Use meaningful names
 
 2. Try to avoid flags. They generate coupling.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/694068de9cd2bbb8592d1a14bd89fe9e) -->
 
@@ -43,7 +43,7 @@ function dummy() {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/8a0de13a6fb13ae4da9c51a1b91c9705) -->
 
@@ -64,19 +64,19 @@ function dummy()
 }
 ```
 
-# Detection
+# Detection 🔍
 
 We can search all the code for bad named flags.
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
-# Conclusion
+# Conclusion 🏁
 
 Flags are widespread on production code. We should restrict their usage and use clear and intention revealing names.
  
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 51 - Double Negatives](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2051%20-%20Double%20Negatives/readme.md)
 
@@ -84,7 +84,7 @@ Flags are widespread on production code. We should restrict their usage and use 
 
 [Code Smell 118 - Return False](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20118%20-%20Return%20False/readme.md)
 
-# More Info
+# More Information 📕
 
 [Wikipedia](https://en.wikipedia.org/wiki/Boolean_flag)
 

@@ -6,19 +6,19 @@
 
 > TL;DR: Name your functions according to what happened.
 
-# Problems
+# Problems 😔 
 
 - [Observer Pattern](https://en.wikipedia.org/wiki/Observer_pattern) violation
 
 - Coupling
 
-# Solutions
+# Solutions 😃
 
 1. Name the events after "what happened", not "what you should do". 
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/0a96468b7877744c0ec41d60378df4cd) -->
 
@@ -34,7 +34,7 @@ const Item = ({name, handlePageChange)} =>
 // You cannot reuse this kind of callback
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/185fef9ac202fed779fcf8a6c8f0bac3) -->
 
@@ -49,35 +49,35 @@ const Item = ({name, onItemSelected)} =>
 // You defer the decision
 ```
 
-# Detection
+# Detection 🔍
 
 This is a semantic smell. We can detect it on peer code reviews.
 
-# Tags
+# Tags 🏷️
 
 - Coupling
 
 - Naming
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 Names are very important. We should delay implementation coupled names until the very last moment.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 139 - Business Code in the User Interface](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20139%20-%20Business%20Code%20in%20the%20User%20Interface/readme.md)
 
-# More Info
+# More Information 📕
 
 - [What is exactly in a name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
 
 - [Refactoring Guru](https://refactoring.guru/es/design-patterns/observer)
 
-# Credits
+# Credits 🙏
 
 Photo by [Ashim D’Silva](https://unsplash.com/@randomlies) on [Unsplash](https://unsplash.com/s/photos/button-pressed)
 

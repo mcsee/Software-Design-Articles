@@ -6,17 +6,17 @@
 
 > TL;DR: Names should be long enough. No longer.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
 - Cognitive Load
 
-# Solutions
+# Solutions 😃
 
 1. Use names related to the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
-# Context
+# Context 💬
 
 We used [very short names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2033%20-%20Abbreviations/readme.md) during the 50s and 60s due to space and time constraints.
 
@@ -26,9 +26,9 @@ Sometimes we get too excited.
 
 Naming is an art and we should be cautious with it.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/661d68a82e80799c6f9330d33c271a0b) -->
 
@@ -38,7 +38,7 @@ PlanetarySystem.PlanetarySystemCentralStarCatalogEntry
 // Redundant
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/7da772566dee2fb79f3bfea13196ee22) -->
 
@@ -46,33 +46,33 @@ PlanetarySystem.PlanetarySystemCentralStarCatalogEntry
 PlanetarySystem.CentralStarCatalogEntry
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 Our linters can warn us with too long names.
 
-# Tags
+# Tags 🏷️
 
 - Bloaters
 
 - Naming
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 There are no [hard rules](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md) on name length.
 
 Just Heuristics.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 33 - Abbreviations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2033%20-%20Abbreviations/readme.md)
 
-# More Info
+# More Information 📕
 
 - [What exactly is a name? — Part I: The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
 
@@ -80,7 +80,7 @@ Just Heuristics.
 
 - [Long and Short of Naming](https://agileotter.blogspot.com/2009/08/long-and-short-of-naming.html)
 
-# Credits
+# Credits 🙏
 
 Photo by [Emre Karataş](https://unsplash.com/@emrekaratas) on [Unsplash](https://unsplash.com/s/photos/long)
   

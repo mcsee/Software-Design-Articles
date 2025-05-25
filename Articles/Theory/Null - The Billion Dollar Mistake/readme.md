@@ -332,7 +332,7 @@ Some languages ​​support optionally the concept of Maybe/Optional which is a
 
 [Refactoring 015 - Remove NULL](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20015%20-%20Remove%20NULL/readme.md)
 
-# Conclusions
+# Conclusion 🏁
 
 Using *null* is a discouraged practice based on deep-rooted practices in the industry. 
 

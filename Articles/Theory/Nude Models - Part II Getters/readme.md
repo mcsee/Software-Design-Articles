@@ -236,7 +236,7 @@ Should this be the case, we must **first cover** the existing functionality, and
 
 Photo by [Greg Nunes](https://unsplash.com/@greg_nunes) on [Unsplash](https://unsplash.com/s/photos/rainbow)
 
-# Conclusions
+# Conclusion 🏁
 
 The well established practice of using _setters_ and _getters_ generates **coupling** and prevents the **incremental evolution** of our computer systems.
 

@@ -6,7 +6,7 @@
 
 > TL;DR: Don't trust max() and min() functions. Just ignore them.
 
-# Problems
+# Problems 😔 
 
 - Principle of the least astonishment
 
@@ -14,7 +14,7 @@
 
 - Unexpected Results
 
-# Solutions
+# Solutions 😃
 
 1. Use mature languages.
 
@@ -22,9 +22,9 @@
 
 3. Model Infinites carefully.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/8440adc57486989468045de4df3c9bef) -->
 
@@ -38,7 +38,7 @@ console.log(Math.max());
 // returns -Infinite
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/7f275da71e96bd4050e17c0ec7511c14) -->
 
@@ -50,29 +50,29 @@ console.log(Math.max());
 // Max requires at least one argument
 ```
 
-# Detection
+# Detection 🔍
 
 These functions belong to the standard Math library. Therefore, they are not easy to avoid. 
 
 We can block them on our linters.
 
-# Tags
+# Tags 🏷️
 
 - Javascript
 
-# Level
+# Level 🔋
 
 [x] Intermediate
 
-# Conclusion
+# Conclusion 🏁
 
 We need to be very careful using functions that violate real-world concepts using language tricks.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2069%20-%20Big%20Bang%20(JavaScript%20Ridiculous%20Castings)/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Principle of the least astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment)
 
@@ -80,7 +80,7 @@ We need to be very careful using functions that violate real-world concepts usin
 
 - [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Cris Baron](https://unsplash.com/@cris024) on [Unsplash](https://unsplash.com/s/photos/infinite)
   

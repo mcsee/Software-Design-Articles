@@ -105,7 +105,7 @@ The error will raise when running a nightly batch processing these dates far fro
 
 [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
-# Conclusions
+# Conclusion 🏁
 
 In this article, we define the only axiomatic design rule that we will respect no matter what by justifying the problems that come with not respecting it and laying the foundations for future definitions derived from it.
 

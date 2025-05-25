@@ -6,13 +6,13 @@
 
 > TL;DR: If you turn off your assertions just in production your phone will ring at late hours.
 
-# Problems
+# Problems 😔 
 - Consistency
 - Contract breaking
 - Hard to debug
 - Bad cohesion
 
-# Solutions
+# Solutions 😃
 
 - Create strong preconditions
 - Raise exceptions
@@ -25,9 +25,9 @@
 
 - [Anemic Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md) lack these rules.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/61e95b5c7a8d697cb748cd49b43aab90) -->
 
@@ -51,7 +51,7 @@ startDate.setMonth(13)
 # Should fail
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/b5eebe620b66c510bafe04a7a4f8ef82) -->
 
@@ -77,15 +77,15 @@ startDate.setMonth(13)
 # fails since invariant makes object immutable
 ```
 
-# Detection
+# Detection 🔍
 
 - It's difficult to find missing preconditions, as long with assertions and invariants.
 
-# Tags
+# Tags 🏷️
 
 - Consistency
 
-# Conclusion
+# Conclusion 🏁
 
 Always be explicit on object integrity.
 
@@ -99,17 +99,17 @@ Fail fast is a blessing.
 
 [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
 [Code Smell 189 - Not Sanitized Input](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20189%20-%20Not%20Sanitized%20Input/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Object-Oriented Software Construction (by Bertrand Meyer)](https://en.wikipedia.org/wiki/Object-Oriented_Software_Construction)
 
-# Credits
+# Credits 🙏
 
 Photo by [Jonathan Chng](https://unsplash.com/@jon_chng) on [Unsplash](https://unsplash.com/s/photos/running-track)
 

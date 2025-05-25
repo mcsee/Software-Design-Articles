@@ -6,25 +6,25 @@
 
 > TL;DR: Don't use nested IFs or nested ternaries
 
-# Problems
+# Problems 😔 
 
 - Readability
 
 - Default Case
 
-# Solutions
+# Solutions 😃
 
 1. Rewrite the code as an IF condition with an early return
 
-# Context
+# Context 💬
 
 Nesting is always a problem with complexity. 
 
 We can fix it with polymorphism or early returns
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/45754a6d586d067627c4796748686384) -->
 
@@ -39,7 +39,7 @@ const getUnits = secs => (
 )
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/4ac913c6d842c4f0fc9d8e9998348335) -->
 
@@ -71,25 +71,25 @@ const getUnits = secs => {
 // if this brings a considerable performance penalty
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 Linters can detect this complexity using parsing trees.
 
-# Tags
+# Tags 🏷️
 
 - IFs
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 We must deal with [accidental complexity](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md) to improve code readability.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 133 - Hardcoded IF Conditions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20133%20-%20Hardcoded%20IF%20Conditions/readme.md)
 
@@ -97,11 +97,11 @@ We must deal with [accidental complexity](https://github.com/mcsee/Software-Desi
 
 [Code Smell 102 - Arrow Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md)
  
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [NIKHIL](https://unsplash.com/@vinikhill) on [Unsplash](https://unsplash.com/photos/pThIEv416pE)
   

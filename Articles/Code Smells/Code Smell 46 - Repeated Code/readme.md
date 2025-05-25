@@ -6,7 +6,7 @@
 
 *DRY is our mantra. Teachers tell us to remove duplication. We need to go beyond.*
 
-# Problems
+# Problems 😔 
 
 - Code Duplication
 
@@ -14,7 +14,7 @@
 
 - [Don't Repeat Yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 
-# Solutions
+# Solutions 😃
 
 1. Find repeated patterns (not repeated code).
 
@@ -30,9 +30,9 @@
 
 - [Automatic Code Generators](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/b6df5d98efbecc9be783006d364e63f8) -->
 
@@ -58,7 +58,7 @@ final class Obfuscator {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/4eb63e5acfcdda39b24e3f6a73eb0bdb) -->
 
@@ -102,7 +102,7 @@ final class Obfuscator {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 Linters can find repeated code. 
 
@@ -112,11 +112,11 @@ Maybe soon machine learning will help us find such abstractions automatically.
 
 For now, it is up to us, humans.
 
-# Tags
+# Tags 🏷️
 
 - Duplication
 
-# Conclusion
+# Conclusion 🏁
 
 Repeated code is always a smell. 
 
@@ -124,11 +124,11 @@ Copying and pasting code is always a shame.
 
 With our refactoring tools, we need to accept the duplication remove challenge trusting our tests as a safety net.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 11 - Subclassification for Code Reuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
 
-# More Info
+# More Information 📕
 
 [Laziness II - Code Wizards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
 
@@ -136,7 +136,7 @@ With our refactoring tools, we need to accept the duplication remove challenge t
 
 [Dry](https://deepdive.hashnode.dev/dry-dont-repeat-yourself)
 
-# Credits
+# Credits 🙏
 
 Photo by [Sid Balachandran](https://unsplash.com/@itookthose) on [Unsplash](https://unsplash.com/s/photos/parrot)
 

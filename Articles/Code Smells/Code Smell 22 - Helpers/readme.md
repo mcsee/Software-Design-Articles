@@ -6,7 +6,7 @@
 
 > TL;DR: Helpers don't help. They are a non-cohesive bunch of messy subroutines.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -18,7 +18,7 @@
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1. Find a suitable name
 
@@ -28,9 +28,9 @@
 
 4. Avoid extracting the helpers to [Anonymous Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2021%20-%20Anonymous%20Functions%20Abusers/readme.md).
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/0fcfc27f845835533e1853384bc2f4da) -->
 
@@ -75,7 +75,7 @@ const fullName = UserHelpers.getFullName(alice);
 const category = UserHelpers.getCategory(alice);
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/bd0982f4c86a3523cd5a956196214b9c) -->
 
@@ -166,15 +166,15 @@ const fullName = new FullNameFormatter().fullname(alice);
 const category = new CategoryCalculator().display(alice);
 ```
 
-# Detection
+# Detection 🔍
 
 - Code naming standards should forbid classes with this name on them.
 
-# Tags
+# Tags 🏷️
 
 - Namings
 
-# Conclusion
+# Conclusion 🏁
 
 This is a well established cultural name and a legacy habit from structured programming.
 
@@ -182,7 +182,7 @@ Most developers are reluctant to let old habits go.
 
 We must be aware of the damage this kind of names are bringing us.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 18 - Static Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md)
 
@@ -194,7 +194,7 @@ We must be aware of the damage this kind of names are bringing us.
 
 [Code Smell 147 - Too Many Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20147%20-%20Too%20Many%20Methods/readme.md)
 
-# More Info
+# More Information 📕
 
 [How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 

@@ -8,7 +8,7 @@
 
 This article is based on a [real social hacking disguised as a job interview](https://www.linkedin.com/posts/franco-aguilera-2583685a_the-code-challenge-scam-they-tried-to-hack-activity-7270114822950703107-K3DW/)
 
-# Problems
+# Problems 😔 
 
 - Hidden vulnerabilities
 
@@ -20,7 +20,7 @@ This article is based on a [real social hacking disguised as a job interview](ht
 
 - Bad Naming
 
-# Solutions
+# Solutions 😃
 
 1. Use clear names
 
@@ -34,7 +34,7 @@ This article is based on a [real social hacking disguised as a job interview](ht
 
 6. Avoid modification since it is a sign of [Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
-# Context
+# Context 💬
 
 When you write functions with cryptic or obfuscated names, you make your code unreadable and untrustworthy. 
 
@@ -44,9 +44,9 @@ Cryptic code also frustrates team members and future maintainers, increasing tec
 
 Remember, hacking has a strong social component compared to what you see in Hollywood movies.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/fc14884bd6d4a0b5d76e6b96eb30b10a) -->
 
@@ -59,7 +59,7 @@ const result = _0xaexad(0x1a, 0x2f);
 console.log(result);
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d3c4ca8ecbf71ab3a7ef157d87a5ac8d) -->
 
@@ -72,7 +72,7 @@ const result = xorOperation(26, 47);
 console.log(result);
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
@@ -82,11 +82,11 @@ Use linters or code analysis tools to flag short, cryptic, or randomly named fun
 
 Manual code reviews can also help identify suspicious patterns.
 
-# Tags
+# Tags 🏷️
 
 - Security
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
@@ -96,17 +96,17 @@ Readable and meaningful names create a [one-to-one](https://github.com/mcsee/Sof
 
 Breaking this connection makes your program confusing and error-prone. 
 
-# AI Generation
+# AI Generation 🤖
 
 AI generators sometimes produce cryptic function names, especially when they optimize for brevity or imitate obfuscated patterns. 
 
-# AI Detection
+# AI Detection 🥃
 
 AI tools can detect and fix this smell when you ask them to refactor unclear function names or enforce coding standards. 
 
 They can analyze your entire codebase and suggest meaningful replacements for obfuscated names.
 
-## Try Them!
+## Try Them! 🛠
 
 *Remember: AI Assistants make lots of mistakes*
 
@@ -124,7 +124,7 @@ They can analyze your entire codebase and suggest meaningful replacements for ob
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Conclusion
+# Conclusion 🏁
 
 Avoid obfuscating your function names. 
 
@@ -134,7 +134,7 @@ When you prioritize readability, you make your software easier to understand, de
 
 Cryptic code might look [clever](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md), but it adds unnecessary complexity.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 138 - Packages Dependency](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20138%20-%20Packages%20Dependency/readme.md)
 
@@ -144,15 +144,15 @@ Cryptic code might look [clever](https://github.com/mcsee/Software-Design-Articl
 
 [Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
-# More Info
+# More Information 📕
 
 %[https://www.linkedin.com/posts/franco-aguilera-2583685a_the-code-challenge-scam-they-tried-to-hack-activity-7270114822950703107-K3DW/]
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Nikita Pavlov](https://unsplash.com/@pavme) on [Unsplash](https://unsplash.com/photos/a-person-with-a-mask-2RBo6q8bBko)      
   

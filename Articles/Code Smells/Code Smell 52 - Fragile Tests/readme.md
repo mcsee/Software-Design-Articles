@@ -6,7 +6,7 @@
 
 > TL;DR: Don't write non-deterministic tests.
 
-# Problems
+# Problems 😔 
 
 - Determinism
 
@@ -14,7 +14,7 @@
 
 - Wasted time
 
-# Solutions
+# Solutions 😃
 
 1. Test should be in full control. There should be no space for erratic behavior and degrees of freedom.
 
@@ -30,9 +30,9 @@ Nevertheless, they mine the developers trust.
 
 We must avoid them.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/20c94ec159e6333ddd5891b4af0d5688) -->
 
@@ -53,7 +53,7 @@ public abstract class SetTest {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/e89bdc655b7248598e0e8ccd3e94997d) -->
 
@@ -78,35 +78,35 @@ public abstract class SetTest {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 Detection can be done with test run statistics. 
 
 It is very hard to put some test in maintenance since we are removing a safety net.
 
-# Tags
+# Tags 🏷️
 
 - Coupling
 
 - Determinism
 
-# Conclusion
+# Conclusion 🏁
 
 Fragile tests show system coupling and not deterministic or erratic behavior.
 
 Developers spend lots of time and effort fighting against these false positives.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 76 - Generic Assertions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2076%20-%20Generic%20Assertions/readme.md)
 
 [Code Smell 204 - Tests Depending on Dates](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20204%20-%20Tests%20Depending%20on%20Dates/readme.md)
 
-# More Info
+# More Information 📕
 
 [Stack Exchange](https://softwareengineering.stackexchange.com/questions/109703/how-to-avoid-fragile-unit-tests)
  
-# Credits
+# Credits 🙏
 
 Photo by [Jilbert Ebrahimi](https://unsplash.com/@jilburr) on [Unsplash](https://unsplash.com/s/photos/glass-broken)
 

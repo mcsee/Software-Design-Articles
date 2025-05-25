@@ -6,7 +6,7 @@
 
 > TL;DR: Don't use protected attributes
 
-# Problems
+# Problems 😔 
 
 - [Sub classification](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md) for code reuse purposes.
 
@@ -14,16 +14,16 @@
 
 - Possible subclass overrides.
 
-# Solutions
+# Solutions 😃
 
 1. Favor composition
 2. Don't subclassify attributes.
 3. Extract behavior to separate objects.
 4. Use [traits](https://en.wikipedia.org/wiki/Trait_(computer_programming) (if available).
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/b599977d400cf92eda495f5f5011fb97) -->
 
@@ -72,7 +72,7 @@ final class Iphone extends Idevice {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/def8678faff1e1952e7ad43b70f1b6da) -->
 
@@ -132,31 +132,31 @@ final class Iphone implements
 }
 ```
 
-# Detection
+# Detection 🔍
 
 In languages supporting *protected* attributes we can avoid them by policy or have a warning of this smell.
 
-# Tags
+# Tags 🏷️
 
 - Encapsulation
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# Conclusion
+# Conclusion 🏁
 
 Protected attributes are yet another tool we should use carefully. Every decision is a smell, and we should be very careful with attributes and inheritance.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 11 - Subclassification for Code Reuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
 
-# More Info
+# More Information 📕
 
 [Traits on Wikipedia](https://en.wikipedia.org/wiki/Trait_%28computer_programming%29)
 
-# Credits
+# Credits 🙏
 
 Photo by [Jonathan Farber](https://unsplash.com/@farber) on [Unsplash](https://unsplash.com/s/photos/safe-box)
 

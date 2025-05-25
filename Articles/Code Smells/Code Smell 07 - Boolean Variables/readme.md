@@ -6,13 +6,13 @@
 
 > TL;DR: Don't use boolean variables, they force you to write Ifs. Create polymorphic states instead.
 
-# Problems
+# Problems 😔 
 
 - Extensibility
 
 - Comparison in some languages
 
-# Solutions
+# Solutions 😃
 
 - If Boolean maps to a real-world entity is safe.
 Otherwise, model as a State to favor Extensibility. 
@@ -22,9 +22,9 @@ This also follows [Open/Closed Principle](https://en.wikipedia.org/wiki/Open%E2%
 
 - Flags 
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/5a3e8e05def917a29b84be7264493a67) -->
 
@@ -39,7 +39,7 @@ function processBatch(
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/66956e6ccfe8126d0819fa193d793dd5) -->
 
@@ -54,11 +54,11 @@ function processBatch(
 }
 ```
 
-# Detection
+# Detection 🔍
 
 Automatic detection can warn for boolean usage, but this can yield false positives.
 
-# Exceptions
+# Exceptions 🛑
 
 - Real-world true/false rules
 
@@ -68,24 +68,24 @@ Automatic detection can warn for boolean usage, but this can yield false positiv
 
 In these coupled with accidental complexity languages, booleans are a common error source.
 
-# Tags
+# Tags 🏷️
 
 - Declarative
 
 - Primitive
 
-# Conclusion
+# Conclusion 🏁
 
 Take extra care when declaring something *boolean*. Flags are difficult to maintain and extend.
 Learn more about the domain. Try migrating to [state design pattern](https://en.wikipedia.org/wiki/State_pattern). Use polymorphism instead of ifs/switch/cases.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 51 - Double Negatives](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2051%20-%20Double%20Negatives/readme.md)
 
 [Code Smell 62 - Flag Variables](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2062%20-%20Flag%20Variables/readme.md)
 
-# More Info
+# More Information 📕
 
 %[https://martinfowler.com/bliki/FlagArgument.html]
 
@@ -93,7 +93,7 @@ Learn more about the domain. Try migrating to [state design pattern](https://en.
 
 - Flag Abuser
 
-# Credits
+# Credits 🙏
 
 Photo by [Phil Hearing](https://unsplash.com/@philhearing) on [Unsplash](https://unsplash.com/s/photos/flag-finish)
 

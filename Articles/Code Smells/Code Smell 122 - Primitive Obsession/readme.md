@@ -6,7 +6,7 @@
 
 > TL;DR: Use small objects instead of primitive ones.
 
-# Problems
+# Problems 😔 
 
 - Code Duplication
 
@@ -22,7 +22,7 @@
 
 - Premature Optimization.
 
-# Solutions
+# Solutions 😃
 
 1. Create Small Objects
 
@@ -30,7 +30,7 @@
 
 3. Use Value-Objects
 
-# Context
+# Context 💬
 
 We are very lazy to create small objects.
 
@@ -40,9 +40,9 @@ We like very much to understand the *internals* of how things work.
 
 We need to start thinking in a whitebox way and looking at the protocol and behavior of small components.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/12dc64f150fb047541b9aaa795d85faf) -->
 
@@ -54,7 +54,7 @@ String address = addressFromPort("example.org", port);
 String path = pathFromPort("example.org", port);
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/32202947a8d5ef760936a1e094d3f6b3) -->
 
@@ -72,21 +72,21 @@ Path path = server.path(this, "/index.html"); // returns a Path
 // responsibilities
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
 We can automate checks on constructors for small objects missing opportunities. 
 
-# Tags
+# Tags 🏷️
 
 - Primitive Obsession
 
-# Conclusion
+# Conclusion 🏁
 
 We need to transform our strings, numbers, and arrays into small objects.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 121 - String Validations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20121%20-%20String%20Validations/readme.md)
 
@@ -96,7 +96,7 @@ We need to transform our strings, numbers, and arrays into small objects.
 
 [Code Smell 143 - Data Clumps](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20143%20-%20Data%20Clumps/readme.md)
 
-# More Info
+# More Information 📕
 
 [Why a Host is not a String and a Port is not an Integer](https://towardsdev.com/why-a-host-is-not-a-string-and-a-port-is-not-an-integer-595c182d817c)
 
@@ -104,7 +104,7 @@ We need to transform our strings, numbers, and arrays into small objects.
 
 [Refactoring Guru](https://refactoring.guru/es/smells/primitive-obsession)
 
-# Credits
+# Credits 🙏
 
 Photo by [K. Mitch Hodge](https://unsplash.com/@kmitchhodge) on [Unsplash](https://unsplash.com/s/photos/prehistoric)
   

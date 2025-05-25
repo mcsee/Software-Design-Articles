@@ -6,7 +6,7 @@
 
 > TL;DR: Don't use static functions. They are global and utilities. Talk to objects instead.
 
-# Problems
+# Problems 😔 
 
 - Coupling
 
@@ -16,7 +16,7 @@
 
 - Cohesion
 
-# Solutions
+# Solutions 😃
 
 - Class [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single-responsibility_principle) is to create instance. Honor it.
 
@@ -30,9 +30,9 @@
 
 - Static attributes
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/293dc79524550a542fc70db572d8e092) -->
 
@@ -46,7 +46,7 @@ class DateStringHelper {
 DateStringHelper.format(new Date());
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/b8cfaddb9085b92d21a434a2bca2b14e) -->
 
@@ -64,17 +64,17 @@ class DateToStringFormatter {
 new DateToStringFormatter(new Date()).englishFormat()
 ```
 
-# Detection
+# Detection 🔍
 
 We can enforce a policy to avoid static methods (all class methods but constructors).
 
-# Tags
+# Tags 🏷️
 
 - Global
 
 - Libraries
 
-# Conclusion
+# Conclusion 🏁
 
 Class are globals disguised. Polluting their protocol with "library methods" breaks cohesion and generates coupling. We should extract static with refactorings.
 
@@ -82,7 +82,7 @@ In most languages we cannot manipulate classes and use them polymorphically, so 
 
 Therefore, we have a global reference too difficult to decouple.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Singleton - The root of all evil](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
 
@@ -90,13 +90,13 @@ Therefore, we have a global reference too difficult to decouple.
 
 [Code Smell 112 - Testing Private Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20112%20-%20Testing%20Private%20Methods/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single-responsibility_principle)
 
 [How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Alex Azabache](https://unsplash.com/@alexazabache) on [Unsplash](https://unsplash.com/s/photos/bridge)
 

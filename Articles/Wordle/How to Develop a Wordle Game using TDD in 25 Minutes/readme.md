@@ -1085,7 +1085,7 @@ You can have all the code (and make pull requests on [GitHub](https://github.com
 
 %[https://github.com/mcsee/TDD-Wordle]
 
-# Conclusion
+# Conclusion 🏁
 
 TDD is an iterative methodology. If you find some missing functionality you can write me on [Twitter](https://twitter.com/mcsee1) and we will add it (after a failing test case, of course).
 

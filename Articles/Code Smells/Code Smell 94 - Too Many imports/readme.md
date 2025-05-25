@@ -6,7 +6,7 @@
 
 > TL;DR: Don't import too much.
 
-# Problems
+# Problems 😔 
 
 - Coupling
 
@@ -14,15 +14,15 @@
 
 - Low Cohesion
 
-# Solutions
+# Solutions 😃
 
 1. Break the class
 
 2. Hide intermediate accidental implementation
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/1ee88717de17b2cc57b12fbd5d6e9bf2) -->
 
@@ -47,7 +47,7 @@ public class Demo {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/920db69fda667e32b9d682fdab61c634) -->
 
@@ -67,37 +67,37 @@ public class Demo {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 We can set a warning threshold on our linters.
 
-# Tags
+# Tags 🏷️
 
 - Coupling
 
 - Ripple Effect
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 We need to think about dependencies when building our solutions to minimize Ripple Effect.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 61 - Coupling to Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2061%20-%20Coupling%20to%20Classes/readme.md)
 
 [Code Smell 300 - Package Hallucination](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20300%20-%20Package%20Hallucination/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Coupling: The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 - [Namespaces on Wikipedia](https://en.wikipedia.org/wiki/Namespace)
 
-# Credits
+# Credits 🙏
 
 Photo by [Zdeněk Macháček](https://unsplash.com/@zmachacek) on [Unsplash](https://unsplash.com/s/photos/pile)
 

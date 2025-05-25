@@ -6,7 +6,7 @@
 
 > TL;DR: Avoid assigning values you never use.
 
-# Problems
+# Problems 😔 
 
 - Dead code
 - Unclear intent
@@ -17,12 +17,12 @@
 - Commented code
 - [Mutability](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1. Remove unused assignments.  
 2. Try to avoid [side effects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20209%20-%20Side%20Effects/readme.md).
 
-# Context
+# Context 💬
 
 When you assign a value to a *local variable* but never use it, you create unnecessary clutter in your code. 
 
@@ -36,9 +36,9 @@ It is also a sign of a [mutating object](https://github.com/mcsee/Software-Desig
 
 Mutating objects can cause unexpected side effects, making it harder to track changes. 
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/c99bd3dae0c4f595955b075d7af0f858) -->
 
@@ -55,7 +55,7 @@ function performMaintenance(existingUser) {
 // The variable updatedUser is never used
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/0f2709a03e2b36be4ae3f417933a66ef) -->
 
@@ -71,7 +71,7 @@ function performMaintenance(existingUser) {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
@@ -79,11 +79,11 @@ You can detect this smell using static analysis tools or code reviews that check
 
 Most linters flag this as an issue.
 
-# Tags
+# Tags 🏷️
 
 - Bloaters 
 
-# Level
+# Level 🔋
 
 [x] Beginner 
 
@@ -93,15 +93,15 @@ It stays clean and efficient when your code accurately reflects [real-world](htt
 
 Unused assignments break this connection, making it harder to understand the intent and maintain the code. 
 
-# AI Generation
+# AI Generation 🤖
 
 AI tools seldom generate unused variable assignments when they misunderstand intent. 
 
-# AI Detection
+# AI Detection 🥃
 
 AI-assisted refactoring with clear instructions can flag unused variables and suggest removals, but it might not always understand if the return value should have been used.
 
-## Try Them!
+## Try Them! 🛠
 
 *Remember: AI Assistants make lots of mistakes*
 
@@ -119,7 +119,7 @@ AI-assisted refactoring with clear instructions can flag unused variables and su
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Conclusion
+# Conclusion 🏁
 
 Unused variables after [mutations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md) create noise and confusion.
 
@@ -127,7 +127,7 @@ Don't assign the return value if you don't need it.
 
 If the method should return something meaningful, make sure you use it.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 209 - Side Effects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20209%20-%20Side%20Effects/readme.md)
 
@@ -137,15 +137,15 @@ If the method should return something meaningful, make sure you use it.
 
 [Code Smell 107 - Variables Reuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20107%20-%20Variables%20Reuse/readme.md)
 
-# More Information
+# More Information 📕
 
 [The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Evan Demicoli](https://unsplash.com/@evandemicoli) on [Unsplash](https://unsplash.com/photos/brown-and-green-houses-under-blue-sky-during-daytime-HGCqL-tRcac)
         

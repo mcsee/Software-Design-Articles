@@ -231,7 +231,7 @@ Never in their essence.
 
 This change should not be coupled with all the other objects that use it.
 
-# Conclusions
+# Conclusion 🏁
 
 > If an object is complete since its creation, it will always be able to answer messages.
 > An object must correctly represent the entity since its inception.

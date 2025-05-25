@@ -6,7 +6,7 @@
 
 > TL;DR: Always create correct objects in your back-ends. UIs are accidental.
 
-# Problems
+# Problems 😔 
 
 - Security problems
 
@@ -20,11 +20,11 @@
 
 - [Bijection Violation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1. Move your validations to the back-end. 
 
-# Context
+# Context 💬
 
 Code Duplication is a warning for premature optimization.
 
@@ -32,9 +32,9 @@ Building a system with UI validations might evolve to an API or external compone
 
 We need to validate objects on the back-end and send good validation errors to client components.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/213101392f85e7b9b06727204c84abe1) -->
 
@@ -108,7 +108,7 @@ We need to validate objects on the back-end and send good validation errors to c
 </form>
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/f3b239c093b15786d3e87f4a236203a2) -->
 
@@ -158,13 +158,13 @@ We need to validate objects on the back-end and send good validation errors to c
 </script>
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic
 
 We can detect some behavior patterns in our UI code  
 
-# Exceptions
+# Exceptions 🛑
 
 If you have strong evidence on severe performance bottlenecks you need to automatically duplicate your business logic on the frontend.
 
@@ -172,17 +172,17 @@ You cannot just skip the backend part.
 
 You should not make it manually because you will forget to do it.
 
-# Tags
+# Tags 🏷️
 
 - Mutability
 
-# Conclusion
+# Conclusion 🏁
 
 Use [TDD](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD%20Conference%202021/TDD%20Conference%202021%20-%20All%20Talks/readme.md).
 
 You will put all your business logic behavior on your domain objects.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 97 - Error Messages Without Empathy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2097%20-%20Error%20Messages%20Without%20Empathy/readme.md)
 
@@ -196,11 +196,11 @@ You will put all your business logic behavior on your domain objects.
 
 [Code Smell 94 - Too Many imports](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2094%20-%20Too%20Many%20imports/readme.md)
 
-# More Info
+# More Information 📕
 
 - [The Evil power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Lenin Estrada](https://unsplash.com/@lenin33) on Unsplash
 

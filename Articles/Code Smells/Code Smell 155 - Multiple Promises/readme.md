@@ -6,23 +6,23 @@
 
 > TL;DR: Don't block yourself in a sorted way.
 
-# Problems
+# Problems 😔 
 
 - Indeterminism
 
 - Performance bottleneck
 
-# Solutions
+# Solutions 😃
 
 1. Wait for all promises at once.
 
-# Context
+# Context 💬
 
 We heard about semaphores while studying Operating Systems.
 
 We should wait until all conditions are met no matter the ordering.
 
-# Sample Code
+# Sample Code 📖
 
 ## Wrong 
 
@@ -39,7 +39,7 @@ async fetchAll() {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/b1f4721f8b8db8da67435c499fcec83d) -->
 
@@ -55,7 +55,7 @@ async fetchAll() {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
@@ -63,17 +63,17 @@ This is a semantic smell.
 
 We can tell our linters to find some patterns related to promises waiting.
 
-# Tags
+# Tags 🏷️
 
 - Performance
 
-# Conclusion
+# Conclusion 🏁
 
 We need to be as close as possible to [real-world]((https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) business rules.
 
 If the rule states we need to wait for ALL operations, we should not force a particular order.
 
-# Credits
+# Credits 🙏
 
 Thanks for the idea
 

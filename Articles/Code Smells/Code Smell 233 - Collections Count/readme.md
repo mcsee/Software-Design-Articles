@@ -6,15 +6,15 @@
 
 > TL;DR: Chose narrow names
 
-# Problems
+# Problems 😔 
 
 - Bad Naming
 
-# Solutions
+# Solutions 😃
 
 1. Accurately describe your collections
 
-# Context
+# Context 💬
 
 Names are significant and should not deceive the reader.
 												f
@@ -22,9 +22,9 @@ You name things and lose the scope of the name.
 
 It is important to be accurate of the expected reference on the names.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/75e43eb48e025f1e41e65c1e7439c7b7) -->
 
@@ -83,7 +83,7 @@ const quarks = standardModelParticles.quarks.length;
 // But a Collection of things
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/8b0d7ed980f656ff26f070e228fbc760) -->
 
@@ -94,23 +94,23 @@ const standardModelParticles = {
 const quarksCount = standardModelParticles.quarks.length;
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 Some linters can check the types and names and infer a mistake
 
-# Tags
+# Tags 🏷️
 
 - Namings
 
-# Conclusion
+# Conclusion 🏁
 
 Take care of your names.
 
 Use automatic refactor tools whenever you come across a bad name.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 163 - Collection in Name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20163%20-%20Collection%20in%20Name/readme.md)
 
@@ -118,11 +118,11 @@ Use automatic refactor tools whenever you come across a bad name.
 
 [Code Smell 33 - Abbreviations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2033%20-%20Abbreviations/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Sandy Millar](https://unsplash.com/@sandym10) on [Unsplash](https://unsplash.com/photos/a-group-of-three-nesting-dolls-sitting-on-top-of-a-wooden-table-5PCeHBkMCmk)
     

@@ -6,7 +6,7 @@
 
 > TL;DR: Make cohesive primitive objects travel together
 
-# Problems
+# Problems 😔 
 
 - Bad Cohesion
 
@@ -18,21 +18,21 @@
 
 - Maintainability
 
-# Solutions
+# Solutions 😃
 
 1. Extract Class
 
 2. Find small objects
 
-# Context
+# Context 💬
 
 This smell is friends with primitive obsession. 
 
 If two or more primitive objects are glued together, with business logic repeated and rules between them, we need to find the existing concept on the [bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/076c003ce49b9fc4af66f4dffeb71079) -->
 
@@ -51,7 +51,7 @@ public class DinnerTable
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/a848e76a45559291a2f71cd76aa91961) -->
 
@@ -86,21 +86,21 @@ public DinnerTable(Person guest, Interval reservationTime)
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 Detection based on cohesion patterns is available o a few linters.
 
-# Tags
+# Tags 🏷️
 
 - Cohesion
 
-# Conclusion
+# Conclusion 🏁
 
 Group behavior in the right place and hide the primitive data.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 122 - Primitive Obsession](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20122%20-%20Primitive%20Obsession/readme.md)
 
@@ -108,13 +108,13 @@ Group behavior in the right place and hide the primitive data.
 
 [Code Smell 27 - Associative Arrays](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2027%20-%20Associative%20Arrays/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Refactoring Guru](https://refactoring.guru/es/smells/data-clumps)
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Data_clump)
 
-# Credits
+# Credits 🙏
 
 Photo by Dynamic Wang on Unsplash
 

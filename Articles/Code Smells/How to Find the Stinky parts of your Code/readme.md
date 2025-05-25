@@ -614,6 +614,8 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 300 - Package Hallucination](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20300%20-%20Package%20Hallucination/readme.md)
 
+[Code Smell 301 - Database as Parameter](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20301%20-%20Database%20as%20Parameter/readme.md)
+
 ... and many more to come.
 
 * * *

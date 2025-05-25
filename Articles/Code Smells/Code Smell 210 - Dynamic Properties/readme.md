@@ -6,7 +6,7 @@
 
 > TL;DR: Be explicit with your attributes
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -14,11 +14,11 @@
 
 - Unnoticed typos
 
-# Solutions
+# Solutions 😃
 
 1. Favor languages forbidding dynamic properties
 
-# Context
+# Context 💬
 
 Dynamic properties break type safety since it's easy to introduce typos or use the wrong property names accidentally. 
 
@@ -26,9 +26,9 @@ This can lead to runtime errors that can be difficult to debug, especially in la
 
 They also hide possible name collisions since dynamic properties may have the same name as properties defined in the class or object, leading to conflicts or unexpected behavior.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/1fceddaa27b7dcbb2cf0ba4f85861237) -->
 
@@ -46,7 +46,7 @@ print(nightmare.presentation)
 # Output: "I am the Sandman"
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/b2f04e4bafd415006b4ace96e4456612) -->
 
@@ -63,17 +63,17 @@ print(nightmare.presentation)
 # Output: "I am the Sandman"
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 Most languages have compiler options to avoid them.
 
-# Tags
+# Tags 🏷️
 
-- Metaprogramming
+- Anemic Models
 
-# Conclusion
+# Conclusion 🏁
 
 Dynamic properties are supported in many programming languages like PHP, Python, Ruby, JavaScript, C#, Objective-C, Swift, Kotlin, etc.
 
@@ -81,17 +81,17 @@ In these languages, dynamic properties can be added to objects at runtime, and a
 
 Bear in mind that having public attributes favors [Anemic Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md) which is another smell.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 109 - Automatic Properties](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20109%20-%20Automatic%20Properties/readme.md)
 
 [Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Karsten Würth](https://unsplash.com/@karsten_wuerth) on [Unsplash](https://unsplash.com/photos/0w-uTa0Xz7w)
     

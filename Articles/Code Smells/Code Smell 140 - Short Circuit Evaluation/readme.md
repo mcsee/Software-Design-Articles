@@ -6,7 +6,7 @@
 
 > TL;DR: Be lazy when evaluating boolean conditions
 
-# Problems
+# Problems 😔 
 
 - Side effects
 
@@ -14,11 +14,11 @@
 
 - Performance issues
 
-# Solutions
+# Solutions 😃
 
 1. Use a short circuit instead of a complete evaluation
 
-# Context
+# Context 💬
 
 We learn booleans in our 101 computer courses.
 
@@ -26,9 +26,9 @@ Boolean's truth tables are great for mathematics, but we need to be more intelli
 
 Short circuit evaluation helps us to be lazy and even build invalid full evaluations.  
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/57e3cb3fc3c5e8c90a544834022f3ab8) -->
 
@@ -41,7 +41,7 @@ if (isOpen(file) & size(contents(file)) > 0)
   // from a file that is not open
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/c548b8d38d7ddfd3dc98aa799ef975c1) -->
 
@@ -53,23 +53,23 @@ if (isOpen(file) && size(contents(file)) > 0)
   // If the file is not open it willtry to get the contents
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 We can warn our developers when they use full evaluation.
 
-# Exceptions
+# Exceptions 🛑
 
 Don't use short-circuit as an IF alternative. 
 
 if the operands have side effects, this is another code smell. 
 
-# Tags
+# Tags 🏷️
 
 - Boolean
 
-# Conclusion
+# Conclusion 🏁
 
 Most programming languages support short-circuits. 
 
@@ -77,7 +77,7 @@ Many of them have it as the only option.
 
 We need to favor these kinds of expressions.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 101 - Comparison Against Booleans](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20101%20-%20Comparison%20Against%20Booleans/readme.md)
 
@@ -85,7 +85,7 @@ We need to favor these kinds of expressions.
 
 [Code Smell 145 - Short Circuit Hack](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20145%20-%20Short%20Circuit%20Hack/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Short-circuit_evaluation)
 

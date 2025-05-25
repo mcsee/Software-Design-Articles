@@ -90,7 +90,7 @@ Avoid Code Smells
 
 [How to Find the Stinky Parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
 
-## Refactorings
+## Refactorings ⚙️
 
 Understand Refactorings
 

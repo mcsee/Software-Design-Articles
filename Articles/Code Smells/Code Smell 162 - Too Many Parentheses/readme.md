@@ -6,25 +6,25 @@
 
 > TL;DR: Use as few parentheses as possible.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
 - Syntactic complexity
 
-# Solutions
+# Solutions 😃
 
 1. Remove all not necessary parentheses
 
-# Context
+# Context 💬
 
 We read code from left to right (at least in western culture). 
 
 Parentheses often break this flow, adding cognitive complexity
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/03c6940b1fa140572f29bfe37cf784c1) -->
 
@@ -33,7 +33,7 @@ schwarzschild =
   ((((2 * GRAVITATION_CONSTANT)) * mass) / ((LIGHT_SPEED ** 2)))
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/5b468c4d60d25dec61e538d0c1ed1329) -->
 
@@ -41,7 +41,7 @@ schwarzschild =
 schwarzschild = (2 * GRAVITATION_CONSTANT * mass) / (LIGHT_SPEED ** 2)
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
@@ -51,31 +51,31 @@ It is based on syntax trees.
 
 Many tools detect it.
 
-# Exceptions
+# Exceptions 🛑
 
 On some complex formulas, we can add extra parenthesis for terms readability.
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
 - Bloaters
 
-# Conclusion
+# Conclusion 🏁
 
 We write code once and read it too many times.
 
 Readability is king.  
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 02 - Constants and Magic Numbers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Nick Fewings](https://unsplash.com/@jannerboy62) on [Unsplash](https://unsplash.com/s/photos/signs)
   

@@ -6,7 +6,7 @@
 
 > TL;DR: Say it only once
 
-# Problems
+# Problems 😔 
 
 - Don't Repeat Yourself principle violation
 
@@ -16,11 +16,11 @@
 
 - Testing and Debugging
 
-# Solutions
+# Solutions 😃
 
 1. Keep the responsibilities to relevant objects and delegate to a single source of truth
 
-# Context
+# Context 💬
 
 The principle of "Don't Repeat Yourself" (DRY) encourages you to avoid redundancy and duplication of behavior.
 
@@ -34,9 +34,9 @@ With a single source of truth, you only need to make changes in one place, simpl
 
 When data is repeated in multiple places, it becomes difficult to identify the authoritative source of that data, leading to confusion for developers.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/49c09f2dd730d321372e3bbab37feb5f) -->
 
@@ -68,7 +68,7 @@ print("Income amount:", transfer.income.amount)
 print("Expense amount:", transfer.expense.amount)
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/9574b28e226eed4436d571abb5b1f59e) -->
 
@@ -101,21 +101,21 @@ print("Income amount:", transfer.income.get_amount())
 print("Expense amount:", transfer.expense.get_amount())
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
 This is a semantic smell
 
-# Exceptions
+# Exceptions 🛑
 
 - For performance issues, you can add [caches](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2049%20-%20Caches/readme.md) and redundancy, but you need extra effort to keep the data synchronized
 
-# Tags
+# Tags 🏷️
 
 - Data
 
-# Conclusion
+# Conclusion 🏁
 
 In larger and more complex systems, redundancy becomes a significant problem. 
 
@@ -125,15 +125,15 @@ Redundant data also increases the surface area for testing and debugging.
 
 You need to ensure that all copies of the data behave consistently, which can be a challenging task.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 49 - Caches](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2049%20-%20Caches/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Jørgen Håland](https://unsplash.com/@jhaland) on [Unsplash](https://unsplash.com/photos/a-couple-of-sheep-standing-on-top-of-a-grass-covered-field-4yOgRb_b_i4)  
   

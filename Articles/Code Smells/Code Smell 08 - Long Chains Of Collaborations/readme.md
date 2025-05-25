@@ -7,21 +7,21 @@ Any chain change breaks the code.*
 
 > TL;DR: Just sent messages to your acquaintances. 
 
-# Problems
+# Problems 😔 
 
 - Coupling
 
 - Break encapsulation
 
-# Solutions
+# Solutions 😃
 
 - Create intermediate methods.
 - Think about [Law of Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter).
 - Create higher level messages.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/de702945b0bb7cd80f696f8cbe19c91c) -->
 
@@ -49,7 +49,7 @@ for (var foot of dog.getFeet()) {
 // Equivalent to dog.getFeet()[0].move(); dog.getFeet()[1].move() ...
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/b3b7d73ffb6554df2c06fce3b93a134f) -->
 
@@ -75,25 +75,25 @@ dog = new Dog(feet);
 dog.walk();
 ```
 
-# Detection
+# Detection 🔍
 
  Automatic detection is possible using parsing trees.
  
-# Tags
+# Tags 🏷️
 
 - Declarative
 
 - Encapsulation
 
-# Conclusion
+# Conclusion 🏁
 
 Avoid successive message calls. Try to hide the intermediate collaborations and create new protocols.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 67 - Middle Man](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2067%20-%20Middle%20Man/readme.md)
 
-# More Info
+# More Information 📕
 
 [Refactoring Guru](https://refactoring.guru/es/smells/message-chains)
 
@@ -103,7 +103,7 @@ Avoid successive message calls. Try to hide the intermediate collaborations and 
 
 - Law of Demeter
 
-# Credits
+# Credits 🙏
 
 Photo by [Chewy](https://unsplash.com/@chewy) on [Unsplash](https://unsplash.com/s/photos/dog)
 

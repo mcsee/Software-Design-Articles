@@ -6,7 +6,7 @@
 
 > TL;DR: Help yourself and others with correction information
 
-# Problems
+# Problems 😔 
 
 - Debugging and maintenance challenge.
 
@@ -14,19 +14,19 @@
 
 - Debugging complex situations.
 
-# Solutions
+# Solutions 😃
 
 1. Add all the relevant information to solve the solution
 
-# Context
+# Context 💬
 
 When you are reporting an error, either via an information text in the UI, by processing an API request, or by creating a test assertion, you need to provide an exit (a possible solution).
 
 This is very relevant when dealing with complex scenarios, large objects, or arrays with minimal mistakes.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/9427d3e30d0485bf431a0dd21db3a40d) -->
 
@@ -48,7 +48,7 @@ data = {'name': 'John', 'gender': 'Pangender',
 process_API_information(data)
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/b7eb7b4def657b3798dea3c0bdcf0809) -->
 
@@ -70,17 +70,17 @@ data = {'name': 'John', 'gender': 'Pangender',
 process_API_information(data)
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 This is a semantic smell. You can warn the developers on error texts that do not include variables. 
 
-# Tags
+# Tags 🏷️
 
 - Errors
 
-# Level
+# Level 🔋
 
 [X] Beginner 
 
@@ -88,23 +88,23 @@ This is a semantic smell. You can warn the developers on error texts that do not
 
 AI assistants usually miss this kind of help and provide hardcoded error messages.
 
-# Conclusion
+# Conclusion 🏁
 
 You need to always think about how to help your end users. 
 
 It might be yourself.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 104 - Assert True](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20104%20-%20Assert%20True/readme.md)
 
 [Code Smell 97 - Error Messages Without Empathy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2097%20-%20Error%20Messages%20Without%20Empathy/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Brett Jordan](https://unsplash.com/@brett_jordanh) on [Unsplash](https://unsplash.com/photos/brown-wooden-blocks-on-white-surface-Xp9WOzF92Jw)  
   

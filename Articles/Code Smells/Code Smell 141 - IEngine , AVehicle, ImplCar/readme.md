@@ -6,7 +6,7 @@
 
 > TL;DR: Don't prefix or suffix your classes
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -14,13 +14,13 @@
 
 - Implementative Names
 
-# Solutions
+# Solutions 😃
 
 1. Remove prefixes and suffixes
 
 2. Name your objects after what they do
 
-# Context
+# Context 💬
 
 Some languages have cultural conventions related to data types, Abstract classes, or Interfaces.
 
@@ -28,9 +28,9 @@ These names load our models with cognitive translations hard to follow.
 
 We must [KISS](https://en.wikipedia.org/wiki/KISS_principle).
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/00b852bfb884a47c5d7adf0543ec3a61) -->
 
@@ -43,7 +43,7 @@ public interface IEngine
 public class ACar {}
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/4507889577dd937dda844b8119782a50) -->
 
@@ -57,39 +57,39 @@ public class Vehicle {}
 public class Car {}
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic  
 
 If we have a Thesaurus we can point to awkward names.
 
-# Exceptions
+# Exceptions 🛑
 
 In C# it's a common practice to put "I" in the name of an interface because without it, you can't tell whether it is an interface or a class.
 
 This is a language smell.
 
-# Tags
+# Tags 🏷️
 
 - Naming
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 Use real names for your models.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 130 - AddressImpl](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20130%20-%20AddressImpl/readme.md)
 
-# More Info
+# More Information 📕
 
 - [What is in a name: Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by Tim Mossholder on Unsplash
 

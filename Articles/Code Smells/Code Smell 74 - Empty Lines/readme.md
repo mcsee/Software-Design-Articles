@@ -6,7 +6,7 @@
 
 > TL;DR: Don't add empty lines to your methods. Extract them!
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -14,7 +14,7 @@
 
 - Low Reuse
 
-# Solutions
+# Solutions 😃
 
 1. Extract Method
 
@@ -22,9 +22,9 @@
 
 3. Remove unneeded lines.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/3e7f0a453f04d443a98d3ffd99d9bfde) -->
 
@@ -49,7 +49,7 @@ function translateFile() {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/13ce5551b29a588db5dbb9903d714b84) -->
 
@@ -63,29 +63,29 @@ function translateFile() {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 This is a policy smell. Every linter can detect blank lines and warn us.
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
 - Long Methods
 
-# Conclusion
+# Conclusion 🏁
 
 Empty lines are harmless, but show us an opportunity to break the code into small steps.
 
 If you break your code with comments, it is also a code smell asking for a refactor.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 03 - Functions Are Too Long](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2003%20-%20Functions%20Are%20Too%20Long/readme.md)
 
 [Code Smell 75 - Comments Inside a Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2075%20-%20Comments%20Inside%20a%20Method/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Sigmund](https://unsplash.com/@sigmund) on [Unsplash](https://unsplash.com/s/photos/empty)
   

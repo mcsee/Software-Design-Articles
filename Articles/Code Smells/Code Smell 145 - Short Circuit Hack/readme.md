@@ -6,25 +6,25 @@
 
 > TL;DR: Don't use Boolean comparison for side effect functions.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
 - Side Effects
 
-# Solutions
+# Solutions 😃
 
 1. Convert [short circuits](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20140%20-%20Short%20Circuit%20Evaluation/readme.md) into IFs
 
-# Context
+# Context 💬
 
 Smart programmers like to write hacky and obscure code even when there is no strong evidence for this improvement.
 
 Premature optimization always hurts readability.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/be2e697d71cfb438110d911c9e4751dc) -->
 
@@ -42,7 +42,7 @@ functionDefinedOrNot && functionDefinedOrNot();
 // not raise an error and neither runs
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/5c48bd13ce74f1605cf8d6a8ed2de4d9) -->
 
@@ -57,7 +57,7 @@ if(typeof functionDefinedOrNot == 'function') {
 // Checking for a type is another code smell
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
@@ -65,15 +65,15 @@ We can check if the functions are impure and change the short circuit to an IF.
 
 Some actual linters warn us of this problem
 
-# Tags
+# Tags 🏷️
 
 - Premature Optimization
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# Conclusion
+# Conclusion 🏁
 
 Don't try to look smart. 
 
@@ -81,7 +81,7 @@ We are not in the 50s anymore.
 
 Be a team developer.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 140 - Short Circuit Evaluation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20140%20-%20Short%20Circuit%20Evaluation/readme.md)
 
@@ -89,7 +89,7 @@ Be a team developer.
 
 [Code Smell 149 - Optional Chaining](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20149%20-%20Optional%20Chaining/readme.md)
  
-# Credits
+# Credits 🙏
 
 Photo by Michael Dziedzic on Unsplash
 

@@ -6,7 +6,7 @@
 
 > TL;DR: Don't model state using attributes
 
-# Problems
+# Problems 😔 
 
 - Mutability
 
@@ -16,7 +16,7 @@
 
 [Code Smell 28 - Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1 - Model states as mathematical set inclusion.
 
@@ -26,9 +26,9 @@
 
 - State diagrams
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/817257ca2966c8f2381dcf9887dfa1a4) -->
 
@@ -55,7 +55,7 @@ public final class Order {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/1b98448f97cd23b6b5f8438280b73736) -->
 
@@ -87,11 +87,11 @@ class OrderProcessor {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 If we want to be extreme, we should consider every *setter* to be a potential state change. Linters can warn us. But we might end up getting too many false positives.
 
-# Exceptions
+# Exceptions 🛑
 
 - Over Design
 
@@ -99,11 +99,11 @@ If we want to be extreme, we should consider every *setter* to be a potential st
 
 [Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
-# Tags
+# Tags 🏷️
 
 - Mutation
 
-# Conclusion
+# Conclusion 🏁
 
 This technique is very elegant but can lead to over design. For example changing a visual component its color should be a counterexample to this smell. 
 
@@ -111,15 +111,15 @@ We should be aware and very caution like with any other smell.
 
 They are *hints* and not rigid rules.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 28 - Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
  
-# More Info
+# More Information 📕
 
 [The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Tom Crew](https://unsplash.com/@tomcrewceramics) on [Unsplash](https://unsplash.com/s/photos/porcelain)
 

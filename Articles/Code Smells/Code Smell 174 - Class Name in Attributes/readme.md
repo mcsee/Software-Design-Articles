@@ -6,21 +6,21 @@
 
 > TL;DR: Don't prefix your attributes with your class name
 
-# Problems
+# Problems 😔 
 
 - Not Contextual Names
 
-# Solutions
+# Solutions 😃
 
 1. Remove the class prefix from the attribute
 
-# Context
+# Context 💬
 
 This is a naming smell, we should not read attributes in isolation and names are contextual.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/a826cc57021603442286f8c40d6981a2) -->
 
@@ -32,7 +32,7 @@ public class Employee {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/60f3381be1d06def7f68419ec2776b3a) -->
 
@@ -44,23 +44,23 @@ public class Employee {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 When the full name is included in the prefix, our linters can warn us.
 
-# Tags
+# Tags 🏷️
 
 - Naming
 
-# Conclusion
+# Conclusion 🏁
 
 Careful naming is a very important task.
 
 We need to name after the behavior, not type or data
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 188 - Redundant Parameter Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20188%20-%20Redundant%20Parameter%20Names/readme.md)
 
@@ -72,17 +72,17 @@ We need to name after the behavior, not type or data
 
 [Code Smell 65 - Variables Named after Types](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2065%20-%20Variables%20Named%20after%20Types/readme.md)
 
-# More Info
+# More Information 📕
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
 - [Linux Hint](https://linuxhint.com/java-class-attributes/)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Phoenix Han](https://unsplash.com/@phienix_han) on [Unsplash](https://unsplash.com/s/photos/mushroom)
   

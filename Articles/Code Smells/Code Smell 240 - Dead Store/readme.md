@@ -6,7 +6,7 @@
 
 > TL;DR: Don't Assign and overwrite values
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -14,11 +14,11 @@
 
 - Inefficiency
 
-# Solutions
+# Solutions 😃
 
 1. Remove the sentences that have no effect.
 
-# Context
+# Context 💬
 
 The "dead store" code smell refers to a situation in programming where a variable is assigned a value but is never subsequently read or used in the program.
 
@@ -28,9 +28,9 @@ This code smell can arise for various reasons, including during refactoring or c
 
 Unused variables may clutter the code, making it harder to understand and potentially impacting performance.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/2317605b49306a408bfc0d23e181aee9) -->
 
@@ -46,7 +46,7 @@ $lastGoalAuthor = "Lio Messi";
 // Since storing in a variable has no side effects
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d2bc846d129a43b1fd46f18e0c688b20) -->
 
@@ -71,21 +71,21 @@ $lastGoalAuthor = thirdGoalAutor();
 // Unless you ensure they don't have side effects
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 Several [linters](https://rules.sonarsource.com/php/type/Bug/RSPEC-4143/) can find this problem using [ASTs](https://en.wikipedia.org/wiki/Abstract_syntax_tree)
 
-# Exceptions
+# Exceptions 🛑
 
 - You should not optimize functions with side effects 
 
-# Tags
+# Tags 🏷️
 
 - Bloaters
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
@@ -101,21 +101,21 @@ It contributes to a more understandable, robust, and bug-free codebase.
 
 Regular code reviews, static analysis tools, and good programming practices can aid in identifying and addressing dead store code smells.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 09 - Dead Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2009%20-%20Dead%20Code/readme.md)
 
 [Code Smell 54 - Anchor Boats](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2054%20-%20Anchor%20Boats/readme.md)
 
-# More Info
+# More Information 📕
 
 [Sonar Source Rule](https://rules.sonarsource.com/php/type/Bug/RSPEC-4143/)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 	     
 Photo by [Brayan Becerra](https://unsplash.com/@bryanjose23) on [Unsplash](https://unsplash.com/photos/a-building-with-a-fence-around-it--A_8VYIipNc)
 

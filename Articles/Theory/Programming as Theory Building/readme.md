@@ -172,7 +172,7 @@ According to Naur, the model should remain solely as a theory among the particip
 
 [Most Programmers are losing our jobs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Opinion/(Most)%20Programmers%20are%20losing%20our%20jobs%20very%20soon/readme.md)
 
-# Conclusions
+# Conclusion 🏁
 
 Building software is a human activity.
 

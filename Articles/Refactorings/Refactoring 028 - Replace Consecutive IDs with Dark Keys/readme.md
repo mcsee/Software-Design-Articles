@@ -110,7 +110,7 @@ $invoices[$uuid] =new Invoice(
 
 This refactoring is safe if done incrementally with proper tests and backward compatibility during transition.
 
-You should kee dual access (UUID and ID) temporarily to allow phased updates.
+You should keep dual access (UUID and ID) temporarily to allow phased updates.
 
 # Why is the Code Better? ✨
 

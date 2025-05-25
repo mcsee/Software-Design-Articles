@@ -6,25 +6,25 @@
 
 > TL;DR: Avoid external manipulation
 
-# Problems Addressed
+# Problems Addressed 😔
 
 - Encapsulation Violation
 
 - Anemic Models
 
-# Related Code Smells
+# Related Code Smells 💨
 
 [Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
 [Code Smell 40 - DTOs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2040%20-%20DTOs/readme.md)
 
-# Steps
+# Steps 👣 
 
 1. Change the visibility of your attributes from public to private.
 
-# Sample Code
+# Sample Code 📖
 
-## Before
+## Before 🚨 
 
 <!-- [Gist Url](https://gist.github.com/mcsee/803a3400fe6b241417de5abd17b89606) -->
 
@@ -35,7 +35,7 @@ public class Song {
 }
 ```
 
-## After
+## After 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/bfefa85761d0030892bcbdd438ca7f59) -->
 
@@ -50,29 +50,29 @@ public class Song {
 }
 ```
 
-# Type
+# Type 📝
 
 [X] Semi-Automatic
 
 We can change the visibility with an IDE or text editor.
 
-# Safety
+# Safety 🛡️
 
 This is not a safe refactor.
 
 Existing dependencies may break.
 
-# Why is the Code Better?
+# Why is the Code Better? ✨
 
 We can change encapsulated code easily.
 
 The code is not repeated.
 
-# Limitations
+# Limitations ⚠️
 
 Some languages don't have visibility options.
 
-# Tags
+# Tags 🏷️
 
 - Anemic
 
@@ -80,11 +80,11 @@ Some languages don't have visibility options.
 
 [X] Intermediate
 
-# Related Refactorings
+# Related Refactorings 🔄
 
 [Refactoring 001 - Remove Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
 
-# Credits
+# Credits 🙏
 
 Image by [Couleur](https://pixabay.com/users/couleur-1195798/) on [Pixabay](https://pixabay.com/)
 

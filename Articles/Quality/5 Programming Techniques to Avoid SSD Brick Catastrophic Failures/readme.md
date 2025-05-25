@@ -82,6 +82,6 @@ We fail as software engineers and make the same mistakes over and over again.
 
 We need to be humbler and learn from our past mistakes.
 
-# Credits
+# Credits 🙏
 
 Photo by [Patrick Perkins](https://unsplash.com/@patrickperkins) on [Unsplash](https://unsplash.com/s/photos/disaste)

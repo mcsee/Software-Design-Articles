@@ -6,17 +6,17 @@
 
 > TL;DR: Avoid double negatives in boolean expressions
 
-# Problems
+# Problems 😔 
 
 - Readability
 
-# Solutions
+# Solutions 😃
 
 1. Name your variables, methods and classes with positive names.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/f5c32dfa2aefa4f7fcb180ea28995508) -->
 
@@ -24,7 +24,7 @@
 if (!work.isNotFinished())
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/842684ebe8f5496d1d6374436a0c9473) -->
 
@@ -32,17 +32,17 @@ if (!work.isNotFinished())
 if (work.isDone())
 ```
 
-# Detection
+# Detection 🔍
 
 This is a semantic smell. We need to detect it on code reviews.
 
 We can tell linters to check for Regular Expressions like *!not* or *!isNot* etc as a warning.
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
-# Conclusion
+# Conclusion 🏁
 
 Double negation is a very basic rule we learn as junior developers.
 
@@ -50,7 +50,7 @@ There are lots of production systems filled with this smell.
 
 We need to trust our test coverage and make safe renames and other refactors.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 24 - Boolean Coercions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2024%20-%20Boolean%20Coercions/readme.md)
 
@@ -60,7 +60,7 @@ We need to trust our test coverage and make safe renames and other refactors.
 
 [Code Smell 118 - Return False](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20118%20-%20Return%20False/readme.md)
 
-# More Info
+# More Information 📕
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
@@ -68,7 +68,7 @@ We need to trust our test coverage and make safe renames and other refactors.
 
 [Avoiding Negative Names](https://levelup.gitconnected.com/knot-of-nots-avoiding-negative-names-for-boolean-methods-641896a94a42)
 
-# Credits
+# Credits 🙏
 
 <span>Photo by [Daniel Herron](https://unsplash.com/@herrond) on [Unsplash](https://unsplash.com/s/photos/no)</span>
 

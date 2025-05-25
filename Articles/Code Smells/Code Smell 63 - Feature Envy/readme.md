@@ -6,7 +6,7 @@
 
 > TL;DR: Don't abuse your friend objects.
 
-# Problems
+# Problems 😔 
 
 - Coupling
 
@@ -20,13 +20,13 @@
 
 [The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1. Move the method to the appropriate class.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/62bc32206f71d61c1d0b63dcf87f8b80) -->
 
@@ -42,7 +42,7 @@ class Candidate {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/edaade5842cdfa8ddd474c9904942e66) -->
 
@@ -67,23 +67,23 @@ class Candidate {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 Some linters can detect a sequential pattern of collaborations with another object.
 
-# Tags
+# Tags 🏷️
 
 - Coupling
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# Conclusion
+# Conclusion 🏁
 
 - We should assign responsibilities according to real object [mappers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) and avoid abusing other objects' protocol.
  
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
@@ -93,7 +93,7 @@ Some linters can detect a sequential pattern of collaborations with another obje
 
 [Code Smell 64 - Inappropriate Intimacy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2064%20-%20Inappropriate%20Intimacy/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Refactoring Guru](https://refactoring.guru/es/smells/feature-envy)
 
@@ -101,7 +101,7 @@ Some linters can detect a sequential pattern of collaborations with another obje
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Law_of_Demeter)
 
-# Credits
+# Credits 🙏
 
 Photo by [Hisu lee](https://unsplash.com/@lee_hisu) on [Unsplash](/s/photos/brothers?)
   

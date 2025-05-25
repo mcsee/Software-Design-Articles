@@ -6,19 +6,19 @@
 
 > TL;DR: Do not modify collections while traversing them
 
-# Problems
+# Problems 😔 
 
 - Unexpected Results 
 
 - Concurrency problems
 
-# Solutions
+# Solutions 😃
 
 1. Avoid altering the collections 
 
 2. Make collection copies
 
-# Context
+# Context 💬
 
 We over-optimize our solutions with the prejudice that copying collections is expensive. 
 
@@ -28,9 +28,9 @@ Languages iterate collections in many different ways.
 
 Modifying them is generally not safe.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/9d66e179c57495aa7c2080ee34152c11) -->
 
@@ -47,7 +47,7 @@ for (Object person : people) {
 // risking skipping other candidates for removal
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/18369eb8798462ef04372be56827c9d6) -->
 
@@ -68,33 +68,33 @@ coll.removeIf(currentIndex -> currentIndex == 5);
 // Or use language tools (if available)
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi Automatic 
 
 Many languages provide control both in compile and run-time
 
-# Tags
+# Tags 🏷️
 
 - Fail Fast
 
-# Conclusion
+# Conclusion 🏁
 
 This is something we learn in our first courses.
 
 It happens a lot in the industry and real-world software
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 53 - Explicit Iteration](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2053%20-%20Explicit%20Iteration/readme.md)
 
 [Code Smell 134 - Specialized Business Collections](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20134%20-%20Specialized%20Business%20Collections/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Stack Overflow](https://stackoverflow.com/questions/223918/iterating-through-a-collection-avoiding-concurrentmodificationexception-when-re)
 
-# Credits
+# Credits 🙏
 
 Photo by [Christine Roy](https://unsplash.com/@agent_illustrateur) on [Unsplash](https://unsplash.com/s/photos/travel)
   

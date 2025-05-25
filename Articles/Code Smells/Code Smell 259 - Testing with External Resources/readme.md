@@ -6,7 +6,7 @@
 
 > TL;DR: Tests must be in full control.
 
-# Problems
+# Problems 😔 
 
 - Unreliable tests
 
@@ -22,7 +22,7 @@
 
 - Slowness
 
-# Solutions
+# Solutions 😃
 
 1. Generate the file in the test
 
@@ -30,7 +30,7 @@
 
 3. Use hardcoded streams instead
 
-# Context
+# Context 💬
 
 Using an existing file for testing breaks the golden rule: tests must fully control their environment. 
 
@@ -38,9 +38,9 @@ When someone changes the file, the test becomes [erratic and unreliable](https:/
 
 That can result in an annoying debugging experience and non-deterministic test runs.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/1b6f129a641e984ad18433c485270b21) -->
 
@@ -60,7 +60,7 @@ test('test process file', () => {
 });
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/50b5d79df54bf0c4239fb301b966a612) -->
 
@@ -89,7 +89,7 @@ test('test process file mocked', () => {
 });
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
@@ -97,29 +97,30 @@ You can detect this smell by identifying tests that rely on external files inste
 
 Look for file path references and check if they are necessary.
 
-# Tags
+# Tags 🏷️
 
 - Testing
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# AI Generation
+# AI Generation 🤖
 
 AI generators might create this smell if they aren't given clear instructions to generate or mock test data instead of using external files.
 
-# AI Detection
+# AI Detection 🥃
 
 GPT tools detect this smell if you guide them to check the code for external file dependencies.
 
-# Conclusion
+# Conclusion 🏁
+
  
 Never use existing files and keep your tests runnable to a known state.
 
 You need to generate your test data either by the test or mock it out completely so that tests are in full control.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 30 - Mocking Business](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md)
 
@@ -129,15 +130,15 @@ You need to generate your test data either by the test or mock it out completely
 
 [Code Smell 204 - Tests Depending on Dates](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20204%20-%20Tests%20Depending%20on%20Dates/readme.md)
 
-# More Info
+# More Information 📕
 
 [Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [William Warby](https://unsplash.com/@wwarby) on [Unsplash](https://unsplash.com/photos/a-couple-of-legos-standing-next-to-a-hard-drive-_zIq5WCzfHE)
   

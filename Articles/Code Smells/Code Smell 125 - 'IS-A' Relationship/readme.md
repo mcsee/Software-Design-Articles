@@ -6,7 +6,7 @@
 
 > TL;DR: Think about protocol and behavior, forget inheritance 
 
-# Problems
+# Problems 😔 
 
 - Bad models
 
@@ -16,7 +16,7 @@
 
 - Liskov substitution principle Violation
 
-# Solutions
+# Solutions 😃
 
 1. Think in terms of behavior *behaves-as-a*
 
@@ -24,7 +24,7 @@
 
 3. Subclassify always following 'behaves-as-a' relation
 
-# Context
+# Context 💬
 
 [IS-A relation](https://en.wikipedia.org/wiki/Is-a) comes from the data world.
 
@@ -34,9 +34,9 @@ Now, we need to think in terms of behavior.
 
 Behavior is essential, data is [accidental](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md).
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/34677fbac1f6a837bf2b8d17bc882251) -->
 
@@ -64,7 +64,7 @@ class RealNumber extends ComplexNumber {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/29e46d1d672ac397552fae978148a7c2) -->
 
@@ -95,11 +95,11 @@ class RealNumber extends Number { }
 
 This is a semantic smell.
 
-# Tags
+# Tags 🏷️
 
 - Inheritance
 
-# Conclusion
+# Conclusion 🏁
 
 *Real* Number IS-A *Complex* number (according to math).
 
@@ -109,7 +109,7 @@ This is a semantic smell.
 
 We cannot do real.setImaginaryPart() so it is not a Complex according to our [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 92 - Isolated Subclasses Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2092%20-%20Isolated%20Subclasses%20Names/readme.md)
 
@@ -117,7 +117,7 @@ We cannot do real.setImaginaryPart() so it is not a Complex according to our [Bi
 
 [Code Smell 37 - Protected Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2037%20-%20Protected%20Attributes/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Circle/Ellipse Problem](https://en.wikipedia.org/wiki/Circle%E2%80%93ellipse_problem)
 
@@ -127,7 +127,7 @@ We cannot do real.setImaginaryPart() so it is not a Complex according to our [Bi
 
 - [Bijection Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Joshua Rondeau](https://unsplash.com/@liferondeau) on [Unsplash](https://unsplash.com/s/photos/costume)  
 

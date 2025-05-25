@@ -6,7 +6,7 @@
 
 > TL;DR: Prevent chaining return statements for better code readability and flow.
 
-# Problems
+# Problems 😔 
 
 - Confusing flow
 - Debugging Difficulty
@@ -15,18 +15,18 @@
 - Risk of errors
 - Overuse of IF Sentences
 
-# Solutions
+# Solutions 😃
 
 1. Early return
 2. Clear conditions
 3. Use guard clauses
 4. Replace IFs with [Polymorphism](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20014%20-%20Remove%20IF/readme.md)
 
-# Refactorings
+# Refactorings ⚙️
 
 [Refactoring 014 - Remove IF](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20014%20-%20Remove%20IF/readme.md)
 
-# Context
+# Context 💬
 
 When you chain multiple return statements within a function, you create a confusing flow. 
 
@@ -36,9 +36,9 @@ Cascaded returns can hide important logic deep within the function, making it ha
 
 You read through multiple branches to determine when and where the function ends.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/edb3a375c0b798f14447fe4c7230d2e8) -->
 
@@ -60,7 +60,7 @@ function discount(price, isMember) {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/b3b1ce40384367e300872e989faf6ead) -->
 
@@ -89,7 +89,7 @@ const member = new Member();
 const nonMember = new NonMember();
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
@@ -97,27 +97,27 @@ You can spot cascaded returns by looking for multiple nested return statements.
 
 If you see deep indentation or many layers of conditions, that's a sign of this code smell.
  
-# Tags
+# Tags 🏷️
 
 - IFs
 
-# Level
+# Level 🔋
 
 [X ] Beginner
 
-# AI Generation
+# AI Generation 🤖
 
 AI generators might create this smell when tasked with solving complex problems quickly. 
 
 Cascaded returns often happen when the generator handles multiple conditions without optimizing the flow.
 
-# AI Detection
+# AI Detection 🥃
 
 With clear instructions, AI tools can avoid cascaded returns. 
 
 You can ask the AI to use guard clauses, polymorphism and simplify returns for a cleaner solution.
 
-## Try Them!
+## Try Them! 🛠
 
 *Remember: AI Assistants make lots of mistakes*
 
@@ -135,13 +135,13 @@ You can ask the AI to use guard clauses, polymorphism and simplify returns for a
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Conclusion
+# Conclusion 🏁
 
 Avoid cascaded returns to make your code more readable, maintainable, and easier to debug. 
 
 Stick to early returns and guard clauses to prevent unnecessary complexity.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 119 - Stairs Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20119%20-%20Stairs%20Code/readme.md)
 
@@ -151,15 +151,15 @@ Stick to early returns and guard clauses to prevent unnecessary complexity.
 
 [Code Smell 156 - Implicit Else](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20156%20-%20Implicit%20Else/readme.md)
 
-# More Info
+# More Information 📕
 
 [How to Get Rid of Annoying IFs Forever](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Mike Lewis HeadSmart Media](https://unsplash.com/@mikeanywhere) on [Unsplash](https://unsplash.com/photos/waterfall-at-daytime-waAAaeC9hns)
     

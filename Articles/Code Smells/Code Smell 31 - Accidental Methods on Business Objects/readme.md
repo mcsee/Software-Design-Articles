@@ -6,7 +6,7 @@
 
 > TL;DR: Don't pollute your business obejcts with accidental behavior
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -14,7 +14,7 @@
 
 - Maintainability
 
-# Solutions
+# Solutions 😃
 
 1. Keep your objects clean.
 
@@ -34,9 +34,9 @@
 
 - Formatting
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/11c5f7da7d9c54a05456102e128d010d) -->
 
@@ -80,7 +80,7 @@ class car:
         ConcurrencySemaphoreSingleton.getInstance().forkCar(this)
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/47847ea77875bb6f6e5e1cba2e914b05) -->
 
@@ -100,25 +100,25 @@ class car:
         self.engine.start()
 ```
 
-# Detection
+# Detection 🔍
 
 It is difficult (but not impossible) to create linting rules based on naming and hinting for suspect names.
 
-# Exceptions
+# Exceptions 🛑
 
 - Some frameworks force us to inject dirty code in our objects. (For example identifiers).
 
 We should try to use better languages/frameworks.
 
-# Tags
+# Tags 🏷️
 
 - Declarative
 
-# Conclusion
+# Conclusion 🏁
 
 We are very used to see business objects polluted. This is normal. We need to reflect on the consequences and coupling from these designs.
 
-# Credits
+# Credits 🙏
 
 Photo by [Robert Bye](https://unsplash.com/@robertbye) on [Unsplash](https://unsplash.com/s/photos/mess)</span>
 

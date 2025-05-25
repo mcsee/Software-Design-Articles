@@ -6,27 +6,27 @@
 
 > TL;DR: Split your interfaces 
 
-# Problems
+# Problems 😔 
 
 - Interface Segregation Principle Violation
 
 - Coupling
 
-# Solutions
+# Solutions 😃
 
 1. Split the interface
 
 2. Use composition instead of inheritance
 
-# Context
+# Context 💬
 
 The term "Fat Interface" emphasizes that the interface is overloaded with methods, including those that may not be necessary or used by all clients. 
 
 The interface violates the principle of segregating interfaces into smaller, more focused contracts.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/dc549ce28d805020e657f227eef10c5f) -->
 
@@ -63,7 +63,7 @@ class Bullfrog implements Animal
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/811c638d22fb50bff24336695a6750ae) -->
 
@@ -90,35 +90,35 @@ class Bullfrog implements Animal {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
 We can check the size of the interface protocol
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# Tags
+# Tags 🏷️
 
 - Cohesion
 
-# Conclusion
+# Conclusion 🏁
 
 Favoring small, reusable code components promotes code and behavior reuse.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 61 - Coupling to Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2061%20-%20Coupling%20to%20Classes/readme.md)
 
 [Code Smell 135 - Interfaces With just One Realization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20135%20-%20Interfaces%20With%20just%20One%20Realization/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Towfiqu barbhuiya](https://unsplash.com/fr/@towfiqu999999) on [Unsplash](https://unsplash.com/s/photos/fa)
     

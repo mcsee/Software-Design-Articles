@@ -6,7 +6,7 @@
 
 > TL;DR: Don't over-generalize
 
-# Problems
+# Problems 😔 
 
 - Speculative Design
 
@@ -14,11 +14,11 @@
 
 - Over-Engineering
 
-# Solutions
+# Solutions 😃
 
 1. Remove the interface until you get more examples
 
-# Context
+# Context 💬
 
 In the past, programmers told us to design for change. 
 
@@ -28,9 +28,9 @@ Whenever we find a duplication we remove it.
 
 Not before.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/e86499e8b367ce0d5524c347ed821cda) -->
 
@@ -52,7 +52,7 @@ public class Car implements Vehicle {
 // No more concrete vehicles??
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/c7c06a683be5fe72d481840c2720e0d5) -->
 
@@ -69,13 +69,13 @@ public class Car {
 // Wait until you discover more concrete vehicles
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 This is very easy for our linters since they can trace this error at compile time.
 
-# Exceptions
+# Exceptions 🛑
 
 This rule applies to inter system definition and business logic.
 
@@ -89,15 +89,15 @@ Dependency injection/Inversion protocols declare interfaces that are fulfilled w
 
 If your language defines an interface for test mocking, it is another [code smell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md).
 
-# Tags
+# Tags 🏷️
 
 - Over Design
 
-# Conclusion
+# Conclusion 🏁
 
 We need to wait for abstractions and not be creative and speculative
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 130 - AddressImpl](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20130%20-%20AddressImpl/readme.md)
 
@@ -105,7 +105,7 @@ We need to wait for abstractions and not be creative and speculative
 
 [Code Smell 136 - Classes With just One Subclass](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20136%20-%20Classes%20With%20just%20One%20Subclass/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Brian Kostiuk](https://unsplash.com/photos/WZ43jnCeWOs) on Unsplash
 

@@ -6,7 +6,7 @@
 
 > TL;DR: Don't do magic castings to boolean. You will regret it on a Friday night.
  
-# Problems
+# Problems 😔 
 
 - Hiding Errors
 
@@ -18,7 +18,7 @@
 
 - [IFs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1. Be explicit.
 
@@ -26,9 +26,9 @@
 
 3. [Fail fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/1f5d0d7328e2e49f0695323e6c210c3e) -->
 
@@ -59,7 +59,7 @@ else:
 	print ("There are some virus around. Take extra care")
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/0c8dd91896ff91852dfa0e8711093a06) -->
 
@@ -75,29 +75,29 @@ else:
 	print ("There are some virus around. Take extra care")
 ```
 
-# Detection
+# Detection 🔍
 
 This is a language feature. Some strict languages show warnings with this magic wizardry.
 
-# Tags
+# Tags 🏷️
 
 - Coercions
 
 - Primitive
 
-# Conclusion
+# Conclusion 🏁
 
 Some languages encourage doing some magic abbreviations and automatic castings. This is a source of errors and a *Premature Optimization* warning.
 
 We should always be as **explicit** as possible.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
 [Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2069%20-%20Big%20Bang%20(JavaScript%20Ridiculous%20Castings)/readme.md)
 
-# More Info
+# More Information 📕
 
 [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 

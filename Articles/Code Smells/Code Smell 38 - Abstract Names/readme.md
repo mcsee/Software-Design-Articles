@@ -6,7 +6,7 @@
 
 > TL;DR: Don't use abstract names
 
-# Problems
+# Problems 😔 
 
 - Implemental Naming
 
@@ -14,7 +14,7 @@
 
 - Broken [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) and [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) to real-world entities.
 
-# Solutions
+# Solutions 😃
 
 1. Choose meaningful names.
 
@@ -24,9 +24,9 @@
 
 4. Use [rules](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md) for naming.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/568bc61348f648e3e0db8434b59b92a2) -->
 
@@ -41,7 +41,7 @@ final class LogCollector {}
 abstract class AbstractTransportation {}
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/106a64e384b1348dea8b1d486b4bacc5) -->
 
@@ -55,29 +55,29 @@ final class Journal {}
 final class Vehicle {}
 ```
 
-# Detection
+# Detection 🔍
 
 We can set up policies and rules warning for certain words like *base, abstract, helper, manager, object etc*.
 
-# Tags
+# Tags 🏷️
 
 - Naming
 
-# Conclusion
+# Conclusion 🏁
 
 Finding names is the last thing we should do on our designs. Unless we have a clear business understanding, good names emerge at the end after defined behavior and protocol boundaries.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 22 - Helpers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2022%20-%20Helpers/readme.md)
 
 [Code Smell 25 - Pattern Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2025%20-%20Pattern%20Abusers/readme.md)
 
-# More Info
+# More Information 📕
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Rodion Kutsaev](https://unsplash.com/@frostroomhead) on [Unsplash](https://unsplash.com/s/photos/abstract)
 

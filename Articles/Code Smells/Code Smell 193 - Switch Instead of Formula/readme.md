@@ -6,13 +6,13 @@
 
 > TL;DR: Be declarative enough but no more.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
 - [Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1. Use a short version (or not).
 
@@ -22,7 +22,7 @@
 
 4. Shorter is not always better.
 
-# Context
+# Context 💬
 
 Last week, a tweet went viral because of a missing formula.
 
@@ -30,7 +30,7 @@ Last week, a tweet went viral because of a missing formula.
 
 It is the DigiD digital authentication iOS app in the Netherlands.
 
-# Sample Code
+# Sample Code 📖
 
 ## Wrong?
 
@@ -85,17 +85,17 @@ private static string GetPercentageRounds(double percentage)
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic
 
 This is a semantic smell. In this case, we can count the number of if clauses.
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
-# Conclusion
+# Conclusion 🏁
 
 You can read the original [Twitter thread](https://twitter.com/JeroenFrijters/status/1615204074588180481) to take your own conclusions. There's some serious debate and, of course, several premature optimizators bringing obscure and unneeded solutions with *(O) log(n)* complexity and stupid benchmarks evidence for a loop that executes only once.
 
@@ -103,13 +103,13 @@ And lots of memes.
 
 As a final conclusion, I asked [ChatGPT](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Artificial%20Intelligence/ChatGPT%20The%20Surprising%20Teacher%20of%20a%20+25%20Year%20Senior%20Programmer/readme.md) and was not able to simplify it.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 36 - Switch/case/elseif/else/if statements](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md)
 
 [Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
-# More Info
+# More Information 📕
 
 %[https://twitter.com/JeroenFrijters/status/1615204074588180481]
 
@@ -117,7 +117,7 @@ As a final conclusion, I asked [ChatGPT](https://github.com/mcsee/Software-Desig
 
 [How to Get Rid of Annoying IFs Forever](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 

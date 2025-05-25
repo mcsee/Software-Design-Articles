@@ -6,7 +6,7 @@
 
 > TL;DR: The Hollywood Principle promotes loose coupling by inverting control. High-level components decide when and how to use low-level components.
 
-# Problems
+# Problems 😔 
 
 - Tight [coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 - Difficult to extend
@@ -15,13 +15,13 @@
 - Violation of SOLID principles
 - Lack of Testability
 
-# Solutions
+# Solutions 😃
 
 1. Apply Inversion of control
 2. Use Dependency injection
 3. Depend on abstractions
 
-# Context
+# Context 💬
 
 The [Hollywood Principle](https://en.wiktionary.org/wiki/Hollywood_principle) is a software design principle emphasizing loose coupling between components. 
 
@@ -31,9 +31,9 @@ Low-level components should register themselves with high-level components, and 
 
 This is also known as *Inversion of Control*.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d925b228b08c4772a5ac7aac291221af) -->
 
@@ -64,7 +64,7 @@ const money = new Money(126, 'USD');
 cart.checkout(money);
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/8b20655d72060014443b93b8a4578ca8) -->
 
@@ -100,31 +100,31 @@ const total = new Money(126, 'USD');
 cart.checkout(total);
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
 This is a design smell
  
-# Tags
+# Tags 🏷️
 
 - Coupling
 
-# Level
+# Level 🔋
 
 [X ] Intermediate
 
-# AI Generation
+# AI Generation 🤖
 
 AI generators can sometimes create code that violates the Hollywood Principle if you don't explicitly instruct them to follow [inversion of control](https://en.wikipedia.org/wiki/Inversion_of_control) patterns. 
 
 They often generate straightforward, tightly coupled code by default.
 
-# AI Detection
+# AI Detection 🥃
 
 AI tools can effectively detect violations of the Hollywood Principle by analyzing code dependencies and identifying tight coupling with proper instructions. (see below).
 
-## Try Them!
+## Try Them! 🛠
 
 *Remember: AI Assistants make lots of mistakes*
 
@@ -142,11 +142,11 @@ AI tools can effectively detect violations of the Hollywood Principle by analyzi
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Conclusion
+# Conclusion 🏁
 
 This principle can improve your code quality, reduce complexity, and enhance testability.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 198 - Hidden Assumptions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20198%20-%20Hidden%20Assumptions/readme.md)
 
@@ -160,7 +160,7 @@ This principle can improve your code quality, reduce complexity, and enhance tes
 
 [Code Smell 64 - Inappropriate Intimacy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2064%20-%20Inappropriate%20Intimacy/readme.md)
 
-# More Info
+# More Information 📕
 
 [Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
@@ -168,7 +168,7 @@ This principle can improve your code quality, reduce complexity, and enhance tes
 
 [Wiktionary](https://en.wiktionary.org/wiki/Hollywood_principle)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
   

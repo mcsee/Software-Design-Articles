@@ -6,7 +6,7 @@
 
 > TL;DR: Do not create anemic objects. Much less with automatic tools.
 
-# Problems
+# Problems 😔 
 
 - Anemic Objects
 
@@ -14,15 +14,15 @@
 
 - Harder to Debug
 
-# Solutions
+# Solutions 😃
 
 1. Create your objects manually.
 
 2. Focus on essential behavior instead of accidental data storage.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 [//]: # (https://gist.github.com/mcsee/f930ccb9f2a14798aea9c6b96977b391)
 
@@ -56,7 +56,7 @@ $john->getName();
 // returns 'John'
 ```
 
-## Right
+## Right 👉
 
 [//]: # (https://gist.github.com/mcsee/366d7d78b0952ac088125f75c2bc4035)
 
@@ -93,17 +93,17 @@ $john = new Employee('John', new HiredWorkingStatus());
 $john->name(); // returns 'John'
 ```
 
-# Detection
+# Detection 🔍
 
 Often, anemic models are generated with [meta-programming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md). 
 
 We need to track these magic [code generators](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20II%20-%20Code%20Wizards/readme.md).
 
-# Tags
+# Tags 🏷️
 
-- Anemic
+- Anemic Models
 
-# Conclusion
+# Conclusion 🏁
 
 Code Wizards, Meta-programming, and anemic models are all code smells.
 
@@ -111,17 +111,17 @@ We need to avoid these dark techniques.
 
 Having to write *explicitly* the code makes us reflect on every piece of data we encapsulate.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
-# More Info
+# More Information 📕
 
 [Laziness I - Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
 
 [Laziness II - Code Wizards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Lenny Kuhne](https://unsplash.com/@lennykuhne) on [Unsplash](https://unsplash.com/s/photos/factory)
   

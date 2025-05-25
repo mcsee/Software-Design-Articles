@@ -159,7 +159,7 @@ Here's a video benchmarking some tools:
 
 [![Watch the video](https://img.youtube.com/vi/99GuXTIW0R4/sddefault.jpg)](https://youtu.be/99GuXTIW0R4) 
 
-# Conclusion
+# Conclusion 🏁
 
 This article isn’t just a warning for junior programmers — senior developers should also [learn to master these tools](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Artificial%20Intelligence/ChatGPT%20The%20Surprising%20Teacher%20of%20a%20+25%20Year%20Senior%20Programmer/readme.md).
 

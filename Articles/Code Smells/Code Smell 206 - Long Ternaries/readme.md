@@ -6,7 +6,7 @@
 
 > TL;DR: Don't use ternaries for code execution. You should read them as a math formula.
 
-# Problems
+# Problems 😔 
 
 - Difficult to read
 
@@ -14,23 +14,23 @@
 
 - Low Testability
 
-# Solutions
+# Solutions 😃
 
 1. [Extract the method guards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20010%20-%20Extract%20Method%20Object/readme.md)
 
-# Refactorings
+# Refactorings ⚙️
 
 [Refactoring 010 - Extract Method Object](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20010%20-%20Extract%20Method%20Object/readme.md)
 
-# Context
+# Context 💬
 
 When a ternary condition is used in code that contains multiple functions, it can be challenging to determine which function is being affected by the condition. 
 
 This can make it harder to identify and fix bugs, as well as to understand how the code works in general.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/274faf5d13f9853f63228fa10ee45d7e) -->
 
@@ -53,7 +53,7 @@ const invoice = isCreditCard ?
 // the last execution
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/36ef3f34e5767f120dcabe8eebda1072) -->
 
@@ -75,33 +75,33 @@ if (isCreditCard) {
 const invoice = paymentMethod.createInvoice();
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 Linters can detect large code blocks
 
-# Tags
+# Tags 🏷️
 
 - Bloaters
 
-# Conclusion
+# Conclusion 🏁
 
 No matter where you have long lines of code, you can always refactor into higher-level functional and shorter methods.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 03 - Functions Are Too Long](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2003%20-%20Functions%20Are%20Too%20Long/readme.md)
 
-# More Info
+# More Information 📕
 
 [How to Get Rid of Annoying IFs Forever](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Jens Lelie](https://unsplash.com/@madebyjens) on [Unsplash](https://unsplash.com/photos/u0vgcIOQG08)
 

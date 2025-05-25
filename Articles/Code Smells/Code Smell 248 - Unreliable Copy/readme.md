@@ -6,7 +6,7 @@
 
 > TL;DR: Don't rely on external solutions without good handlers
 
-# Problems
+# Problems 😔 
 
 - Silent Modifications
 
@@ -14,13 +14,13 @@
 
 - Fail Fast Principle Violation
 
-# Solutions
+# Solutions 😃
 
 1. Ensure you meet your function's postconditions
 
 2. Use mature languages
 
-# Context
+# Context 💬
 
 The *copy()* function is used to copy files from one location to another. 
 
@@ -32,9 +32,9 @@ If the intended destination file has the same name as a directory in the path, c
 
 This can be confusing and lead to data loss.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/647393a744f23bb2594cd309ba92e56c) -->
 
@@ -64,7 +64,7 @@ This can be confusing and lead to data loss.
   // true but unexpected
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/75cb385ad949635913e898aa6a030b95) -->
 
@@ -82,25 +82,25 @@ This can be confusing and lead to data loss.
   }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 You can check all copy() handlers and wrap them
 
-# Tags
+# Tags 🏷️
 
 - Fail Fast
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# AI Generation
+# AI Generation 🤖
 
 Gemini is the only generator that avoided the problem dealing with ":" on file names
 
-# AI Detection
+# AI Detection 🥃
 
 With this prompt:
 
@@ -112,19 +112,19 @@ Gemini found the typo but also couldn't predict the behavior
 
 Claude also noticed the mistake but refused to tell the execution result
 
-# Conclusion
+# Conclusion 🏁
 
 Always check important function's post-conditions even if *you think* you will have performance penalties.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 15 - Missed Preconditions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2015%20-%20Missed%20Preconditions/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Luke Jernejcic](https://unsplash.com/@jernejcic) on [Unsplash](https://unsplash.com/photos/brown-and-white-smoke-on-brown-rock-formation-Oi31uKsnM1Q)
     

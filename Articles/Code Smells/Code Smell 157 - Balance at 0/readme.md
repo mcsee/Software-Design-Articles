@@ -6,7 +6,7 @@
 
 > TL;DR: Null is not 0. Error is not 0. just 0 is 0.
 
-# Problems
+# Problems 😔 
 
 - [Nulls](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
@@ -14,11 +14,11 @@
 
 - Usability
 
-# Solutions
+# Solutions 😃
 
 1. Make a clear distinction between a Zero and an error.
 
-# Context
+# Context 💬
 
 I read a lot about security issues. 
 
@@ -32,9 +32,9 @@ It was just a UX smell.
 
 The blockchain was unreachable 💩
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/4b6caebfa8707878eba0416c260fd180) -->
 
@@ -48,7 +48,7 @@ def get_balance(address):
         return 0
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/f59614042404c4d55eac82d3f6f9c8a0) -->
 
@@ -62,7 +62,7 @@ def get_balance(address):
         raise BlockchainNotReachableError("Error reaching blockchain")
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
@@ -70,15 +70,15 @@ This is a design smell.
 
 We can find patterns when an [exception](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2073%20-%20Exceptions%20for%20Expected%20Cases/readme.md) or [return code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2072%20-%20Return%20Codes/readme.md) is thrown and masked with a 0.
 
-# Tags
+# Tags 🏷️
 
 - UX
 
-# Conclusion
+# Conclusion 🏁
 
 Always follow The [Least Astonishment principle](https://en.wikipedia.org/wiki/Principle_of_least_astonishment) as a guide.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
@@ -88,7 +88,7 @@ Always follow The [Least Astonishment principle](https://en.wikipedia.org/wiki/P
 
 [Code Smell 72 - Return Codes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2072%20-%20Return%20Codes/readme.md)
 
-# More Info
+# More Information 📕
 
 [Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
@@ -96,7 +96,7 @@ Always follow The [Least Astonishment principle](https://en.wikipedia.org/wiki/P
 
 Photo by [Jasmin Sessler](https://unsplash.com/@jasmin_sessler) on [Unsplash](https://unsplash.com/s/photos/panic)  
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 

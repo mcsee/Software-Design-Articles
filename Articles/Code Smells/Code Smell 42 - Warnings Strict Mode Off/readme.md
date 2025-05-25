@@ -6,7 +6,7 @@
 
 > TL;DR: don't ignore warnings and alarms. You will regret it.
 
-# Problems
+# Problems 😔 
 
 - Missed Errors
 
@@ -14,7 +14,7 @@
 
 - Fail Fast
 
-# Solutions
+# Solutions 😃
 
 1. Enable all warnings
 
@@ -24,9 +24,9 @@
 
 4. [Design by contract](https://en.wikipedia.org/wiki/Design_by_contract)
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d4f19089543214fbc677a846967cb501) -->
 
@@ -39,7 +39,7 @@ delete x; // No error
 // you can delete undefinedVariable
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/4523879f8fd11134654d4683b5c68ceb) -->
 
@@ -54,17 +54,17 @@ delete undefinedVariable ;
 // Delete of an unqualified identifier in strict mode
 ```
 
-# Detection
+# Detection 🔍
 
 Most languages have warning levels. We should turn most of them *ON*.
 
 We should run linters to statically analyze our code for potential problems.
 
- # Tags
+ # Tags 🏷️
 
 - Fail Fast
 
-# Conclusion
+# Conclusion 🏁
 
 If we ignore warnings and code moves on sooner or later it will fail.
 
@@ -74,19 +74,19 @@ Defect will likely be near first warning and far away from the crash.
 
 If we follow the *Broken Windows Theory*, we should not tolerate any warnings, so a new issue will not pass unnoticed on a sea of *tolerated* warnings.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 19 - Optional Arguments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2019%20-%20Optional%20Arguments/readme.md)
 
 [Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
-# More Info
+# More Information 📕
 
 [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
 - [Use strict in javascript](https://blog.rahulism.co/use-strict-in-javascript)
 
-# Credits
+# Credits 🙏
 
 Photo by [Noah Dominic Silvio](https://unsplash.com/@electronicsocks) on [Unsplash](https://unsplash.com/s/photos/traffic-light)
 

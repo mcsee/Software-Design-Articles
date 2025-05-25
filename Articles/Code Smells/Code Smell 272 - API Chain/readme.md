@@ -6,7 +6,7 @@
 
 > TL;DR: Use primitive steps to verify API behavior instead of direct requests.
 
-# Problems
+# Problems 😔
 
 - Unnecessary API calls
 - Slow test performance
@@ -16,14 +16,14 @@
 - Maintainability
 - Misleading test results
 
-# Solutions
+# Solutions 😃
 
 1. Test primitive outcomes
 2. Validate responses directly
 3. Avoid extra API steps
 4. Simplify test logic
 
-# Context
+# Context 💬
 
 When you test an API, you might fall into the trap of using multiple API requests to verify a single operation.
 
@@ -39,9 +39,9 @@ Instead of verifying resource creation through a *GET* and inspecting the JSON r
 
 Check if the *POST* succeeded by validating the status code or checking the resource's existence.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/5eb9b894e0b974af2a2ad4ba6a7a9072) -->
 
@@ -58,7 +58,7 @@ Feature: Movie Management
       | Klendathu | Christopher Nolan | 2010 |
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/69210049d4e68330f70cf1dbbe66dcba) -->
 
@@ -73,31 +73,31 @@ Feature: Movie Management
     ## Without relying on a GET request
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 You can detect this smell when you see test steps that use a *GET* request to verify the success of a *POST*. 
 
-# Tags
+# Tags 🏷️
 
 - Testing
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# AI Generation
+# AI Generation 🤖
 
 AI generators often create this smell when generating API tests, defaulting to chaining requests and validating the entire resource, rather than focusing on the operation's outcome.
 
-# AI Detection
+# AI Detection 🥃
 
 AI tools can potentially detect this smell with proper instructions. 
 
 You could train an AI to identify patterns of consecutive *POST* and *GET* requests in scenarios and suggest consolidating them into more abstract, primitive steps.
 
-## Try Them!
+## Try Them! 🛠
 
 *Remember: AI Assistants make lots of mistakes*
 
@@ -115,13 +115,13 @@ You could train an AI to identify patterns of consecutive *POST* and *GET* reque
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Conclusion
+# Conclusion 🏁
 
 Focus your acceptance tests on the direct results of operations like *POST*.
 
 Avoid making a GET request afterward to verify what you already know.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 259 - Testing with External Resources](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20259%20-%20Testing%20with%20External%20Resources/readme.md)
 
@@ -129,15 +129,15 @@ Avoid making a GET request afterward to verify what you already know.
 
 [Code Smell 52 - Fragile Tests](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2052%20-%20Fragile%20Tests/readme.md)
 
-# More Info
+# More Information 📕
 
 [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Dmitriy Demidov](https://unsplash.com/@fotograw) on [Unsplash](https://unsplash.com/photos/a-group-of-wrenches-arranged-in-a-circle-iuuJC_pjLU0)
     

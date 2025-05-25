@@ -42,7 +42,7 @@
 
 - DTOs
 
-# Context
+# Context 💬
 
 If you let your objects become data buckets, you kill the connection between your logic and your language.  
 

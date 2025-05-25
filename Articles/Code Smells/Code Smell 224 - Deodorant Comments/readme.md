@@ -6,21 +6,21 @@
 
 > TL;DR: Don't excuse bad code. Write a clean one!
 
-# Problems
+# Problems 😔 
 
 - Readability
 
-# Solutions
+# Solutions 😃
 
 1. Rewrite the code and delete the comment
 
-# Context
+# Context 💬
 
 The term comes from Martin Fowler's book "Refactoring: Improving the Design of Existing Code"
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/fd3612b1beeb9cde934bec4eca92bf16) -->
 
@@ -33,7 +33,7 @@ def s(a, b):
     return res
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/57f6e1f31f3cd599deafc21236ae71ce) -->
 
@@ -72,7 +72,7 @@ def calculate_sum(number1, number2):
 # (wrong) in fact, it is an example of deodorant and useless comment
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
@@ -80,23 +80,23 @@ Most comments are code smells.
 
 You can remove deodorant comments and improve the code.
 
-# Exceptions
+# Exceptions 🛑
 
 - Comments should only be used to describe important design decisions.
 
-# Tags
+# Tags 🏷️
 
 - Comments
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# Conclusion
+# Conclusion 🏁
 
 Remove any meaningless comment you find in your code.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 151 - Commented Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20151%20-%20Commented%20Code/readme.md)
 
@@ -108,15 +108,15 @@ Remove any meaningless comment you find in your code.
 
 [Refactoring 011 - Replace Comments with Tests](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20011%20-%20Replace%20Comments%20with%20Tests/readme.md)
 
-# More Info
+# More Information 📕
 
 [Clean Code In C#](https://learning.oreilly.com/library/view/clean-code-in/9781838982973)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Ana Essentiels](https://unsplash.com/@ana_essentiels) on [Unsplash](https://unsplash.com/photos/Eh6iapfqDzA)
     

@@ -6,7 +6,7 @@
 
 > TL;DR: Don't use getters. Don't comment getters
 
-# Problems
+# Problems 😔 
 
 - Comment Abusers
 
@@ -14,21 +14,21 @@
 
 - Getters
 
-# Solutions
+# Solutions 😃
 
 1. Remove getter comments
 
 2. Remove getters
 
-# Context
+# Context 💬
 
 A few decades ago, we used to comment on every method. Even trivial ones
 
 Comment should describe only a critical design decision.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/29cd4411aa32467291998e467e6ef503) -->
 
@@ -44,7 +44,7 @@ contract Property {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/bf1ab1d44b078d797796d19554032591) -->
 
@@ -58,27 +58,27 @@ contract Property {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic
 
 We can detect if a method is a getter and has a comment. 
 
-# Exceptions
+# Exceptions 🛑
 
 The function needs a comment, that is accidentally a getter and the comment is related to a design decision
 
-# Tags
+# Tags 🏷️
 
 - Comments
 
-# Conclusion
+# Conclusion 🏁
 
 Don't comment getters. 
 
 They add no real value and bloat your code.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
 
@@ -86,7 +86,7 @@ They add no real value and bloat your code.
 
 [Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by Reimond de Zuñiga on Unsplash
 

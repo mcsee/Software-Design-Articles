@@ -6,21 +6,21 @@
 
 > TL;DR: Do not use exceptions for flow control.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
 - Principle of least astonishment Violation.
 
-# Solutions
+# Solutions 😃
 
 1. Use Exceptions just for unexpected situations.
 
 2. Exceptions handle [contract violations](https://en.wikipedia.org/wiki/Design_by_contract). Read the contract.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/14fe90a45804c47d898bab4fe8d17d36) -->
 
@@ -33,7 +33,7 @@ try {
 // Endless loop without end condition
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/49811ad62691011166020c49c1c2ed71) -->
 
@@ -44,27 +44,27 @@ for (int index = 0; index < array.length; index++)
 // index < array.length breaks execution
 ```
 
-# Detection
+# Detection 🔍
 
 This is a semantic smell. Unless we use machine learning linters it will be very difficult to find the mistakes.
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
-# Conclusion
+# Conclusion 🏁
 
 Exceptions are handy, and we should definitively use them instead of returning codes. 
 
 The boundary between correct usage and wrong usage is blur like so many design principles.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 72 - Return Codes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2072%20-%20Return%20Codes/readme.md)
 
 [Code Smell 26 - Exceptions Polluting](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2026%20-%20Exceptions%20Polluting/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Don't use exceptions for flow control](https://wiki.c2.com/?DontUseExceptionsForFlowControl)
 
@@ -74,7 +74,7 @@ The boundary between correct usage and wrong usage is blur like so many design p
 
 - [Stack Overflow](https://stackoverflow.com/questions/729379/why-not-use-exceptions-as-regular-flow-of-control)
 
-# Credits
+# Credits 🙏
 
 Photo by [Greg Rosenke](https://unsplash.com/@greg_rosenke) on [Unsplash](https://unsplash.com/s/photos/bounds)
   

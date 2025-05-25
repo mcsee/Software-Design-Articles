@@ -6,7 +6,7 @@
 
 > TL;DR: If your language has the right tool, your classes should be either abstract or final.
 
-# Problems
+# Problems 😔 
 
 - Subclassification for [Code Reuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
 
@@ -16,19 +16,19 @@
 
 - [Yo-Yo](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2058%20-%20Yo-yo%20Problem/readme.md) Problem
 
-# Solutions
+# Solutions 😃
 
 1. Declare all your leaf classes as *final* and the rest of them *abstract*.
 
-# Context
+# Context 💬
 
 Managing hierarchies and composition is the main task of a good software designer.
 
 Keeping hierarchies healthy is crucial to favor cohesion and avoid [coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md).
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/580be250747d29d198fe4bbf9db41c8e) -->
 
@@ -56,7 +56,7 @@ public class Motorcycle extends Vehicle
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/712df5f99ec232c4e4d2cdaf1bdf62c0) -->
 
@@ -84,27 +84,27 @@ final public class Motorcycle extends Vehicle
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 Since this is enforced by static analysis, we can't do it with most available tools.
 
-# Tags
+# Tags 🏷️
 
 - Subclassification
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# Conclusion
+# Conclusion 🏁
 
 We should look back at our classes and start qualifying them either as abstract or final.
 
 There are no valid cases for two concrete classes, one subclassifying the other.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 11 - Subclassification for Code Reuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
 
@@ -114,17 +114,17 @@ There are no valid cases for two concrete classes, one subclassifying the other.
 
 [Code Smell 58 - Yo-yo Problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2058%20-%20Yo-yo%20Problem/readme.md)
 
-# More Info
+# More Information 📕
 
 [Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 [Deep Subclasses](http://www.laputan.org/drc.html)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [William Bossen](https://unsplash.com/@william_bossen) on [Unsplash](https://unsplash.com/s/photos/the-end)
   

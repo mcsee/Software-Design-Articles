@@ -4,6 +4,7 @@ public bool CheckIfStringHas3To7LowercaseCharsFollowedBy3or4Numbers
   Regex stringHas3To7LowercaseCharsFollowedBy3or4Numbers = 
     new Regex(@"[a-z]{2,7}[1-9]{3,4}")
   var hasMatch =
-    stringHas3To7LowercaseCharsFollowedBy3or4Numbers.IsMatch(password);
+    stringHas3To7LowercaseCharsFollowedBy3or4Numbers.
+      IsMatch(password);
   return hasMatch;  
 }

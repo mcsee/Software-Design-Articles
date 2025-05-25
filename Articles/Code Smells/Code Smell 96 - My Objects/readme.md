@@ -6,26 +6,26 @@
 
 > TL;DR: don't use *my* as a name prefix.
 
-# Problems
+# Problems 😔 
 
 - Lack of context
 
 - Bijection Fault
 
-# Solutions
+# Solutions 😃
 
 1. Remove *my* prefix. 
 
 2. Change to a role suggesting name.
 
-# Context
+# Context 💬
 
 Several old tutorials use the word 'my' as a lazy name. 
 This is vague and lead to context mistakes.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/5c9ab47e5af40a643dee30ace2b57a93) -->
 
@@ -33,7 +33,7 @@ This is vague and lead to context mistakes.
 MainWindow myWindow = Application.Current.MainWindow as MainWindow;
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/8d230b138e3220e08064acedd585dd7d) -->
 
@@ -46,29 +46,29 @@ with a specialized window playing a special role
 */
 ```
 
-# Detection
+# Detection 🔍
 
 [x] Automatic
 
 We can tell our linters and static checkers to search for this prefix and warn us.
 
-# Tags
+# Tags 🏷️
 
 - Naming
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 Avoid using *my*. Objects change according to the usage context.
 
-# More Info
+# More Information 📕
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Michał Bożek](https://unsplash.com/@bozu) on [Unsplash](https://unsplash.com/s/photos/kid-toy)
   

@@ -6,7 +6,7 @@
 
 > TL;DR: Don't track bugs. Fix them.
 
-# Problems
+# Problems 😔 
 
 - Hard to-track lists
 
@@ -14,7 +14,7 @@
 
 - Functional Debt
 
-# Solutions
+# Solutions 😃
 
 0. Stop calling it a [Bug](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quality/Stop%20Calling%20them%20'Bugs'/readme.md)
 
@@ -28,7 +28,7 @@
 
 Welcome to TDD!
 
-# Context
+# Context 💬
 
 We don't like to be interrupted. 
 
@@ -40,9 +40,9 @@ We need to improve our software if we can't do quick fixes and corrections.
 
 Not by creating To-Fix lists.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/352ade4d98a059ed49e4312ae3bab44e) -->
 
@@ -56,7 +56,7 @@ function divide($numerator, $denominator) {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d1323654df40648970e8058c0cbd55cc) -->
 
@@ -73,37 +73,37 @@ function integerDivide($numerator, $denominator) {
 // You pay your debts
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 We need to avoid creating bugs and issues.
 
-# Tags
+# Tags 🏷️
 
 - Technical Debt
 
-# Conclusion
+# Conclusion 🏁
 
 We need to discourage bugs and issue trackers on the engineering side.
 
 Of course, customers need to track their findings and we need to address them ASAP.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 148 - ToDos](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20148%20-%20ToDos/readme.md)
 
-# More Info
+# More Information 📕
 
 [Famous Bugs](https://en.wikipedia.org/wiki/List_of_software_bugs)
 
 [Stop Calling them 'Bugs'](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quality/Stop%20Calling%20them%20'Bugs'/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Justin Lauria](https://unsplash.com/@justinlauria) on [Unsplash](https://unsplash.com/s/photos/bug)
   

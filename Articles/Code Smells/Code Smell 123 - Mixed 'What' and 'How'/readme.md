@@ -6,7 +6,7 @@
 
 > TL;DR: Don't mess with implementation details. Be declarative. Not imperative.
 
-# Problems
+# Problems 😔 
 
 - Accidental Coupling
 
@@ -16,11 +16,11 @@
 
 - [Comments](https://twitter.com/TonyFlury/status/1103649549355233280) distinguish the 'how' and the 'what'.
 
-# Solutions
+# Solutions 😃
 
 1. Separate 'What' and 'How' concerns. 
 
-# Context
+# Context 💬
 
 Separating concerns is very difficult in the software industry.
 
@@ -30,9 +30,9 @@ Implementative software brings coupling and is harder to change.
 
 Choosing wise declarative names is a daily challenge.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d6d3df14e1268f9308fdd2121ccd598d) -->
 
@@ -50,7 +50,7 @@ class Workflow {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/4fb3c004b00d81cfb1749bd22394772c) -->
 
@@ -72,29 +72,29 @@ class Workflow {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
 This is a semantic and naming smell.
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
-# Conclusion
+# Conclusion 🏁
 
 We need to choose good names and add indirection layers when necessary.
 
 Of course, *[premature optimizators](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md)* will fight us, telling us we are wasting computational resources and they need to know the insights we are hiding from them.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 92 - Isolated Subclasses Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2092%20-%20Isolated%20Subclasses%20Names/readme.md)
 
 [Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
 
-# More Info
+# More Information 📕
 
 - [On premature optimizators](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md)
 
@@ -102,7 +102,7 @@ Of course, *[premature optimizators](https://github.com/mcsee/Software-Design-Ar
 
 - [What is in a name?](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Josh Redd](https://unsplash.com/@joshredd) on [Unsplash](https://unsplash.com/s/photos/clock)
   

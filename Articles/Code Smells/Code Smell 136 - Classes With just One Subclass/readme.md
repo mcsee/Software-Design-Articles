@@ -6,7 +6,7 @@
 
 > TL;DR: Don't over-generalize
 
-# Problems
+# Problems 😔 
 
 - Speculative Design
 
@@ -14,11 +14,11 @@
 
 - Over-Engineering
 
-# Solutions
+# Solutions 😃
 
 1. Remove the abstract class until you get more examples
 
-# Context
+# Context 💬
 
 In the past, programmers told us to design for change. 
 
@@ -30,9 +30,9 @@ Not before.
 
 Not with interfaces, not with classes.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ce3cbe785c4b1d542a2b0660acabbc8f) -->
 
@@ -50,7 +50,7 @@ class GoodBoss(Boss):
 # with constructive feedback
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/441d6bf98d916336dbfa2670d7109640) -->
 
@@ -62,13 +62,13 @@ class Boss(object):
 # Bosses are concrete and can change mood
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 This is very easy for our linters since they can trace this error at compile time.
 
-# Exceptions
+# Exceptions 🛑
 
 Some frameworks create an abstract class as a placeholder to build our models over them.
 
@@ -76,15 +76,15 @@ Subclassing should be never our first option.
 
 A more elegant solution would be to declare [an interface](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20135%20-%20Interfaces%20With%20just%20One%20Realization/readme.md) since it is less coupled.
 
-# Tags
+# Tags 🏷️
 
 - Over Design
 
-# Conclusion
+# Conclusion 🏁
 
 We need to wait for abstractions and not be creative and speculative.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 114 - Empty Class](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20114%20-%20Empty%20Class/readme.md)
 
@@ -98,7 +98,7 @@ We need to wait for abstractions and not be creative and speculative.
 
 [Code Smell 161 - Abstract/Final/Undefined Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20161%20-%20Abstract%20Final%20Undefined%20Classes/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Benjamin Davies](https://unsplash.com/photos/9b5dvrjb05g) on Unsplash
 

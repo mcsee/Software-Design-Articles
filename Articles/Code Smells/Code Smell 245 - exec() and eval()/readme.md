@@ -6,13 +6,13 @@
 
 > TL;DR: Don't use metaprogramming. It is not that cool
 
-# Problems
+# Problems 😔 
 
 - Security
 
 - Limited Control 
 
-# Solutions
+# Solutions 😃
 
 1. Use direct calls 
 
@@ -20,15 +20,15 @@
 
 3. Sanitize it 
 
-# Context
+# Context 💬
 
 Developers employ the eval() and exec() functions to evaluate arbitrary expressions from strings.
 
 They can be a powerful tool in certain contexts but come with several risks and problems, especially when used with untrusted input or where the code's behavior is not fully controlled or understood. 
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/234f3b1d3a82bfc9bba82d8bb0af642c) -->
 
@@ -43,7 +43,7 @@ result = calculate('*', 4, 6)
 calculate('', "__import__('os').system('rm -rf *')",''))
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/c805ea4caee48b9ce7b37c2dcec0a594) -->
 
@@ -68,17 +68,17 @@ def calculate(mathOperand, firstArgument, secondArgument):
 # a Polymorphic Hierarchy
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 You can search for eval() in the code
 
-# Tags
+# Tags 🏷️
 
 - Metaprogramming
 
-# Level
+# Level 🔋
 
 [x] Intermediate
 
@@ -88,11 +88,11 @@ Most AI Assistants avoid using eval() in their solutions.
 
 They also recognize it as a code smell and offer different options
 
-# Conclusion
+# Conclusion 🏁
 
 Avoid this metaprogramming solution by hardcoding all the possible scenarios and avoiding over-generalizations.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 207 - Dynamic Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20207%20-%20Dynamic%20Methods/readme.md)
 
@@ -100,15 +100,15 @@ Avoid this metaprogramming solution by hardcoding all the possible scenarios and
 
 [Code Smell 215 - Deserializing Object Vulnerability](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20215%20-%20Deserializing%20Object%20Vulnerability/readme.md)
 
-# More Info
+# More Information 📕
 
 [Laziness I - Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Yang](https://unsplash.com/@yangshuo) on [Unsplash](https://unsplash.com/photos/wall-with-red-gate-16Y4sHHe9xY)   
   

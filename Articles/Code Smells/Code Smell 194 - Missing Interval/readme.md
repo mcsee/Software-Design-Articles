@@ -6,7 +6,7 @@
 
 > TL;DR: Intervals are there. Why use plain dates?
 
-# Problems
+# Problems 😔 
 
 - Missing abstraction
 
@@ -20,11 +20,11 @@
 
 - [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md) principle violation
 
-# Solutions
+# Solutions 😃
 
 1. Create and use an Interval Object
 
-# Context
+# Context 💬
 
 The restriction "From date should be lower than to date" means that the starting date of a certain interval should occur before the ending date of the same interval.
 
@@ -38,9 +38,9 @@ Would you create a *Date* as a pair of 3 *Integer numbers*? Certainly, not.
 
 This is the same. 
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/1e7dafa0143427c7e381017d77da987e) -->
 
@@ -60,7 +60,7 @@ fun elapsedDays(fromDate: LocalDate, toDate: LocalDate): Long {
 // You can make accounting numbers with a negative number
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/cff12c234110259b3b39b6a0122e1b76) -->
 
@@ -88,7 +88,7 @@ val to = LocalDate.of(2002, 12, 22)
 val interval = Interval(from, to) // Invalid
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
@@ -96,15 +96,15 @@ This is a primitive obsession smell.
 
 It is related to how we model things.
 
-# Tags
+# Tags 🏷️
 
 - Primitive
 
-# Conclusion
+# Conclusion 🏁
 
 If you find software with missing simple validations, it certainly needs reification.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 177 - Missing Small Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20177%20-%20Missing%20Small%20Objects/readme.md)
 
@@ -112,15 +112,15 @@ If you find software with missing simple validations, it certainly needs reifica
 
 [Code Smell 122 - Primitive Obsession](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20122%20-%20Primitive%20Obsession/readme.md)
 
-# More Info
+# More Information 📕
 
 [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Towfiqu barbhuiya](https://unsplash.com/@towfiqu999999) on [Unsplash](https://unsplash.com/photos/bwOAixLG0uc)  
   

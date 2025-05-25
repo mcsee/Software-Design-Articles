@@ -6,7 +6,7 @@
 
 > TL;DR: Don't leave TODOs in your code. Fix them!
 
-# Problems
+# Problems 😔 
 
 - Technical Debt
 
@@ -14,11 +14,11 @@
 
 - Lack of Confidence
 
-# Solutions
+# Solutions 😃
 
 1. Fix your TODOs
 
-# Context
+# Context 💬
 
 We encounter TODOs in our code. We count them.
 
@@ -30,9 +30,9 @@ Then we pay the debt + the interest.
 
 A few months after, we pay more interest than the original debt.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/76fb2f5fada656e6dd5be6989351e91c) -->
 
@@ -59,7 +59,7 @@ public class Door
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/2d1fcb683f9c9c0391c7c369baf54bff) -->
 
@@ -87,17 +87,17 @@ public class Door
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 We can count TODOs.
 
-# Tags
+# Tags 🏷️
 
 - Technical Debt
 
-# Conclusion
+# Conclusion 🏁
 
 We can count TODOs.
 
@@ -109,17 +109,17 @@ If we are using TDD, we write the missing code right away.
 
 In this context, TODOs are only valid when doing Depth First development to remember open paths to visit.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 179 - Known Bugs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20179%20-%20Known%20Bugs/readme.md)
 
-# More Info
+# More Information 📕
 
 [Should you put ToDos?](https://www.osedea.com/en/blog/should-you-put-todos-in-the-source-code)
 
 [Broken Windows Theory](https://en.wikipedia.org/wiki/Broken_windows_theory)
 
-# Credits
+# Credits 🙏
 
 Photo by [Eden Constantino](https://unsplash.com/@edenconstantin0) on [Unsplash](https://unsplash.com/s/photos/todo)
   

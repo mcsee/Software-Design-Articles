@@ -6,7 +6,7 @@
 
 > TL;DR: Don't mix ortoghonal behavior
 
-# Problems
+# Problems 😔 
 
 - Maintainability
 
@@ -24,11 +24,11 @@
 
 - [Coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1. Break Orthogonal behavior and properties
 
-# Context
+# Context 💬
 
 Parsing data is always a problem, where joining elements is much easier than breaking them.
 
@@ -36,9 +36,9 @@ If you use a separator to break the attributes, you need to make sure the separa
 
 If you map your data to relational databases, search queries will be more difficult and less performant for concatenated attributes
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ed66e002ac7cf031d7256b7529a1624d) -->
 
@@ -66,7 +66,7 @@ class Point {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/7a5cb375b631c683845d61095b0d9ded) -->
 
@@ -79,17 +79,17 @@ class Point {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 This is a semantic smell, but you can find suspicious concatenation actions on peer reviews. 
 
-# Tags
+# Tags 🏷️
 
 - Coupling
 
-# Level
+# Level 🔋
 
 [X] Beginner 
 
@@ -97,19 +97,19 @@ This is a semantic smell, but you can find suspicious concatenation actions on p
 
 AI Assistants don't usually suggest this kind of premature optimization of bad rules
 
-# Conclusion
+# Conclusion 🏁
 
 Don't mix unrelated things since breaking things is always harder than having them separated.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Tomas Sobek](https://unsplash.com/@tomas_nz) on [Unsplash](https://unsplash.com/photos/photo-of-red-and-blue-zippers-nVqNmnAWz3A)
     

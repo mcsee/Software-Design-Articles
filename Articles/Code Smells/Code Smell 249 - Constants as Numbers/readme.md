@@ -6,7 +6,7 @@
 
 > TL;DR: Use real-world constants as constants
 
-# Problems
+# Problems 😔 
 
 - Bijection Violation
 
@@ -20,7 +20,7 @@
 
 - Limited Extensibility
 
-# Solutions
+# Solutions 😃
 
 1. Use descriptive string constants
 
@@ -28,7 +28,7 @@
 
 3. Create A [Polymorphic](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)) Hierarchy
 
-# Context
+# Context 💬
 
 Numeric constants representing real-world concepts lack readability and make your code harder to understand. 
 
@@ -40,9 +40,9 @@ New values can introduce errors and make maintenance more difficult.
 
 Saving attributes as *integers* to improve the persistence performance or space is a clear signal of [Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md).
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/6dca45949652677ea4fe0f611c0a290d) -->
 
@@ -52,7 +52,7 @@ public const FORMAT_GIF = 2;
 public const FORMAT_PNG = 3;
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/8af320b9550e7a7f4884df45820d7478) -->
 
@@ -71,29 +71,29 @@ public enum ImageFormat
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 You can tell your linters to warn you about this usage, but they can show you some false positives.
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# AI Generation
+# AI Generation 🤖
 
 No models create this premature optimization problem when prompted to list constants.
 	
-# AI Detection
+# AI Detection 🥃
 
 ChatGPT and Gemini detected this as a mistake.
 
-# Conclusion
+# Conclusion 🏁
 
 After this correction, your code will be cleaner readable, and self-explanatory for debugging.
 
@@ -103,7 +103,7 @@ If you need to add more formats or change the order, you should update the enume
 
 IDEs with auto-completion and error checking will give you better support to work with enums.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 02 - Constants and Magic Numbers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
 
@@ -111,15 +111,15 @@ IDEs with auto-completion and error checking will give you better support to wor
 
 [Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
-# More Info
+# More Information 📕
 
 [How to Get Rid of Annoying IFs Forever](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Markus Krisetya](https://unsplash.com/@krisetya) on [Unsplash](https://unsplash.com/photos/person-in-white-shirt-and-blue-denim-shorts-standing-on-black-and-white-floor-Vkp9wg-VAsQ)
     

@@ -6,7 +6,7 @@
 
 > TL;DR: Start counting from one instead of zero. Like humans do.
 
-# Problems
+# Problems 😔 
 
 - [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) from real-world broken
 
@@ -14,11 +14,11 @@
 
 - Overly implementation-oriented code
 
-# Solutions
+# Solutions 😃
 
 1. Favor high-level declarative languages
 
-# Context
+# Context 💬
 
 Low-level languages force you to think at a machine level.
 
@@ -37,9 +37,9 @@ These languages are known for being higher level and more declarative:
 - R
 - Julia 
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/79140cca1b6b1d1459ae73801ef26845) -->
 
@@ -58,7 +58,7 @@ func main() {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/3ccf0ebb605c95b96a185999290bd52f) -->
 
@@ -72,25 +72,25 @@ for currentIndex = 1:length(numbers)
 end
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 This is a language smell. 
 
-# Exceptions
+# Exceptions 🛑
 
 - Low-level optimized code
 
-# Tags
+# Tags 🏷️
 
 - Declarative Code
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# Conclusion
+# Conclusion 🏁
 
 We need to think as humans when we code and not as machines.
 
@@ -98,23 +98,23 @@ Humans count from one.
 
 [Zero number](https://en.wikipedia.org/wiki/0) was a brilliant discovery in math and science but it does not apply to everyday counting.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 53 - Explicit Iteration](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2053%20-%20Explicit%20Iteration/readme.md)
 
 [Code Smell 123 - Mixed 'What' and 'How'](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20123%20-%20Mixed%20'What'%20and%20'How'/readme.md)
 
-# More Info
+# More Information 📕
 
 [Wikipedia](https://en.wikipedia.org/wiki/Zero-based_numbering)
 
 [Dijkstra on Numbering](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD08xx/EWD831.html)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Andy Kelly](https://unsplash.com/@askkell) on [Unsplash](https://unsplash.com/photos/0E_vhMVqL9g)  
   

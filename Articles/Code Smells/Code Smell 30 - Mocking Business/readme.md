@@ -6,7 +6,7 @@
 
 > TL;DR: Don't use Mocks
 
-# Problems
+# Problems 😔 
 
 - Complexity
 
@@ -16,15 +16,15 @@
 
 - Maintainability
 
-# Solutions
+# Solutions 😃
 
 1. [Mock](https://en.wikipedia.org/wiki/Mock_object) just non-business entities.
 
 2. Remove mock if its interface has too much behavior.
  
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/191cee3a71132501564cdb58abef27a7) -->
 
@@ -57,7 +57,7 @@ class PaymentTest extends TestCase
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/1a84f6cf33594a0b63f5171a13513439) -->
 
@@ -105,23 +105,23 @@ class PaymentTest extends \PHPUnit_Framework_TestCase
 }
 ```
 
-# Detection
+# Detection 🔍
 
 This is an architectural pattern. It will not be easy to create an automatic detection rule.
 
-# Exceptions
+# Exceptions 🛑
 
 - Mocking accidental problems (serialization, databases, APIs) is a very good practice to avoid coupling.
 
-# Tags
+# Tags 🏷️
 
 - Abuser 
 
-# Conclusion
+# Conclusion 🏁
 
 Mocks, like many other test doubles are excellent tools. Choosing wisely when to use them is an art.
 
-# More Info
+# More Information 📕
 
 [Mocking is a Code Smell](https://medium.com/javascript-scene/mocking-is-a-code-smell-944a70c90a6a)
 
@@ -131,7 +131,7 @@ Mocks, like many other test doubles are excellent tools. Choosing wisely when to
 
 - Faker
 
-# Credits
+# Credits 🙏
 
 Photo by [Syed Ahmad](https://unsplash.com/@syedabsarahmad) on [Unsplash](https://unsplash.com/s/photos/monkey)
 

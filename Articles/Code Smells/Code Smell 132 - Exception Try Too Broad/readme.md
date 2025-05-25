@@ -14,11 +14,11 @@
 
 - False negatives
 
-# Solutions
+# Solutions 😃
 
 1. Narrow the exception handler as much as possible 
 
-# Sample Code
+# Sample Code 📖
 
 ## Wrong 
 
@@ -27,27 +27,28 @@
 ```python
 import calendar, datetime
 try: 
-    birthYear= input('Birth year:')
-    birthMonth= input('Birth month:')
-    birthDay= input('Birth day:')
-    # you don't expect the above to fail
-    print(datetime.date(
-        int(birthYear), int(birthMonth), int(birthDay)))
+  birthYear= input('Birth year:')
+  birthMonth= input('Birth month:')
+  birthDay= input('Birth day:')
+  # you don't expect the above to fail
+  
+  print(datetime.date(
+    int(birthYear), int(birthMonth), int(birthDay)))
 except ValueError as e:
-    if str(e) == 'month must be in 1..12': 
-        print('Month ' + str(birthMonth) + 
-            ' is out of range. The month must be a number in 1...12')
-    elif str(e) == 'year {0} is out of range'.format(birthYear): 
-        print('Year ' + str(birthYear) +
-            ' is out of range. The year must be a number in ' +
-              str(datetime.MINYEAR) + '...' + str(datetime.MAXYEAR))
-    elif str(e) == 'day is out of range for month': 
-        print('Day ' + str(birthDay) + 
-            ' is out of range. The day must be a number in 1...' +
-              str(calendar.monthrange(birthYear, birthMonth)))
+  if str(e) == 'month must be between 1 and 12': 
+    print('Month ' + str(birthMonth) + 
+      ' is out of range. The month must be a number between 1 and 12')
+  elif str(e) == 'year {0} is out of range'.format(birthYear): 
+    print('Year ' + str(birthYear) +
+      ' is out of range. The year must be a number between ' +
+          str(datetime.MINYEAR) + ' and ' + str(datetime.MAXYEAR))
+  elif str(e) == 'day is out of range for month': 
+    print('Day ' + str(birthDay) + 
+      ' is out of range. The day must be a number between 1 and ' +
+          str(calendar.monthrange(birthYear, birthMonth)))
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/0d7e270416ebc934fbfbe8934175e52c) -->
 
@@ -65,40 +66,40 @@ try:
     print(datetime.date(
         int(birthYear), int(birthMonth), int(birthDay)))
 except ValueError as e:
-    if str(e) == 'month must be in 1..12': 
+    if str(e) == 'month must be between 1 and 12': 
         print('Month ' + str(birthMonth) + ' is out of range. '
-            'The month must be a number in 1...12')
+            'The month must be a number between 1 and 12')
     elif str(e) == 'year {0} is out of range'.format(birthYear): 
         print('Year ' + str(birthYear) + ' is out of range. '
-            'The year must be a number in ' + 
-              str(datetime.MINYEAR) + '...' + str(datetime.MAXYEAR))
+            'The year must be a number between ' + 
+              str(datetime.MINYEAR) + ' and ' + str(datetime.MAXYEAR))
     elif str(e) == 'day is out of range for month': 
         print('Day ' + str(birthDay) + ' is out of range. '
-            'The day must be a number in 1...' +
+            'The day must be a number between 1 and ' +
               str(calendar.monthrange(birthYear, birthMonth)))
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
 If we have a good enough test suite, we can perform mutation testing to narrow the exception scope as much as possible.
 
-# Tags
+# Tags 🏷️
 
 - Exceptions
 
-# Conclusion
+# Conclusion 🏁
 
 We must make exceptions as surgical as possible.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 26 - Exceptions Polluting](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2026%20-%20Exceptions%20Polluting/readme.md)
 
 [Code Smell 73 - Exceptions for Expected Cases](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2073%20-%20Exceptions%20for%20Expected%20Cases/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photon from [Jakob Braun](https://unsplash.com/es/fotos/Js2Tv3-uLB8) on Unsplash
 

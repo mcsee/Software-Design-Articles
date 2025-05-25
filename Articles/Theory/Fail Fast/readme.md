@@ -218,7 +218,7 @@ The case would be different if a movement has an agreement date, a creation date
 
 > As always, design decisions involve continuous trade-offs.
 
-# Conclusions
+# Conclusion 🏁
 
 Suspecting an invalid situation, we must throw an exception in all cases. When in doubt, it should be done as early as possible.
 

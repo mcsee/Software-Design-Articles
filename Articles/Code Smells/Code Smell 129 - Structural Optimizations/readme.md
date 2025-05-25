@@ -6,7 +6,7 @@
 
 > TL;DR: Don't optimize anything until you have a real-use scenario benchmark.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -14,7 +14,7 @@
 
 - Premature Optimization
 
-# Solutions
+# Solutions 😃
 
 1. Cover your scenarios with tests.
 
@@ -26,7 +26,7 @@
 
 5. Attack the worst 20% of problems causing 80% bad performance.
 
-# Context
+# Context 💬
 
 In university and online courses, we learn algorithms, data structures, and computational complexity before good design rules.
 
@@ -36,9 +36,9 @@ Premature optimization often has no evidence of solving real problems.
 
 We need to surgically improve our code when the facts tell us we have a real issue.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/b8d538891f3b1cf508e984399af004b0) -->
 
@@ -55,7 +55,7 @@ for (k = 0; k < 3 * 3; ++k) {
 // In real contexts
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/b68e67c449b7d0a5b13f69381f02e8e4) -->
 
@@ -72,7 +72,7 @@ for (outerIterator = 0; outerIterator< 3; outerIterator++) {
 // You will wait for real evidence
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
@@ -80,31 +80,31 @@ This is a semantic smell.
 
 We might find the code harder to read.
 
-# Tags
+# Tags 🏷️
 
 - Premature Optimization
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# Conclusion
+# Conclusion 🏁
 
 We need to stop optimizing for machines and start optimizing for human readers and code maintainers.
 
 We need to avoid programming languages designed for premature optimization and favor robust ones.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
 [Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Premature optimization is the root of all evil is the root of evil](https://okaleniuk.medium.com/premature-optimization-is-the-root-of-all-evil-is-the-root-of-evil-a8ab8056c6b)
 
-# Credits
+# Credits 🙏
 
 Photo by [Priscilla Du Preez](https://unsplash.com/@priscilladupreez) on [Unsplash](https://unsplash.com/s/photos/fast)
   

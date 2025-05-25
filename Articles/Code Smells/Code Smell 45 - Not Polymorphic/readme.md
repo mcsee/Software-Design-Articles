@@ -6,7 +6,7 @@
 
 > TL;DR: If your method do the same, you should name them the same
 
-# Problems
+# Problems 😔 
 
 - Missed Polymorphism
 
@@ -16,15 +16,15 @@
 
 - Names coupled to types.
 
-# Solutions
+# Solutions 😃
 
 1. Rename methods after what they do.
 
 2. Favor polymorphism.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/17ccba69a9bcb7fbe2e8ee15e0487585) -->
 
@@ -47,7 +47,7 @@ class Stack {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ba7cb02ed4cf4c8ae6d0bf4aae3d7cb2) -->
 
@@ -77,27 +77,27 @@ class Stack implements Sortable {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 This is a semantic mistake. We could add a warning for *similar* method names on Polymorphic classes.
 
-# Tags
+# Tags 🏷️
 
 - Polymorphism
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# Conclusion
+# Conclusion 🏁
 
 Naming is very important. We need to name after concepts and not after accidental types,
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 36 - Switch/case/elseif/else/if statements](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md)
 
-# More Info
+# More Information 📕
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)	      
 

@@ -6,7 +6,7 @@
 
 > TL;DR: Never focus on implementation. Focus on behavior instead.
 
-# Problems
+# Problems 😔 
 
 - Coupling to implementation
 
@@ -22,13 +22,13 @@
 
 - Debugging using inspectors instead of sending messages to objects.
 
-# Solutions
+# Solutions 😃
 
 1. Redesign your favorite programming language
 
 2. Ignore the (accidental) implementation and study the available protocol
 
-# Context
+# Context 💬
 
 For historical reasons, most class-based programming languages declare the attributes first and the public protocol after.
 
@@ -40,9 +40,9 @@ They contain declarations of functions, classes, variables, and other constructs
 
 These files serve as a way to share information about the structure and interface of a program or library across multiple source code files.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/4e5896ea95b0115f6f3dfb3571dc827a) -->
 
@@ -77,7 +77,7 @@ public class ShoppingCart {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/e4aec099dfea90daba8ce073baf626db) -->
 
@@ -93,13 +93,13 @@ public class ShoppingCart {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
 This is language smell. You cannot detect it.
 
-# Exceptions
+# Exceptions 🛑
 
 - This smell applies only to languages requiring explicit attribute definitions like Java, C#, PHP, etc.
 
@@ -107,11 +107,11 @@ Dynamically-typed languages like Python or JavaScript do not require explicit at
 
 In these languages, you can create attributes on the fly without declaring them in the class definition. 
 
-# Tags
+# Tags 🏷️
 
 - Hierarchies
 
-# Level
+# Level 🔋
 
 [X] Beginner 
 
@@ -121,25 +121,25 @@ Most AI Assistants generate code with this smell.
 
 Try prompting: *'Generate a class representing a House in Java'*
 
-# Conclusion
+# Conclusion 🏁
 
 You cannot change the language you use, still, according to The [Sapir-Whorf hypothesis](https://learning.oreilly.com/library/view/clean-code-cookbook/9781098144715/) the structure and vocabulary of a language can shape or influence how its speakers perceive and think about the real world using the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md).
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 123 - Mixed 'What' and 'How'](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20123%20-%20Mixed%20'What'%20and%20'How'/readme.md)
 
-# More Info
+# More Information 📕
 
 [Wikipedia Header Files](https://simple.wikipedia.org/wiki/Header_file)
 
 [Wikipedia Sapir-Whorf Hypothesis](https://en.wikipedia.org/wiki/Linguistic_relativity)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [K8](https://unsplash.com/@_k8_) on [Unsplash](https://unsplash.com/photos/silver-framed-eyeglasses-on-white-table-r87zX1RWECQ)
     

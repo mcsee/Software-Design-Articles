@@ -74,7 +74,7 @@ Violate and abuse the bijection again creating representations of not real entit
 
 Using this exploit to set this invalid date should also raise an error according to [fail fast principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md).
 
-# Conclusions
+# Conclusion 🏁
 
 If you want to develop serious software and be proud of it, just be loyal to the bijection.
 

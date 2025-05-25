@@ -6,7 +6,7 @@
 
 > TL;DR: Name all your magic numbers
 
-# Problems Addressed
+# Problems Addressed 😔
 
 - Readability
 
@@ -14,19 +14,19 @@
 
 - Code Reuse
 
-# Related Code Smells
+# Related Code Smells 💨
 
 [Code Smell 02 - Constants and Magic Numbers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
 
-# Steps
+# Steps 👣 
 
 1. Move the constant code fragment to a constant declaration
 
 2. Replace the values with a reference to the constant.
 
-# Sample Code
+# Sample Code 📖
 
-## Before
+## Before 🚨 
 
 <!-- [Gist Url](https://gist.github.com/mcsee/4beca4e8726130c29a74b956df6aefe2) -->
 
@@ -36,7 +36,7 @@ double energy(double mass) {
 }
 ```
 
-## After
+## After 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/17728639113169878b08a95a373624e3) -->
 
@@ -50,17 +50,17 @@ double energy(double mass) {
 }
 ```
 
-# Type
+# Type 📝
 
 [X] Automatic
  
 Many IDEs support this safe refactoring
 
-# Safety
+# Safety 🛡️
 
 This is a safe refactoring.
 
-# Why is the Code Better?
+# Why is the Code Better? ✨
 
 Constant names add meaning to our code.
 
@@ -68,7 +68,7 @@ Magic numbers are difficult to understand and change.
 
 Code must be as declarative as possible.
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
@@ -76,11 +76,11 @@ Code must be as declarative as possible.
 
 [X] Beginner
 
-# Related Refactorings
+# Related Refactorings 🔄
 
 [Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
-# Credits
+# Credits 🙏
 
 Image by [Tumisu](https://pixabay.com/users/tumisu-148124/) on [Pixabay](https://pixabay.com/)
 

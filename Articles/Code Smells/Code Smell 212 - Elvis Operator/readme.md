@@ -6,7 +6,7 @@
 
 > TL;DR: Don't propagate nulls.
 
-# Problems
+# Problems 😔 
 
 - [NULL](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md) propagation
 
@@ -14,13 +14,13 @@
 
 - Hacky code
 
-# Solutions
+# Solutions 😃
 
 1. Remove the nulls. 
 
 2. If you can't remove it, deal explicitly with them.
 
-# Context
+# Context 💬
 
 The Elvis operator is also known as the null-coalescing operator or the null-safe operator.
 
@@ -34,9 +34,9 @@ The nickname "Elvis operator" originated from the visual resemblance of the oper
 
 The symbol "?:", with its round shape on top and a curl underneath, vaguely resembles the pompadour hairstyle that Elvis Presley was known for.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/a976521e75a08ca0c57cb0153039e67e) -->
 
@@ -44,7 +44,7 @@ The symbol "?:", with its round shape on top and a curl underneath, vaguely rese
 val shipTo = address?: "No address specified"
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/1f0771dc50c77d39c6577405142e52e8) -->
 
@@ -54,17 +54,17 @@ val shipTo = if (address != null) address else "No address specified"
 // This keeps the billion-dollar mistake error
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 We can detect this operator usage and replace them with more strict checks.
 
-# Tags
+# Tags 🏷️
 
 - Null
 
-# Conclusion
+# Conclusion 🏁
 
 The code can be difficult to follow and may require additional comments or explanations to make it clear what is happening.
 
@@ -76,7 +76,7 @@ In several languages, such as Common Lisp, Clojure, Lua, Object Pascal, Perl, Py
 
 When the left-hand side is true, the right-hand side is not even evaluated; it is "short-circuited." This is different from the behavior in other languages such as C/C++, where the result of || will always be a boolean. 
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 149 - Optional Chaining](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20149%20-%20Optional%20Chaining/readme.md)
 
@@ -86,17 +86,17 @@ When the left-hand side is true, the right-hand side is not even evaluated; it i
 
 [Code Smell 140 - Short Circuit Evaluation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20140%20-%20Short%20Circuit%20Evaluation/readme.md)
 
-# More Info
+# More Information 📕
 
 [Wikipedia](https://en.wikipedia.org/wiki/Elvis_operator)
 
 [Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Susan Mohr](https://unsplash.com/@theinnervizion) on [Unsplash](https://unsplash.com/photos/INLHpZKShao)
     

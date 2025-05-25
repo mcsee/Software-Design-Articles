@@ -6,21 +6,21 @@
 
 > TL;DR: Don't confuse you readers. Keep the order.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
 - Consistency
 
-# Solutions
+# Solutions 😃
 
 1. Refactor and change parameters order.
 
 2. Use [named parameters](https://en.wikipedia.org/wiki/Named_parameter)
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/1f21534bd7ddf9390271ed0badd7352b) -->
 
@@ -34,7 +34,7 @@ giveSecondDoseOfVaccine(jane, flu);
 //Unnoticed mistake since you changed the parameters’ order
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/e33e4b69f36750d7a24621f70aba155c) -->
 
@@ -47,31 +47,31 @@ giveFirstDoseOfVaccine(jane, flu);
 giveSecondDoseOfVaccine(jane, flu);
 ```
 
-# Detection
+# Detection 🔍
 
 - Some very smart linters may be able to compare arguments and hint for possible mistakes.
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 This is a very simple smell. 
 
 Readability is very important to avoid mistakes.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 10 - Too Many Arguments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2010%20-%20Too%20Many%20Arguments/readme.md)
 
 [Code Smell 188 - Redundant Parameter Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20188%20-%20Redundant%20Parameter%20Names/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Lance Grandahl](https://unsplash.com/@lg17) on [Unsplash](https://unsplash.com/s/photos/disorder)
   

@@ -6,7 +6,7 @@
 
 > TL;DR: Don't add hard business rules to your code.
 
-# Problems
+# Problems 😔 
 
 - Open / Closed Principle Violation
 
@@ -14,7 +14,7 @@
 
 - Testability
 
-# Solutions
+# Solutions 😃
 
 1. Reify the condition.
 
@@ -22,15 +22,15 @@
 
 3. Don't use [Settings/Configs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2029%20-%20Settings%20-%20Configs/readme.md).
 
-# Context
+# Context 💬
 
 According to [Reuters](https://www.reuters.com/technology/how-secret-software-change-allowed-ftx-use-client-money-2022-12-13/), in a recent FTX scandal, there was a hardcoded condition to skip risk controls to its own portfolio.
 
 The code was explicit and developers were aware of that rule.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/27cdd48bf20694b735f7d5914c086022) -->
 
@@ -41,7 +41,7 @@ if (currentExposure > 0.15 && customer != "Very Special Customer") {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d43ab068cbec6d361fb429fd2860f518) -->
 
@@ -51,7 +51,7 @@ customer.liquidatePositionIfNecessary(0.15);
   // This follows the "Tell, Don't ask" principle
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
@@ -59,29 +59,29 @@ We can search for primary hardcoded conditions (related to primitive types).
 
 We might have more false positives than actual problems. 
 
-# Tags
+# Tags 🏷️
 
 - Hardcoding
 
-# Conclusion
+# Conclusion 🏁
 
 If you make code reviews, pay special attention to this kind of hard coding.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 133 - Hardcoded IF Conditions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20133%20-%20Hardcoded%20IF%20Conditions/readme.md)
 
 [Code Smell 29 - Settings / Configs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2029%20-%20Settings%20-%20Configs/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Reuters on FTX Crash]( https://www.reuters.com/technology/how-secret-software-change-allowed-ftx-use-client-money-2022-12-13/)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Alexander Mils](https://unsplash.com/@alexandermils) on [Unsplash](https://unsplash.com/s/photos/steal-money)  
   

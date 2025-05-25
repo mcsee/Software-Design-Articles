@@ -6,7 +6,7 @@
 
 > TL;DR: Drop "collection" prefix for clarity.
 
-# Problems
+# Problems 😔 
 
 - Redundant Naming
 
@@ -18,7 +18,7 @@
 
 - Coupled to implementation
 
-# Solutions
+# Solutions 😃
 
 1. Use Simple Names
 
@@ -26,7 +26,7 @@
 
 3. Use plural names without the word 'collection'
 
-# Context
+# Context 💬
 
 When you prefix properties with terms like "collection," you introduce redundancy and verbosity into your code. 
 
@@ -34,9 +34,9 @@ This makes your code harder to read and maintain and adds unnecessary complexity
 
 Coupling the name to a collection implementation prevents you from introducing a proxy or middle object to manage the relation.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/b929bfe2ee406a7d9a822c5318db5b61) -->
 
@@ -54,7 +54,7 @@ impl Task {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/1c4c774f018e5f6cde339148962a4562) -->
 
@@ -70,37 +70,37 @@ impl Task {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 You can add rules to your linter preventing these redundant names.
 
-# Tags
+# Tags 🏷️
 
 - Naming
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# AI Generation
+# AI Generation 🤖
 
 AI code generators produce this smell if they try to over-describe property names. 
 
 They tend to generate overly verbose names to be explicit, which can lead to redundancy.
 
-# AI Detection
+# AI Detection 🥃
 
 AI tools can fix this smell if you instruct them to simplify property names. They can refactor your code to use more concise and clear names.
 
-# Conclusion
+# Conclusion 🏁
 
 Simplifying property names by removing prefixes like "collection" leads to more readable and maintainable code.
 
 It would be best to focus on clear, direct names that communicate the purpose without redundancy.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 38 - Abstract Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2038%20-%20Abstract%20Names/readme.md)
 
@@ -108,15 +108,15 @@ It would be best to focus on clear, direct names that communicate the purpose wi
 
 [Code Smell 113 - Data Naming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20113%20-%20Data%20Naming/readme.md)
 
-# More Info
+# More Information 📕
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Karen Vardazaryan](https://unsplash.com/@bright) on [Unsplash](https://unsplash.com/photos/die-cast-car-collection-on-rack-JBrfoV-BZts)
    

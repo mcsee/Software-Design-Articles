@@ -78,7 +78,7 @@ The trivial solution is to go, with the help of our favorite domain expert, to d
 
 *Photo by [Volodymyr Hryshchenko](https://unsplash.com/@lunarts) on [Unsplash](https://unsplash.com/s/photos/detective)*
 
-## Conclusions
+## Conclusion 🏁
 
 Dynamic code generators were a fad at a time when productivity was measured based on the lines of code generated.
 To avoid them, we must stay true to the rule of bijection and look for abstractions within the real-world in the problem domain.

@@ -6,7 +6,7 @@
 
 > TL;DR: You can find missing abstractions by looking at repeated code
 
-# Problems
+# Problems 😔 
 
 - DRY principle violation
 
@@ -14,7 +14,7 @@
 
 - Ripple Effect
 
-# Solutions
+# Solutions 😃
 
 1. Create the repeated code
 
@@ -24,15 +24,15 @@
 
 4. Remove the duplication
 
-# Context
+# Context 💬
 
 Repeated code is a symptom of missing abstractions. 
 
 This is natural in the learning process since we cannot foresee those abstractions.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/b1380b6b9850ec6f12c14bfeebbfc505) -->
 
@@ -44,7 +44,7 @@ def calculate_volume(length, width, height):
     return length * width * height
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/582e44a1004c102199039c5961f32ceb) -->
 
@@ -57,25 +57,25 @@ def calculate_volume(length, width, height):
     return base_area * height
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic
 
 Some linters can find repeated code patterns.
 
-# Exceptions
+# Exceptions 🛑
 
 The abstraction must have a dependency correspondence on the [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) 
 
-# Tags
+# Tags 🏷️
 
 - Bloaters
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 Repeated code is a problem and a hint for a missing abstraction.
 
@@ -85,17 +85,17 @@ You must explicitly *write* the repeated code and remove the duplication by intr
 
 Avoiding the cut and paste is a shortcut and a symptom of premature optimization.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 46 - Repeated Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2046%20-%20Repeated%20Code/readme.md)
 
 [Code Smell 182 - Over Generalization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20182%20-%20Over%20Generalization/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Mitchell Griest](https://unsplash.com/@griestprojects) on [Unsplash](https://unsplash.com/photos/person-showing-assorted-color-bags-psDzkLlifxQ)
   

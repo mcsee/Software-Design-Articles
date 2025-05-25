@@ -6,7 +6,7 @@
 
 > TL;DR: Be declarative on mutability.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -14,17 +14,17 @@
 
 - Potential performance and memory issues. 
 
-# Solutions
+# Solutions 😃
 
 1. Change [the variable to a constant](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20008%20-%20Convert%20Variables%20to%20Constant/readme.md) and be clear on its scope
 
-# Refactorings
+# Refactorings ⚙️
 
 [Refactoring 003 - Extract Constant](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20003%20-%20Extract%20Constant/readme.md)
 
 [Refactoring 008 - Convert Variables to Constant](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20008%20-%20Convert%20Variables%20to%20Constant/readme.md)
 
-# Context
+# Context 💬
 
 We are always learning from the domain.
 
@@ -36,9 +36,9 @@ Therefore we need to promote it to a constant.
 
 This will also avoid [Magic Constants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ab8aca666d5064bac5a4e8d096900138) -->
 
@@ -53,7 +53,7 @@ function configureUser() {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/9649878302b3d66603b2cfdce2de87ba) -->
 
@@ -77,7 +77,7 @@ function userPassword() : string {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
@@ -85,15 +85,15 @@ Many linters check if the variable has just one assignment.
 
 We can also perform mutation testing and try to modify the variable to see if tests break.
 
-# Tags
+# Tags 🏷️
 
 - Mutability
 
-# Conclusion
+# Conclusion 🏁
 
 We must challenge ourselves and refactor when the variable scope is clear and we learn more about its properties and [mutability](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md). 
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 116 - Variables Declared With 'var'](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20116%20-%20Variables%20Declared%20With%20'var'/readme.md)
 
@@ -103,15 +103,15 @@ We must challenge ourselves and refactor when the variable scope is clear and we
 
 [Code Smell 02 - Constants and Magic Numbers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
 
-# More Info
+# More Information 📕
 
 [The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Noah Buscher](https://unsplash.com/@noahbuscher) on [Unsplash](https://unsplash.com/s/photos/tied)  
 

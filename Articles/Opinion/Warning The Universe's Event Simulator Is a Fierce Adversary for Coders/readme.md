@@ -70,7 +70,7 @@ For example, comparing two dates was always a problem since we usually represent
 
 Navigating non-infinitely divisible money amounts, distances, and other measurements has sparked numerous renowned challenges like the [Genesis mission](https://en.wikipedia.org/wiki/Genesis_(spacecraft)), the [Mars Climate Orbiter](https://en.wikipedia.org/wiki/Mars_Climate_Orbiter), the [Ariane 5 Flight 501](https://en.wikipedia.org/wiki/Ariane_5_Flight_501), etc.
 
-# Conclusion
+# Conclusion 🏁
 
 The universe as a discrete event simulator offers a compelling framework for understanding the fundamental principles governing reality. 
 

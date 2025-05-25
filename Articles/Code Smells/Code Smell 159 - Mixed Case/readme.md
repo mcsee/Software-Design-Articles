@@ -6,19 +6,19 @@
 
 > TL;DR: Don't mix different case conversions
 
-# Problems
+# Problems 😔 
 
 - Readability
 
 - Maintainability
 
-# Solutions
+# Solutions 😃
 
 1. Choose a case standard
 
 2. Hold on to it
 
-# Context
+# Context 💬
 
 When different people make software together they might have personal or cultural differences.
 
@@ -26,9 +26,9 @@ Some prefer [camelCase](https://en.wikipedia.org/wiki/Camel_case)🐫, others [s
 
 Code should be straightforward and readable.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/f0858b7401a061b1d87ad5e488a85bc3) -->
 
@@ -43,7 +43,7 @@ Code should be straightforward and readable.
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/3dd8fd30a0c8c50538b401cbfb746ecc) -->
 
@@ -59,7 +59,7 @@ Code should be straightforward and readable.
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
@@ -67,35 +67,35 @@ We can tell our linters about our company's broad [naming standards](https://git
 
 Whenever new people arrive at the organization, an automated test should politely ask him/her/.. to change the code.
 
-# Exceptions
+# Exceptions 🛑
 
 Whenever we need to interact with out of our scope code, we should use the client's standards, not ours.
 
-# Tags
+# Tags 🏷️
 
 - Naming
 
-# Conclusion
+# Conclusion 🏁
 
 Dealing with standards is easy.
 
 We need to enforce them.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 48 - Code Without Standards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2048%20-%20Code%20Without%20Standards/readme.md)
 
-# More Info
+# More Information 📕
 
 [What exactly is a name - Part I The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
 
 [All naming conventions](https://en.wikipedia.org/wiki/Naming_convention_(programming)#Multiple-word_identifiers)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Wolfgang Hasselmann](https://unsplash.com/@wolfgang_hasselmann) on [Unsplash](https://unsplash.com/s/photos/camel)  
 

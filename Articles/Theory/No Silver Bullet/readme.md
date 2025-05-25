@@ -234,7 +234,7 @@ At the same time, it revisits the importance of buying software packages instead
 
 The author goes back to focus on the underestimation of software reuse as opposed to the systematic construction of solutions to the same problems.
 
-# Conclusions
+# Conclusion 🏁
 
 Brooks showed us, almost 40 years ago, that we should not underestimate essentially difficult problems in the software industry.
 

@@ -6,7 +6,7 @@
 
 > TL;DR: Long methods are bad. Move them and break them.
 
-# Problems Addressed
+# Problems Addressed 😔
 
 - Lack of Testability
 
@@ -14,7 +14,7 @@
 
 - [Testing Private Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20112%20-%20Testing%20Private%20Methods/readme.md)
 
-# Related Code Smells
+# Related Code Smells 💨
 
 [Code Smell 10 - Too Many Arguments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2010%20-%20Too%20Many%20Arguments/readme.md)
 
@@ -28,7 +28,7 @@
 
 [Code Smell 206 - Long Ternaries](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20206%20-%20Long%20Ternaries/readme.md)
 
-# Steps
+# Steps 👣 
 
 1. Create an object to represent an invocation of the method
 
@@ -40,9 +40,9 @@
 
 5. Remove parameters from method invocation by also converting them to private attributes 
 
-# Sample Code
+# Sample Code 📖
 
-## Before
+## Before 🚨 
 
 <!-- [Gist Url](https://gist.github.com/mcsee/c8984513652806d25e26f5c184849af0) -->
 
@@ -56,7 +56,7 @@ class BlockchainAccount {
 }
 ```
 
-## After
+## After 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/77d24738ede67a5a99d28e796ce1fade) -->
 
@@ -93,25 +93,25 @@ class BalanceCalculator {
 }
 ```
 
-# Type
+# Type 📝
 
 [X] Semi-Automatic
 
 Some IDEs have tools to extract a function into a method object.
 
-# Safety
+# Safety 🛡️
 
 This is a syntactic and structural refactoring. 
 
 We can make the changes automatically in a safe way.
 
-# Why is the Code Better?
+# Why is the Code Better? ✨
 
 We extract the logic into a new component.
 
 We can unit-test it, reuse it, exchange it, etc.
 
-# Tags
+# Tags 🏷️
 
 - Bloaters 
 
@@ -119,11 +119,11 @@ We can unit-test it, reuse it, exchange it, etc.
 
 [X] Intermediate
 
-# Related Refactorings
+# Related Refactorings 🔄
 
 [Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
-# Conclusion
+# Conclusion 🏁
 
 The Method-Object is suitable when we are using several extract methods passing partial state among them as parts of an algorithm.
 
@@ -133,7 +133,7 @@ A strong indicator of method object opportunity is when computations are not coh
 
 We can also reify [anonymous functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2021%20-%20Anonymous%20Functions%20Abusers/readme.md) with more atomic, cohesive, and testable method objects.
 
-# See also
+# See also 📚
 
 [Wikipedia: Strategy Pattern](https://en.wikipedia.org/wiki/Strategy_pattern)
 
@@ -143,7 +143,7 @@ We can also reify [anonymous functions](https://github.com/mcsee/Software-Design
 
 [C2 Wiki](https://wiki.c2.com/?MethodObject)
 
-# Credits
+# Credits 🙏
 
 Image by [Manuel de la Fuente](https://pixabay.com/users/mfuente-1590732/) on [Pixabay](https://pixabay.com/)
 

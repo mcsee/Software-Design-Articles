@@ -6,7 +6,7 @@
 
 > TL;DR: Don't add accidental protocol to your classes
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -18,17 +18,17 @@
 
 - Low Reusability
 
-# Solutions
+# Solutions 😃
 
 1. Break your class
 
 2. [Extract Class](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20007%20-%20Extract%20Class/readme.md)
 
-# Refactorings
+# Refactorings ⚙️
 
 [Refactoring 007 - Extract Class](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20007%20-%20Extract%20Class/readme.md)
 
-# Context
+# Context 💬
 
 We tend to put a protocol in the first class we find.
 
@@ -36,9 +36,9 @@ That's not a problem.
 
 We just need to refactor.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d1c326e90aa2feba4746c6e019999312) -->
 
@@ -54,7 +54,7 @@ public class MyHelperClass {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/c64e13c3ea97620ce02dab73ffc517b2) -->
 
@@ -76,23 +76,23 @@ public class RadioTelescope {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 Most linters count methods and warn us.
 
-# Tags
+# Tags 🏷️
 
 - Cohesion
 
 - Bloaters
 
-# Conclusion
+# Conclusion 🏁
 
 Splitting classes and protocol is a good practice to favor small and reusable objects.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 124 - Divergent Change](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20124%20-%20Divergent%20Change/readme.md)
 
@@ -104,11 +104,11 @@ Splitting classes and protocol is a good practice to favor small and reusable ob
 
 [Code Smell 34 - Too Many Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2034%20-%20Too%20Many%20Attributes/readme.md)
 
-# More Info
+# More Information 📕
 
 [Refactoring Guru](https://refactoring.guru/smells/large-class)
 
-# Credits
+# Credits 🙏
 
 Photo by [Marcin Simonides](https://unsplash.com/@cinusek) on [Unsplash](https://unsplash.com/s/photos/full)  
 

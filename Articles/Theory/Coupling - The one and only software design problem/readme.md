@@ -106,7 +106,7 @@ If we are faithful to our unique design rule and have a declarative model, we wi
 
 [Code Smell 16 - Ripple Effect](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2016%20-%20Ripple%20Effect/readme.md)
 
-# Solutions
+# Solutions 😃
 
 There are many ways to remove coupling once identified.
 
@@ -114,7 +114,7 @@ In this article we will see coupling reduction techniques:
 
 [How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 
-# Conclusions
+# Conclusion 🏁
 
 Coupling is necessary because the objects must know each other to collaborate and be able to solve the problems raised in the simulation.
 

@@ -6,21 +6,21 @@
 
 > TL;DR: Don't trust comments. They are dead.
 
-# Problems
+# Problems 😔 
 
 - Bad documentation
 
 - Maintainability
 
-# Solutions
+# Solutions 😃
 
 1. Replace comments with tests
 
-# Refactorings
+# Refactorings ⚙️
 
 [Refactoring 005 - Replace Comment with Function Name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
 
-# Context
+# Context 💬
 
 We know comments add almost no value to our code.
 
@@ -28,9 +28,9 @@ We need to restrict comments only to very important decisions.
 
 Since most people change logic and forget to update comments they might become obsolete easily.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/fd5b6b44920df66b6558be35f729f0f7) -->
 
@@ -47,7 +47,7 @@ void Widget::displayPlugin(Unit* unit){
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/36f9dde4301f0ab77c034aeba7c0b391) -->
 
@@ -60,25 +60,25 @@ void Widget::displayPlugin(Unit* unit)
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 We can warn for comments in our code and try to remove them.
 
-# Exceptions
+# Exceptions 🛑
 
 - Very important design decisions
 
-# Tags
+# Tags 🏷️
 
 - Comments
 
-# Conclusion
+# Conclusion 🏁
 
 We need to think before adding a comment. Once It is in the codebase is beyond our control and can start to lie anytime.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
 
@@ -86,11 +86,11 @@ We need to think before adding a comment. Once It is in the codebase is beyond o
 
 [Code Smell 151 - Commented Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20151%20-%20Commented%20Code/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Volodymyr Hryshchenko](https://unsplash.com/@lunarts) on [Unsplash](https://unsplash.com/s/photos/obsolete)
     

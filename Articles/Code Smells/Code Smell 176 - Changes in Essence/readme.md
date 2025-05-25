@@ -6,7 +6,7 @@
 
 > TL;DR: Don't change essential attributes or behavior
 
-# Problems
+# Problems 😔 
 
 - [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) violation
 
@@ -14,17 +14,17 @@
 
 - [Ripple Effect](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2016%20-%20Ripple%20Effect/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1. Protect essential attributes from change.
 
 2. [Remove setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
 
-# Refactorings
+# Refactorings ⚙️
 
 [Refactoring 001 - Remove Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
 
-# Context
+# Context 💬
 
 Heraclitus said:
 
@@ -32,13 +32,13 @@ Heraclitus said:
 
 The man stays the same in essence. But his body evolves.
 
-# Refactorings
+# Refactorings ⚙️
 
 [Refactoring 001 - Remove Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/7c1ee7181f403225470c90c2f4668f99) -->
 
@@ -47,7 +47,7 @@ const date = new Date();
 date.setMonth(4);
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/c758d376a61469d8ce4266b6e9fbe115) -->
 
@@ -55,35 +55,35 @@ date.setMonth(4);
 const date = new Date("2022-03-25");
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
 This is a semantic smell. We need to model which attributes/behaviors are [essential](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md) and which are accidental.
 
-# Tags
+# Tags 🏷️
 
 - [Mutability](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md) 
 
-# Conclusion
+# Conclusion 🏁
 
 We need to favor immutable objects.
 
 Objects can mutate in [accidental](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md) ways, not in essential ones.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 16 - Ripple Effect](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2016%20-%20Ripple%20Effect/readme.md)
 
-# More Info
+# More Information 📕
 
 [The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Nick Fewings](https://unsplash.com/@jannerboy62) on [Unsplash](https://unsplash.com/s/photos/heart-arrow)    
 

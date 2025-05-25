@@ -6,25 +6,25 @@
 
 > TL;DR: Use meaningful descriptions and suggest corrective actions.
 
-# Problems
+# Problems 😔 
 
 - The Least Surprise Principle
 
-# Solutions
+# Solutions 😃
 
 1. Use declarative error messages
 
 2. Show clear exit actions
 
-# Context
+# Context 💬
 
 Programmers are seldom UX experts.
 
 We also underestimate the fact we can be on both sides of the counter.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/e35210910d75821224dd75de8053b46f) -->
 
@@ -35,7 +35,7 @@ alert("Cancel the appointment?", "Yes", "No");
 // The options are not clear
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/220e4c4d8eea96d15a0f34de2c5e96e3) -->
 
@@ -49,31 +49,31 @@ alert("Cancel the appointment? \n" +
 // The choice options have context
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
 We need to read all exception messages in code reviews.
 
-# Tags
+# Tags 🏷️
 
 - Exceptions
 
 - UX
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 We need to think in our end users when raising exception or showing messages.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 139 - Business Code in the User Interface](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20139%20-%20Business%20Code%20in%20the%20User%20Interface/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [visuals](https://unsplash.com/@visuals) on [Unsplash](https://unsplash.com/s/photos/error-message)
   

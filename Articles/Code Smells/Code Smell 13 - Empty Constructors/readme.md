@@ -7,7 +7,7 @@ Incomplete objects cause lots of issues.*
 
 > TL;DR: Pass the essence to all your objects so they will not need to mutate.
 
-# Problems
+# Problems 😔 
 
 - Mutability
 
@@ -19,7 +19,7 @@ Incomplete objects cause lots of issues.*
 
 [Nude Models - Part I: Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20I Setters/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1. Pass the object's essence on creation
 
@@ -31,9 +31,9 @@ Incomplete objects cause lots of issues.*
 
 - Some persistence frameworks in static typed languages require an empty constructor.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d9d34fad693fd4f6309d68636a5010e5) -->
 
@@ -44,7 +44,7 @@ class AirTicket {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/2e8f884045798f699399bf1ba9c26ab2) -->
 
@@ -61,23 +61,19 @@ class AirTicket {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 Any linter can warn this (possible) situation.
 
-# Exceptions
+# Exceptions 🛑
 
 - Stateless objects. Always better solution than static class methods.
 
-# Tags
+# Tags 🏷️
 
-- Essence
+- Anemic Models
 
-- Incomplete
-
-- Mutable
-
-# Conclusion
+# Conclusion 🏁
 
 Always create complete objects. Make their essence immutable to endure through time.
 
@@ -87,7 +83,7 @@ We should read Plato's ideas about immutability and create entities in a complet
 
 These immutable objects favor bijection and survive the passing of time.
 
-# More Info
+# More Information 📕
 
 [Code Exposed](https://codexposed.hashnode.dev/constructors-demystified)
 
@@ -95,7 +91,7 @@ These immutable objects favor bijection and survive the passing of time.
 
 [Code Smell 10 - Too Many Arguments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2010%20-%20Too%20Many%20Arguments/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by Brett Jordan in Pexels
 

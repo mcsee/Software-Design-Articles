@@ -6,7 +6,7 @@
 
 > TL;DR: Convert your key/value into full behavioral objects
 
-# Problems Addressed
+# Problems Addressed 😔
 
 * [Associative arrays](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2027%20-%20Associative%20Arrays/readme.md)
     
@@ -16,15 +16,15 @@
     
 * Hard to find method references
     
-# Related Code Smells
+# Related Code Smells 💨
 
 [Code Smell 27 - Associative Arrays](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2027%20-%20Associative%20Arrays/readme.md)
 
-# Context
+# Context 💬
 
 You have anemic associative arrays that hold unstructured data and you want to have richer objects with stricter controls (possibly including type checking in static typed languages)
 
-# Steps
+# Steps 👣 
  
 1. Find the references to the object or associative array
     
@@ -38,9 +38,9 @@ You have anemic associative arrays that hold unstructured data and you want to h
     
 (if you are using TCR, you can do baby refactoring steps)
 
-# Sample Code
+# Sample Code 📖
 
-## Before
+## Before 🚨 
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ca8de4d5b62f43e87002b6424de11d60) -->
 
@@ -91,7 +91,7 @@ $credential =
 // references to methods setting the oauth2_token
 ```
 
-## After
+## After 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d8c3cb918572138803015c91a0274d9d) -->
 
@@ -140,27 +140,27 @@ $credentials->scope();
 
 Now, you have an anemic data class or [DTO](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2040%20-%20DTOs/readme.md). It is time to give it behavior and (possibly) remove some getters and setters.
 
-# Type
+# Type 📝
 
 [X] Semi-Automatic
 
 You can perform this refactor with the aid of an IDE.
 
-# Safety
+# Safety 🛡️
 
 This is not an automatic refactoring but small steps are safe if you have good coverage.
 
-# Why is the Code Better?
+# Why is the Code Better? ✨
 
 Your new object fails fast and is more declarative.
 
 You can debug it easily and find the referencing methods.
 
-# Limitations
+# Limitations ⚠️
 
 In dynamically typed languages you cannot enforce type or domain restrictions for the values
 
-# Tags
+# Tags 🏷️
 
 - Anemic
 
@@ -168,15 +168,15 @@ In dynamically typed languages you cannot enforce type or domain restrictions fo
 
 [X] Beginner
     
-# Related Refactorings
+# Related Refactorings 🔄
 
 [Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
-# See also
+# See also 📚
 
 [Code Smell 27 - Associative Arrays](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2027%20-%20Associative%20Arrays/readme.md)
 
-# Credits
+# Credits 🙏
 
 Image from [MustangJoe](https://pixabay.com/users/mustangjoe-2162920/) en [Pixabay](https://pixabay.com/)
 

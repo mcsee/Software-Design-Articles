@@ -6,7 +6,7 @@
 
 > TL;DR: Don't write methods with the only purpose of being used in your tests.
 
-# Problems
+# Problems 😔 
 
 - Encapsulation Violation.
 
@@ -14,7 +14,7 @@
 
 - Coupling
 
-# Solutions
+# Solutions 😃
 
 1. Don't break encapsulation.
 
@@ -22,9 +22,9 @@
 
 3. If you cannot control your object, you are coupled. Decouple them!
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/06757fcedc4c442584f144c68b16d597) -->
 
@@ -54,7 +54,7 @@ class HangmanTest extends TestCase {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/c2d16cf8f0d533345ec74314c04863ea) -->
 
@@ -91,35 +91,35 @@ class HangmanTest extends TestCase {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 This is a design smell.
 
 We can detect we need a method just for test.
 
-# Tags
+# Tags 🏷️
 
 - Information Hiding
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 White-box tests are fragile. They test implementation instead of behavior.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 52 - Fragile Tests](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2052%20-%20Fragile%20Tests/readme.md)
 
 [Code Smell 28 - Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Should I Test Private Methods](http://shoulditestprivatemethods.com/)
 
-# Credits
+# Credits 🙏
 
 This smell was inspired by @[Rodrigo](https://twitter.com/_rodrigomd)
 

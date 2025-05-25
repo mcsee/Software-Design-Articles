@@ -6,7 +6,7 @@
 
 > TL;DR: Keep your code explicit
 
-# Problems
+# Problems 😔 
 
 - [Coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
@@ -14,13 +14,13 @@
 
 - [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Fault
 
-# Solutions
+# Solutions 😃
 
 1. Be declarative and explicit
 
 2. Don't oversimplify
 
-# Context
+# Context 💬
 
 Hidden assumptions are underlying beliefs or expectations not explicitly stated in the code.
 
@@ -28,9 +28,9 @@ They are still present and can impact the behavior of the software.
 
 Various reasons can give rise to assumptions such as incomplete requirements, incorrect presumptions about the user or environment, limitations of the programming language or tools, and bad accidental decisions.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/33f7a662d4394e6c94c6603f88d9e975) -->
 
@@ -44,7 +44,7 @@ tenCentimeters + tenInches
 # and caused the Mars Climate Orbiter failure
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/a0ee2b3ec2e963149bb2b39a9cfa1a08) -->
 
@@ -74,17 +74,17 @@ tenCentimeters + tenInches
 # inches = centimeters / 2.54
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
 This is a design smell
 
-# Tags
+# Tags 🏷️
 
 - Coupling
 
-# Conclusion
+# Conclusion 🏁
 
 Hidden assumptions can be difficult to identify and can lead to bugs, security vulnerabilities, and usability issues.
 
@@ -94,11 +94,11 @@ Developers also need to engage with users to understand their needs and expectat
 
 They must test their software in various scenarios to uncover hidden assumptions and edge cases.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 02 - Constants and Magic Numbers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
 
-# More Info
+# More Information 📕
 
 [Mars Climate Orbiter Disaster](https://solarsystem.nasa.gov/missions/mars-climate-orbiter/in-depth/)
 
@@ -106,11 +106,11 @@ They must test their software in various scenarios to uncover hidden assumptions
 
 [Measure Solution](https://www.semanticscholar.org/paper/Arithmetic-with-measurements-on-dynamically-typed-Wilkinson-Prieto/40ac4b9918f8fa71fde88449ce9261857317c192)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Christian Pfeifer](https://unsplash.com/@sailingaroundtheworld) on [Unsplash](https://unsplash.com/photos/l6OraG-v0d8)
 

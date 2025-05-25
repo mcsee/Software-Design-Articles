@@ -6,7 +6,7 @@
 
 > TL;DR: Don't apply [premature optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md) too early
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -16,19 +16,19 @@
 
 - Obscured Logic
 
-# Solutions
+# Solutions 😃
 
 1. Apply [memoization](https://en.wikipedia.org/wiki/Memoization) in actual real business situations and measure its impact through empirical benchmarks.		
 
-# Context
+# Context 💬
 
 Memoization can help you improve the performance of recursive functions involving redundant computations but compromise code readability and maintainability  
 
 It would help if you only used it with *strong factual evidence* on *real* business case scenarios.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/7cdd5907fa5404a79581a3fac7a2af65) -->
 
@@ -49,7 +49,7 @@ def factorial_with_memo(n):
   # and improving performance for large inputs.
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/3aa806cc9c3d9eb8493706ec031f7343) -->
 
@@ -60,53 +60,53 @@ def factorial(n):
     return n * factorial(n-1)
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 You can search for all places where you are using this technique and validate if they are worth it.
 
-# Exceptions
+# Exceptions 🛑
 
 - Real performance problems with strong factual evidence
 
-# Tags
+# Tags 🏷️
 
 - Premature Optimization
 
-# Level
+# Level 🔋
  
 [X] Intermediate 
 
-# AI Generation
+# AI Generation 🤖
 
 Unless you explicitly ask the IAs to use this technique, they will suggest cleaner solutions.
 
-# AI Detection
+# AI Detection 🥃
 
 ChatGPT, Gemini, and Claude.ai detect some problems with this technique but do not mention readability as a concern.
 
-# Conclusion
+# Conclusion 🏁
 
 It would be best if you kept a balance between performance optimization and code clarity.
 
 You can consider alternatives such as iterative approaches or algorithmic optimizations since memoization significantly compromises code readability.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
 [Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
-# More Info
+# More Information 📕
 
 [Wikipedia](https://en.wikipedia.org/wiki/Memoization)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Steffen Lemmerzahl](https://unsplash.com/@steffen_l) on [Unsplash](https://unsplash.com/photos/snow-covered-field-during-daytime-kp1n4gWKTOg)  
   

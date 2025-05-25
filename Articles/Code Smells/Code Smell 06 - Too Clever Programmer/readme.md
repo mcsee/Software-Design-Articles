@@ -6,7 +6,7 @@
 
 > TL;DR: Don't pretend you are too smart. Clean code asks for readability and simplicity.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -16,13 +16,13 @@
 
 - Premature Optimization
 
-# Solutions
+# Solutions 😃
 
 - Refactor the code
 
 - Use [better names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
 
-# Refactorings
+# Refactorings ⚙️
 
 [Refactoring 005 - Replace Comment with Function Name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
 
@@ -30,9 +30,9 @@
 
 - Optimized loops
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/df27505a28b5f65faaa273b0bfe1f322) -->
 
@@ -53,7 +53,7 @@ function primeFactors(n) {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/4749cfe51de1c02848df1aa802fa5705) -->
 
@@ -76,25 +76,25 @@ function primeFactors(numberToFactor) {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 Automatic detection is possible in some languages.
 Watch some warnings related to complexity, bad names, post-increment variables, etc.
 
-# Exceptions
+# Exceptions 🛑
 
 - Optimized code for low-level operations.
 
-# Tags
+# Tags 🏷️
 
 - Declarative
 
-# Conclusion
+# Conclusion 🏁
 
 Too clever developers write cryptic code to brag. Smart developers write clean code.
 Clear beats clever.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 02 - Constants and Magic Numbers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
 
@@ -102,7 +102,7 @@ Clear beats clever.
 
 [Code Smell 44 - Magic Corrections](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2044%20-%20Magic%20Corrections/readme.md)
 
-# More Info
+# More Information 📕
 
 [Are boolean flags a code smell?](https://ardalis.com/are-boolean-flags-on-methods-a-code-smell/)
 
@@ -110,7 +110,7 @@ Clear beats clever.
 
 - Obfuscator
 
-# Credits
+# Credits 🙏
 
 Photo by [NeONBRAND](https://unsplash.com/@neonbrand) on [Unsplash](https://unsplash.com/s/photos/smart-brain)
 

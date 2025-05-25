@@ -6,13 +6,13 @@
 
 > TL;DR: Be explicit on what mutates and what does not.
 
-# Problems Addressed
+# Problems Addressed 😔
 
 - [Mutability](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 - Code Optimization
 
-# Related Code Smells
+# Related Code Smells 💨
 
 [Code Smell 158 - Variables not Variable](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20158%20-%20Variables%20not%20Variable/readme.md)
 
@@ -20,7 +20,7 @@
 
 [Code Smell 116 - Variables Declared With 'var'](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20116%20-%20Variables%20Declared%20With%20'var'/readme.md)
 
-# Steps
+# Steps 👣 
 
 1. Find the scope of the variable
 
@@ -28,9 +28,9 @@
 
 3. Replace the variable 
 
-# Sample Code
+# Sample Code 📖
 
-## Before
+## Before 🚨 
 
 <!-- [Gist Url](https://gist.github.com/mcsee/3ae265e1ae7422164c175b16a7f822d3) -->
 
@@ -43,7 +43,7 @@ var gravity = 9.8;
 // 3. Replace the variable
 ```
 
-## After
+## After 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/e25d1ded85b4547d20fee70e4c1f0ca6) -->
 
@@ -59,25 +59,25 @@ const gravity = 9.8;
 // we might need Object.freeze(gravity);
 ```
 
-# Type
+# Type 📝
 
 [X] Automatic
 
 Our IDEs can check if a variable is written but never updated.
 
-# Safety
+# Safety 🛡️
 
-This is a safe refactor.
+This is a safe refactoring.
 
-# Why is the Code Better?
+# Why is the Code Better? ✨
 
 Code is more compact and declarative.
 
 We can make and step further and use operators like *var*, *let*, *const*, etc.
 
-The scope is more clear.
+The scope is clearer.
 
-# Tags
+# Tags 🏷️
 
 - Mutability
 
@@ -85,11 +85,11 @@ The scope is more clear.
 
 [X] Beginner
 
-# Related Refactorings
+# Related Refactorings 🔄
 
 [Refactoring 003 - Extract Constant](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20003%20-%20Extract%20Constant/readme.md)
 
-# See also
+# See also 📚
 
 [The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 

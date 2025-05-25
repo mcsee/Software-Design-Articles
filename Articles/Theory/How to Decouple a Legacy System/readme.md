@@ -453,7 +453,7 @@ After hard iterative and incremental work, through short steps, we have achieved
 
 Photo by [Zac Farmer](https://unsplash.com/@zacfarmerart) on [Unsplash](https://unsplash.com/s/photos/very-old)
 
-# Conclusions
+# Conclusion 🏁
 
 Modifying an existing system by improving its design is possible, taking into account clear design rules and taking small steps. We must have professional responsibility and courage to make the relevant changes, leaving a much better solution than when we found it.
 

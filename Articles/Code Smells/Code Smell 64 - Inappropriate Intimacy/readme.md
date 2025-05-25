@@ -6,7 +6,7 @@
 
 *Two classes entangled in love.*
 
-# Problems
+# Problems 😔 
 
 - Coupling
 
@@ -20,7 +20,7 @@
 
 - Extensibility
 
-# Solutions
+# Solutions 😃
 
 1. Refactor
 
@@ -30,9 +30,9 @@
 
 [Refactoring](https://refactoring.com/catalog/replaceSuperclassWithDelegate.html)
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/5f9206a8a131b4dcaaa2fd64562c9eca) -->
 
@@ -53,7 +53,7 @@ class Candidate {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/f94d51d327592ca511b625bac37cb441) -->
 
@@ -89,28 +89,28 @@ class Candidate {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 Some linters graph class relations and protocol dependency. Analyzing the collaboration graph we can infer rules and hints.
 
-# Tags
+# Tags 🏷️
 
 - Coupling
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# Conclusion
+# Conclusion 🏁
 
 If two classes are too related and don't talk much to others we might need to split, merge or refactor them,
 Classes should know as little about each other as possible. 
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 63 - Feature Envy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2063%20-%20Feature%20Envy/readme.md)
 
-# More Info
+# More Information 📕
 
 [C2 Wiki](https://wiki.c2.com/?InappropriateIntimacy)
 
@@ -118,7 +118,7 @@ Classes should know as little about each other as possible.
 
 [Code Buzz](https://www.thecodebuzz.com/awesome-code-inappropriate-intimacy-code-smell-resolution/)
  
-# Credits
+# Credits 🙏
 
 Photo by [Becca Tapert](https://unsplash.com/@beccatapert) on [Unsplash](https://unsplash.com/s/photos/intimate)
   

@@ -6,17 +6,17 @@
 
 > TL;DR: Don't assert true unless you are checking a boolean
 
-# Problems
+# Problems 😔 
 
 - Fail Fast Principle
 
-# Solutions
+# Solutions 😃
 
 1. Check if the boolean condition can be rewritten better
 
 2. Favor assertEquals
 
-# Context
+# Context 💬
 
 When asserting to a boolean our test engines cannot help us very much. 
 
@@ -24,9 +24,9 @@ They just tell us something failed.
 
 Error tracking gets more difficult.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/c54f0b1ee42d6a1aff640507e0bdf625) -->
 
@@ -54,7 +54,7 @@ final class RangeUnitTest extends TestCase {
 // (and a diff comparator will show us two booleans)
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/edf0b1c3339451662bb000055ef5d782) -->
 
@@ -84,7 +84,7 @@ final class RangeUnitTest extends TestCase {
 // for complex objects like objects or jsons)
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
@@ -92,25 +92,25 @@ Some linters warn us if we are checking against boolean after setting this condi
 
 We need to change it to a more specific check.
 
-# Tags
+# Tags 🏷️
 
 - Test Smells
 
-# Conclusion
+# Conclusion 🏁
 
 Try to rewrite your boolean assertions and you will fix the failures much faster.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 101 - Comparison Against Booleans](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20101%20-%20Comparison%20Against%20Booleans/readme.md)
 
 [Code Smell 07 - Boolean Variables](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2007%20-%20Boolean%20Variables/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Joël de Vriend](https://unsplash.com/@joeldevriend) on [Unsplash](https://unsplash.com/s/photos/truth)  
 

@@ -6,13 +6,13 @@
 
 > TL;DR: Extract and wrap your code
 
-# Problems
+# Problems 😔 
 
 - Hard to read code (especially in small devices)
 
 - Demeter's Law violation
 
-# Solutions
+# Solutions 😃
 
 1. Wrap the code to at most 75 characters
 
@@ -20,7 +20,7 @@
 
 3. Don't use [Abbreviations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2033%20-%20Abbreviations/readme.md)
 
-# Context
+# Context 💬
 
 Unwrapped code formatting refers to the absence of line breaks or appropriate indentation.
 
@@ -28,9 +28,9 @@ It yields excessively long lines of code that extend beyond the typical width of
 
 While writing [my last book](https://cleancodecookbook.com/), people read the code on small devices so line wrapping is critical.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/23e0186c3fb8b7abe64ca491570ddb13) -->
 
@@ -51,7 +51,7 @@ fn perform_signal_processing_and_analysis(extraterrestrial_signal: &Extraterrest
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/83600dadd790c861d6faa89b63be0e81) -->
 
@@ -85,17 +85,17 @@ fn perform_signal_processing_and_analysis(
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 This is a formatting and syntactic smell
 
-# Tags
+# Tags 🏷️
 
 - Formatting
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
@@ -105,13 +105,13 @@ AI assistants sometimes bring short code and not real production code.
 
 You can use the assistants to wrap and format your code.
 
-# Conclusion
+# Conclusion 🏁
 
 Ensuring readability is consistently paramount, with various facets warranting consideration.
 
 When lines of code are excessively long, developers may find it challenging to understand the structure and flow of the code.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 33 - Abbreviations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2033%20-%20Abbreviations/readme.md)
 
@@ -121,15 +121,15 @@ When lines of code are excessively long, developers may find it challenging to u
 
 [Code Smell 211 - Tab over Spaces](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20211%20-%20Tab%20over%20Spaces/readme.md)
 
-# More Info
+# More Information 📕
 
 [Clean Code Cookbook](https://www.amazon.com/-/Maximiliano-Contieri/dp/1098144724)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Olesya Yemets](https://unsplash.com/@ladymilkydeer) on [Unsplash](https://unsplash.com/photos/cooked-pasta-fzXVmIUsEbM)
     

@@ -6,23 +6,23 @@
 
 > TL;DR: Don't repeat your parameters' names. Names should be contextual.
 
-# Problems
+# Problems 😔 
 
 - Duplication
 
 - Readability
 
-# Solutions
+# Solutions 😃
 
 1. Remove the repeated part from the name
 
-# Context
+# Context 💬
 
 When using names, we often miss that words are contextual and need to be read as a whole sentence.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/846ae86d9b75ccb1ccbabe75c4306800) -->
 
@@ -36,7 +36,7 @@ class Employee
 end
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/5f4a6933b3d176e061d795119d5bc11c) -->
 
@@ -50,31 +50,31 @@ class Employee
 end
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic  
 
 We can check our parameter names and try to find duplication.
 
-# Tags
+# Tags 🏷️
 
 - Naming 
 
-# Conclusion
+# Conclusion 🏁
 
 Use short and contextual names for your parameters.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 174 - Class Name in Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20174%20-%20Class%20Name%20in%20Attributes/readme.md)
 
 [Code Smell 87 - Inconsistent Parameters Sorting](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2087%20-%20Inconsistent%20Parameters%20Sorting/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Wolfgang Hasselmann](https://unsplash.com/@wolfgang_hasselmann) on [Unsplash](https://unsplash.com/photos/Y3RVsHBeK7c)
     

@@ -6,7 +6,7 @@
 
 > TL;DR: Don't user new Date()
 
-# Problems
+# Problems 😔 
 
 - Coupling
 
@@ -14,13 +14,13 @@
 
 - Timezone Problems
 
-# Solutions
+# Solutions 😃
 
 1. Use Dependency injection to decouple time source.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/272ba8ead8cb11037d97f6a0cd473ef2) -->
 
@@ -28,7 +28,7 @@
 var today = new Date();
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/51f09b9c56f077aa2954745c1f43da2c) -->
 
@@ -46,15 +46,15 @@ function testGivenAYearHasPassedAccruedInterestsAre10() {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 We should forbid global functions policies. We need to couple to accidental and pluggable time sources.
 
-# Tags
+# Tags 🏷️
 
 - Globals
 
-# Conclusion
+# Conclusion 🏁
 
 ```Date.today() , Time.now()```,  and other global system calls are coupling smell. 
 
@@ -64,13 +64,13 @@ Since **tests must be in full environmental control**. We should easily set up t
 
 The passage of time is always scorned by programmers. This makes objects mutable and designs poor and coupled.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 18 - Static Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md)
 
 [Code Smell 77 - Timestamps](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2077%20-%20Timestamps/readme.md)
 
-# More Info
+# More Information 📕
 
 [The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 

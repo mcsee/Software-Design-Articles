@@ -6,7 +6,7 @@
 
 > TL;DR: Don't name your variables with the accidental type
 
-# Problems
+# Problems 😔 
 
 - Declarative
 
@@ -14,13 +14,13 @@
 
 - Coupling to accidental implementation
 
-# Solutions
+# Solutions 😃
 
 1. Rename your variable according to the role.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/00c30c369fe7339e28d50f858392cf4c) -->
 
@@ -34,7 +34,7 @@ public bool CheckIfStringHas3To7LowercaseCharsFollowedBy3or4Numbers
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/91e3a3f2b1351fa0e09fb8c56a5c2779) -->
 
@@ -45,40 +45,41 @@ public bool CheckIfStringHas3To7LowercaseCharsFollowedBy3or4Numbers
   Regex stringHas3To7LowercaseCharsFollowedBy3or4Numbers = 
     new Regex(@"[a-z]{2,7}[1-9]{3,4}")
   var hasMatch =
-    stringHas3To7LowercaseCharsFollowedBy3or4Numbers.IsMatch(password);
+    stringHas3To7LowercaseCharsFollowedBy3or4Numbers.
+      IsMatch(password);
   return hasMatch;  
 }
 ```
 
-# Detection
+# Detection 🔍
 
 This is a semantic rule. We can instruct our linters to warn us from using names related to existing classes, types o reserved words since they are too implementative.
 
-# Tags
+# Tags 🏷️
 
 - Declarative
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 The first name we can across is related to an accidental point of view. It takes time to build a theory on the models we are building using our [MAPPERS](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md). Once we get there, we must rename our variables-
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 38 - Abstract Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2038%20-%20Abstract%20Names/readme.md)
 
 [Code Smell 174 - Class Name in Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20174%20-%20Class%20Name%20in%20Attributes/readme.md)
 
-# More Info
+# More Information 📕
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
 %[http://xunitpatterns.com/Intent%20Revealing%20Name.html]
 
-# Credits
+# Credits 🙏
 
 Photo by [Sangga Rima Roman Selia](https://unsplash.com/@sxy_selia) on [Unsplash](https://unsplash.com/s/photos/name)
   

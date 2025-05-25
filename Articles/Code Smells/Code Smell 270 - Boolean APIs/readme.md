@@ -6,7 +6,7 @@
 
 > TL;DR: Replace boolean security flags in APIs with separate, more secure endpoints.
 
-# Problems
+# Problems 😔 
 
 - Overly simplistic security model
 - Lack of granular control
@@ -14,20 +14,20 @@
 - Reduced traceability
 - Difficult maintenance
 
-# Solutions
+# Solutions 😃
 
 1. Create separate endpoints
 2. Implement granular permissions
 3. Enhance logging capabilities
 4. Deal with [code duplication](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20013%20-%20Remove%20Repeated%20Code/readme.md)
 
-# Refactorings
+# Refactorings ⚙️
 
 [Refactoring 014 - Remove IF](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20014%20-%20Remove%20IF/readme.md)
 
 [Refactoring 013 - Remove Repeated Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20013%20-%20Remove%20Repeated%20Code/readme.md)
 
-# Context
+# Context 💬
 
 Many APIs (like [WhatsApp](https://medium.com/@TalBeerySec/once-and-forever-whatsapps-view-once-functionality-is-broken-302a508390b0)) use boolean flags to toggle security features.
 
@@ -43,9 +43,9 @@ This is a special case of the [Remove IF](https://github.com/mcsee/Software-Desi
 
 This approach allows for more precise control, better traceability, and easier maintenance.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/6b2796c76d53e679606a484ed6317056) -->
 
@@ -66,7 +66,7 @@ This approach allows for more precise control, better traceability, and easier m
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/3a8b97427a1dc2300b737bbdf4d62a47) -->
 
@@ -86,37 +86,37 @@ def send_view_once_message(content):
     pass
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 We can instruct our linters to warn us for boolean flags.
 
-# Exceptions
+# Exceptions 🛑
 
 - Real Business Booleans (There are just a few ones)
 
-# Tags
+# Tags 🏷️
 
 - Security
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# AI Generation
+# AI Generation 🤖
 
 AI code generators might create this smell if instructed to add security options to existing APIs. 
 
 They often chose the simplest solution, leading to boolean flags for security features.
 
-# AI Detection
+# AI Detection 🥃
 
 AI-powered code analysis tools can detect this smell with specific instructions.
 
 You can train them to flag APIs that use boolean parameters for security-related functionality and suggest creating separate endpoints instead.
 
-## Try Them!
+## Try Them! 🛠
 
 *Remember: AI Assistants make lots of mistakes*
 
@@ -134,7 +134,7 @@ You can train them to flag APIs that use boolean parameters for security-related
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Conclusion
+# Conclusion 🏁
 
 Creating distinct endpoints for different security levels improves your API's clarity, security, and maintainability. 
 
@@ -142,23 +142,23 @@ This approach allows for better access control and more detailed logging
 
 It also reduces the risk of accidentally processing sensitive data without proper security measures. Remember, when it comes to security, explicit is better than implicit.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 62 - Flag Variables](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2062%20-%20Flag%20Variables/readme.md)
 
 [Code Smell 07 - Boolean Variables](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2007%20-%20Boolean%20Variables/readme.md)
 
-# More Info
+# More Information 📕
 
 [WhatsApp ViewOnce Security Defect](https://medium.com/@TalBeerySec/once-and-forever-whatsapps-view-once-functionality-is-broken-302a508390b0)
 
 [Boolean Flags](https://martinfowler.com/articles/feature-toggles.html)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Juan Gomez](https://unsplash.com/@nosoylasonia) on [Unsplash](https://unsplash.com/photos/dandelion-flower-nv7nR9jwNGw)
     

@@ -236,13 +236,13 @@ Access and creation of the single instance are not coupled. Creation is done thr
 
 There are objects that require a certain cost of resources to create. If this cost is large, we will not be able to generate them constantly. One possible solution is to use a Singleton and have it available all time. As always we will focus on **what** and we will look for some other **hows** generating less coupling. If we need a single control point or a cache we will have to access a known object related to a certain context (and easily replaceable according to the environment, the test setup, etc.). Certainly a Singleton will not be our first choice.
 
-# Solutions
+# Solutions 😃
 
 There are multiple techniques to gradually remove the (ab)use of Singletons. In this article we list some of them:
 
 [How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 
-# Conclusions
+# Conclusion 🏁
 
 The disadvantages listed in this article are much greater than the advantages, and the evidence from the examples in the industry should be a strong indicator of the **non-use of the evil pattern** in any case. As our profession matures, we will leave behind these kinds of bad solutions.
 

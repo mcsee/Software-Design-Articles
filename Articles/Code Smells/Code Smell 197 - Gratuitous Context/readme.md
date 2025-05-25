@@ -6,7 +6,7 @@
 
 > TL;DR: Don't prefix or suffix your names with irrelevant information
 
-# Problems
+# Problems 😔 
 
 - Lack of Polymorphism
 
@@ -14,11 +14,11 @@
 
 - [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) violation with names
 
-# Solutions
+# Solutions 😃
 
 1. Remove this context from your names
 
-# Context
+# Context 💬
 
 In software development, gratuitous context refers to the unnecessary inclusion of additional information or data in code or user interfaces that do not contribute to the functionality or usability of the software.
 
@@ -26,9 +26,9 @@ It can make the software more difficult to use, understand and maintain.
 
 It also increases the risk of errors or defects. 
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/0e69debe5bcce802a00b09be29a1a668) -->
 
@@ -49,7 +49,7 @@ struct WEBBGalaxy {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/111aa1f4c0d67b3230f6166aadecd9d6) -->
 
@@ -70,21 +70,21 @@ struct Galaxy {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 We can find command patterns and rename all objects.
 
-# Tags
+# Tags 🏷️
 
 - Naming
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# Conclusion
+# Conclusion 🏁
 
 Class Preffixing was a widespread practice decades ago to claim ownership. 
 
@@ -92,7 +92,7 @@ Carefully consider the context and content of the software, and avoid including 
 
 Now we know clean names are more important.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 141 - IEngine , AVehicle, ImplCar](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20141%20-%20IEngine%20,%20AVehicle,%20ImplCar/readme.md)
 
@@ -100,15 +100,15 @@ Now we know clean names are more important.
 
 [Code Smell 174 - Class Name in Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20174%20-%20Class%20Name%20in%20Attributes/readme.md)
 
-# More Info
+# More Information 📕
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Mitchell Griest](https://unsplash.com/es/@griestprojects) on [Unsplash](https://unsplash.com/photos/psDzkLlifxQ)
     

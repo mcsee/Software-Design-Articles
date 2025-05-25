@@ -6,13 +6,13 @@
 
 > TL;DR: Cases are GOTOs, but you might be missing them
 
-# Problems
+# Problems 😔 
 
 - Hidden [defects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quality/Stop%20Calling%20them%20'Bugs'/readme.md)
 
 - Readability
 
-# Solutions
+# Solutions 😃
 
 1. Add the missing *break*
 
@@ -20,7 +20,7 @@
 
 3. [Remove](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20110%20-%20Switches%20With%20Defaults/readme.md) the default switch
 
-# Context
+# Context 💬
 
 In a switch statement, when a match is found in a particular case, the code execution will start from that case and continue executing all subsequent cases until a break statement is encountered or the switch block ends. 
 
@@ -30,9 +30,9 @@ Forgetting a *break* clause will continue with the following case.
 
 This is similar to a very [serious vulnerability](https://embeddedgurus.com/barr-code/2014/03/apples-gotofail-ssl-security-bug-was-easily-preventable/) that implied an urgent release.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d07af4a8fdbbc9be0392eefaa6934122) -->
 
@@ -55,7 +55,7 @@ switch (number) {
 // If the number is 2 this will output numbers 2 and 3
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/006410b727680f0215d8fd2d84eb9f92) -->
 
@@ -78,25 +78,25 @@ switch (number) {
 // Are other code smells
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 Many [linters](https://rules.sonarsource.com/c/type/Code%20Smell/RSPEC-128/) and also ChatGPT detect this smell.
 
-# Tags
+# Tags 🏷️
 
 - IFs
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 Using switches and causes is problematic, your need to use higher-level sentences.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 110 - Switches With Defaults](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20110%20-%20Switches%20With%20Defaults/readme.md)
 
@@ -104,7 +104,7 @@ Using switches and causes is problematic, your need to use higher-level sentence
 
 [Code Smell 100 - GoTo](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20100%20-%20GoTo/readme.md)
 
-# More Info
+# More Information 📕
 
 [Sonar Source](https://rules.sonarsource.com/c/type/Code%20Smell/RSPEC-128/)
 
@@ -114,11 +114,11 @@ Using switches and causes is problematic, your need to use higher-level sentence
 
 [Apple's Security Defect](https://embeddedgurus.com/barr-code/2014/03/apples-gotofail-ssl-security-bug-was-easily-preventable/)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Nikola Johnny Mirkovic](https://unsplash.com/@thejohnnyme) on [Unsplash](https://unsplash.com/photos/Jp3v9MvH2oA)
     

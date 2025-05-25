@@ -6,7 +6,7 @@
 
 > TL;DR: Use inmutable constants
 
-# Problems
+# Problems 😔 
 
 - [Mutability](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
@@ -14,13 +14,13 @@
 
 - Coupling
 
-# Solutions
+# Solutions 😃
 
 1. Enforce [mutability](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
 2. Avoid constants. They are hard to mock in tests.
 
-# Context
+# Context 💬
 
 We learned to declare constants in our first course on computer programming.
 
@@ -28,9 +28,9 @@ As always, it is not important if something is constant.
 
 It is important if it does not mutate.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/3317c6e127e2d8b800174415eb79a08e) -->
 
@@ -67,7 +67,7 @@ const ALL_CONSTANTS = 3.14; // Error
 ALL_CONSTANTS.DISCOUNT.PLATINUM = 0.12; // NOT AN ERROR. OOPS!
 ```
 
-## Right
+## Right 👉
  
 <!-- [Gist Url](https://gist.github.com/mcsee/e656ae640875909f55bd7eda10b4d227) -->
 
@@ -94,23 +94,23 @@ class TaxesProvider {
 // And you can replace it on tests
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 We can perform mutation testing to find changed values.
 
-# Tags
+# Tags 🏷️
 
 - Constants
 
-# Conclusion
+# Conclusion 🏁
 
 Mutability is very important.
 
 We need to enforce it with the right tools.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 86 - Mutable Const Arrays](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2086%20-%20Mutable%20Const%20Arrays/readme.md)
 
@@ -118,11 +118,11 @@ We need to enforce it with the right tools.
 
 [Code Smell 02 - Constants and Magic Numbers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
 
-# More Info
+# More Information 📕
 
 - [The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
-# Credits
+# Credits 🙏
 
 This smell was inspired by [This](https://dev.to/bytebodger/javascript-constants-with-objectfreeze-4beg)
 

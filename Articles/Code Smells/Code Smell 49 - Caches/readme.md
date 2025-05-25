@@ -6,7 +6,7 @@
 
 > TL;DR: Any junior student can create a cache. Almost no senior developer can debug and invalidate them.
 
-# Problems
+# Problems 😔 
 
 - Coupling
 
@@ -24,7 +24,7 @@
 
 - Non-Deterministic behavior
 
-# Solutions
+# Solutions 😃
 
 1. If you have a conclusive benchmark and are willing to pay for some coupling: Put an object in the middle.
 
@@ -32,9 +32,9 @@
 
 3. Look for a real-world cache metaphor and model it.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/c429e71f6b0239b83e7e307feb5927fe) -->
 
@@ -47,21 +47,21 @@ final class Book {
 
   public function getBooksFromDatabaseByTitle(
         string $title) {
-      if (!isset($this->cachedBooks[$title])) {
-         $this->cachedBooks[$title] = 
-            $this->doGetBooksFromDatabaseByTitle($title);
-      }
-      return $this->cachedBooks[$title];
+    if (!isset($this->cachedBooks[$title])) {
+       $this->cachedBooks[$title] = 
+          $this->doGetBooksFromDatabaseByTitle($title);
+    }
+    return $this->cachedBooks[$title];
   }
 
   private function doGetBooksFromDatabaseByTitle(
      string $title) {
-      globalDatabase()->selectFrom('Books', 'WHERE TITLE = ' . $title);
+    globalDatabase()->selectFrom('Books', 'WHERE TITLE = ' . $title);
   }
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/7b6a2b5eb49cbb4dc690a2657d6837d0) -->
 
@@ -98,17 +98,17 @@ final class HotSpotLibrarian implements BookRetriever {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 This is a design smell.
 
 It will be difficult to enforce by policy.
 
-# Tags
+# Tags 🏷️
 
 - Premature Optimization
 
-# Conclusion
+# Conclusion 🏁
 
 Caches should be functional and intelligent
 
@@ -120,19 +120,19 @@ We shouldn't cache domain objects.
 
 *This page is hosted on a cached website.*
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
 [Code Smell 167 - Hashing Comparison](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20167%20-%20Hashing%20Comparison/readme.md)
  
-# More Info
+# More Information 📕
 
 [What is Cache](https://dev.vamsirao.com/what-is-cache-and-common-ways-of-using-it)
 
 [Hitchhikers Guide to Caching](https://frankel.hashnode.dev/a-hitchhikers-guide-to-caching-patterns)
 
-# Credits
+# Credits 🙏
 
 Photo by [Aimee Vogelsang](https://unsplash.com/@vogelina) on [Unsplash](https://unsplash.com/)
 

@@ -6,27 +6,27 @@
 
 > TL;DR: Don't change code semantics to skip code.
 
-# Problems
+# Problems 😔 
 
 - Readability 
 
 - Non-Intention Revealing
 
-# Solutions
+# Solutions 😃
 
 1. If you need a temporary hack, make it explicit
 
 2. Rely on your source control system
 
-# Context
+# Context 💬
 
 Changing code with a temporary hack is a very bad developer practice.
 
 We might *forget* some temporary solutions and leave them forever.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/a07a71db83f2c65adefffd736e77ee91) -->
 
@@ -48,7 +48,7 @@ if (true || cart.items() > 11 && user.isRetail())  {
 // The code after the true is never evaluated
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/174010435acb2c12f45124f2a085fa51) -->
 
@@ -67,27 +67,27 @@ testLargeCartItems()
 testUserIsRetail()
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 Some linters might warn us of strange behavior.
 
-# Tags
+# Tags 🏷️
 
 - Comments
 
-# Conclusion
+# Conclusion 🏁
 
 Separation of concerns is extremely important in our profession.
 
 Business logic and hacks should always be apart.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 151 - Commented Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20151%20-%20Commented%20Code/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Belinda Fewings](https://unsplash.com/@bel2000a) on [Unsplash](https://unsplash.com/s/photos/road-closed)  
 

@@ -207,9 +207,10 @@ Let's check for too many.
 <!-- [Gist Url](https://gist.github.com/mcsee/872e0b7a24e76d743930c8b809d1201c) -->
 
 ```javascript
-test("test03TooManyWordLettersShouldRaiseException", async function() {
-  expect(() => { 
-    new Word('toolong');                 
+test("test03TooManyWordLettersShouldRaiseException", 
+  async function() {
+    expect(() => { 
+      new Word('toolong');                 
                }).toThrow(Error);
 
 });
@@ -1355,7 +1356,7 @@ DRE** vs +DDE+
 *R*** vs ++D++
 ```
 
-# Conclusions
+# Conclusion 🏁
 
 This solution is different and more complete than the [previous one](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Wordle/How%20to%20Develop%20a%20Wordle%20Game%20using%20TDD%20in%2025%20Minutes/readme.md).
 

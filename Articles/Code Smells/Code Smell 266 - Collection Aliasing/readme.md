@@ -6,7 +6,7 @@
 
 > TL;DR: Use immutable collections to prevent unintended side effects.
 
-# Problems
+# Problems 😔 
 
 - Unpredictable behavior
 - Debugging challenges
@@ -18,7 +18,7 @@
 - Compromised thread safety
 - Increased [coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1. Use immutable collections
 2. Create immutable classes
@@ -27,7 +27,7 @@
 5. Avoid [automatic properties](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20109%20-%20Automatic%20Properties/readme.md)
 6. Favor information hiding and encapsulation
 
-# Context
+# Context 💬
 
 Aliasing happens when two or more variables refer to the same object. 
 
@@ -39,9 +39,9 @@ Premature optimizators will argue that copying collections is an expensive opera
 
 This is a special case of [Object Aliasing](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20267%20-%20Objects%20Aliasing/readme.md).
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/60235f0e33f8eb07c6a52c92a36eb2f1) -->
 
@@ -56,7 +56,7 @@ public class MutableExample {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/af93d425f2ad43f93dbb9e0dd630e61d) -->
 
@@ -72,37 +72,37 @@ public class ImmutableExample {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 Several static analysis tools can warn you of aliasing abuse.
 
-# Tags
+# Tags 🏷️
 
 - Immutability
 
-# Level
+# Level 🔋
 
 [x] Intermediate
 
-# AI Generation
+# AI Generation 🤖
 
 AI code generators might not always create immutable objects by default, especially when working with mutable collections.
 
 You can prompt them to prioritize immutable collections and wrap existing ones to avoid aliasing.
 
-# AI Detection
+# AI Detection 🥃
 
 AI tools can analyze code for potential aliasing issues and suggest using immutable collections instead.
 
-# Conclusion
+# Conclusion 🏁
 
 You can avoid unintended side effects using immutable collections.
 
 This will make your code more predictable and easier to reason about.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 267 - Objects Aliasing](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20267%20-%20Objects%20Aliasing/readme.md)
 
@@ -116,7 +116,7 @@ This will make your code more predictable and easier to reason about.
 
 [Code Smell 68 - Getters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2068%20-%20Getters/readme.md)
 
-# More Info
+# More Information 📕
 
 [The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
@@ -124,11 +124,11 @@ This will make your code more predictable and easier to reason about.
 
 [Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Martino Pietropoli](https://unsplash.com/@martino_pietropoli) on [Unsplash](https://unsplash.com/photos/woman-walking-with-shadow-pirWeToS2mA)
     

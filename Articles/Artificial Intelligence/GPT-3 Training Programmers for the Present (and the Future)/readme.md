@@ -132,7 +132,7 @@ The change, currently, is even more vertiginous. Technologies last much less and
 This is an opinion piece. As future work to support the current thesis, we should carry out a quantitative study including figures on employee turnover (25), average time in each job according to age and studies completed, etc. 
 To do this we must use techniques related to the social sciences under a multidisciplinary approach.
 
-## Conclusions
+## Conclusion 🏁
 
 The future has already arrived. We don't have much idea of what a programmer's job will be like in 5 or 10 years, but we have strong indications that it will not be related to writing algorithms based on data structures. We must train professionals who quickly understand a real-life problem and know how to build simulators with very small conceptual leaps, so that they can evolve alongside the problems we are solving today.
 

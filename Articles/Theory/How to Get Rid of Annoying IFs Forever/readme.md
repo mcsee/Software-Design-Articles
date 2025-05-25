@@ -45,7 +45,7 @@ People out of software development cannot explain why we use this branching sent
 
 [How to Find the Stinky Parts of your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
 
-# Solutions
+# Solutions 😃
 
 Before we move on and remove IF sentences we should decide if its an *essential* one or an *accidental* If.
 
@@ -432,7 +432,7 @@ This article's thesis suggests there's a correlation between **IFs/Switch/Case**
 
 You should give a try and avoid **IF conditionals.**
 
-# Conclusions
+# Conclusion 🏁
 
 With this simple technique we will be able to remove, in a procedural way, all accidental ifs.
 
@@ -444,7 +444,7 @@ Null object pattern is a special case of this technique. We will be able to remo
 
 [Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
-# Credits
+# Credits 🙏
 
 We have been using *If removal technique* at [Universidad de Buenos Aires](https://exactas.uba.ar/) for several years. Kudos to all my fellow teachers for all the experience we gathered together with it. 
  

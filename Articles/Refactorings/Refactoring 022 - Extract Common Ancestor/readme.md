@@ -6,7 +6,7 @@
 
 > TL;DR: Extract a common abstract class to mimic real-world structure.
 
-# Problems Addressed
+# Problems Addressed 😔
 
 - [Duplicate Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20013%20-%20Remove%20Repeated%20Code/readme.md)
 - Inappropriate Inheritance
@@ -17,7 +17,7 @@
 - [Concrete classes subclassified](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2043%20-%20Concrete%20Classes%20Subclassified/readme.md)
 - Parent class [not abstract](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20161%20-%20Abstract%20Final%20Undefined%20Classes/readme.md)
 
-# Related Code Smells
+# Related Code Smells 💨
 
 [Code Smell 66 - Shotgun Surgery](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2066%20-%20Shotgun%20Surgery/readme.md)
 
@@ -29,16 +29,16 @@
 
 [Code Smell 161 - Abstract/Final/Undefined Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20161%20-%20Abstract%20Final%20Undefined%20Classes/readme.md)
 
-# Steps
+# Steps 👣 
 
 1. Identify common behaviors in both classes
 2. Create an abstract class with shared behavior and no implementation
 3. Move common logic to the abstract class
 4. Update subclasses to inherit from the abstract class
 
-# Sample Code
+# Sample Code 📖
 
-## Before
+## Before 🚨 
 
 <!-- [Gist Url](https://gist.github.com/mcsee/5de0a92aa03e0374fdafd6be1132b121) -->
 
@@ -64,7 +64,7 @@ class Truck extends Car {
 // Violating Liskov Substitution rule
 ```
 
-## After
+## After 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/8b35009d835f7646ce56080a93d9839a) -->
 
@@ -101,20 +101,19 @@ class Truck extends Vehicle {
 }
 ```
 
-# Type
+# Type 📝
 
 [X] Semi-Automatic
 
-# Safety
+# Safety 🛡️
 
 This refactoring is safe if you identify all common behaviors correctly and move one method at a time running the tests.
 
-# Why is the Code Better?
+# Why is the Code Better? ✨
 
 It reduces duplication, simplifies maintenance, and makes it easier to extend functionality by adding new concrete realizations.
 
-# How Does it Improve the Bijection?
-
+# How Does it Improve the Bijection? �
 By introducing an abstract class, the code better reflects the [real-world](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) hierarchy, creating a clear relationship between the generic and specific types.
 
 # Refactor with AI
@@ -133,7 +132,7 @@ By introducing an abstract class, the code better reflects the [real-world](http
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Tags
+# Tags 🏷️
 
 - Inheritance
 
@@ -141,15 +140,15 @@ By introducing an abstract class, the code better reflects the [real-world](http
 
 [X] Intermediate
 
-# Related Refactorings
+# Related Refactorings 🔄
 
 [Refactoring 013 - Remove Repeated Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20013%20-%20Remove%20Repeated%20Code/readme.md)
 
-# See also
+# See also 📚
 
 [Refactoring Guru - Extract Superclass](https://refactoring.guru/es/extract-superclass)
 
-# Credits
+# Credits 🙏
 
 Image by [Pexels](https://pixabay.com/users/pexels-2286921/) on [Pixabay](https://pixabay.com//)
 

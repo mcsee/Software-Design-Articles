@@ -6,7 +6,7 @@
 
 > TL;DR: Avoid checking for boolean expressions and returning an explicit boolean.
 
-# Problems
+# Problems 😔 
 
 - Declarativeness
 
@@ -16,17 +16,17 @@
 
 - [Arrow Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1. Return a boolean business formula value.
 
-# Context
+# Context 💬
 
 When dealing with boolean formulas, it is more readable to show a business boolean formula than a stair of boolean checks followed by returning an explicit true/false;
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/b7125d33f30a8a37a40bc994fe7fcba6) -->
 
@@ -56,7 +56,7 @@ def is_platypus(self):
     return True
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/b0afdb15577225b97f66381872f373f1) -->
 
@@ -71,23 +71,23 @@ def is_platypus(self):
 # You can even group conditions according to animal taxonomies
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 Based on syntax trees, we can safely refactor the code removing the explicit boolean value.
 
-# Tags
+# Tags 🏷️
 
 - Boolean
 
-# Conclusion
+# Conclusion 🏁
 
 Beware of returning booleans. 
 
 After the return, you will need an [If statement](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md) which is also a [code smell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md).
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 115 - Return True](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20115%20-%20Return%20True/readme.md)
 
@@ -105,11 +105,11 @@ After the return, you will need an [If statement](https://github.com/mcsee/Softw
 
 [Code Smell 184 - Exception Arrow Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20184%20-%20Exception%20Arrow%20Code/readme.md)
 
-# More Info
+# More Information 📕
 
 - [How to Get Rid of Annoying Ifs Forever](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Jukan Tateisi](https://unsplash.com/@tateisimikito) on [Unsplash](https://unsplash.com/s/photos/stairs)
     

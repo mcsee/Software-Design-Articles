@@ -44,7 +44,7 @@ It is a long journey and we are still ahead.
 
 Photo by [Franck V.](https://unsplash.com/@franckinjapan) on [Unsplash](https://unsplash.com/s/photos/robot)
 
-# Conclusions
+# Conclusion 🏁
 
 If you are a Computer Engineer or [Computer Scientist](https://medium.freecodecamp.org/why-do-so-few-people-major-in-computer-science-6c2c08272405) my advice is: Once you’ve read some programming books leave that stuff to AI and take care of business model design instead. There’s plenty of room for human creativity there.
 

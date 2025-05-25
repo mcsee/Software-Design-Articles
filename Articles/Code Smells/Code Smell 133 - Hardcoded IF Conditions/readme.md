@@ -6,7 +6,7 @@
 
 > TL;DR: Don't leave a hardcoded mess on IFs.
 
-# Problems
+# Problems 😔 
 
 - Testability
 
@@ -14,19 +14,19 @@
 
 - Open/Closed Principle Violation
 
-# Solutions
+# Solutions 😃
 
 1. Replace all [IFs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md) with a dynamic condition or [polymorphism](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md).
 
-# Context
+# Context 💬
 
 Hard-coding *iF* conditions is great when doing [Test-Driven Development](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD%20Conference%202021/TDD%20Conference%202021%20-%20All%20Talks/readme.md).
 
 We need to clean up stuff.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/894c442e034658ee3a6d602c1dcfcca4) -->
 
@@ -45,7 +45,7 @@ private string FindCountryName (string internetCode)
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/5d45c77d532eb370ca6b78606c0db05e) -->
 
@@ -70,23 +70,23 @@ private string FindCountryName(string internetCode) {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 By checking If/else conditions we can detect hard-coded conditions.
 
-# Tags
+# Tags 🏷️
 
 - IFs
 
-# Conclusion
+# Conclusion 🏁
 
 In the past, hard-coding was not an option.
 
 With modern methodologies, we learn by hard-coding, and then, we generalize and refactor our solutions.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 36 - Switch/case/elseif/else/if statements](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md)
 
@@ -94,13 +94,13 @@ With modern methodologies, we learn by hard-coding, and then, we generalize and 
 
 [Code Smell 186 - Hardcoded Business Conditions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20186%20-%20Hardcoded%20Business%20Conditions/readme.md)
 
-# More Info
+# More Information 📕
 
 - [How to Get Rid of IFs forever](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
 - [Test Driven Development](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD%20Conference%202021/TDD%20Conference%202021%20-%20All%20Talks/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Jessica Johnston](https://unsplash.com/@jdjohnston) on Unsplash
 

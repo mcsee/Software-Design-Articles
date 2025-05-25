@@ -6,7 +6,7 @@
 
 > TL;DR: Avoid using private methods in parent classes with names that child classes can use.
 
-# Problems
+# Problems 😔 
 
 - The least surprise principle violation
 
@@ -22,7 +22,7 @@
 
 - [Misleading design](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2058%20-%20Yo-yo%20Problem/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1. Avoid [hierarchies](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20137%20-%20Inheritance%20Tree%20Too%20Deep/readme.md)
 2. Rename private methods
@@ -31,7 +31,7 @@
 5. Avoid [protected methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2037%20-%20Protected%20Attributes/readme.md)
 6. Subclass for [essential relations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20125%20-%20'IS-A'%20Relationship/readme.md), not to [reuse code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
 
-# Context
+# Context 💬
 
 When you use the same method name in parent and child classes, you create confusion.
 
@@ -41,9 +41,9 @@ This is a problem most static languages have in their design
 
 This disconnect leads to bugs and makes your code hard to maintain.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/997cf467a1cd6ba3bfc8975b59ffb254) -->
 
@@ -82,7 +82,7 @@ echo $child->callGreet();
 // The unexpected output is 'Hello from ParentClass'
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/e1c8f52682b976200218c825430f9bac) -->
 
@@ -148,7 +148,7 @@ $otherChild = new OtherChild();
 echo $otherChild->callGreet(); // Output: Hello from OtherChild
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
@@ -156,11 +156,11 @@ You can detect this smell by looking for private methods in parent classes and c
 
 You must also test parent methods calling private methods.
  
-# Tags
+# Tags 🏷️
 
 - Hierarchy
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
@@ -172,19 +172,19 @@ When you use private methods with overlapping names, you create a [Bijection](ht
 
 This gap confuses developers, increases defects, and violates clean code principles.
 
-# AI Generation
+# AI Generation 🤖
 
 AI generators often create this smell when they generate boilerplate parent-child relationships. 
 
 They might not check access levels or consider inheritance implications.
 
-# AI Detection
+# AI Detection 🥃
 
 AI tools can fix this smell with clear instructions.
 
 You can ask the AI to check for overlapping method names and refactor hierarchies.
 
-## Try Them!
+## Try Them! 🛠
 
 *Remember: AI Assistants make lots of mistakes*
 
@@ -202,7 +202,7 @@ You can ask the AI to check for overlapping method names and refactor hierarchie
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Conclusion
+# Conclusion 🏁
 
 When designing parent and child classes, you should use methods that clearly define inheritance and accessibility. 
 
@@ -216,7 +216,7 @@ Languages like *Python* allow you to override parent methods regardless of their
 
 These differences mean you need to understand the specific rules of the language you are working with to avoid unexpected behavior.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 137 - Inheritance Tree Too Deep](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20137%20-%20Inheritance%20Tree%20Too%20Deep/readme.md)
 
@@ -228,11 +228,11 @@ These differences mean you need to understand the specific rules of the language
 
 [Code Smell 37 - Protected Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2037%20-%20Protected%20Attributes/readme.md)
  
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Matt Artz](https://unsplash.com/@mattart) on [Unsplash](https://unsplash.com/photos/grayscale-of-seashell-against-black-background-h1AEAnu93P4)
         

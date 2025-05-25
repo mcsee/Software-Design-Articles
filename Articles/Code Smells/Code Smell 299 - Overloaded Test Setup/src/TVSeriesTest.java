@@ -1,5 +1,5 @@
 public class TVSeriesTest {
-  private MovieSeries theEthernaut;
+  private MovieSeries theEternaut;
   private List<Character> characters;
   private List<Episode> episodes;
   private User user;
@@ -44,10 +44,10 @@ public class TVSeriesTest {
     streamingService.addMovieSeries("The Eternaut");
     
     // Finally, create the movie series with all components
-    theEthernaut = 
-      new TVSeries("The Ethernaut", characters, episodes);
-    theEthernaut.setRatingSystem(ratingSystem);
-    theEthernaut.setAvailableOn(streamingService);
+    theEternaut = 
+      new TVSeries("The Eternaut", characters, episodes);
+    theEternaut.setRatingSystem(ratingSystem);
+    theEternaut.setAvailableOn(streamingService);
     
     // This method is too long. That is another smell
   }
@@ -69,7 +69,7 @@ public class TVSeriesTest {
   @Test
   public void testEpisodeCount() {
     // This test only needs the episodes count
-    assertEquals(2, theEthernaut.episodes().size());
+    assertEquals(2, theEternaut.episodes().size());
   }
   
   @Test

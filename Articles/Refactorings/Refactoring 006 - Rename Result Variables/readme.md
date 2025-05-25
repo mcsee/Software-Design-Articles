@@ -6,23 +6,23 @@
 
 > TL;DR: Use the last call as a semantic guide.
 
-# Problems Addressed
+# Problems Addressed 😔
 
 - Bad naming on variables
 
-# Related Code Smells
+# Related Code Smells 💨
 
 [Code Smell 81 - Result](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2081%20-%20Result/readme.md)
 
 [Code Smell 79 - TheResult](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2079%20-%20TheResult/readme.md)
 
-# Steps
+# Steps 👣 
 
 1. Name the variable with the same name as the last function call.
 
-# Sample Code
+# Sample Code 📖
 
-## Before
+## Before 🚨 
 
 <!-- [Gist Url](https://gist.github.com/mcsee/c4f1e90fb0a61724ea5993e04d572b5c) -->
 
@@ -39,7 +39,7 @@ var result = doubleFavoriteNumber(2);
 // var result ???
 ```
 
-## After
+## After 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/5a9bbc54b45798a610f0a76b8c25a583) -->
 
@@ -55,23 +55,23 @@ const favoriteNumberDoubled = doubleFavoriteNumber(2);
 // We can use favoriteNumberDoubled knowing its semantics
 ```
 
-# Type
+# Type 📝
 
 [X] Semi-Automatic
 
 As with many name heuristics, we can replace the variable with another refactor *rename variable*
 
-# Safety
+# Safety 🛡️
 
 This is a safe refactoring.
 
-# Why is the Code Better?
+# Why is the Code Better? ✨
 
 A variable scope can last a lot.
 
 Assignment and usage might be very far away from each other.
 
-# Tags
+# Tags 🏷️
 
 - Naming 
 
@@ -79,15 +79,15 @@ Assignment and usage might be very far away from each other.
 
 [X] Beginner
 
-# Related Refactorings
+# Related Refactorings 🔄
 
 - Rename method
 
-# See also
+# See also 📚
 
 [What is in a name?](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
 
-# Credits
+# Credits 🙏
 
 Image by [HeungSoon](https://pixabay.com/users/heungsoon-4523762/) on [Pixabay](https://pixabay.com/)
 

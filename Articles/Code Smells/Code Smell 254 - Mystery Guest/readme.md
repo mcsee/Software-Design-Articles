@@ -6,7 +6,7 @@
 
 > TL;DR: Be explicit when creating tests to ensure clarity and maintainability
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -18,7 +18,7 @@
 
 - Hidden Dependencies
 
-# Solutions
+# Solutions 😃
 
 1. Be Explicit
 
@@ -28,7 +28,7 @@
 
 4. Use [mocking](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md) with caution
 
-# Context
+# Context 💬
 
 Your test depends on external data or configurations not immediately visible within the test itself.
 
@@ -44,9 +44,9 @@ Every test case should have three stages:
 
 All of them must be explicit
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ba2c15c5d72c871a4251c9d08dfcf728) -->
 
@@ -58,7 +58,7 @@ void shouldReturnAnswerWhenAnswerExists() {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/48162612d1667217eb493109f9ae8405) -->
 
@@ -76,35 +76,35 @@ void shouldReturnAnswerWhenAnswerExists() {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
 You can detect this smell by looking for tests that do not clearly show their setup steps or rely heavily on external configurations.
 
-# Tags
+# Tags 🏷️
 
 - Testing
 
-# Level
+# Level 🔋
 
 [x] Intermediate
 
-# AI Generation
+# AI Generation 🤖
 
 AI-generated code often avoids this smell due to the tendency to create small, isolated examples.
 
-# AI Detection
+# AI Detection 🥃
 
 Most AI Detectors fail to identify this as a problem unless you point it out explicitly.
 
-# Conclusion
+# Conclusion 🏁
 
 This code smell is especially prevalent in legacy codebases or when consistent testing practices are lacking. 
 
 You need to be explicit about the environment since tests must always be in "full environmental control"
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 17 - Global Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2017%20-%20Global%20Functions/readme.md)
 
@@ -114,17 +114,17 @@ You need to be explicit about the environment since tests must always be in "ful
 
 [Code Smell 30 - Mocking Business](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md)
 
-# More Info
+# More Information 📕
 
 [Craft Better Software](https://craftbettersoftware.com/p/tdd-5-test-smells-5-solutions)
 
 [Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Brands&People](https://unsplash.com/@brandsandpeople) on [Unsplash](https://unsplash.com/photos/womans-face-with-green-eyes-M2cFm9iHXSc)
     

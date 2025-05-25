@@ -6,7 +6,7 @@
 
 > TL;DR: Use real case scenarios and real data (when possible)
 
-# Problems
+# Problems 😔 
 
 - [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Violation
 
@@ -14,13 +14,13 @@
 
 - Readability
 
-# Solutions
+# Solutions 😃
 
 1. Change test data for a real one.
 
 2. Use [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) to map real entities and real data.
 
-# Context
+# Context 💬
 
 In the past, developers used to fake domain data.
 
@@ -34,9 +34,9 @@ Using Agile methodologies, we need to test with real-world data.
 
 If we find an error in a production system, we need to add a case covering the exact mistake with real data.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d9b312e97d7233738ea06f322ae41da1) -->
 
@@ -74,7 +74,7 @@ class BookCartTestCase(unittest.TestCase):
             msg='Quantity of books not correct after removing book')
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/539d4699db494d180219620b7baeedea) -->
 
@@ -111,23 +111,23 @@ class BookCartTestCase(unittest.TestCase):
             msg='Quantity of books not correct after removing book')
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
 This is a semantic smell.
 
-# Exceptions
+# Exceptions 🛑
 
 On some domains and under regulation we cannot use real data. 
 
 We should fake it with meaningful data.
 
-# Tags
+# Tags 🏷️
 
 - Testing
 
-# Conclusion
+# Conclusion 🏁
 
 Code comments are a [code smell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md).
 
@@ -135,17 +135,17 @@ Reading tests is the only way to learn how the software behaves.
 
 We need to be extra explicit on our tests.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Given/Then/When](https://en.wikipedia.org/wiki/Given-When-Then)
 
 - [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Hofmann Natalia](https://unsplash.com/@natali333) on [Unsplash](https://unsplash.com/s/photos/surreal)
 

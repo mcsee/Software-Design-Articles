@@ -6,7 +6,7 @@
 
 > TL;DR: Create Small objects and restrict your domain.
 
-# Problems
+# Problems 😔 
 
 - [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Fault 
 
@@ -14,11 +14,11 @@
 
 - [Repeated Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2046%20-%20Repeated%20Code/readme.md) validation
 
-# Solutions
+# Solutions 😃
 
 1. Create small objects and validate the domain.
 
-# Context
+# Context 💬
 
 This is a primitive obsession smell.
 
@@ -30,9 +30,9 @@ This is a primitive obsession smell.
 
 A *wordle word* is a subset of String.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/6fedc83479a0894ca2467247ecd5e85c) -->
 
@@ -42,7 +42,7 @@ invalidDestination = "destination.example.com"
 // No error is thrown
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/51ea6966c13b5aa25c34437218eef5b8) -->
 
@@ -65,37 +65,37 @@ destination = new EmailAddress("destination@example.com");
 
 Not to be confused with the anemic [Java version](http://officedev.github.io/ews-java-api/docs/releases/api-2.0/apidocs/microsoft/exchange/webservices/data/property/complex/EmailAddress.html)
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
 This is a semantic smell.
 
-# Tags
+# Tags 🏷️
 
 - Primitive Obsession
 
-# Conclusion
+# Conclusion 🏁
 
 We need to be loyal to the bijection of the real-world. 
 
 Subsets are very important for early validations and fail fast principle.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 122 - Primitive Obsession](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20122%20-%20Primitive%20Obsession/readme.md)
 
 [Code Smell 189 - Not Sanitized Input](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20189%20-%20Not%20Sanitized%20Input/readme.md)
 
-# More Info
+# More Information 📕
 
 [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Mona Eendra](https://unsplash.com/@monaeendra) on [Unsplash](https://unsplash.com/s/photos/boxed)  
 

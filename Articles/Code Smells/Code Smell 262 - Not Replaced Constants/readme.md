@@ -6,7 +6,7 @@
 
 > TL;DR: Ignoring constant replacement leads to severe security risks.
 
-# Problems
+# Problems 😔 
 
 - Vulnerable endpoints
 
@@ -14,7 +14,7 @@
 
 - Documentation Nobody Reads
 
-# Solutions
+# Solutions 😃
 
 1. Enforce constant key replacement
 
@@ -26,7 +26,7 @@
 
 5. Use invalid defaults to ensure they are always replaced
 
-# Context
+# Context 💬
 
 A major security flaw, PKfail, persisted unnoticed for 12 years, compromising hundreds of devices. 
 
@@ -34,9 +34,9 @@ The vulnerability stems from vendors failing to replace a "DO NOT TRUST" Secure 
 
 This oversight left countless devices open to exploitation, allowing threat actors to bypass security measures and install malicious software.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/79f0f0cd0289ce799b501db97ea6b926) -->
 
@@ -52,7 +52,7 @@ fn use_default_pk() -> String {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/54f9da4bbeb24a1ec33f1af75c038278) -->
 
@@ -73,7 +73,7 @@ fn use_default_pk() -> String {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
@@ -81,25 +81,25 @@ You can detect this smell by checking for default values that must be replaced b
 
 Tools like static analyzers and manual code reviews help you identify hardcoded or placeholder keys that should be updated.
 
-# Tags
+# Tags 🏷️
 
 - Security
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# AI Generation
+# AI Generation 🤖
 
 AI generators might create this smell unless instructed for context-specific security steps. 
 
 You must provide clear instructions to ensure proper key replacement.
 
-# AI Detection
+# AI Detection 🥃
 
 AI tools can catch this smell with rules that flag placeholder values through testing and reviews.
 
-# Conclusion
+# Conclusion 🏁
 
 Ignoring crucial steps in the security process, such as replacing default keys, can lead to severe vulnerabilities. 
 
@@ -107,21 +107,21 @@ This long-lasting flaw emphasizes the need for diligent security practices.
 
 Replace all your documentation with acceptance tests.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 02 - Constants and Magic Numbers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
 
 [Refactoring 011 - Replace Comments with Tests](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20011%20-%20Replace%20Comments%20with%20Tests/readme.md)
 
-# More Info
+# More Information 📕
 
 [Tech Radar](https://www.techradar.com/pro/security/secure-boot-has-a-major-security-issue-hundreds-of-devices-from-dell-supermicro-and-more-all-affected-heres-what-we-know)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Jason Leung](https://unsplash.com/@ninjason) on [Unsplash](https://unsplash.com/photos/white-and-gray-siberian-husky-puppy-udxIYCyZHiw)
     

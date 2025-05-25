@@ -6,17 +6,17 @@
 
 > TL;DR: Avoid adding conditionals related to production 
 
-# Problems
+# Problems 😔 
 
 - Fail fast principle violation
 
 - Lack of testability
 
-# Solutions
+# Solutions 😃
 
 1. If completely necessary, model environments and test *ALL* of them.
 
-# Context
+# Context 💬
 
 Sometimes, We need to create different behaviors in development and production.
 
@@ -24,9 +24,9 @@ For example the strength of the passwords.
 
 In this case, we need to configure the environment with the strength strategy and test the strategy and not the environment itself.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/2b00edcf1fded330263a4773b227cd06) -->
 
@@ -46,7 +46,7 @@ send_welcome_email("john@doe.com", "production")
 # from Bob Builder <bob@builder.com>
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/4a598f416f01357597a072d75ba30a6f) -->
 
@@ -75,7 +75,7 @@ send_welcome_email("john@doe.com", ProductionEnvironment())
 # from Bob Builder <bob@builder.com>
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
@@ -83,11 +83,11 @@ This is a design smell.
 
 We need to create empty development/production configurations and delegate them with customizable polymorphic objects.
 
-# Tags
+# Tags 🏷️
 
 - Coupling
 
-# Conclusion
+# Conclusion 🏁
 
 Avoid adding untestable conditionals. 
 
@@ -95,15 +95,15 @@ Create configurations delegating business rules.
 
 Use abstractions, protocol, and interfaces, avoid hard hierarchies.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 56 - Preprocessors](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2056%20-%20Preprocessors/readme.md)
 
-# More Info
+# More Information 📕
 
 - [How to avoid annoying ifs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Birmingham Museums Trust](https://unsplash.com/@birminghammuseumstrust) on [Unsplash](https://unsplash.com/s/photos/production-line)
   

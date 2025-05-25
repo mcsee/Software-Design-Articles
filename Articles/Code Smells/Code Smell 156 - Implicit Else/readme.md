@@ -6,7 +6,7 @@
 
 > TL;DR: Be explicit. Even with Else.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -16,11 +16,11 @@
 
 - [Fail Fast Principle violation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1. Write the explicit else
 
-# Context
+# Context 💬
 
 If we early return on an IF sentence we can omit the else part. 
 
@@ -28,9 +28,9 @@ Afterward, we [Remove the IF](https://github.com/mcsee/Software-Design-Articles/
 
 That is when we miss the real cases.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/8d2eb5957180d324326e2c30a72166f6) -->
 
@@ -43,7 +43,7 @@ function carBrandImplicit(model) {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/34f2e6cc97fb6ef9cb77f8998aaa790e) -->
 
@@ -61,7 +61,7 @@ function carBrandExplicit(model) {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
@@ -69,23 +69,23 @@ We can check syntax trees and parse them and warn for missing else.
 
 We can also rewrite them and perform mutation testing.
 
-# Tags
+# Tags 🏷️
 
 - Conditionals
 
-# Conclusion
+# Conclusion 🏁
 
 This kind of smell brings a lot of public debate, *and hate*.
 
 We must exchange opinions and value each pros and cons.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 102 - Arrow Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md)
 
 [Code Smell 36 - Switch/case/elseif/else/if statements](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md)
 
-# More Info
+# More Information 📕
 
 [Stop Using Implicit Else](https://javascript.plainenglish.io/advice-from-a-senior-dev-stop-using-the-implicit-else-2a2ecf0a3583)
 
@@ -95,7 +95,7 @@ We must exchange opinions and value each pros and cons.
 
 [How to Get Rid of Annoying IFs Forever](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Elena Mozhvilo](https://unsplash.com/es/@miracleday) on [Unsplash](https://unsplash.com/s/photos/invisible)
   

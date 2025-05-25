@@ -357,7 +357,7 @@ We have our model built with TDD and great confidence. Full coverage and no gold
 
 [Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
-## Conclusions
+## Conclusion 🏁
 
 With this tips we can do very basic test writing. 
 
@@ -371,6 +371,6 @@ Let's enjoy it together!
 
 * * *
 
-# Credits
+# Credits 🙏
 
 Photo by [Yohann LIBOT](https://unsplash.com/@yohannlibot) on [Unsplash](https://unsplash.com/s/photos/zombies)

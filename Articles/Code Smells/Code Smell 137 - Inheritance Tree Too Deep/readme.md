@@ -6,7 +6,7 @@
 
 > TL;DR: Favor composition over inheritance.
 
-# Problems
+# Problems 😔 
 
 - [Coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
@@ -20,19 +20,19 @@
 
 - Liskov Substitution
 
-# Solutions
+# Solutions 😃
 
 1. Break classes and compose them.
 
-# Context
+# Context 💬
 
 Old papers recommended using classes as a specialization for code reuse.
 
 We learned that composition is a more efficient and extensible way to share behavior.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ca80ab1c2443f8494817c027678ab7f3) -->
 
@@ -47,7 +47,7 @@ class Halichoerus(Phocidae):
 class GreySeal(Halichoerus):
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/23622a20da88b3192eb97577557a1f08) -->
 
@@ -59,25 +59,25 @@ class GreySeal:
     def breed(self): # find the common behavior in the hierarchy
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
  
 Many linters report *Depth of inheritance tree (DIT)*. 
 
-# Tags
+# Tags 🏷️
 
 - Hierarchies
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# Conclusion
+# Conclusion 🏁
 
 Look after your hierarchies and break them often.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 11 - Subclassification for Code Reuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
 
@@ -91,7 +91,7 @@ Look after your hierarchies and break them often.
 
 [Code Smell 58 - Yo-yo Problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2058%20-%20Yo-yo%20Problem/readme.md)
 
-# More Info
+# More Information 📕
 
 [Coupling: The one and only problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 

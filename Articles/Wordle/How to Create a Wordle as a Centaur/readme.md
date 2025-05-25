@@ -206,7 +206,7 @@ The final code is full of refactoring opportunities and several [code smells](ht
 
 It is a proof of concept, not an elegant and final solution.
 
-# Credits
+# Credits 🙏
 
 Image credit: A funny Twitter thread asking AIs to draw a Centaur
 

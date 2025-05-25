@@ -6,7 +6,7 @@
 
 > TL;DR: Add the necessary indirection layers, but no more.
 
-# Problems
+# Problems 😔 
 
 - [Accidental](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md) complexity
 
@@ -14,19 +14,19 @@
 
 - YAGNI violation
 
-# Solutions
+# Solutions 😃
 
 1. Remove the intermediate object
 
-# Context
+# Context 💬
 
 A poltergeist (or gypsy wagon) is a short-lived object used to perform initialization or to invoke methods in another, more permanent class. 
 
 An object is responsible for many small tasks, resulting in excessive coupling and a lack of cohesion in the code.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/e51b8f319d33c800895b14e463b3b380) -->
 
@@ -51,7 +51,7 @@ Driver homer = new Driver(porsche);
 homer.DriveCar();
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/0c13213cc8d76d0f1d5041deb94a7946) -->
 
@@ -61,37 +61,37 @@ Car porsche = new Car();
 porsche.driveCar();
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
 This is a design smell.
 
-# Tags
+# Tags 🏷️
 
 - Complexity 
 
-# Conclusion
+# Conclusion 🏁
 
 Don't add accidental complexity to the essential complexity we already have. 
 
 Remove [middleman](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2067%20-%20Middle%20Man/readme.md) objects if they are not needed. 
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 54 - Anchor Boats](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2054%20-%20Anchor%20Boats/readme.md)
 
 [Code Smell 67 - Middle Man](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2067%20-%20Middle%20Man/readme.md)
 
-# More Info
+# More Information 📕
 
 [Wikipedia](https://en.wikipedia.org/wiki/Poltergeist_%28computer_programming%29)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Lan Gao](https://unsplash.com/@langao) on [Unsplash](https://unsplash.com/images/things/ghost)
     

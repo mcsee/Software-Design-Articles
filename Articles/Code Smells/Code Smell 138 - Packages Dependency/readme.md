@@ -6,7 +6,7 @@
 
 > TL;DR: Write your code unless you need an existing complex solution
 
-# Problems
+# Problems 😔 
 
 - [Coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
@@ -16,21 +16,21 @@
 
 - [Packages Corruption](https://www.bleepingcomputer.com/news/security/dev-corrupts-npm-libs-colors-and-faker-breaking-thousands-of-apps/)
 
-# Solutions
+# Solutions 😃
 
 1. Import and implement trivial solutions
 
 2. Rely on external and mature dependencies
 
-# Context
+# Context 💬
 
 Recently, There's a trend to rely on a hard to trace dependencies.
 
 This introduces coupling into our designs and architectural solutions.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/32a73793d00fc672138e1a98bbdc9aa8) -->
 
@@ -46,7 +46,7 @@ module.exports = function isOdd(value) {
 };
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/751b57a8178500e9143ea2081237ffaf) -->
 
@@ -59,7 +59,7 @@ function isOdd(value) {
 // Just solve it inline
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
@@ -67,11 +67,11 @@ We can check our external dependencies and stick to the minimum.
 
 We can also depend on a certain concrete version to avoid hijacking.
 
-# Tags
+# Tags 🏷️
 
 - Security
 
-# Conclusion
+# Conclusion 🏁
 
 Lazy programmers push reuse to absurd limits.
 
@@ -79,13 +79,13 @@ We need a good balance between code duplication and crazy reuse.
 
 As always, there are rules of thumb but no rigid rules.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 94 - Too Many imports](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2094%20-%20Too%20Many%20imports/readme.md)
 
 [Code Smell 300 - Package Hallucination](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20300%20-%20Package%20Hallucination/readme.md)
  
-# More Info
+# More Information 📕
 
 - [Poisoned Packages](https://nakedsecurity.sophos.com/2022/05/25/poisoned-python-and-php-packages-purloin-passwords-for-aws-access/)
 
@@ -95,7 +95,7 @@ As always, there are rules of thumb but no rigid rules.
 
 - [Malware in Packages](https://therecord.media/malware-found-in-npm-package-with-millions-of-weekly-downloads/)
 
-# Credits
+# Credits 🙏
 
 Photo by [olieman.eth](https://unsplash.com/@moneyphotos) on [Unsplash](https://unsplash.com/s/photos/security-box)
   

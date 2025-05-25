@@ -498,14 +498,16 @@ document.getElementById('validate').addEventListener('click',
 ```javascript
 // Step 23
 
-// if character is in right position, cell should be in green (#aedb95)
+// if character is in right position, 
+// cell should be in green (#aedb95)
 
 document.getElementById('validate').addEventListener('click', 
   function(event) {
   for (var i = 0; i < cells.length; i++) {
     if (i >= rowIndex * 5 && i < (rowIndex + 1) * 5) {
-      if (secretWord.charAt(i - rowIndex * 5) === cells[i].innerHTML) {
-        cells[i].style.backgroundColor = '#aedb95';
+      if (secretWord.charAt(i - rowIndex * 5) ===
+         cells[i].innerHTML) {
+            cells[i].style.backgroundColor = '#aedb95';
       }
     }
   }
@@ -636,7 +638,7 @@ There are some missing functionalities:
 
 - ... many more to come ...
 
-# Conclusion
+# Conclusion 🏁
 
 Of the 27 steps above, 22 are related to UI.
 
@@ -652,7 +654,7 @@ Stay tuned for Wordle evolution on the following articles.
 
 * * *
 
-# Credits
+# Credits 🙏
 
 Image by [DALL-E](https://labs.openai.com/)
 

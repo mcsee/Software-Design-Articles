@@ -6,7 +6,7 @@
 
 > TL;DR: Don't Abbreviate your objects
 
-# Problems
+# Problems 😔 
 
 - Coupling
 
@@ -22,7 +22,7 @@
 
 [Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1. Use meaningful/[declarative](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md) names.
 
@@ -36,9 +36,9 @@
 
 - Class Naming
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/946b6391e043d6abec9a3ae5976c5d8f) -->
 
@@ -56,7 +56,7 @@ func main() {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/6b5865d3a16ed5ccccd34348070d7d62) -->
 
@@ -74,17 +74,17 @@ function main() {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 We can't automate choosing what is a *short* name and a *declarative*.
 
 Some "modern" and shinny languages enforce this bad practice. So we should wisely choose a good language instead.
  
-# Tags
+# Tags 🏷️
 
 - Declarative
 
-# Conclusion
+# Conclusion 🏁
 
 Computer science was born from the mother of science (mathematics). In math, the assignment of single letter variables *(i, j, x, y)* is a good practice.
 
@@ -106,19 +106,19 @@ Sometimes we even mistake them
 
 It is 2020, We need to write software for humans, not for compilers.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
 [Code Smell 153 - Too Long Names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20153%20-%20Too%20Long%20Names/readme.md)
 
-# More Info
+# More Information 📕
 
 [What exactly is a name - Part I The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Jessica Knowlden](https://unsplash.com/@mybibimbaplife) on [Unsplash](https://unsplash.com/s/photos/small)
 

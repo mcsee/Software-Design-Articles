@@ -6,7 +6,7 @@
 
 > TL;DR: Secure your cloud resources by avoiding predictable naming patterns.
 
-# Problems
+# Problems 😔 
 
 - Predictable names
 
@@ -22,7 +22,7 @@
 
 - Premature Optimization
 
-# Solutions
+# Solutions 😃
 
 1. Use unique bucket names with dark keys
 
@@ -36,7 +36,7 @@
 
 6. Randomize names
 
-# Context
+# Context 💬
 
 Resource squatting happens when attackers anticipate the naming patterns of cloud resources, like S3 buckets.
 
@@ -48,9 +48,9 @@ This vulnerability is critical in environments like AWS, where predictable namin
 
 Many systems avoid this indirection fearing the performance penalty which is a clear case of premature optimization.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/fadc914160d921bcf04f44c9b33397c2) -->
 
@@ -61,7 +61,7 @@ def create_bucket(account_id, region):
    # This is deterministic and open
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/05b5dedb14f5696545c7e96d120fafd9) -->
 
@@ -80,7 +80,7 @@ def create_bucket(account_id, region):
     verify_bucket_ownership(bucket_name, account_id)
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
@@ -90,47 +90,48 @@ Look for patterns in names that an attacker can easily anticipate or guess.
 
 Many automated tools and manual code reviews can help identify these risks.
 
-# Tags
+# Tags 🏷️
 
 - Security
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# AI Generation
+# AI Generation 🤖
 
 AI generators may create this smell using standard templates with predictable naming patterns. 
 
 Always customize and review generated code for security.
 
-# AI Detection
+# AI Detection 🥃
 
 AI can help detect this smell if configured with rules that identify predictable or insecure resource naming conventions.
 
 This is a security risk that requires understanding of cloud infrastructure and potential attack vectors.
 
-# Conclusion
+# Conclusion 🏁
+
  
 Avoiding predictable naming patterns is critical to securing your cloud resources. 
 
 Always use unique, obscure, hard-to-guess names, and also verify resource ownership to protect against squatting attacks.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 120 - Sequential IDs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20120%20-%20Sequential%20IDs/readme.md)
 
-# More Info
+# More Information 📕
 
 [Gb Hackers](https://gbhackers.com/aws-vulnerability-remote-execution/)
 
 [Wikipedia](https://en.wikipedia.org/wiki/Cybersquatting)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Felix Koutchinski](https://unsplash.com/@pheliks) on [Unsplash](https://unsplash.com/photos/group-of-police-standing-near-grey-building-WEcl8_kqwpg)  
   

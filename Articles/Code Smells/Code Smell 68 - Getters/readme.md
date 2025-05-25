@@ -6,7 +6,7 @@
 
 *Getting things is widespread and safe. But it is a very bad practice.*
 
-# Problems
+# Problems 😔 
 
 - Naming
 
@@ -20,7 +20,7 @@
 
 - Anemic Models
 
-# Solutions
+# Solutions 😃
 
 1. Avoid Getters
 
@@ -28,9 +28,9 @@
 
 3. Protect your implementation decisions.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/39d40cf2f0d4159c95d90243c59a4df5) -->
 
@@ -56,7 +56,7 @@ final class Window {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/cd465eb9ca4f2771fb3dc5e30dc491cc) -->
 
@@ -83,7 +83,7 @@ final class Window {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 Getters coincide in certain scenarios with a true responsibility. It will be reasonable for a window to return its color and it may accidentally store it as color. so a *color()* method returning the attribute color might be a good solution.
 
@@ -91,15 +91,15 @@ Getters coincide in certain scenarios with a true responsibility. It will be rea
 
 Most linters can warn us if they detect anemic models with getters and setters.
 
-# Tags
+# Tags 🏷️
 
-- Information Hiding
+- Anemic Models
 
-# Conclusion
+# Conclusion 🏁
 
 Getters and Setters are a bad established practice. Instead of focusing on object behavior (essential), we are desperate to know object guts (accidental) and violate their implementation.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 28 - Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
 
@@ -111,11 +111,11 @@ Getters and Setters are a bad established practice. Instead of focusing on objec
 
 [Code Smell 146 - Getter Comments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20146%20-%20Getter%20Comments/readme.md)
 
-# More Info
+# More Information 📕
 
 [Nude Models - Part II: Getters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20II Getters/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Vidar Nordli-Mathisen](https://unsplash.com/@vidarnm) on [Unsplash](https://unsplash.com/s/photos/pull)  
 

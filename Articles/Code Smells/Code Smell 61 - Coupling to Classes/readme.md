@@ -6,7 +6,7 @@
 
 *Classes are handy. We can call them and invoke them any time. Is this good?*
 
-# Problems
+# Problems 😔 
 
 - Coupling
 
@@ -14,7 +14,7 @@
 
 - Hard to mock
 
-# Solutions
+# Solutions 😃
 
 1. Use interfaces or traits (if available).
 
@@ -22,9 +22,9 @@
 
 3. Favor Loose Coupling.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/e805e3d4540de21d6c1c3ff0341aac5a) -->
 
@@ -46,7 +46,7 @@ public class MyDomainObject
 // since it always expects an instance of MyCollection
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/0358951abbf771f2b63a3ae6833ea210) -->
 
@@ -77,19 +77,19 @@ public class myDomainObject sum(Iterator anObjectThatCanBeIterated) {
 // (even a mocked one as long as it adheres to the protocol)
 ```
 
-# Detection
+# Detection 🔍
 
 We can use almost any linter to find references to classes. We should not abuse since many uses might be false positives.
 
-# Tags
+# Tags 🏷️
 
 - Coupling
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# Conclusion
+# Conclusion 🏁
 
 Dependencies to Interfaces make a system less coupled and thus more extensible and testable.
 
@@ -97,17 +97,17 @@ Interfaces change less often than concrete implementations.
 
 Some objects implement many interfaces, declaring which part depends on which interface makes the coupling more granular and the object more cohesive. 
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 30 - Mocking Business](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md)
 
-# More Info
+# More Information 📕
 
 [Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 [Wikipedia](https://en.wikipedia.org/wiki/Loose_coupling)
 
-# Credits
+# Credits 🙏
 
 Photo by [Marco Bianchetti](https://unsplash.com/@marcobian) on [Unsplash](https://unsplash.com/s/photos/hug)
 

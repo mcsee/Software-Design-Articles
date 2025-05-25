@@ -6,7 +6,7 @@
 
 > TL;DR: Don't add a default clause to your cases. Change it for an exception. Be Explicit.
 
-# Problems
+# Problems 😔 
 
 - Coupling
 
@@ -14,13 +14,13 @@
 
 - Open/closed principle violation
 
-# Solutions
+# Solutions 😃
 
 1. Replace if and cases with polymorphism
 
 2. Change Default code to an Exception
 
-# Context
+# Context 💬
 
 When using cases, we usually add a default case so it doesn't fail. 
 
@@ -28,9 +28,9 @@ Failing is always better than making decisions without evidence.
 
 Since [case and switches](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md) are also a smell, we can avoid them.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ddad35dc0be43c82d4aff94ad2b79d09) -->
 
@@ -53,7 +53,7 @@ switch (value) {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/78ca0363b28677b5ff24973b2fc4806f) -->
 
@@ -80,29 +80,29 @@ switch (value) {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi Automatic 
 
 We can tell our linters to warn us on default uses unless there's an exception.
 
-# Tags
+# Tags 🏷️
 
 - Fail Fast
 
-# Conclusion
+# Conclusion 🏁
 
 Writing robust code doesn't mean we need to take decisions without evidence.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 36 - Switch/case/elseif/else/if statements](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Joshua Woroniecki](https://unsplash.com/@joshua_j_woroniecki) on [Unsplash](https://unsplash.com/s/photos/crystal-ball)
   

@@ -6,7 +6,7 @@
 
 > TL;DR: Don't add comments inside your methods. Extract them and leave declarative comments just for not obvious design decisions.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -16,7 +16,7 @@
 
 - Bad Documentation
 
-# Solutions
+# Solutions 😃
 
 1. Extract Method
 
@@ -24,13 +24,13 @@
 
 3. Remove not declarative comments.
 
-# Refactorings
+# Refactorings ⚙️
 
 [Refactoring 005 - Replace Comment with Function Name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/eae0f716ae595002445926a33fb4d7e8) -->
 
@@ -67,7 +67,7 @@ function recoverFromGrief() {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/06f878717d284007d42c0140ccd0cb8e) -->
 
@@ -115,7 +115,7 @@ function acceptanceStage() {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 This is a policy smell. Every linter can detect comments not present in the first line and warn us.
 
@@ -125,7 +125,7 @@ Tip: (Thanks [@GreenFieldCoder](https://twitter.com/GreenFieldCoder))
 
 > Also prevents you from writing new comments.
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
@@ -133,15 +133,15 @@ Tip: (Thanks [@GreenFieldCoder](https://twitter.com/GreenFieldCoder))
 
 - Comments
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 Comments are a code smell. If you need to document a design decision, you should do it before the actual method code.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 03 - Functions Are Too Long](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2003%20-%20Functions%20Are%20Too%20Long/readme.md)
 
@@ -151,7 +151,7 @@ Comments are a code smell. If you need to document a design decision, you should
 
 [Code Smell 168 - Undocumented Decisions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20168%20-%20Undocumented%20Decisions/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Jason Rosewell](https://unsplash.com/@jasonrosewell) on [Unsplash](https://unsplash.com/@jasonrosewell)
   

@@ -6,23 +6,23 @@
 
 > TL;DR: Don't avoid exceptions. Handle Them.
 
-# Problems
+# Problems 😔 
 
 - [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md) Principle Violation
 
-# Solutions
+# Solutions 😃
 
 1. Catch the exception and deal with it explicitly
 
-# Context
+# Context 💬
 
 On early programming days, we privileged the systems running before error handling.
 
 We have evolved.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/9569c95218a7d8a33d68587fa70e5782) -->
 
@@ -40,7 +40,7 @@ except:
 pass
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/02d281247e7baac4d5dca91bc77a146a) -->
 
@@ -54,41 +54,41 @@ except ConnectionError as exception:
   logger.error("Cannot send email {exception}")
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
   
 Many linters warn us on empty exception blocks
 
-# Exceptions
+# Exceptions 🛑
 
 If we need to skip and ignore the exception, we should document it explicitly.
 
-# Tags
+# Tags 🏷️
 
 - Exceptions
 
-# Conclusion
+# Conclusion 🏁
 
 Prepare to deal with the errors. 
 
 Even if you decide to do nothing, you should be explicit with this decision.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 132 - Exception Try Too Broad](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20132%20-%20Exception%20Try%20Too%20Broad/readme.md)
 
-# More Info
+# More Information 📕
 
 [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
 [On Error Resume Next Package](https://www.npmjs.com/package/on-error-resume-next)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [James Best](https://unsplash.com/@jim_at_jibba) on [Unsplash](https://unsplash.com/)
   

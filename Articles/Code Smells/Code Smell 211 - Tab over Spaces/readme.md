@@ -6,7 +6,7 @@
 
 > TL;DR: Don't use Tabs. It is not a "personal style decision"
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -14,13 +14,13 @@
 
 - [Mixed Standards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20164%20-%20Mixed%20Indentations/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1. Use spaces. Always.
 
 2. Use automatic tools to prevent tabs in the code.
 
-# Context
+# Context 💬
 
 Developers might see using tabs or spaces for indentation as a matter of personal preference or team convention.
 
@@ -38,9 +38,9 @@ Spaces are more predictable and easier to read, which can help to reduce errors 
 
 Some screen readers and other assistive technologies may have difficulty reading code that uses tabs for indentation, particularly when tabs are used inconsistently or when tab width is not uniform.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/f0e5a66c59069833be76905f11a6da7b) -->
 
@@ -58,7 +58,7 @@ numbers = [1, 2, 3, 4, 5]
 print("The average is:", calculate_average(numbers))
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/3382696a06e5b8a1e5f032289fba3be3) -->
 
@@ -76,33 +76,33 @@ numbers = [1, 2, 3, 4, 5]
 print("The average is:", calculate_average(numbers))
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 We can enforce a policy to avoid tabs.
 
-# Tags
+# Tags 🏷️
 
 - Standards 
 
-# Conclusion
+# Conclusion 🏁
 
 Bad indentation can make the code difficult to read and understand and can cause errors if the indentation is not consistent throughout the code.
 
 Using spaces for indentation is generally recommended for consistency, readability, and accessibility.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 164 - Mixed Indentations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20164%20-%20Mixed%20Indentations/readme.md)
 
 [Code Smell 48 - Code Without Standards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2048%20-%20Code%20Without%20Standards/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Faisal Waheed](https://unsplash.com/@fwaheed17) on [Unsplash](https://unsplash.com/images/nature/space)
     

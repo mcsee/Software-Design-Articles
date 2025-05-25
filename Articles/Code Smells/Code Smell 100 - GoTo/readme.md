@@ -6,19 +6,19 @@
 
 > TL;DR: Don't ever use GoTo.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
 - Hard to follow code
 
-# Solutions
+# Solutions 😃
 
 1. Replace [GOTO](https://en.wikipedia.org/wiki/Goto) with structured code
 
 2. Use exceptions
 
-# Context
+# Context 💬
 
 I started programming in Basic. 
 
@@ -26,9 +26,9 @@ GOTO was heavily abused there.
 
 I had to learn structured programming from scratch in Rehab mode.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/5d76fda8dfbe6f351e709baa00e0e61c) -->
 
@@ -44,7 +44,7 @@ if (i < 10)
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/da74b8e901f234b6bc400c9a6e0b7725) -->
 
@@ -55,17 +55,17 @@ for (int i = 0; i < 10; i++)
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 In languages supporting *GOTO*, our linters can warn us against its usage.
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
-# Conclusion
+# Conclusion 🏁
 
 We acknowledged GOTO problems a few decades ago.
 
@@ -77,19 +77,19 @@ Most programmers luckily avoid GOTO sentence. Next goal will be to consider harm
 
 *Courtesy [XKCD](https://xkcd.com/292/)*
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 280 - Spaghetti Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20280%20-%20Spaghetti%20Code/readme.md)
 
 [Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Goto Statement considered harmful](https://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf)
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Goto)
 
-# Credits
+# Credits 🙏
 
 Photo by [Jens Johnsson](https://unsplash.com/@jens_johnsson) on [Unsplash](https://unsplash.com/s/photos/sign)  
 

@@ -6,11 +6,11 @@
 
 > TL;DR: Use good names always. Result is always a very bad name.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
-# Solutions
+# Solutions 😃
 
 1. [Rename](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20006%20-%20Rename%20Result%20Variables/readme.md) *result*.
 
@@ -18,13 +18,13 @@
 
 3. Don't use IDEs without automatic refactors.
 
-# Refactorings
+# Refactorings ⚙️
 
 [Refactoring 006 - Rename Result Variables](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20006%20-%20Rename%20Result%20Variables/readme.md)
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/9d1f20a108047109bf229baf1c4c9976) -->
 
@@ -38,7 +38,7 @@ result = lastBlockchainBlock();
 addBlockAfter(result);
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/75488df759013fcc4f3381b1006b7f82) -->
 
@@ -54,19 +54,19 @@ lastBlockchainBlock = findlastBlockchainBlock();
 addBlockAfter(lastBlockchainBlock);
 ```
 
-# Detection
+# Detection 🔍
 
 We must forbid the word result to be a variable name. 
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 *Result* is an example of generic and meaningless names. 
 
@@ -76,15 +76,15 @@ Refactoring is cheap and safe.
 
 > When you find a mess on the ground, clean it, doesn’t matter who did it. Your job is to always leave the ground cleaner for the next campers.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 79 - TheResult](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2079%20-%20TheResult/readme.md)
 
-# More Info
+# More Information 📕
 
 - [What is in a name? Part I: Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [KMA](https://unsplash.com/@kmaimg) on [Unsplash](https://unsplash.com/s/photos/magician)
   

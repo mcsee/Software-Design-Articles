@@ -6,7 +6,7 @@
 
 > TL;DR: Global functions bring a lot of coupling. Don't use them.
 
-# Problems
+# Problems 😔 
 
 - Coupling
 
@@ -16,7 +16,7 @@
 
 - Testability
 
-# Solutions
+# Solutions 😃
 
 - Wrap the function in a context object.
 
@@ -24,9 +24,9 @@
 
 - External Resources Access, Database access, Time and Operating System resources.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/4713b63031ad073d46701b7b4c81b028) -->
 
@@ -43,7 +43,7 @@ class Employee {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/74d9534ee563afc1fdf766b90115fb10) -->
 
@@ -59,31 +59,31 @@ final class EmployeeTaxesCalculator {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 Many modern languages avoid them. For the permissive ones, scope rules can be applied and automatically checked.
 
-# Tags
+# Tags 🏷️
 
 - Global
 
-# Conclusion
+# Conclusion 🏁
 
 Structured programming considers global functions **harmful**. Yet, we can observe some bad practices cross paradigm boundaries.
 
 - Singleton and Classes are global points of access.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 60 - Global Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2060%20-%20Global%20Classes/readme.md)
 
 [Singleton - The root of all evil](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
 
-# More Info
+# More Information 📕
 
 [Wikipedia](https://en.wikipedia.org/wiki/Global_variable)
 
-# Credits
+# Credits 🙏
 
 Photo by [Mae Mu](https://unsplash.com/@picoftasty) on [Unsplash](https://unsplash.com/s/photos/spaghetti)
 

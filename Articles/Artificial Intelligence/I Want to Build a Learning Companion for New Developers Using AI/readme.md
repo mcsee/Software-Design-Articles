@@ -114,6 +114,6 @@ For example, a suitcase with wheels is an amazing idea invented several centurie
 
 The article's thesis is to build yet another code assistant based on better training sets and transform bad code into a good one.
 
-# Credits
+# Credits 🙏
 
 Photo by [DALL-E](https://openai.com/dall-e-2/)

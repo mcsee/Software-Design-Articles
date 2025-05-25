@@ -6,15 +6,15 @@
 
 > TL;DR: You have the important else condition on the else.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
-# Solutions
+# Solutions 😃
 
 1. Swap the conditions.
 
-# Context
+# Context 💬
 
 It is not as straightforward as it appears to write IF clauses in an elegant manner.
 
@@ -22,9 +22,9 @@ There are lots of variants and choices.
 
 We need to pay special attention to readability.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/7f2c51762feac4966f03df57f57db76f) -->
 
@@ -43,7 +43,7 @@ fun addToCart(item: Any) {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/b804c849ea5ac33be4e27abe929837c1) -->
 
@@ -66,37 +66,37 @@ fun addToCartShorter(item: Any) {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 We can find negated expressions on IF conditions and check for this anti-pattern.
 
-# Tags
+# Tags 🏷️
 
 - IFs
 
-# Conclusion
+# Conclusion 🏁
 
 We need to read code like prose.
 
 Humans read the standard case first and the exceptional one after it.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 51 - Double Negatives](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2051%20-%20Double%20Negatives/readme.md)
 
 [Code Smell 156 - Implicit Else](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20156%20-%20Implicit%20Else/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Know the Code](https://knowthecode.io/if-else-backwards-code-pattern)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Karol Kasanicky](https://unsplash.com/@karolkas) on [Unsplash](https://unsplash.com/s/photos/upside)
     

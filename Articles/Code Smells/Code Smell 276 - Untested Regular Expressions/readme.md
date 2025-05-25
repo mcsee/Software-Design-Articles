@@ -6,7 +6,7 @@
 
 > TL;DR: Use clear and concise regular expressions, and test them thoroughly.
 
-# Problems
+# Problems 😔 
 
 - Readability
 - No test cases
@@ -15,7 +15,7 @@
 - Unclear failures
 - Hidden defects
 
-# Solutions
+# Solutions 😃
 
 1. Ask your favorite AI to write test cases
 2. Break down complex regular expressions into smaller, more readable parts.
@@ -28,7 +28,7 @@
 
 [Refactoring 025 - Decompose Regular Expressions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20025%20-%20Decompose%20Regular%20Expressions/readme.md)
 
-# Context
+# Context 💬
 
 Regular expressions are powerful but tricky.
 
@@ -36,9 +36,9 @@ If you write a regex without tests, you're asking for unexpected errors.
 
 If you write a cryptic regex and skip automated testing, you could miss important cases, causing security issues or user frustration.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/311fe9e5b4509c7d0795b70e012ec248) -->
 
@@ -52,7 +52,7 @@ public class PasswordValidator {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/6569117489915db493b9a3f52429735d) -->
 
@@ -142,7 +142,7 @@ public class PasswordValidatorTest {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
@@ -150,27 +150,27 @@ You can detect when your regex is uncovered by changing it to fail and running a
 
 If your validation returns "false" without user-friendly explanations, it's a clear sign you need to refactor it and improve the feedback.
 
-# Tags
+# Tags 🏷️
 
 - Testing
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# AI Generation
+# AI Generation 🤖
 
 AI can generate regular expressions but often fails to provide helpful error messages. 
 
 Without proper instructions, AI-generated validators may fail to guide users through fixing their inputs.
 
-# AI Detection
+# AI Detection 🥃
 
 AI can detect basic regular expression patterns and missing feedback with clear prompting. 
 
 it might not automatically create detailed test cases or descriptions unless asked specifically.
 
-## Try Them!
+## Try Them! 🛠
 
 *Remember: AI Assistants make lots of mistakes*
 
@@ -188,13 +188,13 @@ it might not automatically create detailed test cases or descriptions unless ask
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Conclusion
+# Conclusion 🏁
 
 A regular expression without clear feedback is user-unfriendly and prone to errors. 
 
 It would help if you described why they failed and wrote thorough tests to ensure your regex works as expected.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 41 - Regular Expression Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2041%20-%20Regular%20Expression%20Abusers/readme.md)
 
@@ -202,11 +202,11 @@ It would help if you described why they failed and wrote thorough tests to ensur
 
 [Code Smell 97 - Error Messages Without Empathy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2097%20-%20Error%20Messages%20Without%20Empathy/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [rc.xyz NFT gallery](https://unsplash.com/@moneyphotos) on [Unsplash](https://unsplash.com/photos/a-close-up-of-a-metal-plate-with-numbers-on-it-j7mGBT2hyM8)  
   

@@ -6,7 +6,7 @@
 
 > TL;DR: Don't leave commented code. Remove it.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -16,25 +16,25 @@
 
 - Lack of Source Version Control
 
-# Solutions
+# Solutions 😃
 
 1. Remove commented code
 
 2. Implement Source Version Control
 
-# Refactorings
+# Refactorings ⚙️
 
 [Refactoring 005 - Replace Comment with Function Name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
 
-# Context
+# Context 💬
 
 When debugging code we tend to comment on code to see what happens.
 
 As a final step, after all our tests pass, we must remove them following clean code practices.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ff64e843938e642edb15cc473008bdc2) -->
 
@@ -60,7 +60,7 @@ function arabicToRoman(num) {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/4d485268c773366069213c5b915acf89) -->
 
@@ -83,27 +83,27 @@ function arabicToRoman(arabicNumber) {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 Some machine learning analyzers can detect or parse comments and guide as to remove them.
 
-# Tags
+# Tags 🏷️
 
 - Comments
 
-# Conclusion
+# Conclusion 🏁
 
 We need to remove all commented-out code.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 75 - Comments Inside a Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2075%20-%20Comments%20Inside%20a%20Method/readme.md)
 
 [Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [maxim bober](https://unsplash.com/@obalance) on [Unsplash](https://unsplash.com/)    
 

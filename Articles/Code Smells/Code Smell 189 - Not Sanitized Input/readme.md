@@ -6,15 +6,15 @@
 
 > TL;DR: Sanitize everything that comes from outside your control.
 
-# Problems
+# Problems 😔 
 
 - Security
 
-# Solutions
+# Solutions 😃
 
 1. Use sanitization and input filtering techniques.
 
-# Context
+# Context 💬
 
 Whenever you get input from an external resource, a security principle requests you to validate and check for potentially harmful inputs.
 
@@ -24,9 +24,9 @@ We can also add [assertions](https://github.com/mcsee/Software-Design-Articles/t
 
 Even better, we can work with [Domain Restricted Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20178%20-%20Subsets%20Violation/readme.md).
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d72d1e6617755cd8eff723b4dba90078) -->
 
@@ -36,7 +36,7 @@ user_input = "abc123!@#"
 # if you expect just alphanumeric characters
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/2c19c64f268afb946ee8560e19cf444f) -->
 
@@ -51,21 +51,21 @@ user_input = "abc123!@#"
 print(sanitize(user_input))  # Output: "abc123"
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 We can statically check all the inputs and also we can also use penetration testing tools.
 
-# Tags
+# Tags 🏷️
 
 - Security
 
-# Conclusion
+# Conclusion 🏁
 
 We need to be very cautious with the inputs beyond our control.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 121 - String Validations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20121%20-%20String%20Validations/readme.md)
 
@@ -77,15 +77,15 @@ We need to be very cautious with the inputs beyond our control.
 
 [Code Smell 215 - Deserializing Object Vulnerability](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20215%20-%20Deserializing%20Object%20Vulnerability/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Wikipedia](https://en.wikipedia.org/wiki/SQL_injection)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Jess Zoerb](https://unsplash.com/@jzoerb) on [Unsplash](https://unsplash.com/photos/UGCgoVmFZC0)
     

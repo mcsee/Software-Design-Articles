@@ -6,7 +6,7 @@
 
 > TL;DR: Naming is hard, don't make it harder with unnecessary accidental complexity.
 
-# Problems
+# Problems 😔 
 
 - Unclear, misleading, vague, and ambiguous names 
 
@@ -16,7 +16,7 @@
 
 - Cryptic [abbreviations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2033%20-%20Abbreviations/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1. Simplify naming conventions
 
@@ -28,7 +28,7 @@
 
 5. Maintain consistent terminology
 
-# Context
+# Context 💬
 
 [Ludwig Wittgenstein](https://en.wikipedia.org/wiki/Ludwig_Wittgenstein) argued that much confusion arises from language misuse.
 
@@ -38,9 +38,9 @@ When you name classes, methods, or variables without clarity, you create a lingu
 
 This causes bugs, makes maintenance harder, and leads to team frustration.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/9333f3505a7ffaba61e7e8509e2797d1) -->
 
@@ -56,7 +56,7 @@ public class AbstractDataHandlerManager {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/61de3fb3c822b5a14be3a80df6cae63d) -->
 
@@ -70,7 +70,7 @@ public class SETIProcessor {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
@@ -78,31 +78,31 @@ You can detect this smell when names start to get long, or when you see "[Abstra
 
 Another sign is when you must explain what a name means to other developers for example in a code review.
 
-# Tags
+# Tags 🏷️
 
 - Naming
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# AI Generation
+# AI Generation 🤖
 
 AI generators often create this smell by producing verbose and generic names that attempt to cover every possible context. 
 
 They are experts in many domains and write code, but frequently they don't do [both at once](https://www.youtube.com/watch?v=99GuXTIW0R4) unless instructed.
 
-# AI Detection
+# AI Detection 🥃
 
 AI generators can sometimes fix this smell with simple refactoring instructions like "simplify names" or "remove redundant terms," but struggle with deeper contextual understanding.
 
-# Conclusion
+# Conclusion 🏁
 
 Linguistic confusion in code leads to unnecessary complexity. 
 
 Use clear, consistent, and straightforward naming to make your code easier to read and maintain.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 22 - Helpers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2022%20-%20Helpers/readme.md)
 
@@ -114,7 +114,7 @@ Use clear, consistent, and straightforward naming to make your code easier to re
 
 [Code Smell 33 - Abbreviations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2033%20-%20Abbreviations/readme.md)
 
-# More Info
+# More Information 📕
 
 [Wittgenstein's concept of linguistic confusion](https://the-philosophers-shirt.com/en-int/blogs/philosophical-dictionary/wittgenstein-linguistic-confusion)
 
@@ -124,11 +124,11 @@ Use clear, consistent, and straightforward naming to make your code easier to re
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Mimi Thian](https://unsplash.com/@mimithian) on [Unsplash](https://unsplash.com/photos/woman-sitting-on-yellow-armless-chair-near-gray-laptop-computer-lp1AKIUV3yo)
     

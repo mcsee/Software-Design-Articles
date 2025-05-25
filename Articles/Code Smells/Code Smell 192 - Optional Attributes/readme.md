@@ -6,24 +6,24 @@
 
 > TL;DR: Collections are fantastic. And Polymorphic.
 
-# Problems
+# Problems 😔 
 
 - [Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 - [If Pollution](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md) 
 
-# Solutions
+# Solutions 😃
 
 1. Change the optional attribute to a collection.
 
-# Context
+# Context 💬
 
 If you need to model something that might be missing, some fancy languages will provide optional, nullable, and many other wrong solutions dealing with [The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md).
 
 Empty collections and non-empty collections are polymorphic.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/a6549bd6a333574a2ba7120a74bcb974) -->
 
@@ -44,7 +44,7 @@ class Person {
 // You need to check for null explicitly
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ec3cca15f071ae1ecebb223675e0cf79) -->
 
@@ -83,25 +83,25 @@ class Person {
 // in a loop without checking for null
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 You can detect nullable attributes and change them when necessary.
 
-# Tags
+# Tags 🏷️
 
 - Null 
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 This is a generalization of the null object pattern.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
@@ -109,17 +109,17 @@ This is a generalization of the null object pattern.
 
 [Code Smell 19 - Optional Arguments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2019%20-%20Optional%20Arguments/readme.md)
 
-# More Info
+# More Information 📕
 
 [Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
 - [Null Object Pattern](https://en.wikipedia.org/wiki/Null_object_pattern)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Levi Jones](https://unsplash.com/@levidjones) on [Unsplash](https://unsplash.com/photos/n0CTq0rroso)
   

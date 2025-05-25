@@ -144,7 +144,8 @@ Lua:
 
 ```lua
 local year = 2024
-local isLeap = (year % 4 == 0 and year % 100 ~= 0) or (year % 400 == 0)
+local isLeap = 
+    (year % 4 == 0 and year % 100 ~= 0) or (year % 400 == 0)
 ```
 
 * * *
@@ -398,7 +399,7 @@ But this is *NOT* your problem.
 
 Following the information hiding principle, you should leave the responsibility as a private protocol.
 
-# Conclusion
+# Conclusion 🏁
 
 There is no [Silver Bullet](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md). 
 

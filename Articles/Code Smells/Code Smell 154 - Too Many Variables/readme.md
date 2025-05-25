@@ -6,31 +6,31 @@
 
 > TL;DR: Variables should be as local as possible
 
-# Problems
+# Problems 😔 
 
 - Readability
 
 - Code Reuse
 
-# Solutions
+# Solutions 😃
 
 1. [Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
 2. Remove unused variables
 
-# Refactorings
+# Refactorings ⚙️
  
 [Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
-# Context
+# Context 💬
 
 Our code should be dirty when programming and writing test cases fast.
 
 After we have good coverage we need to refactor and reduce methods.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/b3d04c90186e88bca3e3353af7c24284) -->
 
@@ -89,7 +89,7 @@ function retrieveImagesFrom(array $imageUrls) {
 
 ![variables](https://cdn.hashnode.com/res/hashnode/image/upload/v1656256026861/aBMdc9L_R.PNG)
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/21117af327d700e359d1eccf2d45accc) -->
 
@@ -123,7 +123,7 @@ function retrieveImagesFrom(string imageUrls) {
     }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
@@ -131,17 +131,17 @@ Most Linters can suggest use for long methods.
 
 This warning also hints us to break and scope our variables.
 
-# Tags
+# Tags 🏷️
 
 - Bloaters
 
-# Conclusion
+# Conclusion 🏁
 
 [Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md) is our best friend. 
 
 We should use it a lot.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 03 - Functions Are Too Long](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2003%20-%20Functions%20Are%20Too%20Long/readme.md)
 
@@ -149,7 +149,7 @@ We should use it a lot.
 
 [Code Smell 62 - Flag Variables](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2062%20-%20Flag%20Variables/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Dustan Woodhouse](https://unsplash.com/@dwoodhouse) on [Unsplash](https://unsplash.com/s/photos/polluted)  
 

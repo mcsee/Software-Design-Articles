@@ -6,7 +6,7 @@
 
 > TL;DR: Classes should have just one responsibility and one reason to change.
 
-# Problems
+# Problems 😔 
 
 - [Coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
@@ -16,19 +16,19 @@
 
 - Single Responsibility Principle violation
 
-# Solutions
+# Solutions 😃
 
 1. Extract class
 
-# Context
+# Context 💬
 
 We create classes to fulfill responsibilities.
 
 If an object does too much, it might change in different directions.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/398ed708b96ddabe79971b98edefce4a) -->
 
@@ -45,7 +45,7 @@ class Webpage {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/cb5736ef2d43863b8cae0ff060c1317a) -->
 
@@ -73,27 +73,27 @@ class RSSFeed {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi Automatic
 
 We can automatically detect large classes or track changes.
 
-# Tags
+# Tags 🏷️
 
 - Coupling
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# Conclusion
+# Conclusion 🏁
 
 Classes must follow the Single Responsibility Principle and have just one reason to change.
 
 If they evolve in different ways, they are doing too much.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 34 - Too Many Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2034%20-%20Too%20Many%20Attributes/readme.md)
 
@@ -105,7 +105,7 @@ If they evolve in different ways, they are doing too much.
 
 [Code Smell 94 - Too Many imports](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2094%20-%20Too%20Many%20imports/readme.md)
 
-# More Info
+# More Information 📕
 
 [Refactoring.guru](https://refactoring.guru/es/smells/divergent-change)
 

@@ -6,7 +6,7 @@
 
 > TL;DR: Pass essential attributes during object creation to reduce mutability and eliminate getters and setters.
 
-# Problems Addressed
+# Problems Addressed 😔
 
 - [Mutability](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 - [Getters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2068%20-%20Getters/readme.md)
@@ -14,7 +14,7 @@
 - Unclear object state
 - Violating the least surprise principle
 
-# Related Code Smells
+# Related Code Smells 💨
 
 [Code Smell 28 - Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
 
@@ -24,16 +24,16 @@
 
 [Code Smell 131 - Zero Argument Constructor](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20131%20-%20Zero%20Argument%20Constructor/readme.md)
 
-# Steps
+# Steps 👣 
 
 1. Identify essential attributes required for object creation
 2. Create a constructor that accepts all essential attributes
 3. Remove setter and getter methods 
 4. Update object creation calls to pass all required attributes upfront
 
-# Sample Code
+# Sample Code 📖
 
-## Before
+## Before 🚨 
 
 <!-- [Gist Url](https://gist.github.com/mcsee/7dbe7a31b56db54fdb510b1cc44480b5) -->
 
@@ -80,7 +80,7 @@ card.setExpirationMonthYear("12/25");
 card.setCvv(123);
 ```
 
-## After
+## After 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d78f13ba29b3b64b1a2fc3271dd3a0ac) -->
 
@@ -118,19 +118,19 @@ CreditCard card = new CreditCard("1234-5678-9012-3456",
                                  123);
 ```
 
-# Type
+# Type 📝
 
 [X] Semi-Automatic
 
 This is a step-by-step refactor.
 
-# Safety
+# Safety 🛡️
 
 This refactoring is generally safe if you ensure you pass all essential attributes during object creation. 
 
 You must update all object creation sites, which may require refactoring tools and careful review in larger codebases.
 
-# Why is the Code Better?
+# Why is the Code Better? ✨
 
 The refactored code enforces object integrity by requiring all essential attributes at creation time.
 
@@ -142,7 +142,7 @@ Most AI tools can correct this code with explicit instructions.
 
 You can have clear pre-prompts requesting all your code samples to favor immutability.
 
-## Try Them!
+## Try Them! 🛠
 
 *Remember AI Assistants make lots of mistakes*
 
@@ -160,7 +160,7 @@ You can have clear pre-prompts requesting all your code samples to favor immutab
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Tags
+# Tags 🏷️
 
 - Mutability
 
@@ -168,11 +168,11 @@ You can have clear pre-prompts requesting all your code samples to favor immutab
 
 [X] Intermediate
 
-# Related Refactorings
+# Related Refactorings 🔄
 
 [Refactoring 001 - Remove Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
 
-# See also
+# See also 📚
 
 [Nude Models - Part I: Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20I Setters/readme.md)
 
@@ -180,7 +180,7 @@ You can have clear pre-prompts requesting all your code samples to favor immutab
 
 [The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
-# Credits
+# Credits 🙏
  
 Image by [Denis](https://pixabay.com/users/devolk-3045099/) on [Pixabay](https://pixabay.com/)
 

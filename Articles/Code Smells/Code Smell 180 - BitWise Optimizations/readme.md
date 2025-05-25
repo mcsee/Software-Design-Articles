@@ -6,7 +6,7 @@
 
 > TL;DR: Don't use bitwise operators unless your business model is bitwise logic.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -18,11 +18,11 @@
 
 - [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)  Violation
 
-# Solutions
+# Solutions 😃
 
 1. Improve readability
 
-# Context
+# Context 💬
 
 Some clever programmers solve problems we don't have. 
 
@@ -30,9 +30,9 @@ We should optimize code based on evidence and use the scientific method.
 
 We should benchmark only if necessary and improve code only if really necessary and bear the cost of changeability and maintainability.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/46a0a22d915e949c42cfb8260a5689bc) -->
 
@@ -46,7 +46,7 @@ const nowInSeconds = ~~(Date.now() / 1000)
 // converting the result to an integer.
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/31a2d5a8699579d5472688b3ac9d9f61) -->
 
@@ -54,25 +54,25 @@ const nowInSeconds = ~~(Date.now() / 1000)
 const nowInSeconds = Math.floor(Date.now() / 1000)
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 We can tell our linters to warn us and manually check if it is worth the change.
 
-# Exceptions
+# Exceptions 🛑
 
 - Real-time and mission-critical software.
 
-# Tags
+# Tags 🏷️
 
 - Premature Optimization
 
-# Conclusion
+# Conclusion 🏁
 
 If we find this code in a pull request or code review, we need to understand the reasons. If they are not justified, we should do a rollback and change it to a normal logic.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
@@ -82,17 +82,17 @@ If we find this code in a pull request or code review, we need to understand the
 
 [Code Smell 129 - Structural Optimizations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20129%20-%20Structural%20Optimizations/readme.md)
 
-# More Info
+# More Information 📕
 
 [Tilde Operator ~~](https://stackoverflow.com/questions/5971645/what-is-the-double-tilde-operator-in-javascript)
 
 [Javascript BitWise Operators](http://rocha.la/JavaScript-bitwise-operators-in-practice)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Frédéric Barriol](https://unsplash.com/@webmaster13870) on [Unsplash](https://unsplash.com/s/photos/clock)  
 

@@ -6,7 +6,7 @@
 
 > TL;DR: Don't use setters.
  
-# Problems
+# Problems 😔 
 
 - Mutability
 
@@ -22,7 +22,7 @@
 
 [Nude Models - Part I: Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20I Setters/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1. Avoid Setters
 
@@ -32,7 +32,7 @@
 
 - DTOs
 
-# Sample Code
+# Sample Code 📖
 
 ## Wrong 
 
@@ -111,7 +111,7 @@ class PhoneCall:
 # and prevents you from changing it representation
 ```
 
-## Right
+## Right 👉
  
 <!-- [Gist Url](https://gist.github.com/mcsee/a32cc664ed6e5cc61f5d824f587ffcb8) -->
 
@@ -142,7 +142,7 @@ class PhoneCall:
     return self._durationInSeconds * 1000
 ```
 
-# Detection
+# Detection 🔍
 
 First step will be to forbid public attributes (if language allows them). 
 
@@ -150,24 +150,22 @@ Secondly, we will search for methods *setXXXX()*, analyzing method structure (sh
 
 We should not forbid methods setting *accidental state* since this is valid. They should not be named *setters* since they ask the object to *change*, but they don't *set* anything. 
 
-# Exceptions
+# Exceptions 🛑
 
 Setting attributes is safe for *non-essential* attributes. 
 
 But it has all drawbacks and considerations already mentioned.
 
-# Tags
+# Tags 🏷️
 
-- Mutation
+- Anemic Models
 
-- Information Hiding
-
-# Conclusion
+# Conclusion 🏁
 
 Creating incomplete and anemic objects is a very bad practice violating 
 mutability, fail fast principle and real-world [bijections](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
  
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 01 - Anemic Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
@@ -177,7 +175,7 @@ mutability, fail fast principle and real-world [bijections](https://github.com/m
 
 [Code Smell 131 - Zero Argument Constructor](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20131%20-%20Zero%20Argument%20Constructor/readme.md)
 
-# More Info
+# More Information 📕
 
 [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
@@ -185,7 +183,7 @@ Here is the full discussion on *Setters*
 
 [Nude Models - Part I: Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20I Setters/readme.md)
  
-# Credits
+# Credits 🙏
 
 Photo by [Victor Rodriguez](https://unsplash.com/@vimarovi) on [Unsplash](https://unsplash.com/s/photos/crowded)
 

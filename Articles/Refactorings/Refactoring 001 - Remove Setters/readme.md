@@ -6,7 +6,7 @@
 
 > TL;DR: Make your attributes private to favor mutability 
 
-# Problems Addressed
+# Problems Addressed 😔
 
 - Mutability
 
@@ -14,7 +14,7 @@
 
 - Accidental [coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
-# Related Code Smells
+# Related Code Smells 💨
 
 [Code Smell 28 - Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
 
@@ -24,7 +24,7 @@
 
 [Code Smell 176 - Changes in Essence](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20176%20-%20Changes%20in%20Essence/readme.md)
 
-# Steps
+# Steps 👣 
 
 1. Locate the setters' usage
 
@@ -32,9 +32,9 @@
 
 3. If you need to change an accidental property, then it is not a setter. Remove the setXXX prefix
 
-# Sample Code
+# Sample Code 📖
 
-## Before
+## Before 🚨 
  
 <!-- [Gist Url](https://gist.github.com/mcsee/b34136c13dddf4cd751579c2b51d91a3) -->
 
@@ -90,7 +90,7 @@ tesla.setSpeed(100 km/h);
 // Now our car runs fast
 ```
 
-## After
+## After 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/9998a9ed50514d162333c7d05ca34415) -->
 
@@ -143,7 +143,7 @@ tesla.speed(100 km/h);
 // if the road is moving, etc
 ```
 	     
-# Type
+# Type 📝
 
 [X] Semi-Automatic
 
@@ -151,13 +151,13 @@ You should detect setters (unless they use meta-programming) with your IDEs.
 
 You can also remove them and see which tests fail if you have good coverage.
 
-# Safety
+# Safety 🛡️
 
 This is not a safe refactoring since you might miss some methods calling the removed setters.
 
 You need to make sure to have good coverage and also an excellent QA process to ensure a smooth refactoring.
 															     
-# Why is the Code Better?
+# Why is the Code Better? ✨
 
 This refactoring improves encapsulation and integrity adding an extra access control layer.
 
@@ -177,7 +177,7 @@ This refactoring improves encapsulation and integrity adding an extra access con
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Tags
+# Tags 🏷️
 
 - Mutability
 
@@ -185,7 +185,7 @@ This refactoring improves encapsulation and integrity adding an extra access con
 
 [X] Beginner
 
-# Related Refactorings
+# Related Refactorings 🔄
 
 [Refactoring 016 - Build With The Essence](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20016%20-%20Build%20With%20The%20Essence/readme.md)
 
@@ -199,7 +199,7 @@ This refactoring improves encapsulation and integrity adding an extra access con
 
 - Remove Getters
 
-# Credits
+# Credits 🙏
 
 Image by [Comfreak](https://pixabay.com/users/comfreak-51581/) on [Pixabay](https://pixabay.com/)
 

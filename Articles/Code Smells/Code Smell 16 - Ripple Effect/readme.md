@@ -6,13 +6,13 @@
 
 > TL;DR: If small changes have big impact, you need to decouple your system.
 
-# Problems
+# Problems 😔 
 
 - Coupling
 
 [Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1. Decouple.
 2. Cover with tests.
@@ -25,9 +25,9 @@
 
 - Legacy Systems
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/3861429b0a02eb2a3906d0f939cc1809) -->
 
@@ -47,7 +47,7 @@ class Time {
 // Changing now() to consider timezone will also bring the effect
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/7fbceedcae6aae7f15d392c9bbe0ffa1) -->
 
@@ -76,27 +76,27 @@ class RelativeClock {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 - It is not easy to detect problems before they happen. [Mutation Testing](https://en.wikipedia.org/wiki/Mutation_testing) and root cause analysis of [single points of failures](https://en.wikipedia.org/wiki/Single_point_of_failure) may help.
 
-# Tags
+# Tags 🏷️
 
 - Legacy
 
-# Conclusion
+# Conclusion 🏁
 
 There are multiple strategies to deal with Legacy and coupled systems. We should deal with this problem before it explodes under our eyes.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 - [Code Smell 08 - Long Chains Of Collaborations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2008%20-%20Long%20Chains%20Of%20Collaborations/readme.md)
 
-# More Info
+# More Information 📕
 
 - [How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
  
-# Credits
+# Credits 🙏
 
 Photo by [Jack Tindall](https://unsplash.com/@jtindall) on [Unsplash](https://unsplash.com/s/photos/big-wave)
 

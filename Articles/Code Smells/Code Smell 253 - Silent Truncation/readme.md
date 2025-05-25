@@ -6,7 +6,7 @@
 
 > TL;DR: If you limit text lengths, enforce them everywhere!
 
-# Problems
+# Problems 😔 
 
 - The Fail Fast Principle Violation
 
@@ -20,13 +20,13 @@
 
 - Separation of Concerns of the UI and the Model
 
-# Solutions
+# Solutions 😃
 
 1. Be consistent with length rules
 
 2. Enforce the rules in the domain objects
 
-# Context
+# Context 💬
 
 Imagine the scenario where you need to persist your objects in a database restricting the size of your texts.
 
@@ -36,9 +36,9 @@ If you need to enforce an arbitrary limit, add these business rules in your obje
 
 Adding this control only in the UI or external API is another code smell about misplaced responsibilities.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/7b1f2afc8132fc6a518c3a5d5fb70f3c) -->
 
@@ -109,7 +109,7 @@ app.listen(3000, () => console.log('Server started on port 3000'));
 </html>
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/3861712d705be4717836079118457b80) -->
 
@@ -195,29 +195,29 @@ app.listen(3000, () => console.log('Server started on port 3000'));
 </html>
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 You can do boundary testing. For example, using [Zombies](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20I%20Survived%20the%20Zombie%20Apocalypse/readme.md) methodology
 
-# Tags
+# Tags 🏷️
 
 - Fail Fast
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# AI Generation
+# AI Generation 🤖
 
 Ai generator usually duplicate these controls instead of placing in a single place
 
-# AI Detection
+# AI Detection 🥃
 
 It was hard to tell AI to use this as a backend constant prompting with an accurate instruction
 
-# Conclusion
+# Conclusion 🏁
 
 You need to handle a clear separation of concerns between the client-side (UI) and server-side (database operations).
 
@@ -225,15 +225,15 @@ The client-side handles user input validation and displaying data, while the ser
 
 You defined the maximum character limit in the backend and fetched by the client-side making it easier to update or change the limit across the application without modifying the client-side code and having ripple effect.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 139 - Business Code in the User Interface](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20139%20-%20Business%20Code%20in%20the%20User%20Interface/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Jametlene Reskp](https://unsplash.com/@reskp) on [Unsplash](https://unsplash.com/photos/person-chopping-dough-sb6UGjIYIpo)
     

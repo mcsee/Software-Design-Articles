@@ -6,7 +6,7 @@
 
 > TL;DR: Use a secret manager to avoid hardcoding sensitive information.
 
-# Problems
+# Problems 😔 
 
 - Security risk
 
@@ -18,7 +18,7 @@
 
 - Audit Fails
 
-# Solutions
+# Solutions 😃
 
 1. Use a [secrets manager](https://en.wikipedia.org/wiki/Key_management)
 
@@ -26,7 +26,7 @@
 
 3. Encrypted storage
 
-# Context
+# Context 💬
 
 Writing secrets as plain text directly into your codebase exposes your code to significant security risks. 
 
@@ -36,9 +36,9 @@ Use a secret manager to store and manage your secrets.
 
 This strategy will reduce the risk of data breaches and make it easier to update and rotate secrets as needed.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/9f6389d74995cdebda3e81f5e9831fbe) -->
 
@@ -50,7 +50,7 @@ response = requests.get("https://api.example.com",
            headers={"Authorization": f"Bearer {api_key}"})
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/8ce54f7836bdc9552d505b9d350ee8d1) -->
 
@@ -65,7 +65,7 @@ response = requests.get("https://api.example.com",
            headers={"Authorization": f"Bearer {api_key}"})
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
@@ -73,25 +73,25 @@ You can detect this smell by searching your codebase for hardcoded strings that 
 
 Code reviews and commercial security static analysis tools can also help identify these patterns.
 
-# Tags
+# Tags 🏷️
 
 - Security
 
-# Level
+# Level 🔋
 
 [x] Intermediate
 
-# AI Generation
+# AI Generation 🤖
 
 AI code generators might create this smell if they were trained with code datasets with hardcoded secrets. 
 
 Always review generated code to ensure secrets are handled securely.
 
-# AI Detection
+# AI Detection 🥃
 
 Gemini, Claude, and ChatGPT detected the hardcoded secrets and suggested changes to the code.
 
-# Conclusion
+# Conclusion 🏁
 
 Using a secret manager enhances the security and maintainability of your code by ensuring that sensitive information is stored securely and can be easily managed and updated.
 
@@ -99,23 +99,23 @@ Many repl and public codebases have a secret manager as an external utility.
 
 Make it a habit to handle all secrets with care and never let them slip into your codebase.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 215 - Deserializing Object Vulnerability](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20215%20-%20Deserializing%20Object%20Vulnerability/readme.md)
 
 [Code Smell 189 - Not Sanitized Input](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20189%20-%20Not%20Sanitized%20Input/readme.md)
 
-# More Info
+# More Information 📕
 
 [Stack Overflow](https://stackoverflow.com/questions/70559637/github-copilot-giving-away-api-keys-how-can-i-protect-my-keys)
 
 [GitHub Copilot security concerns](https://vlad-rad.medium.com/github-copilot-security-conserns-d4209f0d5c28)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [saeed karimi](https://unsplash.com/@saeedkarimi) on [Unsplash](https://unsplash.com/photos/woman-in-white-long-sleeve-shirt-kissing-girl-in-white-long-sleeve-shirt-JrrWC7Qcmhs)
   

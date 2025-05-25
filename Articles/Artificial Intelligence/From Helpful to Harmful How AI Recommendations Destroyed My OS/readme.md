@@ -196,7 +196,7 @@ Ask yourself:
 
 That question alone can re-engage your rational brain.
 
-# Conclusion
+# Conclusion 🏁
 
 Your brain wants to survive.
 

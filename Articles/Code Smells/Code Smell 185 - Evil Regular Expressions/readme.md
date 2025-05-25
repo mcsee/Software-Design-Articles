@@ -6,7 +6,7 @@
 
 > TL;DR: Try to minimize Regular Expression's recursive rules.
 
-# Problems
+# Problems 😔 
 
 - Security Issues
 
@@ -14,7 +14,7 @@
 
 - Premature Optimization
 
-# Solutions
+# Solutions 😃
 
 1. Cover the cases with tests to see if they halt
 
@@ -22,7 +22,7 @@
 
 3. Add timeout handlers
 
-# Context
+# Context 💬
 
 This is known as [ReDos](https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS) attack, a subtype of a [Denial of Service](https://en.wikipedia.org/wiki/Denial-of-service_attack) attack.
 
@@ -32,9 +32,9 @@ A string with an evil pattern is passed to an application. Then this string is u
 
 A string with a vector attack format is passed to an application. Then this string is evaluated by a vulnerable regex, which leads to ReDoS.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/a4e74fb3e18cde7ff7f15636e05ced89) -->
 
@@ -52,7 +52,7 @@ func main() {
 
 ![Regex 101](Regex%20101.png)
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/4ba06d514fb663f0ee628139d463f8c7) -->
 
@@ -72,7 +72,7 @@ func main() {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
@@ -80,21 +80,21 @@ Many languages avoid this kind of regular expression.
 
 We can also scan the code for this vulnerability.
 
-# Tags
+# Tags 🏷️
 
 - Security
 
-# Conclusion
+# Conclusion 🏁
 
 Regular Expressions are tricky and hard to debug. 
 
 We should avoid them as much as possible.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 41 - Regular Expression Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2041%20-%20Regular%20Expression%20Abusers/readme.md)
 
-# More Info
+# More Information 📕
 
 [Catastrophic backtracking: how can a regular expression cause a ReDoS vulnerability?](https://dev.to/unicorn_developer/catastrophic-backtracking-how-can-a-regular-expression-cause-a-redos-vulnerability-aia)
 
@@ -102,11 +102,11 @@ We should avoid them as much as possible.
 
 [Runaway Regular Expressions: Catastrophic Backtracking](https://www.regular-expressions.info/catastrophic.html)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [engin akyurt](https://unsplash.com/@enginakyurt) on [Unsplash](https://unsplash.com/s/photos/regular-expression)  
   

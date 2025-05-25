@@ -6,7 +6,7 @@
 
 > TL;DR: Don't use destructors. And don't write functional code there.
 
-# Problems
+# Problems 😔 
 
 - Coupling
 
@@ -14,7 +14,7 @@
 
 - Memory leaks
 
-# Solutions
+# Solutions 😃
 
 1. Don't use destructors. 
 
@@ -22,7 +22,7 @@
 
 3. Let the Garbage Collector work for you
 
-# Context
+# Context 💬
 
 A class destructor is a special method that is called when an object is destroyed or goes out of scope.  
 
@@ -30,9 +30,9 @@ In the past, we had no garbage collectors and destructors were responsible for c
 
 Nowadays, object destruction is automatic in most modern programming languages. 
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/73df39bf0fcbf9537ed210cf367daac6) -->
 
@@ -54,7 +54,7 @@ private:
 };
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/a0423d39f6b1310dadb049e4188f5fc5) -->
 
@@ -96,13 +96,13 @@ private:
 };
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 Linters can warn us when we write code in destructors
 
-# Exceptions
+# Exceptions 🛑
 
 In very critical low-level code we cannot afford a garbage collector. 
 
@@ -110,25 +110,25 @@ Exceptions are very few.
 
 In other cases writing code in destructors is a symptom of premature optimization.
 
-# Tags
+# Tags 🏷️
 
 - Premature Optimization
 
-# Conclusion
+# Conclusion 🏁
 
 Writting code in destructors is a sign of sloppiness and laziness. 
 
 We need to understand the life cycle of our objects and manage the events accurately.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 142 - Queries in Constructors](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20142%20-%20Queries%20in%20Constructors/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Crawford Jolly](https://unsplash.com/@crawford) on [Unsplash](https://unsplash.com/photos/-YIf-1h_g1E)
   

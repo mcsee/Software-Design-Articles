@@ -676,6 +676,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 300 - Package Hallucination](/Articles/Code%20Smells/Code%20Smell%20300%20-%20Package%20Hallucination/readme.md)
 
+* [Code Smell 301 - Database as Parameter](/Articles/Code%20Smells/Code%20Smell%20301%20-%20Database%20as%20Parameter/readme.md)
+
 ### Blogging
 
 * [Content Structure: The Do's and Dont's of Content Creation](/Articles/Blogging/68%20-%20Content%20Structure%20The%20Do%27s%20and%20Dont%27s%20of%20Content%20Creation/readme.md)

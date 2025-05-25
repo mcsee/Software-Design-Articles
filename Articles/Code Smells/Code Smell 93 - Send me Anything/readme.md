@@ -6,7 +6,7 @@
 
 > TL;DR: Create a clear contract. Expect just one protocol.
 
-# Problems
+# Problems 😔 
 
 - Fail Fast principle violation
 
@@ -20,15 +20,15 @@
 
 - Bad Cohesion
 
-# Solutions
+# Solutions 😃
 
 1. Take just one "kind" of input
 
 2. Arguments should adhere to a single protocol.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d6efbffa513dae1c59059439c64eea1b) -->
 
@@ -51,7 +51,7 @@ function parseArguments($arguments) {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/7876a9b6bacf55a72abcaf5e2ca2e008) -->
 
@@ -63,23 +63,23 @@ function parseArguments(array $arguments) {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 We can detect this kind of method when they do different things, asking for the argument *kind*
 
-# Tags
+# Tags 🏷️
 
 - If Polluter
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 Magic castings and flexibility have a price. They put the rubbish under the rug and violate the fail fast principle.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 69 - Big Bang (JavaScript Ridiculous Castings)](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2069%20-%20Big%20Bang%20(JavaScript%20Ridiculous%20Castings)/readme.md)
 
@@ -87,7 +87,7 @@ Magic castings and flexibility have a price. They put the rubbish under the rug 
 
 [Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Hennie Stander](https://unsplash.com/@henniestander) on [Unsplash](https://unsplash.com/s/photos/juggler)
   

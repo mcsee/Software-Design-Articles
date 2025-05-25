@@ -6,7 +6,7 @@
 
 > TL;DR: Avoid using ternary operators for dynamic method calls
 
-# Problems
+# Problems 😔 
 
 - Reduced code readability
 - Increased debugging difficulty
@@ -16,13 +16,13 @@
 - Obscured program flow
 - [Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md) pitfalls
 
-# Solutions
+# Solutions 😃
 
 1. Use explicit conditionals
 2. Apply the strategy pattern
 3. Create descriptive methods
 
-# Context
+# Context 💬
 
 Ternary metaprogramming uses conditional operators to select and invoke methods dynamically. 
 
@@ -32,9 +32,9 @@ You risk introducing subtle bugs and making your code obscure to other developer
 
 Clean Code is the opposite of [Clever Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md).
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/c9358a49673ff171d4e6ee820cd38db5) -->
 
@@ -43,7 +43,7 @@ const method = success ? 'start' : 'stop';
 obj[method]();
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/3b0d3f749a608dcb64814b921a5c7e43) -->
 
@@ -55,7 +55,7 @@ if (success) {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
@@ -63,27 +63,27 @@ Your linters can detect this smell by looking for ternary operators to select me
 
 You can also watch for variables that store method names based on conditions.
 
-# Tags
+# Tags 🏷️
 
 - Metaprogramming
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# AI Generation
+# AI Generation 🤖
 
 AI code generators might introduce this smell since they prioritize code brevity over readability. 
 
 They could generate ternary metaprogramming patterns when trying to produce concise code.
 
-# AI Detection
+# AI Detection 🥃
 
 AI detectors can identify this smell by recognizing patterns of ternary operators used for method selection. 
 
 They may need specific instructions about readability and maintainability.
 
-## Try Them!
+## Try Them! 🛠
 
 *Remember AI Assistants make lots of mistakes*
 
@@ -101,7 +101,7 @@ They may need specific instructions about readability and maintainability.
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Conclusion
+# Conclusion 🏁
 
 Ternary metaprogramming can seem clever and concise but creates more problems than it solves. 
 
@@ -109,7 +109,7 @@ By favoring explicit conditionals and well-named methods, you can write easier-t
 
 Remember that code is read far more often than written, so prioritize clarity over brevity.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
@@ -119,15 +119,15 @@ Remember that code is read far more often than written, so prioritize clarity ov
 
 [Code Smell 206 - Long Ternaries](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20206%20-%20Long%20Ternaries/readme.md)
 
-# More Info
+# More Information 📕
 
 [Laziness I - Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Burst](https://unsplash.com/@burst) on [Unsplash](https://unsplash.com/photos/woman-standing-in-brown-field-while-looking-sideways-aoN3HWLbhdI)  
   

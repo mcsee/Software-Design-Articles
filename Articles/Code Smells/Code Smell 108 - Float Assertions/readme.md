@@ -6,7 +6,7 @@
 
 > TL;DR: Don't compare floats
 
-# Problems
+# Problems 😔 
 
 - Wrong test results
 
@@ -14,7 +14,7 @@
 
 - Fail fast principle violation
 
-# Solutions
+# Solutions 😃
 
 1. Avoid floats unless you have REAL performance concerns
 
@@ -22,7 +22,7 @@
 
 3. If you need to compare floats compare with tolerance.
 
-# Context
+# Context 💬
 
 Comparing float numbers is an old computer science problem.
 
@@ -30,9 +30,9 @@ The usual solution is to use threshold comparisons.
 
 We recommend avoiding floats at all and trying to use infinite precision numbers.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/2fc79af85305eaada328fd324cb38c0d) -->
 
@@ -41,7 +41,7 @@ Assert.assertEquals(0.0012f, 0.0012f); // Deprecated
 Assert.assertTrue(0.0012f == 0.0012f); // Not JUnit - Smell
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/570958fcfb8e52379b7ddde2389ad6f8) -->
 
@@ -54,29 +54,29 @@ Assert.assertEquals(12 / 10000, 12 / 10000); // true
 Assert.assertEquals(12 / 10000, 14 / 10000); // false
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 We can add a check con *assertEquals()* on our testing frameworks to avoid checking for floats.
 
-# Tags
+# Tags 🏷️
 
 - Test Smells
 
-# Conclusion
+# Conclusion 🏁
 
 We should always avoid comparing floats.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 71 - Magic Floats Disguised as Decimals](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2071%20-%20Magic%20Floats%20Disguised%20as%20Decimals/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Fail fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Mika Baumeister](https://unsplash.com/@mbaumi) on [Unsplash](https://unsplash.com/s/photos/numbers)
   

@@ -6,7 +6,7 @@
 
 > TL;DR: Reference objects with objects, not ids.
 
-# Problems
+# Problems 😔 
 
 - Coupling
 
@@ -14,7 +14,7 @@
 
 - [Bijection Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Violation.
 
-# Solutions
+# Solutions 😃
 
 1. Reference *object* to *objects*.
 
@@ -30,9 +30,9 @@
 
 [Code Smell 40 - DTOs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2040%20-%20DTOs/readme.md)
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/388923d775ca893eb1e6ca4c28c3287f) -->
 
@@ -79,7 +79,7 @@ class Student {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/9a0f4f02514f740f3872cbc463d25c8b) -->
 
@@ -112,27 +112,27 @@ class Student {
 // will keep the mapping externalId<->school and so on
 ```
 
-# Detection
+# Detection 🔍
 
 This is a design policy. 
 
 We can enforce business objects to warn us if we define an attribute or function including the sequence *id*.
 
-# Tags
+# Tags 🏷️
 
 - Accidental
 
-# Conclusion
+# Conclusion 🏁
 
 Ids are not necessary for OOP. You reference objects (essential) and never ids (accidental).
 
 In case you need to provide a reference out of your system's scope (APIs, interfaces, Serializations) use dark and meaningless IDs (GUIDs).
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
-# More Info
+# More Information 📕
 
 [What is (wrong with) software?](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
@@ -140,7 +140,7 @@ In case you need to provide a reference out of your system's scope (APIs, interf
 
 [Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Maurice Williams](https://unsplash.com/@mauricew98) on [Unsplash](https://unsplash.com/s/photos/keychain)
 

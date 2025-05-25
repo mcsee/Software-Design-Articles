@@ -6,7 +6,7 @@
 
 > TL;DR: Don't couple real IDs with invalid ones. In fact: Avoid IDs.
 
-# Problems
+# Problems 😔 
 
 - [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) violation
 
@@ -16,7 +16,7 @@
 
 - Coupling flags from caller to functions
 
-# Solutions
+# Solutions 😃
 
 1. Model special cases with special objects.
 
@@ -24,7 +24,7 @@
 
 3. Introduce Null Object
 
-# Context
+# Context 💬
 
 In the early days of computing, data types were strict. 
 
@@ -32,9 +32,9 @@ Then we invented [The billion-dollar mistake](https://github.com/mcsee/Software-
 
 Then we grew up and model special scenarios with polymorphic special values.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/342599869ca032390b55d4cc76c49548) -->
 
@@ -61,7 +61,7 @@ int get_value()
 // returns EXIT_FAILURE (1)
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/40fb4a5238c9d6fbf5ad0f0aefa7fd07) -->
 
@@ -87,23 +87,23 @@ int get_value()
 // No INVALID_VALUE defined
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 We can check for special constants and special values on the code.
 
-# Tags
+# Tags 🏷️
 
 - Null
 
-# Conclusion
+# Conclusion 🏁
 
 We should use numbers to relate to the external identifiers. 
 
 If no external identifier exists, then it is not a number.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 120 - Sequential IDs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20120%20-%20Sequential%20IDs/readme.md)
 
@@ -111,17 +111,17 @@ If no external identifier exists, then it is not a number.
 
 [Code Smell 208 - Null Island](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20208%20-%20Null%20Island/readme.md)
 
-# More Info
+# More Information 📕
 
 [Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
 [Y2K22 - The Mistake That Embarrasses Us](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quality/Y2K22%20-%20The%20Mistake%20That%20Embarrasses%20Us/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Markus Spiske](https://unsplash.com/@markusspiske) on [Unsplash](https://unsplash.com/s/photos/flag-number)  
 

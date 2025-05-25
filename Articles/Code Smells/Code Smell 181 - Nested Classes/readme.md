@@ -6,7 +6,7 @@
 
 > TL;DR: Don't use nested classes
 
-# Problems
+# Problems 😔 
 
 - [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) fault to real-world concepts.
 
@@ -16,7 +16,7 @@
 
 - Scopes and [namespaces complexity](https://stackoverflow.com/questions/47452783/code-style-and-smells-nested-classes)
 
-# Solutions
+# Solutions 😃
 
 1. Make the class public
 
@@ -24,15 +24,15 @@
 
 3. Use a Facade to the external world to hide it.
 
-# Context
+# Context 💬
 
 Some languages allow us to create private concepts that only live inside a more significant idea. 
 
 These classes are harder to test, harder to debug, and reuse.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/836b485a9a9bb29e8292f9e79b867cbb) -->
 
@@ -60,7 +60,7 @@ public class Main {
 // you will get an error " Address.City has private access in Address"
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/abcc622d9f0f27c40fd94202535dcced) -->
 
@@ -86,17 +86,17 @@ public class Main {
 // Now you can reuse and test the City concept
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 Since this is a language feature, we can detect it and avoid its usage.
 
-# Tags
+# Tags 🏷️
 
 - Hierarchies
 
-# Conclusion
+# Conclusion 🏁
 
 Many features are bloated with complex features.
 
@@ -104,15 +104,15 @@ We seldom need these new pop culture features.
 
 We need to keep a [minimal](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) set of concepts.
 
-# More Info
+# More Information 📕
 
 - [W3 schools](https://www.w3schools.com/java/java_inner_classes.asp)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Dana Ward](https://unsplash.com/@danaward) on [Unsplash](https://unsplash.com/s/photos/spiral)  
  

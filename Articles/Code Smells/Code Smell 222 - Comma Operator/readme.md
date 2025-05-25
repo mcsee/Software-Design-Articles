@@ -6,13 +6,13 @@
 
 > TL;DR: Use comma operator just for loops
 
-# Problems
+# Problems 😔 
 
 - Readability
 
 - Hidden Defects
 
-# Solutions
+# Solutions 😃
 
 1. Avoid operator usage
 
@@ -20,7 +20,7 @@
 
 3. Break the sentences
 
-# Context
+# Context 💬
 
 In JavaScript, the comma operator allows you to evaluate multiple expressions sequentially and return the value of the last expression.
 
@@ -28,9 +28,9 @@ It's denoted by a comma and separates multiple expressions within a larger expre
 
 Each expression is evaluated in order from left to right, and the final value of the entire comma-separated expression is the value of the last expression.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/b18abdb155a811f6f3f694b079837330) -->
 
@@ -52,7 +52,7 @@ var force = (distanceSquared = distanceBlackHoles*distanceBlackHoles,
 // Two operations in a single statement with comma operator
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/3a928ca6aa06e70c0f20d40487c6bad9) -->
 
@@ -80,33 +80,33 @@ const force = calculateGravitationalForce(
 // Notice force is calculated with a separate function
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 Many [linters](https://rules.sonarsource.com/javascript/RSPEC-878/) can detect this problem.
 
-# Exceptions
+# Exceptions 🛑
 
 - For loops are a valid exception dough they might lead you to [another code smell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2053%20-%20Explicit%20Iteration/readme.md)
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
-# Conclusion
+# Conclusion 🏁
 
 This valid operator was designed to shorten *for loops* but is now sometimes abused.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 53 - Explicit Iteration](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2053%20-%20Explicit%20Iteration/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 Photo by [Stephen Hickman](https://unsplash.com/@stevo6960) on [Unsplash](https://unsplash.com/photos/YmNrPi4FfLU)
     
 * * *

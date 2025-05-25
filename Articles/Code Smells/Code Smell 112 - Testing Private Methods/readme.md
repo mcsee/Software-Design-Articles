@@ -6,13 +6,13 @@
 
 > TL;DR: Don't test your private methods.
 
-# Problems
+# Problems 😔 
 
 - Breaking Encapsulation
 
 - Code Duplication
 
-# Solutions
+# Solutions 😃
 
 1. If your method is simple, you don't need to test it.
 
@@ -26,19 +26,19 @@
 
 6. Do not use [static methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md) for computations.
 
-# Refactorings
+# Refactorings ⚙️
 
 [Refactoring 010 - Extract Method Object](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20010%20-%20Extract%20Method%20Object/readme.md)
 
-# Context
+# Context 💬
 
 We test our classes and methods.
 
 At some point, we rely on auxiliary computations and we need to test them in a white-box way.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/47c21b9a717ee1ac9b7d2f10bbb7a2d0) -->
 
@@ -66,7 +66,7 @@ final class Star {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/acf7c184cef3babb5251da6ea946f5ae) -->
 
@@ -101,7 +101,7 @@ final class ParsecsToLightYearsConverterTest extends TestCase {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
@@ -109,15 +109,15 @@ This is a semantic smell.
 
 We can only find metaprogramming abuse on some unit frameworks.
 
-# Tags
+# Tags 🏷️
 
 - Test Smells
 
-# Conclusion
+# Conclusion 🏁
 
 With this guide, we should always choose the method object solution.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 21 - Anonymous Functions Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2021%20-%20Anonymous%20Functions%20Abusers/readme.md)
 
@@ -125,13 +125,13 @@ With this guide, we should always choose the method object solution.
 
 [Code Smell 18 - Static Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Testing Private Methods Guide](http://shoulditestprivatemethods.com/)
 
 [Laziness I - Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Dan Nelson](https://unsplash.com/@danny144) on [Unsplash](https://unsplash.com/s/photos/private)
   

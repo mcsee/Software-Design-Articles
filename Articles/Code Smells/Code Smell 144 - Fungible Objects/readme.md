@@ -6,19 +6,19 @@
 
 > TL;DR: Respect the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md). Make fungible what is Fungible in real-world and vice-versa.
 
-# Problems
+# Problems 😔 
 
 - [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Fault
 
 - Over Design
 
-# Solutions
+# Solutions 😃
 
 1. Identify fungible elements on your domains
 
 2. Model them as interchangeable
 
-# Context
+# Context 💬
 
 According to [Wikipedia](https://en.wikipedia.org/wiki/Fungibility)
 
@@ -30,9 +30,9 @@ When [mapping](https://github.com/mcsee/Software-Design-Articles/tree/main/Artic
 
 ![Fungible Model](Fungible%20Model.png) 
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/3fc2c7089aa88088a73138ee6b62e675) -->
 
@@ -50,7 +50,7 @@ public class Person implements Serializable {
 shoppingQueueSystem.queue(new Person('John', 'Doe'));
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/97a8fd4467d51b6769f7ba63210dddee) -->
 
@@ -62,7 +62,7 @@ shoppingQueueSystem.queue(new Person());
 // The identity is irrelevant for queue simulation
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
@@ -70,25 +70,25 @@ This is a semantic smell.
 
 We need to understand the model to check whether it is right or not.
 
-# Tags
+# Tags 🏷️
 
 - Over Design
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# Conclusion
+# Conclusion 🏁
 
 Make fungible what is fungible and vice-versa.
 
 Sounds easy but requires design skills and avoiding accidental complexity.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 190 - Unnecessary Properties](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20190%20-%20Unnecessary%20Properties/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Andrey Metelev](https://unsplash.com/@metelevan) on [Unsplash](https://unsplash.com/s/photos/nft)
   

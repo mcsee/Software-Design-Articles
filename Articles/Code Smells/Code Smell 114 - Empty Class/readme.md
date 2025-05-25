@@ -6,7 +6,7 @@
 
 > TL;DR: Remove all empty classes.
 
-# Problems
+# Problems 😔 
 
 - [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Fault
 
@@ -16,21 +16,21 @@
 
 - Classes used as [global references](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2060%20-%20Global%20Classes/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1. Remove the classes and replace them with objects instead.
 
 2. If your classes are Anemic Exceptions, [remove them](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20004%20-%20Remove%20Unhandled%20Exceptions/readme.md).
 
-# Context
+# Context 💬
 
 Many developers still think classes are [data repositories](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md).
 
 They couple *different behavior* concept with *returning different data*.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/729e6032d21c0c2997228680170ff768) -->
 
@@ -48,7 +48,7 @@ class BookItem extends ShopItem {
 // concrete Class has no real behavior, just return different 'data'
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/a8c680954291f8d9be4023ff8062b504) -->
 
@@ -69,7 +69,7 @@ bookItem = new ShopItem('book', 'some book);
 // create more items
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
@@ -77,17 +77,17 @@ Several linters warn us of empty classes.
 
 We can also make our own scripts using [metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md).
 
-# Tags
+# Tags 🏷️
 
 - Behavior
 
-# Conclusion
+# Conclusion 🏁
 
 Classes are what they do, their behavior.
 
 Empty classes do nothing.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 26 - Exceptions Polluting](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2026%20-%20Exceptions%20Polluting/readme.md)
 
@@ -99,13 +99,13 @@ Empty classes do nothing.
 
 [Code Smell 136 - Classes With just One Subclass](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20136%20-%20Classes%20With%20just%20One%20Subclass/readme.md)
 
-# More Info
+# More Information 📕
 
 - [The one and only Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 - [Refactoring 004 - Remove Unhandled Exceptions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20004%20-%20Remove%20Unhandled%20Exceptions/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema) on [Unsplash](https://unsplash.com/s/photos/empty)
   

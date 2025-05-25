@@ -6,7 +6,7 @@
 
 > TL;DR: Don't subclassify concrete classes
 
-# Problems
+# Problems 😔 
 
 - Bad Models
 
@@ -18,7 +18,7 @@
 
 - [Mapper](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) fault
 
-# Solutions
+# Solutions 😃
 
 1. Subclasses should be specializations.
 
@@ -30,9 +30,9 @@
 
 5. Not leaf classes should be abstract.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/9780cd7772afddbc8356bab8aa5eabed) -->
 
@@ -50,7 +50,7 @@ class Stack extends ArrayList {
 // both classes are concrete
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/3edd25966d27541140a3e4672f5e9b3c) -->
 
@@ -80,17 +80,17 @@ final class ArrayList extends Collection {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 Overriding a concrete method is a clear smell. We can enforce these policies on most linters.
 
 Abstract classes should have just a few concrete methods. We can check against a predefined threshold for offenders.
 
-# Tags
+# Tags 🏷️
 
 - Composition
 
-# Conclusion
+# Conclusion 🏁
 
 Accidental sub-classification is the first obvious advantage for junior developers. 
 
@@ -102,11 +102,11 @@ Only sub-classify an entity if it follows the relationships *behaves like*.
 
 After sub-classing the parent class should be abstract.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 11 - Subclassification for Code Reuse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2011%20-%20Subclassification%20for%20Code%20Reuse/readme.md)
 
-# More Info
+# More Information 📕
  
 [Wikipedia](https://en.wikipedia.org/wiki/Composition_over_inheritance)
 

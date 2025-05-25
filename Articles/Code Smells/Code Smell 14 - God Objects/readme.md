@@ -6,7 +6,7 @@
 
 > TL;DR: Don't take too many responsibilities.
 
-# Problems
+# Problems 😔 
 
 - Cohesion
 
@@ -14,7 +14,7 @@
 
 [Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
-# Solutions
+# Solutions 😃
 
 - Split responsibilities.
 
@@ -26,9 +26,9 @@
 
 - Libraries
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/9e31898b70c00fcb2d71d6d9a47be02d) -->
 
@@ -50,7 +50,7 @@ class Soldier {
   }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/93818a16a693b7371c8a81670ef522e5) -->
 
@@ -62,23 +62,23 @@ class Soldier {
   }
 ```
 
-# Detection
+# Detection 🔍
 
 Linters can count methods and warn against a threshold.
 
-# Exceptions
+# Exceptions 🛑
 
 - [Facades](https://en.wikipedia.org/wiki/Facade_pattern)
 
-# Tags
+# Tags 🏷️
 
 - Cohesive
 
-# Conclusion
+# Conclusion 🏁
 
 Libraries were fine in the 60. In Object-Oriented Programming, we will distribute responsibilities among many objects.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 34 - Too Many Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2034%20-%20Too%20Many%20Attributes/readme.md)
 
@@ -86,7 +86,7 @@ Libraries were fine in the 60. In Object-Oriented Programming, we will distribut
 
 [Code Smell 124 - Divergent Change](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20124%20-%20Divergent%20Change/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Wikipedia](https://en.wikipedia.org/wiki/God_object)
 - [Refactoring Guru](https://refactoring.guru/es/smells/large-class)
@@ -96,7 +96,7 @@ Libraries were fine in the 60. In Object-Oriented Programming, we will distribut
 
 - Large Class
 
-# Credits
+# Credits 🙏
 
 Photo by [Francisco Ghisletti](https://unsplash.com/@tank_ghisletti) on [Unsplash](https://unsplash.com/s/photos/greek-god-statue)
 

@@ -6,19 +6,19 @@
 
 > TL;DR: Treat acronyms like normal words to improve human readability.
 
-# Problems
+# Problems 😔 
 
 - Reduced readability
 - Breaking naming style
 - Words confusion
 - Harder to pronounce 
 
-# Solutions
+# Solutions 😃
 
 1. Treat acronyms as *Capitalized* words
 2. Use *[camelCase](https://en.wikipedia.org/wiki/Camel_case)* or *[snake_case](https://en.wikipedia.org/wiki/Snake_case)*
  
-# Context
+# Context 💬
 
 Acronyms in uppercase (like *JSON, XML, REST*) in [camel case](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20159%20-%20Mixed%20Case/readme.md) break the natural reading flow.
 
@@ -26,9 +26,9 @@ You may think *sendJSONRequestOnHTTPREST* is a clear name, but it makes your cod
 
 Treating acronyms like normal words in camelCase (*sendJsonRequest*) keeps your code more readable and easier to understand.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/3fb92baefac7fb65577e03e196472f67) -->
 
@@ -47,7 +47,7 @@ class NetworkConnector {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/280cb3e2dd681b0039b9604aac32330a) -->
 
@@ -66,7 +66,7 @@ class NetworkConnector {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
@@ -76,25 +76,25 @@ To detect this smell, look for methods or variable names with uppercase acronyms
 
 Code reviewers or linters can also flag camelCase inconsistencies.
 
-# Tags
+# Tags 🏷️
 
 - Code Standards
 
-# Level
+# Level 🔋
 
 [X] Beginner 
 
-# AI Generation
+# AI Generation 🤖
 
 Modern AI code generators may produce inconsistent acronym casing. 
 
 Always review and adjust their output to match your conventions.
 
-# AI Detection
+# AI Detection 🥃
 
 With prompts, AI can fix these naming issues and suggest improvements based on *[camelCase](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20159%20-%20Mixed%20Case/readme.md)* style.
 
-## Try Them!
+## Try Them! 🛠
 
 *Remember: AI Assistants make lots of mistakes*
 
@@ -112,27 +112,27 @@ With prompts, AI can fix these naming issues and suggest improvements based on *
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Conclusion
+# Conclusion 🏁
 
 Naming conventions are key to readable code. 
 
 Treat acronyms like normal words, and avoid uppercase blocks to keep your code easy to understand.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [CoDe SmElL 159 - mIxEd_cASe](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20159%20-%20Mixed%20Case/readme.md)
 
 [Code Smell 48 - Code Without Standards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2048%20-%20Code%20Without%20Standards/readme.md)
 
-# More Info
+# More Information 📕
 
 [Original Post](https://www.linkedin.com/posts/danielmoka_clean-code-tip-name-acronyms-as-normal-words-activity-7251472396438687744-C4kx/)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Csabi Elter](https://unsplash.com/@bulgakovmihaly) on [Unsplash](https://unsplash.com/photos/assorted-color-chip-piled-IIDxzNru2GY)
 

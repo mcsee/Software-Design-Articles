@@ -6,13 +6,13 @@
 
 > TL;DR: Don't be rude. Standardize your code!
 
-# Problems
+# Problems 😔 
 
 - Maintainability
 
 - Readability
 
-# Solutions
+# Solutions 😃
 
 1. Automate your styles and indentation.
 
@@ -22,9 +22,9 @@
 
 - [PSR2](https://www.php-fig.org/psr/psr-2/)
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 *Correct sample taken from Sandro [Mancuso's bank kata](https://github.com/sandromancuso/Bank-kata/blob/master/src/main/java/org/craftedsw/domain/Account.java)*
 
@@ -79,7 +79,7 @@ private void privRecordTransactionAfterEnteredthabalance
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/55ade1bd7d835ef3804e86b55ec3abaa) -->
 
@@ -118,17 +118,17 @@ public class Account {
 
 *The Right example has several other smells, but we keep it loyal to its GIT version in order to show only code standardization issues.*
 
-# Detection
+# Detection 🔍
 
 Linters and IDEs should test coding standards before a merge request is approved.
 
 We can add our own [naming conventions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md) related to Objects, Classes, Interfaces, Modules etc.
 
-# Tags
+# Tags 🏷️
 
 - Standardization
 
-# Conclusion
+# Conclusion 🏁
 
 Use coding standards in your projects.
 
@@ -144,17 +144,17 @@ It could prevent disagreements and follows fail fast principle.
 
 [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
 [Code Smell 98 - Speling Mistakes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2098%20-%20Speling%20Mistakes/readme.md)
 
-# More Info
+# More Information 📕
 
 [What exactly is a name - Part I The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
 
-# Credits
+# Credits 🙏
 
 Comic by [XKCD](https://xkcd.com/927/)
 

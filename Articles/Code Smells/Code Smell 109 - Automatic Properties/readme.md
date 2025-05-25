@@ -6,7 +6,7 @@
 
 > TL;DR: Avoid Getters, Avoid Setters, Avoid Metaprogramming. Think about Behavior.
 
-# Problems
+# Problems 😔 
 
 - Information Hiding Violation
 
@@ -16,11 +16,11 @@
 
 - Duplicate code when setting properties
 
-# Solutions
+# Solutions 😃
 
 1. [Remove automatic setters and getters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
 
-# Context
+# Context 💬
 
 Setters and getters are a bad industry practice.
 
@@ -28,9 +28,9 @@ Many IDEs favor this code smell.
 
 Some languages provide explicit support to build anemic models and DTOs.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/2353f11cfb336aaeda194c4a11a21324) -->
 
@@ -42,7 +42,7 @@ class Person
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/198d8a232bd1abf52cda0884fb96bc5f) -->
 
@@ -62,7 +62,7 @@ class Person
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
@@ -70,17 +70,17 @@ This is a language feature.
 
 We should avoid immature languages or forbid their worst practices.
 
-# Tags
+# Tags 🏷️
 
-- Encapsulation
+- Anemic Models
 
-# Conclusion
+# Conclusion 🏁
 
 We need to think carefully before exposing our properties.
 
 The first step is to stop thinking about properties and focus solely on behavior.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 28 - Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2028%20-%20Setters/readme.md)
 
@@ -94,7 +94,7 @@ The first step is to stop thinking about properties and focus solely on behavior
 
 [Code Smell 190 - Unnecessary Properties](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20190%20-%20Unnecessary%20Properties/readme.md)
 
-# More Info
+# More Information 📕
 
 [W3 schools](https://www.w3schools.com/cs/cs_properties.php)
 
@@ -108,7 +108,7 @@ The first step is to stop thinking about properties and focus solely on behavior
 
 [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Kony](https://unsplash.com/@konyxyzx) on [Unsplash](https://unsplash.com/s/photos/shoot)
   

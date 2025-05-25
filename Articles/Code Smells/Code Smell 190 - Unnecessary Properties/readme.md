@@ -6,7 +6,7 @@
 
 > TL;DR: Don't focus on accidental properties. You won't need many of them.
 
-# Problems
+# Problems 😔 
 
 - Anemic Models
 
@@ -14,19 +14,19 @@
 
 - YAGNI violation
 
-# Solutions
+# Solutions 😃
 
 - Create attributes only to support your methods (behavior).
 
-# Context
+# Context 💬
 
 Whenever they want to model a person or an employee, junior programmers or students add an attribute *'id'* or *'name'* without thinking if they are really going to need them.
 
 We need to add attributes 'on-demand' when there's enough evidence. Objects are not 'data holders'.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/f3a9f762f2781017247f5acf6cf281a1) -->
 
@@ -41,7 +41,7 @@ class PersonInQueue
 end
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/53d1777f204e64f5746a9a148ada934a) -->
 
@@ -54,7 +54,7 @@ class PersonInQueue
 end
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic
 
@@ -62,17 +62,17 @@ We can detect unused attributes.
 
 But in many cases, we need an excellent designer to validate the actual need.
 
-# Tags
+# Tags 🏷️
 
 - Anemic
 
-# Conclusion
+# Conclusion 🏁
 
 Start designing your objects from the protocol. 
 
 Add attributes only when needed.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 144 - Fungible Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20144%20-%20Fungible%20Objects/readme.md)
 
@@ -82,7 +82,7 @@ Add attributes only when needed.
 
 [Code Smell 109 - Automatic Properties](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20109%20-%20Automatic%20Properties/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Melanie Pongratz](https://unsplash.com/@melanie_sophie) on [Unsplash](https://unsplash.com/photos/SsBI9pweAeA)
  

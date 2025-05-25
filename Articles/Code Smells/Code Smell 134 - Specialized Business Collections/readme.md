@@ -6,25 +6,25 @@
 
 > TL;DR: Don't create unnecessary abstractions
 
-# Problems
+# Problems 😔 
 
 - Over Design
 
 - Unneeded classes
 
-# Solutions
+# Solutions 😃
 
 1. Use a standard class
 
-# Context
+# Context 💬
 
 Discovering abstractions on the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) is a hard task.
 
 After refining we should remove unneeded abstractions.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/6e4e3684bbb29379a6bf30f4a00a2c7f) -->
 
@@ -75,7 +75,7 @@ final class DictionaryTest extends TestCase {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/2d15677ca73742cb2553aa4a098f3683) -->
 
@@ -111,35 +111,35 @@ final class DictionaryTest extends TestCase {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 Based on protocols, we should remove some unnecessary classes 
 
-# Exceptions
+# Exceptions 🛑
 
 Sometimes we need to optimize collections for performance reasons if we have enough strong evidence.
 
-# Tags
+# Tags 🏷️
 
 - Protocols
 
-# Conclusion
+# Conclusion 🏁
 
 We need to clean up code from time to time.
 
 Specialized collections are a good starting point.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 111 - Modifying Collections While Traversing](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20111%20-%20Modifying%20Collections%20While%20Traversing/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Duck Typing](https://en.wikipedia.org/wiki/Duck_typing)
 
-# Credits
+# Credits 🙏
 
 Photo by [Pisit Heng](https://unsplash.com/@pisitheng) on Unsplash
 

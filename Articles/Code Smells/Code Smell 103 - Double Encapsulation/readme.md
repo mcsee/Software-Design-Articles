@@ -6,7 +6,7 @@
 
 > TL;DR: Don't use setters and getters, even for private use
 
-# Problems
+# Problems 😔 
 
 - Setters
 
@@ -14,7 +14,7 @@
 
 - Exposing private attributes
 
-# Solutions
+# Solutions 😃
 
 1. [Remove setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
 
@@ -22,7 +22,7 @@
 
 3. Protect your attributes
 
-# Context
+# Context 💬
 
 Using double encapsulation was a standard procedure in the 90s.
 
@@ -34,9 +34,9 @@ For example, we can change an object internal representation and rely on its ext
 
 Cost/benefit is not worth it.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/6f91efd52401b93f91322f20ab6d3aab) -->
 
@@ -59,7 +59,7 @@ contract MessageContract {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/91d0aa627815f79d471fa79150c5dc9b) -->
 
@@ -73,21 +73,21 @@ contract MessageContract {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic
 
 We can infer getters and setters and check if they are invoked from the same object.
 
-# Tags
+# Tags 🏷️
 
 - Encapsulation
 
-# Conclusion
+# Conclusion 🏁
 
 Double encapsulation was a trendy idea to protect accidental implementation, but it exposed more than protected.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 37 - Protected Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2037%20-%20Protected%20Attributes/readme.md)
 
@@ -95,7 +95,7 @@ Double encapsulation was a trendy idea to protect accidental implementation, but
 
 [Code Smell 68 - Getters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2068%20-%20Getters/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Stack Exchange](https://softwareengineering.stackexchange.com/questions/181567/should-the-methods-of-a-class-call-its-own-getters-and-setters)
 
@@ -103,7 +103,7 @@ Double encapsulation was a trendy idea to protect accidental implementation, but
 
 - [InfoWorld](https://www.infoworld.com/article/2073723/why-getter-and-setter-methods-are-evil.html)
 
-# Credits
+# Credits 🙏
 
 Photo by [Ray Hennessy](https://unsplash.com/@rayhennessy) on [Unsplash](https://unsplash.com/s/photos/double)
   

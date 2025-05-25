@@ -6,19 +6,19 @@
 
 > TL;DR: Favor composition over inheritance. Always. Period.
 
-# Problems
+# Problems 😔 
 
 - Coupling
 
 - Maintainability
 
-# Solutions
+# Solutions 😃
 
 - Replace inheritance with composition.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/4f53d085c8b566936c04483064e25ed9) -->
 
@@ -54,7 +54,7 @@ public class Box extends Rectangle{
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/9f0082db40c2ab590b2b6ea9702bbb22) -->
 
@@ -106,32 +106,32 @@ public final class Box {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 - Overriding can issue warnings when subclassing concrete methods.
 - Deep Hierarchies (more than 3 levels) are also a clue of bad subclassing.
 
-# Exceptions
+# Exceptions 🛑
 
 - If hierarchy follows the principle *behaves like* then it is safe.
 
-# Tags
+# Tags 🏷️
 
 - Composition
 
-# Conclusion
+# Conclusion 🏁
 
 In legacy systems is very common to have *Deep Hierarchies* and *method overriding*, we need to refactor them and subclass by *essential* reasons and not implementative ones.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 58 - Yo-yo Problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2058%20-%20Yo-yo%20Problem/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Liskov Substitution](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
 
-# Credits
+# Credits 🙏
 
 Photo by [Brandon Green](https://unsplash.com/@brandgreen) on [Unsplash](https://unsplash.com/s/photos/tree)
 

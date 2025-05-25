@@ -300,7 +300,7 @@ In the following article we focus on a series of current bad practices explainin
 *   When in doubt, put bad names.
 *   Avoid [comments](https://codeburst.io/why-developers-should-care-of-naming-2aa1ffd511cf).
 
-# Conclusions
+# Conclusion 🏁
 
 Giving good names is an art that requires a deep understanding of the problem domain we are modeling. We must not underestimate this task.
 

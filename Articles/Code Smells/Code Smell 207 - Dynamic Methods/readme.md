@@ -6,7 +6,7 @@
 
 > TL;DR: Don't add dynamic behavior with metaprogramming
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -18,19 +18,19 @@
 
 - Single Responsibility Principle violation (mixing the concerns of model definition and configuration).
 
-# Solutions
+# Solutions 😃
 
 1. Define the methods by hand
 
 2. Use the [Decorator design pattern](https://en.wikipedia.org/wiki/Decorator_pattern)
 
-# Context
+# Context 💬
 
 [Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md) is a powerful technique that allows you to write code that can generate, modify, or analyze other code at runtime. However, it can also lead to code that is difficult to understand, maintain, and debug. 
   
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/38b69082f08a26158420fbfb1856e8c2) -->
 
@@ -52,7 +52,7 @@ class Skynet < ActiveRecord::Base
 end
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/7249e35ba5c33c91aa93388647d9f345) -->
 
@@ -68,35 +68,35 @@ class Skynet < ActiveRecord::Base
 end
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 We have a whitelist of valid usages or directly ban some methods.
 
-# Tags
+# Tags 🏷️
 
 - Meta-Programming
 
-# Conclusion
+# Conclusion 🏁
 
  Metaprogramming often involves using complex code and abstractions that can make the resulting code difficult to read and maintain. This can make it harder for other developers to understand and modify the code in the future, leading to increased complexity and bugs.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 21 - Anonymous Functions Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2021%20-%20Anonymous%20Functions%20Abusers/readme.md)
 
 [Code Smell 189 - Not Sanitized Input](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20189%20-%20Not%20Sanitized%20Input/readme.md)
 
-# More Info
+# More Information 📕
 
 [Laziness I - Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Brett Jordan](https://unsplash.com/@brett_jordan) on [Unsplash](https://unsplash.com/photos/GQCYOS_MH0w)
     

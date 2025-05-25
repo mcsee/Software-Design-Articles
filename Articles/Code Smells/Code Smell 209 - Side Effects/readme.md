@@ -6,17 +6,17 @@
 
 > TL;DR: Avoid side effects on your code.
 
-# Problems
+# Problems 😔 
 
 - Coupling
 
 - Least Astonishment Principle violation
 
-# Solutions
+# Solutions 😃
 
 1. Favor referential transparency
 
-# Context
+# Context 💬
 
 Referential transparency always produces the same output for a given input and does not have any side effects, such as modifying global variables or performing I/O operations. 
 
@@ -26,9 +26,9 @@ This property allows for easier reasoning about the behavior of a program and en
 
 Functions are treated as mathematical expressions that map inputs to outputs.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/e532e326a6b5ac7d4b88b9aadaa86c0b) -->
 
@@ -45,7 +45,7 @@ function incrementCounter(value: number): void {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/9ce2320f04f2a6f2e0c24e581e472091) -->
 
@@ -57,31 +57,31 @@ function incrementCounter(counter: number, value: number): number {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 Most linterns can warn you when accessing the global state or [Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2017%20-%20Global%20Functions/readme.md) and create side effects.
 
-# Tags
+# Tags 🏷️
 
 - Global
 
-# Conclusion
+# Conclusion 🏁
 
 Functional Programming is amazing and can teach us a lot about how to write clean code. 
 
 We need to understand its pillars.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 17 - Global Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2017%20-%20Global%20Functions/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Daan Mooij](https://unsplash.com/@daanmooij) on [Unsplash](https://unsplash.com/photos/91LGCVN5SA)
     

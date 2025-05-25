@@ -6,14 +6,14 @@
 
 > TL;DR: Use real abstractions and real objects instead of string accidental manipulation.
 
-# Problems
+# Problems 😔 
 
 - Complexity
 - Readability
 - Maintainability
 - Lack of Abstractions
 
-# Solutions
+# Solutions 😃
 
 1) Work with objects instead.
 
@@ -29,9 +29,9 @@
 
 -Parsers
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/19b5965879d11e6c185d4591add24042) -->
 
@@ -47,7 +47,7 @@ $school = preg_split('/[\s,]+/', $schoolDescription, 3)[0];
 //'College'
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/9aea4a3d401b7e3c2e80101ff348dfa6) -->
 
@@ -64,27 +64,27 @@ class School {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 Automated detection is not easy. If code uses too many string functions it can trigger a warning.
 
-# Tags
+# Tags 🏷️
 
 - Mapping
 
-# Conclusion
+# Conclusion 🏁
 
 Don't abuse strings. Favor real objects. Find absent protocol to distinguish them from strings.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 122 - Primitive Obsession](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20122%20-%20Primitive%20Obsession/readme.md)
 
 [Code Smell 121 - String Validations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20121%20-%20String%20Validations/readme.md)
 
-# More Info
+# More Information 📕
 
-# Credits
+# Credits 🙏
 
 Photo by [Nathaniel Shuman](https://unsplash.com/@nshuman1291) on [Unsplash](https://unsplash.com/)
 

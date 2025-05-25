@@ -6,7 +6,7 @@
 
 > TL;DR: Don't use Singletons. Ever.
 
-# Problems
+# Problems 😔 
 
 - Coupling
 
@@ -20,7 +20,7 @@
 
 [Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1. Avoid it.
 
@@ -36,9 +36,9 @@
 
 - Logging
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/5f0b4685e3af22e2a0a82f9f642c5c79) -->
 
@@ -59,7 +59,7 @@ class God {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/48af2ebb8874c53f5aa5091c24c832e5) -->
 
@@ -112,31 +112,31 @@ $mythogicalReligion = new PolythiesticReligion([$jupiter, $saturn]);
 // Not to manage them
 ```
 
-# Detection
+# Detection 🔍
 
 This is a design pattern. We should avoid it by policy. 
 
 We can add linter rules for patterns like *'getInstance()'* so new developers cannot infect code with this anti-pattern.
  
-# Tags
+# Tags 🏷️
 
 - Globals
 
-# Conclusion
+# Conclusion 🏁
 
 This is an historical mistake already acknowledged by the community. Nevertheless, lazy developers bring it up again and again. We need to reach a consensus on its drawbacks.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
 [Code Smell 25 - Pattern Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2025%20-%20Pattern%20Abusers/readme.md)
 
-# More Info
+# More Information 📕
 
 [Singleton - The root of all evil](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Maria Teneva](https://unsplash.com/@miteneva) on [Unsplash](https://unsplash.com/s/photos/rotten) 
 

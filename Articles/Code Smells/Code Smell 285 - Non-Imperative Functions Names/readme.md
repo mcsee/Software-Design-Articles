@@ -6,7 +6,7 @@
 
 > TL;DR: Functions with unclear names hide intent and confuse readers. Use descriptive, action-oriented names.
 
-# Problems
+# Problems 😔 
 
 - Unclear function purpose
 - Increased cognitive load
@@ -15,7 +15,7 @@
 - Difficult collaboration
 - Hidden functionality
 
-# Solutions
+# Solutions 😃
 
 1. Use action-oriented verbs
 2. Make [names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md) descriptive
@@ -25,11 +25,11 @@
 6. Express single responsibility clearly
 7. Match action to outcome
 
-# Refactorings
+# Refactorings ⚙️
 
 [Refactoring 005 - Replace Comment with Function Name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
 
-# Context
+# Context 💬
 
 Functions named with generic terms force readers to dive into the implementation to understand their behavior. 
 
@@ -43,9 +43,9 @@ Instead of exposing ambiguous behaviors that force the caller to infer functiona
 
 When you name functions descriptively, you eliminate unnecessary guesswork and align with this principle.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/2a6f11c6af157a4b5025c7e1ca12b8bc) -->
 
@@ -59,7 +59,7 @@ public void load() {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/2ea10469fbc891b3a2003e1c308cd3dd) -->
 
@@ -73,7 +73,7 @@ public void loadUserPreferences() {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
@@ -81,11 +81,11 @@ You can detect this smell by reviewing function names that use vague terms like 
 
 Automated linters can flag these patterns or highlight functions with overly generic names.
 
-# Tags
+# Tags 🏷️
 
 - Naming
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
@@ -95,19 +95,19 @@ Function names should create a clear [one-to-one correspondence]((https://github
 
 Breaking this [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)  forces developers to examine code details for context, slowing down debugging, reviews, and extensions.
 
-# AI Generation
+# AI Generation 🤖
 
 AI tools sometimes generate generic function names without understanding your domain. 
 
 When using AI, specify that function names must be descriptive and action-oriented.
 
-# AI Detection
+# AI Detection 🥃
 
 AI models can help detect ambiguous names by comparing function signatures with predefined naming best practices. 
 
 Combining AI with manual code review yields the best results.
 
-## Try Them!
+## Try Them! 🛠
 
 *Remember: AI Assistants make lots of mistakes*
 
@@ -125,7 +125,7 @@ Combining AI with manual code review yields the best results.
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Conclusion
+# Conclusion 🏁
 
 Function names are not just labels; they are contracts with the reader. 
 
@@ -133,7 +133,7 @@ Function names are not just labels; they are contracts with the reader.
 
 Descriptive, action-oriented names simplify communication and make your code easier to maintain and extend.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 33 - Abbreviations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2033%20-%20Abbreviations/readme.md)
 
@@ -143,13 +143,13 @@ Descriptive, action-oriented names simplify communication and make your code eas
 
 [Code Smell 174 - Class Name in Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20174%20-%20Class%20Name%20in%20Attributes/readme.md)
 
-# See also
+# See also 📚
 
 [What exactly is a name - Part I The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 

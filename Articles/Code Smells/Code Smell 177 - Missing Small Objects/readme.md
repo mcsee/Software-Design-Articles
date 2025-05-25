@@ -6,17 +6,17 @@
 
 > TL;DR: Don't forget to model the smallest ones
 
-# Problems
+# Problems 😔 
 
 - Primitive obsession
 
-# Solutions
+# Solutions 😃
 
 1. find responsibilities for small objects in the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
 2. Reify them
 
-# Context
+# Context 💬
 
 Since computing early days we map all we see to the familiar primitive data types: Strings, Integers, Collections, etc.
 
@@ -24,9 +24,9 @@ Mapping to dates violates abstraction and [fail-fast](https://github.com/mcsee/S
 
 in the [Wordle TDD Kata](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Wordle/How%20to%20Create%20a%20Wordle%20with%20TDD%20in%20Javascript/readme.md), we describe a Wordle word to be different than a *String* or *Char(5)*, since they don't have the same responsibilities.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/9a4cce1354fa6b13bdf90b19e453fbb8) -->
 
@@ -40,7 +40,7 @@ public class Person {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/79e4e83a5f5f2a17f310a4ae743221b4) -->
 
@@ -66,13 +66,13 @@ public class Person {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
 This is a semantic smell. It is related to design activity
 
-# Exceptions
+# Exceptions 🛑
 
 In a very small number of mission-critical systems, we have a tradeoff from abstraction to performance.
 
@@ -80,33 +80,33 @@ This is not the usual case. We do premature optimization not relying on a modern
 
 As always, we need to stick to evidence in real-world scenarios.
 
-# Tags
+# Tags 🏷️
 
 - Primitive Obsession
 
-# Conclusion
+# Conclusion 🏁
 
 Finding small objects is a very hard task requiring experience to make a good job and avoid overdesign.
 
 There's [no silver bullet](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md) in choosing how and when to map something.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 122 - Primitive Obsession](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20122%20-%20Primitive%20Obsession/readme.md)
 
 [Code Smell 194 - Missing Interval](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20194%20-%20Missing%20Interval/readme.md)
 
-# More Info
+# More Information 📕
 
 [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
 [How to Create a Wordle with TDD in Javascript](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Wordle/How%20to%20Create%20a%20Wordle%20with%20TDD%20in%20Javascript/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Shane Aldendorff](https://unsplash.com/@pluyar) on [Unsplash](https://unsplash.com/s/photos/magnifying-glass)
   

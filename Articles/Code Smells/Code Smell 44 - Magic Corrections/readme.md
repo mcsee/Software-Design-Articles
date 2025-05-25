@@ -6,7 +6,7 @@
 
 > TL;DR: Avoid magic coercions by all means
 
-# Problems
+# Problems 😔 
 
 - Fail Fast
 
@@ -14,7 +14,7 @@
 
 - Ambiguity
 
-# Solutions
+# Solutions 😃
 
 1. Fail Fast
 
@@ -26,9 +26,9 @@
 
 - Type Casting
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/e86fe7a699dd825c3f238c6073b5e7ea) -->
 
@@ -44,7 +44,7 @@ new Date(31, 02, 2020);
 // Valid on most languages
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/4daf2c3a710dfe5b647ec871d1d10ca8) -->
 
@@ -61,35 +61,35 @@ new Date(31, 02, 2020);
 // Negating is a boolean operation
 ```
 
-# Detection
+# Detection 🔍
 
 Many of this vicious are encouraged by languages themselves. 
 
 We should be very declarative and explicit and don't abuse language accidental magic solutions.
  
-# Tags
+# Tags 🏷️
 
 - Declarative
 
 - Smart
 
-# Conclusion
+# Conclusion 🏁
 
 Programmers pretend to be smart by exploiting language features.
 
 They feel they belong to *community standards* that enforce bad behaviors like a sect.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
 [Code Smell 84 - Max < Min (Javascript)](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2084%20-%20Max%20%20Min%20(Javascript)/readme.md)
 
-# More Info
+# More Information 📕
 
 [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Senor Sosa](https://unsplash.com/@senor_sosa) on [Unsplash](https://unsplash.com/s/photos/hacker)
 

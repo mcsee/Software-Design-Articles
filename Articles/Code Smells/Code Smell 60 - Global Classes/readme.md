@@ -6,7 +6,7 @@
 
 > TL;DR: Don't use your classes as a global point of access.
 
-# Problems
+# Problems 😔 
 
 - Coupling
 
@@ -20,7 +20,7 @@
 
 - Singletons
 
-# Solutions
+# Solutions 😃
 
 1. Use namespaces, module qualifiers or similar
 
@@ -28,9 +28,9 @@
 
 3. Class single Responsibility is to create instances. 
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/6b3f0e2a24ea7a6da72dadcbb36a8dd0) -->
 
@@ -47,7 +47,7 @@ class Singleton { }
 final class DatabaseAccessor extends Singleton { }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/9dd928bab5528d07b7f63b5d76821f4f) -->
 
@@ -72,19 +72,19 @@ class DatabaseAccessor {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 We can use almost any linter or create dependency rules searching for bad class references.
 
-# Tags
+# Tags 🏷️
 
 - Globals
 
-# Conclusion
+# Conclusion 🏁
 
 We should restrict our classes to small domains and expose just facades to the outside. This greatly reduces coupling.
  
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 18 - Static Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md)
 
@@ -92,13 +92,13 @@ We should restrict our classes to small domains and expose just facades to the o
 
 [Code Smell 114 - Empty Class](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20114%20-%20Empty%20Class/readme.md)
 
-# More Info
+# More Information 📕
 
 [Singleton - The root of all evil](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
 
 [Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Alfons Morales](https://unsplash.com/@alfonsmc10) on [Unsplash](https://unsplash.com/s/photos/large-library)
 

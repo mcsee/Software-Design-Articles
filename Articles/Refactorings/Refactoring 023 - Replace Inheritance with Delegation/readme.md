@@ -61,7 +61,7 @@ class Robot extends Chatbot {
 }
 ```
 
-## After
+## After 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/1c053a51c73fea223e6e63c1f2614a60) -->
 
@@ -133,7 +133,7 @@ The main risk comes from missing methods that need delegation or incorrectly imp
 
 You gain the flexibility to change implementations at runtime and avoid the pitfalls of inheritance like tight coupling.
 
-# How Does it Improve the Bijection?
+# How Does it Improve the Bijection? 🗺️
 
 This refactoring improves the [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) between code and reality by better modeling real-world relationships.
 
@@ -179,7 +179,7 @@ If subclass logic relies too much on the superclass, delegation might increase b
 
 [Refactoring Guru](https://refactoring.guru/replace-inheritance-with-delegation)
 
-# Credits
+# Credits 🙏
 
 Image by [Gerd Altmann](https://pixabay.com/users/geralt-9301/) on [Pixabay](https://pixabay.com/)
 

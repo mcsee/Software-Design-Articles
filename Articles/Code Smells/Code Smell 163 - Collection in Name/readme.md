@@ -6,7 +6,7 @@
 
 > TL;DR: Don't use 'collection' in your name. It is too abstract for concrete concepts.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -14,11 +14,11 @@
 
 - [Bad Naming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
-# Solutions
+# Solutions 😃
 
 1. Rename the collection with a specific name.
 
-# Context
+# Context 💬
 
 Naming is very important.
 
@@ -32,9 +32,9 @@ We avoid [nulls](https://github.com/mcsee/Software-Design-Articles/tree/main/Art
 
 We often use bad and vague names instead of looking for good names in the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md).
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/685b6d202e94d8c5b410dafd15d8b5de) -->
 
@@ -48,7 +48,7 @@ for (var currentCustomer in customersCollection) {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/a8a2b41722dde835757f360a5d1f01d2) -->
 
@@ -58,7 +58,7 @@ for (var customer in customers) {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
@@ -66,29 +66,29 @@ All linters can detect a bad naming like this.
 
 It can also lead to false positives so we must be cautious.
 
-# Tags
+# Tags 🏷️
 
 - Naming
 
-# Conclusion
+# Conclusion 🏁
 
 We need to care for all our clean code, variables, classes, and functions.
 
 Accurate names are essential to understand our code.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 134 - Specialized Business Collections](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20134%20-%20Specialized%20Business%20Collections/readme.md)
 
-# More Info
+# More Information 📕
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are just my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Mick Haupt](https://unsplash.com/@rocinante_11) on [Unsplash](https://unsplash.com/s/photos/collector)
   

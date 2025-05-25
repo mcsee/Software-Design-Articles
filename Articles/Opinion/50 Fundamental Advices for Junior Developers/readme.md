@@ -980,7 +980,7 @@ https://x.com/vthapliyal91
 
 * * *
 
-# Conclusion
+# Conclusion 🏁
 
 As you can see, many of the advices are related to soft skills and developing fundamentals. This is not correlated to what junior developers do, focus on trendy tools and languages. 
 

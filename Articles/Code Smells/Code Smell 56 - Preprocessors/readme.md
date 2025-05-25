@@ -6,7 +6,7 @@
 
 > TL;DR: Preprocessors make some unnecessary magic
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -16,7 +16,7 @@
 
 - Debugging
 
-# Solutions
+# Solutions 😃
 
 1. Remove all compiler directives.
 
@@ -24,9 +24,9 @@
 
 3. If you think there's a performance penalty, make a serious benchmark instead of doing premature optimization.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/b9945cd67cc06de97cffe8edb114862c) -->
 
@@ -36,7 +36,7 @@
 #endif
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/717c0b451c159315180c56fb0849419c) -->
 
@@ -50,31 +50,31 @@ if (runtimeEnvironment->traceDebug()) {
 runtimeEnvironment->traceDebug("trace message");
 ```
 
-# Detection
+# Detection 🔍
 
 This is a syntactic directive promoted by several languages, therefore it is easy to detect and replace with real behavior.
 
-# Tags
+# Tags 🏷️
 
 - Compilers
 
 - Metaprogramming
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# Conclusion
+# Conclusion 🏁
 
 Adding an extra layer of complexity makes debugging very difficult. This technique was used when memory and CPU were scarce. Nowadays, we need clean code and we must leave premature optimization buried in the past.
 
 Bjarne Stroustrup, in his book *The Design and Evolution of C++*, regrets on the pre-processor directives he created years before.
  
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
-# More Info
+# More Information 📕
 
 [Laziness I - Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
  
@@ -84,7 +84,7 @@ Bjarne Stroustrup, in his book *The Design and Evolution of C++*, regrets on the
 
 [#ifdef Considered Harmful](https://www.usenix.org/legacy/publications/library/proceedings/sa92/spencer.pdf)
 
-# Credits
+# Credits 🙏
 
 <span>Photo by [CDC](https://unsplash.com/@cdc) on [Unsplash](https://unsplash.com/s/photos/customs)</span>
 

@@ -214,7 +214,7 @@ Making changes to your environment is an important step in changing your habits.
 
 By surrounding yourself with people and things that support your goals, you will be more likely to stick to your new habits and achieve your long-term objectives.
 
-# Conclusion
+# Conclusion 🏁
 
 Atomic habits are habits that you can do every day, that will make a big difference in your life. 
 

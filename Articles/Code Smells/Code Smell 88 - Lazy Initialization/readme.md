@@ -6,7 +6,7 @@
 
 > TL;DR: Do not use lazy initialization. Use an object provider instead.
 
-# Problems
+# Problems 😔 
 
 - Surprising Side Effects
 
@@ -26,13 +26,13 @@
 
 - [Debugging Problems](https://martinfowler.com/bliki/LazyInitialization.html)
 
-# Solutions
+# Solutions 😃
 
 1. Inject Responsibilities with First Class Objects
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/0d762f54e37352ed72eee7e77d0ae5e0) -->
 
@@ -48,7 +48,7 @@ class Employee
 end
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/dbd08513d5005325e63954515052555d) -->
 
@@ -65,39 +65,39 @@ end
 # with voice_mails so you can mock it in your tests
 ```
 
-# Detection
+# Detection 🔍
 
 Lazy initialization is a common pattern when used checking for a non-initialized variable. 
 
 It should be straightforward to detect them.
 
-# Tags
+# Tags 🏷️
 
 - Premature Optimization
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 [Singletons](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md) are another anti-pattern often combined with lazy initialization.
 
 We must avoid premature optimizations. If we have *real* performance problems we should use a Proxy, Facade or more independent solution.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 32 - Singletons](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2032%20-%20Singletons/readme.md)
 
 [Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Lazy_initialization)
 
 - [Martin Fowler](https://martinfowler.com/bliki/LazyInitialization.html)
 
-# Credits
+# Credits 🙏
 
 Photo by [Sam Solomon](https://unsplash.com/@samsolomon) on [Unsplash](https://unsplash.com/s/photos/lazy)  
 

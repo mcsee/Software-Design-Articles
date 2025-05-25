@@ -6,7 +6,7 @@
 
 > TL;DR: Eliminate unused functions, constants, and "just-in-case" code.
 
-# Problems Addressed
+# Problems Addressed 😔
 
 - [Dead Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2009%20-%20Dead%20Code/readme.md)
 
@@ -18,7 +18,7 @@
 
 - Cognitive Load
 
-# Related Code Smells
+# Related Code Smells 💨
 
 [Code Smell 09 - Dead Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2009%20-%20Dead%20Code/readme.md)
 
@@ -26,7 +26,7 @@
 
 [Code Smell 148 - ToDos](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20148%20-%20ToDos/readme.md)
 
-# Steps
+# Steps 👣 
 
 1. Ensure your code has good functional coverage.
 
@@ -38,9 +38,9 @@
 
 5. Perform comprehensive regression testing on your code. 
 
-# Sample Code
+# Sample Code 📖
 
-## Before
+## Before 🚨 
 
 <!-- [Gist Url](https://gist.github.com/mcsee/2b71cfdb5d3ce6a0c057da0631edcfdf) -->
 
@@ -108,7 +108,7 @@ def gone_endpoint():
     ), HTTP_410_GONE
 ```
 
-## After
+## After 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/382ec5539ecf97cc2f80a219473adcde) -->
 
@@ -148,19 +148,19 @@ def get_data():
     return jsonify({"message": "Data not found"}), HTTP_404_NOT_FOUND
 ```
 
-# Type
+# Type 📝
 
 [X] Semi-Automatic
 
 You can perform baby steps and remove the unnecessary code in iterations.
 
-# Safety
+# Safety 🛡️
 
 This refactoring is safe if you thoroughly test your application after the changes. 
 
 Static analysis tools can help ensure you don't remove anything still in use.
 
-# Why is the Code Better?
+# Why is the Code Better? ✨
 
 You improve clarity and reduce complexity by removing unused elements. 
 
@@ -168,14 +168,14 @@ Your code becomes easier to understand and maintain.
 
 Reducing speculative code also keeps your focus on current, actual requirements.
 
-# How Does it Improve the Bijection?
+# How Does it Improve the Bijection? 🗺️
 
 Dead code and speculative elements break [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) between your software and the real-world model.
 
 Removing these elements ensures your code accurately represents your 
 [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md), making it cleaner and closer to reality.
 
-# Limitations
+# Limitations ⚠️
 
 Removing dead code requires confidence that it's truly unused. 
 
@@ -197,7 +197,7 @@ This process relies on static analysis or thorough codebase knowledge, which can
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Tags
+# Tags 🏷️
 
 - Bloaters
 
@@ -205,11 +205,11 @@ This process relies on static analysis or thorough codebase knowledge, which can
 
 [X] Beginner
 
-# Related Refactorings
+# Related Refactorings 🔄
 
 [Refactoring 004 - Remove Unhandled Exceptions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20004%20-%20Remove%20Unhandled%20Exceptions/readme.md)
 
-# Credits
+# Credits 🙏
 
 Image by [Peter H](https://pixabay.com/users/tama66-1032521/") from [Pixabay](https://pixabay.com/)
 

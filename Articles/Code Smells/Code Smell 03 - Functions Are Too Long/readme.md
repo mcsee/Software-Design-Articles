@@ -6,14 +6,14 @@
 
 > TL;DR: Refactor and extract functions longer than 5 lines.
 
-# Problems
+# Problems 😔 
 
 - Low Cohesion
 - High coupling
 - Difficult to read
 - Low Reuse
 
-# Solutions
+# Solutions 😃
 
 1) [Refactor](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20010%20-%20Extract%20Method%20Object/readme.md)
 
@@ -21,7 +21,7 @@
 
 3) Compose methods 
 
-# Refactorings
+# Refactorings ⚙️
 
 [Refactoring 010 - Extract Method Object](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20010%20-%20Extract%20Method%20Object/readme.md)
 
@@ -29,9 +29,9 @@
 
 - Libraries
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/1f12fb2d0cb9f8eea202526597cf4b83) -->
 
@@ -50,7 +50,7 @@ function setUpChessBoard() {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/0f66ce8c2bba8990e44a36495fa4c3e1) -->
 
@@ -63,19 +63,19 @@ function setUpChessBoard() {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 All linters can measure and warn when methods are larger than a predefined threshold.
 
-# Tags
+# Tags 🏷️
 
 - Complexity
 
-# Conclusion
+# Conclusion 🏁
 
 Extract the long method into smaller pieces. Break complex algorithms into parts. You can also unit-test these parts.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 75 - Comments Inside a Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2075%20-%20Comments%20Inside%20a%20Method/readme.md)
 
@@ -83,7 +83,7 @@ Extract the long method into smaller pieces. Break complex algorithms into parts
 
 [Code Smell 206 - Long Ternaries](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20206%20-%20Long%20Ternaries/readme.md)
 
-# More Info
+# More Information 📕
 
 [Refactoring Guru](https://refactoring.guru/es/smells/long-method)
 
@@ -91,7 +91,7 @@ Extract the long method into smaller pieces. Break complex algorithms into parts
 
 - Long Method
 
-# Credits
+# Credits 🙏
 
 Photo by [Hari Panicker](https://unsplash.com/@invisibleecho) on [Unsplash](https://unsplash.com/s/photos/long-road)
 

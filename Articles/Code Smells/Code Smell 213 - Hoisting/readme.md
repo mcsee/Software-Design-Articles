@@ -6,7 +6,7 @@
 
 > TL;DR: Declare your variables and look after the scope
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -14,7 +14,7 @@
 
 - Variable Shadowing 
 
-# Solutions
+# Solutions 😃
 
 1. Be explicit on declarations
 
@@ -24,15 +24,15 @@
 
 4. Use [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
 
-# Context
+# Context 💬
 
 Hoisting allows variable declarations to be moved to the top of their containing scope during the compilation phase. 
 
 Variables declared with var and function declarations are "hoisted" to the top of their respective scopes automatically in several languages.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/6d889d8015a9acd6b8de8382e7dd28fc) -->
 
@@ -45,7 +45,7 @@ console.log(willBeDefinedLater);
 // Output: "Beatriz"
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/fe321a8c79ef2b6520e752ad091f20c3) -->
 
@@ -60,39 +60,39 @@ console.log(dante);
 dante = "Divine Comedy"; // Error: Assignment to constant variable
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
 We can perform mutation testing to check if changing the scope of the variables brings unexpected results. 
 
-# Tags
+# Tags 🏷️
 
 - Mutability
 
-# Conclusion
+# Conclusion 🏁
 
 Hoisting is yet another magic tool some compilers provide to favor lazy programmers. 
 
 But if it fights back in debugging time.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 116 - Variables Declared With 'var'](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20116%20-%20Variables%20Declared%20With%20'var'/readme.md)
 
 [Code Smell 42 - Warnings/Strict Mode Off](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2042%20-%20Warnings%20Strict%20Mode%20Off/readme.md)
 
-# More Info
+# More Information 📕
 
 [Wikipedia](https://en.wiktionary.org/wiki/hoisting)
 
 [Strict Mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Ash from Modern Afflatus](https://unsplash.com/de/@modernafflatusphotography) on [Unsplash](https://unsplash.com/photos/iiRQxPCDQ_Y)  
   

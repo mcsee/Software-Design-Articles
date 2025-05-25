@@ -8,7 +8,7 @@
 
 > TL;DR: Don't abuse patterns. Even NullObject.
 
-# Problems
+# Problems 😔 
 
 - Empty Classes
 
@@ -16,11 +16,11 @@
 
 - Duplicated Behavior
 
-# Solutions
+# Solutions 😃
 
 1. Create [Null Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md) instantiating real-object classes.
 
-# Context
+# Context 💬
 
 Null Object pattern is a great alternative to [Nulls](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md) and [IFs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md) (Both are code smells).
 
@@ -38,9 +38,9 @@ For example: '0' is the numbers' null object.
 
 An empty collection is the collection's null object.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/36ff0b92d6365291ba000de230e3924e) -->
 
@@ -97,7 +97,7 @@ public class RealAddress extends Address {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/baa5c877b821b807ef9c691569a4174d) -->
 
@@ -140,17 +140,17 @@ Address nullAddress = new Address(
 // No premature optimizations
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
 This is a semantic smell.
 
-# Tags
+# Tags 🏷️
 
 - Null
 
-# Conclusion
+# Conclusion 🏁
 
 Creating Null Object classes is sometimes overdesign.
 
@@ -160,7 +160,7 @@ This real object should never be [global](https://github.com/mcsee/Software-Desi
 
 Too many smells to avoid.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 12 - Null](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2012%20-%20Null/readme.md)
 
@@ -172,7 +172,7 @@ Too many smells to avoid.
 
 [Code Smell 17 - Global Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2017%20-%20Global%20Functions/readme.md)
 
-# More Info
+# More Information 📕
 
 - [Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
@@ -180,7 +180,7 @@ Too many smells to avoid.
 
 - [Refactoring.guru](https://refactoring.guru/es/introduce-null-object)
 
-# Credits
+# Credits 🙏
 
 Photo by [Juan Davila](https://unsplash.com/@juanster) on [Unsplash](https://unsplash.com/s/photos/void)
   

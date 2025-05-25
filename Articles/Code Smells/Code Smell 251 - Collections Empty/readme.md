@@ -6,7 +6,7 @@
 
 > TL;DR: Use declarative names. Always
 
-# Problems
+# Problems 😔 
 
 - Readability
 
@@ -16,11 +16,11 @@
 
 - Type Safety
 
-# Solutions
+# Solutions 😃
 
 1. Replace *count() == 0* and *size()==0* usages
 
-# Context
+# Context 💬
 
 *isEmpty()* and *count()==0* seem to be equivalent but have deep differences.
 
@@ -28,9 +28,9 @@ The semantics are clearer.
 
 Skipping this declarative method violating the collection encapsulation might have performance issues.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/8b7f7ec65cf3a60e31a3c31d4477615f) -->
 
@@ -88,7 +88,7 @@ public class SchrodingerStack<T> {
 }
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/7e789f2e3e6e070e12177182192a62f7) -->
 
@@ -155,41 +155,41 @@ public class SchrodingerStack<T> {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Automatic 
 
 You can check for this expression using syntax abstraction trees.
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# AI Generation
+# AI Generation 🤖
 
 LLMs generate abstractions using *empty()* functions
 
-# AI Detection
+# AI Detection 🥃
 
 Gemini detected the problem of using *count() == 0*
 
-# Conclusion
+# Conclusion 🏁
 
 Using *IsEmpty()* is recommended for checking if a collection is empty due to its clarity and potential performance benefits.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 233 - Collections Count](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20233%20-%20Collections%20Count/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
 
-# Credits
+# Credits 🙏
 
 Photo by [Valentin Lacoste](https://unsplash.com/@valentinlacoste) on [Unsplash](https://unsplash.com/photos/long-angle-photography-of-tunnel-jNSJE8dMro0)
     

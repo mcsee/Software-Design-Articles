@@ -7,7 +7,7 @@ Multiple semantics lead to coupling and errors.*
 
 > TL;DR: Null is schizophrenic and does not exist in real-world. His creator regretted and programmers around the world suffer it. Don't be a part of it.
 
-# Problems
+# Problems 😔 
 
 - Coupling among the callers and the senders.
 
@@ -19,7 +19,7 @@ Multiple semantics lead to coupling and errors.*
 
 - Null does not exist on real-world. Thus, it violates [Bijection Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
-# Solutions
+# Solutions 😃
 
 - Avoid Null. 
 
@@ -29,9 +29,9 @@ Multiple semantics lead to coupling and errors.*
 
 [Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/2f7aee362e99fbe447d8c1e8aaeb9f8e) -->
 
@@ -82,7 +82,7 @@ cart = new Cart([
 // 10 - null  = 10
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/a7571cf0ce9e7666bd6a393520f9a968) -->
 
@@ -140,27 +140,27 @@ cart = new Cart([
 // 10 - nullObject = 10
 ```
 
-# Detection
+# Detection 🔍
 
 Most Linters can show null usages and warn us.
 
-# Exceptions
+# Exceptions 🛑
 
 - APIs, Databases and external systems where NULL does exist.
 
-# Tags
+# Tags 🏷️
 
 - Null
 
-# Conclusion
+# Conclusion 🏁
 
 - Null is the billion-dollar mistake. Yet, most program languages support them and libraries suggest its usage.
 
-# More Info
+# More Information 📕
 
 [Null: The Billion-Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Kurt Cotoaga](https://unsplash.com/@kydroon) on [Unsplash](https://unsplash.com/s/photos/black-hole)
 

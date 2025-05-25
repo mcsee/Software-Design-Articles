@@ -6,7 +6,7 @@
 
 > TL;DR: Overengineering complicates your code.
 
-# Problems
+# Problems 😔 
 
 - Unnecessary [accidental complexity](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md)
 - Premature optimizations
@@ -17,7 +17,7 @@
 - [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) violation
 - Performance penalties
 
-# Solutions
+# Solutions 😃
 
 1. Keep it Simple, Stupid
 2. Simplify code paths
@@ -27,7 +27,7 @@
 6. Follow Occam's razor by cutting away non-essential elements
 7. Refactor regularly
 
-# Context
+# Context 💬
 
 Overengineering happens when you build solutions that are too complex for your problem.
 
@@ -41,9 +41,9 @@ Some examples are the overuse of factories, excessive inheritance, or too granul
 
 Keeping things simple helps avoid creating code that is difficult to understand and maintain.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/8d15f910232fe91b7d6516dcaafa6ddd) -->
 
@@ -80,7 +80,7 @@ PlanetCalculator calculator =
 double darkMatter = calculator.calculateDarkMatter(1000);
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/7fc58766071d5a15e9991bc618ae4a8f) -->
 
@@ -97,7 +97,7 @@ DarkMatterCalculator calculator = new DarkMatterCalculator();
 double darkMatter = calculator.calculateDarkMatter(1000);
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 
@@ -107,27 +107,27 @@ You can detect overengineering by looking for excessive classes, methods, or fea
 
  If you find yourself adding functionality that seems duplicated, unnecessary, or too complex, you likely have a case of over-engineering.
 
-# Tags
+# Tags 🏷️
 
 - Complexity
 
-# Level
+# Level 🔋
 
 [X] Intermediate
 
-# AI Generation
+# AI Generation 🤖
 
 AI generators often introduce overengineering by suggesting patterns like factories or strategies where simpler solutions would work. 
 
 These patterns are useful but can lead to unnecessary complexity when applied to small or straightforward problems.
 
-# AI Detection
+# AI Detection 🥃
 
 AI can help detect overengineered code by analyzing its structure and suggesting refactorings to simplify excessive abstractions or unnecessary layers.
 
 However, you still need human judgment to determine if the complexity serves a purpose or if you can simplify it.
 
-## Try Them!
+## Try Them! 🛠
 
 *Remember: AI Assistants make lots of mistakes*
 
@@ -145,17 +145,17 @@ However, you still need human judgment to determine if the complexity serves a p
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Conclusion
+# Conclusion 🏁
 
 Overengineering complicates your codebase and leads to maintenance headaches. Keep your designs simple, focus on solving your specific problem, and avoid unnecessary patterns and abstractions.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 182 - Over Generalization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20182%20-%20Over%20Generalization/readme.md)
 
 [Code Smell 264 - Hanlon's Razor](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20264%20-%20Hanlon's%20Razor/readme.md)
 
-# Disclaimer
+# Disclaimer 📘
 
 Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
   

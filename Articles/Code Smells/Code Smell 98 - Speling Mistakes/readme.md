@@ -6,19 +6,19 @@
 
 > TL;DR: Take care of your names.
 
-# Problems
+# Problems 😔 
 
 - Readability
 
 - Harder to search terms in code.
 
-# Solutions
+# Solutions 😃
 
 1. Spellcheck your code.
 
 2. Use an IDE with spellchecking
 
-# Context
+# Context 💬
 
 Many of us don't speak English as our first language. 
 
@@ -26,9 +26,9 @@ We need to have extra care for our texts and names.
 
 *This article has a typo in its title as proof of context and also a clickbait*😀
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/a4c5716a56fdb9b1b743debae3adfb4c) -->
 
@@ -36,7 +36,7 @@ We need to have extra care for our texts and names.
 comboFeededBySupplyer = supplyer.providers();
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/1fc16a4982d8f423107d3e64d3c31e48) -->
 
@@ -44,7 +44,7 @@ comboFeededBySupplyer = supplyer.providers();
 comboFedBySupplier = supplier.providers();
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Manual
 - We need to read the code in a peer review.
@@ -52,7 +52,7 @@ comboFedBySupplier = supplier.providers();
 [X] Automatic
 - Some IDEs have warnings on the typos.
 
-# Tags
+# Tags 🏷️
 
 - Readability
 
@@ -60,27 +60,27 @@ comboFedBySupplier = supplier.providers();
 
 - Code Styling
 
-# Level
+# Level 🔋
 
 [X] Beginner
 
-# Conclusion
+# Conclusion 🏁
 
 Pay close attention to your names. 
 
 You will probably be the person reading the code in a few months. 
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 48 - Code Without Standards](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2048%20-%20Code%20Without%20Standards/readme.md)
 
-# More Info
+# More Information 📕
 
 [What exactly is a name - Part I The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Brett Jordan](https://unsplash.com/@brett_jordan) on [Unsplash](https://unsplash.com/s/photos/alphabet)
   

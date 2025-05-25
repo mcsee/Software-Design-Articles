@@ -153,7 +153,7 @@ AI can detect this smell by analyzing class structures and inheritance trees. Ho
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
-# Conclusion ✔️
+# Conclusion 🏁
 
 When you design a class hierarchy, you need to make sure that subclasses logically inherit from their parent.
 

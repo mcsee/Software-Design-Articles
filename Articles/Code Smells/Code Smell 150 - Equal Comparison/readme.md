@@ -6,7 +6,7 @@
 
 > TL;DR: Don't export and compare, just compare.
 
-# Problems
+# Problems 😔 
 
 - Encapsulation break
 
@@ -16,11 +16,11 @@
 
 - [Anthropomorphism](https://en.wikipedia.org/wiki/Anthropomorphism) violation
 
-# Solutions
+# Solutions 😃
 
 1. Hide the comparison in a single method
 
-# Context
+# Context 💬
 
 Attribute comparison is heavily used in our code.
 
@@ -32,9 +32,9 @@ Premature Optimizers will tell us this is less performant.
 
 We should ask them for real evidence and contrast the more maintainable solution.
 
-# Sample Code
+# Sample Code 📖
 
-## Wrong
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d3eda35a36e6dfe7cb292ff2be5a7b71) -->
 
@@ -47,7 +47,7 @@ if (location.street == 'Bourbon St') { }
 // Comparisons are case sensitive
 ```
 
-## Right
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/7ecfc60fccc9053db2a7b22dc30f31cd) -->
 
@@ -63,7 +63,7 @@ function isAtStreet(street) {
 }
 ```
 
-# Detection
+# Detection 🔍
 
 [X] Semi-Automatic 
 
@@ -71,11 +71,11 @@ We can detect attribute comparison using syntax trees.
 
 There can be good uses for primitive types as with many other smells.
  
-# Tags
+# Tags 🏷️
 
 - Encapsulation
 
-# Conclusion
+# Conclusion 🏁
 
 We need to put responsibilities in a single place.
 
@@ -83,7 +83,7 @@ Comparing is one of them.
 
 If some of our business rules change we need to change a *single point*.
 
-# Relations
+# Relations 👩‍❤️‍💋‍👨
 
 [Code Smell 63 - Feature Envy](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2063%20-%20Feature%20Envy/readme.md)
 
@@ -93,7 +93,7 @@ If some of our business rules change we need to change a *single point*.
 
 [Code Smell 167 - Hashing Comparison](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20167%20-%20Hashing%20Comparison/readme.md)
 
-# Credits
+# Credits 🙏
 
 Photo by [Piret Ilver](https://unsplash.com/@saltsup) on [Unsplash](https://unsplash.com/s/photos/scale)  
 

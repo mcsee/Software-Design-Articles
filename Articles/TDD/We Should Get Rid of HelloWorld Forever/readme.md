@@ -61,7 +61,8 @@ function testFalse()
 
 5. We stress how important is to have working code and [automated tests](https://en.wikipedia.org/wiki/Test_automation) from the very first second.
 
-# Conclusion
+# Conclusion 🏁
+
  
 We need to stop writing *HelloWorld* as the first sentence of a language.
 

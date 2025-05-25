@@ -210,7 +210,7 @@ Serialization and persistence can be used with meta-programming because they are
 
 *Photo by [NeONBRAND](https://unsplash.com/@neonbrand) on [Unsplash](https://unsplash.com/s/photos/dirty)*
 
-## Conclusions
+## Conclusion 🏁
 
 Meta-programming is something we should avoid at all costs, instead of using abstractions that exist in the real-world and that we should only go looking for patiently.
 
