@@ -58,7 +58,7 @@ GTP: Sure, I would be happy to chat with anyone who has questions or wants to le
 
 > ME: Should humans be afraid of GPT technology?
 
-GPT: It is not necessary for humans to be afraid of GPT technology. GPT (short for "Generative Pretrained Transformer") is a type of large language model that has been trained on a massive amount of text data in order to generate human-like text. While GPT technology is capable of producing very realistic and convincing text, it is important to remember that it is not capable of thinking or acting independently. It can only generate text based on the input it receives and the data it has been trained on.
+GPT: It is not necessary for humans to be afraid of GPT technology. GPT (short for "Generative Pretrained Transformer") is a type of large language model that has been trained on a massive amount of text data to generate human-like text. While GPT technology is capable of producing very realistic and convincing text, it is important to remember that it is not capable of thinking or acting independently. It can only generate text based on the input it receives and the data it has been trained on.
 
 > ME: Are you familiar with the Human/Machine [Centaur](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Wordle/How%20to%20Create%20a%20Wordle%20as%20a%20Centaur/readme.md) concept?
 

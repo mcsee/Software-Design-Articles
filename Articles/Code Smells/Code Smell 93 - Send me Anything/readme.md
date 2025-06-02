@@ -69,7 +69,7 @@ We can detect this kind of method when they do different things, asking for the 
 
 # Tags 🏷️
 
-- If Polluter
+- Fail-Fast
 
 # Level 🔋
 

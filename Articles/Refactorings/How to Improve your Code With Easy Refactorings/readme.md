@@ -70,6 +70,8 @@ Let's go for the solutions!
 
 [Refactoring 028 - Replace Consecutive IDs with Dark Keys](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20028%20-%20Replace%20Consecutive%20IDs%20with%20Dark%20Keys/readme.md)
 
+[Refactoring 029 - Replace NULL With Collection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20029%20-%20Replace%20NULL%20With%20Collection/readme.md)
+
 * * *
 
 Photo by [No Revisions](https://unsplash.com/ja/@norevisions) on [Unsplash](https://unsplash.com/es/s/fotos/cleaning)

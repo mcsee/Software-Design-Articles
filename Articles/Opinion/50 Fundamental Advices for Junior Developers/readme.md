@@ -144,7 +144,7 @@ https://x.com/BEARD__ED
 * * *
 
 Persistence trumps all.
-I would add to that, in order to have persistence you have to enjoy the process.  You have to love that feeling of satisfaction you get from solving a difficult problem, or when you get your "aha!" moments.
+I would add to that, to have persistence you have to enjoy the process.  You have to love that feeling of satisfaction you get from solving a difficult problem, or when you get your "aha!" moments.
 
 https://x.com/ImRussell_
 

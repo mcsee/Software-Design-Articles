@@ -20,7 +20,7 @@
 
 # Solutions 😃
 
-1. Use a centralizing sequential stamper. (NO, not a [Singleton](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)).
+1. Use a centralizing sequential stamper. (NO, not a [Singleton](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20Root%20of%20All%20Evil/readme.md)).
 
 2. If you need to model a sequence, [model a sequence](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
 

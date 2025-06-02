@@ -130,7 +130,7 @@ Is it necessary to be a class?
 
 You are already coupled to the class. Couple to the description instead. 
 
-Exception instances should **NOT** be [Singletons](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md).
+Exception instances should **NOT** be [Singletons](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20Root%20of%20All%20Evil/readme.md).
 
 # Relations 👩‍❤️‍💋‍👨
 

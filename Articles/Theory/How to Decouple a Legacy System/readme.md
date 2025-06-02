@@ -116,7 +116,7 @@ For now the name is good enough, and it gives us an idea of the responsibilities
 
 There are no valid reasons to use singletons. This fact, in addition to generating all the problems described here:
 
-[Singleton - The root of all evil](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
+[Singleton - The Root of All Evil](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20Root%20of%20All%20Evil/readme.md)
 
 yields a very implemental invocation (coupled to _getInstance()_) and not very declarative...
 

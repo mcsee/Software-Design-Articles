@@ -213,7 +213,7 @@ It is extremely difficult to modify a system while keeping bad names.
 
 [How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 
-For example, this is a piece of code that is used in job interviews in order to find a mistake.
+For example, this is a piece of code that is used in job interviews to find a mistake.
 
 <!-- [Gist Url](https://gist.github.com/mcsee/4804592d6fa65f37cf91d7d676acc3d2) -->
 
@@ -257,7 +257,7 @@ The Aristotelian classification is made after a detailed observation of multiple
 
 ![Aristotle](https://cdn.hashnode.com/res/hashnode/image/upload/v1599253788175/Wo0ep7qkX.jpeg)
 
-The accidental and historical reason is linked to the first code editors, who forced us to define the names first in order to build models.
+The accidental and historical reason is linked to the first code editors, who forced us to define the names first to build models.
 
 Today we have powerful secure refactoring tools.
 

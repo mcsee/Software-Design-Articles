@@ -120,7 +120,7 @@ We can enforce business objects to warn us if we define an attribute or function
 
 # Tags 🏷️
 
-- Accidental
+- Premature Optimization
 
 # Conclusion 🏁
 

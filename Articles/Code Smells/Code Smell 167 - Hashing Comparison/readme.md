@@ -91,7 +91,7 @@ With mutation testing, we can seed different objects with the same hash and chec
 
 # Tags 🏷️
 
-- Comparison
+- Fail-Fast
 
 # Conclusion 🏁
 

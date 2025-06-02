@@ -218,7 +218,7 @@ We will always pursue to emulate the behavior of objects like **black boxes**, g
 *   Have no **public** attributes. For practical purposes it is like having _setters_ and _getters_. It is also a _code smell_ of anemic objects.
 *   Have no **public static** attributes. In addition to what is listed above the classes should be stateless and this is a code smell indicating that a class is being used as a global variable.
 
-[Singleton - The root of all evil](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
+[Singleton - The Root of All Evil](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20Root%20of%20All%20Evil/readme.md)
 
 ## Transition from a legacy code system
 

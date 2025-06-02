@@ -76,7 +76,7 @@ Many languages provide control both in compile and run-time
 
 # Tags 🏷️
 
-- Fail Fast
+- Fail-Fast
 
 # Conclusion 🏁
 

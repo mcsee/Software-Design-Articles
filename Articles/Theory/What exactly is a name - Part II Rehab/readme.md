@@ -12,7 +12,7 @@ _We all use names for programming, it doesn’t matter if the language is high o
 
 In a previous article, we introduced various definitions and techniques for looking for good names.
 
-In this article, we will try to show some present problems with nomenclature in order to improve our practices.
+In this article, we will try to show some present problems with nomenclature to improve our practices.
 
 [What exactly is a name - Part I The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
 
@@ -141,7 +141,7 @@ The greatest benefit of known design patterns is the unification of a common lan
 
 We all know what a _decorator_, a _strategy_, an _adapter_ or a _facade_ is. And we know that you should never use _Singletons_:
 
-[Singleton - The root of all evil](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
+[Singleton - The Root of All Evil](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20Root%20of%20All%20Evil/readme.md)
 
 > Rule 17: Use pattern names for implementing concepts.
 
@@ -173,7 +173,7 @@ Its main responsibility is to **collect** items, therefore we are in the presenc
 
 We will learn this only after knowing many of its subclasses using the Liskov Substitution Principle (the L for Solid).
 
-> Rule 19: In order to name concepts we must know their protocol.
+> Rule 19: To name concepts we must know their protocol.
 
 ## We speak the same language
 

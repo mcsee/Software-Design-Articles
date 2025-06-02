@@ -4,9 +4,9 @@
 
 > TL;DR: Fail fast. Don't hide your mistakes under the rug.
 
-Failure to program in the 1950s had dire consequences. Machine time was very expensive. Jumping from punch cards to the compiler and then to execution could take hours or even days.
+Failure to program in the 1950s had dire consequences. Machine time was costly. Jumping from punch cards to the compiler and then to execution could take hours or even days.
 
-Luckily those times are long gone. Are they?
+Luckily, those times are long gone. Are they?
 
 ![Broken](https://cdn.hashnode.com/res/hashnode/image/upload/v1599358370864/3_fDLepJU.jpeg)
 
@@ -18,16 +18,17 @@ In the 1980s, punch cards were no longer used. The code was written in a text ed
 
 This process was slow and tedious.
 
-An error involved generating *logs* to a file with parts of the* execution stack* to try to isolate the cause of the defect. Try a fix, recompile, link, etc. and so iteratively.
+An error involved generating *logs* to a file with parts of the *execution stack* to try to isolate the cause of the defect. Try a fix, recompile, link, etc., and so on iteratively.
 
-With the arrival of interpreted languages, ​​we began to believe in the magic of editing the code *' on the fly'* with a *debugger* where we could access the state.
+With the advent of interpreted languages, ​​we began to believe in the magic of editing the code *'on the fly'* with a *debugger* where we could access the state.
 
-However, in the late 1990s with the rise of web systems, we went back several steps. Except in those cases where we could simulate the system on a local server, we put logs in the code again while debugging our integrated software remotely.
-On the other hand. Thanks to the misuse of invalid abstractions our software-generated errors are far away from the failure and root cause of the problem.
+However, in the late 1990s, with the rise of web systems, we went back several steps. Except in cases where we could simulate the system on a local server, we put logs in the code again while debugging our integrated software remotely.
+
+Thanks to the misuse of invalid abstractions, our software-generated errors are far from the failure and root cause of the problem.
 
 [The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
-This is worsened by the use of invalid representations with possible Null values ​​that generate unpredictable failures when trying to find out the origin of null values many function calls later.
+This is worsened by the use of invalid representations with possible Null values ​​that generate unpredictable failures when trying to find out the origin of null values, many function calls later.
 
 [Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
@@ -43,11 +44,11 @@ As in many of our solutions, we are going to reverse the burden of proof.
 
 > Let's suppose that the preconditions are not met and if so, fail quickly.
 
-The argument against this type of inline control is always the same: The code becomes slightly *more complex *and potentially *less performant*. 
+The argument against this type of inline control is always the same: The code becomes slightly *more complex* and potentially *less performant*. 
 
 As always, in the face of laziness, we will reply that we privilege the robust code, and in the face of performance, we will request concrete evidence through a benchmark that shows what the true penalty really is.
 
-As we saw in the article about the immutability of objects if an invalid date is created we must immediately report the problem.
+As we saw in the article about the immutability of objects, if an invalid date is created, we must immediately report the problem.
 
 [The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
@@ -76,7 +77,7 @@ $invalidDate = new Date($day30, $feb2020);
 // to cover up the programmer contract violation
 ```
 
-In this way, we will fail very close to the place where the fault occurs, and we can take action. Most of the "modern" languages ​​hide the dirt under the carpet and allow "continue (as if nothing happens)" the execution so that we have to debug the cause of the problem with logs in order to carry out a forensic analysis in search of the failure root cause far away.
+In this way, we will be very close to the place where the fault occurs, and we can take action. Most of the "modern" languages ​​hide the dirt under the carpet and allow "continue (as if nothing happened)" the execution, so that we have to debug the cause of the problem with logs to carry out a forensic analysis in search of the root cause far away.
 
 ## Representation is always important
 
@@ -95,13 +96,13 @@ $coordinate = array('latitude'=>1000, 'longitude'=>2000);
 // They are just arrays. A Bunch of raw data
 ```
 
-For example, we can represent latitude 1000°, and longitude 2000° on a map as follows and this will generate errors when we want to calculate distances in some component that uses this coordinate (probably doing some kind of modulus magic and getting very cheap tickets).
+For example, we can represent latitude 1000°, and longitude 2000° on a map as follows, and this will generate errors when we want to calculate distances in some component that uses this coordinate (probably doing some kind of modulus magic and getting very cheap tickets).
 
 ![terraplanismo](https://cdn.hashnode.com/res/hashnode/image/upload/v1599358580807/9U8vls-h6.jpeg)
 
 This is solved with good representations and with small objects that respect the bijection of both valid and invalid behaviors and states.
 
-A bijection is straight: a coordinate is not an array. not all arrays are coordinates.
+A bijection is straight: a coordinate is not an array. Not all arrays are coordinates.
 
 <!-- [Gist Url](https://gist.github.com/mcsee/a1794b5ca43c5229bb9e1c8b6a8b1041) -->
 
@@ -119,7 +120,7 @@ final class GeographicCoordinate{
 }
 ```
 
-This would be the first iteration. The coordinate should check that the latitude is within a range. But that would couple the coordinate to latitude violating the bijection rule. Latitude is not an integer and vice versa.
+This would be the first iteration. The coordinate should check that the latitude is within a range. But that would couple the coordinate to latitude, violating the bijection rule. Latitude is not an integer, and vice versa.
 
 Let's be extreme:
 
@@ -140,13 +141,13 @@ final class Latitude {
 
 With this solution, we do not have to do any checks when building geographic coordinates because the latitude is valid per construction invariant and because it is correctly modeling its real counterpart.
 
-As the last iteration, we should think about what a degree is. An integer? A float? It is clear that a degree exists in reality so we have to model it. No chance to escape.
+As the last iteration, we should think about what a degree is. An integer? A float? A degree exists in reality, so we have to model it. No chance to escape.
 
-By now performance purists are often outraged by the following thought:
+Performance purists are often outraged by the following thought:
 
 > It is much easier and more readable to create a coordinate as an array than to do all that indirection of creating degrees, latitudes, longitudes, and coordinates.
 
-To make this decision we always have to do performance, maintainability, reliability, and root cause analysis of our failures. Based on our desired quality attributes we will privilege one over the other. In my personal experience, the good and precise models survive much better requirements change and ripple effects, but that depends on each particular case.
+To make this decision, we always have to do performance, maintainability, reliability, and root cause analysis of our failures. Based on our desired quality attributes. we will privilege one over the other. In my personal experience, the good and precise models survive much better requirements changes and ripple effects, but that depends on each particular case.
 
 ![compass](https://cdn.hashnode.com/res/hashnode/image/upload/v1599358674225/EriqqmSnX.jpeg)
 
@@ -173,9 +174,9 @@ $neededSupply = $distance / $supplyRatio;
 // so the engine keep working and exploded
 ```
 
-Instead of failing early and getting caught up in a *self-healing code routine *this error spread and blew up the rocket.
+Instead of failing early and getting caught up in a *self-healing code routine*, this error spread and blew up the rocket.
 
-A simple check of measures would have detected the error and, potentially taken some corrective action.
+A simple check of measures would have detected the error and, potentially, taken some corrective action.
 
 # The exception is the rule
 
@@ -183,7 +184,7 @@ Our code must always be defensive and controlled by its invariants at all times 
 
 These assertions must always be on in productive environments. Once again, when faced with doubts about performance penalties, the forceful response must be certain evidence of significant degradation.
 
-Exceptions must occur at all levels. If a movement is created with an invalid date the exception must be reported when creating the date. If the date is valid but it is incompatible with some business rule (for example, you cannot settle movements in the past) this must also be controlled.
+Exceptions must occur at all levels. If a movement is created with an invalid date, the exception must be reported when creating the date. If the date is valid but it is incompatible with some business rule (for example, you cannot settle movements in the past), this must also be controlled.
 
 <!-- [Gist Url](https://gist.github.com/mcsee/f7e0e7c0e3843e94ec021d2352a19f9b) -->
 
@@ -200,29 +201,45 @@ final class Movement {
 }
 ```
 
-The solution is robust but it is coupling the movement to date and a static method of a global class. One of the worst possible couplings for a system that could run in multiple time zones.
+The solution is robust, but it is coupling the movement to date and a static method of a global class. One of the worst possible couplings for a system that could run in multiple time zones.
 
 [Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
-To solve this problem we have several options:
+To solve this problem, we have several options:
 
 1. Leave the coupling to the class.
 2. Send as a parameter a date validator that can validate the date using double dispatch.
 3. Remove date validation responsibility from the movement.
 
-When in doubt about our design decisions, we can always go back to our bijection and ask our business expert whose responsibility is this.
+When in doubt about our design decisions, we can always go back to our bijection and ask our business expert whose responsibility this is.
 
-It is clear that by taking the third option we could potentially create movements with invalid dates. But the validity (or not) of the date is not a movement's responsibility and does not belong to its representation invariants.
+By taking the third option, we could potentially create movements with invalid dates. But the validity (or not) of the date is not a movement's responsibility and does not belong to its representation invariants.
 
-The case would be different if a movement has an agreement date, a creation date, and a settlement date with clear business constraints among them. But then we would be facing a very low cohesive object.
+The case would be different if a movement had an agreement date, a creation date, and a settlement date with clear business constraints among them. But then we would be facing a very low cohesive object.
 
 > As always, design decisions involve continuous trade-offs.
+
+# Code Smells
+
+There are some code smells related to this principle
+
+[Code Smell 83 - Variables Reassignment](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2083%20-%20Variables%20Reassignment/readme.md)
+
+[Code Smell 15 - Missed Preconditions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2015%20-%20Missed%20Preconditions/readme.md)
+
+[Code Smell 93 - Send me Anything](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2093%20-%20Send%20me%20Anything/readme.md)
+
+[Code Smell 196 - Javascript Array Constructors](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20196%20-%20Javascript%20Array%20Constructors/readme.md)
+
+[Code Smell 111 - Modifying Collections While Traversing](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20111%20-%20Modifying%20Collections%20While%20Traversing/readme.md)
+
+[Code Smell 170 - Refactor with Functional Changes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20170%20-%20Refactor%20with%20Functional%20Changes/readme.md)
 
 # Conclusion 🏁
 
 Suspecting an invalid situation, we must throw an exception in all cases. When in doubt, it should be done as early as possible.
 
-We should never hide errors by coupling ourselves to the decision to mask this problem with the use of it that has to understand the situation.
+We should never hide errors by coupling ourselves to the decision to mask this problem with its use, so that we can understand the situation.
 
 We must strictly follow the bijection rule, creating the necessary abstractions that can defend themselves.
 

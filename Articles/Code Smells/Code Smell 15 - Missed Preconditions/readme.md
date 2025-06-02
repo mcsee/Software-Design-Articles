@@ -83,7 +83,7 @@ startDate.setMonth(13)
 
 # Tags 🏷️
 
-- Consistency
+- Fail-Fast
 
 # Conclusion 🏁
 

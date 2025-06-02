@@ -88,7 +88,7 @@ We can tell our linters to warn us on default uses unless there's an exception.
 
 # Tags 🏷️
 
-- Fail Fast
+- Fail-Fast
 
 # Conclusion 🏁
 

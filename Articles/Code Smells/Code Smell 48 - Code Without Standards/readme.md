@@ -116,7 +116,7 @@ public class Account {
 }
 ```
 
-*The Right example has several other smells, but we keep it loyal to its GIT version in order to show only code standardization issues.*
+*The Right example has several other smells, but we keep it loyal to its GIT version to show only code standardization issues.*
 
 # Detection 🔍
 

@@ -754,7 +754,7 @@ Edsger Dijkstra
 
 *Bram Cohen*
 
-[Singleton - The root of all evil](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
+[Singleton - The Root of All Evil](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20Root%20of%20All%20Evil/readme.md)
 
 ---
 
@@ -2337,7 +2337,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 ---
 
-> Explanations without metaphor would be difficult if not impossible, for in order to describe the unknown, we must resort to concepts that we know and understand, and that is the essence of metaphor.
+> Explanations without metaphor would be difficult if not impossible, for to describe the unknown, we must resort to concepts that we know and understand, and that is the essence of metaphor.
 
 *Earl MacCormac*
 
@@ -5013,7 +5013,7 @@ I try to think mostly in terms of preconditions, and checking things in the cons
 
 ---
 
-> If you’re afraid to change something it is clearly poorly designed.
+> If you’re afraid to change something is clearly poorly designed.
 
 *Martin Fowler*
 

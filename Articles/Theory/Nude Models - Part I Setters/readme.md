@@ -60,7 +60,7 @@ Since it is the **same point** in real-world, it must **necessarily** be represe
 
 [The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
-Bijection always depends on the **subjectivity** of the aspects we are trying to model. In order to draw a polygon, the Cartesian (1, 1) and polar (√2, π/8) points are the same point.
+Bijection always depends on the **subjectivity** of the aspects we are trying to model. To draw a polygon, the Cartesian (1, 1) and polar (√2, π/8) points are the same point.
 
 The case of trying to represent several possible mathematical representations would be different if we were programming [Wolfram](https://www.wolframalpha.com/) semantics. In such case representation **is part of the problem** se they would be modeled by **different** objects.
 

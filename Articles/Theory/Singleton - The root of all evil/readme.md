@@ -1,20 +1,20 @@
-# Singleton - The root of all evil
+# Singleton - The Root of All Evil
 
-![Singleton - The root of all evil](Singleton%20-%20The%20root%20of%20all%20evil.jpg)
-
-> TL;DR: Don't ever user Singletons
+![Singleton - The Root of All Evil](Singleton%20-%20The%20Root%20of%20All%20Evil.jpg)
 
 *Allowed global variables and supposed memory savings.*
+
+> TL;DR: Don't ever user Singletons
 
 *For 20 years I have been teaching software at the University of Buenos Aires. In the software engineering course we teach design patterns and the same "scheme" is always repeated almost like a type of deja vu, the same sequence that I had the opportunity to witness in several of my works and in the free software that I use:* 
 
 > The ‘magical’ appearance of the Singleton pattern.
 
 # The origin of evil
+
 The pattern has been used in the industry for decades. Its popularity is attributed to the excellent book [Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns). There are numerous software frameworks that use it, and we rarely find literature that discourages its use.
 Despite this, in the corresponding [Wikipedia](https://en.wikipedia.org/wiki/Design_Patterns) entry we can read a Dantesque warning:
 
-> 
 Critics consider the singleton to be an [anti-pattern](https://en.wikipedia.org/wiki/Anti-pattern) in that it is frequently used in scenarios where it is not beneficial, introduces unnecessary restrictions in situations where a sole instance of a class is not actually required, and introduces  [global state](Link)  into an application.
 
 ![Devil](https://cdn.hashnode.com/res/hashnode/image/upload/v1598394410649/AWB5yatBl.jpeg)
@@ -33,6 +33,7 @@ Most **accidentally** unique objects are not present in the real-world, and we w
 [The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 ### 2. Generates coupling
+
 It is a global reference. Again according to Wikipedia:
 
 > An implementation of the singleton pattern must provide global access to that instance.
@@ -42,6 +43,7 @@ What a priori appears as a benefit for preventing us from having to pass context
 [Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
 ### 3. It says a lot about (accidental) implementation and little about his (essential) responsibilities
+
 By focusing early on implementation issues (the *Singleton* is an implementation pattern) we orient ourselves according to **accidentality** (**how**) and underestimate the most important thing of an object: the responsibilities it has (**what**).
 When carrying out premature optimization in our designs, we usually award a concept that we have just discovered as *Singleton*.
 
@@ -65,16 +67,20 @@ class God {
 ```
 
 ### 4. It prevents us from writing good unit tests
+
 The aforementioned coupling has as a corollary; the impossibility of having full control over the side effects of a test to guarantee its determinism. We must depend on the global state referenced by the Singleton.
 
 ### 5. Does not save up memory space
+
 The argument used to propose its use is to avoid the construction of multiple volatile objects. This supposed advantage is not real in virtual machines with efficient garbage collection mechanisms.
 In such virtual machines, used by most modern languages, keeping objects in a memory area whose Garbage Collector algorithm is a double pass (mark & sweep) is much more expensive than creating volatile objects and quickly removing them.
 
 ### 6. It prevents us from using dependency injection
+
 As good solid design advocates, we favor inversion of control through dependency injection to avoid coupling. In this way the service provider (formerly a hardcoded Singleton) is decoupled from the service itself, replacing it with an injectable dependency that meets the defined requirements, coupling us to what and not how.
 
 ### 7. It violates the instantiation contract
+
 When we ask a class to create a new instance we expect the contract to be honored and give us a fresh new instance. However, many Singleton implementations hide the creation omission silently, rather than failing quickly to indicate that there is a business rule that instances should not be arbitrarily created.
 
 [Fail Fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md)
@@ -107,6 +113,7 @@ class Singleton {
 This will force us to have a private constructor to use it internally. Thus violating the contract that all classes can create instances. Another code smell.
 
 ### 8. It forces us to explicitly couple to implementation
+
 When invoking a class to use it (again, to use its **what**), we will have to couple with the fact that it is accidentally a *Singleton* (its **how**), generating a relation that, when trying to break it, would produce the much-feared ripple effect.
 
 <!-- [Gist Url](https://gist.github.com/mcsee/e9a082aca6e2e7e4412d5da4290a5f0a) -->
@@ -119,10 +126,12 @@ $christianGod = God::getInstance();
 ```
 
 ### 9. It hinders the creation of automated tests
+
 If we use the TDD development technique, objects are defined purely and exclusively based on their behavior. Therefore, in no case, the construction of software using TDD will arise the Singleton concept. If business rules state that there must be a single provider of a certain service, this will be modeled through a controlled access point (which should not be a global class, much less a *Singleton*).
 Trying to create unit tests in an existing system coupled to a Singleton can be an almost impossible task.
 
 ### 10. Unique concepts are contextual
+
 When the pattern is stated it is usually accompanied by some idea that in the real-world seems rather unique. For example, if we want to model the behavior of **God** according to the vision of Christianity, there could not be more than one **God**. But these rules are relative to the context and subjective vision of each religion. Various belief systems may coexist in the same world with their own gods (some monotheistic and other polytheistic beliefs).
 
 ![1_1UifacKmCXcooGNdkuL9KA[1].png](https://cdn.hashnode.com/res/hashnode/image/upload/v1598399753458/4F_Zy5fo1.png)
@@ -147,15 +156,19 @@ Avoiding static variables is a good way to prevent the state from being preserve
 ![1_BGHmfxceo83F9CixiDnq4A[1].jpeg](https://cdn.hashnode.com/res/hashnode/image/upload/v1598399814552/PbDJPyJdP.jpeg)
 
 ### 14. Limiting the creation of new objects violates the single responsibility principle.
+
 > The single responsibility of a class is to create instances.
+
 Adding any other responsibility to any class implies violating the  [single responsibility principle](https://en.wikipedia.org/wiki/Single-responsibility_principle) (the S for Solid). A class should not worry about being or not being a *Singleton*. They should only be responsible for their commitments to business rules. In case of needing the uniqueness of these instances, this would be the responsibility of a third object in the middle such as a Factory or a Builder.
 
 ### 15. The cost of having a global reference is not just the coupling
+
 Singletons are frequently used to provide a global access point to some service. What ends up happening is design dependencies are hidden within the code and are not visible when examining the interfaces of their classes and methods.
 
 The need to create something global to avoid passing it explicitly is a **code smell**. There are always better solutions and alternatives to using a global reference that do not require passing all collaborators between methods.
 
 ### 16. He’s the easy friend from the party
+
 Many singletons are themselves abused as a global reference repository.
 The temptation to use the singleton as an entry point for new references is huge.
 
@@ -168,6 +181,7 @@ Since it does not have a corresponding entity on the bijection, adding responsib
 ![images_RIiBoPtpMiRsMKX3dnzl5gb1Urj1-s21q3umz[1].jpeg](https://cdn.hashnode.com/res/hashnode/image/upload/v1598399872287/1vrhfU5gZ.jpeg)
 
 ## Reasons to use it
+
 Having stated the arguments against Singleton let’s try to see the possible benefits:
 
 ### 1. It allows us to save up memory
@@ -236,11 +250,17 @@ Access and creation of the single instance are not coupled. Creation is done thr
 
 There are objects that require a certain cost of resources to create. If this cost is large, we will not be able to generate them constantly. One possible solution is to use a Singleton and have it available all time. As always we will focus on **what** and we will look for some other **hows** generating less coupling. If we need a single control point or a cache we will have to access a known object related to a certain context (and easily replaceable according to the environment, the test setup, etc.). Certainly a Singleton will not be our first choice.
 
+![Pros and Cons](Pros%20and%20Cons.png)
+
 # Solutions 😃
 
 There are multiple techniques to gradually remove the (ab)use of Singletons. In this article we list some of them:
 
 [How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
+
+And you can use this refactoring
+
+[Refactoring 018 - Replace Singleton](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20018%20-%20Replace%20Singleton/readme.md)
 
 # Conclusion 🏁
 
@@ -249,5 +269,3 @@ The disadvantages listed in this article are much greater than the advantages, a
 Part of the objective of this series of articles is to generate spaces for debate and discussion on software design.
 
 We look forward to comments and suggestions on this article!
-
-If you liked this post, you can follow me on [Twitter](https://twitter.com/mcsee1) where I share daily tips about coding and software design.

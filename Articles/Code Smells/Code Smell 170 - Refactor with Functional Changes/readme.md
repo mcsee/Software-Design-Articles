@@ -77,7 +77,7 @@ This is a refactoring smell.
 
 # Tags 🏷️
 
-- Refactoring
+- Fail-Fast
 
 # Conclusion 🏁
 

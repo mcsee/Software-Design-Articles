@@ -12,7 +12,7 @@ Machine learning does an excellent job on making repetitive tasks inferring prop
 
 > Today’s state of the art does not threaten good software engineers (yet).
 
-Any Deep Neural Network can learn Knuth’s three volumes of [the art of computer programming](https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming) and accurately choose which algorithm and data structure best fits in order to achieve a goal. Nevertheless is not an easy task to mimic computational models against real-world because **real-world is subjective**.
+Any Deep Neural Network can learn Knuth’s three volumes of [the art of computer programming](https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming) and accurately choose which algorithm and data structure best fits to achieve a goal. Nevertheless is not an easy task to mimic computational models against real-world because **real-world is subjective**.
 
 [What is (wrong with) software?](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 

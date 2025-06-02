@@ -34,7 +34,7 @@ An AI companion can provide personalized help and support as you learn to progra
 
 It can answer your questions, provide resources, and give you feedback on your progress and code quality. 
 
-It can also warn of [Code Smells](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md), and [bad design decisions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md) and [suggest improvements](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20007%20-%20Extract%20Class/readme.md).
+It can also warn of [Code Smells](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md), and [bad design decisions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20Root%20of%20All%20Evil/readme.md) and [suggest improvements](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20007%20-%20Extract%20Class/readme.md).
 
 An AI companion can keep you motivated and on track by setting goals and providing reminders.
 

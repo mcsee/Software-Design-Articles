@@ -160,7 +160,7 @@ public class SoccerMatch {
 > The NoExtraTime class can be eliminated without compromising the code's 
 > functionality.
 
-* .. and suggests using the first version with [the billion-dollar mistake problem!](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare/)*
+*.. and suggests using the first version with [the billion-dollar mistake problem!](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare/)*
 
 # Type 📝
 

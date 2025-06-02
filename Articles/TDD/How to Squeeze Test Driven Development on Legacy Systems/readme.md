@@ -70,7 +70,7 @@ If the all test passes restart the process or ...
 
 Test must be in *full environmental control*.
 
-No Globals, No [Singletons](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md), [No Settings](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2029%20-%20Settings%20-%20Configs/readme.md), No [Database](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2031%20-%20Accidental%20Methods%20on%20Business%20Objects/readme.md), No Caches, No External API Calls and no side effects at all.
+No Globals, No [Singletons](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20Root%20of%20All%20Evil/readme.md), [No Settings](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2029%20-%20Settings%20-%20Configs/readme.md), No [Database](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2031%20-%20Accidental%20Methods%20on%20Business%20Objects/readme.md), No Caches, No External API Calls and no side effects at all.
 
 TDD can detect [coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md) problems. 
 

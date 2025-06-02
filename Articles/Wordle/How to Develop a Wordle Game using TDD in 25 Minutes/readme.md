@@ -132,7 +132,7 @@ Test fails...
 
 # Changing the current implementation
 
-We need to change our implementation in order to make test02 pass (and also test01)
+We need to change our implementation to make test02 pass (and also test01)
 
 <!-- [Gist Url](https://gist.github.com/mcsee/a770dda356cf209748d20dd44b71f8fc) -->
 

@@ -87,7 +87,7 @@ Many linters can warn us from reusing variables
 
 # Tags 🏷️
 
-- Readability
+- Fail-Fast
 
 # Level 🔋
 

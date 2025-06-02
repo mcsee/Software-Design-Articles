@@ -30,7 +30,7 @@ In this repository, you will find many articles related to Software Design
 
 * [Programming as Theory Building](/Articles/Theory/Programming%20as%20Theory%20Building/readme.md)
 
-* [Singleton - The root of all evil](/Articles/Theory/Singleton%20-%20The%20root%20of%20all%20evil/readme.md)
+* [Singleton - The Root of All Evil](/Articles/Theory/Singleton%20-%20The%20Root%20of%20All%20Evil/readme.md)
 
 * [The Evil Power of Mutants](/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
@@ -855,6 +855,8 @@ In this repository, you will find many articles related to Software Design
 * [Refactoring 027 - Remove Getters](/Articles/Refactorings/Refactoring%20027%20-%20Remove%20Getters/readme.md)
 
 * [Refactoring 028 - Replace Consecutive IDs with Dark Keys](/Articles/Refactorings/Refactoring%20028%20-%20Replace%20Consecutive%20IDs%20with%20Dark%20Keys/readme.md)
+
+* [Refactoring 029 - Replace NULL With Collection](/Articles/Refactorings/Refactoring%20029%20-%20Replace%20NULL%20With%20Collection/readme.md)
 
 ### Wordle
 
