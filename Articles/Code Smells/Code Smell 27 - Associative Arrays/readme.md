@@ -130,7 +130,7 @@ We should avoid them on our systems.
 
 # Tags 🏷️
 
-- Primitive
+- Primitive Obsession
 
 # Conclusion 🏁
 

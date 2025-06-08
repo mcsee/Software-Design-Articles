@@ -15,7 +15,7 @@ public class ShoppingCart {
     }
     
     public boolean hasUnsavedChanges() {
-        return !items.isEmpty() || !coupon.isPresent();
+        return !items.isEmpty() || coupon.isPresent();
     }
 
     public boolean hasCoupon() {

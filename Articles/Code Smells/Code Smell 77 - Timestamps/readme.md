@@ -58,7 +58,7 @@ We need to use them just to model... timestamps.
 
 # Tags 🏷️
 
-- Bijection
+- Primitive Obsession
 
 # Level 🔋
 

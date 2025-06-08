@@ -98,7 +98,7 @@ It is related to how we model things.
 
 # Tags 🏷️
 
-- Primitive
+- Primitive Obsession
 
 # Conclusion 🏁
 

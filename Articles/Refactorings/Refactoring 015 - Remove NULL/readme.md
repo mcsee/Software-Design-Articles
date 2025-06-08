@@ -196,6 +196,8 @@ The Null Object Pattern ensures you always work with objects, avoiding null poin
 
 [Refactoring 014 - Remove IF](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20014%20-%20Remove%20IF/readme.md)
 
+[Refactoring 029 - Replace NULL With Collection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20029%20-%20Replace%20NULL%20With%20Collection/readme.md)
+
 # See also 📚
 
 [Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)

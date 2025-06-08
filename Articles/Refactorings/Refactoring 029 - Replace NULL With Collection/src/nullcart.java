@@ -14,12 +14,12 @@ public class ShoppingCart {
         double total = 0;
         
         for (Item item : this.items) {
-            total += item.getPrice();
+            total += item.price();
         }
         
         // This a polluted IF and null check
         if (this.coupon != null) {
-            total -= this.coupon.getDiscount();
+            total -= this.coupon.discount();
         }
         
         return total;
