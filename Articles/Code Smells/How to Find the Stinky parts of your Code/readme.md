@@ -616,6 +616,8 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 301 - Database as Parameter](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20301%20-%20Database%20as%20Parameter/readme.md)
 
+[Code Smell 302 - Misleading Status Codes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20302%20-%20Misleading%20Status%20Codes/readme.md)
+
 ... and many more to come.
 
 * * *

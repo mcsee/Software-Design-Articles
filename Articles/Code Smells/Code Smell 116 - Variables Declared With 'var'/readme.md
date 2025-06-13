@@ -44,8 +44,6 @@ With [mutation testing](https://en.wikipedia.org/wiki/Mutation_testing) by forci
 
 - Mutability
 
-- Javascript
-
 # Conclusion 🏁
 
 Readability is always very important. 
