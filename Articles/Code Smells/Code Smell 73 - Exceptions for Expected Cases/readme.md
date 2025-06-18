@@ -50,7 +50,7 @@ This is a semantic smell. Unless we use machine learning linters it will be very
 
 # Tags 🏷️
 
-- Readability
+- Exceptions
 
 # Conclusion 🏁
 

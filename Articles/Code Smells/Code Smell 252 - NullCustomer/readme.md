@@ -117,7 +117,7 @@ You can search for names including implementation patterns and check if they rep
 
 # Tags 🏷️
 
-- Naming 
+- Null 
 
 # Level 🔋
 

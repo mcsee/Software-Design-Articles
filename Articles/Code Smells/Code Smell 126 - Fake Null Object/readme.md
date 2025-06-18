@@ -174,11 +174,11 @@ Too many smells to avoid.
 
 # More Information 📕
 
-- [Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
+[Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
-- [Null Object Wikipedia](https://en.wikipedia.org/wiki/Null_object_pattern)
+[Null Object Wikipedia](https://en.wikipedia.org/wiki/Null_object_pattern)
 
-- [Refactoring.guru](https://refactoring.guru/es/introduce-null-object)
+[Refactoring.guru](https://refactoring.guru/es/introduce-null-object)
 
 # Credits 🙏
 

@@ -618,6 +618,10 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 302 - Misleading Status Codes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20302%20-%20Misleading%20Status%20Codes/readme.md)
 
+[Code Smell 303 - Breaking Changes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20303%20-%20Breaking%20Changes/readme.md)
+
+[Code Smell 304 - Null Pointer Exception](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20304%20-%20Null%20Pointer%20Exception/readme.md)
+
 ... and many more to come.
 
 * * *
@@ -636,7 +640,7 @@ _Martin Fowler_
 
 * * *
 
-Part of the objective of this series of articles is to generate spaces for debate and discussion on software design.
+Part of the objective of this series is to generate spaces for debate and discussion on software design.
 
 [Object Design Checklist](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Object%20Design%20Checklist/readme.md)
 

@@ -64,7 +64,7 @@ But in many cases, we need an excellent designer to validate the actual need.
 
 # Tags 🏷️
 
-- Anemic
+- Primitive Obsession
 
 # Conclusion 🏁
 

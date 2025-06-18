@@ -123,7 +123,7 @@ Human code reviews are good for checking this kind of problem.
 
 # Tags 🏷️
 
-* Null
+- Null
     
 # Level 🔋
 
