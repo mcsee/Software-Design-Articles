@@ -168,7 +168,7 @@ According to Naur, the model should remain solely as a theory among the particip
 
 [The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
-[GPT3](https://en.wikipedia.org/wiki/GPT-3) and the other [transformers](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model) are cornering programmers who write code without understanding the underlying theory. We still have time to avoid it.
+[GPT3](https://en.wikipedia.org/wiki/GPT-3) and the other [transformers](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)) are cornering programmers who write code without understanding the underlying theory. We still have time to avoid it.
 
 [Most Programmers are losing our jobs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Opinion/(Most)%20Programmers%20are%20losing%20our%20jobs%20very%20soon/readme.md)
 
@@ -185,5 +185,3 @@ Part of the objective of this series of articles is to generate spaces for debat
 [Object Design Checklist](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Object%20Design%20Checklist/readme.md)
 
 We look forward to comments and suggestions on this article.
-
-You can hit me up on  [twitter](https://twitter.com/mcsee1).

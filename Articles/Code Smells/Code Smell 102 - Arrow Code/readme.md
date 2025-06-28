@@ -40,9 +40,7 @@ Since many linters can parse trees, we can check on compile-time for nesting lev
 
 # Tags 🏷️
 
-- Readability
-
-- Complexity
+- IFs
 
 # Conclusion 🏁
 

@@ -2,4 +2,4 @@
 
 ![Software Design Videos](Software%20Design%20Videos.png)
 
-> TL;DR: complete
+> TL;DR: to be defined

@@ -78,7 +78,7 @@ A more elegant solution would be to declare [an interface](https://github.com/mc
 
 # Tags 🏷️
 
-- Over Design
+- Bloaters
 
 # Conclusion 🏁
 

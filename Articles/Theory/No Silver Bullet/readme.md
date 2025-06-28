@@ -2,7 +2,7 @@
 
 ![No Silver Bullet](No%20Silver%20Bullet.jpg)
 
-* The phrase "No Silver Bullet" is widely used in the industry. In this article we will revisit the classic paper by Fred Brooks that gave rise to it.*
+*The phrase "No Silver Bullet" is widely used in the industry. In this article we will revisit the classic paper by Fred Brooks that gave rise to it.*
 
 > TL;DR: The Essence and Accident of Software
 

@@ -22,6 +22,10 @@
 
 3. Refactor.
 
+# Refactorings ⚙️
+
+[Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
+
 # Sample Code 📖
 
 ## Wrong 🚫
@@ -107,9 +111,9 @@ This problem shines at the naked eye. Many linters can detect this complexity an
 
 # Conclusion 🏁
 
-Callback Hell is a very common problem in programming languages with futures or promises.
+Callback Hell is a widespread problem in programming languages with futures or promises.
 
-Callbacks are added in an incremental way. There's no much mess at the beginning.
+Callbacks are added incrementally. There's no much mess at the beginning.
 
 Complexity without refactoring makes them hard to read and debug.
 

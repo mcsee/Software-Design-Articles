@@ -122,3 +122,9 @@ ChatGPT represents a significant advancement in the field of NLP and Artificial 
 ---
 
 Regardless of your level of expertise, ChatGPT and its successors will have a significant impact on your daily life and work.
+
+* * *
+
+This article is part of the Explain in Five Levels Series
+
+[Explain in 5 Levels of Difficulty](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty/readme.md)

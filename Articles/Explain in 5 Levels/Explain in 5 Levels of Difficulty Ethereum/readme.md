@@ -80,3 +80,8 @@ Ethereum is evolving toward scalability and sustainability through its roadmap f
 
 Ethereum will be the backbone of [Web3](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Web3/Web3%20For%20Dummies%20-%20Part%2001%20-%20What%20is%20a%20Blockchain/readme.md). 
 
+* * *
+
+This article is part of the Explain in Five Levels Series
+
+[Explain in 5 Levels of Difficulty](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty/readme.md)

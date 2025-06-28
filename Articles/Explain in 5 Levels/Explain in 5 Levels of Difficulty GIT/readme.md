@@ -101,3 +101,9 @@ The process of a three-way merge works as follows:
 4. GIT takes the common ancestor version of the file and applies the changes recorded in the current and target versions to it. If any conflicts arise (for example, if the same lines of code have been changed in both the current and target branches), GIT will mark these conflicts in the final version of the file and prompt the user to resolve them manually.
 
 By using this algorithm, GIT can efficiently manage merge conflicts and guarantee that the ultimate version of the file represents a coherent and consistent integration of the changes made in both branches.
+
+* * *
+
+This article is part of the Explain in Five Levels Series
+
+[Explain in 5 Levels of Difficulty](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty/readme.md)

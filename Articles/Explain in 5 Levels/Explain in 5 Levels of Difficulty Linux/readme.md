@@ -46,7 +46,7 @@ Even [Robots on Mars](https://www.pcmag.com/news/linux-is-now-on-mars-thanks-to-
 
 Despite its many benefits, Linux is not without its drawbacks. 
 
-One of the biggest problems is that it can be difficult to use for people who are not familiar with it.
+One of the biggest problems is that it can be challenging to use for people who are not familiar with it.
 
 There are not as many software applications available for Linux as there are for Windows.
 
@@ -131,3 +131,9 @@ Linux is a great choice for many people. It is also very secure and stable, maki
 ---
 
 Whatever your level of expertise, you can take advantage of Linux in your work and daily life.
+
+* * *
+
+This article is part of the Explain in Five Levels Series
+
+[Explain in 5 Levels of Difficulty](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty/readme.md)

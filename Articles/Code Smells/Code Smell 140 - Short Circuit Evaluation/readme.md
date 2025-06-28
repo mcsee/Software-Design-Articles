@@ -67,7 +67,7 @@ if the operands have side effects, this is another code smell.
 
 # Tags 🏷️
 
-- Boolean
+- IFs
 
 # Conclusion 🏁
 
@@ -87,7 +87,7 @@ We need to favor these kinds of expressions.
 
 # More Information 📕
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Short-circuit_evaluation)
+[Wikipedia](https://en.wikipedia.org/wiki/Short-circuit_evaluation)
 
 * * *
 

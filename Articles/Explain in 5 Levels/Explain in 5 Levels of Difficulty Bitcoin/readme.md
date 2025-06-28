@@ -81,3 +81,9 @@ With every halving, the supply decreases. The last Bitcoin will be issued around
 * * * 
 
 Are you a Bitcoin enthusiast?
+
+* * *
+
+This article is part of the Explain in Five Levels Series
+
+[Explain in 5 Levels of Difficulty](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty/readme.md)

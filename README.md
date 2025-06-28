@@ -684,6 +684,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 304 - Null Pointer Exception](/Articles/Code%20Smells/Code%20Smell%20304%20-%20Null%20Pointer%20Exception/readme.md)
 
+* [Code Smell 305 - Null Infinity](/Articles/Code%20Smells/Code%20Smell%20305%20-%20Null%20Infinity/readme.md)
+
 ### Blogging
 
 * [Content Structure: The Do's and Dont's of Content Creation](/Articles/Blogging/68%20-%20Content%20Structure%20The%20Do%27s%20and%20Dont%27s%20of%20Content%20Creation/readme.md)
@@ -880,6 +882,8 @@ In this repository, you will find many articles related to Software Design
 
 ### Explain in 5 Levels
 
+* [Explain in 5 Levels of Difficulty](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty/readme.md)
+
 * [Explain in 5 Levels of Difficulty: Bitcoin](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20Bitcoin/readme.md)
 
 * [Explain in 5 Levels of Difficulty: ChatGPT](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20ChatGPT/readme.md)
@@ -895,6 +899,8 @@ In this repository, you will find many articles related to Software Design
 * [Explain in 5 Levels of Difficulty: Quantum Computing](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20Quantum%20Computing/readme.md)
 
 * [Explain in 5 Levels of Difficulty: The Fermi Paradox](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20The%20Fermi%20Paradox/readme.md)
+
+* [Explain in 5 Levels of Difficulty: Vibe Coding](/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20Vibe%20Coding/readme.md)
 
 ### Security
 

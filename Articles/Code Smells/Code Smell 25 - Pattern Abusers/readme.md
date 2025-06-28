@@ -62,9 +62,7 @@ A class name with more than one pattern on it, is a warning.
 
 # Tags 🏷️
 
-- Abuser
-
-- Naming
+- Bloaters
 
 # Conclusion 🏁
 

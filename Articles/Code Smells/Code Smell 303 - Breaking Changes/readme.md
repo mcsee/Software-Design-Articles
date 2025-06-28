@@ -48,7 +48,7 @@ When you update an API without maintaining backward compatibility, you risk brea
 
 This creates instability, frustration, and costly fixes for users.
 
-Clients often tolerate [defects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quality/Stop%20Calling%20them%20'Bugs'/readme.md) on new functionalities, but never a previous stable behavior broken.
+Clients often tolerate [defects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quality/Stop%20Calling%20them%20'Bugs'/readme.md) in new functionalities, but never a previously stable behavior broken.
 
 Proper versioning ensures smooth transitions and maintains your system's reliability.
 
