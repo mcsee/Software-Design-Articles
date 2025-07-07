@@ -686,6 +686,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 305 - Null Infinity](/Articles/Code%20Smells/Code%20Smell%20305%20-%20Null%20Infinity/readme.md)
 
+* [Code Smell 306 - AI External Comments](/Articles/Code%20Smells/Code%20Smell%20306%20-%20AI%20External%20Comments/readme.md)
+
 ### Blogging
 
 * [Content Structure: The Do's and Dont's of Content Creation](/Articles/Blogging/68%20-%20Content%20Structure%20The%20Do%27s%20and%20Dont%27s%20of%20Content%20Creation/readme.md)
@@ -908,11 +910,11 @@ In this repository, you will find many articles related to Software Design
 
 ### Podcasts
 
-* [How to Improve Software Quality, and reduce bugs in Startups](/Articles/Podcasts/02%20-%20How%20to%20Improve%20Software%20Quality%2C%20and%20reduce%20bugs%20in%20Startups/readme.md)
+* [How to Improve Software Quality, and reduce bugs in Startups](/Articles/Podcasts/How%20to%20Improve%20Software%20Quality%2C%20and%20reduce%20bugs%20in%20Startups/readme.md)
 
 * [Maxi Contieri Explains ChatGPT Revolution](/Articles/Podcasts/Maxi%20Contieri%20Explains%20ChatGPT%20Revolution/readme.md)
 
-* [Maximiliano Contieri on Bridging the Industry-Academia Divide](/Articles/Podcasts/01%20-%20Maximiliano%20Contieri%20on%20Bridging%20the%20Industry-Academia%20Divide/readme.md)
+* [Maximiliano Contieri on Bridging the Industry-Academia Divide](/Articles/Podcasts/Maximiliano%20Contieri%20on%20Bridging%20the%20Industry-Academia%20Divide/readme.md)
 
 ### Videos
 

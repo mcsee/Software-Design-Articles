@@ -126,11 +126,7 @@ Tip: (Thanks [@GreenFieldCoder](https://twitter.com/GreenFieldCoder))
 > Also prevents you from writing new comments.
 
 # Tags 🏷️
-
-- Readability
-
-- Long Methods
-
+ 
 - Comments
 
 # Level 🔋

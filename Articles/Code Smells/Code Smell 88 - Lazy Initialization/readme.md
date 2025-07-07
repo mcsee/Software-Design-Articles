@@ -73,7 +73,7 @@ It should be straightforward to detect them.
 
 # Tags 🏷️
 
-- Premature Optimization
+- Mutability
 
 # Level 🔋
 

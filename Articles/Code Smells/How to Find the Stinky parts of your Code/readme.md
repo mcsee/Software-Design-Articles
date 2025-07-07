@@ -624,6 +624,8 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 305 - Null Infinity](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20305%20-%20Null%20Infinity/readme.md)
 
+[Code Smell 306 - AI External Comments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20306%20-%20AI%20External%20Comments/readme.md)
+
 ... and many more to come.
 
 * * *
