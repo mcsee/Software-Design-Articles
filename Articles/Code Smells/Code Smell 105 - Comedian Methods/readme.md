@@ -56,7 +56,7 @@ Naming conventions should be generic and should not include cultural jargon.
 
 # Tags 🏷️
 
-- Naming
+- Declarative Code
 
 # Conclusion 🏁
 

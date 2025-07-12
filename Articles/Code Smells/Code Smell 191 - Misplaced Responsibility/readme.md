@@ -95,7 +95,7 @@ This is a semantic smell.
 
 # Tags 🏷️
 
-- Behavior
+- Declarative Code
 
 # Conclusion 🏁
 

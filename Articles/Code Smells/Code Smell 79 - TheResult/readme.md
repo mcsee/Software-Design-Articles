@@ -54,7 +54,7 @@ As with many of our naming conventions, we can instruct our linters to forbid na
 
 # Tags 🏷️
 
-- Readability
+- Naming
 
 # Level 🔋
 

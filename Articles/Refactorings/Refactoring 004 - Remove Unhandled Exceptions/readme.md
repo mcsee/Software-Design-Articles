@@ -4,7 +4,7 @@
 
 *Creating YAGNI exception classes pollutes our environment. Let's remove them.*
 
-> TL;DR: Remove unnecessary and not references empty exception classes.
+> TL;DR: Remove unnecessary and unreferenced empty exception classes.
 
 # Problems Addressed 😔
 
@@ -62,7 +62,7 @@ end
 
 [X] Automatic
 
-If the Exception class has no references we can perform a Safe Remove and replace it with *Exception* class.
+If the Exception class has no references, you can perform a Safe Remove and replace it with *Exception* class.
 
 # Safety 🛡️
 
@@ -70,15 +70,44 @@ Unless you use metaprogramming, checking for references should be safe enough.
 
 # Why is the Code Better? ✨
 
-- We remove an empty class nobody uses. 
+- You remove an empty class that nobody uses. 
 
-- We shrink the code
+- You shrink the code.
+
+# How Does it Improve the Bijection? 🗺️
+
+You remove noise that breaks the [1:1 relationship](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) between concepts and code. 
+
+Each class should represent something meaningful. 
+
+An unused exception pretends there's a case that never occurs. It lies. 
+
+By deleting it, you align your code more closely to the truth. 
+
+Now, each exception you see signals a real event, not a hypothetical one.
 
 # Limitations ⚠️
 
 If we need to declare an empty exception class as documentation for an API module, our clients might need to catch it.
 
-This is a [gold plating](https://en.wikipedia.org/wiki/Gold_plating_(project_management) and [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) example.
+This is a [gold plating](https://en.wikipedia.org/wiki/Gold_plating_(project_management)) and [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) example.
+
+# Refactor with AI 🤖
+
+> Suggested Prompt: 1. Check there are no references to the empty exception class.2. Replace the throw sentence with a generic one.
+
+| Without Proper Instructions    | With Specific Instructions |
+| -------- | ------- |
+| [ChatGPT](https://chat.openai.com/?q=Correct+and+explain+this+code%3A+%60%60%60ruby%0D%0Aclass+RangeNotSatisfiedException+%3C+StandardError%0D%0Aend%0D%0A%0D%0Abegin%0D%0A++++raise+RangeNotSatisfiedException.new%0D%0A++++++%22Range+must+be+betweet+0+and+10%22%0D%0Arescue+RangeNotSatisfiedException+%3D%3E+e%0D%0A++++puts+e.message+%0D%0A++++puts+e.exception_type+%0D%0Aend%0D%0A%60%60%60) | [ChatGPT](https://chat.openai.com/?q=1.+Check+there+are+no+references+to+the+empty+exception+class.2.+Replace+the+throw+sentence+with+a+generic+one.%3A+%60%60%60ruby%0D%0Aclass+RangeNotSatisfiedException+%3C+StandardError%0D%0Aend%0D%0A%0D%0Abegin%0D%0A++++raise+RangeNotSatisfiedException.new%0D%0A++++++%22Range+must+be+betweet+0+and+10%22%0D%0Arescue+RangeNotSatisfiedException+%3D%3E+e%0D%0A++++puts+e.message+%0D%0A++++puts+e.exception_type+%0D%0Aend%0D%0A%60%60%60) |
+| [Claude](https://claude.ai/new?q=Correct+and+explain+this+code%3A+%60%60%60ruby%0D%0Aclass+RangeNotSatisfiedException+%3C+StandardError%0D%0Aend%0D%0A%0D%0Abegin%0D%0A++++raise+RangeNotSatisfiedException.new%0D%0A++++++%22Range+must+be+betweet+0+and+10%22%0D%0Arescue+RangeNotSatisfiedException+%3D%3E+e%0D%0A++++puts+e.message+%0D%0A++++puts+e.exception_type+%0D%0Aend%0D%0A%60%60%60) | [Claude](https://claude.ai/new?q=1.+Check+there+are+no+references+to+the+empty+exception+class.2.+Replace+the+throw+sentence+with+a+generic+one.%3A+%60%60%60ruby%0D%0Aclass+RangeNotSatisfiedException+%3C+StandardError%0D%0Aend%0D%0A%0D%0Abegin%0D%0A++++raise+RangeNotSatisfiedException.new%0D%0A++++++%22Range+must+be+betweet+0+and+10%22%0D%0Arescue+RangeNotSatisfiedException+%3D%3E+e%0D%0A++++puts+e.message+%0D%0A++++puts+e.exception_type+%0D%0Aend%0D%0A%60%60%60) |
+| [Perplexity](https://www.perplexity.ai/?q=Correct+and+explain+this+code%3A+%60%60%60ruby%0D%0Aclass+RangeNotSatisfiedException+%3C+StandardError%0D%0Aend%0D%0A%0D%0Abegin%0D%0A++++raise+RangeNotSatisfiedException.new%0D%0A++++++%22Range+must+be+betweet+0+and+10%22%0D%0Arescue+RangeNotSatisfiedException+%3D%3E+e%0D%0A++++puts+e.message+%0D%0A++++puts+e.exception_type+%0D%0Aend%0D%0A%60%60%60) | [Perplexity](https://www.perplexity.ai/?q=1.+Check+there+are+no+references+to+the+empty+exception+class.2.+Replace+the+throw+sentence+with+a+generic+one.%3A+%60%60%60ruby%0D%0Aclass+RangeNotSatisfiedException+%3C+StandardError%0D%0Aend%0D%0A%0D%0Abegin%0D%0A++++raise+RangeNotSatisfiedException.new%0D%0A++++++%22Range+must+be+betweet+0+and+10%22%0D%0Arescue+RangeNotSatisfiedException+%3D%3E+e%0D%0A++++puts+e.message+%0D%0A++++puts+e.exception_type+%0D%0Aend%0D%0A%60%60%60) |
+| [Copilot](https://www.bing.com/chat?showconv=1&sendquery=1&q=Correct+and+explain+this+code%3A+%60%60%60ruby%0D%0Aclass+RangeNotSatisfiedException+%3C+StandardError%0D%0Aend%0D%0A%0D%0Abegin%0D%0A++++raise+RangeNotSatisfiedException.new%0D%0A++++++%22Range+must+be+betweet+0+and+10%22%0D%0Arescue+RangeNotSatisfiedException+%3D%3E+e%0D%0A++++puts+e.message+%0D%0A++++puts+e.exception_type+%0D%0Aend%0D%0A%60%60%60) | [Copilot](https://www.bing.com/chat?showconv=1&sendquery=1&q=1.+Check+there+are+no+references+to+the+empty+exception+class.2.+Replace+the+throw+sentence+with+a+generic+one.%3A+%60%60%60ruby%0D%0Aclass+RangeNotSatisfiedException+%3C+StandardError%0D%0Aend%0D%0A%0D%0Abegin%0D%0A++++raise+RangeNotSatisfiedException.new%0D%0A++++++%22Range+must+be+betweet+0+and+10%22%0D%0Arescue+RangeNotSatisfiedException+%3D%3E+e%0D%0A++++puts+e.message+%0D%0A++++puts+e.exception_type+%0D%0Aend%0D%0A%60%60%60) |
+| [You](https://you.com/search?q=Correct+and+explain+this+code%3A+%60%60%60ruby%0D%0Aclass+RangeNotSatisfiedException+%3C+StandardError%0D%0Aend%0D%0A%0D%0Abegin%0D%0A++++raise+RangeNotSatisfiedException.new%0D%0A++++++%22Range+must+be+betweet+0+and+10%22%0D%0Arescue+RangeNotSatisfiedException+%3D%3E+e%0D%0A++++puts+e.message+%0D%0A++++puts+e.exception_type+%0D%0Aend%0D%0A%60%60%60) | [You](https://you.com/search?q=1.+Check+there+are+no+references+to+the+empty+exception+class.2.+Replace+the+throw+sentence+with+a+generic+one.%3A+%60%60%60ruby%0D%0Aclass+RangeNotSatisfiedException+%3C+StandardError%0D%0Aend%0D%0A%0D%0Abegin%0D%0A++++raise+RangeNotSatisfiedException.new%0D%0A++++++%22Range+must+be+betweet+0+and+10%22%0D%0Arescue+RangeNotSatisfiedException+%3D%3E+e%0D%0A++++puts+e.message+%0D%0A++++puts+e.exception_type+%0D%0Aend%0D%0A%60%60%60) |
+| [Gemini](https://gemini.google.com/) | [Gemini](https://gemini.google.com/) | 
+| [DeepSeek](https://chat.deepseek.com/) | [DeepSeek](https://chat.deepseek.com/) | 
+| [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
+| [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
+| [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
 # Tags 🏷️
 
@@ -90,7 +119,7 @@ This is a [gold plating](https://en.wikipedia.org/wiki/Gold_plating_(project_man
 
 # Related Refactorings 🔄
 
-- Safe Remove
+[Refactoring 021 - Remove Dead Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20021%20-%20Remove%20Dead%20Code/readme.md)
 
 # Credits 🙏
 

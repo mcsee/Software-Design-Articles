@@ -61,12 +61,9 @@ Many linters can detect number literals in attributes and methods.
 
 # Tags 🏷️
 
-- Hard coded
-
-- Constants
+- Declarative Code
 
 # Conclusion 🏁
-
  
 You should address and remove your magic numbers to safeguard your code's readability, maintainability, and testability. 
 

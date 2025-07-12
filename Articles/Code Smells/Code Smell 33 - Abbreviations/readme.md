@@ -82,7 +82,7 @@ Some "modern" and shinny languages enforce this bad practice. So we should wisel
  
 # Tags 🏷️
 
-- Declarative
+- Naming
 
 # Conclusion 🏁
 

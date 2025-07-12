@@ -58,7 +58,7 @@ We can check for constant values on the first side of the comparison.
 
 # Tags 🏷️
 
-- Readability
+- Declarative Code
 
 # Conclusion 🏁
 

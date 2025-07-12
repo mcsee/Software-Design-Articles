@@ -69,9 +69,7 @@ We should be very declarative and explicit and don't abuse language accidental m
  
 # Tags 🏷️
 
-- Declarative
-
-- Smart
+- Declarative Code
 
 # Conclusion 🏁
 

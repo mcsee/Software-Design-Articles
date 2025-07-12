@@ -80,7 +80,7 @@ This is a semantic and naming smell.
 
 # Tags 🏷️
 
-- Readability
+- Declarative Code
 
 # Conclusion 🏁
 

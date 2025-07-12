@@ -52,9 +52,7 @@ PlanetarySystem.CentralStarCatalogEntry
 
 Our linters can warn us with too long names.
 
-# Tags 🏷️
-
-- Bloaters
+# Tags � 
 
 - Naming
 

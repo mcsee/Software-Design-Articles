@@ -69,10 +69,8 @@ This is a policy smell. Every linter can detect blank lines and warn us.
 
 # Tags 🏷️
 
-- Readability
-
-- Long Methods
-
+- Declarative Code
+ 
 # Conclusion 🏁
 
 Empty lines are harmless, but show us an opportunity to break the code into small steps.

@@ -99,7 +99,7 @@ Since type checking methods are well known it is very easy to set up a code poli
 
 # Tags 🏷️
 
-- Metaprogramming
+- Types
 
 # Conclusion 🏁
 

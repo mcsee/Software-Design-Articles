@@ -68,7 +68,7 @@ Linters can use the parse tree to find variable definition and usages.
 
 # Tags 🏷️
 
-- Readability
+- Declarative Code
 
 # Conclusion 🏁
 

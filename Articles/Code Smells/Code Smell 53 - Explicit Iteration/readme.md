@@ -58,7 +58,7 @@ Remember all time to find real-world analogies.
 
 # Tags 🏷️
 
-- Declarative
+- Declarative Code
 
 # Conclusion 🏁
 

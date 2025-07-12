@@ -52,6 +52,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Rethinking Leap Years: Why Your Favorite Programming Language's Approach May Be Flawed](/Articles/Opinion/Rethinking%20Leap%20Years%20Why%20Your%20Favorite%20Programming%20Language%27s%20Approach%20May%20Be%20Flawed/readme.md)
 
+* [Satellites, Sovereignty, and the Next Internet Revolution](/Articles/Opinion/Satellites%2C%20Sovereignty%2C%20and%20the%20Next%20Internet%20Revolution/readme.md)
+
 * [Software Engineer Maxi Contieri on writing about "boring" fundamentals](/Articles/Opinion/Software%20Engineer%20Maxi%20Contieri%20on%20writing%20about%20boring%20fundamentals/readme.md)
 
 * [Warning: The Universe's Event Simulator Is a Fierce Adversary for Coders!](/Articles/Opinion/Warning%20The%20Universe%27s%20Event%20Simulator%20Is%20a%20Fierce%20Adversary%20for%20Coders/readme.md)
@@ -688,6 +690,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 306 - AI External Comments](/Articles/Code%20Smells/Code%20Smell%20306%20-%20AI%20External%20Comments/readme.md)
 
+* [Code Smell 307 - Naive Time Assumptions](/Articles/Code%20Smells/Code%20Smell%20307%20-%20Naive%20Time%20Assumptions/readme.md)
+
 ### Blogging
 
 * [Content Structure: The Do's and Dont's of Content Creation](/Articles/Blogging/68%20-%20Content%20Structure%20The%20Do%27s%20and%20Dont%27s%20of%20Content%20Creation/readme.md)
@@ -867,6 +871,8 @@ In this repository, you will find many articles related to Software Design
 * [Refactoring 028 - Replace Consecutive IDs with Dark Keys](/Articles/Refactorings/Refactoring%20028%20-%20Replace%20Consecutive%20IDs%20with%20Dark%20Keys/readme.md)
 
 * [Refactoring 029 - Replace NULL With Collection](/Articles/Refactorings/Refactoring%20029%20-%20Replace%20NULL%20With%20Collection/readme.md)
+
+* [Refactoring 030 - Inline Attributes](/Articles/Refactorings/Refactoring%20030%20-%20Inline%20Attributes/readme.md)
 
 ### Wordle
 

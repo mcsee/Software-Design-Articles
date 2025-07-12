@@ -172,7 +172,7 @@ const category = new CategoryCalculator().display(alice);
 
 # Tags 🏷️
 
-- Namings
+- Naming
 
 # Conclusion 🏁
 

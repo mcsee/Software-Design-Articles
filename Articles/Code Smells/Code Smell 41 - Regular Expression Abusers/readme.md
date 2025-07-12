@@ -50,9 +50,7 @@ There's not much automated way of checking for possible abusers. A whitelist mig
  
  # Tags 🏷️
 
-- Primitive Obsession
-
-- Abusers
+- Declarative Code
 
 # Level 🔋
 

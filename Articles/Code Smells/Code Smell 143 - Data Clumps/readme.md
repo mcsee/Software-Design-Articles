@@ -94,7 +94,7 @@ Detection based on cohesion patterns is available o a few linters.
 
 # Tags 🏷️
 
-- Cohesion
+- Coupling
 
 # Conclusion 🏁
 
