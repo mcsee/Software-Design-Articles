@@ -2,7 +2,7 @@
 
 ![Code Smell 307 - Naive Time Assumptions](Code%20Smell%20307%20-%20Naive%20Time%20Assumptions.jpg)
 
-*Don't reinvent time - you are probably doing it wrong*
+*Don't reinvent time. You are probably doing it wrong*
 
 > TL;DR: Time is not absolute. Your code breaks when you treat it that way.
 
@@ -30,23 +30,23 @@
 
 # Context 💬
 
-You think a day has 24 hours, weeks begin on Monday, or February always has 28 days.
+You think a day has 24 hours, weeks begin on Monday, or February always has 28 days. 
 
-Your users in São Paulo get a double midnight, and your backups skip a day in Sydney.
+Your users in Ouagadougou get a double midnight, and your backups skip a day in Sydney.
 
-Time illusions creep into your code when you assume it’s simple.
+Time illusions creep into your code when you assume it’s simple. 
 
 You build logic that fails during daylight-saving changes, leap seconds, or even when the clock drifts.
 
-Programmers are terrible when dealing with time.
+Programmers often struggle with time management.
 
-When you work with time in your applications, you face one of programming's most deceptive challenges.
+When you work with time in your applications, you face one of programming's most deceptive challenges. 
 
-Most developers start by writing simple time calculations, assuming that days always have 24 hours, months have consistent lengths, and time zones remain static.
+Most developers start by writing simple time calculations, assuming that days always have 24 hours, months have consistent lengths, and time zones remain static. 
 
-These assumptions create bugs that surface months or years later when your application encounters real-world time scenarios.
+These assumptions create [defects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quality/Stop%20Calling%20them%20'Bugs'/readme.md) that surface months or years later when your application encounters real-world time scenarios.
 
-Time handling represents a perfect example of the [Dunning-Kruger effect](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect) in programming. The more you learn about time, the more you realize how little you know.
+Time handling represents a perfect example of the [Dunning-Kruger effect](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect) in programming. The more you learn about time, the more you realize how little you know. 
 
 Political decisions change time zones, leap seconds adjust atomic time, and cultural differences affect calendar systems worldwide.
 
@@ -150,9 +150,9 @@ class TimeHandler:
 
 # Detection 🔍
 
-[X] Semi-Automatic
+[X] Semi-Automatic 
 
-You can detect this smell when you see hardcoded time calculations, assumptions about day lengths, timezone-naive datetime operations, or custom date arithmetic.
+You can detect this smell when you see hardcoded time calculations, assumptions about day lengths, timezone-naive datetime operations, or custom date arithmetic. 
 
 Look for [magic numbers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md) like 86400 (seconds in a day), 365 (days in a year), or hardcoded timezone offsets.
 
@@ -168,31 +168,33 @@ Watch for datetime operations that don't specify time zones, leap year calculati
 
 # Why the Bijection Is Important 🗺️
 
-Time in the real world is fuzzy, political, and full of exceptions.
+Time in the real world is fuzzy, political, and full of exceptions. 
 
-If your program models it as linear and perfect, you introduce a mismatch to the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md).
+If your program models it as linear and perfect, you introduce a mismatch to the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md). 
 
-That mismatch leads to bugs that are impossible to reproduce and hard to explain.
+That mismatch leads to [defects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quality/Stop%20Calling%20them%20'Bugs'/readme.md) that are impossible to reproduce and hard to explain.
 
-You need to represent time the way it behaves: with context, rules, and variability.
+You need to represent time in a way that reflects its behavior: with context, rules, and variability.
 
-When your code assumes simplified time behavior, you break the correspondence between your program's time model and reality.
+When your code assumes simplified time behavior, you break the correspondence between your program's time model and reality. 
 
-This creates [defects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quality/Stop%20Calling%20them%20'Bugs'/readme.md) that appear randomly when your application encounters real-world time scenarios like daylight saving time transitions, leap years, or timezone changes.
+This creates [defects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quality/Stop%20Calling%20them%20'Bugs'/readme.md) that appear randomly when your application encounters real-world time scenarios such as [daylight saving time](https://en.wikipedia.org/wiki/Daylight_saving_time) transitions, leap years, or timezone changes.
 
 Maintaining the bijection means respecting the true complexity of time and using established libraries that handle these edge cases correctly.
 
-Breaking this [correspondence](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)  leads to scheduling errors, incorrect age calculations, and data corruption in time-sensitive applications.
+Breaking this [correspondence](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) leads to scheduling errors, incorrect age calculations, and data corruption in time-sensitive applications.
 
-You cannot create a date from February 30th. You need to follow the [fail-fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md) principle
+You cannot create a date with a day of February 30th.
+
+You need to follow the [fail-fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md) principle
 
 # AI Generation 🤖
 
 AI often assumes *new Date()* works fine. Many generated examples ignore time zones, DST changes, and even correct parsing. AI helps you repeat illusions faster.
 
-AI code generators frequently create time-handling code with common falsehoods.
+AI code generators sometimes create time-handling code with common falsehoods. 
 
-They often generate simple date arithmetic, hardcoded timezone assumptions, and naive datetime operations because these patterns appear frequently in training data.
+They often generate simple date arithmetic, hardcoded timezone assumptions, and naive datetime operations because these patterns sometimes happen in training data.
 
 # AI Detection 🧲
 
@@ -223,9 +225,9 @@ You must explicitly ask for these checks, as AI won't automatically identify tim
 
 # Conclusion 🏁
 
-When you treat time as simple, your code lies. Time is a deeply broken concept riddled with politics, exceptions, and drift.
+When you treat time as simple, your code lies. Time is a deeply broken concept riddled with politics, exceptions, and drift. 
 
-Respect it and never write your own date logic.
+Respect it and never write your own date logic. 
 
 Use libraries that have spent decades fixing what you can’t even see.
 
@@ -260,13 +262,13 @@ Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/t
 # Credits 🙏
 
 Photo by [Luis Cortes](https://unsplash.com/@luiscortestamez) on [Unsplash](https://unsplash.com/photos/five-assorted-country-wall-clocks-QrPDA15pRkM)
-
+        
 * * *
 
 > A day can be 23 hours. Or 25. You just forgot.
 
-_Paul Ford_
-
+_Paul Ford_ 
+ 
 [Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
 * * *

@@ -69,7 +69,7 @@ All linters can measure and warn when methods are larger than a predefined thres
 
 # Tags 🏷️
 
-- Complexity
+- Bloaters
 
 # Conclusion 🏁
 

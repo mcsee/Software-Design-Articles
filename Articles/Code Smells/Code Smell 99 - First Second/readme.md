@@ -52,7 +52,7 @@ We can warn for forbidden words like 'first' and 'second' as argument names.
 
 # Tags 🏷️
 
-- Readability
+- Naming
 
 # Level 🔋
 

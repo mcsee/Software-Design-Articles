@@ -102,7 +102,7 @@ We can instruct our static linters to find wrapping methods if they follow conve
 
 # Tags 🏷️
 
-- Declarativiness
+- Naming
 
 # Level 🔋
 

@@ -73,7 +73,7 @@ Whenever we need to interact with out of our scope code, we should use the clien
 
 # Tags 🏷️
 
-- Naming
+- Standards
 
 # Conclusion 🏁
 

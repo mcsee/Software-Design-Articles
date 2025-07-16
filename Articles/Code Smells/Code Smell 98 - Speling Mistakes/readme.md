@@ -52,13 +52,9 @@ comboFedBySupplier = supplier.providers();
 [X] Automatic
 - Some IDEs have warnings on the typos.
 
-# Tags 🏷️
+# Tags 🏷️		    
 
-- Readability
-
-- Naming
-
-- Code Styling
+- Naming		 
 
 # Level 🔋
 

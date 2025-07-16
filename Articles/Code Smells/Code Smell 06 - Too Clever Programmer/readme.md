@@ -87,7 +87,7 @@ Watch some warnings related to complexity, bad names, post-increment variables, 
 
 # Tags 🏷️
 
-- Declarative
+- Complexity
 
 # Conclusion 🏁
 

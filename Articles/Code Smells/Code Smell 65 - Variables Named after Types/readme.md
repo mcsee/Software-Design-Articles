@@ -57,7 +57,7 @@ This is a semantic rule. We can instruct our linters to warn us from using names
 
 # Tags 🏷️
 
-- Declarative
+- Naming
 
 # Level 🔋
 

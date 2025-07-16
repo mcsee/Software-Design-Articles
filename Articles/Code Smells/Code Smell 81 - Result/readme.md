@@ -60,7 +60,7 @@ We must forbid the word result to be a variable name.
 
 # Tags 🏷️
 
-- Readability
+- Naming
 
 # Level 🔋
 

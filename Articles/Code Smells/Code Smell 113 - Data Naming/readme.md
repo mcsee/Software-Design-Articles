@@ -57,9 +57,7 @@ if (!peopleFound()) {
 We can check for this substring on our code and warn our developers.
 
 # Tags 🏷️
-
-- Readability
-
+ 
 - Naming
 
 # Conclusion 🏁

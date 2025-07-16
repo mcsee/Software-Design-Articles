@@ -626,6 +626,8 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 306 - AI External Comments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20306%20-%20AI%20External%20Comments/readme.md)
 
+[Code Smell 307 - Naive Time Assumptions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20307%20-%20Naive%20Time%20Assumptions/readme.md)
+
 ... and many more to come.
 
 * * *
