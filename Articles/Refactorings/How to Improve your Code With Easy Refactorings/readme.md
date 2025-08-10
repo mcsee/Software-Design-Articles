@@ -74,6 +74,8 @@ Let's go for the solutions!
 
 [Refactoring 030 - Inline Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20030%20-%20Inline%20Attributes/readme.md)
 
+[Refactoring 031 - Removing OOPs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20031%20-%20Removing%20OOPs/readme.md)
+
 * * *
 
 Photo by [No Revisions](https://unsplash.com/ja/@norevisions) on [Unsplash](https://unsplash.com/es/s/fotos/cleaning)

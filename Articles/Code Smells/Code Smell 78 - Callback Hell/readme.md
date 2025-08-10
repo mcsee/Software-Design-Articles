@@ -101,9 +101,7 @@ This problem shines at the naked eye. Many linters can detect this complexity an
 
 # Tags 🏷️
 
-- Readability
-
-- Complexity
+- Declarative Code 
 
 # Level 🔋
 

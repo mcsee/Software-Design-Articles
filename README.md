@@ -874,6 +874,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Refactoring 030 - Inline Attributes](/Articles/Refactorings/Refactoring%20030%20-%20Inline%20Attributes/readme.md)
 
+* [Refactoring 031 - Removing OOPs](/Articles/Refactorings/Refactoring%20031%20-%20Removing%20OOPs/readme.md)
+
 ### Wordle
 
 * [How to Create a Wordle as a Centaur](/Articles/Wordle/How%20to%20Create%20a%20Wordle%20as%20a%20Centaur/readme.md)

@@ -114,9 +114,7 @@ No. *code*, *description*, *resumable*, etc. are not behavioral.
 
 # Tags 🏷️
 
-- Abuser
-
-- Naming
+- Exceptions 
 
 # Conclusion 🏁
 
