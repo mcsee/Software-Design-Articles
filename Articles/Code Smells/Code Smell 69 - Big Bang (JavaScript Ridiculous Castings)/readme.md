@@ -95,11 +95,7 @@ We should detect *!* *!!* usages in non-boolean objects and warn our programmers
 
 # Tags 🏷️
 
-- Casting
-
-- Coercion
-
-- Javascript
+- Types
 
 # Conclusion 🏁
 

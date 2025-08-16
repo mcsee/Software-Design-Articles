@@ -60,9 +60,9 @@ Most languages have warning levels. We should turn most of them *ON*.
 
 We should run linters to statically analyze our code for potential problems.
 
- # Tags 🏷️
+# Tags 🏷️
 
-- Fail Fast
+- Technical Debt
 
 # Conclusion 🏁
 

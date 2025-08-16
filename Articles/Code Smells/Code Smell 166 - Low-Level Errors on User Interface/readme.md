@@ -68,7 +68,7 @@ We can use mutation testing to simulate problems and see if they are handled cor
 
 # Tags 🏷️
 
-- Security
+- Exceptions
 
 # Conclusion 🏁
 

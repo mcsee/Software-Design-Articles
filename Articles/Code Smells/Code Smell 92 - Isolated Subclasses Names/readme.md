@@ -59,7 +59,7 @@ Automatic detection is not an easy task. We could enforce local naming policies 
 
 # Tags 🏷️
 
-- Naming
+- Hierarchies
 
 # Level 🔋
 

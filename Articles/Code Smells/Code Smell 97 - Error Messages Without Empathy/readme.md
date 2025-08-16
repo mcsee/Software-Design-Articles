@@ -57,9 +57,7 @@ We need to read all exception messages in code reviews.
 
 # Tags 🏷️
 
-- Exceptions
-
-- UX
+- Declarative Code 
 
 # Level 🔋
 

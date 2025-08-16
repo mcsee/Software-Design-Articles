@@ -117,7 +117,7 @@ public final class Box {
 
 # Tags 🏷️
 
-- Composition
+- Hierarchies
 
 # Conclusion 🏁
 

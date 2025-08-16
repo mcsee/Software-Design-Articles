@@ -85,7 +85,7 @@ We need to create empty development/production configurations and delegate them 
 
 # Tags 🏷️
 
-- Coupling
+- Technical Debt
 
 # Conclusion 🏁
 

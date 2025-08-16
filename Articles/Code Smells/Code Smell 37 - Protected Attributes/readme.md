@@ -138,7 +138,7 @@ In languages supporting *protected* attributes we can avoid them by policy or ha
 
 # Tags 🏷️
 
-- Encapsulation
+- Hierarchies
 
 # Level 🔋
 

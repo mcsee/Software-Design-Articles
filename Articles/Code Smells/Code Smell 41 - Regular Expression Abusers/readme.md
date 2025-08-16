@@ -48,7 +48,7 @@ val phoneRegex = Regex("^$prefix(?:$digit$space?){6,14}$digit$")
 Regular expressions are a valid tool.
 There's not much automated way of checking for possible abusers. A whitelist might be of help.
  
- # Tags 🏷️
+# Tags 🏷️
 
 - Declarative Code
 

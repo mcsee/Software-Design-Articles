@@ -81,10 +81,8 @@ This is a language feature. Some strict languages show warnings with this magic 
 
 # Tags 🏷️
 
-- Coercions
-
-- Primitive
-
+- Types
+ 
 # Conclusion 🏁
 
 Some languages encourage doing some magic abbreviations and automatic castings. This is a source of errors and a *Premature Optimization* warning.

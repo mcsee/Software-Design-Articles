@@ -97,7 +97,7 @@ This is a semantic smell.
 
 # Tags 🏷️
 
-- Inheritance
+- Hierarchies
 
 # Conclusion 🏁
 

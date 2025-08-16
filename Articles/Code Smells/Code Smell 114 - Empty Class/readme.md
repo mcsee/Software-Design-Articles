@@ -79,7 +79,7 @@ We can also make our own scripts using [metaprogramming](https://github.com/mcse
 
 # Tags 🏷️
 
-- Behavior
+- Hierarchies
 
 # Conclusion 🏁
 

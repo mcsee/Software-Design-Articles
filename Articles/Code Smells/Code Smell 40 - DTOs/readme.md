@@ -156,7 +156,7 @@ We can use the same anemic object detectors.
 
 We can check for *anemic* classes with no business object behavior (removing serializes, constructors, mutators etc).
  
- # Tags 🏷️
+# Tags 🏷️
 
 - Anemic Models
 

@@ -65,7 +65,7 @@ Any linter can check for suspects against a max depth threshold.
 
 # Tags 🏷️
 
-- Hierarchy
+- Hierarchies
 
 # Level 🔋
 

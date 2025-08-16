@@ -4,7 +4,7 @@
 
 *A method makes calculations with lots of numbers without describing their semantics*
 
-> TL;DR: Avoid Magic numbers without explanation.  We don't know their source and we are very afraid of changing them.
+> TL;DR: Avoid Magic numbers without explanation. You don't know their source and are very afraid of changing them.
 
 # Problems 😔 
 
@@ -16,16 +16,34 @@
 
 # Solutions 😃
 
-1) Rename the constant with a semantic and name (meaningful and intention revealing).
+1) Rename the constant to a meaningful, intention-revealing name.
 
-2) Replace constants with parameters, so you can mock them from the outside.
+2) [Replace constants with parameters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20003%20-%20Extract%20Constant/readme.md), so you can mock them from the outside.
 
 3) The constant definition is often a different object than the constant (ab)user.
+
+# Refactorings ⚙️
+
+[Refactoring 003 - Extract Constant](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20003%20-%20Extract%20Constant/readme.md)
+
+[Refactoring 025 - Decompose Regular Expressions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20025%20-%20Decompose%20Regular%20Expressions/readme.md)
 
 # Examples
 
 - Algorithms Hyper Parameters
 
+# Context 💬  
+
+Magic numbers are literal values embedded directly into your code without explanation. 
+
+They often appear in algorithms, configuration rules, or business logic as unexplained numeric values. 
+
+At first, they might feel faster to write, but over time they turn into hidden assumptions that no one remembers. 
+
+Future maintainers must guess their meaning, increasing the risk of errors when the values need to change. 
+
+Constants help, but naming them meaningfully and placing them in the right context is what turns a magic number into a reliable, self-explanatory part of your code.
+									  
 # Sample Code 📖
 
 ## Wrong 🚫
@@ -62,6 +80,55 @@ Many linters can detect number literals in attributes and methods.
 # Tags 🏷️
 
 - Declarative Code
+
+# Level 🔋
+
+[X] Beginner
+
+# Why the Bijection Is Important 🗺️  
+
+When you replace a magic number with a named constant, you create a [bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) between the value and its meaning. 
+
+This one-to-one relationship ensures every numeric value has a clear, unambiguous purpose in your system. 
+
+Without it, the same number could be reused for different reasons, leading to confusion and accidental coupling. 
+
+A bijection between meaning and value makes the code easier to navigate, test, and evolve without fear of breaking unrelated parts.
+
+# AI Generation 🤖
+
+Large Language Models can introduce magic numbers when generating code, especially in examples or algorithm implementations. 
+
+Treat AI-generated values with the same suspicion you would any human-written literal. 
+
+Always check if the number is a placeholder, a real-world constant, or an algorithmic parameter, and replace it with a meaningful name before merging it into production code.
+
+# AI Detection 🥃  
+
+Code reviewers should stay alert to magic numbers introduced by AI tools, which often lack context or semantic naming. 
+
+Automated linters can flag number literals, but human insight is critical to understand if a value requires refactoring into a named constant. 
+
+Keep your eyes open for AI-generated black box numbers that might slip past initial checks but can cause maintenance headaches later.
+
+## Try Them! 🛠
+
+*Remember: AI Assistants make lots of mistakes*
+
+> Suggested Prompt: Convert it to more declarative
+
+| Without Proper Instructions    | With Specific Instructions |
+| -------- | ------- |
+| [ChatGPT](https://chat.openai.com/?q=Replace+Magic+numbers+with+constants%3A+%60%60%60php%0D%0A%3C%3F%0D%0A%0D%0Afunction+energy%28%24mass%29+%7B%0D%0A++++return+%24mass+%2A+%28299792+%2A%2A+2%29%0D%0A%7D%0D%0A%60%60%60) | [ChatGPT](https://chat.openai.com/?q=Convert+it+to+more+declarative%3A+%60%60%60php%0D%0A%3C%3F%0D%0A%0D%0Afunction+energy%28%24mass%29+%7B%0D%0A++++return+%24mass+%2A+%28299792+%2A%2A+2%29%0D%0A%7D%0D%0A%60%60%60) |
+| [Claude](https://claude.ai/new?q=Replace+Magic+numbers+with+constants%3A+%60%60%60php%0D%0A%3C%3F%0D%0A%0D%0Afunction+energy%28%24mass%29+%7B%0D%0A++++return+%24mass+%2A+%28299792+%2A%2A+2%29%0D%0A%7D%0D%0A%60%60%60) | [Claude](https://claude.ai/new?q=Convert+it+to+more+declarative%3A+%60%60%60php%0D%0A%3C%3F%0D%0A%0D%0Afunction+energy%28%24mass%29+%7B%0D%0A++++return+%24mass+%2A+%28299792+%2A%2A+2%29%0D%0A%7D%0D%0A%60%60%60) |
+| [Perplexity](https://www.perplexity.ai/?q=Replace+Magic+numbers+with+constants%3A+%60%60%60php%0D%0A%3C%3F%0D%0A%0D%0Afunction+energy%28%24mass%29+%7B%0D%0A++++return+%24mass+%2A+%28299792+%2A%2A+2%29%0D%0A%7D%0D%0A%60%60%60) | [Perplexity](https://www.perplexity.ai/?q=Convert+it+to+more+declarative%3A+%60%60%60php%0D%0A%3C%3F%0D%0A%0D%0Afunction+energy%28%24mass%29+%7B%0D%0A++++return+%24mass+%2A+%28299792+%2A%2A+2%29%0D%0A%7D%0D%0A%60%60%60) |
+| [Copilot](https://www.bing.com/chat?showconv=1&sendquery=1&q=Replace+Magic+numbers+with+constants%3A+%60%60%60php%0D%0A%3C%3F%0D%0A%0D%0Afunction+energy%28%24mass%29+%7B%0D%0A++++return+%24mass+%2A+%28299792+%2A%2A+2%29%0D%0A%7D%0D%0A%60%60%60) | [Copilot](https://www.bing.com/chat?showconv=1&sendquery=1&q=Convert+it+to+more+declarative%3A+%60%60%60php%0D%0A%3C%3F%0D%0A%0D%0Afunction+energy%28%24mass%29+%7B%0D%0A++++return+%24mass+%2A+%28299792+%2A%2A+2%29%0D%0A%7D%0D%0A%60%60%60) |
+| [You](https://you.com/search?q=Replace+Magic+numbers+with+constants%3A+%60%60%60php%0D%0A%3C%3F%0D%0A%0D%0Afunction+energy%28%24mass%29+%7B%0D%0A++++return+%24mass+%2A+%28299792+%2A%2A+2%29%0D%0A%7D%0D%0A%60%60%60) | [You](https://you.com/search?q=Convert+it+to+more+declarative%3A+%60%60%60php%0D%0A%3C%3F%0D%0A%0D%0Afunction+energy%28%24mass%29+%7B%0D%0A++++return+%24mass+%2A+%28299792+%2A%2A+2%29%0D%0A%7D%0D%0A%60%60%60) |
+| [Gemini](https://gemini.google.com/) | [Gemini](https://gemini.google.com/) | 
+| [DeepSeek](https://chat.deepseek.com/) | [DeepSeek](https://chat.deepseek.com/) | 
+| [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
+| [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
+| [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
 # Conclusion 🏁
  

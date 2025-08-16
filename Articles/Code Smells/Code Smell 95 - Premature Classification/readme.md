@@ -68,10 +68,8 @@ const goldberg = new ClassicalSong
 An abstract class with just one subclass is an indicator of premature classification
 
 # Tags 🏷️
-
-- Bad Design 
-
-- Classification
+ 
+- Hierarchies
 
 # Level 🔋
 

@@ -24,6 +24,10 @@
 
 - Create stateless objects. Don't call them **helpers**.
 
+# Refactorings ⚙️
+
+[Refactoring 020 - Transform Static Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20020%20-%20Transform%20Static%20Functions/readme.md)
+
 # Examples
 
 - Static class methods
@@ -70,9 +74,7 @@ We can enforce a policy to avoid static methods (all class methods but construct
 
 # Tags 🏷️
 
-- Global
-
-- Libraries
+- Globals 
 
 # Conclusion 🏁
 
@@ -89,6 +91,8 @@ Therefore, we have a global reference too difficult to decouple.
 [Code Smell 22 - Helpers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2022%20-%20Helpers/readme.md)
 
 [Code Smell 112 - Testing Private Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20112%20-%20Testing%20Private%20Methods/readme.md)
+
+[Code Smell 209 - Side Effects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20209%20-%20Side%20Effects/readme.md)
 
 # More Information 📕
 
