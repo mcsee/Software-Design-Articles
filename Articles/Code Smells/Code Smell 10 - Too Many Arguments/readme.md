@@ -90,7 +90,7 @@ Most linters warn when the arguments list is too large.
 
 # Tags 🏷️
 
-- primitive
+- Bloaters
 
 # Level 🔋
 

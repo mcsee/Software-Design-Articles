@@ -64,10 +64,8 @@ Since this is a language feature, it is difficult to detect. We can ask our lint
 
 # Tags 🏷️
 
-- JavaScript
-
-- Premature Optimization
-
+- Types
+ 
 # Level 🔋
 
 [X] Beginner

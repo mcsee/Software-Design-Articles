@@ -76,7 +76,7 @@ We have a whitelist of valid usages or directly ban some methods.
 
 # Tags 🏷️
 
-- Meta-Programming
+- Metaprogramming
 
 # Conclusion 🏁
 

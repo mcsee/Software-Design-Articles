@@ -56,9 +56,7 @@ Many tools detect it.
 On some complex formulas, we can add extra parenthesis for terms readability.
 
 # Tags 🏷️
-
-- Readability
-
+ 
 - Bloaters
 
 # Conclusion 🏁

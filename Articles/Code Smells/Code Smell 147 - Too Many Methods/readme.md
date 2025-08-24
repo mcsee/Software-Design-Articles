@@ -83,9 +83,7 @@ public class RadioTelescope {
 Most linters count methods and warn us.
 
 # Tags 🏷️
-
-- Cohesion
-
+ 
 - Bloaters
 
 # Conclusion 🏁

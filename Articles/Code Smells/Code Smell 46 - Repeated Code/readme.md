@@ -114,7 +114,7 @@ For now, it is up to us, humans.
 
 # Tags 🏷️
 
-- Duplication
+- Complexity
 
 # Conclusion 🏁
 

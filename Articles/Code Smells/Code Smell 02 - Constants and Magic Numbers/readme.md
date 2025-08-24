@@ -75,6 +75,8 @@ end
 												    
 # Detection 🔍
 
+[X] Semi-Automatic
+
 Many linters can detect number literals in attributes and methods.
 
 # Tags 🏷️

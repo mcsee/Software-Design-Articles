@@ -58,7 +58,7 @@ We can block them on our linters.
 
 # Tags 🏷️
 
-- Javascript
+- Types
 
 # Level 🔋
 

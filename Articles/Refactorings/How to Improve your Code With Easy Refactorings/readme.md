@@ -76,6 +76,8 @@ Let's go for the solutions!
 
 [Refactoring 031 - Removing OOPs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20031%20-%20Removing%20OOPs/readme.md)
 
+[Refactoring 032 - Apply Consistent Style Rules](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20032%20-%20Apply%20Consistent%20Style%20Rules/readme.md)
+
 * * *
 
 Photo by [No Revisions](https://unsplash.com/ja/@norevisions) on [Unsplash](https://unsplash.com/es/s/fotos/cleaning)

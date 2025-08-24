@@ -113,9 +113,7 @@ sorted = new
 
 # Tags 🏷️
 
-- Primitive
-
-- Abuser
+- Metaprogramming 
 
 # Conclusion 🏁
 

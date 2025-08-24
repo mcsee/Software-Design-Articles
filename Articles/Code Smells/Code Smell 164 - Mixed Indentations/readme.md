@@ -83,7 +83,7 @@ In these languages, indentation is not accidental since it changes code semantic
 
 # Tags 🏷️
 
-- Code Standards
+- Standards
 
 # Conclusion 🏁
 

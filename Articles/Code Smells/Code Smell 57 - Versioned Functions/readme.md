@@ -56,7 +56,7 @@ Like many other patterns we might create an internal policy and communicate.
 
 # Tags 🏷️
 
-- Versioning
+- Declarative Code
  
 # Conclusion 🏁
 

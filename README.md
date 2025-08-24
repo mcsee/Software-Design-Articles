@@ -878,6 +878,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Refactoring 031 - Removing OOPs](/Articles/Refactorings/Refactoring%20031%20-%20Removing%20OOPs/readme.md)
 
+* [Refactoring 032 - Apply Consistent Style Rules](/Articles/Refactorings/Refactoring%20032%20-%20Apply%20Consistent%20Style%20Rules/readme.md)
+
 ### Wordle
 
 * [How to Create a Wordle as a Centaur](/Articles/Wordle/How%20to%20Create%20a%20Wordle%20as%20a%20Centaur/readme.md)

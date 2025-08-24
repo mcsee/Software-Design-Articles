@@ -2,26 +2,26 @@
 
 ![Code Smell 03 - Functions Are Too Long](Code%20Smell%2003%20-%20Functions%20Are%20Too%20Long.jpg)
 
-*Humans get bored beyond line 10.*
+*Humans get bored after line five.*
 
-> TL;DR: Refactor and extract functions longer than 5 lines.
+> TL;DR: Refactor and extract functions longer than five lines.
 
 # Problems 😔 
 
-- Low Cohesion
+- Low cohesion
 - High coupling
-- Difficult to read
-- Low Reuse
+- Hard to read
+- Low reusability
 
 # Solutions 😃
 
 1) [Refactor](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20010%20-%20Extract%20Method%20Object/readme.md)
 
-2) Create small objects dealing with some tasks. Unit-test them.
+2) Create small objects to handle specific tasks. Unit-test them.
 
 3) Compose methods 
 
-4) Divide and Conquer
+4) [Divide and conquer](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm)
 
 # Refactorings ⚙️
 
@@ -29,7 +29,7 @@
 
 [Refactoring 025 - Decompose Regular Expressions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20025%20-%20Decompose%20Regular%20Expressions/readme.md)
 	
-[Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)		    
+[Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
 # Examples
 
@@ -39,13 +39,13 @@
 
 When you write a long function, you hide too many details in one place.
 
-You force the reader to keep multiple concepts in mind.
+You force the reader to hold multiple concepts in mind.
 
 You mix unrelated responsibilities and make the code hard to test.
 
 You create a rigid block that breaks easily when you change it.
 
-Short, focused functions let you read, test, and change code faster.	      
+Short, focused functions let you read, test, and modify code faster.	      
 
 # Sample Code 📖
 
@@ -83,7 +83,9 @@ function setUpChessBoard() {
 
 # Detection 🔍
 
-All linters can measure and warn when methods are larger than a predefined threshold.
+[X] Automatic
+
+All linters can measure and warn when methods exceed a predefined threshold.
 
 # Tags 🏷️
 
@@ -95,21 +97,21 @@ All linters can measure and warn when methods are larger than a predefined thres
 
 # Why the Bijection Is Important 🗺️  
 
-A real-world action should map to a clear, concise function.
+A [real-world](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) action should map to a clear, concise function.
 
 When you pack many actions into one function, you lose that mapping.
 
-Developers must mentally reconstruct the steps, which slows comprehension and increases mistakes.	     
+Developers must mentally reconstruct the steps, which slows comprehension and increases errors.	     
 
 # AI Generation 🤖     
 
-AI generators often create long functions when you give them vague prompts.
+AI generators often create long functions if you give them vague prompts.
 
 They tend to cram all logic into one place unless you explicitly request modular code.	  
 
 # AI Detection 🥃  
 
-AI tools can fix this smell with the right instructions to split code into small focused functions. 
+AI tools can fix this smell with the right instructions to split code into small, focused functions. 
 
 ## Try Them! 🛠
 
@@ -132,7 +134,11 @@ AI tools can fix this smell with the right instructions to split code into small
 		 	     
 # Conclusion 🏁
 
-Extract the long method into smaller pieces. Break complex algorithms into parts. You can also unit-test these parts.
+Extract long methods into smaller pieces. 
+
+Break complex algorithms into parts. 
+
+You can also unit test these parts.
 
 # Relations 👩‍❤️‍💋‍👨
 

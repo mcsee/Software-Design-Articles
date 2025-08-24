@@ -72,7 +72,7 @@ We can find patterns when an [exception](https://github.com/mcsee/Software-Desig
 
 # Tags 🏷️
 
-- UX
+- Declarative Code
 
 # Conclusion 🏁
 
