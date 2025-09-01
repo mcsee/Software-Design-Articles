@@ -880,6 +880,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Refactoring 032 - Apply Consistent Style Rules](/Articles/Refactorings/Refactoring%20032%20-%20Apply%20Consistent%20Style%20Rules/readme.md)
 
+* [Refactoring 033 - Strip Annotations](/Articles/Refactorings/Refactoring%20033%20-%20Strip%20Annotations/readme.md)
+
 ### Wordle
 
 * [How to Create a Wordle as a Centaur](/Articles/Wordle/How%20to%20Create%20a%20Wordle%20as%20a%20Centaur/readme.md)
