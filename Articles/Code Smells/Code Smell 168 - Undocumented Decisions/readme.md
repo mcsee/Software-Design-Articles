@@ -52,11 +52,11 @@ run_process();
 
 This is a semantic smell.
 
-We can detect comments and warn us.
+They can detect comments and warn you.
 
 # Tags 🏷️
 
-- Comments
+- Declarative Code
 
 # Conclusion 🏁
 

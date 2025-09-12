@@ -36,7 +36,7 @@ In this repository, you will find many articles related to Software Design
 
 * [The One and Only Software Design Principle](/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
-* [What exactly is a name - Part I The Quest](/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
+* [What Exactly Is a Name? Part I: The Quest](/Articles/Theory/What%20Exactly%20Is%20a%20Name%20-%20Part%20I%20The%20Quest/readme.md)
 
 * [What exactly is a name - Part II Rehab](/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
@@ -693,6 +693,8 @@ In this repository, you will find many articles related to Software Design
 * [Code Smell 307 - Naive Time Assumptions](/Articles/Code%20Smells/Code%20Smell%20307%20-%20Naive%20Time%20Assumptions/readme.md)
 
 * [Code Smell 308 - Not Polymorphic Return](/Articles/Code%20Smells/Code%20Smell%20308%20-%20Not%20Polymorphic%20Return/readme.md)
+
+* [Code Smell 309 - Query Parameter API Versioning](/Articles/Code%20Smells/Code%20Smell%20309%20-%20Query%20Parameter%20API%20Versioning/readme.md)
 
 ### Blogging
 

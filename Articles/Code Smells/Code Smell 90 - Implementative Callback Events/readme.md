@@ -73,7 +73,7 @@ Names are very important. We should delay implementation coupled names until the
 
 # More Information 📕
 
-- [What is exactly in a name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
+- [What is exactly in a name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20Exactly%20Is%20a%20Name%20-%20Part%20I%20The%20Quest/readme.md)
 
 - [Refactoring Guru](https://refactoring.guru/es/design-patterns/observer)
 

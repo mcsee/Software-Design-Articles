@@ -79,7 +79,7 @@ document.body.appendChild(table);
 
 > Both the author and Javascript code generator think about visual elements.
 
-> What is more, variables have very bad names like [i and j](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
+> What is more, variables have very bad names like [i and j](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20Exactly%20Is%20a%20Name%20-%20Part%20I%20The%20Quest/readme.md)
 
 > We started with an [abbreviation code smell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2033%20-%20Abbreviations/readme.md).
 

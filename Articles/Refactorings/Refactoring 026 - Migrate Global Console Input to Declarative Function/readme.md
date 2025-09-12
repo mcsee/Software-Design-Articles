@@ -30,7 +30,7 @@
 # Steps 👣
 
 1. Identify code that uses direct *input()* statements
-2. Create a new function with a [meaningful name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
+2. Create a new function with a [meaningful name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20Exactly%20Is%20a%20Name%20-%20Part%20I%20The%20Quest/readme.md)
 3. Move input logic into the function with parameter options
 4. Add external validation and error handling
 5. Create unit tests for the new function

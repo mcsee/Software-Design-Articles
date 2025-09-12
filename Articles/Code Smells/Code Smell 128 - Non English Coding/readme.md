@@ -112,7 +112,7 @@ We can search for foreign words.
 
 # Tags 🏷️
 
-- Readability
+- Standards
 
 # Conclusion 🏁
 

@@ -228,7 +228,7 @@ This is the intention of the [Strategy pattern](https://en.wikipedia.org/wiki/St
 
 Names should match the observed responsibilities.
 
-[What exactly is a name - Part I The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
+[What Exactly Is a Name? Part I: The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20Exactly%20Is%20a%20Name%20-%20Part%20I%20The%20Quest/readme.md)
 
 ![athletes](https://cdn.hashnode.com/res/hashnode/image/upload/v1599600974587/bjJryTrPG.jpeg)
 

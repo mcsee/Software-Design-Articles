@@ -40,7 +40,7 @@ We can tell linters to check for Regular Expressions like *!not* or *!isNot* etc
 
 # Tags 🏷️
 
-- Readability
+- Declarative Code
 
 # Conclusion 🏁
 

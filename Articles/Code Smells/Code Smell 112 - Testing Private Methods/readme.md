@@ -111,7 +111,7 @@ We can only find metaprogramming abuse on some unit frameworks.
 
 # Tags 🏷️
 
-- Test Smells
+- Testing
 
 # Conclusion 🏁
 

@@ -122,7 +122,7 @@ public class Account {
 
 Linters and IDEs should test coding standards before a merge request is approved.
 
-We can add our own [naming conventions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md) related to Objects, Classes, Interfaces, Modules etc.
+We can add our own [naming conventions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20Exactly%20Is%20a%20Name%20-%20Part%20I%20The%20Quest/readme.md) related to Objects, Classes, Interfaces, Modules etc.
 
 # Tags 🏷️
 
@@ -158,7 +158,7 @@ It could prevent disagreements and follows fail fast principle.
 
 # More Information 📕
 
-[What exactly is a name - Part I The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20I%20The%20Quest/readme.md)
+[What Exactly Is a Name? Part I: The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20Exactly%20Is%20a%20Name%20-%20Part%20I%20The%20Quest/readme.md)
 
 # Credits 🙏
 

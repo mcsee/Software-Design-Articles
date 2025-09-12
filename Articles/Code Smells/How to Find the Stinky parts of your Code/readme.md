@@ -630,6 +630,8 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 308 - Not Polymorphic Return](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20308%20-%20Not%20Polymorphic%20Return/readme.md)
 
+[Code Smell 309 - Query Parameter API Versioning](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20309%20-%20Query%20Parameter%20API%20Versioning/readme.md)
+
 ... and many more to come.
 
 * * *
