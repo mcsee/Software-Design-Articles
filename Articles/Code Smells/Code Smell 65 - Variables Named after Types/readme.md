@@ -65,7 +65,11 @@ This is a semantic rule. We can instruct our linters to warn us from using names
 
 # Conclusion 🏁
 
-The first name we can across is related to an accidental point of view. It takes time to build a theory on the models we are building using our [MAPPERS](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md). Once we get there, we must rename our variables-
+The first name we can across is related to an accidental point of view. 
+
+It takes time to build a theory on the models we are building using our [MAPPERS](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md). 
+
+Once we get there, we must rename our variables.
 
 # Relations 👩‍❤️‍💋‍👨
 
@@ -77,7 +81,7 @@ The first name we can across is related to an accidental point of view. It takes
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
-%[http://xunitpatterns.com/Intent%20Revealing%20Name.html]
+[X unit patterns](http://xunitpatterns.com/Intent%20Revealing%20Name.html)
 
 # Credits 🙏
 
@@ -85,11 +89,11 @@ Photo by [Sangga Rima Roman Selia](https://unsplash.com/@sxy_selia) on [Unsplash
   
 This idea came from this tweet
 
-%[https://twitter.com/BelloneDavide/status/1377522389312008193]	    
+[X](https://twitter.com/BelloneDavide/status/1377522389312008193)
 
 * * *
 
-> Types are essentially assertions about a program.  And I think it’s valuable to have things be as absolutely simple as possible, including not even saying what the types are.
+> Types are essentially assertions about a program. And I think it’s valuable to have things be as absolutely simple as possible, including not even saying what the types are.
 
 _Dan Ingalls_
  

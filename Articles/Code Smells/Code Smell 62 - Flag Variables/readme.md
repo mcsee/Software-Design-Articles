@@ -70,7 +70,7 @@ We can search all the code for bad named flags.
 
 # Tags 🏷️
 
-- Readability
+- IFs
 
 # Conclusion 🏁
 

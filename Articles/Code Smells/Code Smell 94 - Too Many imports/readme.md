@@ -93,15 +93,15 @@ We need to think about dependencies when building our solutions to minimize Ripp
 
 # More Information 📕
 
-- [Coupling: The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+[Coupling: The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
-- [Namespaces on Wikipedia](https://en.wikipedia.org/wiki/Namespace)
+[Namespaces on Wikipedia](https://en.wikipedia.org/wiki/Namespace)
 
 # Credits 🙏
 
 Photo by [Zdeněk Macháček](https://unsplash.com/@zmachacek) on [Unsplash](https://unsplash.com/s/photos/pile)
 
-%[https://twitter.com/BelloneDavide/status/1447623706767921153]
+[X](https://twitter.com/BelloneDavide/status/1447623706767921153)
 
 * * *
 

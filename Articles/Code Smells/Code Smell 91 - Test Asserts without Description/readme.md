@@ -69,7 +69,7 @@ Since *assert* and *assertDescription* are different functions, we can adjust ou
 
 # Tags 🏷️
 
-- Test Smells
+- Testing
 
 # Level 🔋
 

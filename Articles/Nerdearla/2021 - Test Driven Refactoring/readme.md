@@ -4,4 +4,4 @@
 
 > TL;DR: Test Driven Refactoring
 									  
-[Test Driven Refactoring](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Nerdearla/2021%20-%20Test%20Driven%20Refactoring/readme.md)
+[![Watch the video](https://img.youtube.com/vi/zI3U72BK3ms/sddefault.jpg)](https://youtu.be/zI3U72BK3ms) 

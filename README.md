@@ -696,6 +696,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 309 - Query Parameter API Versioning](/Articles/Code%20Smells/Code%20Smell%20309%20-%20Query%20Parameter%20API%20Versioning/readme.md)
 
+* [Code Smell 310 - Vague Date Naming](/Articles/Code%20Smells/Code%20Smell%20310%20-%20Vague%20Date%20Naming/readme.md)
+
 ### Blogging
 
 * [Content Structure: The Do's and Dont's of Content Creation](/Articles/Blogging/68%20-%20Content%20Structure%20The%20Do%27s%20and%20Dont%27s%20of%20Content%20Creation/readme.md)
@@ -753,6 +755,8 @@ In this repository, you will find many articles related to Software Design
 * [Test Driven Refactoring](/Articles/Nerdearla/2021%20-%20Test%20Driven%20Refactoring/readme.md)
 
 * [Una Regla para Gobernarlos a Todos](/Articles/Nerdearla/2022%20-%20Una%20Regla%20para%20Gobernarlos%20a%20Todos/readme.md)
+
+* [Vibe Test Driven Development](/Articles/Nerdearla/2025%20-%20Vibe%20Test%20Driven%20Development/readme.md)
 
 * [Test Driven Development 101](/Articles/Nerdearla/2023%20-%20Test%20Driven%20Development%20101/readme.md)
 

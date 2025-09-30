@@ -70,9 +70,7 @@ In these coupled with accidental complexity languages, booleans are a common err
 
 # Tags 🏷️
 
-- Declarative
-
-- Primitive
+- IFs
 
 # Conclusion 🏁
 
@@ -87,7 +85,7 @@ Learn more about the domain. Try migrating to [state design pattern](https://en.
 
 # More Information 📕
 
-%[https://martinfowler.com/bliki/FlagArgument.html]
+[Martin Fowler](https://martinfowler.com/bliki/FlagArgument.html)
 
 # Also Known as
 
@@ -97,10 +95,9 @@ Learn more about the domain. Try migrating to [state design pattern](https://en.
 
 Photo by [Phil Hearing](https://unsplash.com/@philhearing) on [Unsplash](https://unsplash.com/s/photos/flag-finish)
 
-These tweets inspired this code smell:
+These tweet inspired this code smell:
 
-%[
-]
+[Twitter](https://x.com/1319247170294472705)
 
 * * *
 

@@ -94,7 +94,7 @@ We need to change it to a more specific check.
 
 # Tags 🏷️
 
-- Test Smells
+- Testing
 
 # Conclusion 🏁
 

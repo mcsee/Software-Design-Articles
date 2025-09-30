@@ -51,6 +51,4 @@ I will also add a footer showing when was the article last visited. This is not 
 
 * * * 
 
-Last Article Update: 07-04-2021		  
-
-%%[buymeacoffee]
+Last Article Update: 07-04-2021	 

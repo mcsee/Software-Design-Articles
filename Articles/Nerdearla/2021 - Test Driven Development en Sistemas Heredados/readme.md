@@ -4,4 +4,4 @@
 
 > TL;DR: Test Driven Development en Sistemas Heredados
 
-[Test Driven Development en Sistemas Heredados](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Nerdearla/2021%20-%20Test%20Driven%20Development%20en%20Sistemas%20Heredados/readme.md)
+[![Watch the video](https://img.youtube.com/vi/0cc9faVOx9M/sddefault.jpg)](https://youtu.be/0cc9faVOx9M) 

@@ -169,7 +169,7 @@ Hopefully, Crowdstrike engineers will read it!
 
 [Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
-%[https://github.com/google/sanitizers/wiki/AddressSanitizer]
+[Google Sanitizer](https://github.com/google/sanitizers/wiki/AddressSanitizer)
 
 [Technical Information](https://x.com/perpetualmaniac/status/1814376668095754753)
 

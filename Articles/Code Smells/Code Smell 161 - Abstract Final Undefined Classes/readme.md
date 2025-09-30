@@ -92,7 +92,7 @@ Since this is enforced by static analysis, we can't do it with most available to
 
 # Tags 🏷️
 
-- Subclassification
+- Hierarchies
 
 # Level 🔋
 

@@ -77,7 +77,7 @@ Readability is very important to avoid mistakes.
 
 Photo by [Lance Grandahl](https://unsplash.com/@lg17) on [Unsplash](https://unsplash.com/s/photos/disorder)
   
-%[https://twitter.com/BelloneDavide/status/1441462443364864006]
+[X](https://twitter.com/BelloneDavide/status/1441462443364864006)
 
 * * *
 

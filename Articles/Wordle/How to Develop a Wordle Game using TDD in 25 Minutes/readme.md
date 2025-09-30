@@ -1083,7 +1083,7 @@ In the following articles, we will make these enhancements also using TDD:
 
 You can have all the code (and make pull requests on [GitHub](https://github.com/mcsee/TDD-Wordle))
 
-%[https://github.com/mcsee/TDD-Wordle]
+[GitHub](https://github.com/mcsee/TDD-Wordle)
 
 # Conclusion 🏁
 

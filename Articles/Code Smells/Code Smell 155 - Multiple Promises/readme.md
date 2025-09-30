@@ -65,11 +65,11 @@ We can tell our linters to find some patterns related to promises waiting.
 
 # Tags 🏷️
 
-- Performance
+- Complexity
 
 # Conclusion 🏁
 
-We need to be as close as possible to [real-world]((https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) business rules.
+We need to be as close as possible to [real-world](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) business rules.
 
 If the rule states we need to wait for ALL operations, we should not force a particular order.
 

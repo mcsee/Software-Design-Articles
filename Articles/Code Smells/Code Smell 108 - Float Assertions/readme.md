@@ -62,7 +62,7 @@ We can add a check con *assertEquals()* on our testing frameworks to avoid check
 
 # Tags 🏷️
 
-- Test Smells
+- Testing
 
 # Conclusion 🏁
 

@@ -117,13 +117,13 @@ White-box tests are fragile. They test implementation instead of behavior.
 
 # More Information 📕
 
-- [Should I Test Private Methods](http://shoulditestprivatemethods.com/)
+[Should I Test Private Methods](http://shoulditestprivatemethods.com/)
 
 # Credits 🙏
 
 This smell was inspired by @[Rodrigo](https://twitter.com/_rodrigomd)
 
-%[https://twitter.com/_rodrigomd/status/1408032157629485056]
+[X](https://twitter.com/_rodrigomd/status/1408032157629485056)
 
 * * *
 

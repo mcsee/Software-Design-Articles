@@ -117,7 +117,7 @@ Avoid [immature and premature optimized languages](https://golangdocs.com/errors
 
 [How to Get Rid of Annoying IFs Forever](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 
-%[http://nicolecarpenter.github.io/2016/03/15/clean-code-chapter-7-error-handling.html]
+[nicolecarpenter](http://nicolecarpenter.github.io/2016/03/15/clean-code-chapter-7-error-handling.html)
 
 # Credits 🙏
 

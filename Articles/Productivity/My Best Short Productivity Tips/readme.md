@@ -87,6 +87,4 @@ The flow process is hard to [get back](https://techtreats.pacohq.com/the-high-pr
 
 I'm sure there are plenty of productivity pieces of advice around. Which one does work for you? 
 
-Please leave me a comment.
-
-%%[buymeacoffee]
+Please leave me a comment. 

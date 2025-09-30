@@ -26,7 +26,7 @@
 
 Last week, a tweet went viral because of a missing formula.
 
-%[https://twitter.com/JeroenFrijters/status/1615204074588180481]
+[X](https://twitter.com/JeroenFrijters/status/1615204074588180481)
 
 It is the DigiD digital authentication iOS app in the Netherlands.
 
@@ -97,7 +97,7 @@ This is a semantic smell. In this case, we can count the number of if clauses.
 
 # Conclusion 🏁
 
-You can read the original [Twitter thread](https://twitter.com/JeroenFrijters/status/1615204074588180481) to take your own conclusions. There's some serious debate and, of course, several premature optimizators bringing obscure and unneeded solutions with *(O) log(n)* complexity and stupid benchmarks evidence for a loop that executes only once.
+You can read the original [X thread](https://twitter.com/JeroenFrijters/status/1615204074588180481) to take your own conclusions. There's some serious debate and, of course, several premature optimizators bringing obscure and unneeded solutions with *(O) log(n)* complexity and stupid benchmarks evidence for a loop that executes only once.
 
 And lots of memes.
 
@@ -111,9 +111,9 @@ As a final conclusion, I asked [ChatGPT](https://github.com/mcsee/Software-Desig
 
 # More Information 📕
 
-%[https://twitter.com/JeroenFrijters/status/1615204074588180481]
+[X](https://twitter.com/JeroenFrijters/status/1615204074588180481)
 
-- [GitHub Repo](https://github.com/MinBZK/woo-besluit-broncode-digid-app/)
+[GitHub Repo](https://github.com/MinBZK/woo-besluit-broncode-digid-app/)
 
 [How to Get Rid of Annoying IFs Forever](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Get%20Rid%20of%20Annoying%20IFs%20Forever/readme.md)
 

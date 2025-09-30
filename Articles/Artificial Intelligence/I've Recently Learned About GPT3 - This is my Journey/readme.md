@@ -14,7 +14,7 @@ The product is nowadays controlled by Microsoft, and they are gatekeeping it to 
 
 I've read some very interesting articles related to GPT-3:
 
-%[https://hashnode.com/search?q=gpt-3]
+[Hashnode Search](https://hashnode.com/search?q=gpt-3)
 
 [GPT-3](https://anujsyal.com/gpt-3-the-latest-language-model-in-ai-c8634a314911)
 

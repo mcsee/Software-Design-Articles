@@ -4,4 +4,4 @@
 
 > TL;DR: Conviertete en un Centauro del Codigo Limpio
 
-[Conviertete en un Centauro del Codigo Limpio](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Nerdearla/2024%20-%20Conviértete%20en%20un%20Centauro%20del%20Código%20Limpio/readme.md)
+[![Watch the video](https://img.youtube.com/vi/e36FSN620zU/sddefault.jpg)](https://youtu.be/e36FSN620zU) 

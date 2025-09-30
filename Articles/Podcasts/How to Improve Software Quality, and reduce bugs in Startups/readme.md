@@ -10,6 +10,6 @@ Listen to the episode via [Trustshoring](https://www.youtube.com/@Trustshoring)
 
 June 2022
 
-[How to Improve Software Quality, and reduce bugs in Startups](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Podcasts/How%20to%20Improve%20Software%20Quality,%20and%20reduce%20bugs%20in%20Startups/readme.md)
+[![Watch the video](https://img.youtube.com/vi/_N-zmSkV_V8/sddefault.jpg)](https://youtu.be/_N-zmSkV_V8) 
 
 [Trustshoring Site](https://www.trustshoring.com/podcast/software-quality-and-bugs-within-startups/)

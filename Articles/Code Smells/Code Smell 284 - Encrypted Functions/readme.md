@@ -147,7 +147,7 @@ Cryptic code might look [clever](https://github.com/mcsee/Software-Design-Articl
 
 # More Information 📕
 
-%[https://www.linkedin.com/posts/franco-aguilera-2583685a_the-code-challenge-scam-they-tried-to-hack-activity-7270114822950703107-K3DW/]
+[Linkedin Post](https://www.linkedin.com/posts/franco-aguilera-2583685a_the-code-challenge-scam-they-tried-to-hack-activity-7270114822950703107-K3DW/)
 
 # Disclaimer 📘
 

@@ -79,9 +79,38 @@ It is hard to maintain comments.
 
 On the contrary, Functions are alive and self-explanatory.
 
+# How Does it Improve the Bijection? 🗺️      
+
+A comment only describes the code in natural language. 
+
+If you change the code, the comment and the behavior can drift apart, breaking the mapping between intention and execution.
+
+When you replace a comment with a well-chosen function name, you create a direct [bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) between "what the code does" and "how you call it." 
+
+The name becomes the single source of truth. 
+
+This keeps the mental model aligned with the actual implementation, so both the reader and the compiler operate on the same unambiguous contract.
+
 # Limitations ⚠️
 
 As always, very important design decisions are valid comments.
+
+# Refactor with AI 🤖      
+
+> Suggested Prompt: 1. Name the function with the previous comment 2. Remove the Comment
+
+| Without Proper Instructions    | With Specific Instructions |
+| -------- | ------- |
+| [ChatGPT](https://chat.openai.com/?q=Correct+and+explain+this+code%3A+%60%60%60php%0D%0A%3C%3F%0D%0A%0D%0Afunction+repl%28%24str%29+%7B%0D%0A++%2F%2F+Replaces+with+spaces+the+braces+%0D%0A+%0D%0A++%24str+%3D+str_replace%28array%28%22%5C%7B%22%2C%22%5C%7D%22%29%2C%22+%22%2C%24str%29%3B%0D%0A++return+%24str%3B%0D%0A%0D%0A%7D%0D%0A%60%60%60) | [ChatGPT](https://chat.openai.com/?q=1.+Name+the+function+with+the+previous+comment+2.+Remove+the+Comment%3A+%60%60%60php%0D%0A%3C%3F%0D%0A%0D%0Afunction+repl%28%24str%29+%7B%0D%0A++%2F%2F+Replaces+with+spaces+the+braces+%0D%0A+%0D%0A++%24str+%3D+str_replace%28array%28%22%5C%7B%22%2C%22%5C%7D%22%29%2C%22+%22%2C%24str%29%3B%0D%0A++return+%24str%3B%0D%0A%0D%0A%7D%0D%0A%60%60%60) |
+| [Claude](https://claude.ai/new?q=Correct+and+explain+this+code%3A+%60%60%60php%0D%0A%3C%3F%0D%0A%0D%0Afunction+repl%28%24str%29+%7B%0D%0A++%2F%2F+Replaces+with+spaces+the+braces+%0D%0A+%0D%0A++%24str+%3D+str_replace%28array%28%22%5C%7B%22%2C%22%5C%7D%22%29%2C%22+%22%2C%24str%29%3B%0D%0A++return+%24str%3B%0D%0A%0D%0A%7D%0D%0A%60%60%60) | [Claude](https://claude.ai/new?q=1.+Name+the+function+with+the+previous+comment+2.+Remove+the+Comment%3A+%60%60%60php%0D%0A%3C%3F%0D%0A%0D%0Afunction+repl%28%24str%29+%7B%0D%0A++%2F%2F+Replaces+with+spaces+the+braces+%0D%0A+%0D%0A++%24str+%3D+str_replace%28array%28%22%5C%7B%22%2C%22%5C%7D%22%29%2C%22+%22%2C%24str%29%3B%0D%0A++return+%24str%3B%0D%0A%0D%0A%7D%0D%0A%60%60%60) |
+| [Perplexity](https://www.perplexity.ai/?q=Correct+and+explain+this+code%3A+%60%60%60php%0D%0A%3C%3F%0D%0A%0D%0Afunction+repl%28%24str%29+%7B%0D%0A++%2F%2F+Replaces+with+spaces+the+braces+%0D%0A+%0D%0A++%24str+%3D+str_replace%28array%28%22%5C%7B%22%2C%22%5C%7D%22%29%2C%22+%22%2C%24str%29%3B%0D%0A++return+%24str%3B%0D%0A%0D%0A%7D%0D%0A%60%60%60) | [Perplexity](https://www.perplexity.ai/?q=1.+Name+the+function+with+the+previous+comment+2.+Remove+the+Comment%3A+%60%60%60php%0D%0A%3C%3F%0D%0A%0D%0Afunction+repl%28%24str%29+%7B%0D%0A++%2F%2F+Replaces+with+spaces+the+braces+%0D%0A+%0D%0A++%24str+%3D+str_replace%28array%28%22%5C%7B%22%2C%22%5C%7D%22%29%2C%22+%22%2C%24str%29%3B%0D%0A++return+%24str%3B%0D%0A%0D%0A%7D%0D%0A%60%60%60) |
+| [Copilot](https://www.bing.com/chat?showconv=1&sendquery=1&q=Correct+and+explain+this+code%3A+%60%60%60php%0D%0A%3C%3F%0D%0A%0D%0Afunction+repl%28%24str%29+%7B%0D%0A++%2F%2F+Replaces+with+spaces+the+braces+%0D%0A+%0D%0A++%24str+%3D+str_replace%28array%28%22%5C%7B%22%2C%22%5C%7D%22%29%2C%22+%22%2C%24str%29%3B%0D%0A++return+%24str%3B%0D%0A%0D%0A%7D%0D%0A%60%60%60) | [Copilot](https://www.bing.com/chat?showconv=1&sendquery=1&q=1.+Name+the+function+with+the+previous+comment+2.+Remove+the+Comment%3A+%60%60%60php%0D%0A%3C%3F%0D%0A%0D%0Afunction+repl%28%24str%29+%7B%0D%0A++%2F%2F+Replaces+with+spaces+the+braces+%0D%0A+%0D%0A++%24str+%3D+str_replace%28array%28%22%5C%7B%22%2C%22%5C%7D%22%29%2C%22+%22%2C%24str%29%3B%0D%0A++return+%24str%3B%0D%0A%0D%0A%7D%0D%0A%60%60%60) |
+| [You](https://you.com/search?q=Correct+and+explain+this+code%3A+%60%60%60php%0D%0A%3C%3F%0D%0A%0D%0Afunction+repl%28%24str%29+%7B%0D%0A++%2F%2F+Replaces+with+spaces+the+braces+%0D%0A+%0D%0A++%24str+%3D+str_replace%28array%28%22%5C%7B%22%2C%22%5C%7D%22%29%2C%22+%22%2C%24str%29%3B%0D%0A++return+%24str%3B%0D%0A%0D%0A%7D%0D%0A%60%60%60) | [You](https://you.com/search?q=1.+Name+the+function+with+the+previous+comment+2.+Remove+the+Comment%3A+%60%60%60php%0D%0A%3C%3F%0D%0A%0D%0Afunction+repl%28%24str%29+%7B%0D%0A++%2F%2F+Replaces+with+spaces+the+braces+%0D%0A+%0D%0A++%24str+%3D+str_replace%28array%28%22%5C%7B%22%2C%22%5C%7D%22%29%2C%22+%22%2C%24str%29%3B%0D%0A++return+%24str%3B%0D%0A%0D%0A%7D%0D%0A%60%60%60) |
+| [Gemini](https://gemini.google.com/) | [Gemini](https://gemini.google.com/) | 
+| [DeepSeek](https://chat.deepseek.com/) | [DeepSeek](https://chat.deepseek.com/) | 
+| [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
+| [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
+| [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
 # Tags 🏷️
 

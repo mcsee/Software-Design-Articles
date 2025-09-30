@@ -112,7 +112,7 @@ The idea of this smell is here:
 
 and here:
 
-%[https://twitter.com/TonyFlury/status/1103649549355233280]
+[x](https://twitter.com/TonyFlury/status/1103649549355233280)
 
 * * *
 

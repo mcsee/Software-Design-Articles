@@ -20,7 +20,7 @@ These two metrics are uncorrelated to productivity.
 
 Many sites compile different *Hello World* programs in a lot of languages.
 
-%[http://helloworldcollection.de/]
+[Hello World Collection](http://helloworldcollection.de/)
 
 # The Problems
 

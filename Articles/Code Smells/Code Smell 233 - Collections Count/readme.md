@@ -102,7 +102,7 @@ Some linters can check the types and names and infer a mistake
 
 # Tags 🏷️
 
-- Namings
+- Naming
 
 # Conclusion 🏁
 

@@ -6,9 +6,9 @@
 
 > TL;DR: Read your articles on a mobile device.
 
-Today @[Davide Bellone](@davidebellone) mentioned one of my articles on Twitter.
+Today @[Davide Bellone](@davidebellone) mentioned one of my articles on X.
 
-%[https://twitter.com/BelloneDavide/status/1392135734518325249]
+[X](https://twitter.com/BelloneDavide/status/1392135734518325249)
 
 I frequently read my articles again and make small adjustments. 
 

@@ -4,7 +4,7 @@
 
 *Senior Developers have learning reasons too.*
 
-> TL;DR: My personal reasons to start writting
+> TL;DR: My personal reasons to start writing
 
 Hello Everyone! 
 
@@ -78,6 +78,4 @@ I currently have a full-time job and I also get paid at the university.
 
 Looking for an extra income is not a sin at all.
 
-So If you like this article and all the other ones you can...
-
-%%[buymeacoffee]
+So If you like this article and all the other ones you can [buymeacoffee](https:buymeacoffee.com/mcsee)

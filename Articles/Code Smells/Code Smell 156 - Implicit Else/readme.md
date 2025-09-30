@@ -71,7 +71,7 @@ We can also rewrite them and perform mutation testing.
 
 # Tags 🏷️
 
-- Conditionals
+- IFs
 
 # Conclusion 🏁
 

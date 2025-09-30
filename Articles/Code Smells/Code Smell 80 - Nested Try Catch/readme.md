@@ -82,7 +82,7 @@ The happy path should always be more important than exception cases.
 
 # More Information 📕
 
-- [Nested Try/Catchs](https://beginnersbook.com/2013/04/nested-try-catch/)
+[Nested Try/Catches](https://beginnersbook.com/2013/04/nested-try-catch/)
 
 # Credits 🙏
 
@@ -90,7 +90,7 @@ Photo by [David Clode](https://unsplash.com/@davidclode) on [Unsplash](https://u
   
 Thanks to @[Rodrigo](@rodrigomd) for his inspiration
 
-%[https://twitter.com/_rodrigomd/status/1403359513965731843]
+[X](https://twitter.com/_rodrigomd/status/1403359513965731843)
 
 * * *
 

@@ -16,7 +16,7 @@ In this article, I will combine the TDD solution that created a good model with 
 
 I have written several articles on software development.
 
-I will talk about Worlde to represent serious software.
+I will talk about Wordle to represent serious software.
 
 In the first one, I created a backend Wordle using TDD and PHP.
 
@@ -46,7 +46,7 @@ We have two repositories:
 
 2 - The one with the machine-generated code
 
-%[https://github.com/mcsee/wordle/tree/main/Open%20AI%20Codex%20from%20DotCSV]
+[GitHub](https://github.com/mcsee/wordle/tree/main/Open%20AI%20Codex%20from%20DotCSV)
 
 Playable Version (Live) With Defects
 
@@ -210,6 +210,6 @@ It is a proof of concept, not an elegant and final solution.
 
 Image credit: A funny Twitter thread asking AIs to draw a Centaur
 
-%[https://twitter.com/Alt_Products_AI/status/1571835127101100033]
+[X](https://twitter.com/Alt_Products_AI/status/1571835127101100033)
 
  

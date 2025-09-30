@@ -86,9 +86,7 @@ It is very hard to put some test in maintenance since we are removing a safety n
 
 # Tags 🏷️
 
-- Coupling
-
-- Determinism
+- Testing
 
 # Conclusion 🏁
 
