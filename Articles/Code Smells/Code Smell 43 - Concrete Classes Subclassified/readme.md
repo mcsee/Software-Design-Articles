@@ -88,7 +88,7 @@ Abstract classes should have just a few concrete methods. We can check against a
 
 # Tags 🏷️
 
-- Composition
+- Hierarchies
 
 # Conclusion 🏁
 

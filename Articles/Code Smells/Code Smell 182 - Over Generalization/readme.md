@@ -69,7 +69,7 @@ This is a semantic smell.
 
 # Tags 🏷️
 
-- Duplication
+- Premature Optimization
 
 # Conclusion 🏁
 

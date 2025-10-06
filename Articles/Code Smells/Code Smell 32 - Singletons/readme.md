@@ -120,7 +120,7 @@ We can add linter rules for patterns like *'getInstance()'* so new developers ca
  
 # Tags 🏷️
 
-- Globals
+- Coupling
 
 # Conclusion 🏁
 

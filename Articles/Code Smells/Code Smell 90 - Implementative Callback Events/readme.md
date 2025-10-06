@@ -55,9 +55,7 @@ This is a semantic smell. We can detect it on peer code reviews.
 
 # Tags 🏷️
 
-- Coupling
-
-- Naming
+- Premature Optimization
 
 # Level 🔋
 

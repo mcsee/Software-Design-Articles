@@ -65,7 +65,7 @@ Most linterns can warn you when accessing the global state or [Functions](https:
 
 # Tags 🏷️
 
-- Global
+- Mutability
 
 # Conclusion 🏁
 

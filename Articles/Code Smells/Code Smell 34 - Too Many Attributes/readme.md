@@ -85,7 +85,7 @@ Most linters warn when you declare too many attributes. Setting a good warning t
 
 # Tags 🏷️
 
-- Primitive
+- Bloaters
 
 # Conclusion 🏁
 

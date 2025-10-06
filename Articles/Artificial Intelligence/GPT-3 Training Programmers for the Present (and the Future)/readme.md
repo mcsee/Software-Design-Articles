@@ -140,7 +140,7 @@ The future has already arrived. We don't have much idea of what a programmer's j
 
 Part of the ideas in this article was born from the teaching work in the Software Engineering course in the Computer Science degree at the Faculty of Exact Sciences, University of Buenos Aires.
 
-1. [GoLang]( https://raevskymichail.medium.com/why-golang-bad-for-smart-programmers-4535fce4210c)
+1. [GoLang](https://raevskymichail.medium.com/why-golang-bad-for-smart-programmers-4535fce4210c)
 2. [Declarative programming](https://www.info.ucl.ac.be/~avl/files/RE01.pdf)
 3. [Legacy code](https://link.springer.com/chapter/10.1007/978-3-540-88808-6_5)
 4. [Obsolete programmers](https://dl.acm.org/doi/10.1145/341852.341872)

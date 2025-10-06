@@ -99,7 +99,7 @@ We can detect we need a method just for test.
 
 # Tags 🏷️
 
-- Information Hiding
+- Testing
 
 # Level 🔋
 

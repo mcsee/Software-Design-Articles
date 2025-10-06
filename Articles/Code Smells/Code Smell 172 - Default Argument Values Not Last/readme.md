@@ -83,7 +83,7 @@ Also, many compilers directly forbid it.
 
 # Tags 🏷️
 
-- Readability
+- Coupling
 
 # Level 🔋
 

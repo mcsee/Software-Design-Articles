@@ -81,7 +81,7 @@ If your code and your tests harness live in different repositories, you might ha
 
 # Tags 🏷️
 
-- Quality
+- Testing
 
 # Conclusion 🏁
 

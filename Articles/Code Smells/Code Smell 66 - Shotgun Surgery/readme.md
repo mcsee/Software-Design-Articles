@@ -97,7 +97,7 @@ Some modern linters can detect repeated patterns (not just repeated code) and al
 
 # Tags 🏷️
 
-- Code Duplication
+- Coupling
 
 # Conclusion 🏁
 

@@ -72,7 +72,7 @@ Linters can count methods and warn against a threshold.
 
 # Tags 🏷️
 
-- Cohesive
+- Coupling
 
 # Conclusion 🏁
 

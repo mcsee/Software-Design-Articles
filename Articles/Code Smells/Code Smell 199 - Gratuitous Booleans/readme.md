@@ -58,7 +58,7 @@ Many [linters](https://rules.sonarsource.com/javascript/type/Code%20Smell/RSPEC-
 
 # Tags 🏷️
 
-- Complexity
+- IFs
 
 # Conclusion 🏁
 

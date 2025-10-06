@@ -102,7 +102,7 @@ We can perform mutation testing to find changed values.
 
 # Tags 🏷️
 
-- Constants
+- Mutability
 
 # Conclusion 🏁
 

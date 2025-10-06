@@ -22,7 +22,7 @@ We are going to make an exercise on object-oriented software design by stating j
 
 ![model](https://cdn.hashnode.com/res/hashnode/image/upload/v1598842979012/j-xiUt-jT.png)
 
-The relationship between objects of the model and entities of the real-world is 1: 1
+The relationship between objects of the model and entities of the real-world is 1:1
 
 We can see the justification of this model in this article:
 
@@ -36,7 +36,7 @@ We will see that most of the language implementations used in the industry ignor
 
 Invoking difficulties that arose in the construction of software 3 or 4 decades ago and that they almost no longer exist or are present in a few domains
 
-We keep on making monkey decisions and beating each other without knowing[ the reason for such behavior.](https://www.youtube.com/watch?v=pgJ8-IaBSeY)
+We keep on making monkey decisions and beating each other without knowing [the reason for such behavior.](https://www.youtube.com/watch?v=pgJ8-IaBSeY)
 
 ![monkeys](https://cdn.hashnode.com/res/hashnode/image/upload/v1598843041118/lvcCdU94B.jpeg)
 
@@ -50,7 +50,7 @@ Meteorologists make mathematical models to predict and anticipate the behavior o
 
 With the rise of machine learning, we build black-box models to predict behaviors in real life.
 
-## The importance of bijection
+## The importance of the bijection
 
 In the domain of software and under the paradigm of objects we will always have one and only one object representing a real-world entity.
 
@@ -121,4 +121,6 @@ We look forward to comments and suggestions on this article.
 
 Part of the ideas in this article was developed together with Hernán Wilkinson and all the members of the Software Engineering Staff on [*Universidad de Buenos Aires.*](https://www.isw2.com.ar/)
 
-This article is published at the same time in Spanish [here](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
+***
+
+Spanish version: [El Único Principio de Diseño de Software Importante]()

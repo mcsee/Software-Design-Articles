@@ -72,7 +72,7 @@ In this repository, you will find many articles related to Software Design
 
 * [How to Squeeze Test Driven Development on Legacy Systems](/Articles/TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md)
 
-* [We Should Get Rid of HelloWorld Forever💩](/Articles/TDD/We%20Should%20Get%20Rid%20of%20HelloWorld%20Forever/readme.md)
+* [We Should Get Rid of HelloWorld Forever](/Articles/TDD/We%20Should%20Get%20Rid%20of%20HelloWorld%20Forever/readme.md)
 
 ### Code Smells
 
@@ -887,6 +887,8 @@ In this repository, you will find many articles related to Software Design
 * [Refactoring 032 - Apply Consistent Style Rules](/Articles/Refactorings/Refactoring%20032%20-%20Apply%20Consistent%20Style%20Rules/readme.md)
 
 * [Refactoring 033 - Strip Annotations](/Articles/Refactorings/Refactoring%20033%20-%20Strip%20Annotations/readme.md)
+
+* [Refactoring 034 - Reify Parameters](/Articles/Refactorings/Refactoring%20034%20-%20Reify%20Parameters/readme.md)
 
 ### Wordle
 

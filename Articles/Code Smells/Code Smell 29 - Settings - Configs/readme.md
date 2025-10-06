@@ -83,7 +83,7 @@ This is an architectural pattern so it should be controlled/avoided by design po
 
 # Tags 🏷️
 
-- Globals
+- Complexity
 
 # Conclusion 🏁
 

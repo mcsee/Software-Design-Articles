@@ -82,7 +82,7 @@ class RelativeClock {
 
 # Tags 🏷️
 
-- Legacy
+- Coupling
 
 # Conclusion 🏁
 

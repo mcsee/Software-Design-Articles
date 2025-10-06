@@ -1,6 +1,6 @@
 # Code Smell 230 - Schrödinger Code
             
-![Code Smell 230 - Schrdinger Code](Code%20Smell%20230%20-%20Schrdinger%20Code.jpg)
+![Code Smell 230 - Schrödinger Code](Code%20Smell%20230%20-%20Schrdinger%20Code.jpg)
 
 *Your code is dead and alive*
 
@@ -8,7 +8,7 @@
 
 # Problems 😔 
 
-- Principle of Least Surprise violation
+- Principle of the Least Surprise violation
 
 - [Race Conditions](https://en.wikipedia.org/wiki/Race_condition)
 

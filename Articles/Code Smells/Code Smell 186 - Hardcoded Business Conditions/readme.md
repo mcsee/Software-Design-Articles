@@ -75,7 +75,7 @@ If you make code reviews, pay special attention to this kind of hard coding.
 
 # More Information 📕
 
-- [Reuters on FTX Crash]( https://www.reuters.com/technology/how-secret-software-change-allowed-ftx-use-client-money-2022-12-13/)
+- [Reuters on FTX Crash](https://www.reuters.com/technology/how-secret-software-change-allowed-ftx-use-client-money-2022-12-13/)
 
 # Disclaimer 📘
 

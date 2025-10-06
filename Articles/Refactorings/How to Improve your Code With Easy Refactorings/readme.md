@@ -80,6 +80,8 @@ Let's go for the solutions!
 
 [Refactoring 033 - Strip Annotations](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20033%20-%20Strip%20Annotations/readme.md)
 
+[Refactoring 034 - Reify Parameters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20034%20-%20Reify%20Parameters/readme.md)
+
 * * *
 
 Photo by [No Revisions](https://unsplash.com/ja/@norevisions) on [Unsplash](https://unsplash.com/es/s/fotos/cleaning)

@@ -102,7 +102,7 @@ We can check the size of the interface protocol
 
 # Tags 🏷️
 
-- Cohesion
+- Bloaters
 
 # Conclusion 🏁
 

@@ -67,7 +67,7 @@ Some actual linters warn us of this problem
 
 # Tags 🏷️
 
-- Premature Optimization
+- IFs
 
 # Level 🔋
 

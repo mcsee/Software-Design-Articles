@@ -70,10 +70,6 @@ Same as its [opposite smell](https://github.com/mcsee/Software-Design-Articles/t
 
 - Coupling
 
-- Declarative
-
-- Readability
-
 # Conclusion 🏁
 
 This is exactly the opposite to [Message Chain](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2008%20-%20Long%20Chains%20Of%20Collaborations/readme.md). We make explicit the message chain. 

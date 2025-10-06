@@ -53,9 +53,7 @@ Since this is a "language feature", we can explicitly forbid it.
 
 # Tags 🏷️
 
-- Mutability
-
-- JavaScript
+- Mutability 
 
 # Level 🔋
 

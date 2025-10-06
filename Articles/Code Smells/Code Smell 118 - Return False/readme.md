@@ -59,7 +59,7 @@ Based on syntax trees, we can safely refactor the code.
 
 # Tags 🏷️
 
-- Boolean
+- IFs
 
 # Conclusion 🏁
 

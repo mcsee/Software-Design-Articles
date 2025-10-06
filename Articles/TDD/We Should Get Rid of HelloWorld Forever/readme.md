@@ -1,4 +1,4 @@
-# We Should Get Rid of HelloWorld Forever💩
+# We Should Get Rid of HelloWorld Forever
 
 ![We Should Get Rid of HelloWorld Forever](We%20Should%20Get%20Rid%20of%20HelloWorld%20Forever.jpeg)
 

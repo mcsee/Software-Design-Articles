@@ -73,10 +73,8 @@ We can set a warning threshold on our linters.
 
 # Tags 🏷️
 
-- Coupling
-
-- Ripple Effect
-
+- Bloaters
+ 
 # Level 🔋
 
 [X] Beginner

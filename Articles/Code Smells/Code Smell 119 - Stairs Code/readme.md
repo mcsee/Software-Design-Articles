@@ -79,7 +79,7 @@ Based on syntax trees, we can safely refactor the code removing the explicit boo
 
 # Tags 🏷️
 
-- Boolean
+- IFs
 
 # Conclusion 🏁
 

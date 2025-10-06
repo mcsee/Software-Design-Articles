@@ -83,7 +83,7 @@ This is a semantic mistake. We could add a warning for *similar* method names on
 
 # Tags 🏷️
 
-- Polymorphism
+- IFs
 
 # Level 🔋
 

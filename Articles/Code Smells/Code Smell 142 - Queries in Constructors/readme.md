@@ -68,7 +68,7 @@ Our linters can find SQL patterns on constructors and warn us.
 
 # Tags 🏷️
 
-- Coupling
+- Premature Optimization
 
 # Conclusion 🏁
 

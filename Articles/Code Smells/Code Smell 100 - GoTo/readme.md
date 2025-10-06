@@ -63,7 +63,7 @@ In languages supporting *GOTO*, our linters can warn us against its usage.
 
 # Tags 🏷️
 
-- Readability
+- Globals
 
 # Conclusion 🏁
 

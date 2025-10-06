@@ -75,7 +75,7 @@ Linters can check for explicit comparisons and warnings.
 
 # Tags 🏷️
 
-- Castings
+- IFs
 
 # Conclusion 🏁
 

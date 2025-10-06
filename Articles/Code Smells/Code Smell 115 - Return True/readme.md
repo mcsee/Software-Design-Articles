@@ -62,7 +62,7 @@ Many linters can check syntactic trees and look for explicit true/value returns.
 
 # Tags 🏷️
 
-- Primitive
+- IFs
 
 # Conclusion 🏁
 

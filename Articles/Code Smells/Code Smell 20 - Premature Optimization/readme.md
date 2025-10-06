@@ -81,8 +81,6 @@ This is a design smell so it can not be detected by mechanical tools (yet).
 
 - Premature Optimization
 
-- Antipattern
-
 # Conclusion 🏁
 
 Defer performance decisions until functional models are mature enough.

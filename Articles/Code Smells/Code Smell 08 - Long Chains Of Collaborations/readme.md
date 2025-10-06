@@ -81,10 +81,8 @@ dog.walk();
  
 # Tags 🏷️
 
-- Declarative
-
-- Encapsulation
-
+- Complexity
+ 
 # Conclusion 🏁
 
 Avoid successive message calls. Try to hide the intermediate collaborations and create new protocols.

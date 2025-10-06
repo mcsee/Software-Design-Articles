@@ -83,7 +83,7 @@ Linters can detect large code blocks
 
 # Tags 🏷️
 
-- Bloaters
+- IFs
 
 # Conclusion 🏁
 
