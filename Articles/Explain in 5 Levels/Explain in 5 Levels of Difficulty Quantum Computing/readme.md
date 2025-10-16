@@ -4,6 +4,8 @@
 
 *Back to the Future: Revisiting Quantum Computing 25 years later*
 
+> TL;DR: I will explain quantum computing in five levels to different audiences.
+
 More than 25 years ago, circa 1999, I authored an article on the future of quantum computing, which was published in the science section of a printed newspaper in Argentina.
 
 You can access the original article [here](https://www.pagina12.com.ar/1999/suple/futuro/99-05-29/NOTA_A.HTM) (in Spanish) and view an automatic translation by following [this link](https://www-pagina12-com-ar.translate.goog/1999/suple/futuro/99-05-29/NOTA_A.HTM?_x_tr_sl=es&_x_tr_tl=en).
@@ -11,8 +13,6 @@ You can access the original article [here](https://www.pagina12.com.ar/1999/supl
 My article was quite speculative back then.
 
 Quantum computing has gained significant traction and relevance in technology discussions today.
-
-> TL;DR: I will explain quantum computing in five levels to different audiences.
 
 # Child
 

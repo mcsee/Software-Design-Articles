@@ -2,6 +2,8 @@
 
 ![What is JOMO and Why it will Increase your Productivity x97](What%20is%20JOMO%20and%20Why%20it%20will%20Increase%20your%20Productivity%20x97.gif)
 
+*You will understand what are FOMO and JOMO*
+
 > TL;DR: You are mortal. You will die. Don't waste your time.
 
 # What is JOMO?

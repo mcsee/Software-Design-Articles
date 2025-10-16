@@ -2,7 +2,7 @@
 
 ![Nude Models - Part II: Getters](Nude%20Models - Part%20II Getters.jpg)
 
-## Ye olde Reliable Data Structures and Their Controversial (Read) Access.
+*Ye olde Reliable Data Structures and Their Controversial (Read) Access.*
 
 > TL;DR: Why you should avoid getters
 

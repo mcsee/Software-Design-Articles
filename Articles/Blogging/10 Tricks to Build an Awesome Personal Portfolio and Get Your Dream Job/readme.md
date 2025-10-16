@@ -2,9 +2,9 @@
 
 ![10 Tricks to Build an Awesome Personal Portfolio and Get Your Dream Job](10%20Tricks%20to%20Build%20an%20Awesome%20Personal%20Portfolio%20and%20Get%20Your%20Dream%20Job.gif)
 
-> TL;DR: How to create an amazing portfolio
+*I've recently discovered personal branding and the importance of a shinny and updated portfolio.*
 
-I've recently discovered personal branding and the importance of a shinny and updated portfolio.
+> TL;DR: How to create an amazing portfolio
 
 Working as a software engineer for 25 years never spend enough time on personal branding.
 

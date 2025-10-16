@@ -2,11 +2,11 @@
 
 ![Explain in 5 Levels of Difficulty: Object-Oriented Programming](Explain%20in%205%20Levels%20of%20Difficulty%20Object-Oriented%20Programming.gif)
 
+*I will explain Object-Oriented Programming (OOP) in Five Levels (a child, a teen, a college student, a grad student, and an expert).*
+
 > TL;DR: What is Object-Oriented Programming
 
 Hello Software Designers!
-
-I will explain Object-Oriented Programming (OOP) in Five Levels (a child, a teen, a college student, a grad student, and an expert).
 
 # Child
 

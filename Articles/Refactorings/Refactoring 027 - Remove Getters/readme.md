@@ -274,7 +274,7 @@ Unit testing may become more challenging as the internal state is less accessibl
 
 # Credits 🙏
 
-Image by [Kris](https://pixabay.com/users/thedigitalway-3008341) on [Pixabay](https://pixabay.com//)
+Image by [Kris](https://pixabay.com/users/thedigitalway-3008341) on [Pixabay](https://pixabay.com/)
 
 * * * 
 

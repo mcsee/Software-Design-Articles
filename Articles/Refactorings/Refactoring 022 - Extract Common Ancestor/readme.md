@@ -151,7 +151,7 @@ By introducing an abstract class, the code better reflects the [real-world](http
 
 # Credits 🙏
 
-Image by [Pexels](https://pixabay.com/users/pexels-2286921/) on [Pixabay](https://pixabay.com//)
+Image by [Pexels](https://pixabay.com/users/pexels-2286921/) on [Pixabay](https://pixabay.com/)
 
 * * * 
 

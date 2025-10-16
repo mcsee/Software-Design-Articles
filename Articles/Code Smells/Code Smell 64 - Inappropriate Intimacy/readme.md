@@ -2,22 +2,17 @@
 
 ![Code Smell 64 - Inappropriate Intimacy](Code%20Smell%2064%20-%20Inappropriate%20Intimacy.jpg)
 
-> TL;DR: Don't get too intimate
-
 *Two classes entangled in love.*
+
+> TL;DR: Don't get too intimate
 
 # Problems 😔 
 
 - Coupling
-
 - Bad Responsibilities Assignments
- 
 - Bad Cohesion
-
 - Class Interfaces too Public
-
 - Maintainability
-
 - Extensibility
 
 # Solutions 😃

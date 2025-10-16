@@ -1,6 +1,8 @@
 # How to Decouple a Legacy System
 
 ![How to Decouple a Legacy System](How%20to%20Decouple%20a%20Legacy%20System.jpg)
+
+*A step-by-step guide to improve a legacy system*
 				   
 > TL;DR: An exercise on improving legacy code
 

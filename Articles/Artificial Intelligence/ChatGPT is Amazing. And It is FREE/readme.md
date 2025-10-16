@@ -2,6 +2,8 @@
 
 ![ChatGPT is Amazing. And It is FREE](ChatGPT%20is%20Amazing.%20And%20It%20is%20FREE.png)
 
+*ChatGPT is Amazing. And It is FREE*
+
 > TL;DR: All you need to know about new GPT Technology
 
 * * *

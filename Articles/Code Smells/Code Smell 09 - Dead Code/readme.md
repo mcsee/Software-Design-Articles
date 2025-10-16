@@ -63,7 +63,7 @@ Coverage tools can find dead code (uncovered) if you have a great suite of tests
 
 # Tags 🏷️
 
-- Bloaters
+- YAGNI
 
 # Conclusion 🏁
 

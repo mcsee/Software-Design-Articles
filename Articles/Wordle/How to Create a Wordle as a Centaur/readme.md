@@ -4,11 +4,11 @@
 
 *Why you should use modern AI programming tools*
 
+> TL;DR: Use the best available tools wisely
+
 I've been using Wordle as an analogy for serious software development.
 
 In this article, I will combine the TDD solution that created a good model with an automated code generated using Artificial Intelligence.
-
-> TL;DR: Use the best available tools wisely
 
 # Divide and Conquer 
 

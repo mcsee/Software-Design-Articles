@@ -2,6 +2,10 @@
 
 ![TDD Conference 2021 - Why You Might Not Want To Use TDD - Ola Kunysz](TDD%20Conference%202021%20-%20Why%20You%20Might%20Not%20Want%20To%20Use%20TDD%20-%20Ola%20Kunysz.jpg)
 
+*Why You Might Not Want To Use TDD - Ola Kunysz*
+
+> TL;DR: TDD can be hard to start and level up, but it is worth it!
+
 First International Test Driven Development took place on July 30th. 
 
 In this series, I will include every talk together with my notes and further reading.
@@ -13,8 +17,6 @@ Let's continue...
 ## Bio 
 
 Ola Kunysz is a software engineer with 14 years of experience. Besides coding, she has experience in business analysis and consulting. Since 2019 she runs her own company, educating programmers about software quality. She speaks at conferences, writes articles and produces online courses. Her biggest interest is solving real-life problems and writing code that matters. For 2 years, she organized meetups and workshops of Geek Girls Carrots in Wrocław, Poland. She enjoys meeting people and working on interesting projects, so you can spot her on hackathons and conferences. When it’s time to relax, she’s offline [with dog (s), playing board games, in the mountains]
- 
-> TL;DR: TDD can be hard to start and level up, but it is worth it!
 
 ## Talk
 

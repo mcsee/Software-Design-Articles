@@ -2,6 +2,10 @@
 
 ![TDD Conference 2021 - Meenakshi Dhanani - Which is better to Code by Contract TDD or API-first](TDD%20Conference%202021%20-%20Meenakshi%20Dhanani%20-%20Which%20is%20better%20to%20Code%20by%20Contract%20TDD%20or%20API-first.jpg)
 
+*Meenakshi Dhanani - Which is better to Code by Contract TDD or API-first*
+
+> TL;DR: TDD and API-First are complementary techniques. We should embrace contracts.
+
 First International Test Driven Development took place on July 30th. 
 
 In this series, I will include every talk together with my notes and further reading.
@@ -13,8 +17,6 @@ Let's continue...
 ## Bio 
 
 Meenakshi Dhanani works as a Developer Advocate at Postman where she advocates best practices for Postman, the larger API community, and an API-first approach to software development. She was previously a software consultant at ThoughtWorks, where she trained employees and worked on projects applying XP (extreme programming) practices - TDD, CI/CD, pair programming by the book.
- 
-> TL;DR: TDD and API-First are complementary techniques. We should embrace contracts.
 
 ## Talk
 

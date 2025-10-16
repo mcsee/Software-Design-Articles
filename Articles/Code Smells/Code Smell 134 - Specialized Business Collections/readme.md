@@ -123,7 +123,7 @@ Sometimes we need to optimize collections for performance reasons if we have eno
 
 # Tags 🏷️
 
-- Bloaters
+- YAGNI
 
 # Conclusion 🏁
 

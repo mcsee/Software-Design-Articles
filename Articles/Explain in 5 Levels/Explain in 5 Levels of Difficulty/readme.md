@@ -2,6 +2,8 @@
 
 ![Explain in 5 Levels of Difficulty](Explain%20in%205%20Levels%20of%20Difficulty.png)
 
+*In this series, I will explain several concepts to five different audiences*
+
 > TL;DR: In this series, I will explain several concepts to five different audiences
 
 [Explain in 5 Levels of Difficulty: Linux](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20Linux/readme.md)

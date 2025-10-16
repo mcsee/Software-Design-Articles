@@ -2,9 +2,9 @@
 
 ![The Evil Power of Mutants](The%20Evil%20Power%20of%20Mutants.jpg)
 
-> TL;DR: Favor immutable objects
-
 *Since the very beginning of the stored-program concept, we learned that software is Programs + Data. Without data there is no software.*
+
+> TL;DR: Favor immutable objects
 
 In object-oriented programming we build models that evolve, emulating the knowledge we learn by observing the reality we represent.
 

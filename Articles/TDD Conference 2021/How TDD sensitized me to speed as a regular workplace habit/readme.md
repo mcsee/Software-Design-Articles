@@ -2,6 +2,10 @@
 
 ![TDD Conference 2021 - How TDD sensitized me to speed as a regular workplace habit - Ragunath Jawahar](TDD%20Conference%202021%20-%20How%20TDD%20sensitized%20me%20to%20speed%20as%20a%20regular%20workplace%20habit%20-%20Ragunath%20Jawahar.jpg)
 
+*How TDD sensitized me to speed as a regular workplace habit - Ragunath Jawahar*
+
+> TL;DR: Short feedback loops should fail fast, grab attention and suggest corrective actions
+ 
 First International Test Driven Development took place on July 10th. 
 
 In this series, I will include every talk together with my notes and further reading.
@@ -13,8 +17,6 @@ Let's continue...
 ## Bio 
 
 Ragunath has consulted organizations like Gojek, Dunzo, Tiffany & Co., Mizuno, etc., for a decade. He stabilizes fast-growing teams and reclaims codebases that teams are afraid to change. He is a fan of fast feedback cycles and also believes that you are only as good as the team you build.
- 
-> TL;DR: Short feedback loops should fail fast, grab attention and suggest corrective actions
 
 ## Talk
 

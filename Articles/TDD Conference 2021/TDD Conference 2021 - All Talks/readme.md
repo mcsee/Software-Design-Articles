@@ -2,9 +2,11 @@
 
 ![TDD Conference 2021 - All Talks](TDD%20Conference%202021%20-%20All%20Talks.jpg)
 
-First International Test Driven Development took place on July 10th. 
+*TDD Conference 2021 - All Talks*
 
 > TL;DR: An Index on all conference talks
+
+First International Test Driven Development took place on July 10th. 
 
 In this series, I included every talk together with my notes and further reading.
 

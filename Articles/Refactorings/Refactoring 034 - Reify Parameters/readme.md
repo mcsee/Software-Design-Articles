@@ -236,7 +236,7 @@ Instruct it to propose an entity name, generate the type or class, and rewrite b
 
 # Credits 🙏
 
-Image by [Gerd Altmann](https://pixabay.com/users/geralt-9301/) on [Pixabay](https://pixabay.com//)
+Image by [Gerd Altmann](https://pixabay.com/users/geralt-9301/) on [Pixabay](https://pixabay.com/)
 
 * * * 
 

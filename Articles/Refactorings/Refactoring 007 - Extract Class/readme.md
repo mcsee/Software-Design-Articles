@@ -116,7 +116,7 @@ Logic code is in just one place together with its rules
 
 # Tags 🏷️
 
-- Classes
+- Hierarchies
 
 # Level 🔋
 

@@ -4,9 +4,9 @@
 
 *GOTO Chaos: Spaghetti Code*
 
-*This article is dedicated to the late [Thomas E. Kurtz](https://en.wikipedia.org/wiki/Thomas_E._Kurtz), one of [BASIC](https://en.wikipedia.org/wiki/BASIC)'s creators, as it was the first programming language I learned.*
-
 > TL;DR: GOTO statements create confusing and unmaintainable code
+
+*This article is dedicated to the late [Thomas E. Kurtz](https://en.wikipedia.org/wiki/Thomas_E._Kurtz), one of [BASIC](https://en.wikipedia.org/wiki/BASIC)'s creators, as it was the first programming language I learned.*
 
 # Problems 😔 
 

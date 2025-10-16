@@ -2,13 +2,13 @@
 
 ![Object Design Checklist](Object%20Design%20Checklist.jpg)
 
-## This is an index to already published articles on software design.
+*Index articles on software design*
+
+> TL;DR: This is an index to already published articles on software design.
 
 Some rules must be followed and embraced to create great software designs. 
 
 This article summarizes them, serving as an index to full stories.
-
-> TL;DR: Important concepts about Object-Oriented Programming
 
 # Axioms
 

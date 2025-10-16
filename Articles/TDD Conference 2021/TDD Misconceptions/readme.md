@@ -2,6 +2,10 @@
 
 ![TDD Conference 2021 - TDD Misconceptions - Olena Borzenko](TDD%20Conference%202021%20-%20TDD%20Misconceptions%20-%20Olena%20Borzenko.jpg)
 
+*TDD Misconceptions - Olena Borzenko*
+
+> TL;DR: Destroying common TDD Misconceptions
+
 First International Test Driven Development took place on July 10th. 
 
 In this series, I will include every talk together with my notes and further reading.
@@ -14,7 +18,7 @@ Let's continue...
 
 Olena is a full stack developer at The Adecco Group from Berlin in Germany. She has previously worked in a service company based in Ukraine and took a part in the creation of various products from small startups, B2B applications, to enterprise platforms. Moreover, she is passionate about new technologies, clean code and best practices. In her free time, when she’s not spending it on hobbies, she likes to build demos around real-life use cases, share knowledge with others, and the opposite, learn about someone else's experience.
  
-> TL;DR: Desroying common TDD Misconceptions 
+> TL;DR: Destroying common TDD Misconceptions 
 
 ## Talk
 

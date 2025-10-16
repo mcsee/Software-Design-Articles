@@ -2,7 +2,7 @@
 
 ![Explain in 5 Levels of Difficulty: Ethereum](Explain%20in%205%20Levels%20of%20Difficulty%20Ethereum.jpeg)
 
-*Ethereum is reshaping the future of decentralized apps*.
+*Ethereum is reshaping the future of decentralized apps*
 
 > TL;DR: I will explain Ethereum and its smart contracts in five levels for different audiences.
 

@@ -2,9 +2,9 @@
 
 ![Code Smell 46 - Repeated Code](Code%20Smell%2046%20-%20Repeated%20Code.jpg)
 
-> TL;DR: Don't Repeat Yourself
-
 *DRY is our mantra. Teachers tell us to remove duplication. We need to go beyond.*
+
+> TL;DR: Don't Repeat Yourself
 
 # Problems 😔 
 

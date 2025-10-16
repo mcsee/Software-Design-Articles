@@ -59,8 +59,6 @@ Since many cascading messages are sending to the same object, we can detect a pa
 
 # Tags 🏷️
 
-- Encapsulation
-
 - Coupling
 
 # Level 🔋

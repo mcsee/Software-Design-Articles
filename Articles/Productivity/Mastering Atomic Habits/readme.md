@@ -2,9 +2,9 @@
 
 ![Mastering Atomic Habits](Mastering%20Atomic%20Habits.gif)
 
-> TL;DR: Some habit-building tips and tricks.
+*If you want to change your life, you need to start with your habits.*
 
-If you want to change your life, you need to start with your habits. 
+> TL;DR: Some habit-building tips and tricks.
 
 Atomic habits are the building blocks that make up our lives. 
 

@@ -53,7 +53,7 @@ giveSecondDoseOfVaccine(jane, flu);
 
 # Tags 🏷️
 
-- Naming
+- Standards
 
 # Level 🔋
 

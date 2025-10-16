@@ -2,11 +2,11 @@
 
 ![Explain in 5 Levels of Difficulty: Linux](Explain%20in%205%20Levels%20of%20Difficulty%20Linux.gif)
 
+*I will explain Linux in Five Levels (a child, a teen, a college student, a grad student, and an expert)*
+
 > TL;DR: What are the Pros and Cons of using Linux
 
 Hello Linux Lovers!
-
-I will explain Linux in Five Levels (a child, a teen, a college student, a grad student, and an expert)
 
 # Child
 

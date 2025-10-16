@@ -2,6 +2,8 @@
 
 ![Why GitHub Copilot is not a Threat to your Job](Why%20GitHub%20Copilot%20is%20not%20a%20Threat%20to%20your%20Job.png)
 
+*Why GitHub Copilot is not a Threat to your Job*
+
 > TL;DR: If you are a good software designer Copilot will not help you very much.
 
 # What is GitHub Copilot?

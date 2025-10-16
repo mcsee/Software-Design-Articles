@@ -65,7 +65,7 @@ Many modern languages avoid them. For the permissive ones, scope rules can be ap
 
 # Tags 🏷️
 
-- Global
+- Globals
 
 # Conclusion 🏁
 

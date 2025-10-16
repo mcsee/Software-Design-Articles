@@ -125,9 +125,7 @@ Algorithms and functions are more declarative hiding implementative details on e
 Does not work well if you use [meta-programming anti-pattern](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md).
 
 # Tags 🏷️
-
-- Complexity
-
+ 
 - Readability
 
 # Level 🔋

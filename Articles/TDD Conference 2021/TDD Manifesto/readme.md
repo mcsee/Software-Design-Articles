@@ -2,6 +2,10 @@
 
 ![TDD Conference 2021 - TDD Manifesto - Daniel Moka](TDD%20Conference%202021%20-%20TDD%20Manifesto%20-%20Daniel%20Moka.jpg)
 
+*TDD Manifesto - Daniel Moka*
+
+> TL;DR: TDD Manifesto aims to settle common grounds to TDD after many years of real-world usage.
+
 First International Test Driven Development took place on July 10th. 
 
 In this series, I will include every talk together with my notes and further reading.
@@ -13,8 +17,6 @@ Let's continue...
 ## Bio 
 
 Daniel Moka is a TDD enthusiast and boundary pusher who has a strong passion for crafting quality software while using education to change the world. He has a solid background in building enterprise solutions using the .NET stack deployed to cloud environments. He is on a mission to raise the software quality standards worldwide and to help individuals and corporates to produce efficient, elegant, and quality software.
- 
-> TL;DR: TDD Manifesto aims to settle common grounds to TDD after many years of real-world usage.
 
 ## Talk
 

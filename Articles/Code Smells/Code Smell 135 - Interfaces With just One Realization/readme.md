@@ -91,7 +91,7 @@ If your language defines an interface for test mocking, it is another [code smel
 
 # Tags 🏷️
 
-- Bloaters
+- YAGNI
 
 # Conclusion 🏁
 

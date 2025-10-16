@@ -256,7 +256,7 @@ You need to ensure all code paths initialize collections consistently to avoid m
 
 # Credits 🙏
 
-Image by [Eak K.](https://pixabay.com/users/eak_kkk-907811/) on [Pixabay](https://pixabay.com//)
+Image by [Eak K.](https://pixabay.com/users/eak_kkk-907811/) on [Pixabay](https://pixabay.com/)
 
 * * * 
 

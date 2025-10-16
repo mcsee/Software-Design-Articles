@@ -2,6 +2,8 @@
 
 ![Why I Create Content as a Developer and Teacher](Why%20I%20Create%20Content%20as%20a%20Developer%20and%20Teacher.gif)
 
+*The reasons I write Technical Content articles*
+
 > TL;DR: The reasons I write Technical Content articles
 
 # When?

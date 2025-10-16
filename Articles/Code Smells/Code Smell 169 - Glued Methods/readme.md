@@ -61,7 +61,7 @@ Some linters can warn us about methods including the term 'and'.
 
 # Tags 🏷️
 
-- Coupling
+- Bloaters
 
 # Level 🔋
 

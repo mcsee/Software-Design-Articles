@@ -91,9 +91,7 @@ Detection is easy if the language supports optional arguments.
  
 # Tags 🏷️
 
-- Optional
-
-- Laziness
+- Coupling
 
 # Conclusion 🏁
 

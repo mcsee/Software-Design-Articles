@@ -2,6 +2,10 @@
 
 ![TDD Conference 2021 - Benefits Of Going Beyond The Make-It-Work Phase - Francisco Climent](TDD%20Conference%202021%20-%20Benefits%20Of%20Going%20Beyond%20The%20Make-It-Work%20Phase%20-%20Francisco%20Climent.jpg)
 
+*Benefits Of Going Beyond The Make-It-Work Phase - Francisco Climent*
+
+> TL;DR: Use dual Target TDD on embedded systems. Hide accidental layers.
+
 First International Test Driven Development took place on July 10th. 
 
 In this series, I will include every talk together with my notes and further reading.
@@ -15,8 +19,6 @@ Let's continue...
 Fran is a telecommunications engineer with more than 15 years of experience developing electronics products, both hardware and software. During most of these years, he failed to follow a sustainable, iterative and defect-free development process in every project he was involved. And he was not alone. Every team member had the belief that 'embedded is hard'.
 
 Six years ago he discovered TDD, which led him to XP, Agile, and Craftsmanship. It was a revealing moment: he felt like he had been living inside Plato's cave. Like a prisoner suffering Stockholm syndrome with his beloved hardware, being devoid of the proper principles, knowledge and tools to consider himself a true professional. Nowadays, he helps teams and organizations to improve their development processes as a part of his long road to software craftsmanship.
- 
-> TL;DR: Use dual Target TDD on embedded systems. Hide accidental layers. 
 
 ## Talk
 

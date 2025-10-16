@@ -2,8 +2,7 @@
 
 ![Code Smell 13 - Empty Constructors](Code%20Smell%2013%20-%20Empty%20Constructors.jpg)
 
-*No-Parameterized constructors are a code smell of an **invalid** object that will dangerously mutate.
-Incomplete objects cause lots of issues.*
+*No-Parameterized constructors are a code smell of an **invalid** object that will dangerously mutate. Incomplete objects cause lots of issues.*
 
 > TL;DR: Pass the essence to all your objects so they will not need to mutate.
 

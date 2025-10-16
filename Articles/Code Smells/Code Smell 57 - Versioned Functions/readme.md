@@ -2,14 +2,13 @@
 
 ![Code Smell 57 - Versioned Functions](Code%20Smell%2057%20-%20Versioned%20Functions.jpeg)
 
-> TL;DR: Don't version your names!
-
 *sort, sortOld, sort20210117, workingSort, It is great to have them all. Just in case*
+
+> TL;DR: Don't version your names!
 
 # Problems 😔 
 
 - Readability
-
 - Maintainability
 
 # Solutions 😃

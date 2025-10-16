@@ -75,7 +75,7 @@ We can check for the notation with one argument and flag it as a warning.
 
 # Tags 🏷️
 
-- Bloaters
+- Complexity
 
 # Conclusion 🏁
 

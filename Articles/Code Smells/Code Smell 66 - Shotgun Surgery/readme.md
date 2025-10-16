@@ -2,25 +2,21 @@
 
 ![Code Smell 66 - Shotgun Surgery](Code%20Smell%2066%20-%20Shotgun%20Surgery.jpg)
 
-> TL;DR: Don't fire!
-
 *Say it only once*
+
+> TL;DR: Don't fire!
 
 # Problems 😔 
 
 - Bad Responsibilities Assignments
- 
 - Code Duplication
-
 - Maintainability
-
 - [Single Responsibility](https://en.wikipedia.org/wiki/Single-responsibility_principle) Violation.
-
 - Copy-pasted code.
 
 # Solutions 😃
 
-1. Refactor
+1. Refactor it
 
 # Sample Code 📖
 

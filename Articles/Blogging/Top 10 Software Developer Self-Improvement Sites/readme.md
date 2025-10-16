@@ -2,6 +2,8 @@
             
 ![Top 10 Software Developer Self-Improvement Sites](Top%2010%20Software%20Developer%20Self-Improvement%20Sites.gif)
 
+*What are the most helpful online tools to self-improve as a developer/software engineer*
+
 > TL;DR: What are the most helpful online tools to self-improve as a developer/software engineer
 
 When it comes to finding an online community to help you improve as a software developer, there are many options available. 

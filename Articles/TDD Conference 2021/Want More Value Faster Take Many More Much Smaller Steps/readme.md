@@ -2,6 +2,10 @@
 
 ![TDD Conference 2021 - GeePaw Hill - Want More Value Faster Take Many More Much Smaller Steps](TDD%20Conference%202021%20-%20GeePaw%20Hill%20-%20Want%20More%20Value%20Faster%20Take%20Many%20More%20Much%20Smaller%20Steps.jpg)
 
+*GeePaw Hill - Want More Value Faster Take Many More Much Smaller Steps*
+
+> TL;DR: Baby steps are the best way to go from one place to the next one.
+
 First International Test Driven Development took place on July 30th. 
 
 In this series, I will include every talk together with my notes and further reading.
@@ -15,8 +19,6 @@ Let's continue...
 ## Bio 
 
 We all know and love GeePaw and his inimitable style of "Helping Geeks Produce for Over 40 Years."
-
-> TL;DR: Baby steps are the best way to go from one place to the next one.
 
 ## Talk
 

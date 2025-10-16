@@ -172,7 +172,7 @@ If you need to inject different versions for testing or variations, consider usi
 
 # Credits 🙏
 
-Image by [F. Muhammad](https://pixabay.com/users/artisticoperations-4161274/) on [Pixabay](https://pixabay.com//)
+Image by [F. Muhammad](https://pixabay.com/users/artisticoperations-4161274/) on [Pixabay](https://pixabay.com/)
 
 * * * 
 

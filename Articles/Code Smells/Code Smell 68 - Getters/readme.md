@@ -2,30 +2,23 @@
 
 ![Code Smell 68 - Getters](Code%20Smell%2068%20-%20Getters.jpg)
 
-> TL;DR: How to avoid getters
-
 *Getting things is widespread and safe. But it is a very bad practice.*
+
+> TL;DR: How to avoid getters
 
 # Problems 😔 
 
 - Naming
-
 - Information Hiding
-
 - Coupling
-
 - Encapsulation Violation
-
 - Mutability
-
 - Anemic Models
 
 # Solutions 😃
 
 1. Avoid Getters
-
 2. Use domain names instead
-
 3. Protect your implementation decisions.
 
 # Sample Code 📖

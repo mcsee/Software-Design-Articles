@@ -2,6 +2,10 @@
 
 ![TDD Conference 2021 - Why I Love TDD And Why I'm Looking For Ways To Go Beyond TDD - Alex Bunardzic](TDD%20Conference%202021%20-%20Why%20I%20Love%20TDD%20And%20Why%20I'm%20Looking%20For%20Ways%20To%20Go%20Beyond%20TDD%20-%20Alex%20Bunardzic.jpg)
 
+*Why I Love TDD And Why I'm Looking For Ways To Go Beyond TDD - Alex Bunardzic*
+
+> TL;DR: We need superfast feedback. TCR does it very well
+
 First International Test Driven Development took place on July 10th. 
 
 In this series, I will include every talk together with my notes and further reading.
@@ -13,8 +17,6 @@ Let's continue...
 ## Bio 
 
 Alex is a software engineering veteran with over 30 years of hands-on professional experience. A staunch advocate of Extreme Programming and TDD, Alex is currently leading DevOps teams by coaching them in TDD practices. 
- 
-> TL;DR: We need superfast feedback. TCR does it very well
 
 ## Talk
 

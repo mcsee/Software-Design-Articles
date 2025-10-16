@@ -65,11 +65,7 @@ You can search and forbid the usage of *replace()* in your code and define *repl
 
 # Tags 🏷️
 
-- Naming
-
-- Javascript
-
-- Language Specific
+- Naming 
 
 # Level 🔋
 

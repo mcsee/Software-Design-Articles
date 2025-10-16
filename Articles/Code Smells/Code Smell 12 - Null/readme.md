@@ -2,8 +2,7 @@
 
 ![Code Smell 12 - Null](Code%20Smell%2012%20-%20Null.jpg)
 
-*Programmers use Null as different flags. It can hint an absence, an undefined value, en error etc. 
-Multiple semantics lead to coupling and errors.*
+*Programmers use Null as different flags. It can hint an absence, an undefined value, en error etc. Multiple semantics lead to coupling and errors.*
 
 > TL;DR: Null is schizophrenic and does not exist in real-world. His creator regretted and programmers around the world suffer it. Don't be a part of it.
 

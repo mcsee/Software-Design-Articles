@@ -2,9 +2,9 @@
 
 ![(Most) Programmers are losing our jobs very soon]((Most)%20Programmers%20are%20losing%20our%20jobs%20very%20soon.jpeg)
 
-> TL;DR: You are going to loose your job sooner or later
+*Are you a declarative programmer or a ‘close to the machine’ one ?*
 
-## Are you a declarative programmer or a ‘close to the machine’ one ?
+> TL;DR: You are going to lose your job sooner or later
 
 if you are on the second group you are going to lose your job very soon.
 

@@ -73,7 +73,7 @@ We can remove all code annotations and forbid them by policy.
 
 # Tags 🏷️
 
-- Design
+- YAGNI
 
 # Conclusion 🏁
 

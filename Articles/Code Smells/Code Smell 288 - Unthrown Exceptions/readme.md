@@ -2,7 +2,7 @@
 
 ![Code Smell 288 - Unthrown Exceptions](Code%20Smell%20288%20-%20Unthrown%20Exceptions.jpg)
 
-*When You Forget to Throw, Your Code Will Blow* 💣💥
+*When You Forget to Throw, Your Code Will Blow 💣💥*
 
 > TL;DR: Creating a new exception without throwing it leads to silent failures.
 

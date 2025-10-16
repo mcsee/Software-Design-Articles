@@ -123,4 +123,4 @@ Part of the ideas in this article was developed together with Hernán Wilkinson 
 
 ***
 
-Spanish version: [El Único Principio de Diseño de Software Importante]()
+Spanish version: [El Único Principio de Diseño de Software Importante](https://codigolimpio.substack.com/p/el-unico-principio-de-diseno-de-software)

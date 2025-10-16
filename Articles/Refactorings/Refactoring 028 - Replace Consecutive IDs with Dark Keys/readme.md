@@ -165,7 +165,7 @@ You must preserve internal IDs for persistence, audits, or legacy support.
 
 # Tags 🏷️
 
-* Security
+- Security
 
 # Level 🔋
 
@@ -187,7 +187,7 @@ You must preserve internal IDs for persistence, audits, or legacy support.
 
 # Credits 🙏
 
-Image by [Kris](https://pixabay.com/users/thedigitalway-3008341/) on [Pixabay](https://pixabay.com//)
+Image by [Kris](https://pixabay.com/users/thedigitalway-3008341/) on [Pixabay](https://pixabay.com/)
 
 ---
 

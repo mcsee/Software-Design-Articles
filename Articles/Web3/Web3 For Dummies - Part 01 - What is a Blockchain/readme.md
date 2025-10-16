@@ -2,6 +2,8 @@
 
 ![Web3 For Dummies - Part 01 - What is a Blockchain?](Web3%20For%20Dummies%20-%20Part%2001%20-%20What%20is%20a%20Blockchain.jpg)
 
+*Web3 For Dummies - Part 01 - What is a Blockchain?*
+
 > TL;DR: In this series, we will talk from the very blockchain basics to building a complex [DAPP](https://ethereum.org/en/dapps/).
 
 # Background

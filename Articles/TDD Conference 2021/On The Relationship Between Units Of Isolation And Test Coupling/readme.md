@@ -2,6 +2,10 @@
 
 ![TDD Conference 2021 - On The Relationship Between Units Of Isolation And Test Coupling - Mario Cervera](TDD%20Conference%202021%20-%20On%20The%20Relationship%20Between%20Units%20Of%20Isolation%20And%20Test%20Coupling%20-%20Mario%20Cervera.jpg)
 
+*On The Relationship Between Units Of Isolation And Test Coupling - Mario Cervera*
+
+> TL;DR: Coupling leads to fragile tests.
+
 First International Test Driven Development took place on July 10th. 
 
 In this series, I will include every talk together with my notes and further reading.
@@ -14,8 +18,6 @@ Let's continue...
 
 Mario has been a software professional for more than a decade. He also conducted research in the field of Software Engineering, which allowed him to graduate as a PhD in Computer Science. As a strong advocate of software craftsmanship principles and values, he helps teams improve their technical practices so they can deliver higher-quality software at a sustainable pace.
   
-> TL;DR: Coupling leads to fragile tests.
-
 ## Talk
 
 [![Watch the video](https://img.youtube.com/vi/APFbb5MwLEU/sddefault.jpg)](https://youtu.be/APFbb5MwLEU) 

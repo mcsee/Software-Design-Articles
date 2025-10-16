@@ -174,7 +174,7 @@ You should not make it manually because you will forget to do it.
 
 # Tags 🏷️
 
-- Mutability
+- Coupling
 
 # Conclusion 🏁
 

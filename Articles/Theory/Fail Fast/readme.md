@@ -2,11 +2,9 @@
 
 ![Fail Fast](Fail%20Fast.jpg)
 
+*Failure to program in the 1950s had dire consequences. Machine time was costly. Jumping from punch cards to the compiler and then to execution could take hours or even days. Luckily, those times are long gone. Are they?*
+
 > TL;DR: Fail fast. Don't hide your mistakes under the rug.
-
-Failure to program in the 1950s had dire consequences. Machine time was costly. Jumping from punch cards to the compiler and then to execution could take hours or even days.
-
-Luckily, those times are long gone. Are they?
 
 ![Broken](https://cdn.hashnode.com/res/hashnode/image/upload/v1599358370864/3_fDLepJU.jpeg)
 

@@ -2,6 +2,10 @@
 
 ![TDD Conference 2021 - Agile Pain Relief Through Technical Excellence - James Grenning](TDD%20Conference%202021%20-%20Agile%20Pain%20Relief%20Through%20Technical%20Excellence%20-%20James%20Grenning.jpg)
 
+*Agile Pain Relief Through Technical Excellence*
+
+> TL;DR: We should aim for technical excellence.
+
 First International Test Driven Development took place on July 30th. 
 
 In this series, I will include every talk together with my notes and further reading.
@@ -13,8 +17,6 @@ Let's continue...
 ## Bio 
 
 One of the original signatories of the Agile Manifesto, James Grenning trains, coaches and consults worldwide. With decades of software development experience, both technical and managerial, James brings a wealth of knowledge, skill, and creativity to software development teams and their management. As his professional roots are in embedded software, he is leading the way to introduce Agile development practices to that challenging world.
-
-> TL;DR: We should aim for technical excellence.
 
 ## Talk
 

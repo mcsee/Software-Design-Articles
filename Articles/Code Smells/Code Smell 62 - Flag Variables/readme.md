@@ -2,9 +2,9 @@
 
 ![Code Smell 62 - Flag Variables](Code%20Smell%2062%20-%20Flag%20Variables.gif)
 
-> TL;DR: Fun with Flags
-
 *Flags indicate what happened. Unless their name is too generic.*
+
+> TL;DR: Fun with Flags
 
 # Problems 😔 
 

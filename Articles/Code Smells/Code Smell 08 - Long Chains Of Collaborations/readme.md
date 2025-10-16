@@ -2,8 +2,7 @@
 
 ![Code Smell 08 - Long Chains Of Collaborations](Code%20Smell%2008%20-%20Long%20Chains%20Of%20Collaborations.jpg)
 
-*Making long chains generate coupling and ripple effect.
-Any chain change breaks the code.*
+*Making long chains generate coupling and ripple effect. Any chain change breaks the code.*
 
 > TL;DR: Just sent messages to your acquaintances. 
 

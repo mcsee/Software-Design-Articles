@@ -2,6 +2,10 @@
 
 ![TDD Conference 2021 - How To Get Started With Test-Driving Your Code - Jov Mit](TDD%20Conference%202021%20-%20How%20To%20Get%20Started%20With%20Test-Driving%20Your%20Code%20-%20Jov%20Mit.jpg)
 
+*How To Get Started With Test-Driving Your Code - Jov Mit*
+
+> TL;DR: A Quick-guide to start with TDD
+
 First International Test Driven Development took place on July 10th. 
 
 In this series, I will include every talk together with my notes and further reading.
@@ -13,8 +17,6 @@ Let's continue...
 ## Bio 
 
 Jov is a software craftsman and TDD practitioner, working on Android for around 10 years now. He has a big passion for clean code, TDD, software craftsmanship, and knowledge sharing. He co-organized the DevTernity conference. 
- 
-> TL;DR: A Quickguide to start with TDD  
 
 ## Talk
 

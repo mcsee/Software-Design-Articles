@@ -73,7 +73,7 @@ There can be good uses for primitive types as with many other smells.
  
 # Tags 🏷️
 
-- Encapsulation
+- IFs
 
 # Conclusion 🏁
 

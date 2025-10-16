@@ -2,6 +2,8 @@
 
 ![Code Smell 71 - Magic Floats Disguised as Decimals](Code%20Smell%2071%20-%20Magic%20Floats%20Disguised%20as%20Decimals.jpg)
 
+*You think you know everything about numbers*
+
 > TL;DR: Don't trust numbers on immature languages like JavaScript.
 
 # Problems 😔 

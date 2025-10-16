@@ -1,6 +1,8 @@
 # Test Driven Refactoring
-            
+           
 ![Test Driven Refactoring](Test%20Driven%20Refactoring.jpg)
+
+*Test Driven Refactoring*
 
 > TL;DR: Test Driven Refactoring
 									  

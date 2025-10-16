@@ -2,16 +2,14 @@
 
 ![Code Smell 67 - Middle Man](Code%20Smell%2067%20-%20Middle%20Man.jpg)
 
-> TL;DR: Remove the Intermediators
-
 *Let's break Demeter's Law.*
+
+> TL;DR: Remove the Intermediators
 
 # Problems 😔 
 
 - Unnecessary Indirection
-
 - Empty Classes
-
 - Readability
 
 # Solutions 😃

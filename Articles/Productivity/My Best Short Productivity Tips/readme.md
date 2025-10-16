@@ -2,10 +2,13 @@
 
 ![My Best Short Productivity Tips](My%20Best%20Short%20Productivity%20Tips.gif)
 
-*This is part of [productivity series](https://maximilianocontieri/series/productivity)
-You can read previous tips [here](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md) and [here](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2/readme.md)*
+*Very short tips for productivity*
 
 > TL;DR: Very short tips for productivity.
+ 
+*This is part of [productivity series](https://maximilianocontieri/series/productivity)*.
+
+You can read previous tips [here](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md) and [here](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/10%20More%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x2/readme.md)*
 
 # 1- Lazy people automate 🤖
 

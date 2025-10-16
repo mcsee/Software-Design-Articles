@@ -61,7 +61,7 @@ We might have more false positives than actual problems.
 
 # Tags 🏷️
 
-- Hardcoding
+- IFs
 
 # Conclusion 🏁
 

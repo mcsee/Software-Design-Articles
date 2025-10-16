@@ -2,12 +2,13 @@
 
 ![Programming as Theory Building](Programming%20as%20Theory%20Building.jpg)
 
+*Building models and solutions in software is not just about programming. We will review Peter Naur's classic paper.*
+
 > TL;DR: We review Peter Naur's article on software development
 
-Building models and solutions in software is not just about programming. We will review Peter Naur's classic paper.
+This classic article from 1985 anticipated many of the concepts that are in common use in the industry today.
 
-*This classic article from 1985 anticipated many of the concepts that are in common use in the industry today.
-There are other interesting inspirational ideas from the paper that we have not yet taken advantage of.*
+There are other interesting inspirational ideas from the paper that we have not yet taken advantage of.
 
 # Historic context
 

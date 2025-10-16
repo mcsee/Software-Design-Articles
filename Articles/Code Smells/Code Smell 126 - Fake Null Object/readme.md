@@ -2,18 +2,14 @@
 
 ![Code Smell 126 - Fake Null Object](Code%20Smell%20126%20-%20Fake%20Null%20Object.jpg)
 
-*Null Objects are great alternatives to The Billion Dollar Mistake. Sometimes we don't need them*
-
-![Fake Null Object](Code%20Smell%20126%20-%20Fake%20Null%20Object.jpg)
+*Null Objects are great alternatives to The Billion-Dollar Mistake. Sometimes we don't need them*
 
 > TL;DR: Don't abuse patterns. Even NullObject.
-
+ 
 # Problems 😔 
 
 - Empty Classes
-
 - Namespace Polluting
-
 - Duplicated Behavior
 
 # Solutions 😃

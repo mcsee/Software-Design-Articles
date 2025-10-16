@@ -2,9 +2,9 @@
 
 ![10 Invaluable Tips for Successful Tech Articles](10%20Invaluable%20Tips%20for%20Successful%20Tech%20Articles.jpg)
 
-> TL;DR: More tips for technical writting
-
 *I'm a developer learning to write technical articles. This is my journey.*
+
+> TL;DR: More tips for technical writing
 
 # 1. Go straight to the point
 

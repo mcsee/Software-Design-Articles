@@ -2,6 +2,10 @@
 
 ![TDD Conference 2021 - Test-Driven Development on Legacy Systems - Maximiliano Contieri](TDD%20Conference%202021%20-%20Test-Driven%20Development%20on%20Legacy%20Systems%20-%20Maximiliano%20Contieri.jpg)
 
+*Test-Driven Development on Legacy Systems - Maximiliano Contieri*
+
+> TL;DR: We have no excuses to use TDD everywhere
+
 First International Test Driven Development took place on July 10th. 
 
 In this series, I will include every talk together with my notes and further reading.
@@ -16,8 +20,6 @@ Maxi has a PhD in computer science.
 He has been teaching software engineering and working in industry for 25 years. 
 He adopted TDD in the mid-2000s and built a financial system from scratch with 25,000 automated tests. Since then, he has been enhancing existing legacy applications by refactoring them with TDD as well. 
 He frequently blogs about software design, code smells, and clean code.
- 
-> TL;DR: We have no excuses to use TDD everywhere 
 
 ## Talk
 

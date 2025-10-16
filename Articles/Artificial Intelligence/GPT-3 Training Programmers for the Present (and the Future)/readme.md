@@ -4,9 +4,9 @@
 
 *I wrote a paper in Spanish and asked "someone else" to rewrite it*
 
-Last year, I [wrote a paper](https://cartografiasdelsur.undav.edu.ar/index.php/CdS/article/view/216) in Spanish about the future of programmers.
-
 > TL;DR: Instead of manually translating my paper, I decided to rewrite it completely with [GPT-3](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Artificial%20Intelligence/I've%20Recently%20Learned%20About%20GPT3%20-%20This%20is%20my%20Journey/readme.md).
+
+Last year, I [wrote a paper](https://cartografiasdelsur.undav.edu.ar/index.php/CdS/article/view/216) in Spanish about the future of programmers.
 
 In the same way, The Guardian asked [GPT-3](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Artificial%20Intelligence/I've%20Recently%20Learned%20About%20GPT3%20-%20This%20is%20my%20Journey/readme.md) when it was in private beta.
 

@@ -2,9 +2,9 @@
 
 ![16 Simple Tips to Boost Your Productivity x10](16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10.gif)
 
-> TL;DR: More productivity tips
-
 *These easy-to-follow tips will improve your output dramatically.*
+
+> TL;DR: More productivity tips
 
 # 1. Remove Notifications 🔔
 
@@ -139,8 +139,7 @@ Focus -> Flow.
 # 16. Don't Save for Later 🍓
 
 - Save for later is a myth.
-- There are excellent apps like
-[Pocket](https://getpocket.com/), [Inoreader](https://www.inoreader.com/) [Evernote](https://evernote.com/), or even [Hashnode Bookmark]
+- There are excellent apps like [Inoreader](https://www.inoreader.com/) [Evernote](https://evernote.com/), or even [Hashnode Bookmark]
   (https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md) as in this article.
 - But unless you consume the list often this will grow forever.
 - Don't save content, consume it.

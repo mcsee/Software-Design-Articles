@@ -2,24 +2,20 @@
 
 ![Code Smell 61 - Coupling to Classes](Code%20Smell%2061%20-%20Coupling%20to%20Classes.jpg)
 
-> TL;DR: Leave classe alone!
-
 *Classes are handy. We can call them and invoke them any time. Is this good?*
+
+> TL;DR: Leave classes alone!
 
 # Problems 😔 
 
 - Coupling
-
 - Extensibility
-
 - Hard to mock
 
 # Solutions 😃
 
 1. Use interfaces or traits (if available).
-
 2. Use Dependency Injection.
-
 3. Favor Loose Coupling.
 
 # Sample Code 📖

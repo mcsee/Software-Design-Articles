@@ -2,6 +2,8 @@
 
 ![How to Develop a Wordle Game using TDD in 25 Minutes](How%20to%20Develop%20a%20Wordle%20Game%20using%20TDD%20in%2025%20Minutes.jpg)
 
+*How to Develop a Wordle Game using TDD in 25 Minutes*
+
 > TL;DR: Implementing a working Wordle in a few minutes
 
 Everybody is playing Wordle these days...

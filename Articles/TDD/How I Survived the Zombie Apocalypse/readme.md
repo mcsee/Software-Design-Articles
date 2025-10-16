@@ -2,9 +2,9 @@
 
 ![How I Survived the Zombie Apocalypse](How%20I%20Survived%20the%20Zombie%20Apocalypse.jpg)
 
-> TL;DR: ZOMBIES are amazing!
-
 *Selecting great test cases is very hard. Unless you summon the undead.*
+
+> TL;DR: ZOMBIES are amazing!
 
 # The Problem
 

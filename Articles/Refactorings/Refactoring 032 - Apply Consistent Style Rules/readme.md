@@ -181,7 +181,7 @@ Large codebases require significant time investment and coordination to apply un
 
 # Credits 🙏
 
-Image by [Michal Jarmoluk](https://pixabay.com/users/jarmoluk-143740/) on [Pixabay](https://pixabay.com//)
+Image by [Michal Jarmoluk](https://pixabay.com/users/jarmoluk-143740/) on [Pixabay](https://pixabay.com/)
 
 * * * 
 

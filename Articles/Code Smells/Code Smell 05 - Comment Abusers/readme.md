@@ -2,8 +2,7 @@
 
 ![Code Smell 05 - Comment Abusers](Code%20Smell%2005%20-%20Comment%20Abusers.jpg)
 
-*The code has lots of comments. 
-Comments are coupled to implementation and hardly maintained.*
+*The code has lots of comments. Comments are coupled to implementation and hardly maintained.*
 
 > TL;DR: Leave comments just for important design decisions. Don't explain the obvious.
 
@@ -115,7 +114,7 @@ between the real-world concept and its code representation.
 
 This mismatch creates confusion and bugs.
 
-#AI Generation 🤖
+# AI Generation 🤖
 
 AI tools often generate comments to explain code in natural language.
 

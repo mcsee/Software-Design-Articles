@@ -2,6 +2,8 @@
 
 ![TDD Conference 2021 - Python - A Language Made For Test-Driven Development - Jan Giacomelli](TDD%20Conference%202021%20-%20Python%20-%20A%20Language%20Made%20For%20Test-Driven%20Development%20-%20Jan%20Giacomelli.jpg)
 
+*Python - A Language Made For Test-Driven Development*
+
 > TL;DR: To be completed
 
 First International Test Driven Development took place on July 10th. 

@@ -159,7 +159,7 @@ You can use AI tools like ChatGPT or GitHub Copilot to analyze your codebase. As
 
 # Credits 🙏
 
-Image by [congerdesign](https://pixabay.com/users/congerdesign-509903/) on [Pixabay](https://pixabay.com//)
+Image by [congerdesign](https://pixabay.com/users/congerdesign-509903/) on [Pixabay](https://pixabay.com/)
 
 * * * 
 

@@ -890,6 +890,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Refactoring 034 - Reify Parameters](/Articles/Refactorings/Refactoring%20034%20-%20Reify%20Parameters/readme.md)
 
+* [Refactoring 035 - Separate Exception Types](/Articles/Refactorings/Refactoring%20035%20-%20Separate%20Exception%20Types/readme.md)
+
 ### Wordle
 
 * [How to Create a Wordle as a Centaur](/Articles/Wordle/How%20to%20Create%20a%20Wordle%20as%20a%20Centaur/readme.md)
@@ -947,4 +949,8 @@ In this repository, you will find many articles related to Software Design
 * [Clean Code Cookbook is Out](/Articles/Book/Clean%20Code%20Cookbook%20is%20Out/readme.md)
 
 * [3.2 Identifying the Essence of Your Objects](/Articles/Book/3.2%20Identifying%20the%20Essence%20of%20Your%20Objects/readme.md)
+
+### unsorted
+
+* [89 - Vibe Test Driven Development](/Articles/unsorted/89%20-%20Vibe%20Test%20Driven%20Development/readme.md)
 

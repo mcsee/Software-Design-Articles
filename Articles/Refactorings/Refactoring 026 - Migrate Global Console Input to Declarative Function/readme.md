@@ -235,7 +235,7 @@ AI can help identify input calls throughout larger codebases and suggest appropr
 
 # Credits 🙏
 
-Image by [Spektrum78](https://pixabay.com/users/spektrum78-481166/) on [Pixabay](https://pixabay.com//)
+Image by [Spektrum78](https://pixabay.com/users/spektrum78-481166/) on [Pixabay](https://pixabay.com/)
 
 * * * 
 

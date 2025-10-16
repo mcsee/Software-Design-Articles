@@ -2,6 +2,10 @@
 
 ![TDD Conference 2021 - Opening Ceremony by Alex Bunardzic](TDD%20Conference%202021%20-%20Opening%20Ceremony%20by%20Alex%20Bunardzic.jpg)
 
+*TDD Conference 2021 - Opening Ceremony by Alex Bunardzic*
+
+> TL;DR: Setting the stage for the TDD revolution, how did it all begin and where are we today with TDD.
+
 First International Test Driven Development took place on July 30th. 
 
 In this series, I will include every talk together with my notes and further reading.
@@ -17,8 +21,6 @@ Let's start...
 Alex is a software engineering veteran with over 30 years of hands-on professional experience. A staunch advocate of Extreme Programming and TDD, Alex is currently leading DevOps teams by coaching them in TDD practices. 
 
 With a science background, Alex shows us how to build software by watching nature
-
-> TL;DR: Setting the stage for the TDD revolution, how did it all begin and where are we today with TDD.
 
 ## Talk
 

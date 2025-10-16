@@ -87,9 +87,7 @@ if cats_alive > 0:
 Make code reviews on concurrent code
 
 # Tags 🏷️
-
-- Concurrency
-
+ 
 - Globals
 
 # Conclusion 🏁

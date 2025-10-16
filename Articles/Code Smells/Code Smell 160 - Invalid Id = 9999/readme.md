@@ -95,7 +95,7 @@ We can check for special constants and special values on the code.
 
 # Tags 🏷️
 
-- Null
+- Coupling
 
 # Conclusion 🏁
 

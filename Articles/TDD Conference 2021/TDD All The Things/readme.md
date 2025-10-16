@@ -2,6 +2,10 @@
 
 ![TDD Conference 2021 - TDD All The Things - Liz Keogh](TDD%20Conference%202021%20-%20TDD%20All%20The%20Things%20-%20Liz%20Keogh.jpg)
 
+*TDD All The Things - Liz Keogh*
+
+> TL;DR: Amplify your positiveness!
+
 First International Test Driven Development took place on July 10th. 
 
 In this series, I will include every talk together with my notes and further reading.
@@ -13,8 +17,6 @@ Let's continue...
 ## Bio 
 
 Liz Keogh is a Lean and Agile consultant based in London. She is a well-known blogger and international speaker, a core member of the BDD community and a passionate advocate of the Cynefin framework and of Wardley Mapping. She has a strong technical background with over 20 years’ experience in delivering and coaching others to deliver software, from small start-ups to global enterprises. Most of her work now focuses on Lean, Agile and organizational transformations, and the use of transparency, positive language, well-formed outcomes and safe-to-fail experiments in making change innovative, easy and fun. 
- 
-> TL;DR: Amplify your possitiveness!
 
 ## Talk
 

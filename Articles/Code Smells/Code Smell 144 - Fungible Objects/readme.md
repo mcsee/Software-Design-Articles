@@ -72,7 +72,7 @@ We need to understand the model to check whether it is right or not.
 
 # Tags 🏷️
 
-- Over Design
+- Coupling
 
 # Level 🔋
 

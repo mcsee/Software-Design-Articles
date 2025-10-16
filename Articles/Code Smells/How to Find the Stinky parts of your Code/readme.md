@@ -2,11 +2,9 @@
 
 ![How to Find the Stinky Parts of your Code](How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code.jpeg)
 
+*The code smells badly. Let's see how to change the aromas.*
+
 > TL;DR: A Compilation of bad smells in code.
-
-The code smells badly. 
-
-Let's see how to change the aromas.
 
 In this series, we will see several symptoms and situations that make us doubt the quality of our development. We will present possible solutions.
 

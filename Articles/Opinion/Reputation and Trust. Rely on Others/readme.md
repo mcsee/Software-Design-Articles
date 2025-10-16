@@ -2,6 +2,8 @@
 
 ![Reputation and Trust. Rely on Others](Reputation%20and%20Trust.%20Rely%20on%20Others.jpeg)
 
+*The evolution of trust, reputation and authority*
+
 > TL;DR: The evolution of trust, reputation and authority
 
 # Trust No(One)

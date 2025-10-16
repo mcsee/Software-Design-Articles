@@ -263,7 +263,7 @@ Additionally, creating specific error messages requires more development time an
 
 # Credits 🙏
 
-Image by [Ryan McGuire](https://pixabay.com/users/ryanmcguire-123690/) on [Pixabay](https://pixabay.com//)
+Image by [Ryan McGuire](https://pixabay.com/users/ryanmcguire-123690/) on [Pixabay](https://pixabay.com/)
 
 * * * 
 

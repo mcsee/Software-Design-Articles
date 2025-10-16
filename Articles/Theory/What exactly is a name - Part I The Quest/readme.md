@@ -2,9 +2,9 @@
 
 ![What Exactly Is a Name? Part I: The Quest](What%20exactly%20is%20a%20name%20—%20Part%20I%20The%20Quest.jpg)
 
-> TL;DR: How to find good names
+*A good name is always the most important thing. Let’s find it.*
 
-## A good name is always the most important thing. Let’s find it.
+> TL;DR: How to find good names
 
 All developers use names for programming; it doesn’t matter if the language is high or low level, whether it is Imperative, Functional, or [Object-Oriented](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20Object-Oriented%20Programming/readme.md). 
 

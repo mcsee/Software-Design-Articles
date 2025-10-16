@@ -66,7 +66,7 @@ We need to have good coverage to rely on this solution.
 
 # Tags 🏷️
 
-- YAGNI
+- Premature Optimization
 
 # Level 🔋
 

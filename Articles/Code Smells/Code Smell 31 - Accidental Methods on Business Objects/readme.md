@@ -112,7 +112,7 @@ We should try to use better languages/frameworks.
 
 # Tags 🏷️
 
-- Declarative
+- Coupling
 
 # Conclusion 🏁
 

@@ -228,7 +228,7 @@ You should leave this mechanical task to AI.
 
 # Credits 🙏
 
-Image by [Gerd Altmann](https://pixabay.com/users/geralt-9301/) on [Pixabay](https://pixabay.com//)
+Image by [Gerd Altmann](https://pixabay.com/users/geralt-9301/) on [Pixabay](https://pixabay.com/)
 
 * * * 
 
