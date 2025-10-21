@@ -59,7 +59,7 @@ You can detect this smell when you see explicit loops accumulating a result, esp
 
 # Tags 🏷️
 
-- Declarative
+- Primitive Obsession
 
 # Level 🔋
 

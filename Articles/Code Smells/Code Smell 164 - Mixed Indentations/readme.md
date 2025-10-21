@@ -9,21 +9,15 @@
 # Problems 😔 
 
 - Readability
-
 - Code consistency
-
 - Standards violation
 
 # Solutions 😃
 
 1. Choose one of them
-
 2. Stick to it
-
 3. Enforce it with code standards tests
-
 4. Share the rules on all the codebase
-
 5. Use an IDE like VSCode or WebStorm that doesn't include tabs at all.
 
 # Context 💬

@@ -94,7 +94,7 @@ We can use modern development techniques like TDD to ensure all code is alive.
 
 - [Refactoring.guru](https://refactoring.guru/smells/speculative-generality)
 
-# Also Known as
+# Also Known as 🪪
 
 - Speculative Generality
 

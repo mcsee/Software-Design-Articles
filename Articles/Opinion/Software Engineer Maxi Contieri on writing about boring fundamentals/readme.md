@@ -4,4 +4,4 @@
 
 *Software Engineer Maxi Contieri on writing about "boring" fundamentals*
 
-> TL;DR: a QandA about software fundamentals.
+> TL;DR: A Q&A about software fundamentals.

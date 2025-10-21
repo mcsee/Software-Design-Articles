@@ -98,7 +98,7 @@ If your classes are polluted with setters, getters and public methods you will c
 
 - [C2 Wiki](http://wiki.c2.com/?InappropriateIntimacy)
 - 
-# Also Known as
+# Also Known as 🪪
 
 - Inappropriate intimacy
 

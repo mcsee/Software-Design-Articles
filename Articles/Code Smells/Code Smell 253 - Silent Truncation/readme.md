@@ -9,21 +9,15 @@
 # Problems 😔 
 
 - The Fail Fast Principle Violation
-
 - Corrupted and Missing Data
-
 - [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Fault
-
 - UTF-8 Truncation
-
 - The Least Surprise principle violation
-
 - Separation of Concerns of the UI and the Model
 
 # Solutions 😃
 
 1. Be consistent with length rules
-
 2. Enforce the rules in the domain objects
 
 # Context 💬
@@ -203,7 +197,7 @@ You can do boundary testing. For example, using [Zombies](https://github.com/mcs
 
 # Tags 🏷️
 
-- Fail Fast
+- Fail-Fast
 
 # Level 🔋
 

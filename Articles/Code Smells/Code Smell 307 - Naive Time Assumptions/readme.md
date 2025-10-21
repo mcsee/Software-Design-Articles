@@ -160,7 +160,7 @@ Watch for datetime operations that don't specify time zones, leap year calculati
 
 # Tags 🏷️
 
-- Time
+- Types
 
 # Level 🔋
 

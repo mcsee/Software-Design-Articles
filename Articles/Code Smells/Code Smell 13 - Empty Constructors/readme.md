@@ -26,7 +26,7 @@
 
 [The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
-# Examples
+# Examples 📚
 
 - Some persistence frameworks in static typed languages require an empty constructor.
 

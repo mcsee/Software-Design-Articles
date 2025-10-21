@@ -34,7 +34,7 @@
 
 [Refactoring 005 - Replace Comment with Function Name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
 
-# Examples
+# Examples 📚
 
 - Optimized loops
 
@@ -202,7 +202,7 @@ Clear beats clever.
 
 [Are boolean flags a code smell?](https://ardalis.com/are-boolean-flags-on-methods-a-code-smell/)
 
-# Also Known as
+# Also Known as 🪪
 
 - Obfuscator
 

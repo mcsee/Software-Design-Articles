@@ -77,7 +77,7 @@ You can detect this smell with automated tests or linters scanning unfinished pl
 
 # Tags 🏷️
 
-- Fail Fast
+- Fail-Fast
 
 # Level 🔋
 

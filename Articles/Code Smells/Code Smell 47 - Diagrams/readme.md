@@ -28,7 +28,7 @@
 
 5. Use [Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design) technique.
 
-# Examples
+# Examples 📚
 
 - [Automatic Code Generators](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
 

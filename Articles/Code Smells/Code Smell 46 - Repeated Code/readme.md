@@ -25,8 +25,8 @@
 4. Use composition and never inheritance.
 
 5. Unit test new abstraction.
-
-# Examples
+ 
+# Examples 📚
 
 - [Automatic Code Generators](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
 

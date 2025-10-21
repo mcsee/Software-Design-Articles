@@ -90,7 +90,7 @@ You can check all copy() handlers and wrap them
 
 # Tags 🏷️
 
-- Fail Fast
+- Fail-Fast
 
 # Level 🔋
 

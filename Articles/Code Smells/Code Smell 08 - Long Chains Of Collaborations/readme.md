@@ -94,7 +94,7 @@ Avoid successive message calls. Try to hide the intermediate collaborations and 
 
 [Refactoring Guru](https://refactoring.guru/es/smells/message-chains)
 
-# Also Known as
+# Also Known as 🪪
 
 - Message Chains
 

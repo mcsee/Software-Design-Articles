@@ -31,7 +31,7 @@
 	
 [Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
-# Examples
+# Examples 📚
 
 - Libraries
 
@@ -160,7 +160,7 @@ You can also unit test these parts.
 
 [Refactoring Guru](https://refactoring.guru/es/smells/long-method)
 
-# Also Known as
+# Also Known as 🪪
 
 - Long Method
 

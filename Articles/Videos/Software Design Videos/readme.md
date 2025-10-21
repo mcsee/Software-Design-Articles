@@ -4,4 +4,4 @@
 
 *to be defined*
 
-> TL;DR: to be defined
+> TL;DR: To be defined

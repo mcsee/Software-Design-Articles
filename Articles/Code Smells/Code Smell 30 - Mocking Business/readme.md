@@ -127,7 +127,7 @@ Mocks, like many other test doubles are excellent tools. Choosing wisely when to
 
 [Mocks aren't Stubs](https://martinfowler.com/articles/mocksArentStubs.html)
 
-# Also Known as
+# Also Known as 🪪
 
 - Faker
 

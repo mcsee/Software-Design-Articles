@@ -4,7 +4,7 @@
 
 *If a name is already used, we can always prefix it with 'the'.*
 
-> TL;DR: don't prefix your variables.
+> TL;DR: Don't prefix your variables.
 
 # Problems 😔 
 

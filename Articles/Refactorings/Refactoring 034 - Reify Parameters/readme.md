@@ -230,7 +230,7 @@ Instruct it to propose an entity name, generate the type or class, and rewrite b
 
 [Refactoring 019 - Reify Email Addresses](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20019%20-%20Reify%20Email%20Addresses/readme.md)
 
-# Also known as
+# Also known as 🪪
 
 [Introduce Parameter Object](https://refactoring.guru/es/introduce-parameter-object)
 

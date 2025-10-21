@@ -38,7 +38,7 @@
 
 [Refactoring 001 - Remove Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
 
-# Examples ☦️
+# Examples 📚
 
 - DTOs
 
@@ -222,7 +222,7 @@ Avoid anemic models. Focus always on protocol instead of data.
 
 [How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 
-# Also Known as ☦️
+# Also Known as 🪪
 
 - Data Class
 

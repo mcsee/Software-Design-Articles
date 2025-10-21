@@ -22,7 +22,7 @@
 
 - Follow [The Boy Scout Rule](https://medium.com/@biratkirat/step-8-the-boy-scout-rule-robert-c-martin-uncle-bob-9ac839778385).
 
-# Examples
+# Examples 📚
 
 - Libraries
 
@@ -92,7 +92,7 @@ Libraries were fine in the 60. In Object-Oriented Programming, we will distribut
 - [Refactoring Guru](https://refactoring.guru/es/smells/large-class)
 - [Coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
-# Also Known as
+# Also Known as 🪪
 
 - Large Class
 

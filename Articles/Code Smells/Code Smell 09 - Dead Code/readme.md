@@ -15,7 +15,7 @@
 - Remove the code
 - [KISS](https://en.wikipedia.org/wiki/KISS_principle)
 
-# Examples
+# Examples 📚
 
 - Gold plating code or [Yagni](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) code.
 

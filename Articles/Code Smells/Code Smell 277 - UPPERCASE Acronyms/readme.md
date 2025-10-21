@@ -78,7 +78,7 @@ Code reviewers or linters can also flag camelCase inconsistencies.
 
 # Tags 🏷️
 
-- Code Standards
+- Standards
 
 # Level 🔋
 

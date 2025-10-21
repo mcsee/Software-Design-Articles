@@ -9,13 +9,11 @@
 # Problems 😔 
 
 - Readability
-
 - Maintainability
 
 # Solutions 😃
 
 1. Choose a case standard
-
 2. Hold on to it
 
 # Context 💬
@@ -69,7 +67,7 @@ Whenever new people arrive at the organization, an automated test should politel
 
 # Exceptions 🛑
 
-Whenever we need to interact with out of our scope code, we should use the client's standards, not ours.
+Whenever you need to interact with code out of your scope, you should use the client's standards, not yours.
 
 # Tags 🏷️
 

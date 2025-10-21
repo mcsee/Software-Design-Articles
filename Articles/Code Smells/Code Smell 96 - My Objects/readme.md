@@ -4,12 +4,11 @@
 
 *You don't own objects.*
 
-> TL;DR: don't use *my* as a name prefix.
+> TL;DR: Don't use *my* as a name prefix.
 
 # Problems 😔 
 
 - Lack of context
-
 - Bijection Fault
 
 # Solutions 😃

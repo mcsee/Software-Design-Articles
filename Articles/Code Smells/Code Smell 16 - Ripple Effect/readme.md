@@ -21,7 +21,7 @@
 
 [How to Decouple a Legacy System](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/How%20to%20Decouple%20a%20Legacy%20System/readme.md)
 
-# Examples
+# Examples 📚
 
 - Legacy Systems
 

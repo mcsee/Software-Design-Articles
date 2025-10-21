@@ -632,6 +632,8 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 310 - Vague Date Naming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20310%20-%20Vague%20Date%20Naming/readme.md)
 
+[Code Smell 311 - Plain Text Passwords](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20311%20-%20Plain%20Text%20Passwords/readme.md)
+
 ... and many more to come.
 
 * * *

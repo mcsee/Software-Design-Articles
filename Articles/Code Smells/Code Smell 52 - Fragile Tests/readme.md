@@ -22,7 +22,7 @@
 
 [Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
-# Examples
+# Examples 📚
 
 - Fragile, Intermittent, Sporadic or Erratic tests are common in many organizations. 
 

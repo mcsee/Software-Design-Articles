@@ -63,7 +63,7 @@ This is a semantic smell. We need to model which attributes/behaviors are [essen
 
 # Tags 🏷️
 
-- [Mutability](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md) 
+- Mutability 
 
 # Conclusion 🏁
 

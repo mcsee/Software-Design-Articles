@@ -4,7 +4,7 @@
 
 *Compilers and warnings lights are there for help. Don't ignore them.*
 
-> TL;DR: don't ignore warnings and alarms. You will regret it.
+> TL;DR: Don't ignore warnings and alarms. You will regret it.
 
 # Problems 😔 
 

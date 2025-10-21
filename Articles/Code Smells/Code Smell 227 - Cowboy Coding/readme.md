@@ -96,7 +96,7 @@ You can set environmental rules to prevent these coding practices and enforce te
 
 # Tags 🏷️
 
-- Declarative
+- YAGNI
 
 # Conclusion 🏁
 

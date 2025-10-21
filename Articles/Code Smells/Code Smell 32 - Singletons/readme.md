@@ -27,8 +27,8 @@
 2. Use contextual unique objects.
 
 3. Benchmark object creation.
-
-# Examples
+ 
+# Examples 📚
 
 - Database Access
 
