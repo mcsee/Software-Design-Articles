@@ -80,7 +80,7 @@ Several static analysis tools can warn you of aliasing abuse.
 
 # Tags 🏷️
 
-- Immutability
+- Mutability
 
 # Level 🔋
 

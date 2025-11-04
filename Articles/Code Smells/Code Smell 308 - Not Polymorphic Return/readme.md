@@ -215,7 +215,7 @@ Watch for methods that return different types based on parameters or their inter
 
 # Tags 🏷️
 
-- Polymorphism
+- IFs
 
 # Level 🔋
 

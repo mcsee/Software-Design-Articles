@@ -113,7 +113,7 @@ This is a semantic smell
 
 # Tags 🏷️
 
-- Data
+- Bloaters
 
 # Conclusion 🏁
 

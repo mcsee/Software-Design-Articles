@@ -166,7 +166,7 @@ If subclass logic relies too much on the superclass, delegation might increase b
 
 # Tags 🏷️
 
-- Inheritance
+- Hierarchies
 
 # Level 🔋
 

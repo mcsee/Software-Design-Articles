@@ -113,7 +113,7 @@ You should reconsider the inheritance if a subclass sets parent properties to nu
 
 # Tags 🏷️
 
-- Inheritance
+- Hierarchies
 
 # Level 🔋
 

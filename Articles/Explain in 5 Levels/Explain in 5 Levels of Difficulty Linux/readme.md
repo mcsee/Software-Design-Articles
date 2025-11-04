@@ -137,3 +137,7 @@ Whatever your level of expertise, you can take advantage of Linux in your work a
 This article is part of the Explain in Five Levels Series
 
 [Explain in 5 Levels of Difficulty](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty/readme.md)
+
+***
+
+Spanish version: [Explicación en 5 niveles de dificultad: Linux](https://codigolimpio.substack.com/p/explicacion-en-5-niveles-de-dificultad)

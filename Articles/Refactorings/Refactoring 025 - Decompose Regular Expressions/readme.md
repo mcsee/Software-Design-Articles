@@ -206,7 +206,7 @@ You should leave this mechanical task to AI.
 
 # Tags 🏷️
 
-- Testability
+- Testing
 
 # Level 🔋
 

@@ -129,3 +129,7 @@ Part of the objective of this series of articles is to generate spaces for debat
 We look forward to comments and suggestions on this article.
 
 This article is published at the same time in Spanish [here](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
+
+***
+
+Spanish version: [Acoplamiento: El único problema importante en el diseño de software](https://codigolimpio.substack.com/p/acoplamiento-el-unico-problema-importante)

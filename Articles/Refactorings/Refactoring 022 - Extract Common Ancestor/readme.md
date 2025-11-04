@@ -135,7 +135,7 @@ By introducing an abstract class, the code better reflects the [real-world](http
 
 # Tags 🏷️
 
-- Inheritance
+- Hierarchies
 
 # Level 🔋
 

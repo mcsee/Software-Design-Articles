@@ -172,7 +172,7 @@ The AI can suggest where to implement dependency injection and help generate the
 
 # Tags 🏷️
 
-- Dependency Injection
+- Coupling
 
 # Level 🔋
 

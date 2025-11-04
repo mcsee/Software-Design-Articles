@@ -8,13 +8,10 @@
 
 # Problems Addressed 😔
 
-* [Associative arrays](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2027%20-%20Associative%20Arrays/readme.md)
-    
-* Fail Fast principle violation
-    
-* [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Fault
-    
-* Hard to find method references
+- [Associative arrays](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2027%20-%20Associative%20Arrays/readme.md)    
+- Fail Fast principle violation
+- [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) Fault
+- Hard to find method references
     
 # Related Code Smells 💨
 
@@ -162,7 +159,7 @@ In dynamically typed languages you cannot enforce type or domain restrictions fo
 
 # Tags 🏷️
 
-- Anemic
+- Anemic Models
 
 # Level 🔋
 

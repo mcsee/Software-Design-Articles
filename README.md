@@ -700,6 +700,10 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 311 - Plain Text Passwords](/Articles/Code%20Smells/Code%20Smell%20311%20-%20Plain%20Text%20Passwords/readme.md)
 
+* [Code Smell 312 - Too Many Asserts](/Articles/Code%20Smells/Code%20Smell%20312%20-%20Too%20Many%20Asserts/readme.md)
+
+* [Code Smell 313 - Workslop Code](/Articles/Code%20Smells/Code%20Smell%20313%20-%20Workslop%20Code/readme.md)
+
 ### Blogging
 
 * [Content Structure: The Do's and Dont's of Content Creation](/Articles/Blogging/68%20-%20Content%20Structure%20The%20Do%27s%20and%20Dont%27s%20of%20Content%20Creation/readme.md)

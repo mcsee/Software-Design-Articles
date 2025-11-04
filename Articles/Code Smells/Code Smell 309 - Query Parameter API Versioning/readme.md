@@ -150,7 +150,7 @@ Check if old versions still respond but are not explicitly maintained or documen
 
 # Tags 🏷️
 
-- APIs
+- Coupling
 
 # Level 🔋
 

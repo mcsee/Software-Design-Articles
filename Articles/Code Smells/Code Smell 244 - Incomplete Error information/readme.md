@@ -8,11 +8,9 @@
 
 # Problems 😔 
 
-- Debugging and maintenance challenge.
-
+- Debugging and maintenance challenge
 - Fail Fast Principle violation
-
-- Debugging complex situations.
+- Debugging complex situations
 
 # Solutions 😃
 
@@ -78,7 +76,7 @@ This is a semantic smell. You can warn the developers on error texts that do not
 
 # Tags 🏷️
 
-- Errors
+- Exceptions
 
 # Level 🔋
 

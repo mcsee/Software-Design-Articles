@@ -93,7 +93,7 @@ This is a formatting and syntactic smell
 
 # Tags 🏷️
 
-- Formatting
+- Standards
 
 # Level 🔋
 

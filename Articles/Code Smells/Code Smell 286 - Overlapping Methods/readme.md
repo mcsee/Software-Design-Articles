@@ -9,17 +9,11 @@
 # Problems 😔 
 
 - The least surprise principle violation
-
 - Unexpected behavior and [defects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quality/Stop%20Calling%20them%20'Bugs'/readme.md)
-
 - Hidden dependencies
-
 - Limited extensibility
-
 - Code ambiguity
-
 - Open/Closed principle violation
-
 - [Misleading design](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2058%20-%20Yo-yo%20Problem/readme.md)
 
 # Solutions 😃
@@ -158,7 +152,7 @@ You must also test parent methods calling private methods.
  
 # Tags 🏷️
 
-- Hierarchy
+- Hierarchies
 
 # Level 🔋
 

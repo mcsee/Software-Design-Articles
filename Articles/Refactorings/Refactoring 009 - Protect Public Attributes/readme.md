@@ -9,7 +9,6 @@
 # Problems Addressed 😔
 
 - Encapsulation Violation
-
 - Anemic Models
 
 # Related Code Smells 💨
@@ -74,7 +73,7 @@ Some languages don't have visibility options.
 
 # Tags 🏷️
 
-- Anemic
+- Anemic Models
 
 # Level 🔋
 

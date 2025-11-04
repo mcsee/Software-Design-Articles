@@ -167,7 +167,7 @@ Monitor error logs for sudden spikes in client failures after releases.
 
 # Tags 🏷️
 
-- APIs
+- Coupling
 
 # Level 🔋
 
