@@ -24,7 +24,7 @@ In this repository, you will find many articles related to Software Design
 
 * [Nude Models - Part II: Getters](/Articles/Theory/Nude%20Models%E2%80%8A-%E2%80%8APart%20II%C2%A0Getters/readme.md)
 
-* [Null: The Billion Dollar Mistake](/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
+* [Null: The Billion-Dollar Mistake](/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
 * [Object Design Checklist](/Articles/Theory/Object%20Design%20Checklist/readme.md)
 
