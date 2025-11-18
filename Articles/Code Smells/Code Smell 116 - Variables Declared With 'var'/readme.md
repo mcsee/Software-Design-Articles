@@ -28,11 +28,27 @@ We should be strict and explicit with our declarations.
 
 ## Wrong 🚫
 
-https://gist.github.com/mcsee/f310bf19719788bfe2dbca3dab16a2c3
+<!-- [Gist Url](https://gist.github.com/mcsee/f310bf19719788bfe2dbca3dab16a2c3) -->
+
+```javascript
+var pi = 3.14
+var universeAgeInYears = 13.800.000.000
+
+pi = 3.1415 // no error
+universeAgeInYears = 13.800.000.001 // no error
+```
 
 ## Right 👉
 
-https://gist.github.com/mcsee/c0c6bf0726100b918e5aa04955519465
+<!-- [Gist Url](https://gist.github.com/mcsee/c0c6bf0726100b918e5aa04955519465) -->
+
+```javascript
+const pi = 3.14 // Value cannot mutate or change 
+let universeAgeInYears = 13.800.000.000 // Value can change
+
+pi = 3.1415 // error. cannot define
+universeAgeInYears = 13.800.000.001 // no error
+```
 
 # Detection 🔍
  

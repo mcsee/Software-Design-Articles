@@ -162,8 +162,7 @@ By validating every dependency and using strict version controls, you protect yo
 
 # More Information 📕
 
-[We Have a Package for You! A Comprehensive Analysis of Package Hallucinations
-by Code Generating LLMs](https://arxiv.org/pdf/2406.10279)
+[We Have a Package for You! A Comprehensive Analysis of Package Hallucinations by Code Generating LLMs](https://arxiv.org/pdf/2406.10279)
 
 # Disclaimer 📘
 

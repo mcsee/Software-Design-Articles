@@ -168,7 +168,7 @@ Without proper instructions, AI-generated validators may fail to guide users thr
 
 AI can detect basic regular expression patterns and missing feedback with clear prompting. 
 
-it might not automatically create detailed test cases or descriptions unless asked specifically.
+It might not automatically create detailed test cases or descriptions unless asked specifically.
 
 ## Try Them! 🛠
 

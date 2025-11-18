@@ -9,18 +9,14 @@
 # Problems 😔 
 
 - Readability
-
-- Hard to debug.
-
+- Hard to debug
 - Complexity
 
 # Solutions 😃
 
 1. Change callbacks to sequence calls.
-
-2. Extract repeated Code
-
-3. Refactor.
+2. Extract the repeated Code
+3. Refactor
 
 # Refactorings ⚙️
 
@@ -120,6 +116,10 @@ Complexity without refactoring makes them hard to read and debug.
 [Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
 [Code Smell 102 - Arrow Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md)
+
+# Disclaimer 📘
+
+Code Smells are my [opinion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Blogging/I%20Wrote%20More%20than%2090%20Articles%20on%202021%20Here%20is%20What%20I%20Learned/readme.md).
  
 * * *
 

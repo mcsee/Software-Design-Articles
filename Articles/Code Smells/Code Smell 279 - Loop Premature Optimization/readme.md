@@ -76,7 +76,7 @@ Look for list comprehensions or complex loop structures that optimize performanc
 
 AI tools often prioritize functional correctness so that they might produce clean, simple loops. 
 
-if you prompt AI for performance at all costs, it could create over-optimized code even for straightforward tasks.
+If you prompt AI for performance at all costs, it could create over-optimized code even for straightforward tasks.
 
 # AI Detection 🥃
 

@@ -67,7 +67,7 @@ A Neural Network is a type of machine learning model that is designed to process
 
 ChatGPT is a sophisticated tool that is capable of holding engaging and natural conversations with humans. 
 
-it is a valuable asset in a variety of applications, including customer service, virtual assistants, and chatbots. 
+It is a valuable asset in a variety of applications, including customer service, virtual assistants, and chatbots. 
 
 It is currently free since its creators are using our input as reinforcement training data.
 
@@ -79,7 +79,7 @@ ChatGPT is a natural language processing tool.
 
 The main purpose of ChatGPT is to enable computers to hold conversations with humans in a way that is natural and intuitive. 
 
-it uses a combination of advanced NLP techniques and a neural networks.
+It uses a combination of advanced NLP techniques and a neural networks.
 
 One of the key features of ChatGPT is its ability to "remember" previous conversations and use this information to generate more appropriate responses. 
 

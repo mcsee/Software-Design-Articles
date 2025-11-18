@@ -34,7 +34,7 @@ Numeric constants representing real-world concepts lack readability and make you
 
 It's not clear what each number represents.
 
-if you need to add more constants in the future or change the order, you'll have to update all occurrences of these numeric constants manually.
+If you need to add more constants in the future or change the order, you'll have to update all occurrences of these numeric constants manually.
 
 New values can introduce errors and make maintenance more difficult.
 

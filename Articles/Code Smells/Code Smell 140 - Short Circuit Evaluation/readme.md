@@ -63,7 +63,7 @@ We can warn our developers when they use full evaluation.
 
 Don't use short-circuit as an IF alternative. 
 
-if the operands have side effects, this is another code smell. 
+If the operands have side effects, this is another code smell. 
 
 # Tags 🏷️
 

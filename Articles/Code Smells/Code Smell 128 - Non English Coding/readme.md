@@ -28,7 +28,7 @@ All programming languages are written in English.
 
 Unless for a few failed experiments during the 90's all modern languages use English for their primitives and their frameworks.
 
-if you wanted to read or write in medieval Europe, you had to acquire a new language at the same time. Writing meant Latin.
+If you wanted to read or write in medieval Europe, you had to acquire a new language at the same time. Writing meant Latin.
 
 This is true for programming languages nowadays.
 

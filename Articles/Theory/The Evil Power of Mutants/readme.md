@@ -52,7 +52,7 @@ This brought us multiple coupling problems on many occasions.
 
 [Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
-Besides, many of those fields remained with null values ​​(instead of modeling the incompleteness or indefiniteness of the data), so we had to spread the code with multiple controls by *ifs* to validate that some data against nulls.
+Besides, many of those fields remained with null values (instead of modeling the incompleteness or indefiniteness of the data), so we had to spread the code with multiple controls by *ifs* to validate that some data against nulls.
 
 [Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
@@ -163,6 +163,7 @@ function __construct($aParty, $aCounterParty, $anAmount, $aDate) {
 ## Times are changing
 
 We continue the previous example focusing on the date on which the transaction was made.
+
 In the real-world, a date represents a day on an arbitrary calendar.
 
 ![Walking Dates](Walking%20Dates.jpg)
@@ -204,11 +205,11 @@ Our accredited transaction on the day of halving knows its imputation date.
 
 If it changes internally all consecutive blockchains should be recalculated and this is expressly prohibited by the financial domain. 
 
-the date should never mutate.
+The date should never mutate.
 
 # Is it crystal clear to everybody that a date should not mutate?
 
-Let's review the date class in the most widely used languages ​​in today's industry.
+Let's review the date class in the most widely used languages in today's industry.
 
 [Go](https://godoc.org/google.golang.org/genproto/googleapis/type/date): Date is a struct.
 
@@ -225,6 +226,7 @@ Date problem's domain is probably one of the oldest and best known to humanity. 
 # Possible solutions
 
 A possible attack is to reverse the burden of proof. Objects are completely immutable unless otherwise stated.
+
 Should they evolve they must always do so in their accidental aspects. 
 
 Never in their essence. 
@@ -240,6 +242,7 @@ This change should not be coupled with all the other objects that use it.
 > Most entities are immutable.
 
 These rules keep the model consistently consistent with representation.
+
 As a corollary of the demonstration by the absurd, we can derive a series of rules:
 
 Corollary 1

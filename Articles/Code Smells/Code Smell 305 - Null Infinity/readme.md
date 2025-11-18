@@ -191,7 +191,7 @@ For example
 
 > Use *Infinity* for minimum search initialization
 
-or
+... or
 
 > Apply the null object pattern for mathematical operations.
 

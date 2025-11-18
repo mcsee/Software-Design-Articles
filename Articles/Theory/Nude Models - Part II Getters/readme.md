@@ -62,7 +62,7 @@ Nothing prevents this other code from running:
   array_shift($triangle->getVertices());
 ```
 
-array_shift () removes the first value from the array
+*array_shift()* removes the first value from the array
 
 This causes the triangle to mutate, generating an inconsistency real-world bijection. Two-sided polygons would violate the principle of being a closed figure.
 

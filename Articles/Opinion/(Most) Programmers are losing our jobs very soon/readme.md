@@ -6,7 +6,7 @@
 
 > TL;DR: You are going to lose your job sooner or later
 
-if you are on the second group you are going to lose your job very soon.
+If you are on the second group you are going to lose your job very soon.
 
 Machine learning does an excellent job on making repetitive tasks inferring properties from a dataset and solving problems (often without showing the solution path).
 

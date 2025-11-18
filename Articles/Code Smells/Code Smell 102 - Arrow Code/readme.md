@@ -26,11 +26,61 @@ In procedural code, it is very common to see complex nested ifs. This solution i
 
 ## Wrong 🚫
 
-https://gist.github.com/mcsee/0313b55715cf050e4eadb80e7b0ffad2
+<!-- [Gist Url](https://gist.github.com/mcsee/0313b55715cf050e4eadb80e7b0ffad2) -->
+
+```javascript
+if (actualIndex < totalItems)
+    {
+      if (product[actualIndex].Name.Contains("arrow"))
+      {
+        do
+        {
+          if (product[actualIndex].price == null)
+          {
+            // handle no price
+          }
+          else
+          {
+            if (!(product[actualIndex].priceIsCurrent()))
+            {
+              // add price
+            }
+            else
+            {
+              if (!hasDiscount)
+              {
+                // handle discount
+              }
+              else
+              {
+                // etc
+              }
+            }
+          }
+          actualIndex++;
+        }
+        while (actualIndex < totalCount && totalPrice < wallet.money);
+      }
+      else
+        actualIndex++;
+    }
+    return actualIndex;
+  }
+```
 
 ## Right 👉
 
-https://gist.github.com/mcsee/a01fc3411e8aff647a2ff0812f313318
+<!-- [Gist Url](https://gist.github.com/mcsee/a01fc3411e8aff647a2ff0812f313318) -->
+
+```javascript
+foreach (products as currentProduct) {
+  addPriceIfDefined(currentProduct)
+}
+
+addPriceIfDefined() {
+  // Several extracts
+}
+```
 
 # Detection 🔍
 

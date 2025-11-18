@@ -189,7 +189,7 @@ private function doSomeCrazyMathToFindAMagicNumber() {
 }
 ```
 
-and we can test it!!
+... and we can test it!!
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ffc5a2063073da9039936e6765167037) -->
 

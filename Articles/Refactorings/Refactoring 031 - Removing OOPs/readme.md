@@ -190,13 +190,11 @@ The risk of breaking changes is low since you're improving existing error handli
 
 You give users useful guidance instead of confusion.
 
-You create a better user experience by providing clear, actionable
-feedback instead of confusing technical jargon.
+You create a better user experience by providing clear, actionable feedback instead of confusing technical jargon.
 
 Users understand what went wrong and know their next steps.
 
-You separate concerns by keeping technical details in logs while showing business-friendly messages to
-users.
+You separate concerns by keeping technical details in logs while showing business-friendly messages to users.
 
 Your support team gets better debugging information through structured logging.
 

@@ -28,8 +28,7 @@ The lycanthrope transforms in an unexpected way.
 
 In the place we had a friend now there is a monster that needs to be defeated.
 
-This is not an **alien** that came as an unexpected external threat, it is one of
-our allies, suddenly turned into our worst nightmare.
+This is not an **alien** that came as an unexpected external threat, it is one of our allies, suddenly turned into our worst nightmare.
 
 ![monster](https://cdn.hashnode.com/res/hashnode/image/upload/v1599786043008/h7BRbU2SQ.jpeg)
 

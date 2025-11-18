@@ -106,8 +106,7 @@ You make the code clearer and more predictable.
 
 You express technical failures and business rules separately, taking corrective actions with different stakeholders.
 
-You also reduce confusion for the caller and improve
-maintainability.
+You also reduce confusion for the caller and improve maintainability.
 
 # How Does it Improve the Bijection? 🗺️
 

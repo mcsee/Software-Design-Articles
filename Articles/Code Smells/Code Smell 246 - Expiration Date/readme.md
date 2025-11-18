@@ -26,7 +26,7 @@ In many systems, the expiry date of a credit card is often represented by simply
 
 This can lead to potential issues and misunderstandings, especially when dealing with operations such as comparisons and calculations based on the expiry date.
 
-it's generally considered a better practice to represent the expiry date with an adequate object.
+It's generally considered a better practice to represent the expiry date with an adequate object.
 
 # Sample Code 📖
 

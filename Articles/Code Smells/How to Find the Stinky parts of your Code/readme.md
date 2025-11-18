@@ -638,6 +638,8 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 313 - Workslop Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20313%20-%20Workslop%20Code/readme.md)
 
+[Code Smell 314 - Model Collapse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20314%20-%20Model%20Collapse/readme.md)
+
 ... and many more to come.
 
 * * *

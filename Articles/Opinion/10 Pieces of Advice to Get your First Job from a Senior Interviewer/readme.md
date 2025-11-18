@@ -6,8 +6,7 @@
 
 > TL;DR: Quick Tips to shine on your next interview.
 
-As a senior interviewer, I’ve had the opportunity to interview a lot of candidates for a variety of different 
-positions. 
+As a senior interviewer, I’ve had the opportunity to interview a lot of candidates for a variety of different positions. 
 
 I’ve compiled a list of 10 pieces of advice that will help you land your first job.
 

@@ -110,7 +110,7 @@ The idea of this smell is here:
 
 [Code Smell 118 - Return False's comment](https://dev.to/otumianempire/comment/1mge9)
 
-and here:
+... and here:
 
 [x](https://twitter.com/TonyFlury/status/1103649549355233280)
 

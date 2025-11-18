@@ -26,6 +26,10 @@
 4. Abstract string creation.
 5. Use *sprintf()* or equivalent in your programming language.
 
+# Refactorings ⚙️     
+
+[Refactoring 036 - Replace String Concatenations with Text Blocks](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20036%20-%20Replace%20String%20Concatenations%20with%20Text%20Blocks/readme.md)
+
 # Context 💬
 
 String concatenation often starts innocently but quickly becomes a mess.

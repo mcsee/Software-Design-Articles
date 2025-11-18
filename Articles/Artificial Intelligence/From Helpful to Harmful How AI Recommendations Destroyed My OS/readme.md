@@ -56,7 +56,7 @@ I have two quotes (not mine):
 
 > You must always be in control.
 
-and
+... and ..
 
 > AI won't take your job, but a human using it will certainly do; you should become that person.
 

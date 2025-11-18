@@ -160,8 +160,7 @@ Photo by [britishlibrary](https://unsplash.com/@britishlibrary) on [Unsplash](ht
   
 * * *
 
-> A function name should be a verb or a verb phrase, and it needs to be
-meaningful
+> A function name should be a verb or a verb phrase, and it needs to be meaningful
 
 _Robert C. Martin_
  

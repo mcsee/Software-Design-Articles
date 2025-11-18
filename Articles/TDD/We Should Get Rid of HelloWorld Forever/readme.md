@@ -40,12 +40,14 @@ The *Hello Word* example has a lot of problems introduced early when developers 
 
 All developers should start with:
 
-```
+<!-- [Gist Url](https://gist.github.com/mcsee/e544ec1268fdeb34a61311f48be837f9) -->
+
+```javascript
 function testFalse()
 {
     Assert(1==2)
 }
-``` 
+```
 
 ## Advantages
 

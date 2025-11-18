@@ -108,7 +108,7 @@ Qubits transcend classical logic gates by encoding information in a multidimensi
 
 Algorithms like Shor’s algorithm decompose solves the hidden subgroup problem for finite abelian groups. 
 
-semiprime integers in polynomial time, undermining cryptosystems like RSA and ECC.
+Semiprime integers in polynomial time, undermining cryptosystems like RSA and ECC.
 
 Grover’s algorithm demonstrates quadratic optimization for search tasks, representing a pivotal class of quantum advantage.
 

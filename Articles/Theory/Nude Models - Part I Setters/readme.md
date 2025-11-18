@@ -85,7 +85,7 @@ final class Point {
 }
 ```
 
-towards representation change:
+... towards representation change:
 
 <!-- [Gist Url](https://gist.github.com/mcsee/9d367dbe97e94f81ae534c0775f94b4b) -->
 
@@ -121,7 +121,7 @@ final class Point {
 }
 ```
 
-when representation changes …
+... when representation changes ...
 
 <!-- [Gist Url](https://gist.github.com/mcsee/3c518ce3708147f653813bf7a7c1865d) -->
 

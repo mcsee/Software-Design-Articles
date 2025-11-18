@@ -77,8 +77,8 @@ This is the result:
 Message: letters from word must be 'valid'
 Stack Trace:
 ReferenceError: Word is not defined
-    at Object.<anonymous> (/home/runner/Wordle-TDD/_test_runnertest_suite.js:6:18)
-    at Promise.then.completed (/home/runner/Wordle-TDD/node_modules/jest-circus/build/utils.js:333:28)
+    -at Object.<anonymous> (/home/runner/Wordle-TDD/_test_runnertest_suite.js:6:18)
+    -at Promise.then.completed (/home/runner/Wordle-TDD/node_modules/jest-circus/build/utils.js:333:28)
 ```
 
 This is fine since we haven't defined what a word is.
@@ -150,7 +150,7 @@ Error: expect(received).toThrow(expected)
 Expected constructor: Error
 
 Received function did not throw
-    at Object.toThrow (/home/runner/Wordle-TDD/_test_runnertest_suite.js:10:23)
+    -at Object.toThrow (/home/runner/Wordle-TDD/_test_runnertest_suite.js:10:23)
 
 ✅  test01ValidWordLettersAreValid
 
@@ -226,7 +226,7 @@ Error: expect(received).toThrow(expected)
 Expected constructor: Error
 
 Received function did not throw
-    at Object.toThrow (/home/runner/Wordle-TDD/_test_runnertest_suite.js:10:23)
+    -at Object.toThrow (/home/runner/Wordle-TDD/_test_runnertest_suite.js:10:23)
 
 ✅  test02FewWordLettersShouldRaiseException
 
@@ -525,7 +525,7 @@ Error: expect(received).toStrictEqual(expected) // deep equality
 + "s",
 + "s",
   ]
-    at Object.toStrictEqual (/home/runner/Wordle-TDD/_test_runnertest_suite.js:9:37)
+    -at Object.toStrictEqual (/home/runner/Wordle-TDD/_test_runnertest_suite.js:9:37)
 ```
 
 ## Notice
@@ -833,10 +833,10 @@ Class Word {
 }
 ```
 
-and the test is fixed, but...
+... and the test is fixed, but...
 
 ```
-  test16TryToPlayInvalid
+-test16TryToPlayInvalid
 
 ❌  test15TryFiveWordsLoses
 Stack Trace:
@@ -1087,7 +1087,7 @@ Now we need the final steps.
 
 Matching in incorrect positions.
 
-and always the simplest solution...
+... and always the simplest solution ...
 
 <!-- [Gist Url](https://gist.github.com/mcsee/499d7e27102345b91ab1a1835d6a62bb) -->
 

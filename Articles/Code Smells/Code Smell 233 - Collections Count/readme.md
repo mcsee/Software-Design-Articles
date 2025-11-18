@@ -17,7 +17,7 @@
 # Context 💬
 
 Names are significant and should not deceive the reader.
-												f
+												
 You name things and lose the scope of the name. 
 
 It is important to be accurate of the expected reference on the names.

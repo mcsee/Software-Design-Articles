@@ -22,7 +22,7 @@
 
 The "dead store" code smell refers to a situation in programming where a variable is assigned a value but is never subsequently read or used in the program.
 
-it's a variable that is given a value but that value is never utilized, making the assignment unnecessary and potentially indicative of a mistake or inefficiency in the code.
+It's a variable that is given a value but that value is never utilized, making the assignment unnecessary and potentially indicative of a mistake or inefficiency in the code.
 
 This code smell can arise for various reasons, including during refactoring or changes in the program logic over time. 
 

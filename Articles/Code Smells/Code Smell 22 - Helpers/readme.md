@@ -124,7 +124,7 @@ const fullName = new FullNameFormatter(alice).fullname();
 const category = new CategoryCalculator(alice).display();
 ```
 
-or we can make the former *Helper* stateless for reuse...
+... or we can make the former *Helper* stateless for reuse...
 
 <!-- [Gist Url](https://gist.github.com/mcsee/b6550c193e41862ed8a84cbe885d989d) -->
 
@@ -180,7 +180,7 @@ This is a well established cultural name and a legacy habit from structured prog
 
 Most developers are reluctant to let old habits go. 
 
-We must be aware of the damage this kind of names are bringing us.
+We must be aware of the damage these kinds of names are bringing us.
 
 # Relations 👩‍❤️‍💋‍👨
 

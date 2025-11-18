@@ -95,7 +95,7 @@ status.style.margin = '10px';
 status.style.width = '300px';
 ```
 
-This is not strictly necessary but it helps keep the UI as simple as possible.
+This is not strictly necessary, but it helps keep the UI as simple as possible.
 
 <!-- [Gist Url](https://gist.github.com/mcsee/25c2b2fa74c035c8b1d2dd4d656289c9) -->
 
@@ -106,7 +106,7 @@ This is not strictly necessary but it helps keep the UI as simple as possible.
 var rowIndex = game.wordsAttempted().length;
 ```
 
-rowIndex variable is no longer global. We compute it tied to the attempts tried on the game.
+*rowIndex* variable is no longer global. We compute it tied to the attempts tried on the game.
 
 We are reifying the state into our Game object
 

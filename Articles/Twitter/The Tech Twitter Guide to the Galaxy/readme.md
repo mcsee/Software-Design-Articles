@@ -45,19 +45,20 @@ I cannot keep his pace.
 - [@dmokafa](https://Twitter.com/dmokafa) (Deni Moka)
 
 Deni knows a lot about software design, clean code and TDD 
-you can follow his TDD blog here danielmoka.com.
+You can follow his TDD blog here danielmoka.com.
 He is the guy to ask for software advice.
 
 - @DThompsonDev [@DThompsonDev](https://Twitter.com/DThompsonDev) (Danny Thompson)
 
 Danny is a great teacher. He is undoubtedly an inspiration for new developers.
 I learn a lot from his courses and his fine sense of humor.
-youtube.com/DThompsonDev
+Youtube.com/DThompsonDev
 
 - [@FrancescoCiull4](https://Twitter.com/FrancescoCiull4) (Francesco Ciulla)
 
 Francesco writes on software development and has an amazing YouTube channel with lots of great videos. 
-http://youtube.com/FrancescoCiulla
+
+Http://youtube.com/FrancescoCiulla
 
 - [@jangiacomelli](https://Twitter.com/jangiacomelli) (Jan Giacomelli)
 

@@ -38,7 +38,7 @@ There are billions of stars and planets out there.
 
 Some of these planets might have conditions suitable for the development of life.
 
-if life is so likely to exist, why haven't we detected any signs of it yet?
+If life is so likely to exist, why haven't we detected any signs of it yet?
 
 Some scientists believe that the likelihood of life emerging is very low, while others suggest that the development of advanced civilizations is very rare. 
 
@@ -82,7 +82,7 @@ By considering the different factors that might influence the emergence of intel
 
 The equation has played a significant role in shaping our understanding of the Fermi Paradox.
 
-it predicts a lot of alien civilizations out there but we have not made contact with any of them.
+It predicts a lot of alien civilizations out there but we have not made contact with any of them.
 
 # Graduate Student
 
@@ -110,7 +110,7 @@ This is like Star Trek's Prime Directive.
 
 ## Interstellar Travel is Impossible
 
-Iinterstellar travel is not possible.
+Interstellar travel is not possible.
 
 Even if other civilizations do exist, they are unable to visit or communicate with us.
 

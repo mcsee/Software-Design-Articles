@@ -1,0 +1,3 @@
+initializeForRecipients: emailRecipients 
+	
+	recipients := emailRecipients.

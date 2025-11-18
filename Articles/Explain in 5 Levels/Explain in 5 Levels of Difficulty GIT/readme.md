@@ -26,7 +26,7 @@ You can keep all the different versions of your pictures and go back and look at
 
 You can draw on same picture with your friends without experiencing confusion with the changes.
 
-it is like a time capsule for your work.
+It is like a time capsule for your work.
 
 # Teen
 

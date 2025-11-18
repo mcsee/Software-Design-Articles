@@ -68,11 +68,13 @@ Try reading this:
 movie.rate.warnIfNotAllowed(this.age);
 ```
 
-against this:
+... against this:
 
+<!-- [Gist Url](https://gist.github.com/mcsee/47c55d3e4e0feb96c769af5d694d8eee) -->
+
+```javascript
+movie.rate.warnIfNotAllowed(this.age);
 ```
-movie.rate.warnIfNotAllowed(this.age);  
-``` 
 
 Which is better?
 
@@ -88,11 +90,11 @@ This is a YouTube embed
 
 [![Watch the video](https://img.youtube.com/vi/z43bmaMwagI/sddefault.jpg)](https://youtu.be/z43bmaMwagI) 
 
-and this is what you see on an AMP page:
+... and this is what you see on an AMP page:
 
 **https://www.youtube.com/watch?v=z43bmaMwagI**
 
-a much better link would be 
+A much better link would be... 
 
 [If considered harmful: How to eradicate 95% of all your bugs in one simple step - Jules May](https://www.youtube.com/watch?v=z43bmaMwagI)
 
@@ -102,8 +104,7 @@ Readers might even save the video for later watching if the title is interesting
 
 Images drive a lot of traffic to your site. Even if you use them in a metaphorical way.
 
-If you use [Google Search Console](https://search.google.com/search-console) you can try 
-adding a filter:
+If you use [Google Search Console](https://search.google.com/search-console) you can try adding a filter:
 
 ```
 "Search Type: Image"
@@ -137,13 +138,13 @@ The article referenced all hashnode posts I wrote *before* customizing my domain
 So I replaced links like:
 
 ```
-https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md
+Https://maximilianocontieri.com/coupling-the-one-and-only-software-design-problem
 ```
 
-with my vanity ones:
+... with my vanity ones:
 
 ```
-https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md
+Https://maximilianocontieri.com/coupling-the-one-and-only-software-design-problem
 ```
 
 They are better for SEO and personal branding.

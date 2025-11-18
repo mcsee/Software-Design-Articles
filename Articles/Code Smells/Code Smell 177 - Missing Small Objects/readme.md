@@ -22,7 +22,7 @@ Since computing early days we map all we see to the familiar primitive data type
 
 Mapping to dates violates abstraction and [fail-fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md) principles.
 
-in the [Wordle TDD Kata](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Wordle/How%20to%20Create%20a%20Wordle%20with%20TDD%20in%20Javascript/readme.md), we describe a Wordle word to be different than a *String* or *Char(5)*, since they don't have the same responsibilities.
+In the [Wordle TDD Kata](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Wordle/How%20to%20Create%20a%20Wordle%20with%20TDD%20in%20Javascript/readme.md), we describe a Wordle word to be different than a *String* or *Char(5)*, since they don't have the same responsibilities.
 
 # Sample Code 📖
 

@@ -109,8 +109,7 @@ Linters can detect comments and check the ratio of comments to lines of code aga
 
 Your software should reflect the domain with no translators in between.
 
-When you use comments as crutches, you break the one-to-one mapping
-between the real-world concept and its code representation.
+When you use comments as crutches, you break the one-to-one mapping between the real-world concept and its code representation.
 
 This mismatch creates confusion and bugs.
 
@@ -124,8 +123,7 @@ This can pollute your source when the code already speaks for itself.
 
 AI tools can easily remove redundant comments and suggest clearer names.
 
-You only need to instruct them to "remove obvious comments and refactor
-for clarity."
+You only need to instruct them to "remove obvious comments and refactor for clarity."
 
 ## Try Them! 🛠
 

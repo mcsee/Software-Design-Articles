@@ -46,7 +46,7 @@ It could provide step-by-step tutorials that the user can follow.
 
 The companion could give tips and tricks based on the user's current level of understanding.
 
-it could be a sounding board for the user to practice their programming skills.
+It could be a sounding board for the user to practice their programming skills.
 
 # State of the Art
 
@@ -70,7 +70,7 @@ Another AI companion designed for programming is called [DeepCoder](https://www.
 
 DeepCoder uses a technique called program synthesis to help you with your coding. 
 
-it can write code for you based on the inputs and outputs you give it. 
+It can write code for you based on the inputs and outputs you give it. 
 
 If you’re struggling to write a particular piece of code, DeepCoder can help you by writing it for you.
 
@@ -88,7 +88,7 @@ Learning programming can be difficult and frustrating at times, so it's importan
 
 We need to decide what personality we want it to have. 
 
-Also how we want it to interact with the user. 
+Also, how we want it to interact with the user. 
 
 Finally, we need to make sure it has the skills necessary to teach programming. 
 

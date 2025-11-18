@@ -165,7 +165,7 @@ Look for APIs that always return 200 regardless of the actual outcome.
 
 Check if your monitoring systems can properly detect failures and use mutation testing.
 
-if they can't distinguish between success and failure based on status codes, you likely have this problem.
+If they can't distinguish between success and failure based on status codes, you likely have this problem.
 
 You can also watch client-side bugs caused by mismatched expectations.
 

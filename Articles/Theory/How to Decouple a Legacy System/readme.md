@@ -46,7 +46,7 @@ Let’s see the process entry point:
   }
 ```
 
-and the method invoked:
+... and the method invoked:
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ebfd83f5a1e176d6a769de243fb8d422) -->
 
@@ -120,7 +120,7 @@ There are no valid reasons to use singletons. This fact, in addition to generati
 
 [Singleton - The Root of All Evil](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20Root%20of%20All%20Evil/readme.md)
 
-yields a very implemental invocation (coupled to _getInstance()_) and not very declarative...
+... yields a very implemental invocation (coupled to _getInstance()_) and not very declarative...
 
 <!-- [Gist Url](https://gist.github.com/mcsee/756c4d1547d031a6a184373abbab3ce7) -->
 
@@ -130,7 +130,7 @@ yields a very implemental invocation (coupled to _getInstance()_) and not very d
 SupervisedLearningAlgorithm::getInstance()->optimize($processId);
 ```
 
-which we will change to:
+... which we will change to:
 
 <!-- [Gist Url](https://gist.github.com/mcsee/244f934c8d755f7ad018ce3c98b2a145) -->
 
@@ -140,7 +140,7 @@ which we will change to:
 (new SupervisedLearningAlgorithm())->optimize($processId);
 ```
 
-leaving the class definition as follows:
+... leaving the class definition as follows:
 
 <!-- [Gist Url](https://gist.github.com/mcsee/43845711d2a84e446d62530082aef0d9) -->
 
@@ -169,7 +169,7 @@ final class SupervisedLearningAlgorithm {
 
 ## 5 — The same parameter in all methods.
 
-The object is created and then it gets a magic parameter setting the identifier of the process to be optimized. This argument travels by all methods.
+The object is created, and then it gets a magic parameter setting the identifier of the process to be optimized. This argument travels by all methods.
 
 This is a _code smell_ suggesting us to check the **cohesion** between this parameter and the process.
 
@@ -197,7 +197,7 @@ Looking at **bijection** we conclude there can be no algorithm without a process
 
 [Nude Models - Part I: Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20I Setters/readme.md)
 
-Therefore we will pass all the **essential** attributes during construction.
+Therefore, we will pass all the **essential** attributes during construction.
 
 The way to know if an attribute is **essential** is to take away all the responsibilities associated with that object. If it can no longer carry out its responsibilities, it is because the attribute belongs to the [minimal attribute set](https://en.wikipedia.org/wiki/Maximal_and_minimal_elements).
 

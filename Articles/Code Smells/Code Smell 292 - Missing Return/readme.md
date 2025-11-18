@@ -85,8 +85,7 @@ Most static analyzers and linters often catch this.
 
 # Why the Bijection Is Important 🗺️
 
-it's important to maintain a clear and predictable relationship
-between your code and the [Real World](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
+It's important to maintain a clear and predictable relationship between your code and the [Real World](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
 
 If a function is intended to calculate and return a value, it should always do so.  
 

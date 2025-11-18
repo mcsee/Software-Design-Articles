@@ -34,13 +34,11 @@
 
 When you pass a database connection or database object directly to business objects, you create [accidental](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md) coupling between your domain logic and data persistence mechanisms.
 
-This approach gives you a false sensation of flexibility while making your code harder to
-test, maintain, and evolve.
+This approach gives you a false sensation of flexibility while making your code harder to test, maintain, and evolve.
 
 The database becomes an implementation detail that leaks into your business layer, violating the separation of concerns principle.
 
-Your business objects should focus on essential business rules and behavior, not on accidental logic like
-how data gets stored or retrieved.
+Your business objects should focus on essential business rules and behavior, not on accidental logic like how data gets stored or retrieved.
 
 This pattern also makes unit testing extremely difficult since you cannot [mock](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md) or stub the database interactions without complex setup procedures.
 
@@ -113,8 +111,7 @@ class InvoiceProcessor:
 
 [X] Semi-Automatic
 
-You can detect this smell when you find database connections, SQL queries, or ORM objects passed as parameters to business methods. Look for method signatures that accept database-related objects or
-when you see SQL statements mixed with business logic calculations.
+You can detect this smell when you find database connections, SQL queries, or ORM objects passed as parameters to business methods. Look for method signatures that accept database-related objects or when you see SQL statements mixed with business logic calculations.
 
 Static analysis tools can flag methods that receive database connections as parameters, and code reviews should catch these architectural violations.
 
@@ -138,7 +135,7 @@ When you pass databases as parameters, you break the [one-to-one correspondence]
 
 In the real world, an invoice processor doesn't carry around a database.
 
-it works with customers and invoices as business entities.
+It works with customers and invoices as business entities.
 
 Breaking this bijection creates artificial dependencies that don't exist in the problem domain, making your code harder to understand and maintain.
 

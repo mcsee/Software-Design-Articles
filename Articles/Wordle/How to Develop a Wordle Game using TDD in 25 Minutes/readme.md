@@ -209,7 +209,8 @@ Let's do it.
   }
 ```
 
-it is no surprise test passes since we already have a test covering this scenario.
+It is no surprise test passes since we already have a test covering this scenario.
+
 As this test adds no value we should remove it.
 
 * * *
@@ -310,9 +311,9 @@ We replace the last two sentences
 - We defer design decisions as much as possible.
 - We defined a regular expression based on English Letters. We are pretty sure it won't accept Spanish (ñ), German(ë), etc.
 
-As a checkpoint, we have only five letter words from now on.
+As a checkpoint, we have only five-letter words from now on.
 
-Lets assert on letters() function. 
+Let's assert on letters() function. 
 We left it hard coded.
 TDD Opens many paths.
 We need to keep track of all of them until we open new ones.
@@ -981,7 +982,7 @@ public function test12MatchesAllLetters() {
 # Incorrect Positions
 
 Now we need the final steps. Matching in incorrect positions.
-and always the simplest solution...
+And always the simplest solution...
 
 <!-- [Gist Url](https://gist.github.com/mcsee/8dacb47f2ed6cf6e47b967da1dca7e4c) -->
 

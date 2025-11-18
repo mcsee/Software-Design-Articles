@@ -24,7 +24,7 @@ In this repository, you will find many articles related to Software Design
 
 * [Nude Models - Part II: Getters](/Articles/Theory/Nude%20Models%E2%80%8A-%E2%80%8APart%20II%C2%A0Getters/readme.md)
 
-* [Null: The Billion-Dollar Mistake](/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
+* [Null: The Billion Dollar Mistake](/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
 * [Object Design Checklist](/Articles/Theory/Object%20Design%20Checklist/readme.md)
 
@@ -704,6 +704,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 313 - Workslop Code](/Articles/Code%20Smells/Code%20Smell%20313%20-%20Workslop%20Code/readme.md)
 
+* [Code Smell 314 - Model Collapse](/Articles/Code%20Smells/Code%20Smell%20314%20-%20Model%20Collapse/readme.md)
+
 ### Blogging
 
 * [Content Structure: The Do's and Dont's of Content Creation](/Articles/Blogging/68%20-%20Content%20Structure%20The%20Do%27s%20and%20Dont%27s%20of%20Content%20Creation/readme.md)
@@ -897,6 +899,8 @@ In this repository, you will find many articles related to Software Design
 * [Refactoring 034 - Reify Parameters](/Articles/Refactorings/Refactoring%20034%20-%20Reify%20Parameters/readme.md)
 
 * [Refactoring 035 - Separate Exception Types](/Articles/Refactorings/Refactoring%20035%20-%20Separate%20Exception%20Types/readme.md)
+
+* [Refactoring 036 - Replace String Concatenations with Text Blocks](/Articles/Refactorings/Refactoring%20036%20-%20Replace%20String%20Concatenations%20with%20Text%20Blocks/readme.md)
 
 ### Wordle
 

@@ -14,7 +14,7 @@ The seduction argument consisted of writing less code. Today we know that this a
 
 There are several reasons:
 
-a) We have not yet reached the level of abstraction and we have to teach the interpreter to make syntactic manipulations on our models.
+a) We have not yet reached the level of abstraction, and we have to teach the interpreter to make syntactic manipulations on our models.
 
 If there is a certain redundancy, the usual approach would be to model that redundancy by searching in real-world against the abstract concept we should match.
 
@@ -24,8 +24,8 @@ b) Some code generators are based on the (almost always incorrect) excuse that g
 
 > Currently, human time is more valuable and scarce than machine time.
 
-c) Some programming languages ​​impose arbitrary type restrictions that are only saved with intermediate code generation such as Java generics or templates in c++. These are language limitations and not model restrictions.
-Non-declarative languages ​​like C++ or Java offer us with tools like [Templates](https://en.wikipedia.org/wiki/Template_(C%2B%2B)) or [Generics](https://en.wikipedia.org/wiki/Generics_in_Java) that [look different but are similar.](https://www.geeksforgeeks.org/templates-in-c-vs-generics-in-java/)
+c) Some programming languages impose arbitrary type restrictions that are only saved with intermediate code generation such as Java generics or templates in c++. These are language limitations and not model restrictions.
+Non-declarative languages like C++ or Java offer us with tools like [Templates](https://en.wikipedia.org/wiki/Template_(C%2B%2B)) or [Generics](https://en.wikipedia.org/wiki/Generics_in_Java) that [look different but are similar.](https://www.geeksforgeeks.org/templates-in-c-vs-generics-in-java/)
 
 <!-- [Gist Url](https://gist.github.com/mcsee/cc4a2eaa2770317a964515925072175c) -->
 

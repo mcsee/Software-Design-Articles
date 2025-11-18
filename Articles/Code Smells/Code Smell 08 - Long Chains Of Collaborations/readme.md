@@ -128,8 +128,7 @@ When you chain too many calls, you blur the map.
 
 Your objects start revealing paths instead of intentions. 
 
-That breaks the direct link between the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
-and the problem it solves.
+That breaks the direct link between the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) and the problem it solves.
 
 # AI Generation 🤖
 

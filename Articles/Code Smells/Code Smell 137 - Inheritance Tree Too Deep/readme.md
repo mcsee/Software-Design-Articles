@@ -9,15 +9,10 @@
 # Problems 😔 
 
 - [Coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
-
 - Subclassification Reuse 
-
 - Bad cohesion
-
 - Fragile base classes
-
 - Method overriding
-
 - Liskov Substitution
 
 # Solutions 😃
@@ -88,8 +83,6 @@ Look after your hierarchies and break them often.
 [Code Smell 37 - Protected Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2037%20-%20Protected%20Attributes/readme.md)
 
 [Code Smell 125 - 'IS-A' Relationship](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20125%20-%20'IS-A'%20Relationship/readme.md)
-
-[Code Smell 58 - Yo-yo Problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2058%20-%20Yo-yo%20Problem/readme.md)
 
 # More Information 📕
 

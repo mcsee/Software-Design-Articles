@@ -24,7 +24,7 @@
 
 Developers might see using tabs or spaces for indentation as a matter of personal preference or team convention.
 
-it is generally recommended to [be consistent](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20164%20-%20Mixed%20Indentations/readme.md) with the chosen method of indentation within a project.
+It is generally recommended to [be consistent](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20164%20-%20Mixed%20Indentations/readme.md) with the chosen method of indentation within a project.
 
 There are a few advantages of using spaces over tabs.
 

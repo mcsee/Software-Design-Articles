@@ -109,6 +109,8 @@ AIs can produce large volumes of plausible code with shallow logic.
 
 The result looks professional but lacks cohesion, decisions, or constraints from your actual problem space.
 
+This sometimes happens when [model collapses](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20314%20-%20Model%20Collapse/readme.md).
+
 # AI Detection 🧲
  
 You can also use AI-generated code detectors.
@@ -159,6 +161,8 @@ Remember, YOU are accountable for your code. Even if Artificial Intelligence wri
 [Code Smell 238 - Entangled Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20238%20-%20Entangled%20Code/readme.md)
 
 [Code Smell 230 - Schrödinger Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20230%20-%20Schrodinger%20Code/readme.md)
+
+[Code Smell 314 - Model Collapse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20314%20-%20Model%20Collapse/readme.md)
 
 # More Information 📕
 
