@@ -9,26 +9,23 @@
 # Problems 😔
 
 - Readability
-
 - Maintainability
-
 - Code Quality
-
 - [Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)
 
 # Solutions 😃
 
-- Refactor the code
+1. Refactor the code
 
-- Use [good names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20Exactly%20Is%20a%20Name%20-%20Part%20I%20The%20Quest/readme.md)
+2. Use [good names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20Exactly%20Is%20a%20Name%20-%20Part%20I%20The%20Quest/readme.md)
 
-- Refactor tricky code
+3. Refactor tricky code
 
-- Prefer clarity first
+4. Prefer clarity first
 
-- Avoid hidden tricks
+5. Avoid hidden tricks
 
-- Optimize only later with strong real evidence
+6. Optimize only later with strong real evidence
 
 # Refactorings ⚙️
 

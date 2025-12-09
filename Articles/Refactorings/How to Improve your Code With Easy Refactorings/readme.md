@@ -84,6 +84,10 @@ Let's go for the solutions!
 
 [Refactoring 035 - Separate Exception Types](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20035%20-%20Separate%20Exception%20Types/readme.md)
 
+[Refactoring 036 - Replace String Concatenations with Text Blocks](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20036%20-%20Replace%20String%20Concatenations%20with%20Text%20Blocks/readme.md)
+
+[Refactoring 037 - Testing Private Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20037%20-%20Testing%20Private%20Methods/readme.md)
+
 * * *
 
 Photo by [No Revisions](https://unsplash.com/ja/@norevisions) on [Unsplash](https://unsplash.com/es/s/fotos/cleaning)

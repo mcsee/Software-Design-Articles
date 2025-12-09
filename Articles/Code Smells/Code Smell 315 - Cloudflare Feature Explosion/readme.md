@@ -236,6 +236,8 @@ That’s how you keep your system stable and fault-tolerant.
 
 [Hackaday: How One Uncaught Rust Exception Took Out Cloudflare](https://hackaday.com/2025/11/20/how-one-uncaught-rust-exception-took-out-cloudflare/)
 
+[The Pragmatic Engineer](https://newsletter.pragmaticengineer.com/p/the-pulse-cloudflare-takes-down-half)
+
 [CNBC: Financial Impact Analysis](https://www.cnbc.com/2025/11/18/cloudflare-outage-briefly-takes-chatgpt-claude-services-offline.html)
 
 # Disclaimer 📘

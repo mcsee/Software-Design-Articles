@@ -904,6 +904,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Refactoring 036 - Replace String Concatenations with Text Blocks](/Articles/Refactorings/Refactoring%20036%20-%20Replace%20String%20Concatenations%20with%20Text%20Blocks/readme.md)
 
+* [Refactoring 037 - Testing Private Methods](/Articles/Refactorings/Refactoring%20037%20-%20Testing%20Private%20Methods/readme.md)
+
 ### Wordle
 
 * [How to Create a Wordle as a Centaur](/Articles/Wordle/How%20to%20Create%20a%20Wordle%20as%20a%20Centaur/readme.md)
