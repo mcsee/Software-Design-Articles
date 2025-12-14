@@ -708,6 +708,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 315 - Cloudflare Feature Explosion](/Articles/Code%20Smells/Code%20Smell%20315%20-%20Cloudflare%20Feature%20Explosion/readme.md)
 
+* [Code Smell 316 - Nitpicking](/Articles/Code%20Smells/Code%20Smell%20316%20-%20Nitpicking/readme.md)
+
 ### Blogging
 
 * [Content Structure: The Do's and Dont's of Content Creation](/Articles/Blogging/68%20-%20Content%20Structure%20The%20Do%27s%20and%20Dont%27s%20of%20Content%20Creation/readme.md)

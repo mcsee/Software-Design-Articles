@@ -123,6 +123,8 @@ We can unit-test it, reuse it, exchange it, etc.
 
 [Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
+[Refactoring 037 - Testing Private Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20037%20-%20Testing%20Private%20Methods/readme.md)
+
 # Conclusion 🏁
 
 The Method-Object is suitable when we are using several extract methods passing partial state among them as parts of an algorithm.

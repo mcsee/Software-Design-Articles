@@ -30,6 +30,8 @@
 
 [Refactoring 010 - Extract Method Object](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20010%20-%20Extract%20Method%20Object/readme.md)
 
+[Refactoring 037 - Testing Private Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20037%20-%20Testing%20Private%20Methods/readme.md)
+
 # Context 💬
 
 We test our classes and methods.

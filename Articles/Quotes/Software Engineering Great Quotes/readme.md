@@ -114,6 +114,14 @@ Here we go:
 
 ---
 
+> If you program, you are an API designer. Good code is modular—each module has an API.
+
+Joshua Bloch
+
+[Code Smell 309 - Query Parameter API Versioning](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20309%20-%20Query%20Parameter%20API%20Versioning/readme.md)
+
+---
+
 > A programming language is a tool that has a profound influence on our thinking habits.
 
 *Edsger Dijkstra*
@@ -2259,6 +2267,14 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 ---
 
+> If you think technology can solve your security problems, then you don’t understand the problems and you don’t understand the technology.
+
+*Bruce Schneier*
+
+[Code Smell 311 - Plain Text Passwords](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20311%20-%20Plain%20Text%20Passwords/readme.md)
+
+---
+
 > This fascination with computer models is something I understand very well. Richard Feynman called it a disease. I fear he is right.
 
 *Michael Crichton*
@@ -2638,6 +2654,14 @@ There is only one basic way of dealing with complexity: divide and conquer
 
 ---
 
+> If you have to create a lot of structure before a test, maybe you’re testing through too many layers
+
+*James Shore*
+
+[Code Smell 299 - Overloaded Test Setup](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20299%20-%20Overloaded%20Test%20Setup/readme.md)
+
+---
+
 > The "naive" or "natural" expectations of objects represent a kind of integrity—what Alan Kay called a user illusion—that must be respected.
 
 *David West*
@@ -2829,6 +2853,8 @@ There is only one basic way of dealing with complexity: divide and conquer
 > The most disastrous thing that you can ever learn is your first programming language.
 
 *Alan Kay*
+
+[Code Smell 313 - Workslop Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20313%20-%20Workslop%20Code/readme.md)
 
 ---
 
@@ -3078,11 +3104,27 @@ There is only one basic way of dealing with complexity: divide and conquer
 
 ---
 
-Passwords are like underwear: you don’t let people see it, you should change it very often, and you shouldn’t share it with strangers.
+> The secret to building large apps is never build large apps. Break your applications into small pieces. Then, assemble those testable, bite-sized pieces into your big application
+
+*Justin Meyer*
+
+[Code Smell 301 - Database as Parameter](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20301%20-%20Database%20as%20Parameter/readme.md)
+
+---
+
+> Passwords are like underwear: you don’t let people see it, you should change it very often, and you shouldn’t share it with strangers.
 
 *Chris Pirillo*
 
 [Code Smell 258 - Secrets in Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20258%20-%20Secrets%20in%20Code/readme.md)
+
+---
+
+> Testing is not about finding bugs, it's about understanding them
+
+*Brian Marick*
+
+[Code Smell 312 - Too Many Asserts](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20312%20-%20Too%20Many%20Asserts/readme.md)
 
 ---
 
@@ -3294,10 +3336,17 @@ Passwords are like underwear: you don’t let people see it, you should change i
 
 ---
 
-Software as an asset isn't stable over time; it needs to be maintained.
+> Software as an asset isn't stable over time; it needs to be maintained.
 
 * Brian Behlendorf
-    
+
+---
+
+> Code is design
+
+*Ward Cunningham*
+
+[Code Smell 314 - Model Collapse](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20314%20-%20Model%20Collapse/readme.md)
 
 ---
 
@@ -3413,6 +3462,14 @@ Software as an asset isn't stable over time; it needs to be maintained.
 
 ---
 
+> A day can be 23 hours. Or 25. You just forgot.
+
+*Paul Ford*
+
+[Code Smell 307 - Naive Time Assumptions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20307%20-%20Naive%20Time%20Assumptions/readme.md)
+
+---
+
 > The computer is simply an instrument whose music is ideas.
 
 *Alan Kay*
@@ -3519,6 +3576,14 @@ Software as an asset isn't stable over time; it needs to be maintained.
 
 ---
 
+> The function of good software is to make the complex appear simple
+
+*Graciano Cruz*
+
+[Code Smell 297 - Syntactic Noise](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20297%20-%20Syntactic%20Noise/readme.md)
+
+---
+
 > In almost all cases, I’m opposed to setting aside time for refactoring. In my view refactoring is not an activity you set aside time to do. Refactoring is something you do all the time in little bursts.
 
 *Martin Fowler*
@@ -3542,6 +3607,14 @@ Software as an asset isn't stable over time; it needs to be maintained.
 > The most important single aspect of software development is to be clear about what you are trying to build.
 
 *Bjarne Stroustrup*
+
+---
+
+> Return the right type, always.
+
+*Brian Goetz*
+
+[Code Smell 308 - Not Polymorphic Return](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20308%20-%20Not%20Polymorphic%20Return/readme.md)
 
 ---
 
@@ -3863,6 +3936,14 @@ Software as an asset isn't stable over time; it needs to be maintained.
 
 ---
 
+Testing leads to failure, and failure leads to understanding.
+
+*Burt Rutan*
+
+[Code Smell 298 - Microsoft Windows Time Waste](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20298%20-%20Microsoft%20Windows%20Time%20Waste/readme.md)
+
+---
+
 > We are not nouns, we are verbs. I am not a thing - an actor, a writer - I am a person who does things - I write, I act - and I never know what I'm going to do next. I think you can be imprisoned if you think of yourself as a noun.
 
 *Stephen Fry*
@@ -3895,6 +3976,14 @@ Software as an asset isn't stable over time; it needs to be maintained.
 
 ---
 
+> Code should model the problem, not the solution
+
+*Rich Hickey*
+
+[Code Smell 305 - Null Infinity](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20305%20-%20Null%20Infinity/readme.md)
+
+---
+
 > God made the natural numbers; all else is the work of man.
 
 *Leopold Kronecker*
@@ -3920,6 +4009,14 @@ Software as an asset isn't stable over time; it needs to be maintained.
 > Software engineering is not the same thing as computer science, though we often confuse the two. We need both software engineers and computer scientists.
 
 *Dave Farley*
+
+---
+
+> Precise naming is a design decision, not a cosmetic one.
+
+*Eric Evans*
+
+[Code Smell 310 - Vague Date Naming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20310%20-%20Vague%20Date%20Naming/readme.md)
 
 ---
 
@@ -4277,6 +4374,14 @@ Continuous deployment came before continuous delivery. We need to learn from it.
 
 ---
 
+> The best documentation is code that doesn't need documentation
+
+*Steve McConnell*
+
+[Code Smell 306 - AI External Comments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20306%20-%20AI%20External%20Comments/readme.md)
+
+---
+
 > Learning the art of programming, like most other disciplines, consists of first learning the rules and then learning when to break them.
 
 *Joshua Bloch*
@@ -4296,6 +4401,14 @@ Continuous deployment came before continuous delivery. We need to learn from it.
 *David Gelernter*
 
 [Code Smell 45 - Not Polymorphic](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2045%20-%20Not%20Polymorphic/readme.md)
+
+---
+
+> Design is about intent, not syntax.
+
+*Grady Booch*
+
+[Code Smell 316 - Nitpicking](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20316%20-%20Nitpicking/readme.md)
 
 ---
 
@@ -4349,6 +4462,8 @@ Continuous deployment came before continuous delivery. We need to learn from it.
 
 *Doug Linder*
 
+[Code Smell 315 - Cloudflare Feature Explosion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20315%20-%20Cloudflare%20Feature%20Explosion/readme.md)
+
 ---
 
 > Alzheimer's Law of Programming: Looking at code you wrote more than two weeks ago is like looking at code you are seeing for the first time.
@@ -4368,6 +4483,14 @@ Continuous deployment came before continuous delivery. We need to learn from it.
 > The object-oriented model makes it easy to build up programs by accretion. What this often means, in practice, is that it provides a structured way to write spaghetti code.
 
 *Paul Graham*
+
+---
+
+> APIs are forever, so design them carefully
+
+*Martin Fowler*
+
+[Code Smell 303 - Breaking Changes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20303%20-%20Breaking%20Changes/readme.md)
 
 ---
 
@@ -5013,7 +5136,7 @@ I try to think mostly in terms of preconditions, and checking things in the cons
 
 ---
 
-> If you’re afraid to change something is clearly poorly designed.
+> If you’re afraid to change something it is  clearly poorly designed.
 
 *Martin Fowler*
 

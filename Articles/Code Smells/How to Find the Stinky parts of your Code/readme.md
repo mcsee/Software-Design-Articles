@@ -642,6 +642,8 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 315 - Cloudflare Feature Explosion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20315%20-%20Cloudflare%20Feature%20Explosion/readme.md)
 
+[Code Smell 316 - Nitpicking](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20316%20-%20Nitpicking/readme.md)
+
 ... and many more to come.
 
 * * *
