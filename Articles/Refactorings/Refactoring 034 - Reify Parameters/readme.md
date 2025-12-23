@@ -193,6 +193,22 @@ This refactoring mirrors that natural [language structure](https://github.com/mc
 
 The *SearchCriteria* becomes a first-class concept that [maps](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) directly to how searching works in the real world.
 
+# Tags 🏷️
+
+- Primitive Obsession
+
+# Level 🔋
+
+[X] Intermediate
+
+# Related Refactorings 🔄
+
+[Introduce Parameter Object](https://refactoring.guru/es/introduce-parameter-object)
+
+[Refactoring 013 - Remove Repeated Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20013%20-%20Remove%20Repeated%20Code/readme.md)
+
+[Refactoring 019 - Reify Email Addresses](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20019%20-%20Reify%20Email%20Addresses/readme.md)
+
 # Refactor with AI 🤖
 
 Ask AI to scan your codebase for functions that use two or more parameters of the same type.
@@ -213,22 +229,6 @@ Instruct it to propose an entity name, generate the type or class, and rewrite b
 | [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
-
-# Tags 🏷️
-
-- Primitive Obsession
-
-# Level 🔋
-
-[X] Intermediate
-
-# Related Refactorings 🔄
-
-[Introduce Parameter Object](https://refactoring.guru/es/introduce-parameter-object)
-
-[Refactoring 013 - Remove Repeated Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20013%20-%20Remove%20Repeated%20Code/readme.md)
-
-[Refactoring 019 - Reify Email Addresses](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20019%20-%20Reify%20Email%20Addresses/readme.md)
 
 # Also known as 🪪
 

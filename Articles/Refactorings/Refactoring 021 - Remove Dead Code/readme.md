@@ -181,6 +181,18 @@ Removing dead code requires confidence that it's truly unused.
 
 This process relies on static analysis or thorough codebase knowledge, which can be error-prone without robust tools.
 
+# Tags 🏷️
+
+- Bloaters
+
+# Level 🔋
+
+[X] Beginner
+
+# Related Refactorings 🔄
+
+[Refactoring 004 - Remove Unhandled Exceptions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20004%20-%20Remove%20Unhandled%20Exceptions/readme.md)
+
 # Refactor with AI
 
 > Suggested Prompt: 1. Ensure your code has good functional coverage.2. Identify unused functions and constants by reviewing your code or using static analysis tools. 3. Analyze the added speculative code, just in case. 4. Remove anything unnecessary or unused. 5. Perform comprehensive regression testing on your code. 
@@ -197,18 +209,6 @@ This process relies on static analysis or thorough codebase knowledge, which can
 | [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
-
-# Tags 🏷️
-
-- Bloaters
-
-# Level 🔋
-
-[X] Beginner
-
-# Related Refactorings 🔄
-
-[Refactoring 004 - Remove Unhandled Exceptions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20004%20-%20Remove%20Unhandled%20Exceptions/readme.md)
 
 # Credits 🙏
 

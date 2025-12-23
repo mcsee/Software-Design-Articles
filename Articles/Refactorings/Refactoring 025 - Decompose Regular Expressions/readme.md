@@ -179,6 +179,20 @@ This reduces ambiguity and ensures the code reflects the problem domain accurate
 
 This approach might add some overhead for very simple regex patterns where breaking them down would be unnecessary.
 
+# Tags 🏷️
+
+- Testing
+
+# Level 🔋
+
+[X] Intermediate
+
+# Related Refactorings 🔄
+
+[Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
+
+[Refactoring 011 - Replace Comments with Tests](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20011%20-%20Replace%20Comments%20with%20Tests/readme.md)
+
 # Refactor with AI 🤖
 
 You can use AI tools to help identify regex components.
@@ -203,20 +217,6 @@ You should leave this mechanical task to AI.
 | [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
-
-# Tags 🏷️
-
-- Testing
-
-# Level 🔋
-
-[X] Intermediate
-
-# Related Refactorings 🔄
-
-[Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
-
-[Refactoring 011 - Replace Comments with Tests](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20011%20-%20Replace%20Comments%20with%20Tests/readme.md)
 
 # See also 📚
 

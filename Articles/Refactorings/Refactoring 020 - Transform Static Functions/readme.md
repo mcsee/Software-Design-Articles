@@ -119,6 +119,22 @@ Objects encapsulate behavior, improving cohesion and reducing protocol overloadi
 
 You remove hidden global dependencies, making the code clearer and easier to understand.
 
+# Tags 🏷️
+
+- Cohesion
+
+# Level 🔋
+
+[X] Intermediate
+
+# Related Refactorings 🔄
+
+[Refactoring 018 - Replace Singleton](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20018%20-%20Replace%20Singleton/readme.md)
+
+[Refactoring 007 - Extract Class](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20007%20-%20Extract%20Class/readme.md)
+
+- Replace Global Variable with Dependency Injection
+
 # Refactor with AI
 
 > Suggested Prompt: 1. Identify static methods used in your code. 2. Replace static methods with instance methods. 3. Pass dependencies explicitly through constructors or method parameters. 4. Refactor clients to interact with objects instead of static functions.
@@ -135,22 +151,6 @@ You remove hidden global dependencies, making the code clearer and easier to und
 | [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
-
-# Tags 🏷️
-
-- Cohesion
-
-# Level 🔋
-
-[X] Intermediate
-
-# Related Refactorings 🔄
-
-[Refactoring 018 - Replace Singleton](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20018%20-%20Replace%20Singleton/readme.md)
-
-[Refactoring 007 - Extract Class](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20007%20-%20Extract%20Class/readme.md)
-
-- Replace Global Variable with Dependency Injection
 
 # See also 📚
 

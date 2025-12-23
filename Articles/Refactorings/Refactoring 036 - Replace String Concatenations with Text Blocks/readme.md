@@ -185,6 +185,20 @@ Examples of languages with full support:
 | PHP        | Heredoc / Nowdoc                | `<<<`        | [PHP Docs](https://www.php.net/manual/en/language.types.string.php) |
 | Scala      | Multiline Strings               | `"""`        | [Scala 3 Docs](https://docs.scala-lang.org/scala3/reference/changed-features/multiline-strings.html) |
 
+# Tags 🏷️
+
+- Standards
+
+# Level 🔋
+
+[X] Beginner
+
+# Related Refactorings 🔄
+
+[Refactoring 025 - Decompose Regular Expressions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20025%20-%20Decompose%20Regular%20Expressions/readme.md)
+
+[Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
+
 # Refactor with AI 🤖
 
 > Suggested Prompt: 1. Identify multi-line string concatenations or strings with excessive escape sequences2. Replace opening quote and concatenation operators with triple quotes (""")3. Remove escape sequences for quotes and newlines
@@ -201,20 +215,6 @@ Examples of languages with full support:
 | [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
-
-# Tags 🏷️
-
-- Standards
-
-# Level 🔋
-
-[X] Beginner
-
-# Related Refactorings 🔄
-
-[Refactoring 025 - Decompose Regular Expressions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20025%20-%20Decompose%20Regular%20Expressions/readme.md)
-
-[Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
 # See also 📚
 

@@ -64,7 +64,7 @@ More insights [here](https://goldedem.hashnode.dev/github-co-pilot-in-a-nutshell
 
 Not now.
 
-If you read the benefits above, most of the Copilot code belongs to the [code smell area](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md).
+If you read the benefits above, most of the Copilot code belongs to the [code smell area](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code/readme.md).
 
 Very soon, transformers like Copilot will replace lazy and implementative programmers.
 

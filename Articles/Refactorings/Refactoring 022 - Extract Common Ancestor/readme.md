@@ -113,8 +113,21 @@ This refactoring is safe if you identify all common behaviors correctly and move
 
 It reduces duplication, simplifies maintenance, and makes it easier to extend functionality by adding new concrete realizations.
 
-# How Does it Improve the Bijection? �
+# How Does it Improve the Bijection? 🗺️
+
 By introducing an abstract class, the code better reflects the [real-world](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) hierarchy, creating a clear relationship between the generic and specific types.
+
+# Tags 🏷️
+
+- Hierarchies
+
+# Level 🔋
+
+[X] Intermediate
+
+# Related Refactorings 🔄
+
+[Refactoring 013 - Remove Repeated Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20013%20-%20Remove%20Repeated%20Code/readme.md)
 
 # Refactor with AI
 
@@ -132,18 +145,6 @@ By introducing an abstract class, the code better reflects the [real-world](http
 | [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
-
-# Tags 🏷️
-
-- Hierarchies
-
-# Level 🔋
-
-[X] Intermediate
-
-# Related Refactorings 🔄
-
-[Refactoring 013 - Remove Repeated Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20013%20-%20Remove%20Repeated%20Code/readme.md)
 
 # See also 📚
 

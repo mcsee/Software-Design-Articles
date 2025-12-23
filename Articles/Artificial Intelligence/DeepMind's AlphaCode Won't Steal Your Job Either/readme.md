@@ -20,7 +20,7 @@ With overfitting claims, it outperformed several people at those contests.
 
 [Results](https://github.com/deepmind/code_contests) are available online.
 
-A careful look at the datasets shows basic algorithmic solutions with output code full of [code smells](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md) many human counterparts make.
+A careful look at the datasets shows basic algorithmic solutions with output code full of [code smells](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code/readme.md) many human counterparts make.
 
 Variables with [bad names](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md), [Lots of ifs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md), [too long methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2003%20-%20Functions%20Are%20Too%20Long/readme.md), [global functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2017%20-%20Global%20Functions/readme.md) are some examples of these smells many code reviewers would not approve.
 

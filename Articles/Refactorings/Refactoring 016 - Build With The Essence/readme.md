@@ -136,6 +136,18 @@ The refactored code enforces object integrity by requiring all essential attribu
 
 The objects become thread-safe reducing the risk of being in an inconsistent state.
 
+# Tags 🏷️
+
+- Mutability
+
+# Level 🔋
+
+[X] Intermediate
+
+# Related Refactorings 🔄
+
+[Refactoring 001 - Remove Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
+
 # AI Correction
 
 Most AI tools can correct this code with explicit instructions. 
@@ -160,18 +172,6 @@ You can have clear pre-prompts requesting all your code samples to favor immutab
 | [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
-
-# Tags 🏷️
-
-- Mutability
-
-# Level 🔋
-
-[X] Intermediate
-
-# Related Refactorings 🔄
-
-[Refactoring 001 - Remove Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
 
 # See also 📚
 

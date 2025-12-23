@@ -76,7 +76,7 @@ In this repository, you will find many articles related to Software Design
 
 ### Code Smells
 
-* [How to Find the Stinky Parts of your Code](/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md)
+* [How to Find the Stinky Parts of Your Code](/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code/readme.md)
 
 * [Code Smell 01 - Anemic Models](/Articles/Code%20Smells/Code%20Smell%2001%20-%20Anemic%20Models/readme.md)
 
@@ -709,6 +709,8 @@ In this repository, you will find many articles related to Software Design
 * [Code Smell 315 - Cloudflare Feature Explosion](/Articles/Code%20Smells/Code%20Smell%20315%20-%20Cloudflare%20Feature%20Explosion/readme.md)
 
 * [Code Smell 316 - Nitpicking](/Articles/Code%20Smells/Code%20Smell%20316%20-%20Nitpicking/readme.md)
+
+* [Code Smell 317 - Email Handling Vulnerabilities](/Articles/Code%20Smells/Code%20Smell%20317%20-%20Email%20Handling%20Vulnerabilities/readme.md)
 
 ### Blogging
 

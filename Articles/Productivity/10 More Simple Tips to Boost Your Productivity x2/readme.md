@@ -83,7 +83,7 @@ Fake deadline: today.*
 Write your goals as *SMART* Sentences:
 
 Example:
-> Write one [Code Smell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md) article every week until 2032.
+> Write one [Code Smell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code/readme.md) article every week until 2032.
 
 # 27. Drastic Measures 🐱‍🚀
 

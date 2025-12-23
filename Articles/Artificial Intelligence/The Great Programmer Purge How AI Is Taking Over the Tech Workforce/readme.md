@@ -141,7 +141,7 @@ Soon, there will be a shortage of handy people such as electricians, plumbers, a
 
 A.I. won't take your job. A developer mastering AI tools will.
 
-I write biweekly articles about [clean code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md), [refactoring](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/How%20to%20Improve%20your%20Code%20With%20Easy%20Refactorings/readme.md), and programming.
+I write biweekly articles about [clean code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code/readme.md), [refactoring](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/How%20to%20Improve%20your%20Code%20With%20Easy%20Refactorings/readme.md), and programming.
 
 In these articles, you can compare the output of many AIs with and without guidance.
 

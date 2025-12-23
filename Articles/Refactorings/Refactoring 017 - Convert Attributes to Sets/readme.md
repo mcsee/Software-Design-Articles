@@ -129,6 +129,18 @@ Sets don't preserve element order.
 
 If your logic depends on sequence, converting to a set may not be appropriate and you should use an Ordered Collection or Array
 
+# Tags 🏷️
+
+- Mutability
+
+# Level 🔋
+
+[X] Intermediate
+
+# Related Refactorings 🔄
+
+[Refactoring 001 - Remove Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
+
 # AI Refactoring
 
 You can prompt your AI assistants to make this refactoring for you.
@@ -149,18 +161,6 @@ You can prompt your AI assistants to make this refactoring for you.
 | [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
-
-# Tags 🏷️
-
-- Mutability
-
-# Level 🔋
-
-[X] Intermediate
-
-# Related Refactorings 🔄
-
-[Refactoring 001 - Remove Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
 
 # See also 📚
 

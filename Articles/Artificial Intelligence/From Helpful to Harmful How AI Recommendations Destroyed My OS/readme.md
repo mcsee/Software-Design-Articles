@@ -84,7 +84,7 @@ AI answered fast. Confident. Like it had done a thousand times before.
 
 # What Went Wrong
 
-In my [code smell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md) articles, I use the 10 most popular AI programming tools.
+In my [code smell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code/readme.md) articles, I use the 10 most popular AI programming tools.
 
 I just opened one of them ([ChatGPT](https://chatgpt.com/?q=Give%20me%20a%20command%20to%20install%20Python%20in%20Ubuntu)) and prompted it to give me some commands to install Python on my Ubuntu.
 

@@ -202,7 +202,7 @@ And a working repl.it [here](https://replit.com/@mcsee/Centaur-TDD)
 
 ## The Disclaimer
 
-The final code is full of refactoring opportunities and several [code smells](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md).
+The final code is full of refactoring opportunities and several [code smells](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code/readme.md).
 
 It is a proof of concept, not an elegant and final solution.
 

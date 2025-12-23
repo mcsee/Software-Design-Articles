@@ -1,6 +1,6 @@
-# How to Find the Stinky Parts of your Code
+# How to Find the Stinky Parts of Your Code
 
-![How to Find the Stinky Parts of your Code](How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code.jpeg)
+![How to Find the Stinky Parts of Your Code](How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code.jpeg)
 
 *The code smells badly. Let's see how to change the aromas.*
 
@@ -643,6 +643,8 @@ Most of these smells are just *hints* of something that might be wrong. They are
 [Code Smell 315 - Cloudflare Feature Explosion](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20315%20-%20Cloudflare%20Feature%20Explosion/readme.md)
 
 [Code Smell 316 - Nitpicking](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20316%20-%20Nitpicking/readme.md)
+
+[Code Smell 317 - Email Handling Vulnerabilities](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20317%20-%20Email%20Handling%20Vulnerabilities/readme.md)
 
 ... and many more to come.
 

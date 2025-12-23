@@ -145,9 +145,23 @@ Over-injection can lead to [parameter bloat](https://github.com/mcsee/Software-D
 - [Inversion](https://en.wikipedia.org/wiki/Dependency_inversion_principle) is the principle (why). It tells you to depend on abstractions to reduce coupling.
 - Injection is the practice (how). It’s one way (there are many others) to apply the principle by passing dependencies from outside instead of creating them inside a class.
 
-# Refactor with AI 🤖 
+# Tags 🏷️
 
-You can use AI tools to analyze your codebase and identify global variables. 
+- Coupling
+
+# Level 🔋
+
+[X] Intermediate
+
+# Related Refactorings 👩‍❤️‍💋‍�
+
+[Refactoring 018 - Replace Singleton](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20018%20-%20Replace%20Singleton/readme.md)
+
+[Refactoring Guru](https://refactoring.guru/es/introduce-parameter-object)
+
+# Refactor with AI 🤖
+
+You can use AI tools to analyze your codebase and identify global variables.
 
 The AI can suggest where to implement dependency injection and help generate the necessary interfaces or classes for your dependencies.
 
@@ -169,20 +183,6 @@ The AI can suggest where to implement dependency injection and help generate the
 | [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
-
-# Tags 🏷️
-
-- Coupling
-
-# Level 🔋
-
-[X] Intermediate
-
-# Related Refactorings 👩‍❤️‍💋‍�
-
-[Refactoring 018 - Replace Singleton](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20018%20-%20Replace%20Singleton/readme.md)
- 
-[Refactoring Guru](https://refactoring.guru/es/introduce-parameter-object)
 
 # See also 🔍
 

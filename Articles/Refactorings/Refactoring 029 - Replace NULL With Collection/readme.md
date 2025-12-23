@@ -217,6 +217,20 @@ This refactoring may not be suitable when null has semantic meaning different fr
 
 You need to ensure all code paths initialize collections consistently to avoid mixed null and empty states.
 
+# Tags 🏷️
+
+- Null
+
+# Level 🔋
+
+[X] Intermediate
+
+# Related Refactorings 🔄
+
+[Refactoring 015 - Remove NULL](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20015%20-%20Remove%20NULL/readme.md)
+
+[Refactoring 014 - Remove IF](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20014%20-%20Remove%20IF/readme.md)
+
 # Refactor with AI 🤖
 
 > Suggested Prompt: 1. Identify nullable optional attributes that could be collections 2. Replace single nullable objects with empty collections 3. Remove all null checks related to these optional attributes 4. Update methods to work with collections instead of single objects 5. If you need to keep the old behavior, assert no more than element is added
@@ -233,20 +247,6 @@ You need to ensure all code paths initialize collections consistently to avoid m
 | [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
-
-# Tags 🏷️
-
-- Null
-
-# Level 🔋
-
-[X] Intermediate
-
-# Related Refactorings 🔄
-
-[Refactoring 015 - Remove NULL](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20015%20-%20Remove%20NULL/readme.md)
-
-[Refactoring 014 - Remove IF](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20014%20-%20Remove%20IF/readme.md)
 
 # See also 📚
 

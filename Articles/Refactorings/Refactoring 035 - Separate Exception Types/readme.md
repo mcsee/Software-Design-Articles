@@ -128,6 +128,18 @@ If you misuse them, the benefits are lost. You also need to communicate the cont
 
 You should also create your own integrity tests to enforce these rules.
 
+# Tags 🏷️
+
+- Exceptions
+
+# Level 🔋
+
+[X] Intermediate
+
+# Related Refactorings 🔄
+
+[Refactoring 004 - Remove Unhandled Exceptions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20004%20-%20Remove%20Unhandled%20Exceptions/readme.md)
+
 # Refactor with AI 🤖
 
 > Suggested Prompt: 1. Identify business exceptions 2. Identify technical exceptions 3. Create two separate hierarchies  4. Update code to throw the right one 5. Adjust handlers accordingly 
@@ -144,18 +156,6 @@ You should also create your own integrity tests to enforce these rules.
 | [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
-
-# Tags 🏷️
-
-- Exceptions
-
-# Level 🔋
-
-[X] Intermediate
-
-# Related Refactorings 🔄
-
-[Refactoring 004 - Remove Unhandled Exceptions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20004%20-%20Remove%20Unhandled%20Exceptions/readme.md)
 
 # Credits 🙏
 

@@ -95,7 +95,19 @@ This keeps the mental model aligned with the actual implementation, so both the 
 
 As always, very important design decisions are valid comments.
 
-# Refactor with AI 🤖      
+# Tags 🏷️
+
+- Comments
+
+# Level 🔋
+
+[X] Beginner
+
+# Related Refactorings 🔄
+
+[Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
+
+# Refactor with AI 🤖
 
 > Suggested Prompt: 1. Name the function with the previous comment 2. Remove the Comment
 
@@ -111,18 +123,6 @@ As always, very important design decisions are valid comments.
 | [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
-
-# Tags 🏷️
-
-- Comments
-
-# Level 🔋
-
-[X] Beginner
-
-# Related Refactorings 🔄
-
-[Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
 # See also 📚
 

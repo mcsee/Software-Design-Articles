@@ -92,6 +92,18 @@ If we need to declare an empty exception class as documentation for an API modul
 
 This is a [gold plating](https://en.wikipedia.org/wiki/Gold_plating_(project_management)) and [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) example.
 
+# Tags 🏷️
+
+- Exceptions
+
+# Level 🔋
+
+[X] Beginner
+
+# Related Refactorings 🔄
+
+[Refactoring 021 - Remove Dead Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20021%20-%20Remove%20Dead%20Code/readme.md)
+
 # Refactor with AI 🤖
 
 > Suggested Prompt: 1. Check there are no references to the empty exception class.2. Replace the throw sentence with a generic one.
@@ -108,18 +120,6 @@ This is a [gold plating](https://en.wikipedia.org/wiki/Gold_plating_(project_man
 | [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
-
-# Tags 🏷️
-
-- Exceptions
-
-# Level 🔋
-
-[X] Beginner
-
-# Related Refactorings 🔄
-
-[Refactoring 021 - Remove Dead Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20021%20-%20Remove%20Dead%20Code/readme.md)
 
 # Credits 🙏
 

@@ -144,6 +144,14 @@ Different team members might have strong preferences for specific styles.
 
 Large codebases require significant time investment and coordination to apply uniform styling across all files.
 
+# Tags 🏷️
+
+- Standards
+
+# Related Refactorings 🔄
+
+[Refactoring 005 - Replace Comment with Function Name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
+
 # Refactor with AI 🤖
 
 > Suggested Prompt: 1. Choose a consistent indentation standard 2. Apply uniform brace placement rules throughout files 3. Standardize spacing around operators and keywords 4. Organize methods with public declarations before private ones 5. Configure automated formatting tools to maintain standards 6. Create tests to enforce your rules 
@@ -160,14 +168,6 @@ Large codebases require significant time investment and coordination to apply un
 | [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
-
-# Tags 🏷️
-
-- Standards
-
-# Related Refactorings 🔄
-
-[Refactoring 005 - Replace Comment with Function Name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
 
 # Level 🔋
 

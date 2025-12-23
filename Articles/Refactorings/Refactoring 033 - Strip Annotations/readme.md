@@ -124,6 +124,20 @@ Some annotations *(e.g., @Override, @Transactional)* are critical for functional
 
 You must carefully evaluate each annotation’s role before removal to avoid breaking behavior.
 
+# Tags 🏷️
+
+- Comments
+
+# Level 🔋
+
+[X] Intermediate
+
+# Related Refactorings 🔄
+
+[Refactoring 005 - Replace Comment with Function Name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
+
+[Refactoring 011 - Replace Comments with Tests](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20011%20-%20Replace%20Comments%20with%20Tests/readme.md)
+
 # Refactor with AI 🤖
 
 You can use AI tools like ChatGPT or GitHub Copilot to analyze your codebase. Ask the AI to identify annotations, explain their purpose, and suggest replacements with explicit code. Then, manually review and test the changes to ensure correctness.
@@ -142,20 +156,6 @@ You can use AI tools like ChatGPT or GitHub Copilot to analyze your codebase. As
 | [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
-
-# Tags 🏷️
-
-- Comments
-
-# Level 🔋
-
-[X] Intermediate
-
-# Related Refactorings 🔄
-
-[Refactoring 005 - Replace Comment with Function Name](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20005%20-%20Replace%20Comment%20with%20Function%20Name/readme.md)
-
-[Refactoring 011 - Replace Comments with Tests](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20011%20-%20Replace%20Comments%20with%20Tests/readme.md)
 
 # Credits 🙏
 

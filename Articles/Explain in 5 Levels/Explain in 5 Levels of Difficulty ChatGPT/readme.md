@@ -14,7 +14,7 @@ I've been writing a lot on Artificial Intelligence and also presented some [Code
 
 The day it became available I was so fascinated I kept talking to it and I wrote [an article](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Artificial%20Intelligence/ChatGPT%20is%20Amazing.%20And%20It%20is%20FREE/readme.md) late at night.
 
-My 2023 goal will be to write a [coding assistant](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Artificial%20Intelligence/I%20Want%20to%20Build%20a%20Learning%20Companion%20for%20New%20Developers%20Using%20AI/readme.md) helping to write [amazing software](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md).
+My 2023 goal will be to write a [coding assistant](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Artificial%20Intelligence/I%20Want%20to%20Build%20a%20Learning%20Companion%20for%20New%20Developers%20Using%20AI/readme.md) helping to write [amazing software](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code/readme.md).
 
 ChatGPT is a game changer. 
 It is much better than [GitHub Copilot](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Artificial%20Intelligence/Why%20GitHub%20Copilot%20is%20not%20a%20Threat%20to%20your%20Job/readme.md) and [Alpha Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Artificial%20Intelligence/DeepMind's%20AlphaCode%20Won't%20Steal%20Your%20Job%20Either/readme.md).

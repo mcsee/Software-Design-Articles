@@ -147,6 +147,18 @@ The rewriting requires writing additional delegation methods.
 
 If subclass logic relies too much on the superclass, delegation might increase boilerplate.
 
+# Tags 🏷️
+
+- Hierarchies
+
+# Level 🔋
+
+[X] Intermediate
+
+# Related Refactorings 🔄
+
+[Refactoring 007 - Extract Class](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20007%20-%20Extract%20Class/readme.md)
+
 # Refactor with AI
 
 > Suggested Prompt: 1. Create a temporary field in the subclass for the superclass. 2. Update subclass methods to delegate calls. 3. Add delegation methods for inherited behavior. 4. Remove inheritance and update object creation.
@@ -163,18 +175,6 @@ If subclass logic relies too much on the superclass, delegation might increase b
 | [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
-
-# Tags 🏷️
-
-- Hierarchies
-
-# Level 🔋
-
-[X] Intermediate
-
-# Related Refactorings 🔄
-
-[Refactoring 007 - Extract Class](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20007%20-%20Extract%20Class/readme.md)
 
 # See also 📚
 

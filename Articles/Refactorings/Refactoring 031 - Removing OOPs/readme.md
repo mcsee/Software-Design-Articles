@@ -220,6 +220,18 @@ Some errors may need to remain generic for security reasons (like authentication
 
 Additionally, creating specific error messages requires more development time and thorough testing of error scenarios.
 
+# Tags 🏷️
+
+- Exceptions
+
+# Level 🔋
+
+[X] Intermediate
+
+# Related Refactorings 🔄
+
+[Refactoring 014 - Remove IF](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20014%20-%20Remove%20IF/readme.md)
+
 # Refactor with AI 🤖
 
 > Suggested Prompt: 1. Identify all generic error messages in your codebase that use terms like "Oops", "Something went wrong", or "An error occurred" 2. Replace generic messages with specific descriptions of what happened 3. Add actionable guidance telling users exactly what they can do to resolve the issue 4. Implement proper internal logging to capture technical details for developers 5. Add monitoring alerts to notify the development team when errors occur frequently
@@ -236,18 +248,6 @@ Additionally, creating specific error messages requires more development time an
 | [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
-
-# Tags 🏷️
-
-- Exceptions
-
-# Level 🔋
-
-[X] Intermediate
-
-# Related Refactorings 🔄
-
-[Refactoring 014 - Remove IF](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20014%20-%20Remove%20IF/readme.md)
 
 # See also 📚
 

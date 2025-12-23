@@ -80,23 +80,6 @@ You remove ambiguity, and readers don’t have to reverse-engineer your logic.
 
 That’s how you keep code understandable at a glance.
 
-# Refactor with AI 🤖  
-
-> Suggested Prompt: 1. Move the constant code fragment to a constant declaration 2. Replace the values with a reference to the constant.
-
-| Without Proper Instructions    | With Specific Instructions |
-| -------- | ------- |
-| [ChatGPT](https://chat.openai.com/?q=Correct+and+explain+this+code%3A+%60%60%60java%0D%0Adouble+energy%28double+mass%29+%7B%0D%0A++return+mass+%2A+300.000+%5E+2%3B%0D%0A%7D%0D%0A%60%60%60) | [ChatGPT](https://chat.openai.com/?q=1.+Move+the+constant+code+fragment+to+a+constant+declaration+2.+Replace+the+values+with+a+reference+to+the+constant.%3A+%60%60%60java%0D%0Adouble+energy%28double+mass%29+%7B%0D%0A++return+mass+%2A+300.000+%5E+2%3B%0D%0A%7D%0D%0A%60%60%60) |
-| [Claude](https://claude.ai/new?q=Correct+and+explain+this+code%3A+%60%60%60java%0D%0Adouble+energy%28double+mass%29+%7B%0D%0A++return+mass+%2A+300.000+%5E+2%3B%0D%0A%7D%0D%0A%60%60%60) | [Claude](https://claude.ai/new?q=1.+Move+the+constant+code+fragment+to+a+constant+declaration+2.+Replace+the+values+with+a+reference+to+the+constant.%3A+%60%60%60java%0D%0Adouble+energy%28double+mass%29+%7B%0D%0A++return+mass+%2A+300.000+%5E+2%3B%0D%0A%7D%0D%0A%60%60%60) |
-| [Perplexity](https://www.perplexity.ai/?q=Correct+and+explain+this+code%3A+%60%60%60java%0D%0Adouble+energy%28double+mass%29+%7B%0D%0A++return+mass+%2A+300.000+%5E+2%3B%0D%0A%7D%0D%0A%60%60%60) | [Perplexity](https://www.perplexity.ai/?q=1.+Move+the+constant+code+fragment+to+a+constant+declaration+2.+Replace+the+values+with+a+reference+to+the+constant.%3A+%60%60%60java%0D%0Adouble+energy%28double+mass%29+%7B%0D%0A++return+mass+%2A+300.000+%5E+2%3B%0D%0A%7D%0D%0A%60%60%60) |
-| [Copilot](https://www.bing.com/chat?showconv=1&sendquery=1&q=Correct+and+explain+this+code%3A+%60%60%60java%0D%0Adouble+energy%28double+mass%29+%7B%0D%0A++return+mass+%2A+300.000+%5E+2%3B%0D%0A%7D%0D%0A%60%60%60) | [Copilot](https://www.bing.com/chat?showconv=1&sendquery=1&q=1.+Move+the+constant+code+fragment+to+a+constant+declaration+2.+Replace+the+values+with+a+reference+to+the+constant.%3A+%60%60%60java%0D%0Adouble+energy%28double+mass%29+%7B%0D%0A++return+mass+%2A+300.000+%5E+2%3B%0D%0A%7D%0D%0A%60%60%60) |
-| [You](https://you.com/search?q=Correct+and+explain+this+code%3A+%60%60%60java%0D%0Adouble+energy%28double+mass%29+%7B%0D%0A++return+mass+%2A+300.000+%5E+2%3B%0D%0A%7D%0D%0A%60%60%60) | [You](https://you.com/search?q=1.+Move+the+constant+code+fragment+to+a+constant+declaration+2.+Replace+the+values+with+a+reference+to+the+constant.%3A+%60%60%60java%0D%0Adouble+energy%28double+mass%29+%7B%0D%0A++return+mass+%2A+300.000+%5E+2%3B%0D%0A%7D%0D%0A%60%60%60) |
-| [Gemini](https://gemini.google.com/) | [Gemini](https://gemini.google.com/) | 
-| [DeepSeek](https://chat.deepseek.com/) | [DeepSeek](https://chat.deepseek.com/) | 
-| [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
-| [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
-| [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
-
 # Tags 🏷️
 
 - Readability
@@ -112,6 +95,23 @@ That’s how you keep code understandable at a glance.
 [Refactoring 008 - Convert Variables to Constant](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20008%20-%20Convert%20Variables%20to%20Constant/readme.md)
 
 [Refactoring 013 - Remove Repeated Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20013%20-%20Remove%20Repeated%20Code/readme.md)
+
+# Refactor with AI 🤖
+
+> Suggested Prompt: 1. Move the constant code fragment to a constant declaration 2. Replace the values with a reference to the constant.
+
+| Without Proper Instructions    | With Specific Instructions |
+| -------- | ------- |
+| [ChatGPT](https://chat.openai.com/?q=Correct+and+explain+this+code%3A+%60%60%60java%0D%0Adouble+energy%28double+mass%29+%7B%0D%0A++return+mass+%2A+300.000+%5E+2%3B%0D%0A%7D%0D%0A%60%60%60) | [ChatGPT](https://chat.openai.com/?q=1.+Move+the+constant+code+fragment+to+a+constant+declaration+2.+Replace+the+values+with+a+reference+to+the+constant.%3A+%60%60%60java%0D%0Adouble+energy%28double+mass%29+%7B%0D%0A++return+mass+%2A+300.000+%5E+2%3B%0D%0A%7D%0D%0A%60%60%60) |
+| [Claude](https://claude.ai/new?q=Correct+and+explain+this+code%3A+%60%60%60java%0D%0Adouble+energy%28double+mass%29+%7B%0D%0A++return+mass+%2A+300.000+%5E+2%3B%0D%0A%7D%0D%0A%60%60%60) | [Claude](https://claude.ai/new?q=1.+Move+the+constant+code+fragment+to+a+constant+declaration+2.+Replace+the+values+with+a+reference+to+the+constant.%3A+%60%60%60java%0D%0Adouble+energy%28double+mass%29+%7B%0D%0A++return+mass+%2A+300.000+%5E+2%3B%0D%0A%7D%0D%0A%60%60%60) |
+| [Perplexity](https://www.perplexity.ai/?q=Correct+and+explain+this+code%3A+%60%60%60java%0D%0Adouble+energy%28double+mass%29+%7B%0D%0A++return+mass+%2A+300.000+%5E+2%3B%0D%0A%7D%0D%0A%60%60%60) | [Perplexity](https://www.perplexity.ai/?q=1.+Move+the+constant+code+fragment+to+a+constant+declaration+2.+Replace+the+values+with+a+reference+to+the+constant.%3A+%60%60%60java%0D%0Adouble+energy%28double+mass%29+%7B%0D%0A++return+mass+%2A+300.000+%5E+2%3B%0D%0A%7D%0D%0A%60%60%60) |
+| [Copilot](https://www.bing.com/chat?showconv=1&sendquery=1&q=Correct+and+explain+this+code%3A+%60%60%60java%0D%0Adouble+energy%28double+mass%29+%7B%0D%0A++return+mass+%2A+300.000+%5E+2%3B%0D%0A%7D%0D%0A%60%60%60) | [Copilot](https://www.bing.com/chat?showconv=1&sendquery=1&q=1.+Move+the+constant+code+fragment+to+a+constant+declaration+2.+Replace+the+values+with+a+reference+to+the+constant.%3A+%60%60%60java%0D%0Adouble+energy%28double+mass%29+%7B%0D%0A++return+mass+%2A+300.000+%5E+2%3B%0D%0A%7D%0D%0A%60%60%60) |
+| [You](https://you.com/search?q=Correct+and+explain+this+code%3A+%60%60%60java%0D%0Adouble+energy%28double+mass%29+%7B%0D%0A++return+mass+%2A+300.000+%5E+2%3B%0D%0A%7D%0D%0A%60%60%60) | [You](https://you.com/search?q=1.+Move+the+constant+code+fragment+to+a+constant+declaration+2.+Replace+the+values+with+a+reference+to+the+constant.%3A+%60%60%60java%0D%0Adouble+energy%28double+mass%29+%7B%0D%0A++return+mass+%2A+300.000+%5E+2%3B%0D%0A%7D%0D%0A%60%60%60) |
+| [Gemini](https://gemini.google.com/) | [Gemini](https://gemini.google.com/) | 
+| [DeepSeek](https://chat.deepseek.com/) | [DeepSeek](https://chat.deepseek.com/) | 
+| [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
+| [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
+| [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
 # Credits 🙏
 

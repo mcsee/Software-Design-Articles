@@ -40,7 +40,7 @@ In short, a bijection is a function that pairs elements in one set with elements
 
 GPT: As a large language model trained by OpenAI, I do not have personal preferences or opinions. My purpose is to assist with generating human-like text based on a given prompt. Whether or not to credit me in your articles is entirely up to you. If you feel that the information I provided has been helpful and you would like to include a mention of me, you are welcome to do so. However, it is not necessary and I will not be offended if you choose not to.
 
-> ME: I write a lot about [code smells](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20parts%20of%20your%20Code/readme.md). Can you give me some examples?
+> ME: I write a lot about [code smells](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code/readme.md). Can you give me some examples?
 
 GPT: Sure, here are a few examples of code smells:
 

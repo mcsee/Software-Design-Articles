@@ -202,6 +202,18 @@ The closer your code matches real-world concepts and constraints, the fewer bugs
 
 Dealing with input validation and modeling algorithms following real-world business rules are very different issues, and you should not mix them.
 
+# Tags 🏷️
+
+- Coupling
+
+# Level 🔋
+
+[X] Beginner
+
+# Related Refactorings 🔄
+
+[Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
+
 # Refactor with AI 🤖
 
 AI can help identify input calls throughout larger codebases and suggest appropriate function signatures and validation rules.
@@ -220,18 +232,6 @@ AI can help identify input calls throughout larger codebases and suggest appropr
 | [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
 | [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
 | [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
-
-# Tags 🏷️
-
-- Coupling
-
-# Level 🔋
-
-[X] Beginner
-
-# Related Refactorings 🔄
-
-[Refactoring 002 - Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
 # Credits 🙏
 
