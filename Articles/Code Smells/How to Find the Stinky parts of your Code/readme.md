@@ -646,6 +646,8 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 317 - Email Handling Vulnerabilities](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20317%20-%20Email%20Handling%20Vulnerabilities/readme.md)
 
+[Code Smell 318 - Refactoring Dirty Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20318%20-%20Refactoring%20Dirty%20Code/readme.md)
+
 ... and many more to come.
 
 * * *

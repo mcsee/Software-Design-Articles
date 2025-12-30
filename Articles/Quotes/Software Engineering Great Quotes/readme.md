@@ -44,7 +44,7 @@ Here we go:
 
 ---
 
-> You might not think that programmers are artists, but programming is an extremely creative profession. It's logic-based creativity."
+> You might not think that programmers are artists, but programming is an extremely creative profession. It's logic-based creativity.
 
 *John Romero*
 
@@ -2040,7 +2040,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 ---
 
-> If Mc Donalds were run like a software company, one out of every hundred Big Macs would give you food poisoning — and the response would be, "We’re sorry, here’s a coupon for two more.
+> If Mc Donalds were run like a software company, one out of every hundred Big Macs would give you food poisoning — and the response would be, "We’re sorry, here’s a coupon for two more".
 
 *Mark Minasi*
 
@@ -3008,7 +3008,7 @@ There is only one basic way of dealing with complexity: divide and conquer
 
 ---
 
-> The earlier you catch defects, the cheaper they are to fix."
+> The earlier you catch defects, the cheaper they are to fix.
 
 *David Farley*
 
@@ -3724,6 +3724,14 @@ There is only one basic way of dealing with complexity: divide and conquer
 
 ---
 
+> Never trust input you do not control.
+
+*Bruce Schneier*
+
+[Code Smell 317 - Email Handling Vulnerabilities](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20317%20-%20Email%20Handling%20Vulnerabilities/readme.md)
+
+---
+
 > If it takes more than a sentence to explain what you are doing, it’s almost always a sign that what you are doing is too complicated.
 
 *Sam Altman*
@@ -3936,11 +3944,19 @@ There is only one basic way of dealing with complexity: divide and conquer
 
 ---
 
-Testing leads to failure, and failure leads to understanding.
+> Testing leads to failure, and failure leads to understanding.
 
 *Burt Rutan*
 
 [Code Smell 298 - Microsoft Windows Time Waste](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20298%20-%20Microsoft%20Windows%20Time%20Waste/readme.md)
+
+---
+
+> The first rule of optimization is: Don't do it. The second rule is: Don't do it yet.
+
+*Michael A. Jackson*
+
+[Code Smell 318 - Refactoring Dirty Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20318%20-%20Refactoring%20Dirty%20Code/readme.md)
 
 ---
 
@@ -4992,7 +5008,7 @@ I try to think mostly in terms of preconditions, and checking things in the cons
 
 ---
 
-> With tests, we can change the behavior of our code quickly and verifiably. Without them, we really don’t know if our code is getting better or worse."
+> With tests, we can change the behavior of our code quickly and verifiably. Without them, we really don’t know if our code is getting better or worse.
 
 *Michael Feathers*
 
