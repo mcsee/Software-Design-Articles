@@ -26,7 +26,7 @@
 
 When a ternary condition is used in code that contains multiple functions, it can be challenging to determine which function is being affected by the condition. 
 
-This can make it harder to identify and fix bugs, as well as to understand how the code works in general.
+This can make it harder to identify and fix [defects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quality/Stop%20Calling%20them%20'Bugs'/readme.md), as well as to understand how the code works in general.
 
 # Sample Code 📖
 

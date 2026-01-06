@@ -111,7 +111,7 @@ Your software should reflect the domain with no translators in between.
 
 When you use comments as crutches, you break the one-to-one mapping between the real-world concept and its code representation.
 
-This mismatch creates confusion and bugs.
+This mismatch creates confusion and [defects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quality/Stop%20Calling%20them%20'Bugs'/readme.md).
 
 # AI Generation 🤖
 

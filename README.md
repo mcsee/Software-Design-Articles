@@ -974,3 +974,7 @@ In this repository, you will find many articles related to Software Design
 
 * [89 - Vibe Test Driven Development](/Articles/unsorted/89%20-%20Vibe%20Test%20Driven%20Development/readme.md)
 
+### AI Coding Tips
+
+* [AI Coding Tip 001 - Commit Before Prompt](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20001%20-%20Commit%20Before%20Prompt/readme.md)
+

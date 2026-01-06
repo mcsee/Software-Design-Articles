@@ -109,7 +109,7 @@ In these coupled with accidental complexity languages, Booleans are a common err
 
 # Level 🔋
   
-[x ] Intermediate  
+[x] Intermediate  
 
 # Why the Bijection Is Important 🗺️
 

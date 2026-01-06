@@ -87,7 +87,7 @@ Since there are [valid cases](https://github.com/mcsee/Software-Design-Articles/
 
 # Level 🔋
 
-- Begginner
+[X] Begginner
 
 # Conclusion 🏁
 

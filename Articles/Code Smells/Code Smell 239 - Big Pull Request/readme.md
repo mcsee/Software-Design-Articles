@@ -93,7 +93,7 @@ You can put a threshold and a warning on big merge requests.
 
 # Level 🔋
 
-[ X] Beginner
+[X] Beginner
 
 # AI Assistants
 
