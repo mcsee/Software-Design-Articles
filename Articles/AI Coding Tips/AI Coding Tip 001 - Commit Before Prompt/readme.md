@@ -8,9 +8,9 @@
 
 # Common Mistake ❌
 
-Developers ask AI assistant to "refactor this function" or "add error handling" while they have uncommitted changes from their previous work session. 
+Developers ask AI assistants to "refactor this function" or "add error handling" while they have uncommitted changes from their previous work session. 
 
-When the AI makes its changes, the git diff shows everything mixed together—their manual edits plus the AI's modifications. 
+When the AI makes its changes, the git diff shows everything mixed together, their manual edits plus the AI's modifications. 
 
 If something breaks, they can't easily separate what they did from what the AI did and make a safe revert.
 
@@ -28,7 +28,7 @@ If something breaks, they can't easily separate what they did from what the AI d
 
 2. Run your tests to ensure everything passes.
 
-3. Commit your work with a clear message like "feat: manual implementation of X".
+3. Commit your work with a clear message like *feat: manual implementation of X*.
 
 4. You don't need to push your changes. 
 
@@ -118,7 +118,7 @@ If your code is not under a source control system, you need to make this manuall
 
 - Break Large Refactorings into smaller prompts
 
-- Use [Git Bisect](https://learning.oreilly.com/library/view/clean-code-cookbook/9781098144715/ch08.htm) for AI Changes: Using `git bisect` to identify which AI-assisted commit introduced a defect
+- Use [Git Bisect](https://learning.oreilly.com/library/view/clean-code-cookbook/9781098144715/ch08.html) for AI Changes: Using `git bisect` to identify which AI-assisted commit introduced a defect
 
 - Reverting Hallucinations
 
@@ -140,10 +140,22 @@ Commit early, commit often, and don't let AI touch uncommitted code.
 
 [Kent Beck on TCR](https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864)
 
+# Also Known As 🎭
+
+- Commit Before Prompt
+
 # Tools 🧰
 
 [GIT](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Explain%20in%205%20Levels/Explain%20in%205%20Levels%20of%20Difficulty%20GIT/readme.md) is an industry standard, but you can apply this technique to any other version control software.
 
+# Disclaimer 📢
+
+The views expressed here are my own. 
+
+I welcome constructive criticism and dialogue. 
+
+These insights are shaped by 30 years in the software industry, 25 years of teaching, and authoring over 500 articles and a book.
+
 * * *
 
-This article is part of the *AI Coding Tip* Series.
+This article is part of the *AI Coding Tip* series.

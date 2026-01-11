@@ -978,3 +978,5 @@ In this repository, you will find many articles related to Software Design
 
 * [AI Coding Tip 001 - Commit Before Prompt](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20001%20-%20Commit%20Before%20Prompt/readme.md)
 
+* [AI Coding Tip 002 - Prompt in English](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20002%20-%20Prompt%20in%20English/readme.md)
+

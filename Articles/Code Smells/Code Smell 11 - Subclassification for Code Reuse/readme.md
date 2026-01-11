@@ -151,7 +151,7 @@ public final class Box {
 
 The [bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) between real-world concepts and code should model behavioral relationships, not implementation convenience.
 
-In the real world, When you inherit from concrete classes for code reuse, you break this mapping and create false hierarchies.
+When you inherit from concrete classes for code reuse, you break this mapping and create false hierarchies.
 
 This damages your model's integrity and makes the code harder to understand and maintain.
 
