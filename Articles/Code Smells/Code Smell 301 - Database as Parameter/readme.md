@@ -117,7 +117,7 @@ Static analysis tools can flag methods that receive database connections as para
 
 # Exceptions 🛑
 
-- Low level database access does not cross domain when they pass the database as argument
+- Low level database access doesn't cross domains when they pass the database as argument
 
 # Tags 🏷️
 

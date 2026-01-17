@@ -631,7 +631,7 @@ We are not catching invalid English 5-letter words.
 
 Let's create the game.
 
-We start talking about a game that does not exist.
+We start talking about a game that doesn't exist.
 
 <!-- [Gist Url](https://gist.github.com/mcsee/f4ab6a5f8ea7dd48e0b496867229ae34) -->
 

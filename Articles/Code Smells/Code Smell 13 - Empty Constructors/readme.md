@@ -22,7 +22,7 @@
 
 2. Create objects with their [immutable](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md]) essence.
 
-Refactorings ⚙️
+# Refactorings ⚙️
 
 [Refactoring 001 - Remove Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
 
@@ -78,7 +78,7 @@ Any linter can warn this (possible) situation.
 
 [X] Beginner
 
-# Why the Bijection Is Important 
+# Why the Bijection Is Important 🗺️
 
 In the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md), objects correspond to real-world entities. 
 
@@ -88,7 +88,7 @@ You don't meet someone who *temporarily* has no age or email address.
 
 When you [model](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) a person, you should capture their essential attributes at birth, just like reality. 
 
-Breaking this bijection by creating hollow objects forces you to represent impossible states. 
+Breaking this [bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) by creating hollow objects forces you to represent impossible states. 
 
 Empty constructors create phantom and invalid objects that don't exist in your domain model, violating the mapping between your code and reality.
 
@@ -154,8 +154,6 @@ These immutable objects favor bijection and survive the passing of time.
 [Code Exposed](https://codexposed.hashnode.dev/constructors-demystified)
 
 [The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
-
-[Code Smell 10 - Too Many Arguments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2010%20-%20Too%20Many%20Arguments/readme.md)
 
 # Credits 🙏
 

@@ -13,7 +13,7 @@ switch (value) {
     doSomethingSpecial();
     break;
   default:
-    // if value does not match the above values you need a decision
+    // if value doesn't match the above values you need a decision
     throw new Exception(
       'Unexpected ' + value + ' need to consider it');
     break;

@@ -163,7 +163,7 @@ When you use *None*, you break the [MAPPER](https://github.com/mcsee/Software-De
 
 None **is not** a number.
 
-It does not behave as a number; it is not polymorphic with numbers.
+It doesn't behave as a number; it is not polymorphic with numbers.
 
 It is evil *Null* disguised as *None*.
 

@@ -71,19 +71,19 @@ object Ingenuity {
 
 ```kotlin
 object Ingenuity {   
-    //1. Move the code fragment to a separate new method 
+    // 1. Move the code fragment to a separate new method 
     private fun takeOff() {
         raiseTo(10 feet)
     }
     
-    //1. Move the code fragment to a separate new method 
+    // 1. Move the code fragment to a separate new method 
     private fun moveForwardToPerseverance() {
        while (distanceToPerseverance() < 5 feet) {
              moveForward()             
          }
     }
     
-    //1. Move the code fragment to a separate new method 
+    // 1. Move the code fragment to a separate new method 
     private fun land() {
         raiseTo(0 feet)
     }
@@ -122,7 +122,7 @@ Algorithms and functions are more declarative hiding implementative details on e
 
 # Limitations ⚠️
 
-Does not work well if you use [meta-programming anti-pattern](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md).
+Doesn't work well if you use [meta-programming anti-pattern](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md).
 
 # Tags 🏷️
  

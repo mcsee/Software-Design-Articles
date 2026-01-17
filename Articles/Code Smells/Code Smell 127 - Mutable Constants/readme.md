@@ -26,7 +26,7 @@ We learned to declare constants in our first course on computer programming.
 
 As always, it is not important if something is constant. 
 
-It is important if it does not mutate.
+It is important if it doesn't mutate.
 
 # Sample Code 📖
 

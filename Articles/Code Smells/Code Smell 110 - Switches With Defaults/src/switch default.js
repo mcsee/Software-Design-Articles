@@ -8,7 +8,7 @@ switch (value) {
     doSomethingElse();
     break;
   default:
-    // if the value does not presently match the above values
+    // if the value doesn't presently match the above values
     // or future values
     // the following will be executed
     doSomethingSpecial();

@@ -42,7 +42,7 @@ It is an amazing learning journey.
 
 # The Future
 
-As a word of caution. Science is based on evidence, citations, and quotes. You cannot make a thesis or explanation without citing your sources. And ChatGPT does not.
+As a word of caution. Science is based on evidence, citations, and quotes. You cannot make a thesis or explanation without citing your sources. And ChatGPT doesn't.
 
 My technological centaur approach is to use ChatGPT for research and then manually check if it is right.
 

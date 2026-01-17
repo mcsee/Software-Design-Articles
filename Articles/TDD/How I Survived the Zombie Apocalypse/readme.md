@@ -185,7 +185,7 @@ test02OneRecipient
 	  isValid.
 ``` 
 
-Test does not work since we hardcoded it to *false* in previous step.
+Test doesn't work since we hardcoded it to *false* in previous step.
 
 We change *isValid* implementation.
 
@@ -434,7 +434,7 @@ With this tips we can do very basic test writing.
 
 That will be enough for TDD. 
 
-TDD does not replace Quality Assurance process and QA Engineers would work together with developers to learn from each other. 
+TDD doesn't replace Quality Assurance process and QA Engineers would work together with developers to learn from each other. 
 
 Developing software is a human and collaborative activity.
 

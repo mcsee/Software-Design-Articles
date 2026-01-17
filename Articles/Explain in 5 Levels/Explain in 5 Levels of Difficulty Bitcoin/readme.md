@@ -32,7 +32,7 @@ It runs on a chain of blocks (the blockchain).
 
 The blockchain acts as a public ledger that keeps track of every transaction and is incredibly transparent.
 
-Bitcoin does not require a central authority, unlike real money issued by a bank or government.
+Bitcoin doesn't require a central authority, unlike real money issued by a bank or government.
 
 You can buy, sell, and trade Bitcoin on several platforms online and spend it on actual physical shops or online, like a credit card.
 

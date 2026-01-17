@@ -22,7 +22,7 @@ This is a big question that scientists have been trying to figure out for a long
 
 A paradox is a problem that seems to have a solution, but when you try to solve it, you realize that it doesn't make sense. 
 
-It's like a very hard puzzle because the missing piece does not match.
+It's like a very hard puzzle because the missing piece doesn't match.
 
 # Teen
 

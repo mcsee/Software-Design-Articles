@@ -110,7 +110,7 @@ Static analysis tools can help by flagging potentially incomplete error handling
 
 [X] Intermediate 
 
-# Why the Bijection Is Important
+# Why the Bijection Is Important 🗺️
 
 It's critical to maintain a one-to-one correspondence between your application's internal representation of payment processor responses and the actual codes returned by the processor. 
 

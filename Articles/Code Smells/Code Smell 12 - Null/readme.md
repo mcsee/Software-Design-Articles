@@ -4,7 +4,7 @@
 
 *Programmers use Null as different flags. It can hint at an absence, an undefined value, en error etc. Multiple semantics lead to coupling and defects.*
 
-> TL;DR: Null is schizophrenic and does not exist in real-world. Its creator regretted and programmers around the world suffer from it. Don't be a part of it.
+> TL;DR: Null is schizophrenic and doesn't exist in real-world. Its creator regretted and programmers around the world suffer from it. Don't be a part of it.
 
 # Problems 😔 
 
@@ -14,7 +14,7 @@
 
 - Null is not polymorphic with real objects. Hence, *Null Pointer Exception*
 
-- Null does not exist on real-world. Thus, it violates [Bijection Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
+- Null doesn't exist on real-world. Thus, it violates [Bijection Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
 # Solutions 😃
 

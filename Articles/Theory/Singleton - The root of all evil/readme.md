@@ -70,7 +70,7 @@ class God {
 
 The aforementioned coupling has as a corollary; the impossibility of having full control over the side effects of a test to guarantee its determinism. We must depend on the global state referenced by the Singleton.
 
-### 5. Does not save up memory space
+### 5. Doesn't save up memory space
 
 The argument used to propose its use is to avoid the construction of multiple volatile objects. This supposed advantage is not real in virtual machines with efficient garbage collection mechanisms.
 In such virtual machines, used by most modern languages, keeping objects in a memory area whose Garbage Collector algorithm is a double pass (mark & sweep) is much more expensive than creating volatile objects and quickly removing them.
@@ -143,7 +143,7 @@ When the pattern is stated it is usually accompanied by some idea that in the re
 *The class (and all the metamodel) is not present in the bijection. Any relationship linked to the class will be invalid*
 
 ### 11. It is difficult to keep up in multi-threaded environments
-Pattern implementation can be tricky in programs with multiple threads. If two  [execution threads](https://en.wikipedia.org/wiki/Thread_(computing)) try to create the instance at the same time and it does not exist yet, only one of them should succeed in creating the object. The classic solution to this problem is to use [mutual exclusion](https://en.wikipedia.org/wiki/Mutual_exclusion)  in the class creation method that implements the pattern, to make sure it is reentrant.
+Pattern implementation can be tricky in programs with multiple threads. If two  [execution threads](https://en.wikipedia.org/wiki/Thread_(computing)) try to create the instance at the same time and it doesn't exist yet, only one of them should succeed in creating the object. The classic solution to this problem is to use [mutual exclusion](https://en.wikipedia.org/wiki/Mutual_exclusion)  in the class creation method that implements the pattern, to make sure it is reentrant.
 
 ### 12. Accumulates garbage that takes up memory space
 Singletons are references attached to classes, just as classes are global references these are not reached by the garbage collector. In case the Singleton is a complex object, this entire object, in addition to the transitive closure of all its references, will stay in memory throughout the execution.
@@ -176,7 +176,7 @@ There are many examples where a Singleton is used as a quick-reach reference con
 
 As if it was not enough to be the root of all evil he is also the easy friend of the party. In large projects, it just accumulates garbage to get out of trouble.
 
-Since it does not have a corresponding entity on the bijection, adding responsibilities that do not correspond to it, is like adding one more stain to the tiger. Apparently without doing damage but generating ripple effect when wishing to do a healthy decoupling.
+Since it doesn't have a corresponding entity on the bijection, adding responsibilities that do not correspond to it, is like adding one more stain to the tiger. Apparently without doing damage but generating ripple effect when wishing to do a healthy decoupling.
 
 ![images_RIiBoPtpMiRsMKX3dnzl5gb1Urj1-s21q3umz[1].jpeg](https://cdn.hashnode.com/res/hashnode/image/upload/v1598399872287/1vrhfU5gZ.jpeg)
 
@@ -224,7 +224,7 @@ final class MonotheisticReligion implements Religion {
 
 // According to Christianity and some other religions,
 // there’s only one God.
-// This does not hold for other religions.
+// This doesn't not hold for other religions.
 
 $christianGod = new God();
 $christianReligion = new MonotheisticReligion($christianGod);

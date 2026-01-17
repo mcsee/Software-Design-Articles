@@ -2,7 +2,7 @@
 
 ![Null: The Billion Dollar Mistake](Null%20The%20Billion%20Dollar%20Mistake.png)
 
-*He is not your friend. It does not simplify life or make you more efficient. Just more lazy. It is time to stop using null*
+*He is not your friend. It doesn't simplify life or make you more efficient. Just more lazy. It is time to stop using null*
 
 > TL;DR: The simple mistake that is causing a lot of problems.
 

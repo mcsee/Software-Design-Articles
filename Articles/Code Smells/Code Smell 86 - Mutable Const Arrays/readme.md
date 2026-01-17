@@ -81,7 +81,7 @@ Photo by [Zorik D](https://unsplash.com/@justzorik) on [Unsplash](https://unspla
 
 * * *
 
-> Correctness is clearly the prime quality. If a system does not do what it is supposed to do, then everything else about it matters little.
+> Correctness is clearly the prime quality. If a system doesn't do what it is supposed to do, then everything else about it matters little.
 
 _Bertrand Meyer_
  

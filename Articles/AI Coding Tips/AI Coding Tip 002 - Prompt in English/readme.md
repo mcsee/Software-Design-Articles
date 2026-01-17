@@ -105,6 +105,7 @@ You can ask your model to warn you if you use a different language, but this is 
 You can use other languages for explanations.  
 
 You should prefer [English for code generation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20128%20-%20Non%20English%20Coding/readme.md).  
+
 You must review the model reasoning anyway.
 
 This tip applies to Large Language Models like GPT-4, Claude, or Gemini. 
@@ -159,9 +160,13 @@ Language-Aligned Prompting
 
 The views expressed here are my own.
 
+I am a human who writes as best as possible for other humans. 
+
+I use AI proofreading tools to improve some texts.
+
 I welcome constructive criticism and dialogue.
 
-These insights are shaped by 30 years in the software industry, 25 years of teaching, and authoring over 500 articles and a book.
+I shape these insights through 30 years in the software industry, 25 years of teaching, and writing over 500 articles and a book.
 
 * * *
 

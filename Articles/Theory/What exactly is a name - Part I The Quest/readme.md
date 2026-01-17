@@ -108,7 +108,7 @@ These invisible decisions violate the principle of substitution and prevent poly
 
 [Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
-The fact that they are all human beings does not mean that there must be a variable _$human_ referencing us.
+The fact that they are all human beings doesn't mean that there must be a variable _$human_ referencing us.
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d2d0a96e0a76678186c5c7885c6ea930) -->
 
@@ -157,7 +157,7 @@ Many of the current problems of software development are linked to ingrained hab
 
 Nowadays, some developers name variables to save space as if they were still in the 1960s. 
 
-The place allocated by a variable name does not influence the efficiency of the system in any way today.
+The place allocated by a variable name doesn't influence the efficiency of the system in any way today.
 
 ![Algorithm](Algorithm.png)
 

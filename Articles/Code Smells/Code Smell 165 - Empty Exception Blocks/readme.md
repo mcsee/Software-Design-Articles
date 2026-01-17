@@ -98,7 +98,7 @@ Thank you @[Jan Giacomelli](@jangia)
 
 * * *
 
-> Optimization hinders evolution. Everything should be built top-down, except the first time. Simplicity does not precede complexity, but follows it.
+> Optimization hinders evolution. Everything should be built top-down, except the first time. Simplicity doesn't precede complexity, but follows it.
 
 _Alan Perlis_
  

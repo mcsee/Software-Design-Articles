@@ -4,4 +4,4 @@ public Person(String name, int age) {
  }
 
 // You 'pass' the essence to the object 
-// So it does not mutate
+// So it doesn't mutate

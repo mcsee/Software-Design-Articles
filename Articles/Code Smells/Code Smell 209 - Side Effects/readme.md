@@ -18,7 +18,7 @@
 
 # Context 💬
 
-Referential transparency always produces the same output for a given input and does not have any side effects, such as modifying global variables or performing I/O operations. 
+Referential transparency always produces the same output for a given input and doesn't have any side effects, such as modifying global variables or performing I/O operations. 
 
 A function or expression is referentially transparent if it can be replaced with its evaluated result without changing the behavior of the program. 
 

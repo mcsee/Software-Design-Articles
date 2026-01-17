@@ -48,7 +48,7 @@
 
 # Context 💬
 
-You write comments when you feel your code does not speak by itself. 
+You write comments when you feel your code doesn't speak by itself. 
 
 Most of the time, you add noise instead of clarity.  
 

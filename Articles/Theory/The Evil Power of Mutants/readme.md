@@ -195,7 +195,7 @@ $halvingTransaction = new
 
 We model reality's entities such as a day of a month, a calendar year, and a date, forgetting about arbitrary implementations with integers because bijection and declarativity are more important than performance and laziness.
 
-Let us dwell for a minute on the mutability of a date. One hopes that a given date will never mutate because it does not do so in the real-world. No non-computer person would ever think of changing a date.
+Let us dwell for a minute on the mutability of a date. One hopes that a given date will never mutate because it doesn't do so in the real-world. No non-computer person would ever think of changing a date.
 
 Let us analyze using the reduction to the absurd method. 
 

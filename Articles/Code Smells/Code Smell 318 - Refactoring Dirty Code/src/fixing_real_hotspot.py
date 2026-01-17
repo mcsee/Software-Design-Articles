@@ -3,7 +3,7 @@
 # grep -E '\.py$' | sort | uniq -c | sort -rn
 
 # Results show PaymentProcessor changed 47 times this month
-# And it does not have good enough coverage
+# And it doesn't have good enough coverage
 # LegacyAuthenticator: 0 changes in 3 years
 
 # Focus on the actual hotspot:

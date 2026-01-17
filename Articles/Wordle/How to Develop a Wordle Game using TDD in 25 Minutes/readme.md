@@ -554,7 +554,7 @@ So we fake it.
 
 ```php
 <?php
-public function test03DictionaryDoesNotIncludeWord() {
+public function test03DictionaryDoesntIncludeWord() {
   $words = [new Word('happy')];
   $dictionary = new Dictionary($words);
   $this->assertFalse(

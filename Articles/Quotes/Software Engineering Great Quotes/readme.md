@@ -144,7 +144,7 @@ Joshua Bloch
 
 ---
 
-> The essence of XML is this: the problem it solves is not hard, and it does not solve the problem well.
+> The essence of XML is this: the problem it solves is not hard, and it doesn't solve the problem well.
 
 *Phil Wadler*
 
@@ -1208,7 +1208,7 @@ It should be noted that no ethically-trained software engineer would ever consen
 
 ---
 
-> Optimization hinders evolution. Everything should be built top-down, except the first time. Simplicity does not precede complexity, but follows it.
+> Optimization hinders evolution. Everything should be built top-down, except the first time. Simplicity doesn't precede complexity, but follows it.
 
 *Alan Perlis*
 
@@ -1372,7 +1372,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 ---
 
-> Defect-free software does not exist.
+> Defect-free software doesn't exist.
 
 *Wietse Venema*
 
@@ -2808,7 +2808,7 @@ There is only one basic way of dealing with complexity: divide and conquer
 
 ---
 
-> If you think you are worth what you know, you are very wrong. Your knowledge today does not have much value beyond a couple of years. Your value is what you can learn and how easily you can adapt to the changes this profession brings so often.
+> If you think you are worth what you know, you are very wrong. Your knowledge today doesn't have much value beyond a couple of years. Your value is what you can learn and how easily you can adapt to the changes this profession brings so often.
 
 *Jose M. Aguilar*
 
@@ -2932,13 +2932,13 @@ There is only one basic way of dealing with complexity: divide and conquer
 
 ---
 
-> Simplicity does not precede complexity, but follows it
+> Simplicity doesn't precede complexity, but follows it
 
 *Alan Perlis*
 
 ---
 
-> Brilliance in a scientist does not consist in being right more often but in being wrong about more interesting topics.
+> Brilliance in a scientist doesn't consist in being right more often but in being wrong about more interesting topics.
 
 *Kent Beck*
 
@@ -5022,7 +5022,7 @@ I try to think mostly in terms of preconditions, and checking things in the cons
 
 ---
 
-> Correctness is clearly the prime quality. If a system does not do what it is supposed to do, then everything else about it matters little.
+> Correctness is clearly the prime quality. If a system doesn't do what it is supposed to do, then everything else about it matters little.
 
 *Bertrand Meyer*
 
@@ -5186,7 +5186,7 @@ I try to think mostly in terms of preconditions, and checking things in the cons
 
 ---
 
-> A true professional does not waste the time and money of other people by handing over software that is not reasonably free of obvious bugs; that has not undergone minimal unit testing; that does not meet the specifications and requirements; that is gold-plated with unnecessary features; or that looks like junk.
+> A true professional doesn't waste the time and money of other people by handing over software that is not reasonably free of obvious bugs; that has not undergone minimal unit testing; that doesn't meet the specifications and requirements; that is gold-plated with unnecessary features; or that looks like junk.
 
 *Daniel Read*
 

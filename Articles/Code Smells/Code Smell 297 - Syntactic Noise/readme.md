@@ -64,7 +64,7 @@ Performs no actions.
 It specifies which variables from the surrounding scope
 are accessible inside the lambda function. 
 An empty capture clause [] means the lambda
-*does not capture* any variables from the surrounding scope.
+*doesn't capture* any variables from the surrounding scope.
 
 (): This is the parameter list. 
 It defines the arguments the lambda function accepts. 

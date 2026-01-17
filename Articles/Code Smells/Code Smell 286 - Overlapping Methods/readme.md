@@ -158,7 +158,7 @@ You must also test parent methods calling private methods.
 
 [X] Intermediate
 
-# Why the Bijection Is Important 
+# Why the Bijection Is Important 🗺️
 
 Clear and predictable code should reflect the [real-world](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) hierarchy it models.
 

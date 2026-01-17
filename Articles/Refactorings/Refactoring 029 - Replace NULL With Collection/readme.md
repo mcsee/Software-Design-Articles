@@ -205,7 +205,7 @@ In the real world, containers exist even when empty.
 
 By representing optional collections as empty collections rather than null, you create a more accurate model of reality.
 
-Null does not exist in real world and it always breaks the  [bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
+Null doesn't exist in real world and it always breaks the  [bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
 
 This maintains the one-to-one correspondence between real-world concepts and your computational model, creating a good [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md).
 

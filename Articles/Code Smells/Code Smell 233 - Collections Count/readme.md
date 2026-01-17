@@ -79,7 +79,7 @@ const standardModelParticles = {
 };
  
 const quarks = standardModelParticles.quarks.length; 
-// Bad name. It does not represent a count
+// Bad name. It doesn't represent a count
 // But a Collection of things
 ```
 

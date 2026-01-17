@@ -9,6 +9,6 @@ fn perform_signal_processing_and_analysis(extraterrestrial_signal: &Extraterrest
     {
         println!("Potential Extraterrestrial Signal of interest!");
     } else {
-        println!("Signal does not meet criteria for further investigation.");
+        println!("Signal doesn't meet the criteria for further investigation.");
     }
 }

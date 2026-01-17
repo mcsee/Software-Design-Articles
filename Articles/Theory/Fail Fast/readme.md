@@ -211,7 +211,9 @@ To solve this problem, we have several options:
 
 When in doubt about our design decisions, we can always go back to our bijection and ask our business expert whose responsibility this is.
 
-By taking the third option, we could potentially create movements with invalid dates. But the validity (or not) of the date is not a movement's responsibility and does not belong to its representation invariants.
+By taking the third option, we could potentially create movements with invalid dates. 
+
+But the validity (or not) of the date is not a movement's responsibility and doesn't belong to its representation invariants.
 
 The case would be different if a movement had an agreement date, a creation date, and a settlement date with clear business constraints among them. But then we would be facing a very low cohesive object.
 

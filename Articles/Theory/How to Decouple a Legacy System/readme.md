@@ -94,7 +94,7 @@ Tests can be written with a tool from the [xUnit](https://en.wikipedia.org/wiki/
 
 After having covered (for now manually) the necessary cases we can start with the refactor.
 
-## 3 — The class name does not represent a real name in the bijection.
+## 3 — The class name doesn't represent a real name in the bijection.
 
 Helpers do not exist in the real-world, nor should they exist in any computable model.
 
@@ -247,7 +247,7 @@ final class SupervisedLearningStrategy {
 
 ## 8 — We eliminate nulls.
 
-There is never a valid reason to use **null**. **Null** does not exist in real life.
+There is never a valid reason to use **null**. **Null** doesn't exist in real life.
 
 It violates the principle of **bijection** and generates coupling between the function caller and the argument. Also, it generates unnecessary **ifs** as **null** is not polymorphic with any other object.
 

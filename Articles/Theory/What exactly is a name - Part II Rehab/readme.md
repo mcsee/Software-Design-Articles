@@ -22,7 +22,7 @@ All objects help, There are no "non-supportive" objects.
 
 > In the real-world there are no helpers.
 
-We have a single design rule. If a concept does not exist in the real-world and we cannot explain it to a domain expert, that object must not exist.
+We have a single design rule. If a concept doesn't exist in the real-world and we cannot explain it to a domain expert, that object must not exist.
 
 ![Lifeguard](https://cdn.hashnode.com/res/hashnode/image/upload/v1599773186331/h7PjoVYs2.jpeg)
 

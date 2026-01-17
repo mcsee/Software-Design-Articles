@@ -196,7 +196,7 @@ Notice:
 ```php
 <?
 
-function test02SinglePatternDoesNotSimplify() {
+function test02SinglePatternDoesntSimplify() {
     $this->assertEquals(
         ['Arcade Fire'],
         (new LikePatternSimplifier())->simplify(['Arcade Fire']));
@@ -745,7 +745,7 @@ We have all the new code covered. (17 unit tests and 3 SQL Generation tests).
 
 - It’s __very possible__ to make TDD on existing projects with lots of code.
 
-- TDD does not replace or overlap QA Process and tasks. 
+- TDD doesn't replace or overlap QA Process and tasks. 
 
 - Multiple roles were involved and added value: Developers, QA engineers, Customers and Code Reviewers.
 

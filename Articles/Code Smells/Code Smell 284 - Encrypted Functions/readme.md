@@ -90,7 +90,7 @@ Manual code reviews can also help identify suspicious patterns.
 
 [X] Intermediate
 
-# Why the Bijection Is Important 
+# Why the Bijection Is Important 🗺️
 
 Readable and meaningful names create a [one-to-one](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) correspondence between the real-world concept and your code. 
 

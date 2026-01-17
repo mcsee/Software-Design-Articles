@@ -93,7 +93,7 @@ class House {
 }
 
 class Motorhome {
-  // does not inherit from House
+  // doesn't inherit from House
   constructor(gps) {
     this.gps = gps;
   }

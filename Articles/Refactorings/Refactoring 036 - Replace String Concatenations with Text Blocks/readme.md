@@ -150,7 +150,7 @@ public class QueryBuilder {
 
 This refactoring is safe.
 
-It does not change the runtime behavior of strings; it only cleans up syntax and formatting.
+It doesn't change the runtime behavior of strings; it only cleans up syntax and formatting.
 
 You follow compilation rules carefully to avoid errors.
 

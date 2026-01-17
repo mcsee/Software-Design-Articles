@@ -4,7 +4,7 @@ abstract public class Vehicle
   // Therefore it must be abstract  
  
   // an abstract method that only declares, 
-  // but does not define the start 
+  // but doesn't define the start 
   // functionality because each vehicle uses a
   // different starting mechanism
   abstract void start();

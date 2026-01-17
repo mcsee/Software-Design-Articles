@@ -18,7 +18,7 @@ In this second part, we will show the drawbacks of using _getters_.
 
 Photo by [Dominik Vanyi](https://unsplash.com/@dominik_photography) on [Unsplash](https://unsplash.com/s/photos/mining)
 
-# The name that does not exist in real-world (Reprise)
+# The name that doesn't exist in real-world (Reprise)
 
 Programmers conventionally use the names of the form **_getAttribute…()_** to expose (and lose control of) a previously private attribute. Due to the same arguments stated on setter’s [article](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20I Setters/readme.md), this name cannot be [**mapped**](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) to a real-world equivalent through [**bijection**](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
 
@@ -162,7 +162,7 @@ Therefore, a better solution would be:
 
 In the 90s there was a tendency to create a **double encapsulation** of attributes as an extreme approach on privacy. This means that, even from the private methods of an object, direct access to variables would be avoided.
 
-This practice does not generate any benefits. Adds unnecessary indirection, and expose setters and getters in languages ​​that have no distinction between **public** and **private** methods.
+This practice doesn't generate any benefits. Adds unnecessary indirection, and expose setters and getters in languages ​​that have no distinction between **public** and **private** methods.
 
 In addition, it hides the **coupling** between an attribute and the direct methods that reference it, avoiding possible refactorings.
 

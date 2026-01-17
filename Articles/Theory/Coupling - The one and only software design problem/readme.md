@@ -100,7 +100,9 @@ Some months later we read the code and the documentation and need a lot of time 
 
 # Ripple effect
 
-If we are faithful to our unique design rule and have a declarative model, we will expect, consequently, that a small change in the requirements will generate a small change in the model and so on. When this does not occur, the dreaded [ripple effect ](https://asu.pure.elsevier.com/en/publications/ripple-effect-analysis-of-software-maintenance)is produced, turning the software unpredictable and full of potential errors that hinder its maintenance.
+If we are faithful to our unique design rule and have a declarative model, we will expect, consequently, that a small change in the requirements will generate a small change in the model and so on. 
+
+When this doesn't occur, the dreaded [ripple effect ](https://asu.pure.elsevier.com/en/publications/ripple-effect-analysis-of-software-maintenance)is produced, turning the software unpredictable and full of potential errors that hinder its maintenance.
 
 ![Waves](https://cdn.hashnode.com/res/hashnode/image/upload/v1598928375785/nSh7Bd17y.jpeg)
 

@@ -47,7 +47,7 @@ d) The interpreter uses meta-programming to resolve these hints, although this i
 
 [Laziness I - Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md)
 
-e) The code generated with Wizards or with meta-programming is much darker, much more difficult to follow and violates the principle of failing fast because it does not usually know how to defend itself against possible invalid constructions.
+e) The code generated with Wizards or with meta-programming is much darker, much more difficult to follow and violates the principle of failing fast because it doesn't usually know how to defend itself against possible invalid constructions.
 
 We have the choice not to use it if we want to build good software models.
 

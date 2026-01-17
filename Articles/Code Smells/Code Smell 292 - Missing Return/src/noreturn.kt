@@ -7,6 +7,6 @@ fun totalDistance(activity: Activity): Double {
     }
     // Other options are omitted for simplicity
     // Some languages raise a runtime error 
-    // If the function does not return a value
+    // If the function doesn't return a value
     // of the correct type (in this case a Double)
 }

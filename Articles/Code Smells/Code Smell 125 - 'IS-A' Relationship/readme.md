@@ -105,7 +105,7 @@ This is a semantic smell.
 
 *Integer* IS-A *Real* number (according to math).
 
-*Real* Number does not Behave-Like-A *Complex* number.
+*Real* Number doesn't Behave-Like-A *Complex* number.
 
 We cannot do real.setImaginaryPart() so it is not a Complex according to our [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 

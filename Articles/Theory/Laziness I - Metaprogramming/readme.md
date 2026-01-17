@@ -161,7 +161,7 @@ In this situation there are two possibilities:
 
 2 Use meta-programming to ‘invoke’ a private method with some reflection mechanism that avoids controls.
 
-But to perform 1) we should start to expose accidental behavior that does not belong to the real entity violating the rule of bijection and regarding 2) many languages do not allow it, and it is also a bad design practice.
+But to perform 1) we should start to expose accidental behavior that doesn't belong to the real entity violating the rule of bijection and regarding 2) many languages do not allow it, and it is also a bad design practice.
 
 To solve the dilemma we can check the site [shoulditestprivatemethods.com](http://shoulditestprivatemethods.com) created by the great [Kent Beck](https://twitter.com/KentBeck/status/1258954349314625538).
 

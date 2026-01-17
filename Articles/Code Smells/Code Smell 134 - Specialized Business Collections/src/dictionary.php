@@ -32,7 +32,7 @@ final class DictionaryTest extends TestCase {
         $this->assertEquals(1, $dictionary->wordsCount());
     }
 
-    public function test03DictionaryDoesNotIncludeWord() {
+    public function test03DictionaryDoesntIncludeWord() {
         $dictionary = new Dictionary(['happy']);
         $this->assertFalse($dictionary->includesWord('sadly'));
     }

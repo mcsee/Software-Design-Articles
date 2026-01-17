@@ -144,7 +144,7 @@ Software is invisible. For decades, people tried to design software with plans l
 
 > The software design is present in the code, never in the diagrams. Diagrams don't execute, they have no errors and nobody maintains them. We need to trash them.
 
-Software does not have a spatial or geometric representation. We cannot imagine it or make it visible due to the large number of axes of change.
+Software doesn't have a spatial or geometric representation. We cannot imagine it or make it visible due to the large number of axes of change.
 
 Just perform [contour lines](https://en.wikipedia.org/wiki/Contour_line) to be able to observe some isolated aspects, as unit tests do.
 
@@ -167,7 +167,7 @@ What seemed like a glimmer of hope is still far from reality in sad times like 2
 
 ## Time Sharing Systems
 
-Brooks lists a breakthrough from the 70s that were timesharing machines. We currently have near-infinite virtualization, load balancers, and scalability accessible to everyone. But this does not mean that we have found the silver bullet.
+Brooks lists a breakthrough from the 70s that were timesharing machines. We currently have near-infinite virtualization, load balancers, and scalability accessible to everyone. But this doesn't mean that we have found the silver bullet.
 
 ## Unified program environments
 
@@ -229,7 +229,7 @@ Unfortunately, none of them turned out to be the much-desired silver bullet.
 
 In the anniversary edition, Brooks clarifies about the use of the accidental word, dissociating it from the value of mishap and bringing it closer to the concept of chance.
 
-At the same time, it revisits the importance of buying software packages instead of producing them and highlights the progress of object-oriented programming, although noting that it does not generate advantages of great orders of magnitude.
+At the same time, it revisits the importance of buying software packages instead of producing them and highlights the progress of object-oriented programming, although noting that it doesn't generate advantages of great orders of magnitude.
 
 The author goes back to focus on the underestimation of software reuse as opposed to the systematic construction of solutions to the same problems.
 

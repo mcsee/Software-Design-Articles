@@ -62,7 +62,7 @@ Remember all time to find real-world analogies.
 
 # Conclusion 🏁
 
-This kind of smell does not ring a bell to many developers because they think this is a subtlety.
+This kind of smell doesn't ring a bell to many developers because they think this is a subtlety.
 
 Clean code is full of these few declarative things that can make a difference.
 

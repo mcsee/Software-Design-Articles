@@ -83,7 +83,7 @@ You can detect this smell with automated tests or linters scanning unfinished pl
 
 [X] Beginner
 
-# Why the Bijection Is Important 
+# Why the Bijection Is Important 🗺️
 
 Your system must maintain a one-to-one mapping when representing user data with placeholders. 
 

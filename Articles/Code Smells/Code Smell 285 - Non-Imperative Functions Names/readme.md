@@ -89,7 +89,7 @@ Automated linters can flag these patterns or highlight functions with overly gen
 
 [X] Beginner
 
-# Why the Bijection Is Important 
+# Why the Bijection Is Important 🗺️
 
 Function names should create a clear [one-to-one correspondence](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) between their name and functionality. 
 

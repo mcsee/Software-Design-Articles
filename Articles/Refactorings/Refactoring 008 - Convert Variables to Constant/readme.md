@@ -2,9 +2,9 @@
             
 ![Refactoring 008 - Convert Variables to Constant](Refactoring%20008%20-%20Convert%20Variables%20to%20Constant.jpg)
 
-*If I see a Variable that does not change. I call that variable a constant*
+*If I see a Variable that doesn't change. I call that variable a constant*
 
-> TL;DR: Be explicit on what mutates and what does not.
+> TL;DR: Be explicit on what mutates and what doesn't.
 
 # Problems Addressed 😔
 

@@ -87,7 +87,7 @@ Most linters flag this as an issue.
 
 [x] Beginner 
 
-# Why the Bijection Is Important 
+# Why the Bijection Is Important 🗺️
 
 It stays clean and efficient when your code accurately reflects [real-world](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) logic. 
 

@@ -21,7 +21,7 @@ function retrieveImagesFrom(string imageUrls) {
                 + ') Need to retrieve it and store it');
             }
         } else {
-            throw new \Exception('Image does not exist on directory '
+            throw new \Exception('Image doesnt exist on directory '
                . $fullImageName);
         }
     }

@@ -97,7 +97,7 @@ Dead code breaks that mapping. The domain has no such behavior, yet the code cla
 
 When you do that, you destroy trust. 
 
-Readers cannot know what matters and what does not.
+Readers cannot know what matters and what doesn't.
 
 # AI Generation 🤖
 

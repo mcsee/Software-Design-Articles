@@ -26,7 +26,7 @@ final class MonotheisticReligion implements Religion {
 
 // According to Christianity and some other religions,
 // there’s only one God.
-// This does not hold for other religions.
+// This doesn't not hold for other religions.
 
 $christianGod = new God();
 $christianReligion = new MonotheisticReligion($christianGod);

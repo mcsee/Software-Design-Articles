@@ -34,7 +34,7 @@ It is common usage using a zero-argument constructor and a bunch of setters to c
 public Person();
 
 // Anemic and mutable
-// Does not have the essence to be a valid person
+// Doesn't have the essence to be a valid person
 ```
 
 ## Right 👉
@@ -48,7 +48,7 @@ public Person(String name, int age) {
  }
 
 // You 'pass' the essence to the object 
-// So it does not mutate
+// So it doesn't mutate
 ```
 
 # Detection 🔍

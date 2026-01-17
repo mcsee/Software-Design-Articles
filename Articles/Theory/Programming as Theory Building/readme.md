@@ -77,7 +77,7 @@ The [agile manifesto](https://agilemanifesto.org/) is based on four pillars:
 
 4 **Responding to change** over following a plan
 
-*The theory developed is a process that does not have an initial plan or an end goal. It is an incremental spiral where theory adjusts to needs as it learns from the real-world.*
+*The theory developed is a process that doesn't have an initial plan or an end goal. It is an incremental spiral where theory adjusts to needs as it learns from the real-world.*
 
 ## Axioms don't matter
 
@@ -113,7 +113,7 @@ The theory builders are based on a certain paradigm, as established by [Kuhn](ht
 
 > the person having the theory must have an understanding of the manner in which the central laws apply to certain aspects of reality, so as to be able to recognize and apply the theory to other similar aspects. A person having Newton’s theory of mechanics must thus understand how it applies to the motions of pendulums and the planets and must be able to recognize similar phenomena in the world, so as to be able to employ the mathematically expressed rules of the theory properly.
 
-## If the model does not exist, the results will never be as expected
+## If the model doesn't exist, the results will never be as expected
 
 Naur begins the article by taking certain observations of what really happens with programs and the teams of programmers who deal with them, particularly in situations that arise from unexpected and erroneous executions or reactions of the software.
 

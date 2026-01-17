@@ -96,7 +96,7 @@ We need to think as humans when we code and not as machines.
 
 Humans count from one.
 
-[Zero number](https://en.wikipedia.org/wiki/0) was a brilliant discovery in math and science but it does not apply to everyday counting.
+[Zero number](https://en.wikipedia.org/wiki/0) was a brilliant discovery in math and science but it doesn't apply to everyday counting.
 
 # Relations 👩‍❤️‍💋‍👨
 

@@ -157,7 +157,7 @@ Mcsee Mar 24, 2021, 7:01 PM
 Related to Github linters I do mention them a lot on my code smell series. I think linters are a great quality tool. Since I want my articles to be language agnostic I don't mention them explicitly, but most code smells can be detected in an automatic way.
 
 Mcsee Mar 24, 2021, 7:02 PM
-I will not recommend tools since tools depend on your specific technologies. I will recommend you to choose a tool that prevents defects for you whatever the technology you use. And if the language does not have tools or a community support, it is time to switch to a more mature technology 🙂
+I will not recommend tools since tools depend on your specific technologies. I will recommend you to choose a tool that prevents defects for you whatever the technology you use. And if the language doesn't have tools or a community support, it is time to switch to a more mature technology 🙂
 
 Mcsee Mar 24, 2021, 7:03 PM
 I would definitively recommend a human code review AND an automated one. They don't intersect much.

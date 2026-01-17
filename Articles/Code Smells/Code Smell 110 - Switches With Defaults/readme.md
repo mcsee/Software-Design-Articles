@@ -45,7 +45,7 @@ switch (value) {
     doSomethingElse();
     break;
   default:
-    // if the value does not presently match the above values
+    // if the value doesn't presently match the above values
     // or future values
     // the following will be executed
     doSomethingSpecial();
@@ -73,7 +73,7 @@ switch (value) {
     doSomethingSpecial();
     break;
   default:
-    // if value does not match the above values you need a decision
+    // if value doesn't match the above values you need a decision
     throw new Exception(
       'Unexpected ' + value + ' need to consider it');
     break;

@@ -32,7 +32,7 @@
 
 Parsing data is always a problem, where joining elements is much easier than breaking them.
 
-If you use a separator to break the attributes, you need to make sure the separator does not belong to the domain, and you should escape it.
+If you use a separator to break the attributes, you need to make sure the separator doesn't belong to the domain, and you should escape it.
 
 If you map your data to relational databases, search queries will be more difficult and less performant for concatenated attributes
 

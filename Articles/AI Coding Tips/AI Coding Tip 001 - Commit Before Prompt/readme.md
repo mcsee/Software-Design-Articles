@@ -150,11 +150,15 @@ Commit early, commit often, and don't let AI touch uncommitted code.
 
 # Disclaimer 📢
 
-The views expressed here are my own. 
+The views expressed here are my own.
 
-I welcome constructive criticism and dialogue. 
+I am a human that writes as best as possible for other humas. 
 
-These insights are shaped by 30 years in the software industry, 25 years of teaching, and authoring over 500 articles and a book.
+I used AI proofreading tools to improve some texts.
+
+I welcome constructive criticism and dialogue.
+
+I shape these insights through 30 years in the software industry, 25 years of teaching, and writing over 500 articles and a book.
 
 * * *
 

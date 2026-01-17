@@ -22,6 +22,6 @@ var myObject = createSomething('argument');
 if (myObject.errorCode != 400) {
   console.log(myObject.errorCode + ' ' + myObject.errorDescription)
 }
-// but myObject does not hold My Object but
+// but myObject doesn't hold My Object but
 // an accidental auxiliary based on implementation
 // from now on you need to remember this
