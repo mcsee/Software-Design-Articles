@@ -70,7 +70,7 @@ You work in [very small increments](https://www.davefarley.net/?p=202).
 
 Some assistants are not very good at **undoing** their changes.
 
-## Prompt Reference 📝
+# Prompt Reference 📝
 
 <!-- [Gist Url](https://gist.github.com/mcsee/c24d054bacdcbb523b50e909ce906c01) -->
 
@@ -152,9 +152,9 @@ Commit early, commit often, and don't let AI touch uncommitted code.
 
 The views expressed here are my own.
 
-I am a human that writes as best as possible for other humas. 
+I am a human who writes as best as possible for other humans. 
 
-I used AI proofreading tools to improve some texts.
+I use AI proofreading tools to improve some texts.
 
 I welcome constructive criticism and dialogue.
 
@@ -163,3 +163,5 @@ I shape these insights through 30 years in the software industry, 25 years of te
 * * *
 
 This article is part of the *AI Coding Tip* series.
+
+[AI Coding Tips](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips//AI%20Coding%20Tips/readme.md)

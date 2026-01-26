@@ -976,9 +976,13 @@ In this repository, you will find many articles related to Software Design
 
 ### AI Coding Tips
 
+* [AI Coding Tips](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tips/readme.md)
+
 * [AI Coding Tip 001 - Commit Before Prompt](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20001%20-%20Commit%20Before%20Prompt/readme.md)
 
 * [AI Coding Tip 002 - Prompt in English](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20002%20-%20Prompt%20in%20English/readme.md)
 
 * [AI Coding Tip 003 - Force Read-Only Planning](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20003%20-%20Force%20Read-Only%20Planning/readme.md)
+
+* [AI Coding Tip 004 - Use Modular Skills](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20004%20-%20Use%20Modular%20Skills/readme.md)
 

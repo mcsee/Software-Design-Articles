@@ -171,3 +171,5 @@ I shape these insights through 30 years in the software industry, 25 years of te
 * * *
 
 This article is part of the *AI Coding Tip* series.
+
+[AI Coding Tips](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips//AI%20Coding%20Tips/readme.md)
