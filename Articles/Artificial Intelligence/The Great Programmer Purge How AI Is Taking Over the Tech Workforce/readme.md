@@ -1,6 +1,6 @@
 # The Great Programmer Purge: How AI Is Taking Over the Tech Workforce
 
-![The Great Programmer Purge: How AI Is Taking Over the Tech Workforce](robots.jpeg)
+![The Great Programmer Purge: How AI Is Taking Over the Tech Workforce](robots.jpg)
 
 *How AI is Redefining the Role of Programmers in the Tech Industry*
 

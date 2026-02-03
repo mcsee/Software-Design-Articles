@@ -22,17 +22,17 @@ You think modern AI handles all languages equally for technical tasks.
 
 # Problems Addressed 😔
 
-The AI copilot misreads intent. 
+- The AI copilot misreads intent. 
 
-The AI mixes language and syntax.
+- The AI mixes language and syntax.
 
-The AI assistant generates weaker solutions.
+- The AI assistant generates weaker solutions.
 
-Non-English languages use [more tokens](https://denyslinkov.medium.com/why-is-gpt-3-15-77x-more-expensive-for-certain-languages-2b19a4adc4bc). You [waste](https://arxiv.org/pdf/2305.15425) your context window.
+- Non-English languages use [more tokens](https://denyslinkov.medium.com/why-is-gpt-3-15-77x-more-expensive-for-certain-languages-2b19a4adc4bc). You [waste](https://arxiv.org/pdf/2305.15425) your context window.
 
-The translation uses part of the available tokens in an intermediate prompt besides your instructions.
+- The translation uses part of the available tokens in an intermediate prompt besides your instructions.
 
-The AI might misinterpret technical terms that lack a direct translation.
+- The AI might misinterpret technical terms that lack a direct translation.
 
 For example: "[Callback](https://en.wikipedia.org/wiki/Callback_(computer_programming))" becomes "[Retrollamada](https://es.wikipedia.org/wiki/Retrollamada_(inform%C3%A1tica))" or "[Rappel](https://es.wikipedia.org/wiki/R%C3%A1pel)". The AI misunderstands your intent or wastes context tokens to disambiguate the instruction.
 

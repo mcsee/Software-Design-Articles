@@ -80,6 +80,10 @@ Get **Inspired** by Quotes
 
 [Software Engineering Great Quotes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quotes/Software%20Engineering%20Great%20Quotes/readme.md)
 
+## AI Coding Tips
+
+[AI Coding Tips](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips//AI%20Coding%20Tips/readme.md)
+
 ## Anti Patterns
 
 Do not use **Singleton**:

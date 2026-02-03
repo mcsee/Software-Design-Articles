@@ -18,13 +18,13 @@ You spend the next hour undoing its messy changes.
 
 # Problems Addressed 😔
 
-The AI modifies code that doesn't need changing.
+- The AI modifies code that doesn't need changing.
 
-The copilot starts typing before it reads the relevant functions.
+- The copilot starts typing before it reads the relevant functions.
 
-The AI hallucinates when assuming a library exists without checking your *package.json*.
+- The AI hallucinates when assuming a library exists without checking your *package.json*.
 
-Large changes make code reviews and [diffs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20001%20-%20Commit%20Before%20Prompt/readme.md) a nightmare.
+- Large changes make code reviews and [diffs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20001%20-%20Commit%20Before%20Prompt/readme.md) a nightmare.
 
 # How to Do It 🛠️
 

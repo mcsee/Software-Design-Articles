@@ -986,3 +986,5 @@ In this repository, you will find many articles related to Software Design
 
 * [AI Coding Tip 004 - Use Modular Skills](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20004%20-%20Use%20Modular%20Skills/readme.md)
 
+* [AI Coding Tip 005 - Keep Context Fresh](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20005%20-%20Keep%20Context%20Fresh/readme.md)
+
