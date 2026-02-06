@@ -33,6 +33,16 @@
 
 [Code Smell 173 - Broken Windows](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20173%20-%20Broken%20Windows/readme.md)
 
+# Context 💬
+
+Code without standards is like a book where every chapter uses a different font and margin. 
+
+When style is inconsistent, your brain spends extra cycles processing visual noise instead of focusing on the business logic. This is particularly dangerous in the age of AI-generated code, where multiple contributors (both human and machine) can quickly turn a codebase into a collection of "Broken Windows."
+
+When you apply consistent Style Rules, you treat code as a shared communication medium. Standardizing indentation, brace placement, and method ordering removes the friction of "style switching" during reviews and debugging.
+
+When you anchor these rules in automated tools and git hooks, you ensure the Bijection remains intact: the visual structure of your code consistently maps to the logical structure of your domain, regardless of who—or what—wrote the last line.
+
 # Steps 👣
 
 1. Choose a consistent indentation standard (tabs or spaces)

@@ -32,6 +32,16 @@
 
 [Code Smell 132 - Exception Try Too Broad](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20132%20-%20Exception%20Try%20Too%20Broad/readme.md)
 
+# Context 💬
+ 
+Mixing business logic failures with technical infrastructure errors is like treating a "credit card declined" message the same as a "power outage" in a store. 
+
+They require completely different responses. When you use a single generic exception type, you create Confused Contracts, forcing the caller to perform "type-checking" or string parsing to decide if they should retry, alert a developer, or simply inform the user.
+
+When you separate exception types, you create a clear architectural boundary. Business Exceptions represent expected alternative flows in your domain (e.g., InsufficientFundsException), while Technical Exceptions represent unexpected system failures (e.g., DatabaseConnectionException). 
+
+This distinction improves the Bijection with the real world, allowing you to trigger business recovery logic for domain issues and automated alerts for technical ones, ensuring your system remains robust and its signaling remains honest.
+
 # Steps 👣
 
 1. Identify business exceptions

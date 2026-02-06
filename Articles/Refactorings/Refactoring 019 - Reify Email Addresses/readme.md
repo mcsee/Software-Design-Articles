@@ -2,7 +2,7 @@
 
 ![Refactoring 019 - Reify Email Addresses](Refactoring%20019%20-%20Reify%20Email%20Addresses.jpg)
 
-*Sayit once and only once*
+*Say it once and only once*
 
 > TL;DR: Avoid duplicate email validations.
 
@@ -25,6 +25,16 @@
 [Code Smell 177 - Missing Small Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20177%20-%20Missing%20Small%20Objects/readme.md)
 
 [Code Smell 20 - Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md)				     
+
+# Context 💬
+
+Treating email addresses as simple strings is a classic case of Primitive Obsession. 
+
+When you use a raw string, you lose the opportunity to enforce domain rules, leading to "Shotgun Surgery" where validation logic is scattered and duplicated across your entire codebase.
+
+By Reifying the email address into its own small object, you centralize validation and ensure that once an instance is created, it is guaranteed to be valid. 
+
+This strengthens the Bijection between your code and the real world, turning a generic data type into a meaningful domain concept that is consistent, testable, and robust.
 
 # Steps 👣 
 

@@ -36,6 +36,22 @@
 
 [Code Smell 208 - Null Island](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20208%20-%20Null%20Island/readme.md)
 
+# Context 💬
+
+NULL is often called the "Billion-Dollar Mistake." It represents the absence of a value, but in doing so, it forces every consumer of an object to act as a defensive guard. 
+
+Code becomes littered with if (variable != null) checks, which are not part of the business logic but are merely artifacts of a technical limitation. 
+
+These "Accidental IFs" obscure the real intent of the code and are a primary source of runtime crashes.
+
+When you apply the Null Object Pattern, you replace a "nothing" with a "neutral" object that adheres to the same interface as your real domain objects. 
+
+This allows the system to treat all instances uniformly. 
+
+Instead of checking for existence, you simply send a message. If the object is "real," it performs an action; if it is the "Null Object," it does nothing or returns a sensible default. 
+
+This shifts the responsibility from the caller to the object, preserving encapsulation and keeping your logic clean and declarative.
+
 # Steps 👣 
 
 These steps are a special case of [Remove IF Refactoring](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20014%20-%20Remove%20IF/readme.md)

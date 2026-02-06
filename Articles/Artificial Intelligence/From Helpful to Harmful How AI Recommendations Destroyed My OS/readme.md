@@ -16,7 +16,7 @@ This week, an internal memo by Shopify's CEO, Tobias Lutke, went viral.
 
 [Twitter](https://x.com/1909251946235437514)
 
-> TL;DR: The memo requires Shopify's workers to be proficient in AI tools.
+> TL; DR: The memo requires Shopify's workers to be proficient in AI tools.
 
 ---
 

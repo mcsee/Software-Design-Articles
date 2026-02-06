@@ -17,6 +17,20 @@
 
 [Code Smell 40 - DTOs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2040%20-%20DTOs/readme.md)
 
+# Context 💬
+
+Public attributes are a direct invitation to break encapsulation. 
+
+When you expose an object's internal state, you lose control over its consistency and lifecycle. 
+
+Any external consumer can modify its data without the object even knowing, leading to Anemic Models that are little more than glorified data structures.
+
+You should force the interaction through a controlled interface. 
+
+This allows the object to maintain its invariants, validate state changes, and hide implementation details. 
+
+It transforms your code from a collection of leaked data into a set of robust, self-governing objects that truly own their behavior.
+
 # Steps 👣 
 
 1. Change the visibility of your attributes from public to private.

@@ -30,6 +30,20 @@
 
 [Code Smell 45 - Not Polymorphic](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2045%20-%20Not%20Polymorphic/readme.md)
 
+# Context 💬
+
+The if statement is often the first control structure you learn, but it is also one of the most abused. 
+
+When logic is scattered across multiple conditional branches, you create Accidental Complexity. 
+
+These "Accidental IFs" usually signal a missing abstraction in our domain model, forcing the caller to check the type or state of an object before deciding how to interact with it.
+
+By replacing these branches with Polymorphic Message Sends, you delegate the decision-making to the objects themselves. 
+
+This aligns with the Open/Closed Principle: you can add new behaviors by creating new classes rather than modifying existing, fragile conditional logic. 
+
+The result is a system that is easier to extend, less prone to "Stairs Code" or "Arrow Code," and much closer to a true object-oriented design.
+
 # Steps 👣 
 
 1. Find or Create a Polymorphic Hierarchy

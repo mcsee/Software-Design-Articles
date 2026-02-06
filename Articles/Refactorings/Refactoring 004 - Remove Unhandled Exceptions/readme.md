@@ -16,6 +16,18 @@
 
 [Code Smell 26 - Exceptions Polluting](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2026%20-%20Exceptions%20Polluting/readme.md)
 
+# Context 💬
+
+Many developers create custom exception classes for every *possible* error scenario as a "best practice." 
+
+Most of these classes end up as empty shells—boilerplate code that is never specifically caught or handled.
+
+When you create an exception class that no one catches, you are violating the YAGNI (You Ain't Gonna Need It) principle. You end up with a polluted namespace and a codebase filled with "just in case" artifacts. 
+
+This noise hides the truly critical errors that actually require specialized handling.
+
+Refactoring these out simplifies your hierarchy and ensures that when a custom exception **does exist**, it actually serves a purpose.
+
 # Steps 👣 
 
 1. Check there are no references to the empty exception class.

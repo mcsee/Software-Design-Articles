@@ -31,6 +31,20 @@
 
 [Code Smell 132 - Exception Try Too Broad](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20132%20-%20Exception%20Try%20Too%20Broad/readme.md)
 
+# Context 💬
+
+Vague error messages like "Oops, something went wrong" are the ultimate sign of Error Messages without Empathy.
+
+They represent a failure in the Bijection between the system's internal state and the user's mental model. 
+
+When a system fails silently or with generic jargon, it abdicates its responsibility to guide the user, leading to frustration, loss of trust, and increased support costs.
+
+When you remove creepy message like "OOPs", you transform technical failures into actionable conversations. 
+
+Instead of hiding behind a generic curtain, the system identifies the specific problem—whether it's a missing field, a timeout, or a business rule violation—and provides a clear path forward.
+
+This approach separates the technical logging (the "How" for developers) from the functional feedback (the "What" for users), ensuring that your software remains a helpful collaborator rather than a confusing black box.
+
 # Steps 👣
 
 1. Identify all generic error messages in your codebase that use terms like "Oops", "Something went wrong", or "An error occurred"

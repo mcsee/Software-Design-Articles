@@ -36,6 +36,20 @@
 
 [Code Smell 41 - Regular Expression Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2041%20-%20Regular%20Expression%20Abusers/readme.md)
 
+# Context 💬
+
+Regular expressions are dense and difficult to read. 
+
+When you build complex validation rules into a single string, you create a "write-only" artifact that is impossible to debug and even harder to maintain. 
+
+A single character change can break the entire logic, and when it fails, it usually provides a binary "No" instead of telling the user why their input was rejected.
+
+When you decompose regular expressions, you treat patterns like any other piece of logic: you break them into small, cohesive, and testable units. 
+
+Instead of one giant mystery string, you have named sub-patterns that explain their purpose. 
+
+This not only improves the Bijection with your business rules but also allows you to provide empathetic error messages, identifying exactly which part of the validation—be it the protocol, the domain, or the path—needs correction.
+
 # Steps 👣
 
 1. Analyze the regex to identify its logical components.

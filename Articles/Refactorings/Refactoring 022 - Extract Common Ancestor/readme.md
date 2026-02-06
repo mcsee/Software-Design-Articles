@@ -29,6 +29,18 @@
 
 [Code Smell 161 - Abstract/Final/Undefined Classes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20161%20-%20Abstract%20Final%20Undefined%20Classes/readme.md)
 
+# Context 💬
+
+When two classes share behavior, we often fall into the trap of inheriting one from the other just to reuse code. 
+
+This creates Inappropriate Inheritance, where one concrete concept is forced to be a "type of" its sibling.
+
+It breaks the Bijection with the real world because siblings are not parents; they are simply relatives.
+
+When you extract a Common Ancestor, you move shared logic into a neutral, abstract base. This keeps your hierarchy clean and ensures that concrete classes only contain what makes them unique. 
+
+You eliminate duplication while providing a stable, declarative contract for the rest of your system, ensuring your model stays closer to the real-world MAPPER.
+
 # Steps 👣 
 
 1. Identify common behaviors in both classes

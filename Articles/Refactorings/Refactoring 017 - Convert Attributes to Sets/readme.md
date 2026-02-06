@@ -21,6 +21,18 @@
 
 [Code Smell 34 - Too Many Attributes](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2034%20-%20Too%20Many%20Attributes/readme.md)
 
+# Context 💬
+
+When an object manages its internal state using multiple primitive attributes or flags, it often becomes a breeding ground for mutability bugs and inconsistent states. 
+
+When you convert the attributes into Sets, you shift the focus from individual property mutation to collection management. 
+
+Instead of changing a status flag on a child object, the parent moves that object from one set to another. 
+
+This approach naturally enforces uniqueness, eliminates the need for redundant checks, and leverages powerful set operations—like unions and intersections—to handle complex business rules declaratively. 
+
+It turns messy state tracking into a clean, mathematical model of your domain.
+
 # Steps 👣 
 
 1. Identify attributes representing states

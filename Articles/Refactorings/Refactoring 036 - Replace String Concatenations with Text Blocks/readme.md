@@ -38,6 +38,20 @@
 
 [Code Smell 243 - Concatenated Properties](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20243%20-%20Concatenated%20Properties/readme.md)
 
+# Context 💬
+
+String concatenation is a common source of code noise and maintenance frustration. 
+
+When you piece together multi-line content using the + operator and manual escape sequences like \n or \", you create a fragmented version of the text that is difficult to read and even harder to edit.
+
+This "String Abuse" obscures the actual layout of the content, making it nearly impossible to visualize the final output without running the code.
+
+When you replace string concatenations with Text Blocks, you allow the code to look like the data it represents.
+
+Whether it's a JSON payload, an SQL query, or an HTML template, text blocks preserve the natural indentation and formatting of the content. 
+
+This strengthens the Bijection by providing a one-to-one visual mapping between your implementation and the real-world document you are modeling, eliminating the need for translation layers and "Premature Optimization" of string building.
+
 # Steps 👣
 
 1. Identify multi-line string concatenations or strings with excessive escape sequences

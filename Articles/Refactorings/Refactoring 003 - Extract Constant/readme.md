@@ -18,6 +18,20 @@
 
 [Code Smell 02 - Constants and Magic Numbers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
 
+# Context 💬
+
+Numbers or strings often lack clear intent in code.
+
+When they appear without a name, they become Magic Numbers—mysterious values that force the reader to guess the developer's original goal.
+
+This creates high cognitive load and maintenance traps. 
+
+If you need to change a value used in multiple places, you risk introducing bugs through manual "search and replace."
+
+By extracting these literals into named constants, you transform "mystery code" into declarative code.
+
+You provide a single source of truth that explains the Why behind the What, making the logic more understandable.
+
 # Steps 👣 
 
 1. Move the constant code fragment to a constant declaration

@@ -22,6 +22,18 @@
 
 [Code Smell 112 - Testing Private Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20112%20-%20Testing%20Private%20Methods/readme.md)
 
+# Context 💬
+
+Comments often act as a placeholder for missing logic or verification. 
+
+When you write a comment to explain "what" a method does, we are creating a piece of documentation that is detached from the execution. 
+
+As the code evolves, these comments rot—they stop reflecting the truth and start misleading the reader.
+
+When you convert these comments into automated tests, you transform a passive description into an active, living contract. 
+
+Instead of telling the reader what the code is supposed to do, you provide an executable proof of what it actually does. 
+
 # Steps 👣 
 
 1. Take the comment of the method explaining what the function does.

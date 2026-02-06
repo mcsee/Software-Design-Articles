@@ -24,6 +24,22 @@
 
 [Code Smell 131 - Zero Argument Constructor](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20131%20-%20Zero%20Argument%20Constructor/readme.md)
 
+# Context 💬
+
+Many objects are born "empty" or in an incomplete state, relying on a sequence of setters to become useful. 
+
+This pattern creates objects that are fragile, mutable, and difficult to reason about. 
+
+An object should be valid from the very moment of its inception; if it lacks its essence, it shouldn't exist at all.
+
+When you build with the essence, you shift from an imperative "create-then-configure" approach to a declarative one. 
+
+You define exactly what an object needs to be functional and provide those dependencies through the constructor. 
+
+This practice naturally eliminates the need for setters, reduces accidental mutability, and ensures that you never encounter an object in an inconsistent or "half-baked" state. 
+
+It turns your data structures into robust, reliable domain components.
+
 # Steps 👣 
 
 1. Identify essential attributes required for object creation

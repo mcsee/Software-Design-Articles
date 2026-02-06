@@ -24,6 +24,16 @@
 
 [Code Smell 143 - Data Clumps](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20143%20-%20Data%20Clumps/readme.md)
 
+# Context 💬
+
+Sequential IDs are an implementation detail of your database that often leak into the public domain through URLs and APIs. 
+
+Convenient for indexing, but they create a significant security risk by exposing the Internal Structure of your data. An attacker can easily guess valid identifiers just by incrementing a number, leading to IDOR (Insecure Direct Object Reference) vulnerabilities and making your system a prime target for automated scraping.
+
+When you replace Consecutive IDs with Dark Keys (like UUIDs), you decouple your public interface from your private persistence layer. You replace predictable, accidental numbers with opaque, non-guessable identifiers. 
+
+This strengthens the Bijection by ensuring that external references to your domain objects are stable and secure, preventing users from reverse-engineering your database size or accessing unauthorized records through simple iteration.
+
 # Steps 👣
 
 1. Identify all public uses of sequential IDs in APIs, URLs, or UI elements

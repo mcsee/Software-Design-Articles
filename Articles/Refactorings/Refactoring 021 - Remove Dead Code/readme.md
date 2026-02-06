@@ -26,6 +26,22 @@
 
 [Code Smell 148 - ToDos](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20148%20-%20ToDos/readme.md)
 
+# Context 💬
+ 
+Dead code is a parasite. 
+
+It lives in your codebase, consumes cognitive energy, and complicates every future refactoring. 
+
+Whether it’s an unused function, an obsolete constant, or speculative "just-in-case" logic, this code acts as an Anchor Boat, dragging down the agility of your team.
+
+When you remove dead code, you reduce the surface area for bugs and lower the entrance barrier for new developers.
+
+You stop maintaining things that provide zero value and ensure your implementation stays strictly aligned with current requirements.
+
+In a world with version control, "deleting" isn't "losing"—if you ever truly need that code again, your git history will have it. 
+
+Clean your house; keep only what lives.
+
 # Steps 👣 
 
 1. Ensure your code has good functional coverage.

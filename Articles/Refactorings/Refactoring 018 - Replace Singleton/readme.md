@@ -20,6 +20,18 @@
 
 [Code Smell 25 - Pattern Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2025%20-%20Pattern%20Abusers/readme.md)
 
+# Context 💬
+
+The Singleton is often a global variable in disguise. 
+
+While it offers a convenient point of access, it creates hidden coupling and shared state that makes unit testing nearly impossible.
+
+When you replace the Singleton with Dependency Injection, you make an object's collaborators explicit. 
+
+Instead of an object "reaching out" for a global instance, you provide its dependencies through the constructor.
+
+This decouples your components and allows you to swap real implementations for mocks during testing.
+
 # Steps 👣 
 
 1. Identify the singleton 

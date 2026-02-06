@@ -88,6 +88,8 @@ Let's go for the solutions!
 
 [Refactoring 037 - Testing Private Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20037%20-%20Testing%20Private%20Methods/readme.md)
 
+[Refactoring 038 - Reify Collection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20038%20-%20Reify%20Collection/readme.md)
+
 * * *
 
 Photo by [No Revisions](https://unsplash.com/ja/@norevisions) on [Unsplash](https://unsplash.com/es/s/fotos/cleaning)

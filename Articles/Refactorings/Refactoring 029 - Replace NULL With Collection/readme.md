@@ -27,6 +27,20 @@
 
 [Code Smell 45 - Not Polymorphic](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2045%20-%20Not%20Polymorphic/readme.md)
 
+# Context 💬
+
+Dealing with optional objects often forces you into a "defensive programming" trap. 
+
+When an attribute can be NULL, you are mandated to write repeated IF checks to avoid the infamous Billion-Dollar Mistake. 
+
+This conditional noise clutters your business logic and breaks Polymorphism, as the "null case" is treated as a technical exception rather than a valid domain state.
+
+When you replace NULL with a Collection, you leverage the natural polymorphism of sets or lists. 
+
+An empty collection is a valid object that responds to the same protocol as a populated one—you can iterate over it, map it, or filter it without a single IF statement. 
+
+This keeps your code declarative, eliminates null-pointer risks, and aligns your model with the real-world MAPPER, where a container (like a folder or a box) exists as a concept even when it holds nothing.
+
 # Steps 👣
 
 1. Identify nullable optional attributes that could be collections

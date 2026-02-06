@@ -24,6 +24,18 @@
 
 [Code Smell 176 - Changes in Essence](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20176%20-%20Changes%20in%20Essence/readme.md)
 
+# Context 💬
+
+Many developers learn to create objects by adding "getters and setters" as a matter of habit, often encouraged by IDE boilerplate generators. 
+
+This practice treats objects as passive data holders rather than autonomous entities.
+
+When you expose setters, you allow the object's internal state to be manipulated from the outside at any point in its lifecycle. 
+
+This leads to objects that are valid one moment and corrupt the next, violating the business rules they are supposed to protect. 
+
+You should force the object to control its own state transitions, ensuring that every change is meaningful and consistent with the real-world domain it represents.
+
 # Steps 👣 
 
 1. Locate the setters' usage
@@ -32,7 +44,7 @@
 
 3. If you need to change an accidental property, then it is not a setter. Remove the setXXX prefix
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Before 🚨 
  

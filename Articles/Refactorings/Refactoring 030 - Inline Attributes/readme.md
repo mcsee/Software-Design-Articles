@@ -29,6 +29,20 @@
 
 [Code Smell 143 - Data Clumps](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20143%20-%20Data%20Clumps/readme.md)
 
+# Context 💬
+
+Methods often suffer from Parameter Pollution because we treat them as isolated functions rather than integral parts of a cohesive object. 
+
+When a method asks for a parameter that the object already owns as an attribute, it creates a "liar" interface. It pretends to need external information while the truth is already sitting right there in the object's internal state.
+
+When you inlining attributes, you simplify your signatures and strengthen encapsulation. 
+
+You reduce the cognitive load for the caller, who no longer has to provide data that the object is already responsible for managing. 
+
+This aligns with the real-world MAPPER: an engine doesn't ask you to hand it its own spark plugs every time you turn the key; it simply uses the ones it already has. 
+
+This refactoring makes your methods more cohesive and your API significantly more intuitive.
+
 # Steps 👣
 
 1. Identify methods that receive owned attributes

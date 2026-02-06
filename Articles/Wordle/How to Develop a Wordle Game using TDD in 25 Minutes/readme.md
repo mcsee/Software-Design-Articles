@@ -4,15 +4,13 @@
 
 *How to Develop a Wordle Game using TDD in 25 Minutes*
 
-> TL;DR: Implementing a working Wordle in a few minutes
+> TL;DR: With just a few steps we can build a robust Wordle.
 
 Everybody is playing Wordle these days...
 
 And I love [TDD](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD%20Conference%202021/TDD%20Conference%202021%20-%20All%20Talks/readme.md).
 
 So, let's get moving...
-
-> TL;DR: With just a few steps we can build a robust Wordle.
 
 # Defining a word
 
@@ -253,7 +251,7 @@ And all tests pass since we are clearly hardcoding.
 
 ## Notice
 
-- We hardcode the asterisc to be the only invalid character (as far as we know)
+- We hardcode the asterisk to be the only invalid character (as far as we know)
 - We can place the checking code before or after the previous validations.
 -- Until we have an invalid case (with invalid characters and invalid length) we cannot assume the expected behavior
 

@@ -16,6 +16,18 @@
 
 [Code Smell 79 - TheResult](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2079%20-%20TheResult/readme.md)
 
+# Context 💬
+
+Generic names like result, data, or res are lazy placeholders. 
+
+They acknowledge that a computation finished but hide the nature of the outcome. 
+
+This forces the reader to track the variable's identity manually, increasing cognitive load as the method grows.
+
+You should rename the variable to reflect its semantic role—often mirroring the function that created it—you transform a generic "thing" into a meaningful domain concept. 
+
+This ensures the variable's purpose remains clear even when the assignment and its usage are far apart.
+
 # Steps 👣 
 
 1. Name the variable with the same name as the last function call.

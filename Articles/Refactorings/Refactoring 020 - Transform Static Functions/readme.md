@@ -24,6 +24,18 @@
 
 [Code Smell 22 - Helpers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2022%20-%20Helpers/readme.md)
 
+# Context 💬
+
+Static functions are essentially global procedures masquerading as object-oriented code. 
+
+They create hidden coupling and break the mental model of objects as autonomous entities. 
+
+Since they belong to a class rather than an instance, they cannot be easily mocked or overridden, making unit testing a nightmare of global state management.
+
+When you transform static functions into instance methods, you shift from procedural logic to object-oriented interaction. This allows for proper dependency injection, promotes higher cohesion, and enables polymorphism. 
+
+You move from a rigid, global structure to a flexible design where behavior is encapsulated within interchangeable objects.
+
 # Steps 👣 
 
 1. Identify static methods used in your code.

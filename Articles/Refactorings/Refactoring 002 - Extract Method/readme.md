@@ -35,7 +35,16 @@
 [Code Smell 154 - Too Many Variables](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20154%20-%20Too%20Many%20Variables/readme.md)
 
 [Code Smell 169 - Glued Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20169%20-%20Glued%20Methods/readme.md)
-                                                                                                       
+
+# Context 💬
+ 
+When a method grows too large, it usually tries to tell too many stories at different levels of abstraction.
+
+You need to break a complex algorithm into smaller, cohesive units.
+
+This allows the main method to read like a high-level summary of the "What" while hiding the gritty "How" inside well-named sub-procedures. 
+
+Code should read like well-written haikus.      
 
 # Steps 👣 
 
@@ -43,7 +52,7 @@
 
 2. Replace the old code with a call to the recently created method.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Before 🚨 
 

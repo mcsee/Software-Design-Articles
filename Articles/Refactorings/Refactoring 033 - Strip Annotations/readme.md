@@ -34,6 +34,16 @@
 
 [Code Smell 148 - ToDos](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20148%20-%20ToDos/readme.md)
 
+# Context 💬
+
+Annotations often start as a way to provide "useful metadata," but they quickly devolve into a form of Metaprogramming that hides logic behind magical strings. 
+
+When your code is covered in decorators, it becomes cluttered and harder to follow. Much like Obsolete Comments, annotations can rot—remaining in the codebase long after their purpose has faded or the framework has evolved.
+
+When you strip all your annotations, you reclaim your code's clarity. You shift from an implicit, "magical" style to an explicit, declarative one. This refactoring forces you to evaluate whether a design decision is better served by actual code or a unit test rather than a passive tag. 
+
+It restores the Bijection by ensuring that your implementation is transparent and that the domain logic is front and center, not buried under layers of metadata noise.
+
 # Steps 👣
 
 1. Identify annotations bloating your code.

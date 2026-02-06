@@ -35,6 +35,18 @@
 
 [Code Smell 122 - Primitive Obsession](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20122%20-%20Primitive%20Obsession/readme.md)
 
+# Context 💬
+
+Getters are often viewed as harmless accessors, but they are actually a primary cause of Anemic Domain Models. 
+
+When an object exposes its internal state, it abdicates its responsibility, forcing the caller to make decisions that the object should be making itself. 
+
+This violates the Tell-Don't-Ask principle and creates tight coupling where every consumer becomes intimately familiar with the object's internal structure.
+
+When you remove the getters, you transform data-holders into intelligent entities that encapsulate both data and behavior. Instead of asking an object for its "ingredients" to perform a calculation externally, you tell the object to perform the operation. 
+
+This keeps business rules where they belong, prevents information leakage, and ensures that your code remains closer to the real-world MAPPER, where objects are defined by what they do, not just what they have.
+
 # Steps 👣
 
 1. Identify getters that expose internal object state

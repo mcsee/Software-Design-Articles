@@ -20,6 +20,20 @@
 
 [Code Smell 06 - Too Clever Programmer](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md)
 
+# Context 💬
+
+Comments are often a "crutch" for poorly named identifiers or complex, low-level logic.
+
+You write them to explain the intent that the code fails to express on its own. 
+
+Comments are not executed; they drift, rot, and eventually lie when the code changes.
+
+Instead of describing a block of code with a natural language remark, you should encapsulate that logic into a well-named function. 
+
+This shifts the explanation from a passive note to an active, declarative abstraction. 
+
+When the code explains itself through its structure and naming, you eliminate the maintenance burden of keeping documentation in sync with execution.
+
 # Steps 👣 
 
 1. Name the function with the previous comment

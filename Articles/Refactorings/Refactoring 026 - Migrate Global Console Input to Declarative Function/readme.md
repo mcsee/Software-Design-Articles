@@ -27,6 +27,20 @@
 
 [Code Smell 03 - Functions Are Too Long](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2003%20-%20Functions%20Are%20Too%20Long/readme.md)
 
+# Context 💬
+ 
+When you rely on direct console input statements—like input() or readline() within your business logic creates a rigid, untestable system. 
+
+These Console Side Effects act as hidden dependencies on the physical environment, forcing a human to be present every time the code runs. 
+
+This prevents you from running automated regression tests and makes the code nearly impossible to reuse in a different context, such as a web API or a GUI.
+
+When you migrate Global Input to Declarative Functions, you separate the "How" of data acquisition from the "What" of data processing. 
+
+You reify the act of gathering input into a distinct, testable abstraction.
+
+This allows you to simulate various user scenarios—including edge cases and invalid data—through unit tests without ever touching the keyboard, ensuring your core algorithms remain pure, decoupled, and robust.
+
 # Steps 👣
 
 1. Identify code that uses direct *input()* statements

@@ -28,6 +28,20 @@
 
 [Code Smell 206 - Long Ternaries](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20206%20-%20Long%20Ternaries/readme.md)
 
+# Context 💬
+
+Sometimes, a method is so complex that Extract Method isn't enough. 
+
+When you try to break a long algorithm apart, you often find yourself passing a dozen local variables as parameters between the new sub-methods. 
+
+This "parameter pollution" is a sign that the algorithm itself wants to be its own entity.
+
+When you extract the method into a Method Object, you turn temporary local variables into private attributes of a new class. 
+
+This provides a sandbox where you can iteratively decompose the algorithm into tiny, cohesive steps without cluttering the original host class. 
+
+You transform a rigid procedure into a testable, reusable component that can eventually evolve into a full-fledged Strategy pattern.
+
 # Steps 👣 
 
 1. Create an object to represent an invocation of the method

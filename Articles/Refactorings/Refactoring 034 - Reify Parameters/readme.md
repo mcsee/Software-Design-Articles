@@ -49,6 +49,16 @@
 
 [Code Smell 19 - Optional Arguments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2019%20-%20Optional%20Arguments/readme.md)
 
+# Context 💬
+ 
+When functions accept long lists of parameters, especially those of the same type, you invite Order Confusion. This "Primitive Obsession" makes code fragile; a simple argument swap can lead to subtle, hard-to-trace bugs. 
+
+These groups of parameters are often Data Clumps—concepts that belong together but have been scattered, forcing the caller to manage their relationship manually.
+
+When you reify parameters, you transform a loose collection of data into a first-class domain entity. Instead of passing an anonymous list of integers or strings, you pass a named object like DateInterval or SearchCriteria. This not only improves the Bijection by making your code's "MAPPER" more accurate but also centralizes validation.
+
+You can ensure that a "maximum" is always greater than a "minimum" at the moment the object is born, ensuring your functions always receive valid, meaningful coordinates.
+
 # Steps 👣
 
 1. Identify multiple parameters of the same type

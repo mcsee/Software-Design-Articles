@@ -22,6 +22,20 @@
 
 [Code Smell 147 - Too Many Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20147%20-%20Too%20Many%20Methods/readme.md)
 
+# Context 💬
+
+When a class starts doing work that should be delegated to others, it suffers from Low Cohesion. 
+
+You often see this through "Data Clumps"—groups of variables that always travel together—or methods that seem unrelated to the class's primary responsibility. 
+
+This bloat makes the code harder to understand and creates a "God Object" that changes for too many different reasons.
+
+You need to extract these related behaviors and properties into a new, dedicated class, you give a name to a previously hidden concept. 
+
+This not only promotes code reuse across the system but also ensures that each class has a single, well-defined reason to change. 
+
+You are not just moving code; you are discovering the missing abstractions in your domain model.
+
 # Steps 👣 
 
 1. Extract the methods (and accidentally the properties) coupled into a new concept

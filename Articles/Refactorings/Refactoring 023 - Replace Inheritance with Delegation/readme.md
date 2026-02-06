@@ -27,7 +27,21 @@
 
 [Code Smell 125 - 'IS-A' Relationship](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20125%20-%20'IS-A'%20Relationship/readme.md)
 
-# Steps 🔄
+# Context 💬
+
+Inheritance is one of the tightest forms of coupling in software design. 
+
+Sometimes you use it incorrectly as a shortcut for code reuse—a "Refused Bequest"—forcing a class to inherit a protocol it doesn't truly belong to. 
+
+This creates rigid hierarchies where a subclass is burdened with behavior it shouldn't have, making it fragile and difficult to test or evolve.
+
+When you replace Inheritance with Delegation, you transform an "is-a" relationship into a "has-a" relationship.
+
+Instead of being a specialized version of a class, your object simply uses an instance of that class to perform specific tasks. 
+
+This composition-over-inheritance approach provides the flexibility to change collaborators at runtime and ensures that each object remains focused on its true responsibility, keeping your domain model clean and decoupled.
+
+# Steps 👣
 
 1. Create a temporary field in the subclass for the superclass.
 2. Update subclass methods to delegate calls.

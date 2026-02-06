@@ -22,7 +22,23 @@
  
 [Code Smell 106 - Production Dependent Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20106%20-%20Production%20Dependent%20Code/readme.md)
 
-# Steps 🛠️
+# Context 💬
+
+Global variables are the ultimate enemy of modularity. 
+
+They create hidden channels of information that bypass explicit interfaces, making your code unpredictable and nearly impossible to unit test in isolation. 
+
+When a function relies on global state, it "lies" about its requirements, leading to fragile systems where a change in one corner of the codebase triggers mysterious failures in another.
+
+When you replace Global Variables with Dependency Injection, you force your components to be honest. 
+
+You make every dependency explicit by passing it through constructors or parameters. 
+
+This simple shift transforms "black box" functions into transparent, testable units that declare exactly what they need to function. 
+
+It moves your architecture away from a tangled web of shared state toward a clean, decoupled model based on clear contracts.
+
+# Steps 👣
 
 1. Identify global variables used across your codebase.
 2. Create a real-world abstraction to encapsulate these variables.

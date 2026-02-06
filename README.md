@@ -912,6 +912,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Refactoring 037 - Testing Private Methods](/Articles/Refactorings/Refactoring%20037%20-%20Testing%20Private%20Methods/readme.md)
 
+* [Refactoring 038 - Reify Collection](/Articles/Refactorings/Refactoring%20038%20-%20Reify%20Collection/readme.md)
+
 ### Wordle
 
 * [How to Create a Wordle as a Centaur](/Articles/Wordle/How%20to%20Create%20a%20Wordle%20as%20a%20Centaur/readme.md)

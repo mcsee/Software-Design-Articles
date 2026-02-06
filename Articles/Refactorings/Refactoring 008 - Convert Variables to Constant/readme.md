@@ -20,6 +20,20 @@
 
 [Code Smell 116 - Variables Declared With 'var'](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20116%20-%20Variables%20Declared%20With%20'var'/readme.md)
 
+# Context 💬
+
+Variables that never change their value are not variables; they are constants masquerading as mutable state. 
+
+When we declare something as a variable, you tell the reader (and the compiler) to expect change. 
+
+If that change never happens, you are providing misleading information about the code's behavior.
+
+You should convert these to constants to reduce the "state space" a developer needs to track. 
+
+You signal that this value is a fixed point in your logic, which prevents accidental reassignments and allows the compiler to perform better optimizations. 
+
+It’s about being honest with your intentions: if it shouldn't mutate, don't let it.
+
 # Steps 👣 
 
 1. Find the scope of the variable
