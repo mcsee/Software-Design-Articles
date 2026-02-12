@@ -52,7 +52,7 @@ This distinction improves the Bijection with the real world, allowing you to tri
 
 # Sample Code 💻
 
-## Before  🚨
+## Before 🚨
 
 <!-- [Gist Url](https://gist.github.com/mcsee/cc4bb614c78c7da080657ca91dff7cb4) -->
 

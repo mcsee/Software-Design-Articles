@@ -34,7 +34,7 @@ Refactoring these out simplifies your hierarchy and ensures that when a custom e
 
 2. Replace the throw sentence with a generic one.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Before 🚨 
 

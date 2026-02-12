@@ -40,7 +40,7 @@ When the code explains itself through its structure and naming, you eliminate th
 
 2. Remove the Comment
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Before 🚨 
 

@@ -990,3 +990,5 @@ In this repository, you will find many articles related to Software Design
 
 * [AI Coding Tip 005 - Keep Context Fresh](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20005%20-%20Keep%20Context%20Fresh/readme.md)
 
+* [AI Coding Tip 006 - Review Every Line Before Commit](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20006%20-%20Review%20Every%20Line%20Before%20Commit/readme.md)
+

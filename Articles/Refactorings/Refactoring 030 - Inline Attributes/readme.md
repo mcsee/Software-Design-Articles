@@ -52,7 +52,7 @@ This refactoring makes your methods more cohesive and your API significantly mor
 
 # Sample Code 💻
 
-## Before  🚨
+## Before 🚨
 
 <!-- [Gist Url](https://gist.github.com/mcsee/809c0549ca6d1fd122e47cceaf37432c) -->
 

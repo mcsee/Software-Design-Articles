@@ -53,7 +53,7 @@ This allows you to simulate various user scenarios—including edge cases and in
 
 # Sample Code 💻
 
-## Before  🚨
+## Before 🚨
 
 <!-- [Gist Url](https://gist.github.com/mcsee/71d5117eaab5e21ec580ee035e8d1f5d) -->
 

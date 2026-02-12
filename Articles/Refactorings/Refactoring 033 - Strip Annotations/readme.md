@@ -53,7 +53,7 @@ It restores the Bijection by ensuring that your implementation is transparent an
 
 # Sample Code 💻
 
-## Before  🚨
+## Before 🚨
 
 <!-- [Gist Url](https://gist.github.com/mcsee/2a591a849322e205cdb56da9df35b093) -->
 

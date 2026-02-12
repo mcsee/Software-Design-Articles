@@ -62,7 +62,7 @@ This strengthens the Bijection by providing a one-to-one visual mapping between 
 
 # Sample Code 💻
 
-## Before  🚨
+## Before 🚨
 
 <!-- [Gist Url](https://gist.github.com/mcsee/e8e9c14ecc8a9782c9af326f30cbdd61) -->
 

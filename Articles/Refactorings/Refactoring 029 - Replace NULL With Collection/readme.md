@@ -51,7 +51,7 @@ This keeps your code declarative, eliminates null-pointer risks, and aligns your
 
 # Sample Code 💻
 
-## Before  🚨
+## Before 🚨
 
 <!-- [Gist Url](https://gist.github.com/mcsee/610e138b0ea61252ea4c40cb4e1bd494) -->
 

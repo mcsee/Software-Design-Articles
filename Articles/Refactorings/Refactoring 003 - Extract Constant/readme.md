@@ -38,7 +38,7 @@ You provide a single source of truth that explains the Why behind the What, maki
 
 2. Replace the values with a reference to the constant.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Before 🚨 
 

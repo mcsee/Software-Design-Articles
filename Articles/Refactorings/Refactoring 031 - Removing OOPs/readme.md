@@ -55,7 +55,7 @@ This approach separates the technical logging (the "How" for developers) from th
 
 # Sample Code 💻
 
-## Before  🚨
+## Before 🚨
 
 <!-- [Gist Url](https://gist.github.com/mcsee/f013d66121679aa736daa7900d3f3f40) -->
 

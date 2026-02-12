@@ -70,7 +70,7 @@ You can ensure that a "maximum" is always greater than a "minimum" at the moment
 
 # Sample Code 💻
 
-## Before  🚨
+## Before 🚨
 
 <!-- [Gist Url](https://gist.github.com/mcsee/0bd165efd528becd130a142cca8f7c2b) -->
 

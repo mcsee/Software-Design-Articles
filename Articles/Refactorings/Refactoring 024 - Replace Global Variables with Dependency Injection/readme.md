@@ -48,7 +48,7 @@ It moves your architecture away from a tangled web of shared state toward a clea
 
 # Sample Code 💻 
 
-## Before ❌
+## Before 🚨
 
 <!-- [Gist Url](https://gist.github.com/mcsee/3ced2217865cf3d02f8e5cf07231cf16) -->
 

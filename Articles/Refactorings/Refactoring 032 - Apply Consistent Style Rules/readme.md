@@ -57,7 +57,7 @@ When you anchor these rules in automated tools and git hooks, you ensure the Bij
 
 # Sample Code 💻
 
-## Before  🚨
+## Before 🚨
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d6eb4096c5009e6b0c788a488f32663c) -->
 

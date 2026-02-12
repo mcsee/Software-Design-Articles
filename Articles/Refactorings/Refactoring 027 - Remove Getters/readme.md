@@ -57,7 +57,7 @@ This keeps business rules where they belong, prevents information leakage, and e
 
 # Sample Code 💻
 
-## Before  🚨
+## Before 🚨
 
 <!-- [Gist Url](https://gist.github.com/mcsee/abe58a8e1901a83ecba8b3dca686f4f2) -->
 

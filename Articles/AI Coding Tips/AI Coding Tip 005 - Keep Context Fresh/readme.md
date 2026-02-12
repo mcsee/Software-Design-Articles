@@ -50,7 +50,7 @@ The assistant gets confused by irrelevant data from previous tasks and starts to
 * You avoid cascading failures in complex workflows.
 * You force yourself to write down agents.md or [skills.md](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20004%20-%20Use%20Modular%20Skills/readme.md) for the next task
 
-# Context 💬
+# Context 🧠
 
 Large Language Models use an "Attention" mechanism. 
 

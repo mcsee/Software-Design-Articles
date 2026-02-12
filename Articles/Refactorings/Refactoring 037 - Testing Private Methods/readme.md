@@ -53,7 +53,7 @@ This is a special case for the [Extract Method refactoring](https://github.com/m
 
 # Sample Code 💻
 
-## Before  🚨 
+## Before 🚨 
 
 <!-- [Gist Url](https://gist.github.com/mcsee/48219e56cf4a778e2ef635f9920ae954) -->
 
