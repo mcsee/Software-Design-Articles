@@ -12,7 +12,7 @@
 
 - Readability
 
-# Related Code Smells �
+# Related Code Smells 💨
 
 [Code Smell 05 - Comment Abusers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
 
@@ -44,7 +44,7 @@ Instead of telling the reader what the code is supposed to do, you provide an ex
 
 4. Omit irrelevant implementation details.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Before 🚨 
 

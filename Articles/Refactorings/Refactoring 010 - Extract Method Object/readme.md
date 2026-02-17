@@ -54,7 +54,7 @@ You transform a rigid procedure into a testable, reusable component that can eve
 
 5. Remove parameters from method invocation by also converting them to private attributes 
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Before 🚨 
 

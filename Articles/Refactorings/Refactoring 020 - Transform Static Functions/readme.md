@@ -46,7 +46,7 @@ You move from a rigid, global structure to a flexible design where behavior is e
 
 4. Refactor clients to interact with objects instead of static functions.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Before 🚨 
 

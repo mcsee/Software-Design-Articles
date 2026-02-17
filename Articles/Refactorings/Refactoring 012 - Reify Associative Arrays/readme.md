@@ -35,7 +35,7 @@ You have anemic associative arrays that hold unstructured data and you want to h
     
 (if you are using TCR, you can do baby refactoring steps)
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Before 🚨 
 

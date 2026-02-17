@@ -35,7 +35,7 @@ It transforms your code from a collection of leaked data into a set of robust, s
 
 1. Change the visibility of your attributes from public to private.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Before 🚨 
 

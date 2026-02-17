@@ -6,7 +6,7 @@
 
 > TL;DR: Replace restrictive inheritance hierarchies with flexible object delegation
 
-# Problems Addressed 🤯
+# Problems Addressed 😔
 
 - Liskov substitution violation
 - Rigid class hierarchy
@@ -15,7 +15,7 @@
 - Limited Reusability
 - Single Responsibility principle violation
 
-# Related Code Smells 🧑‍💻
+# Related Code Smells 💨
 
 [Code Smell 290 - Refused Bequest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20290%20-%20Refused%20Bequest/readme.md)
 
@@ -131,7 +131,7 @@ final class Robot {
 }
 ```
 
-# Type 🛠️
+# Type 📝
 
 [X] Semi-Automatic
 

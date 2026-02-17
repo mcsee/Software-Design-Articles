@@ -32,7 +32,7 @@ This ensures the variable's purpose remains clear even when the assignment and i
 
 1. Name the variable with the same name as the last function call.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Before 🚨 
 

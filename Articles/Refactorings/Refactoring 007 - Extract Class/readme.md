@@ -42,7 +42,7 @@ You are not just moving code; you are discovering the missing abstractions in yo
 
 2. Use the new concept
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Before 🚨 
 

@@ -42,7 +42,7 @@ You also create [brittle tests](https://github.com/mcsee/Software-Design-Article
 
 Instead of chaining, introduce clear responsibilities and let each class talk only to its direct acquaintances.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -47,7 +47,7 @@ It turns your data structures into robust, reliable domain components.
 3. Remove setter and getter methods 
 4. Update object creation calls to pass all required attributes upfront
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Before 🚨 
 

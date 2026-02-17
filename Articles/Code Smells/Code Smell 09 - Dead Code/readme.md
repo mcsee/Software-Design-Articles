@@ -39,7 +39,7 @@ When you do that, you lie about what the system can actually do.
 
 The code promises behavior that never happens.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

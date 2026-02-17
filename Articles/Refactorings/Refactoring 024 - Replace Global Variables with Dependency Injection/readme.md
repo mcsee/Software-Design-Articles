@@ -129,7 +129,7 @@ apiService.fetchOuties();
 
 This refactoring is safe if you audit all global variable references and thoroughly test the code after injection.
 
-# Why is the Code Better? 🌱
+# Why is the Code Better? ✨
 
 Testability: Dependencies can be replaced (not [mocked](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md)) for unit tests.
 
@@ -169,7 +169,7 @@ Over-injection can lead to [parameter bloat](https://github.com/mcsee/Software-D
 
 [X] Intermediate
 
-# Related Refactorings 👩‍❤️‍💋‍�
+# Related Refactorings 🔄
 
 [Refactoring 018 - Replace Singleton](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20018%20-%20Replace%20Singleton/readme.md)
 

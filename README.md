@@ -992,3 +992,5 @@ In this repository, you will find many articles related to Software Design
 
 * [AI Coding Tip 006 - Review Every Line Before Commit](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20006%20-%20Review%20Every%20Line%20Before%20Commit/readme.md)
 
+* [AI Coding Tip 007 - Avoid Malicious Skills](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20007%20-%20Avoid%20Malicious%20Skills/readme.md)
+

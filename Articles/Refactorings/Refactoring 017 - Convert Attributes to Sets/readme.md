@@ -39,7 +39,7 @@ It turns messy state tracking into a clean, mathematical model of your domain.
 2. Replace the attributes with sets: one for each state
 3. Adjust methods to move items between sets instead of mutating attributes
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Before 🚨 
 

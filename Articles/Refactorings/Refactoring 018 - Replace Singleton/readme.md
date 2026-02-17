@@ -39,7 +39,7 @@ This decouples your components and allows you to swap real implementations for m
 3. Refactor the singleton to a standard class
 4. Inject it as a dependency
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Before 🚨 
 

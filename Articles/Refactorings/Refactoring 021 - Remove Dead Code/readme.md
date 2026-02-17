@@ -54,7 +54,7 @@ Clean your house; keep only what lives.
 
 5. Perform comprehensive regression testing on your code. 
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Before 🚨 
 

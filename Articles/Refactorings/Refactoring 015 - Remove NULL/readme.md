@@ -60,7 +60,7 @@ These steps are a special case of [Remove IF Refactoring](https://github.com/mcs
 
 2. Replace null checks with the polymorphic Null Object
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Before 🚨 
 

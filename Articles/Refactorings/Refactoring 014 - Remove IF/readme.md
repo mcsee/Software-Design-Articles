@@ -56,7 +56,7 @@ The result is a system that is easier to extend, less prone to "Stairs Code" or 
 
 5. Replace if Statements with Polymorphic Message Sends
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Before 🚨 
 

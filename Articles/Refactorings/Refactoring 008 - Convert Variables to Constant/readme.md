@@ -42,7 +42,7 @@ It’s about being honest with your intentions: if it shouldn't mutate, don't le
 
 3. Replace the variable 
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Before 🚨 
 

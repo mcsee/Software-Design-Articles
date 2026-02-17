@@ -42,7 +42,7 @@ This strengthens the Bijection between your code and the real world, turning a g
 2. Create an `Email Address` class to encapsulate validation rules.
 3. Refactor code to use the `Email Address` class instead of raw strings.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Before 🚨 
 

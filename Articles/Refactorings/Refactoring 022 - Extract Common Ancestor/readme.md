@@ -48,7 +48,7 @@ You eliminate duplication while providing a stable, declarative contract for the
 3. Move common logic to the abstract class
 4. Update subclasses to inherit from the abstract class
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Before 🚨 
 
