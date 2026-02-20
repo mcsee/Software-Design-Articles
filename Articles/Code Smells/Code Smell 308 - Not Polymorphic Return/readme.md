@@ -59,9 +59,9 @@ Methods should return specific types that clearly communicate their intent and a
 
 > Two methods are polymorphic if their signatures are the same, the arguments are polymorphic, AND the return is also **polymorphic**.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/5bae947aa6410789541e18ab9f4e24b8) -->
 

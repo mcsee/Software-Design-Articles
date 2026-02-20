@@ -24,7 +24,7 @@
 
 There's no need to use them once our code is mature, robust, and without nulls.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

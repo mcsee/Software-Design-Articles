@@ -34,7 +34,7 @@ We should only use IDs when exposing internal resources to the *outer world* bey
 
 These are always [accidental problems](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md) and should not interfere with our models.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -38,7 +38,7 @@ You force your callers to remember rules that belong to the domain.
 
 When you do this, you move behavior away from meaningful objects, and you replace intent with mechanics.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

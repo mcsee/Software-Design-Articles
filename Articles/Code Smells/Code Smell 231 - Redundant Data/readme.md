@@ -34,7 +34,7 @@ With a single source of truth, you only need to make changes in one place, simpl
 
 When data is repeated in multiple places, it becomes difficult to identify the authoritative source of that data, leading to confusion for developers.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

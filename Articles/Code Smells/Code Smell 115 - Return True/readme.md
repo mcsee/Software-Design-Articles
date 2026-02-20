@@ -26,7 +26,7 @@ Dealing with low-level abstractions, we usually return booleans.
 
 When we create complex and mature software, we start to forget about this primitive obsession and care about [real-world](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) rules and identities.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

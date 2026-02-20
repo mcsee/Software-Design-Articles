@@ -24,7 +24,7 @@ Some prefer [camelCase](https://en.wikipedia.org/wiki/Camel_case)🐫, others [s
 
 Code should be straightforward and readable.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

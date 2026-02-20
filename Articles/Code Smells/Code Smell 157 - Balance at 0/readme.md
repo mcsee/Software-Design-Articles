@@ -32,7 +32,7 @@ It was just a UX smell.
 
 The blockchain was unreachable 💩
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

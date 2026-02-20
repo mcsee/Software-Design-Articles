@@ -46,7 +46,7 @@ You might anticipate future problems that might never happen or try to make your
 
 Simple code is easier to maintain, debug, and understand.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -62,9 +62,9 @@ When you identify an anemic model in your code, it's a sign that you're missing 
 
 Rich domain models lead to code that's more maintainable, testable, and closer to how you think about the problem domain.
 
-# Sample Code 💬
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/73f84d80f7c3e89a216dd9e40ab71bcc) -->
 

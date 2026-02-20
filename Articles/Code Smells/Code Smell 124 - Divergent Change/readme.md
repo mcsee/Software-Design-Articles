@@ -23,7 +23,7 @@ We create classes to fulfill responsibilities.
 
 If an object does too much, it might change in different directions.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

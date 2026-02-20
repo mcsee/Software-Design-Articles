@@ -26,7 +26,7 @@ In reality, there is no landmass at this location, and it is actually in the mid
 
 This point has become a popular reference for geographic information systems (GIS) and mapping software, as it serves as a way to filter out errors in location data.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

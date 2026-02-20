@@ -36,7 +36,7 @@
 
 - Class Naming
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

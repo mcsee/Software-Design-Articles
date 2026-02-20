@@ -22,7 +22,7 @@ Our profession has a creative side.
 
 Sometimes we get bored and try to be funny.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

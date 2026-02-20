@@ -55,9 +55,9 @@ You need to address the technical debt by prioritizing code with poor quality an
 
 Everything else is premature optimization disguised as craftsmanship.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/b319b1580d4c4a6c8bd8cf25f66e1d7f) -->
 

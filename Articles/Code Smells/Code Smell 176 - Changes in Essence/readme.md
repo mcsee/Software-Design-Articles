@@ -36,7 +36,7 @@ The man stays the same in essence. But his body evolves.
 
 [Refactoring 001 - Remove Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20001%20-%20Remove%20Setters/readme.md)
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

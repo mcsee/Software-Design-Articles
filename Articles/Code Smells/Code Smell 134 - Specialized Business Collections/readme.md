@@ -22,7 +22,7 @@ Discovering abstractions on the [MAPPER](https://github.com/mcsee/Software-Desig
 
 After refining we should remove unneeded abstractions.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

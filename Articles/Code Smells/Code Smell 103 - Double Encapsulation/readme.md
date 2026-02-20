@@ -34,7 +34,7 @@ For example, we can change an object internal representation and rely on its ext
 
 Cost/benefit is not worth it.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -44,7 +44,7 @@ Future maintainers must guess their meaning, increasing the risk of errors when 
 
 Constants help, but naming them meaningfully and placing them in the right context is what turns a magic number into a reliable, self-explanatory part of your code.
 									  
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

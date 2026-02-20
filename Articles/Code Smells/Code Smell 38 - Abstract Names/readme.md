@@ -24,7 +24,7 @@
 
 4. Use [rules](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md) for naming.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

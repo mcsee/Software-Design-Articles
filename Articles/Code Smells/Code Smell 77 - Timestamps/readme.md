@@ -24,7 +24,7 @@
 
 2. If you need to model a sequence, [model a sequence](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -38,7 +38,7 @@
 
 - Algorithm choice.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

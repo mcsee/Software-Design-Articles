@@ -40,7 +40,7 @@ True inheritance should follow the Liskov Substitution Principle - the subclass 
 
 If you're inheriting just to access convenient methods, use composition instead. It provides the same code reuse with much looser coupling.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

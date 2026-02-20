@@ -24,7 +24,7 @@ You can read a full article here:
 
 [How a Hacker Stole $566M USD Exploiting a Code Smell](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Security/How%20a%20Hacker%20Stole%20$566M%20USD%20Exploiting%20a%20Code%20Smell/readme.md)
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

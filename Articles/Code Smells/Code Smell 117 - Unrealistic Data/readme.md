@@ -34,7 +34,7 @@ Using Agile methodologies, we need to test with real-world data.
 
 If we find an error in a production system, we need to add a case covering the exact mistake with real data.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

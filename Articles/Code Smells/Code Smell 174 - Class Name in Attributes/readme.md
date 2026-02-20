@@ -18,7 +18,7 @@
 
 This is a naming smell, we should not read attributes in isolation and names are contextual.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

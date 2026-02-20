@@ -32,7 +32,7 @@
 
 - Some persistence frameworks in static typed languages require an empty constructor.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

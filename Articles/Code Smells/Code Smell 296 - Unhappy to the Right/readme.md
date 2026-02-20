@@ -35,9 +35,9 @@ This becomes even more problematic when dealing with internationalization and lo
 
 Nested conditionals often create fragmented contexts for strings, making accurate translations difficult because translators lose the surrounding context needed for proper translation.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/787e440619c8eb79915c985b562fbf64) -->
 

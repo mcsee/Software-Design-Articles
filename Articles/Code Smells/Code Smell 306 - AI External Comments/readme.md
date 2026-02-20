@@ -48,9 +48,9 @@ A unit test is more effective than any link. It defines what the code does and w
 
 Comments and documentation often lie. Code never does.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/678984d90ee84b3657ea1f9f26b7ae6e) -->
 

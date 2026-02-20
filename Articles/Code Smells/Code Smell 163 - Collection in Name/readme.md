@@ -32,7 +32,7 @@ We avoid [nulls](https://github.com/mcsee/Software-Design-Articles/tree/main/Art
 
 We often use bad and vague names instead of looking for good names in the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md).
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

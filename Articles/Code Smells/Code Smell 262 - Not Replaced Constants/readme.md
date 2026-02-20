@@ -34,7 +34,7 @@ The vulnerability stems from vendors failing to replace a "DO NOT TRUST" Secure 
 
 This oversight left countless devices open to exploitation, allowing threat actors to bypass security measures and install malicious software.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

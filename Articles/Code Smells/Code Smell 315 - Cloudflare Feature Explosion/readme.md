@@ -78,9 +78,9 @@ The Technical Chain of Events
 
 The estimated financial impact across affected businesses ranges from $180-360 million.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/a2c931e606e42297a1933dc092cf0f87) -->
 

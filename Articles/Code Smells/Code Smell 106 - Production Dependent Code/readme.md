@@ -24,7 +24,7 @@ For example the strength of the passwords.
 
 In this case, we need to configure the environment with the strength strategy and test the strategy and not the environment itself.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

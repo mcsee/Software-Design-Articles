@@ -22,7 +22,7 @@
 
 3. Model Infinites carefully.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

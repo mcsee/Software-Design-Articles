@@ -42,7 +42,7 @@ You parse, explode, and regex your way around instead of modeling the domain.
 
 This creates fragile code that breaks with small input changes.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

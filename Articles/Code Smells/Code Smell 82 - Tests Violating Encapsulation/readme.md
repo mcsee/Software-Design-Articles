@@ -22,7 +22,7 @@
 
 3. If you cannot control your object, you are coupled. Decouple them!
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

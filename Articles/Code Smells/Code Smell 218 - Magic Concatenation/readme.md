@@ -28,7 +28,7 @@ Many programming languages favor laziness over readability and clean code.
 
 You should use them with caution and trust your tests.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

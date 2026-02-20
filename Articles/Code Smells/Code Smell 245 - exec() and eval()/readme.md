@@ -26,7 +26,7 @@ Developers employ the eval() and exec() functions to evaluate arbitrary expressi
 
 They can be a powerful tool in certain contexts but come with several risks and problems, especially when used with untrusted input or where the code's behavior is not fully controlled or understood. 
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

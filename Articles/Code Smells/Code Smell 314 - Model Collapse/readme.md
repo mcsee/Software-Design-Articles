@@ -71,9 +71,9 @@ You lose the shape of the system.
 
 This is slow erosion.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/4b8324539feec8b65b6c0d5c8a4d59b7) -->
 

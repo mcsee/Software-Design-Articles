@@ -38,7 +38,7 @@ Spaces are more predictable and easier to read, which can help to reduce errors 
 
 Some screen readers and other assistive technologies may have difficulty reading code that uses tabs for indentation, particularly when tabs are used inconsistently or when tab width is not uniform.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

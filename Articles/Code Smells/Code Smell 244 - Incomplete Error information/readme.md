@@ -22,7 +22,7 @@ When you are reporting an error, either via an information text in the UI, by pr
 
 This is very relevant when dealing with complex scenarios, large objects, or arrays with minimal mistakes.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

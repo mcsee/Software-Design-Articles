@@ -51,9 +51,9 @@ Does it track creation time? Publication date? Expiration date? Last modificatio
 
 The ambiguity creates maintenance overhead and increases the likelihood of defects when you mix up different date purposes.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/893e84070f24f645db20d4f74d358bdf) -->
 

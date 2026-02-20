@@ -53,7 +53,7 @@ This makes finding the root cause very difficult.
 
 You must ensure that once you create an object, it remains valid from the very birth throughout its entire lifecycle.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

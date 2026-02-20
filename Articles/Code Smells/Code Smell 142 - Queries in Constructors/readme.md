@@ -26,7 +26,7 @@ Constructors should never have side effects.
 
 According to the single responsibility principle, they should only build *valid* objects
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

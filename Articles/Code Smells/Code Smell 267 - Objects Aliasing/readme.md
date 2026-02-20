@@ -35,7 +35,7 @@ Immutable objects mitigate this risk by ensuring you cannot change their interna
 
 [Collection Aliasing](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20266%20-%20Collection%20Aliasing/readme.md) is a notable example of this issue.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

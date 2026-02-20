@@ -41,7 +41,7 @@ If it ignores or overrides most of it, you probably force inheritance where it d
 
 This makes the code misleading and hard to maintain.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

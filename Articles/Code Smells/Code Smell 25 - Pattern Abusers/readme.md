@@ -22,7 +22,7 @@
 
 4. User [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) technique to find [bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) real entities.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

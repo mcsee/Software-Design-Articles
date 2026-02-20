@@ -20,7 +20,7 @@ Creating an empty implementation might seem fine to jump to more interesting pro
 
 The code left won't fail fast so debugging it will be a bigger problem
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

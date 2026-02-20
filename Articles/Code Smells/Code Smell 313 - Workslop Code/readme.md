@@ -49,9 +49,9 @@ You copy and paste code without reviewing it, which often leads to catastrophic 
 
 [From Helpful to Harmful: How AI Recommendations Destroyed My OS](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Artificial%20Intelligence/From%20Helpful%20to%20Harmful%20How%20AI%20Recommendations%20Destroyed%20My%20OS/readme.md)
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/0a15900d7bfa2315e7d62d1c07f08d03) -->
 

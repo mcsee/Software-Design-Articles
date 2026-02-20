@@ -28,7 +28,7 @@
 
 [Metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md) is a powerful technique that allows you to write code that can generate, modify, or analyze other code at runtime. However, it can also lead to code that is difficult to understand, maintain, and debug. 
   
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

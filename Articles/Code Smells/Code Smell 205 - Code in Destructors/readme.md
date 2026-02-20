@@ -30,7 +30,7 @@ In the past, we had no garbage collectors and destructors were responsible for c
 
 Nowadays, object destruction is automatic in most modern programming languages. 
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -22,7 +22,7 @@ You name things and lose the scope of the name.
 
 It is important to be accurate of the expected reference on the names.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -34,7 +34,7 @@
 
 - Static attributes
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

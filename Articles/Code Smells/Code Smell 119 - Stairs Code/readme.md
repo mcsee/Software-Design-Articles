@@ -24,7 +24,7 @@
 
 When dealing with boolean formulas, it is more readable to show a business boolean formula than a stair of boolean checks followed by returning an explicit true/false;
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

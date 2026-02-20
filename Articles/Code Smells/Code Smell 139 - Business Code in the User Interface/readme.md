@@ -32,7 +32,7 @@ Building a system with UI validations might evolve to an API or external compone
 
 We need to validate objects on the back-end and send good validation errors to client components.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

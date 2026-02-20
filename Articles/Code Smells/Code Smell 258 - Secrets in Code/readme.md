@@ -36,7 +36,7 @@ Use a secret manager to store and manage your secrets.
 
 This strategy will reduce the risk of data breaches and make it easier to update and rotate secrets as needed.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

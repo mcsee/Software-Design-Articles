@@ -34,7 +34,7 @@ Now, we need to think in terms of behavior.
 
 Behavior is essential, data is [accidental](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md).
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 
@@ -89,7 +89,7 @@ class ComplexNumber extends Number {
 class RealNumber extends Number { }
 ```
 
-# Detection 
+# Detection 🔍
 
 [X] Manual
 

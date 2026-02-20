@@ -26,7 +26,7 @@
 
 Outputting to the console within an internal function generates coupling and side effects
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

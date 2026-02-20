@@ -26,7 +26,7 @@ This property allows for easier reasoning about the behavior of a program and en
 
 Functions are treated as mathematical expressions that map inputs to outputs.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

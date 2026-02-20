@@ -36,7 +36,7 @@ Premature optimization often has no evidence of solving real problems.
 
 We need to surgically improve our code when the facts tell us we have a real issue.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

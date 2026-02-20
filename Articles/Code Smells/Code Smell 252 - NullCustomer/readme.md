@@ -26,7 +26,7 @@ You need to search for these abstractions in the real world and name them after 
 
 Null Customers don't exist in the same way [NULL](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md) doesn't exist.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

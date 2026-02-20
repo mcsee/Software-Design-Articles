@@ -50,7 +50,7 @@ Real-world entities rarely have just two states.
 
 A traffic light isn't "on" or "off"—it's red, yellow, or green. An order isn't just "paid" or "unpaid"—it might be pending, processed, shipped, or delivered. 
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

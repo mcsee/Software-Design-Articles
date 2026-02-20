@@ -20,7 +20,7 @@ On early programming days, we privileged the systems running before error handli
 
 We have evolved.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

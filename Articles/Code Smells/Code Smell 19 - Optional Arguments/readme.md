@@ -26,7 +26,7 @@
 
 3. Use *Named Parameters* if your language supports them.
  
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

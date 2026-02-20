@@ -26,7 +26,7 @@
 
 - State diagrams
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -22,7 +22,7 @@
 Several old tutorials use the word 'my' as a lazy name. 
 This is vague and lead to context mistakes.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

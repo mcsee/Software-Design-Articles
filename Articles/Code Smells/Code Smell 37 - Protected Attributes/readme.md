@@ -21,7 +21,7 @@
 3. Extract behavior to separate objects.
 4. Use [traits](https://en.wikipedia.org/wiki/Trait_(computer_programming) (if available).
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

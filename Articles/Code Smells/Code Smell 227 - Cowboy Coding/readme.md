@@ -32,7 +32,7 @@ Cowboy coding is generally considered an unprofessional and risky approach to so
 
 Cowboy Programmers are good people; however, [they cannot work in a group](https://www.linkedin.com/pulse/software-development-cowboy-coding-hakan-atba%C5%9F/).
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

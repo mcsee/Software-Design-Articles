@@ -26,7 +26,7 @@
 
 - Type Casting
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

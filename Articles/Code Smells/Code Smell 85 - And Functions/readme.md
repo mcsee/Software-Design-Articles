@@ -18,7 +18,7 @@
 
 1. Break the function
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

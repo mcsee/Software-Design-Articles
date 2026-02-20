@@ -26,7 +26,7 @@
 
 If you name a method with 'And' you are probably missing an extract-and-break method opportunity.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

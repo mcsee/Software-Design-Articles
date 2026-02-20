@@ -22,7 +22,7 @@ Refactoring is not just looking at structural code.
 
 We need to refactor behavior and check if it needs an abstraction.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

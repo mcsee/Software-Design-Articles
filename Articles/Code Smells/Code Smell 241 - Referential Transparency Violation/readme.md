@@ -26,7 +26,7 @@ Breaking referential transparency occurs when the code introduces side effects o
 
 This violates the principle that an expression or function can be replaced with its value without changing the program's behavior.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

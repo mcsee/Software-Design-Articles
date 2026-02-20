@@ -30,7 +30,7 @@ We should optimize code based on evidence and use the scientific method.
 
 We should benchmark only if necessary and improve code only if really necessary and bear the cost of changeability and maintainability.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

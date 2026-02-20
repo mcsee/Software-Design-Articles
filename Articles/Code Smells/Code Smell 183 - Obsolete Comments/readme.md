@@ -28,7 +28,7 @@ We need to restrict comments only to very important decisions.
 
 Since most people change logic and forget to update comments they might become obsolete easily.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -30,7 +30,7 @@ The usual solution is to use threshold comparisons.
 
 We recommend avoiding floats at all and trying to use infinite precision numbers.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

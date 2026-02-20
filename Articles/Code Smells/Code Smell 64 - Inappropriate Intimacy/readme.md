@@ -25,7 +25,7 @@
 
 [Refactoring](https://refactoring.com/catalog/replaceSuperclassWithDelegate.html)
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

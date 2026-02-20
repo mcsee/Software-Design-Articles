@@ -30,7 +30,7 @@ This is a primitive obsession smell.
 
 A *wordle word* is a subset of String.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

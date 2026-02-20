@@ -36,7 +36,7 @@ I am not a Native English speaker.
 
 My code (tries to be) in English.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

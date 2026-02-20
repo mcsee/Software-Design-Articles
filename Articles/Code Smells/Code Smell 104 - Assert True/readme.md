@@ -24,7 +24,7 @@ They just tell us something failed.
 
 Error tracking gets more difficult.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

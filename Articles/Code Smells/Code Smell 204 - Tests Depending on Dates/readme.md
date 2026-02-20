@@ -24,7 +24,7 @@ I read a [Tweet](https://twitter.com/housecor/status/1639975667713409030) about 
 The test will fail in an unpredictable way preventing releases and breaking CI/CD pipeline.
 There are also other bad examples we will never reach some date, tests running at midnight, different timezones, etc.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -32,7 +32,7 @@ If the intended destination file has the same name as a directory in the path, c
 
 This can be confusing and lead to data loss.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

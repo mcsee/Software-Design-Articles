@@ -41,9 +41,9 @@ Also, you don't cover real production code.
 
 You risk shipping testing behavior to production, leading to bugs and unpredictable behavior.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/55c3d81ffe4d3555663b24d02e10d433) -->
 

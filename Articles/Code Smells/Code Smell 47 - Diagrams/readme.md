@@ -32,7 +32,7 @@
 
 - [Automatic Code Generators](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20II%20-%20Code%20Wizards/readme.md)
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

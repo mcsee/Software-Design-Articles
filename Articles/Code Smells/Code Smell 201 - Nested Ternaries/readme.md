@@ -22,7 +22,7 @@ Nesting is always a problem with complexity.
 
 We can fix it with polymorphism or early returns
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

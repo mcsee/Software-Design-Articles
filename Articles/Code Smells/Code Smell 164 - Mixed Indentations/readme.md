@@ -30,7 +30,7 @@ Spaces always count as one.
 
 Tabs can count as many different options.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

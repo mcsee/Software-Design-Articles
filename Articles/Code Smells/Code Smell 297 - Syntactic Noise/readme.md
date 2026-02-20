@@ -45,9 +45,9 @@ Just as excessive punctuation!!! makes text!!?!? hard to read!!!
 
 Excessive syntactic noise creates similar barriers in code.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/fc3d83aa6cf837463b5dae2137aa5881) -->
 

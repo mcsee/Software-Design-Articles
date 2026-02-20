@@ -34,7 +34,7 @@ Main branches: You can replace "master" with "main".
 
 Master/Slave: You can replace them with Primary/Replica/Mirror etc.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

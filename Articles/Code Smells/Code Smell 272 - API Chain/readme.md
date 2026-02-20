@@ -39,7 +39,7 @@ Instead of verifying resource creation through a *GET* and inspecting the JSON r
 
 Check if the *POST* succeeded by validating the status code or checking the resource's existence.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

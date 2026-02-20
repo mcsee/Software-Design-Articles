@@ -32,7 +32,7 @@ A string with an evil pattern is passed to an application. Then this string is u
 
 A string with a vector attack format is passed to an application. Then this string is evaluated by a vulnerable regex, which leads to ReDoS.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

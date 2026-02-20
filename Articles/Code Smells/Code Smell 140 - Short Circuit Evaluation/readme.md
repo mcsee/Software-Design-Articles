@@ -26,7 +26,7 @@ Boolean's truth tables are great for mathematics, but we need to be more intelli
 
 Short circuit evaluation helps us to be lazy and even build invalid full evaluations.  
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

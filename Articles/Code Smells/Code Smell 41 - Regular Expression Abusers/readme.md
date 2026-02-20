@@ -22,7 +22,7 @@
 
 2. If you need to manipulate objects, don't make them strings. 
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

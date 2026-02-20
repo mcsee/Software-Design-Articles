@@ -20,7 +20,7 @@
 
 When using names, we often miss that words are contextual and need to be read as a whole sentence.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

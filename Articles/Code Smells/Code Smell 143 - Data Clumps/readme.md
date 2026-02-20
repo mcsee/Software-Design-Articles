@@ -30,7 +30,7 @@ This smell is friends with primitive obsession.
 
 If two or more primitive objects are glued together, with business logic repeated and rules between them, we need to find the existing concept on the [bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

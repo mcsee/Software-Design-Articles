@@ -26,7 +26,7 @@ GOTO was heavily abused there.
 
 I had to learn structured programming from scratch in Rehab mode.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

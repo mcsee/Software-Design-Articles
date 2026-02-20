@@ -28,7 +28,7 @@ As always, it is not important if something is constant.
 
 It is important if it doesn't mutate.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

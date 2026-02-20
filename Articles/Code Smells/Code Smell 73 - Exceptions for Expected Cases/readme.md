@@ -18,7 +18,7 @@
 
 2. Exceptions handle [contract violations](https://en.wikipedia.org/wiki/Design_by_contract). Read the contract.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

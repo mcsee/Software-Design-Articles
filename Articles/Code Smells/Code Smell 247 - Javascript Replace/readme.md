@@ -28,7 +28,7 @@ When you use them, you agree on some semantics that are not the actual behavior.
 
 Consequently, you must know accidental implementations to avoid this [defect](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quality/Stop%20Calling%20them%20'Bugs'/readme.md).
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

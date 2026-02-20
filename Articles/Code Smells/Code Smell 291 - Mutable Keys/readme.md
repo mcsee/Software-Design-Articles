@@ -26,9 +26,9 @@ When you use mutable objects as keys in [hashed collections](https://en.wikipedi
 
 This happens because the hash code changes and the collection can't find the object in the correct bucket.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/79f635350a20784cfa16a8400b3825f5) -->
 

@@ -22,7 +22,7 @@
 
 [Refactoring 006 - Rename Result Variables](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20006%20-%20Rename%20Result%20Variables/readme.md)
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

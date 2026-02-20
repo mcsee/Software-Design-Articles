@@ -36,7 +36,7 @@ Therefore we need to promote it to a constant.
 
 This will also avoid [Magic Constants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2002%20-%20Constants%20and%20Magic%20Numbers/readme.md)
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

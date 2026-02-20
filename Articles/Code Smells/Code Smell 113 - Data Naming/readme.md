@@ -28,7 +28,7 @@ Using this kind of name favors the anemic treatment of objects.
 
 We should think about domain-specific and role-suggesting names.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

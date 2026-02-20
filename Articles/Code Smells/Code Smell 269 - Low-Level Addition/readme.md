@@ -29,7 +29,7 @@ Using language high-level functions, you can make your code shorter, clearer, an
 
 It tells you exactly what the code is doing and not how it is doing it.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

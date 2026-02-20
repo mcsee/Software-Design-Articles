@@ -20,7 +20,7 @@
 
 2. Share guides for problem-solving
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

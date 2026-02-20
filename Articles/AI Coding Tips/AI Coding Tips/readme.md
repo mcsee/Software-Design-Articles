@@ -20,4 +20,6 @@ In this series, you will learn practical state-of-the-art advices to use the AI 
 
 [AI Coding Tip 006 - Review Every Line Before Commit](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20006%20-%20Review%20Every%20Line%20Before%20Commit/readme.md)
 
+[AI Coding Tip 007 - Avoid Malicious Skills](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20007%20-%20Avoid%20Malicious%20Skills/readme.md)
+
 ... more coming soon!

@@ -29,7 +29,7 @@
 
 - Denormalized table rows
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

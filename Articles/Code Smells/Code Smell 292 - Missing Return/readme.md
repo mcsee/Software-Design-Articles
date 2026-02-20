@@ -31,9 +31,9 @@
 
 When you forget to return a value, your function keeps executing and your app might show incomplete or wrong information.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/85ddf9b20f667119b5a7d57a512ee1c1) -->
 

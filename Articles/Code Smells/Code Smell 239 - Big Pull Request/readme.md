@@ -26,7 +26,7 @@ When pull requests become very large, they can pose several challenges and probl
 
 You must avoid merge requests making different unrelated changes.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

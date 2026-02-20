@@ -49,9 +49,9 @@ While this can make your code concise, overusing it can lead to confusion, espec
 
 When you rely too much on fancy tricks like implicit returns or [ridiculous castings](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2069%20-%20Big%20Bang%20(JavaScript%20Ridiculous%20Castings)/readme.md), you risk making your code harder to understand and debug.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/f34e156d4c046b12e1ad27b0d7fb4eaf) -->
 

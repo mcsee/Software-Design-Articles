@@ -18,7 +18,7 @@
 
 1. Refactor it
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

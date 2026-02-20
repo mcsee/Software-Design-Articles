@@ -62,9 +62,9 @@ You violate the fundamental security principle: **never trust data from the UI**
 
 You must always use the canonical values from your database for security-critical operations.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/f9a92cb792212c40b0a3e2c503ab95df) -->
 

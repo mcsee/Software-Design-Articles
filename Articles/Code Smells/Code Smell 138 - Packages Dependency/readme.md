@@ -28,7 +28,7 @@ Recently, There's a trend to rely on a hard to trace dependencies.
 
 This introduces coupling into our designs and architectural solutions.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

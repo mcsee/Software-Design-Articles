@@ -28,7 +28,7 @@ These names load our models with cognitive translations hard to follow.
 
 We must [KISS](https://en.wikipedia.org/wiki/KISS_principle).
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

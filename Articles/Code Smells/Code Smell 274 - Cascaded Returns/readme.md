@@ -36,7 +36,7 @@ Cascaded returns can hide important logic deep within the function, making it ha
 
 You read through multiple branches to determine when and where the function ends.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

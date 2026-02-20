@@ -18,7 +18,7 @@
 
 2. You will be able to use yield(), caches, proxies, lazy loading and much more when you hide your implementation details.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

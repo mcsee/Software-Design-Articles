@@ -18,7 +18,7 @@
 
 2. Use [named parameters](https://en.wikipedia.org/wiki/Named_parameter)
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

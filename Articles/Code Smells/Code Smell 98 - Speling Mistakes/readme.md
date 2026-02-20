@@ -26,7 +26,7 @@ We need to have extra care for our texts and names.
 
 *This article has a typo in its title as proof of context and also a clickbait*😀
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

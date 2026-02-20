@@ -44,9 +44,9 @@ Performance is rarely a concern and optimizing string concatenation is a [Premat
 
 The clean code argument is always stronger than making premature optimizations thinking you are clever than the compiler.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/817c24c7df44cbac6d09c1d20407ea4c) -->
 

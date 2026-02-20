@@ -20,7 +20,7 @@ Readability
 
 2. Try to avoid flags. They generate coupling.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -22,7 +22,7 @@
 
 2. Use dynamic decorators
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

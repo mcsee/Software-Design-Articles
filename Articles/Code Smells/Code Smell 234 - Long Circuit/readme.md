@@ -20,7 +20,7 @@ Readability is always essential and you should avoid premature optimization.
 
 Non-premature optimization happens when you have actual evidence you can improve your code execution time without much readability penalizations.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

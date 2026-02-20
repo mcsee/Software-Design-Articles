@@ -42,7 +42,7 @@ Users notice this flaw and exploit it to make unauthorized purchases.
 
 The platform's revenue plummets, leading to bankruptcy.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

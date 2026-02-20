@@ -28,7 +28,7 @@ Afterward, we [Remove the IF](https://github.com/mcsee/Software-Design-Articles/
 
 That is when we miss the real cases.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

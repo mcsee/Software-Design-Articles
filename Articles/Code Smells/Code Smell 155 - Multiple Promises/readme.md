@@ -22,9 +22,9 @@ We heard about semaphores while studying Operating Systems.
 
 We should wait until all conditions are met no matter the ordering.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong 
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/08e94e3b7dbf0fd20cc1d9c296d6fdbc) -->
 

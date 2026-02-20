@@ -41,7 +41,7 @@ Whenever you get an external object you need to map it to your bijection corresp
 
 Once within your controlled system, rely on identity and forget equality issues.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -28,7 +28,7 @@ Our code should be dirty when programming and writing test cases fast.
 
 After we have good coverage we need to refactor and reduce methods.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

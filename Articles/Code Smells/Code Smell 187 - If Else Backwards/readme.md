@@ -22,7 +22,7 @@ There are lots of variants and choices.
 
 We need to pay special attention to readability.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

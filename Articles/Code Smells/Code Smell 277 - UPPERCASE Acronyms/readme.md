@@ -26,7 +26,7 @@ You may think *sendJSONRequestOnHTTPREST* is a clear name, but it makes your cod
 
 Treating acronyms like normal words in camelCase (*sendJsonRequest*) keeps your code more readable and easier to understand.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

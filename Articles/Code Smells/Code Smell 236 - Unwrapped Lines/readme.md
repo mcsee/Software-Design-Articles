@@ -28,7 +28,7 @@ It yields excessively long lines of code that extend beyond the typical width of
 
 While writing [my last book](https://cleancodecookbook.com/), people read the code on small devices so line wrapping is critical.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

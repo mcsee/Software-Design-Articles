@@ -36,7 +36,7 @@ That's not a problem.
 
 We just need to refactor.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

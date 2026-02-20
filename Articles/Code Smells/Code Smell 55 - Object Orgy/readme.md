@@ -18,7 +18,7 @@
 
 1. Couple to interfaces and behavior, never data.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

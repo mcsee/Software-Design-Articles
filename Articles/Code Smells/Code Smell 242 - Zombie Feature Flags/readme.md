@@ -36,7 +36,7 @@ Old code left active under a feature flag alongside new code caused the system t
 
 Within minutes, Knight Capital Group suffered losses of approximately $440 million, nearly bankrupting the firm. 
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

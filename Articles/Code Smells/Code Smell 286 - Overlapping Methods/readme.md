@@ -35,7 +35,7 @@ This is a problem most static languages have in their design
 
 This disconnect leads to bugs and makes your code hard to maintain.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

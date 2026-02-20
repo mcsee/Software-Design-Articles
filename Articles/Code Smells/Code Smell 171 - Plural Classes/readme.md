@@ -22,7 +22,7 @@ Naming things is hard.
 
 We need to agree on certain rules.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

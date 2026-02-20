@@ -24,7 +24,7 @@ Hard-coding *iF* conditions is great when doing [Test-Driven Development](https:
 
 We need to clean up stuff.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

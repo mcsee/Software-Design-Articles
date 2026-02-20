@@ -33,7 +33,7 @@ This was common in the 70s when *BASIC* encouraged *GOTO* for flow control. Whil
 
 *Spaghetti Code << Structured Programming << Object-Oriented Programming << Machine Learning Programming*
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

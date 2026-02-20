@@ -36,7 +36,7 @@ If you write a regex without tests, you're asking for unexpected errors.
 
 If you write a cryptic regex and skip automated testing, you could miss important cases, causing security issues or user frustration.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

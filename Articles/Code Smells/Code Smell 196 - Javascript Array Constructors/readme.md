@@ -24,7 +24,7 @@ Knowing them makes some developers proud and a sense of belonging to juniors.
 
 A language should be intuitive, homogeneous, predictable, simple, and pure.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

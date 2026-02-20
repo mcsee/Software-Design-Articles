@@ -48,7 +48,7 @@ Callers must guess your intent and add conditionals to protect themselves.
 
 You spread knowledge about internal states across your codebase.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

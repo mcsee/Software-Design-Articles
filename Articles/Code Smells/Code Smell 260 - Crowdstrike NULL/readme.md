@@ -56,7 +56,7 @@ In privileged drivers, null pointer usage poses significant risks. You can mitig
 
 [This problem](https://x.com/perpetualmaniac/status/1814376668095754753) caused one of the worst software blackouts in 2024.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

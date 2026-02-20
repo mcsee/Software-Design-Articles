@@ -34,7 +34,7 @@ The nickname "Elvis operator" originated from the visual resemblance of the oper
 
 The symbol "?:", with its round shape on top and a curl underneath, vaguely resembles the pompadour hairstyle that Elvis Presley was known for.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

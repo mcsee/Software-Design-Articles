@@ -20,7 +20,7 @@
 
 3. Don't test implementation.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

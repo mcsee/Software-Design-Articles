@@ -22,7 +22,7 @@
 
 Tests should be minimal and follow the SetUp/Exercise/Assert pattern
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -22,7 +22,7 @@
 
 A "red tape" code smell could relate to unnecessary complexity, bureaucracy, or excessive configuration that makes the codebase harder to understand or maintain. 
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -56,7 +56,7 @@ Later, those comments lie when you change the code but forget to update the expl
 
 Instead of helping, they hurt.  
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

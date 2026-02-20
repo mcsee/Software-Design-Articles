@@ -40,7 +40,7 @@ They contain declarations of functions, classes, variables, and other constructs
 
 These files serve as a way to share information about the structure and interface of a program or library across multiple source code files.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

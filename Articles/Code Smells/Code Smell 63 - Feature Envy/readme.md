@@ -24,7 +24,7 @@
 
 1. Move the method to the appropriate class.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

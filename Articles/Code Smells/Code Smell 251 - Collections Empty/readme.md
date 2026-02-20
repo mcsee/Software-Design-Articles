@@ -28,7 +28,7 @@ The semantics are clearer.
 
 Skipping this declarative method violating the collection encapsulation might have performance issues.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

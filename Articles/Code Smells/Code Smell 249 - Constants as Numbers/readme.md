@@ -40,7 +40,7 @@ New values can introduce errors and make maintenance more difficult.
 
 Saving attributes as *integers* to improve the persistence performance or space is a clear signal of [Premature Optimization](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2020%20-%20Premature%20Optimization/readme.md).
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

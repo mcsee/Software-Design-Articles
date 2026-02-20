@@ -28,7 +28,7 @@ Many IDEs favor this code smell.
 
 Some languages provide explicit support to build anemic models and DTOs.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

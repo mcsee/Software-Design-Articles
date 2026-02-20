@@ -33,7 +33,7 @@ DigiCert [recently encountered](https://thehackernews.com/2024/07/digicert-to-re
 
 This resulted in certificates being issued without proper validation and a cascade of broken sites with few advancement notices.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

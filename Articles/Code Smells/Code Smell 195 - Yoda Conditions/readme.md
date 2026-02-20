@@ -26,7 +26,7 @@ In fact, this is the correct order for assertions.
 
 In some languages, this style is used to avoid accidental assignment instead of equality comparison, which can result in a logic error in the code.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

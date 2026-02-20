@@ -30,7 +30,7 @@ Creating exceptions is the same as creating business objects and constructors sh
 
 Unless you throw them, it is **[dead code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2009%20-%20Dead%20Code/readme.md)**.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

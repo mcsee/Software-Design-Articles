@@ -43,7 +43,7 @@ Instead of exposing ambiguous behaviors that force the caller to infer functiona
 
 When you name functions descriptively, you eliminate unnecessary guesswork and align with this principle.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

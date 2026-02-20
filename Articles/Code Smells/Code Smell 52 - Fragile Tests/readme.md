@@ -30,7 +30,7 @@ Nevertheless, they mine the developers trust.
 
 We must avoid them.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -28,7 +28,7 @@ According to [Reuters](https://www.reuters.com/technology/how-secret-software-ch
 
 The code was explicit and developers were aware of that rule.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

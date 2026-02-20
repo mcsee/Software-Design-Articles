@@ -24,7 +24,7 @@
 
 3. If you think there's a performance penalty, make a serious benchmark instead of doing premature optimization.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

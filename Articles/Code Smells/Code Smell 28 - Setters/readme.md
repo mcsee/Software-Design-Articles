@@ -32,9 +32,9 @@
 
 - DTOs
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong 
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/7133ca38aceb3bace14d25548610f682) -->
 

@@ -39,7 +39,7 @@ Premature optimizators will argue that copying collections is an expensive opera
 
 This is a special case of [Object Aliasing](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20267%20-%20Objects%20Aliasing/readme.md).
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

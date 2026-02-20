@@ -26,7 +26,7 @@ This is a special case of a God Object restricted only to constant definitions.
 
 The repository can be a class, file, or JSON. 
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

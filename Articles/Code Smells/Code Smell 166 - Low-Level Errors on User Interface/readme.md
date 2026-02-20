@@ -28,7 +28,7 @@
 
 Even in 2022, we can see "serious" websites showing casual users a stack or debugging message.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

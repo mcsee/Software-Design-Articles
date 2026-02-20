@@ -30,7 +30,7 @@ If you need to enforce an arbitrary limit, add these business rules in your obje
 
 Adding this control only in the UI or external API is another code smell about misplaced responsibilities.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

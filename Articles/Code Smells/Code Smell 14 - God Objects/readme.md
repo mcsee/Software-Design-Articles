@@ -44,7 +44,7 @@ Libraries and [utility](https://github.com/mcsee/Software-Design-Articles/tree/m
 
 Object-oriented design distributes responsibilities across many focused objects.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

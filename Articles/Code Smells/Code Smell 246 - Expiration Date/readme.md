@@ -28,7 +28,7 @@ This can lead to potential issues and misunderstandings, especially when dealing
 
 It's generally considered a better practice to represent the expiry date with an adequate object.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

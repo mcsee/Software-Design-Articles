@@ -42,7 +42,7 @@ However, when you pass a pointer to an object, you can modify the original objec
 
 On the contrary, functional languages forbid this mechanism completely. 
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

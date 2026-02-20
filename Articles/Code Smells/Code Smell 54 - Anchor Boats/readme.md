@@ -18,7 +18,7 @@
 
 2. Leave covered and real tested code.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

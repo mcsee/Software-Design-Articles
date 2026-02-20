@@ -45,7 +45,7 @@ When you name a variable *dirName* instead of directoryName it leads to ambiguit
 
 Clear and descriptive variable names improve code readability and maintainability, especially in collaborative environments.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

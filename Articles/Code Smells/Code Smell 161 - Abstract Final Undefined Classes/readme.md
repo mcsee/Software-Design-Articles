@@ -26,7 +26,7 @@ Managing hierarchies and composition is the main task of a good software designe
 
 Keeping hierarchies healthy is crucial to favor cohesion and avoid [coupling](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md).
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

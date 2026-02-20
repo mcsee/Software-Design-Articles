@@ -36,7 +36,7 @@ You can avoid this by asserting completeness before rendering or sending.
 
 When your code finds an incomplete meta tag or a null value, stop the process immediately and throw an exception.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

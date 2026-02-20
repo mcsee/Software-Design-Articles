@@ -40,7 +40,7 @@ We need to improve our software if we can't do quick fixes and corrections.
 
 Not by creating To-Fix lists.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

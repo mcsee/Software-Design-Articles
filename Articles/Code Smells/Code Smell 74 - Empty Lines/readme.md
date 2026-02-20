@@ -22,7 +22,7 @@
 
 3. Remove unneeded lines.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

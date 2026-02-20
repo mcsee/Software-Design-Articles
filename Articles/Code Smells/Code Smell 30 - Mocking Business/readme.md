@@ -22,7 +22,7 @@
 
 2. Remove mock if its interface has too much behavior.
  
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

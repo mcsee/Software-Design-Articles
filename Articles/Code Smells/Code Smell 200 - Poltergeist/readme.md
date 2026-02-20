@@ -24,7 +24,7 @@ A poltergeist (or gypsy wagon) is a short-lived object used to perform initializ
 
 An object is responsible for many small tasks, resulting in excessive coupling and a lack of cohesion in the code.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

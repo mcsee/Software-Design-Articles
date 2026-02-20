@@ -20,7 +20,7 @@
 
 2. Hide intermediate accidental implementation
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

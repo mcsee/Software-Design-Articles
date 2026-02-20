@@ -32,7 +32,7 @@ You risk introducing subtle bugs and making your code obscure to other developer
 
 Clean Code is the opposite of [Clever Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md).
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

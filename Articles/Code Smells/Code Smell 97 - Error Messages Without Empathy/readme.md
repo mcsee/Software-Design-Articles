@@ -22,7 +22,7 @@ Programmers are seldom UX experts.
 
 We also underestimate the fact we can be on both sides of the counter.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

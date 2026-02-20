@@ -28,7 +28,7 @@ Whenever we find a duplication we remove it.
 
 Not before.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -24,7 +24,7 @@ We read code many more times than we write.
 
 We must take ownership of code with errors and leave it better.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -24,7 +24,7 @@ We are experts at learning.
 
 We should put our solution on hold. Work on the refactoring, and continue with our solution.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

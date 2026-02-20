@@ -34,7 +34,7 @@ You can organize namespaces into separate directories within your project struct
 
 This way, you can maintain a logical and efficient codebase while avoiding the issues of declaring multiple classes in a single file.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

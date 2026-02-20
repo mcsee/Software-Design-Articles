@@ -28,7 +28,7 @@ Entangled code is related beyond time and space.
 
 You are reading the code, then skip to another subject and return to the first one.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

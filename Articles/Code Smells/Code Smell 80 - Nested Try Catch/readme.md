@@ -14,7 +14,7 @@
 
 1. Refactor
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -30,7 +30,7 @@ Some languages allow us to create private concepts that only live inside a more 
 
 These classes are harder to test, harder to debug, and reuse.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

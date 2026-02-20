@@ -16,7 +16,7 @@
 
 1. Remove Middle man.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

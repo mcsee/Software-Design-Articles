@@ -26,7 +26,7 @@ This leads to confusion and makes debugging harder.
 
 We should narrow the scope as much as possible.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

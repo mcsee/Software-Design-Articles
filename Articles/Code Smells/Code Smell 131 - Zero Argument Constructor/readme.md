@@ -24,7 +24,7 @@ It is common usage using a zero-argument constructor and a bunch of setters to c
 
 [Beans](https://en.wikipedia.org/wiki/JavaBeans) is a well-known example of this code smell.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

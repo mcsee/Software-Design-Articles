@@ -22,7 +22,7 @@ When a function is designed to return an invariant value, it may be poor design,
 
 This rule raises an issue when a function contains several return statements that all return the same value.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

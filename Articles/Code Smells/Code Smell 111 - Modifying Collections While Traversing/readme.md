@@ -28,7 +28,7 @@ Languages iterate collections in many different ways.
 
 Modifying them is generally not safe.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -30,7 +30,7 @@ Then we pay the debt + the interest.
 
 A few months after, we pay more interest than the original debt.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

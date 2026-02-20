@@ -38,7 +38,7 @@ We test our classes and methods.
 
 At some point, we rely on auxiliary computations and we need to test them in a white-box way.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

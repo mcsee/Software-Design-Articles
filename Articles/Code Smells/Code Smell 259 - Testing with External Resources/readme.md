@@ -38,7 +38,7 @@ When someone changes the file, the test becomes [erratic and unreliable](https:/
 
 That can result in an annoying debugging experience and non-deterministic test runs.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

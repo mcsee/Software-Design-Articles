@@ -34,7 +34,7 @@
 
 - Formatting
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

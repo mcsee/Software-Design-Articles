@@ -22,7 +22,7 @@ When writing methods, we usually don't stop to find decent names.
 
 We never refactor the obvious, neither.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -42,9 +42,9 @@ When you spend that attention on commas, naming trivia, or formatting, you ignor
 
 This smell appears when teams confuse cleanliness with correctness. Syntax looks clean. Architecture rots.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/207cda2d66d6c44257cc81b87c5b61b6) -->
 

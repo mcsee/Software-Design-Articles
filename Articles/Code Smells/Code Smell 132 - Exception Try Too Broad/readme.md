@@ -6,7 +6,7 @@
  
 > TL;DR: Be as specific as possible when handling errors.
 
-# Problems 
+# Problems 😔
 
 - Fail fast principle violation
 
@@ -18,9 +18,9 @@
 
 1. Narrow the exception handler as much as possible 
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong 
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/0ff3c46988812be98da1e256b54c00d1) -->
 

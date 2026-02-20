@@ -26,7 +26,7 @@ This can lead to runtime errors that can be difficult to debug, especially in la
 
 They also hide possible name collisions since dynamic properties may have the same name as properties defined in the class or object, leading to conflicts or unexpected behavior.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

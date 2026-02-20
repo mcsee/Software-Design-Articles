@@ -32,7 +32,7 @@ Premature Optimizers will tell us this is less performant.
 
 We should ask them for real evidence and contrast the more maintainable solution.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

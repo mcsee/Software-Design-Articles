@@ -28,7 +28,7 @@
 
 3. Class single Responsibility is to create instances. 
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

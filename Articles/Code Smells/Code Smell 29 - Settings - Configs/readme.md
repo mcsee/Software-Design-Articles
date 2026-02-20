@@ -34,9 +34,9 @@
 
 - [Feature Toggle](https://en.wikipedia.org/wiki/Feature_toggle)
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong 
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/f001710d13fd158e75313c9b54ffc1aa) -->
 

@@ -44,7 +44,7 @@ Every test case should have three stages:
 
 All of them must be explicit
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

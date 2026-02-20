@@ -30,7 +30,7 @@ Repeated code is a symptom of missing abstractions.
 
 This is natural in the learning process since we cannot foresee those abstractions.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

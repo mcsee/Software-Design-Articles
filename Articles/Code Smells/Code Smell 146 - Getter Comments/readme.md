@@ -26,7 +26,7 @@ A few decades ago, we used to comment on every method. Even trivial ones
 
 Comment should describe only a critical design decision.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

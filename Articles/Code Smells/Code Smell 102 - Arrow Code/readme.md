@@ -22,7 +22,7 @@
 
 In procedural code, it is very common to see complex nested ifs. This solution is more related to scripting than object-oriented programming.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

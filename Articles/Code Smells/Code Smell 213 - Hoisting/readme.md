@@ -30,7 +30,7 @@ Hoisting allows variable declarations to be moved to the top of their containing
 
 Variables declared with var and function declarations are "hoisted" to the top of their respective scopes automatically in several languages.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -21,7 +21,7 @@
 2. Use domain names instead
 3. Protect your implementation decisions.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -37,7 +37,7 @@ These languages are known for being higher level and more declarative:
 - R
 - Julia 
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

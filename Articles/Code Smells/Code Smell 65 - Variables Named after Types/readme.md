@@ -18,7 +18,7 @@
 
 1. Rename your variable according to the role.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

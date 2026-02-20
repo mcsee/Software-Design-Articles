@@ -43,9 +43,9 @@ Each method has pros and cons. URL path versioning is simple and visible. Header
 
 Query parameters can clutter URLs and can be confusing. Use versioning only for breaking changes. Managing multiple versions increases maintenance work but ensures reliability and user trust.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/c8161d4579ee5b49ba8f8d171beca032) -->
 

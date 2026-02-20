@@ -43,7 +43,7 @@ This makes your code harder to read, debug, and extend.
 
 You must remember that you write code for humans, not machines.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

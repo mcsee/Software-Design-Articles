@@ -32,7 +32,7 @@ Then we invented [The billion-dollar mistake](https://github.com/mcsee/Software-
 
 Then we grew up and model special scenarios with polymorphic special values.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

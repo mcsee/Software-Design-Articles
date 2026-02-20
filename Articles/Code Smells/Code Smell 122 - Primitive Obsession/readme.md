@@ -40,7 +40,7 @@ We like very much to understand the *internals* of how things work.
 
 We need to start thinking in a whitebox way and looking at the protocol and behavior of small components.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

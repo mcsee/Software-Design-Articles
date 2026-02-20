@@ -24,7 +24,7 @@ Changing code with a temporary hack is a very bad developer practice.
 
 We might *forget* some temporary solutions and leave them forever.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

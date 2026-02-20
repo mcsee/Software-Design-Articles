@@ -24,7 +24,7 @@ We can also add [assertions](https://github.com/mcsee/Software-Design-Articles/t
 
 Even better, we can work with [Domain Restricted Objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20178%20-%20Subsets%20Violation/readme.md).
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

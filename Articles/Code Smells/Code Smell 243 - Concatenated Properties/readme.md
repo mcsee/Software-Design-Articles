@@ -36,7 +36,7 @@ If you use a separator to break the attributes, you need to make sure the separa
 
 If you map your data to relational databases, search queries will be more difficult and less performant for concatenated attributes
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

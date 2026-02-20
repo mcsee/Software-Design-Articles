@@ -30,7 +30,7 @@
 
 1. Inject Responsibilities with First Class Objects
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

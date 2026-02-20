@@ -25,7 +25,7 @@ Old papers recommended using classes as a specialization for code reuse.
 
 We learned that composition is a more efficient and extensible way to share behavior.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

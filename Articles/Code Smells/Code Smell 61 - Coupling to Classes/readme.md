@@ -18,7 +18,7 @@
 2. Use Dependency Injection.
 3. Favor Loose Coupling.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -28,7 +28,7 @@ Many developers still think classes are [data repositories](https://github.com/m
 
 They couple *different behavior* concept with *returning different data*.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

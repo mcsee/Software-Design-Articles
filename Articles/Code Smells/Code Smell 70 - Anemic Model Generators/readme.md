@@ -20,7 +20,7 @@
 
 2. Focus on essential behavior instead of accidental data storage.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -26,7 +26,7 @@
 
 Most compilers forbid duplicate parameters since they are a common mistake in a large parameters list
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

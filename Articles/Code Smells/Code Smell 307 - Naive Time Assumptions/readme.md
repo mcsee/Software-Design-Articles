@@ -50,9 +50,9 @@ Time handling represents a perfect example of the [Dunning-Kruger effect](https:
 
 Political decisions change time zones, leap seconds adjust atomic time, and cultural differences affect calendar systems worldwide.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/f95e04c317aaf0765a70c4bb644f772d) -->
 

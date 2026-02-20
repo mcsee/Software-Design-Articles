@@ -26,7 +26,7 @@ When dealing with boolean formulas, it is more readable to show a business boole
 
 Programmers tend to return accidental implementative solutions instead of real business rules.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

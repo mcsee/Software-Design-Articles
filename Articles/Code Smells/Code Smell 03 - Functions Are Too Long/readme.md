@@ -47,7 +47,7 @@ You create a rigid block that breaks easily when you change it.
 
 Short, focused functions let you read, test, and modify code faster.	      
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

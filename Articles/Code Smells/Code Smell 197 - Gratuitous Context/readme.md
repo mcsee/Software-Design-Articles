@@ -26,7 +26,7 @@ It can make the software more difficult to use, understand and maintain.
 
 It also increases the risk of errors or defects. 
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

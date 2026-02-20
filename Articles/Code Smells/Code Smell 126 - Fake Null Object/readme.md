@@ -34,7 +34,7 @@ For example: '0' is the numbers' null object.
 
 An empty collection is the collection's null object.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

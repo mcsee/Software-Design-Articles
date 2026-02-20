@@ -28,7 +28,7 @@ Failing is always better than making decisions without evidence.
 
 Since [case and switches](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2036%20-%20Switch%20case%20elseif%20else%20if%20statements/readme.md) are also a smell, we can avoid them.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -31,7 +31,7 @@ It would be best if you prioritized readability.
 
 Keep loops simple and only optimize when you know a bottleneck exists in *real usage* scenarios.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

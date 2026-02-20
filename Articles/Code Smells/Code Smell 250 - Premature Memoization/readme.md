@@ -26,7 +26,7 @@ Memoization can help you improve the performance of recursive functions involvin
 
 It would help if you only used it with *strong factual evidence* on *real* business case scenarios.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

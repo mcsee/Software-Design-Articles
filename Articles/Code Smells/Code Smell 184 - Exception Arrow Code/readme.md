@@ -20,7 +20,7 @@
 
 In the same way [arrow code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20102%20-%20Arrow%20Code/readme.md) is hard to read, handling exceptions is a usual case when we must address the topics in a cascade way.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -22,7 +22,7 @@
 
 2. Favor polymorphism.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

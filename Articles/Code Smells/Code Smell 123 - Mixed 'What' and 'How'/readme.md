@@ -30,7 +30,7 @@ Implementative software brings coupling and is harder to change.
 
 Choosing wise declarative names is a daily challenge.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

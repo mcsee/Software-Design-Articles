@@ -34,7 +34,7 @@ This makes your code harder to read and maintain and adds unnecessary complexity
 
 Coupling the name to a collection implementation prevents you from introducing a proxy or middle object to manage the relation.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

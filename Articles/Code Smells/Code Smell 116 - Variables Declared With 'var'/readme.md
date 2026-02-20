@@ -24,7 +24,7 @@ Some other languages allow us to state mutability.
 
 We should be strict and explicit with our declarations.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

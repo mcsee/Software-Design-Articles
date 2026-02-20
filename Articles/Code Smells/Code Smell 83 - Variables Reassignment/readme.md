@@ -24,7 +24,7 @@
 
 2. Keep your Definition, Usage and Destroy variables short.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

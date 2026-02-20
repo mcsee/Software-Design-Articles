@@ -30,7 +30,7 @@ When [mapping](https://github.com/mcsee/Software-Design-Articles/tree/main/Artic
 
 ![Fungible Model](Fungible%20Model.png) 
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

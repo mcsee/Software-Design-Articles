@@ -99,6 +99,10 @@ If your project architecture changes, your skill files must change too, or the A
 
 Remember [outdated documentation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20183%20-%20Obsolete%20Comments/readme.md) is much worse than no documentation at all.
 
+Always read and understand the skills you are installing
+
+[AI Coding Tip 007 - Avoid Malicious Skills](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20007%20-%20Avoid%20Malicious%20Skills/readme.md)
+
 # Type 📝
 
 [X] Semi-Automatic

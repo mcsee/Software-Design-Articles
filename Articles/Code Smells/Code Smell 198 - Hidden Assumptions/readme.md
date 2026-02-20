@@ -28,7 +28,7 @@ They are still present and can impact the behavior of the software.
 
 Various reasons can give rise to assumptions such as incomplete requirements, incorrect presumptions about the user or environment, limitations of the programming language or tools, and bad accidental decisions.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

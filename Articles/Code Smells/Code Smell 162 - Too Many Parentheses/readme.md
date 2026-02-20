@@ -22,7 +22,7 @@ We read code from left to right (at least in western culture).
 
 Parentheses often break this flow, adding cognitive complexity
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

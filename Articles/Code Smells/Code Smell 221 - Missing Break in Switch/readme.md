@@ -30,7 +30,7 @@ Forgetting a *break* clause will continue with the following case.
 
 This is similar to a very [serious vulnerability](https://embeddedgurus.com/barr-code/2014/03/apples-gotofail-ssl-security-bug-was-easily-preventable/) that implied an urgent release.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

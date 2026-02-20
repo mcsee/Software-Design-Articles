@@ -21,7 +21,7 @@ If you need to model something that might be missing, some fancy languages will 
 
 Empty collections and non-empty collections are polymorphic.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

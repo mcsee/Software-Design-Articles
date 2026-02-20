@@ -44,7 +44,7 @@ Cryptic code also frustrates team members and future maintainers, increasing tec
 
 Remember, hacking has a strong social component compared to what you see in Hollywood movies.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -22,7 +22,7 @@ Smart programmers like to write hacky and obscure code even when there is no str
 
 Premature optimization always hurts readability.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -31,7 +31,7 @@ Low-level components should register themselves with high-level components, and 
 
 This is also known as *Inversion of Control*.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

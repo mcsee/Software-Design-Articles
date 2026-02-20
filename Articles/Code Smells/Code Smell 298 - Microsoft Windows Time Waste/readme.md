@@ -52,9 +52,9 @@ Good software design requires you to consider all possible paths through your co
 
 When you skip handling edge cases, you create technical debt that manifests as mysterious performance issues, timeouts, and poor user experiences.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/23fe261d7b1d9a4acc44a1da5b5ec6e9) -->
 

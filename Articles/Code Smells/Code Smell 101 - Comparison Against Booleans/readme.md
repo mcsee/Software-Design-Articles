@@ -24,7 +24,7 @@
 
 Many languages cast values to boolean crossing domains.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -38,7 +38,7 @@ Returning a page in a book is like an immutable copy. It cannot be edited, like 
 
 You can edit some memories by bringing them from long-term memory.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

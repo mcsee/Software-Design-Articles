@@ -30,9 +30,9 @@ Last week, a tweet went viral because of a missing formula.
 
 It is the DigiD digital authentication iOS app in the Netherlands.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong?
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/0a2979db94ff5288a342e2846155d955) -->
 
@@ -71,7 +71,7 @@ private static string GetPercentageRounds(double percentage)
 // blob/master/Source/DigiD.iOS/Services/NFCService.cs
 ```
 
-## Right?
+## Right 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/e24ffc9ad7e587f44862ed7dff22e1b7) -->
 

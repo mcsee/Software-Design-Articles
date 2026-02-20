@@ -32,7 +32,7 @@ When debugging code we tend to comment on code to see what happens.
 
 As a final step, after all our tests pass, we must remove them following clean code practices.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

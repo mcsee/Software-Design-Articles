@@ -24,7 +24,7 @@
 
 2. Refactor deep hierarchies.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

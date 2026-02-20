@@ -24,7 +24,7 @@ The term "Fat Interface" emphasizes that the interface is overloaded with method
 
 The interface violates the principle of segregating interfaces into smaller, more focused contracts.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

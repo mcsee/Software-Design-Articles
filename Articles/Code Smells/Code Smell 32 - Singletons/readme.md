@@ -36,7 +36,7 @@
 
 - Logging
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

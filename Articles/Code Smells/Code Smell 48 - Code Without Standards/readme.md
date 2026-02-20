@@ -22,7 +22,7 @@
 
 - [PSR2](https://www.php-fig.org/psr/psr-2/)
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

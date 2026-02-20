@@ -30,7 +30,7 @@
 
 5. Not leaf classes should be abstract.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

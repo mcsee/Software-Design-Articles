@@ -34,9 +34,9 @@ Attackers can reuse these passwords on other sites. Even internal logs or debugg
 
 You must treat passwords as secrets, not as values to display or compare directly.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/9b2f6ce8bab7d92d5c0f3c3127dad086) -->
 

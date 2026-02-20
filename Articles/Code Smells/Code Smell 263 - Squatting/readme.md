@@ -48,7 +48,7 @@ This vulnerability is critical in environments like AWS, where predictable namin
 
 Many systems avoid this indirection fearing the performance penalty which is a clear case of premature optimization.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

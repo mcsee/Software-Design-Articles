@@ -16,7 +16,7 @@
 
 1. Name the events after "what happened", not "what you should do". 
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -18,7 +18,7 @@
 
 1. Use Dependency injection to decouple time source.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

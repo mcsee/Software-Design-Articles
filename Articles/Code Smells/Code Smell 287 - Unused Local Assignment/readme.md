@@ -36,7 +36,7 @@ It is also a sign of a [mutating object](https://github.com/mcsee/Software-Desig
 
 Mutating objects can cause unexpected side effects, making it harder to track changes. 
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

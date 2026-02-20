@@ -30,7 +30,7 @@ When you use the *Visitor* pattern, you aim to **separate algorithms** from the 
 
 Combining it with *instanceof* checks breaks this separation, leading to a **fragile and hard-to-maintain design**.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -22,7 +22,7 @@ Some languages bring idioms and common usages against good model naming.
 
 We should pick our names carefully.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

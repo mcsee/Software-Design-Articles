@@ -34,7 +34,7 @@ This leads to non-robust and corrupt software.
 
 The simple solution is to build only real-world and valid abstractions.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -26,7 +26,7 @@
 
 2. Arguments should adhere to a single protocol.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

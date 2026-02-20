@@ -26,7 +26,7 @@ Sometimes we get too excited.
 
 Naming is an art and we should be cautious with it.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

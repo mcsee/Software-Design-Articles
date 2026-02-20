@@ -26,7 +26,7 @@ Schrödinger code is code that can be in two different states at the same time, 
 
 This can happen when the code contains a race condition, or when the code depends on the state of a global variable that can be changed by other threads or processes.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

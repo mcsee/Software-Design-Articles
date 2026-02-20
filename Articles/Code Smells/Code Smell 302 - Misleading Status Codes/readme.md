@@ -35,9 +35,9 @@ Instead of returning appropriate HTTP error status codes such as 400 (Bad Reques
 
 This creates a disconnect between what the HTTP status indicates and what happened, making it harder for clients to handle errors properly and for monitoring systems to detect issues.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/e64ea5a60fd91f56ca9feaa0b64c4db6) -->
 

@@ -24,7 +24,7 @@ Sometimes we find arbitrary rules not so easily testable.
 
 If we cannot write a failing test, we need to have a function with an excellent and declarative name instead of a comment.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

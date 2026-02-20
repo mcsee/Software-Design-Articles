@@ -23,7 +23,7 @@
 Aristotelian Classification is a big problem in computer science. 
 We tend to classify and name things **before** gathering enough knowledge and context.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

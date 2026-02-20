@@ -28,7 +28,7 @@ It's denoted by a comma and separates multiple expressions within a larger expre
 
 Each expression is evaluated in order from left to right, and the final value of the entire comma-separated expression is the value of the last expression.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

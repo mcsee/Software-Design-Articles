@@ -30,7 +30,7 @@ Not before.
 
 Not with interfaces, not with classes.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

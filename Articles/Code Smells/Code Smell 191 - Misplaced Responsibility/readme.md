@@ -24,7 +24,7 @@ If we talk to anybody outside the software world, they will tell us where we sho
 
 Software engineers, on the contrary, tend to put behavior in strange places like [helpers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2022%20-%20Helpers/readme.md).
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

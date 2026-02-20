@@ -17,7 +17,7 @@
 
 2. Leave time control to your version control system.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

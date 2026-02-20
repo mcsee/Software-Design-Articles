@@ -36,7 +36,7 @@
 
 - Singletons
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

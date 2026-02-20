@@ -18,7 +18,7 @@
 
 2. Use modules, namespaces or fully qualified names
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

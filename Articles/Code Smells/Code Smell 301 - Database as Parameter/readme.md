@@ -42,9 +42,9 @@ Your business objects should focus on essential business rules and behavior, not
 
 This pattern also makes unit testing extremely difficult since you cannot [mock](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md) or stub the database interactions without complex setup procedures.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/a4f08aa097dbf1822beb80534b078af4) -->
 

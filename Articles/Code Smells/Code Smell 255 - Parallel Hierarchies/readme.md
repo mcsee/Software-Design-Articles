@@ -44,7 +44,7 @@ This leads to duplicate structures and tight coupling.
 
 Changes in the domain model require changes in the parallel classes, making the system more brittle and harder to manage.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

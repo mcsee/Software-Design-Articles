@@ -24,7 +24,7 @@
 
 2. Distinguish Happy Path from Exception Path.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

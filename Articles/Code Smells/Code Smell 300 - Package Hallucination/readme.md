@@ -53,9 +53,9 @@ They found that nearly 440,000 dependencies pointed to libraries that simply don
 
 These are very harmful backdoors for hackers.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/27c3782443868d992951d86b91964cbe) -->
 

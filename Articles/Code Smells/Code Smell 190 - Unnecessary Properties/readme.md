@@ -24,7 +24,7 @@ Whenever they want to model a person or an employee, junior programmers or stude
 
 We need to add attributes 'on-demand' when there's enough evidence. Objects are not 'data holders'.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

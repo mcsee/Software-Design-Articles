@@ -47,7 +47,7 @@ You feel this pain when a simple requirement change requires you to touch dozens
 
 Your classes have direct dependencies on concrete implementations rather than abstractions.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 
@@ -155,7 +155,7 @@ When you ask an AI to "decouple these two classes using dependency injection," i
 
 There are multiple strategies to deal with Legacy and coupled systems. 
 
-You should deal with this problem before it explodes under our eyes.
+You should deal with this problem before it explodes under your eyes.
 
 # Relations 👩‍❤️‍💋‍👨
 

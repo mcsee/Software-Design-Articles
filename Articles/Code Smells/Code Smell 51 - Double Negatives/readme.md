@@ -14,7 +14,7 @@
 
 1. Name your variables, methods and classes with positive names.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

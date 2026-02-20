@@ -24,7 +24,7 @@ Optional Arguments are a code smell.
 
 Defining optional arguments before mandatory ones is an error.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

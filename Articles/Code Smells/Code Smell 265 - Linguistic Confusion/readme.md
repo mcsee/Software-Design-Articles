@@ -38,7 +38,7 @@ When you name classes, methods, or variables without clarity, you create a lingu
 
 This causes bugs, makes maintenance harder, and leads to team frustration.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

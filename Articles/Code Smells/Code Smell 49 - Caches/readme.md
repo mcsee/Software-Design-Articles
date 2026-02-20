@@ -32,7 +32,7 @@
 
 3. Look for a real-world cache metaphor and model it.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

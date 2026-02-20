@@ -26,9 +26,9 @@
 
 3. Don't leave them anaemic, find their cohesive relations.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong 
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ff148550e3d2018c2ee345ea0790e8fc) -->
 

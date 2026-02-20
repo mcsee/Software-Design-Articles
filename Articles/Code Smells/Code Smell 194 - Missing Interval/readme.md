@@ -38,7 +38,7 @@ Would you create a *Date* as a pair of 3 *Integer numbers*? Certainly, not.
 
 This is the same. 
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

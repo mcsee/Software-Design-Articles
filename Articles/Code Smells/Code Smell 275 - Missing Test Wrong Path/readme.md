@@ -33,7 +33,7 @@ If breaking some contract doesn't raise an exception, the test will still pass w
 
 Always include a failure condition to ensure the test fails when the expected exception isn't thrown.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

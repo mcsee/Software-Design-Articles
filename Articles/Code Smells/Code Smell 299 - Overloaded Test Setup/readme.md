@@ -42,9 +42,9 @@ This common issue happens when you expect that future tests might need an extens
 
 The tests are harder to understand since they contain irrelevant context, and slower to execute because you initialize objects that aren't used.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/1848c98ee95f64ea5029ccf6ee72c303) -->
 

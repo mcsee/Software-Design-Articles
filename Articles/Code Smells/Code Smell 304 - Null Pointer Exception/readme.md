@@ -71,9 +71,9 @@ Nulls have been a big problem in the software industry for decades, but software
 
 [Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/6b0da6ca7c478383367f9ae89e543807) -->
 

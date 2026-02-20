@@ -34,7 +34,7 @@ Developers can use this hack to avoid reifying concepts.
 
 Some languages are: C#, Javascript, Go, Lua, Matlab, PHP, Python, Rust, and Swift
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

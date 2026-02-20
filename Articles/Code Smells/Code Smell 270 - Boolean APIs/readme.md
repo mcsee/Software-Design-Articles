@@ -43,7 +43,7 @@ This is a special case of the [Remove IF](https://github.com/mcsee/Software-Desi
 
 This approach allows for more precise control, better traceability, and easier maintenance.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

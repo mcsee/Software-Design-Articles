@@ -41,7 +41,7 @@ Some examples are the overuse of factories, excessive inheritance, or too granul
 
 Keeping things simple helps avoid creating code that is difficult to understand and maintain.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 

@@ -52,9 +52,9 @@ Clients often tolerate [defects](https://github.com/mcsee/Software-Design-Articl
 
 Proper versioning ensures smooth transitions and maintains your system's reliability.
 
-# Sample Code 📖
+# Sample Code 💻
 
-## Wrong ❌
+## Wrong 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/d11fbd7a25ac1e15035c01166d1fbadd) -->
 

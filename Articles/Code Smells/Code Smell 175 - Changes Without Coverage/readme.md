@@ -28,7 +28,7 @@ If you change uncovered tests, you need to add coverage.
 
 Suppose you change the code with existing coverage. Lucky you! Go and change your broken tests.
 
-# Sample Code 📖
+# Sample Code 💻
 
 ## Wrong 🚫
 
