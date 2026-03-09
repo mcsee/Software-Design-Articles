@@ -26,7 +26,7 @@ Keep a **bijection** to real entities:
 
 # Corollaries
 
-Do not use **null**
+Don't use **null**
 
 [Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
@@ -86,7 +86,7 @@ Get **Inspired** by Quotes
 
 ## Anti Patterns
 
-Do not use **Singleton**:
+Don't use **Singleton**:
 
 [Singleton - The Root of All Evil](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Singleton%20-%20The%20Root%20of%20All%20Evil/readme.md)
 

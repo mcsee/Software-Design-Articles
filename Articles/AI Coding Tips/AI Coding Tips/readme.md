@@ -2,11 +2,11 @@
 
 ![AI Coding Tips](AI%20Coding%20Tips.png)
 
-*A series on practical advices to user the AI to code*
+*A series of practical advice on how to use AI to code*
 
 > TL;DR: Master the balance between AI speed and code with professional craftsmanship.
 
-In this series, you will learn practical state-of-the-art advices to use the AI to code.
+In this series, you will learn practical state-of-the-art advices to use AI to code.
 
 [AI Coding Tip 001 - Commit Before Prompt](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20001%20-%20Commit%20Before%20Prompt/readme.md)
 
@@ -21,5 +21,9 @@ In this series, you will learn practical state-of-the-art advices to use the AI 
 [AI Coding Tip 006 - Review Every Line Before Commit](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20006%20-%20Review%20Every%20Line%20Before%20Commit/readme.md)
 
 [AI Coding Tip 007 - Avoid Malicious Skills](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20007%20-%20Avoid%20Malicious%20Skills/readme.md)
+
+[AI Coding Tip 008 - Use Spec-Driven Development with AI](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20008%20-%20Use%20Spec-Driven%20Development%20with%20AI/readme.md)
+
+[AI Coding Tip 009 - Compact Your Context](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20009%20-%20Compact%20Your%20Context/readme.md)
 
 ... more coming soon!

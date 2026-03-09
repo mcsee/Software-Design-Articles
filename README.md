@@ -914,6 +914,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Refactoring 038 - Reify Collection](/Articles/Refactorings/Refactoring%20038%20-%20Reify%20Collection/readme.md)
 
+* [Refactoring 039 - Extract Global Internalization](/Articles/Refactorings/Refactoring%20039%20-%20Extract%20Global%20Internalization/readme.md)
+
 ### Wordle
 
 * [How to Create a Wordle as a Centaur](/Articles/Wordle/How%20to%20Create%20a%20Wordle%20as%20a%20Centaur/readme.md)
@@ -995,4 +997,6 @@ In this repository, you will find many articles related to Software Design
 * [AI Coding Tip 007 - Avoid Malicious Skills](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20007%20-%20Avoid%20Malicious%20Skills/readme.md)
 
 * [AI Coding Tip 008 - Use Spec-Driven Development with AI](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20008%20-%20Use%20Spec-Driven%20Development%20with%20AI/readme.md)
+
+* [AI Coding Tip 009 - Compact Your Context](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20009%20-%20Compact%20Your%20Context/readme.md)
 

@@ -10,13 +10,13 @@
 
 You jump directly to code generation with a vague, wishful prompt.
 
-The AI seems to understand your specific business logic, but is condescending with you.
+The AI appears to understand your specific business logic, but it comes across as condescending.
 
 The problem creates a spaghetti mess that is difficult to maintain later.
 
 The AI is not a magic button for lazy people. It is a senior pair programmer and a learning companion.
 
-You follow the [Spec-Driven Development](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html) trend and work in a taylorist cascading way failing into analysis paralysis and unrealistic plans.
+You follow the [Spec-Driven Development](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html) trend and work in a Taylorist cascading way, falling into analysis paralysis and unrealistic plans.
 
 # Problems Addressed 😔
 
@@ -24,7 +24,7 @@ Hallucinations: The AI guesses details when you don't provide specific context.
 
 Technical Debt: You build complex systems that collapse under logical errors and don't simulate the real-world [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md).
 
-Context Fragmentation: The AI loses track of your goals in long sessions.
+[Context Fragmentation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20005%20-%20Keep%20Context%20Fresh/readme.md): The AI loses track of your goals in long sessions.
 
 Logic Drift: The code "works". Yet it doesn't solve the [actual problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
 
@@ -36,7 +36,7 @@ You state the high-level idea and have the AI ask questions to uncover edge case
 
 Work together in learning mode. Dave Farley tells us to be [experts at learning](https://modernsoftwareengineering.co.uk/).
 
-Draft a spec.md file. You and the AI collaborate on a document that defines the architecture, data models, and goals.
+Draft a *spec.md* file. You and the AI collaborate on a document that defines the architecture, data models, and goals.
 
 Use the [Plan Mode](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20003%20-%20Force%20Read-Only%20Planning/readme.md).
 
@@ -135,7 +135,7 @@ Use the copilot to improve your design with your approval, and let it handle the
 
 [Spec Driven Development](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html)
 
-[Kent Beck Critizing Spec-Driven Development](https://www.linkedin.com/posts/kentbeck_the-descriptions-of-spec-driven-development-activity-7413956151144542208-EGMz)
+[Kent Beck Criticizing Spec-Driven Development](https://www.linkedin.com/posts/kentbeck_the-descriptions-of-spec-driven-development-activity-7413956151144542208-EGMz)
 
 [Kent Beck Earn and Learn](https://tidyfirst.substack.com/p/earn-and-learn)
 

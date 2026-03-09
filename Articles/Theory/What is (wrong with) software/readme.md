@@ -2,7 +2,7 @@
 
 ![What is (wrong with) software?](What%20is%20(wrong%20with)%20software.png)
 
-*Software is eating the world. If you work, live, and love software, you usually do not stop to think about its meaning*
+*Software is eating the world. If you work, live, and love software, you usually don't stop to think about its meaning*
 
 > TL;DR: Current software design problems addressed in a minimalist way.
 

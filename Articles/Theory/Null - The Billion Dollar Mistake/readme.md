@@ -170,15 +170,15 @@ Fostering incomplete models forces us to make two additional mistakes:
 
 [Nude Models - Part I: Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20I Setters/readme.md)
 
-2. Build mutable models violating bijection ignoring real-world entities that do not mutate their essence.
+2. Build mutable models violating bijection ignoring real-world entities that don't mutate their essence.
 
 [The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
-### Typed languages ​​that do not handle optionally
+### Typed languages that don't handle optionally
 
-Most typed languages ​​prevent errors by ensuring that the object that is sent as a parameter (or returned) can answer a certain protocol. 
+Most typed languages prevent errors by ensuring that the object that is sent as a parameter (or returned) can answer a certain protocol. 
 
-Unfortunately, some of these languages ​​have taken the step backward of allowing to declare that the object is of a certain type and (optionally) null.
+Unfortunately, some of these languages have taken the step backward of allowing to declare that the object is of a certain type and (optionally) null.
 
 This breaks the chain of invocations forcing put Ifs to control the absence of the object violating the Solid [open/closed principle](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle).
 
@@ -190,7 +190,7 @@ What's more, *null* corrupts type controls. If you use a typed language and trus
 
 # The Solution
 
-Do not use it.
+Don't use it.
 
 # The Alternatives
 
@@ -322,9 +322,9 @@ Furthermore, you removed non-essential if using polymorphism and left the soluti
 
 You build a less algorithmic but more declarative, maintainable, and extensible solution.
 
-### Use languages ​​with explicit modeling of absences
+### Use languages with explicit modeling of absences
 
-Some languages ​​support optionally the concept of Maybe/Optional which is a particular case of the proposed solution implemented above at the language level.
+Some languages support optionally the concept of Maybe/Optional which is a particular case of the proposed solution implemented above at the language level.
 
 [Wikipedia](https://en.wikipedia.org/wiki/Option_type)
 
@@ -336,7 +336,7 @@ Some languages ​​support optionally the concept of Maybe/Optional which is a
 
 Using *null* is a discouraged practice based on deep-rooted practices in the industry. 
 
-Despite this, almost all commercial languages ​​allow it and developers use it.
+Despite this, almost all commercial languages allow it and developers use it.
 
 You should, at least, begin to question its use and be more mature and responsible in developing software.
 
