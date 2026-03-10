@@ -1000,3 +1000,5 @@ In this repository, you will find many articles related to Software Design
 
 * [AI Coding Tip 009 - Compact Your Context](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20009%20-%20Compact%20Your%20Context/readme.md)
 
+* [AI Coding Tip 010 - Access All Your Code](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20010%20-%20Access%20All%20Your%20Code/readme.md)
+
