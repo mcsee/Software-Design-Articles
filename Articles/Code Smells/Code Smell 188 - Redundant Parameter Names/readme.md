@@ -80,7 +80,7 @@ Photo by [Wolfgang Hasselmann](https://unsplash.com/@wolfgang_hasselmann) on [Un
     
 * * *
 
-> As a rule, software systems do not work well until they have been used, and have failed repeatedly, in real applications.
+> As a rule, software systems don't work well until they have been used, and have failed repeatedly, in real applications.
 
 _David Parnas_
  

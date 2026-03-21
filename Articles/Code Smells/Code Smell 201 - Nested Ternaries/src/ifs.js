@@ -10,7 +10,7 @@ const getUnits = secs => {
 // This is using ‘Numeric Separators’ notation from Javascript
 // to favor readability.
 // The underscores are ignored by the JavaScript engine
-// and do not affect the value of the number.
+// and don't affect the value of the number.
 
 const getUnits = secs => {
  if (secs <= 60) return 'seconds'; 

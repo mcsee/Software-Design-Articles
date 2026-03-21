@@ -4,7 +4,7 @@
 
 *Code that is no longer used or needed.*
 
-> TL;DR: Do not keep code "just in case I need it".
+> TL;DR: Don't keep code "just in case I need it".
 
 # Problems 😔 
 
@@ -97,7 +97,7 @@ Dead code breaks that mapping. The domain has no such behavior, yet the code cla
 
 When you do that, you destroy trust. 
 
-Readers cannot know what matters and what doesn't.
+Readers can't know what matters and what doesn't.
 
 # AI Generation 🤖
 
@@ -105,7 +105,7 @@ AI generators often create dead code.
 
 They add defensive branches, legacy helpers, and unused abstractions to look complete. 
 
-When you do not review the result, the smell stays.
+When you don't review the result, the smell stays.
 
 # AI Detection 🧲
 

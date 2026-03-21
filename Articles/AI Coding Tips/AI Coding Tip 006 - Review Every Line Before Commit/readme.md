@@ -27,7 +27,7 @@ Let's be honest: AI isn't accountable for your mistakes, **you** are. And you wa
 - **Security vulnerabilities and flaws**: AI generates code with [Not sanitized inputs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20189%20-%20Not%20Sanitized%20Input/readme.md) SQL injection, XSS, [Email](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20317%20-%20Email%20Handling%20Vulnerabilities/readme.md), [Packages Hallucination](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20300%20-%20Package%20Hallucination/readme.md), or [hardcoded credentials](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20311%20-%20Plain%20Text%20Passwords/readme.md)
 - **Logic errors**: The AI misunderstands your requirements and solves the wrong problem
 - **Technical debt**: Generated code uses [outdated patterns](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20018%20-%20Replace%20Singleton/readme.md) or creates [maintenance nightmares](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20148%20-%20ToDos/readme.md)
-- **Lost accountability**: You cannot explain code you didn't review
+- **Lost accountability**: You can't explain code you didn't review
 - **Hidden [defects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Quality/Stop%20Calling%20them%20'Bugs'/readme.md)**: Issues that appear in production cost 30-100x more to fix
 - **Knowledge gaps**: You miss learning opportunities when you blindly accept solutions
 - **Team friction**: Your reviewers waste time catching issues you should have found
@@ -91,9 +91,9 @@ Manual review is the only way to close the gap between "code that looks good" an
 
 The AI doesn't understand your business logic or the [real world bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) between your [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) and your model.
 
-The AI cannot know your security requirements (unless you are explicit or execute a skill).
+The AI can't know your security requirements (unless you are explicit or execute a skill).
 
-The AI cannot test the code against your specific environment.
+The AI can't test the code against your specific environment.
 
 You remain **responsible** for every line in your codebase.
 
@@ -155,7 +155,7 @@ user = db.get_user(123)
 
 # Considerations ⚠️
 
-You cannot blame the AI when defects appear in production.
+You can't blame the AI when defects appear in production.
 
 The human is accountable, not the AI.
 

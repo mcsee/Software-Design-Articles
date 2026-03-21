@@ -11,5 +11,5 @@ public class MyDomainObject
  // Tight coupling
 }
 
-// You cannot fake or mock this method 
+// You can't fake or mock this method 
 // since it always expects an instance of MyCollection

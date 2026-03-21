@@ -66,7 +66,7 @@ Https://x.com/Write_again
 
 * * * 
 
-Do not follow twitter roadmaps or "how to become a xxx developer". Often, they are misleading, extremely simplified and wrong.
+Don't follow twitter roadmaps or "how to become a xxx developer". Often, they are misleading, extremely simplified and wrong.
 
 Https://x.com/IvanVHIS
 
@@ -499,7 +499,7 @@ Https://x.com/Bl0xyDev
 
 * * *
 
-Explore, explore, explore. Do not just follow the trends, find what you like and stick to it. You don't need to know everything, expanding on what you enjoy doing is the key.
+Explore, explore, explore. Don't just follow the trends, find what you like and stick to it. You don't need to know everything, expanding on what you enjoy doing is the key.
 
 Https://x.com/codename_arl
 

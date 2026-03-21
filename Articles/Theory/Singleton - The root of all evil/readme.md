@@ -38,7 +38,7 @@ It is a global reference. Again according to Wikipedia:
 
 > An implementation of the singleton pattern must provide global access to that instance.
 
-What a priori appears as a benefit for preventing us from having to pass context information, generates coupling. The reference to the singleton cannot be changed according to the environment (development, production), nor can dynamic strategy changes related to the current load be made, it cannot be replaced by a double test and it prevents us from making changes due to the possible ripple effect.
+What a priori appears as a benefit for preventing us from having to pass context information, generates coupling. The reference to the singleton can't be changed according to the environment (development, production), nor can dynamic strategy changes related to the current load be made, it can't be replaced by a double test and it prevents us from making changes due to the possible ripple effect.
 
 [Coupling - The one and only software design problem](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Coupling%20-%20The%20one%20and%20only%20software%20design%20problem/readme.md)
 
@@ -105,7 +105,7 @@ A better answer would be to show with an exception it is not valid to create new
 
 class Singleton {
     private function __construct() {
-        throw new Exception('Cannot Create new instances');
+        throw new Exception('Can\'t create new instances');
     }
 }
 ```
@@ -165,7 +165,7 @@ Adding any other responsibility to any class implies violating the  [single resp
 
 Singletons are frequently used to provide a global access point to some service. What ends up happening is design dependencies are hidden within the code and are not visible when examining the interfaces of their classes and methods.
 
-The need to create something global to avoid passing it explicitly is a **code smell**. There are always better solutions and alternatives to using a global reference that do not require passing all collaborators between methods.
+The need to create something global to avoid passing it explicitly is a **code smell**. There are always better solutions and alternatives to using a global reference that don't require passing all collaborators between methods.
 
 ### 16. He’s the easy friend from the party
 
@@ -176,7 +176,7 @@ There are many examples where a Singleton is used as a quick-reach reference con
 
 As if it was not enough to be the root of all evil he is also the easy friend of the party. In large projects, it just accumulates garbage to get out of trouble.
 
-Since it doesn't have a corresponding entity on the bijection, adding responsibilities that do not correspond to it, is like adding one more stain to the tiger. Apparently without doing damage but generating ripple effect when wishing to do a healthy decoupling.
+Since it doesn't have a corresponding entity on the bijection, adding responsibilities that don't correspond to it, is like adding one more stain to the tiger. Apparently without doing damage but generating ripple effect when wishing to do a healthy decoupling.
 
 ![images_RIiBoPtpMiRsMKX3dnzl5gb1Urj1-s21q3umz[1].jpeg](https://cdn.hashnode.com/res/hashnode/image/upload/v1598399872287/1vrhfU5gZ.jpeg)
 
@@ -229,7 +229,7 @@ final class MonotheisticReligion implements Religion {
 $christianGod = new God();
 $christianReligion = new MonotheisticReligion($christianGod);
 // Under this context God is unique.
-// You cannot create or change a new one.
+// You can't create or change a new one.
 // This is a scoped global.
 
 $jupiter = new God();

@@ -23,7 +23,7 @@
 - My favorite is [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique).
 - If you come across new tasks write them down.
 - Don't multitask.
-- You cannot switch until the time is up.
+- You can't switch until the time is up.
 - 20 minutes it's a good slice.
 
 # 3. Inbox0 📥
@@ -51,7 +51,7 @@
 # 6. Close Your Browser Tabs 🔓
 
 - Manage to-do lists and items.
-- Do not open multiple tabs.
+- Don't open multiple tabs.
 - No operating system or web browser handles them very well. Neither you.
 - Don't multitask.
 - If something takes less than two minutes do it. Otherwise, add it to the To-Do list.

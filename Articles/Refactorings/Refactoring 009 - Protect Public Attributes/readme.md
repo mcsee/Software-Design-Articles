@@ -59,7 +59,7 @@ public class Song {
    private String artistName;
    private String AlbumName;
   
-  // We cannot access attributes until we add methods
+  // We can't access attributes until we add methods
 }
 ```
 

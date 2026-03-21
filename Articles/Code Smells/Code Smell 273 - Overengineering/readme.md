@@ -103,7 +103,7 @@ double darkMatter = calculator.calculateDarkMatter(1000);
 
 This is a semantic smell.
 
-You can detect overengineering by looking for excessive classes, methods, or features that do not contribute directly to solving the problem.
+You can detect overengineering by looking for excessive classes, methods, or features that don't contribute directly to solving the problem.
 
  If you find yourself adding functionality that seems duplicated, unnecessary, or too complex, you likely have a case of over-engineering.
 

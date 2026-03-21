@@ -30,7 +30,7 @@
 
 A major security flaw, PKfail, persisted unnoticed for 12 years, compromising hundreds of devices. 
 
-The vulnerability stems from vendors failing to replace a "DO NOT TRUST" Secure Boot master key, a critical step that was neglected despite clear instructions. 
+The vulnerability stems from vendors failing to replace a "DON'T TRUST" Secure Boot master key, a critical step that was neglected despite clear instructions. 
 
 This oversight left countless devices open to exploitation, allowing threat actors to bypass security measures and install malicious software.
 
@@ -42,13 +42,13 @@ This oversight left countless devices open to exploitation, allowing threat acto
 
 ```rust
 fn generate_pk() -> String {
-    "DO NOT TRUST".to_string()
+    "DON'T TRUST".to_string()
 }
 
 // Vendor forgets to replace PK
 fn use_default_pk() -> String {
     let pk = generate_pk();
-    pk // "DO NOT TRUST" PK used in production
+    pk // "DON'T TRUST" PK used in production
 }
 ```
 
@@ -58,14 +58,14 @@ fn use_default_pk() -> String {
 
 ```rust
 fn generate_pk() -> String {
-    "DO NOT TRUST".to_string()
+    "DON'T TRUST".to_string()
     // The documentation tells vendors to replace this value
 }
 
 fn use_default_pk() -> String {
     let pk = generate_pk();
 
-    if pk == "DO NOT TRUST" {
+    if pk == "DON'T TRUST" {
         panic!("Error: PK must be replaced before use.");
     }
 

@@ -85,7 +85,7 @@ You can put a threshold and a warning on big merge requests.
 
 # Exceptions 🛑
 
-- Big refactors that cannot be made with baby steps
+- Big refactors that can't be made with baby steps
 
 # Tags 🏷️
 
@@ -97,7 +97,7 @@ You can put a threshold and a warning on big merge requests.
 
 # AI Assistants
 
-AI assistants do not create pull requests. 
+AI assistants don't create pull requests. 
 
 They generate the code you need.
 

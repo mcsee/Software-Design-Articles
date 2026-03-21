@@ -72,7 +72,7 @@ process_API_information(data)
 
 [X] Semi-Automatic 
 
-This is a semantic smell. You can warn the developers on error texts that do not include variables. 
+This is a semantic smell. You can warn the developers on error texts that don't include variables. 
 
 # Tags 🏷️
 

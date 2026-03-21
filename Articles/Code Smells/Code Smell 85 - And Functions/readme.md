@@ -2,9 +2,9 @@
 
 ![Code Smell 85 - And Functions](Code%20Smell%2085%20-%20And%20Functions.jpg)
 
-*Do not perform more than requested.*
+*Don't perform more than requested.*
 
-> TL;DR: Unless you need atomicity, do not perform more than one task.
+> TL;DR: Unless you need atomicity, don't perform more than one task.
 
 # Problems 😔 
 

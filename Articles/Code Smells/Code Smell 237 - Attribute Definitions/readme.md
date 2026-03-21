@@ -97,13 +97,13 @@ public class ShoppingCart {
 
 [X] Manual
 
-This is language smell. You cannot detect it.
+This is language smell. You can't detect it.
 
 # Exceptions 🛑
 
 - This smell applies only to languages requiring explicit attribute definitions like Java, C#, PHP, etc.
 
-Dynamically-typed languages like Python or JavaScript do not require explicit attribute definition. 
+Dynamically-typed languages like Python or JavaScript don't require explicit attribute definition. 
 
 In these languages, you can create attributes on the fly without declaring them in the class definition. 
 
@@ -123,7 +123,7 @@ Try prompting: *'Generate a class representing a House in Java'*
 
 # Conclusion 🏁
 
-You cannot change the language you use, still, according to The [Sapir-Whorf hypothesis](https://learning.oreilly.com/library/view/clean-code-cookbook/9781098144715/) the structure and vocabulary of a language can shape or influence how its speakers perceive and think about the real world using the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md).
+You can't change the language you use, still, according to The [Sapir-Whorf hypothesis](https://learning.oreilly.com/library/view/clean-code-cookbook/9781098144715/) the structure and vocabulary of a language can shape or influence how its speakers perceive and think about the real world using the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md).
 
 # Relations 👩‍❤️‍💋‍👨
 

@@ -4,7 +4,7 @@
 
 *Anemic Models are the problem. Anemic Model Generators are the Meta Problem.*
 
-> TL;DR: Do not create anemic objects. Much less with automatic tools.
+> TL;DR: Don't create anemic objects. Much less with automatic tools.
 
 # Problems 😔 
 

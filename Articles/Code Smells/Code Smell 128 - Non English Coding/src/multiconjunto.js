@@ -17,7 +17,7 @@ moreElements.agregar('hello');
 echo moreElements.size() yields 2 // Since it is a multiset
 
 // Elements and moreElements are NOT polymorphic
-// You cannot exchange their implementation
+// You can't exchange their implementation
 
 class Person {
     constructor() {

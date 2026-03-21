@@ -9,7 +9,7 @@ export const ALL_CONSTANTS = Object.freeze({
 const ALL_CONSTANTS = 3.14; // Error
 
 ALL_CONSTANTS.DISCOUNT.PLATINUM = 0.12; // ERROR
-// Code works, but it is coupled and you cannot test it
+// Code works, but it is coupled and you can't test it
 
 class TaxesProvider {
   applyPlatinum(product);

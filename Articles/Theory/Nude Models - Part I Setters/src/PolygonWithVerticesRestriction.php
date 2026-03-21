@@ -8,7 +8,7 @@ final class Polygon {
     if (count($newVertices < 3)) {
        throw new 
          Exception(
-           'Cannot create a polygon with less than 3 vertices');
+           'Can\'t create a polygon with less than 3 vertices');
     }
     $this->vertices = $newVertices;
     }

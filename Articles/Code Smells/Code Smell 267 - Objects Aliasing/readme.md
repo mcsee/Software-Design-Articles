@@ -31,7 +31,7 @@ Aliasing happens when multiple references point to the same mutable object.
 
 This can lead to unexpected changes in them when one part of the code modifies the object, affecting all references. 
 
-Immutable objects mitigate this risk by ensuring you cannot change their internal representation once you create an object.
+Immutable objects mitigate this risk by ensuring you can't change their internal representation once you create an object.
 
 [Collection Aliasing](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20266%20-%20Collection%20Aliasing/readme.md) is a notable example of this issue.
 

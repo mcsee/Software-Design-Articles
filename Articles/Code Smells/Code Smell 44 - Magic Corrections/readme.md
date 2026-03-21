@@ -18,7 +18,7 @@
 
 1. Fail Fast
 
-2. Do not trust magic coercion.
+2. Don't trust magic coercion.
 
 3. Be Explicit
 

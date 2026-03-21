@@ -25,13 +25,13 @@ let gremlins = new Movie('PG 13');
 let jane = new Moviegoer(12);
 
 jane.watchMovie(theExorcist);
-// Jane cannot watch the exorcist since she is 12
+// Jane can't watch the exorcist since she is 12
 jane.watchMovie(gremlins);
-// Jane cannot watch gremlins since she is 12
+// Jane can't watch gremlins since she is 12
 
 let joe = new Moviegoer(16);
 
 joe.watchMovie(theExorcist);
-// Joe cannot watch the exorcist since he is 16
+// Joe can't watch the exorcist since he is 16
 joe.watchMovie(gremlins);
 // Joe CAN watch gremlins since he is 16

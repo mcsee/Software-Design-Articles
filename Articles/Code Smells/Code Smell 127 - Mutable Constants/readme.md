@@ -39,7 +39,7 @@ const DISCOUNT_PLATINUM = 0.1;
 const DISCOUNT_GOLD = 0.05;
 const DISCOUNT_SILVER = 0.02;
 
-// Since variables are constants you cannot reassign them
+// Since variables are constants you can't reassign them
 const DISCOUNT_PLATINUM = 0.05; // Error
 
 // You can group them
@@ -83,7 +83,7 @@ export const ALL_CONSTANTS = Object.freeze({
 const ALL_CONSTANTS = 3.14; // Error
 
 ALL_CONSTANTS.DISCOUNT.PLATINUM = 0.12; // ERROR
-// Code works, but it is coupled and you cannot test it
+// Code works, but it is coupled and you can't test it
 
 class TaxesProvider {
   applyPlatinum(product);

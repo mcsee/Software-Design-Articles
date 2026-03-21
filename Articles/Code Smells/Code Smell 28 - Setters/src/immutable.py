@@ -6,10 +6,10 @@ class PhoneCall:
    def __init__(self, origin, destination, durationInSeconds):
       
       if destination == origin:
-       raise ValueError("Destination cannot be the same as origin")
+       raise ValueError("Destination can't be the same as origin")
       # single control point.
       # You only create valid phone calls 
-      # and they remain valid since they cannot mutate
+      # and they remain valid since they can't mutate
       
       self._origin = origin
       self._destination = destination

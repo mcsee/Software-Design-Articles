@@ -51,7 +51,7 @@ logger logging.getLogger(__name___)
 try:
   send_email()
 except ConnectionError as exception:
-  logger.error("Cannot send email {exception}")
+  logger.error("Can't send email {exception}")
 ```
 
 # Detection 🔍

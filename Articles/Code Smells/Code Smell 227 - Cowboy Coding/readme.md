@@ -30,7 +30,7 @@ They don't follow team suggestions.
 
 Cowboy coding is generally considered an unprofessional and risky approach to software development because it can lead to code that is hard to maintain and prone to errors. 
 
-Cowboy Programmers are good people; however, [they cannot work in a group](https://www.linkedin.com/pulse/software-development-cowboy-coding-hakan-atba%C5%9F/).
+Cowboy Programmers are good people; however, [they can't work in a group](https://www.linkedin.com/pulse/software-development-cowboy-coding-hakan-atba%C5%9F/).
 
 # Sample Code 💻
 

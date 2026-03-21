@@ -16,7 +16,7 @@ The paper is based on the Aristotelian concepts of **Essence** and **Accident**.
 
 The silver bullet metaphor, which gives the article its title, has two meanings:
 
-The first indicates that we are facing a monster that cannot be eliminated with conventional and known weapons.
+The first indicates that we are facing a monster that can't be eliminated with conventional and known weapons.
 
 The second meaning tells us about an enemy who was our ally, but later became our greatest fear.
 
@@ -52,7 +52,7 @@ One of the corollaries of said law holds that
 
 >Adding manpower to a late software project makes it later
 
-This thesis confronts the Taylorist idea of ​​software development, in tune with what was proposed by Peter Naur.
+This thesis confronts the Taylorist idea of software development, in tune with what was proposed by Peter Naur.
 
 [Programming as Theory Building](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Programming%20as%20Theory%20Building/readme.md)
 
@@ -68,7 +68,7 @@ This improvement has occurred systematically with hardware as stated by [Moore's
 
 Historically, we have wanted to pigeonhole software engineering as a more familiar and well-known metaphor, similar to the construction of bridges or buildings. Civil engineering is predictable and familiar with millennia of history and experience.
 
-Computer scientists want to identify ourselves with such engineering and we look for similarities that **do not really exist** if we consider the very different reality of software development.
+Computer scientists want to identify ourselves with such engineering and we look for similarities that **don't really exist** if we consider the very different reality of software development.
 
 There are specific and unique attributes in software that make it **essentially** different from all known engineering:
 
@@ -92,7 +92,7 @@ The sheer number of variables makes the development process **essentially** diff
 
 The complexity of software construction generates management, training and knowledge transfer problems, causing the software to be intrinsically tied to the people who developed it, as Peter Naur enumerates.
 
-The originality of each software development causes each new problem to be different and we cannot find good tools for reusing repeated components as in other industries where new models can be built with standard parts.
+The originality of each software development causes each new problem to be different and we can't find good tools for reusing repeated components as in other industries where new models can be built with standard parts.
 
 Reuse has always been a north in software development. However, we spend much of our time reinventing the wheel, discarding libraries, creating new languages, reinventing exception handling, rediscovering anonymous functions or functional programming's adventages, immutability etc.
 
@@ -122,7 +122,7 @@ Photo by [Chang Duong](https://unsplash.com/@iamchang) on Unsplash
 
 In addition to the essential complexity of software development, and due to the immaturity of our profession, we add a layer of accidental complexity by making models much more complex than necessary.
 
-Since we cannot avoid essential complexity, the sole task of a software engineer should be to **eliminate all accidental complexity **.
+Since we can't avoid essential complexity, the sole task of a software engineer should be to **eliminate all accidental complexity **.
 
 [The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
@@ -144,7 +144,7 @@ Software is invisible. For decades, people tried to design software with plans l
 
 > The software design is present in the code, never in the diagrams. Diagrams don't execute, they have no errors and nobody maintains them. We need to trash them.
 
-Software doesn't have a spatial or geometric representation. We cannot imagine it or make it visible due to the large number of axes of change.
+Software doesn't have a spatial or geometric representation. We can't imagine it or make it visible due to the large number of axes of change.
 
 Just perform [contour lines](https://en.wikipedia.org/wiki/Contour_line) to be able to observe some isolated aspects, as unit tests do.
 
@@ -159,11 +159,11 @@ Photo by [engin akyurt](https://unsplash.com/@enginakyurt) on Unsplash
 
 ## High-level languages
 
-High-level languages ​​were on the rise in the 1970s and were the hope back then. Brooks was correct in stating that these languages ​​eliminate some of the accidental complexity by being away from the machine, its states, registers, disks etc.
+High-level languages were on the rise in the 1970s and were the hope back then. Brooks was correct in stating that these languages eliminate some of the accidental complexity by being away from the machine, its states, registers, disks etc.
 
 [What is (wrong with) software?](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
-What seemed like a glimmer of hope is still far from reality in sad times like 2020, where languages ​​like Go or C # privilege the gain of a few processing cycles over **good models**, seducing fans of premature optimization with short-term promises.
+What seemed like a glimmer of hope is still far from reality in sad times like 2020, where languages like Go or C # privilege the gain of a few processing cycles over **good models**, seducing fans of premature optimization with short-term promises.
 
 ## Time Sharing Systems
 
@@ -177,7 +177,7 @@ Shared libraries and operating systems, like the newborn Unix, promised ease of 
 
 Object-oriented programming was a flame of hope in the 1970s for decreasing **accidental** complexity. Brooks notes with accuracy that there is nothing they can do with the **essential** complexity.
 
-Today, we see concepts discovered in the 1970s and forgotten by the object-oriented languages ​​of the 1990s such as Java, Python or PHP: This is how the benefits of encapsulation, polymorphism and immutability are rediscovered.
+Today, we see concepts discovered in the 1970s and forgotten by the object-oriented languages of the 1990s such as Java, Python or PHP: This is how the benefits of encapsulation, polymorphism and immutability are rediscovered.
 
 [Nude Models - Part I: Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20I Setters/readme.md)
 
@@ -187,7 +187,7 @@ Artificial intelligence had many very hopeful and productive summers, interspers
 
 Brooks lists the now-defunct expert systems with inference engines based on preprogrammed rules. The modern version of these systems is *machine learning*, where the rules are "learned" and not fixed using supervised or unsupervised learning.
 
-But today's artificial intelligence cannot beat the **essential** difficulty. There are notable advancements in vision and robotics and wonders like GPT3, which manages to produce good code to solve low-essential complexity problems.
+But today's artificial intelligence can't beat the **essential** difficulty. There are notable advancements in vision and robotics and wonders like GPT3, which manages to produce good code to solve low-essential complexity problems.
 
 ## Automatic Programming
 
@@ -205,7 +205,7 @@ Formal software verification was always difficult to scale.
 
 This was valid in 1986, and in the present.
 
-There are no mechanisms that make it feasible to formally verify highly complex software and we do not see academic publications that indicate a change in this trend.
+There are no mechanisms that make it feasible to formally verify highly complex software and we don't see academic publications that indicate a change in this trend.
 
 ## Tools and environments
 

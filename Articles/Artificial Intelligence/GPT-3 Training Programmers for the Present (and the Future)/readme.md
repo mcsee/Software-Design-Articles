@@ -48,7 +48,7 @@ In today's software industry, it is very unlikely to find the need to develop fr
 
 The specific lifespan of a programmer age along with the fashionable language. This period of time is usually less than a decade, so the industry discards professionals as obsolete before ten years of training. (4)
 
-In the last decades, they were fashionable as supposed silver bullets (5), languages ​​like Visual Basic, C ++, Java, Php, Perl, Javascript, Ruby, Python, and GoLang.
+In the last decades, they were fashionable as supposed silver bullets (5), languages like Visual Basic, C ++, Java, Php, Perl, Javascript, Ruby, Python, and GoLang.
 Some of them are already ceasing to be used, leaving their place for new fashions. (6)
 
 The general concepts (which Frederick Brooks calls essential (7)) are better absorbed in our first academic stage. We must focus on forming these concepts so that professionals can easily migrate from one technology (which Brooks calls accidental) to another technology (also accidental and, therefore, quickly obsolete).
@@ -74,13 +74,13 @@ The lack of abstraction and understanding of reality is a symptom of an inertial
 
 ## The alternative
 
-We need to train generalists, but not theorists. People who understand the basics and foundations of software engineering and can adapt to accidental implementations based on current tools, but also to future ones that we do not yet know today.
+We need to train generalists, but not theorists. People who understand the basics and foundations of software engineering and can adapt to accidental implementations based on current tools, but also to future ones that we don't yet know today.
 
 Concepts such as software design, life cycle models, teamwork and building a shared theory (17), continuous integration and deployment or architecture, are much more important than learning to minimize CPU usage, to use React, the Vue framework, or the Keta library.
 
 "It is very difficult to make predictions, especially about the future". This phrase, attributed to the great Niels Bohr, tells us that we should be careful when trying to anticipate the future. Paraphrasing the 2004 Turing Award (18) Alan Key, said: "The best way to predict the future is to invent it".
 
-We do not know for sure what the path of machine automation will be, but we can predict that the most creative and engineering part of our profession should be one of the last bastions to fall before automation.
+We don't know for sure what the path of machine automation will be, but we can predict that the most creative and engineering part of our profession should be one of the last bastions to fall before automation.
 
 The next generation of software developers will have to focus their skills on design, modeling the real-world, and creating abstractions that evolve along with the problem domain to avoid building obsolete and legacy software (19).
 

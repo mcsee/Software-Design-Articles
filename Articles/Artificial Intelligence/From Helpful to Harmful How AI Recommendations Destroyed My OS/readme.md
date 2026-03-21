@@ -26,7 +26,7 @@ Using AI effectively is no longer optional at Shopify; it is a baseline expectat
 
 *Non-Use of AI Requires Justification*
 
-Employees must demonstrate why AI cannot be used before requesting additional resources (e.g., more staff or time). Stagnation is framed as failure, and employees are encouraged to upskill and experiment with AI continuously.
+Employees must demonstrate why AI can't be used before requesting additional resources (e.g., more staff or time). Stagnation is framed as failure, and employees are encouraged to upskill and experiment with AI continuously.
 
 *AI in Product Development*
 
@@ -38,7 +38,7 @@ Shopify is adding AI usage to its performance and peer review criteria, making A
 
 ---
 
-I do not work at Shopify, and I am not affiliated with the company.
+I don't work at Shopify, and I am not affiliated with the company.
 
 # My Context
 

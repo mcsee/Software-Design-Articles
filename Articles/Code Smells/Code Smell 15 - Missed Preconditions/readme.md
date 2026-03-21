@@ -119,7 +119,7 @@ startDate.setMonth(13)
 
 # Why the Bijection Is Important 🗺️
 
-In the MAPPER, a person cannot have a negative age or an empty name. 
+In the MAPPER, a person can't have a negative age or an empty name. 
 
 If your code allows these states, you break the bijection. 
 

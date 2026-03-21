@@ -31,7 +31,7 @@ final class MonotheisticReligion implements Religion {
 $christianGod = new God();
 $christianReligion = new MonotheisticReligion($christianGod);
 // Under this context God is unique.
-// You cannot create or change a new one.
+// You can't create or change a new one.
 // This is a scoped global.
 
 $jupiter = new God();

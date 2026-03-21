@@ -97,7 +97,7 @@ final class MonotheisticReligion implements Religion {
 $christianGod = new God();
 $christianReligion = new MonotheisticReligion($christianGod);
 // Under this context God is unique.
-// You cannot create or change a new one.
+// You can't create or change a new one.
 // This is a scoped global.
 
 $jupiter = new God();
@@ -116,7 +116,7 @@ $mythogicalReligion = new PolythiesticReligion([$jupiter, $saturn]);
 
 This is a design pattern. We should avoid it by policy. 
 
-We can add linter rules for patterns like *'getInstance()'* so new developers cannot infect code with this anti-pattern.
+We can add linter rules for patterns like *'getInstance()'* so new developers can't infect code with this anti-pattern.
  
 # Tags 🏷️
 

@@ -2,7 +2,7 @@
 
 ![Code Smell 110 - Switches With Defaults](Code%20Smell%20110%20-%20Switches%20With%20Defaults.jpg)
 
-*Default means 'everything we don't know yet'. We cannot foresee the future.*
+*Default means 'everything we don't know yet'. We can't foresee the future.*
 
 > TL;DR: Don't add a default clause to your cases. Change it for an exception. Be Explicit.
 

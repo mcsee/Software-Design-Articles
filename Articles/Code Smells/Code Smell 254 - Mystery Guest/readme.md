@@ -80,7 +80,7 @@ void shouldReturnAnswerWhenAnswerExists() {
 
 [X] Manual
 
-You can detect this smell by looking for tests that do not clearly show their setup steps or rely heavily on external configurations.
+You can detect this smell by looking for tests that don't clearly show their setup steps or rely heavily on external configurations.
 
 # Tags 🏷️
 

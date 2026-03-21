@@ -122,7 +122,7 @@ final class GeographicCoordinate {
 
 # Detection 🔍
 
-We cannot forbid Associative Arrays since they are very good as a first approach.
+We can't forbid Associative Arrays since they are very good as a first approach.
 
 They will be fine for exporting data, serialization, persistence and other accidental implementation issues.
 

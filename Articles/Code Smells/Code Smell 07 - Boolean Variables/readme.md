@@ -42,7 +42,7 @@ Booleans also hide intent. A variable named flag tells you nothing about what it
 
 Even descriptive names like *isActive* or *hasPermission* leak implementation details instead of revealing domain concepts.
 
-The problems multiply when you need a third state. You cannot extend a Boolean without breaking existing code. 
+The problems multiply when you need a third state. You can't extend a Boolean without breaking existing code. 
 
 You end up with multiple Boolean combinations that create implicit states, making your code fragile and hard to understand.
 

@@ -2,7 +2,7 @@
 
 ![Refactoring 007 - Extract Class](Refactoring%20007%20-%20Extract%20Class.jpg)
 
-*Behavior is repeated across the system. But we are missing a concept*
+*Behavior is repeated across the system. But you are missing a concept*
 
 > TL;DR: Put together what belongs together 
 
@@ -126,7 +126,23 @@ This is a safe refactoring.
 
 # Why is the Code Better? ✨
 
-Logic code is in just one place together with its rules
+Logic code is in just one place together with its rules.
+
+# How Does it Improve the Bijection? 🗺️
+
+In many software models, you often leave concepts homeless, scattering their behavior and data across unrelated classes. 
+
+This creates a gap between the Real World (where a concept clearly exists) and the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) (where it is missing).
+
+When you extract a class, you reify a concept.
+
+You give a name and a physical place to an idea that was previously hidden in the implementation details. 
+
+This direct 1:1 [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) between a real-world entity and a software object reduces cognitive load.
+
+You no longer need to mental map data clumps back to their original meaning. 
+
+You are not just organizing code; you are making the software more "real."
 
 # Tags 🏷️
 
@@ -149,6 +165,23 @@ Logic code is in just one place together with its rules
 [Refactoring 018 - Replace Singleton](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20018%20-%20Replace%20Singleton/readme.md)
 
 [Refactoring 020 - Transform Static Functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20020%20-%20Transform%20Static%20Functions/readme.md)
+
+# Refactor with AI 🤖
+
+> Suggested Prompt: 1. Identify classes with low cohesion and unrelated methods.2. Extract related behaviors and properties into new classes.3. Refactor the original class to use the new extracted classes
+
+| Without Proper Instructions    | With Specific Instructions |
+| -------- | ------- |
+| [ChatGPT](https://chat.openai.com/?q=Correct+and+explain+this+code%3A+%60%60%60java%0D%0Afinal+class+Person+%7B%0D%0A+%0D%0A++++++private+String+name%3B%0D%0A+++%0D%0A++++++%2F%2F+Below+cohesive+properties%0D%0A++++++private+String+homeAreaCode%3B%0D%0A++++++private+String+homeNumber%3B%0D%0A++++++%0D%0A++++++public+String+name%28%29+%7B%0D%0A++++++++++return+name%3B%0D%0A++++++%7D%0D%0A+++%0D%0A++++++%2F%2F+Below+cohesive+behavior%0D%0A++++++public+String+telephoneNumber%28%29+%7B%0D%0A++++++++++return+%28%22%28%22+%2B+homeAreaCode+%2B+%22%29+%22+%2B+homeNumber%29%3B%0D%0A++++++%7D%0D%0A++++++String+areaCode%28%29+%7B%0D%0A++++++++++return+homeAreaCode%3B%0D%0A++++++%7D%0D%0A++++++String+officeNumber%28%29+%7B%0D%0A++++++++++return+officeNumber%3B%0D%0A++++++%7D+%0D%0A+%7D%0D%0A%60%60%60) | [ChatGPT](https://chat.openai.com/?q=1.+Identify+classes+with+low+cohesion+and+unrelated+methods.2.+Extract+related+behaviors+and+properties+into+new+classes.3.+Refactor+the+original+class+to+use+the+new+extracted+classes%3A+%60%60%60java%0D%0Afinal+class+Person+%7B%0D%0A+%0D%0A++++++private+String+name%3B%0D%0A+++%0D%0A++++++%2F%2F+Below+cohesive+properties%0D%0A++++++private+String+homeAreaCode%3B%0D%0A++++++private+String+homeNumber%3B%0D%0A++++++%0D%0A++++++public+String+name%28%29+%7B%0D%0A++++++++++return+name%3B%0D%0A++++++%7D%0D%0A+++%0D%0A++++++%2F%2F+Below+cohesive+behavior%0D%0A++++++public+String+telephoneNumber%28%29+%7B%0D%0A++++++++++return+%28%22%28%22+%2B+homeAreaCode+%2B+%22%29+%22+%2B+homeNumber%29%3B%0D%0A++++++%7D%0D%0A++++++String+areaCode%28%29+%7B%0D%0A++++++++++return+homeAreaCode%3B%0D%0A++++++%7D%0D%0A++++++String+officeNumber%28%29+%7B%0D%0A++++++++++return+officeNumber%3B%0D%0A++++++%7D+%0D%0A+%7D%0D%0A%60%60%60) |
+| [Claude](https://claude.ai/new?q=Correct+and+explain+this+code%3A+%60%60%60java%0D%0Afinal+class+Person+%7B%0D%0A+%0D%0A++++++private+String+name%3B%0D%0A+++%0D%0A++++++%2F%2F+Below+cohesive+properties%0D%0A++++++private+String+homeAreaCode%3B%0D%0A++++++private+String+homeNumber%3B%0D%0A++++++%0D%0A++++++public+String+name%28%29+%7B%0D%0A++++++++++return+name%3B%0D%0A++++++%7D%0D%0A+++%0D%0A++++++%2F%2F+Below+cohesive+behavior%0D%0A++++++public+String+telephoneNumber%28%29+%7B%0D%0A++++++++++return+%28%22%28%22+%2B+homeAreaCode+%2B+%22%29+%22+%2B+homeNumber%29%3B%0D%0A++++++%7D%0D%0A++++++String+areaCode%28%29+%7B%0D%0A++++++++++return+homeAreaCode%3B%0D%0A++++++%7D%0D%0A++++++String+officeNumber%28%29+%7B%0D%0A++++++++++return+officeNumber%3B%0D%0A++++++%7D+%0D%0A+%7D%0D%0A%60%60%60) | [Claude](https://claude.ai/new?q=1.+Identify+classes+with+low+cohesion+and+unrelated+methods.2.+Extract+related+behaviors+and+properties+into+new+classes.3.+Refactor+the+original+class+to+use+the+new+extracted+classes%3A+%60%60%60java%0D%0Afinal+class+Person+%7B%0D%0A+%0D%0A++++++private+String+name%3B%0D%0A+++%0D%0A++++++%2F%2F+Below+cohesive+properties%0D%0A++++++private+String+homeAreaCode%3B%0D%0A++++++private+String+homeNumber%3B%0D%0A++++++%0D%0A++++++public+String+name%28%29+%7B%0D%0A++++++++++return+name%3B%0D%0A++++++%7D%0D%0A+++%0D%0A++++++%2F%2F+Below+cohesive+behavior%0D%0A++++++public+String+telephoneNumber%28%29+%7B%0D%0A++++++++++return+%28%22%28%22+%2B+homeAreaCode+%2B+%22%29+%22+%2B+homeNumber%29%3B%0D%0A++++++%7D%0D%0A++++++String+areaCode%28%29+%7B%0D%0A++++++++++return+homeAreaCode%3B%0D%0A++++++%7D%0D%0A++++++String+officeNumber%28%29+%7B%0D%0A++++++++++return+officeNumber%3B%0D%0A++++++%7D+%0D%0A+%7D%0D%0A%60%60%60) |
+| [Perplexity](https://www.perplexity.ai/?q=Correct+and+explain+this+code%3A+%60%60%60java%0D%0Afinal+class+Person+%7B%0D%0A+%0D%0A++++++private+String+name%3B%0D%0A+++%0D%0A++++++%2F%2F+Below+cohesive+properties%0D%0A++++++private+String+homeAreaCode%3B%0D%0A++++++private+String+homeNumber%3B%0D%0A++++++%0D%0A++++++public+String+name%28%29+%7B%0D%0A++++++++++return+name%3B%0D%0A++++++%7D%0D%0A+++%0D%0A++++++%2F%2F+Below+cohesive+behavior%0D%0A++++++public+String+telephoneNumber%28%29+%7B%0D%0A++++++++++return+%28%22%28%22+%2B+homeAreaCode+%2B+%22%29+%22+%2B+homeNumber%29%3B%0D%0A++++++%7D%0D%0A++++++String+areaCode%28%29+%7B%0D%0A++++++++++return+homeAreaCode%3B%0D%0A++++++%7D%0D%0A++++++String+officeNumber%28%29+%7B%0D%0A++++++++++return+officeNumber%3B%0D%0A++++++%7D+%0D%0A+%7D%0D%0A%60%60%60) | [Perplexity](https://www.perplexity.ai/?q=1.+Identify+classes+with+low+cohesion+and+unrelated+methods.2.+Extract+related+behaviors+and+properties+into+new+classes.3.+Refactor+the+original+class+to+use+the+new+extracted+classes%3A+%60%60%60java%0D%0Afinal+class+Person+%7B%0D%0A+%0D%0A++++++private+String+name%3B%0D%0A+++%0D%0A++++++%2F%2F+Below+cohesive+properties%0D%0A++++++private+String+homeAreaCode%3B%0D%0A++++++private+String+homeNumber%3B%0D%0A++++++%0D%0A++++++public+String+name%28%29+%7B%0D%0A++++++++++return+name%3B%0D%0A++++++%7D%0D%0A+++%0D%0A++++++%2F%2F+Below+cohesive+behavior%0D%0A++++++public+String+telephoneNumber%28%29+%7B%0D%0A++++++++++return+%28%22%28%22+%2B+homeAreaCode+%2B+%22%29+%22+%2B+homeNumber%29%3B%0D%0A++++++%7D%0D%0A++++++String+areaCode%28%29+%7B%0D%0A++++++++++return+homeAreaCode%3B%0D%0A++++++%7D%0D%0A++++++String+officeNumber%28%29+%7B%0D%0A++++++++++return+officeNumber%3B%0D%0A++++++%7D+%0D%0A+%7D%0D%0A%60%60%60) |
+| [Copilot](https://www.bing.com/chat?showconv=1&sendquery=1&q=Correct+and+explain+this+code%3A+%60%60%60java%0D%0Afinal+class+Person+%7B%0D%0A+%0D%0A++++++private+String+name%3B%0D%0A+++%0D%0A++++++%2F%2F+Below+cohesive+properties%0D%0A++++++private+String+homeAreaCode%3B%0D%0A++++++private+String+homeNumber%3B%0D%0A++++++%0D%0A++++++public+String+name%28%29+%7B%0D%0A++++++++++return+name%3B%0D%0A++++++%7D%0D%0A+++%0D%0A++++++%2F%2F+Below+cohesive+behavior%0D%0A++++++public+String+telephoneNumber%28%29+%7B%0D%0A++++++++++return+%28%22%28%22+%2B+homeAreaCode+%2B+%22%29+%22+%2B+homeNumber%29%3B%0D%0A++++++%7D%0D%0A++++++String+areaCode%28%29+%7B%0D%0A++++++++++return+homeAreaCode%3B%0D%0A++++++%7D%0D%0A++++++String+officeNumber%28%29+%7B%0D%0A++++++++++return+officeNumber%3B%0D%0A++++++%7D+%0D%0A+%7D%0D%0A%60%60%60) | [Copilot](https://www.bing.com/chat?showconv=1&sendquery=1&q=1.+Identify+classes+with+low+cohesion+and+unrelated+methods.2.+Extract+related+behaviors+and+properties+into+new+classes.3.+Refactor+the+original+class+to+use+the+new+extracted+classes%3A+%60%60%60java%0D%0Afinal+class+Person+%7B%0D%0A+%0D%0A++++++private+String+name%3B%0D%0A+++%0D%0A++++++%2F%2F+Below+cohesive+properties%0D%0A++++++private+String+homeAreaCode%3B%0D%0A++++++private+String+homeNumber%3B%0D%0A++++++%0D%0A++++++public+String+name%28%29+%7B%0D%0A++++++++++return+name%3B%0D%0A++++++%7D%0D%0A+++%0D%0A++++++%2F%2F+Below+cohesive+behavior%0D%0A++++++public+String+telephoneNumber%28%29+%7B%0D%0A++++++++++return+%28%22%28%22+%2B+homeAreaCode+%2B+%22%29+%22+%2B+homeNumber%29%3B%0D%0A++++++%7D%0D%0A++++++String+areaCode%28%29+%7B%0D%0A++++++++++return+homeAreaCode%3B%0D%0A++++++%7D%0D%0A++++++String+officeNumber%28%29+%7B%0D%0A++++++++++return+officeNumber%3B%0D%0A++++++%7D+%0D%0A+%7D%0D%0A%60%60%60) |
+| [You](https://you.com/search?q=Correct+and+explain+this+code%3A+%60%60%60java%0D%0Afinal+class+Person+%7B%0D%0A+%0D%0A++++++private+String+name%3B%0D%0A+++%0D%0A++++++%2F%2F+Below+cohesive+properties%0D%0A++++++private+String+homeAreaCode%3B%0D%0A++++++private+String+homeNumber%3B%0D%0A++++++%0D%0A++++++public+String+name%28%29+%7B%0D%0A++++++++++return+name%3B%0D%0A++++++%7D%0D%0A+++%0D%0A++++++%2F%2F+Below+cohesive+behavior%0D%0A++++++public+String+telephoneNumber%28%29+%7B%0D%0A++++++++++return+%28%22%28%22+%2B+homeAreaCode+%2B+%22%29+%22+%2B+homeNumber%29%3B%0D%0A++++++%7D%0D%0A++++++String+areaCode%28%29+%7B%0D%0A++++++++++return+homeAreaCode%3B%0D%0A++++++%7D%0D%0A++++++String+officeNumber%28%29+%7B%0D%0A++++++++++return+officeNumber%3B%0D%0A++++++%7D+%0D%0A+%7D%0D%0A%60%60%60) | [You](https://you.com/search?q=1.+Identify+classes+with+low+cohesion+and+unrelated+methods.2.+Extract+related+behaviors+and+properties+into+new+classes.3.+Refactor+the+original+class+to+use+the+new+extracted+classes%3A+%60%60%60java%0D%0Afinal+class+Person+%7B%0D%0A+%0D%0A++++++private+String+name%3B%0D%0A+++%0D%0A++++++%2F%2F+Below+cohesive+properties%0D%0A++++++private+String+homeAreaCode%3B%0D%0A++++++private+String+homeNumber%3B%0D%0A++++++%0D%0A++++++public+String+name%28%29+%7B%0D%0A++++++++++return+name%3B%0D%0A++++++%7D%0D%0A+++%0D%0A++++++%2F%2F+Below+cohesive+behavior%0D%0A++++++public+String+telephoneNumber%28%29+%7B%0D%0A++++++++++return+%28%22%28%22+%2B+homeAreaCode+%2B+%22%29+%22+%2B+homeNumber%29%3B%0D%0A++++++%7D%0D%0A++++++String+areaCode%28%29+%7B%0D%0A++++++++++return+homeAreaCode%3B%0D%0A++++++%7D%0D%0A++++++String+officeNumber%28%29+%7B%0D%0A++++++++++return+officeNumber%3B%0D%0A++++++%7D+%0D%0A+%7D%0D%0A%60%60%60) |
+| [Gemini](https://gemini.google.com/) | [Gemini](https://gemini.google.com/) | 
+| [DeepSeek](https://chat.deepseek.com/) | [DeepSeek](https://chat.deepseek.com/) | 
+| [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
+| [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
+| [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
 
 # See also 📚
 

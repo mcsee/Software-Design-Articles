@@ -20,13 +20,13 @@ Photo by [Dominik Vanyi](https://unsplash.com/@dominik_photography) on [Unsplash
 
 # The name that doesn't exist in real-world (Reprise)
 
-Programmers conventionally use the names of the form **_getAttribute…()_** to expose (and lose control of) a previously private attribute. Due to the same arguments stated on setter’s [article](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20I Setters/readme.md), this name cannot be [**mapped**](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) to a real-world equivalent through [**bijection**](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
+Programmers conventionally use the names of the form **_getAttribute…()_** to expose (and lose control of) a previously private attribute. Due to the same arguments stated on setter’s [article](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20I Setters/readme.md), this name can't be [**mapped**](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) to a real-world equivalent through [**bijection**](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
 
 The final conclusion regarding these names is:
 
 > There should never be methods of the form setAttribute…() or getAttribute…()
 
-# Do not expose collections
+# Don't expose collections
 
 Many objects manage collections. The contents management, the invariants or the traversal method should be the **sole responsibility** of these objects.
 
@@ -162,7 +162,7 @@ Therefore, a better solution would be:
 
 In the 90s there was a tendency to create a **double encapsulation** of attributes as an extreme approach on privacy. This means that, even from the private methods of an object, direct access to variables would be avoided.
 
-This practice doesn't generate any benefits. Adds unnecessary indirection, and expose setters and getters in languages ​​that have no distinction between **public** and **private** methods.
+This practice doesn't generate any benefits. Adds unnecessary indirection, and expose setters and getters in languages that have no distinction between **public** and **private** methods.
 
 In addition, it hides the **coupling** between an attribute and the direct methods that reference it, avoiding possible refactorings.
 
@@ -196,7 +196,7 @@ Let’s go back to our only design rule that asks for a [bijection](https://gith
 
 [The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
-In doing so, we will discover that the **responsibilities** we give to objects after they have been returned with a _getter_ do not **map** with the real-world violating [bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
+In doing so, we will discover that the **responsibilities** we give to objects after they have been returned with a _getter_ don't **map** with the real-world violating [bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
 
 On this [page](https://www.yegor256.com/2014/09/16/getters-and-setters-are-evil.html#a-ball-and-a-dog) there is an excellent example of disrespected anthropomorphism when using _getters_.
 
@@ -211,7 +211,7 @@ We will always pursue to emulate the behavior of objects like **black boxes**, g
 
 # Recommendations
 
-*   Do not use _setters_. There are no well-reasoned reasons for doing so.
+*   Don't use _setters_. There are no well-reasoned reasons for doing so.
 *   Don’t use _getters_. In case any of the responsibilities of an object is related to responding to a message matching an attribute, do it thinking beforehand if we are not **breaking the encapsulation.**
 *   Never prefix the function name with the word get. If a polygon in the real-world can answer what its vertices are, be it with the real-world name (**_vertices()_**).
 *   In case of returning collections, return a **copy** or a **proxy** so as not to lose control and favor the use of iterators.

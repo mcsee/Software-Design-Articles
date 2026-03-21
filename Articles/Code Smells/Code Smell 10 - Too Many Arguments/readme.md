@@ -106,7 +106,7 @@ Operations in real-world needing not cohesive collaborators.
 
 Some low-level functions mirror external APIs or system calls. 
 
-In those cases, argument lists reflect constraints you cannot control.
+In those cases, argument lists reflect constraints you can't control.
 
 # Tags 🏷️
 

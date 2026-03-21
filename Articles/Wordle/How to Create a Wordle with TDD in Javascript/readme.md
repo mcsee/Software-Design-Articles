@@ -353,7 +353,7 @@ All tests have passed 5/5
 
 - We hardcode the asterisc to be the only invalid character (as far as we know).
 - We can place the checking code *before* or *after* the previous validations.
--- Until we have an invalid case (with invalid characters and invalid length) we cannot assume the expected behavior.
+-- Until we have an invalid case (with invalid characters and invalid length) we can't assume the expected behavior.
 
 # More Invalid
 
@@ -381,7 +381,7 @@ test("test06PointShouldRaiseException", async function() {
 
 ## Notice
 
-- We didn't write a more generic function (yet) since we cannot correct tests and refactor at the same time (the technique forbids us).
+- We didn't write a more generic function (yet) since we can't correct tests and refactor at the same time (the technique forbids us).
 
 # Refactor
 
@@ -840,15 +840,15 @@ Class Word {
 
 ❌  test15TryFiveWordsLoses
 Stack Trace:
-TypeError: Cannot read properties of undefined (reading 'includes')
+TypeError: can't read properties of undefined (reading 'includes')
 
 ❌  test14TryOneWordAndDontLooseYet
 Stack Trace:
-TypeError: Cannot read properties of undefined (reading 'includes') 
+TypeError: can't read properties of undefined (reading 'includes') 
 
 ❌  test13TryOneWordAndRecordIt
 Stack Trace:
-TypeError: Cannot read properties of undefined (reading 'includes')
+TypeError: can't read properties of undefined (reading 'includes')
 
 ✅  test12EmptyGameWordsAttempted
 
@@ -993,7 +993,7 @@ We can do it in Word class.
 <!-- [Gist Url](https://gist.github.com/mcsee/07e861eebc069ca0a39810d86a1256c8) -->
 
 ```javascript
-test("test20LettersDoNotMatch", async function() {
+test("test20LettersDontMatch", async function() {
   const firstWord = new Word('trees');
   const secondWord = new Word('valid');
   expect([]).toStrictEqual(firstWord.matchesPositionWith(secondWord));

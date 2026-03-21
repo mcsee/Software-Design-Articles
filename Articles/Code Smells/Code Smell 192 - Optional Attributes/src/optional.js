@@ -10,5 +10,5 @@ class Person {
   }  
 }
 
-// You cannot use safely person.email()
+// You can't use safely person.email()
 // You need to check for null explicitly

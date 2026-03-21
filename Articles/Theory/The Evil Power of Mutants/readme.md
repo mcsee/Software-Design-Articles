@@ -24,7 +24,7 @@ The great [Fred Brooks](https://en.wikipedia.org/wiki/Frederick_Brooks) gave us 
 
 [No Silver Bullet](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md)
 
-The entity's accident happens due to temporary situations that despite changing object behavior do not prevent us from noticing we are watching the same entity even though it evolves as we do not [bathe twice in the same river.](https://www.goodreads.com/quotes/117526-no-man-ever-steps-in-the-same-river-twice-for)
+The entity's accident happens due to temporary situations that despite changing object behavior don't prevent us from noticing we are watching the same entity even though it evolves as we don't [bathe twice in the same river.](https://www.goodreads.com/quotes/117526-no-man-ever-steps-in-the-same-river-twice-for)
 
 ![River Bath](River%20Bath.jpg)
 
@@ -149,7 +149,7 @@ In our first version, this control would be impossible. In the immutable version
 function __construct($aParty, $aCounterParty, $anAmount, $aDate) {
    if ($aParty == $aCounterParty) {
       throw new 
-         PartyAndCounterpartyCannotBeTheSameException(
+         PartyAndCounterpartyCantBeTheSameException(
             $aParty, 
             $aCounterParty);
    }

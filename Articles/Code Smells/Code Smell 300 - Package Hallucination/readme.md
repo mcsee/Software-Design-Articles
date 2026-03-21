@@ -2,7 +2,7 @@
 
 ![Code Smell 300 - Package Hallucination](Code%20Smell%20300%20-%20Package%20Hallucination.jpg)
 
-*A chain is only as strong as its weakest link, and hallucinating dependencies will damage your software supply chain. DO NOT trust blindly on AI generators.*
+*A chain is only as strong as its weakest link, and hallucinating dependencies will damage your software supply chain. DON'T trust blindly on AI generators.*
 
 > TL;DR: Avoid hallucinated or fake packages that can compromise security and stability. 
 

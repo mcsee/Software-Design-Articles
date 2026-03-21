@@ -47,7 +47,7 @@ app.listen(3000, () => console.log('Server started on port 3000'));
           const fullText = textArea.value;
 
           if (fullText.length > maxChars) {
-            alert(`Text cannot exceed ${maxChars} characters`);
+            alert(`Text can't exceed ${maxChars} characters`);
             return;
           }
 

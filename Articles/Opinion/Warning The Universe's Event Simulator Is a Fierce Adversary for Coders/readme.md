@@ -46,7 +46,7 @@ This minimal duration represents the shortest meaningful interval of time that c
 
 At durations shorter than the Planck time, the concept of time itself becomes ambiguous, and the laws of physics as we know them break down. 
 
-You can't break plank units in the same way you cannot break [fundamental particles](https://en.wikipedia.org/wiki/Elementary_particle).
+You can't break plank units in the same way you can't break [fundamental particles](https://en.wikipedia.org/wiki/Elementary_particle).
 
 Ancient Greeks created the notion of indivisible particles, which they termed "atoms."
 

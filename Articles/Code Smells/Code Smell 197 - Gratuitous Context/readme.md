@@ -20,7 +20,7 @@
 
 # Context 💬
 
-In software development, gratuitous context refers to the unnecessary inclusion of additional information or data in code or user interfaces that do not contribute to the functionality or usability of the software.
+In software development, gratuitous context refers to the unnecessary inclusion of additional information or data in code or user interfaces that don't contribute to the functionality or usability of the software.
 
 It can make the software more difficult to use, understand and maintain.
 
@@ -114,7 +114,7 @@ Photo by [Mitchell Griest](https://unsplash.com/es/@griestprojects) on [Unsplash
     
 * * *
 
-> The most dangerous kind of waste is the waste we do not recognize.
+> The most dangerous kind of waste is the waste we don't recognize.
 
 _Shigeo Shingo_
  

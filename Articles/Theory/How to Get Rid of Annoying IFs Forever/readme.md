@@ -41,7 +41,7 @@ They make our algorithms darker and force us to build *accidentally complex* sol
 
 [No Silver Bullet](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md)
 
-People out of software development cannot explain why we use this branching sentence. This is a code smell.
+People out of software development can't explain why we use this branching sentence. This is a code smell.
 
 [How to Find the Stinky Parts of Your Code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/How%20to%20Find%20the%20Stinky%20Parts%20of%20Your%20Code/readme.md)
 
@@ -119,7 +119,7 @@ let jane = new Moviegoer(12);
 let theExorcist = new Movie('Adults Only');
 
 jane.watchMovie(theExorcist);
-// Jane cannot watch the exorcist since she is 12
+// Jane can't watch the exorcist since she is 12
 ```
 
 The movie rating **IF** is not related to a **real-world If** but to accidental (and coupled) implementation.
@@ -160,14 +160,14 @@ let gremlins = new Movie('PG 13');
 let jane = new Moviegoer(12);
 
 jane.watchMovie(theExorcist);
-// Jane cannot watch the exorcist since she is 12
+// Jane can't watch the exorcist since she is 12
 jane.watchMovie(gremlins);
-// Jane cannot watch gremlins since she is 12
+// Jane can't watch gremlins since she is 12
 
 let joe = new Moviegoer(16);
 
 joe.watchMovie(theExorcist);
-// Joe cannot watch the exorcist since he is 16
+// Joe can't watch the exorcist since he is 16
 joe.watchMovie(gremlins);
 // Joe CAN watch gremlins since he is 16
 ```
@@ -238,14 +238,14 @@ let gremlins = new Movie(new PG13MovieRate());
 let jane = new Moviegoer(12);
 
 // jane.watchMovie(theExorcist);
-// Jane cannot watch the exorcist since she is 12
+// Jane can't watch the exorcist since she is 12
 // jane.watchMovie(gremlins);
-// Jane cannot watch gremlins since she is 12
+// Jane can't watch gremlins since she is 12
 
 let joe = new Moviegoer(16);
 
 // joe.watchMovie(theExorcist);
-// Joe cannot watch the exorcist since he is 16
+// Joe can't watch the exorcist since he is 16
 joe.watchMovie(gremlins);
 // Joe CAN watch gremlins since he is 16
 ```
@@ -386,14 +386,14 @@ let gremlins = new Movie(new PG13MovieRate());
 let jane = new Moviegoer(new AgeLessThan13());
 
 // jane.watchMovie(theExorcist);
-// Jane cannot watch the exorcist since she is 12
+// Jane can't watch the exorcist since she is 12
 // jane.watchMovie(gremlins);
-// Jane cannot watch gremlins since she is 12
+// Jane can't watch gremlins since she is 12
 
 let joe = new Moviegoer(new AgeBetween13And18());
 
 // joe.watchMovie(theExorcist);
-// Joe cannot watch the exorcist since he is 16
+// Joe can't watch the exorcist since he is 16
 joe.watchMovie(gremlins);
 // Joe CAN watch gremlins since he is 16
 ```

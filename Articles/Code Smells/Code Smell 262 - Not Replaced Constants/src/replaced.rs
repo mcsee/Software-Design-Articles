@@ -1,12 +1,12 @@
 fn generate_pk() -> String {
-    "DO NOT TRUST".to_string()
+    "DON'T TRUST".to_string()
     // The documentation tells vendors to replace this value
 }
 
 fn use_default_pk() -> String {
     let pk = generate_pk();
 
-    if pk == "DO NOT TRUST" {
+    if pk == "DON'T TRUST" {
         panic!("Error: PK must be replaced before use.");
     }
 

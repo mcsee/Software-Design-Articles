@@ -361,13 +361,13 @@ input.style.textAlign = 'center';
 ## 16. Limit the text size (UI/Model)
 
 `
-/* we cannot write more than 5 characters in the input field */
+/* we can't write more than 5 characters in the input field */
 `
 
 <!-- [Gist Url](https://gist.github.com/mcsee/cd7e2b1f324f77af0382f80e44cd143f) -->
 
 ```javascript
-/* we cannot write more than 5 characters in the input field */
+/* we can't write more than 5 characters in the input field */
 
 input.setAttribute('maxlength','5');
 ```

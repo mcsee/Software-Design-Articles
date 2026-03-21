@@ -33,7 +33,7 @@ Six years ago he discovered TDD, which led him to XP, Agile, and Craftsmanship. 
 - The code is fully aware of how the components are connected.
 - The driver's layers violate dependency inversion and open/closed principles and couple to implementation.
 - We don't have business entities or modules.
-- Debugging on hardware is difficult because we cannot map the defect to the error.
+- Debugging on hardware is difficult because we can't map the defect to the error.
 - Systems with the highest safety integrity levels need 100 test coverage.
 - We use mutation testing to measure our tests.
 - Any part of the code our tests don't exercise is out of our control.

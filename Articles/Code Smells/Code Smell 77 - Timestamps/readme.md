@@ -2,7 +2,7 @@
 
 ![Code Smell 77 - Timestamps](Code%20Smell%2077%20-%20Timestamps.gif)
 
-*Timestamps are widely used. They have a central issuing authority and do not go back, do they?*
+*Timestamps are widely used. They have a central issuing authority and don't go back, do they?*
 
 > TL;DR: Don't use timestamps for sequence. Centralize and lock your issuer.
 

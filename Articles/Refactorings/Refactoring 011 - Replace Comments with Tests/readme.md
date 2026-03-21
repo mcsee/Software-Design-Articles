@@ -118,7 +118,7 @@ Comments lie. The code doesn't.
 
 # Limitations ⚠️
 
-We cannot [test private methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20112%20-%20Testing%20Private%20Methods/readme.md).
+We can't [test private methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20112%20-%20Testing%20Private%20Methods/readme.md).
 
 In the unlikely event that we need to replace a comment on a private method, we should test it indirectly or extract it into [another object](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20010%20-%20Extract%20Method%20Object/readme.md).
 

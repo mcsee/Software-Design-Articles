@@ -29,7 +29,7 @@ struct Point {
 }
 ``` Point Struct
 
-Any software component that manipulates these points will be coupled to saving values ​​as Cartesian _x_ and _y_ coordinates (**Accidental implementation**).
+Any software component that manipulates these points will be coupled to saving values as Cartesian _x_ and _y_ coordinates (**Accidental implementation**).
 
 Since it's just a data structure without operations, the attribute’s semantics will be different according to every programmer’s criterion.
 
@@ -169,7 +169,7 @@ Let’s look at setters and getters as separate problems.
 
 ## Setters
 
-Changing the internal state of an object violates the principle of immutability. This is discouraged since, in the real-world, objects do not mutate in their **essence**.
+Changing the internal state of an object violates the principle of immutability. This is discouraged since, in the real-world, objects don't mutate in their **essence**.
 
 [The Evil Power of Mutants](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md)
 
@@ -193,7 +193,7 @@ final class Polygon {
 
 > Let’s assume that the polygon has at least three vertices.
 
-Being a data structure, we cannot impose such restriction.
+Being a data structure, we can't impose such restriction.
 
 Using our amazing IDE with automatic code generation, we add the _setters_ and _getters_ to it.
 
@@ -230,7 +230,7 @@ final class Polygon {
     if (count($newVertices < 3)) {
        throw new 
          Exception(
-           'Cannot create a polygon with less than 3 vertices');
+           'Can\'t create a polygon with less than 3 vertices');
     }
     $this->vertices = $newVertices;
     }
@@ -278,7 +278,7 @@ This facility spreads the problem, having this tool gives the feeling that it is
 
 # Recommendations
 
-*   Do not use _setters_. There are no good reasons for doing so.
+*   Don't use _setters_. There are no good reasons for doing so.
 *   Having methods named **_setSomething_… ()** is a code smell.
 *   Have no public attributes. For practical purposes it is like having _setters_ and _getters_.
 *   Have no public static attributes. In addition to what is mentioned above, the classes should be stateless and this is a _code smell_ showing a class that is used as a global variable.

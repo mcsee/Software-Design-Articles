@@ -142,6 +142,8 @@ Keep it clean and compact. 🧹
  
 # Also Known As 🎭
 
+- Compaction
+- Summarization
 - Context Pruning
 - Token Management
 - Prompt Compression

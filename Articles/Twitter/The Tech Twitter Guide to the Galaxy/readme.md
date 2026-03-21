@@ -40,7 +40,7 @@ Apoorv write great tweets and articles related (but not restricted to) software 
 
 Catalin is a tireless content creator.
 He writes amazing tech articles at catalins.tech.
-I cannot keep his pace.
+I can't keep his pace.
 
 - [@dmokafa](https://Twitter.com/dmokafa) (Deni Moka)
 
@@ -108,7 +108,7 @@ Oliver writes amazing content on backend software design, architecture and TDD.
 
 - [@PrasoonPratham](https://Twitter.com/PrasoonPratham) (Pratham Prasoon)
 
-Pratham says he is 16 but it cannot be true :)
+Pratham says he is 16 but it can't be true :)
 He is making his journey and writing down all he is learning (which is a lot) and should be an inspiration for new developers. 
 
 - [@refactorfiend](https://Twitter.com/refactorfiend) (Rusiim Shabazz)

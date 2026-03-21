@@ -61,7 +61,7 @@ def calculate(mathOperand, firstArgument, secondArgument):
         else:
             return "Error: Division by zero"
     else:
-        return "Error: Invalid operation - Do not hack!"
+        return "Error: Invalid operation - Don't hack!"
         
 # This is a quick solution but another smell
 # You should avoid this kind of switches and iterate to 

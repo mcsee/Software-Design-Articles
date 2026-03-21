@@ -59,7 +59,7 @@ class RealNumber extends ComplexNumber {
 
     public void setImaginaryPart(double imaginaryPart) {
         System.out.println
-            ("Cannot set imaginary part for a real number.");
+            ("Can't set imaginary part for a real number.");
     }
 }
 ```
@@ -107,7 +107,7 @@ This is a semantic smell.
 
 *Real* Number doesn't Behave-Like-A *Complex* number.
 
-We cannot do real.setImaginaryPart() so it is not a Complex according to our [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
+We can't do real.setImaginaryPart() so it is not a Complex according to our [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
 # Relations 👩‍❤️‍💋‍👨
 

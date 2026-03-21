@@ -35,14 +35,14 @@ He frequently blogs about software design, code smells, and clean code.
 - We promote baby steps
 - Myth: *TDD Guaranties good designs*
 - We require no side effects on tests. We must be in full control
-- Myth: *We cannot use TDD on coupled systems*
-- Myth: *TDD cannot be used to improve system performance*
+- Myth: *We can't use TDD on coupled systems*
+- Myth: *TDD can't be used to improve system performance*
 - First names are always very bad
 - We should use IDEs and not text editors
 - We start TDD with Zombies
 - Myth: *Hardcoding is a bad practice*
 - Myth: *We can write algorithms without test cases*
-- We cannot refactor and change test at the same time
+- We can't refactor and change test at the same time
 - Myth: *During TDD Process, only the programmers create the tests*
 - QAs, Peer Reviewers, Technical support and product owners define the tests
 - Myth: *We should test private methods*

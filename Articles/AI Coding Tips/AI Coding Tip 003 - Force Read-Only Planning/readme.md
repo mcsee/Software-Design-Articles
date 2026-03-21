@@ -32,7 +32,7 @@ Enter Plan Mode: Use "Plan Mode/Ask Mode" if your tool has it.
 
 If your tool doesn't have such a mode, you can add a meta-prompt
 
-> Read this and wait for instructions / Do not change any files yet.
+> Read this and wait for instructions / Don't change any files yet.
 
 Ask the AI to read specific files and explain the logic there.
 
@@ -75,7 +75,7 @@ Good prompt 👉
 <!-- [Gist Url](https://gist.github.com/mcsee/b57bca96aa50d1943c0d5f55f0a78b92) -->
 
 ```markdown
-Read @Dashboard.tsx and @api.ts. Do not write code yet.
+Read @Dashboard.tsx and @api.ts. Don't write code yet.
 
 Analyze the stack dump.
 
@@ -92,7 +92,7 @@ Apply the fix and run the tests until all are green
 
 # Considerations ⚠️
 
-Some simple tasks do not need a plan.
+Some simple tasks don't need a plan.
 
 You must actively read the plan the AI provides.
 

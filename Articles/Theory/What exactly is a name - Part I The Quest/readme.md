@@ -293,7 +293,7 @@ An _anti-pattern_ would be to keep the same name that you defined the first time
 
 Writing comments is a _code smell_ indicating that a method, name, or variable is not very declarative.
 
-If you can write incredibly descriptive names, you will avoid having to maintain *clarifying* [comments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md) that do not add value and are hard to maintain.
+If you can write incredibly descriptive names, you will avoid having to maintain *clarifying* [comments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md) that don't add value and are hard to maintain.
 
 > Rule 7: Avoid comments.
 
@@ -319,7 +319,7 @@ In the following article, I will focus on a series of current bad practices, exp
 
 *   Names must be declarative and not implementing.
 *   Names must be contextual.
-*   Do not mix type with role.
+*   Don't mix type with role.
 *   Assign responsibilities before assigning names.
 *   When in doubt, put bad names.
 *   Avoid [comments](https://codeburst.io/why-developers-should-care-of-naming-2aa1ffd511cf).

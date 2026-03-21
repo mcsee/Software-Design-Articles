@@ -46,7 +46,7 @@ If you want to change how that function works, you must check every corner of yo
 
 This practice also makes testing nearly impossible. 
 
-When a method calls a global function like getSystemTime() or saveToDatabase(), you cannot easily replace that function with a mock or a fake version during a test. 
+When a method calls a global function like getSystemTime() or saveToDatabase(), you can't easily replace that function with a mock or a fake version during a test. 
 
 You end up testing the entire environment instead of just your logic.
 

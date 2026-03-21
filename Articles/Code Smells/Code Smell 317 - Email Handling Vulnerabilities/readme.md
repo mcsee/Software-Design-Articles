@@ -250,7 +250,7 @@ Photo by [Aurèle Castellane](https://unsplash.com/@broth_earth) on [Unsplash](h
 
 * * *
 
-> Never trust input you do not control.
+> Never trust input you don't control.
 
 _Bruce Schneier_
 

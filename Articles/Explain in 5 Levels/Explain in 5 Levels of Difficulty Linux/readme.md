@@ -30,7 +30,7 @@ Linux is popular with computer users looking for an alternative to the more expe
 
 Linux is a very stable operating system. It is not prone to crashes and errors that can occur in Windows. 
 
-It is also very secure, so you do not have to worry about viruses and other malware.
+It is also very secure, so you don't have to worry about viruses and other malware.
 
 Linux is not only used on personal computers; it is also used on servers.
 

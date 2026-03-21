@@ -37,7 +37,7 @@ Short circuit evaluation helps us to be lazy and even build invalid full evaluat
 
 if (isOpen(file) & size(contents(file)) > 0)
   // It performs a full evaluation since it is the bitwise AND
-  // will fail since you cannot retrieve contents
+  // will fail since you can't retrieve contents
   // from a file that is not open
 ```
 

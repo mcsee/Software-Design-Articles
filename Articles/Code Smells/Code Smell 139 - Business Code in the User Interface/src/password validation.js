@@ -3,7 +3,7 @@
   function checkForm(form)
   {
     if(form.username.value == "") {
-      alert("Error: Username cannot be blank!");
+      alert("Error: Username can't be blank!");
       form.username.focus();
       return false;
     }

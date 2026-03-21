@@ -21,7 +21,7 @@ Peter Naur calls us to reflect on our profession and brings us concepts that are
 
 Peter Naur was a Danish scientist, winner of a [Turing Award](https://en.wikipedia.org/wiki/Turing_Award) (equivalent to the Nobel Prize in computing).
 
-He participated in the development of [Algol 60](https://en.wikipedia.org/wiki/ALGOL_60) and helped create the syntax model [BNF](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form) that all programming languages ​​use to define their grammar.
+He participated in the development of [Algol 60](https://en.wikipedia.org/wiki/ALGOL_60) and helped create the syntax model [BNF](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form) that all programming languages use to define their grammar.
 
 By 1985, Naur had discovered the difficulty in the education of computer professionals and its radical difference from other engineering disciplines.
 
@@ -33,7 +33,7 @@ Naur's epistemological approach, based on incremental iterative learning, contra
 
 ## Theory-Building
 
-The paper presents novel ideas for the time, then taken up by the [agile manifesto](https://agilemanifesto.org/) placing humanistic values ​​of knowledge acquisition over the Taylorist vision of software building.
+The paper presents novel ideas for the time, then taken up by the [agile manifesto](https://agilemanifesto.org/) placing humanistic values of knowledge acquisition over the Taylorist vision of software building.
 
 ![chaplin](Programming%20as%20Theory%20Building.jpg)
 
@@ -90,7 +90,7 @@ Building software is acquiring knowledge. Trying to define the behavior of a cla
 
 [What exactly is a name - Part II Rehab](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20exactly%20is%20a%20name%20-%20Part%20II%20Rehab/readme.md)
 
-To build theory in an exploratory way, **prototyping languages** ​​are much more useful tools than **classification languages**.
+To build theory in an exploratory way, **prototyping languages** are much more useful tools than **classification languages**.
 
 Naur believes that there is no single scientific method but that there is a multiplicity of them. In accordance with [Feyerabend's](https://en.wikipedia.org/wiki/Paul_Feyerabend) ideas.
 
@@ -98,7 +98,7 @@ Naur believes that there is no single scientific method but that there is a mult
 
 ## Human beings are the center
 
-The built theory cannot be expressed in the developed program. It can only be enunciated by the human beings who participated in its building.
+The built theory can't be expressed in the developed program. It can only be enunciated by the human beings who participated in its building.
 
 > Software is the product of these ideas.
 
@@ -127,7 +127,7 @@ Building adequate self-defense models is not easy. It requires a long process of
 
 ![Werewolf](Werewolf.jpg)
 
-Naur rejects the idea of ​​a single method to develop software.
+Naur rejects the idea of a single method to develop software.
 
 A development methodology, such as the one already mentioned [TDD](https://en.wikipedia.org/wiki/Test-driven_development), must be complemented with other practices.
 
@@ -141,7 +141,7 @@ Today we know that language is an inseparable part of what it can express.
 
 It is not the same to write an algorithm in a **declarative** language than in a **low-level** one.
 
-Nor will we be able to express good business models in non-declarative languages ​​like C or GoLang.
+Nor will we be able to express good business models in non-declarative languages like C or GoLang.
 
 In the same way that we should not describe chemical or physical equations in natural language, we should not express our theory in low-level languages.
 

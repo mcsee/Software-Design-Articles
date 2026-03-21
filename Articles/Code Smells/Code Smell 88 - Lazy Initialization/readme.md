@@ -4,7 +4,7 @@
 
 *Yet another premature optimization pattern*
 
-> TL;DR: Do not use lazy initialization. Use an object provider instead.
+> TL;DR: Don't use lazy initialization. Use an object provider instead.
 
 # Problems 😔 
 

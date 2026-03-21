@@ -22,7 +22,7 @@
 
 1. Write [executable tests](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20011%20-%20Replace%20Comments%20with%20Tests/readme.md)
 2. Remove external references
-3. Do not blindly trust the AI
+3. Don't blindly trust the AI
 4. Describe with inline examples  
 5. Keep tests local 
 6. Remove [all comments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md)
@@ -38,7 +38,7 @@ If you add comments that reference external AI conversations, Stack Overflow pos
 
 These references create dangerous external dependencies that break over time. 
 
-Links become dead, conversations get deleted, and future maintainers cannot access the context they need to understand your code. 
+Links become dead, conversations get deleted, and future maintainers can't access the context they need to understand your code. 
 
 When you rely on external AI advice instead of writing proper tests, you create code that appears documented but lacks verification and local understanding.
 

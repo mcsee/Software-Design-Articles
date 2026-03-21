@@ -26,7 +26,7 @@
 
 [Immutable objects](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20Evil%20Power%20of%20Mutants/readme.md) are essential in functional and object-oriented programming. 
 
-Once created, their state cannot be altered. 
+Once created, their state can't be altered. 
 
 This is key to keeping object integrity and ensuring thread safety in multithreaded applications.
 
@@ -34,7 +34,7 @@ Mutable getters allow callers to access and modify the internal state of an obje
 
 **When you break encapsulation, you take responsibility away from an object. Integrity is lost.**
 
-Returning a page in a book is like an immutable copy. It cannot be edited, like a human memory. 
+Returning a page in a book is like an immutable copy. It can't be edited, like a human memory. 
 
 You can edit some memories by bringing them from long-term memory.
 

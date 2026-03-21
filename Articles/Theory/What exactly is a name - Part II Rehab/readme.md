@@ -16,13 +16,13 @@ In this article, we will try to show some present problems with nomenclature to 
 
 [What Exactly Is a Name? Part I: The Quest](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20Exactly%20Is%20a%20Name%20-%20Part%20I%20The%20Quest/readme.md)
 
-## We do not need help
+## We don't need help
 
 All objects help, There are no "non-supportive" objects.
 
 > In the real-world there are no helpers.
 
-We have a single design rule. If a concept doesn't exist in the real-world and we cannot explain it to a domain expert, that object must not exist.
+We have a single design rule. If a concept doesn't exist in the real-world and we can't explain it to a domain expert, that object must not exist.
 
 ![Lifeguard](https://cdn.hashnode.com/res/hashnode/image/upload/v1599773186331/h7PjoVYs2.jpeg)
 
@@ -42,7 +42,7 @@ There are objects with different responsibilities.
 
 In the real-world, there are no managers (unless we are modeling job roles).
 
-> Rule 10: Managers do not exist.
+> Rule 10: Managers don't exist.
 
 ![Manager](https://cdn.hashnode.com/res/hashnode/image/upload/v1599773241609/kJmrWx6Jj.jpeg)
 
@@ -62,7 +62,7 @@ _Base_ stands for the absence of a real-world abstract concept and the chances w
 
 This violates the design principle that suggests we favor the (dynamic) composition of objects over the (static) inheritance of classes.
 
-> Rule 12: Base objects do not exist.
+> Rule 12: Base objects don't exist.
 
 [![Watch the video](https://img.youtube.com/vi/jQE66WA2s-A/sddefault.jpg)](https://youtu.be/jQE66WA2s-A) 
 
@@ -72,7 +72,7 @@ All these names are very bad. There are  [humorous sites](https://projects.haykr
 
 As we saw in previous articles, having _setters_ and _getters_ leads to encapsulation violations and misassignments of responsibilities. We should be suspicious of all _getXXX()_ or _setXXX()_ functions.
 
-We do not usually find these responsibilities in domain entities in the bijection to the real-world. There are no real _set()_ and _get()_ responsibilities in business models.
+We don't usually find these responsibilities in domain entities in the bijection to the real-world. There are no real _set()_ and _get()_ responsibilities in business models.
 
 [Nude Models - Part I: Setters](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Nude%20Models - Part%20I Setters/readme.md)
 
@@ -115,7 +115,7 @@ As a corollary, thinking on the MAPPER, distrust the _isXXX()_ methods.
 
 Names like iterable, serializable, etc. preach about the object’s responsibilities. They will be excellent interface names and therefore we should not use them to name classes.
 
-> Rule 15: The names… able remain for the interfaces (therefore they cannot be instantiated)
+> Rule 15: The names… able remain for the interfaces (therefore they can't be instantiated)
 
 ## Ducks on a pond
 
@@ -157,7 +157,7 @@ It should be **Vehicle**.
 
 > Rule 18: Abstract names must be discovered. Not invented.
 > 
-> Corollary 18: Do not use the word abstract as part of a name.
+> Corollary 18: Don't use the word abstract as part of a name.
 
 ## Responsibility is the best name
 
@@ -191,10 +191,10 @@ If we create an object with a **recorrer()** function _(traverse in Spanish)_, w
 
 *   Names must be declarative and not implementing.
 *   Names must be contextual.
-*   Do not mix type with the role.
-*   Do not use setters or getters.
-*   Do not use non-existent terms such as Manager, Helper, Base.
-*   Do not use too generic terms, such as Object.
+*   Don't mix type with the role.
+*   Don't use setters or getters.
+*   Don't use non-existent terms such as Manager, Helper, Base.
+*   Don't use too generic terms, such as Object.
 *   Assign responsibilities before assigning names.
 *   When in doubt, put bad names.
 *   Avoid comments.

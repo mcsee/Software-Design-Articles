@@ -144,7 +144,7 @@ Photo by [Dmitriy Demidov](https://unsplash.com/@fotograw) on [Unsplash](https:/
     
 * * *
 
-> As a rule, software systems do not work well until they have been used, and have failed repeatedly, in real applications.
+> As a rule, software systems don't work well until they have been used, and have failed repeatedly, in real applications.
 
 _Dave Parnas_
    

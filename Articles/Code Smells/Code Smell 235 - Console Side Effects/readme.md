@@ -45,7 +45,7 @@ function drawChristmasTree(height) {
   }
 
   // This function has side effects
-  // You cannot test it
+  // You can't test it
   console.log(tree);
 }
 

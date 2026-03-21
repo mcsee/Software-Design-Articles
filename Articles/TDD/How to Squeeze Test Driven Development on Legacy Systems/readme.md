@@ -54,7 +54,7 @@ If the all test passes restart the process or ...
 
 * Normal Use cases and Exceptions (Alternate cases) separation.
 
-* Full branches coverage (we cannot add code without a test covering it). 
+* Full branches coverage (we can't add code without a test covering it). 
 
 * Instant feedback / psychological rewards.
 
@@ -268,7 +268,7 @@ Let's move on.
 
 This is an ugly algorithmic solution, but we will improve it with a refactoring once we become more confident.
 
-We cannot *fake it* anymore. We need to *make it*.
+We can't *fake it* anymore. We need to *make it*.
 
 <!-- [Gist Url](https://gist.github.com/mcsee/ff2a499a73034fa621ae684742de6d0a) -->
 

@@ -28,7 +28,7 @@
 
 Repeated code is a symptom of missing abstractions. 
 
-This is natural in the learning process since we cannot foresee those abstractions.
+This is natural in the learning process since we can't foresee those abstractions.
 
 # Sample Code 💻
 

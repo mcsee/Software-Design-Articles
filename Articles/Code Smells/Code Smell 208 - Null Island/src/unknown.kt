@@ -29,7 +29,7 @@ class EarthLocation(val latitude: Double, val longitude: Double):
 class UnknownLocation : Location() {
     override fun calculateDistance(other: Location): Double {
         throw IllegalArgumentException(
-            "Cannot calculate distance" +
+            "Can't calculate distance" +
             " from an unknown location.")
     }
 

@@ -184,7 +184,7 @@ Maintaining the bijection means respecting the true complexity of time and using
 
 Breaking this [correspondence](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) leads to scheduling errors, incorrect age calculations, and data corruption in time-sensitive applications.
 
-You cannot create a date with a day of February 30th.
+You can't create a date with a day of February 30th.
 
 You need to follow the [fail-fast](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Fail%20Fast/readme.md) principle
 

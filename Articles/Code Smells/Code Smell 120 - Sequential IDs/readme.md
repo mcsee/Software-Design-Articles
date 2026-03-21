@@ -28,7 +28,7 @@
 
 IDs are a problem when dealing with domain objects.
 
-IDs do not exist in the real-world so, they break our bijection.
+IDs don't exist in the real-world so, they break our bijection.
 
 We should only use IDs when exposing internal resources to the *outer world* beyond system boundaries.
 

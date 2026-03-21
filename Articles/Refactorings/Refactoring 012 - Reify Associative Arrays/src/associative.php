@@ -8,7 +8,7 @@ class AuthenticationHelper extends Singleton {
     // no type checking
     // value as the name is too generic
     // Since SOME parameters might be null
-    // You cannot check a single parameter for not null
+    // You can't check a single parameter for not null
 
     $this->data[$key] = value;
   }

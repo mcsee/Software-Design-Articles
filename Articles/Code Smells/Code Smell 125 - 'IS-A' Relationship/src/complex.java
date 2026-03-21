@@ -16,6 +16,6 @@ class RealNumber extends ComplexNumber {
 
     public void setImaginaryPart(double imaginaryPart) {
         System.out.println
-            ("Cannot set imaginary part for a real number.");
+            ("Can't set imaginary part for a real number.");
     }
 }

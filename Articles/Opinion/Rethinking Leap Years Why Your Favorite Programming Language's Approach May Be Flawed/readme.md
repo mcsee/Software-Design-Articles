@@ -210,7 +210,7 @@ yearNumber := 2024.
 and: [(yearNumber \\ 100 ~= 0) or: [ yearNumber \\ 400 = 0] ]
 ```
 
-The above languages do not provide native support.
+The above languages don't provide native support.
 
 You need to define global functions or use [helpers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2022%20-%20Helpers/readme.md).
 

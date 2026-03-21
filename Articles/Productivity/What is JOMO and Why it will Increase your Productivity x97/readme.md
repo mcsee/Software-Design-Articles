@@ -54,7 +54,7 @@ According to Patrick McGinnis' 3 tips, we can fight it:
 
 - Create a safe place or environment, minimizing interruptions.
 
-- We cannot achieve everything.
+- We can't achieve everything.
 
 - Be here now.
 

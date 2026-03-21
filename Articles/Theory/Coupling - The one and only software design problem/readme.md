@@ -27,8 +27,8 @@ We are going to add the only mistake we should avoid by all means to this axioma
 
 ### Classes
 
-Global variables link a global reference from the code. This link cannot be easily broken unless we connect to interfaces instead of references and use [dependency inversion](https://en.wikipedia.org/wiki/Dependency_inversion_principle) (the [SOLID](https://en.wikipedia.org/wiki/SOLID) D).
-Having global variables in a structured language involves being attached to a reference that cannot be replaced, mocked, or deferred over time. In object-oriented programming using classification languages, ​​the problem is the same.
+Global variables link a global reference from the code. This link can't be easily broken unless we connect to interfaces instead of references and use [dependency inversion](https://en.wikipedia.org/wiki/Dependency_inversion_principle) (the [SOLID](https://en.wikipedia.org/wiki/SOLID) D).
+Having global variables in a structured language involves being attached to a reference that can't be replaced, mocked, or deferred over time. In object-oriented programming using classification languages, the problem is the same.
 
 This is a step back to more pure functional languages where there's an explicit prohibition enforced by preventing functions from having side effects.
 

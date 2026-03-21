@@ -22,7 +22,7 @@ Again, according to [Wikipedia](https://en.wikipedia.org/wiki/Software):
 
 > **Computer software**, or simply **software**, is a collection of [data](https://en.wikipedia.org/wiki/Data_(computing)) or [computer](https://en.wikipedia.org/wiki/Computer) instructions that tell the computer how to work. This is in contrast to [physical hardware](https://en.wikipedia.org/wiki/Computer_hardware), from which the system is built and  performs the work.
 
-This definition works by contrast (everything that is not hardware) or by omission (everything you cannot kick but can only curse).
+This definition works by contrast (everything that is not hardware) or by omission (everything you can't kick but can only curse).
  
 Yet, the only purpose of building software is:
 
@@ -62,7 +62,7 @@ You can only understand and observe it with instruments such as a black box base
 
 Like Schrödinger’s [cat](https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat).
 
-You cannot know what state it is in without disturbing it with our measuring instruments.
+You can't know what state it is in without disturbing it with our measuring instruments.
 
 The use case technique is an excellent tool to describe a model in a declarative way.
 

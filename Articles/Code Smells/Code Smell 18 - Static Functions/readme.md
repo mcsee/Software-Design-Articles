@@ -80,7 +80,7 @@ We can enforce a policy to avoid static methods (all class methods but construct
 
 Class are globals disguised. Polluting their protocol with "library methods" breaks cohesion and generates coupling. We should extract static with refactorings.
 
-In most languages we cannot manipulate classes and use them polymorphically, so we can't mock them or plug them on tests. 
+In most languages we can't manipulate classes and use them polymorphically, so we can't mock them or plug them on tests. 
 
 Therefore, we have a global reference too difficult to decouple.
 

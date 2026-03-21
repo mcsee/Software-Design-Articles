@@ -2,7 +2,7 @@
 
 ![Code Smell 47 - Diagrams](Code%20Smell%2047%20-%20Diagrams.jpg)
 
-*Diagrams are not code. They cannot be a code smell. They are just Diagram Smells.*
+*Diagrams are not code. They can't be a code smell. They are just Diagram Smells.*
 
 > TL;DR: Don't use diagrams. They are obsolete and dead.
 

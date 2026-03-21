@@ -32,9 +32,9 @@ The *Hello Word* example has a lot of problems introduced early when developers 
 
 2. *Hello World* yields [side effects](https://en.wikipedia.org/wiki/Global_variable) (console, file system, printers, etc.).
 
-3. We write the code and we cannot test if it is working. We can manually check for the output but our software cannot assert our outcome was right.
+3. We write the code and we can't test if it is working. We can manually check for the output but our software can't assert our outcome was right.
 
-4. If our *HelloWorld* works today we cannot ensure it will keep working tomorrow.
+4. If our *HelloWorld* works today we can't ensure it will keep working tomorrow.
 
 # The Solution
 

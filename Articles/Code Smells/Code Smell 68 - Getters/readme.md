@@ -70,7 +70,7 @@ final class Window {
     }
 
     public function addChildren($aChild) {
-        // Do not expose internal attributes
+        // Don't expose internal attributes
         return $this->children[] = $aChild;
     }
 }

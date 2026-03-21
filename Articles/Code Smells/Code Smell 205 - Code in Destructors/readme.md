@@ -104,7 +104,7 @@ Linters can warn us when we write code in destructors
 
 # Exceptions 🛑
 
-In very critical low-level code we cannot afford a garbage collector. 
+In very critical low-level code we can't afford a garbage collector. 
 
 Exceptions are very few. 
 

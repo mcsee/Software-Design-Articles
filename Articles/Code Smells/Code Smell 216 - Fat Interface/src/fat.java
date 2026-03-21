@@ -14,17 +14,17 @@ class Dog implements Animal {
 class Fish implements Animal
   public void eat() { }
   public void sleep() {
-    throw new UnsupportedOperationException("I do not sleep");
+    throw new UnsupportedOperationException("I don't sleep");
   }
   public void makeSound() {
-    throw new UnsupportedOperationException("I cannot make sounds");
+    throw new UnsupportedOperationException("I can't make sounds");
   }
 }
 
 class Bullfrog implements Animal
   public void eat() { }
   public void sleep() { 
-    throw new UnsupportedOperationException("I do not sleep");  
+    throw new UnsupportedOperationException("I don't sleep");  
   }
   public void makeSound() { }
 }

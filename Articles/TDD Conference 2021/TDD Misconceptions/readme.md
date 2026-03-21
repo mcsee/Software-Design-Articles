@@ -50,13 +50,13 @@ Olena is a full stack developer at The Adecco Group from Berlin in Germany. She 
 - They used [Cucumber](https://cucumber.io/) 
 - Pre-release defect density on Microsoft and IBM decreased between 40% and 90% by using TDD.
 - Most of the time we don't need a refactor stage.
-- Even simple code needs tests because tests are also the specification.  ​
+- Even simple code needs tests because tests are also the specification.  
 
 # Speaker Links
 
 - Twitter [@borzenko_lena](https://twitter.com/borzenko_lena) 
 - LinkedIn [@olena-borzenko](https://www.linkedin.com/in/olena-borzenko/)
-​
+
 * * *
 
 # Index

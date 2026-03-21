@@ -39,7 +39,7 @@ class Filename {
 
         if (/^[. ]+$/.test(value)) {
             throw new Error
-              ('Filename cannot consist only of dots or spaces');
+              ('Filename can\'t consist only of dots or spaces');
         }
 
         if (value.length > 255) {

@@ -84,7 +84,7 @@ Unless you explicitly ask the IAs to use this technique, they will suggest clean
 
 # AI Detection 🥃
 
-ChatGPT, Gemini, and Claude.ai detect some problems with this technique but do not mention readability as a concern.
+ChatGPT, Gemini, and Claude.ai detect some problems with this technique but don't mention readability as a concern.
 
 # Conclusion 🏁
 

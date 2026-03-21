@@ -32,7 +32,7 @@ I am revisiting my whole collection of 195 code smell articles with [ChatGPT](ht
 
 I try to publish design rules and tips language agnostic.
 
-Since I cannot master 30 programming languages (the ones I use in [my articles](https://github.com/mcsee/Software-Design-Articles)), I've been heavily using code translation tools (even before ChatGPT).
+Since I can't master 30 programming languages (the ones I use in [my articles](https://github.com/mcsee/Software-Design-Articles)), I've been heavily using code translation tools (even before ChatGPT).
 
 Now I am one step beyond. I use [ChatGPT](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Artificial%20Intelligence/ChatGPT%20is%20Amazing.%20And%20It%20is%20FREE/readme.md) to *teach me* about those languages' quirks.
 
@@ -42,7 +42,7 @@ It is an amazing learning journey.
 
 # The Future
 
-As a word of caution. Science is based on evidence, citations, and quotes. You cannot make a thesis or explanation without citing your sources. And ChatGPT doesn't.
+As a word of caution. Science is based on evidence, citations, and quotes. You can't make a thesis or explanation without citing your sources. And ChatGPT doesn't.
 
 My technological centaur approach is to use ChatGPT for research and then manually check if it is right.
 

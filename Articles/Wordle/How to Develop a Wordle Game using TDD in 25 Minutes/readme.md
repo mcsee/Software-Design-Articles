@@ -253,7 +253,7 @@ And all tests pass since we are clearly hardcoding.
 
 - We hardcode the asterisk to be the only invalid character (as far as we know)
 - We can place the checking code before or after the previous validations.
--- Until we have an invalid case (with invalid characters and invalid length) we cannot assume the expected behavior
+-- Until we have an invalid case (with invalid characters and invalid length) we can't assume the expected behavior
 
 * * *
 
@@ -282,7 +282,7 @@ Let's add more invalid letters and correct the code.
 
 ## Notice
 
-- We didn't write a more generic function (yet) since we cannot correct tests and refactor at the same time (the technique forbids us).
+- We didn't write a more generic function (yet) since we can't correct tests and refactor at the same time (the technique forbids us).
 
 # Refactor
 

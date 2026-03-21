@@ -30,7 +30,7 @@ Static functions are essentially global procedures masquerading as object-orient
 
 They create hidden coupling and break the mental model of objects as autonomous entities. 
 
-Since they belong to a class rather than an instance, they cannot be easily mocked or overridden, making unit testing a nightmare of global state management.
+Since they belong to a class rather than an instance, they can't be easily mocked or overridden, making unit testing a nightmare of global state management.
 
 When you transform static functions into instance methods, you shift from procedural logic to object-oriented interaction. This allows for proper dependency injection, promotes higher cohesion, and enables polymorphism. 
 

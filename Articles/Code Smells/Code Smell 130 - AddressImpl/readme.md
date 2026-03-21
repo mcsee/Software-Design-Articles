@@ -81,7 +81,7 @@ We can search using regular expressions and rename these concepts.
 
 We should pick class names according to essential bijection and not follow accidental implementation.
 
-Do not call *I* to your interfaces.
+Don't call *I* to your interfaces.
 
 # Relations 👩‍❤️‍💋‍👨
 

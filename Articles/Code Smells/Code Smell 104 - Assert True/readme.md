@@ -18,7 +18,7 @@
 
 # Context 💬
 
-When asserting to a boolean our test engines cannot help us very much. 
+When asserting to a boolean our test engines can't help us very much. 
 
 They just tell us something failed.
 

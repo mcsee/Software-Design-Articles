@@ -84,7 +84,7 @@ Photo by [Emre Karataş](https://unsplash.com/@emrekaratas) on [Unsplash](https:
   
 * * *
 
-> Many people tend to look at programming styles and languages like religions: if you belong to one, you cannot belong to others. But this analogy is another fallacy.
+> Many people tend to look at programming styles and languages like religions: if you belong to one, you can't belong to others. But this analogy is another fallacy.
 
 _Niklaus Wirth_
 

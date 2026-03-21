@@ -14,5 +14,5 @@ $lastGoalAuthor = thirdGoalAutor();
 
 // This might be valid since functions in
 // Object-Oriented Programming might have side effects
-// and you cannot remove the first ones 
+// and you can't remove the first ones 
 // Unless you ensure they don't have side effects  

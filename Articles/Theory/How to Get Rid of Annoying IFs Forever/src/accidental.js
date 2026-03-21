@@ -21,4 +21,4 @@ let jane = new Moviegoer(12);
 let theExorcist = new Movie('Adults Only');
 
 jane.watchMovie(theExorcist);
-// Jane cannot watch the exorcist since she is 12
+// Jane can't watch the exorcist since she is 12

@@ -70,7 +70,7 @@ Mcsee Mar 24, 2021, 6:27 PM
 I think every organization has its structure. I am myself a software engineer manager so I choose team priorities. I take everyday decisions on priorities and they are not very easy to make. Sometimes we have time for refactorings, sometimes we don't. So we schedule a case and move on to build new features or correct defects. What i am sure of is , technical debt is a debt, the later you pay it the more cost it has.
 
 Mcsee Mar 24, 2021, 6:29 PM
-I cannot give you a rule on time. But if you postpone a refactor and you encounter a defect, time moves on and you find another defect etc. your technical debt is clearly shouting. On the opposite side, if we just do refactors and tech debts we miss a lot of business opportunities. I have no silver bullet on this, sorry.
+I can't give you a rule on time. But if you postpone a refactor and you encounter a defect, time moves on and you find another defect etc. your technical debt is clearly shouting. On the opposite side, if we just do refactors and tech debts we miss a lot of business opportunities. I have no silver bullet on this, sorry.
 
 Mcsee Mar 24, 2021, 6:32 PM
 Hi Amy Tom! I have written more than 60 code smells and I noticed I never stopped to define what it does mean. The term was coined by Martin Fowler and Kent Beck on their excellent books. But I am fully aware not all new developers read this so I will write an 'introductory article' in the middle of the series 🙂 https://en.wikipedia.org/wiki/Code_smell
@@ -119,7 +119,7 @@ For startups and large companies alike, when you have too much to work on and no
 Have you ever been part of a company that outsourced part of their dev work to freelancers or contract firms?
 
 Mcsee Mar 24, 2021, 6:54 PM
-I have worked with outsourcing in the past, and my opinion is you should definitively do it on satellite modules. I wouldn't outsource core business or core technologies because the knowledge is on the people https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Programming%20as%20Theory%20Building/readme.md and if the people do not belong to the company the asset is zero. Of course if I need a specific development on an accidental feature I would contract the best qualified team. But, for core business I wouldn't do it. It is just my opinion. I founded 3 startups and worked a lot with outsourcing and was hard to maintain their code.
+I have worked with outsourcing in the past, and my opinion is you should definitively do it on satellite modules. I wouldn't outsource core business or core technologies because the knowledge is on the people https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Programming%20as%20Theory%20Building/readme.md and if the people don't belong to the company the asset is zero. Of course if I need a specific development on an accidental feature I would contract the best qualified team. But, for core business I wouldn't do it. It is just my opinion. I founded 3 startups and worked a lot with outsourcing and was hard to maintain their code.
 
 Arthur TkachenkoMar 24, 2021, 6:54 PM
 At some point in my career, I realize that "we" put a lot of pressure on developers.
@@ -172,7 +172,7 @@ Muhammad BilalMar 24, 2021, 7:51 PM
 Mcsee Thank you for giving a very logical perspective of it, but I mean how do you fix the laziness of a person, where I find those that develop an interest in the output of their work, seldom develop the ability to maintain or optimize it. All I could give an excuse I suppose for watching people write dirty code is just laziness and lack of interest. What are your thoughts on it, would love to expand my excuse on a third one.. lolx
 
 Mcsee Mar 24, 2021, 7:58 PM
-In my experience, lazy people do not change. I have dealt with unmotivated developers and change their tasks, done some more micro-management etc. without much success. There might be outliers. Not on my shift.
+In my experience, lazy people don't change. I have dealt with unmotivated developers and change their tasks, done some more micro-management etc. without much success. There might be outliers. Not on my shift.
 
 Watch out for current times. We are not just working from home. We are working during a mortal pandemic with lockdowns and fears. So it is very difficult to make assessments. Going back to motivation, most lazy people are ignorant and make things without measuring consequences. We need to educate them with real examples.
 

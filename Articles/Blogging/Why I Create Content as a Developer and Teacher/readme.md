@@ -94,7 +94,7 @@ When you're teaching, use simple language that your student can understand. Avoi
 
 4 Use code examples
 
-Examples are a great way to illustrate a concept. If you can, find or create examples that your student can follow along with. This will help them understand the concept and see how it's used in practice. Do not write all the examples using the same language.
+Examples are a great way to illustrate a concept. If you can, find or create examples that your student can follow along with. This will help them understand the concept and see how it's used in practice. Don't write all the examples using the same language.
 
 5 Practice, practice, practice
 

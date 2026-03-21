@@ -40,7 +40,7 @@ The database becomes an implementation detail that leaks into your business laye
 
 Your business objects should focus on essential business rules and behavior, not on accidental logic like how data gets stored or retrieved.
 
-This pattern also makes unit testing extremely difficult since you cannot [mock](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md) or stub the database interactions without complex setup procedures.
+This pattern also makes unit testing extremely difficult since you can't [mock](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2030%20-%20Mocking%20Business/readme.md) or stub the database interactions without complex setup procedures.
 
 # Sample Code 💻
 

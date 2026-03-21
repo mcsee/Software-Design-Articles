@@ -20,7 +20,7 @@
 
 2. Test must be in full control. 
 
-3. If you cannot control your object, you are coupled. Decouple them!
+3. If you can't control your object, you are coupled. Decouple them!
 
 # Sample Code 💻
 

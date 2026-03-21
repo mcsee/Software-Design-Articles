@@ -2,7 +2,7 @@
             
 ![Explain in 5 Levels of Difficulty: The Fermi Paradox](Explain%20in%205%20Levels%20of%20Difficulty%20The%20Fermi%20Paradox.jpg)
 
-*Why we cannot see any aliens out there*
+*Why we can't see any aliens out there*
 
 > TL;DR: I will explain The Fermi Paradox in five levels to different audiences.
 

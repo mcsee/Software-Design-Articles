@@ -84,7 +84,7 @@ else:
 
 You can detect slow calls using actual benchmarks.
 
-Do not consider algorithm complexity since sometimes it is unrelated to actual data distribution. (for example, optimizing an array with a few elements).
+Don't consider algorithm complexity since sometimes it is unrelated to actual data distribution. (for example, optimizing an array with a few elements).
 
 # Tags 🏷️
 

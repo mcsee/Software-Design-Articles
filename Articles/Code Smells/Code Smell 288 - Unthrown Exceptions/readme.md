@@ -75,7 +75,7 @@ except KlendathuInvasionError as e:
 
 # Detection 🔍
 
-You can detect this smell by reviewing your code for instances where you create exceptions but do not raise them.
+You can detect this smell by reviewing your code for instances where you create exceptions but don't raise them.
 
 You can also search for instances where an exception is instantiated but never raised.
 

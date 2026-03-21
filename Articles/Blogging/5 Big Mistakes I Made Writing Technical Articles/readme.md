@@ -26,7 +26,7 @@ To my surprise, The [AMP](https://en.wikipedia.org/wiki/Accelerated_Mobile_Pages
 
 ![Screenshot 3](https://cdn.hashnode.com/res/hashnode/image/upload/v1620854453712/xIzNmzo2C.png)
 
-## We cannot Read Code on a Device
+## We can't Read Code on a Device
 
 ![Screenshot 4](https://cdn.hashnode.com/res/hashnode/image/upload/v1620854461473/yt7kXsGkm.png)
 

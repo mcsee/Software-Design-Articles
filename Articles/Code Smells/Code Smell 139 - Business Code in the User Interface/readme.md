@@ -44,7 +44,7 @@ We need to validate objects on the back-end and send good validation errors to c
   function checkForm(form)
   {
     if(form.username.value == "") {
-      alert("Error: Username cannot be blank!");
+      alert("Error: Username can't be blank!");
       form.username.focus();
       return false;
     }
@@ -168,7 +168,7 @@ We can detect some behavior patterns in our UI code
 
 If you have strong evidence on severe performance bottlenecks you need to automatically duplicate your business logic on the frontend.
 
-You cannot just skip the backend part.
+You can't just skip the backend part.
 
 You should not make it manually because you will forget to do it.
 

@@ -119,7 +119,7 @@ This is a semantic smell.
 
 # Exceptions 🛑
 
-On some domains and under regulation we cannot use real data. 
+On some domains and under regulation we can't use real data. 
 
 We should fake it with meaningful data.
 
@@ -153,7 +153,7 @@ Thanks to [Curtis Einsmann](https://twitter.com/curtiseinsmann/status/1487118139
   
 * * *
 
-> You do not really understand something unless you can explain it to your grandmother.
+> You don't really understand something unless you can explain it to your grandmother.
 
 _Albert Einstein_
 

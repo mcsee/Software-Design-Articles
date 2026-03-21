@@ -14,7 +14,7 @@ def thread_2():
 if cats_alive > 0:
   feedThem()
 
-# With the lock, the two threads cannot access 
+# With the lock, the two threads can't access 
 # the `cats_alive` variable at the same time.
 # This means that the value of `cats_alive` is always determined, 
 # and the program will not exhibit Schrödinger code behavior.

@@ -73,7 +73,7 @@ app.listen(3000, () => console.log('Server started on port 3000'));
       const fullText = textArea.value;
 
       if (fullText.length > 1000) {
-        alert('Text cannot exceed 1000 characters');
+        alert('Text can\'t exceed 1000 characters');
         return;
       }
 
@@ -157,7 +157,7 @@ app.listen(3000, () => console.log('Server started on port 3000'));
           const fullText = textArea.value;
 
           if (fullText.length > maxChars) {
-            alert(`Text cannot exceed ${maxChars} characters`);
+            alert(`Text can't exceed ${maxChars} characters`);
             return;
           }
 

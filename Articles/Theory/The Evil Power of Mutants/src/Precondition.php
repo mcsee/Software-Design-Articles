@@ -3,7 +3,7 @@
 function __construct($aParty, $aCounterParty, $anAmount, $aDate) {
    if ($aParty == $aCounterParty) {
       throw new 
-         PartyAndCounterpartyCannotBeTheSameException(
+         PartyAndCounterpartyCantBeTheSameException(
             $aParty, 
             $aCounterParty);
    }

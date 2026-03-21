@@ -145,7 +145,7 @@ Automated tools can flag these checks, and code reviews can help identify them.
 
 When you model [real-world](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) objects, you should maintain a [one-to-one](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) correspondence between the real-world entities and your code.
 
-Breaking this correspondence using *instanceof* checks **(which do not exist on the model but the metamodel)** leads to a **mismatch** between the real world and your program.
+Breaking this correspondence using *instanceof* checks **(which don't exist on the model but the metamodel)** leads to a **mismatch** between the real world and your program.
 
 # AI Generation 🤖
 

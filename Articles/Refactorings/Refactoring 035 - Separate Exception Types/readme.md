@@ -128,7 +128,7 @@ Business exceptions represent *[expected](https://github.com/mcsee/Software-Desi
 
 Technical exceptions represent unexpected system problems that break the execution environment.
 
-By separating these concerns, your code more accurately reflects the real-world distinction between "business says no" and "system cannot proceed".
+By separating these concerns, your code more accurately reflects the real-world distinction between "business says no" and "system can't proceed".
 
 # Limitations ⚠️
 

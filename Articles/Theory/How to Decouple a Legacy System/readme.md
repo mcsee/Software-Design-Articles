@@ -78,7 +78,7 @@ The strategy to refactor an inherited system is to **cover** the existing functi
 
 Writing tests reveals good design interfaces among objects. Due to the current solution and the coupling it has incorporated, it is very difficult to write tests.
 
-However, we cannot refactor to write the tests without writing the tests previously. It seems that we are facing a vicious circle.
+However, we can't refactor to write the tests without writing the tests previously. It seems that we are facing a vicious circle.
 
 ![exit](https://cdn.hashnode.com/res/hashnode/image/upload/v1599600794299/bBJ6ooEe7.jpeg)
 
@@ -96,7 +96,7 @@ After having covered (for now manually) the necessary cases we can start with th
 
 ## 3 — The class name doesn't represent a real name in the bijection.
 
-Helpers do not exist in the real-world, nor should they exist in any computable model.
+Helpers don't exist in the real-world, nor should they exist in any computable model.
 
 Let’s think about the responsibilities to choose the name in [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md).
 
@@ -154,7 +154,7 @@ class SupervisedLearningAlgorithm {
 
 An important design rule is:
 
-> Do not subclass concrete classes.
+> Don't subclass concrete classes.
 
 If the language allows this, we explicitly declare it:
 
@@ -315,7 +315,7 @@ Let’s remember that:
 
 > The only protocol that a class should contain is the one related to its single responsibility (the S for Solid): creating instances.
 
-Since the reference is to a static method, we cannot replace the class call with a polymorphic method. Instead, we will use an anonymous function.
+Since the reference is to a static method, we can't replace the class call with a polymorphic method. Instead, we will use an anonymous function.
 
 <!-- [Gist Url](https://gist.github.com/mcsee/bf90641050515afd1b1271572f0d9507) -->
 

@@ -18,7 +18,7 @@ This process was slow and tedious.
 
 An error involved generating *logs* to a file with parts of the *execution stack* to try to isolate the cause of the defect. Try a fix, recompile, link, etc., and so on iteratively.
 
-With the advent of interpreted languages, ​​we began to believe in the magic of editing the code *'on the fly'* with a *debugger* where we could access the state.
+With the advent of interpreted languages, we began to believe in the magic of editing the code *'on the fly'* with a *debugger* where we could access the state.
 
 However, in the late 1990s, with the rise of web systems, we went back several steps. Except in cases where we could simulate the system on a local server, we put logs in the code again while debugging our integrated software remotely.
 
@@ -26,7 +26,7 @@ Thanks to the misuse of invalid abstractions, our software-generated errors are 
 
 [The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
-This is worsened by the use of invalid representations with possible Null values ​​that generate unpredictable failures when trying to find out the origin of null values, many function calls later.
+This is worsened by the use of invalid representations with possible Null values that generate unpredictable failures when trying to find out the origin of null values, many function calls later.
 
 [Null: The Billion Dollar Mistake](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md)
 
@@ -75,7 +75,7 @@ $invalidDate = new Date($day30, $feb2020);
 // to cover up the programmer contract violation
 ```
 
-In this way, we will be very close to the place where the fault occurs, and we can take action. Most of the "modern" languages ​​hide the dirt under the carpet and allow "continue (as if nothing happened)" the execution, so that we have to debug the cause of the problem with logs to carry out a forensic analysis in search of the root cause far away.
+In this way, we will be very close to the place where the fault occurs, and we can take action. Most of the "modern" languages hide the dirt under the carpet and allow "continue (as if nothing happened)" the execution, so that we have to debug the cause of the problem with logs to carry out a forensic analysis in search of the root cause far away.
 
 ## Representation is always important
 
@@ -137,7 +137,7 @@ final class Latitude {
 }
 ```
 
-With this solution, we do not have to do any checks when building geographic coordinates because the latitude is valid per construction invariant and because it is correctly modeling its real counterpart.
+With this solution, we don't have to do any checks when building geographic coordinates because the latitude is valid per construction invariant and because it is correctly modeling its real counterpart.
 
 As the last iteration, we should think about what a degree is. An integer? A float? A degree exists in reality, so we have to model it. No chance to escape.
 
@@ -182,7 +182,7 @@ Our code must always be defensive and controlled by its invariants at all times 
 
 These assertions must always be on in productive environments. Once again, when faced with doubts about performance penalties, the forceful response must be certain evidence of significant degradation.
 
-Exceptions must occur at all levels. If a movement is created with an invalid date, the exception must be reported when creating the date. If the date is valid but it is incompatible with some business rule (for example, you cannot settle movements in the past), this must also be controlled.
+Exceptions must occur at all levels. If a movement is created with an invalid date, the exception must be reported when creating the date. If the date is valid but it is incompatible with some business rule (for example, you can't settle movements in the past), this must also be controlled.
 
 <!-- [Gist Url](https://gist.github.com/mcsee/f7e0e7c0e3843e94ec021d2352a19f9b) -->
 

@@ -18,7 +18,7 @@ This overwhelms the model and leads to "hallucinations" or ignored instructions.
 
 - Long prompts consume the token limit quickly leading to context exhaustion.
 - Large codebases overloaded with information for agents competing for the short attention span.
-- The AI gets confused by rules and irrelevant noise that do not apply to your current task.
+- The AI gets confused by rules and irrelevant noise that don't apply to your current task.
 - Without specific templates, the AI generates non standardized code that doesn't follow your team's unique standards. 
 - The larger the context you use, the more likely the AI is to generate hallucinated code that doesn't solve your problem.
 - Multistep workflows can confuse your next instruction. 

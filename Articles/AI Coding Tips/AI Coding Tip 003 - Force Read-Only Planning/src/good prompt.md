@@ -1,4 +1,4 @@
-Read @Dashboard.tsx and @api.ts. Do not write code yet.
+Read @Dashboard.tsx and @api.ts. Don't write code yet.
 
 Analyze the stack dump.
 

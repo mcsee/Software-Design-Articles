@@ -10,7 +10,7 @@ class AuthenticationCredentials {
     // Specific validation rules
       
     $this->user = $user;
-    // Cannot mutate 
+    // Can't mutate 
   }
 
   function oauth2_token(string $token): void {
@@ -34,7 +34,7 @@ $credentials->oauth2_token([]);
 // type errors are caught
 
 $credentials->oauth2_token(null);
-// cannot be null. Fail fast
+// can't be null. Fail fast
 
 $credentials->scope();
 // Typo detected

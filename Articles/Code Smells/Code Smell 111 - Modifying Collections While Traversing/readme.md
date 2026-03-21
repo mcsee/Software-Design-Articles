@@ -4,7 +4,7 @@
 
 *Changing a collection while traversing might lead to unexpected errors*
 
-> TL;DR: Do not modify collections while traversing them
+> TL;DR: Don't modify collections while traversing them
 
 # Problems 😔 
 

@@ -404,7 +404,7 @@ Joshua Bloch
 
 ---
 
-> You cannot teach beginners top-down programming, because they don't know which end is up.
+> You can't teach beginners top-down programming, because they don't know which end is up.
 
 *Tony Hoare*
 
@@ -1138,7 +1138,7 @@ It should be noted that no ethically-trained software engineer would ever consen
 
 ---
 
-> Computer Science education cannot make anybody an expert programmer any more than studying brushes and pigment can make somebody an expert painter.
+> Computer Science education can't make anybody an expert programmer any more than studying brushes and pigment can make somebody an expert painter.
 
 *E. Raymond*
 
@@ -1350,7 +1350,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 ---
 
-> The most dangerous kind of waste is the waste we do not recognize.
+> The most dangerous kind of waste is the waste we don't recognize.
 
 *Shigeo Shingo*
 
@@ -1482,7 +1482,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 ---
 
-> Technology is dominated by two types of people: those who understand what they do not manage, and those who manage what they do not understand.
+> Technology is dominated by two types of people: those who understand what they don't manage, and those who manage what they don't understand.
 
 *Archibald Putt*
 
@@ -1676,7 +1676,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 ---
 
-> Do not use humans for jobs computers can do better - this is a waste of human energy and creativity, the only real resource on this planet, and demeans the human spirit.
+> Don't use humans for jobs computers can do better - this is a waste of human energy and creativity, the only real resource on this planet, and demeans the human spirit.
 
 *J. Paul Morrison*
 
@@ -2062,7 +2062,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 ---
 
-> Many people tend to look at programming styles and languages like religions: if you belong to one, you cannot belong to others. But this analogy is another fallacy.
+> Many people tend to look at programming styles and languages like religions: if you belong to one, you can't belong to others. But this analogy is another fallacy.
 
 *Niklaus Wirth*
 
@@ -2477,7 +2477,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 ---
 
-> You do not really understand something unless you can explain it to your grandmother.
+> You don't really understand something unless you can explain it to your grandmother.
 
 *Albert Einstein*
 
@@ -2832,7 +2832,7 @@ There is only one basic way of dealing with complexity: divide and conquer
 
 ---
 
-> Bugs will happen. They cannot be eliminated, so they must be survived instead.
+> Bugs will happen. They can't be eliminated, so they must be survived instead.
 
 *Michael T. Nygard*
 
@@ -3724,7 +3724,7 @@ There is only one basic way of dealing with complexity: divide and conquer
 
 ---
 
-> Never trust input you do not control.
+> Never trust input you don't control.
 
 *Bruce Schneier*
 
@@ -3850,7 +3850,7 @@ There is only one basic way of dealing with complexity: divide and conquer
 
 ---
 
-> You can mass-produce hardware; you cannot mass-produce software; you cannot mass-produce the human mind.
+> You can mass-produce hardware; you can't mass-produce software; you can't mass-produce the human mind.
 
 *Michio Kaku*
 
@@ -4384,7 +4384,7 @@ Continuous deployment came before continuous delivery. We need to learn from it.
 
 ---
 
-> I do not fear computers. I fear lack of them.
+> I don't fear computers. I fear lack of them.
 
 *Isaac Asimov*
 
@@ -5158,7 +5158,7 @@ I try to think mostly in terms of preconditions, and checking things in the cons
 
 ---
 
-> As a rule, software systems do not work well until they have been used, and have failed repeatedly, in real applications.
+> As a rule, software systems don't work well until they have been used, and have failed repeatedly, in real applications.
 
 *David Parnas*
 

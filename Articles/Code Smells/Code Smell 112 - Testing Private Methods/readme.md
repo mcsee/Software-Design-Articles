@@ -18,13 +18,13 @@
 
 2. If your method is complicated, you need to convert it into a Method Object.
 
-3. Do not make your methods public for testing.
+3. Don't make your methods public for testing.
 
-4. Do not [use metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md) to avoid protection.
+4. Don't [use metaprogramming](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Laziness%20I%20-%20Metaprogramming/readme.md) to avoid protection.
 
-5. Do not move the private computation to [helpers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2022%20-%20Helpers/readme.md).
+5. Don't move the private computation to [helpers](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2022%20-%20Helpers/readme.md).
 
-6. Do not use [static methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md) for computations.
+6. Don't use [static methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2018%20-%20Static%20Functions/readme.md) for computations.
 
 # Refactorings ⚙️
 
@@ -63,7 +63,7 @@ final class Star {
       // since it has private access to $distanceInParsecs
       // this is another smell indicator.
 
-      // You cannot test this function since it is private
+      // You can't test this function since it is private
   }
 }
 ```

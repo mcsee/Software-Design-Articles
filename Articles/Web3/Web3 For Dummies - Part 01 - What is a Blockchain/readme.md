@@ -15,7 +15,7 @@
 - A cryptocurrency in some technology (like blockchain) relies on automatic rules to comply with the exchange rules.
 - The most widely used digital currencies are [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency).
 - We call them *crypto* because it relies on [mathematical cryptographic](https://en.wikipedia.org/wiki/Cryptography) properties similar to password encryption.
-- We cannot trust other people around without a middle man.
+- We can't trust other people around without a middle man.
 - We use cryptography to exchange value in the same way we use [https](https://en.wikipedia.org/wiki/HTTPS) to send sensitive data over the internet.
 
 ## Hashes ➗

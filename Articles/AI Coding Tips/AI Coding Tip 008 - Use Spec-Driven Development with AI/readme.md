@@ -52,7 +52,7 @@ The backlog will grow and shrink as you learn the domain. It is a live artifact.
 
 Set up a persistent context while you learn.
 
-Create a *.md* file to store project rules that the AI cannot guess.
+Create a *.md* file to store project rules that the AI can't guess.
 
 # Benefits 🎯
 

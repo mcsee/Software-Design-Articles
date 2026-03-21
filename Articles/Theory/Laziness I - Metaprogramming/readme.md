@@ -36,7 +36,7 @@ In doing so we break the bijection we must use to observe reality since in the r
 
 [The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
-When we are attacking a business problem in real life, it is very difficult for us to justify references to meta entities because such meta entities **do not exist**, which means that we do not remain faithful to the only rule of a bijection between our objects and reality.
+When we are attacking a business problem in real life, it is very difficult for us to justify references to meta entities because such meta entities **don't exist**, which means that we don't remain faithful to the only rule of a bijection between our objects and reality.
 
 ![The metamodel is not present in the real-world](The%20metamodel%20is%20not%20present%20in%20the%20real%20world.png)
 
@@ -82,7 +82,7 @@ Let’s see an example of how you can open it declaratively using the [Open/Clos
 
 2 We generate a dependency to a parsing provider using [Dependency Injection ](https://en.wikipedia.org/wiki/Dependency_injection)(Solid’s D).
 
-3 In different environments (production, testing, configurations) we use different Parsing providers, and we do not connect to them belonging to the same hierarchy.
+3 In different environments (production, testing, configurations) we use different Parsing providers, and we don't connect to them belonging to the same hierarchy.
 
 4 We use declarative coupling. We ask these providers to realize the **ParseHandling** interface.
 
@@ -111,7 +111,7 @@ Reflection::invokeMethod($selector, $object);
 
 If we are in a client configured in Spanish, the above call will invoke the *getLanguageEs() *method
 
-The problem with this dark reference is the same as mentioned in the parser example. This method has no references, cannot be refactored, cannot determine who uses it, what is its coverage, etc.
+The problem with this dark reference is the same as mentioned in the parser example. This method has no references, can't be refactored, can't determine who uses it, what is its coverage, etc.
 
 In these cases, we can avoid these conflicts with an explicit dependency (even using mapping tables or hardwired references) without meta-programming black magic.
 
@@ -161,7 +161,7 @@ In this situation there are two possibilities:
 
 2 Use meta-programming to ‘invoke’ a private method with some reflection mechanism that avoids controls.
 
-But to perform 1) we should start to expose accidental behavior that doesn't belong to the real entity violating the rule of bijection and regarding 2) many languages do not allow it, and it is also a bad design practice.
+But to perform 1) we should start to expose accidental behavior that doesn't belong to the real entity violating the rule of bijection and regarding 2) many languages don't allow it, and it is also a bad design practice.
 
 To solve the dilemma we can check the site [shoulditestprivatemethods.com](http://shoulditestprivatemethods.com) created by the great [Kent Beck](https://twitter.com/KentBeck/status/1258954349314625538).
 

@@ -52,7 +52,7 @@ class AuthenticationHelper extends Singleton {
     // no type checking
     // value as the name is too generic
     // Since SOME parameters might be null
-    // You cannot check a single parameter for not null
+    // You can't check a single parameter for not null
 
     $this->data[$key] = value;
   }
@@ -105,7 +105,7 @@ class AuthenticationCredentials {
     // Specific validation rules
       
     $this->user = $user;
-    // Cannot mutate 
+    // Can't mutate 
   }
 
   function oauth2_token(string $token): void {
@@ -129,7 +129,7 @@ $credentials->oauth2_token([]);
 // type errors are caught
 
 $credentials->oauth2_token(null);
-// cannot be null. Fail fast
+// can't be null. Fail fast
 
 $credentials->scope();
 // Typo detected
@@ -155,7 +155,7 @@ You can debug it easily and find the referencing methods.
 
 # Limitations ⚠️
 
-In dynamically typed languages you cannot enforce type or domain restrictions for the values
+In dynamically typed languages you can't enforce type or domain restrictions for the values
 
 # Tags 🏷️
 

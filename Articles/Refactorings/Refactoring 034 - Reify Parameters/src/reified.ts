@@ -5,12 +5,12 @@ class PriceRange {
     if (min > max) {
       throw new Error(
         `Invalid price range: min (${min}) `+
-        `cannot be greater than max (${max})`
+        `can't be greater than max (${max})`
       );
     }
     if (min < 0) {
       throw new Error(
-        `Invalid price range: min (${min}) cannot be negative`);
+        `Invalid price range: min (${min}) can't be negative`);
     }
   }
 }
@@ -21,7 +21,7 @@ class Interval {
     if (start > end) {
       throw new Error(
         `Invalid date range: start (${start.toISOString()})  ` + 
-        `cannot be after end (${end.toISOString()})`
+        `can't be after end (${end.toISOString()})`
       );
     }
   }

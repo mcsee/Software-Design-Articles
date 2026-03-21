@@ -47,7 +47,7 @@ The real technical debt lies in code hotspots: areas that are both problematic a
 
 Most codebases follow an extreme distribution where [5% of the code receives 90% of the changes](https://refactoring.fm/p/everything-as-code-hotspots-and-process).
 
-Without analyzing version control history, you cannot identify which messy code actually matters.
+Without analyzing version control history, you can't identify which messy code actually matters.
 
 You end up fixing the wrong things while the real problems remain untouched.
 
@@ -188,7 +188,7 @@ Some code generators suggest refactorings without considering change frequency.
 
 AI tools and linters analyze code statically and recommend improvements based on patterns alone, not usage.
 
-They do not access your version control history to understand which improvements actually matter unless you *explicitly* tell them to do it.
+They don't access your version control history to understand which improvements actually matter unless you *explicitly* tell them to do it.
 
 AI might flag every long function or complex conditional, treating a dormant 500-line legacy method the same as an equally messy function you modify daily.
 
@@ -219,7 +219,7 @@ You need to give it version control data showing change frequencies. Without tha
 
 # Conclusion 🏁
 
-You cannot improve productivity by polishing code that never changes.
+You can't improve productivity by polishing code that never changes.
 
 [Technical debt](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20148%20-%20ToDos/readme.md) only matters when it slows you down, which happens in code you actually modify.
 

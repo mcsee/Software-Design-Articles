@@ -2,7 +2,7 @@
 
 ![Code Smell 84 - Max < Min (Javascript)](Code%20Smell%2084%20-%20Max%20%20Min%20(Javascript).jpg)
 
-*Some functions do not behave as expected. Sadly, most programmers accept them.*
+*Some functions don't behave as expected. Sadly, most programmers accept them.*
 
 > TL;DR: Don't trust max() and min() functions. Just ignore them.
 

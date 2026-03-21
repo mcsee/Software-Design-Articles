@@ -27,6 +27,6 @@ echo $child->callGreet();
 // It calls $this->greet(), 
 // which refers to the greet() method of ParentClass 
 // because the original method is private 
-// and cannot be overridden or accessed from ChildClass.
+// and can't be overridden or accessed from ChildClass.
 
 // The unexpected output is 'Hello from ParentClass'

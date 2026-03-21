@@ -42,7 +42,7 @@ taxAmount = lastPurchase.taxesCharged();
 # Lots of stuff related to the purchase
 # You drink the soda
 
-# I cannot extract method from below without passing
+# I can't extract method from below without passing
 # useless lastPurchase as parameter
 
 # a few hours later..

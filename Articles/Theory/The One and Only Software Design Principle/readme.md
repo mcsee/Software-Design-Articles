@@ -58,7 +58,7 @@ Let's try to prove by the absurd what would happen if we did not comply with the
 
 ### Common cases in the industry that violate bijection
 
-Case 1) We have an object in our computable model to represent more than one real-world entity. For example, many programming languages ​​model algebraic measures using the only scalar magnitude.
+Case 1) We have an object in our computable model to represent more than one real-world entity. For example, many programming languages model algebraic measures using the only scalar magnitude.
 
 Then we can represent 10 meters and 10 inches (two completely different entities in the real-world) by a single object (the number 10).
 
@@ -95,7 +95,7 @@ To solve these types of problems we must stop seeing entities as *data structure
 
 Case 4) In most modern object programming languages, a date can be constructed by creating it from its day, month, and year.
 
-We all learned that November 31st, 2020 can be created and that most of the languages ​​will gently return a valid object (probably December 1st, 2020).
+We all learned that November 31st, 2020 can be created and that most of the languages will gently return a valid object (probably December 1st, 2020).
 
 But this disguised as a benefit is nothing but error hiding, generating a coupling dependency to the design decision made by the programming language and hiding a sure error in the data load.
 
