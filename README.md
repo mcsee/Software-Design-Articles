@@ -1002,3 +1002,13 @@ In this repository, you will find many articles related to Software Design
 
 * [AI Coding Tip 010 - Access All Your Code](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20010%20-%20Access%20All%20Your%20Code/readme.md)
 
+* [AI Coding Tip 011 - Initialize Agents.md](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20011%20-%20Initialize%20Agents.md/readme.md)
+
+* [AI Coding Tip 012 - Understand All Your Code](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20012%20-%20Understand%20All%20Your%20Code/readme.md)
+
+* [AI Coding Tip 013 - Use Progressive Disclosure](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20013%20-%20Use%20Progressive%20Disclosure/readme.md)
+
+* [AI Coding Tip 014 - Use Nested AGENTS.md Files](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20014%20-%20Use%20Nested%20AGENTS.md%20Files/readme.md)
+
+* [AI Coding Tip 015 - Force the AI to Obey You](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20015%20-%20Force%20the%20AI%20to%20Obey%20You/readme.md)
+

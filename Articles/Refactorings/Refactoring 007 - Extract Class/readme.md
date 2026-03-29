@@ -2,7 +2,7 @@
 
 ![Refactoring 007 - Extract Class](Refactoring%20007%20-%20Extract%20Class.jpg)
 
-*Behavior is repeated across the system. But you are missing a concept*
+*Behavior is repeated across the system. But you are missing a real world concept*
 
 > TL;DR: Put together what belongs together 
 
@@ -126,7 +126,7 @@ This is a safe refactoring.
 
 # Why is the Code Better? ✨
 
-Logic code is in just one place together with its rules.
+The logic and its rules are centralized in one place.
 
 # How Does it Improve the Bijection? 🗺️
 
@@ -140,7 +140,7 @@ You give a name and a physical place to an idea that was previously hidden in th
 
 This direct 1:1 [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) between a real-world entity and a software object reduces cognitive load.
 
-You no longer need to mental map data clumps back to their original meaning. 
+You no longer need to mentally map data clumps back to their original meaning. 
 
 You are not just organizing code; you are making the software more "real."
 
@@ -191,9 +191,9 @@ You are not just organizing code; you are making the software more "real."
  
 # Credits 🙏
 
-Image from [drpepperscott230](https://pixabay.com/users/drpepperscott230-1212529/) on [Pixabay](https://pixabay.com/)
+Image by [drpepperscott230](https://pixabay.com/users/drpepperscott230-1212529/) from [Pixabay](https://pixabay.com/)
 
-* * * 
+*** 
 
 This article is part of the Refactoring Series
 
