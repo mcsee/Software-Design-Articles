@@ -8,9 +8,9 @@
 
 # Common Mistake ❌
 
-You put one massive `AGENTS.md` at your project root and cram everything into it.
+You put a single massive `AGENTS.md` , `CLAUDE.md` , `GEMINI.md` at your project root and cram everything into it.
 
-Framework rules, database patterns, frontend conventions, CI configuration—all loaded at once.
+Framework rules, database patterns, front-end conventions, and continuous integration configuration—all loaded at once.
 
 Your AI reads rules that have nothing to do with what you're actually working on.
 
@@ -32,23 +32,23 @@ This wastes context and weakens the guidance that matters.
 5. Trust the loading system: most tools load root files at startup and subdirectory files only when you touch files there
 ```
 FermiCalculator/
-├── AGENTS.md          ← loaded at startup (always) with general
-│                    rules
+├── AGENTS.md       ← loaded at startup (always) with general
+│                   rules
 ├── model/
-│   └── AGENTS.md      ← loaded when you make changes to your
-│                    model/, model conventions
+│   └── AGENTS.md   ← loaded when you make changes to your
+│                   model/, model conventions
 ├── tests/
-│   └── AGENTS.md      ← loaded when you change your tests/,
-│                    mocking rules
+│   └── AGENTS.md   ← loaded when you change your tests/,
+│                   mocking rules
 ├── ui/
-│   └── AGENTS.md      ← loaded when you make changes to ui/,
-│                    UI code standards
+│   └── AGENTS.md   ← loaded when you make changes to ui/,
+│                   UI code standards
 └── api/
-│   └── AGENTS.md      ← loaded when you make changes to api/,
-│                    OpenApi formatting
+│   └── AGENTS.md   ← loaded when you make changes to api/,
+│                   OpenApi formatting
 └── database/
-│   └── AGENTS.md      ← loaded when you make changes to the
-│                    persistence/ DDL Rules
+│   └── AGENTS.md   ← loaded when you make changes to the
+│                   persistence/ DDL Rules
 ```
 
 # Benefits 🎯
@@ -65,7 +65,7 @@ AI coding assistants load context files to understand your project.
 
 Tools like Claude Code, Cursor, and Copilot support instruction files (`AGENTS.md`, `CLAUDE.md`, `.cursorrules`).
 
-When everything's in one file, the assistant can't filter what's relevant.
+When you put everything in one file, your assistant can't filter what's relevant.
 
 The layered approach works like good software: separation of concerns.
 
@@ -114,8 +114,9 @@ Help me fix this component.
 
 - Not all tools support lazy loading of subdirectory files—check your tool first
 - A short bad `AGENTS.md` hurts less than a long one. Vague rules get ignored or misapplied
-- Add `AGENTS.md` when you create new subdirectories
-- Review your root file regularly. Outdated rules mislead more than no rules
+- Consider adding `AGENTS.md` when you create new subdirectories
+- Review your root file regularly. Outdated rules mislead more than good guidance. See [Outdated Documentation](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20183%20-%20Obsolete%20Comments/readme.md)
+- Avoid [AI external comments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20306%20-%20AI%20External%20Comments/readme.md)
 
 # Type 📝
 
@@ -125,7 +126,7 @@ Help me fix this component.
 
 - Works best with tools that support hierarchical context loading (Claude Code, Cursor, some Copilot)
 - Single-file projects don't need this structure
-- You still need good rules—the hierarchy only helps if content is solid
+- You still need good rules—the hierarchy only helps if the content is solid
 - `AGENTS.local.md` support varies by tool; check your documentation
 
 # Tags 🏷️
@@ -140,10 +141,8 @@ Help me fix this component.
 
 [AI Coding Tip 005 - Keep Context Fresh](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20005%20-%20Keep%20Context%20Fresh/readme.md)
 
-- Write short, opinionated rules — not documentation
 - Use examples in your AGENTS.md, not just descriptions
 - Version-control your AGENTS.md alongside your code
-- Audit context files when AI suggestions degrade in quality
 
 # Conclusion 🏁
 
@@ -153,7 +152,7 @@ You need the right rules in the right place.
 
 Split context by area, keep files tight, and let tools load only what's relevant.
 
-Your AI works better with less noise. 🗂️
+Your AI works better with less noise. 
 
 # More Information ℹ️
 
@@ -166,9 +165,7 @@ Your AI works better with less noise. 🗂️
 [GitHub Copilot custom instructions](https://docs.github.com/en/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot)
 
 [OpenAI ChatGPT custom instructions](https://openai.com/blog/custom-instructions-for-chatgpt)
-
-[Continue.dev context files](https://docs.continue.dev/customization/context-providers)
-
+ 
 [Aider conventions file](https://aider.chat/docs/usage/conventions.html)
 
 [Cody context and instructions](https://sourcegraph.com/docs/cody)

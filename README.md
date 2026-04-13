@@ -714,6 +714,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 318 - Refactoring Dirty Code](/Articles/Code%20Smells/Code%20Smell%20318%20-%20Refactoring%20Dirty%20Code/readme.md)
 
+* [Code Smell 319 - Hardcoded Stateless Properties](/Articles/Code%20Smells/Code%20Smell%20319%20-%20Hardcoded%20Stateless%20Properties/readme.md)
+
 ### Blogging
 
 * [Content Structure: The Do's and Dont's of Content Creation](/Articles/Blogging/68%20-%20Content%20Structure%20The%20Do%27s%20and%20Dont%27s%20of%20Content%20Creation/readme.md)
@@ -1011,4 +1013,6 @@ In this repository, you will find many articles related to Software Design
 * [AI Coding Tip 014 - Use Nested AGENTS.md Files](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20014%20-%20Use%20Nested%20AGENTS.md%20Files/readme.md)
 
 * [AI Coding Tip 015 - Force the AI to Obey You](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20015%20-%20Force%20the%20AI%20to%20Obey%20You/readme.md)
+
+* [AI Coding Tip 016 - Feed your PR Lessons into the AI Brain](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20016%20-%20Feed%20your%20PR%20Lessons%20into%20the%20AI%20Brain/readme.md)
 

@@ -87,7 +87,7 @@ Assignment and usage might be very far away from each other.
 
 When you rename generic variables to meaningful names, you create a clearer [mapping](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) between the real-world concept and the software representation. 
 
-This improves the [Bijection](https://maximocontieri.com/the-one-and-only-software-design-principle) by reducing the cognitive gap between domain concepts and implementation details.
+This improves the [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) by reducing the cognitive gap between domain concepts and implementation details.
 
 # Tags 🏷️
 
