@@ -18,31 +18,25 @@ Renamed NullPayment to NullPaymentMethod to match
 domain vocabulary. Added to AGENTS.md#naming.
 
 payment.ts
-```
  - if ($payment !== null) {
  -     $payment->process();
  - }
  + $payment->process();
-```
 
 AGENTS.md
 
-```
-  ## error-handling
+ ## error-handling
   - Don't use null checks inline.
   - Use guard clauses only at system boundaries.
  + - Replace null checks with Null Object pattern.
  + - Null Objects live in /src/NullObjects/.
  + - Null Object class names follow NullX convention.
-```
 
 skills/clean-code.md
-```
-## §3 Null Handling
+## Null Handling
 - - Avoid null returns when possible.
 + - Never check for null inside domain logic.
 + - Inject a Null Object instead.
 + - Example: NullPaymentMethod implements PaymentMethod.
 + - Prompt: "Replace null check in X with a Null Object
 +    that implements the same interface."
-```

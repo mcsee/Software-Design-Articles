@@ -18,7 +18,7 @@ class PaymentProcessor:
         pass
 
 # Ignore stable legacy code
-# But you can use IA to cover existing functionality
+# But you can use AI to cover existing functionality
 # With acceptance tests validated by a human product owner
 
 class LegacyAuthenticator:

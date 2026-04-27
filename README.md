@@ -778,6 +778,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Test Driven Development 101](/Articles/Nerdearla/2023%20-%20Test%20Driven%20Development%20101/readme.md)
 
+* [Skills.md y agents.md Debes dominarlos en 2026](/Articles/Nerdearla/2026%20-%20Skills.md%20y%20agents.md%20Debes%20dominarlos%20en%202026/readme.md)
+
 ### Artificial Intelligence
 
 * [GPT-3 Training Programmers for the Present (and the Future)](/Articles/Artificial%20Intelligence/GPT-3%20Training%20Programmers%20for%20the%20Present%20%28and%20the%20Future%29/readme.md)
@@ -1014,5 +1016,7 @@ In this repository, you will find many articles related to Software Design
 
 * [AI Coding Tip 015 - Force the AI to Obey You](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20015%20-%20Force%20the%20AI%20to%20Obey%20You/readme.md)
 
-* [AI Coding Tip 016 - Feed your PR Lessons into the AI Brain](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20016%20-%20Feed%20your%20PR%20Lessons%20into%20the%20AI%20Brain/readme.md)
+* [AI Coding Tip 016 - Feed Your PR Lessons into the AI Brain](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20016%20-%20Feed%20Your%20PR%20Lessons%20into%20the%20AI%20Brain/readme.md)
+
+* [AI Coding Tip 017 - Ask for the Analyst, Not the Analysis](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20017%20-%20Ask%20for%20the%20Analyst%2C%20Not%20the%20Analysis/readme.md)
 

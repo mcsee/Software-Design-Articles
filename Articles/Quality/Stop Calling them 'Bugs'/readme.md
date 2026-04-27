@@ -48,7 +48,7 @@ To embrace the future and our own responsibilities, you need to be very careful 
 
 You don't need to *debug* software anymore. 
 
-Find the root fault (caused by yourself, previous developers or even IA generators), embrace the problem, [write an automated test](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md), and fix it. Easy as that. 🐞
+Find the root fault (caused by yourself, previous developers or even AI generators), embrace the problem, [write an automated test](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD/How%20to%20Squeeze%20Test%20Driven%20Development%20on%20Legacy%20Systems/readme.md), and fix it. Easy as that. 🐞
 
 You no longer need *bug trackers*. You just need to care for incidents, and not all incidents are faults. 
 
