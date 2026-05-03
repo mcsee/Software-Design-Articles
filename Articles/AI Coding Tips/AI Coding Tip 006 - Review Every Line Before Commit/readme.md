@@ -49,7 +49,7 @@ Let's be honest: AI isn't accountable for your mistakes, **you** are. And you wa
 10. Add or update tests for the new functionality (ask the AI for help)
 11. Write a clear commit message explaining what changed
 12. Only then [commit the code](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20001%20-%20Commit%20Before%20Prompt/readme.md)
-13. You are not going to lose your job (by now)
+13. You aren't going to lose your job (by now)
 
 # Benefits 🎯
 
@@ -73,7 +73,7 @@ You keep your reputation and accountability intact.
 
 You're a professional who shows respect for your human code reviewers.
 
-You are not disposable.
+You aren't disposable.
 
 # Context 🧠
 

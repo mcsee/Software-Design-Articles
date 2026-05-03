@@ -719,7 +719,7 @@ Https://x.com/ClimbusJK
 
 * * *
 
-Just because you are not getting a concept right away, doesn't mean you are not "good enough".
+Just because you aren't getting a concept right away, doesn't mean you aren't "good enough".
 
 Certain concepts in #SoftwareDevelopment are tricky and it simply takes time to wrap your mind around them.
 
@@ -807,7 +807,7 @@ Https://x.com/EKaxada
 
 * * *
 
-You are not a coder. You are a human who codes and solves problems. Our identities and worth are so much more than our jobs. Also, ask any and every question regardless if you think people will judge you. All our learning journeys are different.
+You aren't a coder. You are a human who codes and solves problems. Our identities and worth are so much more than our jobs. Also, ask any and every question regardless if you think people will judge you. All our learning journeys are different.
 
 Https://x.com/gingerbeer5280
 

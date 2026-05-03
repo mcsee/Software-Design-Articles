@@ -11,7 +11,7 @@ class Moviegoer {
   }
   watchMovie(movie) {
     if ((this.age < 18) && (movie.rate == 'Adults Only'))
-      throw new Error("You are not allowed to watch this movie");
+      throw new Error("You aren't allowed to watch this movie");
     
     // watch movie
   }

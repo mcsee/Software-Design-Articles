@@ -66,7 +66,7 @@ You can't know what state it is in without disturbing it with our measuring inst
 
 The use case technique is an excellent tool to describe a model in a declarative way.
 
-If you are not a declarative programmer, you might [lose your job](https://chatbotslife.com/most-programmers-are-losing-our-jobs-very-soon-77adf846beb1) very soon.
+If you aren't a declarative programmer, you might [lose your job](https://chatbotslife.com/most-programmers-are-losing-our-jobs-very-soon-77adf846beb1) very soon.
 
 ## Why is it (P)rogrammable? 
 

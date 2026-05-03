@@ -34,7 +34,7 @@
 
 # Context 💬
 
-If you add comments that reference external AI conversations, Stack Overflow posts, or online resources to explain how your functions work, you are not thinking about your reader.
+If you add comments that reference external AI conversations, Stack Overflow posts, or online resources to explain how your functions work, you aren't thinking about your reader.
 
 These references create dangerous external dependencies that break over time. 
 

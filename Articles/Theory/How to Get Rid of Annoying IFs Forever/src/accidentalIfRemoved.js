@@ -8,7 +8,7 @@ class PG13MovieRate extends MovieRate {
   //2. Move every *IF Body* to the former abstraction 
   warnIfNotAllowed(age) {
     if (age < 13)
-      throw new Error("You are not allowed to watch this movie");    
+      throw new Error("You aren't allowed to watch this movie");    
   }
 }
 
@@ -16,7 +16,7 @@ class AdultsOnlyMovieRate extends MovieRate {
   //2. Move every *IF Body* to the former abstraction 
   warnIfNotAllowed(age) {
     if (age < 18)
-      throw new Error("You are not allowed to watch this movie");    
+      throw new Error("You aren't allowed to watch this movie");    
   }
 }
 

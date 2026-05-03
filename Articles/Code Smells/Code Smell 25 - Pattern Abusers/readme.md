@@ -66,7 +66,7 @@ A class name with more than one pattern on it, is a warning.
 
 # Conclusion 🏁
 
-Chose when to apply a pattern solution. You are not [smarter](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md) for using too many patterns. You are smart if you choose the right opportunity for everyone.
+Chose when to apply a pattern solution. You aren't [smarter](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2006%20-%20Too%20Clever%20Programmer/readme.md) for using too many patterns. You are smart if you choose the right opportunity for everyone.
 
 # Relations 👩‍❤️‍💋‍👨
 

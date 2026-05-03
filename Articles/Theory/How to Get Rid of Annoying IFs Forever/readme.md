@@ -66,7 +66,7 @@ class Moviegoer {
   }
   watchXRatedMovie() {
     if (this.age < 18)
-      throw new Error("You are not allowed to watch this movie");
+      throw new Error("You aren't allowed to watch this movie");
     else
       this.watchMovie();
   }
@@ -109,7 +109,7 @@ class Moviegoer {
   }
   watchMovie(movie) {
     if ((this.age < 18) && (movie.rate == 'Adults Only'))
-      throw new Error("You are not allowed to watch this movie");
+      throw new Error("You aren't allowed to watch this movie");
     
     // watch movie
   }
@@ -146,9 +146,9 @@ class Moviegoer {
   watchMovie(movie) {
     //!!!!!!!!!!!!!!!!! IFS ARE POLLUTING HERE !!!!!!!!!!!!!!!!!!!
     if ((this.age < 18) && (movie.rate == 'Adults Only'))
-      throw new Error("You are not allowed to watch this movie");
+      throw new Error("You aren't allowed to watch this movie");
     else if ((this.age < 13) && (movie.rate == 'PG 13'))
-      throw new Error("You are not allowed to watch this movie");
+      throw new Error("You aren't allowed to watch this movie");
     // !!!!!!!!!!!!!!!! IFS ARE POLLUTING HERE !!!!!!!!!!!!!!!!!!!
     // watch movie
   }
@@ -203,7 +203,7 @@ class PG13MovieRate extends MovieRate {
   //2. Move every *IF Body* to the former abstraction 
   warnIfNotAllowed(age) {
     if (age < 13)
-      throw new Error("You are not allowed to watch this movie");    
+      throw new Error("You aren't allowed to watch this movie");    
   }
 }
 
@@ -211,7 +211,7 @@ class AdultsOnlyMovieRate extends MovieRate {
   //2. Move every *IF Body* to the former abstraction 
   warnIfNotAllowed(age) {
     if (age < 18)
-      throw new Error("You are not allowed to watch this movie");    
+      throw new Error("You aren't allowed to watch this movie");    
   }
 }
 
@@ -327,10 +327,10 @@ class Age {
 
 class AgeLessThan13 extends Age {
   assertCanWatchPG13Movie() {
-    throw new Error("You are not allowed to watch this movie");    
+    throw new Error("You aren't allowed to watch this movie");    
   }
   assertCanWatchAdultMovie() {
-    throw new Error("You are not allowed to watch this movie");    
+    throw new Error("You aren't allowed to watch this movie");    
   }
 }
 
@@ -339,7 +339,7 @@ class AgeBetween13And18 extends Age {
     // No Problem
   }
   assertCanWatchAdultMovie() {
-    throw new Error("You are not allowed to watch this movie");    
+    throw new Error("You aren't allowed to watch this movie");    
   }
 }
 
@@ -411,7 +411,7 @@ We should avoid the last design and set a **clear boundary** between *essential*
 
 >> A Good design rule is to create abstractions if they belong to the same domain (movies and ratings) and don't do it if they cross domains (movies and ages).
 
-## Do Ifs stink?
+## Do Ifs stink?
 
 According to evidence shown above. We should consider many *IFs* to be a code smell and tackle them with our recipe.
 

@@ -34,7 +34,7 @@ You need to extract these related behaviors and properties into a new, dedicated
 
 This not only promotes code reuse across the system but also ensures that each class has a single, well-defined reason to change. 
 
-You are not just moving code; you are discovering the missing abstractions in your domain model.
+You aren't just moving code; you are discovering the missing abstractions in your domain model.
 
 # Steps 👣 
 
@@ -142,7 +142,7 @@ This direct 1:1 [Bijection](https://github.com/mcsee/Software-Design-Articles/tr
 
 You no longer need to mentally map data clumps back to their original meaning. 
 
-You are not just organizing code; you are making the software more "real."
+You aren't just organizing code; you are making the software more "real."
 
 # Tags 🏷️
 

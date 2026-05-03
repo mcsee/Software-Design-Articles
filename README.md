@@ -1020,3 +1020,5 @@ In this repository, you will find many articles related to Software Design
 
 * [AI Coding Tip 017 - Ask for the Analyst, Not the Analysis](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20017%20-%20Ask%20for%20the%20Analyst%2C%20Not%20the%20Analysis/readme.md)
 
+* [AI Coding Tip 018 - Use Voice-Driven-Development](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20018%20-%20Use%20Voice-Driven-Development/readme.md)
+

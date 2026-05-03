@@ -3,10 +3,10 @@ class Age {
 
 class AgeLessThan13 extends Age {
   assertCanWatchPG13Movie() {
-    throw new Error("You are not allowed to watch this movie");    
+    throw new Error("You aren't allowed to watch this movie");    
   }
   assertCanWatchAdultMovie() {
-    throw new Error("You are not allowed to watch this movie");    
+    throw new Error("You aren't allowed to watch this movie");    
   }
 }
 
@@ -15,7 +15,7 @@ class AgeBetween13And18 extends Age {
     // No Problem
   }
   assertCanWatchAdultMovie() {
-    throw new Error("You are not allowed to watch this movie");    
+    throw new Error("You aren't allowed to watch this movie");    
   }
 }
 

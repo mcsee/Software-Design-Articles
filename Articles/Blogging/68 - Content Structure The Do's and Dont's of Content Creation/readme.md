@@ -212,7 +212,7 @@ HemmingwayApp does the magic for you.
 
 Be ready to fight impostor syndrome.
 
-You are not the most suitable person to write nor will you ever be and no one is born an expert.
+You aren't the most suitable person to write nor will you ever be and no one is born an expert.
 
 ## Fight Perfectionism
 

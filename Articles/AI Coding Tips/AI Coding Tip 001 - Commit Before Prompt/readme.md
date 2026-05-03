@@ -50,7 +50,7 @@ Easy Revert: You can undo a bad AI hallucination instantly.
 
 Context Control: You ensure the AI is working on your latest, stable logic.
 
-Tests are always green: You are not breaking existing functionality.
+Tests are always green: You aren't breaking existing functionality.
 
 # Context 🧠
 

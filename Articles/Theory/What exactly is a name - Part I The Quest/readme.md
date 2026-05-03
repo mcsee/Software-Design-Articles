@@ -221,7 +221,7 @@ The decision about which one it represents is coupled and generates a ripple eff
 
 ## When in doubt, a meaningless name will do
 
-If you are not mature enough in studying the model to find the appropriate name in the bijection, you must give it a really annoying name.
+If you aren't mature enough in studying the model to find the appropriate name in the bijection, you must give it a really annoying name.
 
 A mediocre name will stay forever until a responsible developer takes the courage and refactors it.
 

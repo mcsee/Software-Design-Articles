@@ -4,7 +4,7 @@ class Moviegoer {
   }
   watchXRatedMovie() {
     if (this.age < 18)
-      throw new Error("You are not allowed to watch this movie");
+      throw new Error("You aren't allowed to watch this movie");
     else
       this.watchMovie();
   }
