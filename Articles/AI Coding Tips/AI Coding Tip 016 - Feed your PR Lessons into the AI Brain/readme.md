@@ -208,7 +208,7 @@ AGENTS.md updates from PR traces should go through review like any other code ch
 
 # Tags 🏷️
 
-- Standards
+- Configuration
 
 # Level 🔋
 

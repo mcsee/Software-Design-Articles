@@ -1022,3 +1022,5 @@ In this repository, you will find many articles related to Software Design
 
 * [AI Coding Tip 018 - Use Voice-Driven-Development](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20018%20-%20Use%20Voice-Driven-Development/readme.md)
 
+* [AI Coding Tip 019 - Tell the AI Why, Not Just What](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20019%20-%20Tell%20the%20AI%20Why%2C%20Not%20Just%20What/readme.md)
+

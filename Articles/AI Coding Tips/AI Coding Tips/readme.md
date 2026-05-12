@@ -44,4 +44,6 @@ In this series, you will learn practical state-of-the-art advices to use AI to c
 
 [AI Coding Tip 018 - Use Voice-Driven-Development](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20018%20-%20Use%20Voice-Driven-Development/readme.md)
 
+[AI Coding Tip 019 - Tell the AI Why, Not Just What](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20019%20-%20Tell%20the%20AI%20Why,%20Not%20Just%20What/readme.md)
+
 ... more coming soon!

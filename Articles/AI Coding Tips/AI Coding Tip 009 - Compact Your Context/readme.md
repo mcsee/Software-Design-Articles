@@ -106,7 +106,7 @@ If you use advanced agents like Claude Code or Cursor, they might handle some of
 
 # Tags 🏷️
 
-- Context
+- Context Window
 
 # Level 🔋
 

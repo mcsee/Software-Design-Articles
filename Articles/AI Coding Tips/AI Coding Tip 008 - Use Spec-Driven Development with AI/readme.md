@@ -111,7 +111,7 @@ You must review every change.
 
 # Tags 🏷️
 
-- Complexity
+- Planning
 
 # Level 🔋
 

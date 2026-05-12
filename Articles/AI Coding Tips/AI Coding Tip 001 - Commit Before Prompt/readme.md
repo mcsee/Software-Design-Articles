@@ -104,7 +104,7 @@ If your code is not under a source control system, you need to make this manuall
 
 # Tags 🏷️
 
-- Complexity
+- Safety
 
 # Level 🔋
 

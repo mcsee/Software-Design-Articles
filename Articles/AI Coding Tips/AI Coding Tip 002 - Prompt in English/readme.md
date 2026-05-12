@@ -114,7 +114,7 @@ Smaller, local models might only understand English reliably.
 
 # Tags 🏷️
 
-- Standards
+- Prompt Engineering
 
 # Level 🔋
 

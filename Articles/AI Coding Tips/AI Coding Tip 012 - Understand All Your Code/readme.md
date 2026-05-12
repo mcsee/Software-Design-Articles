@@ -144,7 +144,7 @@ I'd like to understand what you did on every line of code
 
 # Tags 🏷️
 
-- Readability
+- Safety
 
 # Level 🔋
 

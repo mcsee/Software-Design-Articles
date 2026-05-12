@@ -100,7 +100,7 @@ Try this prompt:
 
 # Tags 🏷️
 
-- Standards
+- Configuration
 
 # Level 🔋
 

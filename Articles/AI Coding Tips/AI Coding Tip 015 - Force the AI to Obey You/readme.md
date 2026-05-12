@@ -157,7 +157,7 @@ This doesn't replace testing. Always validate your skill with adversarial prompt
 
 # Tags 🏷️
 
-- Context Window
+- Configuration
 
 # Level 🔋
 

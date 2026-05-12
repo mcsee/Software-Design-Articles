@@ -117,7 +117,7 @@ Group related rules into logical sets.
 
 # Tags 🏷️
 
-- Complexity
+- Context Window
 
 # Level 🔋
 

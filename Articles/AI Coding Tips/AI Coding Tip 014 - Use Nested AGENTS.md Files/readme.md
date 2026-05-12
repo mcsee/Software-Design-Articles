@@ -131,7 +131,7 @@ Help me fix this component.
 
 # Tags 🏷️
 
-- Standards
+- Configuration
 
 # Level 🔋
 

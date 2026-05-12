@@ -181,7 +181,7 @@ You should use this tip for **every** code change. You should not skip it even f
 
 # Tags 🏷️
 
-- Readability
+- Safety
 
 # Level 🔋
 

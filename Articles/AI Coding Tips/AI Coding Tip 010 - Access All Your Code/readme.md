@@ -148,7 +148,7 @@ High token usage in long sessions can drive up your API costs.
 
 # Tags 🏷️
 
-- Complexity
+- Context Window
 
 # Level 🔋
 

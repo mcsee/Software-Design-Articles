@@ -196,7 +196,7 @@ Keywords must be clear, or the AI loads files unpredictably.
 
 # Tags 🏷️
 
-- Standards
+- Prompt Engineering
 
 # Level 🔋
 

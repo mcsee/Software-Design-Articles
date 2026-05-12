@@ -108,7 +108,7 @@ The AI will not remember them across threads. *(Like you would when coaching a n
 
 # Tags 🏷️
 
-- Complexity
+- Context Window
 
 ## Level 🔋
 

@@ -110,7 +110,7 @@ This tip doesn't replace endpoint protection. It adds a layer for AI-specific [s
 
 # Tags 🏷️
 
-- Security
+- Safety
 
 # Level 🔋
 

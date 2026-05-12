@@ -112,7 +112,7 @@ Some AIs go the other way around, being *too confirmative* before changing anyth
 
 # Tags 🏷️
 
-- Complexity
+- Planning
 
 # Level 🔋
 

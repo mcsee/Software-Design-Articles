@@ -72,6 +72,12 @@ Today, AI understands your intent in natural language and translates it into pre
 
 Modern AI assistants like Claude can infer what you mean even when you speak conversationally ("can you fix the bug where users see a blank screen after login") without needing you to type angle brackets or semicolons.
 
+Unlike WhatsApp voice messages, which force the recipient to stop and listen in real time, dictating to an AI agent costs nothing to the receiver.
+
+The AI transcribes your speech into text silently. The result is searchable and editable.
+
+You get the speed of speaking without the rudeness of audio messages.
+
 ## Prompt Reference 📝
 
 ## Bad Prompt 🚫
@@ -99,7 +105,7 @@ When users try to log in with valid credentials
 
 The system returns a 500 error instead of creating a session.
 
-The error logs show it's happening in the password validation step. 
+The error logs show it's happening in the password validation step.
 
 I need you to review the authentication logic
 identify why the validation is failing
@@ -139,7 +145,7 @@ You need to invest time learning which voice tool works best for your workflow a
 
 # Tags 🏷️
 
-- Context Window
+- Prompt Engineering
 
 # Related Tips 🔗
 
