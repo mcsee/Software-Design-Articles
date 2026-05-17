@@ -1,22 +1,12 @@
-// 1. Identify business exceptions
-public class BusinessException : Exception {}
-public class InsufficientFunds : BusinessException {}
-
-// 2. Identify technical exceptions
-public class TechnicalException : Exception {}
-public class DatabaseUnavailable : TechnicalException {}
-
 public void Withdraw(int amount) {
-  // 3. Use the correct hierarchy
   if (amount > Balance) {
-    throw new InsufficientFunds();
+    throw new Exception("Insufficient funds");
+    // You might want to show this error to end users
   }
   if (connection == null) {
-    throw new DatabaseUnavailable();
+    throw new Exception("Database not available");
+    // Internal error, log and notify operators. 
+    // Fail with a more generic error
   }
-
-  // 4. Apply safe logic
   Balance -= amount;
 }
-
-// 5. Adjust handlers in the calling code

@@ -1,0 +1,9 @@
+---
+title: "JWT Authentication Design"
+type: architecture-decision
+status: approved
+component: auth-service
+tags: [security, backend]
+created: 2018-12-09
+related: ["OAuth Flow", "Session Management"]
+---
