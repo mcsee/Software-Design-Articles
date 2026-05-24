@@ -1,0 +1,1 @@
+Add Redis caching to the UserRepository class.

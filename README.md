@@ -1026,3 +1026,5 @@ In this repository, you will find many articles related to Software Design
 
 * [AI Coding Tip 020 - Create a Second Brain](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20020%20-%20Create%20a%20Second%20Brain/readme.md)
 
+* [AI Coding Tip 021 - Avoid Comprehension Debt](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20021%20-%20Avoid%20Comprehension%20Debt/readme.md)
+
