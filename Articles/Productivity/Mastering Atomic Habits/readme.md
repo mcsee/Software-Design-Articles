@@ -82,7 +82,7 @@ But instead of jumping into a strenuous workout routine, you start by walking fo
 
 It doesn’t seem like much, but it’s a start. And after a week or two, you find that you have more energy and can walk for longer periods.
 
-You keep at it, and you will be able to work your way up to a full 30-minute workout. But it all started with those small, baby steps.
+You keep at it, and you'll be able to work your way up to a full 30-minute workout. But it all started with those small, baby steps.
 
 The same principle applies to any area of your life where you want to make a change. Whether you want to eat healthier, quit smoking, or save money, it’s important to start small.
 
@@ -104,7 +104,7 @@ A good plan of action requires concrete implementation steps and not vague inten
 
 > I will go for a walk in the national park at 8:00 PM every night.
 
-This implementation intention is specific about *when* (8:00 PM), *where* (the national park), and *what* (going for a walk) you will do.
+This implementation intention is specific about *when* (8:00 PM), *where* (the national park), and *what* (going for a walk) you'll do.
 
 Making an implementation intention is a simple way to increase the likelihood of forming a new habit. 
 
@@ -140,7 +140,7 @@ For example, you might allow yourself to watch television only after you have co
 
 Temptation bundling allows you to indulge in short-term pleasure while still making progress towards your long-term goals. 
 
-You will stick to your new habit, as you will be motivated to do the activities you enjoy.
+You'll stick to your new habit, as you'll be motivated to do the activities you enjoy.
 
 Temptation bundling is not a magic bullet and it will not work in every situation. 
 
@@ -212,7 +212,7 @@ Find ways to incorporate your new habits into your daily routine so that they be
 
 Making changes to your environment is an important step in changing your habits. 
 
-By surrounding yourself with people and things that support your goals, you will be more likely to stick to your new habits and achieve your long-term objectives.
+By surrounding yourself with people and things that support your goals, you'll be more likely to stick to your new habits and achieve your long-term objectives.
 
 # Conclusion 🏁
 

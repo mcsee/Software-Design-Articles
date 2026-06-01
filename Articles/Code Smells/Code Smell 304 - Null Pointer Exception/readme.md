@@ -263,7 +263,7 @@ When you model this correctly in your program, you create a clear [one-to-one co
 
 Breaking this bijection by allowing null references creates phantom objects that exist in your code but not in the real world, leading to crashes when you try to interact with these non-existent entities.
 
-If you choose to name your license plate "NULL", you will get [a lot of parking tickets](https://www.forbes.com/sites/zakdoffman/2019/08/14/hacker-gets-12000-in-parking-tickets-after-null-license-plate-trick-backfires/)
+If you choose to name your license plate "NULL", you'll get [a lot of parking tickets](https://www.forbes.com/sites/zakdoffman/2019/08/14/hacker-gets-12000-in-parking-tickets-after-null-license-plate-trick-backfires/)
 
 # AI Generation 🤖
 

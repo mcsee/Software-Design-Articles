@@ -204,7 +204,7 @@ In the above case when objects must declare a type, there are more elegant solut
 
 In classification languages, it is enough to use the [NullObject design pattern](https://en.wikipedia.org/wiki/Null_object_pattern) in your concrete class sibling and declare the supertype as a type of the collaborator based on the [Liskov substitution principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle) (L of SOLID).
 
-However, if you decide to implement that solution you will be violating another design principle stating:
+However, if you decide to implement that solution you'll be violating another design principle stating:
 
 *You should subclassify for essential reasons and not reuse code or adjust class hierarchies.*
 

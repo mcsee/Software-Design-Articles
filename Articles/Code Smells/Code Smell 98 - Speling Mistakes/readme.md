@@ -64,7 +64,7 @@ comboFedBySupplier = supplier.providers();
 
 Pay close attention to your names. 
 
-You will probably be the person reading the code in a few months. 
+You'll probably be the person reading the code in a few months. 
 
 # Relations 👩‍❤️‍💋‍👨
 

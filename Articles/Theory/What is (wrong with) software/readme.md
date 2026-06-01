@@ -106,7 +106,7 @@ Once you define the software, you can begin to infer good modeling and design pr
 
 You have the axiomatic definition presented in this article.
 
-From it, you will infer **principles**, **heuristics**, and **rules** to build excellent software models.
+From it, you'll infer **principles**, **heuristics**, and **rules** to build excellent software models.
 
 [The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 

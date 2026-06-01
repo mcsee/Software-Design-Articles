@@ -165,7 +165,7 @@ You can also prompt the AI to "reduce nesting in this function" or "refactor thi
 
 # Conclusion 🏁
 
-Keep your happy path to the left by using early returns and guard clauses, you will create more readable, maintainable code.
+Keep your happy path to the left by using early returns and guard clauses, you'll create more readable, maintainable code.
 
 You communicate business logic more clearly, reduce cognitive load for other developers (including your future self), and create more resilient code to change.
 

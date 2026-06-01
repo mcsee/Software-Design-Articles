@@ -142,7 +142,7 @@ Photo by [Nick van den Berg](https://unsplash.com/@nngvandenberg) on [Unsplash](
 
 * * *
 
-> You will fall to ruin because you believe that exceptions to the rule make new rules.
+> You'll fall to ruin because you believe that exceptions to the rule make new rules.
 
 _Pierce Brown_
 

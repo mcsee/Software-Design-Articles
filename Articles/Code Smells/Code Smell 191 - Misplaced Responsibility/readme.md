@@ -99,7 +99,7 @@ This is a semantic smell.
 
 # Conclusion 🏁
 
-If you put the responsibilities in the proper object, you will surely find them in the same place.
+If you put the responsibilities in the proper object, you'll surely find them in the same place.
 
 # Relations 👩‍❤️‍💋‍👨
 

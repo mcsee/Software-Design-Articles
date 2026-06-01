@@ -24,7 +24,7 @@
 
 Imagine the scenario where you need to persist your objects in a database restricting the size of your texts.
 
-Most databases will silently truncate your data and you will not notice the problem until you retrieve them.
+Most databases will silently truncate your data and you won't notice the problem until you retrieve them.
 
 If you need to enforce an arbitrary limit, add these business rules in your objects following the bijection rule.
 

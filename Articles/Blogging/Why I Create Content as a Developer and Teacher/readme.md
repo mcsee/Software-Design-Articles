@@ -74,7 +74,7 @@ I mostly write about programming fundamentals, code smells, refactorings and TDD
 
 I think learning fancy frameworks and tools is not the best path for a beginner.
 
-You will get biased towards an [accidental](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md) decision instead of learning [essential contents](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md).
+You'll get biased towards an [accidental](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/No%20Silver%20Bullet/readme.md) decision instead of learning [essential contents](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/Null%20-%20The%20Billion%20Dollar%20Mistake/readme.md).
 
 # How?
 

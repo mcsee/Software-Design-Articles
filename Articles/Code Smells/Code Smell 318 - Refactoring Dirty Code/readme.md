@@ -172,7 +172,7 @@ The key is intentional decision-making based on real data, not assumptions.
 
 # Why the Bijection Is Important 🗺️
 
-While you build a [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) between your code and real-world behavior, you will notice some parts of your system are more actively changed than others.
+While you build a [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) between your code and real-world behavior, you'll notice some parts of your system are more actively changed than others.
 
 Your [bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) should reflect this reality.
 

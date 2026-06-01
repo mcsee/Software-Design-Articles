@@ -102,7 +102,7 @@ When you model your software, you need to maintain a clear bijection between you
 
 God Objects break this mapping by lumping multiple real-world concepts into a single artificial construct. 
 
-You will not find a single entity that manages users, processes payments, sends emails, and generates reports.
+You won't find a single entity that manages users, processes payments, sends emails, and generates reports.
 
 You have distinct roles and responsibilities. 
 

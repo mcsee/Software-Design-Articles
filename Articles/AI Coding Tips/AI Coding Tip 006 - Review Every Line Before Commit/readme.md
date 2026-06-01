@@ -10,7 +10,7 @@
 
 You prompt and paste AI-generated code directly into your project without thinking twice.
 
-You trust the AI without verification and create [workslop](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20313%20-%20Workslop%20Code/readme.md) that ~someone else~ you will have to clean up later.
+You trust the AI without verification and create [workslop](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20313%20-%20Workslop%20Code/readme.md) that ~someone else~ you'll have to clean up later.
 
 You assume the code works because it *looks* correct (or complicated enough to impress anyone).
 

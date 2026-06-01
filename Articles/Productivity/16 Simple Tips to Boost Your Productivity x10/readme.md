@@ -114,7 +114,7 @@ Focus -> Flow.
 
 # 13. [Eat the Frog](https://todoist.com/productivity-methods/eat-the-frog) Early in the Morning 🌤️
 - Do the annoying tasks early in the morning.
-- You will be happy the rest of the day
+- You'll be happy the rest of the day
 - Avoid procrastination and gain self-confidence.
 - It is the moment with more energy and freshness.
 - Plan for the rest of the day.

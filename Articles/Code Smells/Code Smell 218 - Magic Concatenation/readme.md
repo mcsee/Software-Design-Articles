@@ -127,6 +127,6 @@ This article is part of the CodeSmell Series.
 
 My new book about clean code is available for pre-order.
 
-You will find several recipes like this one with a higher level of detail
+You'll find several recipes like this one with a higher level of detail
 
 [![Book](Book.jpg)](https://amzn.to/44s1XdO)

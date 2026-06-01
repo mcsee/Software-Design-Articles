@@ -4,7 +4,7 @@
 
 *Our code is more robust and legible. But we hide NULL under the rug*
 
-> TL;DR: Avoid Nulls and undefined. If you avoid them you will never need Optionals.
+> TL;DR: Avoid Nulls and undefined. If you avoid them you'll never need Optionals.
 
 # Problems 😔 
 

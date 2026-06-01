@@ -98,7 +98,7 @@ We need to change it to a more specific check.
 
 # Conclusion 🏁
 
-Try to rewrite your boolean assertions and you will fix the failures much faster.
+Try to rewrite your boolean assertions and you'll fix the failures much faster.
 
 # Relations 👩‍❤️‍💋‍👨
 

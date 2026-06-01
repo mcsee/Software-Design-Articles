@@ -115,7 +115,7 @@ Photo by [Tomas Sobek](https://unsplash.com/@tomas_nz) on [Unsplash](https://uns
     
 * * *
 
->Design is choosing how you will fail.
+>Design is choosing how you'll fail.
 
 _Ron Fein_
 

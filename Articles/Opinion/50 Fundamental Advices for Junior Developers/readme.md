@@ -150,7 +150,7 @@ Https://x.com/ImRussell_
 
 * * *
 
-There is no such thing as a silly question. Ask. Don’t ever stop asking. Don’t ever stop learning. You will do great things.
+There is no such thing as a silly question. Ask. Don’t ever stop asking. Don’t ever stop learning. You'll do great things.
 
 Https://x.com/nicklewis
 
@@ -222,7 +222,7 @@ Https://x.com/b_xx007
 
 * * *
 
-Don’t give a fuck about the negatives you will get in interviews. Don’t give up, you just need to be accepted by one company.
+Don’t give a fuck about the negatives you'll get in interviews. Don’t give up, you just need to be accepted by one company.
 
 Https://x.com/JSoufer
 
@@ -329,7 +329,7 @@ Https://x.com/dmokafa
 
 * * * 
 
-Try and try a lot times, you will learn and improve the main skill, later keep the focus it in there 
+Try and try a lot of times, you'll learn and improve the main skill, later keep the focus it in there 
 
 Https://x.com/drupalec
 
@@ -887,7 +887,7 @@ Https://x.com/giodegas
 * * *
 
 Most importantly, improve the ability to search accurately on search engines.
-The more accurate your keywords are, more quickly you will get to the solution.
+The more accurate your keywords are, more quickly you'll get to the solution.
 
 Https://x.com/ZubairAkbar353
 

@@ -2,7 +2,7 @@
 
 ![Code Smell 55 - Object Orgy](Code%20Smell%2055%20-%20Object%20Orgy.jpeg)
 
-*If you see your objects as data holders you will violate their encapsulation, but you shouldn't, as in real life, you should always ask for consent.*
+*If you see your objects as data holders you'll violate their encapsulation, but you shouldn't, as in real life, you should always ask for consent.*
 
 > TL;DR: Don't mess with other object's data.
 
@@ -82,7 +82,7 @@ You can set your linters to warn you for public attributes, setters and getters 
 
 # Conclusion 🏁
 
-If your classes are polluted with setters, getters and public methods you will certainly have ways to couple to their accidental implementation.
+If your classes are polluted with setters, getters and public methods you'll certainly have ways to couple to their accidental implementation.
 
 # Relations 👩‍❤️‍💋‍👨
 

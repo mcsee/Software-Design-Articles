@@ -28,7 +28,7 @@ Duplicated code is a severe code smell, it leads to maintainability problems and
 
 Start by identifying behavior duplication.
 
-Once you find it, you will extract it into reusable functions or classes, reducing redundancy, creating a single source of truth, and simplifying future updates.
+Once you find it, you'll extract it into reusable functions or classes, reducing redundancy, creating a single source of truth, and simplifying future updates.
 
 Behavior duplication is a sign of a missing abstraction you need to create. 
 

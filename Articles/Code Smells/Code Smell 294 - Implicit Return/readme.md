@@ -165,7 +165,7 @@ And many other allow your tu omit the return anytime:
 - Erlang
 - Clojure
 
-You will notice this a feature present on most [functional languages](https://en.wikipedia.org/wiki/Functional_programming).
+You'll notice this a feature present on most [functional languages](https://en.wikipedia.org/wiki/Functional_programming).
 
 # Relations 👩‍❤️‍💋‍👨
 

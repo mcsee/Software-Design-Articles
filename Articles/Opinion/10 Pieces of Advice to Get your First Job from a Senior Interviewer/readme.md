@@ -18,7 +18,7 @@ This includes their history, their mission, and their values.
 
 Check the company website, Linkedin, Social Media, and reputation.
 
-If you come with your hands empty, you will have fewer chances.
+If you come with your hands empty, you'll have fewer chances.
 
 # 2 Start with the basics ✔️
 
@@ -84,7 +84,7 @@ If you have a technical interview, be familiar with the tool and techniques, the
 
 Software Engineering is human work.
 
-You will not work alone. We might ask about teamwork situations.
+You won't work alone. We might ask about teamwork situations.
 
 # 10 Bring your Github 📈
 

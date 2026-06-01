@@ -2,7 +2,7 @@
 
 ![Code Smell 112 - Testing Private Methods](Code%20Smell%20112%20-%20Testing%20Private%20Methods.jpg)
 
-*If you work on unit testing, sooner or later you will face this dilemma*
+*If you work on unit testing, sooner or later you'll face this dilemma*
 
 > TL;DR: Don't test your private methods.
 

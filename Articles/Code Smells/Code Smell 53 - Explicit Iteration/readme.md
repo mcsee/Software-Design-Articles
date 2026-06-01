@@ -16,7 +16,7 @@
 
 1. Favor *foreach()* or high order iterators
 
-2. You will be able to use yield(), caches, proxies, lazy loading and much more when you hide your implementation details.
+2. You'll be able to use yield(), caches, proxies, lazy loading and much more when you hide your implementation details.
 
 # Sample Code 💻
 

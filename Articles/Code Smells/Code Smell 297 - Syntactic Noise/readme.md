@@ -180,7 +180,7 @@ Please don't prompt this.
 
 AI tools can help detect and fix syntactic noise with appropriate prompting.
 
-If you use instructions like "refactor for readability" or "simplify this expression," you will get cleaner code.
+If you use instructions like "refactor for readability" or "simplify this expression," you'll get cleaner code.
 
 ## Try Them! 🛠
 

@@ -16,7 +16,7 @@
 - Context fragmentation
 - Translation nightmares
 - Context loss
-- *(You will not see "Performance Issues" in this list)*
+- *(You won't see "Performance Issues" in this list)*
 
 # Solutions 😃
 

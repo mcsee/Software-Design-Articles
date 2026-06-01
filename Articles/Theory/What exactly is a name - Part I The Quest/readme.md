@@ -10,7 +10,7 @@ All developers use names for programming; it doesn’t matter if the language is
 
 Names are everywhere. But you still misuse them. 
 
-In this first part, you will see how to find good ones.
+In this first part, you'll see how to find good ones.
 
 > _There are only two hard things in Computer Science: cache invalidation and naming things._
 > 
@@ -40,7 +40,7 @@ They indicate the role that links objects to their real-world entities in the [M
 
 [What is (wrong with) software?](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md)
 
-Through this [bijective](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) relationship, you will know who it represents in the real world.
+Through this [bijective](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) relationship, you'll know who it represents in the real world.
 
 [The One and Only Software Design Principle](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md)
 
@@ -263,7 +263,7 @@ There is nothing worse than a bad abstraction carved in stone.
 
 > Rule 5: Modify bad names only when you know enough about the domain.
 
-## A good name is the last thing you will learn
+## A good name is the last thing you'll learn
 
 The Wittgensteinian school of thought teaches that human beings learn to generalize from a few examples.
 
@@ -293,7 +293,7 @@ An _anti-pattern_ would be to keep the same name that you defined the first time
 
 Writing comments is a _code smell_ indicating that a method, name, or variable is not very declarative.
 
-If you can write incredibly descriptive names, you will avoid having to maintain *clarifying* [comments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md) that don't add value and are hard to maintain.
+If you can write incredibly descriptive names, you'll avoid having to maintain *clarifying* [comments](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2005%20-%20Comment%20Abusers/readme.md) that don't add value and are hard to maintain.
 
 > Rule 7: Avoid comments.
 

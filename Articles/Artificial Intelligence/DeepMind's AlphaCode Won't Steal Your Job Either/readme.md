@@ -46,5 +46,5 @@ Stop competing against smarter machines than you.
 
 [Learn](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md) and [model](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md) rich domains.
 
-You will [keep your job](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Opinion/(Most)%20Programmers%20are%20losing%20our%20jobs%20very%20soon/readme.md) for a few more years...
+You'll [keep your job](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Opinion/(Most)%20Programmers%20are%20losing%20our%20jobs%20very%20soon/readme.md) for a few more years...
 

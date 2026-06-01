@@ -170,7 +170,7 @@ If you have strong evidence on severe performance bottlenecks you need to automa
 
 You can't just skip the backend part.
 
-You should not make it manually because you will forget to do it.
+You should not make it manually because you'll forget to do it.
 
 # Tags 🏷️
 
@@ -180,7 +180,7 @@ You should not make it manually because you will forget to do it.
 
 Use [TDD](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/TDD%20Conference%202021/TDD%20Conference%202021%20-%20All%20Talks/readme.md).
 
-You will put all your business logic behavior on your domain objects.
+You'll put all your business logic behavior on your domain objects.
 
 # Relations 👩‍❤️‍💋‍👨
 

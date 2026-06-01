@@ -30,7 +30,7 @@
 # 19. Focus 👁️
 - If the product is free, **you** are the product
 - Attention is *your* asset
-- When you use a website, application, or software and try to do A, you will see many alerts, banners, messages, and click baits prompting you to do B/C/D, etc.
+- When you use a website, application, or software and try to do A, you'll see many alerts, banners, messages, and click baits prompting you to do B/C/D, etc.
 - Be like Ulysses, don't listen to Mermaids!
 
 # 20. Disable notification questions 🔕
@@ -65,7 +65,7 @@ Fake deadline: today.*
 3. Click "Explore Locations".
 4. Pick a country (like [St Kitts](https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis)).
 5. Now the "What’s Happening" will only display content for the location (empty).
-6. You will only see your timeline.
+6. You'll only see your timeline.
 
 # 25. Auto Deadlines 🔫
 

@@ -98,7 +98,7 @@ For example: if you have a module with a lot of tech debt but is not a source of
 On the contrary: A heavy used module with small debt might make you pay a lot on a daily basis. Pull the plug and solve it!
 
 Mcsee Mar 24, 2021, 6:41 PM
-Going back to Amy Tom Most code smells are related to large systems with heavy coupling and there are not many courses on the academia or paid ones dealing with them. But you will surely come accross them if you work on a not so small organizations.
+Going back to Amy Tom Most code smells are related to large systems with heavy coupling and there are not many courses on the academia or paid ones dealing with them. But you'll surely come accross them if you work on a not so small organizations.
 Most courses are related to fancy technologies or languages. They are great because they teach you how to use tools. But we also need to learn on fundamentals. Once the tools get obsolete and we need to move on the next one.
 
 Arthur TkachenkoMar 24, 2021, 6:42 PM

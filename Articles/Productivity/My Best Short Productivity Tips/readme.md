@@ -44,13 +44,13 @@ Use a single one. The way [Marie Kondo](https://en.wikipedia.org/wiki/Marie_Kond
 
 # 6- Sprint and pause like cycling 🚴
 
-Sometimes you need to run a marathon, and the other time you will need to rush. Toggle tasks.
+Sometimes you need to run a marathon, and the other time you'll need to rush. Toggle tasks.
 
 # 7- When browsing open a new window🌐
 
 If you need to start a new subject (or procrastinate), do it on a new browser page, never a tab.
 
-This way if you open multiple tabs they will be related, and you will close all of them together instead of keeping polluting the original window.
+This way if you open multiple tabs they will be related, and you'll close all of them together instead of keeping polluting the original window.
 
 Don't use Chrome's [tab grouping](https://blog.google/products/chrome/manage-tabs-with-google-chrome/).
 

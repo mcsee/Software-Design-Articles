@@ -1,5 +1,5 @@
 alert("Cancel the appointment? \n" +
-      "You will lose all the history", 
+      "You'll lose all the history", 
       "Cancel Appointment", 
       "Keep Editing");
 

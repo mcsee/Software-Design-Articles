@@ -1462,7 +1462,7 @@ I’m not a great programmer; I’m just a good programmer with great habits.
 
 ---
 
-> Design is choosing how you will fail.
+> Design is choosing how you'll fail.
 
 *Ron Fein*
 
@@ -4180,7 +4180,7 @@ There is only one basic way of dealing with complexity: divide and conquer
 
 ---
 
-> No matter how slow you are writing clean code, you will always be slower if you make a mess.
+> No matter how slow you are writing clean code, you'll always be slower if you make a mess.
 
 *Robert Martin*
 
@@ -4646,7 +4646,7 @@ Continuous deployment came before continuous delivery. We need to learn from it.
 
 ---
 
-> You will fall to ruin because you believe that exceptions to the rule make new rules.
+> You'll fall to ruin because you believe that exceptions to the rule make new rules.
 
 *Pierce Brown*
 

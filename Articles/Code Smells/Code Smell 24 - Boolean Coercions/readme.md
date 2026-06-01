@@ -4,7 +4,7 @@
 
 *Booleans should be just True and False*
 
-> TL;DR: Don't do magic castings to boolean. You will regret it on a Friday night.
+> TL;DR: Don't do magic castings to boolean. You'll regret it on a Friday night.
  
 # Problems 😔 
 

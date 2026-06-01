@@ -1237,7 +1237,7 @@ test("test20220911", async function() {
 ![2022-09-11](2022-09-11.png)
 ![2022-09-12](2022-09-12.png)
 
-(You will find more daily examples in the repo)
+(You'll find more daily examples in the repo)
 
 # Playing by the complex rules
 

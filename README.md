@@ -1028,3 +1028,5 @@ In this repository, you will find many articles related to Software Design
 
 * [AI Coding Tip 021 - Avoid Comprehension Debt](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20021%20-%20Avoid%20Comprehension%20Debt/readme.md)
 
+* [AI Coding Tip 022 - Give AI a Harness to Work With](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20022%20-%20Give%20AI%20a%20Harness%20to%20Work%20With/readme.md)
+

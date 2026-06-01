@@ -30,7 +30,7 @@ One of the original signatories of the Agile Manifesto, James Grenning trains, c
 -- Unfortunately, many organizations adapt their bad models to look like scrum.
 - [Deming Cycle](https://en.wikipedia.org/wiki/PDCA) is pretty similar to TDD.
 - Scrum is followed by dogma followers.
-- You can learn in a steady pace, but if you have bad fundamentals you will encounter a plateau.
+- You can learn in a steady pace, but if you have bad fundamentals you'll find a plateau.
 - If you iterate and save your test at the end, you end up getting flooded by pressure.
 - We need to aim for technical excellence.
 -- Hacking new features, and managing bugs is not excellence.

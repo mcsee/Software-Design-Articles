@@ -31,7 +31,7 @@ Making a *POST* and immediately making a *GET* to check the existence of the res
 
 This pattern adds complexity and makes your tests slower. 
 
-Also if your *GET* operation breaks, you will have many tests failing not relating to the test *GET* operation.
+Also if your *GET* operation breaks, you'll have many tests failing not relating to the test *GET* operation.
 
 The epitome of testing is a single broken test for a wrong behavior.
 

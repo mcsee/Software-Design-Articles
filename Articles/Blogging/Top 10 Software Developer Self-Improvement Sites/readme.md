@@ -30,7 +30,7 @@ But you need to learn [boring fundamentals](https://github.com/mcsee/Software-De
 
 If you ever want to move to the major leagues you need to read books. Period.
 
-I like the [O'Reilly Platform](https://learning.oreilly.com/) since it provides you with all the books you will never need and also has amazing streaming content.
+I like the [O'Reilly Platform](https://learning.oreilly.com/) since it provides you with all the books you'll never need and also has amazing streaming content.
 
 It is an amazing continuous learning platform.
 
@@ -76,7 +76,7 @@ I write, read and moderate a lot of programming blogs.
 
 I read about 50 technical articles a day and save them on [Pocket](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Productivity/16%20Simple%20Tips%20to%20Boost%20Your%20Productivity%20x10/readme.md) and InoReader for the weekends.
 
-If you follow relevant tags, you will find amazing content daily.
+If you follow relevant tags, you'll find amazing content daily.
 
 You can find me on Hashnode [here](@[Maxi Contieri](@mcsee)), [Dev.to](https://dev.to/mcsee), and [Medium](https://mcsee.medium.com/)
 

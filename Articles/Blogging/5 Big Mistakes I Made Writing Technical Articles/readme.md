@@ -110,7 +110,7 @@ If you use [Google Search Console](https://search.google.com/search-console) you
 "Search Type: Image"
 ``` 
 
-If you add *Alt description* to all your images you will bring searches to your articles both from the content AND from the image descriptions you choose!
+If you add *Alt description* to all your images you'll bring searches to your articles both from the content AND from the image descriptions you choose!
 
 Remember to describe the image's intent, not what the actual image does.
 

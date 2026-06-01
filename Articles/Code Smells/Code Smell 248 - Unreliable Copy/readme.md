@@ -114,7 +114,7 @@ Claude also noticed the mistake but refused to tell the execution result
 
 # Conclusion 🏁
 
-Always check important function's post-conditions even if *you think* you will have performance penalties.
+Always check important function's post-conditions even if *you think* you'll have performance penalties.
 
 # Relations 👩‍❤️‍💋‍👨
 

@@ -120,7 +120,7 @@ Photo by [Becca Tapert](https://unsplash.com/@beccatapert) on [Unsplash](https:/
 
 * * *
 
-> No matter how slow you are writing clean code, you will always be slower if you make a mess.
+> No matter how slow you are writing clean code, you'll always be slower if you make a mess.
  
 * * *
  
