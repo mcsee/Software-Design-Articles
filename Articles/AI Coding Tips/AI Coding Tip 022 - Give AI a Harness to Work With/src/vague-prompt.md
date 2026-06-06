@@ -1,0 +1,1 @@
+Refactor the PaymentProcessor class to use the Null Object pattern.

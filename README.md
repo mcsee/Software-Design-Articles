@@ -1030,3 +1030,5 @@ In this repository, you will find many articles related to Software Design
 
 * [AI Coding Tip 022 - Give AI a Harness to Work With](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20022%20-%20Give%20AI%20a%20Harness%20to%20Work%20With/readme.md)
 
+* [AI Coding Tip 023 - Shrink your AI's Pull Request](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20023%20-%20Shrink%20your%20AI%27s%20Pull%20Request/readme.md)
+

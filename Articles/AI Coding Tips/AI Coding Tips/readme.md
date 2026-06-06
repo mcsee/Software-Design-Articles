@@ -52,4 +52,6 @@ In this series, you'll learn practical state-of-the-art advices to use AI to cod
 
 [AI Coding Tip 022 - Give AI a Harness to Work With](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20022%20-%20Give%20AI%20a%20Harness%20to%20Work%20With/readme.md)
 
+[AI Coding Tip 023 - Shrink your AI's Pull Request](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20023%20-%20Shrink%20your%20AI's%20Pull%20Request/readme.md)
+
 ... more coming soon!
