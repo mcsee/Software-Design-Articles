@@ -1,8 +1,8 @@
 def multiply(first_multiplier, second_multiplier):
     return first_multiplier * second_multiplier
-    
+
 class TestMultiply(unittest.TestCase):
-    def test_multiply_both_possitive_outcome_is_possitive(self):
+    def test_multiply_both_positive_outcome_is_positive(self):
         result = multiply(2, 3)
         self.assertEqual(result, 6)
     def test_multiply_both_negative_outcome_is_positive(self):
@@ -19,11 +19,11 @@ class TestMultiply(unittest.TestCase):
         self.assertEqual(result, 0)
 
 # You define a test function called test_multiply,
-# which calls the multiply function with different arguments 
+# which calls the multiply function with different arguments
 # and verifies that the result
 # is correct using the assertEqual method.
 
 # 1. Take the comment of the method explaining what the function does.
 # 2. Rename the method with the comment description (the what).
-# 3. Create tests to verify the comments. 
+# 3. Create tests to verify the comments.
 # 4. Omit irrelevant implementation details

@@ -716,6 +716,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 319 - Hardcoded Stateless Properties](/Articles/Code%20Smells/Code%20Smell%20319%20-%20Hardcoded%20Stateless%20Properties/readme.md)
 
+* [Code Smell 320 - Vanity Coverage](/Articles/Code%20Smells/Code%20Smell%20320%20-%20Vanity%20Coverage/readme.md)
+
 ### Blogging
 
 * [Content Structure: The Do's and Dont's of Content Creation](/Articles/Blogging/68%20-%20Content%20Structure%20The%20Do%27s%20and%20Dont%27s%20of%20Content%20Creation/readme.md)
@@ -1031,4 +1033,8 @@ In this repository, you will find many articles related to Software Design
 * [AI Coding Tip 022 - Give AI a Harness to Work With](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20022%20-%20Give%20AI%20a%20Harness%20to%20Work%20With/readme.md)
 
 * [AI Coding Tip 023 - Shrink your AI's Pull Request](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20023%20-%20Shrink%20your%20AI%27s%20Pull%20Request/readme.md)
+
+* [AI Coding Tip 024 - Force a Criteria Check Before the Task Ends](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20024%20-%20Force%20a%20Criteria%20Check%20Before%20the%20Task%20Ends/readme.md)
+
+* [AI Coding Tip 025 - Pair Every Skill With a Pitfalls File](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20025%20-%20Pair%20Every%20Skill%20With%20a%20Pitfalls%20File/readme.md)
 

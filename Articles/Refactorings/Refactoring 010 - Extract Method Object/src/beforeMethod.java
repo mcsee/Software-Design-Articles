@@ -1,7 +1,7 @@
 class BlockchainAccount {
   // ...
   public double balance() {
-    string address;    
+    String address;    
     // Very long untestable method
   }
 }

@@ -1,5 +1,5 @@
 # Refactoring 010 - Extract Method Object
-            
+
 ![Refactoring 010 - Extract Method Object](Refactoring%20010%20-%20Extract%20Method%20Object.jpg)
 
 *You have a big algorithmic method. Let's break it.*
@@ -30,29 +30,38 @@
 
 # Context 💬
 
-Sometimes, a method is so complex that Extract Method isn't enough. 
+Sometimes, a method is so complex that Extract Method isn't enough.
 
-When you try to break a long algorithm apart, you often find yourself passing a dozen local variables as parameters between the new sub-methods. 
+When you break a long algorithm, you end up with too many local variables.
 
-This "parameter pollution" is a sign that the algorithm itself wants to be its own entity.
+You pass them as parameters between every new sub-method.
 
-When you extract the method into a Method Object, you turn temporary local variables into private attributes of a new class. 
+This "parameter pollution" signals the algorithm wants its own identity.
 
-This provides a sandbox where you can iteratively decompose the algorithm into tiny, cohesive steps without cluttering the original host class. 
+When you extract the method into a Method Object, you create a new class.
 
-You transform a rigid procedure into a testable, reusable component that can eventually evolve into a full-fledged Strategy pattern.
+Local variables become private attributes of that class.
+
+This creates a sandbox for decomposing the algorithm into tiny, cohesive steps.
+
+The original host class stays clean and uncluttered.
+
+You transform a rigid procedure into a testable, reusable component.
+
+It can eventually evolve into a full [Strategy pattern](https://en.wikipedia.org/wiki/Strategy_pattern).
 
 # Steps 👣 
 
-1. Create an object to represent an invocation of the method
+1. Create an object to represent an invocation of the method.
 
-2. Move the big method to the new object
+2. Move the big method to the new object.
 
 3. Convert the temporary variables of the method into private attributes.
 
-4. Break the big method in the new object by using [Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
+4. Break the big method in the new object by using
+[Extract Method](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20002%20-%20Extract%20Method/readme.md)
 
-5. Remove parameters from method invocation by also converting them to private attributes 
+5. Remove parameters from method invocation. Convert them to private attributes.
 
 # Sample Code 💻
 
@@ -64,7 +73,7 @@ You transform a rigid procedure into a testable, reusable component that can eve
 class BlockchainAccount {
   // ...
   public double balance() {
-    string address;    
+    String address;    
     // Very long untestable method
   }
 }
@@ -86,13 +95,13 @@ class BlockchainAccount {
 // 2. Move the big method to the new object
 // 3. Convert the temporary variables 
 //   of the method into private attributes
-// 4. Break the big method in the new object b
-//   y using The Extract Method
+// 4. Break the big method in the new object
+//   by using The Extract Method
 // 5. Remove parameters from method invocation 
 // by also converting them to private attributes 
 
 class BalanceCalculator {
-  private string address;
+  private String address;
   private BlockchainAccount account;
   
   public BalanceCalculator(BlockchainAccount account) {
@@ -115,19 +124,35 @@ Some IDEs have tools to extract a function into a method object.
 
 # Safety 🛡️
 
-This is a syntactic and structural refactoring. 
+This is a syntactic and structural refactoring.
 
-We can make the changes automatically in a safe way.
+You can make these changes safely with IDE tools.
 
 # Why is the Code Better? ✨
 
-We extract the logic into a new component.
+You extract the logic into a new, testable component.
 
-We can unit-test it, reuse it, exchange it, etc.
+You can unit-test it or swap it for a different strategy.
+
+# How Does it Improve the Bijection? 🗺️
+
+A long method hides several real-world concepts inside one opaque procedure.
+
+When you extract it into a dedicated object, each step gets its own name.
+
+Code should map to the real world, as described in the [Bijection](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/The%20One%20and%20Only%20Software%20Design%20Principle/readme.md).
+
+Every concept in the domain needs a counterpart in the code.
+
+That's the core idea of the [MAPPER](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Theory/What%20is%20(wrong%20with)%20software/readme.md).
+
+The algorithm's partial state becomes attributes, and its steps become methods.
+
+The object's name describes what it computes.
 
 # Tags 🏷️
 
-- Complexity 
+- Complexity
 
 # Level 🔋
 
@@ -139,15 +164,36 @@ We can unit-test it, reuse it, exchange it, etc.
 
 [Refactoring 037 - Testing Private Methods](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Refactorings/Refactoring%20037%20-%20Testing%20Private%20Methods/readme.md)
 
+# Refactor with AI 🤖
+
+> Suggested Prompt: 1. Create an object to represent an invocation of the method.2. Move the big method to the new object.3. Convert the temporary variables of the method into private attributes.4. Break the big method in the new object by using Extract Method.5. Remove parameters from method invocation by also converting them to private attributes.
+
+| Without Proper Instructions    | With Specific Instructions |
+| -------- | ------- |
+| [ChatGPT](https://chat.openai.com/?q=Correct+and+explain+this+code%3A+%60%60%60java%0D%0Aclass+BlockchainAccount+%7B%0D%0A++%2F%2F+...%0D%0A++public+double+balance%28%29+%7B%0D%0A++++String+address%3B++++%0D%0A++++%2F%2F+Very+long+untestable+method%0D%0A++%7D%0D%0A%7D%0D%0A%60%60%60) | [ChatGPT](https://chat.openai.com/?q=1.+Create+an+object+to+represent+an+invocation+of+the+method.2.+Move+the+big+method+to+the+new+object.3.+Convert+the+temporary+variables+of+the+method+into+private+attributes.4.+Break+the+big+method+in+the+new+object+by+using+Extract+Method.5.+Remove+parameters+from+method+invocation+by+also+converting+them+to+private+attributes.%3A+%60%60%60java%0D%0Aclass+BlockchainAccount+%7B%0D%0A++%2F%2F+...%0D%0A++public+double+balance%28%29+%7B%0D%0A++++String+address%3B++++%0D%0A++++%2F%2F+Very+long+untestable+method%0D%0A++%7D%0D%0A%7D%0D%0A%60%60%60) |
+| [Claude](https://claude.ai/new?q=Correct+and+explain+this+code%3A+%60%60%60java%0D%0Aclass+BlockchainAccount+%7B%0D%0A++%2F%2F+...%0D%0A++public+double+balance%28%29+%7B%0D%0A++++String+address%3B++++%0D%0A++++%2F%2F+Very+long+untestable+method%0D%0A++%7D%0D%0A%7D%0D%0A%60%60%60) | [Claude](https://claude.ai/new?q=1.+Create+an+object+to+represent+an+invocation+of+the+method.2.+Move+the+big+method+to+the+new+object.3.+Convert+the+temporary+variables+of+the+method+into+private+attributes.4.+Break+the+big+method+in+the+new+object+by+using+Extract+Method.5.+Remove+parameters+from+method+invocation+by+also+converting+them+to+private+attributes.%3A+%60%60%60java%0D%0Aclass+BlockchainAccount+%7B%0D%0A++%2F%2F+...%0D%0A++public+double+balance%28%29+%7B%0D%0A++++String+address%3B++++%0D%0A++++%2F%2F+Very+long+untestable+method%0D%0A++%7D%0D%0A%7D%0D%0A%60%60%60) |
+| [Perplexity](https://www.perplexity.ai/?q=Correct+and+explain+this+code%3A+%60%60%60java%0D%0Aclass+BlockchainAccount+%7B%0D%0A++%2F%2F+...%0D%0A++public+double+balance%28%29+%7B%0D%0A++++String+address%3B++++%0D%0A++++%2F%2F+Very+long+untestable+method%0D%0A++%7D%0D%0A%7D%0D%0A%60%60%60) | [Perplexity](https://www.perplexity.ai/?q=1.+Create+an+object+to+represent+an+invocation+of+the+method.2.+Move+the+big+method+to+the+new+object.3.+Convert+the+temporary+variables+of+the+method+into+private+attributes.4.+Break+the+big+method+in+the+new+object+by+using+Extract+Method.5.+Remove+parameters+from+method+invocation+by+also+converting+them+to+private+attributes.%3A+%60%60%60java%0D%0Aclass+BlockchainAccount+%7B%0D%0A++%2F%2F+...%0D%0A++public+double+balance%28%29+%7B%0D%0A++++String+address%3B++++%0D%0A++++%2F%2F+Very+long+untestable+method%0D%0A++%7D%0D%0A%7D%0D%0A%60%60%60) |
+| [Copilot](https://www.bing.com/chat?showconv=1&sendquery=1&q=Correct+and+explain+this+code%3A+%60%60%60java%0D%0Aclass+BlockchainAccount+%7B%0D%0A++%2F%2F+...%0D%0A++public+double+balance%28%29+%7B%0D%0A++++String+address%3B++++%0D%0A++++%2F%2F+Very+long+untestable+method%0D%0A++%7D%0D%0A%7D%0D%0A%60%60%60) | [Copilot](https://www.bing.com/chat?showconv=1&sendquery=1&q=1.+Create+an+object+to+represent+an+invocation+of+the+method.2.+Move+the+big+method+to+the+new+object.3.+Convert+the+temporary+variables+of+the+method+into+private+attributes.4.+Break+the+big+method+in+the+new+object+by+using+Extract+Method.5.+Remove+parameters+from+method+invocation+by+also+converting+them+to+private+attributes.%3A+%60%60%60java%0D%0Aclass+BlockchainAccount+%7B%0D%0A++%2F%2F+...%0D%0A++public+double+balance%28%29+%7B%0D%0A++++String+address%3B++++%0D%0A++++%2F%2F+Very+long+untestable+method%0D%0A++%7D%0D%0A%7D%0D%0A%60%60%60) |
+| [You](https://you.com/search?q=Correct+and+explain+this+code%3A+%60%60%60java%0D%0Aclass+BlockchainAccount+%7B%0D%0A++%2F%2F+...%0D%0A++public+double+balance%28%29+%7B%0D%0A++++String+address%3B++++%0D%0A++++%2F%2F+Very+long+untestable+method%0D%0A++%7D%0D%0A%7D%0D%0A%60%60%60) | [You](https://you.com/search?q=1.+Create+an+object+to+represent+an+invocation+of+the+method.2.+Move+the+big+method+to+the+new+object.3.+Convert+the+temporary+variables+of+the+method+into+private+attributes.4.+Break+the+big+method+in+the+new+object+by+using+Extract+Method.5.+Remove+parameters+from+method+invocation+by+also+converting+them+to+private+attributes.%3A+%60%60%60java%0D%0Aclass+BlockchainAccount+%7B%0D%0A++%2F%2F+...%0D%0A++public+double+balance%28%29+%7B%0D%0A++++String+address%3B++++%0D%0A++++%2F%2F+Very+long+untestable+method%0D%0A++%7D%0D%0A%7D%0D%0A%60%60%60) |
+| [Gemini](https://gemini.google.com/) | [Gemini](https://gemini.google.com/) | 
+| [DeepSeek](https://chat.deepseek.com/) | [DeepSeek](https://chat.deepseek.com/) | 
+| [Meta AI](https://www.meta.ai/chat) | [Meta AI](https://www.meta.ai/) | 
+| [Grok](https://grok.com/) | [Grok](https://grok.com/) | 
+| [Qwen](https://chat.qwen.ai/) | [Qwen](https://chat.qwen.ai/) | 
+
 # Conclusion 🏁
 
-The Method-Object is suitable when we are using several extract methods passing partial state among them as parts of an algorithm.
+The Method-Object suits cases where you use several extract methods.
 
-We store these partial computations in the method-object internal state.
+These methods pass partial state among them as algorithm steps.
 
-A strong indicator of method object opportunity is when computations are not cohesively related to the host method.
+The method object stores these partial computations in its internal state.
 
-We can also reify [anonymous functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2021%20-%20Anonymous%20Functions%20Abusers/readme.md) with more atomic, cohesive, and testable method objects.
+A clear sign is when computations don't relate cohesively to the host method.
+
+You can also apply this technique to [anonymous functions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2021%20-%20Anonymous%20Functions%20Abusers/readme.md).
+
+The result is an atomic, testable method object.
 
 # See also 📚
 
@@ -161,7 +207,7 @@ We can also reify [anonymous functions](https://github.com/mcsee/Software-Design
 
 # Credits 🙏
 
-Image by [Manuel de la Fuente](https://pixabay.com/users/mfuente-1590732/) on [Pixabay](https://pixabay.com/)
+Image by [Manuel de la Fuente](https://pixabay.com/users/mfuente-1590732/) from [Pixabay](https://pixabay.com/)
 
 * * * 
 
