@@ -798,6 +798,8 @@ In this repository, you will find many articles related to Software Design
 
 * [I Want to Build a Learning Companion for New Developers Using AI](/Articles/Artificial%20Intelligence/I%20Want%20to%20Build%20a%20Learning%20Companion%20for%20New%20Developers%20Using%20AI/readme.md)
 
+* [The Dirty Secret Behind Loop Engineering](/Articles/Artificial%20Intelligence/91%20-%20The%20Dirty%20Secret%20Behind%20Loop%20Engineering/readme.md)
+
 * [The Great Programmer Purge: How AI Is Taking Over the Tech Workforce](/Articles/Artificial%20Intelligence/The%20Great%20Programmer%20Purge%20How%20AI%20Is%20Taking%20Over%20the%20Tech%20Workforce/readme.md)
 
 * [Why GitHub Copilot is not a Threat to your Job](/Articles/Artificial%20Intelligence/Why%20GitHub%20Copilot%20is%20not%20a%20Threat%20to%20your%20Job/readme.md)
@@ -1037,4 +1039,6 @@ In this repository, you will find many articles related to Software Design
 * [AI Coding Tip 024 - Force a Criteria Check Before the Task Ends](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20024%20-%20Force%20a%20Criteria%20Check%20Before%20the%20Task%20Ends/readme.md)
 
 * [AI Coding Tip 025 - Pair Every Skill With a Pitfalls File](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20025%20-%20Pair%20Every%20Skill%20With%20a%20Pitfalls%20File/readme.md)
+
+* [AI Coding Tip 026 - Assign a Persona to Every Skill Definition](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20026%20-%20Assign%20a%20Persona%20to%20Every%20Skill%20Definition/readme.md)
 
