@@ -1042,3 +1042,5 @@ In this repository, you will find many articles related to Software Design
 
 * [AI Coding Tip 026 - Assign a Persona to Every Skill Definition](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20026%20-%20Assign%20a%20Persona%20to%20Every%20Skill%20Definition/readme.md)
 
+* [AI Coding Tip 027 - Force Code Standards](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20027%20-%20Force%20Code%20Standards/readme.md)
+

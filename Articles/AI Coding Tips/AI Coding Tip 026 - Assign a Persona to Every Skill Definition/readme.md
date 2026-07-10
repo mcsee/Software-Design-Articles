@@ -17,25 +17,37 @@ You get responses that feel generic, lack authority, or shift in perspective acr
 # Problems Addressed 😔
 
 - The AI picks a random voice, so outputs vary unpredictably between sessions.
+
 - You can't audit the skill because you don't know whose judgment it applies.
+
 - The AI mixes tones and expertise levels inside a single execution.
+
 - Skill chaining breaks because each skill assumes a different implicit persona.
+
 - You lose accountability: nobody knows who [signed off on the output](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20006%20-%20Review%20Every%20Line%20Before%20Commit/readme.md).
 
 # How to Do It 🛠️
 
 1. Open your skill file and add a role declaration as the very first instruction.
+
 2. Write "You are a [role] with expertise in [domain]" before any other rule.
+
 3. Add one or two sentences describing the role's constraints and responsibilities.
+
 4. Keep the persona consistent through every instruction that follows in the file.
+
 5. When you [chain skills](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20004%20-%20Use%20Modular%20Skills/readme.md), verify each one declares its own persona explicitly.
 
 # Benefits 🎯
 
 1. **Consistent voice:** The AI executes from the same expertise level every run, so output is predictable.
+
 2. **Auditable output:** You know whose perspective generated the result, which makes [reviews faster](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20006%20-%20Review%20Every%20Line%20Before%20Commit/readme.md).
+
 3. **Better calibration:** An AI that knows it's a senior reviewer asks harder questions than one without a role.
+
 4. **Safe chaining:** When you chain skills, each one speaks from a declared identity instead of guessing.
+
 5. **Faster debugging:** When a skill gives a wrong answer, you know whose lens to question.
 
 # Context 🧠
@@ -58,7 +70,7 @@ You can also [pair every skill with a pitfalls file](https://github.com/mcsee/So
 
 ## Prompt Reference 📝
 
-### Bad Prompt 🚫
+## Bad Prompt 🚫
 
 <!-- [Gist Url](https://gist.github.com/mcsee/f968c46b1599000c4d73fa10cf79fab8) -->
 
@@ -85,7 +97,7 @@ Flag any readings that deviate from baseline.
 Report findings with confidence levels.
 ```
 
-### Good Prompt 👉
+## Good Prompt 👉
 
 <!-- [Gist Url](https://gist.github.com/mcsee/81b0576b292de5f7d574fa563c157487) -->
 
@@ -94,11 +106,9 @@ Report findings with confidence levels.
 name: technosignature-analyzer
 version: 1.0.0
 description: |
-      Detects technosignatures in telescope data and classifies
-      
-      each candidate signal with a confidence percentage.
-      
-      Rejects signals explained by known natural phenomena.
+    Detects technosignatures in telescope data and classifies
+    each candidate signal with a confidence percentage.
+    Rejects signals explained by known natural phenomena.
 
 allowed-tools:
 - ReadTelescope
@@ -111,23 +121,21 @@ You are a senior astrophysicist with 20 years of SETI experience.
 
 You worked at the Allen Telescope Array and the Parkes Observatory.
 
-You hold a PhD in Radio Astronomy with 40+ peer-reviewed publications.
+You hold a PhD in Radio Astronomy with 40+ publications.
 
-You distinguish RFI, natural astrophysical signals,
+You distinguish RFI from natural astrophysical signals.
 
-and artificial sources.
+You separately flag artificial sources.
 
-You apply the scientific method: form a hypothesis, 
+You apply the scientific method.
 
-test it, document it.
+Form a hypothesis, test it, and document it.
 
 You apply Six Sigma rigor to rule out false positives.
 
 You don't report candidates below a 5-sigma confidence threshold.
 
-You always cross-check 
-
-three independent baselines before escalating.
+You always cross-check three independent baselines before escalating.
 
 Identify narrowband signals inconsistent with natural sources.
 
