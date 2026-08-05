@@ -56,11 +56,12 @@ fun main() {
     // Rio de Janeiro coordinates
 
     for (person in people) {
-        person.location.ifKnownOrElse(
-            { location -> println(person.name" is " +
-                person.location.calculateDistance(rio) +
-                    " kilometers { println("${person.name} " 
-                        + "is at an unknown location.") }
-       )
-    }
+          person.location.ifKnownOrElse(
+              { location -> println("${person.name} is " +
+                  "${location.calculateDistance(rio)} kilometers " +
+                  "from Rio.") },
+              { println("${person.name} is at an unknown " +
+                  "location.") }
+          )
+      }
 }

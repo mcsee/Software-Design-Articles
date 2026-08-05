@@ -197,9 +197,13 @@ Start with one prompt today.
 
 The views expressed here are my own.
 
-I am a human who writes as best as possible for other humans. 
+I am a human who writes as best as possible for other humans.
 
 I use AI proofreading tools to improve some texts.
+
+Most AI detectors will flag this article as AI-generated. That's expected. It's a technical article. It has a rigid format and clear steps to follow. 
+
+That's exactly the pattern those tools are trained to catch. I've apparently been "writing like an AI" for decades, long before AI existed. This is a technical article, not a novel.
 
 I welcome constructive criticism and dialogue.
 

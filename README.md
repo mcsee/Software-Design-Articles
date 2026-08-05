@@ -1044,3 +1044,9 @@ In this repository, you will find many articles related to Software Design
 
 * [AI Coding Tip 027 - Force Code Standards](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20027%20-%20Force%20Code%20Standards/readme.md)
 
+* [AI Coding Tip 028 - Build a Company Brain](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20028%20-%20Build%20a%20Company%20Brain/readme.md)
+
+* [AI Coding Tip 029 - Stop Using One Model for Everything](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20029%20-%20Stop%20Using%20One%20Model%20for%20Everything/readme.md)
+
+* [AI Coding Tip 030 - Script Your Skills, Not Your Prompts](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20030%20-%20Script%20Your%20Skills%2C%20Not%20Your%20Prompts/readme.md)
+
