@@ -1050,3 +1050,5 @@ In this repository, you will find many articles related to Software Design
 
 * [AI Coding Tip 030 - Script Your Skills, Not Your Prompts](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20030%20-%20Script%20Your%20Skills%2C%20Not%20Your%20Prompts/readme.md)
 
+* [AI Coding Tip 031 - Stop Over-Prompting Reasoning Models](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20031%20-%20Stop%20Over-Prompting%20Reasoning%20Models/readme.md)
+

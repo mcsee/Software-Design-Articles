@@ -68,4 +68,6 @@ In this series, you'll learn practical state-of-the-art advices to use AI to cod
 
 [AI Coding Tip 030 - Script Your Skills, Not Your Prompts](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20030%20-%20Script%20Your%20Skills,%20Not%20Your%20Prompts/readme.md)
 
+[AI Coding Tip 031 - Stop Over-Prompting Reasoning Models](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20031%20-%20Stop%20Over-Prompting%20Reasoning%20Models/readme.md)
+
 ... more coming soon!
