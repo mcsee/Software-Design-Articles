@@ -718,6 +718,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Code Smell 320 - Vanity Coverage](/Articles/Code%20Smells/Code%20Smell%20320%20-%20Vanity%20Coverage/readme.md)
 
+* [Code Smell 321 - Getter Piggybacking](/Articles/Code%20Smells/Code%20Smell%20321%20-%20Getter%20Piggybacking/readme.md)
+
 ### Blogging
 
 * [Content Structure: The Do's and Dont's of Content Creation](/Articles/Blogging/68%20-%20Content%20Structure%20The%20Do%27s%20and%20Dont%27s%20of%20Content%20Creation/readme.md)
@@ -1051,4 +1053,6 @@ In this repository, you will find many articles related to Software Design
 * [AI Coding Tip 030 - Script Your Skills, Not Your Prompts](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20030%20-%20Script%20Your%20Skills%2C%20Not%20Your%20Prompts/readme.md)
 
 * [AI Coding Tip 031 - Stop Over-Prompting Reasoning Models](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20031%20-%20Stop%20Over-Prompting%20Reasoning%20Models/readme.md)
+
+* [AI Coding Tip 032 - Build a Dark Factory Pipeline](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20032%20-%20Build%20a%20Dark%20Factory%20Pipeline/readme.md)
 

@@ -650,6 +650,10 @@ Most of these smells are just *hints* of something that might be wrong. They are
 
 [Code Smell 319 - Hardcoded Stateless Properties](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20319%20-%20Hardcoded%20Stateless%20Properties/readme.md)
 
+[Code Smell 320 - Vanity Coverage](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20320%20-%20Vanity%20Coverage/readme.md)
+
+[Code Smell 321 - Getter Piggybacking](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%20321%20-%20Getter%20Piggybacking/readme.md)
+
 ... and many more to come.
 
 * * *
