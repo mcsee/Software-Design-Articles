@@ -161,7 +161,11 @@ If two call sites read the same getter and each writes its own comparison agains
 
 The smell appears when you reuse that same getter as a shortcut for business logic instead of adding the method the logic actually belongs to.
 
-Don't point to [DTOs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2040%20-%20DTOs/readme.md) as a counterexample. A DTO doesn't excuse this. It just breaks encapsulation on purpose and gives the practice a name.
+Don't point to [DTOs](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/Code%20Smells/Code%20Smell%2040%20-%20DTOs/readme.md) as a counterexample.
+
+A DTO doesn't excuse this.
+
+It just breaks encapsulation on purpose and gives the practice a name.
 
 # Tags 🏷️
 

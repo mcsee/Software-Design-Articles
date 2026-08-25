@@ -1053,6 +1053,8 @@ In this repository, you will find many articles related to Software Design
 * [AI Coding Tip 030 - Script Your Skills, Not Your Prompts](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20030%20-%20Script%20Your%20Skills%2C%20Not%20Your%20Prompts/readme.md)
 
 * [AI Coding Tip 031 - Stop Over-Prompting Reasoning Models](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20031%20-%20Stop%20Over-Prompting%20Reasoning%20Models/readme.md)
- 
+
 * [AI Coding Tip 032 - Build a Dark Factory Pipeline](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20032%20-%20Build%20a%20Dark%20Factory%20Pipeline/readme.md)
+
+* [AI Coding Tip 033 - Protect Yourself Against AI Cheating](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20033%20-%20Protect%20Yourself%20Against%20AI%20Cheating/readme.md)
 

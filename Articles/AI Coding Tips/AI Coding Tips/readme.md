@@ -72,4 +72,6 @@ In this series, you'll learn practical state-of-the-art advices to use AI to cod
 
 [AI Coding Tip 032 - Build a Dark Factory Pipeline](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20032%20-%20Build%20a%20Dark%20Factory%20Pipeline/readme.md)
 
+[AI Coding Tip 033 - Protect Yourself Against AI Cheating](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20033%20-%20Protect%20Yourself%20Against%20AI%20Cheating/readme.md)
+
 ... more coming soon!
