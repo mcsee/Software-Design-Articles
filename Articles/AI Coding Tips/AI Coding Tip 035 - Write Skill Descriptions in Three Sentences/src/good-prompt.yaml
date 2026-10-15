@@ -1,0 +1,8 @@
+---
+name: pdf-toolkit
+description: >
+  Read this when a task touches an existing PDF file on disk.
+  Use it to merge, split, watermark, or extract PDF content.
+  It saves you from hand-rolling a PDF library call each time.
+  It wraps the library behind one consistent interface.
+---

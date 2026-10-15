@@ -770,6 +770,8 @@ In this repository, you will find many articles related to Software Design
 
 * [Conviertete en un Centauro del Codigo Limpio](/Articles/Nerdearla/2024%20-%20Convi%C3%A9rtete%20en%20un%20Centauro%20del%20C%C3%B3digo%20Limpio/readme.md)
 
+* [El Manager que no Usa IA ya Perdió](/Articles/Nerdearla/2026%20-%20El%20Manager%20que%20no%20Usa%20IA%20ya%20Perdi%C3%B3/readme.md)
+
 * [Programando un Wordle con TDD e Inteligencia Artificial](/Articles/Nerdearla/2022%20-%20Programando%20un%20Wordle%20con%20TDD%20e%20Inteligencia%20Artificial/readme.md)
 
 * [Test Driven Development en Sistemas Heredados](/Articles/Nerdearla/2021%20-%20Test%20Driven%20Development%20en%20Sistemas%20Heredados/readme.md)
@@ -1057,4 +1059,18 @@ In this repository, you will find many articles related to Software Design
 * [AI Coding Tip 032 - Build a Dark Factory Pipeline](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20032%20-%20Build%20a%20Dark%20Factory%20Pipeline/readme.md)
 
 * [AI Coding Tip 033 - Protect Yourself Against AI Cheating](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20033%20-%20Protect%20Yourself%20Against%20AI%20Cheating/readme.md)
+
+* [AI Coding Tip 034 - Stop Hoarding Rules in Your AGENTS.md](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20034%20-%20Stop%20Hoarding%20Rules%20in%20Your%20AGENTS.md/readme.md)
+
+* [AI Coding Tip 035 - Write Skill Descriptions in Three Sentences](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20035%20-%20Write%20Skill%20Descriptions%20in%20Three%20Sentences/readme.md)
+
+* [AI Coding Tip 036 - Grant AI the Least Privilege Possible](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20036%20-%20Grant%20AI%20the%20Least%20Privilege%20Possible/readme.md)
+
+* [AI Coding Tip 037 - Stop Patching Blind](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20037%20-%20Stop%20Patching%20Blind/readme.md)
+
+* [AI Coding Tip 038 - Make the AI Ask Before It Builds](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20038%20-%20Make%20the%20AI%20Ask%20Before%20It%20Builds/readme.md)
+
+* [AI Coding Tip 039 - Give the AI a Zeroth Law](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20039%20-%20Give%20the%20AI%20a%20Zeroth%20Law/readme.md)
+
+* [AI Coding Tip 040 - Make the AI Audit Your Own Contradictions](/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20040%20-%20Make%20the%20AI%20Audit%20Your%20Own%20Contradictions/readme.md)
 

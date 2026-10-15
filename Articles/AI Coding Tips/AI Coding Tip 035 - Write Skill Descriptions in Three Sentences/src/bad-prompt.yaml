@@ -1,0 +1,12 @@
+---
+name: pdf-toolkit
+description: >
+  This skill handles PDF work.
+  It generates new PDF files from templates.
+  It merges multiple PDFs into one document.
+  It adds text or image watermarks to any page.
+  It extracts text or images from existing files.
+  It converts pages to PNG or JPEG.
+  It splits a file by page range.
+  It rebuilds a file's bookmark structure after edits.
+---

@@ -74,4 +74,18 @@ In this series, you'll learn practical state-of-the-art advices to use AI to cod
 
 [AI Coding Tip 033 - Protect Yourself Against AI Cheating](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20033%20-%20Protect%20Yourself%20Against%20AI%20Cheating/readme.md)
 
+[AI Coding Tip 034 - Stop Hoarding Rules in Your AGENTS.md](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20034%20-%20Stop%20Hoarding%20Rules%20in%20Your%20AGENTS.md/readme.md)
+
+[AI Coding Tip 035 - Write Skill Descriptions in Three Sentences](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20035%20-%20Write%20Skill%20Descriptions%20in%20Three%20Sentences/readme.md)
+
+[AI Coding Tip 036 - Grant AI the Least Privilege Possible](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20036%20-%20Grant%20AI%20the%20Least%20Privilege%20Possible/readme.md)
+
+[AI Coding Tip 037 - Stop Patching Blind](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20037%20-%20Stop%20Patching%20Blind/readme.md)
+
+[AI Coding Tip 038 - Make the AI Ask Before It Builds](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20038%20-%20Make%20the%20AI%20Ask%20Before%20It%20Builds/readme.md)
+
+[AI Coding Tip 039 - Give the AI a Zeroth Law](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20039%20-%20Give%20the%20AI%20a%20Zeroth%20Law/readme.md)
+
+[AI Coding Tip 040 - Make the AI Audit Your Own Contradictions](https://github.com/mcsee/Software-Design-Articles/tree/main/Articles/AI%20Coding%20Tips/AI%20Coding%20Tip%20040%20-%20Make%20the%20AI%20Audit%20Your%20Own%20Contradictions/readme.md)
+
 ... more coming soon!

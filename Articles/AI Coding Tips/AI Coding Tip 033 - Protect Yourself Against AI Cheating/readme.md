@@ -1,6 +1,6 @@
 # AI Coding Tip 033 - Protect Yourself Against AI Cheating
 
-![AI Coding Tip 033 - Protect Yourself Against AI Cheating](AI Coding Tip 033 - Protect Yourself Against AI Cheating.png)
+![AI Coding Tip 033 - Protect Yourself Against AI Cheating](AI%20Coding%20Tip%20033%20-%20Protect%20Yourself%20Against%20AI%20Cheating.png)
 
 *When `all tests pass` doesn't mean what you think it means.*
 

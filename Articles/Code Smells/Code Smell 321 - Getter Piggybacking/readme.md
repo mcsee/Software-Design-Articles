@@ -1,6 +1,6 @@
 # Code Smell 321 - Getter Piggybacking
 
-![Code Smell 321 - Getter Piggybacking](nathalia-rosa-rWMIbqmOxrY-unsplash.jpg)
+![Code Smell 321 - Getter Piggybacking](Code%20Smell%20321%20-%20Getter%20Piggybacking.jpg)
 
 *One broken window invites another*
 
